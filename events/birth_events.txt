@@ -4,7 +4,18 @@
 #
 #############################################
 # by Henrik Fåhraeus
+
+
+
+
 #############################################
+#
+# @modified_by Pietrko
+# @version 0.1.1
+# @modified_on 0.1.2
+# @compatibility 2.1.6
+# @localisation vanilla_mod_events.txt
+# @wip
 
 #############################################
 # EVENTS LEADING UP TO BASTARD PREGNANCY
@@ -958,6 +969,8 @@ character_event = {
 # EVENTS ON THE BIRTH OF A BASTARD CHILD
 #############################################
 
+#@modified_on 1.1.0
+
 # On-action event: A child is born out of wedlock
 character_event = {
     id = 300
@@ -989,6 +1002,10 @@ character_event = {
     
     option = {
         name = EVTOPTA301 # Legitimize the child
+        trigger = {
+            NOT = { culture_group = kurgan_group }
+            NOT = { culture_group = hung_group }
+        }
         FROM = {
             character_event = { id = 302 tooltip = EVTTOOLTIP302 } # The child gets the father's dynasty
             mother = {
@@ -1017,6 +1034,11 @@ character_event = {
     
     option = {
         name = EVTOPTB301 # Acknowledge the child
+        # Kurgans and Hung don't care about being bastard
+        trigger = {
+            NOT = { culture_group = kurgan_group }
+            NOT = { culture_group = hung_group }
+        }
         FROM = {
             character_event = { id = 306 tooltip = EVTTOOLTIP306 } # The child gets the father's dynasty, but is not legitimized.
             mother = {
@@ -1033,21 +1055,13 @@ character_event = {
     
     option = {
         name = EVTOPTC301 # Denounce the child
-        
+        # Kurgans and Hung don't care about being bastard
+        trigger = {
+            NOT = { culture_group = kurgan_group }
+            NOT = { culture_group = hung_group }
+        }
         FROM = {
             character_event = { id = 309 tooltip = EVTTOOLTIP309 } #  The child founds a new bastard dynasty
-            if = {
-                limit = { trait = born_in_the_purple }
-                remove_trait = born_in_the_purple
-            }
-            if = {
-                limit = { trait = saoshyant_descendant }
-                remove_trait = saoshyant_descendant
-            }
-            if = {
-                limit = { trait = sayyid }
-                remove_trait = sayyid
-            }
             mother = {
                 character_event = { id = 310 tooltip = EVTTOOLTIP310 } # The child's mother is dishonoured
                 spouse = {
@@ -1059,6 +1073,34 @@ character_event = {
             }
         }
     }
+    # Hah I have big balls and produce a lot of children!
+    option = {
+        name = EVTOPTD301 # Accept the child into tribe with slight prestige penalty 
+        # Kurgans and Hung don't care about being bastard
+        trigger = {
+            OR = { 
+                culture_group = kurgan_group 
+                culture_group = hung_group 
+            }
+        }
+        FROM = {
+            # The child gets the father's dynasty
+            character_event = { id = 302 tooltip = EVTTOOLTIP302 } 
+            mother = {
+                # The child's mother is very pleased
+                character_event = { id = 307 tooltip = EVTTOOLTIP303 } 
+                spouse = {
+                    # The child's mother's husband is pissed off
+                    character_event = { id = 304 tooltip = EVTTOOLTIP304 } 
+                }        
+                consort = {
+                    # The child's mother's lord is pissed off
+                    character_event = { id = 304 tooltip = EVTTOOLTIP304 } 
+                }            
+            }
+        }
+    }
+
 }
 
 # The child gets the father's dynasty
@@ -1070,17 +1112,41 @@ character_event = {
     picture = GFX_evt_birth
 
     option = {
+       trigger = {
+            NOT = { culture_group = kurgan_group }
+            NOT = { culture_group = hung_group }
+        }
         name = OK
         dynasty = FROM
         remove_trait = bastard
         add_trait = legit_bastard
-        
         father = {
             spouse = {
                 character_event = { id = 305 tooltip = EVTTOOLTIP305 } # The father's wife is enraged
             }
         }
     }
+    # Kurgans/Hung have loose concept of marriage and hereditary laws so no bastards for them
+    option = {
+        trigger = {
+            OR = { 
+                culture_group = kurgan_group 
+                culture_group = hung_group 
+            }
+        }
+        name = OK
+        dynasty = FROM
+        prestige = -20
+        hidden_tooltip = {
+            remove_trait = bastard
+        }
+        father = {
+            spouse = {
+                character_event = { id = 305 tooltip = EVTTOOLTIP305 } # The father's wife is enraged
+            }
+        }
+    }
+
 }
 
 # The child's mother is very pleased

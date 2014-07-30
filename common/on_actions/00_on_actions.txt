@@ -842,20 +842,18 @@ on_birth = {
 		300 # A Bastard is born
 		312 # The child of a consort is born		
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
-		TOG.3206 # Child Perceived to be Demon Born
-		706 # Full House achievement
-		707 # Keeping it in the Family achievement
+		#TOG.3206 # Child Perceived to be Demon Born
 	}
 	random_events = {
 		200 = 0
-		1 = RoI.10000 # Reincarnation?
+		#1 = RoI.10000 # Reincarnation?
 	}
 }
 
 # character
 on_adulthood = {
 	events = {
-		SoA.3020 # Demon child's true nature asserts itself
+		#SoA.3020 # Demon child's true nature asserts itself
 	}
 }
 
@@ -897,7 +895,6 @@ on_crusade_creation = {
 on_marriage = {
 	events = {
  		500 # Royal Marriage Aid Duty
-		708 # Marriage Game achievement
  	}
 }
 

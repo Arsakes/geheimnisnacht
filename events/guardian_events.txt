@@ -10,8 +10,15 @@
 # Written by Sara Wendel-Örtqvist & Henrik Fåhraeus
 # heavily revised by Johan Andersson.
 #
-# Modifed for Warhammer Geheimnisnacht by Arsakes
-# Events fit human races and more or less dwarves and elves
+###################################
+#
+# @modifed_by Pietrko
+# @description Fit human civilized races
+# @modified_on 0.1.1
+# @version 0.1.0
+# @compatibility 2.1.6
+#
+###################################
 
 
 #Event ID 2000-2009 is reserved for Gluttonous events#

@@ -1,5 +1,10 @@
 # DO NOT ALTER THE NAME OR NUMBER OF THESE!
 
+#
+# modifed_by Pietrko
+# modifed_on 0.1.2
+# compatibility 2.1.6
+#
 succession_laws = {
 
     succ_gavelkind = {
@@ -19,6 +24,8 @@ succession_laws = {
                     }
                 }
                 NOT = { religion_group = greenskin_gods_group }
+                NOT = { culture_group = hung_group }
+                NOT = { culture_group = kurgan_group }
                 is_merchant_republic = no
                 is_patrician = no
             }
@@ -63,6 +70,9 @@ succession_laws = {
                 }
                 
                 NOT = { religion_group = greenskin_gods_group }
+                NOT = { culture_group = hung_group }
+                NOT = { culture_group = kurgan_group }
+
                 is_merchant_republic = no
                 
                 OR = {
@@ -132,7 +142,9 @@ succession_laws = {
                     }
                 }
                 NOT = { religion_group = greenskin_gods_group }
-                
+                NOT = { culture_group = hung_group }
+                NOT = { culture_group = kurgan_group }
+
                 is_merchant_republic = no
                 is_patrician = no
             }
@@ -188,6 +200,9 @@ succession_laws = {
                     }
                 }
                 NOT = { religion_group = greenskin_gods_group }
+                NOT = { culture_group = hung_group }
+                NOT = { culture_group = kurgan_group }
+
                 is_merchant_republic = no
                 is_patrician = no
                 
@@ -222,6 +237,9 @@ succession_laws = {
         vassal_opinion = 5
         potential = {
             holder_scope = {
+                NOT = { culture_group = hung_group }
+                NOT = { culture_group = kurgan_group }
+
                 OR = {
                     independent = yes
                     NOT = {
@@ -278,7 +296,9 @@ succession_laws = {
                     }
                 }
                 NOT = { religion_group = greenskin_gods_group }
-                
+                NOT = { culture_group = kurgan_group }
+                NOT = { religion_group = greenskin_gods_group }
+
                 is_merchant_republic = no
                 is_patrician = no
             }
@@ -324,6 +344,8 @@ succession_laws = {
                 is_landless_type_title = no
                 is_tribal_type_title = yes
                 temporary = yes
+                holder_scope = { culture_group = kurgan_group }
+                holder_scope = { culture_group = hung_group }
             }
             holder_scope = {
                 OR = {
@@ -336,7 +358,7 @@ succession_laws = {
                 }
                 
                 NOT = { religion_group = greenskin_gods_group }
-                
+
                 is_republic = no
                 is_merchant_republic = no
             }
