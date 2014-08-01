@@ -34,7 +34,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 40 35 35 } { 255 255 255 }
+			{ 15 8 0 } { 60 50 50 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -78,7 +78,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 40 35 35 } { 255 255 255 }
+			{ 15 8 0 } { 60 50 50 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -122,7 +122,7 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 15 8 0 } { 40 40 40 } { 255 255 255 }
+			{ 15 8 0 } { 60 50 50 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
