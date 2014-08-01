@@ -2,7 +2,7 @@ kurgan_group = {
 	graphical_culture = muslimgfx
 
 	aghol = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.3 0.7 0.2 }
@@ -79,7 +79,7 @@ kurgan_group = {
 	}
 
 	dolgan = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.9 0.1 }
@@ -156,7 +156,7 @@ kurgan_group = {
 	}
 
 	gharhar = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.1 0.5 0.7 }
@@ -233,7 +233,7 @@ kurgan_group = {
 	}
 
 	hastling = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.1 0.7 0.1 }
@@ -310,7 +310,7 @@ kurgan_group = {
 	}
 
 	khazag = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.2 0.4 0.9 }
@@ -390,7 +390,7 @@ kurgan_group = {
 	}		
 		
 	kul = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.3 0.6 0.1 }
@@ -467,7 +467,7 @@ kurgan_group = {
 	}		
 
 	kvellig = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.6 0.8 }
@@ -544,7 +544,7 @@ kurgan_group = {
 	}		
 
 	tahmak = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.2 0.4 0.7 }
@@ -624,7 +624,7 @@ kurgan_group = {
 	}		
 
 	tokmar = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.5 0.9 0.7 }
@@ -704,7 +704,7 @@ kurgan_group = {
 	}
 
 	yusak = {
-		graphical_culture = turkishgfx
+		graphical_culture = kurgangfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.9 0.6 }
