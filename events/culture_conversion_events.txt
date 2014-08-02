@@ -161,7 +161,7 @@ province_event = {
 # Bring in some settlers
 province_event = {
     id = 55001
-    desc = "U_EVTDESC55001"
+    desc = "EVTDESC55001"
     picture = GFX_evt_stone_church
     
     only_rulers = yes
