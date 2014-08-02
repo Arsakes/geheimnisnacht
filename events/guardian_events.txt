@@ -13,7 +13,7 @@
 ###################################
 #
 # @modifed_by Pietrko
-# @description Fit human civilized races
+# @description Fits human races, not much culture-specific stuff
 # @modified_on 0.1.1
 # @version 0.1.0
 # @compatibility 2.1.6
@@ -299,7 +299,7 @@ character_event = {
         trigger = {
             NOT = { trait = cynical }
             #NOT = { religion = buddhist }
-            #NOT = { religion = jain }
+            NOT = { religion_group = chaos_gods_group }
         }
         ai_chance = {
             factor = 2
@@ -400,6 +400,11 @@ character_event = {
                 factor = 5
                 trait = envious
             }
+            modifier = {
+                factor = 5
+                religion_group = chaos_gods_group
+            }
+
         }
         
         if = {
@@ -421,7 +426,7 @@ character_event = {
                 who = ROOT
                 years = 2
             }
-        }    
+        }
     }
     
     
@@ -1338,8 +1343,7 @@ character_event = {
         name = EVTOPTC2070 # Thank God for X's virtues!
         trigger = {
             NOT = { trait = cynical }
-            #NOT = { religion = buddhist }
-            #NOT = { religion = jain }
+            NOT = { religion_group  = chaos_gods_group }
         }
         ai_chance = {
             factor = 2
@@ -1371,6 +1375,7 @@ character_event = {
     option = {
         name = EVTOPTD2070 # Discourage
         trigger = {
+
             NOT = { trait = kind }
         }
         ai_chance = {
@@ -1386,6 +1391,10 @@ character_event = {
             modifier = {
                 factor = 5
                 trait = greedy
+            }
+            modifier = {
+                factor = 5
+                religion_group = chaos_gods_group
             }
         }
         FROM = {
@@ -1550,6 +1559,7 @@ character_event = {
         name = EVTOPTD2080 # Pray for his sins
         trigger = {
             NOT = { trait = cynical }
+            NOT = { religion_group = chaos_gods_group }
         }
         ai_chance = {
             factor = 2
@@ -1884,6 +1894,7 @@ character_event = {
     option = {
         name = EVTOPTD2100 # Pray for his sinsS
         trigger = {
+            NOT = { religion_group = chaos_gods_group }
             NOT = { trait = cynical }
         }
         ai_chance = {
@@ -1961,7 +1972,7 @@ character_event = {
         trigger = {
             NOT = { trait = cynical }
             #NOT = { religion = buddhist }
-            #NOT = { religion = jain }
+            NOT = { religion_group = chaos_gods_group }
         }
         ai_chance = {
             factor = 2
@@ -2074,6 +2085,11 @@ character_event = {
                 factor = 5
                 trait = deceitful
             }
+            modifier = {
+                factor = 15
+                culture_group = hung_group
+            }
+
         }
         if = {
             limit = { trait = honest}
@@ -2193,6 +2209,7 @@ character_event = {
     option = {
         name = EVTOPTD2120 # Pray for his sins
         trigger = {
+            NOT = { religion_group = chaos_gods_group }
             NOT = { trait = cynical }
         }
         ai_chance = {
@@ -2288,89 +2305,6 @@ character_event = {
             }
         }
         
-        if = {
-            limit = {
-                trait = zealous
-            }
-            remove_trait = zealous
-            piety = -50
-        }
-        FROM = {
-            remove_trait = zealous
-            hidden_tooltip = {
-                character_event = {
-                    id = 1631
-                }
-            }
-        }
-    }
-}
-
-#Fosterling is Zealous - Muslim
-character_event = {
-    id = 2132
-    desc = EVTDESC2132
-    picture = GFX_evt_child_bully
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = EVTOPTA2130 # Encourage
-        ai_chance = { 
-            factor = 10
-            modifier = {
-                factor = 200
-                trait = zealous
-            }
-            modifier = {
-                factor = 0
-                trait = cynical
-            }
-        }
-        if = {
-            limit = {
-                trait = cynical
-            }
-            remove_trait = cynical
-        }
-        if = {
-            limit = {
-                learning = 10
-            }
-            FROM = { change_learning = 1}
-        }
-        if = {
-            limit = {
-                trait = zealous
-                learning = 10
-            }
-            FROM = { piety = 5}
-        }        
-        FROM = {
-            tooltip = {
-                add_trait = zealous
-            }
-            opinion = {
-                modifier = opinion_happy_with_guardian
-                who = ROOT
-                years = 2
-            }
-        }
-    }
-    
-    option = {
-        name = EVTOPTB2130 # Discourage
-        ai_chance = {
-            factor = 10
-            modifier = {
-                factor = 200
-                trait = cynical
-            }
-            modifier = {
-                factor = 0
-                trait = zealous
-            }
-        }
         if = {
             limit = {
                 trait = zealous
@@ -2703,6 +2637,11 @@ character_event = {
                 factor = 0
                 trait = craven
             }            
+            modifier = {
+                factor = 5
+                culture_group  = kurgan_group
+            }            
+
         }
         if = {
             limit = {
@@ -3148,6 +3087,7 @@ character_event = {
                 factor = 5
                 trait = honest
             }
+
         }
         
         random_list = {
@@ -3661,6 +3601,7 @@ character_event = {
         name = EVTOPTD2465 # Pray for his soul!
         trigger = {
             NOT = { trait = cynical }
+            NOT = { religion_group = chaos_gods_group }
         }
         ai_chance = {
             factor = 2
@@ -4370,6 +4311,11 @@ character_event = {
                 factor = 4
                 father = { trait = proud}
             }
+            modifer = {
+                factor = 4
+                father = { religion_group = chaos_gods_group }
+
+            }
         }            
         random_list = {
             40 = {    FROM = { add_trait = proud    hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
@@ -4414,7 +4360,7 @@ character_event = {
     option = {
         name = EVTOPTD38203 # Let the monks purge sin from the child
         trigger = {
-            religion_group = christian
+            religion = sigmarite
         }
         ai_chance = { 
             factor = 10
