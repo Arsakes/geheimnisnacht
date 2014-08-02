@@ -307,7 +307,7 @@ character_event = {
                                 NOT = { character = ROOT }
                                 NOT = {
                                     AND = {
-                                        religion = catholic
+                                        religion = sigmarite
                                         ROOT = { liege = { religion_head = { character = PREVPREVPREV } } }
                                     }
                                 }
@@ -321,7 +321,7 @@ character_event = {
                                     NOT = { character = ROOT }
                                     NOT = {
                                         AND = {
-                                            religion = catholic
+                                            religion = sigmarite
                                             ROOT = { liege = { religion_head = { character = PREVPREVPREV } } }
                                         }
                                     }

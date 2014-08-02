@@ -48,8 +48,9 @@ character_event = {
         has_lover = no
         is_pregnant = no
         is_consort = no
-        NOT = { trait = homosexual }
         NOT = { trait = infirm }
+        NOT = { trait = eunuch }
+        NOT = { trait = homosexual }
         NOT = { trait = incapable }
         NOT = { trait = celibate }
         liege = {
@@ -96,8 +97,8 @@ character_event = {
             }
             NOT = { trait = infirm }
             NOT = { trait = incapable }
-            NOT = { trait = celibate }
             NOT = { trait = eunuch }
+            NOT = { trait = celibate }
             NOT = { any_spouse = { character = ROOT } }
             NOT = { any_consort = { character = ROOT } }
             opinion = { who = ROOT value = 0 }
@@ -107,13 +108,7 @@ character_event = {
                 NOT = { trait = chaste }
             }
         }
-        has_lover = no
-        is_pregnant = no
-        prisoner = no
-        NOT = { trait = infirm }
-        NOT = { trait = incapable }
-        NOT = { trait = celibate }
-        NOT = { trait = eunuch }
+        
     }
 
 

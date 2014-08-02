@@ -456,40 +456,6 @@ character_event = {
     }
 }
 
-### Alexander the Great
-character_event = {
-    id = 94018
-    desc = EVTDESC94018
-    picture = GFX_evt_library
-    border = GFX_event_normal_frame_war
-    
-    capable_only = yes
-    prisoner = no
-    
-    trigger = {
-        has_ambition = obj_improve_martial
-        NOT = { has_character_flag = toy_army }
-        NOT = { has_character_flag = street_ruffians }
-        NOT = { has_character_flag = warrior_mentor }
-        capital_scope = {
-            NOT = { empire = { title = e_rajastan } }
-            NOT = { empire = { title = e_bengal } }
-            NOT = { empire = { title = e_deccan } }
-            NOT = { empire = { title = e_persia } }
-            NOT = { empire = { title = e_india } }
-        }
-    }
-    
-    mean_time_to_happen = {
-        months = 280
-    }
-    
-    option = {
-        name = EVTOPTA94018
-        change_martial = 1
-    }
-}
-
 ########################
 # Stewardship Ambition #
 ########################

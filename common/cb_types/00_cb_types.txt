@@ -7429,10 +7429,6 @@ chaos_invasion = {
            factor = 1.5
            has_landed_title = e_host_chaos 
        }
-       modifier = {
-           factor = 0.7
-           religion = dark_norse
-       }
     }
 }
 

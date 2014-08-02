@@ -94,22 +94,22 @@ decisions = {
             }
             modifier = {
                 factor = 1.5
-                any_wars = {
-                    limit = { using_cb = chaos_invasion }
+                any_war = {
+                    using_cb = chaos_invasion
                     NOT = { war_score = -10 } 
                 }
             }
             modifier = {
                 factor = 1.5
-                any_wars = {
-                    limit = { using_cb = chaos_invasion }
+                any_war = {
+                    using_cb = chaos_invasion
                     NOT = { war_score = -40 } 
                 }
             }
             modifier = {
                 factor = 0.5
-                any_wars = {
-                    limit = { using_cb = chaos_invasion }
+                any_war = {
+                    using_cb = chaos_invasion
                     war_score = 5
                 }
             }

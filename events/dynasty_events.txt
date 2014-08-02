@@ -102,27 +102,27 @@ character_event = {
         }
         modifier = {
             factor = 0.5
-            trait = has_tuberculosis
+            trait = has_rattlelung
         }
         modifier = {
             factor = 0.5
-            trait = has_typhoid_fever
+            trait = has_bone_auge
         }
         modifier = {
             factor = 0.5
-            trait = has_typhus
+            trait = has_tomb_rot
         }
         modifier = {
             factor = 0.5
-            trait = has_bubonic_plague
+            trait = has_creeping_buboes
         }
         modifier = {
             factor = 0.5
-            trait = has_measles
+            trait = has_red_pox
         }        
         modifier = {
             factor = 0.5
-            trait = has_small_pox
+            trait = has_green_pox
         }
                 
     }
@@ -396,27 +396,27 @@ character_event = {
         }
         modifier = {
             factor = 0.5
-            trait = has_tuberculosis
+            trait = has_rattlelung
         }
         modifier = {
             factor = 0.5
-            trait = has_typhoid_fever
+            trait = has_bone_auge
         }
         modifier = {
             factor = 0.5
-            trait = has_typhus
+            trait = has_tomb_rot
         }
         modifier = {
             factor = 0.5
-            trait = has_bubonic_plague
+            trait = has_creeping_buboes
         }
         modifier = {
             factor = 0.5
-            trait = has_measles
+            trait = has_red_pox
         }        
         modifier = {
             factor = 0.5
-            trait = has_small_pox
+            trait = has_green_pox
         }
     }
     
@@ -595,27 +595,27 @@ character_event = {
         }
         modifier = {
             factor = 0.5
-            trait = has_tuberculosis
+            trait = has_rattlelung
         }
         modifier = {
             factor = 0.5
-            trait = has_typhoid_fever
+            trait = has_bone_auge
         }
         modifier = {
             factor = 0.5
-            trait = has_typhus
+            trait = has_tomb_rot
         }
         modifier = {
             factor = 0.5
-            trait = has_bubonic_plague
+            trait = has_creeping_buboes
         }
         modifier = {
             factor = 0.5
-            trait = has_measles
+            trait = has_red_pox
         }        
         modifier = {
             factor = 0.5
-            trait = has_small_pox
+            trait = has_green_pox
         }
                 
     }

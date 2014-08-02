@@ -291,9 +291,7 @@ province_event = {
                 }
             }
             OR = {
-                owner = {
-                    is_capital = ROOT
-                }
+                is_capital = ROOT
                 AND = {
                     NOT = { culture_group = hung_group }
                     NOT = { culture_group = kurgan_group }
@@ -370,7 +368,7 @@ character_event = {
 
     option = {
         name = "U_EVTOPTA55002"
-        culture = kilevite
+        culture = kislevite
         random_demesne_province = {
             limit = {
                 empire = {
@@ -530,7 +528,7 @@ character_event = {
     desc = "EVTDESC55010"
     picture = GFX_evt_stone_church
     
-    only_rulers = yes
+    only_rulers = yes # TODO check if it is proper
     min_age = 16
     capable_only = yes
     prisoner = no
