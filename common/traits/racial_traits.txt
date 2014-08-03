@@ -24,7 +24,7 @@ creature_human = {
 
 	same_opinion = 10
 	general_opinion = -10
-
+ 	customizer = no
 }
 
 creature_elf = {
@@ -54,7 +54,7 @@ creature_elf = {
 
         # racism mechanics
 	same_opinion = 15
-	opposite_opinion = -10
+	opposite_opinion = -20
 	general_opinion = -15
 }
 

@@ -41,7 +41,6 @@ character_event = {
         NOT = { 
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
                 has_character_flag = hidden_cultist_nurgle
                 has_character_flag = hidden_cultist_slaanesh
                 has_character_flag = hidden_cultist_tzeenth
@@ -190,7 +189,6 @@ character_event = {
         NOT = { 
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
 
                 has_character_flag = hidden_cultist_nurgle
                 has_character_flag = hidden_cultist_slaanesh
@@ -342,7 +340,6 @@ character_event = {
         NOT = { #will need to add vampire and hidden vampire traits to this list. Vampires do not serve chaos.
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
 
                 has_character_flag = hidden_cultist_nurgle
                 has_character_flag = hidden_cultist_slaanesh
@@ -477,7 +474,6 @@ character_event = {
         NOT = { 
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
 
                 has_character_flag = hidden_cultist_nurgle
                 has_character_flag = hidden_cultist_slaanesh
@@ -635,7 +631,6 @@ character_event = {
         NOT = { 
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
 
                 has_character_flag = hidden_cultist_nurgle
                 has_character_flag = hidden_cultist_slaanesh

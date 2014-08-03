@@ -214,7 +214,6 @@ character_event = {
                    ai = yes
                    OR = {
                        religion_group = chaos_gods_group
-                       religion = dark_norse
                        religion_group = greenskin_gods_group
                    }
                 }
@@ -472,7 +471,6 @@ character_event = {
                     NOT = { war_with = ROOT }
                     # exclude chaos religions
                     NOT = { religion_group = chaos_gods_group }
-                    NOT = { religion = dark_norse }
                     NOT = { religion_group = horned_rat_god_group }
                     NOT = { religion_group = hashut_god_group }
                 }

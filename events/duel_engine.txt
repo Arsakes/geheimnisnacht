@@ -1,5 +1,9 @@
 ######################################################
 # 
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @version 0.1.0
+# @compatibility 2.1.6
+#
 # Here is Warhammer mod custom duel engine
 #
 # DUEL MODEL
@@ -12,12 +16,6 @@
 # defence:  overall rating of character's toughness
 #           and defence skills
 #           0-10
-#
-##Quick Question... Will this system be able to handle Draws effectively? 
-##Say that the two duelists have 1 Attack each and 5 Defence
-##With my reading of how the system works, they would never be able to hurt each other
-##This means the duel would go on forever.
-##       -Erik
 #
 # All those attributes are determined when duel starts
 # basing on traits, modfiers etc
@@ -859,6 +857,7 @@ character_event = {
             FROM = { change_variable = { which = "duel_dmg" value = -1 }}
         }
         # usual stuff
+        # TODO shoulde be replaced with change_variable = { which = "" value = ? } 
         if = { 
             limit = { check_variable = { which = "duel_att" value =  1 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
@@ -899,7 +898,7 @@ character_event = {
             limit = { check_variable = { which = "duel_att" value = 10 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
-        # substract the def of defender
+        # subtract the def of defender
         # stances bonus
         if = { 
             limit = { FROM = { has_character_flag = defend_stance }}
@@ -910,6 +909,7 @@ character_event = {
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
         # usual stuff from defence
+        # should be replaced 
         if = { 
             limit = { FROM = {check_variable = { which = "duel_def" value =  1 }}}
             FROM = { change_variable = { which = "duel_dmg" value = -1 }}
