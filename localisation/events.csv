@@ -74,7 +74,7 @@ EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;In the heat of battle you have spotted an opponent;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_0A;May the gods be with me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;In the heat of battle you have spotted your opponent [From.GetFirstName], will you confront your enemy?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;In the heat of battle you have spotted your opponent [From.GetTitledFirstName], will you confront your enemy?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1A;I will crush him!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;Reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;I must run!;;;;;;;;;;;;;x
@@ -84,7 +84,7 @@ EVTOPT_DUELENGINE_4B;Fight!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4C;Crush him!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4D;I will never yield!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4E;Hit harder!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_5;[From.GetFirstName] managed to escape the battlefield and covered [From.GetHerHis]self in shame!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield and covered [From.GetHerHis]self in shame!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_5A;One day I will finish that coward... I swear!;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_20;You hit your enemy and injuried him, however gap in your defence let him to hit you.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20A;Defend from enemy's hits;;;;;;;;;;;;;x

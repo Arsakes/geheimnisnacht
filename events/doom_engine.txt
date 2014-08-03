@@ -558,6 +558,8 @@ character_event = {
     is_triggered_only  = yes
  
     trigger = {
+        # random chance 
+        random = 33
         # check if we are the bad guys
         OR = {
             any_war = { 
@@ -578,7 +580,6 @@ character_event = {
                 NOT = { religion_group = chaos_gods_group }
                 NOT = { religion_group = horned_rat_god_group }
                 NOT = { religion_group = hashut_god_group }
-                NOT = { religion_group = greenskin_gods_group }
                 # check if province isn't already attacked
                 NOT = { has_province_modifier = ravaged_by_chaos }
             }
@@ -596,7 +597,7 @@ character_event = {
             }
         }
         # apply doom counter modifications
-        1 = { change_variable = { which = "doom_counter" value = 3  }}
+        1 = { change_variable = { which = "doom_counter" value = 5  }}
         if = {
             limit = { FROM = { is_capital = yes } }
             1 = { change_variable = { which = "doom_counter" value = 5  }}

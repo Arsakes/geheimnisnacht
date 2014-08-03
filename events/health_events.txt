@@ -249,7 +249,15 @@ character_event = {
     }
 }
 
-### Possessed ###
+############################################
+#
+# Random possessions by lesser demons
+#
+# @authore pietrko <p.l.stepnicki@gmail.com>
+# @version 0.1.1
+# 
+#
+### Possessed #############################
 character_event = {
     id = 6030
     desc = EVTDESC6030
@@ -258,9 +266,8 @@ character_event = {
     min_age = 10
     
     trigger = {
-        NOT = {
-            trait = possessed
-        }
+        NOT = { religion_group = chaos_gods_group } # no random possession in this case
+        NOT = { trait = possessed }
     }
     
     mean_time_to_happen = {
@@ -274,15 +281,62 @@ character_event = {
         }
         
         modifier = {
-            factor = 0.9
+            factor = 0.5
             NOT = {
                 piety = 10
             }
         }
         
         modifier = {
-            factor = 0.9
+            factor = 0.7
             trait = zealous
+        }
+        modifier = {
+            factor = 0.7
+            OR = {
+                has_global_flag = doom_medium
+                has_global_flag = doom_high
+            }
+        }
+        modifier = {
+            factor = 0.02
+            OR = {
+                has_character_flag = magic_potential_1
+                has_character_flag = magic_potential_2
+                has_character_flag = magic_potential_3
+            }
+            NOT = { trait =  magic_power_adept }
+            NOT = { trait =  magic_power_lord }
+            NOT = { trait =  magic_power_magister }
+            NOT = { trait =  magic_power_archmaster }
+        }
+        modifier = {
+            factor = 0.15
+            OR = {
+                has_character_flag = magic_potential_1
+                has_character_flag = magic_potential_2
+                has_character_flag = magic_potential_3
+            }
+            NOT = { trait =  magic_power_magister }
+            NOT = { trait =  magic_power_lord }
+            NOT = { trait =  magic_power_archmaster }
+        }
+
+        modifier = {
+            factor = 0.4
+            location = {
+                has_province_modifier = ravaged_by_chaos
+            }
+        }
+        modifier = {
+            factor = 0.5
+            OR = {
+                has_character_flag = hidden_cultist_undivided
+                has_character_flag = hidden_cultist_slaanesh
+                has_character_flag = hidden_cultist_tzeentch
+                has_character_flag = hidden_cultist_nurgle
+                has_character_flag = hidden_cultist_khorne
+            }
         }
     }
     
@@ -312,7 +366,21 @@ character_event = {
             factor = 0.9
             prestige = 20
         }
-        
+        modifier = {
+            factor = 0.2
+            learning = 5
+
+        }
+        modifier = {
+            factor = 0.4
+            learning = 9
+
+        } 
+        modifier = {
+            factor = 0.4
+            learning = 13
+
+        }
         modifier = {
             factor = 0.9
             piety = 10
@@ -322,9 +390,9 @@ character_event = {
     option = {
         name = EVTOPTA6031
         remove_trait = possessed
-        remove_character_modifier = voice_of_satan
-        remove_character_modifier = voice_of_jesus 
-        remove_character_modifier = holy_comet 
+        #remove_character_modifier = voice_of_satan
+        #remove_character_modifier = voice_of_jesus 
+        #remove_character_modifier = holy_comet 
     }
 }
 

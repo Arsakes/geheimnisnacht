@@ -37,7 +37,7 @@ creature_elf = {
 		}
 	}
 	inherit_chance = 100
-	# elves are more powerful other beings
+	# elves are more powerful than other beings
 	immortal = yes
 	learning = 2
 	diplomacy = 2
@@ -50,7 +50,7 @@ creature_elf = {
 		creature_dwarf
 		creature_orc
 	}
-	fertility = -10.0
+	fertility = -15.0
 
         # racism mechanics
 	same_opinion = 15
@@ -68,9 +68,9 @@ creature_dwarf = {
 	fertility = -10.0
 
 	# dwarfs are good engineers and warriors 
-	stewardship = 2
+	stewardship = 1
 	learning = 1
-	martial = 2
+	martial = 1
 	health = 1
 
 	# racism	
@@ -99,11 +99,15 @@ creature_chaos_dwarf = {
 	fertility = -10.0
 
 	# dwarfs are good engineers and warriors 
-	stewardship = 2
+	stewardship = 1
 	learning = 1
 	martial = 1
 	intrigue = 1
 	health = 1
+	
+        opposites = {
+		creature_dwarf
+	}
 
 	# racism	
 	same_opinion = 20

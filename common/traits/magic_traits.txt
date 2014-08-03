@@ -1,3 +1,13 @@
+# Magic potential
+# 
+# magic potential is hidden and is semi randomly generated
+# on birth, there are 3 flags responsible for it
+#  magic_potential_1
+#  magic_potential_2 
+#  magic_potential_3
+#
+# no magic potential is marked by no magic potential
+#
 # Magic Power
 magic_power_adept = {
 	opposites = {
@@ -5,6 +15,7 @@ magic_power_adept = {
 		magic_power_archmaster
 		magic_power_magister
 	}
+        learning = 1
 	random = no
 }
 magic_power_magister = {
@@ -14,7 +25,9 @@ magic_power_magister = {
 		magic_power_lord
 	}
 	health = 0.5	# magic prolongs life nobody knows why
-	monthly_character_prestige = 0.1
+	immortal = yes
+        learning = 2
+	monthly_character_prestige = 0.2
 	random = no
 }
 magic_power_lord = {
@@ -23,9 +36,10 @@ magic_power_lord = {
 		magic_power_archmaster
 		magic_power_magister
 	}
-	monthly_character_prestige = 0.3
+	monthly_character_prestige = 0.4
 	immortal = yes
 	health = 0.5	# magic prolongs life nobody knows why
+        learning = 3
 	random = no
 		
 }
@@ -37,7 +51,8 @@ magic_power_archmaster = {
 	}
 	health = 0.5	# magic prolongs life nobody knows why
 	immortal = yes
-	monthly_character_prestige = 0.5
+        learning = 4
+	monthly_character_prestige = 0.6
 	random = no
 }
 # Non-Imperial magics

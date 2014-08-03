@@ -7149,28 +7149,28 @@ chaos_invasion = {
         ROOT = {
             OR = {
                 religion_group = chaos_gods_group
-                religion = dark_norse
             }
             # there must be a price this cb targets a kingdom!
             OR = {
                 AND = {
                     has_ambition = obj_become_king
-                    piety = 100
+                    piety = 800
                 }
-                has_landed_title = e_host_chaos
-                has_landed_title = e_host_khorne
-                has_landed_title = e_host_nurgle
-                has_landed_title = e_host_slaanesh
-                has_landed_title = e_host_tzeentch
+                AND = {
+                    piety = 400
+                    has_landed_title = e_host_chaos
+                    has_landed_title = e_host_khorne
+                    has_landed_title = e_host_nurgle
+                    has_landed_title = e_host_slaanesh
+                    has_landed_title = e_host_tzeentch
+                }
             }
         }
-        # no fighiting against other chaotic forces
+        # no fighting against other chaotic forces
         FROM = { 
             NOT = { religion_group = ROOT } 
             NOT = { religion_group = horned_rat_god_group } 
             NOT = { religion_group = hashut_god_group } 
-            NOT = { religion_group = greenskin_gods_group } 
-            NOT = { religion = dark_norse } 
         }
     }
     can_use_title = {
@@ -7215,9 +7215,15 @@ chaos_invasion = {
         ROOT = {
             # pay the price if not have a proper ambition 
             if = {
-                limit = { NOT = { has_ambition = obj_become_a_king } }
-                piety = -100
-            }          
+                limit = {
+                    NOT = { has_landed_title = e_host_nurgle } 
+                    NOT = { has_landed_title = e_host_khorne }
+                    NOT = { has_landed_title = e_host_slaanesh }
+                    NOT = { has_landed_title = e_host_tzeentch }
+                    NOT = { has_landed_title = e_host_chaos }
+                }
+                piety = -800
+            }
             # send proper event to chaos followers 
             if = {
                 limit = { 
@@ -7229,6 +7235,7 @@ chaos_invasion = {
                         has_landed_title = e_host_chaos
                     }
                 }
+                piety = -400
                 character_event = { id = doomengine.20 }
             }
         }
@@ -7246,51 +7253,12 @@ chaos_invasion = {
         # DOOM_COUNTER - raise
         1 = { change_variable = { which = "doom_counter" value = 16 } }
         
-        #####################################################
-        # 
-        # Here should be code targeting neighbouring kingdoms
-        # 
-        # by Piotrek: now the code is commented since it was
-        # old design to make incrusion that way 
-        # idea is good but it has too many flaws to be coded
-        # sorry Erik i don't like lorewise, ai-wise and script-wise
-        #
-        #####################################################
-        #random_independent_ruler = {
-        #    limit = {
-        #        # Emperor or King of non-chaos religion
-        #        num_of_king_titles = 1
-        #        NOT = { religion_group = ROOT } 
-        #        NOT = { religion_group = horned_rat_god_group } 
-        #        NOT = { religion_group = hashut_god_group } 
-        #        NOT = { religion = dark_norse } 
-        #        # target must be nearby so bordering province 
-        #        # FIXME: simple way
-        #        NOT = { FROM = { distance = { who = PREV distance = 250 } } } 
-        #        # cannot attack the same person again!
-        #        # or any of his allies
-        #        NOT = { war_with = ROOT }  # FIXME not sure which one of those will work
-        #        NOT = { reverse_has_truce = ROOT } # FIXME so i used both
-        #    }
-        #    # going to victim title scope
-        #    random_demesne_title = {
-        #        limit = { tier = KING }
-        #        ROOT = { 
-        #            war = { 
-        #               casus_belli = chaos_invasion
-        #               target = PREVPREV
-        #               thirdparty_title = PREV
-        #            }
-        #        }
-        #    }
-        #}
-        #####################################################
-
+        # piety stuff
         any_attacker = {
             limit = { character = ROOT }
             participation_scaled_prestige = 400
             participation_scaled_piety = 800
-             
+            piety = 100
         }
         any_attacker = {
             limit = { NOT = { character = ROOT } }

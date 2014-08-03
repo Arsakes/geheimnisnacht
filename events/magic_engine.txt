@@ -1,0 +1,411 @@
+##############################################
+#
+# Spell engine events
+#
+# main spell events    0-19
+# magic potential gain 20-30
+#
+#
+##############################################
+namespace = magicengine
+#
+# MAIN SPELL EVENTS 
+#
+# Determining spell points for spell casting (Channeling event)
+character_event = {
+    id = magicengine.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        # this is channeling  of magic power
+        # mp = magic_lvl x k4 + magic_lvl : 2-20
+        clr_character_flag = last_spell_success
+        clr_character_flag = last_spell_failure
+
+        set_variable = { which = "magic_points" value = 1 }
+        if = {
+            limit = { 
+                OR = {
+                    trait = magic_power_adept
+                    trait = magic_power_magister
+                    trait = magic_power_lord
+                    trait = magic_power_archmaster
+                }
+            }
+            random_list = {
+                25 = { change_variable = { which = "magic_points" value = 1 }}
+                25 = { change_variable = { which = "magic_points" value = 2 }}
+                25 = { change_variable = { which = "magic_points" value = 3 }}
+                25 = { change_variable = { which = "magic_points" value = 4 }}
+            }
+        }
+        if = {
+            limit = { 
+                OR = {
+                    trait = magic_power_magister
+                    trait = magic_power_lord
+                    trait = magic_power_archmaster
+                }
+                has_character_flag = channel
+            }
+            change_variable = { which = "magic_points" value = 1 }
+            random_list = {
+                25 = { change_variable = { which = "magic_points" value = 1 }}
+                25 = { change_variable = { which = "magic_points" value = 2 }}
+                25 = { change_variable = { which = "magic_points" value = 3 }}
+                25 = { change_variable = { which = "magic_points" value = 4 }}
+            }
+        }
+        if = {
+            limit = { 
+                OR = {
+                    trait = magic_power_lord
+                    trait = magic_power_archmaster
+                }
+            }
+            change_variable = { which = "magic_points" value = 1 }
+            random_list = {
+                25 = { change_variable = { which = "magic_points" value = 1 }}
+                25 = { change_variable = { which = "magic_points" value = 2 }}
+                25 = { change_variable = { which = "magic_points" value = 3 }}
+                25 = { change_variable = { which = "magic_points" value = 4 }}
+            }
+        }
+        if = {
+            limit = { 
+                trait = magic_power_archmaster
+            }
+            change_variable = { which = "magic_points" value = 1 }
+            random_list = {
+                25 = { change_variable = { which = "magic_points" value = 1 }}
+                25 = { change_variable = { which = "magic_points" value = 2 }}
+                25 = { change_variable = { which = "magic_points" value = 3 }}
+                25 = { change_variable = { which = "magic_points" value = 4 }}
+            }
+        }
+        # Spellcraft check - learning test  k10- learning/3 < 0
+        #
+        character_event = { id = dicethrow.2 } # immediate event for learning test
+        # successfull check  0> k10 - learning
+        if = { 
+            limit = { NOT = { check_variable = {which =  "int_test" value = 1 }} }
+            set_character_flag = last_spell_success
+        }
+        # not successfull check: 1 =< k10 -learning/3 < 3
+        if = { 
+            limit = { 
+                check_variable = { which = "int_test" value = 1 }
+                NOT = { check_variable = { which = "int_test" value = 3 }}
+            }
+            # trigger mistcasts
+            random_list = {
+                15 = { character_event = { id = magicengine.4 }} # bad mistcast
+                20 = { character_event = { id = magicengine.3 }} # medium mistcast
+                30 = { character_event = { id = magicengine.2 }} # small mistcast
+                35 = { } # no effect
+                
+            }
+            set_character_flag = last_spell_success
+        }
+        # big failure: k10 - learning => 3
+        if = { 
+            limit = { check_variable = { which = "int_test" value = 3 } }
+            set_character_flag = last_spell_failure
+            random_list = {
+                33 = { character_event = { id = magicengine.4 }} # bad mistcast
+                33 = { character_event = { id = magicengine.3 }} # medium mistcast
+                34 = { character_event = { id = magicengine.2 }} # small mistcast
+            }
+        }
+        # 
+    }
+}
+#
+#
+# MISTCAST EFFECTS EVENTS (placeholders for now)
+#
+character_event = {
+    id = magicengine.2
+    desc = "Small mistcast"
+    is_triggered_only = yes
+    
+    option = {
+        name = "ok"
+    }
+}
+character_event = {
+    id = magicengine.3
+    desc = "medium mistcast"
+    is_triggered_only = yes
+    
+    option = {
+        name = "ok"
+    }
+}
+character_event = {
+    id = magicengine.4
+    desc = "Bad mistcast"
+    is_triggered_only = yes
+    
+    option = {
+        name = "ok"
+    }
+}
+# Spell failure event 
+character_event = {
+    id = magicengine.5
+    desc = "Spell casting failure"
+    is_triggered_only = yes
+     
+    option = {
+        name = "ok"
+    }
+}
+
+##########################################################
+#
+# On birth events and gaining magic potential
+#
+#########################################################
+#
+# magic_potential_1 : low
+# magic_potential_2 : medium
+# magic_potential_3 : high
+#
+character_event = {
+    id = magicengine.20
+    desc = "Inheritance of magic potential" #FIXME delte desc
+    is_triggered_only = yes
+    #hide_windw = yes 
+
+    immediate = {
+        # case 1,1
+        if = {
+            limit = {
+                AND = {
+                    father = { has_character_flag = magic_potential_1 }
+                    mother = { has_character_flag = magic_potential_1 }
+                }
+            }
+            random_list = {
+                29 = { }
+                55 = { set_character_flag = magic_potential_1 }
+                12 = { set_character_flag = magic_potential_2 }
+                4 = { set_character_flag = magic_potential_3 }
+            }
+        }
+        # case 2,2
+        if = {
+            limit = {
+                AND = {
+                    father = { has_character_flag = magic_potential_2 }
+                    mother = { has_character_flag = magic_potential_2 }
+                }
+            }
+            random_list = {
+                3 = { }
+                32 = { set_character_flag = magic_potential_1 }
+                53 = { set_character_flag = magic_potential_2 }
+                12 = { set_character_flag = magic_potential_3 }
+            }
+        }
+        # case 3,3
+        if = {
+            limit = {
+                AND = {
+                    father = { has_character_flag = magic_potential_3 }
+                    mother = { has_character_flag = magic_potential_3 }
+                }
+            }
+            random_list = {
+                1 = { }
+                3 = { set_character_flag = magic_potential_1 }
+                36 = { set_character_flag = magic_potential_2 }
+                60 = { set_character_flag = magic_potential_3 }
+            }
+
+        }
+        # Mixed cases
+        # case 1,2
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_1 }
+                        mother = { has_character_flag = magic_potential_2 }
+                    }
+                    AND = {
+                        father = { has_character_flag = magic_potential_2 }
+                        mother = { has_character_flag = magic_potential_1 }
+                    }
+                }
+            }
+            random_list = {
+                19 = { }
+                40 = { set_character_flag = magic_potential_1 }
+                32 = { set_character_flag = magic_potential_2 }
+                9 = { set_character_flag = magic_potential_3 }
+            }
+        }
+        # case 1,3
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_1 }
+                        mother = { has_character_flag = magic_potential_3 }
+                    }
+                    AND = {
+                        father = { has_character_flag = magic_potential_3 }
+                        mother = { has_character_flag = magic_potential_1 }
+                    }
+                }
+            }
+            # do stuff
+            random_list = {
+                17 = { }
+                28 = { set_character_flag = magic_potential_1 }
+                31 = { set_character_flag = magic_potential_2 }
+                24 = { set_character_flag = magic_potential_3 }
+            }
+
+        }
+        # 2,3
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_2 }
+                        mother = { has_character_flag = magic_potential_3 }
+                    }
+                    AND = {
+                        father = { has_character_flag = magic_potential_3 }
+                        mother = { has_character_flag = magic_potential_2 }
+                    }
+                }
+            }
+            # do stuff
+            random_list = {
+                4 = { }
+                20 = { set_character_flag = magic_potential_1 }
+                42 = { set_character_flag = magic_potential_2 }
+                34 = { set_character_flag = magic_potential_3 }
+            }
+        }
+        # case of only one parent being mage
+        # 1,0
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_1 }
+                        mother = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                    AND = {
+                        mother = { has_character_flag = magic_potential_1 }
+                        father = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                }
+            }
+            # do stuff
+            random_list = {
+                49 = { }
+                39 = { set_character_flag = magic_potential_1 }
+                11 = { set_character_flag = magic_potential_2 }
+                1 = { set_character_flag = magic_potential_3 }
+            }
+
+        }
+        # 2,0
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_1 }
+                        mother = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                    AND = {
+                        mother = { has_character_flag = magic_potential_1 }
+                        father = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                }
+            }
+            # do stuff
+            random_list = {
+                30 = { }
+                34 = { set_character_flag = magic_potential_1 }
+                24 = { set_character_flag = magic_potential_2 }
+                12 = { set_character_flag = magic_potential_3 }
+            }
+
+        }
+        # 3,0
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        father = { has_character_flag = magic_potential_1 }
+                        mother = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                    AND = {
+                        mother = { has_character_flag = magic_potential_1 }
+                        father = { 
+                            NOT = { has_character_flag = magic_potential_1 }
+                            NOT = { has_character_flag = magic_potential_2 }
+                            NOT = { has_character_flag = magic_potential_3 }
+                        }
+                    }
+                }
+            }
+            # do stuff
+            random_list = {
+                23 = { }
+                33 = { set_character_flag = magic_potential_1 }
+                24 = { set_character_flag = magic_potential_2 }
+                20 = { set_character_flag = magic_potential_3 }
+            }
+
+        }
+        # TODO make some adjustments for elves and other races maybe?
+        # case of non-magical parents (both)
+        # 0,0
+        if = {
+            limit = {
+               NOT = { has_character_flag = magic_potential_1 }
+               NOT = { has_character_flag = magic_potential_2 }
+               NOT = { has_character_flag = magic_potential_3 }
+            }
+            # do stuff
+            random_list = {
+                88 = { }
+                 8 = { set_character_flag = magic_potential_1 }
+                 3 = { set_character_flag = magic_potential_2 }
+                 1 = { set_character_flag = magic_potential_3 }
+            }
+        }
+    }
+    option = {
+        name = "ok"
+    }
+}
