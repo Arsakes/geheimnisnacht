@@ -22,13 +22,15 @@ character_event = {
     is_triggered_only = yes
     
     option = {
-        name = "Inspiration"
-        trigger = { has_character_flag = last_spell_success }
+        name = "Blizzard"
+        #trigger = { has_character_flag = last_spell_success }
         # first select any enemy
         location = {
-            
+            add_province_modifier = { name = spell_blizzard duration = 30 }
+            any_neighbor_province = {
+                add_province_modifier = { name = spell_blizzard duration = 15 }
+            }
         }
-        add_character_modifier = { name = spell_inspiration duration = 14 }
     }
     option = {
         name = "stop the spell"

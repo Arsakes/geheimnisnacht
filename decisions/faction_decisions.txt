@@ -846,7 +846,7 @@ plot_decisions = {
                                 }
                                 OR = {
                                     using_cb = religious
-                                    using_cb = crusade
+                                    #using_cb = crusade
                                     #using_cb = viking_invasion
                                     using_cb = invasion
                                     using_cb = tribal_invasion

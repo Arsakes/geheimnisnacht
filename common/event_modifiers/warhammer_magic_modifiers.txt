@@ -6,28 +6,35 @@
 # Light(Hysh spells)
 spell_inspiration = {
     learning = 3
-    icon = 43
+    icon = 45
 }
 spell_truthpower = {
     diplomacy = 3
-    icon = 43
+    icon = 45
 }
 spell_eyesoftruth = {
     intrigue = 1
     # FIXME : implement some additional effect in plot scripts
-    icon = 43
+    icon = 45
 }
 
-#beast spell icon = 44
-#death spell icon = 45
-#fire spell icon = 46
-#metal spell icon = 47
-#heaven spell icon = 48
-#shadow spell icon = 49
-#life spell icon = 50
-#ice spell icon = 51
-#chaos spell icon = 52
-#nurgle spell icon = 53
-#slaanesh spell icon = 54
-#tzeenth spell icon = 55
-#high spellicon = 56
+# province modifier
+spell_blizzard = {
+    icon = 53
+    local_movement_speed = -0.6
+    supply_limit = -6
+    max_attrition = 0.15
+}
+#beast spell icon = 46
+#death spell icon = 47
+#fire spell icon = 48
+#metal spell icon = 49
+#heaven spell icon = 50
+#shadow spell icon = 51
+#life spell icon = 52
+#ice spell icon = 53
+#chaos spell icon = 54
+#nurgle spell icon = 55
+#slaanesh spell icon = 56
+#tzeenth spell icon = 57
+#high spellicon = 58

@@ -101,6 +101,9 @@ RED_POX_INFO;There is an epidemic of the Red Pox in this place;;;;;;;;;;;;;x
 green_pox;the Green Pox;;;;;;;;;;;;;x
 GREEN_POX_INFO;There is an epidemic of the Green Pox in this place;;;;;;;;;;;;;x
 # EVENT MODIFIERS
+# duel
+battlafield_fight;Fight on the Battlefield;;;;;;;;;;;;;x
+battlafield_fight_desc;This character recently fought on a battlefield.;;;;;;;;;;;;;x
 # magic ones
 spell_inspiration;Inspiration;;;;;;;;;;;;;x
 spell_inspiration_desc;The luminous power of Hysh filled this character with wisdom.;;;;;;;;;;;;;x
@@ -108,6 +111,8 @@ spell_truthpower;The Power of Truth;;;;;;;;;;;;;x
 spell_truthpower_desc;The words of this characters are empowered with powers of Hysh.;;;;;;;;;;;;;x
 spell_eyesoftruth;Eyes of Truth;;;;;;;;;;;;;x
 spell_eyesoftruth_desc;The wind magic wind allows this character to see through lies of others.;;;;;;;;;;;;;x
+spell_blizzard;Blizzard;;;;;;;;;;;;;x
+spell_blizzard_desc;There is terrible blizzard of magical origin raging in this province.;;;;;;;;;;;;;x
 # chaos connected
 called_for_help_chaos;Called for help;;;;;;;;;;;;;x
 called_for_help_chaos_desc;This character called for help in defending against chaos invasion.;;;;;;;;;;;;;x
@@ -116,6 +121,10 @@ ravaged_by_chaos;Ravaged by Chaos;;;;;;;;;;;;;x
 ravaged_by_chaos_desc;These lands were target of recent chaos incursion, those who didn't escape from this defiled land were killed by chaos host. This earth is soaked by blood and terrible creaters are haunting city streets in the light of day.;;;;;;;;;;;;;x
 resistance;Resistance against Chaos;;;;;;;;;;;;;x
 resistance_desc;Most of population is hiding before forces of Chaos, those who aren not will never surrender.;;;;;;;;;;;;;x
+# CULTURE MODIFIERS
+gospodar_culture_modifier;Gospodar Traditions;;;;;;;;;;;;;x
+kislevite_culture_modifier;Kislevite Traditions;;;;;;;;;;;;;x
+ungol_culture_modifier;Ungol Traditions;;;;;;;;;;;;;x
 #CBS
 # Chaos subjugation
 CB_NAME_CHAOS_SUBJUGATION;Unholy Subjugation of [Title.GetBaseName];Assujettissement de [Title.GetBaseName];Unterwerfung von [Title.GetBaseName];;Subyugación de [Title.GetBaseName];;;;;;;;;x

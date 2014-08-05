@@ -109,13 +109,6 @@ province_event = {
             }
         }
         modifier = {
-            factor = 0.6 # bonus for kislevite as new expanding common culture for kislev
-            owner = {
-                culture = kislevite
-            }
-            culture_group = kislevite_group
-        }
-        modifier = {
             factor = 0.75
             owner = {
                 OR = {
@@ -136,7 +129,7 @@ province_event = {
                         }
                     }
                     ROOT = {
-                        kingdom = {
+                        empire = {
                             holder_scope = {
                                 character = PREVPREVPREV
                             }
@@ -201,7 +194,7 @@ province_event = {
                     }
                 }
                 ROOT = {
-                    kingdom = {
+                    empire = {
                         holder_scope = {
                             character = PREVPREVPREV
                         }
@@ -298,22 +291,13 @@ province_event = {
                 }
             }
             OR = {
-                owner = {
-                    is_capital = ROOT
-                }
+                is_capital = ROOT
                 AND = {
                     NOT = { culture_group = hung_group }
                     NOT = { culture_group = kurgan_group }
                     terrain = steppe
                 }
             }
-        }
-        modifier = {
-            factor = 0.6 # bonus for kislevite as new expanding common culture for kislev
-            owner = {
-                culture = kislevite
-            }
-            culture_group = kislevite_group
         }
     }
 
@@ -331,20 +315,211 @@ province_event = {
     }
 }
 
-# The English Melting Pot DELETED
+# The English Melting Pot -> Kislev Melting Pot
 #    id = 55002
+#
+# conversions to kislevite of gospodar provinces during gospodar leader rule
+character_event = {
+    id = 55002
+    desc = "U_EVTDESC55002"
+    picture = GFX_evt_stone_church
+    
+    trigger = {
+        culture = gospodar
+        any_demesne_province = {
+            empire = {
+                title = e_kislev
+            }
+            culture = gospodar
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 1200
+        modifier = {
+            factor = 0.75
+            learning = 7
+        }
+        modifier = {
+            factor = 0.75
+            learning = 9
+        }
+        modifier = {
+            factor = 0.75
+            learning = 11
+        }
+        modifier = {
+            factor = 0.75
+            learning = 13
+        }
+        modifier = {
+            factor = 1.5
+            NOT = { learning = 5 }
+        }
+        modifier = {
+            factor = 1.5
+            NOT = { learning = 3 }
+        }
+        modifier = {
+            factor = 2.0
+            NOT = { learning = 1 }
+        }
+    }
 
-# It's spreading DELETED (english stuff)
-#    id = 55003
+    option = {
+        name = "U_EVTOPTA55002"
+        culture = kislevite
+        random_demesne_province = {
+            limit = {
+                empire = {
+                    title = e_kislev
+                }
+                culture = gospodar
+            }
+            culture = kislevite
+        }
+    }
+}
 
-#Make my court speak English
-#    id = 55004
+# It's spreading -> Kislev version
+character_event = {
+    id = 55003
+    desc = "U_EVTDESC55003"
+    picture = GFX_evt_stone_church
+    
+    trigger = {
+        culture = kislevite
+        any_demesne_province = {
+            empire = {
+                title = e_kislev
+            }
+            AND = {
+                NOT = { culture = kislevite }
+                culture_group = kislevite_group
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 720
+    }
 
-#Make my vassal speak English
-#    id = 55005
+    option = {
+        name = "U_EVTOPTA55003"
+        random_demesne_province = {
+            limit = {
+                empire = {
+                    title = e_kislev
+                }
+                AND = {    
+                    NOT = { culture = kislevite }
+                    culture_group = kislevite_group
+                }
+            }
+            culture = kislevite
+        }
+    }
+}
 
+#Make my court becomes Kislevite
+character_event = {
+    id = 55004
+    desc = "U_EVTDESC55004"
+    picture = GFX_evt_throne_room
 
-#id=55006
+    trigger = {
+        culture = kislevite
+        independent = no
+        top_liege = {
+            primary_title = {
+                title = e_kislev
+            }
+        }
+        any_courtier = {
+            AND = {
+                NOT = { culture = kislevite }
+                culture_group = kislevite_group
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 120
+    }
+
+    option = {
+        name = "U_EVTOPTA55004"
+        random_courtier = {
+            limit = {
+                AND = {
+                    NOT = { culture = kislevite }
+                    culture_group = kislevite_group
+                }
+            }
+            culture = kislevite
+            hidden_tooltip = {
+                character_event = { id = 55006 days = 3 }
+            }
+        }
+    }
+}
+#Make my vassal Kislevite
+character_event = {
+    id = 55005
+    desc = "U_EVTDESC55005"
+    picture = GFX_evt_throne_room
+
+    trigger = {
+        culture = kislevite
+        independent = no
+        top_liege = {
+            primary_title = {
+                title = e_kislev
+            }
+        }
+        any_vassal = {
+            AND = {
+                NOT = { culture = kislevite }
+                culture_group = kislevite_group
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 720
+    }
+
+    option = {
+        name = "U_EVTOPTA55005"
+        random_vassal = {
+            limit = {
+                AND = {
+                    NOT = { culture = kislevite }
+                    culture_group = kislevite_group
+                }
+            }
+            culture = kislevite
+            hidden_tooltip = {
+                character_event = { id = 55006 days = 3 }
+            }
+        }
+    }
+}
+
+# notification event becoming kislevite
+character_event = {
+    id = 55006
+    desc = "U_EVTDESC55006"
+    picture = GFX_evt_throne_room
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA55006"
+        culture = kislevite
+    }
+}
+
 
 
 # A ruler is assimilated by the local culture
@@ -353,7 +528,7 @@ character_event = {
     desc = "EVTDESC55010"
     picture = GFX_evt_stone_church
     
-    only_rulers = yes
+    only_rulers = yes # TODO check if it is proper
     min_age = 16
     capable_only = yes
     prisoner = no

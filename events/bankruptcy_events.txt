@@ -322,7 +322,7 @@ character_event = {
             factor = 1
             modifier = {
                 factor = 10
-                NOT = { opinion = { who = from value =  50 } }
+                NOT = { opinion = { who = FROM value =  50 } }
             }
             modifier = {
                 factor = 10

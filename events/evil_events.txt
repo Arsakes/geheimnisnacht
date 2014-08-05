@@ -164,15 +164,7 @@ province_event = {
         name = "EVTOPTA68001"
         trigger = {
             owner = {
-                religion_group = christian
-            }
-        }
-    }
-    option = {
-        name = "EVTOPTB68001"
-        trigger = {
-            owner = {
-                religion_group = muslim
+                religion_group = old_world_group
             }
         }
     }
@@ -180,8 +172,7 @@ province_event = {
         name = "EVTOPTA88283"
         trigger = {
             owner = {
-                NOT = { religion_group = christian }
-                NOT = { religion_group = muslim }
+                NOT = { religion_group = old_world_group }
             }
         }
     }

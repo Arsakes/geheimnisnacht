@@ -110,7 +110,7 @@ has_creeping_buboes = {
 	
 	customizer = no
 }
-has_green_pox = {
+has_green_pox = { # smallpox
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -118,7 +118,7 @@ has_green_pox = {
 	
 	customizer = no
 }
-has_red_pox = {
+has_red_pox = { # measles
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -126,7 +126,7 @@ has_red_pox = {
 	
 	customizer = no
 }
-has_rattlelung = {
+has_rattlelung = { # tuberclosis
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -134,7 +134,7 @@ has_rattlelung = {
 	
 	customizer = no
 }
-has_tomb_rot = {
+has_tomb_rot = { # typhus ?
 	is_illness = yes
 	is_health = yes
 
@@ -154,7 +154,7 @@ has_nurgles_rot = {
 
 	customizer = no
 }
-has_bone_auge = {
+has_bone_auge = { # typhoid_fever
 	is_health = yes
 	is_illness = yes
 	health = -6

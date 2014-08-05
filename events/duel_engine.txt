@@ -1,5 +1,9 @@
 ######################################################
 # 
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @version 0.1.0
+# @compatibility 2.1.6
+#
 # Here is Warhammer mod custom duel engine
 #
 # DUEL MODEL
@@ -12,12 +16,6 @@
 # defence:  overall rating of character's toughness
 #           and defence skills
 #           0-10
-#
-##Quick Question... Will this system be able to handle Draws effectively? 
-##Say that the two duelists have 1 Attack each and 5 Defence
-##With my reading of how the system works, they would never be able to hurt each other
-##This means the duel would go on forever.
-##       -Erik
 #
 # All those attributes are determined when duel starts
 # basing on traits, modfiers etc
@@ -53,6 +51,9 @@ namespace = duelengine
 #
 # for this event FORM = ROOT?
 
+
+
+# FIXME check why it marks multiple targets
 character_event = { # Battlefield Duel Start
     id = duelengine.0
     border = "GFX_event_normal_frame_war"
@@ -188,6 +189,7 @@ character_event = { # Battlefield Duel Start
             duration = 10
         }
         # Target lock
+        # case 1 - we have our own war
         if = {
             limit = { 
                 war = yes
@@ -211,7 +213,7 @@ character_event = { # Battlefield Duel Start
                             NOT = { has_character_modifier = battlefield_fight }
                         }
                         any_realm_character = {                        
-                            in_battle = yes
+                            in_battle = yes # FIXME in_command?
                             at_location = ROOT
                             prisoner = no
                             is_alive = yes        
@@ -223,7 +225,7 @@ character_event = { # Battlefield Duel Start
                 }
                 if = {
                     limit = {
-                        in_battle = yes
+                        in_battle = yes # marks first category of targets: playable rulers
                         at_location = ROOT
                         prisoner = no
                         is_alive = yes        
@@ -237,7 +239,7 @@ character_event = { # Battlefield Duel Start
                     limit = { NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_battle_duel_target } } }
                     random_realm_character = {
                         limit = {
-                            in_battle = yes
+                            in_battle  = yes #FIXME in battle
                             at_location = ROOT
                             prisoner = no
                             is_alive = yes        
@@ -250,6 +252,7 @@ character_event = { # Battlefield Duel Start
                 }    
             }
         }
+        # Case 2 - we server in liege forces
         if = {
             limit = { 
                 war = no
@@ -261,7 +264,7 @@ character_event = { # Battlefield Duel Start
                         war_with = PREV
                         OR = {
                             AND = {                        
-                                in_battle = yes
+                                in_battle = yes #FIXME
                                 at_location = ROOT
                                 prisoner = no
                                 is_alive = yes        
@@ -311,7 +314,8 @@ character_event = { # Battlefield Duel Start
     }
     # OPTIONS
     option = {
-        # we assume that there is only one person market with opinion_battle_duel_target
+        # we assume that there is only one person marked with opinion_battle_duel_target
+        # which is wrong
         name = "EVTOPT_DUELENGINE_1A"
         if = {
             limit = { 
@@ -380,7 +384,7 @@ character_event = { # Battlefield Duel Start
 character_event = {
     id = duelengine.1
     desc = "EVTDESC_DUELENGINE_1"
-    picture = GFX_evt_battle
+    picture = "GFX_evt_duel0"
     border = "GFX_event_normal_frame_war"
     is_triggered_only = yes
     
@@ -389,7 +393,7 @@ character_event = {
             name = battlefield_fight
             duration = 10
         }
-        # Remove targeting information
+        # Remove targeting information (just from the fighter)
         remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
         reverse_remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
     }
@@ -527,7 +531,7 @@ character_event = {
 character_event = {
     id = duelengine.2
     desc = "EVTDESC_DUELENGINE_1" #the same locals
-    picture = GFX_evt_battle
+    picture = "GFX_evt_duel0"
     border = "GFX_event_normal_frame_war"
     
     is_triggered_only = yes
@@ -834,7 +838,8 @@ character_event = {
 character_event = {
     id = duelengine.4
     desc = "EVTDESC_DUELENGINE_4"
-    #hide_window = yes
+    picture = "GFX_evt_duel0"
+    border = "GFX_event_normal_frame_war"
     is_triggered_only = yes
     
     immediate = {
@@ -899,7 +904,7 @@ character_event = {
             limit = { check_variable = { which = "duel_att" value = 10 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
-        # substract the def of defender
+        # subtract the def of defender
         # stances bonus
         if = { 
             limit = { FROM = { has_character_flag = defend_stance }}
@@ -910,46 +915,9 @@ character_event = {
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
         # usual stuff from defence
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  1 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  2 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  3 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  4 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  5 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  6 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  7}}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  8 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value =  9 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = {check_variable = { which = "duel_def" value = 10 }}}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
+        # should be replaced 
+        FROM = { subtract_variable = { which = "duel_dmg" which = "duel_def" } }
+        
         # Ok now duel_dmg has proper value which we should substract from health
         #
         # 
@@ -957,64 +925,12 @@ character_event = {
         if = {
             limit = { 
                 NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                random = 40
+                random = 50
             }
             FROM = { set_variable = { which = "duel_dmg" value =  1 }} 
         }
         # applying damge
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 1 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 2 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 3 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 4 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 5 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 6 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 7 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 8 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 9 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 10 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 11 } }}   
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 12 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        if = {
-            limit = { FROM = { check_variable = { which = "duel_dmg" value = 13 } }}  
-            FROM = { change_variable = { which = "duel_hp" value = -1 } }
-        }
-        # 13 is the maximal dmg now (doesn't make sense to make it higher)
+        FROM = { subtract_variable = { which = "duel_hp" which = "duel_dmg" } }
     }
     option = {
         name = "EVTOPT_DUELENGINE_4A"
@@ -1308,6 +1224,10 @@ character_event = {
         morale = -0.1
         death = { death_reason = death_accident }
         FROMFROM = { character_event = { id = duelengine.25 } }
+        # garbage clean
+        clr_character_flag = normal_stance
+        clr_character_flag = attack_stance
+        clr_character_flag = defend_stance
     }
 }
 # report the death to winner
@@ -1321,6 +1241,10 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_25A"
         morale = 0.1
+        # garbage clean
+        clr_character_flag = normal_stance
+        clr_character_flag = attack_stance
+        clr_character_flag = defend_stance
     }
 }
 # report about escape
@@ -1351,6 +1275,10 @@ character_event = {
         }    
         morale = -0.1
         FROMFROM = { character_event = { id = duelengine.27 } }
+        # garbage clean
+        clr_character_flag = normal_stance
+        clr_character_flag = attack_stance
+        clr_character_flag = defend_stance
     }
 }
 # report the escape to winner
@@ -1364,5 +1292,9 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_27A"
         morale = 0.1
+        # garbage clean
+        clr_character_flag = normal_stance
+        clr_character_flag = attack_stance
+        clr_character_flag = defend_stance
     }
 }
