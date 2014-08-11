@@ -1,4 +1,29 @@
 spriteTypes = {
+        # DECISIONS
+	spriteType = {
+		name = "GFX_decision_open_spellbook"
+		texturefile = "gfx\\interface\\decision_icon_spellbook.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_close_spellbook"
+		texturefile = "gfx\\interface\\decision_icon_spellbook.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_ice"
+		texturefile = "gfx\\interface\\decision_icon_lore_ice.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_dark"
+		texturefile = "gfx\\interface\\decision_icon_lore_dhar.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_fire"
+		texturefile = "gfx\\interface\\decision_icon_lore_fire.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_light"
+		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
+	}
 	# traits from duel mod
 	spriteType = {
 		name = "GFX_trait_master_warrior"

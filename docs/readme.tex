@@ -185,6 +185,27 @@ $SD = \sqrt{T\cdot (7-AS)})\cdot \sqrt{M\cdot I}\cdot T$
 \item maintence, $SD = P$, WIP
 \item morale, $MR = \frac{1}{2} (L + mean of the rest stats)$, WIP
 
+
+\section{Magic Implementation}
+Additional variables:
+\textbf{magic\_points} - character variable
+\textbf{intelligence = learning/3} - per character variable
+Use cases:
+\begin{itemize}
+\item duels:
+start with base power level, allow channeling
+\item battles ?
+\item strategic use:
+start with maximal safe power level, allow risky " channeling" 
+ decision -> channeling safe level -> cast
+\item event triggered use - basically the same as duel use
+\end{itemize}
+
+\subsection{Common mechanics}
+\paragraph{Channeling event}
+random power gain 
+channeling - action used in duel events to increase the power level
+spellcasting - int test, applying spell effects and miscasts
 \end{itemize}
 
 \end{document}

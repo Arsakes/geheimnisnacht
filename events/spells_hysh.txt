@@ -79,18 +79,12 @@ character_event = {
        }
    }
 }
-# Demon banishing
-character_event = {
-   id = hysh.4
-   is_triggered_only = yes
-   
-   option = {
-       name = "Banish the demon"
-       location = {
-           random_province_character = {
-               limit = { trait = possesed }
-               #character_event = { id = hysh.31 }
-           }
-       }
-  }
-}
+#
+# Spells for Hysh lore
+# id = ice.xy, x - spellchain id, y - event from spellchain
+#
+# battle spells:
+# duel spells:
+# personal spells:
+#
+

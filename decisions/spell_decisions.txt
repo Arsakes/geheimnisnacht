@@ -1,6 +1,7 @@
 #######################################
 # 
-# Here are spell casting decisions
+# Here are spell casting decisions for
+# PC player characters
 #
 # decision_open_spellbook -
 # decison_close_spellbook
@@ -79,53 +80,46 @@ decisions = {
             has_character_flag = spellbook_open 
             ai = no
             trait = lore_ice
-            NOT = {  has_character_flag = spell_lore_chosen }
         }
         allow = { always = yes }
         effect = { 
-            set_character_flag = spell_lore_ice  
-            set_character_flag = spell_lore_chosen
+            character_event = { id = ice.0 }
         }
     }
-    # Chose spells from ice lore (PC only)
+    # Chose spells from light lore
     decision_lore_light = {
         potential = {
             has_character_flag = spellbook_open 
             ai = no
             trait = lore_light
-            NOT = {  has_character_flag = spell_lore_chosen }
         }
         allow = { always = yes }
         effect = { 
-            set_character_flag = spell_lore_light  
-            set_character_flag = spell_lore_chosen
+            character_event = { id = light.0 }
         }
     }
-
-    # go back to lore menu
-    decision_lore_back = {
+    # Chose spells from fire lore (PC only)
+    decision_lore_fire = {
         potential = {
             has_character_flag = spellbook_open 
             ai = no
-            has_character_flag = spell_lore_chosen
+            trait = lore_fire
         }
         allow = { always = yes }
         effect = { 
-            clr_character_flag = spell_lore_chosen
-            #
-            clr_character_flag = spell_lore_ice 
-            clr_character_flag = spell_lore_light
-            clr_character_flag = spell_lore_beasts
-            clr_character_flag = spell_lore_fire
-            clr_character_flag = spell_lore_metal
-            clr_character_flag = spell_lore_shadows
-            clr_character_flag = spell_lore_death
-            clr_character_flag = spell_lore_heavens
-            clr_character_flag = spell_lore_life
-            clr_character_flag = spell_lore_chaos
-            clr_character_flag = spell_lore_slaanesh
-            clr_character_flag = spell_lore_tzeentch
-            clr_character_flag = spell_lore_nurgle
+            character_event = { id = fire.0 }
+        }
+    }
+    # Chose spells from dark lore (PC only)
+    decision_lore_dark = {
+        potential = {
+            has_character_flag = spellbook_open 
+            ai = no
+            trait = lore_dark_magic
+        }
+        allow = { always = yes }
+        effect = { 
+            character_event = { id = dark.0 }
         }
     }
 }

@@ -12,9 +12,15 @@ ai_race_chaos_dwarf;;;;;;;;;;;;;;x
 ai_race_dwarf;;;;;;;;;;;;;;x
 ai_race_human;;;;;;;;;;;;;;x
 # spell decisions
-decision_lore_back;Choose other lore;;;;;;;;;;;;;x
-decision_lore_light;Lore of Light spells;;;;;;;;;;;;;x
-decision_lore_ice;Lore of Ice spells;;;;;;;;;;;;;x
+decision_lore_light;Lore of light;;;;;;;;;;;;;x
+decision_lore_light_desc;Attempt to manipulate Hysh - white wind of magic.;;;;;;;;;;;;;x
+decision_lore_ice;Lore of Ice;;;;;;;;;;;;;x
+decision_lore_ice_desc;Attempt to cast spells from lore of Ice.;;;;;;;;;;;;;x
+decision_lore_dark;Dark magic;;;;;;;;;;;;;x
+decision_lore_dark_desc;Attempt to cast dark magic spells.;;;;;;;;;;;;;x
+decision_lore_fire;Lore of Fire;;;;;;;;;;;;;x
+decision_lore_fire_desc;Attempt to manipulate Aqushy the red wind of magic.;;;;;;;;;;;;;x
+#
 decision_open_spellbook;Open the spellbook;;;;;;;;;;;;;x
 decision_close_spellbook;Close the spellbook;;;;;;;;;;;;;x
 # chaos decisions

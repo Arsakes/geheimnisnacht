@@ -11,92 +11,89 @@ namespace = magicengine
 #
 # MAIN SPELL EVENTS 
 #
-# Determining spell points for spell casting (Channeling event)
+# Channeling action gives some magic power points not exceding the maximal power
+# maximal safe power equal to SW * 2 (willpower times two)
+# Channeling and magic points mechanics is used only in dire circumstances
+# when casting strategic spells character have access to all sort of 
+# magic power containters etc TODO
+character_event = {
+    id = magicengine.0
+    is_triggered_only = yes
+    hide_window = yes
+ 
+    # this is channeling  of magic power
+    # mp = mp + k4 + (magic_level - 1)
+    immediate = {
+        # k4 roll
+        character_event = { id = dicethrow.11 }
+        if = {
+            limit = { trait = magic_power_magister }
+            change_variable = { which = "magic_points" value = 1 }
+        }
+        if = {
+            limit = { trait = magic_power_lord }
+            change_variable = { which = "magic_points" value = 2 }
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            change_variable = { which = "magic_points" value = 3 }
+        }
+        change_variable = { which = "magic_points" which = "k4_roll" }
+ 
+        # clear variable
+        set_variable = { which  = "k4_roll" value = 0 }
+        # check if magic points don't excede the maximal value
+        #
+        # set willpower, multiply, add, compare
+        character_event = { id = dicethrow.0 }
+        multiply_variable = { which = "SW" value = 2 }
+        if = {
+            limit = { trait = magic_power_magister }
+            change_variable = { which = "SW" value = 1 }
+        }
+        if = {
+            limit = { trait = magic_power_lord }
+            change_variable = { which = "SW" value = 2 }
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            change_variable = { which = "SW" value = 3 }
+        }
+        # do actual test
+        if = {
+            # > or =      
+            limit = { check_variable = { which = "magic_points" which = "SW" } }
+            set_variable = { which = "magic_points" which = "SW" }
+        }
+        # clear
+        set_variable = { which =  "SW" value = 0 }
+    }
+}
+# SPELLCRAFT CHECK
 character_event = {
     id = magicengine.1
     is_triggered_only = yes
     hide_window = yes
 
     immediate = {
-        # this is channeling  of magic power
-        # mp = magic_lvl x k4 + magic_lvl : 2-20
         clr_character_flag = last_spell_success
-        clr_character_flag = last_spell_failure
-
-        set_variable = { which = "magic_points" value = 1 }
-        if = {
-            limit = { 
-                OR = {
-                    trait = magic_power_adept
-                    trait = magic_power_magister
-                    trait = magic_power_lord
-                    trait = magic_power_archmaster
-                }
-            }
-            random_list = {
-                25 = { change_variable = { which = "magic_points" value = 1 }}
-                25 = { change_variable = { which = "magic_points" value = 2 }}
-                25 = { change_variable = { which = "magic_points" value = 3 }}
-                25 = { change_variable = { which = "magic_points" value = 4 }}
-            }
-        }
-        if = {
-            limit = { 
-                OR = {
-                    trait = magic_power_magister
-                    trait = magic_power_lord
-                    trait = magic_power_archmaster
-                }
-                has_character_flag = channel
-            }
-            change_variable = { which = "magic_points" value = 1 }
-            random_list = {
-                25 = { change_variable = { which = "magic_points" value = 1 }}
-                25 = { change_variable = { which = "magic_points" value = 2 }}
-                25 = { change_variable = { which = "magic_points" value = 3 }}
-                25 = { change_variable = { which = "magic_points" value = 4 }}
-            }
-        }
-        if = {
-            limit = { 
-                OR = {
-                    trait = magic_power_lord
-                    trait = magic_power_archmaster
-                }
-            }
-            change_variable = { which = "magic_points" value = 1 }
-            random_list = {
-                25 = { change_variable = { which = "magic_points" value = 1 }}
-                25 = { change_variable = { which = "magic_points" value = 2 }}
-                25 = { change_variable = { which = "magic_points" value = 3 }}
-                25 = { change_variable = { which = "magic_points" value = 4 }}
-            }
-        }
-        if = {
-            limit = { 
-                trait = magic_power_archmaster
-            }
-            change_variable = { which = "magic_points" value = 1 }
-            random_list = {
-                25 = { change_variable = { which = "magic_points" value = 1 }}
-                25 = { change_variable = { which = "magic_points" value = 2 }}
-                25 = { change_variable = { which = "magic_points" value = 3 }}
-                25 = { change_variable = { which = "magic_points" value = 4 }}
-            }
-        }
+        # get intelligence (Int)
+        character_event = { id = dicethrow.1 }
+        # roll k10
+        character_event = { id = dicethrow.10 }
         # Spellcraft check - learning test  k10- learning/3 < 0
-        #
-        character_event = { id = dicethrow.2 } # immediate event for learning test
-        # successfull check  0> k10 - learning
-        if = { 
-            limit = { NOT = { check_variable = {which =  "int_test" value = 1 }} }
-            set_character_flag = last_spell_success
-        }
+        subtract_variable = { which = "k10_roll" which = "Int" }
+    
+        # Handle mistcasts and success
         # not successfull check: 1 =< k10 -learning/3 < 3
         if = { 
+            limit = { NOT = { check_variable = {which =  "k10_roll" value = 1 }} }
+            set_character_flag = last_spell_success
+        }
+        if = { 
             limit = { 
-                check_variable = { which = "int_test" value = 1 }
-                NOT = { check_variable = { which = "int_test" value = 3 }}
+                check_variable = { which = "k10_roll" value = 1 }
+                NOT = { check_variable = { which = "k10_roll" value = 3 }}
             }
             # trigger mistcasts
             random_list = {
@@ -110,15 +107,15 @@ character_event = {
         }
         # big failure: k10 - learning => 3
         if = { 
-            limit = { check_variable = { which = "int_test" value = 3 } }
-            set_character_flag = last_spell_failure
+            limit = { check_variable = { which = "k10_roll" value = 3 } }
             random_list = {
                 33 = { character_event = { id = magicengine.4 }} # bad mistcast
                 33 = { character_event = { id = magicengine.3 }} # medium mistcast
                 34 = { character_event = { id = magicengine.2 }} # small mistcast
             }
         }
-        # 
+        # clear all
+        set_variable = { which = "k10_roll" value = 0 }
     }
 }
 #
@@ -160,6 +157,16 @@ character_event = {
      
     option = {
         name = "ok"
+    }
+}
+# Strategic spell cooldown event
+character_event = {
+    id = magicengine.5
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = { 
+        clr_character_flag = strategic_spell_used
     }
 }
 
