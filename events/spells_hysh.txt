@@ -80,11 +80,31 @@ character_event = {
    }
 }
 #
-# Spells for Hysh lore
-# id = ice.xy, x - spellchain id, y - event from spellchain
-#
 # battle spells:
-# duel spells:
+##############################################################
+#
+# Duel Spells:
+#
+##############################################################
+
+# Burning Gaze
+character_event = {
+   id = hysh.3
+   is_triggered_only = yes
+
+   option = {
+       name = "Puryfying light"
+       any_courtier = {
+           limit = { 
+               prisoner = no
+           }
+           #FIXME no such spell add_character_modifier = { name = spell_purifyinglight duration = 14 } 
+       }
+   }
+}
+
+
+
 # personal spells:
 #
 

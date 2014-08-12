@@ -138,9 +138,6 @@ character_event = { # Battlefield Duel Start
     
     weight_multiplier = {
         days = 1
-        modifier = {
-            factor = 0.15
-        }
         # greater chance for duel of warlike races
         modifier = {
             factor = 2
@@ -738,6 +735,10 @@ character_event = {
        }
        # Hit point bonus basing on hp
        if = {
+           limit = { NOT = { health = 2.5 } }
+           change_variable = { which = "duel_hp" value = -1 }
+       }
+       if = {
            limit = { NOT = { health = 3.5 } }
            change_variable = { which = "duel_hp" value = -1 }
        }
@@ -757,84 +758,92 @@ character_event = {
        #
        # bonus for all ranges form 0-4
        if = { 
-           limit = { martial = 7 }
+           limit = { martial = 5 }
            change_variable = { which = "duel_hp" value = 1 }
+       }
+       if = { 
+           limit = { martial = 7 }
+           change_variable = { which = "duel_att" value = 1 }
        }
        if = { 
            limit = { martial = 9 }
-           change_variable = { which = "duel_att" value = 1 }
+           change_variable = { which = "duel_def" value = 1 }
        }
        if = { 
            limit = { martial = 11 }
-           change_variable = { which = "duel_def" value = 1 }
+           change_variable = { which = "duel_hp" value = 1 }
        }
        if = { 
            limit = { martial = 13 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_att" value = 1 }
        }
        if = { 
            limit = { martial = 15 }
-           change_variable = { which = "duel_att" value = 1 }
+           change_variable = { which = "duel_def" value = 1 }
        }
        if = { 
            limit = { martial = 17 }
-           change_variable = { which = "duel_def" value = 1 }
+           change_variable = { which = "duel_hp" value = 1 }
        }
        if = { 
            limit = { martial = 19 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_att" value = 1 }
        }
        if = { 
            limit = { martial = 21 }
-           change_variable = { which = "duel_att" value = 1 }
+           change_variable = { which = "duel_def" value = 1 }
        }
        if = { 
            limit = { martial = 23 }
-           change_variable = { which = "duel_def" value = 1 }
-       }
-       if = { 
-           limit = { martial = 25 }
            change_variable = { which = "duel_hp" value = 1 }
        }
        if = { 
-           limit = { martial = 27 }
+           limit = { martial = 25 }
            change_variable = { which = "duel_att" value = 1 }
        }
        if = { 
-           limit = { martial = 29 }
+           limit = { martial = 27 }
            change_variable = { which = "duel_def" value = 1 }
        }
        # Ok now here should be traits bonus but i left them for now
+       if = { 
+           limit = { trait = wounded  }
+           change_variable = { which = "duel_def" value = -1 }
+           change_variable = { which = "duel_att" value = -1 }
+           set_variable = { which = "duel_hp" value = 3 }
+       }
+       if = { 
+           limit = { trait = maimed  }
+           change_variable = { which = "duel_def" value = -2 }
+           change_variable = { which = "duel_att" value = -2 }
+           set_variable = { which = "duel_hp" value = 2 }
+       }
+
+
    }    
 }
 # Round event
 # 
 # each rund the damage is done to opponent
 # according to formula: 
-# dmg = rand(-1,0,1,2,3) + att(attacker) - def(defender)
+# dmg = (k6 -2) + att(attacker) - def(defender) + att_mod(attacker) - def_mod(defender)
 # 
 # duel_dmg - dmg taken form enemy this round 
 # character has:
 # duel_att - attack 
 # duel_def - defense
 # duel_hp - hit points
+# duel_att_mod - temporary attack modifier
+# duel_def_mod - temporary defence modifier 
+#
 # each round it deals "duel_dmg" (variable is set on enemy)
 #
 #
-#Would it be possible for the duelists to focus on either attack or defence?
-#So before each round you'd say "Attack!!" or "Defend!!" 
-#Each option would give you a bonus to one and penalty to the other
-#Just a thought to make it more engaging. 
+# At first rund:
 #
-#         -Erik
-#
-# Done
-#         -Peter
-#
-# at first rund
-# FROMFROM = defender
-# FROM = attacker
-# ROOT = defender
+# FROMFROM = attacker
+# FROM = defender(victim)
+# ROOT = attacker
 character_event = {
     id = duelengine.4
     desc = "EVTDESC_DUELENGINE_4"
@@ -843,27 +852,26 @@ character_event = {
     is_triggered_only = yes
     
     immediate = {
+        # read all modifiers (writes duel_att_mod, duel_def_mod) variables
+        character_event = { id = duelengine.6 }
+
         # determine random part of dmg
         FROM = {
             random_list = {
-                20 = { FROM = { set_variable = { which = "duel_dmg" value = -1 } }}
-                20 = { FROM = { set_variable = { which = "duel_dmg" value =  0 } }}
-                20 = { FROM = { set_variable = { which = "duel_dmg" value =  1 } }}
-                20 = { FROM = { set_variable = { which = "duel_dmg" value =  2 } }}
-                20 = { FROM = { set_variable = { which = "duel_dmg" value =  3 } }}
+                16 = { FROM = { set_variable = { which = "duel_dmg" value = -1 } }}
+                17 = { FROM = { set_variable = { which = "duel_dmg" value =  0 } }}
+                17 = { FROM = { set_variable = { which = "duel_dmg" value =  1 } }}
+                17 = { FROM = { set_variable = { which = "duel_dmg" value =  2 } }}
+                17 = { FROM = { set_variable = { which = "duel_dmg" value =  3 } }}
+                16 = { FROM = { set_variable = { which = "duel_dmg" value =  4 } }}
             }
         }
-        # add att of attacker
-        # stance premium
-        if = { 
-            limit = { has_character_flag = attack_stance }   
-            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
-        }
-        if = { 
-            limit = { has_character_flag = defend_stance }   
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        # usual stuff
+        # APPLY: attack modifier in case of non-magic attack
+        change_variable = { which = "duel_att" which = "duel_att_mod" }
+        # APPLY: spell attack modifier in case of magic attack
+
+
+        # dmg from attack calculation (FROM is victim)
         if = { 
             limit = { check_variable = { which = "duel_att" value =  1 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
@@ -904,24 +912,49 @@ character_event = {
             limit = { check_variable = { which = "duel_att" value = 10 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
-        # subtract the def of defender
-        # stances bonus
         if = { 
-            limit = { FROM = { has_character_flag = defend_stance }}
-            FROM = { change_variable = { which = "duel_dmg" value = -1 }}
-        }
-        if = { 
-            limit = { FROM = { has_character_flag = attack_stance }}
+            limit = { check_variable = { which = "duel_att" value = 11 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
-        # usual stuff from defence
-        # should be replaced 
+        if = { 
+            limit = { check_variable = { which = "duel_att" value = 11 } }   
+            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_att" value = 12 } }   
+            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_att" value = 13 } }   
+            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_att" value = 14 } }   
+            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_att" value = 15 } }   
+            FROM = { change_variable = { which = "duel_dmg" value =  1 }}
+        }
+        # clear the bonus for next round
+        subtract_variable = { which = "duel_att" which = "duel_att_mod" }
+
+        #
+        # now we have properly defined duel_dmg for defender time 
+        # to take into account his defence capabilities
+        #
+
+        # APPLY: defence modifier 
+        FROM = { subtract_variable = { which = "duel_dmg" which = "duel_def_mod" }}
+
+        # APPLY: def of defender 
         FROM = { subtract_variable = { which = "duel_dmg" which = "duel_def" } }
         
         # Ok now duel_dmg has proper value which we should substract from health
         #
         # 
-	# thing that prevents infinite duels (thanks erik) setting dmg to 1 if 0 (40%chance)
+	# thing that prevents infinite duels (thanks erik) setting dmg to 1 if less than 0
+        # (50%chance)
         if = {
             limit = { 
                 NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
@@ -1007,15 +1040,89 @@ character_event = {
         name = "EVTOPT_DUELENGINE_5A"
         remove_character_modifier = battlefield_fight
         morale = 0.1
+        # trigger clearing event
+        hidden_tooltip = {
+            character_event = { id = duelengine.9 }
+            FROM = { character_event = { id = duelengine.9 } }
+        }
     }
 }
+#########################################################
+#
+# Modifer setting event: duelengine.6
+#
+# This even handles all modifiers that apply to character
+# stats
+#
+#########################################################
+#
+# FROM = ROOT = attacker
+# FROMFROM = victim/defender
+#
+character_event = {
+    id = duelengine.6
+    is_triggered_only = yes
+    hide_window = yes
+    
+    immediate = {
+        # clear bonuses 
+        set_variable = { which = "duel_att_mod" value = 0 }
+        set_variable = { which = "duel_def_mod" value = 0 }
+       
+        # stance bonus
+        if = { 
+            limit = { has_character_flag = attack_stance }   
+            change_variable = { which = "duel_att_mod" value =  1 }
+            change_variable = { which = "duel_def_mod" value = -1 }
+        }
+        if = { 
+            limit = { has_character_flag = defend_stance }   
+            change_variable = { which = "duel_att_mod" value = -1 }
+            change_variable = { which = "duel_def_mod" value = 1 }
+        }
+ 
+        # magic bonuses
+        # hysh effect: flare
+        if = { 
+            limit = { has_character_flag = spell_effect_flare }
+            change_variable = { which = "duel_att_mod" value = -1 }
+            change_variable = { which = "duel_def_mod" value = -1 }
+        }
+        # hysh effect: radiant weapon
+        if = { 
+            limit = { 
+                has_character_flag = spell_effect_radiant_weapon
+                FROMFROM = { culture_group = daemon_group } 
+            } 
+            change_variable = { which = "duel_att_mod" value = 2 }
+        }
+    }
+}
+# CLEAR ALL EVENT
+character_event = {
+    id = duelengine.9
+    is_triggered_only = yes
+    hide_window = yes
+    
+    immediate = {
+        # clear all duel stats
+        set_variable = { which = "duel_att_mod" value = 0 }
+        set_variable = { which = "duel_def_mod" value = 0 }
+        set_variable = { which = "duel_att" value = 0 }
+        set_variable = { which = "duel_def" value = 0 }
+        set_variable = { which = "duel_dmg" value = 0 }
+        set_variable = { which = "duel_hp" value = 0 }
+    }
+}
+
 # Deciding who is first is done in event triggering the duel
 # This is the event triggered by some battle events etc
 #
 # TODO it should be right this maybe?
 ####################################################
 #
-# VISIBLE EVENTS FOR REPORTING THE DUEL
+# VISIBLE EVENTS FOR REPORTING THE DUEL 
+# AND CHOOSING OPTIONS
 #
 ####################################################
 #
@@ -1027,7 +1134,8 @@ character_event = {
 ##Seems like this could make for lots of fun description writing as there are really only 6 outcomes right now
 ##     -Erik
 #
-# its easy moddable but right now 
+# Pietrko(Arsakes): yes we could make mage dependnet outcomes too
+#
 #
 #
 # id = 20-x
@@ -1120,7 +1228,6 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         clr_character_flag = attack_stance
         clr_character_flag = defend_stance
-        clr_character_flag = normal_stance
         set_character_flag = normal_stance
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1276,9 +1383,13 @@ character_event = {
         morale = -0.1
         FROMFROM = { character_event = { id = duelengine.27 } }
         # garbage clean
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        hidden_tooltip = {
+            clr_character_flag = normal_stance
+            clr_character_flag = attack_stance
+            clr_character_flag = defend_stance
+            # clean all other duel stats
+            character_event = { id = duelengine.9 }
+        }
     }
 }
 # report the escape to winner
@@ -1293,8 +1404,16 @@ character_event = {
         name = "EVTOPT_DUELENGINE_27A"
         morale = 0.1
         # garbage clean
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        hidden_tooltip = {
+            clr_character_flag = normal_stance
+            clr_character_flag = attack_stance
+            clr_character_flag = defend_stance
+            # clean all other duel stats
+            character_event = { id = duelengine.9 }
+        }
     }
 }
+
+
+
+

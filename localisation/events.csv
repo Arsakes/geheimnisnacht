@@ -74,7 +74,7 @@ EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;In the heat of battle you have spotted an opponent;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_0A;May the gods be with me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;In the heat of battle you have spotted your opponent [From.GetTitledFirstName], will you confront your enemy?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you. Do you want to start the fight?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1A;I will crush him!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;Reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;I must run!;;;;;;;;;;;;;x
