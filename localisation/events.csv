@@ -72,35 +72,35 @@ EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
 #
 #
 # namespace = duelengine
-EVTDESC_DUELENGINE_0;In the heat of battle you have spotted an opponent;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_0A;May the gods be with me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you. Do you want to start the fight?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_1A;I will crush him!;;;;;;;;;;;;;x
-DUELENGINE_TOOLTIP_1A;Reacts!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_1B;I must run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_4;The fighting continues... What will be your next move?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4A;Never surrender!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4B;Fight!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4C;Crush him!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4D;I will never yield!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4E;Hit harder!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield and covered [From.GetHerHis]self in shame!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_5A;One day I will finish that coward... I swear!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_20;You hit your enemy and injuried him, however gap in your defence let him to hit you.;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20A;Defend from enemy's hits;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20B;Charge!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20C;Balance your defence and attack;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_21;You hit your enemy and injuried him, your masterly defence did not give him occasion to counter.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_22;Your enemy hit you and countered your attack.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_23;Neither of you was able to hurt the other.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_24;You have lost, your enemy was better you die...;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_24A;Noo....!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_25;You have won! The body of your enemy lies before you.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_0A;I shall defeat them!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you across the field of battle. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
+DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_4;The battle is not yet won...;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4A;...but your time in it is over.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4B;...but you are giving as good as you take.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4C;...but you have the upper hand.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4D;...but you can still turn it around.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4E;...but things are at at standstill.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_20;You slash at [From.GetTitledFirstName] and manage to wound [From.GetHerHim], however your attack left you open to [from.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20A;Focus on defence. Let no attack through!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_21;[From.GetTitledFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [From.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_22;You attack [From.GetTitledFirstName] but are unable to penetrate [from.GetHerHis] defences, and [From.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_23;[From.GetTitledFirstName] blocks every blow you send [from.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_24;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_24A;Avenge me!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledFirstName] lies before you.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_25A;Hurray!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_26;You have lost the duel.. Wounded and weak you managed to escape...;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_27;You have won! However your enemy manged to escape!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_27A;Arragh what a coward!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledFirstName] has managed to escape!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
