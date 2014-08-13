@@ -2,18 +2,98 @@
 # Spells for Hysh lore
 # id = hysh.xy, x - spellchain id, y - event from spellchain
 #
-# battle spells:
-# duel spells:
-# strategic spells:
-# metaspell: spell for chosing other spells
+# battle spells: 1-9
+# duel spells: 10-19
+# strategic spells: 20-29
 # 
 namespace = hysh
-# 
-# SPELLS EFFECTS
+##############################################################
 #
+# Battle Spells:
+#
+##############################################################
+
+##############################################################
+#
+# Duel Spells:
+#
+##############################################################
+
+# Burning Gaze
+character_event = {
+   id = hysh.10
+   is_triggered_only = yes
+   desc = "Burning Gaze!"
+
+   immediate = { 
+       set_variable = { which = "duel_magic_att" value = 6 }
+       random_list = {
+           # 50% to cause blindness
+           50 = { set_character_flag = duel_effect_flare }
+           50 = { }
+       }
+   }
+   option = {
+       name = "OK"
+   }
+}
+character_event = {
+   id = hysh.11
+   is_triggered_only = yes
+   desc = "Body of Light"
+
+   immediate = { 
+       set_character_flag  = duel_effect_body_of_light
+   }
+
+   option = {
+       name = "OK"
+   }
+}
+character_event = {
+   id = hysh.12
+   is_triggered_only = yes
+   desc = "Healing Energy"
+ 
+   immediate = { 
+       random_list = {
+          33 = { change_variable = { which = "duel_hp" value = 1 } }
+          34 = { change_variable = { which = "duel_hp" value = 2 } }
+          33 = { change_variable = { which = "duel_hp" value = 3 } }
+       }
+       if = {
+           limit = { check_varaiable = { which = "duel_hp" which = "duel_max_hp" } }
+           set_variable = { which = "duel_hp" which = "duel_max_hp" }
+       }
+   }
+
+   option = {
+       name = "OK"
+   }
+}
+character_event = {
+   id = hysh.13
+   is_triggered_only = yes
+   desc = "Radiant Weapon"
+
+   immediate = { 
+       set_character_flag  = duel_effect_radiant_weapon
+   }
+
+   option = {
+       name = "OK"
+   }
+}
+
+
+######################################################
+#
+# STRATEGIC SPELLS
+#
+######################################################
 # Hysh blessing (metaspell, strategic spell)
 character_event = {
-    id = hysh.10
+    id = hysh.20
     desc = ""
     is_triggered_only = yes
     
@@ -42,7 +122,7 @@ character_event = {
 #
 # main effect
 character_event = {
-   id = hysh.2
+   id = hysh.21
    is_triggered_only = yes
    
    option = {
@@ -64,47 +144,5 @@ character_event = {
        }
    }
 }
-# Puryfying light (icreasing health)
-character_event = {
-   id = hysh.3
-   is_triggered_only = yes
 
-   option = {
-       name = "Puryfying light"
-       any_courtier = {
-           limit = { 
-               prisoner = no
-           }
-           #FIXME no such spell add_character_modifier = { name = spell_purifyinglight duration = 14 } 
-       }
-   }
-}
-#
-# battle spells:
-##############################################################
-#
-# Duel Spells:
-#
-##############################################################
-
-# Burning Gaze
-character_event = {
-   id = hysh.3
-   is_triggered_only = yes
-
-   option = {
-       name = "Puryfying light"
-       any_courtier = {
-           limit = { 
-               prisoner = no
-           }
-           #FIXME no such spell add_character_modifier = { name = spell_purifyinglight duration = 14 } 
-       }
-   }
-}
-
-
-
-# personal spells:
-#
 

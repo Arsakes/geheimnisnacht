@@ -3,6 +3,7 @@
 # @author Pietrko <p.l.stepnicki@gmail.com>
 # @version 0.1.0
 # @compatibility 2.1.6
+# @modified_on 0.1.2
 #
 # Here is Warhammer mod custom duel engine
 #
@@ -665,7 +666,11 @@ character_event = {
         }
     }
 }
-# Set character attributes basing on traits
+###########################################################################
+#
+# DUEL INIT:  Set character attributes basing on traits
+#
+###########################################################################
 character_event = {
    id = duelengine.3
    hide_window = yes 
@@ -686,7 +691,7 @@ character_event = {
                    trait = creature_skink
                }
            } 
-           set_variable = { which = "duel_hp" value = 5 }
+           set_variable = { which = "duel_max_hp" value = 5 }
            set_variable = { which = "duel_att" value = 3 }
            set_variable = { which = "duel_def" value = 3 }
        }
@@ -698,14 +703,14 @@ character_event = {
                    trait = creature_skaven
                }
            } 
-           set_variable = { which = "duel_hp" value = 7 }
+           set_variable = { which = "duel_max_hp" value = 7 }
            set_variable = { which = "duel_att" value = 3 }
            set_variable = { which = "duel_def" value = 4 }
        }
        # elves (they seem to be weaker however they gain martial bonus
        # so its not true at all
        if = { limit = { trait = creature_elf } 
-           set_variable = { which = "duel_hp" value = 6 }
+           set_variable = { which = "duel_max_hp" value = 6 }
            set_variable = { which = "duel_att" value = 4 }
            set_variable = { which = "duel_def" value = 3 }
        }
@@ -717,49 +722,49 @@ character_event = {
                    trait = creature_chaos_dwarf
                }
            } 
-           set_variable = { which = "duel_hp" value = 8 }
+           set_variable = { which = "duel_max_hp" value = 8 }
            set_variable = { which = "duel_att" value = 3 }
            set_variable = { which = "duel_def" value = 4 }
        }
        # orcs
        if = { limit = { trait = creature_orc } 
-           set_variable = { which = "duel_hp" value =  8 }
+           set_variable = { which = "duel_max_hp" value =  8 }
            set_variable = { which = "duel_att" value = 4 }
            set_variable = { which = "duel_def" value = 4 }
        }
        # ogres are veryy big but slow witted
        if = { limit = { trait = creature_ogre } 
-           set_variable = { which = "duel_hp" value = 10 }
+           set_variable = { which = "duel_max_hp" value = 10 }
            set_variable = { which = "duel_att" value = 5 }
            set_variable = { which = "duel_def" value = 4 }
        }
        # Hit point bonus basing on hp
        if = {
            limit = { NOT = { health = 2.5 } }
-           change_variable = { which = "duel_hp" value = -1 }
+           change_variable = { which = "duel_max_hp" value = -1 }
        }
        if = {
            limit = { NOT = { health = 3.5 } }
-           change_variable = { which = "duel_hp" value = -1 }
+           change_variable = { which = "duel_max_hp" value = -1 }
        }
        if = {
            limit = { health = 4.5 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = {
            limit = { health = 5.5 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = {
            limit = { health = 6.5 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        # Attack, defence, hp bonus basing on martial skill
        #
        # bonus for all ranges form 0-4
        if = { 
            limit = { martial = 5 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = { 
            limit = { martial = 7 }
@@ -771,7 +776,7 @@ character_event = {
        }
        if = { 
            limit = { martial = 11 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = { 
            limit = { martial = 13 }
@@ -783,7 +788,7 @@ character_event = {
        }
        if = { 
            limit = { martial = 17 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = { 
            limit = { martial = 19 }
@@ -795,7 +800,7 @@ character_event = {
        }
        if = { 
            limit = { martial = 23 }
-           change_variable = { which = "duel_hp" value = 1 }
+           change_variable = { which = "duel_max_hp" value = 1 }
        }
        if = { 
            limit = { martial = 25 }
@@ -805,6 +810,9 @@ character_event = {
            limit = { martial = 27 }
            change_variable = { which = "duel_def" value = 1 }
        }
+       # setting starting hit points 
+       set_variable = { which = "duel_hp" which = "duel_max_hp" }
+
        # Ok now here should be traits bonus but i left them for now
        if = { 
            limit = { trait = wounded  }
@@ -818,25 +826,36 @@ character_event = {
            change_variable = { which = "duel_att" value = -2 }
            set_variable = { which = "duel_hp" value = 2 }
        }
-
-
+       
+      
+       ################## MAGIC ################################
+       # read willpower and set magic points
+       character_event = { id = "dicethrow.0" } 
+       set_variable = { which =  "magic_points" which = "SW" }
+       set_variable = { which = "SW" value = 0}
    }    
 }
 # Round event
 # 
 # each rund the damage is done to opponent
 # according to formula: 
-# dmg = (k6 -2) + att(attacker) - def(defender) + att_mod(attacker) - def_mod(defender)
+#
+# CHARACTER STATS
 # 
 # duel_dmg - dmg taken form enemy this round 
-# character has:
 # duel_att - attack 
 # duel_def - defense
-# duel_hp - hit points
+# duel_hp - actual hit points
+# duel_max_hp - maximal hit points
 # duel_att_mod - temporary attack modifier
 # duel_def_mod - temporary defence modifier 
+# duel_magic_att - used in place of duel_att if not zero
+#
+# magic_points - this is from other system, however is also used in duels
+# not in a explicit way though
 #
 # each round it deals "duel_dmg" (variable is set on enemy)
+# dmg = (k6 -2) + att(attacker) - def(defender) + att_mod(attacker) - def_mod(defender)
 #
 #
 # At first rund:
@@ -852,25 +871,33 @@ character_event = {
     is_triggered_only = yes
     
     immediate = {
+        # clear flags that mark character's choose of type of move
+        clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_magic_spell
+        clr_character_flag = duel_move_magic_other
+        
         # read all modifiers (writes duel_att_mod, duel_def_mod) variables
         character_event = { id = duelengine.6 }
 
-        # determine random part of dmg
-        FROM = {
-            random_list = {
-                16 = { FROM = { set_variable = { which = "duel_dmg" value = -1 } }}
-                17 = { FROM = { set_variable = { which = "duel_dmg" value =  0 } }}
-                17 = { FROM = { set_variable = { which = "duel_dmg" value =  1 } }}
-                17 = { FROM = { set_variable = { which = "duel_dmg" value =  2 } }}
-                17 = { FROM = { set_variable = { which = "duel_dmg" value =  3 } }}
-                16 = { FROM = { set_variable = { which = "duel_dmg" value =  4 } }}
-            }
+        # APPLY: attack modifier in case of modifed attack that is non-magical
+        if = {
+            limit = { is_variable_equal = { which = "duel_magic_att" value = 0 } }
+            change_variable = { which = "duel_att" which = "duel_att_mod" }
         }
-        # APPLY: attack modifier in case of non-magic attack
-        change_variable = { which = "duel_att" which = "duel_att_mod" }
-        # APPLY: spell attack modifier in case of magic attack
-
-
+         
+        # set basic damage
+        FROM = { set_variable = { which = "duel_dmg" value = 0 } }
+       
+        # MAGIC DAMAGE
+        #
+        # in this case we swap duel_att wiht duel_magic_att  
+        # using temporary variable duel_temp
+        if = {
+             limit = { NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 } } }
+             set_variable = { which = "duel_temp" which = "duel_att" }
+             set_variable = { which = "duel_att" which = "duel_magic_att" }
+        }
+        
         # dmg from attack calculation (FROM is victim)
         if = { 
             limit = { check_variable = { which = "duel_att" value =  1 } }   
@@ -936,9 +963,32 @@ character_event = {
             limit = { check_variable = { which = "duel_att" value = 15 } }   
             FROM = { change_variable = { which = "duel_dmg" value =  1 }}
         }
-        # clear the bonus for next round
-        subtract_variable = { which = "duel_att" which = "duel_att_mod" }
+        # CLEAR MAGIC DAMAGE SWAP IN CASE OF USING SPELLS
+        if = {
+             limit = { NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 } } }
+             set_variable = { which = "duel_att" which = "duel_temp" }
+             set_variable = { which = "duel_magic_att" value = 0 }
+             set_variable = { which = "duel_temp" value = 0 }
+        }
 
+        # clear the bonus for next round (in case we have used that bonus) 
+        if = {
+            limit = { is_variable_equal = { which = "duel_magic_att" value = 0 } }
+            subtract_variable = { which = "duel_att" which = "duel_att_mod" }
+        }
+ 
+        # determine random part of dmg
+        FROM = {
+            random_list = {
+                16 = { FROM = { change_variable = { which = "duel_dmg" value = -1 } }}
+                17 = { FROM = { change_variable = { which = "duel_dmg" value =  0 } }}
+                17 = { FROM = { change_variable = { which = "duel_dmg" value =  1 } }}
+                17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                17 = { FROM = { change_variable = { which = "duel_dmg" value =  3 } }}
+                16 = { FROM = { change_variable = { which = "duel_dmg" value =  4 } }}
+            }
+        }
+ 
         #
         # now we have properly defined duel_dmg for defender time 
         # to take into account his defence capabilities
@@ -964,9 +1014,30 @@ character_event = {
         }
         # applying damge
         FROM = { subtract_variable = { which = "duel_hp" which = "duel_dmg" } }
+        
+        # clear some ONE ROUND effects 
+        clr_character_flag = duel_effect_defend
+        clr_character_flag = duel_effect_attack
+        clr_character_flag = duel_effect_counterspell
+
     }
+ 
+    
+    #############################################################################
+    #
+    # Here is decided round outcome, also the player decides what 
+    # kind of move (regular combat, prepare spell, control the winds, change lore)
+    # for each kind of round outcome there are 4 options 
+    # therefore no more 4 * 4 options alotgether
+    #
+    # There are 4 (+1 death case) big mutally exclusive big cases  - in each case 
+    # player is able to do one 
+    #
+    ############################################################################
+    #
+    # CASE 0 - END OF COMBAT
     option = {
-        name = "EVTOPT_DUELENGINE_4A"
+        name = "EVTOPT_DUELENGINE_4E"
         # ONLY ONE IF CASE SHOULD FIRE
         # Events in case of death
         trigger = { 
@@ -981,6 +1052,22 @@ character_event = {
         }}
         ai_chance = { factor = 1 }
     }
+    # CASE 1: BLOODY DRAW
+    # subcase 1
+    option = {
+        name = "EVTOPT_DUELENGINE_4A"
+        # Now when dmg is done there is time to send report events
+        #
+        # Both people hit themselves
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+            check_variable = { which = "duel_dmg" value = 1 }
+        }
+        character_event = { id = duelengine.20 }
+        set_character_flag = duel_move_combat
+        ai_chance = { factor = 1 }
+    }
     option = {
         name = "EVTOPT_DUELENGINE_4B"
         # Now when dmg is done there is time to send report events
@@ -992,7 +1079,48 @@ character_event = {
             check_variable = { which = "duel_dmg" value = 1 }
         }
         character_event = { id = duelengine.20 }
+        set_character_flag = duel_move_magic_spell
         ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_4C"
+        # Now when dmg is done there is time to send report events
+        #
+        # Both people hit themselves
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+            check_variable = { which = "duel_dmg" value = 1 }
+        }
+        character_event = { id = duelengine.20 }
+        set_character_flag = duel_move_magic_other
+        ai_chance = { factor = 1 }
+    }
+    ###################################################################
+    #
+    # CASE 2: VICTORY
+    #
+    option = {
+        name = "EVTOPT_DUELENGINE_4A"
+        # You hit your opponent
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        }
+        set_character_flag = duel_move_combat
+        character_event = { id = duelengine.21 } 
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_4B"
+        # You hit your opponent
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        }
+        set_character_flag = duel_move_magic_spell
+        character_event = { id = duelengine.21 } 
     }
     option = {
         name = "EVTOPT_DUELENGINE_4C"
@@ -1002,10 +1130,15 @@ character_event = {
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
         }
+        set_character_flag = duel_move_magic_other
         character_event = { id = duelengine.21 } 
     }
+    #################################################################
+    #
+    # CASE 3: FAILURE
+    #
     option = {   
-        name = "EVTOPT_DUELENGINE_4D"
+        name = "EVTOPT_DUELENGINE_4A"
         # Your opponent hits you   
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
@@ -1013,10 +1146,39 @@ character_event = {
             check_variable = { which = "duel_dmg" value = 1 }
         }
         character_event = { id = duelengine.22 }
+        set_character_flag = duel_move_combat
         ai_chance = { factor = 1 }
     }   
+    option = {   
+        name = "EVTOPT_DUELENGINE_4B"
+        # Your opponent hits you   
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+            check_variable = { which = "duel_dmg" value = 1 }
+        }
+        character_event = { id = duelengine.22 }
+        set_character_flag = duel_move_magic_spell
+        ai_chance = { factor = 1 }
+    }   
+    option = {   
+        name = "EVTOPT_DUELENGINE_4C"
+        # Your opponent hits you   
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+            check_variable = { which = "duel_dmg" value = 1 }
+        }
+        character_event = { id = duelengine.22 } 
+        set_character_flag = duel_move_magic_other
+        ai_chance = { factor = 1 }
+    }   
+    ###################################################################
+    # 
+    # CASE 4: WHITE DRAW
+    #
     option = {
-        name = "EVTOPT_DUELENGINE_4E"
+        name = "EVTOPT_DUELENGINE_4A"
         # Nobody hits
         trigger = {
             check_variable = { which = "duel_hp" value = 1 }
@@ -1024,8 +1186,35 @@ character_event = {
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
         }
         character_event = { id = duelengine.23 }
+        set_character_flag = duel_move_combat
         ai_chance = { factor = 1 }
     }
+    option = {
+        name = "EVTOPT_DUELENGINE_4B"
+        # Nobody hits
+        trigger = {
+            check_variable = { which = "duel_hp" value = 1 }
+            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        }
+        character_event = { id = duelengine.23 }
+        set_character_flag = duel_move_magic_spell
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_4C"
+        # channeling, counterspell
+        trigger = {
+            check_variable = { which = "duel_hp" value = 1 }
+            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        }
+        character_event = { id = duelengine.23 }
+        ai_chance = { factor = 1 }
+        set_character_flag = duel_move_magic_other
+
+    }
+    # END OF THIS FUCKING BIG EVENT
 }
 #
 # Run report 
@@ -1065,37 +1254,57 @@ character_event = {
     hide_window = yes
     
     immediate = {
+
         # clear bonuses 
         set_variable = { which = "duel_att_mod" value = 0 }
         set_variable = { which = "duel_def_mod" value = 0 }
        
         # stance bonus
         if = { 
-            limit = { has_character_flag = attack_stance }   
+            limit = { has_character_flag = duel_effect_attack }   
             change_variable = { which = "duel_att_mod" value =  1 }
             change_variable = { which = "duel_def_mod" value = -1 }
         }
         if = { 
-            limit = { has_character_flag = defend_stance }   
+            limit = { has_character_flag = duel_effect_defend }   
             change_variable = { which = "duel_att_mod" value = -1 }
             change_variable = { which = "duel_def_mod" value = 1 }
         }
  
         # magic bonuses
+        # counterspell in case of non-zero magic dmg
+        if = {
+            limit = { 
+                has_character_flag = duel_effect_counterspell 
+                # check enemy
+                FROMFROM = { NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 }}}
+             }
+            
+            change_variable = { which = "duel_def_mod" value = 3 }
+            # TODO apply lvl dependent bonus
+        }
         # hysh effect: flare
         if = { 
-            limit = { has_character_flag = spell_effect_flare }
+            limit = { has_character_flag = duel_effect_flare }
             change_variable = { which = "duel_att_mod" value = -1 }
             change_variable = { which = "duel_def_mod" value = -1 }
         }
         # hysh effect: radiant weapon
         if = { 
             limit = { 
-                has_character_flag = spell_effect_radiant_weapon
+                has_character_flag = duel_effect_radiant_weapon
                 FROMFROM = { culture_group = daemon_group } 
             } 
             change_variable = { which = "duel_att_mod" value = 2 }
         }
+        # body of light
+        if = { 
+            limit = { 
+                has_character_flag = duel_effect_body_of_light
+            } 
+            change_variable = { which = "duel_def_mod" value = 2 }
+        }
+
     }
 }
 # CLEAR ALL EVENT
@@ -1140,6 +1349,10 @@ character_event = {
 #
 # id = 20-x
 #
+# Each reporting event is also event used for choosing the particular move from 
+# the move category defined one event before
+# For all report events all options are THE SAME
+#
 # Round draw
 character_event = { 
     id = duelengine.20
@@ -1148,13 +1361,12 @@ character_event = {
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
   
+    # CASE 1 MEELE COMBAT
     option = {
-       name = "EVTOPT_DUELENGINE_20A"
-        trigger = { NOT = { has_character_flag = defend_stance } }
-        
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        set_character_flag = defend_stance
+        name = "EVTOPT_DUELENGINE_20A"
+        trigger = { has_character_flag = duel_move_combat }
+
+        set_character_flag = duel_effect_defend
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # low hp - higher chances to defend
@@ -1170,13 +1382,12 @@ character_event = {
             }
         }
     }
+    # attack stance
     option = {
         name = "EVTOPT_DUELENGINE_20B"
-        trigger = { NOT = { has_character_flag = attack_stance } }
+        trigger = { has_character_flag = duel_move_combat }
         
-        clr_character_flag = normal_stance
-        set_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        set_character_flag = duel_effect_attack
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1188,12 +1399,74 @@ character_event = {
             } 
         }
     }
+    # normal stance
     option = {
         name = "EVTOPT_DUELENGINE_20C"
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
-        clr_character_flag = normal_stance
-        set_character_flag = normal_stance
+        trigger = { has_character_flag = duel_move_combat }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 2 CASTING SPELL
+    option = {
+        name = "EVTOPT_DUELENGINE_20D"
+        trigger = { has_character_flag = duel_move_magic_spell }
+
+        # offensive spell dispatcher
+        character_event = { id = magicengine.6 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20E"
+        trigger = { has_character_flag = duel_move_magic_spell }
+        
+        # defensive spell dispatcher
+        character_event = { id = magicengine.7 }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20F"
+        trigger = { has_character_flag = duel_move_magic_spell }
+ 
+        # buff spell dispatcher
+        character_event = { id = magicengine.8 }
+     
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+     option = {
+        name = "EVTOPT_DUELENGINE_20G"
+        trigger = { has_character_flag = duel_move_magic_spell }
+       
+        # special spell dispatcher
+        character_event = { id = magicengine.9 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 3 MAGIC ACTION
+    option = {
+        name = "EVTOPT_DUELENGINE_20H"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # channeling event
+        character_event =  { id = magicengine.0 }
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20I"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # counterspell flag
+        set_character_flag = duel_effect_counterspell
+        # magic points penalty
+        change_variable = { which = "magic_points" value = -2 }
+
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1205,49 +1478,13 @@ character_event = {
     picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
-  
-    option = {
-        name = "EVTOPT_DUELENGINE_20B" #the same names
-        trigger = { NOT = { has_character_flag = attack_stance } }
-        
-        clr_character_flag = normal_stance
-        set_character_flag = attack_stance
-        clr_character_flag = defend_stance
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        # high hp - higher chances to attack
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                check_variable = { which = "duel_hp" value = 5 }
-            } 
-        }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_20C"
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
-        set_character_flag = normal_stance
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-}
-# Round lost
-character_event = { 
-    id = duelengine.22
-    desc = "EVTDESC_DUELENGINE_22"
-    is_triggered_only = yes
-    picture = "GFX_evt_duel4"
-    border = GFX_event_normal_frame_war
-    
+    # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
-        trigger = { NOT = { has_character_flag = defend_stance } }
-        
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        set_character_flag = defend_stance
+        trigger = { has_character_flag = duel_move_combat }
+
+        set_character_flag = duel_effect_defend
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # low hp - higher chances to defend
@@ -1263,31 +1500,12 @@ character_event = {
             }
         }
     }
-    option = {
-        name = "EVTOPT_DUELENGINE_20C"
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
-        clr_character_flag = normal_stance
-        set_character_flag = normal_stance
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-}
-# Round draw
-character_event = { 
-    id = duelengine.23
-    desc = "EVTDESC_DUELENGINE_23"
-    is_triggered_only = yes
-    picture = "GFX_evt_duel0"
-    border = GFX_event_normal_frame_war
-    
+    # attack stance
     option = {
         name = "EVTOPT_DUELENGINE_20B"
-        trigger = { NOT = { has_character_flag = attack_stance } }
+        trigger = { has_character_flag = duel_move_combat }
         
-        clr_character_flag = normal_stance
-        set_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        set_character_flag = duel_effect_attack
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1299,15 +1517,318 @@ character_event = {
             } 
         }
     }
+    # normal stance
     option = {
         name = "EVTOPT_DUELENGINE_20C"
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
-        clr_character_flag = normal_stance
-        set_character_flag = normal_stance
+        trigger = { has_character_flag = duel_move_combat }
+       
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # CASE 2 CASTING SPELL
+    option = {
+        name = "EVTOPT_DUELENGINE_20D"
+        trigger = { has_character_flag = duel_move_magic_spell }
+
+        # offensive spell dispatcher
+        character_event = { id = magicengine.6 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20E"
+        trigger = { has_character_flag = duel_move_magic_spell }
+        
+        # defensive spell dispatcher
+        character_event = { id = magicengine.7 }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20F"
+        trigger = { has_character_flag = duel_move_magic_spell }
+ 
+        # buff spell dispatcher
+        character_event = { id = magicengine.8 }
+     
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+     option = {
+        name = "EVTOPT_DUELENGINE_20G"
+        trigger = { has_character_flag = duel_move_magic_spell }
+       
+        # special spell dispatcher
+        character_event = { id = magicengine.9 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 3 MAGIC ACTION
+    option = {
+        name = "EVTOPT_DUELENGINE_20H"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # channeling event
+        character_event =  { id = magicengine.0 }
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20I"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # counterspell flag
+        set_character_flag = duel_effect_counterspell
+        # magic points penalty
+        change_variable = { which = "magic_points" value = -2 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+
+}
+# Round lost
+character_event = { 
+    id = duelengine.22
+    desc = "EVTDESC_DUELENGINE_22"
+    is_triggered_only = yes
+    picture = "GFX_evt_duel4"
+    border = GFX_event_normal_frame_war
+    
+    # CASE 1 MEELE COMBAT
+    option = {
+        name = "EVTOPT_DUELENGINE_20A"
+        trigger = { has_character_flag = duel_move_combat }
+
+        set_character_flag = duel_effect_defend
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        # low hp - higher chances to defend
+        ai_chance = { 
+            factor = 2
+            modifier = {
+                factor = 4
+                NOT = { check_variable = { which = "duel_hp" value = 3 } }
+            }
+            modifier = {
+                factor = 0.5
+                check_variable = { which = "duel_hp" value = 5 }
+            }
+        }
+    }
+    # attack stance
+    option = {
+        name = "EVTOPT_DUELENGINE_20B"
+        trigger = { has_character_flag = duel_move_combat }
+        
+        set_character_flag = duel_effect_attack
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        # high hp - higher chances to attack
+        ai_chance = { 
+            factor = 2
+            modifier = {
+                factor = 4
+                check_variable = { which = "duel_hp" value = 5 }
+            } 
+        }
+    }
+    # normal stance
+    option = {
+        name = "EVTOPT_DUELENGINE_20C"
+        trigger = { has_character_flag = duel_move_combat }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 2 CASTING SPELL
+    option = {
+        name = "EVTOPT_DUELENGINE_20D"
+        trigger = { has_character_flag = duel_move_magic_spell }
+
+        # offensive spell dispatcher
+        character_event = { id = magicengine.6 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20E"
+        trigger = { has_character_flag = duel_move_magic_spell }
+        
+        # defensive spell dispatcher
+        character_event = { id = magicengine.7 }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20F"
+        trigger = { has_character_flag = duel_move_magic_spell }
+ 
+        # buff spell dispatcher
+        character_event = { id = magicengine.8 }
+     
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+     option = {
+        name = "EVTOPT_DUELENGINE_20G"
+        trigger = { has_character_flag = duel_move_magic_spell }
+       
+        # special spell dispatcher
+        character_event = { id = magicengine.9 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 3 MAGIC ACTION
+    option = {
+        name = "EVTOPT_DUELENGINE_20H"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # channeling event
+        character_event =  { id = magicengine.0 }
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20I"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # counterspell flag
+        set_character_flag = duel_effect_counterspell
+        # magic points penalty
+        change_variable = { which = "magic_points" value = -2 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+
+
+}
+# Round draw
+character_event = { 
+    id = duelengine.23
+    desc = "EVTDESC_DUELENGINE_23"
+    is_triggered_only = yes
+    picture = "GFX_evt_duel0"
+    border = GFX_event_normal_frame_war
+    
+    # CASE 1 MEELE COMBAT
+    option = {
+        name = "EVTOPT_DUELENGINE_20A"
+        trigger = { has_character_flag = duel_move_combat }
+
+        set_character_flag = duel_effect_defend
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        # low hp - higher chances to defend
+        ai_chance = { 
+            factor = 2
+            modifier = {
+                factor = 4
+                NOT = { check_variable = { which = "duel_hp" value = 3 } }
+            }
+            modifier = {
+                factor = 0.5
+                check_variable = { which = "duel_hp" value = 5 }
+            }
+        }
+    }
+    # attack stance
+    option = {
+        name = "EVTOPT_DUELENGINE_20B"
+        trigger = { has_character_flag = duel_move_combat }
+        
+        set_character_flag = duel_effect_attack
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        # high hp - higher chances to attack
+        ai_chance = { 
+            factor = 2
+            modifier = {
+                factor = 4
+                check_variable = { which = "duel_hp" value = 5 }
+            } 
+        }
+    }
+    # normal stance
+    option = {
+        name = "EVTOPT_DUELENGINE_20C"
+        trigger = { has_character_flag = duel_move_combat }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 2 CASTING SPELL
+    option = {
+        name = "EVTOPT_DUELENGINE_20D"
+        trigger = { has_character_flag = duel_move_magic_spell }
+
+        # offensive spell dispatcher
+        character_event = { id = magicengine.6 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20E"
+        trigger = { has_character_flag = duel_move_magic_spell }
+        
+        # defensive spell dispatcher
+        character_event = { id = magicengine.7 }
+       
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20F"
+        trigger = { has_character_flag = duel_move_magic_spell }
+ 
+        # buff spell dispatcher
+        character_event = { id = magicengine.8 }
+     
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+     option = {
+        name = "EVTOPT_DUELENGINE_20G"
+        trigger = { has_character_flag = duel_move_magic_spell }
+       
+        # special spell dispatcher
+        character_event = { id = magicengine.9 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    # CASE 3 MAGIC ACTION
+    option = {
+        name = "EVTOPT_DUELENGINE_20H"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # channeling event
+        character_event =  { id = magicengine.0 }
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_20I"
+        trigger = { has_character_flag = duel_move_magic_other }
+
+        # counterspell flag
+        set_character_flag = duel_effect_counterspell
+        # magic points penalty
+        change_variable = { which = "magic_points" value = -2 }
+
+        FROMFROM = { character_event = { id = duelengine.4 }}
+        ai_chance = { factor = 4 }
+    }
+
+
 }
 # in case of death
 #
@@ -1332,9 +1853,8 @@ character_event = {
         death = { death_reason = death_accident }
         FROMFROM = { character_event = { id = duelengine.25 } }
         # garbage clean
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        clr_character_flag = duel_effect_attack
+        clr_character_flag = duel_effect_defend
     }
 }
 # report the death to winner
@@ -1349,9 +1869,8 @@ character_event = {
         name = "EVTOPT_DUELENGINE_25A"
         morale = 0.1
         # garbage clean
-        clr_character_flag = normal_stance
-        clr_character_flag = attack_stance
-        clr_character_flag = defend_stance
+        clr_character_flag = duel_effect_attack
+        clr_character_flag = duel_effect_defend
     }
 }
 # report about escape
@@ -1384,9 +1903,8 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.27 } }
         # garbage clean
         hidden_tooltip = {
-            clr_character_flag = normal_stance
-            clr_character_flag = attack_stance
-            clr_character_flag = defend_stance
+            clr_character_flag = duel_effect_attack
+            clr_character_flag = duel_effect_defend
             # clean all other duel stats
             character_event = { id = duelengine.9 }
         }
@@ -1405,9 +1923,8 @@ character_event = {
         morale = 0.1
         # garbage clean
         hidden_tooltip = {
-            clr_character_flag = normal_stance
-            clr_character_flag = attack_stance
-            clr_character_flag = defend_stance
+            clr_character_flag = duel_effect_attack
+            clr_character_flag = duel_effect_defend
             # clean all other duel stats
             character_event = { id = duelengine.9 }
         }

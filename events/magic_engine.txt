@@ -169,6 +169,73 @@ character_event = {
         clr_character_flag = strategic_spell_used
     }
 }
+#########################################################
+#
+# DUEL SPELL DISPATCHERS
+#
+# Those events are used to cast correct spell
+# via generic <cast typ X spell> moves in duel
+#
+##########################################################a
+# offensive spell
+character_event = {
+    id = magicengine.6
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { 
+        # White Wizard spellset
+        if = { 
+            limit = { trait = lore_light }
+            # Burning Gaze
+            character_event = { id = hysh.10 }
+        }
+    }
+}
+character_event = {
+    id = magicengine.7
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { 
+        # White Wizard spellset
+        if = { 
+            limit = { trait = lore_light }
+            # Body of light
+            character_event = { id = hysh.11 }
+        }
+    }
+}
+character_event = {
+    id = magicengine.8
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { 
+        # White Wizard spellset
+        if = { 
+            limit = { trait = lore_light }
+            # Healing energy
+            character_event = { id = hysh.12 }
+        }
+    }
+}
+# special lore spell
+character_event = {
+    id = magicengine.9
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { 
+        # White Wizard spellset
+        if = { 
+            limit = { trait = lore_light }
+            # Radiant Weapon
+            character_event = { id = hysh.13 }
+        }
+    }
+}
+
 
 ##########################################################
 #
