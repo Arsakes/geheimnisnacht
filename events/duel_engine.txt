@@ -4,8 +4,8 @@
 # @version 0.1.0
 # @compatibility 2.1.6
 # @modified_on 0.1.2
-#
-# Here is Warhammer mod custom duel engine
+# @description  Warhammer mod custom duel engine
+# @wip
 #
 # DUEL MODEL
 #
@@ -174,17 +174,42 @@ character_event = { # Battlefield Duel Start
         }
         #FIXME for tests
         modifier = {
-            factor = 15
+            factor = 25
         }
 
         modifier = {
-            factor = 0.33
+            factor = 0.25
             trait = craven
         }
-        modifier = {
-            factor = 1.0
-            trait = patient
+        modifier = { 
+            factor = 2.5
+            trait = poor_warrior
         }
+        modifier = { 
+            factor = 3
+            trait = trained_warrior
+        }
+        modifier = { 
+            factor = 3.5
+            trait = skilled_warrior
+        }
+        modifier = { 
+            factor = 4
+            trait = master_warrior
+        }
+        modifier = { 
+            factor = 2
+            trait = magic_power_adept
+        }
+        modifier = { 
+            factor = 3
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+        }
+
     }
     
     immediate = {
@@ -400,6 +425,9 @@ character_event = {
         # Remove targeting information (just from the fighter)
         remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
         reverse_remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
+       
+        # set stats
+        character_event = { id = duelengine.3 }
     }
     
     option = {
@@ -407,22 +435,22 @@ character_event = {
         FROM = { character_event = { id = duelengine.2 tooltip = "DUELENGINE_TOOLTIP_1A" } }
         ai_chance = {
             factor = 100
-            #modifier = {
-            #    factor = 2
-            #    trait = poor_warrior
-            #}
-            #modifier = {
-            #    factor = 3
-            #    trait = trained_warrior
-            #}
-            #modifier = {
-            #    factor = 6
-            #    trait = skilled_warrior
-            #}
-            #modifier = {
-            #    factor = 8
-            #    trait = master_warrior
-            #}
+            modifier = {
+                factor = 2
+                trait = poor_warrior
+            }
+            modifier = {
+                factor = 3
+                trait = trained_warrior
+            }
+            modifier = {
+                factor = 6
+                trait = skilled_warrior
+            }
+            modifier = {
+                factor = 8
+                trait = master_warrior
+            }
             modifier = {
                 factor = 6
                 trait = duelist
@@ -469,22 +497,22 @@ character_event = {
         morale = -0.1
         ai_chance = {
             factor = 1 #FIXME
-            #modifier = {
-            #    factor = 2
-            #    FROM = { trait = poor_warrior }
-            #}
-            #modifier = {
-            #    factor = 3
-            #    FROM = { trait = trained_warrior }
-            #}
-            #modifier = {
-            #    factor = 4
-            #    FROM = { trait = skilled_warrior }
-            #}
-            #modifier = {
-            #    factor = 5
-            #    FROM = { trait = master_warrior }
-            #}
+            modifier = {
+                factor = 2
+                FROM = { trait = poor_warrior }
+            }
+            modifier = {
+                factor = 3
+                FROM = { trait = trained_warrior }
+            }
+            modifier = {
+                factor = 4
+                FROM = { trait = skilled_warrior }
+            }
+            modifier = {
+                factor = 5
+                FROM = { trait = master_warrior }
+            }
             modifier = {
                 factor = 2
                 FROM = { trait = strong }
@@ -542,7 +570,6 @@ character_event = {
     
     immediate = {
        # set stats
-       FROM = { character_event = { id = duelengine.3 }}
        character_event = { id = duelengine.3 }
     }
     option = {
@@ -612,7 +639,8 @@ character_event = {
         }
         morale = -0.1
         ai_chance = {
-            factor = 100
+            # FIXME factor
+            factor = 1
             modifier = {
                 factor = 2
                 FROM = { trait = poor_warrior }
@@ -769,8 +797,12 @@ character_event = {
        #
        # bonus for all ranges form 0-4
        if = { 
-           limit = { martial = 5 }
-           change_variable = { which = "duel_max_hp" value = 1 }
+           limit = { NOT = { martial = 1 } }
+           change_variable = { which = "duel_att" value = -1 }
+       }
+       if = { 
+           limit = { NOT = { martial = 3 } }
+           change_variable = { which = "duel_def" value = -1 }
        }
        if = { 
            limit = { martial = 7 }
@@ -816,10 +848,35 @@ character_event = {
            limit = { martial = 27 }
            change_variable = { which = "duel_def" value = 1 }
        }
+       # just to be sure
+       if = { 
+           limit = { NOT = {  check_variable = { "duel_max_hp" value = 1 } }}
+           set_variable = { which = "duel_max_hp" value  = 1 }
+       }
        # setting starting hit points 
        set_variable = { which = "duel_hp" which = "duel_max_hp" }
 
        # Ok now here should be traits bonus but i left them for now
+       if = {
+            limit = { trait = poor_warrior }
+            change_variable = { which = "duel_att" value = 1 }
+       }
+       if = {
+            limit = { trait = trained_warrior }
+            change_variable = { which = "duel_att" value = 1 }
+            change_variable = { which = "duel_def" value = 1 }
+       }
+       if = {
+            limit = { trait = skilled_warrior }
+            change_variable = { which = "duel_att" value = 1 }
+            change_variable = { which = "duel_def" value = 2 }
+       }
+       if = {
+             limit = { trait = master_warrior }
+            change_variable = { which = "duel_att" value = 2 }
+            change_variable = { which = "duel_def" value = 2 }
+       }
+
        if = { 
            limit = { trait = wounded  }
            change_variable = { which = "duel_def" value = -1 }
@@ -833,16 +890,27 @@ character_event = {
            set_variable = { which = "duel_hp" value = 2 }
        }
        
+       
        # Set basic combat stance
        set_character_flag = duel_move_combat 
 
        ################## MAGIC ################################
        # read willpower and set magic points
-       character_event = { id = "dicethrow.0" } 
-       set_variable = { which =  "magic_points" which = "SW" }
-       set_variable = { which = "SW" value = 0}
+       if = { 
+           limit = { 
+               OR = { 
+                   trait = magic_power_adept
+                   trait = magic_power_magister
+                   trait = magic_power_lord
+                   trait = magic_power_archmaster
+               }
+           }
+           character_event = { id = "dicethrow.0" } 
+           set_variable = { which =  "magic_points" which = "SW" }
+           set_variable = { which = "SW" value = 0}
+       }
 
-       # calculate stats (for defender rund)
+       # calculate stats (for defender round)
        character_event = { id = duelengine.6 }
 
    }    
@@ -886,7 +954,6 @@ character_event = {
                
         # calculate actual defence and attack (writes duel_att_mod, duel_def_mod)
         character_event = { id = duelengine.6 }
-        FROM = { character_event = { id = duelengine.6 } }
  
         # set basic damage
         FROM = { set_variable = { which = "duel_dmg" value = 0 } }
@@ -993,6 +1060,9 @@ character_event = {
         clr_character_flag = duel_move_combat
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
+     
+        # MAGIC - passive channeling
+        character_event = { id = magicengine.5 } 
     }
  
     
@@ -1039,8 +1109,7 @@ character_event = {
         }
  
         set_character_flag = duel_move_combat
-
-        character_event = { id = duelengine.20 }
+        hidden_tooltip = { character_event = { id = duelengine.20 }}
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1055,7 +1124,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_spell
-        character_event = { id = duelengine.20 }
+        hidden_tooltip = { character_event = { id = duelengine.20 }}
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1070,7 +1139,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_other
-        character_event = { id = duelengine.20 }
+        hidden_tooltip = { character_event = { id = duelengine.20 }}
         ai_chance = { factor = 1 }
     }
     ###################################################################
@@ -1087,7 +1156,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_combat
-        character_event = { id = duelengine.21 } 
+        hidden_tooltip = { character_event = { id = duelengine.21 } }
     }
     option = {
         name = "EVTOPT_DUELENGINE_4B"
@@ -1099,7 +1168,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_spell
-        character_event = { id = duelengine.21 } 
+        hidden_tooltip = { character_event = { id = duelengine.21 } }
     }
     option = {
         name = "EVTOPT_DUELENGINE_4C"
@@ -1111,7 +1180,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_other
-        character_event = { id = duelengine.21 } 
+        hidden_tooltip = { character_event = { id = duelengine.21 } }
     }
     #################################################################
     #
@@ -1127,7 +1196,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_combat
-        character_event = { id = duelengine.22 }
+        hidden_tooltip = { character_event = { id = duelengine.22 }}
         ai_chance = { factor = 1 }
     }   
     option = {   
@@ -1140,7 +1209,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_spell
-        character_event = { id = duelengine.22 }
+        hidden_tooltip = { character_event = { id = duelengine.22 }}
         ai_chance = { factor = 1 }
     }   
     option = {   
@@ -1153,7 +1222,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_other
-        character_event = { id = duelengine.22 } 
+        hidden_tooltip = { character_event = { id = duelengine.22 }}
         ai_chance = { factor = 1 }
     }   
     ###################################################################
@@ -1170,7 +1239,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_combat
-        character_event = { id = duelengine.23 }
+        hidden_tooltip = { character_event = { id = duelengine.23 }}
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1183,7 +1252,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_spell
-        character_event = { id = duelengine.23 }
+        hidden_tooltip = { character_event = { id = duelengine.23 }}
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1196,7 +1265,7 @@ character_event = {
         }
 
         set_character_flag = duel_move_magic_other
-        character_event = { id = duelengine.23 }
+        hidden_tooltip = { character_event = { id = duelengine.23 }}
         ai_chance = { factor = 1 }
 
     }
@@ -1283,7 +1352,7 @@ character_event = {
         if = { 
             limit = { 
                 has_character_flag = duel_effect_radiant_weapon
-                FROMFROM = { culture_group = daemon_group } 
+                FROMFROM = { religion_group = chaos_gods_group } 
             } 
             change_variable = { which = "duel_att_mod" value = 2 }
         }
@@ -1345,6 +1414,12 @@ character_event = {
         set_variable = { which = "duel_hp" value = 0 }
         set_variable = { which = "duel_max_hp" value = 0 }
         set_variable = { which = "duel_magic_att" value = 0 }
+
+        set_variable = { which = "magic_points" value = 0 }
+        set_variable = { which = "k10_roll" value = 0 }
+        set_variable = { which = "SW" value = 0 }
+        set_variable = { which = "Int" value = 0 }
+        set_variable = { which = "k4_roll" value = 0 }
        
         clr_character_flag = duel_effect_defend
         clr_character_flag = duel_effect_attack
@@ -1400,6 +1475,8 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
+ 
+        custom_tooltip = { text = TOOLTIP_defence_stance }
 
         set_character_flag = duel_effect_defend
 
@@ -1423,6 +1500,7 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
+        custom_tooltip = { text = TOOLTIP_attack_stance }
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1448,7 +1526,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
 
         # offensive spell dispatcher
-        character_event = { id = magicengine.6 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.6 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1458,7 +1537,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
         
         # defensive spell dispatcher
-        character_event = { id = magicengine.7 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.7 }}
        
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1468,7 +1548,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
  
         # buff spell dispatcher
-        character_event = { id = magicengine.8 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.8 }}
      
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1478,7 +1559,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
        
         # special spell dispatcher
-        character_event = { id = magicengine.9 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.9 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1507,17 +1589,18 @@ character_event = {
     }
 }
 # Round your win
-character_event = { 
+character_event = {
     id = duelengine.21
     desc = "EVTDESC_DUELENGINE_21"
     picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
-
     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
+ 
+        custom_tooltip = { text = TOOLTIP_defence_stance }
 
         set_character_flag = duel_effect_defend
 
@@ -1541,6 +1624,7 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
+        custom_tooltip = { text = TOOLTIP_attack_stance }
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1566,7 +1650,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
 
         # offensive spell dispatcher
-        character_event = { id = magicengine.6 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.6 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1576,7 +1661,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
         
         # defensive spell dispatcher
-        character_event = { id = magicengine.7 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.7 }}
        
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1586,7 +1672,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
  
         # buff spell dispatcher
-        character_event = { id = magicengine.8 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.8 }}
      
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1596,7 +1683,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
        
         # special spell dispatcher
-        character_event = { id = magicengine.9 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.9 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1632,11 +1720,12 @@ character_event = {
     is_triggered_only = yes
     picture = "GFX_evt_duel4"
     border = GFX_event_normal_frame_war
-    
-    # CASE 1 MEELE COMBAT
+     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
+ 
+        custom_tooltip = { text = TOOLTIP_defence_stance }
 
         set_character_flag = duel_effect_defend
 
@@ -1660,6 +1749,7 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
+        custom_tooltip = { text = TOOLTIP_attack_stance }
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1685,7 +1775,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
 
         # offensive spell dispatcher
-        character_event = { id = magicengine.6 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.6 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1695,7 +1786,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
         
         # defensive spell dispatcher
-        character_event = { id = magicengine.7 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.7 }}
        
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1705,7 +1797,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
  
         # buff spell dispatcher
-        character_event = { id = magicengine.8 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.8 }}
      
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1715,7 +1808,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
        
         # special spell dispatcher
-        character_event = { id = magicengine.9 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.9 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1742,7 +1836,6 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-
 
 }
 # Round draw
@@ -1752,11 +1845,13 @@ character_event = {
     is_triggered_only = yes
     picture = "GFX_evt_duel0"
     border = GFX_event_normal_frame_war
-    
+     
     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
+ 
+        custom_tooltip = { text = TOOLTIP_defence_stance }
 
         set_character_flag = duel_effect_defend
 
@@ -1780,6 +1875,7 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
+        custom_tooltip = { text = TOOLTIP_attack_stance }
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
@@ -1805,7 +1901,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
 
         # offensive spell dispatcher
-        character_event = { id = magicengine.6 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.6 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1815,7 +1912,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
         
         # defensive spell dispatcher
-        character_event = { id = magicengine.7 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.7 }}
        
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1825,7 +1923,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
  
         # buff spell dispatcher
-        character_event = { id = magicengine.8 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.8 }}
      
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1835,7 +1934,8 @@ character_event = {
         trigger = { has_character_flag = duel_move_magic_spell }
        
         # special spell dispatcher
-        character_event = { id = magicengine.9 }
+        # trickery with FROMFROM see magicengine
+        FROMFROM = { character_event = { id = magicengine.9 }}
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1862,19 +1962,13 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-
-
 }
-# in case of death
+#####################################################################
 #
-##Should all duels be to the death?
-##Maybe there should be options to capture
-##Or maybe to flee if it's not going well?
-#     -Erik
+# DUEL OUTCOMES
 #
-# yes i'am working on it now for testing purpose i will use death :D
-# it is easy moddable
 #
+#####################################################################
 character_event = { 
     id = duelengine.24
     desc = "EVTDESC_DUELENGINE_24"
@@ -1888,8 +1982,9 @@ character_event = {
         death = { death_reason = death_accident }
         FROMFROM = { character_event = { id = duelengine.25 } }
         # garbage clean
-        clr_character_flag = duel_effect_attack
-        clr_character_flag = duel_effect_defend
+        hidden_tooltip = {
+            character_event = { id = duelengine.9 }
+        }
     }
 }
 # report the death to winner
@@ -1904,8 +1999,9 @@ character_event = {
         name = "EVTOPT_DUELENGINE_25A"
         morale = 0.1
         # garbage clean
-        clr_character_flag = duel_effect_attack
-        clr_character_flag = duel_effect_defend
+        hidden_tooltip = {
+            character_event = { id = duelengine.9 }
+        }
     }
 }
 # report about escape
@@ -1938,8 +2034,6 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.27 } }
         # garbage clean
         hidden_tooltip = {
-            clr_character_flag = duel_effect_attack
-            clr_character_flag = duel_effect_defend
             # clean all other duel stats
             character_event = { id = duelengine.9 }
         }

@@ -1,6 +1,12 @@
 ##############################################
 #
-# Spell engine events
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @description Spell engine events
+# @version 0.1
+# @modified_on 0.1.2
+# @wip
+# @compatibility 2.1.6
+#
 #
 # main spell events    0-19
 # magic potential gain 20-30
@@ -69,102 +75,174 @@ character_event = {
         set_variable = { which =  "SW" value = 0 }
     }
 }
+#############################################################################################
+#
 # SPELLCRAFT CHECK
+#
+# (learning/3) - magic_cost(1-15) + lvl_mod(6,8,9,10) - k10 > 0
 character_event = {
     id = magicengine.1
     is_triggered_only = yes
     hide_window = yes
 
     immediate = {
-        clr_character_flag = last_spell_success
         # get intelligence (Int)
         character_event = { id = dicethrow.1 }
-        # roll k10
+        # roll k6
         character_event = { id = dicethrow.10 }
-        # Spellcraft check - learning test  k10- learning/3 < 0
-        subtract_variable = { which = "k10_roll" which = "Int" }
-    
+        # calculate
+        subtract_variable = { which = "Int" which = "k10_roll" }
+        subtract_variable = { which = "Int" which = "magic_spell_cost" }
+
+        # modifier from experience
+        if = {
+            limit = { trait = magic_power_adept }
+            change_variable = { which = "Int" value = 6 }
+        }
+        if = {
+            limit = { trait = magic_power_magister }
+            change_variable = { which = "Int" value = 8 }
+        }
+        if = {
+            limit = { trait = magic_power_lord }
+            change_variable = { which = "Int" value = 9 }
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            change_variable = { which = "Int" value = 10 }
+        }
+
         # Handle mistcasts and success
-        # not successfull check: 1 =< k10 -learning/3 < 3
+        # not successfull check:  out >= 0
         if = { 
-            limit = { NOT = { check_variable = {which =  "k10_roll" value = 1 }} }
+            limit = { check_variable = { which =  "Int" value = 0 }} 
             set_character_flag = last_spell_success
         }
+        # fail: -3 < out < -1
         if = { 
             limit = { 
-                check_variable = { which = "k10_roll" value = 1 }
-                NOT = { check_variable = { which = "k10_roll" value = 3 }}
+                NOT = { check_variable = { which = "Int" value = -1 } }
+                check_variable = { which = "lnt" value = -3 }
             }
             # trigger mistcasts
             random_list = {
-                15 = { character_event = { id = magicengine.4 }} # bad mistcast
-                20 = { character_event = { id = magicengine.3 }} # medium mistcast
-                30 = { character_event = { id = magicengine.2 }} # small mistcast
-                35 = { } # no effect
-                
+                33 = { character_event = { id = magicengine.3 }} # minor mistcast
+                33 = { character_event = { id = magicengine.2 }} # failure
+                34 = { set_character_flag = last_spell_sucess } # sucess
             }
-            set_character_flag = last_spell_success
         }
-        # big failure: k10 - learning => 3
+        # big failure: out < -3
         if = { 
-            limit = { check_variable = { which = "k10_roll" value = 3 } }
+            limit = { NOT = { check_variable = { which = "k10_roll" value = -3 } }}
             random_list = {
                 33 = { character_event = { id = magicengine.4 }} # bad mistcast
-                33 = { character_event = { id = magicengine.3 }} # medium mistcast
-                34 = { character_event = { id = magicengine.2 }} # small mistcast
+                33 = { character_event = { id = magicengine.3 }} # minor mistcast
+                34 = { character_event = { id = magicengine.2 }} # failure
             }
         }
-        # clear all
+        # clear all variables
         set_variable = { which = "k10_roll" value = 0 }
+        set_variable = { which = "Int" value = 0 }      
+        set_variable = { which = "magic_spell_cost" value = 0 }      
     }
 }
 #
 #
-# MISTCAST EFFECTS EVENTS (placeholders for now)
+# MISTCAST & CAST FAILURE EFFECTS EVENTS
 #
+# Spell failure event  (no consequences)
 character_event = {
     id = magicengine.2
-    desc = "Small mistcast"
+    desc = "EVTDESC_MAGICENGINE_2"
     is_triggered_only = yes
-    
+     
     option = {
-        name = "ok"
+        name = "OK"
     }
 }
 character_event = {
     id = magicengine.3
-    desc = "medium mistcast"
+    desc = "EVTDESC_MAGICENGINE_3"
     is_triggered_only = yes
     
+    immediate = {
+        change_variable = { which = "duel_hp" value = -1 }
+    }
     option = {
-        name = "ok"
+        name = "OK"
+        random_list = { 
+            50 = { add_trait = wouned }
+            50 = { }
+        }
     }
 }
 character_event = {
     id = magicengine.4
-    desc = "Bad mistcast"
+    desc = "EVTDESC_MAGICENGINE_4"
     is_triggered_only = yes
-    
+  
+    immediate = {
+        change_variable = { which = "duel_hp" value = -2 } 
+    }
+   
     option = {
-        name = "ok"
+        name = "OK"
+        random_list = {
+            # mutation
+            50 = {
+                 # trigger mutation event
+            }
+            25 = {
+                add_trait = maimed
+            }
+            25 = {
+                add_trait = wouned
+            }
+        }
     }
 }
-# Spell failure event 
 character_event = {
     id = magicengine.5
-    desc = "Spell casting failure"
+    hide_window  = yes
     is_triggered_only = yes
-     
-    option = {
-        name = "ok"
+    
+    trigger = {
+        OR = { 
+            trait = magic_power_adept
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+    }
+    immediate  = {
+        # regenerate magic points to the level of SW 
+        # check SW
+        character_event = { id = "dicethrow.0" } 
+        set_variable = { which =  "magic_points" which = "SW" }
+        if = {
+            limit = { check_variable = { which = "SW" which = "magic_points" }}
+            change_variable = { which = "magic_points" value = 1 }
+        }
+        # clean
+        set_variable = { which = "SW" value = 0 }
     }
 }
+
 #########################################################
 #
 # DUEL SPELL DISPATCHERS
 #
 # Those events are used to cast correct spell
 # via generic <cast typ X spell> moves in duel
+#
+# There is some trickery in it:
+# dispachting events are send to ENEMY for proper definiton of
+# FORM, ROOT
+#
+# so:
+# 
+# FROM = FROMFROM = FROMFROMFROM =  caster of spell
+# ROOT = target of spell
 #
 ##########################################################a
 # offensive spell
@@ -174,41 +252,93 @@ character_event = {
     is_triggered_only = yes
 
     immediate = { 
-        # White Wizard spellset
-        if = { 
-            limit = { trait = lore_light }
-            # Burning Gaze
-            character_event = { id = hysh.10 }
+        FROM = {
+            # INIT
+            if = { 
+                 limit = { trait = lore_light }
+                 set_variable = {  which = "magic_spell_cost" value = 3 }
+            }
+
+            # TEST of spellcraft
+            character_event = { id = magicengine.1 }
+
+            # OUTCOME
+            if = {
+                limit = { 
+                    has_character_flag = last_spell_success 
+                    trait = lore_light
+                }
+                character_event = { id = hysh.10 }
+            }
+
+            # CLEANING
+            clr_character_flag = last_spell_success
         }
     }
 }
+# defensive spell
 character_event = {
     id = magicengine.7
     hide_window = yes
     is_triggered_only = yes
 
     immediate = { 
-        # White Wizard spellset
-        if = { 
-            limit = { trait = lore_light }
-            # Body of light
-            character_event = { id = hysh.11 }
+        FROM = {
+            # INIT
+            if = { 
+                 limit = { trait = lore_light }
+                 set_variable = {  which = "magic_spell_cost" value = 3 }
+            }
+
+            # TEST of spellcraft
+            character_event = { id = magicengine.1 }
+
+            # OUTCOME
+            if = {
+                limit = { 
+                    has_character_flag = last_spell_success 
+                    trait = lore_light
+                }
+                character_event = { id = hysh.11 }
+            }
+
+            # CLEANING
+            clr_character_flag = last_spell_success
         }
     }
 }
+
+# buff spell
 character_event = {
     id = magicengine.8
     hide_window = yes
     is_triggered_only = yes
 
     immediate = { 
-        # White Wizard spellset
-        if = { 
-            limit = { trait = lore_light }
-            # Healing energy
-            character_event = { id = hysh.12 }
+        FROM = {
+            # INIT
+            if = { 
+                 limit = { trait = lore_light }
+                 set_variable = {  which = "magic_spell_cost" value = 4 }
+            }
+
+            # TEST of spellcraft
+            character_event = { id = magicengine.1 }
+
+            # OUTCOME
+            if = {
+                limit = { 
+                    has_character_flag = last_spell_success 
+                    trait = lore_light
+                }
+                character_event = { id = hysh.12 }
+            }
+
+            # CLEANING
+            clr_character_flag = last_spell_success
         }
     }
+
 }
 # special lore spell
 character_event = {
@@ -217,11 +347,27 @@ character_event = {
     is_triggered_only = yes
 
     immediate = { 
-        # White Wizard spellset
-        if = { 
-            limit = { trait = lore_light }
-            # Radiant Weapon
-            character_event = { id = hysh.13 }
+        FROM = {
+            # INIT
+            if = { 
+                 limit = { trait = lore_light }
+                 set_variable = {  which = "magic_spell_cost" value = 2 }
+            }
+
+            # TEST of spellcraft
+            character_event = { id = magicengine.1 }
+
+            # OUTCOME
+            if = {
+                limit = { 
+                    has_character_flag = last_spell_success 
+                    trait = lore_light
+                }
+                character_event = { id = hysh.13 }
+            }
+
+            # CLEANING
+            clr_character_flag = last_spell_success
         }
     }
 }

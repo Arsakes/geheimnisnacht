@@ -69,6 +69,16 @@ EVTOPT_DOOMENGINE_23B;Their time will come... Try to pass unnoticed.;;;;;;;;;;;;
 EVTDESC_DOOMENGINE_24; Armies of Chaos are marching. The host of [From.GetTitledFirstName] is ravagaing yor lands. What will you do?;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24A;!;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
+# namespace = magicengine
+EVTDESC_MAGICENGINE_2;You failed to cast the spell.;;;;;;;;;;;;;x
+EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of magic left you burn and scarred.;;;;;;;;;;;;;x
+EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
+# namespace = hysh
+EVTDESC_HYSH_10;From your eyes beams a ray of blidning light, burning all on its path. Your enemy scream being burned alive.;;;;;;;;;;;;;x
+EVTDESC_HYSH_11;Your body is filled with the energy of white wind, it glows blinding your enemy whenever he wants to attack you.;;;;;;;;;;;;;x
+EVTDESC_HYSH_12;You manipulate the white wind to heal your wounds.;;;;;;;;;;;;;x
+EVTDESC_HYSH_13;You wrap your weapon with the streaks of hysh, empowering it. The weapon burns chaotic
+creatures with by mere touch.;;;;;;;;;;;;;x
 #
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
@@ -110,6 +120,14 @@ EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed t
 EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledFirstName] has managed to escape!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
+#
+# DUEL TOOLTIPS
+TOOLTIP_attack_stance;Improves attack: §KS:+1§!, but lowers defence: §YDef:-1§!.;;;;;;;;;;;;;x
+TOOLTIP_defence_stance;Lowers attack: §KS:-1§!, but improves defence: §GDef:+1§!.;;;;;;;;;;;;;x
+#
+# MAGIC ENGINE namespace = magicengine
+TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs  §B3 mp 3§!.;;;;;;;;;;;;;x
+TOOLTIP_body_of_light;Body of Light - improves defence §G Def +2§!, costs §B mp 4§!.;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
