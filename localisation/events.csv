@@ -88,12 +88,12 @@ EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
 # tactics for next round
-EVTDESC_DUELENGINE_4;The battle is not yet won... What sort of action you plan?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4A;Meele Combat;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_4;The battle is not yet won... How will you proceed?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4A;Attack Enemy;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4B;Cast Spell;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4C;Attempt to Control Winds;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4C;Counterspell or Channel Magic Power;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4D;Focus On The Other Aspects of Magic;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4E;Try to espcae!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4E;Try to escape!;;;;;;;;;;;;;x
 #
 EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
@@ -103,10 +103,10 @@ EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
 # THOSE OPTIONS ARE FOR ALL EVENTS 20-23
 EVTOPT_DUELENGINE_20D;Cast Offensive Spell;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20E;Cast Deffensive Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20E;Cast Defensive Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20F;Cast Buff Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20G;Cast Lore Special Spell;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20H;Perform Channeling;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20H;Channel Magic Power;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20I;Perform Counterspell;;;;;;;;;;;;;x
 #
 EVTDESC_DUELENGINE_21;[From.GetTitledFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [From.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
@@ -143,6 +143,12 @@ EVTDESCHCLT.25;You are a secret Necrach vampire!;;;;;;;;;;;;;x
 EVTDESCHCLT.26;You are a secret Jade vampire!;;;;;;;;;;;;;x
 EVTDESCHCLT.27;You are a secret Mahtmasi vampire!;;;;;;;;;;;;;x
 hide_my_cultist;Hide My Cultist;;;;;;;;;;;;;x
+#
+# namespace = Hysh
+EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
+EVTDESC_HYSH_11;You have successfully cast the spell Body of Light. Your body shines with an intensely bright light, making you difficult to look upon. Your enemy will have difficulty attacking you.;;;;;;;;;;;;;x
+EVTDESC_HYSH_12;You have successfully cast the spell Healing Energy. Light fills your wounds, healing them and bringing you back into the fight;;;;;;;;;;;;;x
+EVTDESC_HYSH_13;You have successfully cast the spell Radiant Weapon. You infuse your weapon with the radiant energy of Hysh. It now glows with a pure white light, allowing you attack more effectively and doing additional damage against deamons.;;;;;;;;;;;;;x
 #
 # SYLVANIA EVENTS I DONT KNOW IF THOSE ARE CORRECT 
 EVTDESCUDSYL.1;Sylvania is a dangerous place for all live, but a lovely country if you are a Vampire.;;;;;;;;;;;;;x
