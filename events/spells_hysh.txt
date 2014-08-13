@@ -23,7 +23,7 @@ namespace = hysh
 character_event = {
    id = hysh.10
    is_triggered_only = yes
-   desc = "Burning Gaze!"
+   desc = "EVTDESC_HYSH_10"
    #major = yes
 
    immediate = { 
@@ -39,10 +39,11 @@ character_event = {
        name = "OK"
    }
 }
+#body of light
 character_event = {
    id = hysh.11
    is_triggered_only = yes
-   desc = "Body of Light"
+   desc = "EVTDESC_HYSH_11"
 
    immediate = { 
        set_variable = { which = "duel_magic_att" value = 0 }
@@ -53,10 +54,11 @@ character_event = {
        name = "OK"
    }
 }
+#healing energy
 character_event = {
    id = hysh.12
    is_triggered_only = yes
-   desc = "Healing Energy"
+   desc = "EVTDESC_HYSH_12"
  
    immediate = { 
        set_variable = { which = "duel_magic_att" value = 0 }
@@ -75,10 +77,11 @@ character_event = {
        name = "OK"
    }
 }
+#radiant Weapon
 character_event = {
    id = hysh.13
    is_triggered_only = yes
-   desc = "Radiant Weapon"
+   desc = "EVTDESC_HYSH_13"
 
    immediate = { 
        set_variable = { which = "duel_magic_att" value = 0 }
