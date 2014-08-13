@@ -1056,6 +1056,8 @@ character_event = {
         clr_character_flag = duel_effect_counterspell
         # FIXME: dmg reporting events
         character_event = { id = test.25 } # FROMFROM is the victim
+        character_event = { id = test.23 } # dmg dealt to enemy
+        character_event = { id = test.27 } # defence of enemy
         # clear flags that mark character's choose of type of move
         clr_character_flag = duel_move_combat
         clr_character_flag = duel_move_magic_spell
@@ -1462,6 +1464,10 @@ character_event = {
 # Each reporting event is also event used for choosing the particular move from 
 # the move category defined one event before
 # For all report events all options are THE SAME
+#
+#
+# FROMFROM - enemy
+# FROM = ROOT = us
 #
 # Round draw
 character_event = { 

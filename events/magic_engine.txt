@@ -206,21 +206,20 @@ character_event = {
     hide_window  = yes
     is_triggered_only = yes
     
-    trigger = {
-        OR = { 
-            trait = magic_power_adept
-            trait = magic_power_magister
-            trait = magic_power_lord
-            trait = magic_power_archmaster
-        }
-    }
     immediate  = {
         # regenerate magic points to the level of SW 
         # check SW
         character_event = { id = "dicethrow.0" } 
-        set_variable = { which =  "magic_points" which = "SW" }
         if = {
-            limit = { check_variable = { which = "SW" which = "magic_points" }}
+            limit = { 
+                NOT = { check_variable = { which = "magic_points" which = "SW" }}
+                OR = { 
+                    trait = magic_power_adept
+                    trait = magic_power_magister
+                    trait = magic_power_lord
+                    trait = magic_power_archmaster
+                }
+            }
             change_variable = { which = "magic_points" value = 1 }
         }
         # clean

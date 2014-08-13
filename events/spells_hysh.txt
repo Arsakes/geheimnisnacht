@@ -1,5 +1,10 @@
 #
-# Spells for Hysh lore
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @description  Spells for Hysh lore
+# @version 0.1.0
+# @compatibility 2.1.6
+# @wip
+#
 # id = hysh.xy, x - spellchain id, y - event from spellchain
 #
 # battle spells: 1-9
@@ -32,9 +37,10 @@ character_event = {
    immediate = { 
        #FIXME change damage
        set_variable = { which = "duel_magic_att" value = 6 }
-       #random_list = {
-           FROM = { set_character_flag = duel_effect_flare } 
-       #} 
+       # FIXME
+       FROM = { set_character_flag = from } 
+       FROMFROM = { set_character_flag = fromfrom } 
+       FROMFROMFROM = { set_character_flag = fromfromfrom } 
    }
    option = {
        name = "OK"
