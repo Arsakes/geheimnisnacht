@@ -62,7 +62,7 @@ character_event = {
           33 = { change_variable = { which = "duel_hp" value = 3 } }
        }
        if = {
-           limit = { check_varaiable = { which = "duel_hp" which = "duel_max_hp" } }
+           limit = { check_variable = { which = "duel_hp" which = "duel_max_hp" } }
            set_variable = { which = "duel_hp" which = "duel_max_hp" }
        }
    }

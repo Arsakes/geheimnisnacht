@@ -58,6 +58,7 @@ namespace = duelengine
 character_event = { # Battlefield Duel Start
     id = duelengine.0
     border = "GFX_event_normal_frame_war"
+    desc = "EVTDESC_DUELENGINE_0"
     picture = GFX_evt_battle
     
     is_triggered_only = yes
@@ -827,7 +828,9 @@ character_event = {
            set_variable = { which = "duel_hp" value = 2 }
        }
        
-      
+       # Set basic combat stance
+       set_character_flag = duel_move_combat 
+
        ################## MAGIC ################################
        # read willpower and set magic points
        character_event = { id = "dicethrow.0" } 
@@ -871,17 +874,13 @@ character_event = {
     is_triggered_only = yes
     
     immediate = {
-        # clear flags that mark character's choose of type of move
-        clr_character_flag = duel_move_combat
-        clr_character_flag = duel_move_magic_spell
-        clr_character_flag = duel_move_magic_other
-        
+               
         # read all modifiers (writes duel_att_mod, duel_def_mod) variables
         character_event = { id = duelengine.6 }
 
         # APPLY: attack modifier in case of modifed attack that is non-magical
         if = {
-            limit = { is_variable_equal = { which = "duel_magic_att" value = 0 } }
+            limit = { has_character_flag = duel_move_combat }
             change_variable = { which = "duel_att" which = "duel_att_mod" }
         }
          
@@ -893,7 +892,8 @@ character_event = {
         # in this case we swap duel_att wiht duel_magic_att  
         # using temporary variable duel_temp
         if = {
-             limit = { NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 } } }
+             limit = { NOT = {  has_character_flag = duel_move_combat } }
+             # set attack to duel_magic_att
              set_variable = { which = "duel_temp" which = "duel_att" }
              set_variable = { which = "duel_att" which = "duel_magic_att" }
         }
@@ -965,7 +965,8 @@ character_event = {
         }
         # CLEAR MAGIC DAMAGE SWAP IN CASE OF USING SPELLS
         if = {
-             limit = { NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 } } }
+	     limit = { NOT = { has_charcater_flag = duel_move_combat }}
+
              set_variable = { which = "duel_att" which = "duel_temp" }
              set_variable = { which = "duel_magic_att" value = 0 }
              set_variable = { which = "duel_temp" value = 0 }
@@ -973,19 +974,27 @@ character_event = {
 
         # clear the bonus for next round (in case we have used that bonus) 
         if = {
-            limit = { is_variable_equal = { which = "duel_magic_att" value = 0 } }
+            limit = { has_character_flag = duel_move_combat }
             subtract_variable = { which = "duel_att" which = "duel_att_mod" }
         }
  
-        # determine random part of dmg
-        FROM = {
-            random_list = {
-                16 = { FROM = { change_variable = { which = "duel_dmg" value = -1 } }}
-                17 = { FROM = { change_variable = { which = "duel_dmg" value =  0 } }}
-                17 = { FROM = { change_variable = { which = "duel_dmg" value =  1 } }}
-                17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
-                17 = { FROM = { change_variable = { which = "duel_dmg" value =  3 } }}
-                16 = { FROM = { change_variable = { which = "duel_dmg" value =  4 } }}
+        # determine random part of dmg FIXME (for test purposes its 2!)
+        if = {
+            limit = { 
+                OR = { 
+                    has_character_flag = duel_move_combat 
+                    NOT = { is_variable_equal = { which = "duel_magic_att" value = 0 } }
+                }
+            }
+            FROM = {
+                random_list = {
+                    16 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                    17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                    17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                    17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                    17 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                    16 = { FROM = { change_variable = { which = "duel_dmg" value =  2 } }}
+                }
             }
         }
  
@@ -1004,13 +1013,15 @@ character_event = {
         #
         # 
 	# thing that prevents infinite duels (thanks erik) setting dmg to 1 if less than 0
-        # (50%chance)
+        # (50% chance) or to 0 
         if = {
             limit = { 
-                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                random = 50
+                FROM = { NOT = { check_variable = { which = "duel_dmg" value = 1 }}}
             }
-            FROM = { set_variable = { which = "duel_dmg" value =  1 }} 
+            random_list = {
+               50 = { FROM = { set_variable = { which = "duel_dmg" value =  1 }} }
+               50 = { FROM = { set_variable = { which = "duel_dmg" value =  0 }} }
+            }
         }
         # applying damge
         FROM = { subtract_variable = { which = "duel_hp" which = "duel_dmg" } }
@@ -1019,7 +1030,13 @@ character_event = {
         clr_character_flag = duel_effect_defend
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
+        # FIXME: dmg repeorting events
+        FROM = { character_event = { id = test.25 } }
 
+        # clear flags that mark character's choose of type of move
+        clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_magic_spell
+        clr_character_flag = duel_move_magic_other
     }
  
     
@@ -1064,8 +1081,8 @@ character_event = {
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.20 }
         set_character_flag = duel_move_combat
+        character_event = { id = duelengine.20 }
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1078,8 +1095,8 @@ character_event = {
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.20 }
         set_character_flag = duel_move_magic_spell
+        character_event = { id = duelengine.20 }
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1092,8 +1109,8 @@ character_event = {
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.20 }
         set_character_flag = duel_move_magic_other
+        character_event = { id = duelengine.20 }
         ai_chance = { factor = 1 }
     }
     ###################################################################
@@ -1145,8 +1162,8 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.22 }
         set_character_flag = duel_move_combat
+        character_event = { id = duelengine.22 }
         ai_chance = { factor = 1 }
     }   
     option = {   
@@ -1157,8 +1174,8 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.22 }
         set_character_flag = duel_move_magic_spell
+        character_event = { id = duelengine.22 }
         ai_chance = { factor = 1 }
     }   
     option = {   
@@ -1169,8 +1186,8 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             check_variable = { which = "duel_dmg" value = 1 }
         }
-        character_event = { id = duelengine.22 } 
         set_character_flag = duel_move_magic_other
+        character_event = { id = duelengine.22 } 
         ai_chance = { factor = 1 }
     }   
     ###################################################################
@@ -1185,8 +1202,8 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
         }
-        character_event = { id = duelengine.23 }
         set_character_flag = duel_move_combat
+        character_event = { id = duelengine.23 }
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1197,8 +1214,8 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
         }
-        character_event = { id = duelengine.23 }
         set_character_flag = duel_move_magic_spell
+        character_event = { id = duelengine.23 }
         ai_chance = { factor = 1 }
     }
     option = {
@@ -1209,9 +1226,9 @@ character_event = {
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
         }
+        set_character_flag = duel_move_magic_other
         character_event = { id = duelengine.23 }
         ai_chance = { factor = 1 }
-        set_character_flag = duel_move_magic_other
 
     }
     # END OF THIS FUCKING BIG EVENT
@@ -1321,6 +1338,17 @@ character_event = {
         set_variable = { which = "duel_def" value = 0 }
         set_variable = { which = "duel_dmg" value = 0 }
         set_variable = { which = "duel_hp" value = 0 }
+        set_variable = { which = "duel_max_hp" value = 0 }
+       
+        clr_character_flag = duel_effect_defend
+        clr_character_flag = duel_effect_attack
+        clr_character_flag = duel_effect_counterspell
+        clr_character_flag = duel_effect_body_of_light
+        clr_character_flag = duel_effect_radiant_weapon
+ 
+        clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_magic_spell
+        clr_character_flag = duel_move_magic_other
     }
 }
 
@@ -1474,7 +1502,7 @@ character_event = {
 # Round your win
 character_event = { 
     id = duelengine.21
-    desc = ""
+    desc = "EVTDESC_DUELENGINE_21"
     picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
@@ -1930,7 +1958,3 @@ character_event = {
         }
     }
 }
-
-
-
-
