@@ -38,12 +38,16 @@ character_event = {
        #FIXME change damage
        set_variable = { which = "duel_magic_att" value = 6 }
        # FIXME
-       FROM = { set_character_flag = from } 
+       FROM = { set_character_flag = fromfrom } 
        FROMFROM = { set_character_flag = fromfrom } 
        FROMFROMFROM = { set_character_flag = fromfromfrom } 
+       ROOT = { set_character_flag = root } 
    }
    option = {
        name = "OK"
+       FROM = { 
+           set_character_flag = xxxx
+       }
    }
 }
 #body of light

@@ -1123,6 +1123,12 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             check_variable = { which = "duel_dmg" value = 1 }
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
         }
 
         set_character_flag = duel_move_magic_spell
@@ -1138,6 +1144,12 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             check_variable = { which = "duel_dmg" value = 1 }
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
         }
 
         set_character_flag = duel_move_magic_other
@@ -1167,6 +1179,13 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+
         }
 
         set_character_flag = duel_move_magic_spell
@@ -1179,6 +1198,13 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             FROM = { check_variable = { which = "duel_dmg" value = 1 }}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+
         }
 
         set_character_flag = duel_move_magic_other
@@ -1208,6 +1234,13 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             check_variable = { which = "duel_dmg" value = 1 }
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+
         }
 
         set_character_flag = duel_move_magic_spell
@@ -1221,6 +1254,13 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             check_variable = { which = "duel_dmg" value = 1 }
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+
         }
 
         set_character_flag = duel_move_magic_other
@@ -1251,6 +1291,13 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+
         }
 
         set_character_flag = duel_move_magic_spell
@@ -1264,6 +1311,12 @@ character_event = {
             check_variable = { which = "duel_hp" value = 1 }
             NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
             NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            OR = { 
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
         }
 
         set_character_flag = duel_move_magic_other
