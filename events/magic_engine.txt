@@ -159,16 +159,6 @@ character_event = {
         name = "ok"
     }
 }
-# Strategic spell cooldown event
-character_event = {
-    id = magicengine.5
-    is_triggered_only = yes
-    hide_window = yes
-
-    immediate = { 
-        clr_character_flag = strategic_spell_used
-    }
-}
 #########################################################
 #
 # DUEL SPELL DISPATCHERS
@@ -233,6 +223,17 @@ character_event = {
             # Radiant Weapon
             character_event = { id = hysh.13 }
         }
+    }
+}
+
+# Strategic spell cooldown event
+character_event = {
+    id = magicengine.11
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = { 
+        clr_character_flag = strategic_spell_used
     }
 }
 

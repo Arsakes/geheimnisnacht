@@ -36,7 +36,7 @@ character_event = {
         # failure of spellcast trigger failure report
         if = {
             limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.5 }
+            character_event = { id = magicengine.11 }
         }
         # clear stuff
         clr_character_flag = last_spell_success 
@@ -62,7 +62,7 @@ character_event = {
         # failure of spellcast trigger failure report
         if = {
             limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.5 }
+            character_event = { id = magicengine.11 }
         }
         # clear stuff
         clr_character_flag = last_spell_success 
@@ -89,7 +89,7 @@ character_event = {
         # failure of spellcast trigger failure report
         if = {
             limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.5 }
+            character_event = { id = magicengine.11 }
         }
         # clear stuff
         clr_character_flag = last_spell_success 
