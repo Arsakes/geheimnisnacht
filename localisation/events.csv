@@ -69,38 +69,59 @@ EVTOPT_DOOMENGINE_23B;Their time will come... Try to pass unnoticed.;;;;;;;;;;;;
 EVTDESC_DOOMENGINE_24; Armies of Chaos are marching. The host of [From.GetTitledFirstName] is ravagaing yor lands. What will you do?;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24A;!;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
-#
+# namespace = magicengine
+EVTDESC_MAGICENGINE_2;You failed to cast the spell.;;;;;;;;;;;;;x
+EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of magic left you burn and scarred.;;;;;;;;;;;;;x
+EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
 #
 # namespace = duelengine
-EVTDESC_DUELENGINE_0;In the heat of battle you have spotted an opponent;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_0A;May the gods be with me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;In the heat of battle you have spotted your opponent [From.GetTitledFirstName], will you confront your enemy?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_1A;I will crush him!;;;;;;;;;;;;;x
-DUELENGINE_TOOLTIP_1A;Reacts!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_1B;I must run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_4;The fighting continues... What will be your next move?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4A;Never surrender!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4B;Fight!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4C;Crush him!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4D;I will never yield!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4E;Hit harder!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield and covered [From.GetHerHis]self in shame!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_5A;One day I will finish that coward... I swear!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_20;You hit your enemy and injuried him, however gap in your defence let him to hit you.;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20A;Defend from enemy's hits;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20B;Charge!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_20C;Balance your defence and attack;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_21;You hit your enemy and injuried him, your masterly defence did not give him occasion to counter.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_22;Your enemy hit you and countered your attack.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_23;Neither of you was able to hurt the other.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_24;You have lost, your enemy was better you die...;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_24A;Noo....!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_25;You have won! The body of your enemy lies before you.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_0A;I shall defeat them!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you across the field of battle. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
+DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
+# tactics for next round
+EVTDESC_DUELENGINE_4;The battle is not yet won... How will you proceed?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4A;Attack Enemy;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4B;Cast Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4C;Counterspell or Channel Magic Power;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4D;Focus On The Other Aspects of Magic;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4E;Try to escape!;;;;;;;;;;;;;x
+#
+EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_20;You slash at [From.GetTitledFirstName] and manage to wound [From.GetHerHim], however your attack left you open to [from.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20A;Focus on defence. Let no attack through!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
+# THOSE OPTIONS ARE FOR ALL EVENTS 20-23
+EVTOPT_DUELENGINE_20D;Cast Offensive Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20E;Cast Defensive Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20F;Cast Buff Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20G;Cast Lore Special Spell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20H;Channel Magic Power;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20I;Perform Counterspell;;;;;;;;;;;;;x
+#
+EVTDESC_DUELENGINE_21;[From.GetTitledFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [From.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_22;You attack [From.GetTitledFirstName] but are unable to penetrate [from.GetHerHis] defences, and [From.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_23;[From.GetTitledFirstName] blocks every blow you send [from.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_24;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_24A;Avenge me!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledFirstName] lies before you.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_25A;Hurray!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_26;You have lost the duel.. Wounded and weak you managed to escape...;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_27;You have won! However your enemy manged to escape!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_27A;Arragh what a coward!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledFirstName] has managed to escape!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
+#
+# DUEL TOOLTIPS
+TOOLTIP_attack_stance;Improves attack: §KS:+1§!, but lowers defence: §YDef:-1§!.;;;;;;;;;;;;;x
+TOOLTIP_defence_stance;Lowers attack: §KS:-1§!, but improves defence: §GDef:+1§!.;;;;;;;;;;;;;x
+#
+# MAGIC ENGINE namespace = magicengine
+TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs  §B3 mp 3§!.;;;;;;;;;;;;;x
+TOOLTIP_body_of_light;Body of Light - improves defence §G Def +2§!, costs §B mp 4§!.;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
@@ -116,6 +137,12 @@ EVTDESCHCLT.25;You are a secret Necrach vampire!;;;;;;;;;;;;;x
 EVTDESCHCLT.26;You are a secret Jade vampire!;;;;;;;;;;;;;x
 EVTDESCHCLT.27;You are a secret Mahtmasi vampire!;;;;;;;;;;;;;x
 hide_my_cultist;Hide My Cultist;;;;;;;;;;;;;x
+#
+# namespace = Hysh
+EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
+EVTDESC_HYSH_11;You have successfully cast the spell Body of Light. Your body shines with an intensely bright light, making you difficult to look upon. Your enemy will have difficulty attacking you.;;;;;;;;;;;;;x
+EVTDESC_HYSH_12;You have successfully cast the spell Healing Energy. Light fills your wounds, healing them and bringing you back into the fight;;;;;;;;;;;;;x
+EVTDESC_HYSH_13;You have successfully cast the spell Radiant Weapon. You infuse your weapon with the radiant energy of Hysh. It now glows with a pure white light, allowing you attack more effectively and doing additional damage against deamons.;;;;;;;;;;;;;x
 #
 # SYLVANIA EVENTS I DONT KNOW IF THOSE ARE CORRECT 
 EVTDESCUDSYL.1;Sylvania is a dangerous place for all live, but a lovely country if you are a Vampire.;;;;;;;;;;;;;x

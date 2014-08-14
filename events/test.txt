@@ -1,0 +1,1199 @@
+# 
+# Events used for testing other events
+#
+namespace = test
+# WILLPOWER  TEST
+character_event = {
+    id = test.0
+    is_triggered_only = yes
+    desc = "willpower (SW) test"
+    
+    option = {
+        name = "sw = 1"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 1 }
+        }
+    }
+    option = {
+        name = "sw = 2"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 2 }
+        }
+    }
+    option = {
+        name = "sw = 3"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 3 }
+        }
+    }
+    option = {
+        name = "SW = 4"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 4 }
+        }
+    }
+    option = {
+        name = "SW = 5"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 5 }
+        }
+    }
+
+    option = {
+        name = "SW = 6"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 6 }
+        }
+    }
+    option = {
+        name = "SW = 7"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 7 }
+        }
+    }
+    option = {
+        name = "SW = 8"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 8 }
+        }
+    }
+    option = {
+        name = "SW = 9"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 9 }
+        }
+    }
+    option = {
+        name = "SW = 10"
+        trigger = { 
+            is_variable_equal = { which = "SW" value = 10 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+character_event = {
+    id = test.1
+    is_triggered_only = yes
+    desc = "intelligence (Int) test"
+    
+    option = {
+        name = "Int = 1"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 1 }
+        }
+    }
+    option = {
+        name = "Int = 2"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 2 }
+        }
+    }
+    option = {
+        name = "Int = 3"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 3 }
+        }
+    }
+    option = {
+        name = "Int = 4"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 4 }
+        }
+    }
+    option = {
+        name = "Int = 5"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 5 }
+        }
+    }
+
+    option = {
+        name = "Int = 6"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 6 }
+        }
+    }
+    option = {
+        name = "Int = 7"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 7 }
+        }
+    }
+    option = {
+        name = "Int = 8"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 8 }
+        }
+    }
+    option = {
+        name = "Int = 9"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 9 }
+        }
+    }
+    option = {
+        name = "Int = 10"
+        trigger = { 
+            is_variable_equal = { which = "Int" value = 10 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+
+# CHECK MAGIC POINTS
+character_event = {
+    id = test.5
+    is_triggered_only = yes
+    desc = "Magi points (magic_points) test"
+    
+    option = {
+        name = "magic_points = 1"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 1 }
+        }
+    }
+    option = {
+        name = "magic_points = 2"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 2 }
+        }
+    }
+    option = {
+        name = "magic_points = 3"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 3 }
+        }
+    }
+    option = {
+        name = "magic_points = 4"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 4 }
+        }
+    }
+    option = {
+        name = "magic_points = 5"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 5 }
+        }
+    }
+
+    option = {
+        name = "magic_points = 6"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 6 }
+        }
+    }
+    option = {
+        name = "magic_points = 7"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 7 }
+        }
+    }
+    option = {
+        name = "magic_points = 8"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 8 }
+        }
+    }
+    option = {
+        name = "magic_points = 9"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 9 }
+        }
+    }
+    option = {
+        name = "magic_points = 10"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 10 }
+        }
+    }
+    option = {
+        name = "magic_points = 0"
+        trigger = { 
+            is_variable_equal = { which = "magic_points" value = 0 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+
+# check roll
+character_event = {
+    id = test.10
+    is_triggered_only = yes
+    desc = "k10 roll test"
+     
+    option = {
+        name = "other value"
+    }
+
+    option = {
+        name = "k10 = 1"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 1 }
+        }
+    }
+    option = {
+        name = "k10 = 2"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 2 }
+        }
+    }
+    option = {
+        name = "k10 = 3"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 3 }
+        }
+    }
+    option = {
+        name = "k10 = 4"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 4 }
+        }
+    }
+    option = {
+        name = "k10 = 5"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 5 }
+        }
+    }
+
+    option = {
+        name = "k10 = 6"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 6 }
+        }
+    }
+    option = {
+        name = "k10 = 7"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 7 }
+        }
+    }
+    option = {
+        name = "k10 = 8"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 8 }
+        }
+    }
+    option = {
+        name = "k10 = 9"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 9 }
+        }
+    }
+    option = {
+        name = "k10 = 10"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 10 }
+        }
+    }
+    option = {
+        name = "k10 = 0, subtract case"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = 0 }
+        }
+    }
+    option = {
+        name = "k10 = -1, subtract case"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = -1 }
+        }
+    }
+    option = {
+        name = "k10 = -2, subtract case"
+        trigger = { 
+            is_variable_equal = { which = "k10_roll" value = -2 }
+        }
+    }
+}
+# check roll k4
+character_event = {
+    id = test.11
+    is_triggered_only = yes
+    desc = "k4 roll test"
+     
+    option = {
+        name = "other value"
+    }
+
+    option = {
+        name = "k4 = 1"
+        trigger = { 
+            is_variable_equal = { which = "k4_roll" value = 1 }
+        }
+    }
+    option = {
+        name = "k4 = 2"
+        trigger = { 
+            is_variable_equal = { which = "k4_roll" value = 2 }
+        }
+    }
+    option = {
+        name = "k4 = 3"
+        trigger = { 
+            is_variable_equal = { which = "k4_roll" value = 3 }
+        }
+    }
+    option = {
+        name = "k4 = 4"
+        trigger = { 
+            is_variable_equal = { which = "k4_roll" value = 4 }
+        }
+    }
+}
+
+
+#############################################################
+#
+#                   DUEL TESTS
+#
+###########################################################
+# MAX HP TEST
+character_event = {
+    id = test.19
+    is_triggered_only = yes
+    desc = "duel_max_hp test"
+    
+    option = {
+        name = "duel_max_hp = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_max_hp = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 10 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 11"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 11 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 12"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 12 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 13"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 13 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 14"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 14 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = 0"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = 0 }
+        }
+    }
+    option = {
+        name = "duel_max_hp = -1"
+        trigger = { 
+            is_variable_equal = { which = "duel_max_hp" value = -1 }
+        }
+    }
+
+    option = {
+        name = "other value"
+    }
+}
+
+# HP TEST
+character_event = {
+    id = test.20
+    is_triggered_only = yes
+    desc = "duel_hp test"
+    
+    option = {
+        name = "duel_hp = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_hp = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_hp = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_hp = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_hp = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_hp = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_hp = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_hp = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_hp = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_hp = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 10 }
+        }
+    }
+    option = {
+        name = "duel_hp = 11"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 11 }
+        }
+    }
+    option = {
+        name = "duel_hp = 12"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 12 }
+        }
+    }
+    option = {
+        name = "duel_hp = 13"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 13 }
+        }
+    }
+    option = {
+        name = "duel_hp = 14"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 14 }
+        }
+    }
+    option = {
+        name = "duel_hp = 0"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = 0 }
+        }
+    }
+    option = {
+        name = "duel_hp = -1"
+        trigger = { 
+            is_variable_equal = { which = "duel_hp" value = -1 }
+        }
+    }
+
+    option = {
+        name = "other value"
+    }
+}
+# attk
+character_event = {
+    id = test.21
+    is_triggered_only = yes
+    desc = "duel_att test"
+    
+    option = {
+        name = "duel_att = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_att = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_att = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_att = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_att = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_att = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_att = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_att = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_att = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_att = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_att" value = 10 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+# defence
+character_event = {
+    id = test.22
+    is_triggered_only = yes
+    desc = "duel_def test"
+    
+    option = {
+        name = "duel_def = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_def = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_def = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_def = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_def = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_def = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_def = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_def = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_def = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_def = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_def" value = 10 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+# modifiers att
+character_event = {
+    id = test.23
+    is_triggered_only = yes
+    desc = "duel_att_mod test"
+    
+    option = {
+        name = "duel_att_mod = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_att_mod = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 0"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 0 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 10 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 11"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 11 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 12"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 12 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 13"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 13 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 14"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 14 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = 15"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = 15 }
+        }
+    }
+    option = {
+        name = "duel_att_mod = -1"
+        trigger = { 
+            is_variable_equal = { which = "duel_att_mod" value = -1 }
+        }
+    }
+
+    option = {
+        name = "other value"
+    }
+}
+# modifiers def
+character_event = {
+    id = test.24
+    is_triggered_only = yes
+    desc = "duel_def_mod test"
+    
+    option = {
+        name = "duel_def_mod = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_def_mod = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 0"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 0 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = 10 }
+        }
+    }
+    option = {
+        name = "duel_def_mod = -1"
+        trigger = { 
+            is_variable_equal = { which = "duel_def_mod" value = -1 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+# damage dealt to enemy (shouldn'be triggerd from console)
+character_event = {
+    id = test.25
+    is_triggered_only = yes
+    desc = "duel_dmg test dealt to enemy"
+    
+    option = {
+        name = "duel_dmg = 1"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 1 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 2"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 2 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 3"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 3 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 4"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 4 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 5"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 5 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 6"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 6 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 7"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 7 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 8"
+        trigger = { 
+            FROMFROM ={ is_variable_equal = { which = "duel_dmg" value = 8 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 9"
+        trigger = { 
+            FROMFROM ={ is_variable_equal = { which = "duel_dmg" value = 9 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 10"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 10 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 11"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 11 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 12"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 12 }}
+        }
+    }
+    option = {
+        name = "duel_dmg = 0"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_dmg" value = 0 }}
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+# att magic
+character_event = {
+    id = test.26
+    is_triggered_only = yes
+    desc = "duel_magic_att test"
+     
+    option = {
+        name = "duel_magic_att = 1"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 1 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 2"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 2 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 3"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 3 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 4"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 4 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 5"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 5 }
+        }
+    }
+
+    option = {
+        name = "duel_magic_att = 6"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 6 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 7"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 7 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 8"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 8 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 0"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 0 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 9"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 9 }
+        }
+    }
+    option = {
+        name = "duel_magic_att = 10"
+        trigger = { 
+            is_variable_equal = { which = "duel_magic_att" value = 10 }
+        }
+    }
+    option = {
+        name = "other value"
+    }
+
+}
+
+# modifiers def (of enemy)
+character_event = {
+    id = test.27
+    is_triggered_only = yes
+    desc = "duel_def_mod of enemy"
+    
+    option = {
+        name = "duel_def_mod = 1"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 1 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 2"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 2 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 3"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 3 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 4"
+        trigger = { 
+           FROMFROM = {is_variable_equal = { which = "duel_def_mod" value = 4 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 5"
+        trigger = { 
+           FROMFROM = {is_variable_equal = { which = "duel_def_mod" value = 5 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 6"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 6 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 7"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 7 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 8"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 8 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 0"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 0 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 9"
+        trigger = { 
+            FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 9 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = 10"
+        trigger = { 
+           FROMFROM = { is_variable_equal = { which = "duel_def_mod" value = 10 }}
+        }
+    }
+    option = {
+        name = "duel_def_mod = -1"
+        trigger = { 
+            FROMFROM =  { is_variable_equal = { which = "duel_def_mod" value = -1 }}
+        }
+    }
+    option = {
+        name = "other value"
+    }
+}
+
+character_event = {
+    id = test.30
+    desc = "test of tooltips"
+    is_triggered_only = yes
+    
+    option = {
+        name = "Tooltip should be: light lore"
+        if = { 
+            limit = { trait = lore_light }
+            custom_tooltip = { text = "light lore spell" }
+        }
+        if = { 
+            limit = { trait = lore_light }
+            custom_tooltip = { text = "light lore spell" }
+        }
+        if = { 
+            limit = { NOT = { trait = lore_light }}
+            custom_tooltip = { text = "no light lore spells" }
+        }
+    }
+    option = {
+        name = "trigger is_triggerd only event with trigger"
+        character_event = { id = test.31 }
+    }
+}
+character_event = {
+    id = test.31
+    desc = "test of triggering"
+    is_triggered_only = yes
+    
+    trigger = {
+        trait = lore_light
+    }
+    option = {
+        name = "OK works"
+    }
+}

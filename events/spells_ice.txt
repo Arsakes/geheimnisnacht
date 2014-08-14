@@ -1,39 +1,175 @@
-#
-# Spells for Hysh lore
-# id = ice.xy, x - spellchain id, y - event from spellchain
-#
-# battle spells:
-# duel spells:
-# personal spells:
-#
 namespace = ice
 # 
-# SPELLS EFFECTS
+# SPELLS FOR KISLEV ICE MAGES
 #
+###################################################
+#
+# STRATEGIC SPELLS MAIN EVENT
+# Spell choosing event for decision triggered spells
+#
+###################################################
+character_event = {
+    id = ice.0
+    desc = "Choose ice spell"
+    is_triggered_only = yes
 
-# Blizzard (personal spell)
+    # channeling for strategic spells if any
+    immediate = { 
+    }
+    # Blizzard
+    option = {
+        # checking if casting is possible 
+        trigger = {
+            OR = {
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+            NOT = { has_character_flag = strategic_spell_used }
+        }
+        name = "Cast Blizzard"
+        character_event = { id = magicengine.1 }
+        # triggering spell event 
+        if = {
+            limit = { has_character_flag = last_spell_success }
+            character_event = { id = ice.1 }
+        }
+        # failure of spellcast trigger failure report
+        if = {
+            limit = { NOT = { has_character_flag = last_spell_success } }
+            character_event = { id = magicengine.11 }
+        }
+        # clear stuff
+        clr_character_flag = last_spell_success 
+    }
+    # Ice walls
+    option = {
+        # checking if casting is possible 
+        trigger = {
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+            NOT = { has_character_flag = strategic_spell_used }
+        }
+        name = "Cast Winter Realm"
+        character_event = { id = magicengine.1 }
+        # triggering spell event 
+        if = {
+            limit = { has_character_flag = last_spell_success }
+            character_event = { id = ice.2 }
+        }
+        # failure of spellcast trigger failure report
+        if = {
+            limit = { NOT = { has_character_flag = last_spell_success } }
+            character_event = { id = magicengine.11 }
+        }
+        # clear stuff
+        clr_character_flag = last_spell_success 
+    }
+    # In Siege strategic spell 
+    option = {
+        # checking if casting is possible 
+        trigger = {
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord
+                trait = magic_power_archmaster
+            }
+            in_siege = yes
+            NOT = { has_character_flag = strategic_spell_used }
+        }
+        name = "Cast Hail"
+        character_event = { id = magicengine.1 }
+        # triggering spell event 
+        if = {
+            limit = { has_character_flag = last_spell_success }
+            character_event = { id = ice.3 }
+        }
+        # failure of spellcast trigger failure report
+        if = {
+            limit = { NOT = { has_character_flag = last_spell_success } }
+            character_event = { id = magicengine.11 }
+        }
+        # clear stuff
+        clr_character_flag = last_spell_success 
+    }
+
+    option = {
+        name = "Dont cast any spells"
+    }
+}
+# Blizzard (strategic spell)
 #
 # selects some enemy character
-#
 #
 character_event = {
     id = ice.1
     desc = "This spells targets units of enemy moving thourgh your desmene"
     is_triggered_only = yes
-    
+   
     option = {
         name = "Blizzard"
-        #trigger = { has_character_flag = last_spell_success }
+       #trigger = { has_character_flag = last_spell_success }
         # first select any enemy
         location = {
-            add_province_modifier = { name = spell_blizzard duration = 30 }
+            add_province_modifier = { name = spell_blizzard duration = 15 }
             any_neighbor_province = {
                 add_province_modifier = { name = spell_blizzard duration = 15 }
             }
         }
-    }
-    option = {
-        name = "stop the spell"
-        trigger = { NOT = { has_character_flag = last_spell_success }}
+        # marks character that uses powerfull strategic spells
+        hidden_tooltip = {
+            set_character_flag = strategic_spell_used
+            character_event = { id = magicengine.6 days = 11 }
+        }
     }
 }
+# Ice Walls
+character_event = {
+    id = ice.2
+    desc = "Bring great walls of frozen ice"
+    is_triggered_only = yes
+   
+    option = {
+        name = "Walls"
+       #trigger = { has_character_flag = last_spell_success }
+        # first select any enemy
+        location = {
+            add_province_modifier = { name = spell_winter_realm duration = 15 }
+        }
+        # marks character that uses powerfull strategic spells
+        hidden_tooltip = {
+            set_character_flag = strategic_spell_used
+            character_event = { id = magicengine.6 days = 15 }
+        }
+    }
+}
+#
+character_event = {
+    id = ice.3
+    desc = "Send hail to the enemy"
+    is_triggered_only = yes
+   
+    option = {
+        name = "Destroy enemies"
+       #trigger = { has_character_flag = last_spell_success }
+        # first select any enemy
+        siege = {
+            enemy = {
+                troops = -0.05
+                morale = -0.05
+            }
+        }
+        # marks character that uses powerfull strategic spells
+        hidden_tooltip = {
+            set_character_flag = strategic_spell_used
+            character_event = { id = magicengine.6 days = 15 }
+        }
+    }
+}
+###################################################
+#
+#              BATTLE SPELLS
+#
+###################################################

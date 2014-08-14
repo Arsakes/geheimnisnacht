@@ -30,7 +30,7 @@ namespace = temptation
 #massively mutated individual should be more likely to fall than a minor one
 #
 # Temptation by Nurgle
-character_event = {
+narrative_event = {
     id = temptation.1
     desc = "temptation.1_desc" #TODO
     picture = "GFX_evt_nurgle"
@@ -178,7 +178,7 @@ character_event = {
     }
 }
 # Temptation Slaanesh
-character_event = {
+narrative_event = {
     id = temptation.2
     desc = "temptation.2_desc" #TODO
     picture = "GFX_evt_slaanesh"
@@ -329,7 +329,7 @@ character_event = {
     }
 }
 # Temptation Tzeenth
-character_event = {
+narrative_event = {
     id = temptation.3
     desc = "temptation.3_desc" #TODO
     picture = "GFX_evt_tzeentch"
@@ -463,7 +463,7 @@ character_event = {
     }
 }
 # Temptation Khorne
-character_event = {
+narrative_event = {
     id = temptation.4
     desc = "temptation.4_desc" #TODO
     picture = "GFX_evt_khorne"
@@ -620,7 +620,7 @@ character_event = {
     }
 }
 # Temptation Undivided
-character_event = {
+narrative_event = {
     id = temptation.5
     desc = "temptation.5_desc"
     #picture = ""

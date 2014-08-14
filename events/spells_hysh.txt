@@ -1,19 +1,116 @@
 #
-# Spells for Hysh lore
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @description  Spells for Hysh lore
+# @version 0.1.0
+# @compatibility 2.1.6
+# @wip
+#
 # id = hysh.xy, x - spellchain id, y - event from spellchain
 #
-# battle spells:
-# duel spells:
-# strategic spells:
-# metaspell: spell for chosing other spells
+# battle spells: 1-9
+# duel spells: 10-19
+# strategic spells: 20-29
 # 
 namespace = hysh
-# 
-# SPELLS EFFECTS
+##############################################################
 #
+# Battle Spells:
+#
+##############################################################
+
+##############################################################
+#
+# Duel Spells:
+#
+# FROM = enemy(spell target)
+# ROOT = caster
+# 
+##############################################################
+
+# Burning Gaze
+character_event = {
+   id = hysh.10
+   is_triggered_only = yes
+   desc = "EVTDESC_HYSH_10"
+   #major = yes
+
+   immediate = { 
+       #FIXME change damage
+       set_variable = { which = "duel_magic_att" value = 6 }
+       # FIXME
+       FROM = { set_character_flag = fromfrom } 
+       FROMFROM = { set_character_flag = fromfrom } 
+       FROMFROMFROM = { set_character_flag = fromfromfrom } 
+       ROOT = { set_character_flag = root } 
+   }
+   option = {
+       name = "OK"
+       FROM = { 
+           set_character_flag = xxxx
+       }
+   }
+}
+#body of light
+character_event = {
+   id = hysh.11
+   is_triggered_only = yes
+   desc = "EVTDESC_HYSH_11"
+
+   immediate = { 
+       set_variable = { which = "duel_magic_att" value = 0 }
+       set_character_flag  = duel_effect_body_of_light
+   }
+   option = {
+       name = "OK"
+   }
+}
+#healing energy
+character_event = {
+   id = hysh.12
+   is_triggered_only = yes
+   desc = "EVTDESC_HYSH_12"
+ 
+   immediate = { 
+       set_variable = { which = "duel_magic_att" value = 0 }
+       random_list = {
+          33 = { change_variable = { which = "duel_hp" value = 1 } }
+          34 = { change_variable = { which = "duel_hp" value = 2 } }
+          33 = { change_variable = { which = "duel_hp" value = 3 } }
+       }
+       if = {
+           limit = { check_variable = { which = "duel_hp" which = "duel_max_hp" } }
+           set_variable = { which = "duel_hp" which = "duel_max_hp" }
+       }
+   }
+
+   option = {
+       name = "OK"
+   }
+}
+#radiant Weapon
+character_event = {
+   id = hysh.13
+   is_triggered_only = yes
+   desc = "EVTDESC_HYSH_13"
+
+   immediate = { 
+       set_variable = { which = "duel_magic_att" value = 0 }
+       set_character_flag  = duel_effect_radiant_weapon
+   }
+   option = {
+       name = "OK"
+   }
+}
+
+
+######################################################
+#
+# STRATEGIC SPELLS
+#
+######################################################
 # Hysh blessing (metaspell, strategic spell)
 character_event = {
-    id = hysh.10
+    id = hysh.20
     desc = ""
     is_triggered_only = yes
     
@@ -42,7 +139,7 @@ character_event = {
 #
 # main effect
 character_event = {
-   id = hysh.2
+   id = hysh.21
    is_triggered_only = yes
    
    option = {
@@ -64,33 +161,5 @@ character_event = {
        }
    }
 }
-# Puryfying light (icreasing health)
-character_event = {
-   id = hysh.3
-   is_triggered_only = yes
 
-   option = {
-       name = "Puryfying light"
-       any_courtier = {
-           limit = { 
-               prisoner = no
-           }
-           #FIXME no such spell add_character_modifier = { name = spell_purifyinglight duration = 14 } 
-       }
-   }
-}
-# Demon banishing
-character_event = {
-   id = hysh.4
-   is_triggered_only = yes
-   
-   option = {
-       name = "Banish the demon"
-       location = {
-           random_province_character = {
-               limit = { trait = possesed }
-               #character_event = { id = hysh.31 }
-           }
-       }
-  }
-}
+

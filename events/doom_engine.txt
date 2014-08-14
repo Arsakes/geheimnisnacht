@@ -607,3 +607,62 @@ character_event = {
         ai_chance = { factor = 1 }
     }
 }
+
+# Daemon spawning
+character_event = {
+    id = doomengine.40
+    name = "demony"
+    desc = "demony bardzo"
+    
+    is_triggered_only = yes
+    immediate = {
+           culture = daemon_khorne
+    }
+    option = {
+       name = "EVTOPT_DOOMENGINE_2A"
+       # change modifier resistance to ravaged by chaos
+       location = {
+           ROOT = {
+               spawn_unit = {
+                   province = PREV
+                   owner = ROOT 
+                   home = PREV
+                   match_character = ROOT 
+                   match_mult = 0.1
+                   earmark = demons
+                   attrition = 1.0
+               }
+           }
+       }
+    }
+}
+# Daemon spawning
+character_event = {
+    id = doomengine.41
+    name = "demony"
+    desc = "demony bardzo"
+    
+    is_triggered_only = yes
+    immediate = {
+           location = {
+               culture = daemon_khorne
+           }
+    }
+    option = {
+       name = "EVTOPT_DOOMENGINE_2A"
+       # change modifier resistance to ravaged by chaos
+       location = {
+           ROOT = {
+               spawn_unit = {
+                   province = PREV
+                   owner = ROOT 
+                   home = PREV
+                   match_character = ROOT 
+                   match_mult = 0.1
+                   earmark = demons2
+                   attrition = 1.0
+               }
+           }
+        }
+    }
+}
