@@ -738,6 +738,10 @@ narrative_event = {
 # 
 # That event should be place dependent 
 #
+##Actually trying to model cults seems too much in my opinion. I think it can be readily assumed that any character
+##that exits in game will be able to get a group of people together to do his bidding. Joining cult isn't as big of
+##deal as falling to chaos. so leave this event if we absolutely need to, otherwise fold it into the actual temptation events.
+##-Erik
 character_event = {
     id = temptation.6
     desc = "temptation.6_desc"
