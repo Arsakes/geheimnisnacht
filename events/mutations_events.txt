@@ -185,7 +185,7 @@ character_event = {
     
     option = {
        name = OK
-       intrigue = 1
+       change_intrigue = 1
 
        if = {
            limit = { 
@@ -207,7 +207,7 @@ character_event = {
     
     option = {
        name = OK
-       diplomacy = -2
+       change_diplomacy = -2
        if = {
            limit = { 
                NOT = { trait = mutation_minor  }
@@ -229,8 +229,8 @@ character_event = {
     # first mutation
     option = {
        name = OK
-       diplomacy = -1
-       intrigue = -1
+       change_diplomacy = -1
+       change_intrigue = -1
        if = {
            limit = { 
                NOT = { trait = mutation_minor  }
@@ -259,7 +259,7 @@ character_event = {
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_major
-           remove_trait = mutation_minor
+           hidden_tooltip = { remove_trait = mutation_minor }
        }
     }
 }
@@ -272,9 +272,9 @@ character_event = {
     
     option = {
         name = OK
-        martial = -2
-        diplomacy = -1
-        intrigue = -1
+        change_martial = -2
+        change_diplomacy = -1
+        change_intrigue = -1
         health = -0.5
         if = {
            limit = { 
@@ -282,7 +282,7 @@ character_event = {
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_major
-           remove_trait = mutation_minor
+           hidden_tooltip = { remove_trait = mutation_minor }
        }
 
     }
@@ -297,15 +297,15 @@ character_event = {
     # first mutation
     option = {
         name = OK
-        diplomacy = -1
-        martial = -1
+        change_diplomacy = -1
+        change_martial = -1
        if = {
            limit = { 
                NOT = { trait = mutation_major  }
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_major
-           remove_trait = mutation_minor
+           hidden_tooltip = { remove_trait = mutation_minor }
        }
 
     }
@@ -320,17 +320,19 @@ character_event = {
     
     option = {
         name = OK
-        martial = 2
+        change_martial = 2
         health = 0.5
-        diplomacy = -1
-        stewardship = -1
+        change_diplomacy = -1
+        change_stewardship = -1
         if = {
            limit = { 
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_massive
-           remove_trait = mutation_minor
-           remove_trait = mutation_major
+           hidden_tooltip = { 
+               remove_trait = mutation_minor 
+               remove_trait = mutation_major
+           }
        }
 
     }
@@ -346,17 +348,20 @@ character_event = {
         name = OK
         health = -0.5
         fertility = -0.2
-        martial = -2
-        diplomacy = -4
-        stewardship = -1
-        intrigue = -1
+        change_martial = -2
+        change_diplomacy = -4
+        change_stewardship = -1
+        change_intrigue = -1
         if = {
            limit = { 
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_massive
-           remove_trait = mutation_minor
-           remove_trait = mutation_major
+           hidden_tooltip = { 
+               remove_trait = mutation_minor 
+               remove_trait = mutation_major
+           }
+
        }
 
     }
@@ -370,16 +375,18 @@ character_event = {
     
     option = {
         name = OK
-        stewardship = 1
-        intrigue = 1
-        learning = 2
+        change_stewardship = 1
+        change_intrigue = 1
+        change_learning = 2
         if = {
            limit = { 
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_massive
-           remove_trait = mutation_minor
-           remove_trait = mutation_major
+           hidden_tooltip = { 
+               remove_trait = mutation_minor 
+               remove_trait = mutation_major
+           }
        }
 
     }
