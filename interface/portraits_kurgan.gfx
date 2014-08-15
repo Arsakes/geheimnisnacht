@@ -42,7 +42,7 @@ spriteTypes = {
 			{ 58 109 193}
 		}
 
-		headgear_that_hides_hair = { 10  }
+		headgear_that_hides_hair = { 1 }
 	}
 
 	# middle age
@@ -86,7 +86,7 @@ spriteTypes = {
 			{ 58 109 193}
 		}
 
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 1 }
 	}
 	
 	# old age
@@ -130,7 +130,7 @@ spriteTypes = {
 			{ 58 109 193}
 		}
 
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { 1 }
 	}
 
 
@@ -275,7 +275,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_kurgan_male_headgear_behind"
 		texturefile = "gfx\\characters\\kurgan_male\\kurgan_male_headgear_behind.dds"
-		noOfFrames = 12
+		noOfFrames = 2
 		norefcount = yes
 	}
 
@@ -550,7 +550,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_kurgan_male_headgear"
 		texturefile = "gfx\\characters\\kurgan_male\\kurgan_male_headgear.dds"
-		noOfFrames = 12
+		noOfFrames = 2
 		norefcount = yes
 	}
 
