@@ -113,6 +113,9 @@ spell_eyesoftruth;Eyes of Truth;;;;;;;;;;;;;x
 spell_eyesoftruth_desc;The wind magic wind allows this character to see through lies of others.;;;;;;;;;;;;;x
 spell_blizzard;Blizzard;;;;;;;;;;;;;x
 spell_blizzard_desc;There is terrible blizzard of magical origin raging in this province.;;;;;;;;;;;;;x
+# battle magic modifiers
+battle_magic_light;White Wizard;;;;;;;;;;;;;x
+battle_magic_light;Character uses white wind of magic to aid his troops in battle;;;;;;;;;;;;;x
 # chaos connected
 called_for_help_chaos;Called for help;;;;;;;;;;;;;x
 called_for_help_chaos_desc;This character called for help in defending against chaos invasion.;;;;;;;;;;;;;x

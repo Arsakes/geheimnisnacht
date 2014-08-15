@@ -1,7 +1,9 @@
 ##################################################
 #
-# Here should be events governing the falling 
-# into chaos mechanics
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @version 0.1.0
+# @compatibility 2.1.6
+# @description events governing the falling into chaos mechanics
 #
 namespace = temptation
 #
@@ -162,8 +164,14 @@ narrative_event = {
         }
     }
     immediate = {
-        # Make SW test ( writes output to sw_test)
-        character_event = { id = dicethrow.1 }
+    # calculate SW
+        character_event = { id = dicethrow.0 }
+        # k10 roll
+        character_event = { id = dicethrow.10 }
+        # SW - k10 > -2
+        subtract_variable = { which = "SW" which = "k10_roll" }
+        set_variable = { which = "k10_roll" value = 0 }
+
     }
     # Temptation by some chosen god
     option = {
@@ -173,8 +181,9 @@ narrative_event = {
     }
     # Resist the chaos if you SW test went correctly
     option = {
+        trigger = { check_variable = { which = "SW" value = -2 }}
         name = "Temptation.1.TOOLTIP2" #TODO
-        trigger = { NOT = { check_variable = { which = "sw_test" value = 1 }}}
+        hidden_tooltip = { set_variable = { which = "SW" value = 0 }}
     }
 }
 # Temptation Slaanesh
@@ -194,7 +203,7 @@ narrative_event = {
                 has_character_flag = hidden_cultist_slaanesh
                 has_character_flag = hidden_cultist_tzeenth
                 has_character_flag = hidden_cultist_khorne
-				has_character_flag = hidden_cultist_undivided
+		has_character_flag = hidden_cultist_undivided
             }
         }
     }
@@ -313,8 +322,13 @@ narrative_event = {
 
     }
     immediate = {
-        # Make SW test ( writes output to sw_test)
-        character_event = { id = dicethrow.1 }
+        # calculate SW
+        character_event = { id = dicethrow.0 }
+        # k10 roll
+        character_event = { id = dicethrow.10 }
+        # SW - k10 > -2
+        subtract_variable = { which = "SW" which = "k10_roll" }
+        set_variable = { which = "k10_roll" value = 0 }
     }
     # Temptation by some chosen god
     option = {
@@ -325,7 +339,8 @@ narrative_event = {
     # Resist the chaos if you SW test went correctly
     option = {
         name = "temptation.2.TOOLTIP2" #TODO
-        trigger = { NOT = { check_variable = { which = "sw_test" value = 1 }}}
+        trigger = { check_variable = { which = "SW" value = -2 }}
+        hidden_tooltip = { set_variable = { which = "SW" value = 0 }}
     }
 }
 # Temptation Tzeenth
@@ -345,7 +360,7 @@ narrative_event = {
                 has_character_flag = hidden_cultist_slaanesh
                 has_character_flag = hidden_cultist_tzeenth
                 has_character_flag = hidden_cultist_khorne
-				has_character_flag = hidden_cultist_undivided
+		has_character_flag = hidden_cultist_undivided
             }
         }
     }
@@ -447,8 +462,13 @@ narrative_event = {
 
     }
     immediate = {
-        # Make SW test ( writes output to sw_test)
-        character_event = { id = dicethrow.1 }
+    # calculate SW
+        character_event = { id = dicethrow.0 }
+        # k10 roll
+        character_event = { id = dicethrow.10 }
+        # SW - k10 > -2
+        subtract_variable = { which = "SW" which = "k10_roll" }
+        set_variable = { which = "k10_roll" value = 0 }
     }
     # Temptation by some chosen god
     option = {
@@ -458,8 +478,9 @@ narrative_event = {
     }
     # Resist the chaos if you SW test went correctly
     option = {
+        trigger = { check_variable = { which = "SW" value = -2 }}
         name = "temptation.3.TOOLTIP2"
-        trigger = { NOT = { check_variable = { which = "sw_test" value = 1 }}}
+        hidden_tooltip = { set_variable = { which = "SW" value = 0 }}
     }
 }
 # Temptation Khorne
@@ -604,8 +625,13 @@ narrative_event = {
         # External influence
     }
     immediate = {
-        # Make SW test ( writes output to sw_test)
-        character_event = { id = dicethrow.1 }
+        # calculate SW
+        character_event = { id = dicethrow.0 }
+        # k10 roll
+        character_event = { id = dicethrow.10 }
+        # SW - k10 > -2
+        subtract_variable = { which = "SW" which = "k10_roll" }
+        set_variable = { which = "k10_roll" value = 0 }
     }
     # Temptation by some chosen god
     option = {
@@ -615,8 +641,9 @@ narrative_event = {
     }
     # Resist the chaos if you SW test went correctly
     option = {
+        trigger = { check_variable = { which = "SW" value = -2 }}
         name = "temptation.4.TOOLTIP2"
-        trigger = { NOT = { check_variable = { which = "sw_test" value = 1 }}}
+        hidden_tooltip = { set_variable = { which = "SW" value = 0 }}
     }
 }
 # Temptation Undivided
@@ -716,8 +743,14 @@ narrative_event = {
 
     }
     immediate = {
-        # Make SW test ( writes output to sw_test)
-        character_event = { id = dicethrow.1 }
+    # calculate SW
+        character_event = { id = dicethrow.0 }
+        # k10 roll
+        character_event = { id = dicethrow.10 }
+        # SW - k10 > -2
+        subtract_variable = { which = "SW" which = "k10_roll" }
+        set_variable = { which = "k10_roll" value = 0 }
+
     }
     # Temptation by chaos
     option = {
@@ -727,8 +760,9 @@ narrative_event = {
     }
     # Resist the chaos if you SW test went correctly
     option = {
+        trigger = { check_variable = { which = "SW" value = -2 }}
         name = "temptation.5.TOOLTIP2"
-        trigger = { NOT = { check_variable = { which = "sw_test" value = 1 }}}
+        hidden_tooltip = { set_variable = { which = "SW" value = 0 }}
     }
 }
 

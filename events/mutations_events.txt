@@ -1,6 +1,13 @@
-# and skype discussions
+# 
+# @author Pietrko <p.l.stepnicki@gmail.com>
+# @description Mutation events
+# @version 0.1.0
+# @modified on 0.1.2
+# @compatibility 2.1.6
+# @wip
 #
-#
+
+
 # Ways to get mutated (all mentioned in book)
 # Handled in this event
 # 1.Bad location 
@@ -12,15 +19,20 @@
 # 5.Nurgle's rot [health_events]
 # 6.Possession [possession_engine]
 #
-namespace = mutations
 #
-# Main event for getting random mutations
+# 1- hidden governing events
+# 2-19: mutation
+#
+#
+namespace = mutation
+#
+# Main event for getting random mutation
 #
 character_event = {
-    id = mutations.1
+    id = mutation.1
     hide_window = yes
 
-    # things which exclude mutations
+    # things which exclude mutation
     trigger = {
         NOT = { 
             trait = creature_elf 
@@ -144,30 +156,231 @@ character_event = {
         }
     }
     # trigger an actual mutation event depending on 
-    # the amount of mutations
-    immediate = {
-        character_event = { id = mutation.2 }
+    # the amount of mutation
+    immediate = { 
+        random_list = {
+            12 = character_event = { id = mutation.2 }
+            11 = character_event = { id = mutation.3 }
+            11 = character_event = { id = mutation.4 }
+            11 = character_event = { id = mutation.5 }
+            11 = character_event = { id = mutation.6 }
+            11 = character_event = { id = mutation.7 }
+            11 = character_event = { id = mutation.8 }
+            11 = character_event = { id = mutation.9 }
+            11 = character_event = { id = mutation.10 }
+        }
     }
 }
 #
 # Actual mutation gaining event to be done after you guys decide
 # how the mutation trait will work
-# character_event = {
-#    id = mutations.2
-#    desc = "TODO"
-#    picture = ""
-#    is_triggered_only = yes
-#    
-#    # first mutation
-#    option = {
-#        trigger = {
-#            NOT = {
-#            
-#            }
-#        }
-#        name = "TODO"
-#        random_list = {
-#            25 = 
-#        }
-#    }
-#}
+
+
+# mutation eye on hand/additional eye
+character_event = {
+    id = mutation.2
+    desc = "EVTDESC_MUTATION_2"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+       name = OK
+       intrigue = 1
+
+       if = {
+           limit = { 
+               NOT = { trait = mutation_minor  }
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_minor
+       }
+    }
+}
+# strage look (come up with some generic description could be strange
+# coulour hair, fur, fingers growing on  head etc)
+character_event = {
+    id = mutation.3
+    desc = "EVTDESC_MUTATION_3"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+       name = OK
+       diplomacy = -2
+       if = {
+           limit = { 
+               NOT = { trait = mutation_minor  }
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_minor
+       }
+
+    }
+}
+# strange smell
+character_event = {
+    id = mutation.4
+    desc = "EVTDESC_MUTATION_4"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    # first mutation
+    option = {
+       name = OK
+       diplomacy = -1
+       intrigue = -1
+       if = {
+           limit = { 
+               NOT = { trait = mutation_minor  }
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_minor
+       }
+
+    }
+}
+# MAJOR
+# claw instead of hand
+character_event = {
+    id = mutation.5
+    desc = "EVTDESC_MUTATION_5"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+        name = OK
+        matrial = 1
+        if = {
+           limit = { 
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_major
+           remove_trait = mutation_minor
+       }
+    }
+}
+# atrophy (without leg, hand or something)
+character_event = {
+    id = mutation.6
+    desc = "EVTDESC_MUTATION_6"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+        name = OK
+        martial = -2
+        diplomacy = -1
+        intrigue = -1
+        health = -0.5
+        if = {
+           limit = { 
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_major
+           remove_trait = mutation_minor
+       }
+
+    }
+}
+# outgrowth
+character_event = {
+    id = mutation.7
+    desc = "EVTDESC_MUTATION_7"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    # first mutation
+    option = {
+        name = OK
+        diplomacy = -1
+        martial = -1
+       if = {
+           limit = { 
+               NOT = { trait = mutation_major  }
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_major
+           remove_trait = mutation_minor
+       }
+
+    }
+}
+# MASSIVE
+# beast look
+character_event = {
+    id = mutation.8
+    desc = "EVTDESC_MUTATION_8"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+        name = OK
+        martial = 2
+        health = 0.5
+        diplomacy = -1
+        stewardship = -1
+        if = {
+           limit = { 
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_massive
+           remove_trait = mutation_minor
+           remove_trait = mutation_major
+       }
+
+    }
+}
+# rotting body 
+character_event = {
+    id = mutation.9
+    desc = "EVTDESC_MUTATION_9"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+        name = OK
+        health = -0.5
+        fertility = -0.2
+        martial = -2
+        diplomacy = -4
+        stewardship = -1
+        intrigue = -1
+        if = {
+           limit = { 
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_massive
+           remove_trait = mutation_minor
+           remove_trait = mutation_major
+       }
+
+    }
+}
+# additional head
+character_event = {
+    id = mutation.10
+    desc = "EVTDESC_MUTATION_10"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+    
+    option = {
+        name = OK
+        stewardship = 1
+        intrigue = 1
+        learning = 2
+        if = {
+           limit = { 
+               NOT = { trait = mutation_massive }
+           }
+           add_trait = mutation_massive
+           remove_trait = mutation_minor
+           remove_trait = mutation_major
+       }
+
+    }
+}
