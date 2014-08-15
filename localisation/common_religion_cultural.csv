@@ -313,10 +313,10 @@ temple_county_of_halfling_gods;Grand Temple of;;;;;;;;;;;;;x
 temple_duchy_of_halfling_gods;Protectorate of;;;;;;;;;;;;;x
 temple_kingdom_of_halfling_gods;Grand Protectorate of;;;;;;;;;;;;;x
 temple_empire_of_halfling_gods;Apostolic Empire of;;;;;;;;;;;;;x
-temple_baron_norse_group;Goï¿½i;;;;;;;;;;;;;x
-temple_baron_female_norse_group;Goï¿½i;;;;;;;;;;;;;x
-temple_count_norse_group;Seiï¿½r;;;;;;;;;;;;;x
-temple_count_female_norse_group;Seiï¿½r;;;;;;;;;;;;;x
+temple_baron_norse_group;Goði;;;;;;;;;;;;;x
+temple_baron_female_norse_group;Goði;;;;;;;;;;;;;x
+temple_count_norse_group;Seiðr;;;;;;;;;;;;;x
+temple_count_female_norse_group;Seiðr;;;;;;;;;;;;;x
 temple_duke_norse_group;Fylkir;;;;;;;;;;;;;x
 temple_duke_female_norse_group;Fylkir;;;;;;;;;;;;;x
 temple_king_norse_group;Fylkir-King;;;;;;;;;;;;;x
@@ -457,7 +457,7 @@ count_female_imperial_group;Countess;;;;;;;;;;;;;x;
 duke_imperial_group;Duke;;;;;;;;;;;;;x;
 duke_female_imperial_group;Duchess;;;;;;;;;;;;;x;
 king_imperial_group;Graf;;;;;;;;;;;;;x;
-king_female_imperial_group;Grï¿½fin;;;;;;;;;;;;;x;
+king_female_imperial_group;Gräfin;;;;;;;;;;;;;x;
 emperor_imperial_group;Emperor;;;;;;;;;;;;;x;
 emperor_female_imperial_group;Empress;;;;;;;;;;;;;x;
 barony_of_imperial_group;Barony of;;;;;;;;;;;;;x;
@@ -476,13 +476,13 @@ city_duchy_of_imperial_group;League of;;;;;;;;;;;;;x;
 city_kingdom_of_imperial_group;Republic of;;;;;;;;;;;;;x;
 city_empire_of_imperial_group;Imperial Republic of;;;;;;;;;;;;;x;
 baron_halfing_group;Burggraf;;;;;;;;;;;;;x;
-baron_female_halfing_group;Burggrï¿½fin;;;;;;;;;;;;;x;
+baron_female_halfing_group;Burggräfin;;;;;;;;;;;;;x;
 count_halfing_group;Markgraf;;;;;;;;;;;;;x;
-count_female_halfing_group;Markgrï¿½fin;;;;;;;;;;;;;x;
+count_female_halfing_group;Markgräfin;;;;;;;;;;;;;x;
 duke_halfing_group;Landgraf;;;;;;;;;;;;;x;
-duke_female_halfing_group;Landgrï¿½fin;;;;;;;;;;;;;x;
+duke_female_halfing_group;Landgräfin;;;;;;;;;;;;;x;
 king_halfing_group;Graf;;;;;;;;;;;;;x;
-king_female_halfing_group;Grï¿½f;;;;;;;;;;;;;x;
+king_female_halfing_group;Gräf;;;;;;;;;;;;;x;
 emperor_halfing_group;Emperor;;;;;;;;;;;;;x;
 emperor_female_halfing_group;Empress;;;;;;;;;;;;;x;
 barony_of_halfing_group;Barony of;;;;;;;;;;;;;x;
@@ -699,7 +699,7 @@ county_of_tilean_group;County of;;;;;;;;;;;;;x;
 duchy_of_tilean_group;Duchy of;;;;;;;;;;;;;x;
 kingdom_of_tilean_group;Principality of;;;;;;;;;;;;;x;
 empire_of_tilean_group;Empire of;;;;;;;;;;;;;x;
-city_baron_tilean_group;Podestï¿½;;;;;;;;;;;;;x;
+city_baron_tilean_group;Podestà;;;;;;;;;;;;;x;
 city_count_tilean_group;Rettore;;;;;;;;;;;;;x;
 city_duke_tilean_group;Cancelliere;;;;;;;;;;;;;x;
 city_king_tilean_group;Doge;;;;;;;;;;;;;x;
@@ -724,7 +724,7 @@ county_of_sartosan_group;County of;;;;;;;;;;;;;x;
 duchy_of_sartosan_group;Duchy of;;;;;;;;;;;;;x;
 kingdom_of_sartosan_group;Principality of;;;;;;;;;;;;;x;
 empire_of_sartosan_group;Empire of;;;;;;;;;;;;;x;
-city_baron_sartosan_group;Podestï¿½;;;;;;;;;;;;;x;
+city_baron_sartosan_group;Podestà;;;;;;;;;;;;;x;
 city_count_sartosan_group;Rettore;;;;;;;;;;;;;x;
 city_duke_sartosan_group;Cancelliere;;;;;;;;;;;;;x;
 city_king_sartosan_group;Doge;;;;;;;;;;;;;x;

@@ -76,8 +76,8 @@ EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the po
 #
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_0A;I shall defeat them!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you across the field of battle. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_0A;Who shall I fight today?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;As you draw closer you see your enemy is [From.GetTitledName]. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
@@ -91,7 +91,7 @@ EVTOPT_DUELENGINE_4E;Try to escape!;;;;;;;;;;;;;x
 #
 EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_20;You slash at [From.GetTitledFirstName] and manage to wound [From.GetHerHim], however your attack left you open to [from.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_20;You slash at [FromFrom.GetFirstName] and manage to wound [FromFrom.GetHerHim], however your attack left you open to [FromFrom.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20A;Focus on defence. Let no attack through!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
@@ -103,25 +103,25 @@ EVTOPT_DUELENGINE_20G;Cast Lore Special Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20H;Channel Magic Power;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20I;Perform Counterspell;;;;;;;;;;;;;x
 #
-EVTDESC_DUELENGINE_21;[From.GetTitledFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [From.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_22;You attack [From.GetTitledFirstName] but are unable to penetrate [from.GetHerHis] defences, and [From.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_23;[From.GetTitledFirstName] blocks every blow you send [from.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_21;[FromFrom.GetFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [FromFrom.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_22;You attack [FromFrom.GetFirstName] but are unable to penetrate [FromFrom.GetHerHis] defences, and [FromFrom.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_23;[FromFrom.GetFirstName] blocks every blow you send [FromFrom.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_24;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_24A;Avenge me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledFirstName] lies before you.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledName] lies before you.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_25A;Hurray!;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledFirstName] has managed to escape!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledName] has managed to escape!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
 #
 # DUEL TOOLTIPS
-TOOLTIP_attack_stance;Improves attack: Â§KS:+1Â§!, but lowers defence: Â§YDef:-1Â§!.;;;;;;;;;;;;;x
-TOOLTIP_defence_stance;Lowers attack: Â§KS:-1Â§!, but improves defence: Â§GDef:+1Â§!.;;;;;;;;;;;;;x
+TOOLTIP_attack_stance;Improves attack: §GAtt:+1§!, but lowers defence: §RDef:-1§!;;;;;;;;;;;;;x
+TOOLTIP_defence_stance;Lowers attack: §RAtt:-1§!, but improves defence: §GDef:+1§!;;;;;;;;;;;;;x
 #
 # MAGIC ENGINE namespace = magicengine
-TOOLTIP_burning_gaze;Burning Gaze - damages with Â§KS 4Â§!, costs  Â§B3 mp 3Â§!.;;;;;;;;;;;;;x
-TOOLTIP_body_of_light;Body of Light - improves defence Â§G Def +2Â§!, costs Â§B mp 4Â§!.;;;;;;;;;;;;;x
+TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs  §B3 mp§!.;;;;;;;;;;;;;x
+TOOLTIP_body_of_light;Body of Light - improves defence §GDef +2§!, costs §B4 mp§!.;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
