@@ -6,8 +6,8 @@ temptation.1_desc;The Plague Father, Fly Lord, Great Corruptor, the Master of Pe
 Temptation.1.TOOLTIP1;Father Nurgle loves his childern, he he he...;;;;;;;;;;;;;x
 Temptation.1.TOOLTIP2;[Root.Religion.GetRandomGodName] will give me the strength to resist this sickness in my heart!;;;;;;;;;;;;;x
 temptation.2;The Seductions of the Prince of Pleasure;;;;;;;;;;;;;x
-temptation.2_desc;Truth, beauty,, honour, justice... what do any of these things mean without pleasure? Are not the senses of Man his guide into the divine? Poetry, music, dance, wine, none of it is enough for one of your intellect and needs. Your body and mind yearn for stimulation, to seek out new experiences. You tire of the restraints of so-called "civilised society," and wonder if it might be better to seek out likeminded spirits and experiment with a new lifestyle beyond mere mortal hedonism? Your inquiring mind and almost uncontrollable lust for life leads you to the Forbidden Lord of Excess, Slaanesh, who can offer you all you desire in return for so little…?;;;;;;;;;;;;;x 
-temptation.2.TOOLTIP1;Ah, what sweet ecstasy is this… I must have more!;;;;;;;;;;;;;x
+temptation.2_desc;Truth, beauty,, honour, justice... what do any of these things mean without pleasure? Are not the senses of Man his guide into the divine? Poetry, music, dance, wine, none of it is enough for one of your intellect and needs. Your body and mind yearn for stimulation, to seek out new experiences. You tire of the restraints of so-called "civilised society," and wonder if it might be better to seek out likeminded spirits and experiment with a new lifestyle beyond mere mortal hedonism? Your inquiring mind and almost uncontrollable lust for life leads you to the Forbidden Lord of Excess, Slaanesh, who can offer you all you desire in return for so little?;;;;;;;;;;;;;x 
+temptation.2.TOOLTIP1;Ah, what sweet ecstasy is this I must have more!;;;;;;;;;;;;;x
 temptation.2.TOOLTIP2;No, no, I have gone too far... [Root.Religion.GetRandomGodName] forgive me.;;;;;;;;;;;;;x
 temptation.3;The Changer of Ways Calls Ye;;;;;;;;;;;;;x
 temptation.3_desc;The ignorant masses cling to their Gods and laws, unaware of their own utter insignificance in the grand scheme of things. Civilisations and races rise and fall, the only constant is change - all else is illusion. One of your genius knows that the only way to survive and achieve greatness on this mortal coil is to understand the vast immaterial power of magic, and to use any means necessary to acquire that knowledge. You know that the parlour tricks of the common wizard are merely a pale reflection of the incredible powers that close-minded religious dogma denies to you. In order to better understand the Winds of Magic, and to further your own career, you've considered entering a purely temporary relationship with the demonic called Tzeentch in order to use him for your own ends.;;;;;;;;;;;;;;x  
@@ -70,14 +70,15 @@ EVTDESC_DOOMENGINE_24; Armies of Chaos are marching. The host of [From.GetTitled
 EVTOPT_DOOMENGINE_24A;!;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
 # namespace = magicengine
-EVTDESC_MAGICENGINE_2;You failed to cast the spell.;;;;;;;;;;;;;x
+EVTDESC_MAGICENGINE_2;You failed to cast the spell, however thanks to your mastery over winds you are unharmed.;;;;;;;;;;;;;x
 EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of magic left you burn and scarred.;;;;;;;;;;;;;x
 EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
-#
+TOOLTIP_MAGICENGINE_MUTATION;Character gains a mutation.;;;;;;;;;;;;;x
+# special character §§§
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_0A;I shall defeat them!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_1;Your enemy [From.GetTitledFirstName] spotted you across the field of battle. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_0A;Who shall I fight today?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_1;As you draw closer you see your enemy is [From.GetTitledName]. Shall you engage [From.GetHerHim]?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
@@ -91,7 +92,7 @@ EVTOPT_DUELENGINE_4E;Try to escape!;;;;;;;;;;;;;x
 #
 EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_20;You slash at [From.GetTitledFirstName] and manage to wound [From.GetHerHim], however your attack left you open to [from.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_20;You slash at [FromFrom.GetFirstName] and manage to wound [FromFrom.GetHerHim], however your attack left you open to [FromFrom.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20A;Focus on defence. Let no attack through!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
@@ -103,25 +104,25 @@ EVTOPT_DUELENGINE_20G;Cast Lore Special Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20H;Channel Magic Power;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20I;Perform Counterspell;;;;;;;;;;;;;x
 #
-EVTDESC_DUELENGINE_21;[From.GetTitledFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [From.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_22;You attack [From.GetTitledFirstName] but are unable to penetrate [from.GetHerHis] defences, and [From.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_23;[From.GetTitledFirstName] blocks every blow you send [from.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_21;[FromFrom.GetFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [FromFrom.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_22;You attack [FromFrom.GetFirstName] but are unable to penetrate [FromFrom.GetHerHis] defences, and [FromFrom.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_23;[FromFrom.GetFirstName] blocks every blow you send [FromFrom.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_24;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_24A;Avenge me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledFirstName] lies before you.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledName] lies before you.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_25A;Hurray!;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledFirstName] has managed to escape!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledName] has managed to escape!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
 #
 # DUEL TOOLTIPS
-TOOLTIP_attack_stance;Improves attack: §KS:+1§!, but lowers defence: §YDef:-1§!.;;;;;;;;;;;;;x
-TOOLTIP_defence_stance;Lowers attack: §KS:-1§!, but improves defence: §GDef:+1§!.;;;;;;;;;;;;;x
+TOOLTIP_attack_stance;Improves attack: §GAtt:+1§!, but lowers defence: §RDef:-1§!.;;;;;;;;;;;;;x
+TOOLTIP_defence_stance;Lowers attack: §RAtt:-1§!, but improves defence: §GDef:+1§!.;;;;;;;;;;;;;x
 #
 # MAGIC ENGINE namespace = magicengine
-TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs  §B3 mp 3§!.;;;;;;;;;;;;;x
-TOOLTIP_body_of_light;Body of Light - improves defence §G Def +2§!, costs §B mp 4§!.;;;;;;;;;;;;;x
+TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs §B3 mp§!.;;;;;;;;;;;;;x
+TOOLTIP_body_of_light;Body of Light - improves defence §GDef +2§!, costs §B4 mp§!.;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x

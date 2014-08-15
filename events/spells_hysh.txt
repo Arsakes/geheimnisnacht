@@ -17,6 +17,163 @@ namespace = hysh
 # Battle Spells:
 #
 ##############################################################
+# Pillar of light TODO - add to it on_action_events
+character_event = {
+    id = hysh.1
+    picture = GFX_evt_spell_hysh
+    border = GFX_event_normal_frame_war
+    desc = "EVTDESC_HYSH_1"
+    
+    is_triggered_only = yes
+
+    
+    trigger = {
+        is_alive = yes
+        OR = {
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+        trait = lore_light
+    }
+    
+    weight_multiplier = {
+        days = 1
+        modifier = {
+            factor = 5 #SPELL FACTOR
+        }
+        modifier = {
+            factor = 1.5
+            trait = brave
+        }
+        modifier = {
+            factor = 0.5
+            trait = craven
+        }
+        modifier = {
+            trait = genius
+            factor = 1.2
+        }
+        modifier = {
+            trait = quick
+            factor = 1.1
+        }    
+        modifier = {
+            trait = slow
+            factor = 0.9
+        }
+        
+        modifier = {
+            trait = imbecile
+            factor = 0.2
+        }
+        modifier = {
+            trait = inbred
+            factor = 0.2
+        }
+        modifier = {
+            trait = strong
+            factor = 1.5
+        }
+        modifier = {
+            trait = weak
+            factor = 0.8
+        }    
+        modifier = {
+            factor = 0.8
+            trait = stressed
+        }
+        modifier = {
+            factor = 0.8
+            trait = depressed
+        }
+        modifier = {
+            factor = 0.75
+            trait = lunatic
+        }
+        modifier = {
+            factor = 0.75
+            trait = possessed
+        }
+        modifier = {
+            factor = 0.9
+            trait = ill
+        }
+        modifier = {
+            factor = 0.8
+            trait = pneumonic
+        }
+        modifier = {
+            factor = 0.8
+            trait = syphilitic
+        }
+        modifier = {
+            factor = 0.5
+            trait = leper
+        }
+        modifier = {
+            factor = 0.9
+            trait = wounded
+        }
+        modifier = {
+            factor = 0.8
+            trait = maimed
+        }
+        modifier = {
+            factor = 0.5
+            trait = infirm
+        }
+        modifier = {
+            factor = 0.4
+            trait = incapable
+        }
+        modifier = {
+            factor = 0.5
+            trait = drunkard
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_rattlelung
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_bone_auge
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_nurgles_rot
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_creeping_buboes
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_green_pox
+        }        
+        modifier = {
+            factor = 0.5
+            trait = has_red_pox
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_tomb_rot
+        }
+        modifier = {
+            factor = 2
+            trait = magic_power_lord
+        }
+        modifier = {
+            factor = 3
+            trait = magic_power_archmaster
+        }
+    }
+
+    option = {
+        name = EXCELLENT
+        # TODO
+    }
+}
 
 ##############################################################
 #
@@ -31,6 +188,7 @@ namespace = hysh
 character_event = {
    id = hysh.10
    is_triggered_only = yes
+   picture = GFX_evt_spell_hysh
    desc = "EVTDESC_HYSH_10"
    #major = yes
 
@@ -44,7 +202,7 @@ character_event = {
        ROOT = { set_character_flag = root } 
    }
    option = {
-       name = "OK"
+       name = OK
        FROM = { 
            set_character_flag = xxxx
        }
@@ -53,6 +211,7 @@ character_event = {
 #body of light
 character_event = {
    id = hysh.11
+   picture = GFX_evt_spell_hysh
    is_triggered_only = yes
    desc = "EVTDESC_HYSH_11"
 
@@ -68,6 +227,7 @@ character_event = {
 character_event = {
    id = hysh.12
    is_triggered_only = yes
+   picture = GFX_evt_spell_hysh
    desc = "EVTDESC_HYSH_12"
  
    immediate = { 
@@ -91,6 +251,7 @@ character_event = {
 character_event = {
    id = hysh.13
    is_triggered_only = yes
+   picture = GFX_evt_spell_hysh
    desc = "EVTDESC_HYSH_13"
 
    immediate = { 
@@ -98,19 +259,20 @@ character_event = {
        set_character_flag  = duel_effect_radiant_weapon
    }
    option = {
-       name = "OK"
+       name = OK
    }
 }
 
 
 ######################################################
 #
-# STRATEGIC SPELLS
+# STRATEGIC SPELLS TODO completely broken now
 #
 ######################################################
 # Hysh blessing (metaspell, strategic spell)
 character_event = {
     id = hysh.20
+   picture = GFX_evt_spell_hysh
     desc = ""
     is_triggered_only = yes
     
@@ -141,6 +303,7 @@ character_event = {
 character_event = {
    id = hysh.21
    is_triggered_only = yes
+   picture = GFX_evt_spell_hysh
    
    option = {
        name = "Hysh blessing"

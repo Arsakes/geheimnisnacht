@@ -157,7 +157,7 @@ character_event = {
     is_triggered_only = yes
      
     option = {
-        name = "OK"
+        name = OK
     }
 }
 character_event = {
@@ -169,7 +169,7 @@ character_event = {
         change_variable = { which = "duel_hp" value = -1 }
     }
     option = {
-        name = "OK"
+        name = OK
         random_list = { 
             50 = { add_trait = wouned }
             50 = { }
@@ -186,11 +186,14 @@ character_event = {
     }
    
     option = {
-        name = "OK"
+        name = OK
         random_list = {
             # mutation
             50 = {
-                 # trigger mutation event
+                custom_tooltip = { 
+                    text = "TOOLTIP_MAGICENGINE_MUTATION"
+                    character_event = { id = mutation.1 } 
+                }
             }
             25 = {
                 add_trait = maimed

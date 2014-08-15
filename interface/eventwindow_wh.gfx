@@ -33,7 +33,7 @@ spriteTypes = {
         }
         # Chaos gods
 	spriteType = {
-                name = "GFX_evt_slannesh"
+                name = "GFX_evt_slaanesh"
                 texturefile = "gfx\\event_pictures\\slaanesh.tga"
                 allwaystransparent = yes
         }
@@ -56,6 +56,12 @@ spriteTypes = {
 	spriteType = {
                 name = "GFX_evt_chaos_incrusion"
                 texturefile = "gfx\\event_pictures\\chaos_incrusion.tga"
+                allwaystransparent = yes
+        }
+        # Magci events
+	spriteType = {
+                name = "GFX_evt_spell_hysh"
+                texturefile = "gfx\\event_pictures\\hysh_spell.tga"
                 allwaystransparent = yes
         }
 
