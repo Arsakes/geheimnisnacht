@@ -252,7 +252,7 @@ character_event = {
     
     option = {
         name = OK
-        matrial = 1
+        change_martial = 1
         if = {
            limit = { 
                NOT = { trait = mutation_major  }
