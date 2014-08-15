@@ -1160,40 +1160,65 @@ character_event = {
     }
 }
 
+# ARMY SPAWNER test.30
 character_event = {
     id = test.30
-    desc = "test of tooltips"
+    desc = "SPAWNING OF TYPICAL ARMY"
     is_triggered_only = yes
     
     option = {
-        name = "Tooltip should be: light lore"
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = "light lore spell" }
+        name = OK
+        location = {
+            ROOT = {
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        light_cavalry = { 500 500 }
+                    }
+                    home = PREV
+                }
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        light_infantry = { 500 500 }
+                    }
+                    home = PREV
+                }
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        heavy_infantry = { 500 500 }
+                    }
+                    home = PREV
+                }
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        knights = { 500 500 }
+                    }
+                    home = PREV
+                }
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        archers = { 500 500 }
+                    }
+                    home = PREV
+                }
+                spawn_unit = { 
+                    province = PREV
+                    owner = ROOT
+                    troops = { 
+                        horse_archers = { 500 500 }
+                    }
+                    home = PREV
+                }
+            }
         }
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = "light lore spell" }
-        }
-        if = { 
-            limit = { NOT = { trait = lore_light }}
-            custom_tooltip = { text = "no light lore spells" }
-        }
-    }
-    option = {
-        name = "trigger is_triggerd only event with trigger"
-        character_event = { id = test.31 }
-    }
-}
-character_event = {
-    id = test.31
-    desc = "test of triggering"
-    is_triggered_only = yes
-    
-    trigger = {
-        trait = lore_light
-    }
-    option = {
-        name = "OK works"
     }
 }
