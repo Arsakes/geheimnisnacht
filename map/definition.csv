@@ -854,11 +854,11 @@ province;red;green;blue;x;x
 853;127;87;139;Roderre;x
 854;169;90;12;Castle Drachenfels;x
 855;126;135;84;Montfort;x
-856;168;138;212;Ybrain;x
-857;0;141;85;Limou;x
+856;168;138;212;Vignoble;x
+857;0;141;85;Elbiq;x
 858;42;144;213;Anjarlac;x
 859;84;147;86;Rennaille;x
-860;126;150;214;Epré;x
+860;126;150;214;Epee;x
 861;168;153;87;Aquitaine;x
 862;0;156;215;Angour;x
 863;42;159;88;Lusidreux;x
@@ -869,7 +869,7 @@ province;red;green;blue;x;x
 868;42;174;218;Enjolras;x
 869;84;177;91;Gironde;x
 870;126;180;219;Armanie;x
-871;168;183;92;Barrows of Cuileux;x
+871;168;183;92;Cuileux;x
 872;0;186;220;Pompadour;x
 873;42;189;93;Chinon;x
 874;84;192;221;Treims;x
@@ -932,58 +932,58 @@ province;red;green;blue;x;x
 931;170;48;2;Stimmigen;x
 932;2;51;130;Tiefenwald;x
 933;44;54;3;Talareich;x
-934;85;210;221;World's Edge Mountains;x
-935;128;60;4;Marg Be-Mard Desert;x
-936;170;63;132;Black Chasm;x
-937;1;6;95;Stormrim;x
-938;44;69;133;Chaos Wastes;x
-939;86;72;6;Devil's Backbone;x
-940;128;75;134;Blighted Marshes;x
-941;170;78;7;Irrana Mountains;x
-942;2;81;135;Athel Loren;x
-943;44;84;8;Massif Oreal;x
-944;0;229;25;Pale Sisters;x
-945;84;0;26;Middle Mountains;x
-946;126;48;34;Goromadny Mountains;x
-947;84;45;161;Apucinni Mountains;x
-948;85;39;231;Southlands;x
-949;126;105;79;Vanaheim Mountains;x
-950;42;99;78;Helspire Mountains;x
-951;168;93;77;Frostheim Mountains;x
-952;126;90;204;Mountains of Thjazi;x
-953;0;204;67;Khuuitan Shelf;x
-954;85;99;141;Ice Tooth Mountains;x
-955;127;102;14;Mountains of Naglfari;x
-956;169;105;142;Iron Mountains;x
-957;1;108;15;Ulfwerenar Mountains;x
-958;43;111;143;Trollheim Mountains;x
-959;85;114;16;Skadi Mountains;x
-960;127;117;144;Mountains of Hel;x
-961;169;120;17;Gianthome Mountains;x
-962;1;123;147;Grey Mountains;x
-963;43;126;18;Abasko Mountains;x
-964;85;129;146;The Vaults;x
-965;127;132;19;Black Mountains;x
-966;169;135;147;Grey Mountains;x
-967;1;138;20;Crater of Zharr;x
-968;43;141;148;Ash Ridge Mountains;x
-969;85;144;21;Azgorh;x
-970;127;147;149;Dseria Mountains;x
-971;169;150;22;Adhrar Mountains;x
-972;1;153;150;Forest of Gloom;x
-973;43;156;23;Azgorh;x
-974;85;159;151;Aguidi Mountains;x
-975;127;162;24;Forest of Shadows;x
-976;169;165;152;Dragonback Mountains;x
-977;1;168;25;Swamp of Terror;x
-978;43;171;153;Bylorhof Marsh;x
-979;169;3;222;The Frostbites;x
-980;127;177;154;Mountains of Mourn;x
-981;169;180;27;Plateau of K'Datha;x
-982;1;183;155;Schadensumpf;x
-983;43;186;28;Plateau of Zorn Uzkul;x
-984;85;189;156;Drakwald Forest;x
-985;127;192;29;Gnoblar Country;x
+934;85;210;221;Heideck;x
+935;128;60;4;Maisberg;x
+936;170;63;132;Vlakland;x
+937;1;6;95;Noordmuur;x
+938;44;69;133;Garamont;x
+939;86;72;6;Sangasse;x
+940;128;75;134;Outremer;x
+941;170;78;7;Voronino;x
+942;2;81;135;Zvyagino;x
+943;2;84;50;Yarak;x
+944;44;87;178;Dzugd;x
+945;86;90;51;Sakhur;x
+946;128;93;179;Alashah;x
+947;170;96;52;Arguun;x
+948;2;99;180;Zavkhan;x
+949;44;102;53;Malchin;x
+950;86;105;181;Mokhsogollokh;x
+951;128;108;54;Turukhan;x
+952;170;111;182;Jomal;x
+953;2;114;55;Dvinar;x
+954;44;117;183;Kushtan;x
+955;86;120;56;Pontecorvo;x
+956;128;123;184;Baildughan ;x
+957;170;126;57;;x
+958;2;129;185;;x
+959;44;132;58;;x
+960;86;135;186;;x
+961;128;138;59;;x
+962;170;141;187;;x
+963;2;144;60;;x
+964;44;147;188;;x
+965;86;150;61;;x
+966;128;153;189;;x
+967;170;156;62;;x
+968;2;159;190;;x
+969;44;162;63;;x
+970;86;165;191;;x
+971;128;168;64;;x
+972;170;171;192;;x
+973;2;174;65;;x
+974;44;177;193;;x
+975;86;180;66;;x
+976;128;183;194;;x
+977;170;186;67;;x
+978;2;189;195;;x
+979;44;192;68;;x
+980;86;195;196;;x
+981;128;198;69;;x
+982;170;201;197;;x
+983;2;204;70;;x
+984;44;207;198;;x
+985;86;210;71;;x
 986;169;195;157;Ras Karim;x
 987;86;42;1;Kous;x
 988;169;33;227;Gardha;x
@@ -1314,7 +1314,7 @@ province;red;green;blue;x;x
 1313;127;105;184;Arum;x
 1314;169;108;57;Jong-On;x
 1315;1;111;185;Rodmarin;x
-1316;43;114;58;Daoria;x
+1316;43;114;58;Dazak;x
 1317;85;117;186;Geringwald;x
 1318;127;120;59;Aussenstadt;x
 1319;1;99;75;Gringril;x
@@ -1408,8 +1408,8 @@ province;red;green;blue;x;x
 1407;85;159;206;Cragroth;x
 1408;127;162;79;Sondal;x
 1409;169;165;207;Menakon;x
-1410;1;168;80;Antiok;x
-1411;43;171;208;Treboras;x
+1410;1;168;80;Nephren;x
+1411;43;171;208;Zuangzi;x
 1412;85;174;81;Ankuan;x
 1413;127;177;209;Dargoth;x
 1414;169;180;82;Ourabur;x
@@ -1487,9 +1487,9 @@ province;red;green;blue;x;x
 1486;169;81;72;Khymerica;x
 1487;1;84;200;Grey Guardians;x
 1488;43;87;73;Spine of Sotek;x
-1489;85;90;201;Spiteful Peaks;x
+1489;85;90;201;Plateau of Leng;x
 1490;127;93;74;Blackspine Mountains;x
-1491;169;96;202;Doom Glades;x
+1491;169;96;202;Mountains of Madness;x
 1492;127;27;79;Lothern;x
 1493;169;30;207;Ceyinath;x
 1494;1;33;80;Shimmersung;x
@@ -1652,10 +1652,10 @@ province;red;green;blue;x;x
 1651;85;78;186;Glittering Tower;x
 1652;127;81;59;Sar-Saroth;x
 1653;169;84;187;Arique;x
-1654;1;87;60;Plateau of K'Datha;x
-1655;43;90;188;Isle of Flame;x
-1656;85;93;61;Isle of the Dead;x
-1657;127;96;189;Annulii Mountains;x
+1654;1;87;60;Terkmet;x
+1655;43;90;188;Leen;x
+1656;85;93;61;Celephai;x
+1657;127;96;189;Oriaba;x
 1658;169;99;62;Nauk;x
 1659;1;102;190;Axabaxx;x
 1660;43;105;63;Obo;x
@@ -1681,7 +1681,7 @@ province;red;green;blue;x;x
 1680;43;165;73;Toba;x
 1681;85;168;201;Yueh Zu;x
 1682;127;171;74;Gaanzu;x
-1683;169;174;202;Albaora (Teponec);x
+1683;169;174;202;Kazarajin;x
 1684;1;177;75;Skeggi (Xilonen);x
 1685;43;180;203;Port Reaver (Yaotl);x
 1686;85;183;76;Cadavo (Coszcatl);x
@@ -1910,12 +1910,12 @@ province;red;green;blue;x;x
 1909;42;147;178;Bay of Fins;x
 1910;84;150;51;Soerligslette;x
 1911;126;153;179;Gulf of the Maelstrom;x
-1912;168;156;52;Gulf of the Maelstrom;x
+1912;168;156;52;Taaketskog;x
 1913;0;159;180;Sea of Claws;x
-1914;42;162;53;Sea of Claws;x
+1914;42;162;53;BLANK;x
 1915;84;87;76;Starivoda Bay;x
 1916;168;21;157;Drosselspule Bay;x
-1917;126;90;149;Sea of Claws;x
+1917;126;90;149;BLANK;x
 1918;168;108;207;Mannan's Teeth;x
 1919;126;78;39;Sea of Claws;x
 1920;42;27;158;Wrecker's Point;x
@@ -1950,11 +1950,11 @@ province;red;green;blue;x;x
 1949;0;114;45;Bay of Quietude;x
 1950;42;117;173;Bleak Coast;x
 1951;84;120;46;Fool's Point;x
-1952;126;123;174;BLANK;x
+1952;126;123;174;Dariganga;x
 1953;168;126;47;Siren Sea;x
 1954;0;129;175;Gulf of Fodore;x
 1955;168;6;27;Gulf of Miragliono;x
-1956;126;18;29;Tilean Sea;x
+1956;126;18;29;Litoral Sur;x
 1957;42;42;33;Coast of Tilea;x
 1958;84;57;71;Coast of Tilea;x
 1959;126;60;199;Tilean Sea;x
@@ -1966,7 +1966,7 @@ province;red;green;blue;x;x
 1965;170;93;137;Coast of Sartosa;x
 1966;2;96;10;Coast of Sartosa;x
 1967;44;99;138;Capo Cino;x
-1968;86;102;11;Coast of Tilea;x
+1968;86;102;11;Pirate's Current;x
 1969;128;105;139;Bay of Wrecks;x
 1970;170;108;12;Lagoon of Tears;x
 1971;2;111;140;Doom Glades;x
@@ -1997,11 +1997,11 @@ province;red;green;blue;x;x
 1996;2;186;25;The Black Gulf;x
 1997;44;189;153;The Black Gulf;x
 1998;86;192;26;The Black Gulf;x
-1999;128;195;154;BLANK;x
+1999;128;195;154;Litoral Sur;x
 2000;170;198;27;Gulf of Sufaga;x
-2001;2;201;155;BLANK;x
+2001;2;201;155;Siren Sea;x
 2002;44;204;28;Great Ocean;x
-2003;86;207;156;The Black Gulf;x
+2003;86;207;156;Siren Sea;x
 2004;128;210;29;The Pirate Coast;x
 2005;170;0;157;Southern Sea;x
 2006;2;3;30;The Pirate Coast;x
@@ -2018,7 +2018,7 @@ province;red;green;blue;x;x
 2017;44;36;163;Gulf of Medes;x
 2018;86;39;36;Gulf of Medes;x
 2019;128;42;164;Gulf of Medes;x
-2020;170;45;37;BLANKED;x
+2020;170;45;37;Siren Sea;x
 2021;2;48;165;Dire Straits;x
 2022;44;51;38;Gulf of Durbaita;x
 2023;86;54;166;Gulf of Durbaita;x
@@ -2108,9 +2108,9 @@ province;red;green;blue;x;x
 2107;127;159;14;Dire Straits;x
 2108;169;162;142;Amaxon River;x
 2109;1;165;15;Scorpion Coast;x
-2110;43;168;143;BLANKED;x
+2110;43;168;143;Gates of Lothern;x
 2111;85;171;16;Tarantula Coast;x
-2112;127;174;144;BLANKED;x
+2112;127;174;144;Gates of Lothern;x
 2113;169;177;17;Amaxon River;x
 2114;1;180;145;BLANKED;x
 2115;43;183;18;Mangrove Coast;x
@@ -2162,12 +2162,12 @@ province;red;green;blue;x;x
 2161;86;174;141;Sea of Malice;x
 2162;128;177;14;Sea of Malice;x
 2163;170;180;142;Sea of Malice;x
-2164;2;183;15;Sea of Malice;x
+2164;2;183;15;Corsair Strand;x
 2165;44;186;143;Sea of Malice;x
 2166;86;189;16;Sea of Malice;x
 2167;128;192;144;Devdorer's Bay;x
 2168;170;195;17;Sea of Malice;x
-2169;2;198;145;Sea of Malice;x
+2169;2;198;145;Corsair Strand;x
 2170;44;201;18;Sea of Malice;x
 2171;86;204;146;Sea of Malice;x
 2172;128;207;19;Sea of Chill;x
@@ -2280,7 +2280,7 @@ province;red;green;blue;x;x
 2279;170;21;167;River Morceaux (R);x
 2280;2;24;40;River Brienne (R);x
 2281;44;27;168;River Lynsk;x
-2282;86;30;41;;x
+2282;86;30;41;Azurem;x
 2283;128;33;169;;x
 2284;170;36;42;;x
 2285;2;39;170;;x
@@ -2298,57 +2298,57 @@ province;red;green;blue;x;x
 2297;86;75;176;;x
 2298;128;78;49;;x
 2299;170;81;177;;x
-2300;2;84;50;;x
-2301;44;87;178;;x
-2302;86;90;51;;x
-2303;128;93;179;;x
-2304;170;96;52;;x
-2305;2;99;180;;x
-2306;44;102;53;;x
-2307;86;105;181;;x
-2308;128;108;54;;x
-2309;170;111;182;;x
-2310;2;114;55;;x
-2311;44;117;183;;x
-2312;86;120;56;;x
-2313;128;123;184;;x
-2314;170;126;57;;x
-2315;2;129;185;;x
-2316;44;132;58;;x
-2317;86;135;186;;x
-2318;128;138;59;;x
-2319;170;141;187;;x
-2320;2;144;60;;x
-2321;44;147;188;;x
-2322;86;150;61;;x
-2323;128;153;189;;x
-2324;170;156;62;;x
-2325;2;159;190;;x
-2326;44;162;63;;x
-2327;86;165;191;;x
-2328;128;168;64;;x
-2329;170;171;192;;x
-2330;2;174;65;;x
-2331;44;177;193;;x
-2332;86;180;66;;x
-2333;128;183;194;;x
-2334;170;186;67;;x
-2335;2;189;195;;x
-2336;44;192;68;;x
-2337;86;195;196;;x
-2338;128;198;69;;x
-2339;170;201;197;;x
-2340;2;204;70;;x
-2341;44;207;198;;x
-2342;86;210;71;;x
-2343;128;0;199;;x
-2344;170;3;72;;x
-2345;2;6;200;;x
-2346;44;9;73;;x
-2347;86;12;201;;x
+2300;44;84;8;Massif Oreal;x
+2301;0;229;25;Pale Sisters;x
+2302;84;0;26;Middle Mountains;x
+2303;126;48;34;Goromadny Mountains;x
+2304;84;45;161;Apucinni Mountains;x
+2305;85;39;231;Southlands;x
+2306;126;105;79;Vanaheim Mountains;x
+2307;42;99;78;Helspire Mountains;x
+2308;168;93;77;Frostheim Mountains;x
+2309;126;90;204;Mountains of Thjazi;x
+2310;0;204;67;Khuuitan Shelf;x
+2311;85;99;141;Ice Tooth Mountains;x
+2312;127;102;14;Mountains of Naglfari;x
+2313;169;105;142;Athel Loren;x
+2314;1;108;15;Ulfwerenar Mountains;x
+2315;43;111;143;Trollheim Mountains;x
+2316;85;114;16;Skadi Mountains;x
+2317;127;117;144;Mountains of Hel;x
+2318;169;120;17;Gianthome Mountains;x
+2319;1;123;147;Grey Mountains;x
+2320;43;126;18;Abasko Mountains;x
+2321;85;129;146;The Vaults;x
+2322;127;132;19;Black Mountains;x
+2323;169;135;147;Grey Mountains;x
+2324;1;138;20;Crater of Zharr;x
+2325;43;141;148;Icewind Mountains;x
+2326;85;144;21;Azgorh;x
+2327;127;147;149;Beast Peaks;x
+2328;169;150;22;Stormrim;x
+2329;1;153;150;Chaos Wastes;x
+2330;43;156;23;Azgorh;x
+2331;85;159;151;Blighted Marshes;x
+2332;127;162;24;World's Edge Mountains;x
+2333;169;165;152;Irrana Mountains;x
+2334;1;168;25;Swamp of Terror;x
+2335;43;171;153;Cold Mire;x
+2336;169;3;222;The Frostbites;x
+2337;127;177;154;Mountains of Mourn;x
+2338;169;180;27;Plateau of K'Datha;x
+2339;1;183;155;Pillars of the Gods;x
+2340;43;186;28;Plateau of Zorn Uzkul;x
+2341;85;189;156;Jagged Spine;x
+2342;127;192;29;Gnoblar Country;x
+2343;128;0;199;Crevice of Doom;x
+2344;170;3;72;Scalding Delta;x
+2345;2;6;200;Plateau of K'Datha;x
+2346;44;9;73;Plateau of K'Datha;x
+2347;86;12;201;Plateau of K'Datha;x
 2348;128;15;74;;x
 2349;170;18;202;;x
-2350;2;21;75;;x
+2350;2;21;75;Realm of Chaos;x
 2351;44;24;203;;x
 2352;86;27;76;;x
 2353;128;30;204;;x

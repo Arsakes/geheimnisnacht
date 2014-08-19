@@ -19,14 +19,14 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 95;97;sea;;-1;-1;-1;-1;Frykt-Blodh Hals
 169;181;sea;;-1;-1;-1;-1;Zhedevka-Salair
 794;791;sea;;-1;-1;-1;-1;Lyonesse-Chagrin
+794;940;sea;;-1;-1;-1;-1;Lyonesse-Outremer
 514;515;sea;;-1;-1;-1;-1;Barataria-Barboza
 724;657;sea;;-1;-1;-1;-1;Sapphiro-Myrmidens
 338;258;sea;;-1;-1;-1;-1;Borkrum-Selonian Hills
 283;932;sea;;-1;-1;-1;-1;Bergendorf-Tiefenwald
 288;933;sea;;-1;-1;-1;-1;Igelhugel-Talareich
-222;224;sea;;-1;-1;-1;-1;Marienburg-Fauligmere
-222;223;sea;;-1;-1;-1;-1;Marienburg-Klessen
-222;220;sea;;-1;-1;-1;-1;Marienburg-Markenbinnen
+222;937;sea;;-1;-1;-1;-1;Marienburg-Noordmuur
+222;936;sea;;-1;-1;-1;-1;Marienburg-Vlakland
 270;295;sea;;-1;-1;-1;-1;Carroburg-Schilderheim
 307;328;sea;;-1;-1;-1;-1;Wittgendorf-Kemperbad
 316;310;sea;;-1;-1;-1;-1;Pfeildorf-Wissenburg
@@ -55,5 +55,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1479;1460;sea;;-1;-1;-1;-1;Uyadar-Noveum
 1458;1460;sea;;-1;-1;-1;-1;Arnheim-Noveum
 1458;1459;sea;;-1;-1;-1;-1;Arnheim-Ascelon
+1651;1652;sea;;-1;-1;-1;-1;Glittering Tower-Sar Saroth
+1493;1650;major_river;2110;-1;-1;-1;-1;Ceyinath-Tor Morthallion
+1502;1649;major_river;2112;-1;-1;-1;-1;Lilithorn-Everwatch
 222;222;major_river;;-1;-1;-1;-1;River Filler
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -1,4 +1,4 @@
-max_provinces = 2300
+max_provinces = 2400
 #sea_starts = 1820 # Old mechanics
 definitions = "definition.csv"
 provinces = "provinces.bmp"
@@ -46,7 +46,7 @@ major_rivers =
 	2244 2245 2246 2247 #River Stir
 	1850 1852 2248 2249 #River Aver
 	2250 #River Soll
-	1851 2251 2252 2253 #River Reik
+	2251 2252 2253 #River Reik
 	2254 2255 2256 #River Urskoy
 	1843 1978 2048 2257 2258 #River Talabec
 	2259 2260 2261 2262 2263 #River Tobol/Tolsol
@@ -57,4 +57,6 @@ major_rivers =
 	2268 2269 2270 #River Starnek
 	2274 #Ursfjord
 	1835 1977 2053 #Korv Ozero/Drakflojt
+	2110 #Gate of Lothern
+	2112 #Gate of Lothern
 }
