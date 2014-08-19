@@ -17,5 +17,5 @@ religion = greenskin_gods
 
 # History
 
-2521.1.1 = { religion = norse }
+2521.1.1 = { religion = norscan_gods }
 2521.1.1 = { culture = skaeling }

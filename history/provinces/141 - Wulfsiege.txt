@@ -12,7 +12,7 @@ b_kaltivik = temple
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History

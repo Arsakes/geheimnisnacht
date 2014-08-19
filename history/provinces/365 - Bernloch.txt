@@ -16,3 +16,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_fehman = temple
+}

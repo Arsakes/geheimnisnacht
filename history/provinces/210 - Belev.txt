@@ -12,7 +12,7 @@ b_deghov = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History

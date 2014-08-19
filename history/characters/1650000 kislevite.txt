@@ -1,108 +1,108 @@
 1650000={
-name = "Katarin" #Tsarina of Kislev
-female = yes
-dynasty = 31005
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 7
-learning = 10
-father = 1650001
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "brilliant_strategist"
-add_trait = "tall"
-add_trait = "cruel"
-add_trait = "fair"
-add_trait = "patient"
-add_trait = "quick"
+name="Katarin" #Tsarina of Kislev
+female=yes
+dynasty=31005
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=7
+learning=10
+father=1650001
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="brilliant_strategist"
+add_trait="tall"
+add_trait="cruel"
+add_trait="fair"
+add_trait="patient"
+add_trait="quick"
 
 2499.2.12={birth=yes}
 2556.8.22={death=yes}
 }
 
 1650001={
-name = "Boris" #Tsar of Kislev
-dynasty = 31005
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 5
-father = 1650002
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "brilliant_strategist"
-add_trait = "tall"
-add_trait = "strong"
-add_trait = "wroth"
+name="Boris" #Tsar of Kislev
+dynasty=31005
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+father=1650002
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="brilliant_strategist"
+add_trait="tall"
+add_trait="strong"
+add_trait="wroth"
 2465.1.28={birth=yes}
-2487.1.1={give_nickname = nick_ursus}
+2487.1.1={give_nickname=nick_ursus}
 2517.2.19={death=yes}
 }
 
 1650002={
-name = "Vladimir" #Tsar of Kislev
-dynasty = 31005
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 5
-father = 1650003
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "tall"
-add_trait = "fair"
-add_trait = "patient"
+name="Vladimir" #Tsar of Kislev
+dynasty=31005
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+father=1650003
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="tall"
+add_trait="fair"
+add_trait="patient"
 
 2439.1.28={birth=yes}
 2492.2.10={death=yes}
 }
 
 1650003={
-name = "Pavel" #Tsar of Kislev
-dynasty = 31005
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 5
-mother = 1650012
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "proud"
-add_trait = "envious"
-add_trait = "diligent"
+name="Pavel" #Tsar of Kislev
+dynasty=31005
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+mother=1650012
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="proud"
+add_trait="envious"
+add_trait="diligent"
 
 2415.1.28={birth=yes}
 2484.8.17={death=yes}
 }
 
 1650004={
-name = "Pavel"
-dynasty = 73300
-dna = "ealiblhgfla"
-culture = kislevite
-religion = northern_gods
-martial = 5
-diplomacy = 5
-stewardship = 6
-intrigue = 6
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "ambitious"
-add_trait = "temperate"
-add_trait = "tall"
-add_trait = "wroth"
+name="Pavel"
+dynasty=73300
+dna="ealiblhgfla"
+culture=kislevite
+religion=ursun
+martial=5
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="ambitious"
+add_trait="temperate"
+add_trait="tall"
+add_trait="wroth"
 2282.1.1={birth=yes}
 2366.2.23={death=yes}
 }
@@ -116,45 +116,45 @@ add_trait = "wroth"
 
 
 1650012={
-name = "Kattarin" #Vampire Tzarina of Kislev
-female = yes
-dynasty = 31005
-dna = "ahkfabhcaag"
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 5
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "vampire_lahmian_hidden"
-add_trait = "proud"
-add_trait = "envious"
-add_trait = "patient"
-add_trait = "fair"
-add_trait = "tall"
-add_trait = "strong"
+name="Kattarin" #Vampire Tzarina of Kislev
+female=yes
+dynasty=31005
+dna="ahkfabhcaag"
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="vampire_lahmian_hidden"
+add_trait="proud"
+add_trait="envious"
+add_trait="patient"
+add_trait="fair"
+add_trait="tall"
+add_trait="strong"
 2289.5.8={birth=yes}
-2354.1.1={give_nickname = nick_the_bloody}
+2354.1.1={give_nickname=nick_the_bloody}
 2471.7.30={death=yes}
 }
 
 1650013={
-name = "Alexis" #Tsar of Kislev
-dynasty = 73299
-culture = kislevite
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 5
-father = 1650021
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "proud"
+name="Alexis" #Tsar of Kislev
+dynasty=73299
+culture=kislevite
+religion=ursun
+martial=8
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+father=1650021
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="proud"
 
 2278.12.28={birth=yes}
 2315.3.10={death=yes}
@@ -168,42 +168,42 @@ add_trait = "proud"
 
 
 1650020={
-name = "Ivana" #Graf Valmir's wife
-female = yes
-dynasty = 73105
-culture = kislevite
-religion = northern_gods
-martial = 5
-diplomacy = 6
-stewardship = 4
-intrigue = 2
-learning = 1
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "underhanded_rogue"
-add_trait = "kind"
-add_trait = "fair"
-add_trait = "gregarious"
+name="Ivana" #Graf Valmir's wife
+female=yes
+dynasty=73105
+culture=kislevite
+religion=ursun
+martial=5
+diplomacy=6
+stewardship=4
+intrigue=2
+learning=1
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="underhanded_rogue"
+add_trait="kind"
+add_trait="fair"
+add_trait="gregarious"
 
 2478.6.25={birth=yes}
-2498.6.19 = {add_spouse=800062}
+2498.6.19={add_spouse=800062}
 2520.2.20={death=yes}
 }
 
 1650021={
-name = "Vassili" #Tzar
-dynasty = 73299
-dna = "kcbchppbmao"
-culture = kislevite
-religion = northern_gods
-martial = 5
-diplomacy = 6
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "paranoid"
+name="Vassili" #Tzar
+dynasty=73299
+dna="kcbchppbmao"
+culture=kislevite
+religion=ursun
+martial=5
+diplomacy=6
+stewardship=2
+intrigue=2
+learning=4
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="paranoid"
 2246.1.1={birth=yes}
 2279.7.10={death=yes}
 }

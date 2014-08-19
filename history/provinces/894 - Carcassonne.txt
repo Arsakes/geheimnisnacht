@@ -8,13 +8,17 @@ max_settlements = 6
 b_carcassonne = castle
 b_castres = city
 b_albi = castle
-b_lavaur_du_graal = temple
+#b_lavaur_du_graal = temple
 #b_narsonne = castle
 #b_mayogne = city
 
 # Misc
 culture = carcassian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_lavaur_du_graal = temple
+}

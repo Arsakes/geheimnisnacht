@@ -20,3 +20,7 @@ religion = vampiric
 # History
 
 2155.1.1 = { religion = taalite }
+
+2250.1.1 = {
+	b_eisental = temple
+}

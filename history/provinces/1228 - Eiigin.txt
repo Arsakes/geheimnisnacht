@@ -9,7 +9,7 @@ b_eiigin = castle
 #b_muroman = temple
 
 # Misc
-culture = gharhar
+culture = tahmak
 religion = chaos
 
 

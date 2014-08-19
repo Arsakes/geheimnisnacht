@@ -25,6 +25,14 @@ b_klarfeld = temple
 culture = talabeclander
 religion = taalite
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_dankerood = castle
+}
+
+2500.1.1 = {
+	b_waldfahrt = temple
+}

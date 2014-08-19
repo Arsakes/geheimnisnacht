@@ -8,12 +8,16 @@ max_settlements = 5
 b_volanda = castle
 b_falcone = city
 b_trasada = temple
-b_santo_giacomo = castle
+#b_santo_giacomo = castle
 #b_anadovaso = castle
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_santo_giacomo = castle
+}

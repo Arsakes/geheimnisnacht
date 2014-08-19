@@ -11,7 +11,7 @@ b_artenirans_vale = city
 
 # Misc
 culture = baersonling
-religion = norse
+religion = norscan_gods
 
 
 # History

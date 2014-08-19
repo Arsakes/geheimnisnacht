@@ -11,8 +11,16 @@ b_cardariborg = castle
 #b_kunbyrul = castle
 
 # Misc
-culture = varg
-religion = dark_norse
+culture = graeling
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_irtyshkvik = city
+}
+
+2500.1.1 = {
+	b_iivashkvik = temple
+}

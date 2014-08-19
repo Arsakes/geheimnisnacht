@@ -1,5 +1,5 @@
 # 552 Molina
-#County Title
+
 title = c_molina
 
 #Settlements
@@ -11,6 +11,6 @@ b_hestora = city
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History

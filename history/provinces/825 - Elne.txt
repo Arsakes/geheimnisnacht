@@ -12,7 +12,7 @@ b_clermont = castle
 
 # Misc
 culture = mousillonian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

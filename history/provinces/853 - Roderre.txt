@@ -11,7 +11,7 @@ b_larne = castle
 
 # Misc
 culture = bourgon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

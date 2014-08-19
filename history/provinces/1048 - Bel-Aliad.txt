@@ -6,11 +6,11 @@ title = c_bel_aliad
 # Settlements
 max_settlements = 3
 b_bel_aliad = castle
-b_akhetan = city
-b_ahmose = temple
+#b_akhetan = city
+#b_ahmose = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

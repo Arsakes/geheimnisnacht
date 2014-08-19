@@ -1,5 +1,5 @@
 #527 Azuara
-#County Title
+
 title = c_azuara
 
 #Settlements
@@ -11,6 +11,6 @@ b_ratona = temple
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History

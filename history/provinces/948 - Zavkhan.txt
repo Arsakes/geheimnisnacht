@@ -1,0 +1,18 @@
+# 948 Zavkhan
+
+# County Title
+title = c_zavkhan
+
+# Settlements
+max_settlements = 4
+b_zavkhan = castle
+b_chukota = temple
+b_arkanstal = city
+#b_woudar = castle
+
+# Misc
+culture = hastling
+religion = chaos
+
+
+# History

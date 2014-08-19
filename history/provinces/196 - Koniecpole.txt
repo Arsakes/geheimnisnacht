@@ -6,13 +6,17 @@ title = c_koniecpole
 # Settlements
 max_settlements = 4
 b_koniecpole = castle
-b_ostrody = city
+#b_ostrody = temple
 #b_gorovny = temple
 #b_tezew = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_ostrody = temple
+}

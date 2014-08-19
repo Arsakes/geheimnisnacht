@@ -7,12 +7,16 @@ title = c_luxor
 max_settlements = 4
 b_luxor = castle
 b_kem_war = city
-b_koptos = temple
-b_sehel = city
+#b_koptos = temple
+#b_sehel = city
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_koptos = temple
+}

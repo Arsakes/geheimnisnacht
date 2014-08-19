@@ -1,15 +1,15 @@
 4400000={
-name = "Jacques"
-dynasty = 25004
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 6
-stewardship = 10
-intrigue = 3
-learning = 3
-add_trait = "impaler"
-add_trait = "naive_appeaser"
+name="Jacques"
+dynasty=25004
+culture=breton
+religion=grail
+martial=8
+diplomacy=6
+stewardship=10
+intrigue=3
+learning=3
+add_trait="impaler"
+add_trait="naive_appeaser"
 add_trait="gregarious"
 add_trait="kind"
 
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 4400001={
-name = "Maurice"
-dynasty = 25006
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 4
-stewardship = 6
-intrigue = 1
-learning = 4
-add_trait = "duelist"
-add_trait = "indulgent_wastrel"
+name="Maurice"
+dynasty=25006
+culture=breton
+religion=grail
+martial=2
+diplomacy=4
+stewardship=6
+intrigue=1
+learning=4
+add_trait="duelist"
+add_trait="indulgent_wastrel"
 add_trait="greedy"
 add_trait="craven"
 
@@ -39,16 +39,16 @@ add_trait="craven"
 }
 
 4400002={
-name = "Simon"
-dynasty = 25008
-culture = breton
-religion = lady_of_the_lake
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 9
-learning = 6
-add_trait = "thrifty_clerk"
+name="Simon"
+dynasty=25008
+culture=breton
+religion=grail
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=9
+learning=6
+add_trait="thrifty_clerk"
 add_trait="weak"
 
 2006.11.6={birth=yes}
@@ -56,17 +56,17 @@ add_trait="weak"
 }
 
 4400003={
-name = "Renaud"
-dynasty = 25012
-culture = breton
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 9
-stewardship = 1
-intrigue = 6
-learning = 7
-add_trait = "hunter"
-add_trait = "midas_touched"
+name="Renaud"
+dynasty=25012
+culture=breton
+religion=grail
+martial=3
+diplomacy=9
+stewardship=1
+intrigue=6
+learning=7
+add_trait="hunter"
+add_trait="midas_touched"
 add_trait="honest"
 add_trait="tall"
 add_trait="wroth"
@@ -76,17 +76,17 @@ add_trait="wroth"
 }
 
 4400004={
-name = "Archambaud"
-dynasty = 250015
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 9
-learning = 7
-add_trait = "falconer"
-add_trait = "scholarly_theologian"
+name="Archambaud"
+dynasty=250015
+culture=breton
+religion=grail
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=9
+learning=7
+add_trait="falconer"
+add_trait="scholarly_theologian"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -96,17 +96,17 @@ add_trait="humble"
 }
 
 4400005={
-name = "Antoine"
-dynasty = 25016
-culture = breton
-religion = lady_of_the_lake
-martial = 9
-diplomacy = 8
-stewardship = 11
-intrigue = 11
-learning = 5
-add_trait = "hunter"
-add_trait = "thrifty_clerk"
+name="Antoine"
+dynasty=25016
+culture=breton
+religion=grail
+martial=9
+diplomacy=8
+stewardship=11
+intrigue=11
+learning=5
+add_trait="hunter"
+add_trait="thrifty_clerk"
 add_trait="trusting"
 add_trait="cruel"
 add_trait="content"
@@ -116,17 +116,17 @@ add_trait="content"
 }
 
 4400006={
-name = "Charles"
-dynasty = 25018
-culture = breton
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 3
-stewardship = 10
-intrigue = 6
-learning = 4
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Charles"
+dynasty=25018
+culture=breton
+religion=grail
+martial=5
+diplomacy=3
+stewardship=10
+intrigue=6
+learning=4
+add_trait="gardener"
+add_trait="tough_soldier"
 
 
 
@@ -136,17 +136,17 @@ add_trait = "tough_soldier"
 }
 
 4400007={
-name = "Centule"
-dynasty = 25019
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 9
-stewardship = 4
-intrigue = 6
-learning = 0
-add_trait = "duelist"
-add_trait = "flamboyant_schemer"
+name="Centule"
+dynasty=25019
+culture=breton
+religion=grail
+martial=0
+diplomacy=9
+stewardship=4
+intrigue=6
+learning=0
+add_trait="duelist"
+add_trait="flamboyant_schemer"
 add_trait="drunkard"
 add_trait="ill"
 
@@ -156,17 +156,17 @@ add_trait="ill"
 }
 
 4400008={
-name = "Hildebert"
-dynasty = 25022
-culture = breton
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 4
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Hildebert"
+dynasty=25022
+culture=breton
+religion=grail
+martial=5
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=4
+add_trait="poet"
+add_trait="elusive_shadow"
 
 add_trait="legit_bastard"
 
@@ -176,66 +176,66 @@ add_trait="legit_bastard"
 }
 
 4400009={
-name = "Hélie"
-dynasty = 25023
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 3
-stewardship = 11
-intrigue = 11
-learning = 4
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Hélie"
+dynasty=25023
+culture=breton
+religion=grail
+martial=8
+diplomacy=3
+stewardship=11
+intrigue=11
+learning=4
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 1960.11.16={birth=yes}
 2041.4.22={death=yes}
 }
 
 4400010={
-name = "Jaufré"
-dynasty = 25025
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 7
-stewardship = 8
-intrigue = 6
-learning = 6
-add_trait = "scholar"
-add_trait = "brilliant_strategist"
+name="Jaufré"
+dynasty=25025
+culture=breton
+religion=grail
+martial=2
+diplomacy=7
+stewardship=8
+intrigue=6
+learning=6
+add_trait="scholar"
+add_trait="brilliant_strategist"
 1965.2.25={birth=yes}
 2034.7.11={death=yes}
 }
 
 4400011={
-name = "Valeran"
-dynasty = 25027
-culture = breton
-religion = lady_of_the_lake
-martial = 9
-diplomacy = 7
-stewardship = 7
-intrigue = 3
-learning = 8
-add_trait = "gardener"
-add_trait = "misguided_warrior"
+name="Valeran"
+dynasty=25027
+culture=breton
+religion=grail
+martial=9
+diplomacy=7
+stewardship=7
+intrigue=3
+learning=8
+add_trait="gardener"
+add_trait="misguided_warrior"
 add_trait="fair"
 1999.11.18={birth=yes}
 2033.9.27={death=yes}
 }
 
 4400012={
-name = "Érrard"
-dynasty = 25030
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 2
-stewardship = 6
-intrigue = 2
-learning = 9
-add_trait = "impaler"
-add_trait = "fortune_builder"
+name="Érrard"
+dynasty=25030
+culture=breton
+religion=grail
+martial=8
+diplomacy=2
+stewardship=6
+intrigue=2
+learning=9
+add_trait="impaler"
+add_trait="fortune_builder"
 
 add_trait="envious"
 add_trait="strong"
@@ -245,17 +245,17 @@ add_trait="strong"
 }
 
 4400013={
-name = "Eudes"
-dynasty = 25032
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 7
-stewardship = 4
-intrigue = 8
-learning = 9
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Eudes"
+dynasty=25032
+culture=breton
+religion=grail
+martial=2
+diplomacy=7
+stewardship=4
+intrigue=8
+learning=9
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="patient"
 add_trait="diligent"
@@ -265,17 +265,17 @@ add_trait="diligent"
 }
 
 4400014={
-name = "Jaspert"
-dynasty = 25035
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 1
-stewardship = 2
-intrigue = 11
-learning = 10
-add_trait = "hedonist"
-add_trait = "elusive_shadow"
+name="Jaspert"
+dynasty=25035
+culture=breton
+religion=grail
+martial=8
+diplomacy=1
+stewardship=2
+intrigue=11
+learning=10
+add_trait="hedonist"
+add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="ambitious"
 add_trait="arbitrary"
@@ -285,17 +285,17 @@ add_trait="arbitrary"
 }
 
 4400015={
-name = "Alain"
-dynasty = 25036
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 1
-stewardship = 1
-intrigue = 6
-learning = 0
-add_trait = "hedonist"
-add_trait = "flamboyant_schemer"
+name="Alain"
+dynasty=25036
+culture=breton
+religion=grail
+martial=0
+diplomacy=1
+stewardship=1
+intrigue=6
+learning=0
+add_trait="hedonist"
+add_trait="flamboyant_schemer"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="paranoid"
@@ -305,17 +305,17 @@ add_trait="paranoid"
 }
 
 4400016={
-name = "Ancel"
-dynasty = 25038
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 7
-stewardship = 3
-intrigue = 8
-learning = 7
-add_trait = "hedonist"
-add_trait = "naive_appeaser"
+name="Ancel"
+dynasty=25038
+culture=breton
+religion=grail
+martial=6
+diplomacy=7
+stewardship=3
+intrigue=8
+learning=7
+add_trait="hedonist"
+add_trait="naive_appeaser"
 add_trait="just"
 add_trait="gregarious"
 add_trait="proud"
@@ -325,17 +325,17 @@ add_trait="proud"
 }
 
 4400017={
-name = "Bohemond"
-dynasty = 25043
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 1
-stewardship = 5
-intrigue = 3
-learning = 2
-add_trait = "hunter"
-add_trait = "charismatic_negotiator"
+name="Bohemond"
+dynasty=25043
+culture=breton
+religion=grail
+martial=8
+diplomacy=1
+stewardship=5
+intrigue=3
+learning=2
+add_trait="hunter"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 
 add_trait="honest"
@@ -345,17 +345,17 @@ add_trait="honest"
 }
 
 4400018={
-name = "Clotaire"
-dynasty = 25045
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 3
-stewardship = 11
-intrigue = 8
-learning = 3
-add_trait = "poet"
-add_trait = "naive_appeaser"
+name="Clotaire"
+dynasty=25045
+culture=breton
+religion=grail
+martial=2
+diplomacy=3
+stewardship=11
+intrigue=8
+learning=3
+add_trait="poet"
+add_trait="naive_appeaser"
 
 
 add_trait="greedy"
@@ -365,17 +365,17 @@ add_trait="greedy"
 }
 
 4400019={
-name = "Robin"
-dynasty = 25048
-culture = breton
-religion = lady_of_the_lake
-martial = 9
-diplomacy = 7
-stewardship = 6
-intrigue = 6
-learning = 7
-add_trait = "mystic"
-add_trait = "flamboyant_schemer"
+name="Robin"
+dynasty=25048
+culture=breton
+religion=grail
+martial=9
+diplomacy=7
+stewardship=6
+intrigue=6
+learning=7
+add_trait="mystic"
+add_trait="flamboyant_schemer"
 add_trait="weak"
 add_trait="tall"
 
@@ -385,17 +385,17 @@ add_trait="tall"
 }
 
 4400020={
-name = "Léon"
-dynasty = 25049
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 0
-stewardship = 9
-intrigue = 1
-learning = 2
-add_trait = "duelist"
-add_trait = "midas_touched"
+name="Léon"
+dynasty=25049
+culture=breton
+religion=grail
+martial=0
+diplomacy=0
+stewardship=9
+intrigue=1
+learning=2
+add_trait="duelist"
+add_trait="midas_touched"
 add_trait="craven"
 add_trait="wroth"
 add_trait="cruel"
@@ -405,16 +405,16 @@ add_trait="cruel"
 }
 
 4400021={
-name = "Frédéric"
-dynasty = 25052
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 4
-stewardship = 7
-intrigue = 0
-learning = 9
-add_trait = "poet"
+name="Frédéric"
+dynasty=25052
+culture=breton
+religion=grail
+martial=2
+diplomacy=4
+stewardship=7
+intrigue=0
+learning=9
+add_trait="poet"
 add_trait="humble"
 add_trait="content"
 add_trait="temperate"
@@ -424,17 +424,17 @@ add_trait="temperate"
 }
 
 4400022={
-name = "Foulques"
-dynasty = 25055
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 8
-stewardship = 9
-intrigue = 6
-learning = 1
-add_trait = "gardener"
-add_trait = "amateurish_plotter"
+name="Foulques"
+dynasty=25055
+culture=breton
+religion=grail
+martial=4
+diplomacy=8
+stewardship=9
+intrigue=6
+learning=1
+add_trait="gardener"
+add_trait="amateurish_plotter"
 add_trait="chaste"
 
 
@@ -444,17 +444,17 @@ add_trait="chaste"
 }
 
 4400023={
-name = "Angelbert"
-dynasty = 25056
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 5
-stewardship = 10
-intrigue = 4
-learning = 9
-add_trait = "falconer"
-add_trait = "brilliant_strategist"
+name="Angelbert"
+dynasty=25056
+culture=breton
+religion=grail
+martial=6
+diplomacy=5
+stewardship=10
+intrigue=4
+learning=9
+add_trait="falconer"
+add_trait="brilliant_strategist"
 add_trait="trusting"
 
 add_trait="drunkard"
@@ -464,18 +464,18 @@ add_trait="drunkard"
 }
 
 4400024={
-name = "Mahaut"
-female = yes
-dynasty = 25058
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 2
-learning = 10
-add_trait = "mystic"
-add_trait = "misguided_warrior"
+name="Mahaut"
+female=yes
+dynasty=25058
+culture=breton
+religion=grail
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=2
+learning=10
+add_trait="mystic"
+add_trait="misguided_warrior"
 add_trait="lustful"
 
 add_trait="ill"
@@ -485,33 +485,33 @@ add_trait="ill"
 }
 
 4400025={
-name = "Payen"
-dynasty = 25061
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 5
-stewardship = 5
-intrigue = 5
-learning = 7
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Payen"
+dynasty=25061
+culture=breton
+religion=grail
+martial=0
+diplomacy=5
+stewardship=5
+intrigue=5
+learning=7
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 2009.11.2={birth=yes}
 2031.10.23={death="2031.10.23"}
 }
 
 4400026={
-name = "Henri"
-dynasty = 25063
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 10
-stewardship = 2
-intrigue = 1
-learning = 10
-add_trait = "mystic"
-add_trait = "misguided_warrior"
+name="Henri"
+dynasty=25063
+culture=breton
+religion=grail
+martial=8
+diplomacy=10
+stewardship=2
+intrigue=1
+learning=10
+add_trait="mystic"
+add_trait="misguided_warrior"
 
 
 1976.10.23={birth=yes}
@@ -519,17 +519,17 @@ add_trait = "misguided_warrior"
 }
 
 4400027={
-name = "Guichard"
-dynasty = 25065
-culture = breton
-religion = lady_of_the_lake
-martial = 7
-diplomacy = 8
-stewardship = 4
-intrigue = 6
-learning = 5
-add_trait = "hunter"
-add_trait = "midas_touched"
+name="Guichard"
+dynasty=25065
+culture=breton
+religion=grail
+martial=7
+diplomacy=8
+stewardship=4
+intrigue=6
+learning=5
+add_trait="hunter"
+add_trait="midas_touched"
 add_trait="lisp"
 
 
@@ -539,17 +539,17 @@ add_trait="lisp"
 }
 
 4400028={
-name = "Gilles"
-dynasty = 25066
-culture = breton
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 8
-stewardship = 1
-intrigue = 11
-learning = 3
-add_trait = "duelist"
-add_trait = "amateurish_plotter"
+name="Gilles"
+dynasty=25066
+culture=breton
+religion=grail
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=11
+learning=3
+add_trait="duelist"
+add_trait="amateurish_plotter"
 
 add_trait="fair"
 
@@ -559,17 +559,17 @@ add_trait="fair"
 }
 
 4400029={
-name = "Josselin"
-dynasty = 25067
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 4
-stewardship = 11
-intrigue = 7
-learning = 4
-add_trait = "scholar"
-add_trait = "charismatic_negotiator"
+name="Josselin"
+dynasty=25067
+culture=breton
+religion=grail
+martial=2
+diplomacy=4
+stewardship=11
+intrigue=7
+learning=4
+add_trait="scholar"
+add_trait="charismatic_negotiator"
 add_trait="diligent"
 add_trait="strong"
 add_trait="proud"
@@ -579,17 +579,17 @@ add_trait="proud"
 }
 
 4400030={
-name = "Gaucher"
-dynasty = 25068
-culture = breton
-religion = lady_of_the_lake
-martial = 10
-diplomacy = 5
-stewardship = 1
-intrigue = 0
-learning = 10
-add_trait = "scholar"
-add_trait = "charismatic_negotiator"
+name="Gaucher"
+dynasty=25068
+culture=breton
+religion=grail
+martial=10
+diplomacy=5
+stewardship=1
+intrigue=0
+learning=10
+add_trait="scholar"
+add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="patient"
 add_trait="ambitious"
@@ -599,17 +599,17 @@ add_trait="ambitious"
 }
 
 4400031={
-name = "Orson"
-dynasty = 25070
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 10
-stewardship = 1
-intrigue = 4
-learning = 7
-add_trait = "mystic"
-add_trait = "brilliant_strategist"
+name="Orson"
+dynasty=25070
+culture=breton
+religion=grail
+martial=6
+diplomacy=10
+stewardship=1
+intrigue=4
+learning=7
+add_trait="mystic"
+add_trait="brilliant_strategist"
 add_trait="shy"
 add_trait="arbitrary"
 add_trait="just"
@@ -619,17 +619,17 @@ add_trait="just"
 }
 
 4400032={
-name = "Guilhem"
-dynasty = 25072
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 8
-stewardship = 5
-intrigue = 1
-learning = 9
-add_trait = "poet"
-add_trait = "charismatic_negotiator"
+name="Guilhem"
+dynasty=25072
+culture=breton
+religion=grail
+martial=4
+diplomacy=8
+stewardship=5
+intrigue=1
+learning=9
+add_trait="poet"
+add_trait="charismatic_negotiator"
 add_trait="zealous"
 add_trait="cynical"
 add_trait="gregarious"
@@ -639,17 +639,17 @@ add_trait="gregarious"
 }
 
 4400033={
-name = "Baudouin"
-dynasty = 25075
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 1
+name="Baudouin"
+dynasty=25075
+culture=breton
+religion=grail
+martial=2
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=1
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="kind"
 add_trait="paranoid"
 add_trait="envious"
@@ -659,397 +659,397 @@ add_trait="envious"
 }
 
 4400034={
-name = "Gilles" #Gilles le Breton
-dynasty = 25000
-dna = "nikbdnhccml"
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 4
-stewardship = 6
-intrigue = 5
-learning = 7
-add_trait = "underhanded_rogue"
-add_trait = "greedy"
-add_trait = "slothful"
+name="Gilles" #Gilles le Breton
+dynasty=25000
+dna="nikbdnhccml"
+culture=breton
+religion=grail
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=5
+learning=7
+add_trait="underhanded_rogue"
+add_trait="greedy"
+add_trait="slothful"
 949.1.1={birth=yes}
-977.5.10={give_nickname = nick_the_uniter}
+977.5.10={give_nickname=nick_the_uniter}
 995.5.10={death=yes}
 }
 
 4400035={
-name = "Louis" #Louis the Rash
-dynasty = 25000
-dna = "collmnmachp"
-culture = breton
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 5
-stewardship = 4
-intrigue = 4
-learning = 0
-father = 4400034
-add_trait = "intricate_webweaver"
-add_trait = "slothful"
-add_trait = "gluttonous"
-add_trait = "content"
+name="Louis" #Louis the Rash
+dynasty=25000
+dna="collmnmachp"
+culture=breton
+religion=grail
+martial=3
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=0
+father=4400034
+add_trait="intricate_webweaver"
+add_trait="slothful"
+add_trait="gluttonous"
+add_trait="content"
 978.1.1={birth=yes}
-1001.3.18={give_nickname = nick_the_rash}
+1001.3.18={give_nickname=nick_the_rash}
 1089.8.3={death=yes}
 }
 
 4400036={
-name = "Tristan"
-dynasty = 25143
-dna = "lfdokfgamib"
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 3
-father = 4400037
-add_trait = "charismatic_negotiator"
-add_trait = "kind"
-add_trait = "diligent"
-add_trait = "honest"
+name="Tristan"
+dynasty=25143
+dna="lfdokfgamib"
+culture=breton
+religion=grail
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=3
+father=4400037
+add_trait="charismatic_negotiator"
+add_trait="kind"
+add_trait="diligent"
+add_trait="honest"
 1115.1.1={birth=yes}
 1186.3.9={death=yes}
 }
 
 4400037={
-name = "Guillaume"
-dynasty = 25143
-dna = "jlmbmciomjo"
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 5
-stewardship = 6
-intrigue = 0
-learning = 4
-father = 4400035
-add_trait = "thrifty_clerk"
-add_trait = "shy"
-add_trait = "trusting"
-add_trait = "cynical"
+name="Guillaume"
+dynasty=25143
+dna="jlmbmciomjo"
+culture=breton
+religion=grail
+martial=0
+diplomacy=5
+stewardship=6
+intrigue=0
+learning=4
+father=4400035
+add_trait="thrifty_clerk"
+add_trait="shy"
+add_trait="trusting"
+add_trait="cynical"
 1079.1.1={birth=yes}
-1108.8.3={give_nickname = nick_the_black}
+1108.8.3={give_nickname=nick_the_black}
 1146.3.9={death=yes}
 }
 
 4400038={
-name = "Gaston"
-dynasty = 25148
-dna = "lcfjlbnneoi"
-culture = breton
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 3
-learning = 7
-add_trait = "flamboyant_schemer"
-add_trait = "deceitful"
-add_trait = "zealous"
+name="Gaston"
+dynasty=25148
+dna="lcfjlbnneoi"
+culture=breton
+religion=grail
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=3
+learning=7
+add_trait="flamboyant_schemer"
+add_trait="deceitful"
+add_trait="zealous"
 2245.5.10={birth=yes}
 2290.10.6={add_spouse=4400043}
 2344.2.6={death=yes}
 }
 
 4400039={
-name = "François"
-dynasty = 25148
-dna = "gpghhlojjlh"
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 3
-stewardship = 7
-intrigue = 4
-learning = 2
-add_trait = "flamboyant_schemer"
-add_trait = "poet"
-add_trait = "kind"
+name="François"
+dynasty=25148
+dna="gpghhlojjlh"
+culture=breton
+religion=grail
+martial=6
+diplomacy=3
+stewardship=7
+intrigue=4
+learning=2
+add_trait="flamboyant_schemer"
+add_trait="poet"
+add_trait="kind"
 2312.12.11={birth=yes}
 2403.7.13={death=yes}
 }
 
 4400040={
-name = "Charles"
-dynasty = 25149
-dna = "pfgliigiehh"
-culture = breton
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 7
-stewardship = 4
-intrigue = 2
-learning = 2
-add_trait = "thrifty_clerk"
-add_trait = "gluttonous"
-add_trait = "cynical"
-add_trait = "deceitful"
+name="Charles"
+dynasty=25149
+dna="pfgliigiehh"
+culture=breton
+religion=grail
+martial=3
+diplomacy=7
+stewardship=4
+intrigue=2
+learning=2
+add_trait="thrifty_clerk"
+add_trait="gluttonous"
+add_trait="cynical"
+add_trait="deceitful"
 2374.10.7={birth=yes}
-2439.1.4={give_nickname = nick_the_enormous}
+2439.1.4={give_nickname=nick_the_enormous}
 2486.6.25={death=yes}
 }
 
 4400041={
-name = "Charles"
-dynasty = 25149
-dna = "hailpndjgnp"
-culture = breton
-religion = lady_of_the_lake
-martial = 7
-diplomacy = 3
-stewardship = 7
-intrigue = 3
-learning = 2
-father = 4400040
-add_trait = "charismatic_negotiator"
-add_trait = "humble"
-add_trait = "brave"
+name="Charles"
+dynasty=25149
+dna="hailpndjgnp"
+culture=breton
+religion=grail
+martial=7
+diplomacy=3
+stewardship=7
+intrigue=3
+learning=2
+father=4400040
+add_trait="charismatic_negotiator"
+add_trait="humble"
+add_trait="brave"
 2436.5.23={birth=yes}
 2500.6.13={death=yes}
 }
 
 4400042={
-name = "Jules"
-dynasty = 25150
-dna = "hdnpboecike"
-culture = breton
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 4
-stewardship = 3
-intrigue = 4
-learning = 5
-add_trait = "indulgent_wastrel"
-add_trait = "poet"
-add_trait = "lustful"
-add_trait = "just"
-add_trait = "deceitful"
+name="Jules"
+dynasty=25150
+dna="hdnpboecike"
+culture=breton
+religion=grail
+martial=3
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=5
+add_trait="indulgent_wastrel"
+add_trait="poet"
+add_trait="lustful"
+add_trait="just"
+add_trait="deceitful"
 2209.12.23={birth=yes}
-2259.9.8={give_nickname = nick_the_just}
+2259.9.8={give_nickname=nick_the_just}
 2297.2.19={death=yes}
 }
 
 4400043={
-name = "Belle Isoulde"
-female = yes
-dynasty = 25150
-dna = "eiojfbhnjjl"
-culture = breton
-religion = lady_of_the_lake
-martial = 7
-diplomacy = 2
-stewardship = 2
-intrigue = 4
-learning = 0
-father = 4400042
-add_trait = "flamboyant_schemer"
-add_trait = "patient"
-add_trait = "gregarious"
+name="Belle Isoulde"
+female=yes
+dynasty=25150
+dna="eiojfbhnjjl"
+culture=breton
+religion=grail
+martial=7
+diplomacy=2
+stewardship=2
+intrigue=4
+learning=0
+father=4400042
+add_trait="flamboyant_schemer"
+add_trait="patient"
+add_trait="gregarious"
 2269.5.19={birth=yes}
 2290.10.6={add_spouse=4400038}
 2323.7.3={death=yes}
 }
 
 4400044={
-name = "Charles"
-dynasty = 25145
-dna = "jooloaifndk"
-culture = breton
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 2
-stewardship = 1
-intrigue = 3
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "trusting"
-add_trait = "charitable"
-add_trait = "lustful"
+name="Charles"
+dynasty=25145
+dna="jooloaifndk"
+culture=breton
+religion=grail
+martial=5
+diplomacy=2
+stewardship=1
+intrigue=3
+learning=4
+add_trait="tough_soldier"
+add_trait="trusting"
+add_trait="charitable"
+add_trait="lustful"
 1283.1.1={birth=yes}
 1413.10.23={death=yes}
 }
 
 4400045={
-name = "Jules"
-dynasty = 25147
-dna = "mppjphdlgbo"
-culture = breton
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 5
-stewardship = 3
-intrigue = 6
-learning = 0
-add_trait = "charismatic_negotiator"
-add_trait = "greedy"
+name="Jules"
+dynasty=25147
+dna="mppjphdlgbo"
+culture=breton
+religion=grail
+martial=0
+diplomacy=5
+stewardship=3
+intrigue=6
+learning=0
+add_trait="charismatic_negotiator"
+add_trait="greedy"
 1492.1.1={birth=yes}
 1571.1.12={death=yes}
 }
 
 4400046={
-name = "Jean"
-dynasty = 25144
-dna = "pnmppalhjok"
-culture = breton
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 5
-stewardship = 2
-intrigue = 6
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "envious"
-add_trait = "deceitful"
-add_trait = "humble"
+name="Jean"
+dynasty=25144
+dna="pnmppalhjok"
+culture=breton
+religion=grail
+martial=2
+diplomacy=5
+stewardship=2
+intrigue=6
+learning=5
+add_trait="grey_eminence"
+add_trait="envious"
+add_trait="deceitful"
+add_trait="humble"
 1655.1.1={birth=yes}
 1734.12.18={death=yes}
 }
 
 4400047={
-name = "Martin"
-dynasty = 25151
-dna = "njmfckcajkg"
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 6
-stewardship = 4
-intrigue = 5
-learning = 7
-add_trait = "flamboyant_schemer"
+name="Martin"
+dynasty=25151
+dna="njmfckcajkg"
+culture=breton
+religion=grail
+martial=4
+diplomacy=6
+stewardship=4
+intrigue=5
+learning=7
+add_trait="flamboyant_schemer"
 1519.11.21={birth=yes}
 1615.11.12={death=yes}
 }
 
 4400048={
-name = "Jean"
-dynasty = 25152
-dna = "nfonkedgmag"
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 8
-stewardship = 5
-intrigue = 0
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "mystic"
-add_trait = "trusting"
+name="Jean"
+dynasty=25152
+dna="nfonkedgmag"
+culture=breton
+religion=grail
+martial=4
+diplomacy=8
+stewardship=5
+intrigue=0
+learning=4
+add_trait="tough_soldier"
+add_trait="mystic"
+add_trait="trusting"
 2144.1.1={birth=yes}
 2259.9.8={death=yes}
 }
 
 4400049={
-name = "Evrard"
-dynasty = 25141
-dna = "ejobjagnfjn"
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 2
-stewardship = 2
-intrigue = 2
-learning = 5
-add_trait = "detached_priest"
-add_trait = "gregarious"
+name="Evrard"
+dynasty=25141
+dna="ejobjagnfjn"
+culture=breton
+religion=grail
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=2
+learning=5
+add_trait="detached_priest"
+add_trait="gregarious"
 2005.1.1={birth=yes}
 2060.11.13={death=yes}
 }
 
 4400050={
-name = "Alphonse"
-dynasty = 25121
-dna = "jofchnolkca"
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 2
-stewardship = 0
-intrigue = 4
-learning = 7
-add_trait = "skilled_tactician"
-add_trait = "envious"
+name="Alphonse"
+dynasty=25121
+dna="jofchnolkca"
+culture=breton
+religion=grail
+martial=6
+diplomacy=2
+stewardship=0
+intrigue=4
+learning=7
+add_trait="skilled_tactician"
+add_trait="envious"
 2003.1.1={birth=yes}
 2077.8.28={death=yes}
 }
 
 4400051={
-name = "Arnault"
-dynasty = 25135
-dna = "aaeiaeigmmi"
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 8
-stewardship = 2
-intrigue = 4
-learning = 1
-add_trait = "charismatic_negotiator"
-add_trait = "deceitful"
-add_trait = "charitable"
-add_trait = "wroth"
+name="Arnault"
+dynasty=25135
+dna="aaeiaeigmmi"
+culture=breton
+religion=grail
+martial=6
+diplomacy=8
+stewardship=2
+intrigue=4
+learning=1
+add_trait="charismatic_negotiator"
+add_trait="deceitful"
+add_trait="charitable"
+add_trait="wroth"
 1969.1.1={birth=yes}
 2040.4.15={death=yes}
 }
 
 4400052={
-name = "Gisèle"
-female = yes
-dynasty = 25102
-dna = "fljdppehabn"
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 5
-stewardship = 4
-intrigue = 3
-learning = 8
-add_trait = "tough_soldier"
-add_trait = "kind"
-add_trait = "trusting"
+name="Gisèle"
+female=yes
+dynasty=25102
+dna="fljdppehabn"
+culture=breton
+religion=grail
+martial=6
+diplomacy=5
+stewardship=4
+intrigue=3
+learning=8
+add_trait="tough_soldier"
+add_trait="kind"
+add_trait="trusting"
 1995.1.1={birth=yes}
 2055.9.22={death=yes}
 }
 
 4400053={
-name = "Thomas"
-dynasty = 25118
-dna = "fjefjdhglop"
-culture = breton
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 1
-stewardship = 2
-intrigue = 5
-learning = 3
-add_trait = "elusive_shadow"
-add_trait = "duelist"
+name="Thomas"
+dynasty=25118
+dna="fjefjdhglop"
+culture=breton
+religion=grail
+martial=4
+diplomacy=1
+stewardship=2
+intrigue=5
+learning=3
+add_trait="elusive_shadow"
+add_trait="duelist"
 1990.1.1={birth=yes}
 2028.2.13={death=yes}
 }
 
 4400054={
-name = "Maurice"
-dynasty = 25098
-dna = "hplncaogohb"
-culture = breton
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 1
-stewardship = 0
-intrigue = 7
-learning = 2
-add_trait = "midas_touched"
-add_trait = "duelist"
-add_trait = "brave"
-add_trait = "deceitful"
+name="Maurice"
+dynasty=25098
+dna="hplncaogohb"
+culture=breton
+religion=grail
+martial=6
+diplomacy=1
+stewardship=0
+intrigue=7
+learning=2
+add_trait="midas_touched"
+add_trait="duelist"
+add_trait="brave"
+add_trait="deceitful"
 1974.1.1={birth=yes}
 2034.9.29={death=yes}
 }

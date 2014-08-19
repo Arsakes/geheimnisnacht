@@ -7,7 +7,7 @@ title = c_pfungzig
 max_settlements = 5
 b_essing = castle
 b_pfungzig = city
-b_zell = temple
+#b_zell = temple
 #b_dietfurt = city
 #b_hutten = city
 
@@ -17,3 +17,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_zell = temple
+}

@@ -12,7 +12,7 @@ b_valjean = temple
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

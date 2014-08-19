@@ -1,5 +1,5 @@
 #533 Diamenterra
-#County Title
+
 title = c_diamenterra
 
 #Settlements
@@ -11,6 +11,10 @@ b_unicata = temple
 
 #Misc
 culture = obregonese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_nerguia = city
+}

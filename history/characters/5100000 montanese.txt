@@ -1,15 +1,15 @@
 5100000={
-name = "Román"
-dynasty = 40000
-culture = montanese
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Román"
+dynasty=40000
+culture=montanese
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 5100001={
-name = "Berenguel"
-dynasty = 40001
-culture = montanese
-religion = classical_gods
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Berenguel"
+dynasty=40001
+culture=montanese
+religion=myrmidian
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 5100002={
-name = "Julián"
-dynasty = 40002
-culture = montanese
-religion = classical_gods
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Julián"
+dynasty=40002
+culture=montanese
+religion=myrmidian
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 5100003={
-name = "Benito"
-dynasty = 40003
-culture = montanese
-religion = classical_gods
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Benito"
+dynasty=40003
+culture=montanese
+religion=myrmidian
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,17 @@ add_trait="wroth"
 }
 
 5100004={
-name = "Manuel"
-dynasty = 40004
-culture = montanese
-religion = classical_gods
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Manuel"
+dynasty=40004
+culture=montanese
+religion=myrmidian
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +99,17 @@ add_trait="humble"
 }
 
 5100005={
-name = "Amadís"
-dynasty = 40018
-culture = montanese
-religion = classical_gods
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Amadís"
+dynasty=40018
+culture=montanese
+religion=myrmidian
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 add_trait="ill"
 
 father=5100020
@@ -120,17 +120,17 @@ mother=5100023
 }
 
 5100006={
-name = "Lorenz"
-dynasty = 40006
-culture = montanese
-religion = classical_gods
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Lorenz"
+dynasty=40006
+culture=montanese
+religion=myrmidian
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -139,17 +139,17 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 5100007={
-name = "Lázar"
-dynasty = 40007
-culture = montanese
-religion = classical_gods
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Lázar"
+dynasty=40007
+culture=montanese
+religion=myrmidian
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -159,17 +159,17 @@ add_trait="lustful"
 }
 
 5100008={
-name = "Cortés"
-dynasty = 40008
-culture = montanese
-religion = classical_gods
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Cortés"
+dynasty=40008
+culture=montanese
+religion=myrmidian
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -179,17 +179,17 @@ add_trait="drunkard"
 }
 
 5100009={
-name = "Fruela"
-dynasty = 40009
-culture = montanese
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Fruela"
+dynasty=40009
+culture=montanese
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -199,17 +199,17 @@ add_trait="lisp"
 }
 
 5100010={
-name = "Álvar"
-dynasty = 40010
-culture = montanese
-religion = classical_gods
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Álvar"
+dynasty=40010
+culture=montanese
+religion=myrmidian
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 
 
@@ -219,17 +219,17 @@ add_trait = "underhanded_rogue"
 }
 
 5100011={
-name = "Fadrique"
-dynasty = 40011
-culture = montanese
-religion = classical_gods
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Fadrique"
+dynasty=40011
+culture=montanese
+religion=myrmidian
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -239,17 +239,17 @@ add_trait="fair"
 }
 
 5100012={
-name = "Salvador"
-dynasty = 40018
-culture = montanese
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Salvador"
+dynasty=40018
+culture=montanese
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 add_trait="legit_bastard"
@@ -261,17 +261,17 @@ mother=5100022
 }
 
 5100013={
-name = "Blasco"
-dynasty = 40013
-culture = montanese
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Blasco"
+dynasty=40013
+culture=montanese
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -281,17 +281,17 @@ add_trait="shy"
 }
 
 5100014={
-name = "Bosón"
-dynasty = 40014
-culture = montanese
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Bosón"
+dynasty=40014
+culture=montanese
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -301,17 +301,17 @@ add_trait="strong"
 }
 
 5100015={
-name = "Diego"
-dynasty = 40015
-culture = montanese
-religion = classical_gods
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Diego"
+dynasty=40015
+culture=montanese
+religion=myrmidian
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -321,17 +321,17 @@ add_trait="cynical"
 }
 
 5100016={
-name = "Pacheco"
-dynasty = 40016
-culture = montanese
-religion = classical_gods
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Pacheco"
+dynasty=40016
+culture=montanese
+religion=myrmidian
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -341,17 +341,17 @@ add_trait="honest"
 }
 
 5100017={
-name = "Lope"
-dynasty = 40017
-culture = montanese
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Lope"
+dynasty=40017
+culture=montanese
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -361,16 +361,16 @@ add_trait="greedy"
 }
 
 5100018={
-name = "Manrique"
-dynasty = 40018
-culture = montanese
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "midas_touched"
+name="Manrique"
+dynasty=40018
+culture=montanese
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
+add_trait="midas_touched"
 add_trait="kind"
 add_trait="legit_bastard"
 father=5100020
@@ -381,17 +381,17 @@ mother=5100021
 }
 
 5100019={
-name = "Solerio"
-dynasty = 40019
-culture = montanese
-religion = classical_gods
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Solerio"
+dynasty=40019
+culture=montanese
+religion=myrmidian
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="weak"
 
@@ -400,17 +400,17 @@ add_trait="weak"
 }
 
 5100020={
-name = "Vidal"
-dynasty = 40018
-culture = montanese
-religion = classical_gods
-martial = 6
-diplomacy = 3
-stewardship = 4
-intrigue = 7
-learning = 17
-add_trait = "poet"
-add_trait = "grey_eminence"
+name="Vidal"
+dynasty=40018
+culture=montanese
+religion=myrmidian
+martial=6
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=17
+add_trait="poet"
+add_trait="grey_eminence"
 add_trait="lustful"
 add_trait="gregarious"
 
@@ -420,35 +420,35 @@ add_trait="gregarious"
 
 
 5100021={
-name = "Zerlina"
+name="Zerlina"
 female=yes
-dynasty = 0
-culture = montanese
-religion = classical_gods
-martial = 4
-diplomacy = 2
-stewardship = 6
-intrigue = 3
-learning = 1
-add_trait = "chaste"
-add_trait = "fair"
+dynasty=0
+culture=montanese
+religion=myrmidian
+martial=4
+diplomacy=2
+stewardship=6
+intrigue=3
+learning=1
+add_trait="chaste"
+add_trait="fair"
 add_trait="arbitrary"
 1982.8.1={birth=yes} 
 2030.2.2={death=yes} 
 }
 
 5100022={
-name = "Urraca"
+name="Urraca"
 female=yes
-dynasty = 0
-culture = montanese
-religion = classical_gods
-martial = 3
-diplomacy = 1
-stewardship = 3
-intrigue = 7
-learning = 0
-add_trait = "fair"
+dynasty=0
+culture=montanese
+religion=myrmidian
+martial=3
+diplomacy=1
+stewardship=3
+intrigue=7
+learning=0
+add_trait="fair"
 add_trait="trusting"
 add_trait="kind"
 
@@ -457,17 +457,17 @@ add_trait="kind"
 }
 
 5100023={
-name = "Beatriz"
+name="Beatriz"
 female=yes
-dynasty = 0
-culture = montanese
-religion = classical_gods
-martial = 5
-diplomacy = 1
-stewardship = 1
-intrigue = 2
-learning = 3
-add_trait = "fair"
+dynasty=0
+culture=montanese
+religion=myrmidian
+martial=5
+diplomacy=1
+stewardship=1
+intrigue=2
+learning=3
+add_trait="fair"
 add_trait="honest"
 add_trait="humble"
 

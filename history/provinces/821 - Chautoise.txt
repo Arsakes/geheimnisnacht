@@ -12,7 +12,7 @@ b_pont_du_graal = temple
 
 # Misc
 culture = mousillonian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

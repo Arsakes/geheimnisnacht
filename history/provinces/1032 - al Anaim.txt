@@ -5,8 +5,8 @@ title = c_al_anaim
 
 # Settlements
 max_settlements = 5
-b_al_anaim = castle
-b_adhallal = city
+b_al_anaim = city
+b_adhallal = castle
 b_tirat = temple
 #b_codobra = city
 #b_zazarate = city
@@ -17,3 +17,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_codobra = city
+}

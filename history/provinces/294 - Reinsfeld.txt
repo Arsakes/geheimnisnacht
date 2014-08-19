@@ -4,9 +4,10 @@
 title = c_reinsfeld
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_reinsfeld = castle
-#b_konigsee = castle
+b_konigsee = temple
+#b_garmdek = castle
 #b_uslar = city
 
 # Misc

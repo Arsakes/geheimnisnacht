@@ -7,12 +7,17 @@ title = c_portomaggiore
 max_settlements = 4
 b_portomaggiore = city
 b_amalfo = castle
-b_croscio = temple
+#b_croscio = temple
 #b_pentelone = castle
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_croscio = temple
+}
+

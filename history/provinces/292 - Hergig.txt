@@ -17,3 +17,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_estorf = temple
+}

@@ -9,7 +9,7 @@ b_zekeal = castle
 #b_dyulevo = city
 
 # Misc
-culture = hastling
+culture = kul
 religion = chaos
 
 

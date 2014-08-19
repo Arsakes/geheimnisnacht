@@ -1,15 +1,15 @@
 5800000={
-name = "Baalisongi"
-dynasty = 321
-culture = wasai
-religion = akghan
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Abubakari"
+dynasty=321
+culture=wasai
+religion=akghan
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 5800001={
-name = "Bassarou"
-dynasty = 340
-culture = wasai
-religion = akghan
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Bassarou"
+dynasty=340
+culture=wasai
+religion=akghan
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 5800002={
-name = "Gnounga"
-dynasty = 351
-culture = wasai
-religion = akghan
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Mamadi"
+dynasty=351
+culture=wasai
+religion=akghan
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 5800003={
-name = "Karfo"
-dynasty = 325
-culture = wasai
-religion = akghan
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Tola"
+dynasty=325
+culture=wasai
+religion=akghan
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,18 @@ add_trait="wroth"
 }
 
 5800004={
-name = "Mayroumfa"
-dynasty = 325
-culture = wasai
-religion = akghan
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Attha"
+female=yes
+dynasty=325
+culture=wasai
+religion=akghan
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +100,17 @@ add_trait="humble"
 }
 
 5800005={
-name = "Sapilem"
-dynasty = 325
-culture = wasai
-religion = akghan
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Gbenge"
+dynasty=325
+culture=wasai
+religion=akghan
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -119,36 +120,33 @@ add_trait="ill"
 }
 
 5800006={
-name = "Mari"
-dynasty = 325
-culture = wasai
-religion = akghan
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Tagnogokelin"
+dynasty=325
+culture=wasai
+religion=akghan
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
-
-
-
 1985.4.20={birth=yes}
 2045.7.2={death=yes}}
 
 5800007={
-name = "Yamba"
-dynasty = 329
-culture = wasai
-religion = akghan
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Mari-Djata"
+dynasty=329
+culture=wasai
+religion=akghan
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -158,17 +156,17 @@ add_trait="lustful"
 }
 
 5800008={
-name = "Tagnogokelin"
-dynasty = 359
-culture = wasai
-religion = akghan
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Sulayman"
+dynasty=359
+culture=wasai
+religion=akghan
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -178,17 +176,18 @@ add_trait="drunkard"
 }
 
 5800009={
-name = "Kourita"
-dynasty = 344
-culture = wasai
-religion = akghan
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Namandjé"
+female=yes
+dynasty=344
+culture=wasai
+religion=akghan
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -198,17 +197,17 @@ add_trait="lisp"
 }
 
 5800010={
-name = "Manding"
-dynasty = 359
-culture = wasai
-religion = akghan
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Unjoh"
+dynasty=359
+culture=wasai
+religion=akghan
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 
 
@@ -218,17 +217,17 @@ add_trait = "underhanded_rogue"
 }
 
 5800011={
-name = "Koukiya"
-dynasty = 324
-culture = wasai
-religion = akghan
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Doauda"
+dynasty=324
+culture=wasai
+religion=akghan
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -238,17 +237,17 @@ add_trait="fair"
 }
 
 5800012={
-name = "Kimi"
-dynasty = 336
-culture = wasai
-religion = akghan
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Manding-Bory"
+dynasty=336
+culture=wasai
+religion=akghan
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -258,17 +257,17 @@ add_trait="envious"
 }
 
 5800013={
-name = "Diebo"
-dynasty = 323
-culture = wasai
-religion = akghan
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Ougbun"
+dynasty=323
+culture=wasai
+religion=akghan
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -278,17 +277,17 @@ add_trait="shy"
 }
 
 5800014={
-name = "Birma"
-dynasty = 348
-culture = wasai
-religion = akghan
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Botchwu"
+dynasty=348
+culture=wasai
+religion=akghan
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -298,17 +297,17 @@ add_trait="strong"
 }
 
 5800015={
-name = "Biya"
-dynasty = 347
-culture = wasai
-religion = akghan
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Kukuray"
+dynasty=347
+culture=wasai
+religion=akghan
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -318,17 +317,17 @@ add_trait="cynical"
 }
 
 5800016={
-name = "Boagri"
-dynasty = 329
-culture = wasai
-religion = akghan
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Mayan"
+dynasty=329
+culture=wasai
+religion=akghan
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -338,17 +337,17 @@ add_trait="honest"
 }
 
 5800017={
-name = "Gamambu"
-dynasty = 322
-culture = wasai
-religion = akghan
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Ndele"
+dynasty=322
+culture=wasai
+religion=akghan
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -358,17 +357,18 @@ add_trait="greedy"
 }
 
 5800018={
-name = "Karay"
-dynasty = 330
-culture = wasai
-religion = akghan
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
+name="Khadijatu"
+female=yes
+dynasty=330
+culture=wasai
+religion=akghan
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 
 add_trait="kind"
 
@@ -378,17 +378,17 @@ add_trait="kind"
 }
 
 5800019={
-name = "Kusoy"
-dynasty = 355
-culture = wasai
-religion = akghan
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Oyedeh"
+dynasty=355
+culture=wasai
+religion=akghan
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"

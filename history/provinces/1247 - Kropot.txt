@@ -11,7 +11,7 @@ b_veidhor = city
 
 # Misc
 culture = tahmak
-religion = chaos
+religion = nurgle
 
 
 # History

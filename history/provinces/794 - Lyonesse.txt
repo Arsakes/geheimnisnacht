@@ -4,17 +4,22 @@
 title = c_lyonesse
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_lyonesse = castle
 b_avalot = city
 b_ellys = temple
+b_landri = temple
 #b_reynes = castle
 #b_scilly = castle
 #b_charybde = temple
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_reynes = castle
+}

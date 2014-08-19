@@ -5,7 +5,7 @@ title = c_sumpfdorf
 
 # Settlements
 max_settlements = 4
-b_sumpfdorf = castle
+b_sumpfdorf = temple
 b_rattenburg_house = castle
 #b_glucksburg = city
 #b_erfstadt = temple

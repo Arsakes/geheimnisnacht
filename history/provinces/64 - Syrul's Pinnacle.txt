@@ -10,7 +10,7 @@ b_syrulheim = castle
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History

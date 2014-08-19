@@ -8,14 +8,18 @@ max_settlements = 7
 b_khemri = castle
 b_mene = city
 b_settrana = temple
-b_khora_gebel = city
-b_siptah = castle
-b_henes = city
-b_yam_gebel = temple
+b_khora_gebel = temple
+#b_siptah = castle
+#b_henes = city
+#b_yam_gebel = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_siptah = castle
+}

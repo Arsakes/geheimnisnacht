@@ -9,7 +9,7 @@ b_erid = castle
 b_al_azd = city
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

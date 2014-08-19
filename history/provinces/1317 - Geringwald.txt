@@ -7,7 +7,7 @@ title = c_geringwald
 max_settlements = 5
 b_frederheim = castle
 b_grossbad = city
-b_furtild = temple
+#b_furtild = temple
 #b_bundesmarkt = castle
 #b_dorchen = temple
 #b_geldrecht = city
@@ -19,3 +19,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_furtild = temple
+}

@@ -17,8 +17,12 @@ b_mstislavlios = city
 culture = gospodar
 religion = northern_gods
 
-terrain = city
+terrain = farmlands
 
 # History
 
 2059.3.20 = { capital = b_gomela }
+
+2250.1.1 = {
+	b_shklovok = castle
+}

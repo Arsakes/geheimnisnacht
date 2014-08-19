@@ -7,7 +7,7 @@ title = c_karak_gantuk
 max_settlements = 5
 b_karak_gantuk = castle
 b_khazid_hefek = temple
-b_khazid_svarkungor = temple
+#b_khazid_svarkungor = temple
 #b_khazid_azkorn = castle
 #b_grung_merik = city
 
@@ -17,3 +17,7 @@ religion = ancestor_gods
 
 
 # History
+
+2250.1.1 = {
+	b_khazid_svarkungor = temple
+}

@@ -15,3 +15,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_grung_dunzedal = city
+}

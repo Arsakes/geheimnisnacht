@@ -9,7 +9,7 @@ b_tankovo = castle
 b_dagur = temple
 
 # Misc
-culture = aghol
+culture = kvellig
 religion = chaos
 
 

@@ -5,13 +5,13 @@ title = c_erkum
 
 # Settlements
 max_settlements = 3
-b_erkumvik = city
 b_wall_of_lurtum = castle
-#b_dys_froedhi = temple
+b_erkumvik = city
+b_dys_froedhi = temple
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = slaanesh
 
 
 # History

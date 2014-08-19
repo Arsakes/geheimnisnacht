@@ -1,96 +1,89 @@
 1500000={
-name = "Mana"
-dynasty = 33012
-culture = ropsmann
-religion = northern_gods
-martial = 0
-diplomacy = 7
-stewardship = 6
-intrigue = 2
-learning = 1
-
-add_trait = "indulgent_wastrel"
+name="Mana"
+dynasty=33012
+culture=ropsmann
+religion=northern_gods
+martial=0
+diplomacy=7
+stewardship=6
+intrigue=2
+learning=1
+add_trait="indulgent_wastrel"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="craven"
-
-1987.12.23={birth="1987.12.23"}
-2040.12.17={death="2040.12.17"}
+1987.12.23={birth=yes}
+2040.12.17={death=yes}
 }
 
 1500001={
-name = "Jogaila"
-dynasty = 33019
-culture = ropsmann
-religion = northern_gods
-martial = 5
-diplomacy = 8
-stewardship = 3
-intrigue = 3
-learning = 9
-add_trait = "hedonist"
-add_trait = "martial_cleric"
+name="Jogaila"
+dynasty=33019
+culture=ropsmann
+religion=northern_gods
+martial=5
+diplomacy=8
+stewardship=3
+intrigue=3
+learning=9
+add_trait="hedonist"
+add_trait="martial_cleric"
 add_trait="greedy"
 add_trait="honest"
-
-
-1989.6.15={birth="1989.6.15"}
-2043.12.1={death="2043.12.1"}
+1989.6.15={birth=yes}
+2043.12.1={death=yes}
 }
 
 1500002={
-name = "Dausprungas"
-dynasty = 33052
-culture = ropsmann
-religion = northern_gods
-martial = 3
-diplomacy = 0
-stewardship = 6
-intrigue = 6
-learning = 0
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
-
-
-add_trait="tall"
-
-1986.7.7={birth="1986.7.7"}
-2013.6.6={death="2013.6.6"}
+name="Dausprungas"
+dynasty=33052
+culture=ropsmann
+religion=northern_gods
+martial=3
+diplomacy=0
+stewardship=6
+intrigue=6
+learning=0
+add_trait="duelist"
+add_trait="underhanded_rogue"
+add_trait="patient"
+1986.7.7={birth=yes}
+2013.6.6={death=yes}
 }
 
 1500003={
-name = "Bikshe"
-dynasty = 33072
-culture = ropsmann
-religion = northern_gods
-martial = 7
-diplomacy = 6
-stewardship = 0
-intrigue = 2
-learning = 8
-add_trait = "mystic"
-add_trait = "detached_priest"
+name="Bikshe"
+dynasty=33072
+culture=ropsmann
+religion=northern_gods
+martial=7
+diplomacy=6
+stewardship=0
+intrigue=2
+learning=8
+add_trait="mystic"
+add_trait="detached_priest"
 add_trait="cruel"
 add_trait="weak"
 
 
-1972.2.19={birth="1972.2.19"}
-2062.5.24={death="2062.5.24"}
+1972.2.19={birth=yes}
+2062.5.24={death=yes}
 }
 
 1500004={
-name = "Marite"
-female = yes
-dynasty = 33055
-culture = ropsmann
-religion = northern_gods
-martial = 3
-diplomacy = 10
-stewardship = 8
-intrigue = 0
-learning = 9
-add_trait = "gardener"
-add_trait = "grey_eminence"
+name="Marite"
+female=yes
+dynasty=33055
+culture=ropsmann
+religion=northern_gods
+martial=3
+diplomacy=10
+stewardship=8
+intrigue=0
+learning=9
+add_trait="gardener"
+add_trait="grey_eminence"
 add_trait="wroth"
 add_trait="humble"
 add_trait="chaste"
@@ -100,58 +93,53 @@ add_trait="chaste"
 }
 
 1500005={
-name = "Viesturs"
-dynasty = 33024
-culture = ropsmann
-religion = northern_gods
-martial = 3
-diplomacy = 3
-stewardship = 3
-intrigue = 1
-learning = 2
-add_trait = "hunter"
-add_trait = "naive_appeaser"
+name="Viesturs"
+dynasty=33024
+culture=ropsmann
+religion=northern_gods
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=1
+learning=2
+add_trait="hunter"
+add_trait="naive_appeaser"
 add_trait="temperate"
 add_trait="content"
-
-
-1967.6.9={birth="1967.6.9"}
-2024.12.28={death="2024.12.28"}
+1967.6.9={birth=yes}
+2024.12.28={death=yes}
 }
 
 1500006={
-name = "Aras"
-dynasty = 33081
-culture = ropsmann
-religion = northern_gods
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 5
-learning = 1
-add_trait = "gardener"
-add_trait = "indulgent_wastrel"
-add_trait="ill"
+name="Aras"
+dynasty=33081
+culture=ropsmann
+religion=northern_gods
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=5
+learning=1
+add_trait="gardener"
+add_trait="indulgent_wastrel"
 add_trait="trusting"
-
-
-1962.2.5={birth="1962.2.5"}
-2049.11.14={death="2049.11.14"}
+1962.2.5={birth=yes}
+2049.11.14={death=yes}
 }
 
 1500007={
-name = "Jevna"
-female = yes
-dynasty = 33032
-culture = ropsmann
-religion = northern_gods
-martial = 1
-diplomacy = 6
-stewardship = 7
-intrigue = 8
-learning = 9
+name="Jevna"
+female=yes
+dynasty=33032
+culture=ropsmann
+religion=northern_gods
+martial=1
+diplomacy=6
+stewardship=7
+intrigue=8
+learning=9
 
-add_trait = "scholarly_theologian"
+add_trait="scholarly_theologian"
 add_trait="drunkard"
 add_trait="lustful"
 
@@ -161,18 +149,18 @@ add_trait="lustful"
 }
 
 1500008={
-name = "Haldjas"
-female = yes
-dynasty = 33061
-culture = ropsmann
-religion = northern_gods
-martial = 1
-diplomacy = 1
-stewardship = 8
-intrigue = 7
-learning = 2
-add_trait = "gardener"
-add_trait = "brilliant_strategist"
+name="Haldjas"
+female=yes
+dynasty=33061
+culture=ropsmann
+religion=northern_gods
+martial=1
+diplomacy=1
+stewardship=8
+intrigue=7
+learning=2
+add_trait="gardener"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="homosexual"
@@ -182,17 +170,17 @@ add_trait="homosexual"
 }
 
 1500009={
-name = "Sergonis"
-dynasty = 33064
-culture = ropsmann
-religion = northern_gods
-martial = 3
-diplomacy = 3
-stewardship = 7
-intrigue = 11
-learning = 9
-add_trait = "scholar"
-add_trait = "elusive_shadow"
+name="Sergonis"
+dynasty=33064
+culture=ropsmann
+religion=northern_gods
+martial=3
+diplomacy=3
+stewardship=7
+intrigue=11
+learning=9
+add_trait="scholar"
+add_trait="elusive_shadow"
 
 
 
@@ -202,17 +190,17 @@ add_trait = "elusive_shadow"
 }
 
 1500010={
-name = "Liudas"
-dynasty = 33047
-culture = ropsmann
-religion = northern_gods
-martial = 9
-diplomacy = 6
-stewardship = 2
-intrigue = 0
-learning = 8
+name="Liudas"
+dynasty=33047
+culture=ropsmann
+religion=northern_gods
+martial=9
+diplomacy=6
+stewardship=2
+intrigue=0
+learning=8
 
-add_trait = "scholarly_theologian"
+add_trait="scholarly_theologian"
 add_trait="lisp"
 
 
@@ -222,17 +210,17 @@ add_trait="lisp"
 }
 
 1500011={
-name = "Olavi"
-dynasty = 33087
-culture = ropsmann
-religion = northern_gods
-martial = 7
-diplomacy = 1
-stewardship = 11
-intrigue = 3
-learning = 4
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Olavi"
+dynasty=33087
+culture=ropsmann
+religion=northern_gods
+martial=7
+diplomacy=1
+stewardship=11
+intrigue=3
+learning=4
+add_trait="scholar"
+add_trait="detached_priest"
 
 
 
@@ -242,17 +230,17 @@ add_trait = "detached_priest"
 }
 
 1500012={
-name = "Kurlemuse"
-dynasty = 33051
-culture = ropsmann
-religion = northern_gods
-martial = 0
-diplomacy = 9
-stewardship = 9
-intrigue = 9
-learning = 5
-add_trait = "impaler"
-add_trait = "intricate_webweaver"
+name="Kurlemuse"
+dynasty=33051
+culture=ropsmann
+religion=northern_gods
+martial=0
+diplomacy=9
+stewardship=9
+intrigue=9
+learning=5
+add_trait="impaler"
+add_trait="intricate_webweaver"
 add_trait="diligent"
 add_trait="strong"
 add_trait="envious"
@@ -262,17 +250,17 @@ add_trait="envious"
 }
 
 1500013={
-name = "Wanko"
-dynasty = 33074
-culture = ropsmann
-religion = northern_gods
-martial = 4
-diplomacy = 0
-stewardship = 7
-intrigue = 6
-learning = 3
-add_trait = "impaler"
-add_trait = "skilled_tactician"
+name="Wanko"
+dynasty=33074
+culture=ropsmann
+religion=northern_gods
+martial=4
+diplomacy=0
+stewardship=7
+intrigue=6
+learning=3
+add_trait="impaler"
+add_trait="skilled_tactician"
 add_trait="proud"
 add_trait="slothful"
 add_trait="fair"
@@ -282,17 +270,17 @@ add_trait="fair"
 }
 
 1500014={
-name = "Lembit"
-dynasty = 33037
-culture = ropsmann
-religion = northern_gods
-martial = 10
-diplomacy = 9
-stewardship = 4
-intrigue = 11
-learning = 4
-add_trait = "duelist"
-add_trait = "fortune_builder"
+name="Lembit"
+dynasty=33037
+culture=ropsmann
+religion=northern_gods
+martial=10
+diplomacy=9
+stewardship=4
+intrigue=11
+learning=4
+add_trait="duelist"
+add_trait="fortune_builder"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="just"
@@ -302,17 +290,17 @@ add_trait="just"
 }
 
 1500015={
-name = "Unnepeve"
-dynasty = 33071
-culture = ropsmann
-religion = northern_gods
-martial = 4
-diplomacy = 3
-stewardship = 2
-intrigue = 8
-learning = 9
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Unnepeve"
+dynasty=33071
+culture=ropsmann
+religion=northern_gods
+martial=4
+diplomacy=3
+stewardship=2
+intrigue=8
+learning=9
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="shy"
 add_trait="zealous"
 add_trait="cynical"
@@ -322,17 +310,17 @@ add_trait="cynical"
 }
 
 1500016={
-name = "Paimis"
-dynasty = 33090
-culture = ropsmann
-religion = northern_gods
-martial = 4
-diplomacy = 7
-stewardship = 0
-intrigue = 4
-learning = 9
-add_trait = "gardener"
-add_trait = "naive_appeaser"
+name="Paimis"
+dynasty=33090
+culture=ropsmann
+religion=northern_gods
+martial=4
+diplomacy=7
+stewardship=0
+intrigue=4
+learning=9
+add_trait="gardener"
+add_trait="naive_appeaser"
 add_trait="ambitious"
 add_trait="paranoid"
 add_trait="honest"
@@ -342,18 +330,18 @@ add_trait="honest"
 }
 
 1500017={
-name = "Grasus"
-female = yes
-dynasty = 33099
-culture = ropsmann
-religion = northern_gods
-martial = 7
-diplomacy = 4
-stewardship = 5
-intrigue = 11
-learning = 10
+name="Grasus"
+female=yes
+dynasty=33099
+culture=ropsmann
+religion=northern_gods
+martial=7
+diplomacy=4
+stewardship=5
+intrigue=11
+learning=10
 
-add_trait = "elusive_shadow"
+add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="kind"
 
@@ -363,18 +351,18 @@ add_trait="kind"
 }
 
 1500018={
-name = "Inda"
-female = yes
-dynasty = 33022
-culture = ropsmann
-religion = northern_gods
-martial = 1
-diplomacy = 9
-stewardship = 8
-intrigue = 8
-learning = 7
+name="Inda"
+female=yes
+dynasty=33022
+culture=ropsmann
+religion=northern_gods
+martial=1
+diplomacy=9
+stewardship=8
+intrigue=8
+learning=7
 
-add_trait = "martial_cleric"
+add_trait="martial_cleric"
 add_trait="craven"
 
 
@@ -384,18 +372,18 @@ add_trait="craven"
 }
 
 1500019={
-name = "Maaemä"
-female = yes
-dynasty = 33253
-culture = ropsmann
-religion = northern_gods
-martial = 0
-diplomacy = 7
-stewardship = 1
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Maaemä"
+female=yes
+dynasty=33253
+culture=ropsmann
+religion=northern_gods
+martial=0
+diplomacy=7
+stewardship=1
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="greedy"
 
 add_trait="cruel"

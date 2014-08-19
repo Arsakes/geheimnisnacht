@@ -7,12 +7,16 @@ title = c_soudarre
 max_settlements = 4
 b_soude = castle
 b_bravenac = city
-b_astillon = castle
+#b_astillon = castle
 #b_turdome = city
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_astillon = castle
+}

@@ -5,10 +5,10 @@ title = c_averheim
 
 # Settlements
 max_settlements = 7
-b_averheim = castle
-b_heideck = city
+b_averburg = castle
+b_averheim = city
 b_vetschau = temple
-b_spreewald = city
+#b_spreewald = city
 #b_woldegsk = castle
 #b_hemmor = city
 #b_tannfeld = city
@@ -19,3 +19,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_spreewald = city
+}

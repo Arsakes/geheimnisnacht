@@ -1,5 +1,5 @@
 #916 Califerne
-#County Title
+
 title = c_califerne
 
 #Settlements
@@ -11,6 +11,10 @@ b_vega_de_mar = temple
 
 #Misc
 culture = avilian
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_castro_de_fe = castle
+}

@@ -21,3 +21,8 @@ religion = taalite
 
 
 # History
+
+2500.1.1 = {
+	b_grundach = temple
+}
+

@@ -1,5 +1,5 @@
 #543 San Pedro
-#County Title
+
 title = c_san_pedro
 
 #Settlements
@@ -11,6 +11,6 @@ b_bedava = city
 
 #Misc
 culture = avilian
-religion = classical_gods
+religion = myrmidian
 
 #History

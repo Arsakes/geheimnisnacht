@@ -1,5 +1,5 @@
 #570 Cervantes
-#County Title
+
 title = c_cervantes
 
 #Settlements
@@ -11,6 +11,10 @@ b_recopolis = city
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_hirta = temple
+}

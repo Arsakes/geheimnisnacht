@@ -4,13 +4,22 @@
 title = c_ildelver
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
 b_ildelver = castle
-#b_alfrdrepa_ey = castle
+#b_alfrdrepa_ey = temple
+#b_laus_stein = castle
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_alfrdrepa_ey = temple
+}
+
+2500.1.1 = {
+	b_laus_stein = castle
+}

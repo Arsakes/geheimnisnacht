@@ -9,7 +9,7 @@ b_tulpan = castle
 b_nurzhigit = city
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

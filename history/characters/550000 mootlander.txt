@@ -1,59 +1,59 @@
 550000={
-name = "Isengrim"
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 10
-diplomacy = 8
-stewardship = 11
-intrigue = 0
-learning = 4
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Isengrim"
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=10
+diplomacy=8
+stewardship=11
+intrigue=0
+learning=4
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="craven"
 
 1976.11.14={birth=yes}
-1998.11.10 = {add_spouse=550004}
+1998.11.10={add_spouse=550004}
 2052.11.22={death=yes}
 }
 
 550001={
-name = "Gretel"
-female = yes
-dynasty = 79034
-culture = mootlander
-religion = halfling_gods
-martial = 9
-diplomacy = 9
-stewardship = 4
-intrigue = 0
-learning = 10
-add_trait = "creature_halfling"
-add_trait = "falconer"
-add_trait = "misguided_warrior"
+name="Gretel"
+female=yes
+dynasty=79034
+culture=mootlander
+religion=halfling_gods
+martial=9
+diplomacy=9
+stewardship=4
+intrigue=0
+learning=10
+add_trait="creature_halfling"
+add_trait="falconer"
+add_trait="misguided_warrior"
 add_trait="greedy"
 
 1961.8.9={birth=yes}
-1978.5.3 = {add_spouse=550011}
-2000.1.9 = {add_spouse=550016}
+1978.5.3={add_spouse=550011}
+2000.1.9={add_spouse=550016}
 2020.4.23={death=yes}
 }
 
 550002={
-name = "Merado"
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 6
-diplomacy = 8
-stewardship = 7
-intrigue = 11
-learning = 0
-add_trait = "creature_halfling"
-add_trait = "charismatic_negotiator"
+name="Merado"
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=6
+diplomacy=8
+stewardship=7
+intrigue=11
+learning=0
+add_trait="creature_halfling"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="tall"
 
@@ -61,23 +61,23 @@ father=550023
 mother=550024
 
 1973.11.28={birth=yes}
-2000.11.10 = {add_spouse=550020}
+2000.11.10={add_spouse=550020}
 2050.2.15={death=yes}
 }
 
 550003={
-name = "Theodricus"
-dynasty = 79021
-culture = mootlander
-religion = halfling_gods
-martial = 1
-diplomacy = 8
-stewardship = 4
-intrigue = 1
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "duelist"
-add_trait = "charismatic_negotiator"
+name="Theodricus"
+dynasty=79021
+culture=mootlander
+religion=halfling_gods
+martial=1
+diplomacy=8
+stewardship=4
+intrigue=1
+learning=9
+add_trait="creature_halfling"
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 add_trait="legit_bastard"
 
 father=550025
@@ -88,19 +88,19 @@ mother=550024
 }
 
 550004={
-name = "Leticia"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 8
-diplomacy = 2
-stewardship = 10
-intrigue = 11
-learning = 1
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "intricate_webweaver"
+name="Leticia"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=8
+diplomacy=2
+stewardship=10
+intrigue=11
+learning=1
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="intricate_webweaver"
 add_trait="wroth"
 add_trait="chaste"
 add_trait="humble"
@@ -109,23 +109,23 @@ father=550023
 mother=550024
 
 1977.12.12={birth="1977.12.12"}
-1998.11.10 = {add_spouse=550000}
+1998.11.10={add_spouse=550000}
 2037.5.4={death=yes}
 }
 
 550005={
-name = "Karolus"
-dynasty = 79012
-culture = mootlander
-religion = halfling_gods
-martial = 4
-diplomacy = 6
-stewardship = 0
-intrigue = 3
-learning = 2
-add_trait = "creature_halfling"
-add_trait = "poet"
-add_trait = "intricate_webweaver"
+name="Karolus"
+dynasty=79012
+culture=mootlander
+religion=halfling_gods
+martial=4
+diplomacy=6
+stewardship=0
+intrigue=3
+learning=2
+add_trait="creature_halfling"
+add_trait="poet"
+add_trait="intricate_webweaver"
 add_trait="trusting"
 add_trait="temperate"
 add_trait="legit_bastard"
@@ -134,23 +134,23 @@ father=550025
 mother=550024
 
 1981.7.12={birth=yes}
-2009.5.3 = {add_spouse=550014}
+2009.5.3={add_spouse=550014}
 2056.11.1={death=yes}
 }
 
 550006={
-name = "Roido"
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 8
-diplomacy = 7
-stewardship = 8
-intrigue = 5
-learning = 5
-add_trait = "creature_halfling"
-add_trait = "mystic"
-add_trait = "flamboyant_schemer"
+name="Roido"
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=8
+diplomacy=7
+stewardship=8
+intrigue=5
+learning=5
+add_trait="creature_halfling"
+add_trait="mystic"
+add_trait="flamboyant_schemer"
 add_trait="ill"
 add_trait="content"
 
@@ -162,19 +162,19 @@ mother=550004
 }
 
 550007={
-name = "Jilly"
-female = yes
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 9
-diplomacy = 7
-stewardship = 11
-intrigue = 9
-learning = 7
-add_trait = "creature_halfling"
-add_trait = "duelist"
-add_trait = "misguided_warrior"
+name="Jilly"
+female=yes
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=9
+diplomacy=7
+stewardship=11
+intrigue=9
+learning=7
+add_trait="creature_halfling"
+add_trait="duelist"
+add_trait="misguided_warrior"
 add_trait="drunkard"
 
 father=550000
@@ -185,18 +185,18 @@ mother=550004
 }
 
 550008={
-name = "Calvin"
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 10
-diplomacy = 7
-stewardship = 1
-intrigue = 3
-learning = 10
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "mastermind_theologian"
+name="Calvin"
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=10
+diplomacy=7
+stewardship=1
+intrigue=3
+learning=10
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="mastermind_theologian"
 
 father=550000
 mother=550004
@@ -206,19 +206,19 @@ mother=550004
 }
 
 550009={
-name = "Hanna"
-female = yes
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 8
-diplomacy = 4
-stewardship = 8
-intrigue = 6
-learning = 2
-add_trait = "creature_halfling"
-add_trait = "hunter"
-add_trait = "fortune_builder"
+name="Hanna"
+female=yes
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=8
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=2
+add_trait="creature_halfling"
+add_trait="hunter"
+add_trait="fortune_builder"
 
 add_trait="twin"
 
@@ -230,18 +230,18 @@ mother=550004
 }
 
 550010={
-name = "Zeidl"
-dynasty = 79009
-culture = mootlander
-religion = halfling_gods
-martial = 4
-diplomacy = 7
-stewardship = 11
-intrigue = 6
-learning = 7
-add_trait = "creature_halfling"
-add_trait = "gardener"
-add_trait = "skilled_tactician"
+name="Zeidl"
+dynasty=79009
+culture=mootlander
+religion=halfling_gods
+martial=4
+diplomacy=7
+stewardship=11
+intrigue=6
+learning=7
+add_trait="creature_halfling"
+add_trait="gardener"
+add_trait="skilled_tactician"
 
 add_trait="twin"
 
@@ -253,39 +253,39 @@ mother=550004
 }
 
 550011={
-name = "Tolman"
-dynasty = 79039
-culture = mootlander
-religion = halfling_gods
-martial = 9
-diplomacy = 10
-stewardship = 1
-intrigue = 7
-learning = 2
-add_trait = "creature_halfling"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Tolman"
+dynasty=79039
+culture=mootlander
+religion=halfling_gods
+martial=9
+diplomacy=10
+stewardship=1
+intrigue=7
+learning=2
+add_trait="creature_halfling"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 
 add_trait="fair"
 
 1958.7.19={birth=yes}
-1978.5.3 = {add_spouse=550001}
+1978.5.3={add_spouse=550001}
 1996.1.27={death=yes}
 }
 
 550012={
-name = "Jakob"
-dynasty = 79034
-culture = mootlander
-religion = halfling_gods
-martial = 4
-diplomacy = 8
-stewardship = 4
-intrigue = 3
-learning = 3
-add_trait = "creature_halfling"
-add_trait = "gardener"
-add_trait = "misguided_warrior"
+name="Jakob"
+dynasty=79034
+culture=mootlander
+religion=halfling_gods
+martial=4
+diplomacy=8
+stewardship=4
+intrigue=3
+learning=3
+add_trait="creature_halfling"
+add_trait="gardener"
+add_trait="misguided_warrior"
 add_trait="diligent"
 add_trait="strong"
 
@@ -297,18 +297,18 @@ mother=550001
 }
 
 550013={
-name = "Noba"
-dynasty = 79034
-culture = mootlander
-religion = halfling_gods
-martial = 6
-diplomacy = 0
-stewardship = 1
-intrigue = 5
-learning = 1
-add_trait = "creature_halfling"
-add_trait = "scholar"
-add_trait = "fortune_builder"
+name="Noba"
+dynasty=79034
+culture=mootlander
+religion=halfling_gods
+martial=6
+diplomacy=0
+stewardship=1
+intrigue=5
+learning=1
+add_trait="creature_halfling"
+add_trait="scholar"
+add_trait="fortune_builder"
 add_trait="envious"
 add_trait="patient"
 add_trait="proud"
@@ -321,19 +321,19 @@ mother=550001
 }
 
 550014={
-name = "Otfried"
-female = yes
-dynasty = 79034
-culture = mootlander
-religion = halfling_gods
-martial = 3
-diplomacy = 8
-stewardship = 9
-intrigue = 0
-learning = 6
-add_trait = "creature_halfling"
-add_trait = "duelist"
-add_trait = "martial_cleric"
+name="Otfried"
+female=yes
+dynasty=79034
+culture=mootlander
+religion=halfling_gods
+martial=3
+diplomacy=8
+stewardship=9
+intrigue=0
+learning=6
+add_trait="creature_halfling"
+add_trait="duelist"
+add_trait="martial_cleric"
 add_trait="shy"
 add_trait="arbitrary"
 add_trait="ambitious"
@@ -342,23 +342,23 @@ father=550011
 mother=550001
 
 1991.8.12={birth=yes}
-2009.5.3 = {add_spouse=550005}
+2009.5.3={add_spouse=550005}
 2026.6.5={death=yes}
 }
 
 550015={
-name = "Gebehardt"
-dynasty = 79034
-culture = mootlander
-religion = halfling_gods
-martial = 3
-diplomacy = 1
-stewardship = 4
-intrigue = 6
-learning = 7
-add_trait = "creature_halfling"
-add_trait = "duelist"
-add_trait = "charismatic_negotiator"
+name="Gebehardt"
+dynasty=79034
+culture=mootlander
+religion=halfling_gods
+martial=3
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=7
+add_trait="creature_halfling"
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="cynical"
 add_trait="paranoid"
@@ -371,18 +371,18 @@ mother=550001
 }
 
 550016={
-name = "Heindel"
-dynasty = 79026
-culture = mootlander
-religion = halfling_gods
-martial = 8
-diplomacy = 7
-stewardship = 4
-intrigue = 8
-learning = 2
-add_trait = "creature_halfling"
-add_trait = "gardener"
-add_trait = "flamboyant_schemer"
+name="Heindel"
+dynasty=79026
+culture=mootlander
+religion=halfling_gods
+martial=8
+diplomacy=7
+stewardship=4
+intrigue=8
+learning=2
+add_trait="creature_halfling"
+add_trait="gardener"
+add_trait="flamboyant_schemer"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="zealous"
@@ -393,18 +393,18 @@ add_trait="zealous"
 }
 
 550017={
-name = "Ulein"
-dynasty = 79038
-culture = mootlander
-religion = halfling_gods
-martial = 9
-diplomacy = 8
-stewardship = 3
-intrigue = 8
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "detached_priest"
+name="Ulein"
+dynasty=79038
+culture=mootlander
+religion=halfling_gods
+martial=9
+diplomacy=8
+stewardship=3
+intrigue=8
+learning=9
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="detached_priest"
 add_trait="just"
 add_trait="craven"
 add_trait="honest"
@@ -417,19 +417,19 @@ mother=550001
 }
 
 550018={
-name = "Edyth"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 11
-learning = 8
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "misguided_warrior"
+name="Edyth"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=11
+learning=8
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="misguided_warrior"
 add_trait="greedy"
 
 father=550002
@@ -440,19 +440,19 @@ mother=550020
 }
 
 550019={
-name = "Lenne"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 6
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Lenne"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=6
+learning=9
+add_trait="creature_halfling"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 add_trait="tall"
 add_trait="weak"
 
@@ -464,19 +464,19 @@ mother=550020
 }
 
 550020={
-name = "Ortlieb"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 4
-diplomacy = 7
-stewardship = 1
-intrigue = 4
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Ortlieb"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=4
+diplomacy=7
+stewardship=1
+intrigue=4
+learning=9
+add_trait="creature_halfling"
+add_trait="hunter"
+add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="temperate"
 add_trait="cruel"
@@ -485,24 +485,24 @@ father=550023
 mother=550024
 
 1982.11.1={birth=yes}
-2000.11.10 = {add_spouse=550002}
+2000.11.10={add_spouse=550002}
 2066.5.16={death=yes}
 }
 
 550021={
-name = "Gilly"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 1
-diplomacy = 7
-stewardship = 1
-intrigue = 2
-learning = 7
-add_trait = "creature_halfling"
-add_trait = "hedonist"
-add_trait = "mastermind_theologian"
+name="Gilly"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=1
+diplomacy=7
+stewardship=1
+intrigue=2
+learning=7
+add_trait="creature_halfling"
+add_trait="hedonist"
+add_trait="mastermind_theologian"
 
 add_trait="content"
 add_trait="humble"
@@ -515,19 +515,19 @@ mother=550024
 }
 
 550022={
-name = "Selena"
-female = yes
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 1
-diplomacy = 7
-stewardship = 7
-intrigue = 6
-learning = 0
-add_trait = "creature_halfling"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Selena"
+female=yes
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=1
+diplomacy=7
+stewardship=7
+intrigue=6
+learning=0
+add_trait="creature_halfling"
+add_trait="hunter"
+add_trait="elusive_shadow"
 add_trait="chaste"
 add_trait="trusting"
 add_trait="ill"
@@ -540,60 +540,60 @@ mother=550024
 }
 
 550023={
-name = "Rogrin"
-dynasty = 79011
-culture = mootlander
-religion = halfling_gods
-martial = 2
-diplomacy = 7
-stewardship = 4
-intrigue = 4
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "poet"
-add_trait = "intricate_webweaver"
+name="Rogrin"
+dynasty=79011
+culture=mootlander
+religion=halfling_gods
+martial=2
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=9
+add_trait="creature_halfling"
+add_trait="poet"
+add_trait="intricate_webweaver"
 
 
 1935.9.23={birth=yes}
-1968.2.23 = {add_spouse=550024}
+1968.2.23={add_spouse=550024}
 1994.4.8={death=yes}
 }
 
 550024={
-name = "Reikhilda"
-female = yes
-dynasty = 79050
-culture = mootlander
-religion = halfling_gods
-martial = 0
-diplomacy = 7
-stewardship = 5
-intrigue = 5
-learning = 9
-add_trait = "creature_halfling"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Reikhilda"
+female=yes
+dynasty=79050
+culture=mootlander
+religion=halfling_gods
+martial=0
+diplomacy=7
+stewardship=5
+intrigue=5
+learning=9
+add_trait="creature_halfling"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="lustful"
 
 
 1950.2.14={birth=yes}
-1968.2.23 = {add_spouse=550023}
+1968.2.23={add_spouse=550023}
 2006.11.5={death=yes}
 }
 
 550025={
-name = "Fridoc"
-dynasty = 79070
-culture = mootlander
-religion = halfling_gods
-martial = 8
-diplomacy = 8
-stewardship = 10
-intrigue = 6
-learning = 2
-add_trait = "creature_halfling"
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Fridoc"
+dynasty=79070
+culture=mootlander
+religion=halfling_gods
+martial=8
+diplomacy=8
+stewardship=10
+intrigue=6
+learning=2
+add_trait="creature_halfling"
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="drunkard"
 
 1940.3.24={birth=yes}
@@ -602,18 +602,18 @@ add_trait="drunkard"
 
 
 550026={
-name = "Hisme" #Elector Hisme Stoutheart
-female = yes
-dynasty = 79085
-culture = mootlander
-religion = halfling_gods
-martial = 3
-diplomacy = 9
-stewardship = 8
-intrigue = 5
-learning = 3
-add_trait = "creature_halfling"
-add_trait = "charismatic_negotiator"
+name="Hisme" #Elector Hisme Stoutheart
+female=yes
+dynasty=79085
+culture=mootlander
+religion=halfling_gods
+martial=3
+diplomacy=9
+stewardship=8
+intrigue=5
+learning=3
+add_trait="creature_halfling"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="gluttonous"
 add_trait="gregarious"

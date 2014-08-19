@@ -9,7 +9,7 @@ b_kaiserliche_palast = castle
 b_domplatz_bezirk = temple
 b_reikmarkt = city
 b_werksviertel = city
-b_reikhoch = city
+#b_reikhoch = city
 #b_niederwind = castle
 #b_oberhausen = temple
 #b_konigplatz = castle
@@ -21,6 +21,14 @@ b_reikhoch = city
 culture = reiklander
 religion = sigmarite
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_reikhoch = city
+}
+
+2500.1.1 = {
+	b_niederwind = castle
+}

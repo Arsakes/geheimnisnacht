@@ -6,7 +6,7 @@ title = c_heedenhof
 # Settlements
 max_settlements = 3
 b_heedenhof = castle
-#b_gerzen = city
+#b_gerzen = temple
 #b_flaschfurt = city
 
 # Misc
@@ -15,3 +15,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_gerzen = temple
+}

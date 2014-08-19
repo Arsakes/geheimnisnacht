@@ -1,5 +1,5 @@
 #563 Ebria
-#County Title
+
 title = c_ebria
 
 #Settlements
@@ -11,6 +11,6 @@ b_hegiza = temple
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History

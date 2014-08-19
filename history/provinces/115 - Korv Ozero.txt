@@ -13,7 +13,7 @@ b_grung_stekbrud = city
 
 # Misc
 culture = dwarf_norse
-religion = ancestor_gods
+religion = norse_ancestor_gods
 
 
 # History

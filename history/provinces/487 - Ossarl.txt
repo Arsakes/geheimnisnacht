@@ -10,7 +10,7 @@ b_ossarl = castle
 
 # Misc
 culture = dolgan
-religion = chaos
+religion = northern_gods
 
 
 # History

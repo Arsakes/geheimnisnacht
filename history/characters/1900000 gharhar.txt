@@ -1,371 +1,371 @@
 1900000={
-name = "Jurchedei"
-dynasty = 68000
-dna = "fjeeobofnak"
-culture = kvellig
-religion = chaos
-martial = 5
-diplomacy = 4
-stewardship = 4
-intrigue = 0
-learning = 7
-add_trait = "skilled_tactician"
-add_trait = "paranoid"
-add_trait = "patient"
-add_trait = "chaste"
+name="Jurchedei"
+dynasty=68000
+dna="fjeeobofnak"
+culture=gharhar
+religion=chaos
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=0
+learning=7
+add_trait="skilled_tactician"
+add_trait="paranoid"
+add_trait="patient"
+add_trait="chaste"
 1956.1.1={birth=yes}
 2016.2.15={death=yes}
 }
 
 1900001={
-name = "Guigudar"
-dynasty = 68001
-dna = "jofocgnijfm"
-culture = kvellig
-religion = chaos
-martial = 4
-diplomacy = 0
-stewardship = 5
-intrigue = 5
-learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "gregarious"
-add_trait = "lustful"
+name="Guigudar"
+dynasty=68001
+dna="jofocgnijfm"
+culture=gharhar
+religion=chaos
+martial=4
+diplomacy=0
+stewardship=5
+intrigue=5
+learning=4
+add_trait="underhanded_rogue"
+add_trait="gregarious"
+add_trait="lustful"
 1958.1.1={birth=yes}
 2018.10.15={death=yes}
 }
 
 1900002={
-name = "Mardan"
-dynasty = 68002
-dna = "pmbmhjmphep"
-culture = kvellig
-religion = chaos
-martial = 8
-diplomacy = 2
-stewardship = 5
-intrigue = 0
-learning = 3
-add_trait = "thrifty_clerk"
-add_trait = "zealous"
-add_trait = "ambitious"
-add_trait = "arbitrary"
+name="Mardan"
+dynasty=68002
+dna="pmbmhjmphep"
+culture=gharhar
+religion=chaos
+martial=8
+diplomacy=2
+stewardship=5
+intrigue=0
+learning=3
+add_trait="thrifty_clerk"
+add_trait="zealous"
+add_trait="ambitious"
+add_trait="arbitrary"
 1967.1.1={birth=yes}
 2021.4.16={death=yes}
 }
 
 1900003={
-name = "Risat"
-dynasty = 68003
-dna = "fmjooigembk"
-culture = kvellig
-religion = chaos
-martial = 3
-diplomacy = 3
-stewardship = 2
-intrigue = 6
-learning = 2
-add_trait = "fortune_builder"
-add_trait = "content"
-add_trait = "greedy"
+name="Risat"
+dynasty=68003
+dna="fmjooigembk"
+culture=gharhar
+religion=chaos
+martial=3
+diplomacy=3
+stewardship=2
+intrigue=6
+learning=2
+add_trait="fortune_builder"
+add_trait="content"
+add_trait="greedy"
 1982.1.1={birth=yes}
 2032.5.7={death=yes}
 }
 
 1900004={
-name = "Taliqu"
-dynasty = 68004
-dna = "neimaedjhbd"
-culture = kvellig
-religion = chaos
-martial = 4
-diplomacy = 1
-stewardship = 6
-intrigue = 6
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "wroth"
+name="Taliqu"
+dynasty=68004
+dna="neimaedjhbd"
+culture=gharhar
+religion=chaos
+martial=4
+diplomacy=1
+stewardship=6
+intrigue=6
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="wroth"
 1960.1.1={birth=yes}
 2013.5.5={death=yes}
 }
 
 1900005={
-name = "Bagaridai"
-dynasty = 68005
-dna = "mmhlnpdnica"
-culture = kvellig
-religion = chaos
-martial = 1
-diplomacy = 2
-stewardship = 8
-intrigue = 4
-learning = 1
-add_trait = "thrifty_clerk"
-add_trait = "impaler"
-add_trait = "brave"
-add_trait = "kind"
-add_trait = "deceitful"
-add_trait = "slothful"
+name="Bagaridai"
+dynasty=68005
+dna="mmhlnpdnica"
+culture=gharhar
+religion=chaos
+martial=1
+diplomacy=2
+stewardship=8
+intrigue=4
+learning=1
+add_trait="thrifty_clerk"
+add_trait="impaler"
+add_trait="brave"
+add_trait="kind"
+add_trait="deceitful"
+add_trait="slothful"
 1981.1.1={birth=yes}
 2041.2.23={death=yes}
 }
 
 1900006={
-name = "Jachi"
-female = yes
-dynasty = 68006
-dna = "ahikboodejo"
-culture = kvellig
-religion = chaos
-martial = 3
-diplomacy = 1
-stewardship = 7
-intrigue = 1
-learning = 1
-add_trait = "flamboyant_schemer"
-add_trait = "duelist"
-add_trait = "charitable"
-add_trait = "envious"
+name="Jachi"
+female=yes
+dynasty=68006
+dna="ahikboodejo"
+culture=gharhar
+religion=chaos
+martial=3
+diplomacy=1
+stewardship=7
+intrigue=1
+learning=1
+add_trait="flamboyant_schemer"
+add_trait="duelist"
+add_trait="charitable"
+add_trait="envious"
 1963.1.1={birth=yes}
 2023.3.30={death=yes}
 }
 
 1900007={
-name = "Hamid"
-dynasty = 68007
-dna = "hbelmccfgal"
-culture = kvellig
-religion = chaos
-martial = 5
-diplomacy = 1
-stewardship = 2
-intrigue = 7
-learning = 3
-add_trait = "detached_priest"
-add_trait = "zealous"
+name="Hamid"
+dynasty=68007
+dna="hbelmccfgal"
+culture=gharhar
+religion=chaos
+martial=5
+diplomacy=1
+stewardship=2
+intrigue=7
+learning=3
+add_trait="detached_priest"
+add_trait="zealous"
 1965.1.1={birth=yes}
 2013.8.9={death=yes}
 }
 
 1900008={
-name = "Äliä"
-female = yes
-dynasty = 68008
-dna = "encljhdkilj"
-culture = kvellig
-religion = chaos
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 2
-learning = 6
-add_trait = "midas_touched"
-add_trait = "drunkard"
+name="Äliä"
+female=yes
+dynasty=68008
+dna="encljhdkilj"
+culture=gharhar
+religion=chaos
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=2
+learning=6
+add_trait="midas_touched"
+add_trait="drunkard"
 1987.1.1={birth=yes}
 2034.9.15={death=yes}
 }
 
 1900009={
-name = "Changshi"
-dynasty = 68009
-dna = "lfociioiiml"
-culture = kvellig
-religion = chaos
-martial = 4
-diplomacy = 7
-stewardship = 6
-intrigue = 3
-learning = 2
-add_trait = "brilliant_strategist"
-add_trait = "hunter"
-add_trait = "greedy"
+name="Changshi"
+dynasty=68009
+dna="lfociioiiml"
+culture=gharhar
+religion=chaos
+martial=4
+diplomacy=7
+stewardship=6
+intrigue=3
+learning=2
+add_trait="brilliant_strategist"
+add_trait="hunter"
+add_trait="greedy"
 1983.1.1={birth=yes}
 2060.9.28={death=yes}
 }
 
 1900010={
-name = "Oghul"
-female = yes
-dynasty = 68010
-dna = "kidnhnaanga"
-culture = kvellig
-religion = chaos
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 4
-learning = 3
-add_trait = "flamboyant_schemer"
-add_trait = "cruel"
-add_trait = "cynical"
+name="Oghul"
+female=yes
+dynasty=68010
+dna="kidnhnaanga"
+culture=gharhar
+religion=chaos
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=4
+learning=3
+add_trait="flamboyant_schemer"
+add_trait="cruel"
+add_trait="cynical"
 1966.1.1={birth=yes}
 2018.4.29={death=yes}
 }
 
 1900011={
-name = "Karin"
-dynasty = 68011
-dna = "jfpamoefnfd"
-culture = kvellig
-religion = chaos
-martial = 5
-diplomacy = 2
-stewardship = 5
-intrigue = 2
-learning = 3
-add_trait = "thrifty_clerk"
-add_trait = "hedonist"
-add_trait = "zealous"
-add_trait = "ambitious"
+name="Karin"
+dynasty=68011
+dna="jfpamoefnfd"
+culture=gharhar
+religion=chaos
+martial=5
+diplomacy=2
+stewardship=5
+intrigue=2
+learning=3
+add_trait="thrifty_clerk"
+add_trait="hedonist"
+add_trait="zealous"
+add_trait="ambitious"
 1961.1.1={birth=yes}
 2018.9.15={death=yes}
 }
 
 1900012={
-name = "Karin"
-dynasty = 68012
-dna = "jgllcioohin"
-culture = kvellig
-religion = chaos
-martial = 2
-diplomacy = 4
-stewardship = 5
-intrigue = 3
-learning = 5
-add_trait = "flamboyant_schemer"
+name="Karin"
+dynasty=68012
+dna="jgllcioohin"
+culture=gharhar
+religion=chaos
+martial=2
+diplomacy=4
+stewardship=5
+intrigue=3
+learning=5
+add_trait="flamboyant_schemer"
 1960.1.1={birth=yes}
 2015.11.12={death=yes}
 }
 
 1900013={
-name = "Vumurt"
-dynasty = 68013
-dna = "kpcbnfiiaok"
-culture = kvellig
-religion = chaos
-martial = 0
-diplomacy = 7
-stewardship = 6
-intrigue = 6
-learning = 6
-add_trait = "fortune_builder"
-add_trait = "gregarious"
+name="Vumurt"
+dynasty=68013
+dna="kpcbnfiiaok"
+culture=gharhar
+religion=chaos
+martial=0
+diplomacy=7
+stewardship=6
+intrigue=6
+learning=6
+add_trait="fortune_builder"
+add_trait="gregarious"
 1979.1.1={birth=yes}
 2022.7.26={death=yes}
 }
 
 1900014={
-name = "Ulyn"
-female = yes
-dynasty = 68014
-dna = "jcahfpjdbho"
-culture = kvellig
-religion = chaos
-martial = 4
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "greedy"
-add_trait = "arbitrary"
-add_trait = "cynical"
+name="Ulyn"
+female=yes
+dynasty=68014
+dna="jcahfpjdbho"
+culture=gharhar
+religion=chaos
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="greedy"
+add_trait="arbitrary"
+add_trait="cynical"
 1988.1.1={birth=yes}
 2065.2.24={death=yes}
 }
 
 1900015={
-name = "Raad"
-female = yes
-dynasty = 68015
-dna = "pfnidiafikb"
-culture = kvellig
-religion = chaos
-martial = 0
-diplomacy = 0
-stewardship = 5
-intrigue = 2
-learning = 3
-add_trait = "intricate_webweaver"
-add_trait = "scholar"
-add_trait = "slothful"
-add_trait = "paranoid"
-add_trait = "proud"
-add_trait = "wounded"
+name="Raad"
+female=yes
+dynasty=68015
+dna="pfnidiafikb"
+culture=gharhar
+religion=chaos
+martial=0
+diplomacy=0
+stewardship=5
+intrigue=2
+learning=3
+add_trait="intricate_webweaver"
+add_trait="scholar"
+add_trait="slothful"
+add_trait="paranoid"
+add_trait="proud"
+add_trait="wounded"
 1980.1.1={birth=yes}
 2035.11.13={death=yes}
 }
 
 1900016={
-name = "Ubaydullah"
-dynasty = 68016
-dna = "fbnpncpgfap"
-culture = kvellig
-religion = chaos
-martial = 1
-diplomacy = 5
-stewardship = 5
-intrigue = 3
-learning = 2
-add_trait = "charismatic_negotiator"
-add_trait = "trusting"
-add_trait = "zealous"
+name="Ubaydullah"
+dynasty=68016
+dna="fbnpncpgfap"
+culture=gharhar
+religion=chaos
+martial=1
+diplomacy=5
+stewardship=5
+intrigue=3
+learning=2
+add_trait="charismatic_negotiator"
+add_trait="trusting"
+add_trait="zealous"
 1989.1.1={birth=yes}
 2045.4.10={death=yes}
 }
 
 1900017={
-name = "Fakriddin"
-dynasty = 68017
-dna = "connkomidaa"
-culture = kvellig
-religion = chaos
-martial = 1
-diplomacy = 2
-stewardship = 3
-intrigue = 6
-learning = 4
-add_trait = "fortune_builder"
-add_trait = "hedonist"
-add_trait = "cynical"
+name="Fakriddin"
+dynasty=68017
+dna="connkomidaa"
+culture=gharhar
+religion=chaos
+martial=1
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=4
+add_trait="fortune_builder"
+add_trait="hedonist"
+add_trait="cynical"
 1982.1.1={birth=yes}
 2053.9.26={death=yes}
 }
 
 1900018={
-name = "Nadira"
-female = yes
-dynasty = 68018
-dna = "nojeighmcfj"
-culture = kvellig
-religion = chaos
-martial = 4
-diplomacy = 3
-stewardship = 3
-intrigue = 2
-learning = 0
-add_trait = "detached_priest"
-add_trait = "zealous"
-add_trait = "trusting"
-add_trait = "deceitful"
+name="Nadira"
+female=yes
+dynasty=68018
+dna="nojeighmcfj"
+culture=gharhar
+religion=chaos
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=2
+learning=0
+add_trait="detached_priest"
+add_trait="zealous"
+add_trait="trusting"
+add_trait="deceitful"
 1971.1.1={birth=yes}
 2038.8.16={death=yes}
 }
 
 1900019={
-name = "Daniyal"
-dynasty = 68019
-dna = "cglkfphhpkn"
-culture = kvellig
-religion = chaos
-martial = 3
-diplomacy = 2
-stewardship = 3
-intrigue = 2
-learning = 3
-add_trait = "elusive_shadow"
-add_trait = "proud"
-add_trait = "honest"
+name="Daniyal"
+dynasty=68019
+dna="cglkfphhpkn"
+culture=gharhar
+religion=chaos
+martial=3
+diplomacy=2
+stewardship=3
+intrigue=2
+learning=3
+add_trait="elusive_shadow"
+add_trait="proud"
+add_trait="honest"
 1980.1.1={birth=yes}
 2028.10.27={death=yes}
 }

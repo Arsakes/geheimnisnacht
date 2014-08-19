@@ -10,7 +10,7 @@ b_plesk = temple
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History

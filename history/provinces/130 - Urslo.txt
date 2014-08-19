@@ -13,7 +13,7 @@ b_arenheim = city
 
 # Misc
 culture = baersonling
-religion = norse
+religion = norscan_gods
 
 
 # History

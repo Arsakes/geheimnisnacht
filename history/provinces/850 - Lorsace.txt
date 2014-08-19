@@ -12,7 +12,11 @@ b_strancy = city
 
 # Misc
 culture = bourgon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2500.1.1 = {
+	b_betz = castle
+}

@@ -1,5 +1,5 @@
 #554 Garnata
-#County Title
+
 title = c_garnata
 
 #Settlements
@@ -12,6 +12,10 @@ b_torre_de_nuestra_senora = temple
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_averna = city
+}

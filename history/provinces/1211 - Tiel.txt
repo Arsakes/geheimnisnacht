@@ -10,7 +10,7 @@ b_prausk = temple
 #b_garrot = city
 
 # Misc
-culture = aghol
+culture = kvellig
 religion = chaos
 
 

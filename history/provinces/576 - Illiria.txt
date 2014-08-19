@@ -12,7 +12,12 @@ b_lagoni = castle
 
 # Misc
 culture = tobaran
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_duomico = temple
+}
+

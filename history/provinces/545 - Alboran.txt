@@ -1,6 +1,6 @@
 # 545 Alboran
 
-#County Title
+
 title = c_alboran
 
 #Settlements
@@ -13,6 +13,10 @@ b_sedara = castle
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_natroal = temple
+}

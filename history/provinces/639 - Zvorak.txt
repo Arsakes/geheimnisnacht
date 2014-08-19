@@ -11,7 +11,7 @@ b_zvorak = castle
 
 # Misc
 culture = marcheur
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

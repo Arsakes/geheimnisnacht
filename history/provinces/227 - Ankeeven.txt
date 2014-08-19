@@ -11,7 +11,7 @@ b_de_gesp = city
 
 # Misc
 culture = westerlander
-religion = sigmarite
+religion = manannite
 
 
 # History

@@ -6,7 +6,7 @@ title = c_forest_of_borisov
 # Settlements
 max_settlements = 3
 b_borisovo = castle
-b_oblastobivk = city
+#b_oblastobivk = city
 #b_klichevik = temple
 
 # Misc

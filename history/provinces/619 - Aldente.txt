@@ -10,7 +10,7 @@ b_aldente = castle
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

@@ -7,13 +7,17 @@ title = c_admuat
 max_settlements = 5
 b_admuat = castle
 b_bahariya = city
-b_djosar = temple
-b_mero = city
-b_lahkashaz = temple
+#b_djosar = temple
+#b_mero = city
+#b_lahkashaz = temple
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_djosar = temple
+}

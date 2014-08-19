@@ -7,7 +7,7 @@ title = c_kamt
 max_settlements = 4
 b_kamt = castle
 b_zuwarah = temple
-b_badu = temple
+#b_badu = temple
 #b_kunkat = city
 
 # Misc
@@ -16,3 +16,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_badu = temple
+}

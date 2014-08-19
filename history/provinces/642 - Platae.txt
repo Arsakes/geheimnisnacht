@@ -11,7 +11,7 @@ b_malopo = city
 
 # Misc
 culture = myken
-religion = classical_gods
+religion = myrmidian
 
 
 # History

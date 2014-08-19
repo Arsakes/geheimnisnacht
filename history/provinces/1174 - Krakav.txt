@@ -10,7 +10,7 @@ b_jordekberg = castle
 
 # Misc
 culture = bjornling
-religion = norse
+religion = norscan_gods
 
 
 # History

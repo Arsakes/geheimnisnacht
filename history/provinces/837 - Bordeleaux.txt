@@ -15,7 +15,15 @@ b_cognac = temple
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_la_brandasse = castle
+}
+
+2500.1.1 = {
+	b_champaine = castle
+}

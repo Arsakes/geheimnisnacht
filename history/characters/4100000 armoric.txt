@@ -1,16 +1,16 @@
 4100000={
-name = "Repanse" #Repanse de Lyonesse
-female = yes
-dynasty = 24008
-culture = armoric
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Repanse" #Repanse de Lyonesse
+female=yes
+dynasty=24008
+culture=armoric
+religion=grail
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -20,17 +20,17 @@ add_trait="kind"
 }
 
 4100001={
-name = "Bougars"
-dynasty = 24002
-culture = armoric
-religion = lady_of_the_lake
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Bougars"
+dynasty=24002
+culture=armoric
+religion=grail
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -40,17 +40,17 @@ add_trait="craven"
 }
 
 4100002={
-name = "Hesdren"
-dynasty = 24011
-culture = armoric
-religion = lady_of_the_lake
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Hesdren"
+dynasty=24011
+culture=armoric
+religion=grail
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -60,17 +60,17 @@ add_trait="tall"
 }
 
 4100003={
-name = "Roland"
-dynasty = 24059
-culture = armoric
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Roland"
+dynasty=24059
+culture=armoric
+religion=grail
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -80,17 +80,17 @@ add_trait="wroth"
 }
 
 4100004={
-name = "Vormvini"
-dynasty = 24025
-culture = armoric
-religion = lady_of_the_lake
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Vormvini"
+dynasty=24025
+culture=armoric
+religion=grail
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -100,17 +100,17 @@ add_trait="humble"
 }
 
 4100005={
-name = "Farulin"
-dynasty = 24025
-culture = armoric
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Farulin"
+dynasty=24025
+culture=armoric
+religion=grail
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -120,17 +120,17 @@ add_trait="ill"
 }
 
 4100006={
-name = "Aodred"
-dynasty = 24025
-culture = armoric
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Aodred"
+dynasty=24025
+culture=armoric
+religion=grail
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -139,17 +139,17 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 4100007={
-name = "Edouarzh"
-dynasty = 24029
-culture = armoric
-religion = lady_of_the_lake
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Edouarzh"
+dynasty=24029
+culture=armoric
+religion=grail
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -159,17 +159,17 @@ add_trait="lustful"
 }
 
 4100008={
-name = "Ferragus"
-dynasty = 24019
-culture = armoric
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Ferragus"
+dynasty=24019
+culture=armoric
+religion=grail
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -179,17 +179,17 @@ add_trait="drunkard"
 }
 
 4100009={
-name = "Hrodbert"
-dynasty = 24044
-culture = armoric
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Hrodbert"
+dynasty=24044
+culture=armoric
+religion=grail
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -199,17 +199,17 @@ add_trait="lisp"
 }
 
 4100010={
-name = "Leobas"
-dynasty = 24019
-culture = armoric
-religion = lady_of_the_lake
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Leobas"
+dynasty=24019
+culture=armoric
+religion=grail
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 
 
@@ -219,17 +219,17 @@ add_trait = "underhanded_rogue"
 }
 
 4100011={
-name = "Leri"
-dynasty = 24024
-culture = armoric
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Leri"
+dynasty=24024
+culture=armoric
+religion=grail
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -239,17 +239,17 @@ add_trait="fair"
 }
 
 4100012={
-name = "Pêr"
-dynasty = 24036
-culture = armoric
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Pêr"
+dynasty=24036
+culture=armoric
+religion=grail
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -259,17 +259,17 @@ add_trait="envious"
 }
 
 4100013={
-name = "Gael"
-dynasty = 24023
-culture = armoric
-religion = lady_of_the_lake
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Gael"
+dynasty=24023
+culture=armoric
+religion=grail
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -279,17 +279,17 @@ add_trait="shy"
 }
 
 4100014={
-name = "Anton"
-dynasty = 24057
-culture = armoric
-religion = lady_of_the_lake
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "mastermind_theologian"
+name="Anton"
+dynasty=24057
+culture=armoric
+religion=grail
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -300,18 +300,18 @@ add_trait="strong"
 }
 
 4100015={
-name = "Blanche"
-female = yes
-dynasty = 24058
-culture = armoric
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Blanche"
+female=yes
+dynasty=24058
+culture=armoric
+religion=grail
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -321,17 +321,17 @@ add_trait="cynical"
 }
 
 4100016={
-name = "Gormou"
-dynasty = 24029
-culture = armoric
-religion = lady_of_the_lake
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Gormou"
+dynasty=24029
+culture=armoric
+religion=grail
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -341,17 +341,17 @@ add_trait="honest"
 }
 
 4100017={
-name = "Derrien"
-dynasty = 24022
-culture = armoric
-religion = lady_of_the_lake
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Derrien"
+dynasty=24022
+culture=armoric
+religion=grail
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -361,17 +361,17 @@ add_trait="greedy"
 }
 
 4100018={
-name = "Adalhard"
-dynasty = 24030
-culture = armoric
-religion = lady_of_the_lake
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
+name="Adalhard"
+dynasty=24030
+culture=armoric
+religion=grail
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 
 add_trait="kind"
 
@@ -381,17 +381,17 @@ add_trait="kind"
 }
 
 4100019={
-name = "Drogon"
-dynasty = 24015
-culture = armoric
-religion = lady_of_the_lake
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Drogon"
+dynasty=24015
+culture=armoric
+religion=grail
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"
@@ -401,79 +401,79 @@ add_trait="weak"
 }
 
 4100020={
-name = "Jacen"
-dynasty = 24136
-dna = "ngelfckehii"
-culture = armoric
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 0
-stewardship = 2
-intrigue = 6
-learning = 3
-add_trait = "skilled_tactician"
-add_trait = "duelist"
-add_trait = "honest"
+name="Jacen"
+dynasty=24136
+dna="ngelfckehii"
+culture=armoric
+religion=grail
+martial=5
+diplomacy=0
+stewardship=2
+intrigue=6
+learning=3
+add_trait="skilled_tactician"
+add_trait="duelist"
+add_trait="honest"
 1046.1.1={birth=yes}
 1186.3.9={death=yes}
 }
 
 4100021={
-name = "Baudoin"
-dynasty = 24137
-dna = "ocghmeoagli"
-culture = armoric
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 5
-learning = 2
-add_trait = "tough_soldier"
-add_trait = "mystic"
-add_trait = "wroth"
-add_trait = "trusting"
-add_trait = "content"
+name="Baudoin"
+dynasty=24137
+dna="ocghmeoagli"
+culture=armoric
+religion=grail
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=5
+learning=2
+add_trait="tough_soldier"
+add_trait="mystic"
+add_trait="wroth"
+add_trait="trusting"
+add_trait="content"
 1147.1.1={birth=yes}
-1202.9.13={give_nickname = nick_dragon_slayer}
+1202.9.13={give_nickname=nick_dragon_slayer}
 1241.11.21={death=yes}
 }
 
 4100022={
-name = "Ballaume"
-dynasty = 24138
-dna = "opdlhhmadlg"
-culture = armoric
-religion = lady_of_the_lake
-martial = 3
-diplomacy = 2
-stewardship = 3
-intrigue = 2
-learning = 3
-add_trait = "brilliant_strategist"
-add_trait = "patient"
-add_trait = "zealous"
-add_trait = "shy"
+name="Ballaume"
+dynasty=24138
+dna="opdlhhmadlg"
+culture=armoric
+religion=grail
+martial=3
+diplomacy=2
+stewardship=3
+intrigue=2
+learning=3
+add_trait="brilliant_strategist"
+add_trait="patient"
+add_trait="zealous"
+add_trait="shy"
 1640.1.1={birth=yes}
-1734.12.18={give_nickname = nick_the_brave}
+1734.12.18={give_nickname=nick_the_brave}
 1799.4.12={death=yes}
 }
 
 4100023={
-name = "Godfrey"
-dynasty = 24139
-dna = "dgcofpgjnol"
-culture = armoric
-religion = lady_of_the_lake
-martial = 5
-diplomacy = 6
-stewardship = 8
-intrigue = 6
-learning = 8
-add_trait = "grey_eminence"
-add_trait = "celibate"
-add_trait = "kind"
-add_trait = "zealous"
+name="Godfrey"
+dynasty=24139
+dna="dgcofpgjnol"
+culture=armoric
+religion=grail
+martial=5
+diplomacy=6
+stewardship=8
+intrigue=6
+learning=8
+add_trait="grey_eminence"
+add_trait="celibate"
+add_trait="kind"
+add_trait="zealous"
 1415.1.1={birth=yes}
 1539.12.4={death=yes}
 }

@@ -7,13 +7,18 @@ title = c_brionne
 max_settlements = 5
 b_brionne = castle
 b_encamp = castle
-b_sabiant = castle
+b_sabiant = temple
 #b_cidatelle = temple
 #b_enguerraux = city
+#b_ouessant = temple
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2500.1.1 = {
+	b_cidatelle = temple
+}

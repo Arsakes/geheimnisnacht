@@ -11,7 +11,7 @@ b_lytilvik = city
 #b_cytharai = city
 
 # Misc
-culture = graeling
+culture = bjornling
 religion = chaos
 
 

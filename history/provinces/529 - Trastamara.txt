@@ -1,5 +1,5 @@
 #529 Trastamara
-#County Title
+
 title = c_trastamara
 
 #Settlements
@@ -11,6 +11,10 @@ b_visita = temple
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_fadala = city
+}

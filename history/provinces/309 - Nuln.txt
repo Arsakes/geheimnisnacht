@@ -24,6 +24,10 @@ b_tempel_quarter = temple
 culture = wissenlander
 religion = sigmarite
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_neuestadt = city
+}

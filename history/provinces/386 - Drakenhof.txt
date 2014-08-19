@@ -4,12 +4,13 @@
 title = c_drakenhof
 
 # Settlements
-max_settlements = 5
+max_settlements = 6
 b_castle_drakenhof = castle
 b_drakenhof = city
 b_pfaffbach = temple
 b_senkehof = city
 #b_castle_senkhof = castle
+#b_oberwart = temple
 
 # Misc
 culture = sylvanian
@@ -17,3 +18,7 @@ religion = vampiric
 
 
 # History
+
+2250.1.1 = {
+	b_castle_senkhof = castle
+}

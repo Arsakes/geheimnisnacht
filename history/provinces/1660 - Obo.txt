@@ -11,7 +11,7 @@ b_boyuk = city
 
 # Misc
 culture = aghol
-religion = chaos
+religion = tzeentch
 
 
 # History

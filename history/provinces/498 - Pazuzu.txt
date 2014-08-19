@@ -6,8 +6,8 @@ title = c_pazuzu
 # Settlements
 max_settlements = 4
 b_pazuzubad = castle
-b_grung_azgrabar = castle
-b_darkiron = temple
+#b_grung_azgrabar = castle
+#b_darkiron = temple
 #b_zaltu = city
 
 # Misc
@@ -16,3 +16,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_grung_azgrabar = castle
+}

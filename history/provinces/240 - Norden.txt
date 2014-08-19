@@ -20,3 +20,11 @@ religion = sigmarite
 # History
 
 2462.5.22 = { trade_post = b_von_holzmarkt }
+
+2250.1.1 = {
+	b_ockholm = temple
+}
+
+2500.1.1 = {
+	b_beelen = castle
+}

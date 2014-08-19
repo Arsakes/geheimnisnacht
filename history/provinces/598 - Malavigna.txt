@@ -12,7 +12,7 @@ b_opondone = city
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

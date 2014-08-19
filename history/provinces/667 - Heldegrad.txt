@@ -7,12 +7,12 @@ title = c_heldegrad
 max_settlements = 4
 b_heldegrad = castle
 b_drona = temple
-b_neryaslavl = castle
+#b_neryaslavl = castle
 #b_chernimets = city
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History

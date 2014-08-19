@@ -10,8 +10,12 @@ b_durakil = temple
 #b_durakal = city
 
 # Misc
-culture = graeling
-religion = dark_norse
+culture = bjornling
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_durakal = city
+}

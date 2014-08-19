@@ -1,0 +1,19 @@
+# 1654 Terkmet
+
+# County Title
+title = c_terkmet
+
+# Settlements
+max_settlements = 5
+b_terkmet = castle
+b_ulthur = temple
+#b_gurunar = castle
+#b_archonar = castle
+#b_qaluud = castle
+
+# Misc
+culture = mung
+religion = chaos
+
+
+# History

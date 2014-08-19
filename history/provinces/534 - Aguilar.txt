@@ -1,6 +1,5 @@
 # 534 Aguilar
 
-#County Title
 title = c_aguilar
 
 #Settlements
@@ -12,6 +11,10 @@ b_ados = city
 
 #Misc
 culture = obregonese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_san_jorge = city
+}

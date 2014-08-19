@@ -6,7 +6,7 @@ title = c_mordheim
 # Settlements
 max_settlements = 6
 b_old_mordheim = castle
-#b_odstir = temple
+b_odstir = temple
 #b_totstir = castle
 #b_barrichmere = city
 #b_golsen = city
@@ -20,3 +20,7 @@ religion = vampiric
 # History
 
 2155.1.1 = { religion = sigmarite }
+
+2500.1.1 = {
+	b_totstir = castle
+}

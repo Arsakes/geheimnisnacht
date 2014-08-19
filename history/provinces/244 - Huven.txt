@@ -6,7 +6,7 @@ title = c_huven
 # Settlements
 max_settlements = 3
 b_krausnick = castle
-b_bokenhof = city
+#b_bokenhof = city
 #b_huven = city
 
 # Misc
@@ -15,3 +15,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_bokenhof = city
+}

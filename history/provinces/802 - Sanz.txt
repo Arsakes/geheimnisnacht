@@ -7,12 +7,12 @@ title = c_sanz
 max_settlements = 4
 b_sanz = castle
 b_melis = city
-b_ferragus = temple
+#b_ferragus = temple
 #b_savuile = city
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

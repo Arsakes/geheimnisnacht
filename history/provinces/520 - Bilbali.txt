@@ -1,5 +1,5 @@
 #520 Bilbali
-#County Title
+
 title = c_bilbali
 
 #Settlements
@@ -8,14 +8,22 @@ b_bilbali = castle
 b_santiago = temple
 b_sahagun = castle
 b_san_juan = city
-b_carodi = city
-b_morro = castle
+#b_carodi = city
+#b_morro = castle
 #b_mirazza = city
 
 #Misc
 culture = tigarrese
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 #History
+
+2250.1.1 = {
+	b_carodi = city
+}
+
+2500.1.1 = {
+	b_morro = castle
+}

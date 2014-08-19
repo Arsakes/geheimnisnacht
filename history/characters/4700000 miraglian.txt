@@ -1,15 +1,15 @@
 4700000={
-name = "Fabio"
-dynasty = 42000
-culture = miraglian
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Fabio"
+dynasty=42000
+culture=miraglian
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 4700001={
-name = "Ilario"
-dynasty = 42001
-culture = miraglian
-religion = classical_gods
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Ilario"
+dynasty=42001
+culture=miraglian
+religion=myrmidian
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 4700002={
-name = "Orazio"
-dynasty = 42003
-culture = miraglian
-religion = classical_gods
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Orazio"
+dynasty=42003
+culture=miraglian
+religion=myrmidian
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 4700003={
-name = "Delmo"
-dynasty = 42004
-culture = miraglian
-religion = classical_gods
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Delmo"
+dynasty=42004
+culture=miraglian
+religion=myrmidian
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,17 @@ add_trait="wroth"
 }
 
 4700004={
-name = "Santo"
-dynasty = 42005
-culture = miraglian
-religion = classical_gods
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Santo"
+dynasty=42005
+culture=miraglian
+religion=myrmidian
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,18 +99,18 @@ add_trait="humble"
 }
 
 4700005={
-name = "Daria"
-female = yes
-dynasty = 42006
-culture = miraglian
-religion = classical_gods
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Daria"
+female=yes
+dynasty=42006
+culture=miraglian
+religion=myrmidian
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -120,18 +120,18 @@ add_trait="ill"
 }
 
 4700006={
-name = "Elisabetta"
-female = yes
-dynasty = 42007
-culture = miraglian
-religion = classical_gods
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Elisabetta"
+female=yes
+dynasty=42007
+culture=miraglian
+religion=myrmidian
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -140,18 +140,18 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 4700007={
-name = "Lia"
-female = yes
-dynasty = 42008
-culture = miraglian
-religion = classical_gods
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Lia"
+female=yes
+dynasty=42008
+culture=miraglian
+religion=myrmidian
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -161,18 +161,18 @@ add_trait="lustful"
 }
 
 4700008={
-name = "Rina"
-female = yes
-dynasty = 42009
-culture = miraglian
-religion = classical_gods
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Rina"
+female=yes
+dynasty=42009
+culture=miraglian
+religion=myrmidian
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -182,17 +182,17 @@ add_trait="drunkard"
 }
 
 4700009={
-name = "Tullio"
-dynasty = 42010
-culture = miraglian
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Tullio"
+dynasty=42010
+culture=miraglian
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -202,33 +202,33 @@ add_trait="lisp"
 }
 
 4700010={
-name = "Renato"
-dynasty = 42011
-culture = miraglian
-religion = classical_gods
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Renato"
+dynasty=42011
+culture=miraglian
+religion=myrmidian
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 4700011={
-name = "Delfino"
-dynasty = 42012
-culture = miraglian
-religion = classical_gods
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Delfino"
+dynasty=42012
+culture=miraglian
+religion=myrmidian
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -238,17 +238,17 @@ add_trait="fair"
 }
 
 4700012={
-name = "Riccardo"
-dynasty = 42013
-culture = miraglian
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Riccardo"
+dynasty=42013
+culture=miraglian
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -258,17 +258,17 @@ add_trait="envious"
 }
 
 4700013={
-name = "Marcello"
-dynasty = 42014
-culture = miraglian
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Marcello"
+dynasty=42014
+culture=miraglian
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -278,17 +278,17 @@ add_trait="shy"
 }
 
 4700014={
-name = "Leone"
-dynasty = 42015
-culture = miraglian
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Leone"
+dynasty=42015
+culture=miraglian
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -298,17 +298,17 @@ add_trait="strong"
 }
 
 4700015={
-name = "Mattia"
-dynasty = 42016
-culture = miraglian
-religion = classical_gods
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Mattia"
+dynasty=42016
+culture=miraglian
+religion=myrmidian
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -318,17 +318,17 @@ add_trait="cynical"
 }
 
 4700016={
-name = "Publio"
-dynasty = 42017
-culture = miraglian
-religion = classical_gods
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Publio"
+dynasty=42017
+culture=miraglian
+religion=myrmidian
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -338,17 +338,17 @@ add_trait="honest"
 }
 
 4700017={
-name = "Giacomo"
-dynasty = 42018
-culture = miraglian
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Giacomo"
+dynasty=42018
+culture=miraglian
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -358,38 +358,34 @@ add_trait="greedy"
 }
 
 4700018={
-name = "Lorenzo"
-dynasty = 42019
-culture = miraglian
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
-
-add_trait = "midas_touched"
-
+name="Lorenzo"
+dynasty=42019
+culture=miraglian
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
+add_trait="midas_touched"
 add_trait="kind"
-
-
 1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 
 4700019={
-name = "Alice"
-female = yes
-dynasty = 42020
-culture = miraglian
-religion = classical_gods
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Alice"
+female=yes
+dynasty=42020
+culture=miraglian
+religion=myrmidian
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"
@@ -400,77 +396,113 @@ add_trait="weak"
 
 
 4700020={
-name = "Borgio"
-dynasty = 42170
-dna = "ajepggpfgdh"
-culture = miraglian
-religion = classical_gods
-martial = 4
-diplomacy = 6
-stewardship = 5
-intrigue = 5
-learning = 2
-add_trait = "brilliant_strategist"
-add_trait = "strong"
-add_trait = "genius"
-add_trait = "diligent"
+name="Borgio"
+dynasty=42170
+dna="ajepggpfgdh"
+culture=miraglian
+religion=myrmidian
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=5
+learning=2
+add_trait="brilliant_strategist"
+add_trait="strong"
+add_trait="genius"
+add_trait="diligent"
 2455.11.1={birth=yes}
-2485.1.1={give_nickname = nick_the_besieger}
-2499.5.10 = {add_spouse=4800023}
+2485.1.1={give_nickname=nick_the_besieger}
+2499.5.10={add_spouse=4800023}
 2503.4.15={death=yes}
 }
 
 4700021={
-name = "Lorenzo"
-dynasty = 42171
-dna = "imdmbllojae"
-culture = miraglian
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 3
-intrigue = 6
-learning = 6
-add_trait = "misguided_warrior"
-add_trait = "gardener"
-add_trait = "zealous"
-add_trait = "slothful"
+name="Lorenzo"
+dynasty=42171
+dna="imdmbllojae"
+culture=miraglian
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=3
+intrigue=6
+learning=6
+add_trait="misguided_warrior"
+add_trait="gardener"
+add_trait="zealous"
+add_trait="slothful"
 2476.11.1={birth=yes}
 2522.5.25={death=yes}
 }
 
 4700022={
-name = "Giuliano"
-dynasty = 42171
-dna = "kbjohdkekdk"
-culture = miraglian
-religion = classical_gods
-martial = 8
-diplomacy = 7
-stewardship = 7
-intrigue = 2
-learning = 3
-father = 4700021
-add_trait = "underhanded_rogue"
-add_trait = "kind"
+name="Giuliano"
+dynasty=42171
+dna="kbjohdkekdk"
+culture=miraglian
+religion=myrmidian
+martial=8
+diplomacy=7
+stewardship=7
+intrigue=2
+learning=3
+father=4700021
+add_trait="underhanded_rogue"
+add_trait="kind"
 2495.11.1={birth=yes}
 2522.3.2={death=yes}
 }
 
 4700023={
-name = "Santo"
-dynasty = 42128
-dna = "icoiciabbgh"
-culture = miraglian
-religion = classical_gods
-martial = 3
-diplomacy = 5
-stewardship = 7
-intrigue = 4
-learning = 5
-add_trait = "detached_priest"
-add_trait = "paranoid"
+name="Santo"
+dynasty=42128
+dna="icoiciabbgh"
+culture=miraglian
+religion=myrmidian
+martial=3
+diplomacy=5
+stewardship=7
+intrigue=4
+learning=5
+add_trait="detached_priest"
+add_trait="paranoid"
 2508.1.1={birth=yes}
 2558.7.27={death=yes}
 }
 
+4700024={
+name="Franca"
+female=yes
+dynasty=42174
+culture=miraglian
+religion=myrmidian
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=1
+add_trait="poet"
+add_trait="misguided_warrior"
+add_trait="kind"
+2433.10.12={birth=yes}
+2452.4.22={add_spouse=500195}
+2499.5.20={death=yes}
+}
+
+4700025={
+name="Mario"
+dynasty=42025
+culture=miraglian
+religion=myrmidian
+martial=5
+diplomacy=2
+stewardship=3
+intrigue=3
+learning=1
+add_trait="skilled_tactician"
+add_trait="kind"
+add_trait="paranoid"
+1972.4.1={birth=yes}
+2010.1.1={employer=950000} #Wissenland
+2025.7.25={death=yes}
+}

@@ -1,5 +1,5 @@
 #509 Mendoza
-#County Title
+
 title = c_mendoza
 
 #Settlements
@@ -11,6 +11,10 @@ b_san_stefano = city
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_talabro = city
+}

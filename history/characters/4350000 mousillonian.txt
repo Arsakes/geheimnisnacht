@@ -1,39 +1,39 @@
 4350000={
-name = "Maldred"
-dynasty = 29500
-dna = "fbjmmibhhah"
-culture = mousillonian
-religion = lady_of_the_lake
-martial = 4
-diplomacy = 8
-stewardship = 6
-intrigue = 1
-learning = 5
-add_trait = "intricate_webweaver"
-add_trait = "ambitious"
-add_trait = "wroth"
-add_trait = "diligent"
+name="Maldred"
+dynasty=29500
+dna="fbjmmibhhah"
+culture=mousillonian
+religion=grail
+martial=4
+diplomacy=8
+stewardship=6
+intrigue=1
+learning=5
+add_trait="intricate_webweaver"
+add_trait="ambitious"
+add_trait="wroth"
+add_trait="diligent"
 2237.1.1={birth=yes}
 2298.11.12={death=yes}
 }
 
 4350001={
-name = "Merovech"
-dynasty = 29501
-dna = "glmglmogddb"
-culture = mousillonian
-religion = lady_of_the_lake
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 5
-learning = 4
-add_trait = "grey_eminence"
-add_trait = "cynical"
-add_trait = "wroth"
-add_trait = "lunatic"
-add_trait = "impaler"
-add_trait = "cruel"
+name="Merovech"
+dynasty=29501
+dna="glmglmogddb"
+culture=mousillonian
+religion=grail
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=5
+learning=4
+add_trait="grey_eminence"
+add_trait="cynical"
+add_trait="wroth"
+add_trait="lunatic"
+add_trait="impaler"
+add_trait="cruel"
 1772.1.1={birth=yes}
 1817.8.19={death=yes}
 }

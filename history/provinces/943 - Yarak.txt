@@ -1,0 +1,16 @@
+# 943 Yarak
+
+# County Title
+title = c_yarak
+
+# Settlements
+max_settlements = 2
+b_yarak = castle
+#b_sussorm = castle
+
+# Misc
+culture = tokmar
+religion = chaos
+
+
+# History

@@ -13,7 +13,11 @@ b_etid_castle = castle
 
 # Misc
 culture = sarl
-religion = norse
+religion = tzeentch
 
 
 # History
+
+2250.1.1 = {
+	b_yornsberg = castle
+}

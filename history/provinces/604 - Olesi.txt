@@ -6,12 +6,17 @@ title = c_olesi
 # Settlements
 max_settlements = 3
 b_olesi = castle
-b_togroda = city
+#b_togroda = city
 #b_alibana = temple
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_togroda = city
+}
+

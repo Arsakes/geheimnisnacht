@@ -11,8 +11,12 @@ b_jurgen_dys = castle
 #b_yrlvin = city
 
 # Misc
-culture = varg
-religion = dark_norse
+culture = graeling
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_yurtib = temple
+}

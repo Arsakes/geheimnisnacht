@@ -1,0 +1,17 @@
+# 950 Mokhsogollokh
+
+# County Title
+title = c_mokhsogollokh
+
+# Settlements
+max_settlements = 3
+b_mokhsogollokh = castle
+b_parakhas = temple
+#b_zuramaskar = castle
+
+# Misc
+culture = hastling
+religion = chaos
+
+
+# History

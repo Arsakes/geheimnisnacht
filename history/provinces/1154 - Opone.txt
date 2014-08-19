@@ -6,12 +6,16 @@ title = c_opone
 # Settlements
 max_settlements = 3
 b_atho = castle
-b_rhaphis = city
-b_carnos = temple
+#b_rhaphis = city
+#b_carnos = temple
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_rhaphis = city
+}

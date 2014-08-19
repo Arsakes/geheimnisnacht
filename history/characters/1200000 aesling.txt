@@ -1,15 +1,15 @@
 1200000={
-name = "Thórðr"
-dynasty = 54001
-culture = aesling
-religion = dark_norse
-martial = 0
-diplomacy = 7
-stewardship = 3
-intrigue = 5
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Thórðr"
+dynasty=54001
+culture=aesling
+religion=norscan_gods
+martial=0
+diplomacy=7
+stewardship=3
+intrigue=5
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 1200001={
-name = "Olafr"
-dynasty = 54002
-culture = aesling
-religion = dark_norse
-martial = 1
-diplomacy = 7
-stewardship = 6
-intrigue = 8
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Olafr"
+dynasty=54002
+culture=aesling
+religion=norscan_gods
+martial=1
+diplomacy=7
+stewardship=6
+intrigue=8
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 add_trait="craven"
 
 add_trait="greedy"
@@ -39,34 +39,34 @@ add_trait="greedy"
 }
 
 1200002={
-name = "Sigurðr"
-dynasty = 54003
-culture = aesling
-religion = dark_norse
-martial = 1
-diplomacy = 8
-stewardship = 0
-intrigue = 4
-learning = 9
-add_trait = "duelist"
-add_trait = "brilliant_strategist"
+name="Sigurðr"
+dynasty=54003
+culture=aesling
+religion=norscan_gods
+martial=1
+diplomacy=8
+stewardship=0
+intrigue=4
+learning=9
+add_trait="duelist"
+add_trait="brilliant_strategist"
 add_trait="weak"
 1949.8.30={birth=yes}
 2039.4.28={death=yes}
 }
 
 1200003={
-name = "Thióðarr"
-dynasty = 54004
-culture = aesling
-religion = dark_norse
-martial = 6
-diplomacy = 7
-stewardship = 11
-intrigue = 6
-learning = 4
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Thióðarr"
+dynasty=54004
+culture=aesling
+religion=norscan_gods
+martial=6
+diplomacy=7
+stewardship=11
+intrigue=6
+learning=4
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="tall"
 
 add_trait="wroth"
@@ -76,18 +76,18 @@ add_trait="wroth"
 }
 
 1200004={
-name = "Geirhildr"
-female = yes
-dynasty = 54005
-culture = aesling
-religion = dark_norse
-martial = 3
-diplomacy = 2
-stewardship = 10
-intrigue = 8
-learning = 1
-add_trait = "hedonist"
-add_trait = "mastermind_theologian"
+name="Geirhildr"
+female=yes
+dynasty=54005
+culture=aesling
+religion=norscan_gods
+martial=3
+diplomacy=2
+stewardship=10
+intrigue=8
+learning=1
+add_trait="hedonist"
+add_trait="mastermind_theologian"
 add_trait="chaste"
 add_trait="humble"
 add_trait="content"
@@ -97,17 +97,17 @@ add_trait="content"
 }
 
 1200005={
-name = "Finnbogi"
-dynasty = 54006
-culture = aesling
-religion = khorne
-martial = 5
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 0
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
+name="Finnbogi"
+dynasty=54006
+culture=aesling
+religion=khorne
+martial=5
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=0
+add_trait="impaler"
+add_trait="flamboyant_schemer"
 add_trait="cruel"
 add_trait="ill"
 add_trait="trusting"
@@ -117,18 +117,18 @@ add_trait="trusting"
 }
 
 1200006={
-name = "Eydís"
-female = yes
-dynasty = 54008
-culture = aesling
-religion = khorne
-martial = 9
-diplomacy = 6
-stewardship = 4
-intrigue = 7
-learning = 2
+name="Eydís"
+female=yes
+dynasty=54008
+culture=aesling
+religion=khorne
+martial=9
+diplomacy=6
+stewardship=4
+intrigue=7
+learning=2
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 
 
 
@@ -138,17 +138,17 @@ add_trait = "midas_touched"
 }
 
 1200007={
-name = "Grímólfr"
-dynasty = 54009
-culture = aesling
-religion = dark_norse
-martial = 8
-diplomacy = 2
-stewardship = 5
-intrigue = 5
-learning = 3
-add_trait = "hedonist"
-add_trait = "flamboyant_schemer"
+name="Grímólfr"
+dynasty=54009
+culture=aesling
+religion=norscan_gods
+martial=8
+diplomacy=2
+stewardship=5
+intrigue=5
+learning=3
+add_trait="hedonist"
+add_trait="flamboyant_schemer"
 add_trait="drunkard"
 add_trait="temperate"
 
@@ -158,17 +158,17 @@ add_trait="temperate"
 }
 
 1200008={
-name = "Skamkell"
-dynasty = 54010
-culture = aesling
-religion = khorne
-martial = 10
-diplomacy = 8
-stewardship = 10
-intrigue = 8
-learning = 0
-add_trait = "gardener"
-add_trait = "martial_cleric"
+name="Skamkell"
+dynasty=54010
+culture=aesling
+religion=khorne
+martial=10
+diplomacy=8
+stewardship=10
+intrigue=8
+learning=0
+add_trait="gardener"
+add_trait="martial_cleric"
 
 add_trait="homosexual"
 add_trait="legit_bastard"
@@ -178,17 +178,17 @@ add_trait="legit_bastard"
 }
 
 1200009={
-name = "Kiallakr"
-dynasty = 54011
-culture = aesling
-religion = khorne
-martial = 8
-diplomacy = 10
-stewardship = 5
-intrigue = 4
-learning = 4
-add_trait = "poet"
-add_trait = "flamboyant_schemer"
+name="Kiallakr"
+dynasty=54011
+culture=aesling
+religion=khorne
+martial=8
+diplomacy=10
+stewardship=5
+intrigue=4
+learning=4
+add_trait="poet"
+add_trait="flamboyant_schemer"
 add_trait="lustful"
 
 add_trait="lisp"
@@ -198,17 +198,17 @@ add_trait="lisp"
 }
 
 1200010={
-name = "Játvarðr"
-dynasty = 54012
-culture = aesling
-religion = dark_norse
-martial = 9
-diplomacy = 9
-stewardship = 9
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "midas_touched"
+name="Játvarðr"
+dynasty=54012
+culture=aesling
+religion=norscan_gods
+martial=9
+diplomacy=9
+stewardship=9
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="midas_touched"
 
 
 
@@ -218,35 +218,35 @@ add_trait = "midas_touched"
 }
 
 1200011={
-name = "Þorfinn"
-dynasty = 54014
-culture = aesling
-religion = dark_norse
-martial = 1
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 9
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Þorfinn"
+dynasty=54014
+culture=aesling
+religion=norscan_gods
+martial=1
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=9
+add_trait="poet"
+add_trait="mastermind_theologian"
 
-1979.4.23={birth="1979.4.23"}
+1979.4.23={birth=yes}
 2045.2.3={death=yes}
 }
 
 1200012={
-name = "Melkorka"
-female = yes
-dynasty = 54015
-culture = aesling
-religion = khorne
-martial = 9
-diplomacy = 4
-stewardship = 4
-intrigue = 7
-learning = 7
-add_trait = "falconer"
-add_trait = "martial_cleric"
+name="Melkorka"
+female=yes
+dynasty=54015
+culture=aesling
+religion=khorne
+martial=9
+diplomacy=4
+stewardship=4
+intrigue=7
+learning=7
+add_trait="falconer"
+add_trait="martial_cleric"
 add_trait="strong"
 add_trait="diligent"
 add_trait="envious"
@@ -256,17 +256,17 @@ add_trait="envious"
 }
 
 1200013={
-name = "Valþiólfr"
-dynasty = 54016
-culture = aesling
-religion = khorne
-martial = 1
-diplomacy = 8
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "gardener"
-add_trait = "indulgent_wastrel"
+name="Valþiólfr"
+dynasty=54016
+culture=aesling
+religion=khorne
+martial=1
+diplomacy=8
+stewardship=2
+intrigue=5
+learning=0
+add_trait="gardener"
+add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -276,37 +276,37 @@ add_trait="shy"
 }
 
 1200014={
-name = "Thorkell"
-dynasty = 54018
-culture = aesling
-religion = dark_norse
-martial = 5
-diplomacy = 0
-stewardship = 0
-intrigue = 9
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Thorkell"
+dynasty=54018
+culture=aesling
+religion=norscan_gods
+martial=5
+diplomacy=0
+stewardship=0
+intrigue=9
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="fair"
 add_trait="proud"
 add_trait="just"
 
-1969.1.24={birth="1969.1.24"}
+1969.1.24={birth=yes}
 2022.11.6={death=yes}
 }
 
 1200015={
-name = "Egill"
-dynasty = 54019
-culture = aesling
-religion = khorne
-martial = 8
-diplomacy = 0
-stewardship = 9
-intrigue = 1
-learning = 0
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Egill"
+dynasty=54019
+culture=aesling
+religion=khorne
+martial=8
+diplomacy=0
+stewardship=9
+intrigue=1
+learning=0
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="arbitrary"
 add_trait="paranoid"
@@ -316,17 +316,17 @@ add_trait="paranoid"
 }
 
 1200016={
-name = "Finngeirr"
-dynasty = 54020
-culture = aesling
-religion = dark_norse
-martial = 9
-diplomacy = 0
-stewardship = 2
-intrigue = 4
-learning = 9
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Finngeirr"
+dynasty=54020
+culture=aesling
+religion=norscan_gods
+martial=9
+diplomacy=0
+stewardship=2
+intrigue=4
+learning=9
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="gregarious"
 add_trait="cynical"
 add_trait="honest"
@@ -336,17 +336,17 @@ add_trait="honest"
 }
 
 1200017={
-name = "Thórarinn"
-dynasty = 54021
-culture = aesling
-religion = khorne
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "hedonist"
-add_trait = "thrifty_clerk"
+name="Thórarinn"
+dynasty=54021
+culture=aesling
+religion=khorne
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=5
+learning=5
+add_trait="hedonist"
+add_trait="thrifty_clerk"
 add_trait="craven"
 
 add_trait="kind"
@@ -356,17 +356,17 @@ add_trait="kind"
 }
 
 1200018={
-name = "Biarnheðinn"
-dynasty = 54022
-culture = aesling
-religion = khorne
-martial = 5
-diplomacy = 6
-stewardship = 3
-intrigue = 9
-learning = 5
-add_trait = "gardener"
-add_trait = "charismatic_negotiator"
+name="Biarnheðinn"
+dynasty=54022
+culture=aesling
+religion=khorne
+martial=5
+diplomacy=6
+stewardship=3
+intrigue=9
+learning=5
+add_trait="gardener"
+add_trait="charismatic_negotiator"
 add_trait="zealous"
 
 add_trait="greedy"
@@ -376,18 +376,18 @@ add_trait="greedy"
 }
 
 1200019={
-name = "Thórarna"
-female = yes
-dynasty = 54023
-culture = aesling
-religion = khorne
-martial = 10
-diplomacy = 7
-stewardship = 0
-intrigue = 0
-learning = 8
-add_trait = "gardener"
-add_trait = "charismatic_negotiator"
+name="Thórarna"
+female=yes
+dynasty=54023
+culture=aesling
+religion=khorne
+martial=10
+diplomacy=7
+stewardship=0
+intrigue=0
+learning=8
+add_trait="gardener"
+add_trait="charismatic_negotiator"
 
 add_trait="weak"
 
@@ -397,17 +397,17 @@ add_trait="weak"
 }
 
 1200020={
-name = "Vestmaðr"
-dynasty = 54024
-culture = aesling
-religion = khorne
-martial = 6
-diplomacy = 8
-stewardship = 10
-intrigue = 1
-learning = 1
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Vestmaðr"
+dynasty=54024
+culture=aesling
+religion=khorne
+martial=6
+diplomacy=8
+stewardship=10
+intrigue=1
+learning=1
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="tall"
 add_trait="temperate"
 add_trait="chaste"

@@ -12,7 +12,7 @@ b_santo_allesandro = temple
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

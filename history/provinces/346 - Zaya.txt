@@ -6,7 +6,7 @@ title = c_zaya
 # Settlements
 max_settlements = 3
 b_flensburg = castle
-b_lochen = temple
+#b_lochen = temple
 #b_mellrichstadt = temple
 
 # Misc
@@ -15,3 +15,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_lochen = temple
+}

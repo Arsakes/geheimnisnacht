@@ -1,15 +1,15 @@
 1600000={
-name = "Aatos"
-dynasty = 32000
-culture = ungol
-religion = northern_gods
-martial = 0
-diplomacy = 7
-stewardship = 1
-intrigue = 9
-learning = 7
-add_trait = "scholar"
-add_trait = "grey_eminence"
+name="Aatos"
+dynasty=32000
+culture=ungol
+religion=northern_gods
+martial=0
+diplomacy=7
+stewardship=1
+intrigue=9
+learning=7
+add_trait="scholar"
+add_trait="grey_eminence"
 add_trait="gregarious"
 add_trait="honest"
 add_trait="craven"
@@ -18,17 +18,17 @@ add_trait="craven"
 }
 
 1600001={
-name = "Iiro"
-dynasty = 32001
-culture = ungol
-religion = northern_gods
-martial = 1
-diplomacy = 7
-stewardship = 5
-intrigue = 1
-learning = 6
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Iiro"
+dynasty=32001
+culture=ungol
+religion=northern_gods
+martial=1
+diplomacy=7
+stewardship=5
+intrigue=1
+learning=6
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="kind"
 add_trait="greedy"
 1995.12.13={birth=yes}
@@ -36,17 +36,17 @@ add_trait="greedy"
 }
 
 1600002={
-name = "Kai"
-dynasty = 32002
-culture = ungol
-religion = northern_gods
-martial = 8
-diplomacy = 8
-stewardship = 4
-intrigue = 7
-learning = 9
-add_trait = "hunter"
-add_trait = "charismatic_negotiator"
+name="Kai"
+dynasty=32002
+culture=ungol
+religion=northern_gods
+martial=8
+diplomacy=8
+stewardship=4
+intrigue=7
+learning=9
+add_trait="hunter"
+add_trait="charismatic_negotiator"
 
 
 add_trait="tall"
@@ -56,17 +56,17 @@ add_trait="tall"
 }
 
 1600003={
-name = "Zakir"
-dynasty = 32004
-culture = ungol
-religion = northern_gods
-martial = 9
-diplomacy = 5
-stewardship = 8
-intrigue = 6
-learning = 6
-add_trait = "duelist"
-add_trait = "elusive_shadow"
+name="Zakir"
+dynasty=32004
+culture=ungol
+religion=northern_gods
+martial=9
+diplomacy=5
+stewardship=8
+intrigue=6
+learning=6
+add_trait="duelist"
+add_trait="elusive_shadow"
 add_trait="cruel"
 add_trait="wroth"
 add_trait="weak"
@@ -75,17 +75,17 @@ add_trait="weak"
 }
 
 1600004={
-name = "Yurin"
-dynasty = 32005
-culture = ungol
-religion = northern_gods
-martial = 1
-diplomacy = 6
-stewardship = 0
-intrigue = 1
-learning = 7
-add_trait = "scholar"
-add_trait = "elusive_shadow"
+name="Yurin"
+dynasty=32005
+culture=ungol
+religion=northern_gods
+martial=1
+diplomacy=6
+stewardship=0
+intrigue=1
+learning=7
+add_trait="scholar"
+add_trait="elusive_shadow"
 add_trait="temperate"
 add_trait="content"
 1993.11.15={birth=yes}
@@ -93,18 +93,18 @@ add_trait="content"
 }
 
 1600005={
-name = "Ortjo"
-female = yes
-dynasty = 32008
-culture = ungol
-religion = northern_gods
-martial = 2
-diplomacy = 8
-stewardship = 2
-intrigue = 3
-learning = 9
-add_trait = "hunter"
-add_trait = "amateurish_plotter"
+name="Ortjo"
+female=yes
+dynasty=32008
+culture=ungol
+religion=northern_gods
+martial=2
+diplomacy=8
+stewardship=2
+intrigue=3
+learning=9
+add_trait="hunter"
+add_trait="amateurish_plotter"
 add_trait="chaste"
 add_trait="ill"
 1964.1.16={birth=yes}
@@ -112,35 +112,35 @@ add_trait="ill"
 }
 
 1600006={
-name = "Mirona"
-female = yes
-dynasty = 32006
-culture = ungol
-religion = northern_gods
-martial = 5
-diplomacy = 0
-stewardship = 11
-intrigue = 8
-learning = 9
-add_trait = "falconer"
-add_trait = "tough_soldier"
+name="Mirona"
+female=yes
+dynasty=32006
+culture=ungol
+religion=northern_gods
+martial=5
+diplomacy=0
+stewardship=11
+intrigue=8
+learning=9
+add_trait="falconer"
+add_trait="tough_soldier"
 2008.7.30={birth=yes}
 2033.6.9={death=yes}
 }
 
 1600007={
-name = "Siina"
-female = yes
-dynasty = 32009
-culture = ungol
-religion = northern_gods
-martial = 8
-diplomacy = 8
-stewardship = 11
-intrigue = 8
-learning = 9
-add_trait = "hedonist"
-add_trait = "amateurish_plotter"
+name="Siina"
+female=yes
+dynasty=32009
+culture=ungol
+religion=northern_gods
+martial=8
+diplomacy=8
+stewardship=11
+intrigue=8
+learning=9
+add_trait="hedonist"
+add_trait="amateurish_plotter"
 add_trait="drunkard"
 add_trait="humble"
 1998.11.22={birth=yes}
@@ -148,18 +148,18 @@ add_trait="humble"
 }
 
 1600008={
-name = "Laine"
-female = yes
-dynasty = 32010
-culture = ungol
-religion = northern_gods
-martial = 8
-diplomacy = 6
-stewardship = 10
-intrigue = 6
-learning = 7
-add_trait = "mystic"
-add_trait = "thrifty_clerk"
+name="Laine"
+female=yes
+dynasty=32010
+culture=ungol
+religion=northern_gods
+martial=8
+diplomacy=6
+stewardship=10
+intrigue=6
+learning=7
+add_trait="mystic"
+add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 add_trait="homosexual"
 add_trait="trusting"
@@ -169,51 +169,51 @@ add_trait="trusting"
 }
 
 1600009={
-name = "Vala"
-dynasty = 32011
-culture = ungol
-religion = northern_gods
-martial = 9
-diplomacy = 2
-stewardship = 3
-intrigue = 6
-learning = 6
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Vala"
+dynasty=32011
+culture=ungol
+religion=northern_gods
+martial=9
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=6
+add_trait="duelist"
+add_trait="grey_eminence"
 add_trait="lustful"
 1984.3.11={birth=yes}
 2033.8.23={death=yes}
 }
 
 1600010={
-name = "Kostja"
-female = yes
-dynasty = 32012
-culture = ungol
-religion = northern_gods
-martial = 1
-diplomacy = 8
-stewardship = 2
-intrigue = 7
-learning = 4
-add_trait = "impaler"
-add_trait = "mastermind_theologian"
+name="Kostja"
+female=yes
+dynasty=32012
+culture=ungol
+religion=northern_gods
+martial=1
+diplomacy=8
+stewardship=2
+intrigue=7
+learning=4
+add_trait="impaler"
+add_trait="mastermind_theologian"
 1994.9.17={birth=yes}
 2057.2.6={death=yes}
 }
 
 1600011={
-name = "Lari"
-dynasty = 32014
-culture = ungol
-religion = northern_gods
-martial = 8
-diplomacy = 1
-stewardship = 10
-intrigue = 7
-learning = 2
-add_trait = "gardener"
-add_trait = "detached_priest"
+name="Lari"
+dynasty=32014
+culture=ungol
+religion=northern_gods
+martial=8
+diplomacy=1
+stewardship=10
+intrigue=7
+learning=2
+add_trait="gardener"
+add_trait="detached_priest"
 add_trait="strong"
 
 1989.4.16={birth=yes}
@@ -221,17 +221,17 @@ add_trait="strong"
 }
 
 1600012={
-name = "Matvei"
-dynasty = 32013
-culture = ungol
-religion = northern_gods
-martial = 5
-diplomacy = 9
-stewardship = 5
-intrigue = 7
-learning = 6
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Matvei"
+dynasty=32013
+culture=ungol
+religion=northern_gods
+martial=5
+diplomacy=9
+stewardship=5
+intrigue=7
+learning=6
+add_trait="duelist"
+add_trait="grey_eminence"
 add_trait="fair"
 add_trait="diligent"
 add_trait="proud"
@@ -241,17 +241,17 @@ add_trait="proud"
 }
 
 1600013={
-name = "Warvara"
-dynasty = 32015
-culture = ungol
-religion = northern_gods
-martial = 2
-diplomacy = 0
-stewardship = 8
-intrigue = 1
-learning = 1
-add_trait = "falconer"
-add_trait = "flamboyant_schemer"
+name="Warvara"
+dynasty=32015
+culture=ungol
+religion=northern_gods
+martial=2
+diplomacy=0
+stewardship=8
+intrigue=1
+learning=1
+add_trait="falconer"
+add_trait="flamboyant_schemer"
 add_trait="envious"
 add_trait="patient"
 add_trait="slothful"
@@ -261,17 +261,17 @@ add_trait="slothful"
 }
 
 1600014={
-name = "Riku"
-dynasty = 32017
-culture = ungol
-religion = northern_gods
-martial = 4
-diplomacy = 6
-stewardship = 3
-intrigue = 3
-learning = 7
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Riku"
+dynasty=32017
+culture=ungol
+religion=northern_gods
+martial=4
+diplomacy=6
+stewardship=3
+intrigue=3
+learning=7
+add_trait="poet"
+add_trait="elusive_shadow"
 
 add_trait="arbitrary"
 add_trait="just"
@@ -281,18 +281,18 @@ add_trait="just"
 }
 
 1600015={
-name = "Piri"
-female = yes
-dynasty = 32018
-culture = ungol
-religion = northern_gods
-martial = 8
-diplomacy = 7
-stewardship = 7
-intrigue = 7
-learning = 10
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Piri"
+female=yes
+dynasty=32018
+culture=ungol
+religion=northern_gods
+martial=8
+diplomacy=7
+stewardship=7
+intrigue=7
+learning=10
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="shy"
@@ -302,17 +302,17 @@ add_trait="shy"
 }
 
 1600016={
-name = "Esa"
-dynasty = 32020
-culture = ungol
-religion = northern_gods
-martial = 2
-diplomacy = 5
-stewardship = 9
-intrigue = 4
-learning = 3
-add_trait = "poet"
-add_trait = "charismatic_negotiator"
+name="Esa"
+dynasty=32020
+culture=ungol
+religion=northern_gods
+martial=2
+diplomacy=5
+stewardship=9
+intrigue=4
+learning=3
+add_trait="poet"
+add_trait="charismatic_negotiator"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -322,17 +322,17 @@ add_trait="honest"
 }
 
 1600017={
-name = "Oleksi"
-dynasty = 32022
-culture = ungol
-religion = northern_gods
-martial = 4
-diplomacy = 1
-stewardship = 2
-intrigue = 7
-learning = 4
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Oleksi"
+dynasty=32022
+culture=ungol
+religion=northern_gods
+martial=4
+diplomacy=1
+stewardship=2
+intrigue=7
+learning=4
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="ambitious"
 add_trait="kind"
 add_trait="craven"
@@ -342,18 +342,18 @@ add_trait="craven"
 }
 
 1600018={
-name = "Faina"
-female = yes
-dynasty = 32099
-culture = ungol
-religion = northern_gods
-martial = 6
-diplomacy = 4
-stewardship = 2
-intrigue = 3
-learning = 0
-add_trait = "hunter"
-add_trait = "detached_priest"
+name="Faina"
+female=yes
+dynasty=32099
+culture=ungol
+religion=northern_gods
+martial=6
+diplomacy=4
+stewardship=2
+intrigue=3
+learning=0
+add_trait="hunter"
+add_trait="detached_priest"
 add_trait="greedy"
 
 1986.10.20={birth=yes}
@@ -361,17 +361,17 @@ add_trait="greedy"
 }
 
 1600019={
-name = "Seere" # Patrician of Erengrad
-dynasty = 32221
-culture = ungol
-religion = northern_gods
-martial = 9
-diplomacy = 9
-stewardship = 7
-intrigue = 1
-learning = 5
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Seere" # Patrician of Erengrad
+dynasty=32221
+culture=ungol
+religion=northern_gods
+martial=9
+diplomacy=9
+stewardship=7
+intrigue=1
+learning=5
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="weak"
 
 1974.9.4={birth=yes}
@@ -379,62 +379,62 @@ add_trait="weak"
 }
 
 1600020={
-name = "Chankar"
-dynasty = 32144
-dna = "dgfnohgacfe"
-culture = ungol
-religion = northern_gods
-martial = 6
-diplomacy = 5
-stewardship = 4
-intrigue = 6
-learning = 2
-add_trait = "charismatic_negotiator"
-add_trait = "zealous"
-add_trait = "cruel"
-add_trait = "shy"
-add_trait = "drunkard"
+name="Chankar"
+dynasty=32144
+dna="dgfnohgacfe"
+culture=ungol
+religion=northern_gods
+martial=6
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=2
+add_trait="charismatic_negotiator"
+add_trait="zealous"
+add_trait="cruel"
+add_trait="shy"
+add_trait="drunkard"
 1966.1.1={birth=yes}
-2003.6.22 = {add_spouse=1550038}
+2003.6.22={add_spouse=1550038}
 2025.5.31={death=yes}
 }
 
 1600021={
-name = "Oksana"
-female = yes
-dynasty = 32023
-dna = "apacmhbjphh"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 6
-stewardship = 6
-intrigue = 0
-learning = 4
-add_trait = "charismatic_negotiator"
-add_trait = "arbitrary"
-add_trait = "greedy"
+name="Oksana"
+female=yes
+dynasty=32023
+dna="apacmhbjphh"
+culture=gospodar
+religion=northern_gods
+martial=4
+diplomacy=6
+stewardship=6
+intrigue=0
+learning=4
+add_trait="charismatic_negotiator"
+add_trait="arbitrary"
+add_trait="greedy"
 1970.1.1={birth=yes}
 2042.4.9={death=yes}
 }
 
 1600022={
-name = "Pirjo"
-dynasty = 32073
-dna = "ndgajmepfha"
-culture = gospodar
-religion = northern_gods
-martial = 5
-diplomacy = 3
-stewardship = 4
-intrigue = 3
-learning = 7
-add_trait = "flamboyant_schemer"
-add_trait = "arbitrary"
-add_trait = "cynical"
-add_trait = "zealous"
-add_trait = "greedy"
-add_trait = "ill"
+name="Pirjo"
+dynasty=32073
+dna="ndgajmepfha"
+culture=gospodar
+religion=northern_gods
+martial=5
+diplomacy=3
+stewardship=4
+intrigue=3
+learning=7
+add_trait="flamboyant_schemer"
+add_trait="arbitrary"
+add_trait="cynical"
+add_trait="zealous"
+add_trait="greedy"
+add_trait="ill"
 1949.1.1={birth=yes}
 2013.10.20={death=yes}
 }

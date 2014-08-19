@@ -11,8 +11,8 @@ b_kazad_vanar = temple
 #b_grung_uaazul = city
 
 # Misc
-culture = aesling
-religion = dark_norse
+culture = dwarf_norse
+religion = norse_ancestor_gods
 
 
 # History

@@ -9,7 +9,7 @@ b_dorno = castle
 #b_mulaan = temple
 
 # Misc
-culture = chi_an
+culture = mung
 religion = chaos
 
 

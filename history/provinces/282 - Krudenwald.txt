@@ -7,10 +7,9 @@ title = c_krudenwald
 max_settlements = 5
 b_krudenwald = castle
 b_bergsburg = city
-b_esk = castle
+#b_esk = castle
 #b_garssen = castle
 #b_ahresdorf = city
-#b_wahnsinningen = temple
 
 # Misc
 culture = hochlander
@@ -18,3 +17,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_esk = castle
+}

@@ -10,7 +10,7 @@ b_magad = castle
 
 # Misc
 culture = gharhar
-religion = chaos
+religion = khorne
 
 
 # History

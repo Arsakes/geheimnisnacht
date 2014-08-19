@@ -9,7 +9,7 @@ b_uromqi = castle
 b_xibi = temple
 
 # Misc
-culture = aghol
+culture = kvellig
 religion = chaos
 
 

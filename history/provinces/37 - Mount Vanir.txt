@@ -12,7 +12,7 @@ b_hjergyl = temple
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History

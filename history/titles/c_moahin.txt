@@ -1,5 +1,5 @@
 2010.1.1= {
-liege="d_lakuga"
+	liege="d_lakuga"
 }
 
 2010.1.1 = {

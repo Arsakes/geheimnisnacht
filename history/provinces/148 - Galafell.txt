@@ -10,7 +10,7 @@ b_kulum_haugr = temple
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History

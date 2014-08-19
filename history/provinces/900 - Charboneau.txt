@@ -6,8 +6,8 @@ title = c_charboneau
 # Settlements
 max_settlements = 5
 b_charboneau = castle
-b_montdaure = city
-b_charlebois = temple
+#b_montdaure = city
+#b_charlebois = temple
 #b_avranches = temple
 #b_aujon = city
 
@@ -18,5 +18,9 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = carcassian }
+
+2250.1.1 = {
+	b_montdaure = city
+}

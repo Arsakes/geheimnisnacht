@@ -1,15 +1,15 @@
 300000={
-name = "Sepp"
-dynasty = 20056
-culture = stirlander
-religion = sigmarite
-martial = 1
-diplomacy = 9
-stewardship = 6
-intrigue = 0
-learning = 5
-add_trait = "hedonist"
-add_trait = "flamboyant_schemer"
+name="Sepp"
+dynasty=20056
+culture=stirlander
+religion=sigmarite
+martial=1
+diplomacy=9
+stewardship=6
+intrigue=0
+learning=5
+add_trait="hedonist"
+add_trait="flamboyant_schemer"
 add_trait="kind"
 add_trait="honest"
 
@@ -19,17 +19,17 @@ add_trait="honest"
 }
 
 300001={
-name = "Sigfried"
-dynasty = 20023
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 6
-stewardship = 0
-intrigue = 6
-learning = 9
-add_trait = "impaler"
-add_trait = "charismatic_negotiator"
+name="Sigfried"
+dynasty=20023
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=6
+stewardship=0
+intrigue=6
+learning=9
+add_trait="impaler"
+add_trait="charismatic_negotiator"
 add_trait="greedy"
 add_trait="gregarious"
 
@@ -39,18 +39,18 @@ add_trait="gregarious"
 }
 
 300002={
-name = "Viktoria"
-female = yes
-dynasty = 20055
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 8
-stewardship = 9
-intrigue = 9
-learning = 2
-add_trait = "hunter"
-add_trait = "scholarly_theologian"
+name="Viktoria"
+female=yes
+dynasty=20055
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=8
+stewardship=9
+intrigue=9
+learning=2
+add_trait="hunter"
+add_trait="scholarly_theologian"
 
 add_trait="weak"
 add_trait="craven"
@@ -60,17 +60,17 @@ add_trait="craven"
 }
 
 300003={
-name = "Fritz"
-dynasty = 20014
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 8
-intrigue = 6
-learning = 4
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
+name="Fritz"
+dynasty=20014
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=4
+add_trait="impaler"
+add_trait="flamboyant_schemer"
 add_trait="tall"
 add_trait="wroth"
 add_trait="cruel"
@@ -80,18 +80,18 @@ add_trait="cruel"
 }
 
 300004={
-name = "Reginlint"
-female = yes
-dynasty = 20012
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 5
-stewardship = 6
-intrigue = 5
-learning = 9
+name="Reginlint"
+female=yes
+dynasty=20012
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=5
+stewardship=6
+intrigue=5
+learning=9
 
-add_trait = "detached_priest"
+add_trait="detached_priest"
 add_trait="chaste"
 add_trait="temperate"
 
@@ -101,17 +101,17 @@ add_trait="temperate"
 }
 
 300005={
-name = "Gerlach"
-dynasty = 20005
-culture = stirlander
-religion = sigmarite
-martial = 0
-diplomacy = 7
-stewardship = 2
-intrigue = 3
-learning = 9
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Gerlach"
+dynasty=20005
+culture=stirlander
+religion=sigmarite
+martial=0
+diplomacy=7
+stewardship=2
+intrigue=3
+learning=9
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="content"
 add_trait="humble"
 add_trait="ill"
@@ -121,51 +121,51 @@ add_trait="ill"
 }
 
 300006={
-name = "Brigid"
-female = yes
-dynasty = 20065
-culture = stirlander
-religion = sigmarite
-martial = 1
-diplomacy = 7
-stewardship = 10
-intrigue = 3
-learning = 2
-add_trait = "grey_eminence"
+name="Brigid"
+female=yes
+dynasty=20065
+culture=stirlander
+religion=sigmarite
+martial=1
+diplomacy=7
+stewardship=10
+intrigue=3
+learning=2
+add_trait="grey_eminence"
 add_trait="trusting"
 1955.11.30={birth=yes}
 2034.5.6={death=yes}
 }
 
 300007={
-name = "Karloman"
-dynasty = 20066
-culture = stirlander
-religion = sigmarite
-martial = 8
-diplomacy = 9
-stewardship = 9
-intrigue = 9
-learning = 8
-add_trait = "hunter"
-add_trait = "underhanded_rogue"
+name="Karloman"
+dynasty=20066
+culture=stirlander
+religion=sigmarite
+martial=8
+diplomacy=9
+stewardship=9
+intrigue=9
+learning=8
+add_trait="hunter"
+add_trait="underhanded_rogue"
 add_trait="drunkard"
 1974.10.25={birth=yes}
 2047.4.19={death=yes}
 }
 
 300008={
-name = "Egon"
-dynasty = 20061
-culture = stirlander
-religion = sigmarite
-martial = 8
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 9
-add_trait = "impaler"
-add_trait = "thrifty_clerk"
+name="Egon"
+dynasty=20061
+culture=stirlander
+religion=sigmarite
+martial=8
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=9
+add_trait="impaler"
+add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 add_trait="lustful"
 1968.9.5={birth=yes}
@@ -173,68 +173,68 @@ add_trait="lustful"
 }
 
 300009={
-name = "Emelrich"
-dynasty = 20032
-culture = stirlander
-religion = sigmarite
-martial = 0
-diplomacy = 7
-stewardship = 1
-intrigue = 2
-learning = 9
-add_trait = "scholar"
-add_trait = "thrifty_clerk"
+name="Emelrich"
+dynasty=20032
+culture=stirlander
+religion=sigmarite
+martial=0
+diplomacy=7
+stewardship=1
+intrigue=2
+learning=9
+add_trait="scholar"
+add_trait="thrifty_clerk"
 add_trait="homosexual"
 1993.1.13={birth=yes}
 2021.1.12={death=yes}
 }
 
 300010={
-name = "Matthias"
-dynasty = 20079
-culture = stirlander
-religion = sigmarite
-martial = 1
-diplomacy = 10
-stewardship = 11
-intrigue = 4
-learning = 3
-add_trait = "poet"
-add_trait = "brilliant_strategist"
+name="Matthias"
+dynasty=20079
+culture=stirlander
+religion=sigmarite
+martial=1
+diplomacy=10
+stewardship=11
+intrigue=4
+learning=3
+add_trait="poet"
+add_trait="brilliant_strategist"
 add_trait="lisp"
 1990.9.4={birth=yes}
 2032.4.11={death=yes}
 }
 
 300011={
-name = "Cothilde"
-female = yes
-dynasty = 20074
-culture = stirlander
-religion = sigmarite
-martial = 9
-diplomacy = 1
-stewardship = 1
-intrigue = 4
-learning = 4
-add_trait = "poet"
-add_trait = "intricate_webweaver"
+name="Cothilde"
+female=yes
+dynasty=20074
+culture=stirlander
+religion=sigmarite
+martial=9
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=4
+add_trait="poet"
+add_trait="intricate_webweaver"
 1982.5.27={birth=yes}
 2036.9.25={death=yes}
 }
 
 300012={
-name = "Berthold"
-dynasty = 20041
-culture = stirlander
-religion = sigmarite
-martial = 9
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 2
-add_trait = "impaler"
-add_trait = "charismatic_negotiator"
+name="Berthold"
+dynasty=20041
+culture=stirlander
+religion=sigmarite
+martial=9
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=2
+add_trait="impaler"
+add_trait="charismatic_negotiator"
 add_trait="diligent"
 add_trait="envious"
 add_trait="proud"
@@ -244,17 +244,17 @@ add_trait="proud"
 }
 
 300013={
-name = "Chedwic"
-dynasty = 20022
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 7
-intrigue = 7
-learning = 3
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Chedwic"
+dynasty=20022
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=7
+intrigue=7
+learning=3
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="fair"
 add_trait="patient"
@@ -264,17 +264,17 @@ add_trait="patient"
 }
 
 300014={
-name = "Guntram"
-dynasty = 20025
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 0
-stewardship = 5
-intrigue = 5
-learning = 8
+name="Guntram"
+dynasty=20025
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=0
+stewardship=5
+intrigue=5
+learning=8
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="strong"
 add_trait="shy"
@@ -284,17 +284,17 @@ add_trait="shy"
 }
 
 300015={
-name = "Lutz"
-dynasty = 20026
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 7
-stewardship = 6
-intrigue = 8
-learning = 10
-add_trait = "hunter"
-add_trait = "martial_cleric"
+name="Lutz"
+dynasty=20026
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=7
+stewardship=6
+intrigue=8
+learning=10
+add_trait="hunter"
+add_trait="martial_cleric"
 add_trait="cynical"
 add_trait="just"
 add_trait="arbitrary"
@@ -304,18 +304,18 @@ add_trait="arbitrary"
 }
 
 300016={
-name = "Gisela"
-female = yes
-dynasty = 20029
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 1
-stewardship = 4
-intrigue = 3
-learning = 6
-add_trait = "mystic"
-add_trait = "fortune_builder"
+name="Gisela"
+female=yes
+dynasty=20029
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=1
+stewardship=4
+intrigue=3
+learning=6
+add_trait="mystic"
+add_trait="fortune_builder"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="honest"
@@ -325,17 +325,17 @@ add_trait="honest"
 }
 
 300017={
-name = "Welf"
-dynasty = 20052
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 6
-intrigue = 0
-learning = 5
-add_trait = "mystic"
-add_trait = "thrifty_clerk"
+name="Welf"
+dynasty=20052
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=6
+intrigue=0
+learning=5
+add_trait="mystic"
+add_trait="thrifty_clerk"
 add_trait="gregarious"
 
 add_trait="craven"
@@ -345,17 +345,17 @@ add_trait="craven"
 }
 
 300018={
-name = "Xaver"
-dynasty = 20042
-culture = stirlander
-religion = sigmarite
-martial = 8
-diplomacy = 5
-stewardship = 6
-intrigue = 1
-learning = 4
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Xaver"
+dynasty=20042
+culture=stirlander
+religion=sigmarite
+martial=8
+diplomacy=5
+stewardship=6
+intrigue=1
+learning=4
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="greedy"
 
@@ -365,18 +365,18 @@ add_trait="greedy"
 }
 
 300019={
-name = "Nadja"
-female = yes
-dynasty = 20043
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 8
-stewardship = 8
-intrigue = 8
-learning = 3
-add_trait = "falconer"
-add_trait = "detached_priest"
+name="Nadja"
+female=yes
+dynasty=20043
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=8
+stewardship=8
+intrigue=8
+learning=3
+add_trait="falconer"
+add_trait="detached_priest"
 
 
 add_trait="weak"
@@ -389,18 +389,18 @@ add_trait="weak"
 #######################
 
 300020={
-name = "Uta"
-female = yes
-dynasty = 20017 
-culture = stirlander
-religion = sigmarite
-martial = 1
-diplomacy = 10
-stewardship = 11
-intrigue = 4
-learning = 3
-add_trait = "poet"
-add_trait = "brilliant_strategist"
+name="Uta"
+female=yes
+dynasty=20017 
+culture=stirlander
+religion=sigmarite
+martial=1
+diplomacy=10
+stewardship=11
+intrigue=4
+learning=3
+add_trait="poet"
+add_trait="brilliant_strategist"
 
 
 add_trait="lisp"
@@ -410,18 +410,18 @@ add_trait="lisp"
 }
 
 300021={
-name = "Natalia"
-female = yes
-dynasty = 20018 #300021 & 300022 same Dynasty
-culture = stirlander
-religion = sigmarite
-martial = 9
-diplomacy = 1
-stewardship = 1
-intrigue = 4
-learning = 4
-add_trait = "poet"
-add_trait = "intricate_webweaver"
+name="Natalia"
+female=yes
+dynasty=20018 #300021 & 300022 same Dynasty
+culture=stirlander
+religion=sigmarite
+martial=9
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=4
+add_trait="poet"
+add_trait="intricate_webweaver"
 
 
 
@@ -431,40 +431,40 @@ add_trait = "intricate_webweaver"
 }
 
 300022={
-name = "Natalia"
-female = yes
-dynasty = 20018 #300021 & 300022 same Dynasty
-culture = stirlander
-religion = sigmarite
-martial = 9
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 2
-add_trait = "impaler"
-add_trait = "charismatic_negotiator"
+name="Natalia"
+female=yes
+dynasty=20018 #300021 & 300022 same Dynasty
+culture=stirlander
+religion=sigmarite
+martial=9
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=2
+add_trait="impaler"
+add_trait="charismatic_negotiator"
 add_trait="diligent"
 add_trait="envious"
 add_trait="proud"
-mother = 300021
+mother=300021
 
 573.4.14={birth="573.4.14"}
 637.7.17={death="637.7.17"}
 }
 
 300023={
-name = "Natalia"
-female = yes
-dynasty = 20018 #300023 & 300024 same dynasty
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 7
-intrigue = 7
-learning = 3
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Natalia"
+female=yes
+dynasty=20018 #300023 & 300024 same dynasty
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=7
+intrigue=7
+learning=3
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="fair"
 add_trait="patient"
@@ -474,39 +474,39 @@ add_trait="patient"
 }
 
 300024={
-name = "Natalia"
-female = yes
-dynasty = 20018 #300023 & 300024 same dynasty
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 0
-stewardship = 5
-intrigue = 5
-learning = 8
+name="Natalia"
+female=yes
+dynasty=20018 #300023 & 300024 same dynasty
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=0
+stewardship=5
+intrigue=5
+learning=8
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="strong"
 add_trait="shy"
-mother = 300023
+mother=300023
 
 742.9.8={birth="742.9.8"}
 791.4.5={death="791.4.5"}
 }
 
 300025={
-name = "Gerhard"
-dynasty = 20019 
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 7
-stewardship = 6
-intrigue = 8
-learning = 10
-add_trait = "hunter"
-add_trait = "martial_cleric"
+name="Gerhard"
+dynasty=20019 
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=7
+stewardship=6
+intrigue=8
+learning=10
+add_trait="hunter"
+add_trait="martial_cleric"
 add_trait="cynical"
 add_trait="just"
 add_trait="arbitrary"
@@ -516,17 +516,17 @@ add_trait="arbitrary"
 }
 
 300026={
-name = "Otto"
-dynasty = 20020 
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 1
-stewardship = 4
-intrigue = 3
-learning = 6
-add_trait = "mystic"
-add_trait = "fortune_builder"
+name="Otto"
+dynasty=20020 
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=1
+stewardship=4
+intrigue=3
+learning=6
+add_trait="mystic"
+add_trait="fortune_builder"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="honest"
@@ -536,17 +536,17 @@ add_trait="honest"
 }
 
 300027={
-name = "Gerhard"
-dynasty = 20021 
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 6
-intrigue = 0
-learning = 5
-add_trait = "mystic"
-add_trait = "thrifty_clerk"
+name="Gerhard"
+dynasty=20021 
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=6
+intrigue=0
+learning=5
+add_trait="mystic"
+add_trait="thrifty_clerk"
 add_trait="gregarious"
 
 add_trait="craven"
@@ -556,17 +556,17 @@ add_trait="craven"
 }
 
 300028={
-name = "Leopold"
-dynasty = 20001 #Emperor Unfähiger
-culture = stirlander
-religion = sigmarite
-martial = 8
-diplomacy = 5
-stewardship = 6
-intrigue = 1
-learning = 4
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Leopold"
+dynasty=20001 #Emperor Unfähiger
+culture=stirlander
+religion=sigmarite
+martial=8
+diplomacy=5
+stewardship=6
+intrigue=1
+learning=4
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="greedy"
 2339.7.21={birth=yes}
@@ -574,19 +574,19 @@ add_trait="greedy"
 }
 
 300029={
-name = "Dieter"
-dynasty = 20001 # Emperor Dieter IV Unfähiger
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 8
-stewardship = 8
-intrigue = 8
-learning = 3
-add_trait = "falconer"
-add_trait = "detached_priest"
+name="Dieter"
+dynasty=20001 # Emperor Dieter IV Unfähiger
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=8
+stewardship=8
+intrigue=8
+learning=3
+add_trait="falconer"
+add_trait="detached_priest"
 add_trait="weak"
-father = 300028
+father=300028
 
 2384.2.18={birth=yes}
 2453.8.9={death=yes}
@@ -594,17 +594,17 @@ father = 300028
 
 
 300030={
-name = "Eckhardt"
-dynasty = 20027 #Emperor Eckhardt III Vitek
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 7
-intrigue = 9
-learning = 6
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Eckhardt"
+dynasty=20027 #Emperor Eckhardt III Vitek
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=9
+learning=6
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 
@@ -614,17 +614,17 @@ add_trait="diligent"
 
 
 300031={
-name = "Eckhardt"
-dynasty = 20021 #Emperor Eckhardt I Strassenbauer
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 7
-intrigue = 9
-learning = 6
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Eckhardt"
+dynasty=20021 #Emperor Eckhardt I Strassenbauer
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=9
+learning=6
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 
@@ -634,17 +634,17 @@ add_trait="diligent"
 
 
 300032={
-name = "Eckhardt"
-dynasty = 20021 #Emperor Eckhardt II Strassenbauer
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 7
-intrigue = 9
-learning = 6
-add_trait = "poet"
-add_trait = "misguided_warrior"
+name="Eckhardt"
+dynasty=20021 #Emperor Eckhardt II Strassenbauer
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=9
+learning=6
+add_trait="poet"
+add_trait="misguided_warrior"
 add_trait="weak"
 
 1755.1.26={birth="1755.1.26"}
@@ -653,797 +653,797 @@ add_trait="weak"
 
 
 300033={
-name = "Alberich"
-dynasty = 20003 #Graf Alberich Haupt-Anderssen
-culture = stirlander
-religion = sigmarite
-martial = 7
-diplomacy = 6
-stewardship = 5
-intrigue = 6
-learning = 3
-add_trait = "poet"
-add_trait = "misguided_warrior"
-add_trait = "brave"
-add_trait = "zealous"
+name="Alberich"
+dynasty=20003 #Graf Alberich Haupt-Anderssen
+culture=stirlander
+religion=sigmarite
+martial=7
+diplomacy=6
+stewardship=5
+intrigue=6
+learning=3
+add_trait="poet"
+add_trait="misguided_warrior"
+add_trait="brave"
+add_trait="zealous"
 
 2489.6.12={birth=yes}
 2544.2.23={death=yes}
 }
 
 300034={
-name = "Martin" #Graf Martin von Krystallbach
-dynasty = 20082
-dna = "cpflfaknlco"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 4
-stewardship = 1
-intrigue = 4
-learning = 5
-add_trait = "thrifty_clerk"
-add_trait = "poet"
-add_trait = "chaste"
-add_trait = "proud"
-add_trait = "zealous"
+name="Martin" #Graf Martin von Krystallbach
+dynasty=20082
+dna="cpflfaknlco"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=4
+stewardship=1
+intrigue=4
+learning=5
+add_trait="thrifty_clerk"
+add_trait="poet"
+add_trait="chaste"
+add_trait="proud"
+add_trait="zealous"
 2125.1.1={birth=yes}
 2179.10.25={death=yes}
 }
 
 300035={
-name = "Derek"
-female = yes
-dynasty = 20083
-dna = "cinmenooloi"
-culture = sylvanian
-religion = sigmarite
-martial = 3
-diplomacy = 3
-stewardship = 3
-intrigue = 2
-learning = 2
-add_trait = "underhanded_rogue"
-add_trait = "arbitrary"
-add_trait = "greedy"
-add_trait = "proud"
-add_trait = "gluttonous"
-add_trait = "hedonist"
-add_trait = "vampire_carstein_hidden"
+name="Derek"
+female=yes
+dynasty=20083
+dna="cinmenooloi"
+culture=sylvanian
+religion=sigmarite
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=2
+learning=2
+add_trait="underhanded_rogue"
+add_trait="arbitrary"
+add_trait="greedy"
+add_trait="proud"
+add_trait="gluttonous"
+add_trait="hedonist"
+add_trait="vampire_carstein_hidden"
 2496.1.1={birth=yes}
 2540.8.23={death=yes}
 }
 
 300036={
-name = "Alexandra"
-dynasty = 20084
-dna = "bngooikddee"
-culture = sylvanian
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 0
-intrigue = 2
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "wroth"
-add_trait = "lustful"
-add_trait = "proud"
-add_trait = "vampire_carstein_hidden"
+name="Alexandra"
+dynasty=20084
+dna="bngooikddee"
+culture=sylvanian
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=0
+intrigue=2
+learning=5
+add_trait="grey_eminence"
+add_trait="wroth"
+add_trait="lustful"
+add_trait="proud"
+add_trait="vampire_carstein_hidden"
 2488.1.1={birth=yes}
 2547.5.16={death=yes}
 }
 
 300037={
-name = "Andreas"
-dynasty = 20013
-dna = "lccndmfljcl"
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 8
-stewardship = 2
-intrigue = 8
-learning = 4
-add_trait = "thrifty_clerk"
-add_trait = "gluttonous"
-add_trait = "deceitful"
+name="Andreas"
+dynasty=20013
+dna="lccndmfljcl"
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=8
+stewardship=2
+intrigue=8
+learning=4
+add_trait="thrifty_clerk"
+add_trait="gluttonous"
+add_trait="deceitful"
 2471.1.1={birth=yes}
 2526.11.13={death=yes}
 }
 
 300038={
-name = "Berchte"
-female = yes
-dynasty = 20013
-dna = "cijoeabpeac"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 7
-intrigue = 2
-learning = 6
-father = 300037
-add_trait = "brilliant_strategist"
-add_trait = "mystic"
-add_trait = "brave"
-add_trait = "wroth"
-add_trait = "gluttonous"
-add_trait = "honest"
-add_trait = "drunkard"
+name="Berchte"
+female=yes
+dynasty=20013
+dna="cijoeabpeac"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=7
+intrigue=2
+learning=6
+father=300037
+add_trait="brilliant_strategist"
+add_trait="mystic"
+add_trait="brave"
+add_trait="wroth"
+add_trait="gluttonous"
+add_trait="honest"
+add_trait="drunkard"
 2498.1.1={birth=yes}
 2547.5.4={death=yes}
 }
 
 300039={
-name = "Ulricht"
-dynasty = 20013
-dna = "gblmnimjcem"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 6
-intrigue = 8
-learning = 7
-father = 300037
-add_trait = "tough_soldier"
-add_trait = "temperate"
-add_trait = "honest"
-add_trait = "greedy"
-add_trait = "craven"
+name="Ulricht"
+dynasty=20013
+dna="gblmnimjcem"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=6
+intrigue=8
+learning=7
+father=300037
+add_trait="tough_soldier"
+add_trait="temperate"
+add_trait="honest"
+add_trait="greedy"
+add_trait="craven"
 2488.3.1={birth=yes}
 2539.10.11={death=yes}
 }
 
 300040={
-name = "Frederikke"
-female = yes
-dynasty = 20013
-dna = "eeiajgfjhdh"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 3
-stewardship = 2
-intrigue = 4
-learning = 2
-father = 300037
-add_trait = "detached_priest"
-add_trait = "charitable"
+name="Frederikke"
+female=yes
+dynasty=20013
+dna="eeiajgfjhdh"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=3
+stewardship=2
+intrigue=4
+learning=2
+father=300037
+add_trait="detached_priest"
+add_trait="charitable"
 2492.7.1={birth=yes}
 2538.8.23={death=yes}
 }
 
 300041={
-name = "Hincmar"
-dynasty = 20013
-dna = "gmglibbnigb"
-culture = stirlander
-religion = sigmarite
-martial = 0
-diplomacy = 5
-stewardship = 2
-intrigue = 7
-learning = 5
-father = 300037
-add_trait = "midas_touched"
-add_trait = "cynical"
+name="Hincmar"
+dynasty=20013
+dna="gmglibbnigb"
+culture=stirlander
+religion=sigmarite
+martial=0
+diplomacy=5
+stewardship=2
+intrigue=7
+learning=5
+father=300037
+add_trait="midas_touched"
+add_trait="cynical"
 2508.1.1={birth=yes}
 2579.9.21={death=yes}
 }
 
 300042={
-name = "Karloman"
-dynasty = 20013
-dna = "kjobcijklkb"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 3
-stewardship = 4
-intrigue = 4
-learning = 3
-father = 300037
-add_trait = "flamboyant_schemer"
-add_trait = "envious"
-add_trait = "diligent"
-add_trait = "cynical"
-add_trait = "temperate"
+name="Karloman"
+dynasty=20013
+dna="kjobcijklkb"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=3
+stewardship=4
+intrigue=4
+learning=3
+father=300037
+add_trait="flamboyant_schemer"
+add_trait="envious"
+add_trait="diligent"
+add_trait="cynical"
+add_trait="temperate"
 2520.1.1={birth=yes}
 2564.12.3={death=yes}
 }
 
 300043={
-name = "Rainer"
-dynasty = 20010
-dna = "jbddkibefjj"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 4
-intrigue = 6
-learning = 2
-add_trait = "fortune_builder"
-add_trait = "scholar"
-add_trait = "trusting"
-add_trait = "honest"
+name="Rainer"
+dynasty=20010
+dna="jbddkibefjj"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=2
+add_trait="fortune_builder"
+add_trait="scholar"
+add_trait="trusting"
+add_trait="honest"
 2455.3.1={birth=yes}
 2505.7.1={death=yes}
 }
 
 300044={
-name = "Diedke"
-female = yes
-dynasty = 20010
-dna = "jjkcnpejidn"
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 4
-stewardship = 3
-intrigue = 5
-learning = 4
-father = 300043
-add_trait = "brilliant_strategist"
-add_trait = "arbitrary"
-add_trait = "just"
-add_trait = "chaste"
+name="Diedke"
+female=yes
+dynasty=20010
+dna="jjkcnpejidn"
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=4
+father=300043
+add_trait="brilliant_strategist"
+add_trait="arbitrary"
+add_trait="just"
+add_trait="chaste"
 2499.1.1={birth=yes}
 2551.6.23={death=yes}
 }
 
 300045={
-name = "Petr"
-dynasty = 20010
-dna = "lofojogokal"
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 4
-intrigue = 6
-learning = 7
-father = 300043
-add_trait = "skilled_tactician"
-add_trait = "wroth"
-add_trait = "craven"
-add_trait = "charitable"
-add_trait = "zealous"
+name="Petr"
+dynasty=20010
+dna="lofojogokal"
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=7
+father=300043
+add_trait="skilled_tactician"
+add_trait="wroth"
+add_trait="craven"
+add_trait="charitable"
+add_trait="zealous"
 2495.7.1={birth=yes}
 2545.1.19={death=yes}
 }
 
 300046={
-name = "Thadius"
-dynasty = 20010
-dna = "mjfjmliekkc"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 8
-stewardship = 3
-intrigue = 3
-learning = 6
-father = 300045
-add_trait = "detached_priest"
-add_trait = "mystic"
-add_trait = "humble"
+name="Thadius"
+dynasty=20010
+dna="mjfjmliekkc"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=8
+stewardship=3
+intrigue=3
+learning=6
+father=300045
+add_trait="detached_priest"
+add_trait="mystic"
+add_trait="humble"
 2518.3.1={birth=yes}
 2558.10.8={death=yes}
 }
 
 300047={
-name = "Conradin"
-dynasty = 20011
-dna = "kijhickkhfi"
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 4
-stewardship = 3
-intrigue = 4
-learning = 1
-add_trait = "fortune_builder"
-add_trait = "brave"
-add_trait = "zealous"
-add_trait = "patient"
+name="Conradin"
+dynasty=20011
+dna="kijhickkhfi"
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=1
+add_trait="fortune_builder"
+add_trait="brave"
+add_trait="zealous"
+add_trait="patient"
 2456.3.1={birth=yes}
 2511.3.11={death=yes}
 }
 
 300048={
-name = "Immanuel"
-dynasty = 20011
-dna = "amglmaemjid"
-culture = stirlander
-religion = sigmarite
-martial = 0
-diplomacy = 3
-stewardship = 7
-intrigue = 4
-learning = 4
-father = 300047
-add_trait = "charismatic_negotiator"
-add_trait = "scholar"
-add_trait = "wroth"
+name="Immanuel"
+dynasty=20011
+dna="amglmaemjid"
+culture=stirlander
+religion=sigmarite
+martial=0
+diplomacy=3
+stewardship=7
+intrigue=4
+learning=4
+father=300047
+add_trait="charismatic_negotiator"
+add_trait="scholar"
+add_trait="wroth"
 2499.3.1={birth=yes}
 2545.11.24={death=yes}
 }
 
 300049={
-name = "Waldo"
-dynasty = 20011
-dna = "moobhdbcglo"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 4
-intrigue = 8
-learning = 7
-father = 300047
-add_trait = "fortune_builder"
-add_trait = "wroth"
-add_trait = "proud"
-add_trait = "gluttonous"
+name="Waldo"
+dynasty=20011
+dna="moobhdbcglo"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=4
+intrigue=8
+learning=7
+father=300047
+add_trait="fortune_builder"
+add_trait="wroth"
+add_trait="proud"
+add_trait="gluttonous"
 2505.9.1={birth=yes}
 2562.7.2={death=yes}
 }
 
 300050={
-name = "Debora"
-female = yes
-dynasty = 20011
-dna = "mpffhbljfhi"
-culture = stirlander
-religion = sigmarite
-martial = 7
-diplomacy = 2
-stewardship = 1
-intrigue = 4
-learning = 4
-father = 300048
-add_trait = "thrifty_clerk"
-add_trait = "mystic"
-add_trait = "proud"
-add_trait = "charitable"
-add_trait = "ambitious"
+name="Debora"
+female=yes
+dynasty=20011
+dna="mpffhbljfhi"
+culture=stirlander
+religion=sigmarite
+martial=7
+diplomacy=2
+stewardship=1
+intrigue=4
+learning=4
+father=300048
+add_trait="thrifty_clerk"
+add_trait="mystic"
+add_trait="proud"
+add_trait="charitable"
+add_trait="ambitious"
 2519.3.1={birth=yes}
 2600.8.14={death=yes}
 }
 
 300051={
-name = "Frederick"
-dynasty = 20085
-dna = "mljbjancibf"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 6
-stewardship = 6
-intrigue = 3
-learning = 3
-add_trait = "brilliant_strategist"
-add_trait = "proud"
-add_trait = "shy"
-add_trait = "zealous"
+name="Frederick"
+dynasty=20085
+dna="mljbjancibf"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=6
+stewardship=6
+intrigue=3
+learning=3
+add_trait="brilliant_strategist"
+add_trait="proud"
+add_trait="shy"
+add_trait="zealous"
 2471.5.1={birth=yes}
 2525.3.13={death=yes}
 }
 
 300052={
-name = "Rudolf"
-dynasty = 20063
-dna = "imeggfpmlih"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 5
-stewardship = 5
-intrigue = 5
-learning = 4
-add_trait = "brilliant_strategist"
-add_trait = "gardener"
+name="Rudolf"
+dynasty=20063
+dna="imeggfpmlih"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=5
+stewardship=5
+intrigue=5
+learning=4
+add_trait="brilliant_strategist"
+add_trait="gardener"
 2474.7.1={birth=yes}
 2533.4.2={death=yes}
 }
 
 300053={
-name = "Brigit"
-female = yes
-dynasty = 20063
-dna = "gnjpkojahie"
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 8
-intrigue = 3
-learning = 4
-father = 300052
-add_trait = "skilled_tactician"
-add_trait = "kind"
-add_trait = "just"
-add_trait = "brave"
-add_trait = "zealous"
+name="Brigit"
+female=yes
+dynasty=20063
+dna="gnjpkojahie"
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=8
+intrigue=3
+learning=4
+father=300052
+add_trait="skilled_tactician"
+add_trait="kind"
+add_trait="just"
+add_trait="brave"
+add_trait="zealous"
 2493.9.1={birth=yes}
 2540.12.8={death=yes}
 }
 
 300054={
-name = "Verena"
-female = yes
-dynasty = 20069
-dna = "ooppeajkakp"
-culture = stirlander
-religion = sigmarite
-martial = 1
-diplomacy = 2
-stewardship = 6
-intrigue = 6
-learning = 4
-add_trait = "flamboyant_schemer"
-add_trait = "gregarious"
-add_trait = "honest"
-add_trait = "zealous"
+name="Verena"
+female=yes
+dynasty=20069
+dna="ooppeajkakp"
+culture=stirlander
+religion=sigmarite
+martial=1
+diplomacy=2
+stewardship=6
+intrigue=6
+learning=4
+add_trait="flamboyant_schemer"
+add_trait="gregarious"
+add_trait="honest"
+add_trait="zealous"
 2483.3.1={birth=yes}
 2516.2.19={death=yes}
 }
 
 300055={
-name = "Hildegard"
-female = yes
-dynasty = 20069
-dna = "kmjomfdeacf"
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 4
-stewardship = 4
-intrigue = 4
-learning = 6
-mother = 300054
-add_trait = "tough_soldier"
-add_trait = "cruel"
-add_trait = "patient"
+name="Hildegard"
+female=yes
+dynasty=20069
+dna="kmjomfdeacf"
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=4
+stewardship=4
+intrigue=4
+learning=6
+mother=300054
+add_trait="tough_soldier"
+add_trait="cruel"
+add_trait="patient"
 2503.9.1={birth=yes}
 2557.2.9={death=yes}
 }
 
 300056={
-name = "Günzel"
-dynasty = 20069
-dna = "aglebhffhdf"
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 6
-stewardship = 0
-intrigue = 3
-learning = 5
-mother = 300054
-add_trait = "tough_soldier"
-add_trait = "impaler"
-add_trait = "gregarious"
-add_trait = "charitable"
-add_trait = "zealous"
+name="Günzel"
+dynasty=20069
+dna="aglebhffhdf"
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=6
+stewardship=0
+intrigue=3
+learning=5
+mother=300054
+add_trait="tough_soldier"
+add_trait="impaler"
+add_trait="gregarious"
+add_trait="charitable"
+add_trait="zealous"
 2515.3.1={birth=yes}
 2581.2.11={death=yes}
 }
 
 300057={
-name = "Herman"
-dynasty = 20007
-dna = "bepmoffiijf"
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 1
-stewardship = 2
-intrigue = 3
-learning = 6
-add_trait = "flamboyant_schemer"
-add_trait = "cruel"
-add_trait = "temperate"
-add_trait = "humble"
+name="Herman"
+dynasty=20007
+dna="bepmoffiijf"
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=1
+stewardship=2
+intrigue=3
+learning=6
+add_trait="flamboyant_schemer"
+add_trait="cruel"
+add_trait="temperate"
+add_trait="humble"
 2485.1.1={birth=yes}
 2516.3.4={death=yes}
 }
 
 300058={
-name = "Petra"
-female = yes
-dynasty = 20007
-dna = "fafghfohgbo"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 7
-intrigue = 3
-learning = 4
-father = 300057
-add_trait = "tough_soldier"
-add_trait = "craven"
-add_trait = "paranoid"
-add_trait = "shy"
+name="Petra"
+female=yes
+dynasty=20007
+dna="fafghfohgbo"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=7
+intrigue=3
+learning=4
+father=300057
+add_trait="tough_soldier"
+add_trait="craven"
+add_trait="paranoid"
+add_trait="shy"
 2506.1.1={birth=yes}
 2576.4.14={death=yes}
 }
 
 300059={
-name = "Heilwiva"
-female = yes
-dynasty = 20007
-dna = "oclieokgdha"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 2
-intrigue = 0
-learning = 2
-father = 300057
-add_trait = "underhanded_rogue"
-add_trait = "craven"
-add_trait = "greedy"
-add_trait = "cynical"
+name="Heilwiva"
+female=yes
+dynasty=20007
+dna="oclieokgdha"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=0
+learning=2
+father=300057
+add_trait="underhanded_rogue"
+add_trait="craven"
+add_trait="greedy"
+add_trait="cynical"
 2510.1.1={birth=yes}
 2540.9.19={death=yes}
 }
 
 300060={
-name = "Thankmar"
-dynasty = 20007
-dna = "ecapbmnkkdl"
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 8
-stewardship = 3
-intrigue = 4
-learning = 3
-father = 300057
-add_trait = "indulgent_wastrel"
-add_trait = "celibate"
-add_trait = "craven"
+name="Thankmar"
+dynasty=20007
+dna="ecapbmnkkdl"
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=8
+stewardship=3
+intrigue=4
+learning=3
+father=300057
+add_trait="indulgent_wastrel"
+add_trait="celibate"
+add_trait="craven"
 2513.3.1={birth=yes}
 2570.11.1={death=yes}
 }
 
 300061={
-name = "Artur"
-dynasty = 20008
-dna = "jdfcnediapb"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 1
-intrigue = 3
-learning = 1
-add_trait = "fortune_builder"
-add_trait = "cruel"
+name="Artur"
+dynasty=20008
+dna="jdfcnediapb"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=1
+intrigue=3
+learning=1
+add_trait="fortune_builder"
+add_trait="cruel"
 2469.7.1={birth=yes}
 2537.6.7={death=yes}
 }
 
 300062={
-name = "Felizitas"
-female = yes
-dynasty = 20008
-dna = "aboiofbjlfj"
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 5
-stewardship = 6
-intrigue = 3
-learning = 5
-father = 300061
-add_trait = "intricate_webweaver"
-add_trait = "gardener"
-add_trait = "proud"
-add_trait = "greedy"
-add_trait = "depressed"
+name="Felizitas"
+female=yes
+dynasty=20008
+dna="aboiofbjlfj"
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=3
+learning=5
+father=300061
+add_trait="intricate_webweaver"
+add_trait="gardener"
+add_trait="proud"
+add_trait="greedy"
+add_trait="depressed"
 2490.5.1={birth=yes}
 2536.1.1={death=yes}
 }
 
 300063={
-name = "Rudiger"
-dynasty = 20008
-dna = "mfhnenfigmp"
-culture = stirlander
-religion = sigmarite
-martial = 6
-diplomacy = 2
-stewardship = 3
-intrigue = 4
-learning = 2
-father = 300061
-add_trait = "brilliant_strategist"
-add_trait = "envious"
-add_trait = "zealous"
+name="Rudiger"
+dynasty=20008
+dna="mfhnenfigmp"
+culture=stirlander
+religion=sigmarite
+martial=6
+diplomacy=2
+stewardship=3
+intrigue=4
+learning=2
+father=300061
+add_trait="brilliant_strategist"
+add_trait="envious"
+add_trait="zealous"
 2495.1.1={birth=yes}
 2559.4.9={death=yes}
 }
 
 300064={
-name = "Ulli"
-dynasty = 20008
-dna = "pcaeblppdpo"
-culture = stirlander
-religion = sigmarite
-martial = 2
-diplomacy = 7
-stewardship = 7
-intrigue = 5
-learning = 5
-father = 300061
-add_trait = "intricate_webweaver"
-add_trait = "arbitrary"
-add_trait = "zealous"
+name="Ulli"
+dynasty=20008
+dna="pcaeblppdpo"
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=7
+stewardship=7
+intrigue=5
+learning=5
+father=300061
+add_trait="intricate_webweaver"
+add_trait="arbitrary"
+add_trait="zealous"
 2511.5.1={birth=yes}
 2563.7.26={death=yes}
 }
 
 300065={
-name = "Xaver"
-dynasty = 20008
-dna = "mamlbihkbjn"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 1
-stewardship = 4
-intrigue = 5
-learning = 5
-father = 300061
-add_trait = "fortune_builder"
-add_trait = "lustful"
+name="Xaver"
+dynasty=20008
+dna="mamlbihkbjn"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=1
+stewardship=4
+intrigue=5
+learning=5
+father=300061
+add_trait="fortune_builder"
+add_trait="lustful"
 2518.3.1={birth=yes}
 2554.8.14={death=yes}
 }
 
 300066={
-name = "Franzi"
-female = yes
-dynasty = 20006
-dna = "gbbcebaggmo"
-culture = stirlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 4
-intrigue = 3
-learning = 4
-add_trait = "grey_eminence"
-add_trait = "kind"
+name="Franzi"
+female=yes
+dynasty=20006
+dna="gbbcebaggmo"
+culture=stirlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=3
+learning=4
+add_trait="grey_eminence"
+add_trait="kind"
 2475.7.1={birth=yes}
 2514.3.2={death=yes}
 }
 
 300067={
-name = "Anton"
-dynasty = 20006
-dna = "iakhlodcikd"
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 6
-stewardship = 2
-intrigue = 5
-learning = 3
-mother = 300066
-add_trait = "skilled_tactician"
-add_trait = "kind"
-add_trait = "trusting"
-add_trait = "lustful"
+name="Anton"
+dynasty=20006
+dna="iakhlodcikd"
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=6
+stewardship=2
+intrigue=5
+learning=3
+mother=300066
+add_trait="skilled_tactician"
+add_trait="kind"
+add_trait="trusting"
+add_trait="lustful"
 2496.5.1={birth=yes}
 2561.11.16={death=yes}
 }
 
 300068={
-name = "Othelindis"
-female = yes
-dynasty = 20006
-dna = "ffifhllnpjm"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 2
-intrigue = 1
-learning = 8
-mother = 300066
-add_trait = "tough_soldier"
-add_trait = "ambitious"
-add_trait = "patient"
-add_trait = "chaste"
-add_trait = "humble"
-add_trait = "stressed"
+name="Othelindis"
+female=yes
+dynasty=20006
+dna="ffifhllnpjm"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=2
+intrigue=1
+learning=8
+mother=300066
+add_trait="tough_soldier"
+add_trait="ambitious"
+add_trait="patient"
+add_trait="chaste"
+add_trait="humble"
+add_trait="stressed"
 2507.1.1={birth=yes}
 2552.9.1={death=yes}
 }
 
 300069={
-name = "Hugo"
-dynasty = 20009
-dna = "fpeebbhclef"
-culture = stirlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 1
-intrigue = 5
-learning = 3
-add_trait = "tough_soldier"
-add_trait = "deceitful"
-add_trait = "arbitrary"
-add_trait = "craven"
+name="Hugo"
+dynasty=20009
+dna="fpeebbhclef"
+culture=stirlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=1
+intrigue=5
+learning=3
+add_trait="tough_soldier"
+add_trait="deceitful"
+add_trait="arbitrary"
+add_trait="craven"
 2435.3.1={birth=yes}
 2501.1.3={death=yes}
 }
 
 300070={
-name = "Dorthea"
-female = yes
-dynasty = 20009
-dna = "bihpaaefedc"
-culture = stirlander
-religion = sigmarite
-martial = 8
-diplomacy = 2
-stewardship = 6
-intrigue = 2
-learning = 4
-father = 300069
-add_trait = "skilled_tactician"
-add_trait = "wroth"
+name="Dorthea"
+female=yes
+dynasty=20009
+dna="bihpaaefedc"
+culture=stirlander
+religion=sigmarite
+martial=8
+diplomacy=2
+stewardship=6
+intrigue=2
+learning=4
+father=300069
+add_trait="skilled_tactician"
+add_trait="wroth"
 2486.3.1={birth=yes}
 2541.1.17={death=yes}
 }
 
 300071={
-name = "Erich"
-dynasty = 20009
-dna = "ffeneklfpnh"
-culture = stirlander
-religion = sigmarite
-martial = 0
-diplomacy = 3
-stewardship = 7
-intrigue = 4
-learning = 5
-father = 300069
-add_trait = "fortune_builder"
-add_trait = "ill"
+name="Erich"
+dynasty=20009
+dna="ffeneklfpnh"
+culture=stirlander
+religion=sigmarite
+martial=0
+diplomacy=3
+stewardship=7
+intrigue=4
+learning=5
+father=300069
+add_trait="fortune_builder"
+add_trait="ill"
 2476.11.1={birth=yes}
 2530.5.14={death=yes}
 }
 
 300072={
-name = "Lile"
-female = yes
-dynasty = 20009
-dna = "bmbgnemgmdj"
-culture = stirlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 5
-intrigue = 3
-learning = 8
-father = 300071
-add_trait = "underhanded_rogue"
-add_trait = "content"
-add_trait = "craven"
-add_trait = "trusting"
-add_trait = "gregarious"
+name="Lile"
+female=yes
+dynasty=20009
+dna="bmbgnemgmdj"
+culture=stirlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=3
+learning=8
+father=300071
+add_trait="underhanded_rogue"
+add_trait="content"
+add_trait="craven"
+add_trait="trusting"
+add_trait="gregarious"
 2496.5.1={birth=yes}
 2553.4.2={death=yes}
 }

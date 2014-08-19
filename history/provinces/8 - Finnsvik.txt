@@ -12,7 +12,7 @@ b_rost = temple
 
 # Misc
 culture = graeling
-religion = dark_norse
+religion = norscan_gods
 
 
 # History

@@ -16,3 +16,7 @@ religion = old_faith
 
 
 # History
+
+2250.1.1 = {
+	b_efeuast = city
+}

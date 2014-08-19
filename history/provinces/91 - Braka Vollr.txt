@@ -11,7 +11,11 @@ b_roturavik = castle
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = slaanesh
 
 
 # History
+
+2250.1.1 = {
+	b_fdolvuum = temple
+}

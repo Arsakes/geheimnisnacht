@@ -12,7 +12,11 @@ b_isle_of_elska = temple
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_ygurnylsvik = city
+}

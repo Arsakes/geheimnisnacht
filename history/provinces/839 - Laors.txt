@@ -7,12 +7,12 @@ title = c_laors
 max_settlements = 4
 b_laors = castle
 b_cahoux = temple
-b_vance = castle
+#b_vance = castle
 #b_charlebourg = castle
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

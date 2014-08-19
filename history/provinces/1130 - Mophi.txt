@@ -7,10 +7,10 @@ title = c_mophi
 max_settlements = 3
 b_dakhla = castle
 b_buhen = city
-b_abidys = temple
+#b_abidys = temple
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 

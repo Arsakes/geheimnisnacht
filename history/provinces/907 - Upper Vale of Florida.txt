@@ -16,5 +16,5 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = nortagnese }

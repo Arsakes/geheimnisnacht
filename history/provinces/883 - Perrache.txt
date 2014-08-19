@@ -7,13 +7,17 @@ title = c_perrache
 max_settlements = 5
 b_perrache = castle
 b_sancers = temple
-b_charlac = castle
+#b_charlac = castle
 #b_raffard = city
 #b_armorac = temple
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_charlac = castle
+}

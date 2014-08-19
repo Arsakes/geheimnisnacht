@@ -7,13 +7,21 @@ title = c_utep
 max_settlements = 5
 b_utep = castle
 b_iougert = castle
-b_andjet = city
-b_nakhada = temple
-b_bakhu = city
+#b_andjet = temple
+#b_nakhada = temple
+#b_bakhu = city
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_andjet = temple
+}
+
+2500.1.1 = {
+	b_nakhada = temple
+}

@@ -6,13 +6,17 @@ title = c_krakjunov
 # Settlements
 max_settlements = 4
 b_krakjunov = castle
-b_schonsze = city
-b_czorn = temple
+#b_schonsze = city
+#b_czorn = temple
 #b_nevel = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_schonsze = city
+}

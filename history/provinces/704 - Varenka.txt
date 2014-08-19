@@ -11,7 +11,7 @@ b_maek_schloss = castle
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History

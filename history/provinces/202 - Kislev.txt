@@ -8,7 +8,7 @@ max_settlements = 7
 b_zimniy_dvorets = castle
 b_zvenkovya = castle
 b_borokovo = temple
-b_koztowny = city
+#b_koztowny = city
 #b_posantra = castle
 #b_ursenivo = temple
 #b_ustnidora = city
@@ -21,8 +21,16 @@ b_koztowny = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_koztowny = city
+}
+
+2500.1.1 = {
+	b_posantra = castle
+}

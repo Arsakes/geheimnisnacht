@@ -11,7 +11,7 @@ b_chateau_eponine = castle
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

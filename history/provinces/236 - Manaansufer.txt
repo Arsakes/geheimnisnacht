@@ -14,10 +14,14 @@ b_neues_emskrank = city
 
 # Misc
 culture = nordlander
-religion = sigmarite
+religion = manannite
 
 
 # History
+
+2250.1.1 = {
+	b_dreizack = city
+}
 
 2462.5.22 = { capital = b_neues_emskrank }
 

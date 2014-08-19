@@ -7,7 +7,7 @@ title = c_staslav
 max_settlements = 5
 b_vologda = castle
 b_gorodec = city
-b_tartu = temple
+b_northern_godss_teeth = temple
 #b_kobrin = city
 #b_laaniste = castle
 
@@ -17,3 +17,7 @@ religion = northern_gods
 
 
 # History
+
+2250.1.1 = {
+	b_kobrin = city
+}

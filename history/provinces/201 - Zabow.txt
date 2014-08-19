@@ -7,12 +7,16 @@ title = c_zabow
 max_settlements = 4
 b_zabow = castle
 b_kamysh = city
-b_svatinevo = temple
+#b_svatinevo = temple
 #b_irinasgrad = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_svatinevo = temple
+}

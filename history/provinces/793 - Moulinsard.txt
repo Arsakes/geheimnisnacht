@@ -12,7 +12,7 @@ b_oreal = city
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

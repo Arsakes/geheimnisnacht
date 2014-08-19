@@ -6,12 +6,16 @@ title = c_pugacheyev
 # Settlements
 max_settlements = 3
 b_pugacheyev = castle
-b_sochi = city
+#b_sochi = city
 #b_troitsk = temple
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_sochi = city
+}

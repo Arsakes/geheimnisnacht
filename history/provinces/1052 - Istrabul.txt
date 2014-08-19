@@ -9,7 +9,7 @@ b_istrabul = castle
 b_zarast = city
 b_hawa = temple
 b_utaq = castle
-b_mazab = castle
+#b_mazab = castle
 #b_rasyut = temple
 #b_slema = city
 
@@ -19,3 +19,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_mazab = castle
+}

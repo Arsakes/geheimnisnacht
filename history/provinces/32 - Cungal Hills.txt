@@ -5,13 +5,13 @@ title = c_cungal_hills
 
 # Settlements
 max_settlements = 3
-b_hyjular = castle
-b_welrstik = temple
+b_hyjular = temple
+b_welrstik = castle
 #b_opijylmun = city
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History

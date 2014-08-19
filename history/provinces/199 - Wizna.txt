@@ -6,12 +6,12 @@ title = c_wizna
 # Settlements
 max_settlements = 3
 b_wizna = castle
-b_mogocha = city
+#b_mogocha = city
 #b_kstovo = temple
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History

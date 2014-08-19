@@ -1,5 +1,5 @@
 #506 Sotomarca
-#County Title
+
 title = c_sotomarca
 
 #Settlements
@@ -11,6 +11,6 @@ b_castillo_franco = castle
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History

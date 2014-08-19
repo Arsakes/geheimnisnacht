@@ -6,6 +6,10 @@ liege="k_westerland"
 	holder = 600099
 }
 
-2498.4.12 = {
-	holder = 600156
+2498.4.26 = {
+	holder = 600132
+}
+
+2519.8.19 = {
+	holder = 600142
 }

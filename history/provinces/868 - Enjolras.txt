@@ -6,8 +6,8 @@ title = c_enjolras
 # Settlements
 max_settlements = 4
 b_grantaire = temple
-b_enjaux = city
-b_estaign = castle
+b_enjaux = temple
+#b_estaign = castle
 #b_champiagne = city
 
 # Misc
@@ -17,5 +17,9 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = breton }
+
+2250.1.1 = {
+	b_estaign = castle
+}

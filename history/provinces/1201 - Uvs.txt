@@ -4,13 +4,14 @@
 title = c_uvs
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_uvs = castle
 #b_kamniga = temple
 #b_umrad = city
+#b_telengar = city
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

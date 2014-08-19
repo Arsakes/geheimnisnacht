@@ -11,7 +11,7 @@ b_irbit = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History

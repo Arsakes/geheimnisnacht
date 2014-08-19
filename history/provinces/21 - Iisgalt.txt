@@ -7,12 +7,16 @@ title = c_iisgalt
 max_settlements = 4
 b_hinriksen = castle
 b_iisgalt = city
-b_kelda = temple
+#b_kelda = temple
 #b_stek = castle
 
 # Misc
 culture = bjornling
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_kelda = temple
+}

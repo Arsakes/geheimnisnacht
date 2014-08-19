@@ -25,6 +25,10 @@ b_neumarkt = city
 culture = middenlander
 religion = ulrican
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_freiburg = temple
+}

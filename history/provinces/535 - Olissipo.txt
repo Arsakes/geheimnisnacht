@@ -1,5 +1,5 @@
 #535 Olissipo
-#County Title
+
 title = c_olissipo
 
 #Settlements
@@ -12,6 +12,10 @@ b_himolosa = temple
 
 #Misc
 culture = avilian
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_varbasa = castle
+}

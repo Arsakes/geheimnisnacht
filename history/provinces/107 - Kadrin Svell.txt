@@ -10,7 +10,7 @@ b_grung_arezud = castle
 
 # Misc
 culture = dwarf_norse
-religion = ancestor_gods
+religion = norse_ancestor_gods
 
 
 # History

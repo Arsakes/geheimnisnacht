@@ -9,8 +9,8 @@ b_votioi = castle
 #b_besermy = temple
 
 # Misc
-culture = kvellig
-religion = chaos
+culture = gharhar
+religion = khorne
 
 
 # History

@@ -13,7 +13,7 @@ b_thouleon = castle
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

@@ -12,7 +12,7 @@ b_stavgard = city
 
 # Misc
 culture = bjornling
-religion = norse
+religion = norscan_gods
 
 
 # History

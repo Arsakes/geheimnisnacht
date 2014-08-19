@@ -11,7 +11,7 @@ b_abrasso = city
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
