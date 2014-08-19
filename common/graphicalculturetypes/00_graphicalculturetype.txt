@@ -128,3 +128,6 @@ skavengfx = {
 lizardmangfx = {
 	skin_tone = 1
 }
+kislevgfx = {
+	skin_tone = 0
+}

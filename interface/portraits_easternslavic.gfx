@@ -8,14 +8,14 @@ spriteTypes = {
 #
 
 	spriteType = {
-		name = "PORTRAIT_easternslavicgfx_child_male"
+		name = "PORTRAIT_kislevgfx_child_male"
 		texturefile = "gfx\\characters\\default_son_easternslavic.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_easternslavicgfx_child_female"
+		name = "PORTRAIT_kislevgfx_child_female"
 		texturefile = "gfx\\characters\\default_daughter_easternslavic.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -24,77 +24,77 @@ spriteTypes = {
 	### EASTERNSLAVIC MALE ####
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_clothes_behind"
+		name = "GFX_kislev_male_clothes_behind"
 		texturefile = "gfx\\characters\\kislev_male\\kislev_male_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_headgear_behind"
+		name = "GFX_kislev_male_headgear_behind"
 		texturefile = "gfx\\characters\\kislev_male\\kislev_male_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_base"
+		name = "GFX_kislev_male_base"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_base_midage"
+		name = "GFX_kislev_male_base_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_base_2.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_base_oldage"
+		name = "GFX_kislev_male_base_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_base_3.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair_behind"
+		name = "GFX_kislev_male_hair_behind"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_behind_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair_behind_midage"
+		name = "GFX_kislev_male_hair_behind_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_behind_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair_behind_oldage"
+		name = "GFX_kislev_male_hair_behind_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_behind_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard_behind"
+		name = "GFX_kislev_male_beard_behind"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_behind_1.dds"
 		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard_behind_midage"
+		name = "GFX_kislev_male_beard_behind_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_behind_2.dds"
 		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard_behind_oldage"
+		name = "GFX_kislev_male_beard_behind_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_behind_3.dds"
 		noOfFrames = 10
 		norefcount = yes
@@ -102,42 +102,42 @@ spriteTypes = {
 
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_cheeks"
+		name = "GFX_kislev_male_cheeks"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_cheeks_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_cheeks_midage"
+		name = "GFX_kislev_male_cheeks_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_cheeks_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_cheeks_oldage"
+		name = "GFX_kislev_male_cheeks_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_cheeks_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_neck"
+		name = "GFX_kislev_male_neck"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_neck_1.dds"
 		noOfFrames = 4
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_neck_midage"
+		name = "GFX_kislev_male_neck_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_neck_2.dds"
 		noOfFrames = 4
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_neck_oldage"
+		name = "GFX_kislev_male_neck_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_neck_3.dds"
 		noOfFrames = 4
 		norefcount = yes
@@ -146,63 +146,63 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_male_chin"
+		name = "GFX_kislev_male_chin"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_chin_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_chin_midage"
+		name = "GFX_kislev_male_chin_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_chin_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_chin_oldage"
+		name = "GFX_kislev_male_chin_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_chin_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_mouth"
+		name = "GFX_kislev_male_mouth"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_mouth_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_mouth_midage"
+		name = "GFX_kislev_male_mouth_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_mouth_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_mouth_oldage"
+		name = "GFX_kislev_male_mouth_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_mouth_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_nose"
+		name = "GFX_kislev_male_nose"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_nose_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_nose_midage"
+		name = "GFX_kislev_male_nose_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_nose_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_nose_oldage"
+		name = "GFX_kislev_male_nose_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_nose_3.dds"
 		noOfFrames = 13
 		norefcount = yes
@@ -210,35 +210,35 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_male_eyes"
+		name = "GFX_kislev_male_eyes"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_eyes_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_eyes_midage"
+		name = "GFX_kislev_male_eyes_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_eyes_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_eyes_oldage"
+		name = "GFX_kislev_male_eyes_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_eyes_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_eyes2"
+		name = "GFX_kislev_male_eyes2"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_eyes2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_headgear_mid"
+		name = "GFX_kislev_male_headgear_mid"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_headgear_mid.dds"
 		noOfFrames = 12
 		norefcount = yes
@@ -246,84 +246,84 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_male_ear"
+		name = "GFX_kislev_male_ear"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_ear_1.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_ear_midage"
+		name = "GFX_kislev_male_ear_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_ear_2.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_ear_oldage"
+		name = "GFX_kislev_male_ear_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_ear_3.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard"
+		name = "GFX_kislev_male_beard"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_1.dds"
 		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard_midage"
+		name = "GFX_kislev_male_beard_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_2.dds"
 		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_beard_oldage"
+		name = "GFX_kislev_male_beard_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_beard_3.dds"
 		noOfFrames = 10
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair"
+		name = "GFX_kislev_male_hair"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair_midage"
+		name = "GFX_kislev_male_hair_midage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_hair_oldage"
+		name = "GFX_kislev_male_hair_oldage"
 		texturefile = "gfx\\characters\\easternslavic_male\\easternslavic_male_hair_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_male_clothes"
+		name = "GFX_kislev_male_clothes"
 		texturefile = "gfx\\characters\\kislev_male\\kislev_male_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_clothes_infront"
+		name = "GFX_kislev_male_clothes_infront"
 		texturefile = "gfx\\characters\\kislev_male\\kislev_male_clothes_infront.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_male_headgear"
+		name = "GFX_kislev_male_headgear"
 		texturefile = "gfx\\characters\kislev_male\\kislev_male_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
@@ -333,33 +333,33 @@ spriteTypes = {
 
 	# easternslavic Male
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_male"
+		name = "PORTRAIT_kislevgfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
-			"GFX_easternslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind:p1:h:y"
-			"GFX_easternslavic_male_beard_behind:p4:h:y"
-			"GFX_easternslavic_male_base:p2"
-			"GFX_easternslavic_male_neck:d0"
-			"GFX_easternslavic_male_chin:d1"
-			"GFX_easternslavic_male_cheeks:d4"
-			"GFX_easternslavic_male_mouth:d2"
-			"GFX_easternslavic_male_nose:d3"
-			"GFX_easternslavic_male_eyes:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_kislev_male_clothes_behind:p3:c0"
+			"GFX_kislev_male_headgear_behind:p5:c1"
+			"GFX_kislev_male_hair_behind:p1:h:y"
+			"GFX_kislev_male_beard_behind:p4:h:y"
+			"GFX_kislev_male_base:p2"
+			"GFX_kislev_male_neck:d0"
+			"GFX_kislev_male_chin:d1"
+			"GFX_kislev_male_cheeks:d4"
+			"GFX_kislev_male_mouth:d2"
+			"GFX_kislev_male_nose:d3"
+			"GFX_kislev_male_eyes:d6"
+			"GFX_kislev_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_male_clothes:p3:c2"
-			"GFX_easternslavic_male_headgear_mid:p5:c3"
-			"GFX_easternslavic_male_ear:d7"			
-			"GFX_easternslavic_male_beard:p4:h:y"
-		   	"GFX_easternslavic_male_hair:p1:h:y"
-			"GFX_easternslavic_male_clothes_infront:p3:c4"
-			"GFX_easternslavic_male_headgear:p5:c5"
+			"GFX_kislev_male_clothes:p3:c2"
+			"GFX_kislev_male_headgear_mid:p5:c3"
+			"GFX_kislev_male_ear:d7"			
+			"GFX_kislev_male_beard:p4:h:y"
+		   	"GFX_kislev_male_hair:p1:h:y"
+			"GFX_kislev_male_clothes_infront:p3:c4"
+			"GFX_kislev_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -388,33 +388,33 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_male1"
+		name = "PORTRAIT_kislevgfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
-			"GFX_easternslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind_midage:p1:h:y"
-			"GFX_easternslavic_male_beard_behind_midage:p4:h:y"
-			"GFX_easternslavic_male_base_midage:p2"
-			"GFX_easternslavic_male_neck_midage:d0"
-			"GFX_easternslavic_male_chin_midage:d1"
-			"GFX_easternslavic_male_cheeks_midage:d4"
-			"GFX_easternslavic_male_mouth_midage:d2"
-			"GFX_easternslavic_male_nose_midage:d3"
-			"GFX_easternslavic_male_eyes_midage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_kislev_male_clothes_behind:p3:c0"
+			"GFX_kislev_male_headgear_behind:p5:c1"
+			"GFX_kislev_male_hair_behind_midage:p1:h:y"
+			"GFX_kislev_male_beard_behind_midage:p4:h:y"
+			"GFX_kislev_male_base_midage:p2"
+			"GFX_kislev_male_neck_midage:d0"
+			"GFX_kislev_male_chin_midage:d1"
+			"GFX_kislev_male_cheeks_midage:d4"
+			"GFX_kislev_male_mouth_midage:d2"
+			"GFX_kislev_male_nose_midage:d3"
+			"GFX_kislev_male_eyes_midage:d6"
+			"GFX_kislev_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_male_clothes:p3:c2"
-			"GFX_easternslavic_male_headgear_mid:p5:c3"
-			"GFX_easternslavic_male_ear_midage:d7"
-			"GFX_easternslavic_male_beard_midage:p4:h:y"
-			"GFX_easternslavic_male_hair_midage:p1:h:y"
-			"GFX_easternslavic_male_clothes_infront:p3:c4"
-			"GFX_easternslavic_male_headgear:p5:c5"
+			"GFX_kislev_male_clothes:p3:c2"
+			"GFX_kislev_male_headgear_mid:p5:c3"
+			"GFX_kislev_male_ear_midage:d7"
+			"GFX_kislev_male_beard_midage:p4:h:y"
+			"GFX_kislev_male_hair_midage:p1:h:y"
+			"GFX_kislev_male_clothes_infront:p3:c4"
+			"GFX_kislev_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -443,33 +443,33 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_male2"
+		name = "PORTRAIT_kislevgfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_male_clothes_behind:p3:c0"
-			"GFX_easternslavic_male_headgear_behind:p5:c1"
-			"GFX_easternslavic_male_hair_behind_oldage:p1:h:y"
-			"GFX_easternslavic_male_beard_behind_oldage:p4:h:y"
-			"GFX_easternslavic_male_base_oldage:p2"
-			"GFX_easternslavic_male_neck_oldage:d0"
-			"GFX_easternslavic_male_chin_oldage:d1"
-			"GFX_easternslavic_male_cheeks_oldage:d4"
-			"GFX_easternslavic_male_mouth_oldage:d2"
-			"GFX_easternslavic_male_nose_oldage:d3"
-			"GFX_easternslavic_male_eyes_oldage:d6"
-			"GFX_easternslavic_male_eyes2:d6:e"
+			"GFX_kislev_male_clothes_behind:p3:c0"
+			"GFX_kislev_male_headgear_behind:p5:c1"
+			"GFX_kislev_male_hair_behind_oldage:p1:h:y"
+			"GFX_kislev_male_beard_behind_oldage:p4:h:y"
+			"GFX_kislev_male_base_oldage:p2"
+			"GFX_kislev_male_neck_oldage:d0"
+			"GFX_kislev_male_chin_oldage:d1"
+			"GFX_kislev_male_cheeks_oldage:d4"
+			"GFX_kislev_male_mouth_oldage:d2"
+			"GFX_kislev_male_nose_oldage:d3"
+			"GFX_kislev_male_eyes_oldage:d6"
+			"GFX_kislev_male_eyes2:d6:e"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_male_clothes:p3:c2"
-			"GFX_easternslavic_male_headgear_mid:p5:c3"
-			"GFX_easternslavic_male_ear_oldage:d7"
-			"GFX_easternslavic_male_beard_oldage:p4:h:y"
-			"GFX_easternslavic_male_hair_oldage:p1:h:y"
-			"GFX_easternslavic_male_clothes_infront:p3:c4"
-			"GFX_easternslavic_male_headgear:p5:c5"
+			"GFX_kislev_male_clothes:p3:c2"
+			"GFX_kislev_male_headgear_mid:p5:c3"
+			"GFX_kislev_male_ear_oldage:d7"
+			"GFX_kislev_male_beard_oldage:p4:h:y"
+			"GFX_kislev_male_hair_oldage:p1:h:y"
+			"GFX_kislev_male_clothes_infront:p3:c4"
+			"GFX_kislev_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -497,56 +497,56 @@ spriteTypes = {
 #### EASTERNSLAVIC FEMALE ####
 
 	spriteType = {
-		name = "GFX_easternslavic_female_clothes_behind"
+		name = "GFX_kislev_female_clothes_behind"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_clothes_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_headgear_behind"
+		name = "GFX_kislev_female_headgear_behind"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_headgear_behind.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair_behind"
+		name = "GFX_kislev_female_hair_behind"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_behind_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair_behind_midage"
+		name = "GFX_kislev_female_hair_behind_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_behind_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair_behind_oldage"
+		name = "GFX_kislev_female_hair_behind_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_behind_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_base"
+		name = "GFX_kislev_female_base"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_base_1.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_base_midage"
+		name = "GFX_kislev_female_base_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_base_2.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_base_oldage"
+		name = "GFX_kislev_female_base_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_base_3.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -554,42 +554,42 @@ spriteTypes = {
 
 	
 	spriteType = {
-		name = "GFX_easternslavic_female_cheeks"
+		name = "GFX_kislev_female_cheeks"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_cheeks_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_female_cheeks_midage"
+		name = "GFX_kislev_female_cheeks_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_cheeks_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_female_cheeks_oldage"
+		name = "GFX_kislev_female_cheeks_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_cheeks_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_neck"
+		name = "GFX_kislev_female_neck"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_neck_1.dds"
 		noOfFrames = 4
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_neck_midage"
+		name = "GFX_kislev_female_neck_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_neck_2.dds"
 		noOfFrames = 4
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_neck_oldage"
+		name = "GFX_kislev_female_neck_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_neck_3.dds"
 		noOfFrames = 4
 		norefcount = yes
@@ -597,63 +597,63 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_female_chin"
+		name = "GFX_kislev_female_chin"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_chin_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_chin_midage"
+		name = "GFX_kislev_female_chin_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_chin_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_chin_oldage"
+		name = "GFX_kislev_female_chin_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_chin_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_mouth"
+		name = "GFX_kislev_female_mouth"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_mouth_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_mouth_midage"
+		name = "GFX_kislev_female_mouth_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_mouth_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_mouth_oldage"
+		name = "GFX_kislev_female_mouth_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_mouth_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_nose"
+		name = "GFX_kislev_female_nose"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_nose_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_nose_midage"
+		name = "GFX_kislev_female_nose_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_nose_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 	
 	spriteType = {
-		name = "GFX_easternslavic_female_nose_oldage"
+		name = "GFX_kislev_female_nose_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_nose_3.dds"
 		noOfFrames = 13
 		norefcount = yes
@@ -661,28 +661,28 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_female_eyes"
+		name = "GFX_kislev_female_eyes"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_eyes_1.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_eyes_midage"
+		name = "GFX_kislev_female_eyes_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_eyes_2.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_eyes_oldage"
+		name = "GFX_kislev_female_eyes_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_eyes_3.dds"
 		noOfFrames = 13
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_eyes2"
+		name = "GFX_kislev_female_eyes2"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_eyes2.dds"
 		noOfFrames = 13
 		norefcount = yes
@@ -690,56 +690,56 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_easternslavic_female_ear"
+		name = "GFX_kislev_female_ear"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_ear_1.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_ear_midage"
+		name = "GFX_kislev_female_ear_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_ear_2.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_ear_oldage"
+		name = "GFX_kislev_female_ear_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_ear_3.dds"
 		noOfFrames = 5
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_clothes"
+		name = "GFX_kislev_female_clothes"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_clothes.dds"
 		noOfFrames = 12
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair"
+		name = "GFX_kislev_female_hair"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair_midage"
+		name = "GFX_kislev_female_hair_midage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_hair_oldage"
+		name = "GFX_kislev_female_hair_oldage"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_hair_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_easternslavic_female_headgear"
+		name = "GFX_kislev_female_headgear"
 		texturefile = "gfx\\characters\\easternslavic_female\\easternslavic_female_headgear.dds"
 		noOfFrames = 12
 		norefcount = yes
@@ -749,31 +749,31 @@ spriteTypes = {
 
 	# easternslavic female
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_female"
+		name = "PORTRAIT_kislevgfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_easternslavic_female_hair_behind:p1:h:y"
-			"GFX_easternslavic_female_base:p2"
-			"GFX_easternslavic_female_neck:d0"
-			"GFX_easternslavic_female_mouth:d2"
-			"GFX_easternslavic_female_nose:d3"
-			"GFX_easternslavic_female_chin:d1"
-			"GFX_easternslavic_female_cheeks:d4"
-			"GFX_easternslavic_female_eyes:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear:d7"
+			"GFX_kislev_female_clothes_behind:p3:c0"
+			"GFX_kislev_female_headgear_behind:p5:c1"
+			"GFX_kislev_female_hair_behind:p1:h:y"
+			"GFX_kislev_female_base:p2"
+			"GFX_kislev_female_neck:d0"
+			"GFX_kislev_female_mouth:d2"
+			"GFX_kislev_female_nose:d3"
+			"GFX_kislev_female_chin:d1"
+			"GFX_kislev_female_cheeks:d4"
+			"GFX_kislev_female_eyes:d6"
+			"GFX_kislev_female_eyes2:d6:e"
+			"GFX_kislev_female_ear:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_kislev_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_female_hair:p1:h:y"
+			"GFX_kislev_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_kislev_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -801,31 +801,31 @@ spriteTypes = {
 
 	# easternslavic female midage
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_female1"
+		name = "PORTRAIT_kislevgfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_easternslavic_female_hair_behind_midage:p1:h:y"
-			"GFX_easternslavic_female_base_midage:p2"
-			"GFX_easternslavic_female_neck_midage:d0"
-			"GFX_easternslavic_female_mouth_midage:d2"
-			"GFX_easternslavic_female_nose_midage:d3"
-			"GFX_easternslavic_female_chin_midage:d1"
-			"GFX_easternslavic_female_cheeks_midage:d4"
-			"GFX_easternslavic_female_eyes_midage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_midage:d7"
+			"GFX_kislev_female_clothes_behind:p3:c0"
+			"GFX_kislev_female_headgear_behind:p5:c1"
+			"GFX_kislev_female_hair_behind_midage:p1:h:y"
+			"GFX_kislev_female_base_midage:p2"
+			"GFX_kislev_female_neck_midage:d0"
+			"GFX_kislev_female_mouth_midage:d2"
+			"GFX_kislev_female_nose_midage:d3"
+			"GFX_kislev_female_chin_midage:d1"
+			"GFX_kislev_female_cheeks_midage:d4"
+			"GFX_kislev_female_eyes_midage:d6"
+			"GFX_kislev_female_eyes2:d6:e"
+			"GFX_kislev_female_ear_midage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_kislev_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_female_hair_midage:p1:h:y"
+			"GFX_kislev_female_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_kislev_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -853,31 +853,31 @@ spriteTypes = {
 
 	# easternslavic female oldage
 	portraitType = {
-		name = "PORTRAIT_easternslavicgfx_female2"
+		name = "PORTRAIT_kislevgfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_easternslavic_female_hair_behind_oldage:p1:h:y"
-			"GFX_easternslavic_female_base_oldage:p2"
-			"GFX_easternslavic_female_neck_oldage:d0"
-			"GFX_easternslavic_female_mouth_oldage:d2"
-			"GFX_easternslavic_female_nose_oldage:d3"
-			"GFX_easternslavic_female_chin_oldage:d1"
-			"GFX_easternslavic_female_cheeks_oldage:d4"
-			"GFX_easternslavic_female_eyes_oldage:d6"
-			"GFX_easternslavic_female_eyes2:d6:e"
-			"GFX_easternslavic_female_ear_oldage:d7"
+			"GFX_kislev_female_clothes_behind:p3:c0"
+			"GFX_kislev_female_headgear_behind:p5:c1"
+			"GFX_kislev_female_hair_behind_oldage:p1:h:y"
+			"GFX_kislev_female_base_oldage:p2"
+			"GFX_kislev_female_neck_oldage:d0"
+			"GFX_kislev_female_mouth_oldage:d2"
+			"GFX_kislev_female_nose_oldage:d3"
+			"GFX_kislev_female_chin_oldage:d1"
+			"GFX_kislev_female_cheeks_oldage:d4"
+			"GFX_kislev_female_eyes_oldage:d6"
+			"GFX_kislev_female_eyes2:d6:e"
+			"GFX_kislev_female_ear_oldage:d7"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_easternslavic_female_clothes:p3:c2"
+			"GFX_kislev_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_easternslavic_female_hair_oldage:p1:h:y"
+			"GFX_kislev_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_kislev_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 

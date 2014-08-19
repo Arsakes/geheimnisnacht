@@ -17,14 +17,14 @@ objectTypes = {
 	#######################################################
 	#######################################################
 	#####											  #####
-	#####		        Russian						  #####
+	#####		        Kislev								  #####
 	#####											  #####
 	#######################################################
 	#######################################################
 	
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_INFANTRY"
+		name = "kislevgfx_LIGHT_INFANTRY"
 		actorfile = "gfx\models\Russian_Light_Infantry.xac"
 		
 		 idle   = "gfx\models\Russian_Infantry_2_Idle.xsm"
@@ -35,24 +35,24 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_INFANTRY_weapon"
+		name = "kislevgfx_LIGHT_INFANTRY_weapon"
 		actorfile = "gfx\models\Attachments\Russian_Axe_01.xac"
-		scale = 1.0f
+		scale = 1.2f # two handend weapon 1.0f
 	}
 		EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_INFANTRY_helmet"
+		name = "kislevgfx_LIGHT_INFANTRY_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"  
 		scale = 0.000001f
 	}
 		
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_INFANTRY_shield"
+		name = "kislevgfx_LIGHT_INFANTRY_shield"
 		actorfile = "gfx\models\Attachments\Russian_Light_Infantry_Shield.xac"
-		scale = 1.0f
+		scale = 0.000001f #kossars have two handed weapons 1.0f
 	}
 		
 	EMFXActorType = {
-		name = "easternslavicgfx_PIKEMEN"
+		name = "kislevgfx_PIKEMEN"
 		actorfile = "gfx\models\Russian_Pikeman.xac"
 		
 		 idle   = "gfx\models\pikeman_idle.xsm"
@@ -63,26 +63,26 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_PIKEMEN_weapon"
+		name = "kislevgfx_PIKEMEN_weapon"
 		actorfile = "gfx\models\Attachments\Russian_guisarme.xac"
 		scale = 1.0f
 	}
 		
 		EMFXActorType = {
-		name = "easternslavicgfx_PIKEMEN_helmet"
+		name = "kislevgfx_PIKEMEN_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"  
 		scale = 0.00001f
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_PIKEMEN_shield"
+		name = "kislevgfx_PIKEMEN_shield"
 		actorfile = "gfx\models\Attachments\Russian_Pikeman_Shield.xac"
 		scale = 0.00001f
 	}
 	
         # CHANGED MODEL TO LIGHT INFANTARY
 	EMFXActorType = {
-		name = "easternslavicgfx_ARCHERS"
+		name = "kislevgfx_ARCHERS"
 		#actorfile = "gfx\models\Russian_Archer.xac"
 		actorfile = "gfx\models\Russian_Light_Infantry.xac"
 		
@@ -96,7 +96,7 @@ objectTypes = {
 
 
 	EMFXActorType = {
-		name = "easternslavicgfx_ARCHERS_weapon"
+		name = "kislevgfx_ARCHERS_weapon"
 		actorfile = "gfx\models\Attachments\Russian_Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Russian_Arrow_idle.xsm"
@@ -107,7 +107,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_ARCHERS_shield"
+		name = "kislevgfx_ARCHERS_shield"
 		actorfile = "gfx\models\Attachments\Russian_Bow_02.xac"
 		
 		idle   = "gfx\models\Attachments\Russian_Bow_idle.xsm"
@@ -119,14 +119,14 @@ objectTypes = {
 	
 		
 	EMFXActorType = {
-		name = "easternslavicgfx_ARCHERS_helmet"
+		name = "kislevgfx_ARCHERS_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"  
 		scale = 0.000001f
 	}
 
 
 	EMFXActorType = {
-		name = "easternslavicgfx_HEAVY_INFANTRY"
+		name = "kislevgfx_HEAVY_INFANTRY"
 		actorfile = "gfx\models\Russian_Heavy_Infantry.xac"
 		
 		 idle   = "gfx\models\Russian_Infantry_2_Idle.xsm"
@@ -139,27 +139,27 @@ objectTypes = {
 
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_HEAVY_INFANTRY_weapon"
+		name = "kislevgfx_HEAVY_INFANTRY_weapon"
 		actorfile = "gfx\models\Attachments\Russian_sword.xac"
 
 		scale = 1.0f
 	}
 
 	EMFXActorType = {
-		name = "easternslavicgfx_HEAVY_INFANTRY_shield"
+		name = "kislevgfx_HEAVY_INFANTRY_shield"
 		actorfile = "gfx\models\Attachments\Russian_Heavy_Infantry_Shield.xac"
 		scale = 1.0f
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_HEAVY_INFANTRY_helmet"
+		name = "kislevgfx_HEAVY_INFANTRY_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"
 		scale = 0.00001f
 	}	
 
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_CAVALRY"
+		name = "kislevgfx_LIGHT_CAVALRY"
 		actorfile = "gfx\models\Russian_Light_Cavalry_Horse.xac"
 		
 		idle   = "gfx\models\Russian_Horse_2_Idle.xsm"
@@ -170,7 +170,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_CAVALRY_rider"
+		name = "kislevgfx_LIGHT_CAVALRY_rider"
 		actorfile = "gfx\models\Russian_Light_Cavalry.xac"
 		
 		 idle   = "gfx\models\Russian_Light_Cavalry_2_Idle.xsm"
@@ -181,20 +181,20 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_CAVALRY_weapon"
+		name = "kislevgfx_LIGHT_CAVALRY_weapon"
 		actorfile = "gfx\models\Attachments\Russian_pike.xac"
 		scale = 1.0f
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_LIGHT_CAVALRY_helmet"
+		name = "kislevgfx_LIGHT_CAVALRY_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"
 		scale = 0.000001f
 	}
 	
 	# Change to mongol archer (Kislevites use ungols horse archers which are similar to real life Mongols)
 	EMFXActorType = {
-		name = "easternslavicgfx_SPECIAL_TROOPS_rider"
+		name = "kislevgfx_SPECIAL_TROOPS_rider"
 		actorfile = "gfx\models\Mongol_Mounted_Archer.xac"
 		
 		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
@@ -205,7 +205,7 @@ objectTypes = {
 	}
 
 	EMFXActorType = {
-		name = "easternslavicgfx_SPECIAL_TROOPS"
+		name = "kislevgfx_SPECIAL_TROOPS"
 		actorfile = "gfx\models\Horse.xac"
 		
 		idle   = "gfx\models\Horse_Idle.xsm"
@@ -216,7 +216,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_SPECIAL_TROOPS_weapon"
+		name = "kislevgfx_SPECIAL_TROOPS_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
@@ -227,7 +227,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_SPECIAL_TROOPS_shield"
+		name = "kislevgfx_SPECIAL_TROOPS_shield"
 		actorfile = "gfx\models\Attachments\Bow_02.xac"
 		
 		idle   = "gfx\models\Attachments\Bow_idle.xsm"
@@ -240,13 +240,13 @@ objectTypes = {
 	# Old russian helmet (doesn't matter)
 		
 	EMFXActorType = {
-		name = "easternslavicgfx_SPECIAL_TROOPS_helmet"
+		name = "kislevgfx_SPECIAL_TROOPS_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"
 		scale = 0.0000001f
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_KNIGHTS"
+		name = "kislevgfx_KNIGHTS"
 		#actorfile = "gfx\models\Russian_Heavy_Horse.xac"
 		actorfile = "gfx\models\Russian_Light_Cavalry_Horse.xac"
 
@@ -258,7 +258,7 @@ objectTypes = {
 	}
 	# zamieniamy animacje
 	EMFXActorType = {
-		name = "easternslavicgfx_KNIGHTS_rider"
+		name = "kislevgfx_KNIGHTS_rider"
 		actorfile = "gfx\models\Russian_Heavy_Cavalry.xac"
 		
 		 idle   = "gfx\models\Russian_Knight_Idle.xsm"
@@ -270,7 +270,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_KNIGHTS_weapon"
+		name = "kislevgfx_KNIGHTS_weapon"
 		#actorfile = "gfx\models\Attachments\Russian_sword.xac"	
 		actorfile = "gfx\models\Attachments\Russian_pike.xac"
 
@@ -278,15 +278,15 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_KNIGHTS_helmet"
+		name = "kislevgfx_KNIGHTS_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_03.xac"
 		scale = 0.0000001f
 	}
 	
 	EMFXActorType = {
-		name = "easternslavicgfx_KNIGHTS_shield"
+		name = "kislevgfx_KNIGHTS_shield"
 		actorfile = "gfx\models\Attachments\Russian_Heavy_Cavalry_Shield.xac"
 		# no shield (so scaling to 0.000001 was 1.0
-		scale = 0.0000001f
+		scale = 0.000001f
 	}
 }
