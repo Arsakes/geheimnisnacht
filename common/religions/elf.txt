@@ -1,4 +1,4 @@
-cadai_gods_group = {
+cadai_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
@@ -22,10 +22,10 @@ cadai_gods_group = {
 		allow_rivermovement = yes
 		feminist = yes
 		female_temple_holders = yes
-	}	
+	}
 }
 
-cytharai_gods_group = {
+cytharai_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
@@ -49,45 +49,13 @@ cytharai_gods_group = {
 		
 		priests_can_marry = yes
 		aggression = 1.5 		
-		allow_looting = yes
-		allow_rivermovement = yes
-		female_temple_holders = yes
-		feminist = yes
-
-		max_consorts = 3
-		
-		pc_marriage = yes
-		bs_marriage = yes
-		psc_marriage = yes 
-	}	
-	
-	slaaneshi_druchii = {
-		graphical_culture = westerngfx
-
-		icon = 11
-		color = { 1.0 0.6 0.8 }
-		
-		god_names = {
-			GOD_SLAANESH GOD_THE_DARK_PRINCE GOD_THE_PRINCE_OF_EXCESS
-		}
-		
-		evil_god_names = {
-			GOD_ASURYAN
-		}
-		
-		crusade_name = "HOLY_WAR"
-		scripture_name = THE_PROPHETS
-		
-		priests_can_marry = yes
-		aggression = 1.5 		
-		allow_looting = yes
+		allow_looting = no
 		allow_rivermovement = yes
 		female_temple_holders = yes		
-		feminist = yes
 		max_consorts = 3
 		
 		pc_marriage = yes
 		bs_marriage = yes
 		psc_marriage = yes 
-	}	
+	}
 }

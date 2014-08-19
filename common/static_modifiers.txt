@@ -358,20 +358,20 @@ pretender_modifier = {
 ##########################################################################
 
 castle = {
-	tax_income = 4
-	fort_level = 2
-	build_time_modifier = 730
+	tax_income = 2
+	fort_level = 0
 	light_infantry = 50
-	heavy_infantry = 100
+	archers = 50
+	build_time_modifier = 730
 	build_cost_modifier = 600
 	levy_reinforce_rate = 1.25
 	land_organisation = 0.2
 }
 
 city = {
-	tax_income = 10
+	tax_income = 2
 	fort_level = 0
-	light_infantry = 75
+	light_infantry = 50
 	archers = 50
 	build_cost_modifier = 600
 	build_time_modifier = 730
@@ -380,9 +380,8 @@ city = {
 }
 
 temple = {
-	tax_income = 8
+	tax_income = 2
 	fort_level = 0
-	heavy_infantry = 50
 	light_infantry = 50
 	archers = 50
 	build_cost_modifier = 600
@@ -417,69 +416,6 @@ family_palace = {
 ##########################################################################
 
 default_culture_modifier = {
-}
-
-
-# EMPIRE
-empire_culture_modifier = {
-}
-
-# TILEA
-tilea_culture_modifier = {
-}
-
-# ESTALIA 
-estalia_culture_modifier = {
-}
-
-# NORSCA
-norsca_culture_modifier = {
-}
-
-# KURGANS
-kurgan_culture_modifer = {
-}
-
-# HUNGS
-hungs_culture_modifier = {
-}
-
-# KISLEV
-gospodar_culture_modifier = {
-	# stubborn
-	land_organisation = 0.1
-
-        # horsemanship
-	light_cavalry_offensive = 0.1
-	light_cavalry_defensive = 0.1
-	knights_offensive = 0.1
-	knights_defensive = 0.1
-}
-
-kislevite_culture_modifier = {
-	# stubborn, first against chaos
-	land_organisation = 0.1
-
-        # horsemanship
-	light_cavalry_offensive = 0.1
-	light_cavalry_defensive = 0.1
-	knights_offensive = 0.1
-	knights_defensive = 0.1
-        horse_archers_offensive = 0.05
-	horse_archers_defensive = 0.05
-
-}
-
-ungol_culture_modifier = {
-	# stubborn, first against chaos
-	land_organisation = 0.1
-
-        # master horse archers + kossars
-	horse_archers_offensive = 0.1
-	horse_archers_defensive = 0.1
-
-        light_infantry_defensive = 0.05
-
 }
 
 

@@ -18,7 +18,7 @@ horned_rat_god_group = {
 		crusade_name = "BLACK_CRUSADE"
 		scripture_name = LIBER_CHAOTICA
 		god_names = {
-			GOD_THE_GODS GOD_THE_DARK_ONES GOD_CHAOS_INCARNATE GOD_THE_RUINOUS_POWERS GOD_CHAOS
+			GOD_THE_HORNED_RAT
  		}
 		
 		evil_god_names = {
@@ -26,7 +26,10 @@ horned_rat_god_group = {
 		}
 		
 		priests_can_marry = yes
-		allow_rivermovement = yes
+		aggression = 2.5
+		peace_prestige_loss = yes
+		allow_looting = no
+		allow_rivermovement = no
 		female_temple_holders = no
 		can_hold_temples = yes
 	}

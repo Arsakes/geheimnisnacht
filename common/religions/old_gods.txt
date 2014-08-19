@@ -1,0 +1,86 @@
+old_gods_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = no
+
+	ai_convert_same_group = 1
+	ai_convert_other_group = 1
+		
+	norscan_gods = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.5 0.6 0.6 }
+		god_names = {
+			GOD_SPIRITS GOD_DARK_ONES GOD_ANCESTORS GOD_GODS
+		}
+
+		evil_god_names = {
+			GOD_THE_DARK_GODS
+		}
+		
+		
+		priests_can_marry = yes
+		aggression = 2.5 
+		peace_prestige_loss = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes		
+		max_consorts = 3
+	}
+		
+	northern_gods = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.5 0.6 0.6 }
+		god_names = {
+			GOD_SPIRITS GOD_DARK_ONES GOD_ANCESTORS GOD_GODS GOD_FIREBRINGER GOD_TOR GOD_DAZH GOD_URSUN GOD_BEARLORD GOD_THUNDERER 
+		}
+
+		evil_god_names = {
+			GOD_THE_DARK_GODS
+		}
+		
+		
+		priests_can_marry = yes
+		aggression = 2.0
+		peace_prestige_loss = yes
+		allow_looting = yes
+		allow_rivermovement = no
+		female_temple_holders = yes		
+		max_consorts = 3
+		
+		intermarry = shallyan
+		intermarry = ursun
+	}
+	
+	stromfels = {
+		graphical_culture = westerngfx
+
+		icon = 9
+		color = { 0.4 0.4 0.5 }
+		
+		scripture_name = THE_STORMS
+		
+		god_names = {
+			GOD_STROMFELS
+		}
+		
+		evil_god_names = {
+			GOD_THE_DARK_GODS
+		}
+		
+		priests_can_marry = yes
+		aggression = 1.5
+		peace_prestige_loss = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes	
+		
+		intermarry = shallyan
+	}	
+
+}

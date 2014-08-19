@@ -20,10 +20,8 @@ halfling_gods_group = {
 		scripture_name = THE_POT
 		
 		priests_can_marry = yes
-		allow_rivermovement = yes
+		allow_rivermovement = no
 		female_temple_holders = yes
-		feminist = yes		
-
 		can_hold_temples = yes
 	}
 }

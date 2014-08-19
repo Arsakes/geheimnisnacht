@@ -2,84 +2,21 @@
 lizardman_group = {
 	graphical_culture = westerngfx
 
-	hexaotl = {
+	lizardman = {
 		graphical_culture = norsegfx
 
 		color = { 0.3 0.6 0.3 }
 	
 		male_names = {
-		
+			Acacitli Acalan Acamapichtli Achcauhtli Acolmiztli Aculnahuacatl Acxocueitl Ahuiliztli Ahuitzotl Amoxtli Atl Atotoztli Axayacatl Ayauhcihuatl Azcalxochitzin Cacamatzin Camaxtli Centehua Chakax Chalchiuhticue Chalchiuitl Chicahua Chichimecacihuatzin Chicomecoatl Chimalli Chimalma Chimalpilli Chimalpopoca Chipahua Cihuaton Cipac Cipactli Citlali Citlalli Citlalmina Coanacoch Coatl Coaxoch Coszcatl Coyotl Cozahtli Cozamalotl Cualli Cuauhtemoc Cuauhtémoc Cuauhtl Cuetlachtli Cuetzpalli Cuicatl Cuitlahuac Cuixtli Ehecatl Eleuia Eloxochitl Etalpalli Eztli Gor-Rok Huehue-Zaca Huemac Huitzilihuitl Huitzilin Huitzilli Huitzitl Huitztecol Iccauhtli Ichtaca Icnoyotl Ihuicatl Ilhicamina Ilhuitl Iquehuacatzin Itotia Itzcoatl Itzcuintli Itzel Itzli Itztli Iuitl Ixcatzin Ixchel Ixtli Ixtlilxochitl Izel Kroq-Gar Kygor Mahchimaleh Mahuizoh Malinalxochitl Manauia Matlal Matlalatzin Matlalihuitl Matlatzincatzin Maxtla Mazatl Mecatl Meztli Miahuaxiuitl Mictlantecuhtli Milintica Miyaoaxochitl Mizquixahual Mizquixaual Miztli Moctezuma Momoztli Montezuma Moquihuix Moyolehuani Nahuatl Nakai Namacuix Necahual Necalli Necuametl Nelli Nenetl Nezahualcoyotl Nezahualpilli Nochehuatl Nochtli Nopaltzin Noxochicoztli Ocuil Ohtli Olli Ollin Opochtli Oxyotl Ozomatli Papa Papan Patli Quango Quauhtli Quetzal Quetzalcoatl Quetzalxochitl Quiauhxochitl Sacnite Tapayaxi Techichpotzin Tecocoltzin Tecolotl Teicuih Teiuc Tenenhauin Tenoch Teoxihuitl Tepiltzin Tepin Tetlepanquetzaltzin Tetto-Ekko Teuicui Teyacapan Tezcacoatl Tezcatlan Tezozomoc Tichi-Huchi Tiktaq-To Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlacelel Tlachinolli Tlaco Tlacoehua Tlacotl Tlahco Tlahcoehua Tlalli Tlaloc Tlanextic Tlanextli Tlazohtlaloni Tlazohtzin Tlazopilli Tlazozomizqui Tlexictli Tlilpotonqui Tochtli Toltecatl Tonalnan Tonauac Topiltzin Totoquihuaztli Tototl Tupac Tziquetzalpoztectzin Tzompantzin Ueman Uetzcayotl Xicohtencatl Xihuitl Xilonen Xiloxoch Xipil Xipilli Xiuhcoatl Xiuhpilli Xiuhtomiyauhtzin Xiuhtonal Xochicotzin Xochipepe Xochipilli Xochiquetzal Xochitl Xochiyotl Xoco Xocoh Xocoyotl Yaotl Yaretzi Yayauhqui Yolihuani Yolotli Yoloxochitl Yoltzin Yolyamanitzin Zaniyah Zeltzin Zipactonal Zolin Zuma Zyanya 
 		}
 		
 		female_names = {
-
+			Acacitli Acalan Acamapichtli Achcauhtli Acolmiztli Aculnahuacatl Acxocueitl Ahuiliztli Ahuitzotl Amoxtli Atl Atotoztli Axayacatl Ayauhcihuatl Azcalxochitzin Cacamatzin Camaxtli Centehua Chakax Chalchiuhticue Chalchiuitl Chicahua Chichimecacihuatzin Chicomecoatl Chimalli Chimalma Chimalpilli Chimalpopoca Chipahua Cihuaton Cipac Cipactli Citlali Citlalli Citlalmina Coanacoch Coatl Coaxoch Coszcatl Coyotl Cozahtli Cozamalotl Cualli Cuauhtemoc Cuauhtémoc Cuauhtl Cuetlachtli Cuetzpalli Cuicatl Cuitlahuac Cuixtli Ehecatl Eleuia Eloxochitl Etalpalli Eztli Gor-Rok Huehue-Zaca Huemac Huitzilihuitl Huitzilin Huitzilli Huitzitl Huitztecol Iccauhtli Ichtaca Icnoyotl Ihuicatl Ilhicamina Ilhuitl Iquehuacatzin Itotia Itzcoatl Itzcuintli Itzel Itzli Itztli Iuitl Ixcatzin Ixchel Ixtli Ixtlilxochitl Izel Kroq-Gar Kygor Mahchimaleh Mahuizoh Malinalxochitl Manauia Matlal Matlalatzin Matlalihuitl Matlatzincatzin Maxtla Mazatl Mecatl Meztli Miahuaxiuitl Mictlantecuhtli Milintica Miyaoaxochitl Mizquixahual Mizquixaual Miztli Moctezuma Momoztli Montezuma Moquihuix Moyolehuani Nahuatl Nakai Namacuix Necahual Necalli Necuametl Nelli Nenetl Nezahualcoyotl Nezahualpilli Nochehuatl Nochtli Nopaltzin Noxochicoztli Ocuil Ohtli Olli Ollin Opochtli Oxyotl Ozomatli Papa Papan Patli Quango Quauhtli Quetzal Quetzalcoatl Quetzalxochitl Quiauhxochitl Sacnite Tapayaxi Techichpotzin Tecocoltzin Tecolotl Teicuih Teiuc Tenenhauin Tenoch Teoxihuitl Tepiltzin Tepin Tetlepanquetzaltzin Tetto-Ekko Teuicui Teyacapan Tezcacoatl Tezcatlan Tezozomoc Tichi-Huchi Tiktaq-To Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlacelel Tlachinolli Tlaco Tlacoehua Tlacotl Tlahco Tlahcoehua Tlalli Tlaloc Tlanextic Tlanextli Tlazohtlaloni Tlazohtzin Tlazopilli Tlazozomizqui Tlexictli Tlilpotonqui Tochtli Toltecatl Tonalnan Tonauac Topiltzin Totoquihuaztli Tototl Tupac Tziquetzalpoztectzin Tzompantzin Ueman Uetzcayotl Xicohtencatl Xihuitl Xilonen Xiloxoch Xipil Xipilli Xiuhcoatl Xiuhpilli Xiuhtomiyauhtzin Xiuhtonal Xochicotzin Xochipepe Xochipilli Xochiquetzal Xochitl Xochiyotl Xoco Xocoh Xocoyotl Yaotl Yaretzi Yayauhqui Yolihuani Yolotli Yoloxochitl Yoltzin Yolyamanitzin Zaniyah Zeltzin Zipactonal Zolin Zuma Zyanya 
 		}
 
 		modifier = default_culture_modifier
 	}
 
-	tlaxtlan = {
-		graphical_culture = norsegfx
-
-		color = { 0.3 0.6 0.3 }
-	
-		male_names = {
-		
-		}
-		
-		female_names = {
-
-		}
-
-		modifier = default_culture_modifier
-	}
-
-	xlanhuapec = {
-		graphical_culture = norsegfx
-
-		color = { 0.3 0.6 0.3 }
-	
-		male_names = {
-		
-		}
-		
-		female_names = {
-
-		}
-
-		modifier = default_culture_modifier
-	}	
-
-	itza = {
-		graphical_culture = norsegfx
-
-		color = { 0.3 0.6 0.3 }
-	
-		male_names = {
-		
-		}
-		
-		female_names = {
-
-		}
-
-		modifier = default_culture_modifier
-	}	
-
-	zlatlan = {
-		graphical_culture = norsegfx
-
-		color = { 0.3 0.6 0.3 }
-	
-		male_names = {
-		
-		}
-		
-		female_names = {
-
-		}
-
-		modifier = default_culture_modifier
-	}	
 }
 

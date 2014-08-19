@@ -1,74 +1,164 @@
+#Rochelle Adelice Adelyn 
+Adelise Adile Aimie 
+Airelle Alcidie 
+Alexandre Alexanne Alexe 
+Alisse_Alice Alix-Anne Aliette 
+Allyriane Amaelle 
+Amaranthe Ambroisine 
+Amethyste Ananbele 
+Anastase Andree-Marie 
+Andree-Anne Andreline 
+Angelie Morgana_Morganna Aurelle 
+Anne-Solenne Anne-Laurie 
+Anne-Aurelie Anne-Fleur 
+Anne-Perrine Arabelle 
+Armeline Armentine 
+Arnaudine Aude-Marie 
+Aveline Azelie Avite 
+Balbine Belle Beline 
+Bernadette-Marie 
+Bernadette Bleuette 
+Camille Camille-Marie 
+Carenne Cassiopée 
+Cecile-Marie Causette 
+Ceres Cesarie Chanel 
+Chantal-Marie Chantal 
+Charlotte 
+Charlotte-Marie Cindelle 
+Claire Claire-Sophie 
+Claire-Anais Cloee 
+Damase Danaee Delle 
+Diane-Laure Diane 
+Delfine Dominiquette 
+Dorise Dosithee Effi 
+Eglee Elanie Elianne 
+Elise-Marie Elodie-Marie 
+Emmelie Epiphanie Estée 
+Felixe Filippa Fauste 
+Fabiene Floralie 
+Florie-Anne Frumence 
+Florissa Fleure Filomene 
+Gabie Galadriel Garence 
+Gemme Genereuse 
+Genevieve 
+Genevieve-Marie 
+Gillianne Gwanaelle 
+Gyslene Godelive 
+Hannelore Hegesippe 
+Helene-Marie Hersilie 
+Silie Hyancinthe Hervine 
+Herminie Idalie Idora 
+Ilisabete Iolande Ina 
+Inesse Iolande Isabele 
+Isabelle-Marie Isolde 
+Evette Ivette Jaelle 
+Janinne Jacquine Jolene 
+Jordanne Jozette Junie 
+Juste Kaline Jacquie 
+Kamille Kazmira Karel 
+Kyliane Koralie Kathiana 
+Laena Lamberte Laurdine 
+Laura-Line Laura-Anais 
+Laura-Amelie Laurry 
+Lazare Léandre Leocadie 
+Leoda Leonette Lillian 
+Lili-Marie Lili-Rose 
+Lieslotte Leonette 
+Line-Rose Linette Lizon 
+Loraine Ludovie Louella 
+Madalen Madelaine 
+Maigane Mame-Diarra 
+Mariane Marie-Adele 
+Marie-Augusta 
+Marie-Fleur Marie-Joele 
+Marie-Leontine 
+Marie-Rosalie 
+Marie-Severine Mathide 
+Marie-Celestine 
+Marie-Charlene 
+Maxellende Medaline 
+Minette Mirabelle 
+Mirelle Modeste 
+Montserrat Mignonne 
+Maxence Natalie Nataline 
+Nestorine Nicephore 
+Nieves Nolwenne Nonciade 
+Nolene Noellie Noee 
+Obeline Oculie Ofelie 
+Olympie Onesiphore 
+Orancie Orasie Orthense 
+Oscarine Ovida Olivine 
+Pacifique Pamphilia 
+Pascalie Pauline-Marie 
+Peronne Phanette 
+Philogene Pierette 
+Placidie Pomeline Pomme 
+Praxede Prisque Prospere 
+Pulcherie Prosperine 
+Pricille Querin Raymone 
+Reine-Claude Reine-Marie 
+Reinelde Reinette 
+Renee-Claire 
+Renee-Claude Renelise 
+Rose-Aimee Rosemee 
+Rosemarie Roselle Rosane 
+Rosalinde Romaine 
+Sabeline Salomee Sana 
+Sandes Santine Scarlette 
+Seraphie Seraphine 
+Seravaise Sibile 
+Sophie-Anne Sophie-Marie 
+Sosthene Surelie Syrine 
+Stelle Silvere Silvanie 
+Scarlette Sebastienne 
+Thaise Theodosie 
+Theotiste Therese-Marie 
+Thereze_Teresa Thien Toussainte 
+Tristane Thumette 
+Uguette Urbaine Ursuline 
+Valence Valerie 
+Valerie-Anne Valiamee 
+Venance Venerande 
+Victoriane_Victoria Victorienne_Victoria 
+Veronique-Marie 
+Veronique Verena_Verena Violene_Yolanda 
+Vincence Vivette 
+Vivienne Violette 
+Valerine Wissale Wieme 
+Wilfride Williane 
+Xaverine Xaviera Yaele 
+Yolene Yvonne_Yvonne Yolette 
+Yvonnette_Yvonne Yannique 
+Yolene Zelinda Zenobie 
+Zofia Zophie Zoee 
+Zephirine Zeline 
+
+#Aléa Alexandra Alexia Alice Alicia Aline Alix Amandine Ambre Amélie Anais Anaïs Ange Angele Anna Annabelle Anne Asta Audrey Aurelie Auréliia Aurore Béatrice Camille Caroline Cassandra Catarina Caterina Catherine Celia Céline Charlotte Chiara Chloé Claire Clara Clémence Clémentine Coline Coralie Cynthia Déborah Elisa Elisa Elisabeth Elise Elodie Eloïse Emilie Emma Estelle Florence Gaëlle Hélène Inès Isabelle Jaria Jeanne Jennifair  Jessi Jessica Jessica Julia Julie Juliette Juliette Justine Kelly Kim Laetitia Laura Laure Laurence Laurie Léa Leila Léna Lisa Louise Lucie Ludivine Lux Maelle Maïlis Manon Margaux Margot Maria Marie Marie Marine Marion Mathilde Megane Mélanie Mélina Mélissa Michelle Morgane Naomi Noémie Nora Nora Océane Ophélie Otilia Pauline Rachel Rose Sabrina Sandra Sara Sara Sarah Sofia Sophie Stephanie Stephanie Valentine Valerie Vanessa Victoria_Victoria Virginie Yasmine Zoe Zoé 
+#Achille Adrien Alan Albert Alex Alexandre Alexis Amara Andy Anthony Antoine Antonin Arnaud Arno Arthur Artur Axel Aymeric Bence Benjamin Benoit Benoît Cédric Christian Clement Corentin Cyril Damien David David Dorian Dylan Eliot Emile Florian Francois Fränk Gaëtan Gauthier Geoffrey Gilles Grégoire Grégory Guillaume Henri Hugo Ilias Inès Jasper Jean Jeanne Jérémy Jerome John Jonas Jonathan Jordan Julien Justin Karim Kévin Leopold Loïc Loris Louis Luca Lucas Ludovic Martin Mathieu Matteo Matthias Max Maxence Maxime Michael Michael Michel Mitchell Nathan Nicolas Olivier Patrick Péter Pierre Quentin Raphaël Robin Roland Romain Samuel Sebastien Simon Simon Stéphane Tanguy Thibault Thibaut Thomas Tom Valentin Vincent William Xavier 
 
 bretonnian_group = {
 	graphical_culture = westerngfx
 
 	armoric = {
 		graphical_culture = westerngfx
-	#Breton
+
 		color = { 0.3 0.7 0.7 }
 
 		male_names = {
-			Adalhard Afregar Aiden Aigulf Alan_Alan Alar_Alaric Alor Alwen_Alwyn Andrev_Andrew Anton_Antoninus Aodred Arc'hantael Arnald_Arnold
-			Arzhel Arzhur_Arthur 
-			Baldoen_Baldwin Ballaume Baudoin_Baldwin Beltram Benabic Bernez_Bernard Bertelis Blaez_Blaise Bodognous Bougars Bran_Bran Brendan Brevalaer Briac_Brian Brigacos Budoc
-			Carloman Chrodegang
-			Deniel_Daniel Derrien Devi_David Diomede Donan Drogon_Drogo 
-			Edern_Edyrn Edouarzh_Edward Emmerin Eon_John Eozen_Otto Erwan_Yves Eustace_Eustace Eustache_Eustace Everard Ewen 
-			Farulin Felix_Felix Ferragus Fragan Frañsez_Francis 
-			Gael_Judikael Gallmau Garin Gaston Gennovevs Girec Glen Godfrey Govran Gormou Gralon Gregor_Gregory Guido Guimarc'h Guyomarc'h Gwilherm_William 
-			Hamon Helori Herri_Henry Heranal Hesdren Hoël_Hugh Hrodbert Huiarnviu_Harvey 
-			Ilan Ildut Iocilin_Joscelin Iusti 
-			Jacen Jafrez_Godfrey Jakez_Jacob Jalm Jaoua Jehan_John Jermen Jilberzh_Gilbert Jord_Jordan Jos Judikael_Judikael 
-			Kado_Cadoc Kadvalaer Kaourantin Karadeg_Caradog Karlz_Charles Kavan Klaoda Konan_Conan Kongar Konwoion Koulizh 
-			Landuin Laorans_Laurence Leobas Leri Liudver Loeiz_Louis Louen_Louis Louis_Louis Lothar Lukaz_Lucas 
-			Maelog Maldred Mallobaude Marrec Marzhin_Martin Mazhe_Matthew Meriadeg Merovech Mihael_Michael Morvan 
-			Neven Nikolaz_Nicholas 
-			Odo Olier_Oliver Orderic
-			Padrig_Patrick Panteleon Paol_Paul Pêr_Peter Piers
-			Redemund Renan Riaged Riok Riwall Roland Ronan Roparzh_Robert 
-			Samzun Seog_George Sian_John Stefen_Stephen Suidbert
-			Tanet Tedbert Theudis Thierulf Treveur Tristan Tudual_Tewdwr Turtoualdus 
-			Urvod 
-			Vinsant_Vincent Vormvini
-			Waldon
-			Yann_John Yonec
+			Adalhard Afregar Aiden Aigulf Alan Alan_Alan Alar_Alaric Alor Alwen Alwen_Alwyn Alwena Andrev_Andrew Anton Anton_Antoninus Aodred Arc'hantael Arnald_Arnold Arzhael Arzhel Arzhur_Arthur Baldoen_Baldwin Ballaume Baudoin_Baldwin Beltram Benabic Bernez Bernez_Bernard Bertelis Blaez_Blaise Bodognous Bougars Bran_Bran Brandon Brendan Brevalaer Briac_Brian Brient Brigacos Budic Budoc Carloman Chrodegang Daniel_Daniel Deniel_Daniel Derrien Devi_David Diomede Donan Donoal_Donald Drogon Drogon_Drogo Edern Edern_Edyrn Edouarzh Edouarzh_Edward Emmerin Eneour Enisan Eon Eon_John Eozen Eozen_Otto Erispoe Erwan Erwan_Yves Eustace_Eustace Eustache_Eustace Everard Ewen Farulin Felix_Felix Ferragus Fragan Fransez_Francis Frañsez_Francis Gael_Judikael Gallmau Garin Gaston Gennovevs Girec Glen Godfrey Gormou Gourmaelon Govran Gralon Gregor_Gregory Guido Guimarc'h Gurwant Guy_Guy Guyomarc'h Gweltaz Gwenole Gwereg Gwilherm_William Hamon Helori Heranal Herri_Henry Hesdren Hoel Hoël_Hugh Hrodbert Huiarnviu_Harvey Ilan Ildut Iocilin_Joscelin Iusti Jacen Jafrez Jafrez_Godfrey Jakez Jakez_Jacob Jalm Jaoua Jehan Jehan_John Jermen Jilberzh_Gilbert Jord Jord_Jordan Jos Judikael Judikael_Judikael Kado_Cadoc Kadog_Cadoc Kadvalaer Kaourantin Karadeg Karadeg_Caradog Karlz_Charles Kavan Klaoda Konan Konan_Conan Kongar Konwoion Koulizh Landuin Laorans_Laurence Leobas Leri Liudver Loeiz_Louis Lothar Louen_Louis Louis_Louis Lukaz Lukaz_Lucas Maelog Maldred Mallobaude Marrec Marzhin_Martin Mazhe_Matthew Meogon Meriadeg Merovech Mihael_Michael Mikael_Michael Morvan Neven Nikolaz_Nicholas Nominoe Odo Olier_Oliver Orderic Padrig_Padrig Padrig_Patrick Panteleon Paol_Paul Pasquitan Pêr_Peter Piers Redemund Renan Riaged Riok Riwall Roche Roland Ronan Roparzh_Robert Salaün_Salamon Samzun Seog Seog_George Sian Sian_John Stefen_Stephen Suidbert Tanet Tedbert Theudis Thierulf Treveur Tristan Tudual_Tewdwr Turtoualdus Urvod Vinsant Vinsant_Vincent Vormvini Waldon Wiomarc'h Yann_John Yonec 
 		}
 		female_names = {
-			Adela_Adela Alana Alis_Alice Andreva Annick_Anna Aouregan Aourell Argantlon Armengild Arzhela Asceline Augustine Aurore Avenie Azenor_Eleanor Aziliz_Cecilia
-			Beladora Berc'hed_Brigid Bertha_Bertha  Berthildis_Bertha Bleuzenn_Blodwen Brendana 
-			Chrodegard
-			Deneza_Denise Deniela Dhuoda Drilego 
-			Ederna Elara Eleanor_Eleanor Elen_Helen Elena_Elaine Elesbed_Elisabeth Eliza_Elisabeth Enora Enougen Erwana_Yvonne 
-			Franseza Frenegrande
-			Gaela Gladez_Gwladys Gwenn_Gwen 
-			Hawiz_Hawise Heloise_Eloise Heodez Hoela Hrotswitha
-			Isolde Izolde 
-			Janed_Joan Jenovefa 
-			Karidwen Katell_Catherine Konstanza_Constance Kristen_Christina 
-			Laoransa Lara Levenez Lisseut Loeiza_Louise 
-			Madenn Maela Malfleur Manon Marc'harit_Margaret Mari_Maria Marie_Maria Marzhina Mathilde_Matilda Matilin_Magdalena Mona Morganez_Morganna Morvana 
-			Nedeleg Nimugild Nolwenn Nonn 
-			Oanez_Agnes
-			Padriga_Patricia Perlesault Prostlon 
-			Repanse Rhadegund Rivanon_Rhiannon Ronana Rozenn Rumengild
-			Seva Sirisgard Sonengund Sterenn Sulgwenn 
-			Tedvil Trifin Tristana 
-			Uriell
-			Vermengard
-			Walswitha
-			Youenna_Joan Ysabelle_Elisabeth
+			Adela_Adela Adelice Adelise Adelyn Adile Agnez_Agnes Aimie Airelle Alana Alcidie Alexandre Alexanne Alexe Aliette Alis_Alice Alisse_Alice Alix-Anne Allyriane Amaelle Amaranthe Ambroisine Amethyste Ananbele Anastase Andree-Anne Andree-Marie Andreline Andreva Angelie Anna_Anna Anne-Aurelie Anne-Fleur Anne-Laurie Anne-Perrine Anne-Solenne Annick Annick_Anna Aouregan Aourell Arabelle Argantlon Argentael Armeline Armengild Armentine Arnaudine Arzhela Asceline Aude-Marie Augustine Aurelle Aurore Aveline Avenie Avite Azelie Azenor Azenor_Eleanor Aziliz_Cecilia Aziliz_Cecilia Balbine Beladora Beline Belle Berc'hed_Brigid Bernadette Bernadette-Marie Bertha_Bertha Berthildis_Bertha Bleuette Bleuzenn_Blodwen Brendana Camille Camille-Marie Carenne Cassiopée Causette Cecile-Marie Ceres Cesarie Chanel Chantal Chantal-Marie Charlotte Charlotte-Marie Chrodegard Cindelle Claire Claire-Anais Claire-Sophie Cloee Damase Danaee Delfine Delle Deneza Deneza_Denise Deniela Dhuoda Diane Diane-Laure Dominiquette Dorise Dosithee Drilego Ederna Effi Eglee Elanie Elara Eleanor_Eleanor Elen_Helen Elena Elena_Elaine Elesbed_Elisabeth Elianne Elise-Marie Eliza Eliza_Elisabeth Elodie-Marie Emmelie Enora Enougen Epiphanie Erwana_Yvonne Estée Evette Fabiene Fauste Felixe Filippa Filomene Fleure Floralie Florie-Anne Florissa Franseza Frenegrande Frumence Gabie Gaela Galadriel Garence Gemme Genereuse Genevieve Genevieve-Marie Gillianne Gladez Gladez_Gwladys Godelive Gwanaelle Gwen_Gwen Gwenn_Gwen Gyslene Hannelore Hawiz Hawiz_Hawise Hegesippe Helene-Marie Heloise_Eloise Heodez Herminie Hersilie Hervine Hoela Hrotswitha Hyancinthe Idalie Idora Ilisabete Ina Inesse Iolande Isabele Isabelle-Marie Isolde Ivette Izolde Jacquie Jacquine Jaelle Janed Janed_Joan Janinne Jenovefa Jolene Jordanne Jozette Junie Juste Kaline Kamille Karel Karidwen Katell Katell_Catherine Kathiana Kazmira Klaoda_Claudia Konstanza_Constance Koralie Kristen_Christina Kyliane Laena Lamberte Laoransa Lara Laura-Amelie Laura-Anais Laura-Line Laurdine Laurry Lazare Léandre Leocadie Leoda Leonette Levenez Lieslotte Lili-Marie Lili-Rose Lillian Line-Rose Linette Lisseut Lizon Loeiza_Louise Loraine Louella Ludovie Madalen Madelaine Madenn Maela Maigane Malfleur Mame-Diarra Manon Marc'harit_Margaret Mari_Maria Mariane Marie_Maria Marie-Adele Marie-Augusta Marie-Celestine Marie-Charlene Marie-Fleur Marie-Joele Marie-Leontine Marie-Rosalie Marie-Severine Marzhina Mathide Mathilde_Matilda Matilin_Magdalena Maxellende Maxence Medaline Mignonne Minette Mirabelle Mirelle Modeste Mona Montserrat Morgana_Morganna Morganez_Morganna Morganez_Morganna Morvana Natalie Nataline Nedeleg Nestorine Nicephore Nieves Nimugild Ninnog Noee Noellie Nolene Nolwenn Nolwenne Nonciade Nonn Oanez Oanez_Agnes Obeline Oculie Ofelie Olivine Olympie Onesiphore Orancie Orasie Orthense Oscarine Ovida Pacifique Padriga_Patricia Pamphilia Pascalie Pauline-Marie Perlesault Peronne Phanette Philogene Pierette Placidie Pomeline Pomme Praxede Pricille Prisque Prospere Prosperine Prostlon Pulcherie Querin Raymone Reine-Claude Reine-Marie Reinelde Reinette Renee-Claire Renee-Claude Renelise Repanse Rhadegund Rivanon_Rhiannon Rochelle Romaine Ronana Rosalinde Rosane Rose-Aimee Roselle Rosemarie Rosemee Rozenn Rumengild Sabeline Salomee Sana Sandes Santine Scarlette Sebastienne Seraphie Seraphine Seravaise Seva Sibile Silie Silvanie Silvere Sirisgard Sonengund Sophie-Anne Sophie-Marie Sosthene Stelle Sterenn Sulgwenn Surelie Syrine Tedvil Thaise Theodosie Theotiste Therese-Marie Thereze_Teresa Thien Thumette Toussainte Trifin Tristana Tristane Uguette Urbaine Uriell Ursuline Valence Valerie Valerie-Anne Valerine Valiamee Venance Venerande Verena_Verena Vermengard Veronique Veronique-Marie Victoriane_Victoria Victorienne_Victoria Vincence Violene_Yolanda Violette Vivette Vivienne Walswitha Wieme Wilfride Williane Wissale Xaverine Xaviera Yaele Yannique Yolene Yolette Youenna_Joan Ysabelle_Elisabeth Yvonne_Yvonne Yvonnette_Yvonne Zelinda Zeline Zenobie Zephirine Zoee Zofia Zophie 
 		}
 		
 		from_dynasty_prefix = "de "
 
 		modifier = default_culture_modifier
 		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
@@ -76,7 +166,7 @@ bretonnian_group = {
 
 	bourgon = {
 		graphical_culture = westerngfx
-	#Walloon
+
 		color = { 0.1 0.3 0.5 }
 
 		male_names = {
@@ -95,7 +185,7 @@ bretonnian_group = {
 			Niclaès_Nicholas
 			Odo Olivier_Oliver Otto_Otto Otouin Onno Orderic
 			Panteleon Pieter_Peter Piers
-			Rebigner Redemund Reinerd Reinoud_Reinhold Reginar Renart Robrert_Robert Robert_Robert Rodulf Roelof Roland Rutger 
+			Rebigner Redemund Reinerd Reinoud_Reinhold Reginar Renart Robrert_Robert Robert_Robert Roche Rodulf Roelof Roland Rutger 
 			Sebastien_Sebastian Sicco Simon_Simon Steven_Stephen Stein_Sten Suidbert
 			Theodolf Thuidis
 			Vaelram Valter_Walter Viquer Volfard
@@ -105,10 +195,10 @@ bretonnian_group = {
 		female_names = {
 			Ada Adela_Adela Adelheide_Adelaide Aete Agaete Aleide Alise_Alice Aliquen Anna_Anna Annelies Armengild
 			Badeloge Bava Beatris_Beatrice Benedicta_Benedicta Blance_Blanche Blanceflore 
-			Cecilie_Cecilia Chrodegard Cille Clara_Clara Clementia Catrine_Catherine Catriene_Catherine
+			Cecilie_Cecilia Chrodegard Cille Cirielle Clara_Clara Clementia Catrine_Catherine Catriene_Catherine
 			Elisabete_Elisabeth Ellinore_Eleanor Emma_Emma Ermingarde_Ermengarde 
 			Fenne Filippa_Philippa Frida 
-			Ghertrude_Gertrude Guillemine Gerda Godila 
+			Ghertrude_Gertrude Guillemine Genevieve Gerda Godila 
 			Hadouine Helena_Helen Heloise_Eloise Herlinda Hilligonda Hrotwitha
 			Ide_Ida Imagina Irene_Irene Isabelle_Elisabeth Isolde Iudithe Ivonne_Yvonne
 			Jacoba Jaccobine Jasminne Johanna_Joan Jolanda Juliane_Juliana Jutte Jionefi 
@@ -117,7 +207,7 @@ bretonnian_group = {
 			Nimugild
 			Oda Odelte Olinde Onna 
 			Perlesault Pieternelle_Petronilla 
-			Rhadegund Reinilde 
+			Rhadegund Reinilde Rochelle
 			Sanne Sigerda Sirisgard Sophie_Sophia Sonengund Souanilde 
 			Teburga_Tiburge 
 			Valtrude Vila Vendelmètte Venna 
@@ -130,12 +220,10 @@ bretonnian_group = {
 
 		modifier = default_culture_modifier
 
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 60
 		mat_grf_name_chance = 10
 		father_name_chance = 10
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
@@ -161,7 +249,7 @@ bretonnian_group = {
 			Nicolas_Nicholas 
 			Ogier Onfroy Orson Othon_Otto
 			Payen_Pagan Philippe_Philip Pierre_Peter 
-			Raimbaut Raoul_Ralph Raymond_Raymond Raynaud_Reinhold Renaud_Reinhold Richard_Richard Robert_Robert Robin Roger_Roger Rorgon Rorgues Roubaud 
+			Raimbaut Raoul_Ralph Raymond_Raymond Raynaud_Reinhold Renaud_Reinhold Richard_Richard Robert_Robert Robin Roche Roger_Roger Rorgon Rorgues Roubaud 
 			Savary Sigismond_Sigmund Simon_Simon 
 			Thibault_Theobald Thiébaut_Theobald Thierry_Thierry Thomas_Thomas 
 			Valeran 
@@ -180,7 +268,7 @@ bretonnian_group = {
 			Jeanne_Joan Judith_Judith Julienne_Juliana 
 			Mafalda Mahaut_Mahaut Margot Marguerite_Margaret Marie_Maria Marthe_Martha Mascarose_Mascarosa Mathilde_Matilda Mélisande_Melisende Mélisende_Melisende Mélusine 
 			Péronelle_Peronella Pernelle_Peronella Perinne Pernette Plaisance_Plaisance 
-			Raymonde Renée
+			Raymonde Renée Rochelle
 			Sarrazine Solène Sophie_Sophia Stéphanie_Stephania Sybille_Sibylla 
 			Tiburge_Tiburge 
 			Valence_Yolanda 
@@ -191,12 +279,10 @@ bretonnian_group = {
 
 		modifier = default_culture_modifier
 
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 60
 		mat_grf_name_chance = 10
 		father_name_chance = 10
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 60
 		mother_name_chance = 10
@@ -204,7 +290,7 @@ bretonnian_group = {
 
 carcassian = {
 		graphical_culture = westerngfx
-		#Surfranco
+
 		color = { 0.8 0.4 0.7 }
 		male_names = {
 			Eduar_Edward Erardo Etieno_Stephen Adalberto_Albert Adémar Adrian Aimerín_Aymeric Alain Aldeberto_Albert Alderico Alphons_Alphonse Amaurín_Amalric
@@ -215,7 +301,7 @@ carcassian = {
 			Gui_Guy Heliés Hamelín Henrico_Henry Herberto Hildeberto Hugués_Hugh Humberto_Humbert Jaqués_Jacob Jaufrés_Godfrey Jasperto Jean_John Josselin_Joscelin
 			Jordan_Jordan Jules_Julian Léon Leonardo Lotaro Luis_Louis Lopo_Lupo Manassès Matel_Matthew Mauricio Nicolas_Nicholas Oger Onfrés Orsón Otón_Otto
 			Paen_Pagan Philippo_Philip Pirres_Peter Raimbaldo Raul_Ralph Raimundo_Raymond Rainaldo_Reinhold Renaldo_Reinhold Ricardo_Richard Roberto_Robert Robín Rogerio_Roger
-			Rorgón Rorgues Robaldo Savar Sigismundo_Sigmund Simon_Simon Tibaldo_Theobald Tiebaldo_Theobald Tierio_Thierry Tomás_Thomas Valeran Ives
+			Rorgón Rorgues Robaldo Savar Sigismundo_Sigmund Simon_Simon Tibaldo_Theobald Tiebaldo_Theobald Tierio_Thierry Tomás_Thomas Valeran Ives Roche
 		}
 		female_names = {
 			Eleonora_Eleanor Eloda Etienneta Adela_Adela Adalmoda_Almodis Adelaida_Adelaide Adelinda Agata_Agatha Agnès_Agnes Aléarda Alice_Alice Aliénor_Eleanor
@@ -225,7 +311,7 @@ carcassian = {
 			Gisela_Gisela Guillaumeta Heloisa_Eloise Helvisa Hodierna Ides_Ida Ida_Ida Ildegarda_Hildegard Isabel_Elisabeth Isabella_Elisabeth Jane_Joan Judite_Judith
 			Julena_Juliana Mafalda Marauta_Mahaut Margota Marguerita_Margaret Maria_Maria Marta_Martha Mascarosa_Mascarosa Matilda_Matilda Melisanda_Melisende
 			Melisenda_Melisende Melusina Peronela_Peronella Pernella_Peronella Perina Perneta Plaisança_Plaisance Raimonda Sarrazina Solena Sophia_Sophia
-			Estephania_Stephania Sibilla_Sibylla Tiburga_Tiburge Valença_Yolanda Iolanda_Yolanda 
+			Estephania_Stephania Sibilla_Sibylla Tiburga_Tiburge Valença_Yolanda Iolanda_Yolanda Rochelle
 		}
 		from_dynasty_prefix = "de "
 		grammar_transform = french
@@ -235,7 +321,7 @@ carcassian = {
 	
 	gascon = {
 		graphical_culture = westerngfx
-	#Occitan
+
 		color = { 0.2 0.4 0.6 }
 
 		male_names = { 
@@ -281,21 +367,20 @@ carcassian = {
 		from_dynasty_prefix = "de "
 		grammar_transform = french
 		
-		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 25
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 20
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
 	}
 
 	gisoren = {
 		graphical_culture = westerngfx
-	#Arpitan
+
 		color = { 0.3 0.3 0.7 }
 
 		male_names = {
@@ -322,31 +407,20 @@ carcassian = {
 			Variste_Evaristus Vensan_Vincent Venchian_Vincent Vitor_Victor Vitoren_Victor Vinsen_Vincent 
 			Zavié Zéfi
 		}
+		
 		female_names = {
-			Alesi_Alexis Alice_Alice Ana_Anna Anjèle_Angela Adèla_Adela Adalaïda_Adelaide Adeltrudis Agata_Agatha Agnès_Agnes Alaïs Alienòr_Eleanor Aliç_Alice Almòdis_Almodis Alpaïs Arsenda_Arsenda Assalhida Azalaïs Azelma
-			Bòna_Bonne Beatritz_Beatrice Berenguela Berta Blanca_Blanche Brandimena Bregida_Brigid Brunissenda 
-			Camila Carlòta Caterina_Catherine Cecilia_Cecilia Catèlena_Catherine Chiandine_Alexandra Chievie_Silvia Clara_Clara Clarmonda_Esclarmunda Clemència_Clementia Cloutilda_Clotilde Constància_Constance
-			Dèline_Adela Dolça_Douce
-			Estêl_Stella Estêr_Ester Elisa_Elisabeth Elisabèta_Elisabeth Emma_Emma Ermengarda_Ermengarde Ermessentz_Ermesinda Esclarmunda_Esclarmunda Estefania_Stephania Eufèmia Eufrosina_Euphrosyne Eisabèu_Elisabeth Elena_Helen Elienòr_Eleanor
-			Félésité_Felicia Filomène_Philomena Faidida Felipa_Philippa Flòra_Flora Francesa_Francesca
-			Giabet_Elisabeth Gioulie_Juliana Gllôda_Claudia Garcenda Geneviva Gerbèrga_Gerberga Gersenda Gisla_Gisela Guigone Guilheumina
-			Heloise_Eloise
-			Ioulanda_Yolanda Isabèu_Elisabeth Isabèla_Elisabeth 
-			Joana_Joan Juliana_Juliana 
-			Lúcia_Lucia Laura_Laura Leóunora_Eleanor Loïsa_Louise Léonora_Eleanor 
-			Madelêna_Magdalena Marie_Maria Margot_Margaret Marguita_Margaret Mârte_Martha Mabila Madalena_Magdalena
-			Margarida_Margaret Maria_Maria Marquisa Marta_Martha Mascaròsa_Mascarosa Matilda_Matilda Melisènda_Melisende
-			Nica_Veronica Nora_Eleanor Nourine_Honorina 
-			Orèlie_Aurelia 
-			Patricia_Patricia Peironèla_Peronella Petronilha_Petronilla Puelle Poulonie_Apollonia 
-			Raisenda Ramonda Richènda_Ricarda Rosèla Rosa
-			Serafine Selevie_Silvia Sança_Sancha Terèsa_Teresa
-			Téofile_Theophile Togneta_Antonia Tiborg_Tiburge
-			Vielgenie_Virginia Vitourine_Victoria Verounica Violent_Yolanda
-			Zenoubie_Zenobia
+			Adalaïda_Adelaide Adèla_Adela Adelice Adelise Adeltrudis Adelyn Adile Agata_Agatha Agnès_Agnes Aimie Airelle Alaïs Alcidie Aléa Alesi_Alexis Alexandra Alexandre Alexanne Alexe Alexia Aliç_Alice Alice Alice_Alice Alicia Alienòr_Eleanor Aliette Aline Alisse_Alice Alix Alix-Anne Allyriane Almòdis_Almodis Alpaïs Amaelle Amandine Amaranthe Ambre Ambroisine Amélie Amethyste Ana_Anna Anais Anaïs Ananbele Anastase Andree-Anne Andree-Marie Andreline Ange Angele Angelie Anjèle_Angela Anna Annabelle Anne Anne-Aurelie Anne-Fleur Anne-Laurie Anne-Perrine Anne-Solenne Arabelle Armeline Armentine Arnaudine Arsenda_Arsenda Assalhida Asta Aude-Marie Audrey Aurelie Auréliia Aurelle Aurore Aveline Avite Azalaïs Azelie Azelma Balbine Béatrice Beatritz_Beatrice Beline Belle Berenguela Bernadette Bernadette-Marie Berta Blanca_Blanche Bleuette Bòna_Bonne Brandimena Bregida_Brigid Brunissenda Camila Camille Camille-Marie Carenne Carlòta Caroline Cassandra Cassiopée Catarina Catèlena_Catherine Caterina Caterina_Catherine Catherine Causette Cecile-Marie Cecilia_Cecilia Celia Céline Ceres Cesarie Chanel Chantal Chantal-Marie Charlotte Charlotte-Marie Chiandine_Alexandra Chiara Chievie_Silvia Chloé Cindelle Claire Claire-Anais Claire-Sophie Clara Clara_Clara Clarmonda_Esclarmunda Clémence Clemència_Clementia Clémentine Cloee Cloutilda_Clotilde Coline Constància_Constance Coralie Cynthia Damase Danaee Déborah Delfine Dèline_Adela Delle Diane Diane-Laure Dolça_Douce Dominiquette Dorise Dosithee Effi Eglee Eisabèu_Elisabeth Elanie Elena_Helen Elianne Elienòr_Eleanor Elisa Elisa_Elisabeth Elisabèta_Elisabeth Elisabeth Elise Elise-Marie Elodie Elodie-Marie Eloïse Emilie Emma Emma_Emma Emmelie Epiphanie Ermengarda_Ermengarde Ermessentz_Ermesinda Esclarmunda_Esclarmunda Estée Estefania_Stephania Estêl_Stella Estelle Estêr_Ester Eufèmia Eufrosina_Euphrosyne Evette Fabiene Faidida Fauste Félésité_Felicia Felipa_Philippa Felixe Filippa Filomene Filomène_Philomena Fleure Flòra_Flora Floralie Florence Florie-Anne Florissa Francesa_Francesca Frumence Gabie Gaëlle Galadriel Garcenda Garence Gemme Genereuse Genevieve Genevieve-Marie Geneviva Gerbèrga_Gerberga Gersenda Giabet_Elisabeth Gillianne Gioulie_Juliana Gisla_Gisela Gllôda_Claudia Godelive Guigone Guilheumina Gwanaelle Gyslene Hannelore Hegesippe Hélène Helene-Marie Heloise_Eloise Herminie Hersilie Hervine Hyancinthe Idalie Idora Ilisabete Ina Inès Inesse Iolande Ioulanda_Yolanda Isabèla_Elisabeth Isabele Isabelle Isabelle-Marie Isabèu_Elisabeth Isolde Ivette Jacquie Jacquine Jaelle Janinne Jaria Jeanne Jennifair Jessi Jessica Joana_Joan Jolene Jordanne Jozette Julia Juliana_Juliana Julie Juliette Junie Juste Justine Kaline Kamille Karel Kathiana Kazmira Kelly Kim Koralie Kyliane Laena Laetitia Lamberte Laura Laura_Laura Laura-Amelie Laura-Anais Laura-Line Laurdine Laure Laurence Laurie Laurry Lazare Léa Léandre Leila Léna Leocadie Leoda Leonette Léonora_Eleanor Leóunora_Eleanor Lieslotte Lili-Marie Lili-Rose Lillian Line-Rose Linette Lisa Lizon Loïsa_Louise Loraine Louella Louise Lúcia_Lucia Lucie Ludivine Ludovie Lux Mabila Madalen Madalena_Magdalena Madelaine Madelêna_Magdalena Maelle Maigane Maïlis Mame-Diarra Manon Margarida_Margaret Margaux Margot Margot_Margaret Marguita_Margaret Maria Maria_Maria Mariane Marie Marie_Maria Marie-Adele Marie-Augusta Marie-Celestine Marie-Charlene Marie-Fleur Marie-Joele Marie-Leontine Marie-Rosalie Marie-Severine Marine Marion Marquisa Marta_Martha Mârte_Martha Mascaròsa_Mascarosa Mathide Mathilde Matilda_Matilda Maxellende Maxence Medaline Megane Mélanie Mélina Melisènda_Melisende Mélissa Michelle Mignonne Minette Mirabelle Mirelle Modeste Montserrat Morgana_Morganna Morgane Naomi Natalie Nataline Nestorine Nica_Veronica Nicephore Nieves Noee Noellie Noémie Nolene Nolwenne Nonciade Nora Nora_Eleanor Nourine_Honorina Obeline Océane Oculie Ofelie Olivine Olympie Onesiphore Ophélie Orancie Orasie Orèlie_Aurelia Orthense Oscarine Otilia Ovida Pacifique Pamphilia Pascalie Patricia_Patricia Pauline Pauline-Marie Peironèla_Peronella Peronne Petronilha_Petronilla Phanette Philogene Pierette Placidie Pomeline Pomme Poulonie_Apollonia Praxede Pricille Prisque Prospere Prosperine Puelle Pulcherie Querin Rachel Raisenda Ramonda Raymone Reine-Claude Reine-Marie Reinelde Reinette Renee-Claire Renee-Claude Renelise Richènda_Ricarda Rochelle Romaine Rosa Rosalinde Rosane Rose Rose-Aimee Rosèla Roselle Rosemarie Rosemee Sabeline Sabrina Salomee Sana Sança_Sancha Sandes Sandra Santine Sara Sarah Scarlette Sebastienne Selevie_Silvia Serafine Seraphie Seraphine Seravaise Sibile Silie Silvanie Silvere Sofia Sophie Sophie-Anne Sophie-Marie Sosthene Stelle Stephanie Surelie Syrine Téofile_Theophile Terèsa_Teresa Thaise Theodosie Theotiste Therese-Marie Thereze_Teresa Thien Thumette Tiborg_Tiburge Togneta_Antonia Toussainte Tristane Uguette Urbaine Ursuline Valence Valentine Valerie Valerie-Anne Valerine Valiamee Vanessa Venance Venerande Verena_Verena Veronique Veronique-Marie Verounica Victoria_Victoria Victoriane_Victoria Victorienne_Victoria Vielgenie_Virginia Vincence Violene_Yolanda Violent_Yolanda Violette Virginie Vitourine_Victoria Vivette Vivienne Wieme Wilfride Williane Wissale Xaverine Xaviera Yaele Yannique Yasmine Yolene Yolette Yvonne_Yvonne Yvonnette_Yvonne Zelinda Zeline Zenobie Zenoubie_Zenobia Zephirine Zoe Zoé Zoee Zofia Zophie 
 		}
 		from_dynasty_prefix = "de "
 		grammar_transform = french
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 
 		modifier = default_culture_modifier
 	}
@@ -354,7 +428,7 @@ carcassian = {
 	
 	mousillonian = {
 		graphical_culture = westerngfx
-	#Breton and Old Frankish
+
 		color = { 0.7 0.6 0.2 }
 
 		male_names = {
@@ -382,25 +456,17 @@ carcassian = {
 			Yann_John Yonec 
 		}
 		female_names = {
-			Adela_Adela Adelaide Alana Aldegonde Alis_Alice Alpaida Amalberga Andreva Annick_Anna Aouregan Aourell Aregund Argantlon Armengild Arzhela Asceline Audofleda Audovera Augustine Aurore Avenie Azenor_Eleanor Aziliz_Cecilia 
-			Basina Béatrice Begga Beladora Berc'hed_Brigid Bertha_Bertha Berthildis_Bertha Bertrada Beuve Bilichild Bleuzenn_Blodwen Brendana Brunhilda Chrodegard 
-			Deneza_Denise Deniela Deuteria Dhuoda Drilego 
-			Ederna Elara Eleanor_Eleanor Elen_Helen Elena_Elaine Elesbed_Elisabeth Eliza_Elisabeth Emma Engelberga Enora Enougen Ermengard Ermentrude Erwana_Yvonne 
-			Franseza Fredegund Frenegrande Gaela Gertrude Gisela Gladez_Gwladys Gudula Guilla Gundelina Guntheuc Gwenn_Gwen 
-			Hawiz_Hawise Heloise_Eloise Heodez Hildegard Himiltrude Hoela Hrotswitha 
-			Inhund Irmina Isolde Itta Izolde 
-			Janed_Joan Jenovefa 
-			Karidwen Katell_Catherine Konstanza_Constance Kristen_Christina Laoransa Lara Levenez Lisseut Loeiza_Louise Luitgard Madenn Maela Malfleur Manon Marc'harit_Margaret Mari_Maria Marie_Maria Marzhina Mathilde_Matilda Matilin_Magdalena Mona Monegundis Morganez_Morganna Morvana 
-			Nanthild Nedeleg Nimugild Nolwenn Nonn 
-			Oanez_Agnes Odile 
-			Padriga_Patricia Perlesault Pharaildis Plectrude Prostlon 
-			Regintrud Reineldis Repanse Rhadegund Richardis Richilde Rivanon_Rhiannon Ronana Rotrude Rozenn Rumengild Ruohaid 
-			Sadalberga Seva Sichilde Sirisgard Sonengund Sterenn Sulgwenn Swanachild 
-			Tedvil Teutberga Theodrada Trifin Tristana 
-			Ultrogotha Uriell 
-			Veleda Vermengard 
-			Waldrada Walswitha 
-			Youenna_Joan Ysabelle_Elisabeth 
+			Adela_Adela Adela_Adela Adelaide Adelice Adelise Adelyn Adile Agnez_Agnes Aimie Airelle Alana Alcidie Aldegonde Alexandre Alexanne Alexe Aliette Alis_Alice Alisse_Alice Alix-Anne Allyriane Alpaida Amaelle Amalberga Amaranthe Ambroisine Amethyste Ananbele Anastase Andree-Anne Andree-Marie Andreline Andreva Angelie Anna_Anna Anne-Aurelie Anne-Fleur Anne-Laurie Anne-Perrine Anne-Solenne Annick Annick_Anna Aouregan Aourell Arabelle Aregund Argantlon Argentael Armeline Armengild Armentine Arnaudine Arzhela Asceline Aude-Marie Audofleda Audovera Augustine Aurelle Aurore Aveline Avenie Avite Azelie Azenor Azenor_Eleanor Aziliz_Cecilia Aziliz_Cecilia 
+			Balbine Basina Béatrice Begga Beladora Beline Belle Berc'hed_Brigid Bernadette Bernadette-Marie Bertha_Bertha Berthildis_Bertha Bertrada Beuve Bilichild Bleuette Bleuzenn_Blodwen Brendana Brunhilda 
+			Camille Camille-Marie Carenne Cassiopée Causette Cecile-Marie Ceres Cesarie Chanel Chantal Chantal-Marie Charlotte Charlotte-Marie Chrodegard Cindelle Claire Claire-Anais Claire-Sophie Cloee 
+			Damase Danaee Delfine Delle Deneza Deneza_Denise Deniela Deuteria Dhuoda Diane Diane-Laure Dominiquette Dorise Dosithee Drilego Ederna Effi Eglee Elanie Elara Eleanor_Eleanor Elen_Helen Elena Elena_Elaine Elesbed_Elisabeth Elianne Elise-Marie Eliza Eliza_Elisabeth Elodie-Marie Emma Emmelie Engelberga Enora Enougen Epiphanie Ermengard Ermentrude Erwana_Yvonne Estée Evette Fabiene Fauste Felixe Filippa Filomene Fleure Floralie Florie-Anne Florissa Franseza Fredegund Frenegrande Frumence Gabie Gaela Galadriel Garence Gemme Genereuse Genevieve Genevieve-Marie Gertrude Gillianne Gisela Gladez Gladez_Gwladys Godelive Gudula Guilla Gundelina Guntheuc Gwanaelle Gwen_Gwen Gwenn_Gwen Gyslene Hannelore Hawiz Hawiz_Hawise Hegesippe Helene-Marie Heloise_Eloise Heodez Herminie Hersilie Hervine Hildegard Himiltrude Hoela Hrotswitha Hyancinthe Idalie Idora Ilisabete Ina Inesse Inhund Iolande Irmina Isabele Isabelle-Marie Isolde Itta Ivette Izolde Jacquie Jacquine Jaelle Janed Janed_Joan Janinne Jenovefa Jolene Jordanne Jozette Junie Juste Kaline Kamille Karel Karidwen Katell Katell_Catherine Kathiana Kazmira Klaoda_Claudia Konstanza_Constance Koralie Kristen_Christina Kyliane Laena Lamberte Laoransa Lara Laura-Amelie Laura-Anais Laura-Line Laurdine Laurry Lazare Léandre Leocadie Leoda Leonette Levenez Lieslotte Lili-Marie Lili-Rose Lillian Line-Rose Linette Lisseut Lizon Loeiza_Louise Loraine Louella Ludovie Luitgard Madalen Madelaine Madenn Maela Maigane Malfleur Mame-Diarra Manon Marc'harit_Margaret Mari_Maria Mariane Marie_Maria Marie-Adele Marie-Augusta Marie-Celestine Marie-Charlene Marie-Fleur Marie-Joele Marie-Leontine Marie-Rosalie Marie-Severine Marzhina Mathide Mathilde_Matilda Matilin_Magdalena Maxellende Maxence Medaline Mignonne Minette Mirabelle Mirelle Modeste Mona Monegundis Montserrat Morgana_Morganna Morganez_Morganna Morganez_Morganna Morvana Nanthild Natalie Nataline Nedeleg Nestorine Nicephore Nieves Nimugild Ninnog Noee Noellie Nolene Nolwenn Nolwenne Nonciade Nonn Oanez Oanez_Agnes Obeline Oculie Odile Ofelie Olivine Olympie Onesiphore Orancie Orasie Orthense Oscarine Ovida Pacifique Padriga_Patricia Pamphilia Pascalie Pauline-Marie Perlesault Peronne Phanette Pharaildis Philogene Pierette Placidie Plectrude Pomeline Pomme Praxede Pricille Prisque Prospere Prosperine Prostlon Pulcherie Querin Raymone Regintrud Reine-Claude Reine-Marie Reinelde Reineldis Reinette Renee-Claire Renee-Claude Renelise Repanse Rhadegund Richardis Richilde Rivanon_Rhiannon Rochelle Romaine Ronana Rosalinde Rosane Rose-Aimee Roselle Rosemarie Rosemee Rotrude Rozenn Rumengild Ruohaid Sabeline Sadalberga Salomee Sana Sandes Santine Scarlette Sebastienne Seraphie Seraphine Seravaise Seva Sibile Sichilde Silie Silvanie Silvere Sirisgard Sonengund Sophie-Anne Sophie-Marie Sosthene Stelle Sterenn Sulgwenn Surelie Swanachild Syrine 
+			Tedvil Teutberga Thaise Theodosie Theodrada Theotiste Therese-Marie Thereze_Teresa Thien Thumette Toussainte Trifin Tristana Tristane 
+			Uguette Ultrogotha Urbaine Uriell Ursuline 
+			Valence Valerie Valerie-Anne Valerine Valiamee Veleda Venance Venerande Verena_Verena Vermengard Veronique Veronique-Marie Victoriane_Victoria Victorienne_Victoria Vincence Violene_Yolanda Violette Vivette Vivienne 
+			Waldrada Walswitha Wieme Wilfride Williane Wissale 
+			Xaverine Xaviera 
+			Yaele Yannique Yolene Yolette Youenna_Joan Ysabelle_Elisabeth Yvonne_Yvonne Yvonnette_Yvonne 
+			Zelinda Zeline Zenobie Zephirine Zoee Zofia Zophie 
 		}
 	
 		
@@ -408,12 +474,10 @@ carcassian = {
 
 		modifier = default_culture_modifier
 		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 80
 		mat_grf_name_chance = 0
 		father_name_chance = 0
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
@@ -421,7 +485,7 @@ carcassian = {
 
 	nortagnese = {
 		graphical_culture = westerngfx
-	#Norman
+
 		color = { 0.8 0.1 0.2 }
 
 		male_names = {
@@ -470,12 +534,10 @@ carcassian = {
 		from_dynasty_prefix = "de "
 		grammar_transform = french
 				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 25
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 20
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
@@ -543,16 +605,56 @@ carcassian = {
 		from_dynasty_prefix = "de "
 		grammar_transform = french
 				
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 25
 		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 20
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 
 		modifier = default_culture_modifier
-	}	
+	}
+	
+	old_breton = {
+		graphical_culture = germangfx
+		
+		color = { 0.2 0.3 0.3 }
+		
+		male_names = {
+			Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn Andica Ansovald Arcambald 
+			Aregisel Arnegisel Ascaric Audovald Austregisel Autbert Autgari Autgeri Avremar Badegisel Balduin Barnard Berald Bernard Berneri 
+			Bero Berold Berthefried Bertlin Bertram Bertramn Bertrand Bertrann Burchard Carloman Carolus Ceslin Chararic Charibert Childebert 
+			Childeric Chilperic Chlodomer Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo Eberulf Ebregisel Elect Electe Engilbert 
+			Euric Everard Evrard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad Galteri Gararic 
+			Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert Gerhard Gerold Gilles Gislari Gislevert 
+			Gocelm Godalbert Godomar Gozhelm Grimald Grimoald Guadulf Gualtari Gualter Guillabert Guitard Gundobad Gunthar Guntram Haldemar Hartmut 
+			Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert Ingomer Lantbert Leudast Lothar Magnachar Magneric 
+			Mainard Mallobaudes Marachar Marcomer Marell Martin Maurifi Meginhard Merogais Merovech Munderic Odelric Odolric Otbert Otgeri Otker 
+			Pepin Pharamond Pippin Radulf Ragambald Ragena Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar Raynold 
+			Reginari Ricchar Rignomer Rotbert Ruotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold Sigebald Sigebert Sigeric 
+			Sigismund Sigobert Sinop Sunnegisil Sunno Tancrad Tancred Tassilo Teoderic Teotbert Tetbert Teutbald Teutbert Theoderic Theoric Theudebald 
+			Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari Waltgaud Werinbert Wilbert Willichar Wolfari
+		}
+		female_names = {
+			Adalgardis Adallinda Adaltrude Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aliberta Alitrudis Ansegudis Ansegundis
+			Arsindis Audofleda Audovera Austrechild Beretrude Bernegildis Bertenildis Berthefled Berthefried Berthegund Berthildis Bertrada 
+			Bladovildis Brunhild Celsa Celsovildis Chlodosind Chlothsinda Clotild Creada Dagena Eldesendis Ermengardis Ermengildis 
+			Ermensindis Faileuba Faregildis Fastrada Framberta Fredegunde Frolaica Frotberga Frotlildis Frotlina Galswinth Gaudildis Gautlindis 
+			Gersvinda Gisela Goiswinth Gotberga Gundrada Halderudis Harildis Hildegarde Hildegardis Hildesendis Hiltrude Illegardis Ingitrude 
+			Ingohildis Ingunde Landina Lanthechilde Lantsida Leubast Leubovera Leutberga Leutgardis Liutgarde Madelgarde Magnatrude Marcatrude 
+			Marcovefa Martinga Morberga Radegund Rigunth Rosamund Rothaide Rotrude Ruothilde Siclehildis Sigalsis Theodelinda Theoderada Ultrogotha 
+			Vuldretrada
+		}
+		
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
 }

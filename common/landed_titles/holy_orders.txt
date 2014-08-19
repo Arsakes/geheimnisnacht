@@ -247,6 +247,29 @@ d_sisters_of_faith_and_chastity = {
 	mercenary_type = d_sisters_of_faith_and_chastity_modifier
 }
 
+d_knights_of_the_cleansing_flame = {
+	color={ 160 160 160 }
+	color2={ 255 255 255 }
+	
+	#graphical_culture = holygfx
+	
+	capital = 357 #Averheim
+
+	religion = sigmarite
+	culture = averlander
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	holy_order = yes
+	landless = yes	
+	primary = yes	
+	independent = yes
+	
+	monthly_income = 3
+	
+	mercenary_type = d_knights_of_the_cleansing_flame_modifier
+}
 ###Myrmidia
 
 d_knights_blazing_sun = {
@@ -257,7 +280,7 @@ d_knights_blazing_sun = {
 	
 	capital = 330 #Talabheim
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = talabeclander
 	
 	title = "GRANDMASTER"
@@ -279,7 +302,7 @@ d_order_of_the_eagle = {
 	
 	capital = 553 #Magritta
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = avilian
 	
 	title = "GRANDMASTER"
@@ -303,7 +326,7 @@ d_order_of_the_righteous_spear = {
 	
 	capital = 553 #Magritta
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = obregonese
 	
 	title = "GRANDMASTER"
@@ -327,7 +350,7 @@ d_order_of_fury = {
 	
 	capital = 553 #Magritta
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = astur
 	
 	title = "GRANDMASTER"
@@ -351,7 +374,7 @@ d_knights_everlasting_light = {
 	
 	capital = 366 #Bechafen
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = ostermarker
 	
 	title = "GRANDMASTER"
@@ -375,7 +398,7 @@ d_knights_panther = {
 	
 	capital = 553 #Magritta
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = astur
 	
 	title = "GRANDMASTER"
@@ -399,7 +422,7 @@ d_order_of_sword_and_scale = {
 	
 	capital = 553 #Magritta
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = astur
 	
 	title = "GRANDMASTER"
@@ -523,7 +546,7 @@ d_knights_origo = {
 	
 	capital = 1021 #Fyrus
 
-	religion = lady_of_the_lake
+	religion = grail
 	culture = breton
 	
 	title = "GRANDMASTER"
@@ -547,7 +570,7 @@ d_knights_lily = {
 	
 	capital = 844 #Bastonne
 
-	religion = lady_of_the_lake
+	religion = grail
 	culture = breton
 	
 	title = "GRANDMASTER"
@@ -571,7 +594,7 @@ d_chevaliers_notre_dame_bataille = {
 	
 	capital = 884 #Quenelles
 
-	religion = lady_of_the_lake
+	religion = grail
 	culture = breton
 	
 	title = "GRANDMASTER"

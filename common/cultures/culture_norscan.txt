@@ -18,7 +18,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -46,10 +46,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -95,7 +95,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -123,10 +123,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -172,7 +172,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -200,10 +200,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -249,7 +249,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -277,10 +277,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -326,7 +326,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -354,10 +354,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -404,7 +404,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -432,10 +432,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -481,7 +481,7 @@ norscan_group = {
 			Játmundr Játvarðr Jedvard_Edward Jófreiðr Jokull Jólgeirr Jon_John Jón_John Jorundr Jósteinn Jósurr 
 			Kaðall Kálfr Kali Kalman Kári Karl_Charles Karli Kárr Ketilbiorn Ketill Kettilmund Kiallakr Kiaran Kiartan Kiotvi Kjartan Klængr Klas Klaufi Kleppiárn Klyppr Kniúkr Knorr Knottr Knut_Knut Koðrán Kol Kolbeinn Kolbiorn Kolbjörn Kolgrímr Kolli Kollr Kollsveinn Kolr Kolskeggr Konáll Kóri Kormákr Krumr Kúgaldi Kvistr Kýlan 
 			Lambi Leiðólfr Leif Loftr 
-			Magnus_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
+			Magnús_Magnus Máni Már Markus_Marcus Mats_Matthew Melpatrikr Móðólfr Morór Morten Mottull 
 			Naddoddr Nagli Narfi Nefsteinn Nereiðr Niklas_Nicholas Nikolás_Nicholas Nikulás_Nicholas Nils_Nicholas 
 			Óblauðr Oddbiorn Oddgeirr Oddi Oddleifr Oddmar Oddr Oddr_Odd Ofeig Ófeigr Ogmundr Ogurr Olafr_Olaf Óleifr Óli Olmóðr Olvir_Oliver Ondóttr Ongull Onundr Órækia Orlygr Ormarr Ormr Ormr_Orm Orn Ornólfr Örvar_Orvar Óspakr Ósvaldr Ósvífr Otkell Ótryggr Óttarr Ottarr_Ottar Öysteinn_Eysteinn Ozurr 
 			Páll Patrekr Pétr Ráðormr Ragi Ragnarr_Ragnar Rauðr Rauðúlfr Raumr Refil Refr Reistr Reyrketill Rikulfr Roðrekr Rognvaldr Rögnvaldr_Ragnvald Ronguðr Rúnólfr 
@@ -509,10 +509,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}
@@ -560,7 +560,7 @@ norscan_group = {
 			Jakob_Jacob Jarizleifr Jedvard_Edward Jens Joakim Jóhan_Johan Johan_John Jon_John Jón_John Jónas_Jonas Jónleif Jónleivur Jónsvein Jørgen Jørmundur Jørn Jörundur Jósup Josva Juli Július 
 			Kaleb Kari Kári Kári_Kar Karl_Charles Karli Karly Kettil Kettilmund Kjallakur_Cellach Kjartan Klas Knud_Knut Knut_Knut Kol Kolbein Kolbeinn_Kolbein Kolbjörn Kolli_Kollur Kollur_Kollur Kolskeggr Kristian_Christian Kristoffur 
 			Leif Lennart Lífeyjar Lodin Loðinn_Loden Loftur Ludvig_Louis 
-			Mads_Matthew Magnus_Magnus Malthe Már Markus_Marcus Markús_Marcus Mats_Matthew Mikkel_Michael Mogens Morten Mstislav_Mstislav 
+			Mads_Matthew Magnús_Magnus Malthe Már Markus_Marcus Markús_Marcus Mats_Matthew Mikkel_Michael Mogens Morten Mstislav_Mstislav 
 			Narfi_Navid Niklas_Nicholas Nils_Nicholas Nils_Nils Njálur 
 			Odd_Odd Oddbjørn Oddlaugr Oddr_Odd Oddur_Otto Ódin Ofeig Ófeigur Ogmund Óla Olaf_Olaf Olafr_Olaf Olav_Olaf Oleg_Helge Óleifr Óleifur_Olaf Oluf_Olaf Ølver Ölvir_Oliver Ônundr Önundur_Anund Órækja Orm_Orm Ormgeirr Ormika Ormr Ormr_Orm Ormulfr Ormur_Orm Örn_Arne Örnólfur_Arnulf Ørvar Orvar_Orvar Örvar_Orvar Ósníkin Óspaks Ossor Øssur Östen_Eysteinn Ottar Ottar_Ottar Ottarr_Ottar Óttarr_Ottar Øystein_Eysteinn Öysteinn_Eysteinn Ôzurr 
 			Paetur_Peter Pål_Paul Páll Palli Peder_Peter Pétur_Peter Poul Pridbjørn 
@@ -589,10 +589,10 @@ norscan_group = {
 			Niðbiorg 
 			Oddbiorg Oddfríðr Oddlaug Oddleif Oddný Ondót Ormhildr Ósk Otkatla 
 			Raforta Ragnheiðr Ragnhildr Reginleif Rikissa Riúpa Rögnfrið_Ragnfrid Rögnhildr_Ragnhild 
-			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
+			Sæhildr Sæuðr Saga Salbiorg Sara_Sarah Sif Signý Sigrid_Sigrid Sigríðr_Sigrid Skeggi Skuld Snælaug Sofia_Sophia Sóldögg Sólveig Solvor Steinunn Steinvor Svana Svanhildr_Svanhild Svanlaug 
 			Thióðgerðr Thióðhildr Thórarna Thorbiorg Thórdís Thórelfr Thórey Thorfinna Thorgerðr Thorgríma Thorkatla Thorlaug Thorleif Thorlót Thórný Thórodda Thórunn Thórvé Thórvor Thraslaug Tófa 
 			Úlfeiðr Úlfhildr Ulfhildr_Ulvhilde Úlfrún 
-			Valdís Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
+			Valdís Valgerður Védís Vélaug Véný Vigdis Vigdís Vilborg Vilgerðr 
 			Ylva_Ylva Yngvildr Ýrr Yrsa 
 			Þora_Thora Þordis_Thordis Þyra_Thyra 
 		}

@@ -12,6 +12,7 @@ d_snaegr = {
 	
 	capital	= 102 # Snaegrvold
 	culture = aesling
+	religion = norscan_gods
 }
 
 d_sortsvinaer = {
@@ -25,6 +26,7 @@ d_sortsvinaer = {
 	
 	capital	= 84 # Erkum
 	culture = varg
+	religion = norscan_gods
 }
 
 d_ursfjording = {
@@ -37,7 +39,9 @@ d_ursfjording = {
 	}
 	
 	capital	= 130 # Urslo
+	
 	culture = bjornling
+	religion = norscan_gods
 }
 
 d_varaland = {
@@ -51,6 +55,7 @@ d_varaland = {
 	
 	capital	= 23 # Trassel
 	culture = skaeling
+	religion = norscan_gods
 }
 
 d_bjorn = {
@@ -64,6 +69,7 @@ d_bjorn = {
 	
 	capital	= 20 # Stavgard
 	culture = bjornling
+	religion = norscan_gods
 }
 
 d_volva = {
@@ -76,7 +82,8 @@ d_volva = {
 	}
 	
 	capital	= 1 # Endring
-	culture = lettigallish
+	culture = graeling
+	religion = norscan_gods
 }
 
 d_kaamoas = {
@@ -90,6 +97,7 @@ d_kaamoas = {
 	
 	capital	= 9 # Kaamoas
 	culture = graeling
+	religion = norscan_gods
 }
 
 d_voltag = {
@@ -103,6 +111,7 @@ d_voltag = {
 	
 	capital	= 12 # Voltag
 	culture = graeling
+	religion = norscan_gods
 }
 
 d_valfisk = {
@@ -116,6 +125,7 @@ d_valfisk = {
 	
 	capital	= 38 # Hjemsokt Skog
 	culture = skaeling
+	religion = norscan_gods
 }
 
 d_wulf = {
@@ -129,6 +139,7 @@ d_wulf = {
 	
 	capital	= 141 # Wulfsiege
 	culture = sarl
+	religion = norscan_gods
 }
 
 d_skargi = {
@@ -142,6 +153,7 @@ d_skargi = {
 	
 	capital	= 96 # Kazad Dumond
 	culture = aesling
+	religion = norscan_gods
 }
 
 d_irtyskh = {
@@ -155,6 +167,7 @@ d_irtyskh = {
 	
 	capital	= 47 # Cardariborg
 	culture = varg
+	religion = norscan_gods
 }
 
 d_trolling = {
@@ -168,6 +181,7 @@ d_trolling = {
 	
 	capital	= 75 # Trollheim
 	culture = sarl
+	religion = norscan_gods
 }
 
 d_saimaakild = {
@@ -181,6 +195,7 @@ d_saimaakild = {
 	
 	capital	= 18 # Saimaakild
 	culture = bjornling
+	religion = norscan_gods
 }
 
 
@@ -195,6 +210,7 @@ d_muggelir = {
 	
 	capital	= 40 # Birka
 	culture = skaeling
+	religion = norscan_gods
 }
 
 
@@ -211,6 +227,7 @@ d_koskura = {
 	
 	capital	= 1203 # Khovd
 	culture = mung
+	religion = chaos
 }
 
 d_subui = {
@@ -224,6 +241,7 @@ d_subui = {
 	
 	capital	= 1207 # Khotaan
 	culture = mung
+	religion = chaos
 }
 
 d_khalkara = {
@@ -237,6 +255,7 @@ d_khalkara = {
 	
 	capital	= 1217 # Nur
 	culture = aghol
+	religion = chaos
 }
 
 d_chamsyts = {
@@ -250,6 +269,7 @@ d_chamsyts = {
 	
 	capital	= 1222 # Chamsyts
 	culture = kvellig
+	religion = chaos
 }
 
 d_votioi = {
@@ -263,6 +283,7 @@ d_votioi = {
 	
 	capital	= 1225 # Votioi
 	culture = kvellig
+	religion = chaos
 }
 
 d_ents = {
@@ -276,6 +297,7 @@ d_ents = {
 	
 	capital	= 1235 # Ents
 	culture = tahmak
+	religion = chaos
 }
 
 d_nerch = {
@@ -289,6 +311,7 @@ d_nerch = {
 	
 	capital	= 1212 # Nerchin
 	culture = aghol
+	religion = chaos
 }
 
 d_drago = {
@@ -302,6 +325,7 @@ d_drago = {
 	
 	capital	= 393 # Dragoynovo
 	culture = kul
+	religion = chaos
 }
 
 d_rataum = {
@@ -315,6 +339,7 @@ d_rataum = {
 	
 	capital	= 393 # Rataumyr
 	culture = dolgan
+	religion = chaos
 }
 
 d_zar = {
@@ -328,6 +353,7 @@ d_zar = {
 	
 	capital	= 393 # Ossarl
 	culture = dolgan
+	religion = chaos
 }
 
 d_kursh = {
@@ -341,6 +367,7 @@ d_kursh = {
 	
 	capital	= 393 # Kurshun
 	culture = dolgan
+	religion = chaos
 }
 
 k_gospodars = {
@@ -360,6 +387,7 @@ k_gospodars = {
 	}
 	
 	culture = gospodar
+	religion = ursun
 }
 
 k_ungols = {
@@ -379,6 +407,7 @@ k_ungols = {
 	}
 	
 	culture = ungol
+	religion = ursun
 }
 
 k_ropsmenn = {
@@ -398,4 +427,22 @@ k_ropsmenn = {
 	}
 	
 	culture = ropsmann
+	religion = ursun
+}
+
+k_tong = {
+	color = { 100 152 132 }
+
+	capital	= 948 #Zavkhan
+
+	short_name = yes	
+	
+	tribe = yes
+		
+	allow = {
+		always = no
+	}
+	
+	culture = tong
+	religion = chaos
 }
