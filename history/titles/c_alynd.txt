@@ -1,10 +1,10 @@
-2010.1.1=
-{
-liege="d_scarosio"
+
+2010.1.1 = {
+	holder = 4650010
 }
 
 2010.1.1 = {
-	holder = 400015
+	liege="d_scarosio"
 }
 
 2510.1.1 = {

@@ -6,14 +6,22 @@ title = c_havresse
 # Settlements
 max_settlements = 5
 b_gresgar_castle = castle
-b_chimay = temple
-b_tourrebourg = temple
-b_vareic = city
+#b_chimay = temple
+#b_tourrebourg = temple
+#b_vareic = city
 #b_joie_la_dame = temple
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_chimay = temple
+}
+
+2500.1.1 = {
+	b_tourrebourg = temple
+}

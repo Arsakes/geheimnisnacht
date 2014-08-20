@@ -9,8 +9,8 @@ b_nauk = castle
 #b_khanuy_gol = city
 
 # Misc
-culture = mung
-religion = chaos
+culture = aghol
+religion = tzeentch
 
 
 # History

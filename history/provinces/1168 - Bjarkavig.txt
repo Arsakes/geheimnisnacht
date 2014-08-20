@@ -11,7 +11,7 @@ b_worms = temple
 
 # Misc
 culture = bjornling
-religion = norse
+religion = norscan_gods
 
 
 # History

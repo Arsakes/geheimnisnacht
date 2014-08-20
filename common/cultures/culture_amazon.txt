@@ -2,16 +2,16 @@ amazon_group = {
 	graphical_culture = westerngfx
 
 	amazon_main = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 
-		color = { 1.0 0.4 0.1 }
+		color = { 0.1 0.7 0.1 }
 
 		male_names = {
-			Tom
-			     
+			Tom Torax
+
 		}
 		female_names = {
-			Aanchal Abibat Abosede Absa Acantha Achcauhtli Acxocueitl Adah Ademola Aditi Adrasteia Aegle Aella Aello Aeron Agaue Aglaea Aglaia Agrona Ahuiliztli Aicha Aida Aigle Ainia Ainippe Aino Aisha Aishwarya Aissatou Akachi Akanksha Akansha Akantha Akeyo Alcibie Alcinoe Alcippe Alcyone Alecto Alekto Alexandra Aliah Alimi Aline Alisha Alkaia Alkippe Alkyone Ally Althea Ama Amalthea Amaterasu Ameretat Amina Aminata Amordad Amoxtli Amurdad Amynomene Anaea Anahita Anaitis Anamika Ananta Ananya Anat Anath Anatu Anaxilea Andraste Androdameia Andromache Andromeda Angel Angerona Angharad Anipa Anisha Anja Anjali Anoushka Anqi Anta Antandre Anthea Antheia Antianara Antianeira Antibrote Antigone Antimache Antimachos Antiope Antiopeia Antsa Anumeha Anumeya Anushree Aoede Aoide Aoife Aphrodite Apoorva Arachne Arame Aranrhod Archana Archita Arethusa Areto Areximacha Ariadne Arianrhod Arielle Aristomache Aron Artemis Arti Arundhati Ash Asherah Ashtad Ashtoret Ashtoreth Astarte Asteria Astou Astraea Astraia Aswini Atalanta Athena Athene Atl Atotoztli Atropos Aurelia Aurora Austeja Awa Axelle Ayauhcihuatl Ayycha Azcalxochitzin Azu Azura 
+			Aanchal Abibat Abosede Absa Acantha Achcauhtli Acxocueitl Adah Ademola Aditi Adrasteia Adrastia Aegle Aella Aello Aeron Agaue Aglaea Aglaia Agrona Ahuiliztli Aicha Aida Aigle Ainia Ainippe Aino Aisha Aishwarya Aissatou Akachi Akanksha Akansha Akantha Akeyo Alcibie Alcinoe Alcippe Alcyone Alecto Alekto Alexandra Aliah Alimi Aline Alisha Alkaia Alkippe Alkyone Ally Althea Ama Amalthea Amaterasu Ameretat Amina Aminata Amordad Amoxtli Amurdad Amynomene Anaea Anahita Anaitis Anamika Ananta Ananya Anat Anath Anatu Anaxilea Andraste Androdameia Andromache Andromeda Angel Angerona Angharad Anipa Anisha Anja Anjali Anoushka Anqi Anta Antandre Anthea Antheia Antianara Antianeira Antibrote Antigone Antimache Antimachos Antiope Antiopeia Antsa Anumeha Anumeya Anushree Aoede Aoide Aoife Aphrodite Apoorva Arachne Arame Aranrhod Archana Archita Arethusa Areto Areximacha Ariadne Arianrhod Arielle Aristomache Aron Artemis Arti Arundhati Ash Asherah Ashtad Ashtoret Ashtoreth Astarte Asteria Astou Astraea Astraia Aswini Atalanta Athena Athene Atl Atotoztli Atropos Aurelia Aurora Austeja Awa Axelle Ayauhcihuatl Ayycha Azcalxochitzin Azu Azura 
 			Bala Bast Bastet Bébinn Bellona Belyse Bethsheba Bhagirathy Bhumi Bilquees Bineta Binta Bláthnat Blodeuwedd Bobete Borghild Borghildr Branwen Bremusa Bridget Brighid Brigid Brigit Briseis Brunhild Brünhild Brynhildr 
 			Calliope Callisto Calypso Camilla Cardea Carme Cassandra Cassiopea Cassiopeia Céibhfhionn Celaneo Centehua Ceres Ceridwen Chalchiuhticue Chalchiuitl Chanchal Chandra Cherissa Chi Chicahua Chichimecacihuatzin Chicomecoatl Chimalma Chimdalu Chimene Chinwe Chipahua Chloe Chloris Chryseis Chukwu Cihuaton Circe Citlali Citlalli Citlalmina Clete Clídna Clio Clíodhna Clotho Clyemne Clytemnestra Clytia Coaxoch Concordia Coszcatl Coumba Cozamalotl Cuicatl Cybele Cynthia 
 			Dalia Damaris Damayanti Dammie Danaë Daphne Deepthi Deianeira Deinomache Deirdre Dekala Delia Demeter Derdriu Derimacheia Derinoe Despoina Devi Devine Diamondra Diana Diarra Diatou Dido Dieyna Dieynaba Dike Diksha Dione Diop Diouma Divya Diya Domoina Doris Draupadi Durga Dykha 
@@ -36,19 +36,16 @@ amazon_group = {
 			Wanjiku Wendala Wisfavour Wivine 
 			Xanthe Xanthippe Xena Xilonen Xiloxoch Xiuhtomiyauhtzin Xochiquetzal Xochitl Xocoh Xocoyotl 
 			Yacine Yami Yaretzi Yeshi Yoltzin Ysolt 
-			Zaramama Zayb Zeina Zeltzin Zeynab Živa Zorah Zuzu Zyanya 
+			Zaramama Zayb Zeina Zeltzin Zena Zene Zeynab Živa Zorah Zuzu Zyanya 
 		}
 
-		male_patronym = ""
-		female_patronym = ""
-
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 5
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
 		father_name_chance = 0
 
-		pat_grm_name_chance = 5
-		mat_grm_name_chance = 40
-		mother_name_chance = 0
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 50
+		mother_name_chance = 20
 		
 		modifier = default_culture_modifier
 	}

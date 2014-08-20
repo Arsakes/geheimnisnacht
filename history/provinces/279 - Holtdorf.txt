@@ -7,7 +7,7 @@ title = c_holtdorf
 max_settlements = 5
 b_holtdorf = castle
 b_kehl = city
-#b_leonberg = city
+#b_leonberg = temple
 #b_boxberg = temple
 #b_itzehoe = castle
 
@@ -17,3 +17,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_leonberg = temple
+}

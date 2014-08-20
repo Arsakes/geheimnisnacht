@@ -5,9 +5,9 @@ title = c_eyland_feiknstafir
 
 # Settlements
 max_settlements = 4
-b_endi = castle
+b_endi = temple
 b_spa = temple
-b_lognbu = temple
+b_lognbu = castle
 #b_aratulizids_rest = temple
 
 # Misc

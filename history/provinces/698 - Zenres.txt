@@ -11,7 +11,7 @@ b_castelvin = castle
 
 # Misc
 culture = tierrasman
-religion = classical_gods
+religion = myrmidian
 
 
 # History

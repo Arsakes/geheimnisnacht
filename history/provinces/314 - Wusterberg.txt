@@ -6,8 +6,8 @@ title = c_wusterberg
 # Settlements
 max_settlements = 4
 b_wusterberg = castle
-b_eigenhof = city
-b_rotenbach = city
+b_eigenhof = temple
+#b_rotenbach = city
 #b_segeberg = city
 
 # Misc
@@ -16,3 +16,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_rotenbach = city
+}

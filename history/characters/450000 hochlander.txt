@@ -1,59 +1,59 @@
 450000={
-name = "Gottschalk"
-dynasty = 17004
-father = 450022
-mother = 450024
-culture = hochlander
-religion = ulrican
-martial = 2
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 9
-add_trait = "impaler"
-add_trait = "elusive_shadow"
-add_trait = "kind"
-add_trait = "craven"
-add_trait = "honest"
+name="Gottschalk"
+dynasty=17004
+father=450022
+mother=450024
+culture=hochlander
+religion=ulrican
+martial=2
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=9
+add_trait="impaler"
+add_trait="elusive_shadow"
+add_trait="kind"
+add_trait="craven"
+add_trait="honest"
 
 2006.12.14={birth=yes}
 2040.5.20={death=yes}
 }
 
 450001={
-name = "Detlef"
-dynasty = 17025
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 5
-stewardship = 2
-intrigue = 4
-learning = 7
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
-add_trait = "gregarious"
+name="Detlef"
+dynasty=17025
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=5
+stewardship=2
+intrigue=4
+learning=7
+add_trait="scholar"
+add_trait="underhanded_rogue"
+add_trait="gregarious"
 
-add_trait = "greedy"
+add_trait="greedy"
 
 1987.10.4={birth=yes}
 2020.2.7={death=yes}
 }
 
 450002={
-name = "Julianne"
-female = yes
-dynasty = 17041
-culture = hochlander
-religion = ulrican
-martial = 1
-diplomacy = 7
-stewardship = 9
-intrigue = 3
-learning = 2
-add_trait = "falconer"
-add_trait = "fortune_builder"
-add_trait = "strong"
+name="Julianne"
+female=yes
+dynasty=17041
+culture=hochlander
+religion=ulrican
+martial=1
+diplomacy=7
+stewardship=9
+intrigue=3
+learning=2
+add_trait="falconer"
+add_trait="fortune_builder"
+add_trait="strong"
 
 
 1995.9.2={birth=yes}
@@ -61,82 +61,82 @@ add_trait = "strong"
 }
 
 450003={
-name = "Cacilie"
-female = yes
-dynasty = 17051
-culture = hochlander
-religion = ulrican
-martial = 2
-diplomacy = 4
-stewardship = 10
-intrigue = 6
-learning = 6
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
-add_trait = "cruel"
+name="Cacilie"
+female=yes
+dynasty=17051
+culture=hochlander
+religion=ulrican
+martial=2
+diplomacy=4
+stewardship=10
+intrigue=6
+learning=6
+add_trait="hedonist"
+add_trait="underhanded_rogue"
+add_trait="cruel"
 
-add_trait = "temperate"
+add_trait="temperate"
 
 1956.12.18={birth=yes}
 2011.10.21={death=yes}
 }
 
 450004={
-name = "Anita"
-female = yes
-dynasty = 17034
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 7
-stewardship = 3
-intrigue = 2
-learning = 2
-add_trait = "gardener"
-add_trait = "charismatic_negotiator"
-add_trait = "tall"
-add_trait = "humble"
-add_trait = "wroth"
+name="Anita"
+female=yes
+dynasty=17034
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=7
+stewardship=3
+intrigue=2
+learning=2
+add_trait="gardener"
+add_trait="charismatic_negotiator"
+add_trait="tall"
+add_trait="humble"
+add_trait="wroth"
 
 1999.4.9={birth=yes}
 2044.9.24={death=yes}
 }
 
 450005={
-name = "Pieter"
-dynasty = 17011
-culture = hochlander
-religion = ulrican
-martial = 0
-diplomacy = 3
-stewardship = 6
-intrigue = 5
-learning = 9
-add_trait = "impaler"
-add_trait = "elusive_shadow"
-add_trait = "trusting"
-add_trait = "content"
-add_trait = "stressed"
+name="Pieter"
+dynasty=17011
+culture=hochlander
+religion=ulrican
+martial=0
+diplomacy=3
+stewardship=6
+intrigue=5
+learning=9
+add_trait="impaler"
+add_trait="elusive_shadow"
+add_trait="trusting"
+add_trait="content"
+add_trait="stressed"
 
 1976.4.29={birth=yes}
 2029.7.23={death=yes}
 }
 
 450006={
-name = "Lile"
-female = yes
-dynasty = 17023
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 0
-stewardship = 11
-intrigue = 6
-learning = 2
-add_trait = "hunter"
-add_trait = "brilliant_strategist"
-add_trait = "depressed"
-add_trait = "chaste"
+name="Lile"
+female=yes
+dynasty=17023
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=0
+stewardship=11
+intrigue=6
+learning=2
+add_trait="hunter"
+add_trait="brilliant_strategist"
+add_trait="depressed"
+add_trait="chaste"
 
 
 1992.8.19={birth=yes}
@@ -144,221 +144,221 @@ add_trait = "chaste"
 }
 
 450007={
-name = "Ranelf"
-dynasty = 17048
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 6
-stewardship = 1
-intrigue = 4
-learning = 7
-add_trait = "hunter"
-add_trait = "grey_eminence"
-add_trait = "ill"
-add_trait = "lustful"
+name="Ranelf"
+dynasty=17048
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=6
+stewardship=1
+intrigue=4
+learning=7
+add_trait="hunter"
+add_trait="grey_eminence"
+add_trait="ill"
+add_trait="lustful"
 
 1964.12.8={birth=yes}
 2040.5.9={death=yes}
 }
 
 450008={
-name = "Ruy"
-dynasty = 17028
-culture = hochlander
-religion = ulrican
-martial = 1
-diplomacy = 0
-stewardship = 10
-intrigue = 7
-learning = 10
-add_trait = "gardener"
-add_trait = "martial_cleric"
+name="Ruy"
+dynasty=17028
+culture=hochlander
+religion=ulrican
+martial=1
+diplomacy=0
+stewardship=10
+intrigue=7
+learning=10
+add_trait="gardener"
+add_trait="martial_cleric"
 1978.9.28={birth=yes}
 2060.3.12={death=yes}
 }
 
 450009={
-name = "Amalberga"
-female = yes
-dynasty = 17022
-culture = hochlander
-religion = ulrican
-martial = 10
-diplomacy = 9
-stewardship = 10
-intrigue = 3
-learning = 7
-add_trait = "hedonist"
-add_trait = "amateurish_plotter"
+name="Amalberga"
+female=yes
+dynasty=17022
+culture=hochlander
+religion=ulrican
+martial=10
+diplomacy=9
+stewardship=10
+intrigue=3
+learning=7
+add_trait="hedonist"
+add_trait="amateurish_plotter"
 1978.4.14={birth=yes}
 2030.7.27={death=yes}
 }
 
 450010={
-name = "Yves"
-dynasty = 17019
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 8
-stewardship = 4
-intrigue = 6
-learning = 6
-add_trait = "brilliant_strategist"
+name="Yves"
+dynasty=17019
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=8
+stewardship=4
+intrigue=6
+learning=6
+add_trait="brilliant_strategist"
 1959.8.21={birth=yes}
 2020.4.10={death=yes}
 }
 
 450011={
-name = "Ignaz"
-dynasty = 17008
-culture = hochlander
-religion = ulrican
-martial = 1
-diplomacy = 8
-stewardship = 3
-intrigue = 8
-learning = 7
-add_trait = "hunter"
-add_trait = "intricate_webweaver"
-add_trait = "fair"
-add_trait = "strong"
+name="Ignaz"
+dynasty=17008
+culture=hochlander
+religion=ulrican
+martial=1
+diplomacy=8
+stewardship=3
+intrigue=8
+learning=7
+add_trait="hunter"
+add_trait="intricate_webweaver"
+add_trait="fair"
+add_trait="strong"
 1999.12.9={birth=yes}
 2049.3.4={death=yes}
 }
 
 450012={
-name = "Petrus"
-dynasty = 17039
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 4
-stewardship = 2
-intrigue = 8
-learning = 0
-add_trait = "poet"
-add_trait = "detached_priest"
-add_trait = "diligent"
-add_trait = "envious"
+name="Petrus"
+dynasty=17039
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=4
+stewardship=2
+intrigue=8
+learning=0
+add_trait="poet"
+add_trait="detached_priest"
+add_trait="diligent"
+add_trait="envious"
 1965.8.2={birth=yes}
 2058.11.11={death=yes}
 }
 
 450013={
-name = "Luzia"
-female = yes
-dynasty = 17037
-culture = hochlander
-religion = ulrican
-martial = 8
-diplomacy = 7
-stewardship = 7
-intrigue = 9
-learning = 7
-add_trait = "scholar"
-add_trait = "amateurish_plotter"
-add_trait = "proud"
-add_trait = "slothful"
+name="Luzia"
+female=yes
+dynasty=17037
+culture=hochlander
+religion=ulrican
+martial=8
+diplomacy=7
+stewardship=7
+intrigue=9
+learning=7
+add_trait="scholar"
+add_trait="amateurish_plotter"
+add_trait="proud"
+add_trait="slothful"
 1990.5.12={birth=yes}
 2047.6.4={death=yes}
 }
 
 450014={
-name = "Ruy"
-dynasty = 17030
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 8
-stewardship = 10
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "fortune_builder"
-add_trait = "shy"
-add_trait = "patient"
-add_trait = "ambitious"
+name="Ruy"
+dynasty=17030
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=8
+stewardship=10
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="fortune_builder"
+add_trait="shy"
+add_trait="patient"
+add_trait="ambitious"
 
 1987.1.19={birth=yes}
 2047.8.14={death=yes}
 }
 
 450015={
-name = "Norbert"
-dynasty = 17027
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 2
-stewardship = 11
-intrigue = 1
-learning = 9
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
-add_trait = "just"
-add_trait = "arbitrary"
-add_trait = "cynical"
+name="Norbert"
+dynasty=17027
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=2
+stewardship=11
+intrigue=1
+learning=9
+add_trait="duelist"
+add_trait="underhanded_rogue"
+add_trait="just"
+add_trait="arbitrary"
+add_trait="cynical"
 
 1998.12.19={birth=yes}
 2032.6.10={death=yes}
 }
 
 450016={
-name = "Simon"
-dynasty = 17011
-culture = hochlander
-religion = ulrican
-martial = 2
-diplomacy = 7
-stewardship = 0
-intrigue = 8
-learning = 6
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
-add_trait = "zealous"
-add_trait = "kind"
-add_trait = "honest"
+name="Simon"
+dynasty=17011
+culture=hochlander
+religion=ulrican
+martial=2
+diplomacy=7
+stewardship=0
+intrigue=8
+learning=6
+add_trait="poet"
+add_trait="indulgent_wastrel"
+add_trait="zealous"
+add_trait="kind"
+add_trait="honest"
 
 1987.6.13={birth=yes}
 2049.2.25={death=yes}
 }
 
 450017={
-name = "Yngvar"
-dynasty = 17018
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 2
-stewardship = 1
-intrigue = 6
-learning = 9
-add_trait = "hedonist"
-add_trait = "scholarly_theologian"
-add_trait = "gregarious"
+name="Yngvar"
+dynasty=17018
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=2
+stewardship=1
+intrigue=6
+learning=9
+add_trait="hedonist"
+add_trait="scholarly_theologian"
+add_trait="gregarious"
 
-add_trait = "greedy"
+add_trait="greedy"
 
 1961.10.21={birth=yes}
 2047.1.26={death=yes}
 }
 
 450018={
-name = "Veit"
-dynasty = 17009
-culture = hochlander
-religion = ulrican
-martial = 0
-diplomacy = 8
-stewardship = 3
-intrigue = 9
-learning = 2
-add_trait = "falconer"
-add_trait = "naive_appeaser"
-add_trait = "paranoid"
-add_trait = "craven"
+name="Veit"
+dynasty=17009
+culture=hochlander
+religion=ulrican
+martial=0
+diplomacy=8
+stewardship=3
+intrigue=9
+learning=2
+add_trait="falconer"
+add_trait="naive_appeaser"
+add_trait="paranoid"
+add_trait="craven"
 
 
 1992.8.19={birth=yes}
@@ -366,19 +366,19 @@ add_trait = "craven"
 }
 
 450019={
-name = "Frances"
-female = yes
-dynasty = 17047
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 1
-add_trait = "scholar"
-add_trait = "thrifty_clerk"
-add_trait = "tall"
+name="Frances"
+female=yes
+dynasty=17047
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=1
+add_trait="scholar"
+add_trait="thrifty_clerk"
+add_trait="tall"
 1985.9.12={birth=yes}
 2021.11.24={death=yes}
 }
@@ -387,20 +387,20 @@ add_trait = "tall"
 #######################
 
 450020={
-name = "Aurona"
-female = yes
-dynasty = 17009 
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 1
-add_trait = "scholar"
-add_trait = "thrifty_clerk"
+name="Aurona"
+female=yes
+dynasty=17009 
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=1
+add_trait="scholar"
+add_trait="thrifty_clerk"
 
-add_trait = "tall"
+add_trait="tall"
 
 
 386.9.12={birth=yes}
@@ -408,19 +408,19 @@ add_trait = "tall"
 }
 
 450021={
-name = "Otto"
-dynasty = 17010 
-culture = hochlander
-religion = ulrican
-martial = 0
-diplomacy = 8
-stewardship = 3
-intrigue = 9
-learning = 2
-add_trait = "falconer"
-add_trait = "naive_appeaser"
-add_trait = "paranoid"
-add_trait = "craven"
+name="Otto"
+dynasty=17010 
+culture=hochlander
+religion=ulrican
+martial=0
+diplomacy=8
+stewardship=3
+intrigue=9
+learning=2
+add_trait="falconer"
+add_trait="naive_appeaser"
+add_trait="paranoid"
+add_trait="craven"
 
 
 1301.8.19={birth=yes}
@@ -432,19 +432,19 @@ add_trait = "craven"
 
 
 450022={
-name = "Baldemar"
-dynasty = 17004
-culture = hochlander
-religion = ulrican
-father = 450026
-martial = 5
-diplomacy = 7
-stewardship = 7
-intrigue = 2
-learning = 8
-add_trait = "misguided_warrior"
-add_trait = "lustful"
-add_trait = "trusting"
+name="Baldemar"
+dynasty=17004
+culture=hochlander
+religion=ulrican
+father=450026
+martial=5
+diplomacy=7
+stewardship=7
+intrigue=2
+learning=8
+add_trait="misguided_warrior"
+add_trait="lustful"
+add_trait="trusting"
 
 1984.3.2={birth=yes}
 2003.8.5={add_spouse=450024}
@@ -452,400 +452,400 @@ add_trait = "trusting"
 }
 
 450023={
-name = "Hildegarde"
-dynasty = 17004
+name="Hildegarde"
+dynasty=17004
 female=yes
-father = 450022
-mother = 450024
-culture = hochlander
-religion = ulrican
-martial = 2
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 9
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
-add_trait = "paranoid"
+father=450022
+mother=450024
+culture=hochlander
+religion=ulrican
+martial=2
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=9
+add_trait="impaler"
+add_trait="flamboyant_schemer"
+add_trait="paranoid"
 2007.11.5={birth=yes}
 2066.1.1={death=yes}
 }
 
 450024={
-name = "Amaltrude"
-female = yes
-dynasty = 17008 # Hochen
+name="Amaltrude"
+female=yes
+dynasty=17008 # Hochen
 father=450025
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 7
-stewardship = 7
-intrigue = 2
-learning = 8
-add_trait = "underhanded_rogue"
-add_trait = "envious"
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=7
+stewardship=7
+intrigue=2
+learning=8
+add_trait="underhanded_rogue"
+add_trait="envious"
 1985.8.1={birth=yes}
 2010.6.11={death=yes}
 }
 
 450025={
-name = "Waldemar"
-dynasty = 17004
-culture = hochlander
-religion = ulrican
-martial = 8
-diplomacy = 6
-stewardship = 6
-intrigue = 9
-learning = 5
-add_trait = "elusive_shadow"
-add_trait = "cruel"
-add_trait = "ambitious"
-add_trait = "lustful"
+name="Waldemar"
+dynasty=17004
+culture=hochlander
+religion=ulrican
+martial=8
+diplomacy=6
+stewardship=6
+intrigue=9
+learning=5
+add_trait="elusive_shadow"
+add_trait="cruel"
+add_trait="ambitious"
+add_trait="lustful"
 
 1950.10.31={birth=yes}
 2020.1.1={death=yes}
 }
 
 450026={
-name = "Gottschalk"
-dynasty = 17004
-culture = hochlander
-religion = ulrican
-martial = 8
-diplomacy = 5
-stewardship = 5
-intrigue = 5
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "content"
+name="Gottschalk"
+dynasty=17004
+culture=hochlander
+religion=ulrican
+martial=8
+diplomacy=5
+stewardship=5
+intrigue=5
+learning=5
+add_trait="tough_soldier"
+add_trait="content"
 
 1952.1.1={birth=yes}
 2003.1.1={death=yes}
 }
 
 450027={
-name = "Aldebrand" #Graf Aldebrand Ludenhof
-dynasty = 17003
-culture = hochlander
-religion = ulrican
-martial = 8
-diplomacy = 4
-stewardship = 5
-intrigue = 4
-learning = 4
-add_trait = "impaler"
-add_trait = "elusive_shadow"
-add_trait = "kind"
-add_trait = "tall"
-add_trait = "strong"
-add_trait = "brave"
-add_trait = "honest"
+name="Aldebrand" #Graf Aldebrand Ludenhof
+dynasty=17003
+culture=hochlander
+religion=ulrican
+martial=8
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=4
+add_trait="impaler"
+add_trait="elusive_shadow"
+add_trait="kind"
+add_trait="tall"
+add_trait="strong"
+add_trait="brave"
+add_trait="honest"
 2496.11.24={birth=yes}
 2540.3.23={death=yes}
 }
 
 450028={
-name = "Gotthard" #Neues Merchant
-dynasty = 17057
-dna = "ifbegjjokap"
-culture = hochlander
-religion = ulrican
-martial = 3
-diplomacy = 6
-stewardship = 5
-intrigue = 8
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "hunter"
-add_trait = "deceitful"
-add_trait = "honest"
-add_trait = "cruel"
-add_trait = "paranoid"
+name="Gotthard" #Neues Merchant
+dynasty=17057
+dna="ifbegjjokap"
+culture=hochlander
+religion=ulrican
+martial=3
+diplomacy=6
+stewardship=5
+intrigue=8
+learning=5
+add_trait="underhanded_rogue"
+add_trait="hunter"
+add_trait="deceitful"
+add_trait="honest"
+add_trait="cruel"
+add_trait="paranoid"
 2435.9.1={birth=yes}
 2495.3.8={death=yes}
 }
 
 
 450029={
-name = "Marianne"
-female = yes
-dynasty = 17004
-dna = "nobogmcjkjd"
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 2
-learning = 4
-add_trait = "intricate_webweaver"
-add_trait = "proud"
-add_trait = "just"
-add_trait = "diligent"
-add_trait = "content"
-add_trait = "stressed"
+name="Marianne"
+female=yes
+dynasty=17004
+dna="nobogmcjkjd"
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=2
+learning=4
+add_trait="intricate_webweaver"
+add_trait="proud"
+add_trait="just"
+add_trait="diligent"
+add_trait="content"
+add_trait="stressed"
 2453.1.1={birth=yes}
 2532.5.10={death=yes}
 }
 
 450030={
-name = "Ulfred"
-dynasty = 17004
-dna = "pigkepbdjjn"
-culture = hochlander
-religion = ulrican
-martial = 8
-diplomacy = 6
-stewardship = 2
-intrigue = 2
-learning = 5
-mother = 450029
-add_trait = "tough_soldier"
-add_trait = "hedonist"
-add_trait = "gregarious"
+name="Ulfred"
+dynasty=17004
+dna="pigkepbdjjn"
+culture=hochlander
+religion=ulrican
+martial=8
+diplomacy=6
+stewardship=2
+intrigue=2
+learning=5
+mother=450029
+add_trait="tough_soldier"
+add_trait="hedonist"
+add_trait="gregarious"
 2477.3.1={birth=yes}
 2540.9.6={death=yes}
 }
 
 450031={
-name = "Otto"
-dynasty = 17004
-dna = "kkfbiicfahg"
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 2
-mother = 450029
-add_trait = "elusive_shadow"
-add_trait = "greedy"
-add_trait = "ambitious"
-add_trait = "zealous"
-add_trait = "gregarious"
+name="Otto"
+dynasty=17004
+dna="kkfbiicfahg"
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=2
+mother=450029
+add_trait="elusive_shadow"
+add_trait="greedy"
+add_trait="ambitious"
+add_trait="zealous"
+add_trait="gregarious"
 2482.11.1={birth=yes}
 2542.12.15={death=yes}
 }
 
 450032={
-name = "Amanda"
-female = yes
-dynasty = 17004
-dna = "kldgffacijg"
-culture = hochlander
-religion = ulrican
-martial = 3
-diplomacy = 7
-stewardship = 6
-intrigue = 7
-learning = 2
-mother = 450029
-add_trait = "underhanded_rogue"
-add_trait = "deceitful"
-add_trait = "envious"
+name="Amanda"
+female=yes
+dynasty=17004
+dna="kldgffacijg"
+culture=hochlander
+religion=ulrican
+martial=3
+diplomacy=7
+stewardship=6
+intrigue=7
+learning=2
+mother=450029
+add_trait="underhanded_rogue"
+add_trait="deceitful"
+add_trait="envious"
 2496.1.1={birth=yes}
 2537.3.4={death=yes}
 }
 
 450033={
-name = "Gregor"
-dynasty = 17005
-dna = "ccoandpempb"
-culture = hochlander
-religion = ulrican
-martial = 3
-diplomacy = 7
-stewardship = 4
-intrigue = 7
-learning = 2
-add_trait = "fortune_builder"
-add_trait = "cynical"
-add_trait = "wounded"
+name="Gregor"
+dynasty=17005
+dna="ccoandpempb"
+culture=hochlander
+religion=ulrican
+martial=3
+diplomacy=7
+stewardship=4
+intrigue=7
+learning=2
+add_trait="fortune_builder"
+add_trait="cynical"
+add_trait="wounded"
 2490.5.1={birth=yes}
 2527.10.19={death=yes}
 }
 
 450034={
-name = "Ranulf"
-dynasty = 17005
-dna = "bominbbiebd"
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 5
-father = 450033
-add_trait = "midas_touched"
-add_trait = "lustful"
-add_trait = "kind"
-add_trait = "honest"
+name="Ranulf"
+dynasty=17005
+dna="bominbbiebd"
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=5
+father=450033
+add_trait="midas_touched"
+add_trait="lustful"
+add_trait="kind"
+add_trait="honest"
 2514.9.1={birth=yes}
 2563.1.23={death=yes}
 }
 
 450035={
-name = "Reiner"
-dynasty = 17058
-dna = "kfoghlhlioc"
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 4
-learning = 0
-add_trait = "midas_touched"
-add_trait = "charitable"
+name="Reiner"
+dynasty=17058
+dna="kfoghlhlioc"
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=4
+learning=0
+add_trait="midas_touched"
+add_trait="charitable"
 2472.1.1={birth=yes}
 2528.10.13={death=yes}
 }
 
 450036={
-name = "Mortmore"
-dynasty = 17058
-dna = "lgoajfkfhlp"
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 5
-stewardship = 3
-intrigue = 5
-learning = 8
-father = 450035
-add_trait = "naive_appeaser"
+name="Mortmore"
+dynasty=17058
+dna="lgoajfkfhlp"
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=5
+learning=8
+father=450035
+add_trait="naive_appeaser"
 2492.1.1={birth=yes}
 2544.7.22={death=yes}
 }
 
 450037={
-name = "Jutta"
-female = yes
-dynasty = 17058
-dna = "ohcodigblib"
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 3
-stewardship = 5
-intrigue = 5
-learning = 4
-father = 450035
-add_trait = "misguided_warrior"
-add_trait = "cynical"
-add_trait = "lustful"
-add_trait = "greedy"
-add_trait = "deceitful"
+name="Jutta"
+female=yes
+dynasty=17058
+dna="ohcodigblib"
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=3
+stewardship=5
+intrigue=5
+learning=4
+father=450035
+add_trait="misguided_warrior"
+add_trait="cynical"
+add_trait="lustful"
+add_trait="greedy"
+add_trait="deceitful"
 2497.1.1={birth=yes}
 2562.5.7={death=yes}
 }
 
 450038={
-name = "Georg"
-dynasty = 17002
-dna = "ghbnbgeiipp"
-culture = hochlander
-religion = ulrican
-martial = 2
-diplomacy = 4
-stewardship = 6
-intrigue = 3
-learning = 5
-add_trait = "tough_soldier"
+name="Georg"
+dynasty=17002
+dna="ghbnbgeiipp"
+culture=hochlander
+religion=ulrican
+martial=2
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=5
+add_trait="tough_soldier"
 2475.1.1={birth=yes}
 2528.8.24={death=yes}
 }
 
 450039={
-name = "Roderick"
-dynasty = 17002
-dna = "cdicofpeokp"
-culture = hochlander
-religion = ulrican
-martial = 5
-diplomacy = 3
-stewardship = 4
-intrigue = 8
-learning = 2
-father = 450038
-add_trait = "grey_eminence"
-add_trait = "envious"
+name="Roderick"
+dynasty=17002
+dna="cdicofpeokp"
+culture=hochlander
+religion=ulrican
+martial=5
+diplomacy=3
+stewardship=4
+intrigue=8
+learning=2
+father=450038
+add_trait="grey_eminence"
+add_trait="envious"
 2493.1.1={birth=yes}
 2531.8.12={death=yes}
 }
 
 450040={
-name = "Jonas"
-dynasty = 17002
-dna = "icdenjfjhkd"
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 6
-stewardship = 2
-intrigue = 3
-learning = 3
-father = 450038
-add_trait = "indulgent_wastrel"
-add_trait = "shy"
+name="Jonas"
+dynasty=17002
+dna="icdenjfjhkd"
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=6
+stewardship=2
+intrigue=3
+learning=3
+father=450038
+add_trait="indulgent_wastrel"
+add_trait="shy"
 2502.1.1={birth=yes}
 2567.2.12={death=yes}
 }
 
 450041={
-name = "Torsten"
-dynasty = 17005
-dna = "kdedepbodfj"
-culture = hochlander
-religion = ulrican
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 7
-learning = 4
-add_trait = "charismatic_negotiator"
-add_trait = "gregarious"
-add_trait = "just"
+name="Torsten"
+dynasty=17005
+dna="kdedepbodfj"
+culture=hochlander
+religion=ulrican
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=4
+add_trait="charismatic_negotiator"
+add_trait="gregarious"
+add_trait="just"
 2500.11.1={birth=yes}
 2569.7.13={death=yes}
 }
 
 450042={
-name = "Eldrid"
-female = yes
-dynasty = 17005
-dna = "bgajalhgbnh"
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 2
-stewardship = 5
-intrigue = 2
-learning = 2
-father = 450041
-add_trait = "underhanded_rogue"
+name="Eldrid"
+female=yes
+dynasty=17005
+dna="bgajalhgbnh"
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=2
+stewardship=5
+intrigue=2
+learning=2
+father=450041
+add_trait="underhanded_rogue"
 2518.9.1={birth=yes}
 2565.3.30={death=yes}
 }
 
 450043={
-name = "Hildeburg"
-female = yes
-dynasty = 17005
-dna = "idiigkplkjh"
-culture = hochlander
-religion = ulrican
-martial = 7
-diplomacy = 1
-stewardship = 4
-intrigue = 4
-learning = 5
-father = 450041
-add_trait = "tough_soldier"
+name="Hildeburg"
+female=yes
+dynasty=17005
+dna="idiigkplkjh"
+culture=hochlander
+religion=ulrican
+martial=7
+diplomacy=1
+stewardship=4
+intrigue=4
+learning=5
+father=450041
+add_trait="tough_soldier"
 2520.2.1={birth=yes}
 2578.11.29={death=yes}
 }

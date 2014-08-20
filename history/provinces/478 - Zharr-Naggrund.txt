@@ -6,11 +6,11 @@ title = c_zharr_naggrund
 # Settlements
 max_settlements = 7
 b_gromthidum = castle
-b_barak_marduk = castle
+b_barak_marduk = city
+b_naggrund_thryng = temple
 b_barak_ishtaz = castle
-b_barak_nimrok = castle
-b_barak_enka = castle
-#b_naggrund_thryng = temple
+#b_barak_nimrok = castle
+#b_barak_enka = castle
 #b_flegekrund = city
 
 # Misc
@@ -19,3 +19,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_barak_nimrok = castle
+}

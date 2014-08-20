@@ -33,7 +33,7 @@ d_rijikspoort_gazette = {
 	
 	short_name = yes
 
-	religion = classical_gods
+	religion = myrmidian
 	culture = westerlander
 	
 	landless = yes
@@ -63,9 +63,91 @@ d_imperial_engineers_school = {
 	primary = yes
 	
 	independent = yes	
-	
 }
 
+d_imperial_gunnery_school = {
+	color = { 250 250 250 }
+	color2 = { 255 255 255 }
+	
+	title = "MASTER_ENGINEER"
+	title_female = "MASTER_ENGINEER"		
+		
+	capital = 309 #Nuln
+	
+	short_name = yes
+
+	religion = sigmarite
+	culture = wissenlander
+	
+	landless = yes
+	
+	primary = yes
+	
+	independent = yes	
+}
+
+d_university_of_altdorf = {
+	color = { 250 250 250 }
+	color2 = { 255 255 255 }
+	
+	title = "MASTER"
+	title_female = "MISTRESS"			
+		
+	capital = 299 #Altdorf
+	
+	short_name = yes
+
+	religion = sigmarite
+	culture = reiklander
+	
+	landless = yes
+	
+	primary = yes
+	
+	independent = yes	
+}
+
+d_university_of_nuln = {
+	color = { 250 250 250 }
+	color2 = { 255 255 255 }
+	
+	title = "MASTER"
+	title_female = "MISTRESS"		
+		
+	capital = 309 #Nuln
+	
+	short_name = yes
+
+	religion = sigmarite
+	culture = wissenlander
+	
+	landless = yes
+	
+	primary = yes
+	
+	independent = yes	
+}
+
+d_university_of_streissen = {
+	color = { 250 250 250 }
+	color2 = { 255 255 255 }
+	
+	title = "MASTER"
+	title_female = "MISTRESS"		
+		
+	capital = 309 #Nuln
+	
+	short_name = yes
+
+	religion = sigmarite
+	culture = wissenlander
+	
+	landless = yes
+	
+	primary = yes
+	
+	independent = yes	
+}
 
 d_colleges_of_magic = {
 	color = { 250 250 250 }
@@ -264,7 +346,7 @@ d_bogenhafen = {
 	capital = 296 #Bogenhafen
 	
 	dignity = 200 
-	
+		
 	allow = {
 		always = no
 		is_republic = yes
@@ -294,7 +376,7 @@ d_grande_charte = {
 	short_name = yes
 	
 	dignity = 200 
-	
+		
 	allow = {
 		always = no
 		is_republic = yes
@@ -310,7 +392,7 @@ k_norvard = {
 	short_name = yes
 	
 	dignity = 200 
-	
+		
 	allow = {
 		always = no
 		is_republic = yes
@@ -329,12 +411,11 @@ k_norvard = {
 		title_female = "ULTIMA_AQUILA"
 		short_name = yes
 		location_ruler_title = yes
+		
+		controls_religion = myrmidian
 	
 		landless = yes
-	
-		controls_religion = classical_gods
-	
-		religion = classical_gods
+		religion = myrmidian
 		culture = astur
 		primary = yes
 	
@@ -353,32 +434,29 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
 		controls_religion = sigmarite
-	
 		religion = sigmarite
-	
+		culture = reiklander
 		primary = yes
-	
 		dynasty_title_names = no 
 
 		male_names = { 
-			Alric Azram
+			Aglim Alric Azram
 			Belgar
 			Durak
 			Einar Esmer
 			Falgrim
-			Gamil Garik Gludred Godric Godfried Grimnar Gurni
+			Gamil Garik Gludred Grimnar Gurni
 			Holgar Hulfden
 			Johann Josef Jurgen 
-			Kasmir Kazgar Kurgan Kurt 
+			Kaslain Kasmir Kazgar Kurgan Kurt 
 			Lothor Luthor 
-			Marius Mordrek Morgrim
-			Siebold Sigfried Sieghard Siegschild Sigmarsen Sighast Sighelden Sigismund Sigmund Sigslieb Skalf Strom Sven Svengin
+			Mordrek Morgrim
+			Skalf Strom Sven Svengin
 			Thorgad Thulfram
 			Ulfar
-			Varmir Vikram Volkmar Volker
-			Wilhelm Wolfgang
+			Varmir Vikram Volkmar
+			Wilhelm
 			Yorri
 		}
 	}
@@ -395,13 +473,10 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
 		controls_religion = ulrican
-	
 		religion = ulrican
-	
+		culture = middenlander
 		primary = yes
-	
 		dynasty_title_names = no
 		
 		male_names = { 
@@ -427,144 +502,52 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
 		controls_religion = taalite
-	
 		religion = taalite
-	
+		culture = talabeclander
 		primary = yes
-	
 		dynasty_title_names = no
 	}
 
-	d_cult_of_ursun = {
+	k_cult_of_ursun = {
 		color={ 250 100 100 }
 		color2={ 220 220 0 }
 	
 		capital = 202 #Kislev
 	
 		title = "HIGH_PRIEST"
+		title_female = "HIGH_PRIEST"
 		foa = "HIGH_PRIEST_FOA"
 		short_name = yes
 		location_ruler_title = yes
 		
-		controls_religion = northern_gods
-	
-		religion = northern_gods
+		controls_religion = ursun
+		religion = ursun
 		culture = gospodar
-	
+		primary = yes	
 		dynasty_title_names = no 	
 	}
 
-	d_cult_of_ahalt = {
+	k_cult_of_shallya = {
 		color={ 250 100 100 }
 		color2={ 220 220 0 }
 	
-		capital = 330 #Talabheim
+		capital = 810 #Couronne
 	
-		title = "HIGH_PRIEST"
+		title = "PATRIARCH"
+		title_female = "MATRIARCH"
 		foa = "HIGH_PRIEST_FOA"
 		short_name = yes
 		location_ruler_title = yes
 		
-		controls_religion = ahalt
-	
-		religion = ahalt
-		culture = talabeclander
-	
+		landless = yes
+		controls_religion = shallyan
+		religion = shallyan
+		culture = nortagnese
+		primary = yes	
 		dynasty_title_names = no 	
 	}
-
-	d_cult_of_the_red_redemption = {
-		color={ 200 50 50 }
-		color2={ 220 220 0 }
 	
-		capital = 299 # Altdorf
-	
-		title = "MASTER"
-		title_female = "MISTRESS"
-		foa = "MASTER_FOA"
-		short_name = yes
-		location_ruler_title = yes
-	
-		landless = yes
-	
-		controls_religion = red_redemption
-	
-		religion = red_redemption
-	
-		primary = yes
-	
-		dynasty_title_names = no 	
-	}
-
-	d_cult_of_the_true_grail = {
-		color={ 200 50 50 }
-		color2={ 220 220 0 }
-	
-		capital = 826 #Mousillon
-	
-		title = "MASTER"
-		title = "MISTRESS"
-		foa = "MASTER_FOA"
-		short_name = yes
-		location_ruler_title = yes
-	
-		landless = yes
-	
-		controls_religion = true_grail
-	
-		religion = true_grail
-	
-		primary = yes
-	
-		dynasty_title_names = no 	
-	}	
-	
-	d_cult_of_the_yellow_fang = {
-		color={ 50 190 50 }
-		color2={ 220 220 0 }
-	
-		capital = 274 #Middenheim
-	
-		title = "MASTER"
-		title_female = "MISTRESS"
-		short_name = yes
-		location_ruler_title = yes
-	
-		landless = yes
-	
-		controls_religion = yellow_fang
-	
-		religion = yellow_fang
-	
-		primary = yes
-	
-		dynasty_title_names = no
-	}
-
-	d_cult_of_vylmar = {
-		color={ 50 190 50 }
-		color2={ 220 220 0 }
-	
-		capital = 274 #Middenheim
-	
-		title = "MASTER"
-		title_female = "MISTRESS"
-		short_name = yes
-		location_ruler_title = yes
-	
-		landless = yes
-	
-		controls_religion = vylmar
-	
-		religion = vylmar
-	
-		primary = yes
-	
-		dynasty_title_names = no
-	}
-
 	d_cult_of_nagash = {
 		color={ 50 190 50 }
 		color2={ 220 220 0 }
@@ -577,13 +560,9 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
 		controls_religion = nagashi
-	
 		religion = nagashi
-	
 		primary = yes
-	
 		dynasty_title_names = no
 	}
 
@@ -599,12 +578,9 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
-		religion = classical_gods
+		religion = myrmidian
 		culture = reman
-	
 		primary = yes
-	
 		dynasty_title_names = no
 	}
 
@@ -620,12 +596,9 @@ k_norvard = {
 		location_ruler_title = yes
 	
 		landless = yes
-	
-		religion = classical_gods
+		religion = myrmidian
 		culture = astur
-	
 		primary = yes
-	
 		dynasty_title_names = no
 	}
 
@@ -634,16 +607,15 @@ k_norvard = {
 		color2 = { 255 255 255 }
 		
 		capital = 330 #Talabheim
-		
+			
+		title = "ARCH_LECTOR"
+		short_name = yes
+		location_ruler_title = yes
+	
+		landless = yes
 		religion = sigmarite
 		culture = talabeclander
-	
-		title = "ARCH_LECTOR"
-	
-		short_name = yes
-		landless = yes
-		primary = yes		
-		independent = yes
+		primary = yes
 		dynasty_title_names = no
 	}	
 
@@ -652,16 +624,15 @@ k_norvard = {
 		color2 = { 255 255 255 }
 	
 		capital = 309 #Nuln
-		
+			
+		title = "ARCH_LECTOR"
+		short_name = yes
+		location_ruler_title = yes
+	
+		landless = yes
 		religion = sigmarite
 		culture = wissenlander
-	
-		title = "ARCH_LECTOR"
-	
-		short_name = yes
-		landless = yes
-		primary = yes		
-		independent = yes
+		primary = yes
 		dynasty_title_names = no
 	}	
 
@@ -699,10 +670,6 @@ e_host_khorne = {
 	primary = yes
 	
 	controls_religion = khorne
-        allow = {
-            piety = 1000
-        }
-
 }
 	
 e_host_slaanesh = {
@@ -721,10 +688,6 @@ e_host_slaanesh = {
 	primary = yes
 	
 	controls_religion = slaanesh
-        allow = {
-            piety = 1000
-        }
-
 }	
 	
 e_host_tzeentch = {
@@ -743,10 +706,6 @@ e_host_tzeentch = {
 	primary = yes
 	
 	controls_religion = tzeentch
-        allow = {
-            piety = 1000
-        }
-
 }
 	
 e_host_nurgle = {
@@ -765,10 +724,6 @@ e_host_nurgle = {
 	primary = yes
 	
 	controls_religion = nurgle
-        allow = {
-            piety = 1000
-        }
-
 }
 	
 e_host_chaos = {
@@ -781,17 +736,12 @@ e_host_chaos = {
 	title_female = "EVERCHOSEN"
 	foa = "EVERCHOSEN_FOA"
 	short_name = yes
+	
 	religion = chaos
 	
 	primary = yes
 	
 	controls_religion = chaos
-
-	# FIXME creation mechanics
-	creation_requires_capital = no
-	allow = {
-            piety = 2000
-        }
 }		
 
 
@@ -804,7 +754,33 @@ e_eternal_empire = {
 	
 }
 
+	k_realm_of_chaos = {
+		color = { 50 50 50 }
+		color2 = { 255 255 255 }
+		
+		capital = 2350 #Realm of Chaos
+	
+		short_name = yes
+	
+		d_realm_of_chaos  = {
+			color = { 50 50 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 2351 #Realm of Chaos
 
+			short_name = yes
+			
+			c_realm_of_chaos  = {
+				color = { 50 50 50 }
+				color2 = { 255 255 255 }
+	
+				short_name = yes
+					
+				b_eye_of_chaos = {
+				}
+			}
+		}
+	}
 e_the_empire = {
 	color = { 210 210 210 }
 	color2 = { 255 255 255 }
@@ -815,12 +791,13 @@ e_the_empire = {
 	capital = 299 #Altdorf
 	short_name = yes
 	
-
 	k_drakwald = {
 		color = { 60 150 80 }
 		color2 = { 255 255 255 }
 	
 		capital = 267 #Seidewald
+		
+		old_imperial = "Thuringia"
 		
 		allow = {
 			always = no
@@ -832,6 +809,8 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 	
 		capital = 316 #Pfeildorf
+		
+		old_imperial = "Merogen"
 		
 		allow = {
 			always = no
@@ -865,6 +844,8 @@ e_the_empire = {
 		
 		capital = 299 #Altdorf
 		
+		old_imperial = "Reikdorf"
+		
 		allow = {
 			always = no
 		}
@@ -886,7 +867,7 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 330 #Talabheim
-		
+
 		allow = {
 			always = no
 		}
@@ -897,7 +878,7 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 274 #Middenheim
-		
+	
 		allow = {
 			always = no
 		}
@@ -909,21 +890,14 @@ e_the_empire = {
 		
 		capital = 299 #Altdorf
 
-		bjornling = "Ríkiland"
-		sarl = "Ríkiland"
-		aesling = "Ríkiland"
-		varg = "Ríkiland"
-		baersonling = "Ríkiland"
-		skaeling = "Ríkiland"
-		graeling = "Ríkiland"
-		fjarmann = "Ríkiland"			
+		old_imperial = "Unberogen"
 	
 		d_altdorf = {
 			color = { 207 205 246 }
 			color2 = { 255 255 255 }
 			
 			capital = 299 #Altdorf
-						
+
 			c_altdorf = {
 				color = { 157 160 183 }
 				color2 = { 255 255 255 }
@@ -1040,15 +1014,31 @@ e_the_empire = {
 				}
 			}
 			
+			c_maisberg = {
+				color = { 102 121 110 }
+				color2 = { 255 255 255 }
+				
+				b_maisberg = {
+				}
+				b_ahlsee = {
+				}
+				b_mellerfelden = {
+				}
+				b_penzkirchen = {
+				}
+			}
+			
 			c_drachenfels = {
 				color = { 203 187 185 }
 				color2 = { 255 255 255 }
 				
-				b_castle_drachenfels = {
+				b_schwachhof = {
 				}
 				b_hautebad = {
 				}
 				b_lautenbachzell = {
+				}
+				b_drachenfels = {
 				}
 			}
 			
@@ -1097,6 +1087,8 @@ e_the_empire = {
 				}
 				b_konigsee = {
 				}
+				b_garmdek = {
+				}
 				b_uslar = {
 				}
 			}
@@ -1120,6 +1112,8 @@ e_the_empire = {
 				color2 = { 255 255 255 }
 				
 				b_merxheim = {
+				}
+				b_uhland = {
 				}
 				b_lemgo = {
 				}
@@ -1315,24 +1309,9 @@ e_the_empire = {
 		
 		capital = 222 #Marienburg
 
-		bjornling = "Vestland"
-		sarl = "Vestland"
-		aesling = "Vestland"
-		varg = "Vestland"
-		baersonling = "Vestland"
-		skaeling = "Vestland"
-		graeling = "Vestland"	
-		fjarmann = "Vestland"	
 
-		breton = "Vestland"
-		nortagnese = "Vestland"
-		armoric = "Vestland"
-		mousillonian = "Vestland"
-		carcassian = "Vestland"
-		gisoren = "Vestland"
-		bourgon = "Vestland"
-		gascon = "Vestland"
-		marcheur = "Vestland"	
+
+		old_imperial = "Endal"
 
 		d_marienburg = {
 			color = { 10 91 206 }
@@ -1340,28 +1319,9 @@ e_the_empire = {
 			
 			capital = 222 #Marienburg
 
-			breton = "Marenbourg"
-			nortagnese = "Marenbourg"
-			armoric = "Marenbourg"
-			mousillonian = "Marenbourg"
-			carcassian = "Marenbourg"
-			gisoren = "Marenbourg"
-			bourgon = "Marenbourg"
-			gascon = "Marenbourg"
-			marcheur = "Marenbourg"
-
 			c_marienburg = {
-				color = { 107 110 243 }
+				color = { 56 110 243 }
 				color2 = { 255 255 255 }
-
-				breton = "Marenbourg"
-				nortagnese = "Marenbourg"
-				armoric = "Marenbourg"
-				mousillonian = "Marenbourg"
-				carcassian = "Marenbourg"
-				gisoren = "Marenbourg"
-				bourgon = "Marenbourg"
-				gascon = "Marenbourg"
 				
 				b_rijkers_isle = {
 				}
@@ -1371,6 +1331,7 @@ e_the_empire = {
 				}
 				b_tempelwijk = {
 					holy_site = manannite
+					holy_site = stromfels
 				}
 				b_suiddock = {
 				}
@@ -1382,26 +1343,46 @@ e_the_empire = {
 				}
 				b_doodkanaal = {
 				}
+			}
+
+			c_noordmuur = {
+				color = { 77 100 211 }
+				color2 = { 255 255 255 }
+				
+				b_noordmuur = {
+				}
 				b_kruiersmuur = {
 				}
 				b_goudberg = {
 				}
-				b_paleisbuurt = {
+				b_randstad = {
 				}
 				b_handelaarmarkt = {
 				}
-				b_noordmuur = {
-				}
+			}
+			
+			c_vlakland = {
+				color = { 61 100 251 }
+				color2 = { 255 255 255 }
+				
 				b_vlakland = {
 				}
-			}			
+				b_paleisbuurt = {
+				}
+				b_gravenhaag = {
+				}
+				b_schattenwaard = {
+				}
+				b_rijnmond = {
+				}
+			}
 		}
 		
 		d_heideland = {
 			color = { 40 149 176 }
 			color2 = { 255 255 255 }
 			
-			capital = 222 #Marienburg
+			capital = 216 #Flainaut
 
 			breton = "Landes"
 			nortagnese = "Landes"
@@ -1541,35 +1522,6 @@ e_the_empire = {
 				b_ouestaude = {
 				}
 			}
-
-			c_dornhan = {
-				color = { 19 50 149 }
-				color2 = { 255 255 255 }
-
-				breton = "Donjon"
-				nortagnese = "Donjon"
-				armoric = "Donjon"
-				mousillonian = "Donjon"
-				carcassian = "Donjon"
-				gisoren = "Donjon"
-				bourgon = "Donjon"
-				gascon = "Donjon"
-
-				b_fort_karls = {
-				}
-				b_dornhan = {
-					breton = "Donjon"
-					nortagnese = "Donjon"
-					armoric = "Donjon"
-					mousillonian = "Donjon"
-					carcassian = "Donjon"
-					gisoren = "Donjon"
-					bourgon = "Donjon"
-					gascon = "Donjon"
-				}
-				b_sankt_veit = {
-				}
-			}
 		}
 		
 		d_fauligmere = {
@@ -1688,6 +1640,35 @@ e_the_empire = {
 				}
 			}
 
+			c_dornhan = {
+				color = { 19 50 149 }
+				color2 = { 255 255 255 }
+
+				breton = "Donjon"
+				nortagnese = "Donjon"
+				armoric = "Donjon"
+				mousillonian = "Donjon"
+				carcassian = "Donjon"
+				gisoren = "Donjon"
+				bourgon = "Donjon"
+				gascon = "Donjon"
+
+				b_fort_karls = {
+				}
+				b_dornhan = {
+					breton = "Donjon"
+					nortagnese = "Donjon"
+					armoric = "Donjon"
+					mousillonian = "Donjon"
+					carcassian = "Donjon"
+					gisoren = "Donjon"
+					bourgon = "Donjon"
+					gascon = "Donjon"
+				}
+				b_sankt_veit = {
+				}
+			}
+			
 			c_klessen = {
 				color = { 17 40 193 }
 				color2 = { 255 255 255 }
@@ -1999,6 +1980,10 @@ e_the_empire = {
 		
 		capital = 239 #Salzenmund
 
+
+
+		old_imperial = "Jutone"
+
 			bjornling = "Norðanland"
 			sarl = "Norðanland"
 			aesling = "Norðanland"
@@ -2247,15 +2232,92 @@ e_the_empire = {
 		
 		capital = 254 #Wolfenburg
 
-			bjornling = "Austland"
-			sarl = "Austland"
-			aesling = "Austland"
-			varg = "Austland"
-			baersonling = "Austland"
-			skaeling = "Austland"
-			graeling = "Austland"
-			fjarmann = "Austland"				
+
+
+		old_imperial = "Udose"
+
+		d_wolfenburg = {
+			color = { 124 128 124 }
+			color2 = { 255 255 255 }
+			
+			capital = 254 #Wolfenburg
+
+			c_wolfenburg = {
+				color = { 137 70 113 }
+				color2 = { 255 255 255 }
 				
+				b_wolfenburg = {
+				}
+				b_levudaldorf = {
+				}
+				b_grunackeren = {
+				}
+				b_regensdorf = {
+				}
+				b_zundap = {
+				}
+				b_jever = {
+				}
+			}
+			
+			c_ristedt = {
+				color = { 125 140 113 }
+				color2 = { 255 255 255 }
+				
+				b_castle_lenkster = {
+				}
+				b_ristedt = {
+				}
+				b_wendorf = {
+				}
+				b_kienbaum = {
+				}
+				b_oranienburg = {
+				}
+			}		
+
+			c_wurzen = {
+				color = { 117 100 133 }
+				color2 = { 255 255 255 }
+				
+				b_wurzen = {
+				}
+				b_csenger = {
+				}
+				b_dorog = {
+				}
+				b_boven = {
+				}
+				b_penzlin = {
+				}
+			}	
+			
+			c_nettburg = {
+				color = { 97 90 83 }
+				color2 = { 255 255 255 }
+				
+				b_fort_korver = {
+				}
+				b_trillheim = {
+				}
+				b_dargun = {
+				}
+			}
+						
+			c_markdorf = {
+				color = { 65 70 50 }
+				color2 = { 255 255 255 }
+				
+				b_markdorf = {
+				}
+				b_mirow = {
+				}
+				b_hallenberg = {
+				}
+			}				
+			
+		}
+		
 		d_knochenkuste = {
 			color = { 113 112 138 }
 			color2 = { 255 255 255 }
@@ -2305,6 +2367,8 @@ e_the_empire = {
 				color = { 85 25 25 }
 				color2 = { 255 255 255 }
 				
+				b_ferlangenschlosse = {
+				}
 				b_ferlangen = {
 				}
 				b_obelstein = {
@@ -2312,6 +2376,8 @@ e_the_empire = {
 				b_aukrug = {
 				}
 				b_ochsunfurt = {
+				}
+				b_chenkov = {
 				}
 			}	
 			
@@ -2325,8 +2391,62 @@ e_the_empire = {
 				}
 				b_huven = {
 				}
+			}		
+		}
+		
+		d_mittenberg = {
+			color = { 60 81 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 245 #Friedmark
+			
+			c_friedmark = {
+				color = { 117 120 93 }
+				color2 = { 255 255 255 }
+				
+				b_sokh = {
+				}
+				b_brass_keep = {
+				}
+				b_friedberg = {
+				}
+				b_wahnsinningen = {
+				}
 			}	
 			
+			c_roezfels = {
+				color = { 137 130 122 }
+				color2 = { 255 255 255 }
+				
+				b_roezfels = {
+				}
+				b_mierach = {
+				}
+				b_hasselhund = {
+				}
+				b_dunkelpfad = {
+				}
+			}	
+		}	
+		
+		d_kislev_verge = {
+			color = { 80 70 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 252 #Vandengart
+			
+			c_dassel = {
+				color = { 107 90 93 }
+				color2 = { 255 255 255 }
+				
+				b_dassel = {
+				}
+				b_smallhof = {
+				}
+				b_felde = {
+				}
+			}				
+
 			c_gauschdorf = {
 				color = { 101 80 103 }
 				color2 = { 255 255 255 }
@@ -2351,62 +2471,10 @@ e_the_empire = {
 				}
 				b_miklava = {
 				}
-			}	
-		}
-		
-		d_mittenberg = {
-			color = { 60 81 100 }
-			color2 = { 255 255 255 }
-			
-			capital = 245 #Friedmark
-			
-			c_friedmark = {
-				color = { 117 120 93 }
-				color2 = { 255 255 255 }
-				
-				b_sokh = {
-				}
-				b_brass_keep = {
-				}
-				b_friedberg = {
-				}
-			}	
-			
-			c_roezfels = {
-				color = { 137 130 122 }
-				color2 = { 255 255 255 }
-				
-				b_roezfels = {
-				}
-				b_mierach = {
-				}
-				b_hasselhund = {
-				}
-				b_dunkelpfad = {
-				}
-			}	
-		}	
-		
-		d_ziegermauerfeld = {
-			color = { 80 70 70 }
-			color2 = { 255 255 255 }
-			
-			capital = 252 #Vandengart
-			
-			c_dassel = {
-				color = { 107 90 93 }
-				color2 = { 255 255 255 }
-				
-				b_dassel = {
-				}
-				b_smallhof = {
-				}
-				b_felde = {
-				}
-			}				
+			}
 			
 			c_vandengart = {
-				color = { 117 120 113 }
+				color = { 107 120 113 }
 				color2 = { 255 255 255 }
 				
 				b_vandengart = {
@@ -2420,88 +2488,6 @@ e_the_empire = {
 				b_rheiden = {
 				}
 			}
-		}
-		
-		d_wolfenburg = {
-			color = { 124 128 124 }
-			color2 = { 255 255 255 }
-			
-			capital = 254 #Wolfenburg
-						
-			c_ristedt = {
-				color = { 125 140 113 }
-				color2 = { 255 255 255 }
-				
-				b_castle_lenkster = {
-				}
-				b_ristedt = {
-				}
-				b_wendorf = {
-				}
-				b_kienbaum = {
-				}
-				b_oranienburg = {
-				}
-			}		
-			
-			c_wolfenburg = {
-				color = { 137 70 113 }
-				color2 = { 255 255 255 }
-				
-				b_wolfenburg = {
-				}
-				b_levudaldorf = {
-				}
-				b_grunackeren = {
-				}
-				b_regensdorf = {
-				}
-				b_zundap = {
-				}
-				b_jever = {
-				}
-			}		
-						
-			c_wurzen = {
-				color = { 117 100 133 }
-				color2 = { 255 255 255 }
-				
-				b_wurzen = {
-				}
-				b_csenger = {
-				}
-				b_dorog = {
-				}
-				b_boven = {
-				}
-				b_penzlin = {
-				}
-			}	
-			
-			c_nettburg = {
-				color = { 97 90 83 }
-				color2 = { 255 255 255 }
-				
-				b_fort_korver = {
-				}
-				b_trillheim = {
-				}
-				b_dargun = {
-				}
-			}
-						
-			c_markdorf = {
-				color = { 65 70 50 }
-				color2 = { 255 255 255 }
-				
-				b_markdorf = {
-				}
-				b_mirow = {
-				}
-				b_hallenberg = {
-				}
-			}				
-			
 		}
 		
 		d_schutzen = {
@@ -2541,6 +2527,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 309 #Nuln
+
+
+
+		old_imperial = "Menogoth"
 		
 		d_nuln = {
 			color = { 127 121 126 }
@@ -2932,6 +2922,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 330 #Talabheim
+
+
+
+		old_imperial = "Taleuten"
 		
 		d_talabheim = {
 			color = { 210 51 86 }
@@ -3265,7 +3259,9 @@ e_the_empire = {
 		
 		capital = 357 #Averheim
 
-		brigundian = Brigundia
+
+
+		old_imperial = "Brigundia"
 		
 		d_averheim = {
 			color = { 247 241 6 }
@@ -3277,9 +3273,9 @@ e_the_empire = {
 				color = { 117 120 33 }
 				color2 = { 255 255 255 }
 				
-				b_averheim = {
+				b_averburg = {
 				}
-				b_heideck = {
+				b_averheim = {
 				}
 				b_vetschau = {
 				}
@@ -3309,19 +3305,22 @@ e_the_empire = {
 				}			
 			}
 			
-			c_bernloch = {
-				color = { 218 200 5 }
+			c_heideck = {
+				color = { 147 140 53 }
 				color2 = { 255 255 255 }
 				
-				b_bernloch = {
+				b_heideck = {
 				}
-				b_garding = {
+				b_thurndorf = {
 				}
-				b_fehman = {
+				b_pressath = {
 				}
-				b_donzdorf = {
-				}			
+				b_grettstadt = {
+				}
+				b_heinzstadt = {
+				}
 			}
+			
 		}
 
 		d_martig = {
@@ -3344,6 +3343,20 @@ e_the_empire = {
 				}
 				b_mantel = {
 				}
+			}
+			
+			c_bernloch = {
+				color = { 218 200 5 }
+				color2 = { 255 255 255 }
+				
+				b_bernloch = {
+				}
+				b_garding = {
+				}
+				b_fehman = {
+				}
+				b_donzdorf = {
+				}			
 			}
 			
 			c_colmfahre = {
@@ -3504,6 +3517,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 366 #Bechafen
+
+
+
+		old_imperial = "Ostagoth"
 
 		d_bechafen = {
 			color = { 147 51 176 }
@@ -3736,6 +3753,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 343 #Wurtbad
+
+
+
+		old_imperial = "Asoborn"
 				
 		d_stirhugel = {
 			color = { 10 201 76 }
@@ -4023,6 +4044,9 @@ e_the_empire = {
 		
 		capital = 274 #Middenheim
 
+
+
+		old_imperial = "Teutogen"
 
 		d_carroburg = {
 			color = { 27 100 173 }
@@ -4388,6 +4412,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 292 #Hergig
+
+
+
+		old_imperial = "Cherusen"
 	
 		d_kaffberger = {
 			color = { 107 181 96 }
@@ -4408,8 +4436,6 @@ e_the_empire = {
 				b_garssen = {
 				}
 				b_ahresdorf = {
-				}
-				b_wahnsinningen = {
 				}
 			}	
 			
@@ -4533,6 +4559,10 @@ e_the_empire = {
 		color2 = { 255 255 255 }
 		
 		capital = 386 #Drakenhof
+
+
+
+		old_imperial = "Fennone"
 		
 		d_drakenhohenzug = {
 			color = { 107 81 126 }
@@ -4553,6 +4583,8 @@ e_the_empire = {
 				b_senkehof = {
 				}
 				b_castle_senkhof = {
+				}
+				b_oberwart = {
 				}
 			}
 
@@ -4643,6 +4675,8 @@ e_the_empire = {
 				b_egling = {
 				}
 				b_seppel = {
+				}
+				b_lichtenwort = {
 				}
 			}
 
@@ -4739,6 +4773,8 @@ e_the_empire = {
 				}
 				b_templehof = {
 				}
+				b_vargravia = {
+				}
 				b_stolpe = {
 				}
 				b_naubonm = {
@@ -4756,7 +4792,7 @@ e_bretonnia = {
 	color = { 240 231 12 }
 	color2 = { 255 255 255 }
 	
-	capital = 810 #Couronne
+	capital = 844 #Bastonne
 
 	title = "KING"
 	title_female = "QUEEN"		
@@ -4766,6 +4802,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 	
 		capital = 871 #Cuileux
+
+
 	}
 
 	k_glanborielle = {
@@ -4773,6 +4811,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 	
 		capital = 899 #Marguilles
+
+
 	}
 	
 	
@@ -4781,6 +4821,64 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 810 #Couronne
+
+
+		
+		d_couronne = {
+			color = { 187 10 16 }
+			color2 = { 255 255 255 }
+			
+			capital = 810 #Couronne
+						
+			c_couronne = {
+				color = { 203 10 23 }
+				color2 = { 255 255 255 }
+				
+				b_hauteville = {
+				}
+				b_couronne = {
+				}
+				b_verena_capitularium = {
+				}
+				b_grand_chapel = {
+					holy_site = grail
+				}
+				b_castel_le_vicomte = {
+				}
+				b_corlun = {
+				}
+				b_pontmagnac = {
+				}
+			}
+						
+			c_langreuil = {
+				color = { 231 30 53 }
+				color2 = { 255 255 255 }
+				
+				b_langreuil = {
+				}
+				b_sege_de_la_dame = {
+				}
+				b_vergirac = {
+				}
+				b_selignan = {
+				}
+			}		
+			
+			c_nesleaux = {
+				color = { 200 80 36 }
+				color2 = { 255 255 255 }
+				
+				b_nesle = {
+				}
+				b_carduel = {
+				}
+				b_chapelle_seigneure = {
+				}
+				b_herment = {
+				}
+			}
+		}	
 		
 		d_normagne = {
 			color = { 227 50 2 }
@@ -4844,61 +4942,6 @@ e_bretonnia = {
 				}
 			}
 		}
-		
-		d_couronne = {
-			color = { 187 10 16 }
-			color2 = { 255 255 255 }
-			
-			capital = 810 #Couronne
-						
-			c_couronne = {
-				color = { 203 10 23 }
-				color2 = { 255 255 255 }
-				
-				b_hauteville = {
-				}
-				b_couronne = {
-				}
-				b_verena_capitularium = {
-				}
-				b_grand_chapel = {
-				}
-				b_castel_le_vicomte = {
-				}
-				b_corlun = {
-				}
-				b_pontmagnac = {
-				}
-			}
-						
-			c_langreuil = {
-				color = { 231 30 53 }
-				color2 = { 255 255 255 }
-				
-				b_langreuil = {
-				}
-				b_sege_de_la_dame = {
-				}
-				b_vergirac = {
-				}
-				b_selignan = {
-				}
-			}		
-			
-			c_nesleaux = {
-				color = { 200 80 36 }
-				color2 = { 255 255 255 }
-				
-				b_nesle = {
-				}
-				b_carduel = {
-				}
-				b_chapelle_seigneure = {
-				}
-				b_herment = {
-				}
-			}
-		}	
 			
 		d_quierzy = {
 			color = { 197 31 46 }
@@ -5055,6 +5098,8 @@ e_bretonnia = {
 		
 		capital = 884 #Quenelles
 
+
+
 		d_quenelles = {
 			color = { 237 191 206 }
 			color2 = { 255 255 255 }
@@ -5067,7 +5112,9 @@ e_bretonnia = {
 				
 				b_quenelles = {
 				}
-				b_chateau_carrard = {
+				b_carrard = {
+				}
+				b_toucon = {
 				}
 				b_coeur_sacre = {
 				}
@@ -5146,20 +5193,6 @@ e_bretonnia = {
 				}
 			}
 			
-			c_giennois = {
-				color = { 167 160 132 }
-				color2 = { 255 255 255 }
-				
-				b_gien = {
-				}
-				b_veneve = {
-				}
-				b_salone = {
-				}
-				b_sallee = {
-				}
-			}
-			
 			c_orlerre = {
 				color = { 184 149 132 }
 				color2 = { 255 255 255 }
@@ -5180,9 +5213,7 @@ e_bretonnia = {
 			color2 = { 255 255 255 }
 			
 			capital = 870 #Armanie
-			
-			short_name = yes
-				
+							
 			c_armanie = {
 				color = { 204 120 150 }
 				color2 = { 255 255 255 }
@@ -5248,7 +5279,7 @@ e_bretonnia = {
 			color = { 187 121 106 }
 			color2 = { 255 255 255 }
 			
-			capital = 871 #Barrows of Cuileux
+			capital = 871 #Cuileux
 			
 			c_querigord = {
 				color = { 198 143 102 }
@@ -5277,18 +5308,6 @@ e_bretonnia = {
 				}
 			}
 						
-			c_chinon = {
-				color = { 178 150 143 }
-				color2 = { 255 255 255 }
-				
-				b_chinon = {
-				}
-				b_lannay = {
-				}
-				b_brissonour = {
-				}
-			}
-			
 			c_la_mancon = {
 				color = { 178 138 104 }
 				color2 = { 255 255 255 }
@@ -5312,6 +5331,39 @@ e_bretonnia = {
 				b_thirlieu = {
 				}
 			}		
+		}
+
+		d_chinon = {
+			color = { 200 145 185 }
+			color2 = { 255 255 255 }
+			
+			capital = 873 #Chinon
+
+			c_giennois = {
+				color = { 200 160 132 }
+				color2 = { 255 255 255 }
+				
+				b_gien = {
+				}
+				b_veneve = {
+				}
+				b_salone = {
+				}
+				b_sallee = {
+				}
+			}
+			
+			c_chinon = {
+				color = { 208 150 143 }
+				color2 = { 255 255 255 }
+				
+				b_chinon = {
+				}
+				b_lannay = {
+				}
+				b_brissonour = {
+				}
+			}
 		}
 		
 		d_cherry = {
@@ -5355,6 +5407,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 886 #Parravon
+
+
 
 		d_parravon = {
 			color = { 247 201 16 }
@@ -5413,6 +5467,7 @@ e_bretonnia = {
 				color2 = { 255 255 255 }
 				
 				b_fays_la_chapelle = {
+					holy_site = grail
 				}
 				b_bois_des_fays = {
 				}
@@ -5471,6 +5526,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 826 #Mousillon
+
+
 		
 		d_mousillon = {
 			color = { 201 201 46 }
@@ -5491,6 +5548,8 @@ e_bretonnia = {
 				b_quartier_des_ponts = {
 				}
 				b_donlet = {
+				}
+				b_grismerie = {
 				}
 			}
 			
@@ -5607,6 +5666,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 855 #Montfort
+
+
 		
 		d_montfort = {
 			color = { 64 44 99 }
@@ -5627,6 +5688,8 @@ e_bretonnia = {
 				b_bergereux = {
 				}
 				b_cantauban = {
+				}
+				b_rochefort = {
 				}
 			}
 			
@@ -5658,7 +5721,7 @@ e_bretonnia = {
 		}
 
 		d_montmagnac = {
-			color = { 89 50 100 }
+			color = { 99 70 130 }
 			color2 = { 255 255 255 }
 			
 			capital = 848 #Galisson
@@ -5726,7 +5789,52 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 794 #Lyonesse
+
+
 		
+		d_lyonesse = {
+			color = { 77 131 196 }
+			color2 = { 255 255 255 }
+			
+			capital = 794 #Lyonesse
+						
+			c_lyonesse = {
+				color = { 34 64 209 }
+				color2 = { 255 255 255 }
+				
+				b_lyonesse = {
+				}
+				b_avalot = {
+				}
+				b_ellys = {
+				}
+				b_landri = {
+					holy_site = grail
+				}
+				b_reynes = {
+				}
+				b_scilly = {
+				}
+				b_charybde = {
+				}
+			}
+			
+			c_outremer = {
+				color = { 64 82 221 }
+				color2 = { 255 255 255 }
+				
+				b_petit_lyonesse = {
+				}
+				b_avallon = {
+				}
+				b_manannan = {
+				}
+				b_marinparc = {
+				}
+				b_perlesvaus = {
+				}
+			}
+		}
 		d_pinot = {
 			color = { 127 151 246 }
 			color2 = { 255 255 255 }
@@ -5763,32 +5871,7 @@ e_bretonnia = {
 				}
 			}					
 		}
-		
-		d_lyonesse = {
-			color = { 77 131 196 }
-			color2 = { 255 255 255 }
-			
-			capital = 794 #Lyonesse
-						
-			c_lyonesse = {
-				color = { 34 64 209 }
-				color2 = { 255 255 255 }
 				
-				b_lyonesse = {
-				}
-				b_avalot = {
-				}
-				b_ellys = {
-				}
-				b_reynes = {
-				}
-				b_scilly = {
-				}
-				b_charybde = {
-				}
-			}	
-		}
-		
 		d_armorique = {
 			color = { 147 191 236 }
 			color2 = { 255 255 255 }
@@ -5799,6 +5882,8 @@ e_bretonnia = {
 				color = { 145 198 240 }
 				color2 = { 255 255 255 }
 				
+				b_barley_motte = {
+				}
 				b_rocheil = {
 				}
 				b_suddene = {
@@ -5892,11 +5977,34 @@ e_bretonnia = {
 		
 		capital = 799 #L'Anguille
 
+
+
 		d_languille = {
 			color = { 37 111 236 }
 			color2 = { 255 255 255 }
 			
 			capital = 799 #L'Anguille
+			
+			c_languille = {
+				color = { 50 101 205 }
+				color2 = { 255 255 255 }
+				
+				b_languille = {
+				holy_site = manannite
+				}
+				b_dauphinac = {
+				}
+				b_cove = {
+				}
+				b_cigognac = {
+				}
+				b_eret = {
+				}
+				b_barran = {
+				}
+				b_toulon = {
+				}
+			}
 			
 			c_fregunerre = {
 				color = { 40 102 240 }
@@ -5921,25 +6029,6 @@ e_bretonnia = {
 				b_carlion = {
 				}
 				b_cazus = {
-				}
-			}	
-			
-			c_languille = {
-				color = { 50 101 205 }
-				color2 = { 255 255 255 }
-				
-				b_languille = {
-				holy_site = manannite
-				}
-				b_dauphinac = {
-				}
-				b_cove = {
-				}
-				b_cigognac = {
-				}
-				b_eret = {
-				}
-				b_barran = {
 				}
 			}		
 		}
@@ -6013,6 +6102,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 833 #Gisoreux
+
+
 		
 		d_guerac = {
 			color = { 127 171 56 }
@@ -6184,6 +6275,50 @@ e_bretonnia = {
 		
 		capital = 898 #Carcasonne
 
+
+
+		d_carcassonne = {
+			color = { 47 61 126 }
+			color2 = { 255 255 255 }
+			
+			capital = 894 #Carcassonne
+
+			c_carcassonne = {
+				color = { 67 10 139 }
+				color2 = { 255 255 255 }
+				
+				b_carcassonne = {
+				}
+				b_castres = {
+				}
+				b_albi = {
+				}
+				b_lavaur_du_graal = {
+				}
+				b_narsonne = {
+				}
+				b_mayogne = {
+				}
+			}
+			
+			c_brussergue = {
+				color = { 66 64 158 }
+				color2 = { 255 255 255 }
+				
+				b_brusse = {
+				}
+				b_tourasque = {
+				}
+				b_balamoir = {
+				}
+				b_calotte = {
+				}
+				b_sombrac = {
+				}
+			}
+			
+		}
+		
 		d_glanborielle = {
 			color = { 107 61 186 }
 			color2 = { 255 255 255 }
@@ -6241,47 +6376,6 @@ e_bretonnia = {
 				b_marasque = {
 				}
 				b_lillebourg = {
-				}
-			}
-		}
-		
-		d_carcassonne = {
-			color = { 47 61 126 }
-			color2 = { 255 255 255 }
-			
-			capital = 894 #Carcassonne
-
-			c_brussergue = {
-				color = { 66 64 158 }
-				color2 = { 255 255 255 }
-				
-				b_brusse = {
-				}
-				b_tourasque = {
-				}
-				b_balamoir = {
-				}
-				b_calotte = {
-				}
-				b_sombrac = {
-				}
-			}
-			
-			c_carcassonne = {
-				color = { 67 10 139 }
-				color2 = { 255 255 255 }
-				
-				b_carcassonne = {
-				}
-				b_castres = {
-				}
-				b_albi = {
-				}
-				b_lavaur_du_graal = {
-				}
-				b_narsonne = {
-				}
-				b_mayogne = {
 				}
 			}
 		}
@@ -6439,42 +6533,14 @@ e_bretonnia = {
 		
 		capital = 865 #Brionne
 
+
+
 		d_brionne = {
 			color = { 220 220 230 }
 			color2 = { 255 255 255 }
 			
 			capital = 865 #Brionne
 
-
-			c_muret = {
-				color = { 238 190 218 }
-				color2 = { 255 255 255 }
-				
-				b_muret = {
-				}
-				b_peires = {
-				}
-				b_toursimon = {
-				}
-				b_laigle = {
-				}
-			}
-						
-			
-			c_gransette = {
-				color = { 220 203 205 }
-				color2 = { 255 255 255 }
-				
-				b_brassens = {
-				}
-				b_castle_gransette = {
-				}
-				b_castel_brel = {
-				}
-				b_mitterrand = {
-				}
-			}
-			
 			c_brionne = {
 				color = { 240 200 235 }
 				color2 = { 255 255 255 }
@@ -6488,6 +6554,36 @@ e_bretonnia = {
 				b_cidatelle = {
 				}
 				b_enguerraux = {
+				}
+				b_ouessant = {
+				}
+			}
+			
+			c_muret = {
+				color = { 238 190 218 }
+				color2 = { 255 255 255 }
+				
+				b_muret = {
+				}
+				b_peires = {
+				}
+				b_toursimon = {
+				}
+				b_laigle = {
+				}
+			}
+			
+			c_gransette = {
+				color = { 220 203 205 }
+				color2 = { 255 255 255 }
+				
+				b_brassens = {
+				}
+				b_castle_gransette = {
+				}
+				b_castel_brel = {
+				}
+				b_mitterrand = {
 				}
 			}
 			
@@ -6517,6 +6613,8 @@ e_bretonnia = {
 				}
 				b_la_verenee = {
 				}
+				b_chamonix = {
+				}
 			}
 		}
 	}
@@ -6526,6 +6624,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 837 #Bordeleaux
+
+
 
 		d_bordeleaux = {
 			color = { 26 47 155 }
@@ -6642,11 +6742,122 @@ e_bretonnia = {
 	}
 	
 	k_bastonne = {
-		color = { 140 80 120 }
+		color = { 140 50 80 }
 		color2 = { 255 255 255 }
 		
 		capital = 844 #Bastonne
 
+
+
+		d_bastonne = {
+			color = { 137 21 106 }
+			color2 = { 255 255 255 }
+			
+			capital = 844 #Bastonne
+			
+			c_bastonne = {
+				color = { 137 68 100 }
+				color2 = { 255 255 255 }
+				
+				b_chateau_bastonne = {
+				}
+				b_bastonne = {
+				}
+				b_baux = {
+				}
+				b_marmin = {
+				}
+				b_medeme = {
+				}
+				b_amargueuse = {
+				}
+				b_joyaux = {
+				}
+			}
+			
+			c_soudarre = {
+				color = { 142 89 100 }
+				color2 = { 255 255 255 }
+				
+				b_soude = {
+				}
+				b_bravenac = {
+				}
+				b_astillon = {
+				}
+				b_turdome = {
+				}
+			}
+			
+			c_garamont = {
+				color = { 137 68 80 }
+				color2 = { 255 255 255 }
+				
+				b_chateau_garamont = {
+				}
+				b_garamont = {
+				}
+				b_carlemont = {
+				}
+				b_montcadas = {
+				}
+				b_noireville = {
+				}
+			}
+			
+			c_sangasse = {
+				color = { 151 87 100 }
+				color2 = { 255 255 255 }
+				
+				b_sangasse = {
+				}
+				b_sangasseville = {
+				}
+				b_chateau_depre = {
+				}
+				b_parthillon = {
+				}
+				b_epre = {
+				}
+			}
+		}
+		
+		d_chalons = {
+			color = { 152 96 111 }
+			color2 = { 255 255 255 }
+			
+			capital = 846 #Gastix
+			
+			c_chalons = {
+				color = { 167 70 121 }
+				color2 = { 255 255 255 }
+				
+				b_champebourg = {
+				}
+				b_maisonrie = {
+				}
+				b_sainte_chapelle = {
+				}
+				b_issoroux = {
+				}
+			}
+			
+			c_gastix = {
+				color = { 152 69 80 }
+				color2 = { 255 255 255 }
+				
+				b_gastix = {
+				}
+				b_the_humble_chapel = {
+					holy_site = grail
+				}
+				b_lautrec = {
+				}
+				b_ogie = {
+				}
+			}
+		}
+		
 		d_toussaint = {
 			color = { 167 61 136 }
 			color2 = { 255 255 255 }
@@ -6654,7 +6865,7 @@ e_bretonnia = {
 			capital = 843 #Toussaint
 			
 			c_toussaint = {
-				color = { 156 70 120 }
+				color = { 156 70 100 }
 				color2 = { 255 255 255 }
 				
 				b_toussaint = {
@@ -6683,7 +6894,7 @@ e_bretonnia = {
 		}
 		
 		d_ancon = {
-			color = { 127 61 106 }
+			color = { 117 71 106 }
 			color2 = { 255 255 255 }
 			
 			capital = 842 #Beaujolais
@@ -6716,72 +6927,6 @@ e_bretonnia = {
 				}
 			}
 		}
-		d_bastonne = {
-			color = { 137 21 106 }
-			color2 = { 255 255 255 }
-			
-			capital = 844 #Bastonne
-			
-			c_chalons = {
-				color = { 167 70 179 }
-				color2 = { 255 255 255 }
-				
-				b_champebourg = {
-				}
-				b_maisonrie = {
-				}
-				b_sainte_chapelle = {
-				}
-				b_issoroux = {
-				}
-			}
-			
-			c_gastix = {
-				color = { 152 69 180 }
-				color2 = { 255 255 255 }
-				
-				b_gastix = {
-				}
-				b_the_humble_chapel = {
-				}
-				b_lautrec = {
-				}
-				b_ogie = {
-				}
-			}
-			
-			c_bastonne = {
-				color = { 137 68 150 }
-				color2 = { 255 255 255 }
-				
-				b_castle_bastonne = {
-				}
-				b_baux = {
-				}
-				b_marmin = {
-				}
-				b_medeme = {
-				}
-				b_amargueuse = {
-				}
-				b_joyaux = {
-				}
-			}
-			
-			c_soudarre = {
-				color = { 142 89 170 }
-				color2 = { 255 255 255 }
-				
-				b_soude = {
-				}
-				b_bravenac = {
-				}
-				b_astillon = {
-				}
-				b_turdome = {
-				}
-			}
-		}
 	}
 	
 	k_artois = {
@@ -6789,6 +6934,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 815 #Artois
+
+
 		
 		d_artois = {
 			color = { 197 91 56 }
@@ -6801,6 +6948,8 @@ e_bretonnia = {
 				color2 = { 255 255 255 }
 				
 				b_castel_artois = {
+				}
+				b_artois = {
 				}
 				b_arnimes = {
 				}
@@ -6868,6 +7017,7 @@ e_bretonnia = {
 				b_chateau_uesin = {
 				}
 				b_the_weeping_chapel = {
+					holy_site = grail
 				}
 				b_graalbourg = {
 				}
@@ -6882,6 +7032,8 @@ e_bretonnia = {
 		color2 = { 255 255 255 }
 		
 		capital = 861 #Aquitaine
+
+
 		
 		d_aquitaine = {
 			color = { 222 151 36 }
@@ -6889,10 +7041,33 @@ e_bretonnia = {
 			
 			capital = 861 #Aquitaine
 			
+			c_aquitaine = {
+				color = { 229 160 10 }
+				color2 = { 255 255 255 }
+				
+				b_aquit = {
+				}
+				b_aquitaine = {
+				}
+				b_querigueux = {
+				}
+				b_lac_de_tranquillite = {
+					holy_site = grail
+				}
+				b_aulny = {
+				}
+				b_castelfauchard = {
+				}
+				b_la_fontelle = {
+				}
+			}
+			
 			c_anjarlac = {
 				color = { 224 148 20 }
 				color2 = { 255 255 255 }
 				
+				b_chateau_du_mainse = {
+				}
 				b_anjarre = {
 				}
 				b_derrevin = {
@@ -6903,28 +7078,14 @@ e_bretonnia = {
 				}
 			}
 			
-			c_aquitaine = {
-				color = { 229 160 10 }
-				color2 = { 255 255 255 }
-				
-				b_aquitaine = {
-				}
-				b_querigueux = {
-				}
-				b_aulny = {
-				}
-				b_castelfauchard = {
-				}
-				b_la_fontelle = {
-				}
-				b_parthillon = {
-				}
-			}
-			
-			c_limou = {
+			c_elbiq = {
 				color = { 239 167 50 }
 				color2 = { 255 255 255 }
 				
+				b_chateau_delbiq = {
+				}
+				b_elbiq = {
+				}
 				b_limars = {
 				}
 				b_lottes = {
@@ -6940,15 +7101,17 @@ e_bretonnia = {
 			
 			capital = 859 #Rennaille
 			
-			c_epre = {
+			c_epee = {
 				color = { 249 162 40 }
 				color2 = { 255 255 255 }
 				
-				b_chateau_depre = {
+				b_epee = {
 				}
 				b_giscard = {
 				}
 				b_bordet = {
+				}
+				b_cherbourg = {
 				}
 				b_drengaut = {
 				}
@@ -6970,7 +7133,7 @@ e_bretonnia = {
 				}
 			}
 
-			c_ybrain = {
+			c_vignoble = {
 				color = { 240 180 18 }
 				color2 = { 255 255 255 }
 				
@@ -6990,71 +7153,31 @@ e_bretonnia = {
 
 
 e_kislev = {
-	color = { 38 91 192 }
+	color = { 38 121 192 }
 	color2 = { 255 255 255 }
 	
 	capital = 202 #Kislev
 	
 	k_kislev = {
-		color = { 155 214 137 }
+		color = { 55 154 227 }
 		color2 = { 255 255 255 }
 	
 		capital = 202 #Kislev
 
-		d_kalinora = {
-			color = { 150 221 130 }
-			color2 = { 255 255 255 }
-			
-			capital = 214 #Kalinora
-			
-			c_pugacheyev = {
-				color = { 184 202 140 }
-				color2 = { 255 255 255 }
-				
-				b_pugacheyev = {
-				}
-				b_sochi = {
-				}
-				b_troitsk = {
-				}
-			}	
-			
-			c_kalinora = {
-				color = { 160 204 130 }
-				color2 = { 255 255 255 }
-				
-				b_fort_jakova = {
-				}
-				b_kalinora = {
-				}
-				b_uyar = {
-				}
-			}	
-			
-			c_vetluga = {
-				color = { 120 190 180 }
-				color2 = { 255 255 255 }
-				
-				b_vetluga = {
-				}
-				b_stroita = {
-				}
-				b_pevek = {
-				}
-			}	
-		}
-		
+
+
 		d_kislev = {
-			color = { 180 222 110 }
+			color = { 50 152 210 }
 			color2 = { 255 255 255 }
 			
 			capital = 202 #Kislev
 			
 			c_kislev = {
-				color = { 178 199 120 }
+				color = { 78 199 220 }
 				color2 = { 255 255 255 }
 				
 				b_zimniy_dvorets = {
+					holy_site = ursun
 					holy_site = northern_gods
 				}
 				b_zvenkovya = {
@@ -7084,7 +7207,7 @@ e_kislev = {
 			}
 			
 			c_inkodevna = {
-				color = { 178 155 150 }
+				color = { 78 155 250 }
 				color2 = { 255 255 255 }
 				
 				b_inkodevna = {
@@ -7100,7 +7223,7 @@ e_kislev = {
 			}
 			
 			c_turov = {
-				color = { 155 195 170 }
+				color = { 55 195 240 }
 				color2 = { 255 255 255 }
 				
 				b_ardhka = {
@@ -7114,16 +7237,73 @@ e_kislev = {
 				b_mehikoorma = {
 				}
 			}
+			
+			c_voronino = {
+				color = { 55 165 253 }
+				color2 = { 255 255 255 }
+				
+				b_voronino = {
+				}
+				b_nizhnaya_urskoyovka = {
+				}
+				b_zlatograd = {
+				}
+				b_gospodaringrad = {
+				}
+			}
+		}
+		
+		d_kalinora = {
+			color = { 50 161 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 214 #Kalinora
+			
+			c_pugacheyev = {
+				color = { 84 172 240 }
+				color2 = { 255 255 255 }
+				
+				b_pugacheyev = {
+				}
+				b_sochi = {
+				}
+				b_troitsk = {
+				}
+			}	
+			
+			c_kalinora = {
+				color = { 60 174 230 }
+				color2 = { 255 255 255 }
+				
+				b_fort_jakova = {
+				}
+				b_kalinora = {
+				}
+				b_uyar = {
+				}
+			}	
+			
+			c_vetluga = {
+				color = { 20 120 250 }
+				color2 = { 255 255 255 }
+				
+				b_vetluga = {
+				}
+				b_stroita = {
+				}
+				b_pevek = {
+				}
+			}	
 		}
 		
 		d_shirokij = {
-			color = { 50 151 30 }
+			color = { 50 151 230 }
 			color2 = { 255 255 255 }
 			
 			capital = 205 #Resvynhaf
 
 			c_rakhov = {
-				color = { 109 209 150 }
+				color = { 19 109 190 }
 				color2 = { 255 255 255 }
 				
 				b_rakhov = {
@@ -7135,7 +7315,7 @@ e_kislev = {
 			}
 
 			c_shirokij_forest = {
-				color = { 142 159 110 }
+				color = { 42 159 210 }
 				color2 = { 255 255 255 }
 				
 				b_ryazan = {
@@ -7145,7 +7325,7 @@ e_kislev = {
 			}
 
 			c_resvynhaf = {
-				color = { 142 178 132 }
+				color = { 42 178 232 }
 				color2 = { 255 255 255 }
 				
 				b_resvynhaf = {
@@ -7158,13 +7338,13 @@ e_kislev = {
 		}
 		
 		d_lesia = {
-			color = { 100 201 90 }
+			color = { 20 101 190 }
 			color2 = { 255 255 255 }
 			
 			capital = 209 #Boguchar
 
 			c_vitevo = {
-				color = { 97 198 109 }
+				color = { 97 128 209 }
 				color2 = { 255 255 255 }
 				
 				b_vitevo = {
@@ -7178,7 +7358,7 @@ e_kislev = {
 			}
 				
 			c_boguchar = {
-				color = { 90 200 90 }
+				color = { 90 100 220 }
 				color2 = { 255 255 255 }
 				
 				b_boguchar = {
@@ -7192,7 +7372,7 @@ e_kislev = {
 			}
 			
 			c_chernigov = {
-				color = { 110 189 109 }
+				color = { 70 189 249 }
 				color2 = { 255 255 255 }
 				
 				b_chernigov = {
@@ -7204,7 +7384,7 @@ e_kislev = {
 			}
 
 			c_polotsk = {
-				color = { 90 120 140 }
+				color = { 60 160 240 }
 				color2 = { 255 255 255 }
 				
 				b_polotsk = {
@@ -7217,13 +7397,13 @@ e_kislev = {
 		}	
 
 		d_kyrnoka = {
-			color = { 90 151 130 }
+			color = { 80 151 230 }
 			color2 = { 255 255 255 }
 			
 			capital = 207 #Kyrnoka
 
 			c_kyrnoka = {
-				color = { 100 170 123 }
+				color = { 70 170 253 }
 				color2 = { 255 255 255 }
 				
 				b_kyrnoka = {
@@ -7237,7 +7417,7 @@ e_kislev = {
 			}
 
 			c_belev = {
-				color = { 109 189 78 }
+				color = { 99 189 248 }
 				color2 = { 255 255 255 }
 				
 				b_belev = {
@@ -7253,19 +7433,21 @@ e_kislev = {
 	}
 		
 	k_translynsk = {
-		color = { 20 190 87 }
+		color = { 200 70 77 }
 		color2 = { 255 255 255 }
 	
 		capital = 160 #Zenilev	
+
+
 		
 		d_volkolamsk = {
-			color = { 50 161 100 }
+			color = { 200 61 50 }
 			color2 = { 255 255 255 }
 			
 			capital = 160 #Zenilev	
 
 			c_ostrosk = {
-				color = { 43 150 90 }
+				color = { 243 50 90 }
 				color2 = { 255 255 255 }
 				
 				b_fort_ostrosk = {
@@ -7279,7 +7461,7 @@ e_kislev = {
 			}
 
 			c_zenilev = {
-				color = { 89 190 120 }
+				color = { 189 90 100 }
 				color2 = { 255 255 255 }
 				
 				b_fortress_of_zenilev = {
@@ -7293,7 +7475,7 @@ e_kislev = {
 			}
 
 			c_petrikov = {
-				color = { 80 170 100 }
+				color = { 180 70 100 }
 				color2 = { 255 255 255 }
 				
 				b_petrikov = {
@@ -7308,13 +7490,13 @@ e_kislev = {
 
 		
 		d_zeya = {
-			color = { 130 191 10 }
+			color = { 180 91 80 }
 			color2 = { 255 255 255 }
 			
 			capital = 164 #Turaw
 				
 			c_zeya = {
-				color = { 100 180 30 }
+				color = { 200 10 30 }
 				color2 = { 255 255 255 }
 				
 				b_zeya = {
@@ -7329,7 +7511,7 @@ e_kislev = {
 
 
 			c_megion = {
-				color = { 109 203 100 }
+				color = { 189 23 10 }
 				color2 = { 255 255 255 }
 				
 				b_megion = {
@@ -7344,7 +7526,7 @@ e_kislev = {
 
 			
 			c_zhedevka = {
-				color = { 80 150 40 }
+				color = { 180 50 40 }
 				color2 = { 255 255 255 }
 				
 				b_zhedevka = {
@@ -7359,13 +7541,13 @@ e_kislev = {
 		}		
 		
 		d_murmask = {
-			color = { 170 241 70 }
+			color = { 170 41 70 }
 			color2 = { 255 255 255 }
 			
 			capital = 166 #Maja Uvemny
 				
 			c_maja_uvemny = {
-				color = { 160 250 100 }
+				color = { 160 50 10 }
 				color2 = { 255 255 255 }
 				
 				b_maja_uvemny = {
@@ -7381,7 +7563,7 @@ e_kislev = {
 			}
 				
 			c_tobol = {
-				color = { 140 203 80 }
+				color = { 140 23 20 }
 				color2 = { 255 255 255 }
 				
 				b_tobolvoiska = {
@@ -7394,13 +7576,13 @@ e_kislev = {
 		}	
 		
 		d_vitzy = {
-			color = { 180 221 90 }
+			color = { 180 51 10 }
 			color2 = { 255 255 255 }
 			
 			capital = 177 #Vitzy
 				
 			c_crags_of_shargun = {
-				color = { 164 250 40 }
+				color = { 164 20 40 }
 				color2 = { 255 255 255 }
 				
 				b_krovas = {
@@ -7410,7 +7592,7 @@ e_kislev = {
 			}
 				
 			c_grovod_forest = {
-				color = { 180 230 100}
+				color = { 180 30 10}
 				color2 = { 255 255 255 }
 				
 				b_andreapolis = {
@@ -7425,7 +7607,7 @@ e_kislev = {
 				
 			
 			c_oduin_wood = {
-				color = { 190 250 30 }
+				color = { 150 25 30 }
 				color2 = { 255 255 255 }
 				
 				b_oduin = {
@@ -7435,7 +7617,7 @@ e_kislev = {
 			}
 				
 			c_vitzy = {
-				color = { 140 190 70 }
+				color = { 140 19 7 }
 				color2 = { 255 255 255 }
 				
 				b_vitzy = {
@@ -7449,7 +7631,7 @@ e_kislev = {
 			}
 			
 			c_goranitch = {
-				color = { 120 190 100 }
+				color = { 120 10 10 }
 				color2 = { 255 255 255 }
 				
 				b_goranitch = {
@@ -7465,13 +7647,13 @@ e_kislev = {
 		
 		
 		d_kozdramask = {
-			color = { 90 191 90 }
+			color = { 230 11 10 }
 			color2 = { 255 255 255 }
 			
 			capital = 164 #Turaw
 
 			c_the_golinyi = {
-				color = { 89 200 80 }
+				color = { 249 20 80 }
 				color2 = { 255 255 255 }
 				
 				b_iaryn = {
@@ -7483,7 +7665,7 @@ e_kislev = {
 			}
 
 			c_turaw = {
-				color = { 78 198 59 }
+				color = { 178 18 59 }
 				color2 = { 255 255 255 }
 				
 				b_turaw = {
@@ -7497,7 +7679,7 @@ e_kislev = {
 			}
 
 			c_tolsol = {
-				color = { 59 150 90 }
+				color = { 159 10 10 }
 				color2 = { 255 255 255 }
 				
 				b_tolsolvoiska = {
@@ -7510,13 +7692,13 @@ e_kislev = {
 		}		
 		
 		d_osasto = {
-			color = { 50 141 60 }
+			color = { 150 50 60 }
 			color2 = { 255 255 255 }
 			
 			capital = 158 #Dzyatlava
 
 			c_dyzatlava = {
-				color = { 43 180 30 }
+				color = { 203 10 30 }
 				color2 = { 255 255 255 }
 				
 				b_dyzatlava = {
@@ -7530,7 +7712,7 @@ e_kislev = {
 			}
 
 			c_zoishenk = {
-				color = { 56 150 12 }
+				color = { 246 15 12 }
 				color2 = { 255 255 255 }
 				
 				b_zoishenk = {
@@ -7544,7 +7726,7 @@ e_kislev = {
 			}
 				
 			c_dzzijk = {
-				color = { 42 130 41 }
+				color = { 242 50 41 }
 				color2 = { 255 255 255 }
 				
 				b_dzzijk = {
@@ -7558,7 +7740,7 @@ e_kislev = {
 			}
 				
 			c_hurajik = {
-				color = { 13 80 50 }
+				color = { 213 80 50 }
 				color2 = { 255 255 255 }
 				
 				b_hurajik = {
@@ -7569,7 +7751,8 @@ e_kislev = {
 				}
 				b_svislach = {
 				}
-			}		}		
+			}
+		}
 	}
 	
 	k_ropsmannia = {
@@ -7578,27 +7761,70 @@ e_kislev = {
 	
 		capital = 175 #Erengrad		
 
+
+
+		d_erengrad = {
+			color = { 210 211 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 175 #Erengrad	
+				
+			c_erengrad = {
+				color = { 204 230 140 }
+				color2 = { 255 255 255 }
+				
+				b_erengrad = {
+				}
+				b_gomela = {
+				}
+				b_klichawa = {
+				}
+				b_mstislavlios = {
+				}
+				b_shklovok = {
+				}
+				b_dizna = {
+				}
+				b_dokshatsyky = {
+				}
+			}
+			
+			c_plowce = {
+				color = { 230 201 120 }
+				color2 = { 255 255 255 }
+				
+				b_plowce = {
+				}
+				b_brzesc = {
+				}
+				b_wojttaszyce = {
+				}
+				b_nelidovo = {
+				}
+			}
+				
+
+			c_krakjunov = {
+				color = { 180 190 60 }
+				color2 = { 255 255 255 }
+				
+				b_krakjunov = {
+				}
+				b_schonsze = {
+				}
+				b_czorn = {
+				}
+				b_nevel = {
+				}
+			}
+		}	
+		
 		d_rubitia = {
 			color = { 250 231 130 }
 			color2 = { 255 255 255 }
 			
-			capital = 181 #Salair	
+			capital = 196 #Koniecpole	
 
-				
-			c_salair = {
-				color = { 170 140 70 }
-				color2 = { 255 255 255 }
-				
-				b_salair = {
-				}
-				b_podolsky = {
-				}
-				b_novy_oskol = {
-				}
-				b_neya = {
-				}
-			}
-			
 			c_jydske = {
 				color = { 200 200 50 }
 				color2 = { 255 255 255 }
@@ -7624,8 +7850,7 @@ e_kislev = {
 				b_tezew = {
 				}
 			}
-
-		}		
+		}
 
 
 		d_merya = {
@@ -7720,69 +7945,135 @@ e_kislev = {
 				}
 			}	
 		}
-
-		d_erengrad = {
-			color = { 210 211 100 }
-			color2 = { 255 255 255 }
-			
-			capital = 175 #Erengrad	
-				
-			c_plowce = {
-				color = { 230 201 120 }
-				color2 = { 255 255 255 }
-				
-				b_plowce = {
-				}
-				b_brzesc = {
-				}
-				b_wojttaszyce = {
-				}
-				b_nelidovo = {
-				}
-			}
-				
-			c_erengrad = {
-				color = { 204 230 140 }
-				color2 = { 255 255 255 }
-				
-				b_erengrad = {
-				}
-				b_gomela = {
-				}
-				b_klichawa = {
-				}
-				b_mstislavlios = {
-				}
-				b_shklovok = {
-				}
-				b_dizna = {
-				}
-				b_dokshatsyky = {
-				}
-			}
-
-			c_krakjunov = {
-				color = { 180 190 60 }
-				color2 = { 255 255 255 }
-				
-				b_krakjunov = {
-				}
-				b_schonsze = {
-				}
-				b_czorn = {
-				}
-				b_nevel = {
-				}
-			}
-		}	
-		
 	}
 	
 	k_volkova = {
-		color = { 55 104 187 }
+		color = { 55 66 177 }
 		color2 = { 255 255 255 }
 	
 		capital = 182 #Praag
+
+
+		
+		d_praag = {
+			color = { 30 81 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 182 #Praag
+				
+			c_praag = {
+				color = { 60 20 190 }
+				color2 = { 255 255 255 }
+				
+				b_praag = {
+					holy_site = ursun
+					holy_site = northern_gods
+				}
+				b_uskovic = {
+				}
+				b_gutaidra = {
+				}
+				b_chaglev = {
+				}
+				b_ivanovo = {
+				}
+				b_zhabinkha = {
+				}
+				b_lynskdok = {
+				}
+			}
+				
+			c_zvyagino = {
+				color = { 70 70 190 }
+				color2 = { 255 255 255 }
+				
+				b_repkagorod = {
+				}
+				b_zvyagino = {
+				}
+				b_blekpol = {
+				}
+				b_omegelgrad = {
+				}
+			}
+			
+			c_kacirk = {
+				color = { 40 50 180 }
+				color2 = { 255 255 255 }
+				
+				b_kacirk = {
+				}
+				b_uzdagrad = {
+				}
+				b_kopyl = {
+				}
+			}
+				
+			c_volksgrad = {
+				color = { 140 110 180 }
+				color2 = { 255 255 255 }
+				
+				b_volksgrad = {
+				}
+				b_logoysk = {
+				}
+				b_kletsk = {
+				}
+				b_lyuban = {
+				}
+			}
+		}
+		
+		d_bolgasgrad = {
+			color = { 50 50 180 }
+			color2 = { 255 255 255 }
+			
+			capital = 180 #Bolgasgrad
+				
+			c_bolgasgrad = {
+				color = { 78 110 181 }
+				color2 = { 255 255 255 }
+				
+				b_bolgasgrad = {
+				}
+				b_krasicyno = {
+				}
+				b_ammatus = {
+				}
+				b_tartu = {
+				}
+				b_yvegka = {
+				}
+				b_baiyn = {
+				}
+			}
+			
+			c_salair = {
+				color = { 70 40 190 }
+				color2 = { 255 255 255 }
+				
+				b_salair = {
+				}
+				b_podolsky = {
+				}
+				b_novy_oskol = {
+				}
+				b_neya = {
+				}
+			}
+			
+			c_arzamas = {
+				color = { 60 80 230 }
+				color2 = { 255 255 255 }
+				
+				b_arzamas = {
+				}
+				b_elista = {
+				}
+				b_engels = {
+				}
+			}
+		}
 		
 		d_dukhyls = {
 			color = { 30 70 180 }
@@ -7920,7 +8211,9 @@ e_kislev = {
 				}
 				b_gorodec = {
 				}
-				b_tartu = {
+				b_ursuns_teeth = {
+					holy_site = ursun
+					holy_site = northern_gods
 				}
 				b_kobrin = {
 				}
@@ -7942,88 +8235,6 @@ e_kislev = {
 				}
 			}
 		}	
-		
-		d_praag = {
-			color = { 30 81 230 }
-			color2 = { 255 255 255 }
-			
-			capital = 182 #Praag
-				
-			c_kacirk = {
-				color = { 40 50 180 }
-				color2 = { 255 255 255 }
-				
-				b_kacirk = {
-				}
-				b_uzdagrad = {
-				}
-				b_kopyl = {
-				}
-			}
-				
-			c_praag = {
-				color = { 60 20 190 }
-				color2 = { 255 255 255 }
-				
-				b_praag = {
-					holy_site = northern_gods
-				}
-				b_uskovic = {
-				}
-				b_gutaidra = {
-				}
-				b_chaglev = {
-				}
-				b_ivanovo = {
-				}
-				b_zhabinkha = {
-				}
-				b_lynskdok = {
-				}
-			}
-				
-			c_volksgrad = {
-				color = { 140 110 180 }
-				color2 = { 255 255 255 }
-				
-				b_volksgrad = {
-				}
-				b_logoysk = {
-				}
-				b_kletsk = {
-				}
-				b_lyuban = {
-				}
-			}
-				
-			c_bolgasgrad = {
-				color = { 178 210 141 }
-				color2 = { 255 255 255 }
-				
-				b_bolgasgrad = {
-				}
-				b_krasicyno = {
-				}
-				b_ammatus = {
-				}
-				b_yvegka = {
-				}
-				b_baiyn = {
-				}
-			}
-			
-			c_arzamas = {
-				color = { 160 180 230 }
-				color2 = { 255 255 255 }
-				
-				b_arzamas = {
-				}
-				b_elista = {
-				}
-				b_engels = {
-				}
-			}
-		}	
 	}
 }	
 
@@ -8039,13 +8250,17 @@ e_norsca = {
 		color2 = { 255 255 255 }
 	
 		capital = 143 #Aponnia
+
+
 	}
 
 	k_midgard = {
 		color = { 219 199 123 }
 		color2 = { 255 255 255 }
 		
-			capital = 46 #Jaol's Apex
+		capital = 46 #Jaol's Apex
+
+
 		
 		d_fjallfel = {
 			color = { 227 191 56 }
@@ -8221,10 +8436,12 @@ e_norsca = {
 	}
 	
 	k_the_goromadny = {
-		color = { 100 80 110 }
+		color = { 130 100 140 }
 		color2 = { 255 255 255 }
 		
 		capital = 130 #Urslo
+
+
 		
 		d_goromadnyrond = {
 			color = { 137 95 129 }
@@ -8407,8 +8624,9 @@ e_norsca = {
 				b_fielljebu = {
 				}
 				b_tivar_peak = {
-				holy_site = northern_gods
-				holy_site = norse
+					holy_site = ursun
+					holy_site = norscan_gods
+					holy_site = northern_gods
 				}
 				b_jotunvik = {
 				}
@@ -8445,6 +8663,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 52 #Norscveg
+
+
 		
 		d_iavaskh = {
 			color = { 107 51 156 }
@@ -8721,7 +8941,7 @@ e_norsca = {
 				color2 = { 255 255 255 }
 				
 				b_ilsheim = {
-					holy_site = dark_norse
+					holy_site = norscan_gods
 				}
 				b_shornaals_reach = {
 				}
@@ -8738,6 +8958,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 39 #Ulfsland
+
+
 		
 		d_svellgardhr = {
 			color = { 187 111 62 }
@@ -8788,9 +9010,11 @@ e_norsca = {
 				
 				b_skorlm = {
 				}
-				b_urgathastad = {
+				b_ulfennik = {
 				}
 				b_forest_of_fyrul = {
+				}
+				b_urgathastad = {
 				}
 				b_quedefjord = {
 				}
@@ -8805,6 +9029,7 @@ e_norsca = {
 				b_mount_vanir = {
 				}
 				b_spiritmyrr = {
+					holy_site = norscan_gods
 				}
 				b_hjergyl = {
 				}
@@ -8858,9 +9083,8 @@ e_norsca = {
 				b_kirkja_vitr = {
 				}
 				b_olricstaad = {
-				holy_site = ulrican
-				holy_site = norse
-				holy_site = dark_norse
+					holy_site = ulrican
+					holy_site = norscan_gods
 				}
 				b_fortress_ar_unheim = {
 				}
@@ -9004,6 +9228,8 @@ e_norsca = {
 		
 		capital = 1200 #Kuldevind
 
+
+
 		d_kuldevind = {
 			color = { 217 191 246 }
 			color2 = { 255 255 255 }
@@ -9019,6 +9245,10 @@ e_norsca = {
 				b_gnaefur = {
 				}
 				b_kaupmadhormen = {
+				}
+				b_kjopmanndokk = {
+				}
+				b_slagetspir = {
 				}
 			}
 		}
@@ -9037,6 +9267,8 @@ e_norsca = {
 				}
 				b_alfrdrepa_ey = {
 				}
+				b_laus_stein = {
+				}
 			}
 		}
 	}
@@ -9046,6 +9278,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 9 #Kaamoas
+
+
 
 		d_nilfheim = {
 			color = { 90 120 170 }
@@ -9236,6 +9470,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 14 #Vanaheim
+
+
 		
 		d_vanaheim = {
 			color = { 217 211 246 }
@@ -9301,6 +9537,7 @@ e_norsca = {
 				color2 = { 255 255 255 }
 				
 				b_mount_barak = {
+					holy_site = norscan_gods
 				}
 			}
 			
@@ -9321,6 +9558,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 18 #Saimaakild
+
+
 				
 		d_ofanfjara = {
 			color = { 165 121 26 }
@@ -9542,6 +9781,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 122 #Svídha Point
+
+
 		
 		d_bergrisi = {
 			color = { 187 11 16 }
@@ -9645,6 +9886,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 144 #Gotland Forest
+
+
 					
 		d_kalti = {
 			color = { 47 131 66 }
@@ -9836,6 +10079,7 @@ e_norsca = {
 				color2 = { 255 255 255 }
 				
 				b_chamon_dharek = {
+					holy_site = ursun
 					holy_site = northern_gods
 				}
 				b_ungalya = {
@@ -9871,6 +10115,8 @@ e_norsca = {
 		color2 = { 255 255 255 }
 	
 		capital = 98 #Rugard
+
+
 		
 		d_rugard = {
 			color = { 237 172 100 }
@@ -9974,6 +10220,7 @@ e_norsca = {
 		color2 = { 255 255 255 }
 		
 		capital = 82 #Fúinn
+
 
 			
 		d_kaldr = {
@@ -10093,39 +10340,45 @@ e_norsca = {
 
 
 e_tilea = {
-	color = { 48 81 172 }
+	color = { 48 111 192 }
 	color2 = { 255 255 255 }
 
 	capital = 600 #Remas
 
-k_riatalus = {
-	color = { 90 100 210 }
-	color2 = { 255 255 255 }
+	k_riatalus = {
+		color = { 90 100 210 }
+		color2 = { 255 255 255 }
 	
-	capital = 600 #Remas
-}
+		capital = 600 #Remas
 
-k_lucium = {
-	color = { 187 49 34 }
-	color2 = { 255 255 255 }
-	
-	capital = 614 #Luccini
-		
-}
 
-k_aurelia = {
-	color = { 47 230 58 }
-	color2 = { 255 255 255 }
+	}
+
+	k_lucium = {
+		color = { 187 49 34 }
+		color2 = { 255 255 255 }
 	
-	capital = 584 #Miragliano
+		capital = 614 #Luccini
+
+
+	}
+
+	k_aurelia = {
+		color = { 47 230 58 }
+		color2 = { 255 255 255 }
 	
-}
+		capital = 584 #Miragliano
+
+
+	}
 
 	k_luccini = {
 		color = { 175 14 17 }
 		color2 = { 255 255 255 }
 	
 		capital = 614 #Luccini
+
+
 	
 		d_luccini = {
 			color = { 150 10 15 }
@@ -10319,6 +10572,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 655 #Monte Castello
+
+
 	
 		title = "MARCHESE"
 		title_female = "MARCHESA"		
@@ -10399,6 +10654,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 584 #Miragliano
+
+
 
 		d_miragliano = {
 			color = { 60 161 20 }
@@ -10516,6 +10773,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 591 #Trantio
+
+
 	
 		d_trantio = {
 			color = { 78 161 30 }
@@ -10672,7 +10931,7 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 600 #Remas
-	
+
 		d_remas = {
 			color = { 230 231 250 }
 			color2 = { 255 255 255 }
@@ -10680,7 +10939,7 @@ k_aurelia = {
 			capital = 600 #Remas
 	
 			c_remas = {
-				color = { 180 180 240 }
+				color = { 220 220 240 }
 				color2 = { 255 255 255 }
 				
 				b_remas = {
@@ -10688,7 +10947,7 @@ k_aurelia = {
 				b_ostio = {
 				}
 				b_matermyrmidia = {
-					holy_site = classical_gods
+					holy_site = myrmidian
 				}
 				b_iulio = {
 				}
@@ -10701,7 +10960,7 @@ k_aurelia = {
 			}
 		
 			c_rifraffa = {
-				color = { 140 120 200 }
+				color = { 140 150 180 }
 				color2 = { 255 255 255 }
 				
 				b_rifraffa = {
@@ -10721,6 +10980,22 @@ k_aurelia = {
 				b_monte_negro = {
 				}
 				b_nucca = {
+				}
+			}
+
+			c_pontecorvo = {
+				color = { 190 190 200 }
+				color2 = { 255 255 255 }
+				
+				b_guglielma = {
+				}
+				b_pontecorvo = {
+				}
+				b_cassino = {
+				}
+				b_benevento = {
+				}
+				b_riati_portineria = {
 				}
 			}
 		}	
@@ -10748,7 +11023,7 @@ k_aurelia = {
 			}
 
 			c_catrazza = {
-				color = { 150 150 200 }
+				color = { 250 250 200 }
 				color2 = { 255 255 255 }
 				
 				b_catrazza = {
@@ -10769,6 +11044,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 599 #Pavona
+
+
 	
 		d_pavona = {
 			color = { 70 31 150 }
@@ -10872,6 +11149,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 		
 		capital = 609 #Verezzo
+
+
 	
 		d_verezzo = {
 			color = { 10 61 200 }
@@ -10975,12 +11254,39 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 626 #Sartosa
+
+
 	
 		d_sartosa = {
 			color = { 220 191 50 }
 			color2 = { 255 255 255 }
 			
 			capital = 626 #Sartosa
+			
+			c_sartosa = {
+				color = { 210 178 78 }
+				color2 = { 255 255 255 }
+				
+				b_castello_degli_pirati = {
+				}
+				b_sartosa = {
+					holy_site = manannite
+					holy_site = stromfels
+					holy_site = myrmidian
+					holy_site = ormazd
+					holy_site = atruhayid
+				}
+				b_roba = {
+				}
+				b_tranaco = {
+				}
+				b_corvo = {
+				}
+				b_villa_degli_predone = {
+				}
+				b_conchiglia = {
+				}
+			}
 			
 			c_pelremo = {
 				color = { 200 189 34 }
@@ -10993,27 +11299,6 @@ k_aurelia = {
 				b_caragio = {
 				}
 			}	
-			
-			c_sartosa = {
-				color = { 210 178 78 }
-				color2 = { 255 255 255 }
-				
-				b_castello_degli_pirati = {
-				}
-				b_sartosa = {
-					holy_site = manannite
-					holy_site = stromfels
-					holy_site = classical_gods
-					holy_site = ormazd
-					holy_site = atruhayid
-				}
-				b_roba = {
-				}
-				b_tranaco = {
-				}
-				b_corvo = {
-				}
-			}
 			
 			c_caprio = {
 				color = { 189 156 89 }
@@ -11052,6 +11337,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 574 #Tobaro
+
+
 
 		d_tobaro = {
 			color = { 20 21 110 }
@@ -11124,6 +11411,8 @@ k_aurelia = {
 		color2 = { 255 255 255 }
 	
 		capital = 581 #Autaria
+
+
 		
 		d_siren_isles = {
 			color = { 60 121 250 }
@@ -11195,61 +11484,75 @@ e_estalia = {
 
 	capital = 553 #Magritta
 	
-k_portua = {
-	color = { 40 71 155 }
-	color2 = { 255 255 255 }
+	k_portua = {
+		color = { 40 71 155 }
+		color2 = { 255 255 255 }
 	
-	capital = 537 #Portague
-}
+		capital = 537 #Portague
 
-k_santa_clair = {
-	color = { 87 130 8 }
-	color2 = { 255 255 255 }
-	
-	capital = 919 #Isla Santa Clair
-}
 
-k_avila = {
-	color = { 97 180 128 }
-	color2 = { 255 255 255 }
-	
-	capital = 542 #Finterra
-}
+	}
 
-k_galicea = {
-	color = { 47 140 78 }
-	color2 = { 255 255 255 }
+	k_santa_clair = {
+		color = { 87 130 8 }
+		color2 = { 255 255 255 }
 	
-	capital = 531 #Arroca
-}
+		capital = 919 #Isla Santa Clair
 
-k_magritta = {
-	color = { 187 170 38 }
-	color2 = { 255 255 255 }
-	
-	capital = 553 #Magritta
-}
 
-k_bilbali = {
-	color = { 57 130 20 }
-	color2 = { 255 255 255 }
-	
-	capital = 520 #Bilbali
-}
+	}
 
-k_novareno = {
-	color = { 187 60 68 }
-	color2 = { 255 255 255 }
+	k_avila = {
+		color = { 97 180 128 }
+		color2 = { 255 255 255 }
 	
-	capital = 506 #Sotomarca
-}
+		capital = 542 #Finterra
 
-k_irrana = {
-	color = { 142 80 98 }
-	color2 = { 255 255 255 }
+
+	}
+
+	k_galicea = {
+		color = { 47 140 78 }
+		color2 = { 255 255 255 }
 	
-	capital = 569 #Las Navas
-}
+		capital = 531 #Arroca
+
+
+	}
+
+	k_magritta = {
+		color = { 187 170 38 }
+		color2 = { 255 255 255 }
+	
+		capital = 553 #Magritta
+
+
+	}
+
+	k_bilbali = {
+		color = { 57 130 20 }
+		color2 = { 255 255 255 }
+	
+		capital = 520 #Bilbali
+
+
+	}
+
+	k_novareno = {
+		color = { 187 60 68 }
+		color2 = { 255 255 255 }
+	
+		capital = 506 #Sotomarca
+
+
+	}
+
+	k_irrana = {
+		color = { 142 80 98 }
+		color2 = { 255 255 255 }
+	
+		capital = 569 #Las Navas
+	}
 	
 	
 	k_astarios = {
@@ -11257,9 +11560,9 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 553 #Magritta
-		
-		culture = astur
-		
+
+
+				
 		d_the_magritate = {
 			color = { 138 121 42 }
 			color2 = { 255 255 255 }
@@ -11271,7 +11574,7 @@ k_irrana = {
 				color2 = { 255 255 255 }
 				
 				b_magritta = {
-					holy_site = classical_gods
+					holy_site = myrmidian
 				}
 				b_castillo_de_magritta = {
 				}
@@ -11286,19 +11589,7 @@ k_irrana = {
 				b_morica = {
 				}
 			}
-			c_molina = {
-				color = { 138 121 20 }
-				color2 = { 255 255 255 }
-				
-				b_molina = {
-				}
-				b_hestora = {
-				}
-				b_ahacco = {
-				}
-				b_plodiro = {
-				}
-			}
+			
 			c_malmeria = {
 				color = { 138 121 80 }
 				color2 = { 255 255 255 }
@@ -11315,6 +11606,7 @@ k_irrana = {
 				}
 			}
 		}
+		
 		d_tartantia = {
 			color = { 79 117 41 }
 			color2 = { 255 255 255 }
@@ -11458,30 +11750,18 @@ k_irrana = {
 				b_vigilan = {
 				}
 			}
-			c_javea = {
-				color = { 166 77 28 }
+			
+			c_molina = {
+				color = { 138 61 100 }
 				color2 = { 255 255 255 }
 				
-				b_javea = {
+				b_molina = {
 				}
-				b_amelga = {
+				b_hestora = {
 				}
-				b_dabatta = {
+				b_ahacco = {
 				}
-				b_deragon = {
-				}
-			}
-			c_villana = {
-				color = { 166 77 168 }
-				color2 = { 255 255 255 }
-				
-				b_israda = {
-				}
-				b_lirocana = {
-				}
-				b_breando = {
-				}
-				b_horzima = {
+				b_plodiro = {
 				}
 			}
 		}
@@ -11492,8 +11772,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 542 #Finterra
-		
-		culture = obregonese
+
+
 		
 		d_finterra = {
 			color = { 106 157 42 }
@@ -11690,8 +11970,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 520 #Bilbali
-		
-		culture = tigarrese
+
+
 		
 		d_bilbali = {
 			color = { 121 173 124 }
@@ -12049,8 +12329,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 508 #Sobremarca
-		
-		culture = norteno
+
+
 		
 		d_las_marcas = {
 			color = { 187 110 63 }
@@ -12286,6 +12566,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 559 #Fierra
+
+
 		
 		d_fierroso = {
 			color = { 133 39 18 }
@@ -12323,6 +12605,7 @@ k_irrana = {
 				b_babieca = {
 				}
 			}
+			
 			c_cordobra = {
 				color = { 133 79 18 }
 				color2 = { 255 255 255 }
@@ -12336,6 +12619,7 @@ k_irrana = {
 				b_contiva = {
 				}
 			}
+			
 			c_ebria = {
 				color = { 133 39 58 }
 				color2 = { 255 255 255 }
@@ -12350,6 +12634,7 @@ k_irrana = {
 				}
 			}
 		}
+		
 		d_osborna = {
 			color = { 165 87 180 }
 			color2 = { 255 255 255 }
@@ -12371,6 +12656,7 @@ k_irrana = {
 				b_erasolo = {
 				}
 			}
+			
 			c_montacute = {
 				color = { 205 87 80 }
 				color2 = { 255 255 255 }
@@ -12384,6 +12670,7 @@ k_irrana = {
 				b_labro = {
 				}
 			}
+			
 			c_solsona = {
 				color = { 165 127 80 }
 				color2 = { 255 255 255 }
@@ -12398,6 +12685,40 @@ k_irrana = {
 				}
 			}
 		}
+		
+		d_santoyo = {
+			color = { 167 92 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 555 #Javea
+					
+			c_javea = {
+				color = { 166 77 28 }
+				color2 = { 255 255 255 }
+				
+				b_javea = {
+				}
+				b_amelga = {
+				}
+				b_dabatta = {
+				}
+				b_deragon = {
+				}
+			}
+			c_villana = {
+				color = { 166 77 168 }
+				color2 = { 255 255 255 }
+				
+				b_israda = {
+				}
+				b_lirocana = {
+				}
+				b_breando = {
+				}
+				b_horzima = {
+				}
+			}
+		}
 	}
 	
 	k_calafina = {
@@ -12405,6 +12726,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 		
 		capital = 919 #Isla Santa Clair
+
+
 		
 		d_santa_clair = {
 			color = { 128 151 72 }
@@ -12498,6 +12821,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 	
 		capital = 657 #Myrmidens
+
+
 	
 		d_kampos = {
 			color = { 230 159 20 }
@@ -12608,7 +12933,7 @@ k_irrana = {
 				b_heraclaia = {
 				}
 				b_myrmidens = {
-					holy_site = classical_gods
+					holy_site = myrmidian
 				}
 				b_port_piratea = {
 				}
@@ -12684,6 +13009,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 	
 		capital = 693 #Mirke
+
+
 	
 		d_schwarzwald = {
 			color = { 50 119 40 }
@@ -12818,6 +13145,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 	
 		capital = 712 #Iron Rock
+
+
 	
 		d_gyrn = {
 			color = { 100 40 40 }
@@ -13128,6 +13457,8 @@ k_irrana = {
 	
 		capital = 698 #Zenres
 
+
+
 		d_starnek = {
 			color = { 250 199 90 }
 			color2 = { 255 255 255 }
@@ -13224,14 +13555,14 @@ k_irrana = {
 			
 			capital = 685 #Masserschloss
 			
-			bjornling = Varmrland
-			sarl = Varmrland
-			aesling = Varmrland
-			varg = Varmrland
-			baersonling = Varmrland
-			skaeling = Varmrland
-			graeling = Varmrland
-			fjarmann = Varmrland
+			bjornling = "Varmrland"
+			sarl = "Varmrland"
+			aesling = "Varmrland"
+			varg = "Varmrland"
+			baersonling = "Varmrland"
+			skaeling = "Varmrland"
+			graeling = "Varmrland"
+			fjarmann = "Varmrland"
 			
 			c_masserschloss = {
 				color = { 150 89 76 }
@@ -13483,6 +13814,8 @@ k_irrana = {
 	
 		capital = 723 #Khypris
 
+
+
 		d_khypria = {
 			color = { 90 109 180 }
 			color2 = { 255 255 255 }
@@ -13615,7 +13948,16 @@ k_irrana = {
 			color = { 20 99 80 }
 			color2 = { 255 255 255 }
 			
-			capital = 667 #Heldegrad
+			capital = 668 #Mortensholm
+			
+			bjornling = "Mortensland"
+			sarl = "Mortensland"
+			aesling = "Mortensland"
+			varg = "Mortensland"
+			baersonling = "Mortensland"
+			skaeling = "Mortensland"
+			graeling = "Mortensland"
+			fjarmann = "Mortensland"
 			
 			c_heldegrad = {
 				color = { 20 90 100 }
@@ -13892,102 +14234,14 @@ k_irrana = {
 		}		
 	}
 
-	k_barak_varr = {
-		color = { 105 124 247 }
-		color2 = { 255 255 255 }
-	
-		capital = 686 #Barak Varr
-		
-		d_barak_varr = {
-			color = { 140 169 230 }
-			color2 = { 255 255 255 }
-			
-			capital = 686 #Barak Varr
-						
-			c_barak_varr = {
-				color = { 157 189 250 }
-				color2 = { 255 255 255 }
-				
-				b_barak_varr = {
-				}
-				b_grunbar = {
-				}
-				b_barvarak_ungol = {
-				}
-				b_thrinn_morak = {
-				}
-				b_darnum_gorun = {
-				}
-				b_khazid_varr = {
-				}
-				b_kurgazar_varr = {
-				}
-			}
-	
-			c_serkeskal = {
-				color = { 111 135 190 }
-				color2 = { 255 255 255 }
-				
-				b_serkeskal_ungor = {
-				}
-				b_khazid_gringol = {
-				}
-				b_ungor_ruvalkin = {
-				}
-				b_azul_bar = {
-				}
-				b_khazid_momuzidek = {
-				}
-			}
-		}
-		
-		d_kogan = {
-			color = { 120 142 170 }
-			color2 = { 255 255 255 }
-			
-			capital = 740 #Koganusan
-						
-			c_koganusan = {
-				color = { 121 109 170 }
-				color2 = { 255 255 255 }
-				
-				b_khazid_koganusan = {
-				}
-				b_grim_barra = {
-				}
-				b_barak_angazklad = {
-				}
-				b_barak_thaggoraki = {
-				}
-				b_barak_irkul = {
-				}
-				b_grim_garra = {
-				}
-			}	
-						
-			c_udibgovos = {
-				color = { 101 121 190 }
-				color2 = { 255 255 255 }
-				
-				b_udibgovos = {
-				}
-				b_mingol_garbad = {
-				}
-				b_karada_ekspen = {
-				}
-				b_ungrim_ruvalk = {
-				}
-				b_egsarol = {
-				}
-			}
-		}
-	}
 
 	k_strygos = {
 		color = { 125 24 27 }
 		color2 = { 255 255 255 }
 	
 		capital = 770 #Mourkain
+
+
 	
 		d_troas = {
 			color = { 180 19 80 }
@@ -14069,7 +14323,7 @@ k_irrana = {
 				b_mourkain_citadel = {
 				}
 				b_mourkain = {
-				holy_site = vampiric
+					holy_site = vampiric
 				}
 				b_antak = {
 				}
@@ -14226,6 +14480,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 	
 		capital = 777 #Khernum
+
+
 	
 		d_greater_khernarch = {
 			color = { 100 169 30 }
@@ -14391,6 +14647,8 @@ k_irrana = {
 		color2 = { 255 255 255 }
 	
 		capital = 760 #Rhothira
+
+
 	
 		d_capra = {
 			color = { 180 69 50 }
@@ -14556,154 +14814,6 @@ k_irrana = {
 	}
 	
 
-	k_ekrund = {
-		color = { 114 124 215 }
-		color2 = { 255 255 255 }
-	
-		capital = 761 #Ekrund
-
-		d_ekrund = {
-			color = { 70 70 210 }
-			color2 = { 255 255 255 }
-			
-			capital = 761 #Ekrund
-			
-			c_ekrund = {
-				color = { 100 76 203 }
-				color2 = { 255 255 255 }
-				
-				b_ekrund = {
-				}
-				b_kilizum_ungor = {
-				}
-				b_mirikar_drakon = {
-				}
-				b_khazid_ingimbar = {
-				}
-				b_ekrund_ungol = {
-				}
-				b_kolaz_firangor = {
-				}
-			}
-			
-			c_mount_bloodhorn = {
-				color = { 78 89 230 }
-				color2 = { 255 255 255 }
-				
-				dwarf_main = "Kazad Zanhirn"
-				dwarf_norse = "Kazad Zanhirn"
-				dwarf_chaos = "Kazad Zanhirn"		
-								
-				b_bloodhorn_citadel = {
-								
-				dwarf_main = "Khazid Zanhirn"
-				dwarf_norse = "Khazid Zanhirn"
-				dwarf_chaos = "Khazid Zanhirn"		
-				
-				}
-				b_khadiz_gorum = {
-				}
-				b_filikammar = {
-				}
-				b_urbaz_ungorim = {
-				}
-				b_karak_drogar = {
-				}
-			}
-			
-			c_matul_remrit = {
-				color = { 123 150 149 }
-				color2 = { 255 255 255 }
-				
-				b_matul_remrit = {
-				}
-				b_grung_remrit = {
-				}
-				b_karag_krund = {
-				}
-				b_grorrim_bar = {
-				}
-				b_opulgrum = {
-				}
-			}
-			
-			c_karzis = {
-				color = { 99 110 189 }
-				color2 = { 255 255 255 }
-				
-				b_karzis = {
-				}
-				b_karag_firik = {
-				}
-				b_ungol_brakaram = {
-				}
-			}
-		}
-
-		d_komar = {
-			color = { 100 120 240 }
-			color2 = { 255 255 255 }
-			
-			capital = 755 #Komar
-			
-			c_zuwadison = {
-				color = { 130 109 210 }
-				color2 = { 255 255 255 }
-				
-				b_zuwadison = {
-				}
-				b_balgorandazor = {
-				}
-				b_barak_jorgun = {
-				}
-				b_karak_akeroth = {
-				}
-			}
-			
-			c_komar = {
-				color = { 78 81 178 }
-				color2 = { 255 255 255 }
-				
-				b_komar = {
-				}
-				b_karak_ekzfar = {
-				}
-				b_kazad_urbigaz = {
-				}
-				b_karag_opar = {
-				}
-			}
-			
-			c_nezull = {
-				color = { 99 88 199 }
-				color2 = { 255 255 255 }
-				
-				b_khazid_nezull = {
-				}
-				b_grung_nezull = {
-				}
-				b_ekzobar_yannk = {
-				}
-			}
-			
-			c_zitharis = {
-				color = { 84 67 198 }
-				color2 = { 255 255 255 }
-				
-				b_karak_zitharis = {
-				}
-				b_barak_soterro = {
-				}
-				b_karak_logarim = {
-				}
-				b_razerak_bar = {
-				}
-				b_gorbal_ungol = {
-				}
-			}
-		}
-	}
-
 
 e_drak_ankor = {
 	color = { 188 201 202 }
@@ -14716,6 +14826,8 @@ e_drak_ankor = {
 		color2 = { 255 255 255 }
 		
 		capital = 87 #Kraka Ornsmotek
+
+
 		
 		d_karaskadi = {
 			color = { 237 211 206 }
@@ -14778,14 +14890,14 @@ e_drak_ankor = {
 			
 			capital = 87 #Kraka Ornsmotek
 			
-			bjornling = Skargi
-			sarl = Skargi
-			aesling = Skargi
-			varg = Skargi
-			baersonling = Skargi
-			skaeling = Skargi
-			graeling = Skargi
-			fjarmann = Skargi
+			bjornling = "Skargi"
+			sarl = "Skargi"
+			aesling = "Skargi"
+			varg = "Skargi"
+			baersonling = "Skargi"
+			skaeling = "Skargi"
+			graeling = "Skargi"
+			fjarmann = "Skargi"
 				
 			c_kraka_ornsmotek = {
 				color = { 230 180 210 }
@@ -14817,14 +14929,14 @@ e_drak_ankor = {
 				color = { 187 210 193 }
 				color2 = { 255 255 255 }
 			
-				bjornling = Skargi
-				sarl = Skargi
-				aesling = Skargi
-				varg = Skargi
-				baersonling = Skargi
-				skaeling = Skargi
-				graeling = Skargi
-				fjarmann = Skargi
+				bjornling = "Skargi"
+				sarl = "Skargi"
+				aesling = "Skargi"
+				varg = "Skargi"
+				baersonling = "Skargi"
+				skaeling = "Skargi"
+				graeling = "Skargi"
+				fjarmann = "Skargi"
 				
 				b_kazad_dumond = {
 				}
@@ -14843,6 +14955,8 @@ e_drak_ankor = {
 		color2 = { 255 255 255 }
 		
 		capital = 59 #Kraka Untylum
+
+
 		
 		d_naglifell = {
 			color = { 57 91 116 }
@@ -14903,7 +15017,15 @@ e_drak_ankor = {
 				color = { 45 90 120 }
 				color2 = { 255 255 255 }
 				
+				dwarf_main = "Karak Drage"
+				dwarf_norse = "Karak Drage"
+				dwarf_chaos = "Karak Drage"
+
 				b_drageberg = {
+					dwarf_main = "Karak Drage"
+					dwarf_norse = "Karak Drage"
+					dwarf_chaos = "Karak Drage"
+
 				}
 				b_hjorix_hybyli = {
 				}
@@ -14929,7 +15051,16 @@ e_drak_ankor = {
 				color = { 78 110 100 }
 				color2 = { 255 255 255 }
 				
+				dwarf_main = "Karak Morghaar"
+				dwarf_norse = "Karak Morghaar"
+				dwarf_chaos = "Karak Morghaar"
+
 				b_morghaar_fortress = {
+				
+					dwarf_main = "Barak Morghaar"
+					dwarf_norse = "Barak Morghaar"
+					dwarf_chaos = "Barak Morghaar"
+
 				}
 				b_helheim = {
 				}
@@ -14946,6 +15077,8 @@ e_drak_ankor = {
 		color2 = { 255 255 255 }
 		
 		capital = 117 #Kraka Drak
+
+
 		
 		d_drakanzang = {
 			color = { 157 181 126 }
@@ -15055,6 +15188,10 @@ e_drak_ankor = {
 				color = { 138 190 178 }
 				color2 = { 255 255 255 }
 				
+				dwarf_main = "Blindr Kadrin"
+				dwarf_norse = "Blindr Kadrin"
+				dwarf_chaos = "Blindr Kadrin"
+
 				b_kraka_veranhem = {
 				}
 				b_grung_tozkul = {
@@ -15199,6 +15336,10 @@ e_drak_ankor = {
 				color = { 123 178 140 }
 				color2 = { 255 255 255 }
 				
+				dwarf_main = "Kylkava Kadrin"
+				dwarf_norse = "Kylkava Kadrin"
+				dwarf_chaos = "Kylkava Kadrin"
+
 				b_kraka_kylklava = {
 				}
 				b_kazad_sertiol = {
@@ -15267,6 +15408,8 @@ e_drak_ankor = {
 		color2 = { 255 255 255 }
 		
 		capital = 26 #Kraka Ungrim
+
+
 		
 		d_fyriksfeld = {
 			color = { 107 151 206 }
@@ -15337,6 +15480,10 @@ e_drak_ankor = {
 				color = { 78 98 200 }
 				color2 = { 255 255 255 }
 				
+				dwarf_main = "Ikrumal Kadrin"
+				dwarf_norse = "Ikrumal Kadrin"
+				dwarf_chaos = "Ikrumal Kadrin"
+
 				b_kraka_hurylikal = {
 				}
 				b_khazid_ikrumal = {
@@ -15361,6 +15508,8 @@ e_karak_ankor = {
 		color2 = { 255 255 255 }
 	
 		capital = 467 #Azril-Ungol
+
+
 
 		d_grungozar = {
 			color = { 170 170 170 }
@@ -15671,6 +15820,12 @@ e_karak_ankor = {
 	
 		capital = 451 #Karaz-a-Karak
 
+		dwarf_main = "Karaz Ankor"
+		dwarf_norse = "Karaz Ankor"
+		dwarf_chaos = "Karaz Ankor"
+
+
+
 		d_barodrin = {
 			color = { 190 150 50 }
 			color2 = { 255 255 255 }
@@ -15906,11 +16061,334 @@ e_karak_ankor = {
 		}
 	}
 	
+	k_ekrund = {
+		color = { 114 124 215 }
+		color2 = { 255 255 255 }
+	
+		capital = 761 #Ekrund
+
+
+
+		d_ekrund = {
+			color = { 70 70 210 }
+			color2 = { 255 255 255 }
+			
+			capital = 761 #Ekrund
+			
+			c_ekrund = {
+				color = { 100 76 203 }
+				color2 = { 255 255 255 }
+				
+				b_ekrund = {
+				}
+				b_kilizum_ungor = {
+				}
+				b_mirikar_drakon = {
+				}
+				b_khazid_ingimbar = {
+				}
+				b_ekrund_ungol = {
+				}
+				b_kolaz_firangor = {
+				}
+			}
+			
+			c_mount_bloodhorn = {
+				color = { 78 89 230 }
+				color2 = { 255 255 255 }
+				
+				dwarf_main = "Kazad Zanhirn"
+				dwarf_norse = "Kazad Zanhirn"
+				dwarf_chaos = "Kazad Zanhirn"		
+								
+				b_bloodhorn_citadel = {
+								
+				dwarf_main = "Khazid Zanhirn"
+				dwarf_norse = "Khazid Zanhirn"
+				dwarf_chaos = "Khazid Zanhirn"		
+				
+				}
+				b_khadiz_gorum = {
+				}
+				b_filikammar = {
+				}
+				b_urbaz_ungorim = {
+				}
+				b_karak_drogar = {
+				}
+			}
+			
+			c_matul_remrit = {
+				color = { 123 150 149 }
+				color2 = { 255 255 255 }
+				
+				b_matul_remrit = {
+				}
+				b_grung_remrit = {
+				}
+				b_karag_krund = {
+				}
+				b_grorrim_bar = {
+				}
+				b_opulgrum = {
+				}
+			}
+			
+			c_karzis = {
+				color = { 99 110 189 }
+				color2 = { 255 255 255 }
+				
+				b_karzis = {
+				}
+				b_karag_firik = {
+				}
+				b_ungol_brakaram = {
+				}
+			}
+		}
+
+		d_komar = {
+			color = { 100 120 240 }
+			color2 = { 255 255 255 }
+			
+			capital = 755 #Komar
+			
+			c_zuwadison = {
+				color = { 130 109 210 }
+				color2 = { 255 255 255 }
+				
+				b_zuwadison = {
+				}
+				b_balgorandazor = {
+				}
+				b_barak_jorgun = {
+				}
+				b_karak_akeroth = {
+				}
+			}
+			
+			c_komar = {
+				color = { 78 81 178 }
+				color2 = { 255 255 255 }
+				
+				b_komar = {
+				}
+				b_karak_ekzfar = {
+				}
+				b_kazad_urbigaz = {
+				}
+				b_karag_opar = {
+				}
+			}
+			
+			c_nezull = {
+				color = { 99 88 199 }
+				color2 = { 255 255 255 }
+				
+				b_khazid_nezull = {
+				}
+				b_grung_nezull = {
+				}
+				b_ekzobar_yannk = {
+				}
+			}
+			
+			c_zitharis = {
+				color = { 84 67 198 }
+				color2 = { 255 255 255 }
+				
+				b_karak_zitharis = {
+				}
+				b_barak_soterro = {
+				}
+				b_karak_logarim = {
+				}
+				b_razerak_bar = {
+				}
+				b_gorbal_ungol = {
+				}
+			}
+		}
+	}
+
+	k_barak_varr = {
+		color = { 105 124 247 }
+		color2 = { 255 255 255 }
+	
+		capital = 686 #Barak Varr
+
+
+		
+		d_barak_varr = {
+			color = { 140 169 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 686 #Barak Varr
+						
+			c_barak_varr = {
+				color = { 157 189 250 }
+				color2 = { 255 255 255 }
+				
+				b_barak_varr = {
+				}
+				b_grunbar = {
+				}
+				b_barvarak_ungol = {
+				}
+				b_thrinn_morak = {
+				}
+				b_darnum_gorun = {
+				}
+				b_khazid_varr = {
+				}
+				b_kurgazar_varr = {
+				}
+			}
+	
+			c_serkeskal = {
+				color = { 111 135 190 }
+				color2 = { 255 255 255 }
+				
+				b_serkeskal_ungor = {
+				}
+				b_khazid_gringol = {
+				}
+				b_ungor_ruvalkin = {
+				}
+				b_azul_bar = {
+				}
+				b_khazid_momuzidek = {
+				}
+			}
+		}
+		
+		d_kogan = {
+			color = { 120 142 170 }
+			color2 = { 255 255 255 }
+			
+			capital = 740 #Koganusan
+						
+			c_koganusan = {
+				color = { 121 109 170 }
+				color2 = { 255 255 255 }
+				
+				b_khazid_koganusan = {
+				}
+				b_grim_barra = {
+				}
+				b_barak_angazklad = {
+				}
+				b_barak_thaggoraki = {
+				}
+				b_barak_irkul = {
+				}
+				b_grim_garra = {
+				}
+			}	
+						
+			c_udibgovos = {
+				color = { 101 121 190 }
+				color2 = { 255 255 255 }
+				
+				b_udibgovos = {
+				}
+				b_mingol_garbad = {
+				}
+				b_karada_ekspen = {
+				}
+				b_ungrim_ruvalk = {
+				}
+				b_egsarol = {
+				}
+			}
+		}
+	}
+	
+	k_karak_dum = {
+		color = { 145 72 109 }
+		color2 = { 255 255 255 }
+	
+		capital = 1105 #Karak Dum
+
+
+			
+		d_karak_dum = {
+			color = { 150 81 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 1105 #Karak Dum
+			
+			c_karak_dum = {
+				color = { 127 60 23 }
+				color2 = { 255 255 255 }
+				
+				b_karak_dum = {
+				}
+				b_haglkorn_ungor = {
+				}
+				b_grung_holr = {
+				}
+				b_grung_bronn = {
+				}
+			}
+			
+			c_nornin = {
+				color = { 157 50 23 }
+				color2 = { 255 255 255 }
+				
+				b_grongol_norn = {
+				}
+				b_kro_ungor = {
+				}
+				b_grung_dal = {
+				}
+			}
+			
+			c_dworin = {
+				color = { 177 50 123 }
+				color2 = { 255 255 255 }
+				
+				b_grung_dwor = {
+				}
+				b_grungil_krunk = {
+				}
+				b_zak_azamar = {
+				}
+			}
+			
+			c_jong_on = {
+				color = { 137 40 111 }
+				color2 = { 255 255 255 }
+				
+				b_jong_bar = {
+				}
+				b_grong_oss = {
+				}
+			}
+			
+			c_rodmarin = {
+				color = { 125 60 163 }
+				color2 = { 255 255 255 }
+				
+				b_rodmar = {
+				}
+				b_rodmarok = {
+				}
+			}			
+		}
+	}
+
 	k_irkubar = {
 		color = { 235 234 237 }
 		color2 = { 255 255 255 }
 	
 		capital = 632 #Karak Kaferkammaz
+
+		dwarf_main = "Irkubar"
+		dwarf_norse = "Irkubar"		
+		dwarf_chaos = "Irkubar"
+
+
 
 		d_ekzfilazanar = {
 			color = { 250 210 250 }
@@ -16103,6 +16581,12 @@ e_karak_ankor = {
 	
 		capital = 651 #Karak Ziflin
 
+		dwarf_main = "Undizarrum"
+		dwarf_norse = "Undizarrum"
+		dwarf_chaos = "Undizarrum"
+
+
+
 		d_azgarazar = {
 			color = { 140 170 200 }
 			color2 = { 255 255 255 }
@@ -16216,10 +16700,12 @@ e_karak_ankor = {
 	}
 	
 	k_zhufbarak = {
-		color = { 75 64 237 }
+		color = { 15 44 207 }
 		color2 = { 255 255 255 }
 	
 		capital = 442 #Zhufbar
+
+
 
 		d_zhufbar = {
 			color = { 100 150 230 }
@@ -16386,6 +16872,8 @@ e_karak_ankor = {
 	
 		capital = 441 #Grom Peak
 
+
+
 		d_grombar = {
 			color = { 20 30 150 }
 			color2 = { 255 255 255 }
@@ -16506,6 +16994,8 @@ e_karak_ankor = {
 	
 		capital = 433 #Karak Ungor
 
+
+
 		d_kol = {
 			color = { 250 50 70 }
 			color2 = { 255 255 255 }
@@ -16589,7 +17079,7 @@ e_karak_ankor = {
 				dwarf_chaos = "Karak Ungor"
 				
 				b_karak_ungor = {
-				holy_site = ancestor_gods
+					holy_site = ancestor_gods
 				}
 				b_ungor_ungol = {
 				}
@@ -16674,6 +17164,8 @@ e_karak_ankor = {
 		color2 = { 255 255 255 }
 	
 		capital = 436 #Karak Kadrin
+
+
 
 		d_krombar = {
 			color = { 150 50 40 }
@@ -16840,6 +17332,12 @@ e_karak_ankor = {
 		color2 = { 255 255 255 }
 	
 		capital = 653 #Karak Hirn
+
+		dwarf_main = "Haz Karag"
+		dwarf_norse = "Haz Karag"
+		dwarf_chaos = "Haz Karag"
+
+
 
 		d_darnovark = {
 			color = { 200 150 130 }
@@ -17035,6 +17533,8 @@ e_karak_ankor = {
 		color2 = { 255 255 255 }
 	
 		capital = 418 #Karak Vlag
+
+
 
 		d_vlagaar = {
 			color = { 200 150 130 }
@@ -17298,6 +17798,8 @@ e_karak_ankor = {
 	
 		capital = 781 #Misty Mountain
 
+
+
 		d_langkt_orrud = {
 			color = { 110 110 110 }
 			color2 = { 255 255 255 }
@@ -17410,7 +17912,5752 @@ e_karak_ankor = {
 	}			
 }
 	
+
+	k_zanbaijin = {
+		color = { 105 104 117 }
+		color2 = { 255 255 255 }
 	
+		capital = 405 #Zanbaijin
+
+
+	
+		d_zanbaijin = {
+			color = { 110 121 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 405 #Zanbaijin
+			
+			c_zanbaijin = {
+				color = { 137 140 153 }
+				color2 = { 255 255 255 }
+				
+				b_zanbaijin = {
+				}
+				b_radulovtsi = {
+				}
+				b_kolonii = {
+				}
+				b_shuraab = {
+				}
+				b_cynagoth = {
+				}
+				b_iqatha = {
+				}
+				b_gabra = {
+				}
+			}
+			
+			c_nyarammog = {
+				color = { 122 163 177 }
+				color2 = { 255 255 255 }
+				
+				b_nyarammog = {
+				}
+				b_gaim_bol = {
+				}
+				b_tsaragg = {
+				}
+				b_zoth = {
+				}
+				b_krali = {
+				}
+				b_wyrdz = {
+				}
+			}
+			
+			c_kathuul = {
+				color = { 176 134 73 }
+				color2 = { 255 255 255 }
+				
+				b_kathuul = {
+				}
+				b_levski = {
+				}
+				b_ghatoraz = {
+				}
+				b_nurgathar = {
+				}
+				b_saraya = {
+				}
+				b_zalgu = {
+				}
+			}
+
+			c_sarog = {
+				color = { 127 110 113 }
+				color2 = { 255 255 255 }
+				
+				b_sarog = {
+				}
+				b_rakaska = {
+				}
+				b_leskovdol = {
+				}
+				b_largor = {
+				}
+				b_vakarel = {
+				}
+				b_paloc = {
+				}
+			}
+			
+			c_azkaroth = {
+				color = { 89 115 100 }
+				color2 = { 255 255 255 }
+				
+				b_azkaroth = {
+				}
+				b_kummen = {
+				}
+				b_dagron = {
+				}
+				b_hydarox = {
+				}
+				b_karphoom = {
+				}
+				b_logsber = {
+				}
+			}
+		}
+	}
+	
+	k_araz = {
+		color = { 225 194 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 409 #Dragoynovo
+
+
+		
+		d_altaya = {
+			color = { 210 181 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 408 #Skutare
+			
+			c_skutare = {
+				color = { 197 150 83 }
+				color2 = { 255 255 255 }
+				
+				b_skutare = {
+				}
+				b_krumovo = {
+				}
+				b_iskra = {
+				}
+			}
+			
+			c_arda = {
+				color = { 157 110 13 }
+				color2 = { 255 255 255 }
+				
+				b_varvara = {
+				}
+				b_chuchur = {
+				}
+				b_kasak = {
+				}
+			}
+			
+			c_qernildom = {
+				color = { 135 16 53 }
+				color2 = { 255 255 255 }
+				
+				b_werenthal = {
+				}
+				b_octulthal = {
+				}
+			}			
+			
+			c_zetisu = {
+				color = { 113 70 95 }
+				color2 = { 255 255 255 }
+				
+				b_permin = {
+				}
+				b_mikil = {
+				}
+				b_skorul = {
+				}
+			}			
+		}
+
+		d_potchesh = {
+			color = { 240 191 190 }
+			color2 = { 255 255 255 }
+			
+			capital = 409 #Dragoynovo
+			
+			c_dragoynovo = {
+				color = { 227 160 203 }
+				color2 = { 255 255 255 }
+				
+				b_dragoynovo = {
+				}
+				b_hrabrino = {
+				}
+				b_byala_reka = {
+				}
+				b_ignatievo = {
+				}
+			}		
+			
+			c_graf = {
+				color = { 187 120 113 }
+				color2 = { 255 255 255 }
+				
+				b_graf = {
+				}
+				b_opan = {
+				}
+				b_kovachevo = {
+				}
+			}
+			
+			c_overjul = {
+				color = { 247 130 203 }
+				color2 = { 255 255 255 }
+				
+				b_juntum = {
+				}
+				b_horakil = {
+				}
+			}
+		}
+		
+		d_kurlun = {
+			color = { 190 101 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 401 #Mokrishte
+			
+			c_panitsovo = {
+				color = { 157 89 93 }
+				color2 = { 255 255 255 }
+				
+				b_ravda = {
+				}
+				b_orizare = {
+				}
+				b_lozenets = {
+				}
+				b_sigmen = {
+				}
+			}		
+			
+			c_mokrishte = {
+				color = { 198 120 73 }
+				color2 = { 255 255 255 }
+				
+				b_ruen = {
+				}
+				b_rezovo = {
+				}
+				b_debelte = {
+				}
+				b_gyulyovtsa = {
+				}
+			}
+			
+			c_dragotintsi = {
+				color = { 197 150 123 }
+				color2 = { 255 255 255 }
+				
+				b_popintsi = {
+				}
+				b_han = {
+				}
+				b_beledie = {
+				}
+			}
+			
+			c_izvor = {
+				color = { 192 110 170 }
+				color2 = { 255 255 255 }
+				
+				b_izvor = {
+				}
+				b_karlievo = {
+				}
+			}
+		}
+		
+		d_svarg = {
+			color = { 190 141 140 }
+			color2 = { 255 255 255 }
+			
+			capital = 407 #Delyan
+			
+			c_delyan = {
+				color = { 197 100 23 }
+				color2 = { 255 255 255 }
+				
+				b_rakovskova = {
+				}
+				b_bahalin = {
+				}
+			}
+			
+			c_chavdar = {
+				color = { 167 20 83 }
+				color2 = { 255 255 255 }
+				
+				b_chavdar = {
+				}
+				b_gorna_malina = {
+				}
+				b_golema = {
+				}
+			}
+		}
+	}
+
+	k_zud = {
+		color = { 175 172 170 }
+		color2 = { 255 255 255 }
+	
+		capital = 948 #Zavkhan
+
+		d_zavkhan = {
+			color = { 151 142 162 }
+			color2 = { 255 255 255 }
+			
+			capital = 948 #Zavkhan
+			
+			c_zavkhan = {
+				color = { 162 173 182 }
+				color2 = { 255 255 255 }
+				
+				b_zavkhan = {
+				}
+				b_chukota = {
+				}
+				b_arkanstal = {
+				}
+				b_woudar = {
+				}
+			}
+
+			c_sakhur = {
+				color = { 142 153 172 }
+				color2 = { 255 255 255 }
+				
+				b_sakhur = {
+				}
+				b_artaans = {
+				}
+			}
+
+			c_alashah = {
+				color = { 202 213 202 }
+				color2 = { 255 255 255 }
+				
+				b_alashah = {
+				}
+				b_kampalash = {
+				}
+			}
+
+			c_malchin = {
+				color = { 122 133 142 }
+				color2 = { 255 255 255 }
+				
+				b_malchin = {
+				}
+				b_iriqa = {
+				}
+				b_turums = {
+				}
+			}
+
+			c_mokhsogollokh = {
+				color = { 122 123 122 }
+				color2 = { 255 255 255 }
+				
+				b_mokhsogollokh = {
+				}
+				b_parakhas = {
+				}
+				b_zuramaskar = {
+				}
+			}
+			
+			c_baildughan = {
+				color = { 222 223 222 }
+				color2 = { 255 255 255 }
+				
+				b_baika = {
+				}
+				b_qadan = {
+				}
+				b_ebujige = {
+				}
+			}
+		}
+		
+		d_harzud = {
+			color = { 181 182 182 }
+			color2 = { 255 255 255 }
+			
+			capital = 947 #Arguun
+			
+			c_arguun = {
+				color = { 182 153 182 }
+				color2 = { 255 255 255 }
+				
+				b_arguun = {
+				}
+				b_metste = {
+				}
+				b_teremstar = {
+				}
+			}
+
+			c_yarak = {
+				color = { 202 203 172 }
+				color2 = { 255 255 255 }
+				
+				b_yarak = {
+				}
+				b_sussorm = {
+				}
+			}
+
+			c_dzugd = {
+				color = { 132 153 132 }
+				color2 = { 255 255 255 }
+				
+				b_dzugd = {
+				}
+				b_kurubaal = {
+				}
+				b_daemot = {
+				}
+			}
+		}
+	}
+	
+	k_onoq = {
+		color = { 35 122 17 }
+		color2 = { 255 255 255 }
+	
+		capital = 1183 #Oluod
+
+		d_qagran = {
+			color = { 21 142 62 }
+			color2 = { 255 255 255 }
+			
+			capital = 1183 #Oluod
+			
+			c_oluod = {
+				color = { 52 153 32 }
+				color2 = { 255 255 255 }
+				
+				b_oluod = {
+				}
+				b_tanga = {
+				}
+			}
+			
+			c_frunz = {
+				color = { 27 119 56 }
+				color2 = { 255 255 255 }
+				
+				b_frunz = {
+				}
+			}
+			
+			c_pishpek = {
+				color = { 65 169 71 }
+				color2 = { 255 255 255 }
+				
+				b_pishpek = {
+				}
+			}			
+		}
+
+		d_uruma = {
+			color = { 15 111 22 }
+			color2 = { 255 255 255 }
+			
+			capital = 1177 #Askola
+			
+			c_askola = {
+				color = { 10 76 31 }
+				color2 = { 255 255 255 }
+				
+				b_askola = {
+				}
+				b_sarkela = {
+				}
+			}
+			c_dira = {
+				color = { 34 98 45 }
+				color2 = { 255 255 255 }
+				
+				b_dira = {
+				}
+			}
+		}
+		
+		d_gaoche = {
+			color = { 85 168 65 }
+			color2 = { 255 255 255 }
+			
+			capital = 1180 #Kharakit
+			
+			c_kharakit = {
+				color = { 55 156 38 }
+				color2 = { 255 255 255 }
+				
+				b_kharakit = {
+				}
+				b_tel = {
+				}
+			}
+			c_balasaqun = {
+				color = { 17 112 67 }
+				color2 = { 255 255 255 }
+				
+				b_balasaqun = {
+				}
+				b_anx = {
+				}
+			}
+			
+			c_suyab = {
+				color = { 65 122 87 }
+				color2 = { 255 255 255 }
+				
+				b_suyub = {
+				}
+			}
+		}
+	}
+	
+	k_kharakas = {
+		color = { 55 102 147 }
+		color2 = { 255 255 255 }
+	
+		capital = 1187 #Angara
+
+
+		
+		d_zays = {
+			color = { 40 82 190 }
+			color2 = { 255 255 255 }
+			
+			capital = 1187 #Angara
+			
+			c_norisk = {
+				color = { 185 110 213 }
+				color2 = { 255 255 255 }
+				
+				b_norisk = {
+				}
+				b_hyrog = {
+				}
+			}
+						
+			c_khakatass = {
+				color = { 27 150 213 }
+				color2 = { 255 255 255 }
+				
+				b_khakatass = {
+				}
+				b_ulkhari = {
+				}
+				b_negida = {
+				}
+			}
+						
+			c_yarsk = {
+				color = { 2 10 113 }
+				color2 = { 255 255 255 }
+				
+				b_yarsk = {
+				}
+				b_ishan = {
+				}
+			}
+						
+			c_angara = {
+				color = { 127 100 173 }
+				color2 = { 255 255 255 }
+				
+				b_angara = {
+				}
+				b_krai = {
+				}
+				b_udeg = {
+				}
+				b_irwink = {
+				}
+			}
+		}
+		
+		d_dzhagna = {
+			color = { 120 72 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1193 #Barabas
+			
+			c_nuur = {
+				color = { 15 70 113 }
+				color2 = { 255 255 255 }
+				
+				b_nuur = {
+				}
+				b_khabyr = {
+				}
+			}
+			
+			c_barabas = {
+				color = { 85 70 153 }
+				color2 = { 255 255 255 }
+				
+				b_barabas = {
+				}
+				b_cherno = {
+				}
+				b_anadyr = {
+				}
+			}
+			
+			c_sybyr = {
+				color = { 115 110 183 }
+				color2 = { 255 255 255 }
+				
+				b_sybyr = {
+				}
+				b_evinka = {
+				}
+			}
+		}
+		
+		d_tungask = {
+			color = { 31 13 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 1191 #Suleng
+			
+			c_tuva = {
+				color = { 15 10 203 }
+				color2 = { 255 255 255 }
+				
+				b_tuva = {
+				}
+				b_chukokta = {
+				}
+			}
+			
+			c_abak = {
+				color = { 185 110 253 }
+				color2 = { 255 255 255 }
+				
+				b_abak = {
+				}
+				b_magarad = {
+				}
+			}
+			
+			c_suleng = {
+				color = { 135 110 193 }
+				color2 = { 255 255 255 }
+				
+				b_suleng = {
+				}
+				b_husk = {
+				}
+				b_sakhal = {
+				}
+			}
+			
+			c_tatarum = {
+				color = { 85 50 233 }
+				color2 = { 255 255 255 }
+				
+				b_tatarum = {
+				}
+				b_ukok = {
+				}
+				b_amur = {
+				}
+			}
+		}
+	}
+	
+	k_tomar = {
+		color = { 225 64 77 }
+		color2 = { 255 255 255 }
+	
+		capital = 409 #Dragoynovo
+
+
+		
+		d_udomn = {
+			color = { 180 71 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 1196 #Carsuri
+			
+			c_saget = {
+				color = { 185 110 113 }
+				color2 = { 255 255 255 }
+				
+				b_saget = {
+				}
+				b_pechdos = {
+				}
+			}
+						
+			c_carsuri = {
+				color = { 227 150 113 }
+				color2 = { 255 255 255 }
+				
+				b_carsuri = {
+				}
+				b_tets = {
+				}
+			}
+		}
+		
+		d_djeiten = {
+			color = { 210 41 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1239 #Kurshun
+			
+			c_bakal = {
+				color = { 190 20 123 }
+				color2 = { 255 255 255 }
+				
+				b_dramsha = {
+				}
+				b_mirkovo = {
+				}
+			}
+			
+			c_kurshun = {
+				color = { 190 25 162 }
+				color2 = { 255 255 255 }
+				
+				b_voisil = {
+				}
+				b_debelt = {
+				}
+				b_emona = {
+				}
+			}
+			
+			c_ailish = {
+				color = { 199 50 52 }
+				color2 = { 255 255 255 }
+				
+				b_golbma = {
+				}
+				b_egy = {
+				}
+			}
+			
+			c_miluks = {
+				color = { 152 15 25 }
+				color2 = { 255 255 255 }
+				
+				b_miluks = {
+				}
+				b_seras = {
+				}
+				b_kasar = {
+				}
+			}
+			
+			c_komri = {
+				color = { 127 55 60 }
+				color2 = { 255 255 255 }
+				
+				b_komri = {
+				}
+				b_jokis = {
+				}
+			}
+
+		}	
+		
+		d_ganibek = {
+			color = { 250 71 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 1243 #Rataumyr
+			
+			c_ganibek = {
+				color = { 227 110 13 }
+				color2 = { 255 255 255 }
+				
+				b_ganibek = {
+				}
+				b_gotar_bor = {
+				}
+			}
+			
+			c_rataumyr = {
+				color = { 200 100 89 }
+				color2 = { 255 255 255 }
+				
+				b_sjot = {
+				}
+				b_faera = {
+				}
+				b_elska = {
+				}
+				b_hautur = {
+				}
+			}
+		}
+		
+		d_chakmyr = {
+			color = { 190 11 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1245 #Tohkar
+						
+			c_tohkar = {
+				color = { 123 3 78 }
+				color2 = { 255 255 255 }
+				
+				b_tohkar = {
+				}
+				b_harom = {
+				}
+				b_forrad = {
+				}
+			}
+			
+			c_zapad = {
+				color = { 167 23 64 }
+				color2 = { 255 255 255 }
+				
+				b_hurum = {
+				}
+				b_godhor = {
+				}
+			}
+			
+			c_krasnodar = {
+				color = { 164 16 90 }
+				color2 = { 255 255 255 }
+				
+				b_mannliger = {
+				}
+				b_kunnigor = {
+				}
+			}
+		}	
+	}		
+
+	k_ulthaborea = {
+		color = { 123 114 147 }
+		color2 = { 255 255 255 }
+	
+		capital = 1656 #Celephai
+	
+		d_leng = {
+			color = { 107 115 116 }
+			color2 = { 255 255 255 }
+			
+			capital = 1656 #Celephai
+
+			c_celephai = {
+				color = { 100 90 110 }
+				color2 = { 255 255 255 }
+					
+				b_celephai = {
+				}
+				b_ngarek = {
+				}
+				b_thal_thon = {
+				}
+				b_yaath = {
+				}
+			}
+			
+			c_terkmet = {
+				color = { 104 69 107 }
+				color2 = { 255 255 255 }
+					
+				b_terkmet = {
+				}
+				b_ulthur = {
+				}
+				b_gurunar = {
+				}
+				b_archonar = {
+				}
+				b_qaluud = {
+				}
+			}
+			
+			c_leen = {
+				color = { 115 99 127 }
+				color2 = { 255 255 255 }
+					
+				b_leen = {
+				}
+				b_hlanithar_leen = {
+				}
+				b_sarnath = {
+				}
+				b_illaranak = {
+				}
+			}
+		}
+		
+		d_zham = {
+			color = { 107 105 146 }
+			color2 = { 255 255 255 }
+			
+			capital = 1664 #Bashikir
+
+			c_bashikir = {
+				color = { 87 90 94 }
+				color2 = { 255 255 255 }
+					
+				b_bashikir = {
+				}
+				b_nuka = {
+				}
+				b_beke = {
+				}
+			}
+
+			c_kushtan = {
+				color = { 109 51 162 }
+				color2 = { 255 255 255 }
+					
+				b_kushtan = {
+				}
+				b_orok = {
+				}
+			}
+			
+			c_sarya = {
+				color = { 105 122 155 }
+				color2 = { 255 255 255 }
+					
+				b_sarya = {
+				}
+				b_ondas = {
+				}
+			}
+		}
+		
+		d_dariganga = {
+			color = { 67 115 116 }
+			color2 = { 255 255 255 }
+			
+			capital = 1660 #Obo
+
+			c_nauk = {
+				color = { 57 100 133 }
+				color2 = { 255 255 255 }
+					
+				b_nauk = {
+				}
+				b_khanuy_gol = {
+				}
+			}
+
+			c_obo = {
+				color = { 97 140 155 }
+				color2 = { 255 255 255 }
+					
+				b_obo = {
+				}
+				b_boyuk = {
+				}
+				b_taunshi = {
+				}
+			}
+
+			c_axabaxx = {
+				color = { 100 128 142 }
+				color2 = { 255 255 255 }
+					
+				b_axabaxx = {
+				}
+				b_taryatu_chulutu = {
+				}
+			}
+		}
+	}
+	
+	k_ruan = {
+		color = { 150 214 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 1683 #Kazarajin
+
+		d_xanbi = {
+			color = { 90 251 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 1683 #Kazarajin
+			
+			c_kazarajin = {
+				color = { 110 230 130 }
+				color2 = { 255 255 255 }
+					
+				b_kazarajin = {
+				}
+				b_tsang = {
+				}
+				b_nargai = {
+				}
+				b_ooth_aran = {
+				}
+			}
+			
+			c_tarim = {
+				color = { 56 238 34 }
+				color2 = { 255 255 255 }
+				
+				b_aina = {
+				}
+				b_merqi = {
+				}
+			}	
+			
+			c_khovd = {
+				color = { 23 160 84 }
+				color2 = { 255 255 255 }
+				
+				b_khovd = {
+				}
+				b_ulch = {
+				}
+			}
+			
+			c_uromqi = {
+				color = { 78 150 78 }
+				color2 = { 255 255 255 }
+				
+				b_uromqi = {
+				}
+				b_xibi = {
+				}
+			}
+		}
+		
+		d_urian = {
+			color = { 70 152 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 1201 #Uvs
+			
+			c_uvs = {
+				color = { 163 246 126 }
+				color2 = { 255 255 255 }
+				
+				b_uvs = {
+				}
+				b_kamniga = {
+				}
+				b_umrad = {
+				}
+				b_telengar = {
+				}
+			}
+
+			c_jomal = {
+				color = { 122 200 101 }
+				color2 = { 255 255 255 }
+				
+				b_jomaliks = {
+				}
+				b_ulcher = {
+				}
+				b_saamar = {
+				}
+			}
+			
+			c_dvinar = {
+				color = { 159 202 151 }
+				color2 = { 255 255 255 }
+				
+				b_dvinar = {
+				}
+				b_tozhur = {
+				}
+				b_veparsorg = {
+				}
+			}
+		}
+		
+		d_yukagh = {
+			color = { 120 199 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1204 #Baatar
+			
+			c_baatar = {
+				color = { 190 232 165 }
+				color2 = { 255 255 255 }
+				
+				b_udigi = {
+				}
+				b_kangjia = {
+				}
+			}	
+			
+			c_yucho = {
+				color = { 176 209 175 }
+				color2 = { 255 255 255 }
+				
+				b_yucho = {
+				}
+				b_khalka = {
+				}
+			}	
+		}
+		
+		d_shaar = {
+			color = { 90 201 120 }
+			color2 = { 255 255 255 }
+			
+			capital = 1208 #Ket
+			
+			c_khotaan = {
+				color = { 127 245 163 }
+				color2 = { 255 255 255 }
+				
+				b_orrok = {
+				}
+			}			
+			
+			c_ket = {
+				color = { 64 190 173 }
+				color2 = { 255 255 255 }
+				
+				b_ket = {
+				}
+				b_shirangol = {
+				}
+				b_oroch = {
+				}
+				b_asen = {
+				}
+			}			
+			
+			c_bagstay = {
+				color = { 83 240 176 }
+				color2 = { 255 255 255 }
+				
+				b_bagstay = {
+				}
+				b_swaddi = {
+				}
+				b_lisa = {
+				}
+			}
+			
+			c_nivk = {
+				color = { 26 189 142 }
+				color2 = { 255 255 255 }
+				
+				b_tankovo = {
+				}
+				b_dagur = {
+				}
+			}
+		}
+	}
+	
+	k_aztrakhan = {
+		color = { 100 14 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 1218 #Karmay
+
+
+	
+		d_mador = {
+			color = { 60 11 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1224 #Mador
+			
+			c_mador = {
+				color = { 127 24 113 }
+				color2 = { 255 255 255 }
+				
+				b_mador = {
+				}
+				b_nedhri = {
+				}
+			}
+
+			c_mesch = {
+				color = { 123 64 78 }
+				color2 = { 255 255 255 }
+				
+				b_mesch = {
+				}
+				b_voro = {
+				}
+				b_anbur = {
+				}
+			}
+		}
+	
+		d_srubnya = {
+			color = { 140 51 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1221 #Khamchata
+			
+			c_khamchata = {
+				color = { 100 156 140 }
+				color2 = { 255 255 255 }
+				
+				b_urmurt = {
+				}
+				b_yhdeksan = {
+				}
+				b_stader = {
+				}
+			}
+
+			c_chamsyts = {
+				color = { 124 167 100 }
+				color2 = { 255 255 255 }
+				
+				b_chamsyts = {
+				}
+				b_retti = {
+				}
+			}
+
+			c_zanur = {
+				color = { 162 164 90 }
+				color2 = { 255 255 255 }
+				
+				b_zanur = {
+				}
+				b_oroq = {
+				}
+				b_taum = {
+				}
+			}
+			
+			c_sakar = {
+				color = { 123 186 134 }
+				color2 = { 255 255 255 }
+				
+				b_sakar = {
+				}
+				b_izhoria = {
+				}
+				b_mergr = {
+				}
+			}
+		}		
+
+		d_bulak = {
+			color = { 100 11 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1218 #Karmay
+			
+			c_torpan = {
+				color = { 123 53 133 }
+				color2 = { 255 255 255 }
+				
+				b_evenk = {
+				}
+				b_mogholi = {
+				}
+				b_elta = {
+				}
+			}
+			
+			c_karmay = {
+				color = { 86 23 58 }
+				color2 = { 255 255 255 }
+				
+				b_nanai = {
+				}
+				b_skyrrin = {
+				}
+				b_finnabor = {
+				}
+				b_geta = {
+				}
+			}
+			
+			c_miryr = {
+				color = { 27 72 197 }
+				color2 = { 255 255 255 }
+				
+				b_marri = {
+				}
+				b_ovcci = {
+				}
+			}
+		}
+		
+		d_sayon = {
+			color = { 140 121 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1212 #Nerchin
+			
+			c_nerchin = {
+				color = { 100 23 63 }
+				color2 = { 255 255 255 }
+				
+				b_donxi = {
+				}
+				b_oold = {
+				}
+				b_naglbor = {
+				}
+			}		
+			
+			c_bortaala = {
+				color = { 163 110 98 }
+				color2 = { 255 255 255 }
+				
+				b_bata = {
+				}
+			}		
+		}
+	
+		d_tamt_bulak = {
+			color = { 180 151 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 1230 #Kamas
+			
+			c_votioi = {
+				color = { 157 163 213 }
+				color2 = { 255 255 255 }
+				
+				b_votioi = {
+				}
+				b_besermy = {
+				}
+			}
+			
+			c_ninyt = {
+				color = { 155 110 203 }
+				color2 = { 255 255 255 }
+				
+				b_ninyt = {
+				}
+			}			
+			
+			c_magad = {
+				color = { 189 132 180 }
+				color2 = { 255 255 255 }
+				
+				b_magad = {
+				}
+				b_belda = {
+				}
+			}			
+			
+			c_kamas = {
+				color = { 190 50 200 }
+				color2 = { 255 255 255 }
+				
+				b_katosa = {
+				}
+				b_viner = {
+				}
+				b_visi = {
+				}
+			}
+			
+			c_anaol = {
+				color = { 127 167 200 }
+				color2 = { 255 255 255 }
+				
+				b_anaol = {
+				}
+				b_mektut = {
+				}
+			}			
+		}
+		
+		d_arali = {
+			color = { 90 91 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1214 #Aral
+			
+			c_tiel = {
+				color = { 75 153 140 }
+				color2 = { 255 255 255 }
+				
+				b_tiel = {
+				}
+				b_prausk = {
+				}
+				b_garrot = {
+				}
+			}		
+			
+			c_yupyk = {
+				color = { 126 17 140 }
+				color2 = { 255 255 255 }
+				
+				b_oirat = {
+				}
+				b_laeti = {
+				}
+			}
+			
+			c_aral = {
+				color = { 23 163 143 }
+				color2 = { 255 255 255 }
+				
+				b_solon = {
+				}
+				b_shira = {
+				}
+			}		
+		}
+	}	
+	
+	k_kura = {
+		color = { 125 164 17 }
+		color2 = { 255 255 255 }
+	
+		capital = 393 #Blatnista
+
+		d_maykar = {
+			color = { 130 181 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 393 #Blatnista
+
+			c_blatnista = {
+				color = { 162 122 190 }
+				color2 = { 255 255 255 }
+				
+				b_blatnista = {
+				}
+				b_hekoms = {
+				}
+				b_malo_konare = {
+				}
+				b_cad = {
+				}
+			}
+			
+			c_poibrene = {
+				color = { 123 100 231 }
+				color2 = { 255 255 255 }
+				
+				b_poibrene = {
+				}
+				b_stranagl = {
+				}
+				b_belovo = {
+				}
+			}
+			
+			c_lesichovo = {
+				color = { 67 87 187 }
+				color2 = { 255 255 255 }
+				
+				b_lesichovo = {
+				}
+				b_heel = {
+				}
+				b_marko = {
+				}
+			}
+			
+			c_yakhdoi = {
+				color = { 86 43 176 }
+				color2 = { 255 255 255 }
+				
+				b_plagaz = {
+				}
+				b_panagyuriski = {
+				}
+				b_nyolc = {
+				}
+				b_felaus = {
+				}
+			}
+		}
+		
+		d_zaural = {
+			color = { 60 211 160 }
+			color2 = { 255 255 255 }
+			
+			capital = 391 #Sopot
+			
+			c_aydemir = {
+				color = { 76 134 123 }
+				color2 = { 255 255 255 }
+				
+				b_cherna = {
+				}
+				b_kaynardzha = {
+				}
+				b_sitovo = {
+				}
+				b_kakrina = {
+				}
+			}
+			
+			c_sopot = {
+				color = { 23 163 163 }
+				color2 = { 255 255 255 }
+				
+				b_sopot = {
+				}
+				b_oreshak = {
+				}
+				b_loss = {
+				}
+				b_petrevene = {
+				}
+			}
+			
+			c_ribaritsa = {
+				color = { 67 123 85 }
+				color2 = { 255 255 255 }
+				
+				b_ribaritsa = {
+				}
+				b_bozhentsi = {
+				}
+				b_gostilitsa = {
+				}
+			}
+			
+			c_olkoron = {
+				color = { 52 173 84 }
+				color2 = { 255 255 255 }
+				
+				b_golyamo = {
+				}
+				b_absath = {
+				}
+			}
+		}
+		
+		d_issik = {
+			color = { 140 151 120 }
+			color2 = { 255 255 255 }
+			
+			capital = 1232 #Issikul
+			
+			c_eiigin = {
+				color = { 123 190 123 }
+				color2 = { 255 255 255 }
+				
+				b_eiigin = {
+				}
+				b_muroman = {
+				}
+			}	
+			
+			c_issikul = {
+				color = { 167 180 150 }
+				color2 = { 255 255 255 }
+				
+				b_vurgul = {
+				}
+				b_jakwa = {
+				}
+			}
+			
+			c_yurgh = {
+				color = { 176 150 132 }
+				color2 = { 255 255 255 }
+				
+				b_yurgh = {
+				}
+				b_lika = {
+				}
+			}			
+		}
+		
+		d_sakatchi_alay = {
+			color = { 50 121 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1235 #Ents
+			
+			c_kolim = {
+				color = { 27 125 13 }
+				color2 = { 255 255 255 }
+				
+				b_kolim = {
+				}
+				b_giptumadhor = {
+				}
+			}	
+			
+			c_krygz = {
+				color = { 52 189 89 }
+				color2 = { 255 255 255 }
+				
+				b_sbor = {
+				}
+				b_kymmenen = {
+				}
+			}
+			
+			c_kropot = {
+				color = { 67 120 20 }
+				color2 = { 255 255 255 }
+				
+				b_morvinik = {
+				}
+				b_veidhor = {
+				}
+				b_mannskar = {
+				}
+			}	
+			
+			c_ents = {
+				color = { 56 123 98 }
+				color2 = { 255 255 255 }
+				
+				b_kanti = {
+				}
+				b_yukag = {
+				}
+			}	
+		}			
+		
+		d_hahk = {
+			color = { 50 151 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 393 #Blatnista
+			
+			c_katunets = {
+				color = { 125 174 32 }
+				color2 = { 255 255 255 }
+				
+				b_zekeal = {
+				}
+				b_dyulevo = {
+				}
+			}
+					
+			c_jakki = {
+				color = { 89 187 26 }
+				color2 = { 255 255 255 }
+				
+				b_svoboda = {
+				}
+				b_sharpi = {
+				}
+			}
+
+			c_turukhan = {
+				color = { 102 165 51 }
+				color2 = { 255 255 255 }
+				
+				b_turukhaner = {
+				}
+				b_ogrens = {
+				}
+				b_yerensk = {
+				}
+			}
+		}
+	}
+
+
+	k_zuungar = {
+		color = { 184 109 56 }
+		color2 = { 255 255 255 }
+		
+		capital = 1666 #Tasanda
+
+
+
+		d_tian = {
+			color = { 187 105 16 }
+			color2 = { 255 255 255 }
+			
+			capital = 1666 #Tasanda
+
+			c_ngama = {
+				color = { 190 100 80 }
+				color2 = { 255 255 255 }
+					
+				b_ngama = {
+				}
+				b_kurultai = {
+				}
+			}
+
+			c_dorno = {
+				color = { 159 151 62 }
+				color2 = { 255 255 255 }
+					
+				b_dorno = {
+				}
+				b_mulaan = {
+				}
+			}
+
+			c_tasanda = {
+				color = { 163 121 76 }
+				color2 = { 255 255 255 }
+					
+				b_tasanda = {
+				}
+				b_kitbuq = {
+				}
+			}
+
+			c_shouxo = {
+				color = { 183 95 65 }
+				color2 = { 255 255 255 }
+					
+				b_shouxo = {
+				}
+				b_ariq = {
+				}
+			}
+		}
+		
+		d_kaldan = {
+			color = { 207 105 146 }
+			color2 = { 255 255 255 }
+			
+			capital = 1668 #Andaka
+
+			c_haizhen = {
+				color = { 189 100 156 }
+				color2 = { 255 255 255 }
+					
+				b_haizhen = {
+				}
+			}
+
+			c_andaka = {
+				color = { 199 145 104 }
+				color2 = { 255 255 255 }
+					
+				b_andaka = {
+				}
+			}
+
+			c_tuulud = {
+				color = { 210 100 130 }
+				color2 = { 255 255 255 }
+					
+				b_tuulud = {
+				}
+			}
+		
+			c_gaanzu = {
+				color = { 175 132 128 }
+				color2 = { 255 255 255 }
+					
+				b_gaanzu = {
+				}
+				b_temur = {
+				}
+			}
+		}
+		
+		d_zuusotyn = {
+			color = { 207 105 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 1672 #Taiko
+
+			c_nai_khi = {
+				color = { 220 134 46 }
+				color2 = { 255 255 255 }
+					
+				b_toqata = {
+				}
+				b_giray = {
+				}
+			}
+
+			c_taiko = {
+				color = { 184 120 30 }
+				color2 = { 255 255 255 }
+					
+				b_song = {
+				}
+				b_duwa = {
+				}
+			}
+		}
+	}
+	
+	k_khangai = {
+		color = { 100 109 56 }
+		color2 = { 255 255 255 }
+		
+		capital = 1664 #Bashikir
+
+
+		
+		d_tunggut = {
+			color = { 207 205 146 }
+			color2 = { 255 255 255 }
+			
+			capital = 1674 #One
+
+			c_one = {
+				color = { 220 210 178 }
+				color2 = { 255 255 255 }
+					
+				b_one = {
+				}
+				b_abishi = {
+				}
+				b_arghun = {
+				}
+			}
+
+			c_kori = {
+				color = { 209 214 166 }
+				color2 = { 255 255 255 }
+					
+				b_kori = {
+				}
+				b_yama = {
+				}
+			}
+			
+			c_halai = {
+				color = { 199 189 165 }
+				color2 = { 255 255 255 }
+					
+				b_halai = {
+				}
+			}
+
+			c_khurunbur = {
+				color = { 220 190 177 }
+				color2 = { 255 255 255 }
+					
+				b_khurunbur = {
+				}
+			}
+		}
+				
+		d_korha = {
+			color = { 154 105 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 1679 #Turang
+
+			c_ulunbuur = {
+				color = { 123 100 50 }
+				color2 = { 255 255 255 }
+					
+				b_ulunbuur = {
+				}
+				b_yass = {
+				}
+			}
+
+			c_tulpan = {
+				color = { 167 120 53 }
+				color2 = { 255 255 255 }
+					
+				b_tulpan = {
+				}
+				b_nurzhigit = {
+				}
+			}
+			
+			c_turang = {
+				color = { 100 109 88 }
+				color2 = { 255 255 255 }
+					
+				b_turang = {
+				}
+				b_kylmik = {
+				}
+			}
+		}
+		
+		d_tsetseg = {
+			color = { 217 205 126 }
+			color2 = { 255 255 255 }
+			
+			capital = 1681 #Yueh Zu
+
+			c_erena = {
+				color = { 177 170 123 }
+				color2 = { 255 255 255 }
+					
+				b_erena = {
+				}
+			}
+
+			c_toba = {
+				color = { 209 185 135 }
+				color2 = { 255 255 255 }
+					
+				b_toba = {
+				}
+				b_zandar = {
+				}
+			}
+
+			c_yueh_zu = {
+				color = { 210 170 110 }
+				color2 = { 255 255 255 }
+					
+				b_yueh_zu = {
+				}
+				b_jelme = {
+				}
+			}
+		}
+		
+		d_valusi = {
+			color = { 156 182 134 }
+			color2 = { 255 255 255 }
+			
+			capital = 1657 #Oriaba
+
+			c_oriaba = {
+				color = { 140 140 120 }
+				color2 = { 255 255 255 }
+					
+				b_oriaba = {
+				}
+				b_kurana = {
+				}
+				b_dylath_oriaba = {
+				}
+				b_baharan = {
+				}
+			}
+
+			c_nephren = {
+				color = { 165 123 152 }
+				color2 = { 255 255 255 }
+					
+				b_nephren = {
+				}
+				b_hageth = {
+				}
+				b_atal_kar = {
+				}
+				b_barzai = {
+				}
+			}
+			
+			c_zuangzi = {
+				color = { 183 143 160 }
+				color2 = { 255 255 255 }
+					
+				b_zuangzi = {
+				}
+				b_lerion = {
+				}
+				b_thurai = {
+				}
+				b_zakaraia = {
+				}
+			}
+		}
+	}
+	
+	
+e_ankor_naggrund = {
+	color = { 108 51 92 }
+	color2 = { 255 255 255 }
+	
+	capital = 478 #Zharr-Naggrund
+
+	k_dawizag = {
+		color = { 115 14 7 }
+		color2 = { 255 255 255 }
+	
+		capital = 1253 #Gorgoth
+
+
+
+		d_dawizag = {
+			color = { 100 81 30 }
+			color2 = { 255 255 255 }
+			
+			capital = 493 #Barak Zharr
+						
+			c_daro = {
+				color = { 130 76 20 }
+				color2 = { 255 255 255 }
+				
+				b_darograd = {
+				}
+				b_urgraza = {
+				}
+				b_daroberg = {
+				}
+			}
+			
+			c_barak_zharr = {
+				color = { 130 90 40 }
+				color2 = { 255 255 255 }
+				
+				b_gate_of_zharr = {
+				}
+				b_ontos = {
+				}
+				b_silent_stone = {
+				}
+			}
+			
+			c_urmia = {
+				color = { 109 78 28 }
+				color2 = { 255 255 255 }
+				
+				b_aralan = {
+				}
+				b_zastdom = {
+				}
+			}
+			
+			c_saspire = {
+				color = { 159 124 23 }
+				color2 = { 255 255 255 }
+				
+				b_saspire = {
+				}
+			}			
+		}	
+		d_chargrim = {
+			color = { 170 41 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 1272 #Daemon's Stump
+			
+			c_orgris = {
+				color = { 128 107 66 }
+				color2 = { 255 255 255 }
+				
+				b_orgris = {
+				}
+				b_balgar = {
+				}
+			}		
+			
+			c_daemons_stump = {
+				color = { 176 80 24 }
+				color2 = { 255 255 255 }
+				
+				dwarven_main = "Zharrakhaos"
+				dwarf_norse = "Zharrakhaos"
+				dwarven_chaos = "Zharrakhaos"
+					
+				b_daemons_stump = {
+					dwarven_main = "Zharrakhaos"
+					dwarf_norse = "Zharrakhaos"
+					dwarven_chaos = "Zharrakhaos"
+					holy_site = hashut
+				}
+				b_ironstone = {
+				}
+				b_ogrikford = {
+				}
+			}			
+			
+			c_char = {
+				color = { 167 90 48 }
+				color2 = { 255 255 255 }
+				
+				b_char = {
+				}
+				b_apsum = {
+				}
+			}
+
+			c_skarbrand = {
+				color = { 182 98 46 }
+				color2 = { 255 255 255 }
+				
+				b_skarbrand = {
+				}
+				b_skarwatch = {
+				}
+			}			
+		}
+			
+		d_ruinmarch = {
+			color = { 140 71 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 1273 #Black Fortress
+
+			c_perik = {
+				color = { 108 123 56 }
+				color2 = { 255 255 255 }
+				
+				b_perik = {
+				}
+				b_ruinford = {
+				}
+				b_grinnin = {
+				}
+			}
+
+			c_ombra = {
+				color = { 126 80 44 }
+				color2 = { 255 255 255 }
+				
+				b_fort_ombra = {
+				}
+				b_pebble = {
+				}
+				b_deadstone = {
+				}
+			}			
+			
+			c_black_fortress = {
+				color = { 166 109 78 }
+				color2 = { 255 255 255 }
+				
+				b_the_black_fortress = {
+				}
+				b_blackgate = {
+				}
+				b_flayed_rock = {
+				}
+				b_undorim = {
+				}
+				b_dwarrinfel = {
+				}
+			}
+
+			c_zinir = {
+				color = { 126 123 71 }
+				color2 = { 255 255 255 }
+				
+				b_ziniran = {
+				}
+				b_akta = {
+				}
+			}				
+
+			c_rhazgala = {
+				color = { 174 139 101 }
+				color2 = { 255 255 255 }
+				
+				b_rhazgala = {
+				}
+				b_korik = {
+				}
+			}				
+		}
+	
+		d_howl = {
+			color = { 150 31 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 494 #Sentinels
+			
+			c_the_sentinels = {
+				color = { 158 87 46 }
+				color2 = { 255 255 255 }
+				
+				b_the_sentinels = {
+				}
+				b_ogrikston = {
+				}
+				b_irksiz_hold = {
+				}
+			}	
+			
+			c_desolace = {
+				color = { 145 55 87 }
+				color2 = { 255 255 255 }
+				
+				b_bone_tower = {
+				}
+			}
+			
+			c_grey_waste = {
+				color = { 176 98 42 }
+				color2 = { 255 255 255 }
+				
+				b_deathwatch = {
+				}
+			}
+			
+			c_inred = {
+				color = { 155 78 65 }
+				color2 = { 255 255 255 }
+				
+				b_inred = {
+				}
+				b_molag = {
+				}
+				b_gordrun = {
+				}
+			}
+			
+			c_nakta = {
+				color = { 121 71 89 }
+				color2 = { 255 255 255 }
+				
+				b_nakta = {
+				}
+				b_maltak = {
+				}
+			}			
+			
+		}
+	}
+
+	
+	k_azgorh = {
+		color = { 105 44 57 }
+		color2 = { 255 255 255 }
+	
+		capital = 1253 #Gorgoth
+
+
+	
+		d_azgorh = {
+			color = { 100 51 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 1253 #Gorgoth
+			
+			c_pazuzu = {
+				color = { 90 41 48 }
+				color2 = { 255 255 255 }
+				
+				b_pazuzubad = {
+				}
+				b_grung_azgrabar = {
+				}
+				b_darkiron = {
+				}
+				b_zaltu = {
+				}
+			}
+			
+			c_gorgoth = {
+				color = { 108 67 34 }
+				color2 = { 255 255 255 }
+				
+				b_tower_of_gorgoth = {
+					holy_site = hashut
+				}
+				b_grung_azgorha = {
+				}
+				b_grung_hargmur = {
+				}
+				b_khadizar_thraldom = {
+				}
+				b_urbar_serdom = {
+				}
+				b_ishataraz = {
+				}
+			}
+			
+			c_kur = {
+				color = { 127 78 62 }
+				color2 = { 255 255 255 }
+				
+				b_kur = {
+				}
+				b_skreefall_citadel = {
+				}
+				b_ashun = {
+				}
+				b_grushkin = {
+				}
+			}
+		}
+	
+		d_nagrazzor = {
+			color = { 120 51 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 497 #Mount Grey Hag
+			
+			c_sabarta = {
+				color = { 140 87 23 }
+				color2 = { 255 255 255 }
+				
+				b_sabarta = {
+				}
+				b_blood_rock = {
+				}
+			}
+						
+			c_ember = {
+				color = { 138 47 29 }
+				color2 = { 255 255 255 }
+				
+				b_emberstorm = {
+				}
+			}
+			
+			c_tanahk = {
+				color = { 147 76 34 }
+				color2 = { 255 255 255 }
+				
+				b_tanahk = {
+				}
+				b_shaush = {
+				}
+			}
+		}
+	}
+	
+	k_zharrduk = {
+		color = { 175 44 107 }
+		color2 = { 255 255 255 }
+	
+		capital = 478 #Zharr-Naggrund
+
+
+	
+		d_zharr_naggrund = {
+			color = { 150 21 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 478 #Zharr-Naggrund
+			
+			c_zharr_naggrund = {
+				color = { 227 110 103 }
+				color2 = { 255 255 255 }
+				
+				b_gromthidum = {
+				}
+				b_barak_marduk = {
+				}
+				b_barak_ishtaz = {
+				}
+				b_barak_nimrok = {
+				}
+				b_barak_enka = {
+				}
+				b_naggrund_thryng = {
+					holy_site = hashut
+				}
+				b_flegekrund = {
+				}
+			}
+		}
+		
+		d_gazan_zharr = {
+			color = { 180 71 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 485 #Azgram
+			
+			c_sulfuras = {
+				color = { 150 81 62 }
+				color2 = { 255 255 255 }
+				
+				b_sulfuras_keep = {
+				}
+				b_ragnaron = {
+				}
+				b_moltron = {
+				}
+				b_golmagg = {
+				}
+				b_sharraz = {
+				}
+			}
+			
+			c_gorlgal = {
+				color = { 189 73 56 }
+				color2 = { 255 255 255 }
+				
+				b_gorlgal = {
+				}
+				b_vangorram = {
+				}
+				b_jargom_deep = {
+				}
+			}
+			
+			c_mizpazan = {
+				color = { 189 78 93 }
+				color2 = { 255 255 255 }
+				
+				b_mizpazan = {
+				}
+				b_asridium = {
+				}
+				b_gurraran_langarran = {
+				}
+			}			
+		}
+					
+		d_drazhdrin = {
+			color = { 150 41 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 1301 #Mizpal Ungor
+			
+			c_nath_agra = {
+				color = { 210 81 122 }
+				color2 = { 255 255 255 }
+				
+				b_nath_karad = {
+				}
+				b_duron_var = {
+				}
+				b_angmar = {
+				}
+			}
+			
+			c_mizpal_ungor = {
+				color = { 190 91 82 }
+				color2 = { 255 255 255 }
+				
+				b_mizpal_ungor = {
+				}
+				b_mhornar_ungor = {
+				}
+				b_mhornar_mingol = {
+				}
+				b_mizpal_grung = {
+				}
+				b_keezium = {
+				}
+			}
+			
+			c_gorlabar = {
+				color = { 180 51 87 }
+				color2 = { 255 255 255 }
+				
+				b_gorlabar = {
+				}
+				b_grundfel = {
+				}
+				b_grongang = {
+				}
+			}
+			
+			c_thaurizon = {
+				color = { 178 121 122 }
+				color2 = { 255 255 255 }
+				
+				b_thaurizon = {
+				}
+				b_skazim = {
+				}
+				b_zonfel = {
+				}
+				b_zunthrum_drin = {
+				}
+			}
+			
+			c_zanen_ruvalk = {
+				color = { 167 96 34 }
+				color2 = { 255 255 255 }
+				
+				b_gargamel = {
+				}
+				b_barak_gurnin = {
+				}
+				b_slurri = {
+				}
+			}
+		}
+		
+		d_grimaz_orrud = {
+			color = { 230 51 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1304 #Gaz Orrud
+			
+			c_gaz_orrud = {
+				color = { 254 35 16 }
+				color2 = { 255 255 255 }
+				
+				b_gaz_orrud_kazgrim = {
+				}
+				b_gaz_orrud_bar = {
+				}
+				b_valdrin_ona = {
+				}
+				b_thragik = {
+				}
+				b_izor_brakk = {
+				}
+			}
+			
+			c_ashrift = {
+				color = { 198 63 79 }
+				color2 = { 255 255 255 }
+				
+				b_ashrift_gate = {
+				}
+				b_ashrift_dam = {
+				}
+				b_ashrift_tower = {
+				}
+			}
+			
+			c_gash_kadrak = {
+				color = { 232 102 112 }
+				color2 = { 255 255 255 }
+				
+				b_krutin_hold = {
+				}
+				b_kigalmarch = {
+				}
+				b_grummbak = {
+				}
+				b_ragrin_ungor = {
+				}
+			}
+
+
+		}
+			
+		d_gazan_haraz = {
+			color = { 230 51 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 485 #Azgram
+			
+			c_gazan_garaz = {
+				color = { 254 35 16 }
+				color2 = { 255 255 255 }
+				
+				b_argelmarch = {
+				}
+				b_krak_magaz = {
+				}
+				b_ironcore = {
+				}
+				b_bad_ghull = {
+				}
+			}
+
+			c_ghal = {
+				color = { 190 51 72 }
+				color2 = { 255 255 255 }
+				
+				b_ghaldom = {
+				}
+				b_chemotank = {
+				}
+				b_orrud_vorium = {
+				}
+				b_ggal_varrus = {
+				}
+			}		
+			
+			c_ruadrin = {
+				color = { 130 61 42 }
+				color2 = { 255 255 255 }
+				
+				b_ruadrin = {
+				}
+				b_langrim = {
+				}
+				b_zharr_grim = {
+				}
+				b_indri = {
+				}
+				b_sephirat = {
+				}
+			}
+					
+			c_azgram = {
+				color = { 190 65 45 }
+				color2 = { 255 255 255 }
+				
+				b_azgram = {
+				}
+				b_thurth_bar = {
+				}
+				b_gromsite = {
+				}
+				b_blackrock_depths = {
+				}
+			}
+		}	
+	}
+	
+	k_mourn = {
+		color = { 125 14 37 }
+		color2 = { 255 255 255 }
+	
+		capital = 1288 #Karaz Hashuti
+
+
+			
+		d_cathay_kadrin = {
+			color = { 180 51 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 480 #Skreefel
+			
+			c_skreefel = {
+				color = { 167 51 71 }
+				color2 = { 255 255 255 }
+				
+				b_skreefel = {
+				}
+				b_huwaz = {
+				}
+				b_black_fang = {
+				}	
+			}
+			
+			c_karak_vrag = {
+				color = { 251 167 167 }
+				color2 = { 255 255 255 }
+				
+				b_karak_vrag = {
+				}	
+				b_grimsbak = {
+				}	
+				b_gorger_rock = {
+				}	
+			}
+			
+			c_turgran = {
+				color = { 187 115 123 }
+				color2 = { 255 255 255 }
+				
+				b_turgran = {
+				}
+				b_gargaran = {
+				}	
+				b_blizzardpeak = {
+				}	
+			}
+		}
+
+		d_karag_zorn = {
+			color = { 140 21 20 }
+			color2 = { 255 255 255 }
+			
+			capital = 1289 #Stonehol
+			
+			c_azgrimar = {
+				color = { 179 55 52 }
+				color2 = { 255 255 255 }
+				
+				b_karak_azgrimar = {
+				}
+				b_thoriam = {
+				}
+				b_ungra_dharksol = {
+				}
+			}			
+			
+			c_stonehol = {
+				color = { 145 32 23 }
+				color2 = { 255 255 255 }
+				
+				b_stonehol = {
+				}
+				b_felskar = {
+				}
+				b_grung_korbri = {
+				}
+				b_grungut = {
+				}
+			}
+		}
+			
+		d_karag_dum = {
+			color = { 170 51 20 }
+			color2 = { 255 255 255 }
+			
+			capital = 1288 #Karaz Hashuti
+			
+			c_karak_ekslagar = {
+				color = { 154 35 16 }
+				color2 = { 255 255 255 }
+				
+				b_karak_ekslagar = {
+				}
+				b_karak_undril = {
+				}
+				b_kragamar = {
+				}
+				b_anvar = {
+				}
+			}
+			
+			c_karak_zharr = {
+				color = { 190 51 34 }
+				color2 = { 255 255 255 }
+				
+				b_karak_zharr = {
+				}
+				b_kazad_zharr = {
+				}
+				b_gouranth = {
+				}
+			}
+			
+			c_karag_gorim = {
+				color = { 189 20 52 }
+				color2 = { 255 255 255 }
+				
+				b_karag_gorim = {
+				}
+				b_khazid_gorim = {
+				}
+				b_ungrim_gor = {
+				}
+			}
+			
+			c_karaz_hashuti = {
+				color = { 134 65 6 }
+				color2 = { 255 255 255 }
+				
+				b_karaz_hashuti = {
+				}
+				b_kurgaz_hashuti = {
+					holy_site = hashut
+				}
+				b_grodum = {
+				}
+				b_undgrim_dhark = {
+				}
+				b_khazid_brakk = {
+				}
+			}
+		}
+	}		
+	
+	k_zorn_uzkul = {
+		color = { 225 244 207 }
+		color2 = { 255 255 255 }
+	
+		capital = 416 #Unzkulak
+
+
+
+		gospodar = "Smertimest"
+		ungol = "Smertimest"
+		ropsmann = "Smertimest"
+		kislevite = "Smertimest"
+		kyazak = "Smertimest"
+		aghol = "Smertimest"
+		dolgan = "Smertimest"
+		gharhar = "Smertimest"
+		hastling = "Smertimest"
+		khazag = "Smertimest"
+		kul = "Smertimest"
+		kvellig = "Smertimest"
+		tahmak = "Smertimest"
+		tokmar = "Smertimest"
+		yusak = "Smertimest"
+
+		
+		d_unzkulak = {
+			color = { 220 251 210 }
+			color2 = { 255 255 255 }
+			
+			capital = 416 #Unzkulak
+
+			gospodar = "Ossia"
+			ungol = "Ossia"
+			ropsmann = "Ossia"
+			kislevite = "Ossia"
+			kyazak = "Ossia"
+			dolgan = "Ossia"
+			
+			c_unzkulak = {
+				color = { 227 210 193 }
+				color2 = { 255 255 255 }
+				
+				b_unzkulak = {
+					holy_site = hashut
+				}
+				b_karak_varrson = {
+				}
+				b_barak_hrunzak = {
+				}
+				b_tilid_ungor = {
+				}
+				b_barak_mundak = {
+				}
+			}
+			
+			c_unzkadrin = {
+				color = { 227 240 213 }
+				color2 = { 255 255 255 }
+				
+				b_unzkul_mingol = {
+				}
+				b_barakazzar = {
+				}
+			}
+		}
+
+		d_zorn_uzkul = {
+			color = { 250 210 250 }
+			color2 = { 255 255 255 }
+			
+			capital = 488 #Sklepgor
+			
+			gospodar = Groznay
+			ungol = Groznay
+			ropsmann = Groznay
+			kislevite = Groznay
+			kyazak = "Groznay"
+			dolgan = Groznay
+			
+			c_ossarl = {
+				color = { 213 190 213 }
+				color2 = { 255 255 255 }
+				
+				b_ossarl = {
+				}
+				b_lizoz = {
+				}
+			}
+			
+			c_sklepgor = {
+				color = { 223 209 210 }
+				color2 = { 255 255 255 }
+				
+				b_sklepgor = {
+				}
+				b_zilair = {
+				}
+				b_naska = {
+				}
+			}
+			
+			c_olnzar = {
+				color = { 190 230 200 }
+				color2 = { 255 255 255 }
+				
+				b_olnzarstad = {
+				}
+				b_gayny = {
+				}
+			}
+			
+			c_igragor = {
+				color = { 209 179 199 }
+				color2 = { 255 255 255 }
+				
+				b_igragor = {
+				}
+				b_dirtz = {
+				}
+				b_lugalbaran = {
+				}
+			}
+		}
+
+		d_ossia = {
+			color = { 250 200 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 1268 #Vortrium
+			
+			c_helgrind = {
+				color = { 234 200 125 }
+				color2 = { 255 255 255 }
+				
+				b_helgrindgrad = {
+				}
+				b_pylgorod = {
+				}
+			}
+			
+			c_tamarkrupa = {
+				color = { 198 189 122 }
+				color2 = { 255 255 255 }
+				
+				b_tamarkrupa = {
+				}
+				b_egorevsk = {
+				}
+			}
+			
+			c_vortrium = {
+				color = { 209 189 90 }
+				color2 = { 255 255 255 }
+				
+				b_chernozavtra = {
+				}
+				b_lukoyanov = {
+				}
+				b_nyrob = {
+				}
+			}
+		}
+	}
+}
+	
+	
+	k_kurnugi = {
+		color = { 185 124 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 495 #Crookback Mountain
+
+
+	
+		d_baartak = {
+			color = { 190 121 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 495 #Crookback Mountain
+			
+			c_dagrolad = {
+				color = { 178 109 120 }
+				color2 = { 255 255 255 }
+				
+				b_anzarangol = {
+				}
+				b_urkrandorf = {
+				}
+				b_mausolo = {
+				}
+			}
+			
+			c_baartak = {
+				color = { 190 132 140 }
+				color2 = { 255 255 255 }
+				
+				b_baartak = {
+				}
+				b_marrhaz = {
+				}
+			}
+
+			c_crookback_mountain = {
+				color = { 178 121 132 }
+				color2 = { 255 255 255 }
+				
+				b_crookback_spire = {
+				}
+				b_crookback_deep = {
+				}
+				b_skreetlezorn = {
+				}
+				b_rottanbak = {
+				}
+				b_feltoo = {
+				}
+			}
+			
+			c_isin = {
+				color = { 143 100 139 }
+				color2 = { 255 255 255 }
+				
+				b_bidar = {
+				}
+				b_crobak = {
+				}
+				b_fort_isin = {
+				}
+			}
+			
+			c_morogoth = {
+				color = { 178 140 108 }
+				color2 = { 255 255 255 }
+				
+				b_morogoroba_azakimolgar_aagabal = {
+				}
+				b_ifirike = {
+				}
+			}
+			
+			c_chandak = {
+				color = { 145 125 109 }
+				color2 = { 255 255 255 }
+				
+				b_chandak = {
+				}
+			}			
+			
+		}
+	
+		d_gazan = {
+			color = { 150 101 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 493 #Gazan Zharr
+			
+			c_zagros = {
+				color = { 156 101 130 }
+				color2 = { 255 255 255 }
+				
+				b_zagros = {
+				}
+				b_urdishan = {
+				}
+				b_labbagor = {
+				}
+			}
+			
+			c_behiston_wastes = {
+				color = { 167 120 99 }
+				color2 = { 255 255 255 }
+				
+				b_akkar = {
+				}
+				b_bahran = {
+				}
+			}
+			
+			c_hattran = {
+				color = { 145 109 109 }
+				color2 = { 255 255 255 }
+				
+				b_hattran = {
+				}
+				b_mitzu = {
+				}
+			}
+		}	
+		
+		d_hamu = {
+			color = { 100 51 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 1271 #Hamu Hulladek
+
+		}
+		
+		d_talbar = {
+			color = { 130 91 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 457 #Konar
+						
+			c_konar = {
+				color = { 142 88 109 }
+				color2 = { 255 255 255 }
+				
+				b_konar = {
+				}
+				b_riken = {
+				}
+			}
+		
+			c_luvuag = {
+				color = { 123 89 100 }
+				color2 = { 255 255 255 }
+				
+				b_luvuag = {
+				}
+				b_dozzan = {
+				}
+			}
+			
+			c_baalbek = {
+				color = { 123 100 87 }
+				color2 = { 255 255 255 }
+				
+				b_baalbek = {
+				}
+				b_andriks = {
+				}
+			}
+		}
+		
+		d_ugra = {
+			color = { 100 51 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 497 #Mount Grey Hag
+			
+			c_mount_grey_hag = {
+				color = { 158 80 101 }
+				color2 = { 255 255 255 }
+				
+				b_greyspire = {
+				}
+				b_prukold = {
+				}
+				b_garukold = {
+				}
+				b_qarbold = {
+				}
+			}
+									
+			c_morzarn = {
+				color = { 125 98 48 }
+				color2 = { 255 255 255 }
+				
+				b_morzarn = {
+				}
+				b_zulrat = {
+				}
+			}
+		
+			c_murlech = {
+				color = { 120 78 89 }
+				color2 = { 255 255 255 }
+				
+				b_murlech = {
+				}
+				b_rovanon = {
+				}
+				b_atrahasis = {
+				}
+			}
+		
+			c_ilkatuktak = {
+				color = { 130 98 108 }
+				color2 = { 255 255 255 }
+				
+				b_aaargh = {
+				}
+				b_anthrax = {
+				}
+			}
+		}
+	}		
+
+	k_urkar = {
+		color = { 125 134 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 448 #Iron Hills
+
+
+
+		d_drakenmoor = {
+			color = { 120 121 140 }
+			color2 = { 255 255 255 }
+			
+			capital = 448 #Iron Hills
+			
+			c_drakenmoor = {
+				color = { 123 153 132 }
+				color2 = { 255 255 255 }
+				
+				b_drakehold = {
+				}
+				b_drakenberg = {
+				}
+			}
+			
+			c_iron_hills = {
+				color = { 143 155 141 }
+				color2 = { 255 255 255 }
+				
+				b_iron_pike = {
+				}
+				b_ribwich = {
+				}
+				b_hamad = {
+				}
+			}
+		}	
+		
+		d_kirulg = {
+			color = { 120 111 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 426 #Plains of Kirulg
+			
+			c_plains_of_kirulg = {
+				color = { 109 100 121 }
+				color2 = { 255 255 255 }
+				
+				b_uraturu = {
+				}
+				b_gnashar = {
+				}
+			}
+			
+			c_plains_of_the_divuildud = {
+				color = { 104 115 99 }
+				color2 = { 255 255 255 }
+				
+				b_kroggoth = {
+				}
+				b_frakinstad = {
+				}
+			}
+			
+			c_inanna = {
+				color = { 133 129 130 }
+				color2 = { 255 255 255 }
+				
+				b_inanna = {
+				}
+				b_virmir = {
+				}
+				b_rappar = {
+				}
+			}
+			
+			c_abraq = {
+				color = { 134 115 124 }
+				color2 = { 255 255 255 }
+				
+				b_abraqol = {
+				}
+				b_mesharr = {
+				}
+			}
+			
+			c_cabal = {
+				color = { 132 111 152 }
+				color2 = { 255 255 255 }
+				
+				b_cabal = {
+				}
+				b_eriksveld = {
+				}
+			}			
+			
+			c_gherra = {
+				color = { 154 135 124 }
+				color2 = { 255 255 255 }
+				
+				b_gherra = {
+				}
+				b_zeni = {
+				}
+			}
+		}
+	
+		d_harazi = {
+			color = { 100 91 99 }
+			color2 = { 255 255 255 }
+			
+			capital = 456 #Haraz
+			
+			c_haraz = {
+				color = { 99 90 91 }
+				color2 = { 255 255 255 }
+				
+				b_haraz = {
+				}
+				b_ubaidr = {
+				}
+			}
+			
+			c_ugar = {
+				color = { 90 90 100 }
+				color2 = { 255 255 255 }
+				
+				b_kulaba = {
+				}
+				b_turaza = {
+				}
+				b_hansa = {
+				}
+			}
+			
+			c_anu = {
+				color = { 90 110 100 }
+				color2 = { 255 255 255 }
+				
+				b_anu = {
+				}
+				b_kishra = {
+				}
+				b_stone_claw = {
+				}
+				b_komorit = {
+				}
+			}
+		}
+		
+		d_zutvonal = {
+			color = { 80 81 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1269 #Rosszutvonal
+			
+			c_ironhide = {
+				color = { 78 84 91 }
+				color2 = { 255 255 255 }
+				
+				b_enragg = {
+				}
+				b_kriken = {
+				}
+				b_noveria = {
+				}
+			}
+			
+			c_chade = {
+				color = { 131 96 159 }
+				color2 = { 255 255 255 }
+				
+				b_chade = {
+				}
+				b_hamu_hulladek = {
+				}
+				b_vladistbek = {
+				}
+			}			
+		}
+	}
+	
+	k_vorag = {
+		color = { 125 184 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 504 #Vorag
+
+
+	
+		d_vorag = {
+			color = { 120 181 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 504 #Vorag
+
+			c_ghulakth = {
+				color = { 122 160 130 }
+				color2 = { 255 255 255 }
+				
+				b_ghulakth = {
+				}
+				b_charrin = {
+				}
+			}
+				
+			c_ankarath = {
+				color = { 162 220 150 }
+				color2 = { 255 255 255 }
+				
+				b_ankarath = {
+				}
+				b_broken_spine = {
+				}
+				b_gnobhill = {
+				}
+			}
+	
+			c_vorag = {
+				color = { 132 176 103 }
+				color2 = { 255 255 255 }
+				
+				b_fortress_of_vorag = {
+					holy_site = vampiric
+				}
+				b_taldalom = {
+				}
+				b_ekrazer = {
+				}
+				b_drimgol_bargor = {
+				}
+				b_yanimar = {
+				}
+			}
+			
+			c_anat = {
+				color = { 109 150 124 }
+				color2 = { 255 255 255 }
+				
+				b_anat = {
+				}
+				b_ummar = {
+				}
+			}
+
+			c_tibiria = {
+				color = { 153 198 142 }
+				color2 = { 255 255 255 }
+				
+				b_tibiria = {
+				}
+				b_harrah = {
+				}
+				b_esgalia = {
+				}
+			}
+		}	
+		
+		d_blackwater = {
+			color = { 120 151 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 458 #Lantai
+			
+			c_lantai = {
+				color = { 109 140 100 }
+				color2 = { 255 255 255 }
+				
+				b_lantai = {
+				}
+				b_mezdaport = {
+				}
+				b_acrebad = {
+				}
+			}
+			
+			c_sovia = {
+				color = { 130 150 120 }
+				color2 = { 255 255 255 }
+				
+				b_sovia = {
+				}
+				b_persis = {
+				}
+				b_bhataport = {
+				}
+			}
+		}	
+	
+		d_skald = {
+			color = { 100 181 140 }
+			color2 = { 255 255 255 }
+			
+			capital = 1274 #Pigbarter
+						
+			c_pigbarter = {
+				color = { 109 140 120 }
+				color2 = { 255 255 255 }
+
+				dwarven_main = "Urogash"
+				dwarf_norse = "Urogash"
+				dwarven_chaos = "Urogash"	
+				
+				b_pigbarter = {
+					dwarven_main = "Urogash"
+					dwarf_norse = "Urogash"
+					dwarven_chaos = "Urogash"
+				
+				}
+				b_runtspike = {
+				}
+				b_ogrik = {
+				}
+				b_harad = {
+				}
+				b_eksfoldom = {
+				}
+			}
+						
+			c_ashenmount = {
+				color = { 120 170 140 }
+				color2 = { 255 255 255 }
+				
+				b_ashenmount = {
+				}
+				b_glimmer_rift = {
+				}
+			}
+						
+			c_kurshu = {
+				color = { 140 150 110 }
+				color2 = { 255 255 255 }
+				
+				b_kurshu = {
+				}
+				b_skullport = {
+				}
+				b_rosszutvonal = {
+				}
+			}
+		}	
+	}
+	
+	k_ashenfels = {
+		color = { 155 184 197 }
+		color2 = { 255 255 255 }
+	
+		capital = 1252 #Targhizizi
+
+
+	
+		d_zharrud = {
+			color = { 100 151 120 }
+			color2 = { 255 255 255 }
+			
+			capital = 1252 #Targhizizi
+
+			c_darkhold = {
+				color = { 120 159 150 }
+				color2 = { 255 255 255 }
+				
+				b_darkhold = {
+				}
+				b_dooma = {
+				}
+				b_darium = {
+				}
+				b_arrechi = {
+				}
+			}
+			
+			c_tharumagi = {
+				color = { 99 109 90 }
+				color2 = { 255 255 255 }
+				
+				b_thaumagar = {
+				}
+				b_ashenvold = {
+				}
+				b_norgen = {
+				}
+				b_nuskuru = {
+				}
+			}
+			
+			c_targhizizi = {
+				color = { 109 120 78 }
+				color2 = { 255 255 255 }
+				
+				b_targhizizi = {
+				}
+				b_eriduun = {
+				}
+				b_nazgarl = {
+				}
+				b_qindiker = {
+				}
+				b_duranki = {
+				}
+			}
+		}
+		
+		d_karish = {
+			color = { 100 151 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 1259 #Carchemish
+						
+			c_chalde = {
+				color = { 134 158 100 }
+				color2 = { 255 255 255 }
+				
+				b_chalde = {
+				}
+				b_sipraa = {
+				}
+			}
+			
+			c_adad_nirari = {
+				color = { 90 139 110 }
+				color2 = { 255 255 255 }
+				
+				b_nirari = {
+				}
+				b_underholm = {
+				}
+			}
+			
+			c_eana = {
+				color = { 142 200 100 }
+				color2 = { 255 255 255 }
+				
+				b_eana = {
+				}
+				b_ashen_crag = {
+				}
+			}
+			
+			c_carchemish = {
+				color = { 140 167 131 }
+				color2 = { 255 255 255 }
+				
+				b_carchemish = {
+				}
+				b_vrilig = {
+				}
+				b_rhund = {
+				}
+			}
+			
+			c_arum = {
+				color = { 150 121 105 }
+				color2 = { 255 255 255 }
+				
+				b_arum = {
+				}
+			}			
+		}	
+	}		
+
+
+	k_nagashizzar = {
+		color = { 215 214 200 }
+		color2 = { 255 255 255 }
+	
+		capital = 1253 #Gorgoth
+
+
+
+		d_nagash = {
+			color = { 190 191 160 }
+			color2 = { 255 255 255 }
+			
+			capital = 471 #Cripple Peak
+			
+			c_cripple_peak = {
+				color = { 190 180 120 }
+				color2 = { 255 255 255 }
+				
+				b_nagashizzar = {
+					holy_site = vampiric
+				}
+				b_vernum = {
+				}
+				b_kerak = {
+				}
+				b_underspire = {
+				}
+				b_narvin = {
+				}
+				b_nagasharak = {
+				}
+				b_tioran = {
+				}
+			}
+			
+			c_nagash = {
+				color = { 192 194 180 }
+				color2 = { 255 255 255 }
+				
+				b_dominark = {
+				}
+				b_dagan = {
+				}
+				b_lunra = {
+				}
+			}
+			
+			c_dazak = {
+				color = { 220 205 171 }
+				color2 = { 255 255 255 }
+				
+				b_dazak = {
+				}
+				b_kurn = {
+				}
+				b_clavid = {
+				}
+				b_tigos = {
+				}
+			}
+			
+			c_larza = {
+				color = { 210 209 172 }
+				color2 = { 255 255 255 }
+				
+				b_larza = {
+				}
+				b_gazur = {
+				}
+			}
+		}	
+	}
+	
+	
+e_araby = {
+	color = { 254 231 52 }
+	color2 = { 255 255 255 }
+	
+	capital = 1052 #Istrabul
+
+	k_ramacca = {
+		color = { 235 254 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 1052 #Istrabul
+
+
+
+		d_akara = {
+			color = { 180 190 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 1040 #Kamt
+			
+			c_kamt = {
+				color = { 207 170 13 }
+				color2 = { 255 255 255 }
+				
+				b_kamt = {
+				}
+				b_zuwarah = {
+				}
+				b_badu = {
+				}
+				b_kunkat = {
+				}
+			}			
+
+			c_maharek = {
+				color = { 157 150 23 }
+				color2 = { 255 255 255 }
+				
+				b_maharek = {
+				}
+				b_al_karbal = {
+				}
+				b_adhal = {
+				}
+				b_naquad = {
+				}
+				b_hadame = {
+				}
+			}
+			
+			c_surah = {
+				color = { 237 210 21 }
+				color2 = { 255 255 255 }
+				
+				b_surah = {
+				}
+				b_nimir = {
+				}
+				b_salum = {
+				}
+			}		
+		}	
+			
+		d_yarrat = {
+			color = { 255 250 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1050 #Ubadir
+			
+			c_bel_aliad = {
+				color = { 180 190 15 }
+				color2 = { 255 255 255 }
+				
+				b_bel_aliad = {
+				}
+				b_akhetan = {
+				}
+				b_ahmose = {
+				}
+			}
+			
+			c_zaghon = {
+				color = { 127 110 2 }
+				color2 = { 255 255 255 }
+				
+				b_zaghon = {
+				}
+				b_settif = {
+				}
+				b_abu_sidrah = {
+				}
+			}			
+
+			c_ubadir = {
+				color = { 157 130 13 }
+				color2 = { 255 255 255 }
+				
+				b_ubadir = {
+				}
+				b_abu_hamed = {
+				}
+			}		
+		}	
+			
+		d_istrabul = {
+			color = { 205 190 30 }
+			color2 = { 255 255 255 }
+			
+			capital = 1052 #Istrabul	
+			
+			c_tarq_al_masr = {
+				color = { 227 210 13 }
+				color2 = { 255 255 255 }
+				
+				b_ereshk = {
+				}
+				b_shimarq = {
+				}
+				b_darmiq = {
+				}
+				b_shanaan = {
+				}
+			}
+
+			c_istrabul = {
+				color = { 227 210 53 }
+				color2 = { 255 255 255 }
+				
+				b_istrabul = {
+					holy_site = ormazd
+					holy_site = atruhayid
+					holy_site = myrmidian
+				}
+				b_zarast = {
+				}
+				b_hawa = {
+				}
+				b_utaq = {
+				}
+				b_mazab = {
+				}
+				b_rasyut = {
+				}
+				b_slema = {
+				}
+			}
+		}
+
+		d_ras_karim = {
+			color = { 167 187 34 }
+			color2 = { 255 255 255 }
+			
+			capital = 986 #Ras Karim
+			
+			c_ras_karim = {
+				color = { 155 175 39 }
+				color2 = { 255 255 255 }
+				
+				b_ras_karim = {
+				}
+				b_al_jijel = {
+				}
+				b_el_tebess = {
+				}
+				b_macasar = {
+				}
+				b_nedroma = {
+				}
+			}			
+			
+			c_argigil = {
+				color = { 147 180 5 }
+				color2 = { 255 255 255 }
+				
+				b_argigil = {
+				}
+				b_alil = {
+				}
+				b_sakina = {
+				}
+				b_al_qalat = {
+				}
+			}
+		}
+		
+		d_mahabbah = {
+			color = { 175 200 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1023 #El Mansurah
+			
+			c_el_mansurah = {
+				color = { 157 170 23 }
+				color2 = { 255 255 255 }
+				
+				b_el_mansurah = {
+				}
+				b_shayah = {
+				}
+				b_fashir = {
+				}
+			}
+						
+			c_duq = {
+				color = { 167 160 15 }
+				color2 = { 255 255 255 }
+				
+				b_jawaffa = {
+				}
+				b_roq = {
+				}
+				b_arrasfez = {
+				}
+				b_ghat = {
+				}
+			}
+
+			c_melrihir = {
+				color = { 187 240 13 }
+				color2 = { 255 255 255 }
+				
+				b_melrihir = {
+				}
+				b_kahk = {
+				}
+				b_mahab = {
+				}
+			}
+		}
+	}
+
+	k_alhaka = {
+		color = { 50 154 57 }
+		color2 = { 255 255 255 }
+	
+		capital = 1038 #Al-Haikk
+
+
+		
+		d_martek = {
+			color = { 75 250 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1037 #Martek
+			
+			c_martek = {
+				color = { 78 203 78 }
+				color2 = { 255 255 255 }
+				
+				b_martek = {
+					holy_site = ormazd
+				}
+				b_ashdod = {
+				}
+				b_houmstuk = {
+				}
+				b_gantraq = {
+				}
+			}
+						
+			c_burnush = {
+				color = { 100 230 89 }
+				color2 = { 255 255 255 }
+				
+				b_afyal = {
+				}
+				b_mazdah = {
+				}
+				b_dajabra = {
+				}
+			}
+		}
+		
+		d_alhaka = {
+			color = { 35 170 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 1038 #Al-Haikk
+			
+			c_lyiar = {
+				color = { 21 189 50 }
+				color2 = { 255 255 255 }
+				
+				b_lyiar = {
+				}
+				b_rowash = {
+				}
+				b_sinyan = {
+				}
+				b_nalat = {
+				}
+			}
+			
+			c_baskra = {
+				color = { 94 169 67 }
+				color2 = { 255 255 255 }
+				
+				b_baskra = {
+				}
+				b_al_husit = {
+				}
+				b_massid = {
+				}
+				b_zawag = {
+				}
+			}
+
+			c_al_haikk = {
+				color = { 15 203 71 }
+				color2 = { 255 255 255 }
+				
+				b_al_haikk = {
+					holy_site = atruhayid
+				}
+				b_wadi_al_hikar = {
+				}
+				b_bashab = {
+				}
+				b_duranq = {
+				}
+				b_ziwarl = {
+				}
+				b_batan = {
+				}
+				b_hakan = {
+				}
+			}
+		}
+		
+		d_corsair_strand = {
+			color = { 150 250 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 1017 #Suqutra
+					
+			c_suqutra = {
+				color = { 155 203 67 }
+				color2 = { 255 255 255 }
+				
+				b_suqutra = {
+				}
+				b_nimashq = {
+				}
+				b_al_alamin = {
+				}
+				b_elboun = {
+				}
+			}
+								
+			c_tripolana = {
+				color = { 131 241 87 }
+				color2 = { 255 255 255 }
+				
+				b_al_habaiq = {
+				}
+				b_lahib = {
+				}
+				b_abdanna = {
+				}
+			}
+			
+			c_fyrus = {
+				color = { 141 199 67 }
+				color2 = { 255 255 255 }
+				
+				b_origo = {
+				}
+				b_al_akland = {
+				}
+			}
+		}
+		
+		d_copher = {
+			color = { 120 250 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1036 #Copher
+
+			c_copher = {
+				color = { 134 230 166 }
+				color2 = { 255 255 255 }
+				
+				b_copher = {
+				}
+				b_gizra = {
+				}
+				b_tur = {
+				}
+				b_matrah = {
+				}
+				b_helwan = {
+				}
+				b_marbout = {
+				}
+			}
+			
+			c_brasna = {
+				color = { 151 244 151 }
+				color2 = { 255 255 255 }
+				
+				b_hafaya = {
+				}
+				b_dahar = {
+				}
+				b_abaraqa = {
+				}
+			}
+			
+			c_lashiek = {
+				color = { 122 203 167 }
+				color2 = { 255 255 255 }
+				
+				b_lashiek = {
+				}
+				b_sunn = {
+				}
+				b_faraman = {
+				}
+				b_eltarf = {
+				}
+			}
+			
+			c_skikada = {
+				color = { 156 251 163 }
+				color2 = { 255 255 255 }
+				
+				b_skikada = {
+				}
+				b_tipas = {
+				}
+			}			
+		}
+	}
+
+	k_kufra = {
+		color = { 200 110 10 }
+		color2 = { 255 255 255 }
+	
+		capital = 1035 #Kufra
+
+
+		
+		d_ghafsa = {
+			color = { 195 140 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1027 #Ghafsa
+			
+			c_hadjout = {
+				color = { 189 130 41 }
+				color2 = { 255 255 255 }
+				
+				b_hadjout = {
+				}
+				b_tujul = {
+				}
+				b_dawodiya = {
+				}
+				b_abuzaq = {
+				}
+			}	
+						
+			c_tarasselmen = {
+				color = { 199 141 65 }
+				color2 = { 255 255 255 }
+				
+				b_tarasselmen = {
+				}
+				b_mina = {
+				}
+				b_wadi_shabbib = {
+				}
+			}	
+			
+			c_al_qehm = {
+				color = { 204 166 54 }
+				color2 = { 255 255 255 }
+				
+				b_al_qehm = {
+				}
+				b_rofra = {
+				}
+				b_kaj = {
+				}
+			}
+			
+			c_ghafsa = {
+				color = { 165 130 13 }
+				color2 = { 255 255 255 }
+				
+				b_ghafsa = {
+				}
+				b_firuzk = {
+				}
+				b_mashoor = {
+				}
+				b_wadi_zahk = {
+				}
+				b_urim = {
+				}
+			}
+			
+			c_hadmaut_islands = {
+				color = { 179 120 56 }
+				color2 = { 255 255 255 }
+				
+				b_al_suri = {
+				}
+				b_al_anf = {
+				}
+				b_nusaybin = {
+				}
+			}
+		}
+		
+		d_kufra = {
+			color = { 195 150 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1035 #Kufra
+			
+			c_kufra = {
+				color = { 200 145 100 }
+				color2 = { 255 255 255 }
+				
+				b_kufra = {
+				}
+				b_kuzurif = {
+				}
+				b_tirmiz = {
+				}
+				b_chah = {
+				}
+				b_salat = {
+				}
+				b_charah_tagh = {
+				}
+				b_el_tukkot = {
+				}
+			}	
+			
+			c_akka = {
+				color = { 171 128 87 }
+				color2 = { 255 255 255 }
+				
+				b_akka = {
+				}
+				b_taqtaqan = {
+				}
+				b_haroz = {
+				}
+				b_halil = {
+				}
+			}
+			
+			c_jebel_ezna = {
+				color = { 177 109 77 }
+				color2 = { 255 255 255 }
+				
+				b_jebel_ezna = {
+				}
+				b_sari = {
+				}
+				b_tehrn = {
+				}
+				b_glak = {
+				}
+			}
+		}
+	}
+
+	k_maghashar = {
+		color = { 166 89 79 }
+		color2 = { 255 255 255 }
+	
+		capital = 1046 #Tambukta
+
+
+				
+		d_tambukta = {
+			color = { 205 110 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 1046 #Tambukta
+			
+			c_rafhiya = {
+				color = { 153 106 100 }
+				color2 = { 255 255 255 }
+				
+				b_rafhiya = {
+				}
+				b_zanjan = {
+				}
+			}
+			
+			c_tambukta = {
+				color = { 191 110 78 }
+				color2 = { 255 255 255 }
+				
+				b_tambukta = {
+				}
+				b_wadi_tambukta = {
+				}
+				b_bakhadid = {
+				}
+			}
+			
+			c_jaluk = {
+				color = { 164 71 121 }
+				color2 = { 255 255 255 }
+				
+				b_jaluk = {
+				}
+				b_ikala = {
+				}
+			}
+						
+			c_tubah = {
+				color = { 158 76 100 }
+				color2 = { 255 255 255 }
+				
+				b_tubah = {
+				}
+			}
+			
+			c_gardha = {
+				color = { 160 98 132 }
+				color2 = { 255 255 255 }
+				
+				b_air = {
+				}
+				b_noukacha = {
+				}
+			}			
+		}
+
+
+		d_al_sahra = {
+			color = { 158 101 69 }
+			color2 = { 255 255 255 }
+			
+			capital = 989 #El-Fasan
+			
+			c_el_fasan = {
+				color = { 125 85 76 }
+				color2 = { 255 255 255 }
+				
+				b_el_fasan = {
+				}
+				b_sale = {
+				}
+			}
+			
+			c_kous = {
+				color = { 169 134 98 }
+				color2 = { 255 255 255 }
+				
+				b_al_sahra = {
+				}
+			}			
+
+			c_asif = {
+				color = { 155 130 19 }
+				color2 = { 255 255 255 }
+				
+				b_asif = {
+				}
+				b_al_benal = {
+				}
+			}	
+						
+			c_nabat = {
+				color = { 152 125 66 }
+				color2 = { 255 255 255 }
+				
+				b_nabat = {
+				}
+			}			
+		}
+		
+		d_nejaz = {
+			color = { 175 50 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 1034 #Nejaz
+
+			c_al_birkah = {
+				color = { 171 76 55 }
+				color2 = { 255 255 255 }
+				
+				b_al_birkah = {
+				}
+				b_dhu_zabi = {
+				}
+				b_gila = {
+				}
+			}
+			
+			c_nejaz = {
+				color = { 189 85 45 }
+				color2 = { 255 255 255 }
+				
+				b_nejaz = {
+				}
+				b_al_tamir = {
+				}
+				b_murraq = {
+				}
+				b_nuweiba = {
+				}
+			}
+		}
+	}
+	
+
+	k_sud = {
+		color = { 174 161 104 }
+		color2 = { 255 255 255 }
+	
+		capital = 1026 #Sud
+
+
+		
+		d_debeqra = {
+			color = { 175 150 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1029 #Debeqra
+			
+			c_dseria = {
+				color = { 220 167 138 }
+				color2 = { 255 255 255 }
+				
+				b_salah = {
+				}
+				b_kasal = {
+				}
+				b_ozro = {
+				}
+				b_atlasi = {
+				}
+			}	
+			
+			c_debeqra = {
+				color = { 189 155 101 }
+				color2 = { 255 255 255 }
+				
+				b_debeqra = {
+				}
+				b_al_mahabas = {
+				}
+				b_cebetra = {
+				}
+			}
+			
+			c_tamadjert = {
+				color = { 178 161 130 }
+				color2 = { 255 255 255 }
+				
+				b_tamadjert = {
+				}
+				b_mazarib = {
+				}
+				b_akachera = {
+				}
+			}				
+		}
+		
+		d_sud = {
+			color = { 145 150 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1026 #Sud
+			
+			c_sud = {
+				color = { 141 139 101 }
+				color2 = { 255 255 255 }
+				
+				b_sud = {
+				}
+				b_khessaran = {
+				}
+				b_bekk = {
+				}
+				b_quum = {
+				}
+			}	
+			
+			c_songhai = {
+				color = { 171 149 81 }
+				color2 = { 255 255 255 }
+				
+				b_songhai = {
+				}
+				b_tisira = {
+				}
+				b_al_batin = {
+				}
+			}
+		}
+	}
+
+	k_medes = {
+		color = { 130 164 197 }
+		color2 = { 255 255 255 }
+	
+		capital = 1032 #Al-Anaim
+
+
+		
+		d_al_anaim = {
+			color = { 56 189 199 }
+			color2 = { 255 255 255 }
+			
+			capital = 1032 #Al-Anaim
+			
+			c_naqab = {
+				color = { 78 166 203 }
+				color2 = { 255 255 255 }
+				
+				b_naqab = {
+				}
+				b_badraun = {
+				}
+				b_midar = {
+				}
+				b_tellah = {
+				}
+			}
+					
+			c_al_anaim = {
+				color = { 118 144 178 }
+				color2 = { 255 255 255 }
+				
+				b_al_anaim = {
+				}
+				b_adhallal = {
+				}
+				b_tirat = {
+				}
+				b_codobra = {
+				}
+				b_zazarate = {
+				}
+			}
+			
+			c_marib = {
+				color = { 56 130 178 }
+				color2 = { 255 255 255 }
+				
+				b_muluk = {
+				}
+				b_saliam = {
+				}
+				b_alhociam = {
+				}
+				b_alq = {
+				}
+			}					
+		}
+		
+		d_marrakash = {
+			color = { 135 200 250 }
+			color2 = { 255 255 255 }
+			
+			capital = 1031 #Lugash
+
+			c_qunfuda = {
+				color = { 130 210 240 }
+				color2 = { 255 255 255 }
+				
+				b_qunfuda = {
+				}
+				b_assini = {
+				}
+				b_amarot = {
+				}
+			}
+			
+			c_lugash = {
+				color = { 131 160 235 }
+				color2 = { 255 255 255 }
+				
+				b_lugash = {
+				}
+				b_elanakir = {
+				}
+				b_xaun = {
+				}
+				b_bismiya = {
+				}
+			}
+		}
+		
+		d_sarif = {
+			color = { 95 150 250 }
+			color2 = { 255 255 255 }
+			
+			capital = 1019 #El-Kalabad
+
+			c_mezdah = {
+				color = { 100 166 198 }
+				color2 = { 255 255 255 }
+				
+				b_mezdah = {
+				}
+				b_tantan = {
+				}
+			}
+			
+			c_el_kalabad = {
+				color = { 111 158 200 }
+				color2 = { 255 255 255 }
+				
+				b_el_kalabad = {
+				}
+				b_al_nif = {
+				}
+				b_el_nankir = {
+				}
+				b_busselman = {
+				}
+				b_tamdul = {
+				}
+				b_jaraah = {
+				}
+			}
+			
+			c_alkaro = {
+				color = { 156 132 217 }
+				color2 = { 255 255 255 }
+				
+				b_alkaro = {
+				}
+				b_taiz = {
+				}
+				b_quro = {
+				}
+			}
+		}
+		
+		d_petrum = {
+			color = { 123 195 220 }
+			color2 = { 255 255 255 }
+			
+			capital = 1030 #Petrum
+
+			c_petrum = {
+				color = { 101 161 203 }
+				color2 = { 255 255 255 }
+				
+				b_petrum = {
+				}
+				b_saladan = {
+				}
+				b_rahha = {
+				}
+			}
+			
+			c_khariq = {
+				color = { 160 177 230 }
+				color2 = { 255 255 255 }
+				
+				b_khariq = {
+				}
+				b_chibrika = {
+				}
+				b_mejedera = {
+				}
+			}
+		}
+		
+		d_zarm = {
+			color = { 101 150 197 }
+			color2 = { 255 255 255 }
+			
+			capital = 1007 #Haifra
+			
+			c_zoan = {
+				color = { 77 140 171 }
+				color2 = { 255 255 255 }
+				
+				b_zoan = {
+				}
+				b_aruk = {
+				}
+				b_tharasset = {
+				}
+				b_magriab = {
+				}
+			}	
+			
+			c_firafez = {
+				color = { 99 145 141 }
+				color2 = { 255 255 255 }
+				
+				b_firafez = {
+				}
+				b_wadi_agad = {
+				}
+			}	
+			
+			c_haifra = {
+				color = { 101 165 171 }
+				color2 = { 255 255 255 }
+				
+				b_haifra = {
+				}
+				b_wadi_haifra = {
+				}
+				b_cassadan = {
+				}
+				b_dhiqa = {
+				}
+			}	
+		}
+	}
+	
+
+	k_durbaita = {
+		color = { 10 194 87 }
+		color2 = { 255 255 255 }
+	
+		capital = 1061 #Olohrad
+
+
+		
+		d_lakuga = {
+			color = { 29 200 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1020 #Oldrag
+
+			c_oldrag = {
+				color = { 40 178 100 }
+				color2 = { 255 255 255 }
+				
+				b_oldrag = {
+				}
+				b_zogoro = {
+				}
+				b_dajane = {
+				}
+				b_guro = {
+				}
+			}
+						
+			c_nawal = {
+				color = { 81 167 120 }
+				color2 = { 255 255 255 }
+				
+				b_nawal = {
+				}
+				b_kadil = {
+				}
+			}
+			
+			c_lakuga = {
+				color = { 51 156 121 }
+				color2 = { 255 255 255 }
+				
+				b_khoub = {
+				}
+				b_aodagas = {
+				}
+			}				
+		}
+		
+		d_olohrad = {
+			color = { 55 190 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 1061 #Olohrad
+			
+			c_olohrad = {
+				color = { 14 167 89 }
+				color2 = { 255 255 255 }
+				
+				b_olohrad = {
+				}
+				b_kankoss = {
+				}
+				b_agadea = {
+				}
+				b_bambarak = {
+				}
+				b_hond = {
+				}
+				b_burak = {
+				}
+			}	
+			
+			c_mombawsa = {
+				color = { 41 151 78 }
+				color2 = { 255 255 255 }
+				
+				b_mombawsa = {
+				}
+				b_new_mombawsa = {
+				}
+				b_essako = {
+				}
+				b_mallama = {
+				}
+			}
+		}
+		
+		d_kwitanga = {
+			color = { 35 220 120 }
+			color2 = { 255 255 255 }
+			
+			capital = 1018 #Sudrat
+						
+			c_kwitanga = {
+				color = { 61 201 130 }
+				color2 = { 255 255 255 }
+				
+				b_al_tir = {
+				}
+				b_kug = {
+				}
+				b_hanasing = {
+				}
+			}
+			
+			c_musah = {
+				color = { 33 230 176 }
+				color2 = { 255 255 255 }
+				
+				b_medhal = {
+				}
+				b_buran = {
+				}
+				b_tuot = {
+				}
+			}
+			
+			c_sudrat = {
+				color = { 45 198 151 }
+				color2 = { 255 255 255 }
+				
+				b_sudrat = {
+				}
+				b_tichi = {
+				}
+				b_rasama = {
+				}
+			}
+		}
+		
+		d_sarmah = {
+			color = { 55 200 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1045 #Samur
+			
+			c_symarra = {
+				color = { 68 203 30 }
+				color2 = { 255 255 255 }
+				
+				b_symarra = {
+				}
+				b_nirana = {
+				}
+				b_boram = {
+				}
+			}	
+			
+			c_samur = {
+				color = { 45 178 40 }
+				color2 = { 255 255 255 }
+				
+				b_samur = {
+				}
+				b_al_jawarah = {
+				}
+			}
+			
+			c_agade = {
+				color = { 20 210 56 }
+				color2 = { 255 255 255 }
+				
+				b_agade = {
+				}
+				b_kaarbu = {
+				}
+				b_jukun = {
+				}
+				b_mane = {
+				}
+			}
+			
+			c_moahin = {
+				color = { 43 178 78 }
+				color2 = { 255 255 255 }
+				
+				b_moahin = {
+				}
+				b_ghab = {
+				}
+				b_anachwad = {
+				}
+			}
+		}
+	}	
+}
+
+			
+e_nehekhara = {
+	color = { 178 121 82 }
+	color2 = { 255 255 255 }
+	
+	capital = 1121 #Khemri
+
+	k_khemri = {
+		color = { 235 184 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 1121 #Khemri
+
+
+
+		d_assyr = {
+			color = { 150 121 87 }
+			color2 = { 255 255 255 }
+			
+			capital = 1165 #Aram
+			
+			c_aram = {
+				color = { 145 115 90 }
+				color2 = { 255 255 255 }
+				
+				b_aram = {
+				}
+				b_pilseresh = {
+				}
+				b_sharam = {
+				}
+			}
+			
+			c_athar = {
+				color = { 167 133 122 }
+				color2 = { 255 255 255 }
+				
+				b_athar = {
+				}
+				b_erib = {
+				}
+			}
+			
+			c_sarru = {
+				color = { 155 101 100 }
+				color2 = { 255 255 255 }
+				
+				b_tigilath = {
+				}
+			}
+		}
+
+		d_khemri = {
+			color = { 235 140 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1121 #Khemri
+
+			c_luxor = {
+				color = { 210 150 100 }
+				color2 = { 255 255 255 }
+				
+				b_luxor = {
+				}
+				b_kem_war = {
+				}
+				b_koptos = {
+				}
+				b_sehel = {
+				}
+			}
+			
+			c_haraw = {
+				color = { 179 110 40 }
+				color2 = { 255 255 255 }
+				
+				b_haraw = {
+				}
+				b_taffar = {
+				}
+				b_serap = {
+				}
+				b_khamun = {
+				}
+			}
+						
+			c_nout = {
+				color = { 150 120 75 }
+				color2 = { 255 255 255 }
+				
+				b_nout = {
+				}
+				b_khargia = {
+				}
+				b_wenes = {
+				}
+				b_wakhaf = {
+				}
+			}
+						
+			c_khemri = {
+				color = { 220 178 178 }
+				color2 = { 255 255 255 }
+				
+				b_khemri = {
+					holy_site = nehekharan_gods
+				}
+				b_mene = {
+				}
+				b_settrana = {
+				}
+				b_khora_gebel = {
+				}
+				b_siptah = {
+				}
+				b_henes = {
+				}
+				b_yam_gebel = {
+				}
+			}		
+		}
+
+		d_nasamon = {
+			color = { 167 67 61 }
+			color2 = { 255 255 255 }
+			
+			capital = 1147 #Hathra
+
+			c_shurak = {
+				color = { 189 67 45 }
+				color2 = { 255 255 255 }
+				
+				b_shurak = {
+				}
+				b_piy = {
+				}
+				b_esna = {
+				}
+			}	
+									
+			c_hathra = {
+				color = { 178 100 89 }
+				color2 = { 255 255 255 }
+				
+				b_hathra = {
+				}
+				b_sebak = {
+				}
+				b_tuth = {
+				}
+			}
+		}
+	}
+		
+	k_zandri = {
+		color = { 230 197 113 }
+		color2 = { 255 255 255 }
+	
+		capital = 1156 #Zandri
+
+
+
+		d_zandri = {
+			color = { 215 190 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1156 #Zandri
+
+			c_zandri = {
+				color = { 250 150 113 }
+				color2 = { 255 255 255 }
+				
+				b_zandri = {
+				}
+				b_ahtaf_zandri = {
+				}
+				b_yaa = {
+					holy_site = nehekharan_gods
+				}
+				b_barat = {
+				}
+				b_khemnu = {
+				}
+				b_habu = {
+				}
+			}
+			
+			c_siabel = {
+				color = { 230 191 90 }
+				color2 = { 255 255 255 }
+				
+				b_siabel = {
+				}
+				b_haroer = {
+				}
+				b_dardarun = {
+				}
+			}
+			
+			c_arbsu = {
+				color = { 199 156 78 }
+				color2 = { 255 255 255 }
+				
+				b_arbsu = {
+				}
+				b_medi_madi = {
+				}
+				b_idfo = {
+				}
+				b_tetri = {
+				}
+			}
+			
+			c_itj_tawy = {
+				color = { 178 147 110 }
+				color2 = { 255 255 255 }
+				
+				b_itj_tawy = {
+				}
+				b_weryt = {
+				}
+				b_mitani = {
+				}
+			}
+		}	
+
+		d_kyrene = {
+			color = { 190 150 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1119 #Arkhan
+			
+			c_ahtaf = {
+				color = { 189 178 78 }
+				color2 = { 255 255 255 }
+				
+				b_ahtaf = {
+				}
+				b_uruk = {
+				}
+				b_edfu = {
+				}
+				b_tuna_gebel = {
+				}
+				b_gebel_silisil = {
+				}
+			}	
+			
+			c_arkhan = {
+				color = { 167 120 98 }
+				color2 = { 255 255 255 }
+				
+				b_arkhan = {
+				}
+				b_quesir = {
+				}
+				b_hnese = {
+				}
+			}
+			
+			c_firez = {
+				color = { 203 178 100 }
+				color2 = { 255 255 255 }
+				
+				b_firez = {
+				}
+				b_berenike = {
+				}
+				b_panhesey = {
+				}
+				b_komombo = {
+				}
+			}
+		}
+	}
+
+	k_ka_sabar = {
+		color = { 100 167 43 }
+		color2 = { 255 255 255 }
+	
+		capital = 1132 #Ka-Sabar
+
+
+
+		d_ka_sabar = {
+			color = { 115 170 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1132 #Ka-Sabar
+			
+			c_ka_sabar = {
+				color = { 156 140 40  }
+				color2 = { 255 255 255 }
+				
+				b_ka_sabar = {
+				}
+				b_maaty = {
+				}
+				b_bakhtaan = {
+				}
+				b_nocra = {
+				}
+			}	
+			
+			c_nejte = {
+				color = { 155 166 54 }
+				color2 = { 255 255 255 }
+				
+				b_berg_nejte = {
+				}
+				b_el_bahri = {
+				}
+				b_myr = {
+				}
+			}
+			
+			c_ashur = {
+				color = { 165 160 87 }
+				color2 = { 255 255 255 }
+				
+				b_ashur = {
+				}
+				b_kadish = {
+				}
+				b_caiaphur = {
+				}
+			}
+		}
+		
+		d_bhagar = {
+			color = { 145 190 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 1117 #Bhagar
+						
+			c_bhagar = {
+				color = { 120 173 30 }
+				color2 = { 255 255 255 }
+				
+				b_bhagar = {
+				}
+				b_tjebu = {
+				}
+				b_rosetau = {
+				}
+			}
+						
+			c_kakarat = {
+				color = { 116 167 55 }
+				color2 = { 255 255 255 }
+				
+				b_kakarat = {
+				}
+				b_dhat_khal = {
+				}
+			}
+		}
+		
+		d_kermah = {
+			color = { 89 154 23 }
+			color2 = { 255 255 255 }
+			
+			capital = 1161 #Nuqus
+
+			c_nuqus = {
+				color = { 131 190 56 }
+				color2 = { 255 255 255 }
+				
+				b_garam = {
+				}
+			}
+			
+			c_erid = {
+				color = { 89 145 51 }
+				color2 = { 255 255 255 }
+				
+				b_erid = {
+				}
+				b_al_azd = {
+				}
+			}
+
+			c_daxa = {
+				color = { 119 151 54 }
+				color2 = { 255 255 255 }
+				
+				b_purun = {
+				}
+			}
+			
+			c_fezzir = {
+				color = { 143 174 23 }
+				color2 = { 255 255 255 }
+				
+				b_dilma = {
+				}
+				b_leuka = {
+				}
+			}
+
+		}
+	}
+		
+		
+	k_quatar = {
+		color = { 155 154 37 }
+		color2 = { 255 255 255 }
+	
+		capital = 1116 #Quatar
+
+		d_quatar = {
+			color = { 155 150 30 }
+			color2 = { 255 255 255 }
+			
+			capital = 1116 #Quatar
+			
+			c_quatar = {
+				color = { 87 81 40 }
+				color2 = { 255 255 255 }
+				
+				b_quatar = {
+				}
+				b_mau = {
+				}
+				b_wernese = {
+					holy_site = nehekharan_gods
+				}
+				b_hammanat = {
+				}
+				b_djed_snufu = {
+				}
+				b_malkaa = {
+				}
+			}
+			
+			c_mophi = {
+				color = { 110 98 41 }
+				color2 = { 255 255 255 }
+				
+				b_dakhla = {
+				}
+				b_buhen = {
+				}
+				b_abidys = {
+				}
+			}
+			
+			c_waast = {
+				color = { 150 120 77 }
+				color2 = { 255 255 255 }
+				
+				b_the_gate_of_eternity = {
+				}
+			}	
+			
+			c_snefru = {
+				color = { 111 101 30 }
+				color2 = { 255 255 255 }
+				
+				b_snefru = {
+				}
+			}
+		}
+		
+		d_ekke = {
+			color = { 105 100 20 }
+			color2 = { 255 255 255 }
+			
+			capital = 1149 #Saqqir
+			
+			
+			c_saqqir = {
+				color = { 99 67 22 }
+				color2 = { 255 255 255 }
+				
+				b_saqqir = {
+				}
+				b_uremet = {
+				}
+				b_debo = {
+				}
+				b_dajasa = {
+				}
+			}
+			
+			c_kahsh = {
+				color = { 140 120 76 }
+				color2 = { 255 255 255 }
+				
+				b_kahsh = {
+				}
+				b_nedjefet = {
+				}
+				b_bigrah = {
+				}
+			}
+			
+			c_medajy = {
+				color = { 120 153 30 }
+				color2 = { 255 255 255 }
+				
+				b_medajy = {
+				}
+				b_barkaly = {
+				}
+			}
+		}
+	}
+
+	k_numas = {
+		color = { 205 184 17 }
+		color2 = { 255 255 255 }
+	
+		capital = 1118 #Numas
+
+		d_numas = {
+			color = { 195 160 40 }
+			color2 = { 255 255 255 }
+			
+			capital = 1118 #Numas
+			
+			c_numas = {
+				color = { 176 120 32}
+				color2 = { 255 255 255 }
+				
+				b_numas = {
+				}
+				b_retenu = {
+				}
+				b_alkhazzar = {
+					holy_site = nehekharan_gods
+				}
+				b_hansu = {
+				}
+				b_natrun = {
+				}
+				b_moalla = {
+				}
+			}
+			
+			c_crophi = {
+				color = { 196 122 43 }
+				color2 = { 255 255 255 }
+				
+				b_saqqara = {
+				}
+				b_mersa = {
+				}
+				b_punti = {
+				}
+			}
+			
+			c_oxos = {
+				color = { 176 142 41 }
+				color2 = { 255 255 255 }
+				
+				b_oxos = {
+				}
+				b_sais = {
+				}
+				b_marea = {
+				}
+			}			
+		}
+		
+		d_akheten = {
+			color = { 155 110 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1134 #Admuat
+			
+			c_admuat = {
+				color = { 145 101 65 }
+				color2 = { 255 255 255 }
+				
+				b_admuat = {
+				}
+				b_bahariya = {
+				}
+				b_djosar = {
+				}
+				b_mero = {
+				}
+				b_lahkashaz = {
+				}
+			}
+			
+			c_peret = {
+				color = { 161 124 27 }
+				color2 = { 255 255 255 }
+				
+				b_peret = {
+				}
+				b_napata = {
+				}
+				b_nedyt = {
+				}
+			}
+		}
+	}	
+			
+	k_rasetra = {
+		color = { 185 104 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 1122 #Rasetra
+
+
+
+		d_rasetra = {
+			color = { 170 70 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1122 #Rasetra
+			
+			c_rasetra = {
+				color = { 167 87 67 }
+				color2 = { 255 255 255 }
+				
+				b_rasetra = {
+				}
+				b_rakhash = {
+				}
+				b_natras = {
+					holy_site = nehekharan_gods
+				}
+				b_per_fefi = {
+				}
+				b_djekar = {
+				}
+				b_dor = {
+				}
+			}		
+			
+			c_shomu = {
+				color = { 198 137 121 }
+				color2 = { 255 255 255 }
+				
+				b_shomu = {
+				}
+				b_medamud = {
+				}
+				b_pe_dep = {
+				}
+				b_medenit = {
+				}
+			}	
+			
+			c_pashon = {
+				color = { 156 100 89 }
+				color2 = { 255 255 255 }
+				
+				b_pashon = {
+				}
+				b_kahum = {
+				}
+				b_buto = {
+				}
+			}	
+		}
+
+		d_mahrak = {
+			color = { 220 110 140 }
+			color2 = { 255 255 255 }
+			
+			capital = 1123 #Mahrak
+			
+			c_mahrak = {
+				color = { 227 110 113 }
+				color2 = { 255 255 255 }
+				
+				b_mahrak = {
+				}
+				b_asyat = {
+				}
+				b_busuris = {
+				}
+				b_khor = {
+				}
+			}	
+			
+			c_ahbou = {
+				color = { 189 101 130 }
+				color2 = { 255 255 255 }
+				
+				b_ahbou = {
+				}
+				b_kal = {
+				}
+			}	
+			
+			c_utep = {
+				color = { 199 81 78 }
+				color2 = { 255 255 255 }
+				
+				b_utep = {
+				}
+				b_iougert = {
+				}
+				b_andjet = {
+				}
+				b_nakhada = {
+				}
+				b_bakhu = {
+				}
+			}	
+		}
+	}
+	
+	k_lybaras = {
+		color = { 105 104 107 }
+		color2 = { 255 255 255 }
+	
+		capital = 1126 #Lybaras
+
+
+
+		d_lybaras = {
+			color = { 100 110 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1126 #Lybaras
+			
+			c_lybaras = {
+				color = { 102 80 98 }
+				color2 = { 255 255 255 }
+				
+				b_lybaras = {
+				}
+				b_hykesos = {
+				}
+				b_ahkbit = {
+				}
+				b_taanach = {
+				}
+			}	
+			
+			c_akhet = {
+				color = { 113 102 110 }
+				color2 = { 255 255 255 }
+				
+				b_akhet = {
+				}
+				b_naucratis = {
+				}
+				b_nekheb = {
+				}
+			}	
+		}
+		
+		d_azarna = {
+			color = { 167 110 63 }
+			color2 = { 255 255 255 }
+			
+			capital = 1154 #Opone
+			
+			c_sarap = {
+				color = { 178 120 76 }
+				color2 = { 255 255 255 }
+				
+				b_sarapa = {
+				}
+				b_maphar = {
+				}
+			}
+			
+			c_mundus = {
+				color = { 190 112 67 }
+				color2 = { 255 255 255 }
+				
+				b_mundus = {
+				}
+				b_exitus = {
+				}
+			}
+			
+			c_opone = {
+				color = { 210 143 79 }
+				color2 = { 255 255 255 }
+				
+				b_atho = {
+				}
+				b_rhaphis = {
+				}
+				b_carnos = {
+				}
+			}
+			
+			c_pano = {
+				color = { 202 125 45 }
+				color2 = { 255 255 255 }
+				
+				b_pano = {
+				}
+				b_muz = {
+				}
+			}
+		}
+	}
+
+	k_lahmia = {
+		color = { 105 154 107 }
+		color2 = { 255 255 255 }
+	
+		capital = 1126 #Lybaras
+
+
+
+		d_lahmia = {
+			color = { 100 140 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 1127 #Lahmia
+			
+			c_lahmia = {
+				color = { 100 140 91 }
+				color2 = { 255 255 255 }
+				
+				b_lahmia = {
+				}
+				b_tutmos = {
+				}
+				b_kherara = {
+				}
+				b_tanis = {
+				}
+				b_aruna = {
+				}
+				b_rasut = {
+				}
+			}	
+			
+			c_mendes = {
+				color = { 80 145 60 }
+				color2 = { 255 255 255 }
+				
+				b_mendes = {
+				}
+				b_amphit = {
+				}
+			}	
+						
+			c_beremas = {
+				color = { 110 140 110 }
+				color2 = { 255 255 255 }
+				
+				b_beremas = {
+				}
+				b_biblos = {
+				}
+				b_djedus = {
+				}
+			}	
+			
+			c_kharpentharia = {
+				color = { 100 179 78 }
+				color2 = { 255 255 255 }
+				
+				b_kharpentharia = {
+				}
+				b_khufa = {
+				}
+				b_sakkarat = {
+				}
+				b_pharakh = {
+				}
+				b_khetep = {
+				}
+			}				
+
+			c_enavot = {
+				color = { 140 167 77 }
+				color2 = { 255 255 255 }
+				
+				b_kogi = {
+				}
+				b_naharin = {
+				}
+				b_sahure = {
+				}
+				b_akarun = {
+				}
+			}	
+		}
+	}
+}
+
 #TITULAR!
 
 ######Titular Realms
@@ -17494,14 +23741,15 @@ k_olohrad = {
 	color = { 129 180 131 }
 	color2 = { 255 255 255 }
 	
-	capital = 1635 #Olohrad
+	capital = 1061 #Olohrad
 }
 
 d_wasai = {
 	color = { 59 130 101 }
 	color2 = { 255 255 255 }
 	
-	capital = 1594 #Oldrag
+	capital = 1020 #Oldrag
+	tribe = yes
 }
 
 

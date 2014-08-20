@@ -8,13 +8,17 @@ max_settlements = 6
 b_quatar = castle
 b_mau = city
 b_wernese = temple
-b_hammanat = castle
-b_djed_snufu = city
-b_malkaa = temple
+#b_hammanat = castle
+#b_djed_snufu = city
+#b_malkaa = temple
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_hammanat = castle
+}

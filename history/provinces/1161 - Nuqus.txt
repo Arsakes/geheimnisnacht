@@ -8,7 +8,7 @@ max_settlements = 1
 b_garam = castle
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

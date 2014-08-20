@@ -7,7 +7,7 @@ title = c_khazgoruz
 max_settlements = 4
 b_khazgoruz = castle
 b_undi_khazarak = city
-b_barakabor = castle
+#b_barakabor = castle
 #b_azri_grint = temple
 
 # Misc
@@ -16,3 +16,7 @@ religion = greenskin_gods
 
 
 # History
+
+2250.1.1 = {
+	b_barakabor = castle
+}

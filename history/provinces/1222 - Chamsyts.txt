@@ -9,8 +9,8 @@ b_chamsyts = castle
 #b_retti = temple
 
 # Misc
-culture = kvellig
-religion = chaos
+culture = gharhar
+religion = khorne
 
 
 # History

@@ -1,5 +1,5 @@
 #514 Barataria
-#County Title
+
 title = c_barataria
 
 #Settlements
@@ -11,6 +11,6 @@ b_entrada = city
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History

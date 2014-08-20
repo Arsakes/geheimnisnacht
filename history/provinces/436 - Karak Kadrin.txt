@@ -20,3 +20,7 @@ terrain = mountain_pass
 
 
 # History
+
+2250.1.1 = {
+	b_jartum_aligol = city
+}

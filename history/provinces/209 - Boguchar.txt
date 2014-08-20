@@ -12,7 +12,11 @@ b_boguchar = castle
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_bor = city
+}

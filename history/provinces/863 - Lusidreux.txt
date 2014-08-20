@@ -4,15 +4,24 @@
 title = c_lusidreux
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_lusidreux = castle
-b_corvignan = city
-b_maux = castle
+#b_corvignan = temple
+#b_maux = castle
 #b_la_verenee = castle
+#b_chamonix = temple
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_corvignan = temple
+}
+
+2500.1.1 = {
+	b_maux = castle
+}

@@ -9,7 +9,7 @@ b_yueh_zu = castle
 #b_jelme = temple
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

@@ -9,7 +9,7 @@ b_aina = castle
 b_merqi = temple
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

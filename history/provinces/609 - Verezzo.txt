@@ -15,10 +15,17 @@ b_alitilea = temple
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 # History
 
-2390.5.25 = { capital = b_verezzo }
+2390.5.25 = { 
+	capital = b_verezzo 
+}
+
+2500.1.1 = {
+	b_gadiroldo = city
+}
+

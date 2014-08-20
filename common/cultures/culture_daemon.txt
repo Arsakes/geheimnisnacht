@@ -2,6 +2,25 @@
 daemonic_group = {
 	graphical_culture = westerngfx
 
+	daemon_chaos = {
+		graphical_culture = westerngfx
+
+		color = { 0.3 0.6 0.3 }
+
+		male_names = {
+			Urthok
+		}
+		
+		female_names = {
+			Urthok
+		}
+
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		modifier = default_culture_modifier
+	}
+	
 	daemon_khorne = {
 		graphical_culture = westerngfx
 

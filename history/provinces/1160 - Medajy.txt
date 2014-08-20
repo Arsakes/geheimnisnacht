@@ -9,7 +9,7 @@ b_medajy = castle
 b_barkaly = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

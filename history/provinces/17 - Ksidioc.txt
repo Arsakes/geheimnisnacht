@@ -9,8 +9,8 @@ b_ksidioc = castle
 #b_kilheim = city
 
 # Misc
-culture = skaeling
-religion = norse
+culture = bjornling
+religion = norscan_gods
 
 
 # History

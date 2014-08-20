@@ -11,7 +11,7 @@ b_poibrene = castle
 
 # Misc
 culture = hastling
-religion = chaos
+religion = nurgle
 
 
 # History

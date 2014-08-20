@@ -12,7 +12,11 @@ b_tulenstolt = temple
 
 # Misc
 culture = aesling
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2500.1.1 = {
+	b_holemenborg = castle
+}

@@ -1,37 +1,37 @@
 750000={
-name = "Erich"
-dynasty = 21064
-culture = ostermarker
-religion = taalite
-martial = 7
-diplomacy = 1
-stewardship = 0
-intrigue = 3
-learning = 9
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "intricate_webweaver"
-add_trait = "kind"
-add_trait = "craven"
+name="Erich"
+dynasty=21064
+culture=ostermarker
+religion=taalite
+martial=7
+diplomacy=1
+stewardship=0
+intrigue=3
+learning=9
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="intricate_webweaver"
+add_trait="kind"
+add_trait="craven"
 1962.7.30={birth=yes}
 2022.12.25={death=yes}
 }
 
 750001={
-name = "Suanhilda"
-female = yes
-dynasty = 21044
-culture = ostermarker
-religion = sigmarite
-martial = 8
-diplomacy = 5
-stewardship = 7
-intrigue = 6
-learning = 1
-add_trait = "hunter"
-add_trait = "brilliant_strategist"
-add_trait = "zealous"
-add_trait = "honest"
+name="Suanhilda"
+female=yes
+dynasty=21044
+culture=ostermarker
+religion=sigmarite
+martial=8
+diplomacy=5
+stewardship=7
+intrigue=6
+learning=1
+add_trait="hunter"
+add_trait="brilliant_strategist"
+add_trait="zealous"
+add_trait="honest"
 
 
 1959.5.13={birth=yes}
@@ -39,60 +39,60 @@ add_trait = "honest"
 }
 
 750002={
-name = "Stoyanka"
-female = yes
-dynasty = 21042
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 6
-stewardship = 6
-intrigue = 6
-learning = 5
-add_trait = "impaler"
-add_trait = "charismatic_negotiator"
-add_trait = "gregarious"
+name="Stoyanka"
+female=yes
+dynasty=21042
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=5
+add_trait="impaler"
+add_trait="charismatic_negotiator"
+add_trait="gregarious"
 
-add_trait = "weak"
+add_trait="weak"
 
 1991.8.26={birth=yes}
 2036.10.13={death=yes}
 }
 
 750003={
-name = "Arnold"
-dynasty = 21069
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 8
-stewardship = 0
-intrigue = 0
-learning = 6
-add_trait = "hunter"
-add_trait = "brilliant_strategist"
-add_trait = "tall"
-add_trait = "wroth"
-add_trait = "temperate"
+name="Arnold"
+dynasty=21069
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=8
+stewardship=0
+intrigue=0
+learning=6
+add_trait="hunter"
+add_trait="brilliant_strategist"
+add_trait="tall"
+add_trait="wroth"
+add_trait="temperate"
 
 1974.11.18={birth=yes}
 2025.5.1={death=yes}
 }
 
 750004={
-name = "Meinhard"
-dynasty = 21032
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 2
-stewardship = 11
-intrigue = 4
-learning = 1
-add_trait = "mystic"
-add_trait = "tough_soldier"
-add_trait = "chaste"
-add_trait = "cruel"
+name="Meinhard"
+dynasty=21032
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=2
+stewardship=11
+intrigue=4
+learning=1
+add_trait="mystic"
+add_trait="tough_soldier"
+add_trait="chaste"
+add_trait="cruel"
 
 
 1956.7.12={birth=yes}
@@ -100,96 +100,96 @@ add_trait = "cruel"
 }
 
 750005={
-name = "Lukas"
-dynasty = 21002
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 4
-stewardship = 4
-intrigue = 0
-learning = 5
-add_trait = "scholar"
-add_trait = "intricate_webweaver"
-add_trait = "content"
-add_trait = "trusting"
-add_trait = "ill"
+name="Lukas"
+dynasty=21002
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=4
+stewardship=4
+intrigue=0
+learning=5
+add_trait="scholar"
+add_trait="intricate_webweaver"
+add_trait="content"
+add_trait="trusting"
+add_trait="ill"
 
 1968.5.15={birth=yes}
 2060.9.27={death=yes}
 }
 
 750006={
-name = "Wadar"
-dynasty = 21003
-culture = ostermarker
-religion = taalite
-martial = 8
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 8
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
-add_trait = "depressed"
-add_trait = "humble"
-add_trait = "stressed"
+name="Wadar"
+dynasty=21003
+culture=ostermarker
+religion=taalite
+martial=8
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=8
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
+add_trait="depressed"
+add_trait="humble"
+add_trait="stressed"
 
 1984.5.20={birth=yes}
 2017.11.26={death=yes}
 }
 
 750007={
-name = "Ulricht"
-dynasty = 21038
-culture = ostermarker
-religion = taalite
-martial = 8
-diplomacy = 2
-stewardship = 3
-intrigue = 3
-learning = 4
-add_trait = "hunter"
-add_trait = "mastermind_theologian"
+name="Ulricht"
+dynasty=21038
+culture=ostermarker
+religion=taalite
+martial=8
+diplomacy=2
+stewardship=3
+intrigue=3
+learning=4
+add_trait="hunter"
+add_trait="mastermind_theologian"
 
 1968.6.13={birth=yes}
 2051.12.20={death=yes}
 }
 
 750008={
-name = "Ranelf"
-dynasty = 21036
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 2
-stewardship = 6
-intrigue = 2
-learning = 9
-add_trait = "duelist"
-add_trait = "thrifty_clerk"
-add_trait = "legit_bastard"
-add_trait = "drunkard"
-add_trait = "homosexual"
+name="Ranelf"
+dynasty=21036
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=2
+stewardship=6
+intrigue=2
+learning=9
+add_trait="duelist"
+add_trait="thrifty_clerk"
+add_trait="legit_bastard"
+add_trait="drunkard"
+add_trait="homosexual"
 
 1988.11.3={birth=yes}
 2025.11.8={death=yes}
 }
 
 750009={
-name = "Dietrich"
-dynasty = 21025
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 1
-stewardship = 6
-intrigue = 8
-learning = 9
-add_trait = "poet"
-add_trait = "thrifty_clerk"
+name="Dietrich"
+dynasty=21025
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=1
+stewardship=6
+intrigue=8
+learning=9
+add_trait="poet"
+add_trait="thrifty_clerk"
 
-add_trait = "lisp"
+add_trait="lisp"
 
 
 1960.11.28={birth=yes}
@@ -197,19 +197,19 @@ add_trait = "lisp"
 }
 
 750010={
-name = "Baldewin"
-dynasty = 21034
-culture = ostermarker
-religion = taalite
-martial = 8
-diplomacy = 3
-stewardship = 2
-intrigue = 11
-learning = 9
-add_trait = "hunter"
-add_trait = "mastermind_theologian"
+name="Baldewin"
+dynasty=21034
+culture=ostermarker
+religion=taalite
+martial=8
+diplomacy=3
+stewardship=2
+intrigue=11
+learning=9
+add_trait="hunter"
+add_trait="mastermind_theologian"
 
-add_trait = "lustful"
+add_trait="lustful"
 
 
 1978.1.1={birth=yes}
@@ -217,136 +217,136 @@ add_trait = "lustful"
 }
 
 750011={
-name = "Mikhail"
-dynasty = 21043
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 6
-stewardship = 10
-intrigue = 11
-learning = 3
-add_trait = "mystic"
-add_trait = "flamboyant_schemer"
-add_trait = "fair"
+name="Mikhail"
+dynasty=21043
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=6
+stewardship=10
+intrigue=11
+learning=3
+add_trait="mystic"
+add_trait="flamboyant_schemer"
+add_trait="fair"
 
 1987.3.7={birth=yes}
 2040.4.6={death=yes}
 }
 
 750012={
-name = "Baldemar"
-dynasty = 21009
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 7
-stewardship = 0
-intrigue = 2
-learning = 2
-add_trait = "hunter"
-add_trait = "detached_priest"
-add_trait = "diligent"
-add_trait = "strong"
-add_trait = "envious"
+name="Baldemar"
+dynasty=21009
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=7
+stewardship=0
+intrigue=2
+learning=2
+add_trait="hunter"
+add_trait="detached_priest"
+add_trait="diligent"
+add_trait="strong"
+add_trait="envious"
 
 1961.3.13={birth=yes}
 2018.6.27={death=yes}
 }
 
 750013={
-name = "Adolf"
-dynasty = 21013
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 0
-stewardship = 11
-intrigue = 5
-learning = 9
-add_trait = "gardener"
-add_trait = "naive_appeaser"
-add_trait = "slothful"
+name="Adolf"
+dynasty=21013
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=0
+stewardship=11
+intrigue=5
+learning=9
+add_trait="gardener"
+add_trait="naive_appeaser"
+add_trait="slothful"
 
-add_trait = "patient"
+add_trait="patient"
 
 1957.7.17={birth=yes}
 2030.2.18={death=yes}
 }
 
 750014={
-name = "Kuno"
-dynasty = 21021
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 2
-stewardship = 10
-intrigue = 7
-learning = 6
+name="Kuno"
+dynasty=21021
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=2
+stewardship=10
+intrigue=7
+learning=6
 
-add_trait = "misguided_warrior"
-add_trait = "ambitious"
-add_trait = "shy"
-add_trait = "proud"
+add_trait="misguided_warrior"
+add_trait="ambitious"
+add_trait="shy"
+add_trait="proud"
 
 1983.8.22={birth=yes}
 2060.4.23={death=yes}
 }
 
 750015={
-name = "Ulli"
-dynasty = 21022
-culture = ostermarker
-religion = taalite
-martial = 8
-diplomacy = 8
-stewardship = 3
-intrigue = 5
-learning = 4
-add_trait = "falconer"
-add_trait = "underhanded_rogue"
-add_trait = "just"
-add_trait = "cynical"
-add_trait = "arbitrary"
+name="Ulli"
+dynasty=21022
+culture=ostermarker
+religion=taalite
+martial=8
+diplomacy=8
+stewardship=3
+intrigue=5
+learning=4
+add_trait="falconer"
+add_trait="underhanded_rogue"
+add_trait="just"
+add_trait="cynical"
+add_trait="arbitrary"
 
 1971.7.14={birth=yes}
 2044.4.25={death=yes}
 }
 
 750016={
-name = "Welf"
-dynasty = 21023
-culture = ostermarker
-religion = taalite
-martial = 8
-diplomacy = 9
-stewardship = 7
-intrigue = 2
-learning = 5
-add_trait = "hunter"
-add_trait = "midas_touched"
-add_trait = "zealous"
-add_trait = "kind"
-add_trait = "paranoid"
+name="Welf"
+dynasty=21023
+culture=ostermarker
+religion=taalite
+martial=8
+diplomacy=9
+stewardship=7
+intrigue=2
+learning=5
+add_trait="hunter"
+add_trait="midas_touched"
+add_trait="zealous"
+add_trait="kind"
+add_trait="paranoid"
 
 1956.4.27={birth=yes}
 2016.8.22={death=yes}
 }
 
 750017={
-name = "Wenzel"
-dynasty = 21036
-culture = ostermarker
-religion = taalite
-martial = 6
-diplomacy = 7
-stewardship = 3
-intrigue = 9
-learning = 2
-add_trait = "flamboyant_schemer"
-add_trait = "honest"
-add_trait = "craven"
+name="Wenzel"
+dynasty=21036
+culture=ostermarker
+religion=taalite
+martial=6
+diplomacy=7
+stewardship=3
+intrigue=9
+learning=2
+add_trait="flamboyant_schemer"
+add_trait="honest"
+add_trait="craven"
 
 
 1993.11.13={birth=yes}
@@ -354,19 +354,19 @@ add_trait = "craven"
 }
 
 750018={
-name = "Jakob"
-dynasty = 21033
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 7
-learning = 7
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
-add_trait = "greedy"
-add_trait = "gregarious"
+name="Jakob"
+dynasty=21033
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=7
+learning=7
+add_trait="mystic"
+add_trait="scholarly_theologian"
+add_trait="greedy"
+add_trait="gregarious"
 
 
 1992.6.17={birth=yes}
@@ -374,18 +374,18 @@ add_trait = "gregarious"
 }
 
 750019={
-name = "Werner"
-dynasty = 21010
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 3
-stewardship = 7
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "tough_soldier"
-add_trait = "tall"
+name="Werner"
+dynasty=21010
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=3
+stewardship=7
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="tough_soldier"
+add_trait="tall"
 
 1981.9.20={birth=yes}
 2039.8.29={death=yes}
@@ -395,19 +395,19 @@ add_trait = "tall"
 ########################
 
 750020={
-name = "Lando"
-dynasty = 21019 #Kallerson
-culture = ostermarker
-religion = taalite
-martial = 6
-diplomacy = 7
-stewardship = 3
-intrigue = 9
-learning = 2
+name="Lando"
+dynasty=21019 #Kallerson
+culture=ostermarker
+religion=taalite
+martial=6
+diplomacy=7
+stewardship=3
+intrigue=9
+learning=2
 
-add_trait = "flamboyant_schemer"
-add_trait = "honest"
-add_trait = "craven"
+add_trait="flamboyant_schemer"
+add_trait="honest"
+add_trait="craven"
 
 
 136.11.13={birth=yes}
@@ -415,42 +415,42 @@ add_trait = "craven"
 }
 
 750021={
-name = "Didrick"
-dynasty = 21018 
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 7
-learning = 7
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
-add_trait = "greedy"
-add_trait = "gregarious"
+name="Didrick"
+dynasty=21018 
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=7
+learning=7
+add_trait="mystic"
+add_trait="scholarly_theologian"
+add_trait="greedy"
+add_trait="gregarious"
 
 
 1249.6.17={birth=yes}
-1274.1.1={give_nickname = nick_the_unjust}
+1274.1.1={give_nickname=nick_the_unjust}
 1286.3.10={death=yes}
 }
 
 750022={
-name = "Ingrid"
-female = yes
-dynasty = 21017 
-culture = ostermarker
-religion = taalite
-martial = 9
-diplomacy = 3
-stewardship = 7
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "tough_soldier"
+name="Ingrid"
+female=yes
+dynasty=21017 
+culture=ostermarker
+religion=taalite
+martial=9
+diplomacy=3
+stewardship=7
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="tough_soldier"
 
-add_trait = "tall"
-add_trait = "weak"
+add_trait="tall"
+add_trait="weak"
 
 1797.9.20={birth=yes}
 1869.8.29={death=yes}
@@ -458,554 +458,554 @@ add_trait = "weak"
 
 
 750023={
-name = "Wolfram" #Graf Wolfram Hertwig of Ostermark
-dynasty = 21108
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 3
-stewardship = 5
-intrigue = 10
-learning = 6
-add_trait = "tough_soldier"
-add_trait = "brave"
-add_trait = "proud"
-add_trait = "temperate"
+name="Wolfram" #Graf Wolfram Hertwig of Ostermark
+dynasty=21108
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=3
+stewardship=5
+intrigue=10
+learning=6
+add_trait="tough_soldier"
+add_trait="brave"
+add_trait="proud"
+add_trait="temperate"
 
 2501.4.23={birth=yes}
 2552.7.2={death=yes}
 }
 
 750024={
-name = "Maximillian" # Graf Maximillian Dachs of Ostermark
-dynasty = 21109
-culture = ostermarker
-religion = taalite
-martial = 6
-diplomacy = 8
-stewardship = 4
-intrigue = 7
-learning = 6
-add_trait = "misguided_warrior"
-add_trait = "honest"
-add_trait = "ugly"
-add_trait = "humble"
+name="Maximillian" # Graf Maximillian Dachs of Ostermark
+dynasty=21109
+culture=ostermarker
+religion=taalite
+martial=6
+diplomacy=8
+stewardship=4
+intrigue=7
+learning=6
+add_trait="misguided_warrior"
+add_trait="honest"
+add_trait="ugly"
+add_trait="humble"
 
 2467.5.5={birth=yes}
 2514.4.7={death=yes}
 }
 
 750025={
-name = "Thietmar"
-dynasty = 21042
-dna = "enbidfpccjk"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 2
-stewardship = 3
-intrigue = 3
-learning = 6
-add_trait = "detached_priest"
-add_trait = "cruel"
+name="Thietmar"
+dynasty=21042
+dna="enbidfpccjk"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=2
+stewardship=3
+intrigue=3
+learning=6
+add_trait="detached_priest"
+add_trait="cruel"
 1860.1.1={birth=yes}
 1922.7.26={death=yes}
 }
 
 750026={
-name = "Stanislaus"
-dynasty = 21042
-dna = "jlhdcedeemj"
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 3
-stewardship = 8
-intrigue = 3
-learning = 7
-add_trait = "elusive_shadow"
-add_trait = "deceitful"
-add_trait = "craven"
+name="Stanislaus"
+dynasty=21042
+dna="jlhdcedeemj"
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=3
+stewardship=8
+intrigue=3
+learning=7
+add_trait="elusive_shadow"
+add_trait="deceitful"
+add_trait="craven"
 1882.9.1={birth=yes}
 1939.9.1={death=yes}
 }
 
 750027={
-name = "Wolfdietrich"
-dynasty = 21038
-dna = "hkaoihlogbe"
-culture = ostermarker
-religion = taalite
-martial = 6
-diplomacy = 4
-stewardship = 7
-intrigue = 1
-learning = 5
-add_trait = "grey_eminence"
+name="Wolfdietrich"
+dynasty=21038
+dna="hkaoihlogbe"
+culture=ostermarker
+religion=taalite
+martial=6
+diplomacy=4
+stewardship=7
+intrigue=1
+learning=5
+add_trait="grey_eminence"
 1906.9.1={birth=yes}
 1942.1.13={death=yes}
 }
 
 750028={
-name = "Catarina"
-female = yes
-dynasty = 21042
-dna = "onpiddfgpmd"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 1
-stewardship = 0
-intrigue = 4
-learning = 5
-add_trait = "skilled_tactician"
-add_trait = "scholar"
-add_trait = "lustful"
+name="Catarina"
+female=yes
+dynasty=21042
+dna="onpiddfgpmd"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=1
+stewardship=0
+intrigue=4
+learning=5
+add_trait="skilled_tactician"
+add_trait="scholar"
+add_trait="lustful"
 1879.11.1={birth=yes}
 1947.5.17={death=yes}
 }
 
 750029={
-name = "Wernher"
-dynasty = 21064
-dna = "hnhllooldfp"
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 3
-learning = 6
-add_trait = "charismatic_negotiator"
-add_trait = "ambitious"
-add_trait = "gregarious"
-add_trait = "wounded"
+name="Wernher"
+dynasty=21064
+dna="hnhllooldfp"
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=6
+add_trait="charismatic_negotiator"
+add_trait="ambitious"
+add_trait="gregarious"
+add_trait="wounded"
 1921.5.1={birth=yes}
 1952.5.22={death=yes}
 }
 
 750030={
-name = "Athela"
-female = yes
-dynasty = 21038
-dna = "onlbnjhofck"
-culture = ostermarker
-religion = taalite
-martial = 6
-diplomacy = 7
-stewardship = 3
-intrigue = 1
-learning = 1
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "arbitrary"
-add_trait = "content"
+name="Athela"
+female=yes
+dynasty=21038
+dna="onlbnjhofck"
+culture=ostermarker
+religion=taalite
+martial=6
+diplomacy=7
+stewardship=3
+intrigue=1
+learning=1
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="arbitrary"
+add_trait="content"
 1901.11.1={birth=yes}
 1968.9.8={death=yes}
 }
 
 750031={
-name = "Gustav"
-dynasty = 21032
-dna = "ppoeheacjbl"
-culture = ostermarker
-religion = taalite
-martial = 0
-diplomacy = 4
-stewardship = 4
-intrigue = 4
-learning = 3
-add_trait = "indulgent_wastrel"
-add_trait = "trusting"
-add_trait = "wounded"
+name="Gustav"
+dynasty=21032
+dna="ppoeheacjbl"
+culture=ostermarker
+religion=taalite
+martial=0
+diplomacy=4
+stewardship=4
+intrigue=4
+learning=3
+add_trait="indulgent_wastrel"
+add_trait="trusting"
+add_trait="wounded"
 1922.9.1={birth=yes}
 1982.4.3={death=yes}
 }
 
 750032={
-name = "Chedwic"
-dynasty = 21064
-dna = "acldjdigkpk"
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 5
-stewardship = 6
-intrigue = 6
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "cynical"
-add_trait = "slothful"
-add_trait = "greedy"
+name="Chedwic"
+dynasty=21064
+dna="acldjdigkpk"
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="cynical"
+add_trait="slothful"
+add_trait="greedy"
 1947.3.1={birth=yes}
 1997.5.10={death=yes}
 }
 
 750033={
-name = "Oswald" # Oswald von Konigswald
-dynasty = 21109
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 2
-learning = 6
-add_trait = "misguided_warrior"
-add_trait = "honest"
-add_trait = "diligent"
-add_trait = "humble"
+name="Oswald" # Oswald von Konigswald
+dynasty=21109
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=2
+learning=6
+add_trait="misguided_warrior"
+add_trait="honest"
+add_trait="diligent"
+add_trait="humble"
 
 2471.3.15={birth=yes}
 2534.5.27={death=yes}
 }
 
 750034={
-name = "Stefan"
-dynasty = 21111
-dna = "lbaphjnamhp"
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 7
-add_trait = "tough_soldier"
+name="Stefan"
+dynasty=21111
+dna="lbaphjnamhp"
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=7
+add_trait="tough_soldier"
 2495.1.1={birth=yes}
 2546.9.22={death=yes}
 }
 
 750035={
-name = "Maximillian"
-dynasty = 21112
-dna = "icjpnphjpih"
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 2
-stewardship = 7
-intrigue = 5
-learning = 1
-add_trait = "skilled_tactician"
-add_trait = "gluttonous"
+name="Maximillian"
+dynasty=21112
+dna="icjpnphjpih"
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=2
+stewardship=7
+intrigue=5
+learning=1
+add_trait="skilled_tactician"
+add_trait="gluttonous"
 2475.7.1={birth=yes}
 2512.3.2={death=yes}
 }
 
 750036={
-name = "Konrad"
-dynasty = 21112
-dna = "epmnhnpcbba"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-father = 750035
-add_trait = "elusive_shadow"
-add_trait = "stressed"
+name="Konrad"
+dynasty=21112
+dna="epmnhnpcbba"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+father=750035
+add_trait="elusive_shadow"
+add_trait="stressed"
 2493.7.1={birth=yes}
 2549.6.6={death=yes}
 }
 
 750037={
-name = "Hanni"
-female = yes
-dynasty = 21112
-dna = "chjiklmfklj"
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 3
-father = 750035
-add_trait = "tough_soldier"
-add_trait = "content"
-add_trait = "charitable"
-add_trait = "arbitrary"
+name="Hanni"
+female=yes
+dynasty=21112
+dna="chjiklmfklj"
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=3
+father=750035
+add_trait="tough_soldier"
+add_trait="content"
+add_trait="charitable"
+add_trait="arbitrary"
 2500.11.1={birth=yes}
 2525.11.26={death=yes}
 }
 
 750038={
-name = "Stefania"
-female = yes
-dynasty = 21113
-dna = "kiokndkmpdj"
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 3
-stewardship = 4
-intrigue = 7
-learning = 1
-add_trait = "flamboyant_schemer"
-add_trait = "mystic"
-add_trait = "content"
-add_trait = "chaste"
-add_trait = "humble"
+name="Stefania"
+female=yes
+dynasty=21113
+dna="kiokndkmpdj"
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=1
+add_trait="flamboyant_schemer"
+add_trait="mystic"
+add_trait="content"
+add_trait="chaste"
+add_trait="humble"
 2462.5.1={birth=yes}
 2503.3.24={death=yes}
 }
 
 750039={
-name = "Edmund"
-dynasty = 21113
-dna = "oinbhkpgeho"
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 5
-stewardship = 4
-intrigue = 3
-learning = 4
-mother = 750038
-add_trait = "underhanded_rogue"
-add_trait = "wroth"
-add_trait = "patient"
-add_trait = "ill"
+name="Edmund"
+dynasty=21113
+dna="oinbhkpgeho"
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=5
+stewardship=4
+intrigue=3
+learning=4
+mother=750038
+add_trait="underhanded_rogue"
+add_trait="wroth"
+add_trait="patient"
+add_trait="ill"
 2482.3.1={birth=yes}
 2534.11.4={death=yes}
 }
 
 750040={
-name = "Richeza"
-female = yes
-dynasty = 21113
-dna = "phpfgfolbcl"
-culture = ostermarker
-religion = taalite
-martial = 3
-diplomacy = 6
-stewardship = 4
-intrigue = 5
-learning = 4
-mother = 750038
-add_trait = "thrifty_clerk"
-add_trait = "duelist"
-add_trait = "ambitious"
-add_trait = "craven"
-add_trait = "temperate"
+name="Richeza"
+female=yes
+dynasty=21113
+dna="phpfgfolbcl"
+culture=ostermarker
+religion=taalite
+martial=3
+diplomacy=6
+stewardship=4
+intrigue=5
+learning=4
+mother=750038
+add_trait="thrifty_clerk"
+add_trait="duelist"
+add_trait="ambitious"
+add_trait="craven"
+add_trait="temperate"
 2488.3.1={birth=yes}
 2561.3.1={death=yes}
 }
 
 750041={
-name = "Marta"
-female = yes
-dynasty = 21113
-dna = "ehohkpemjpe"
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 6
-stewardship = 5
-intrigue = 4
-learning = 1
-mother = 750038
-add_trait = "thrifty_clerk"
+name="Marta"
+female=yes
+dynasty=21113
+dna="ehohkpemjpe"
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=6
+stewardship=5
+intrigue=4
+learning=1
+mother=750038
+add_trait="thrifty_clerk"
 2496.1.1={birth=yes}
 2567.9.23={death=yes}
 }
 
 750042={
-name = "Ugo"
-dynasty = 21114
-dna = "lfnddlhbfmn"
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 5
-stewardship = 1
-intrigue = 4
-learning = 3
-add_trait = "flamboyant_schemer"
-add_trait = "impaler"
-add_trait = "cruel"
-add_trait = "temperate"
-add_trait = "wroth"
-add_trait = "lustful"
+name="Ugo"
+dynasty=21114
+dna="lfnddlhbfmn"
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=5
+stewardship=1
+intrigue=4
+learning=3
+add_trait="flamboyant_schemer"
+add_trait="impaler"
+add_trait="cruel"
+add_trait="temperate"
+add_trait="wroth"
+add_trait="lustful"
 2468.11.1={birth=yes}
 2516.10.15={death=yes}
 }
 
 750043={
-name = "Oswald"
-dynasty = 21114
-dna = "cnofidbbakh"
-culture = ostermarker
-religion = taalite
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 2
-learning = 4
-father = 750042
-add_trait = "misguided_warrior"
-add_trait = "lustful"
-add_trait = "deceitful"
+name="Oswald"
+dynasty=21114
+dna="cnofidbbakh"
+culture=ostermarker
+religion=taalite
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=2
+learning=4
+father=750042
+add_trait="misguided_warrior"
+add_trait="lustful"
+add_trait="deceitful"
 2492.9.1={birth=yes}
 2562.4.21={death=yes}
 }
 
 750044={
-name = "Gotthold"
-dynasty = 21116
-dna = "fmnbbbegikj"
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 6
-stewardship = 4
-intrigue = 6
-learning = 4
-add_trait = "indulgent_wastrel"
-add_trait = "paranoid"
-add_trait = "proud"
+name="Gotthold"
+dynasty=21116
+dna="fmnbbbegikj"
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=6
+stewardship=4
+intrigue=6
+learning=4
+add_trait="indulgent_wastrel"
+add_trait="paranoid"
+add_trait="proud"
 2479.1.1={birth=yes}
 2535.1.27={death=yes}
 }
 
 750045={
-name = "Ursmar"
-dynasty = 21116
-dna = "ehomcldmdnb"
-culture = ostermarker
-religion = taalite
-martial = 2
-diplomacy = 1
-stewardship = 8
-intrigue = 4
-learning = 1
-father = 750044
-add_trait = "skilled_tactician"
-add_trait = "greedy"
-add_trait = "chaste"
-add_trait = "craven"
+name="Ursmar"
+dynasty=21116
+dna="ehomcldmdnb"
+culture=ostermarker
+religion=taalite
+martial=2
+diplomacy=1
+stewardship=8
+intrigue=4
+learning=1
+father=750044
+add_trait="skilled_tactician"
+add_trait="greedy"
+add_trait="chaste"
+add_trait="craven"
 2506.1.1={birth=yes}
 2569.10.6={death=yes}
 }
 
 750046={
-name = "Hermann"
-dynasty = 21115
-dna = "ojlhngkfgml"
-culture = ostermarker
-religion = taalite
-martial = 4
-diplomacy = 6
-stewardship = 3
-intrigue = 0
-learning = 6
-add_trait = "midas_touched"
-add_trait = "envious"
-add_trait = "trusting"
-add_trait = "gregarious"
+name="Hermann"
+dynasty=21115
+dna="ojlhngkfgml"
+culture=ostermarker
+religion=taalite
+martial=4
+diplomacy=6
+stewardship=3
+intrigue=0
+learning=6
+add_trait="midas_touched"
+add_trait="envious"
+add_trait="trusting"
+add_trait="gregarious"
 2480.1.1={birth=yes}
 2531.6.4={death=yes}
 }
 
 750047={
-name = "Gergana"
-female = yes
-dynasty = 21115
-dna = "bogddmogell"
-culture = ostermarker
-religion = taalite
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 7
-learning = 0
-father = 750046
-add_trait = "fortune_builder"
-add_trait = "chaste"
-add_trait = "gregarious"
-add_trait = "greedy"
-add_trait = "ambitious"
+name="Gergana"
+female=yes
+dynasty=21115
+dna="bogddmogell"
+culture=ostermarker
+religion=taalite
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=7
+learning=0
+father=750046
+add_trait="fortune_builder"
+add_trait="chaste"
+add_trait="gregarious"
+add_trait="greedy"
+add_trait="ambitious"
 2496.1.1={birth=yes}
 2559.5.29={death=yes}
 }
 
 750048={
-name = "Binhilde"
-female = yes
-dynasty = 21115
-dna = "lomdoebcalk"
-culture = ostermarker
-religion = taalite
-martial = 0
-diplomacy = 3
-stewardship = 3
-intrigue = 4
-learning = 5
-father = 750046
-add_trait = "naive_appeaser"
-add_trait = "celibate"
+name="Binhilde"
+female=yes
+dynasty=21115
+dna="lomdoebcalk"
+culture=ostermarker
+religion=taalite
+martial=0
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=5
+father=750046
+add_trait="naive_appeaser"
+add_trait="celibate"
 2501.9.1={birth=yes}
 2565.9.1={death=yes}
 }
 
 750049={
-name = "Karel"
-dynasty = 21117
-dna = "njldjepopem"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 8
-stewardship = 2
-intrigue = 4
-learning = 3
-add_trait = "intricate_webweaver"
-add_trait = "hedonist"
-add_trait = "slothful"
-add_trait = "chaste"
-add_trait = "cruel"
+name="Karel"
+dynasty=21117
+dna="njldjepopem"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=8
+stewardship=2
+intrigue=4
+learning=3
+add_trait="intricate_webweaver"
+add_trait="hedonist"
+add_trait="slothful"
+add_trait="chaste"
+add_trait="cruel"
 2464.7.1={birth=yes}
 2518.7.23={death=yes}
 }
 
 750050={
-name = "Richard"
-dynasty = 21117
-dna = "cbfnafhefbd"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 6
-stewardship = 2
-intrigue = 3
-learning = 4
-father = 750049
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "humble"
+name="Richard"
+dynasty=21117
+dna="cbfnafhefbd"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=6
+stewardship=2
+intrigue=3
+learning=4
+father=750049
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="humble"
 2487.11.1={birth=yes}
 2548.8.5={death=yes}
 }
 
 750051={
-name = "Ladislau"
-dynasty = 21117
-dna = "ipnbomiomgb"
-culture = ostermarker
-religion = taalite
-martial = 5
-diplomacy = 8
-stewardship = 3
-intrigue = 8
-learning = 6
-father = 750050
-add_trait = "naive_appeaser"
-add_trait = "wroth"
-add_trait = "honest"
-add_trait = "kind"
+name="Ladislau"
+dynasty=21117
+dna="ipnbomiomgb"
+culture=ostermarker
+religion=taalite
+martial=5
+diplomacy=8
+stewardship=3
+intrigue=8
+learning=6
+father=750050
+add_trait="naive_appeaser"
+add_trait="wroth"
+add_trait="honest"
+add_trait="kind"
 2508.11.1={birth=yes}
 2580.4.2={death=yes}
 }

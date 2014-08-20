@@ -8,13 +8,17 @@ max_settlements = 6
 b_numas = castle
 b_retenu = city
 b_alkhazzar = temple
-b_hansu = city
-b_natrun = castle
-b_moalla = city
+#b_hansu = city
+#b_natrun = castle
+#b_moalla = city
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_hansu = city
+}

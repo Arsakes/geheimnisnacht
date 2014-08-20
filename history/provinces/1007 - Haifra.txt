@@ -7,7 +7,7 @@ title = c_haifra
 max_settlements = 4
 b_haifra = castle
 b_wadi_haifra = city
-#b_cassadan = city
+#b_cassadan = temple
 #b_dhiqa = city
 
 # Misc
@@ -16,3 +16,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_cassadan = temple
+}

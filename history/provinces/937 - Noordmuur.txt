@@ -1,0 +1,20 @@
+# 937 Noordmuur
+
+# County Title
+title = c_noordmuur
+
+# Settlements
+max_settlements = 5
+b_noordmuur = city
+b_kruiersmuur = castle
+b_goudberg = temple
+#b_randstad = temple
+#b_handelaarmarkt = city
+
+# Misc
+culture = westerlander
+religion = manannite
+
+terrain = farmlands
+
+# History

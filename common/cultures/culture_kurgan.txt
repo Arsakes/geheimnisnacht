@@ -10,7 +10,7 @@ kurgan_group = {
        male_names = {
 			Abachi Abak Abdumannob Abdurahim Abdurashid Adil Aguchu Ahmed Ajai Ajinai Akhutai Akshan Aktash Alagh Alangasar Alchi Alchidai Alghu Alim Alishaer Alisher Almas Almis Almish Altan Ambaghai Ämir Arasen Arslan Asiki Äxmät Aydar Aynur Ayrat Azat Aziz 
 			Babur Badarongga Bagaridai Bahauddin Baidar Baraq Barghujin Bayan Bedugun Belgunutei Belgutei Betshe Bigra Bil Biya Bodonchar Bogen Bogorchu Boljak Bolkhadar Borjigidai Boroghul Botir Bughu Bughutu Bugunutei Buqa Burkhan Bursin Buyirugh Buzan Bydzym-Nyunya 
-			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Çiñgiz 
+			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Ciñgiz 
 			Danishmendji Daniyal Dokholkhu Dokja Dologadai Donda Dondy Dorlipun Dost Duwa 
 			Eksei Elbrus Eljigedei Eljigidey Engkebatu Ergash Esen-Buqa 
 			Fakriddin Färit Furkat 
@@ -25,7 +25,7 @@ kurgan_group = {
 			Pulad 
 			Qamaruddin Qazaghan Qazan Quli 
 			Radiq Rail Rais Ramil Räsit Rawil Risat Röstäm Rostam_Rostam Rusan Rustam 
-			Sa’id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
+			Sa'id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
 			Tahir Taliqu Targhutai Teginbek Telegetu Temuge Temür_Timur Timer Timur Tobsakha Tobukha Toghon Toghoril Toghtoga Tokhuchar Tolperi Toro Torolchi Tughlugh Tumbinai Tunghhuidai Tuno Tusakha Tuyuideger 
 			Ubaidullah Ubaydullah Üjiyedin Ukhuna Ulugh Uly Urtusakhal Uwais_Uwais 
 			Vesya Vezom Vosas Vumurt 
@@ -36,11 +36,11 @@ kurgan_group = {
        female_names = {
 			Adliya Adolat Aida Al-Alta Alan Älfiä Äliä Alimi Alsu Altani Asiä Aygöl Aysilu 
 			Bakhmal Bigra Bodom Bodya Borte Botokhui Bulughan 
-			Chabi Chagur Chakha Checheyigen Chotan Çulpan 
+			Chabi Chagur Chakha Checheyigen Chotan Culpan 
 			Dinara Doquz Doregene 
 			Ebegei Ebga Egra 
 			Färidä Frakhunda 
-			Gäliä Gölçäçäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
+			Gäliä Gölcäcäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
 			Hoelun Hogelun Holuikhan 
 			Ibakha Inmumy Irdana 
 			Jachi Juri 
@@ -164,7 +164,7 @@ kurgan_group = {
        male_names = {
 			Abachi Abak Abdumannob Abdurahim Abdurashid Adil Aguchu Ahmed Ajai Ajinai Akhutai Akshan Aktash Alagh Alangasar Alchi Alchidai Alghu Alim Alishaer Alisher Almas Almis Almish Altan Ambaghai Ämir Arasen Arslan Asiki Äxmät Aydar Aynur Ayrat Azat Aziz 
 			Babur Badarongga Bagaridai Bahauddin Baidar Baraq Barghujin Bayan Bedugun Belgunutei Belgutei Betshe Bigra Bil Biya Bodonchar Bogen Bogorchu Boljak Bolkhadar Borjigidai Boroghul Botir Bughu Bughutu Bugunutei Buqa Burkhan Bursin Buyirugh Buzan Bydzym-Nyunya 
-			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Çiñgiz 
+			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Ciñgiz 
 			Danishmendji Daniyal Dokholkhu Dokja Dologadai Donda Dondy Dorlipun Dost Duwa 
 			Eksei Elbrus Eljigedei Eljigidey Engkebatu Ergash Esen-Buqa 
 			Fakriddin Färit Furkat 
@@ -179,7 +179,7 @@ kurgan_group = {
 			Pulad 
 			Qamaruddin Qazaghan Qazan Quli 
 			Radiq Rail Rais Ramil Räsit Rawil Risat Röstäm Rostam_Rostam Rusan Rustam 
-			Sa’id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
+			Sa'id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
 			Tahir Taliqu Targhutai Teginbek Telegetu Temuge Temür_Timur Timer Timur Tobsakha Tobukha Toghon Toghoril Toghtoga Tokhuchar Tolperi Toro Torolchi Tughlugh Tumbinai Tunghhuidai Tuno Tusakha Tuyuideger 
 			Ubaidullah Ubaydullah Üjiyedin Ukhuna Ulugh Uly Urtusakhal Uwais_Uwais 
 			Vesya Vezom Vosas Vumurt 
@@ -190,11 +190,11 @@ kurgan_group = {
        female_names = {
 			Adliya Adolat Aida Al-Alta Alan Älfiä Äliä Alimi Alsu Altani Asiä Aygöl Aysilu 
 			Bakhmal Bigra Bodom Bodya Borte Botokhui Bulughan 
-			Chabi Chagur Chakha Checheyigen Chotan Çulpan 
+			Chabi Chagur Chakha Checheyigen Chotan Culpan 
 			Dinara Doquz Doregene 
 			Ebegei Ebga Egra 
 			Färidä Frakhunda 
-			Gäliä Gölçäçäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
+			Gäliä Gölcäcäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
 			Hoelun Hogelun Holuikhan 
 			Ibakha Inmumy Irdana 
 			Jachi Juri 
@@ -317,8 +317,8 @@ kurgan_group = {
 
        male_names = {
 			Abak Abdumannob Abdurahim Abdurashid Abduxaliq Ablajan Adigh Adil Afaq Ahmed Akhad Akhmad Alburia Alghu Alishaer Alisher Alp Alypbi Alzek Anzi Apskhih Arslan Art Askar Askungur Asparukh Attila Aybat Aziz 
-			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgiçi Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulçan Bulger Buqa Buzan Buzer Buzurb 
-			Çat Çat'n Changshi Chapar Chawar Chelbir Chepa Çorpan 
+			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgici Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulcan Bulger Buqa Buzan Buzer Buzurb 
+			Cat Cat'n Changshi Chapar Chawar Chelbir Chepa Corpan 
 			Danishmendji Daniyal Dengisich Dengizich Dengizik Dizeng Djilka Djurash Dometa Dost Dristar Drong Dukum Duwa 
 			Ehmetjan Elemag Elihan Eljigidey Ellec Elterish Eretna Ergash Erkin Ermak Esen-Buqa Eskhach 
 			Fakriddin Furkat 
@@ -326,16 +326,16 @@ kurgan_group = {
 			Hala Hamid Hamza Hernach Hesmat Hoja Hoshur Houdbaad Hudbaad Hülëgü Huseyincan Hushu 
 			Ibi Ilbars Iltäbär Ilteber Iratais Irnek Isa Isbul Ishana Iskender_Alexander Islam Ismail_Ismail Isperikh Ispor Itakh 
 			Jakhangir Jani Juluobo 
-			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundaç Kundaçiq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
+			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundac Kundaciq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
 			Labertam Lutpulla 
 			Magotin Makhmud Malamir Mammaduli Mänär Mänäs Mansur Mansur_Mansur Maqsud Marmais Mënümarót Möngke Mubarak Mugel Murad_Murad Murat Muzaffar 
 			Nag Narbuta Nariman Narimon Nasir_Nasser Nawruz Negübei Nur Nurmuhemmet 
 			Octar Odolgan Öge Okhsi Okhsun Okors Omerjan Omurtag Onegavon Organ Organa Orkesh Ormïzt Ornag Oshi Osman_Uthman Ostro Ötemis 
-			Pagan Palta Pan-kül Papaçyz Peilo Pojuan Praksa Pressian Pulad Pusa 
+			Pagan Palta Pan-kül Papacyz Peilo Pojuan Praksa Pressian Pulad Pusa 
 			Qamaruddin Qaplan Qara Qasar Qazaghan Qazan Quli 
 			Rabban Rais Ramil Rassate Rostam_Rostam Rugila 
-			Sa’id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
-			Täbär Tabghaç Taliqu Tarasiy Tardu Taridin Tarkhan Tarmaç Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
+			Sa'id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
+			Täbär Tabghac Taliqu Tarasiy Tardu Taridin Tarkhan Tarmac Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
 			Ubaidullah Ubaydullah Uldin Ulugh Umor Uturgur Uwais_Uwais 
 			Vanand Vardan Venda Vetam Vinekh Vund 
 			Wuhe 
@@ -346,11 +346,11 @@ kurgan_group = {
        female_names = {
 	   
 			Adliya Adolat Akgul Alimi Altun Amannisa Asli Aslihan Ayasun Aykhan Ayla Ayse Ayten Azize 
-			Bahar Bakhmal Bodom Bozçin 
-			Canan Ceylan Chechak Çiçek Çilen Çiltanesi 
+			Bahar Bakhmal Bodom Bozcin 
+			Canan Ceylan Chechak Cicek Cilen Ciltanesi 
 			Dilber Dilek Dilnaz Dunya Durnyam 
 			Emine Esin Frakhunda 
-			Ghuncha Gül Gulay Gulbahar Gulçiçek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
+			Ghuncha Gül Gulay Gulbahar Gulcicek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
 			Hatice Hawa-gül Hayat Hidligh Huriye 
 			Ibadat-gül Ilbilge Ildico Ilkay Ilknur Iparhan Ipek Ipekel Irdana Irge 
 			Karacik Khanum Kunduz 
@@ -361,7 +361,7 @@ kurgan_group = {
 			Pati-gül Peksen Pharahat Po 
 			Raad Rebiya Ruqiya 
 			Sabahat Salieva Samur Sarica Sati Sevilay Sevindik Seyahat Shara Shara_Sarah Shukria Sibel Sirin Sirma Songul 
-			Tekçe Tura Tursanay 
+			Tekce Tura Tursanay 
 			Umay Usunbike 
 			Yasar Yeldem Yildiz Yulduz Yultuz 
 			Zeb Zuleiha Zuwida 
@@ -475,7 +475,7 @@ kurgan_group = {
        male_names = {
 			Abachi Abak Abdumannob Abdurahim Abdurashid Adil Aguchu Ahmed Ajai Ajinai Akhutai Akshan Aktash Alagh Alangasar Alchi Alchidai Alghu Alim Alishaer Alisher Almas Almis Almish Altan Ambaghai Ämir Arasen Arslan Asiki Äxmät Aydar Aynur Ayrat Azat Aziz 
 			Babur Badarongga Bagaridai Bahauddin Baidar Baraq Barghujin Bayan Bedugun Belgunutei Belgutei Betshe Bigra Bil Biya Bodonchar Bogen Bogorchu Boljak Bolkhadar Borjigidai Boroghul Botir Bughu Bughutu Bugunutei Buqa Burkhan Bursin Buyirugh Buzan Bydzym-Nyunya 
-			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Çiñgiz 
+			Chaghagan Chagur Chagurkhai Changshi Chapar Cher Chidukhul Chiledu Chokmorskon Chormakhan Chulgutei Chunypi Ciñgiz 
 			Danishmendji Daniyal Dokholkhu Dokja Dologadai Donda Dondy Dorlipun Dost Duwa 
 			Eksei Elbrus Eljigedei Eljigidey Engkebatu Ergash Esen-Buqa 
 			Fakriddin Färit Furkat 
@@ -490,7 +490,7 @@ kurgan_group = {
 			Pulad 
 			Qamaruddin Qazaghan Qazan Quli 
 			Radiq Rail Rais Ramil Räsit Rawil Risat Röstäm Rostam_Rostam Rusan Rustam 
-			Sa’id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
+			Sa'id Salim_Selim Salymiki Samil Satuq Selta Shahrukh_Shahrokh Shayabak Shilki Shingkhor Shir Shiraghul Shirgugetu Shodja Silki Sorkhatu Soyiketu Subetei Subhan Sukegei Sulayman Sultan Sunjuq Suurgatmish 
 			Tahir Taliqu Targhutai Teginbek Telegetu Temuge Temür_Timur Timer Timur Tobsakha Tobukha Toghon Toghoril Toghtoga Tokhuchar Tolperi Toro Torolchi Tughlugh Tumbinai Tunghhuidai Tuno Tusakha Tuyuideger 
 			Ubaidullah Ubaydullah Üjiyedin Ukhuna Ulugh Uly Urtusakhal Uwais_Uwais 
 			Vesya Vezom Vosas Vumurt 
@@ -501,11 +501,11 @@ kurgan_group = {
        female_names = {
 			Adliya Adolat Aida Al-Alta Alan Älfiä Äliä Alimi Alsu Altani Asiä Aygöl Aysilu 
 			Bakhmal Bigra Bodom Bodya Borte Botokhui Bulughan 
-			Chabi Chagur Chakha Checheyigen Chotan Çulpan 
+			Chabi Chagur Chakha Checheyigen Chotan Culpan 
 			Dinara Doquz Doregene 
 			Ebegei Ebga Egra 
 			Färidä Frakhunda 
-			Gäliä Gölçäçäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
+			Gäliä Gölcäcäk Gölnara Gölnaz Gudyry Gudyry-Mumy Guldana Guldasta Gulkhuron Gulrukhsor Gurbesu Guzal Güzäl Güzäliä 
 			Hoelun Hogelun Holuikhan 
 			Ibakha Inmumy Irdana 
 			Jachi Juri 
@@ -551,8 +551,8 @@ kurgan_group = {
 
        male_names = {
 			Abak Abdumannob Abdurahim Abdurashid Abduxaliq Ablajan Adigh Adil Afaq Ahmed Akhad Akhmad Alburia Alghu Alishaer Alisher Alp Alypbi Alzek Anzi Apskhih Arslan Art Askar Askungur Asparukh Attila Aybat Aziz 
-			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgiçi Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulçan Bulger Buqa Buzan Buzer Buzurb 
-			Çat Çat'n Changshi Chapar Chawar Chelbir Chepa Çorpan 
+			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgici Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulcan Bulger Buqa Buzan Buzer Buzurb 
+			Cat Cat'n Changshi Chapar Chawar Chelbir Chepa Corpan 
 			Danishmendji Daniyal Dengisich Dengizich Dengizik Dizeng Djilka Djurash Dometa Dost Dristar Drong Dukum Duwa 
 			Ehmetjan Elemag Elihan Eljigidey Ellec Elterish Eretna Ergash Erkin Ermak Esen-Buqa Eskhach 
 			Fakriddin Furkat 
@@ -560,16 +560,16 @@ kurgan_group = {
 			Hala Hamid Hamza Hernach Hesmat Hoja Hoshur Houdbaad Hudbaad Hülëgü Huseyincan Hushu 
 			Ibi Ilbars Iltäbär Ilteber Iratais Irnek Isa Isbul Ishana Iskender_Alexander Islam Ismail_Ismail Isperikh Ispor Itakh 
 			Jakhangir Jani Juluobo 
-			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundaç Kundaçiq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
+			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundac Kundaciq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
 			Labertam Lutpulla 
 			Magotin Makhmud Malamir Mammaduli Mänär Mänäs Mansur Mansur_Mansur Maqsud Marmais Mënümarót Möngke Mubarak Mugel Murad_Murad Murat Muzaffar 
 			Nag Narbuta Nariman Narimon Nasir_Nasser Nawruz Negübei Nur Nurmuhemmet 
 			Octar Odolgan Öge Okhsi Okhsun Okors Omerjan Omurtag Onegavon Organ Organa Orkesh Ormïzt Ornag Oshi Osman_Uthman Ostro Ötemis 
-			Pagan Palta Pan-kül Papaçyz Peilo Pojuan Praksa Pressian Pulad Pusa 
+			Pagan Palta Pan-kül Papacyz Peilo Pojuan Praksa Pressian Pulad Pusa 
 			Qamaruddin Qaplan Qara Qasar Qazaghan Qazan Quli 
 			Rabban Rais Ramil Rassate Rostam_Rostam Rugila 
-			Sa’id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
-			Täbär Tabghaç Taliqu Tarasiy Tardu Taridin Tarkhan Tarmaç Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
+			Sa'id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
+			Täbär Tabghac Taliqu Tarasiy Tardu Taridin Tarkhan Tarmac Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
 			Ubaidullah Ubaydullah Uldin Ulugh Umor Uturgur Uwais_Uwais 
 			Vanand Vardan Venda Vetam Vinekh Vund 
 			Wuhe 
@@ -580,11 +580,11 @@ kurgan_group = {
        female_names = {
 	   
 			Adliya Adolat Akgul Alimi Altun Amannisa Asli Aslihan Ayasun Aykhan Ayla Ayse Ayten Azize 
-			Bahar Bakhmal Bodom Bozçin 
-			Canan Ceylan Chechak Çiçek Çilen Çiltanesi 
+			Bahar Bakhmal Bodom Bozcin 
+			Canan Ceylan Chechak Cicek Cilen Ciltanesi 
 			Dilber Dilek Dilnaz Dunya Durnyam 
 			Emine Esin Frakhunda 
-			Ghuncha Gül Gulay Gulbahar Gulçiçek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
+			Ghuncha Gül Gulay Gulbahar Gulcicek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
 			Hatice Hawa-gül Hayat Hidligh Huriye 
 			Ibadat-gül Ilbilge Ildico Ilkay Ilknur Iparhan Ipek Ipekel Irdana Irge 
 			Karacik Khanum Kunduz 
@@ -595,7 +595,7 @@ kurgan_group = {
 			Pati-gül Peksen Pharahat Po 
 			Raad Rebiya Ruqiya 
 			Sabahat Salieva Samur Sarica Sati Sevilay Sevindik Seyahat Shara Shara_Sarah Shukria Sibel Sirin Sirma Songul 
-			Tekçe Tura Tursanay 
+			Tekce Tura Tursanay 
 			Umay Usunbike 
 			Yasar Yeldem Yildiz Yulduz Yultuz 
 			Zeb Zuleiha Zuwida 
@@ -631,8 +631,8 @@ kurgan_group = {
 
        male_names = {
 			Abak Abdumannob Abdurahim Abdurashid Abduxaliq Ablajan Adigh Adil Afaq Ahmed Akhad Akhmad Alburia Alghu Alishaer Alisher Alp Alypbi Alzek Anzi Apskhih Arslan Art Askar Askungur Asparukh Attila Aybat Aziz 
-			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgiçi Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulçan Bulger Buqa Buzan Buzer Buzurb 
-			Çat Çat'n Changshi Chapar Chawar Chelbir Chepa Çorpan 
+			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgici Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulcan Bulger Buqa Buzan Buzer Buzurb 
+			Cat Cat'n Changshi Chapar Chawar Chelbir Chepa Corpan 
 			Danishmendji Daniyal Dengisich Dengizich Dengizik Dizeng Djilka Djurash Dometa Dost Dristar Drong Dukum Duwa 
 			Ehmetjan Elemag Elihan Eljigidey Ellec Elterish Eretna Ergash Erkin Ermak Esen-Buqa Eskhach 
 			Fakriddin Furkat 
@@ -640,16 +640,16 @@ kurgan_group = {
 			Hala Hamid Hamza Hernach Hesmat Hoja Hoshur Houdbaad Hudbaad Hülëgü Huseyincan Hushu 
 			Ibi Ilbars Iltäbär Ilteber Iratais Irnek Isa Isbul Ishana Iskender_Alexander Islam Ismail_Ismail Isperikh Ispor Itakh 
 			Jakhangir Jani Juluobo 
-			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundaç Kundaçiq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
+			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundac Kundaciq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
 			Labertam Lutpulla 
 			Magotin Makhmud Malamir Mammaduli Mänär Mänäs Mansur Mansur_Mansur Maqsud Marmais Mënümarót Möngke Mubarak Mugel Murad_Murad Murat Muzaffar 
 			Nag Narbuta Nariman Narimon Nasir_Nasser Nawruz Negübei Nur Nurmuhemmet 
 			Octar Odolgan Öge Okhsi Okhsun Okors Omerjan Omurtag Onegavon Organ Organa Orkesh Ormïzt Ornag Oshi Osman_Uthman Ostro Ötemis 
-			Pagan Palta Pan-kül Papaçyz Peilo Pojuan Praksa Pressian Pulad Pusa 
+			Pagan Palta Pan-kül Papacyz Peilo Pojuan Praksa Pressian Pulad Pusa 
 			Qamaruddin Qaplan Qara Qasar Qazaghan Qazan Quli 
 			Rabban Rais Ramil Rassate Rostam_Rostam Rugila 
-			Sa’id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
-			Täbär Tabghaç Taliqu Tarasiy Tardu Taridin Tarkhan Tarmaç Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
+			Sa'id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
+			Täbär Tabghac Taliqu Tarasiy Tardu Taridin Tarkhan Tarmac Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
 			Ubaidullah Ubaydullah Uldin Ulugh Umor Uturgur Uwais_Uwais 
 			Vanand Vardan Venda Vetam Vinekh Vund 
 			Wuhe 
@@ -660,11 +660,11 @@ kurgan_group = {
        female_names = {
 	   
 			Adliya Adolat Akgul Alimi Altun Amannisa Asli Aslihan Ayasun Aykhan Ayla Ayse Ayten Azize 
-			Bahar Bakhmal Bodom Bozçin 
-			Canan Ceylan Chechak Çiçek Çilen Çiltanesi 
+			Bahar Bakhmal Bodom Bozcin 
+			Canan Ceylan Chechak Cicek Cilen Ciltanesi 
 			Dilber Dilek Dilnaz Dunya Durnyam 
 			Emine Esin Frakhunda 
-			Ghuncha Gül Gulay Gulbahar Gulçiçek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
+			Ghuncha Gül Gulay Gulbahar Gulcicek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
 			Hatice Hawa-gül Hayat Hidligh Huriye 
 			Ibadat-gül Ilbilge Ildico Ilkay Ilknur Iparhan Ipek Ipekel Irdana Irge 
 			Karacik Khanum Kunduz 
@@ -675,7 +675,7 @@ kurgan_group = {
 			Pati-gül Peksen Pharahat Po 
 			Raad Rebiya Ruqiya 
 			Sabahat Salieva Samur Sarica Sati Sevilay Sevindik Seyahat Shara Shara_Sarah Shukria Sibel Sirin Sirma Songul 
-			Tekçe Tura Tursanay 
+			Tekce Tura Tursanay 
 			Umay Usunbike 
 			Yasar Yeldem Yildiz Yulduz Yultuz 
 			Zeb Zuleiha Zuwida 
@@ -711,8 +711,8 @@ kurgan_group = {
 
        male_names = {
 			Abak Abdumannob Abdurahim Abdurashid Abduxaliq Ablajan Adigh Adil Afaq Ahmed Akhad Akhmad Alburia Alghu Alishaer Alisher Alp Alypbi Alzek Anzi Apskhih Arslan Art Askar Askungur Asparukh Attila Aybat Aziz 
-			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgiçi Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulçan Bulger Buqa Buzan Buzer Buzurb 
-			Çat Çat'n Changshi Chapar Chawar Chelbir Chepa Çorpan 
+			Babur Bagha Baghatur Bahaguli Bahauddin Baidar Balamber Bälgici Balgitzi Baraq Barchuq Barjik Bars Bashtwa Bastu Bataul Batbayan Batoya Batulia Baurchuk Bayan Bayanchur Bazh Belk Belkermak Bezmer Bihor Bil Bilge Bleda Bogu Bögü Böra Boris Botir Boyan Boyla Bu-Timer Bu-Urgan Bugha Bulan Bulcan Bulger Buqa Buzan Buzer Buzurb 
+			Cat Cat'n Changshi Chapar Chawar Chelbir Chepa Corpan 
 			Danishmendji Daniyal Dengisich Dengizich Dengizik Dizeng Djilka Djurash Dometa Dost Dristar Drong Dukum Duwa 
 			Ehmetjan Elemag Elihan Eljigidey Ellec Elterish Eretna Ergash Erkin Ermak Esen-Buqa Eskhach 
 			Fakriddin Furkat 
@@ -720,16 +720,16 @@ kurgan_group = {
 			Hala Hamid Hamza Hernach Hesmat Hoja Hoshur Houdbaad Hudbaad Hülëgü Huseyincan Hushu 
 			Ibi Ilbars Iltäbär Ilteber Iratais Irnek Isa Isbul Ishana Iskender_Alexander Islam Ismail_Ismail Isperikh Ispor Itakh 
 			Jakhangir Jani Juluobo 
-			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundaç Kundaçiq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
+			Kahar Kaidu Kano Karan Kardam Karin Kayghalagh Kayqalagh Kebek Kerman Khabul Khadir Khatir Khinialon Khizr Khudayar Khudbard Khuterkin Kibar Kisa Kochkunju Könchek Kordil Koresh Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kül-Erkin Kulug Kundac Kundaciq Kuraysh_Cyrus Kurbat Kurebir Kurt Kutlug Kutrigur Kuvrat 
 			Labertam Lutpulla 
 			Magotin Makhmud Malamir Mammaduli Mänär Mänäs Mansur Mansur_Mansur Maqsud Marmais Mënümarót Möngke Mubarak Mugel Murad_Murad Murat Muzaffar 
 			Nag Narbuta Nariman Narimon Nasir_Nasser Nawruz Negübei Nur Nurmuhemmet 
 			Octar Odolgan Öge Okhsi Okhsun Okors Omerjan Omurtag Onegavon Organ Organa Orkesh Ormïzt Ornag Oshi Osman_Uthman Ostro Ötemis 
-			Pagan Palta Pan-kül Papaçyz Peilo Pojuan Praksa Pressian Pulad Pusa 
+			Pagan Palta Pan-kül Papacyz Peilo Pojuan Praksa Pressian Pulad Pusa 
 			Qamaruddin Qaplan Qara Qasar Qazaghan Qazan Quli 
 			Rabban Rais Ramil Rassate Rostam_Rostam Rugila 
-			Sa’id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
-			Täbär Tabghaç Taliqu Tarasiy Tardu Taridin Tarkhan Tarmaç Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
+			Sa'id Sabin Sabit Salim_Selim Samsam Sandlikh Satuq Savin Setiwaldi Sevar Shahrukh_Shahrokh Shambat Shayabak Sheto Shilki Shingqur Shir Shodja Shokrat Sigritsis Silki Simsam Sinnion Slavnas Sondoke Stazis Subhan Sulabi Sulayman Sultan Sunjuq Süpürga Suurgatmish 
+			Täbär Tabghac Taliqu Tarasiy Tardu Taridin Tarkhan Tarmac Tat-Ugek Tat-Utyak Tatatunga Tatra Tay Tegin Teginbek Tekin Telec Telerig Temür_Timur Tengri Tervel Tiliwaldi Timur Tingiz Tiradin Toghril Tohti Toktu Tomur Tömür Tsog Tsul Tuchiachi Tughlugh Tuk Tuldila Tumitu Tun Tunga Turdacis Turdi Turghan Turghun Tursun Tusun Tutuk Tuzniq 
 			Ubaidullah Ubaydullah Uldin Ulugh Umor Uturgur Uwais_Uwais 
 			Vanand Vardan Venda Vetam Vinekh Vund 
 			Wuhe 
@@ -740,11 +740,11 @@ kurgan_group = {
        female_names = {
 	   
 			Adliya Adolat Akgul Alimi Altun Amannisa Asli Aslihan Ayasun Aykhan Ayla Ayse Ayten Azize 
-			Bahar Bakhmal Bodom Bozçin 
-			Canan Ceylan Chechak Çiçek Çilen Çiltanesi 
+			Bahar Bakhmal Bodom Bozcin 
+			Canan Ceylan Chechak Cicek Cilen Ciltanesi 
 			Dilber Dilek Dilnaz Dunya Durnyam 
 			Emine Esin Frakhunda 
-			Ghuncha Gül Gulay Gulbahar Gulçiçek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
+			Ghuncha Gül Gulay Gulbahar Gulcicek Guldana Guldasta Gulfem Gulkhuron Gulrukhsor Gulsum Gumus Gundes Gunduz Gunes Guzal 
 			Hatice Hawa-gül Hayat Hidligh Huriye 
 			Ibadat-gül Ilbilge Ildico Ilkay Ilknur Iparhan Ipek Ipekel Irdana Irge 
 			Karacik Khanum Kunduz 
@@ -755,7 +755,7 @@ kurgan_group = {
 			Pati-gül Peksen Pharahat Po 
 			Raad Rebiya Ruqiya 
 			Sabahat Salieva Samur Sarica Sati Sevilay Sevindik Seyahat Shara Shara_Sarah Shukria Sibel Sirin Sirma Songul 
-			Tekçe Tura Tursanay 
+			Tekce Tura Tursanay 
 			Umay Usunbike 
 			Yasar Yeldem Yildiz Yulduz Yultuz 
 			Zeb Zuleiha Zuwida 

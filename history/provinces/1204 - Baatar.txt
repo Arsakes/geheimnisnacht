@@ -9,7 +9,7 @@ b_udigi = castle
 #b_kangjia = temple
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

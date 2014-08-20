@@ -4,17 +4,22 @@
 title = c_aquitaine
 
 # Settlements
-max_settlements = 6
-b_aquitaine = castle
+max_settlements = 7
+b_aquit = castle
+b_aquitaine = city
 b_querigueux = city
-b_aulny = temple
-b_castelfauchard = castle
+b_lac_de_tranquillite = temple
+#b_aulny = temple
+#b_castelfauchard = castle
 #b_la_fontelle = castle
-#b_parthillon = city
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_aulny = temple
+}

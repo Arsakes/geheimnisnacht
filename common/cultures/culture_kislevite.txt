@@ -1,6 +1,6 @@
 
 kislevite_group = {
-	graphical_culture = easterngfx
+	graphical_culture = westerngfx
 
 	kislevite = {
 		graphical_culture = easternslavicgfx
@@ -44,7 +44,7 @@ kislevite_group = {
 			Kanyava Kanyuva Kateryna Kirdyava Kunava Kunyavka Katarin Kattarin Katya Kazahaila Kazimira
 			Litava Litova Liubava Liudmila Liyava Luba Lusha Lyubov 
 			Malfrida Malusha Maria_Maria Marina Mariya Mastorava Mazava Megurka Melshay Mikhaylyna Miska Magda Militsa Mishka Myroslava
-			Nadiya Nadyezhda Nataliya Natalya Nezayka Noroava Nulzyava Nuyanza Nyalka Nyayka
+			Nadiya Nadyezhda Nataliya_Natalie Natalya_Natalie Nezayka Noroava Nulzyava Nuyanza Nyalka Nyayka
 			Oksana Oleksandra Olena_Helen Olga Olha Olota Ordava Oshama 
 			Parava Pekshayka Pemka Pereyaslava Pokshava Poshayka Potekay Potyava Praskovya Praxida Prebrana Predslava Premyslava Pribislava Putyayka Pavla
 			Ravzhava Rogneda Rostislava Ruslana Ruzava 
@@ -115,14 +115,14 @@ kislevite_group = {
 			Kalinka Kanyava Kanyuva Katarin Kateryna_Catherine Kattarin Katya Kazahaila Kazimira Khovda Kirdyava Kunava Kunyavka 
 			Litava Litova Liubava Liudmila Liyava Luba Lusha Lyubora Lyubov Lyudmila 
 			Magda Malfrida Malusha Maria_Maria Marina Mariya Mastorava Mazava Megurka Melshay Mertvila Merznitya Mikhaylyna Militsa Mingatdan Mishka Miska Moranila Morozyila Myroslava 
-			Nadiya Nadyezhda Nataliya Natalya Nazehdya Negubeiya Nezayka Noroava Nulzyava Nuyanza Nyalka Nyayka 
+			Nadiya Nadyezhda Nataliya_Natalie Natalya_Natalie Nazehdya Negubeiya Nezayka Noroava Nulzyava Nuyanza Nyalka Nyayka 
 			Oksana Oleksandra Olena_Helen Olexa Olga Olha Olota Ordava Oshama 
 			Parava Pavla Pekshayka Pemka Pereyaslava Pokshava Poshayka Potekay Potyava Praskovya Praxida Prebrana Predslava Premyslava Pribislava Putyayka 
 			Radostina Ravzhava Rogneda Rostislava Ruslana Ruzava 
 			Sanalka Sangasa Sbyslava Sernyava Serzhay Setyamka Seyamka Shoika Shonzhava Shukshtoroyka Sinyava Siyamka Slyuganka Snezanya Snizhana Sobenya Sochava Sofia_Sophia Sofiya Sofiya_Sophia Styaka Svetlana Sviatoslava Svitlana Svyatoslava Syryava 
 			Taira Tatiana Tatka Tatyana Tekay Temnota Teodora Tetyana Tetyava Tikshayka Torghutana Toyaksha Tudastasia Tundava Tundya 
 			Ubashya Ulita Ulyana Unzhutka Upurga Ursula Utyayka 
-			Vajena Valdava Varvara Vasalisa Vasilisa Vasylyna Veleslava Vera Vergava Verkhoslava Veselanya Vezhav Viacheslava Vidyava Vira Virtyava Vseslava 
+			Vajena Valdava Varvara Vasalisa Vasilisa Vasylyna Veleslava Vera_Vera Verena_Verena Vergava Verkhoslava Veselanya Vezhav Viacheslava Vidyava Vira Virtyava Vseslava 
 			Walpura 
 			Xenia 
 			Yalgava Yaroslava Yefimia_Euphemia Yefrosinia_Euphrosyne Yekaterina_Catherine Yelena Yelizaveta_Elisabeth Yevdokia_Eudocia Yevpraxia Yulia 
@@ -218,50 +218,53 @@ kislevite_group = {
 		color = { 0.6 0.9 0.2 }
 
 		male_names = {			
-			Aavo Auctune Aigo Äike Ailo Aimur Ain Aino Aishno Aivo Ako Alar Alevipoeg Algirdas Alo Alvydas Ankad Anno Antanas Antavas Antero Anti Ants Aras Are Arelis Ari Arne Arseni Arunas Arved Arvi Arvo Asse Asso Avo Azuolas 
-			Baise Bajoras Baldur Balodis Beidras Bikshe Borut Budo Budrys Bukantas Bulei Butavas Butigeidis Butovit Butvydas 
-			Cake Caupo Cirulis Culle 
-			Dabrel Dagonis Dangeruthe Darbeslave Daugvilas Daumantas Dausprungas Davins Demas Dobre Dovyat Dravenis Dzintis 
+			Aavo Aigo Äike Ailo Aimur Ain Aino Aishno Aivo Ako Alar Aleksander_Alexander Alevipoeg Algirdas Alo Alvydas Andrzej_Andrew Ankad Anno Antanas Antavas Antero Anti Antoni_Antoninus Ants Aras Are Arelis Ari Arne Aron Arseni Arunas Arved Arvi Arvo Asse Asso Atrimpas Atrimpos Auctune Auxtejas Avo Azuolas 
+			Baise Bajoras Baldur Balodis Barnim Bartosz_Bartolomeus Bedrich_Frederick Beidras Bezprzym Bikshe Blazej_Blaise Bogislaw_Boguslaw Bohdan_Bogdan Bohumir Boleslaw_Boleslav Boriwoj_Borijov Borut Bozydar_Theodat Branimir Branislav Bretislav_Bretislaus Budo Budrys Bukantas Bulei Butavas Butigeidis Butovit Butvydas 
+			Cake Casimir Caupo Cirulis Ctibor_Ctibor Culle 
+			Dabrel Dagonis Dangeruthe Darbeslave Daugvilas Daumantas Dausprungas Davins Demas Dobieslaw Dobre Dobromil Dovyat Dravenis Drosuk Dytryk_Thierry Dzintis 
 			Eego Eerik Eino Ekkelis Eksitaja Elju Elmede Endo Enn Enu Erasts Erdenis Erdvilas Erdzivil Ero 
-			Galeine Galindas_Galindo Gastile Gauronas Gedere Gedigaudas Gediminas Gedivilas Gerdautas Gerden Gerweder Gibedats Giemund Gintaras Gintautas Girdenis Glande Golding Golovke Gotene Gunnar Gunvald 
-			Hännamees Hannu Helgo Heljo Hoidja 
+			Frantisek_Francis 
+			Galeine Galindas_Galindo Gardaitis Gardeoldiis Gastile Gauronas Gawel_Gallus Gedere Gedigaudas Gediminas Gedivilas Gerdautas Gerden Gerweder Gibedats Giemund Gintaras Gintautas Girdenis Glande Golding Golovke Gotene Grzegorz_Gregory Gunnar Gunvald 
+			Hännamees Hannu Havel_Gallus Helgo Heljo Hoidja 
 			Illo Ilmar Ilmedous Ilo Ilu Imake Imanta Imme Irmantas 
-			Janis_John Järvevana Jauguttis Jaunule Jaunutis Jedetus Jogaila Jovirdas Jullo Jumal Jumars Juvage 
-			Kaevukoll Kage Kaire Kalev Kalevine Kalevipoeg Kalju Kalle Kalm Kantibutas Karatas Karijotas Karnak Kaupo Kerstigens Kesgaila Kestutis Kike Kiten Klavess Klukis Kodere Koit Korigaila Korybutas Kõu Kovals Kugis Kulevene Kuliens Kurlemuse Kyrianus 
-			Lammekinus Lasukas Layanus Leho Lembe Lembewalde Lembit Lembits Lembitu Likiik Lingvenis Litto Liudas Livis Livs Lonkogveni Lubartas Lutuveras 
-			Mana Manalane Mantvydas Manvydas Mati Meelis Meeme Meinekinus Melete Mendune Merkelis Metsavana Mikko Milzas Mindaugas Minigaila Movkoldas Muntelene Musts 
+			Jacenty_Hyacinth Jakub_Jacob Jakusz_Jacob Janis_John Janusz_John Jaromar_Jaromir Jaromil Jaromir_Jaromir Jaroslav_Jaroslav Järvevana Jauguttis Jaunule Jaunutis Jedetus Jedrzej_Andrew Jindrich_Henry Jirí_George Jogaila Jovirdas Jozef_Joseph Juliusz_Julian Jullo Jumal Jumars Juvage 
+			Kabiry Kaevukoll Kage Kaire Kajetan Kalev Kalevine Kalevipoeg Kalju Kalle Kalm Kamil_Camillus Kantibutas Karatas Karel_Charles Karijotas Karnak Kasper Kaupo Kawas Kazimierz Kerstigens Kesgaila Kestutis Kibirai Kike Kiten Klavess Kliment_Clement Klukis Kodere Koit Kolman_Koloman Korigaila Kornel_Cornelius Korybutas Kõu Kovals Kovas Kresimir Kriukis Krugis Krzeslaw Krzysztof_Christopher Kugis Kulevene Kuliens Kurlemuse Kyrianus 
+			Lammekinus Lasukas Layanus Lech Leho Lembe Lembewalde Lembit Lembits Lembitu Leszek Likiik Lingvenis Litto Liudas Livis Livs Lonkogveni Lubartas Lubomir Lucjan_Lucius Ludvik_Louis Lutuveras 
+			Mana Manalane Mantvydas Manvydas Marek_Marcus Marian_Marius Martin_Martin Mateusz_Matthew Mati Meelis Meeme Meinekinus Melete Mendune Merkelis Metsavana Mieszko Mikko Mikolás_Nicholas Miloslaw Milosz_Milosz Milzas Mindaugas Minigaila Miroslaw_Miroslav Movkoldas Mscislaw_Mstislav Msciwoj Muntelene Musts 
 			Nameisis Narimantas Narvait Ninnus Nomedas Nunnus 
-			Olavi Olev Olevipoeg Osmi 
-			Paimis Pardiajaja Pedo Peite Peninukk Peremees Pikker Pikne Piške Pliksov Povilas Prusas Pukiik Pukuveras Puuk 
-			Raimo Raino Raivo Reijo Reino Rimantas Rimgaila Rimvydas Ringaudas Rushky Rusins 
-			Sabe Sargun Sarunas Scurdo Sergonis Shutr Shvarnas Skirgaila Skornand Sohni Soiga Soini Songaila Sprudeik Stegut Steikint Sula Sulev Sulevipoeg Svarnas Sviendorog Svitrigaila 
-			Taevas Taevataat Taimo Taivas Taivis Taivo Talivaldis Tappete Tarvydas Tautvila Toivo Tont Tooni Toor Tooru Tovtivilas Traidenis Treniota Treniotas Tuuleisa Tuuslar 
-			Uku Uldenago Ulinniks Ulitis Unnepeve 
-			Vainius Vaino Vaishvilkas Vaisvilkas Valata Valikaila Valimantas Valve Vambola Vanaisa Vanema Veino Vello Vesike Vetseke Vidmantas Viesturs Vietso Viezo Viliendi Vingoldas Virmantas Visheiv Vishikut Vishly Visvaldis Vykantas Vytautas Vytenis 
-			Wade Waldeko Wane Wanko Wiezo Yalde Ylle Ylo Ymaut Yudki 
-			Zivinbudas Zygimantas 
-			}
+			Okkapirmas Olavi Oldrich_Ulrich Olev Olevipoeg Ondrej_Andrew Osmi Otokar 
+			Paimis Pardiajaja Patelas Patelo Patryk_Patrick Pawel_Paul Pedo Peite Peninukk Peremees Perkunas Pikker Pikne Piotr_Peter Piške Pliksov Poklius Poklus Povilas Praamžius Pramzimas Prendota Prusas Przemysl_Premysl Przybyslaw Pukiik Pukuveras Puuk 
+			Radomil Radomir Radoslav Ragutis Raimo Raino Raivo Reijo Reino Rimantas Rimgaila Rimvydas Ringaudas Rostislav Rushky Rusins Ryszard_Richard 
+			Sabe Sambor Santvaras Sargun Sarunas Scurdo Sergonis Shutr Shvarnas Skirgaila Skornand Šneibratas Sobieslav_Sobeslaus Sohni Soiga Soini Songaila Sotvaras Sotwaros Sprudeik Stanislaw_Stanislav Stegut Steikint Strasz Sula Sulev Sulevipoeg Svarnas Sviendorog Svitrigaila Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczepan_Stephen Szczesny Sznejbrato Szymon 
+			Tadeusz_Theodore Taevas Taevataat Taimo Taivas Taivis Taivo Talivaldis Tappete Tarvydas Tautvila Toivo Tomasz_Thomas Tont Tooni Toor Tooru Tovtivilas Traidenis Treniota Treniotas Tuuleisa Tuuslar 
+			Udalrich Ukapirmas Uku Uldenago Ulinniks Ulitis Unnepeve Urjasz 
+			Vainius Vaino Vaishvilkas Vaisvilkas Valata Valikaila Valimantas Valve Vambola Vanaisa Vanema Veino Vello Vesike Vetseke Vidmantas Viesturs Vietso Viezo Viliendi Vingoldas Virmantas Viršaitis Visheiv Vishikut Vishly Visvaldis Vojtech_Albert Vykantas Vytautas Vytenis 
+			Waclaw_Vaclav Wade Waldeko Walenty_Valentin Wane Wanko Wawrzyniec_Laurence Wenceslaw_Vaclav Wiezo Wincenty_Vincent Wirszajtos Wissagistis Wizlaw Wladyslaw_Vladislav Wlodek Wlodzimierz Wlodzislaw_Vladislav Wratislaw Wratislaw_Vratislav 
+			Yalde Ylle Ylo Ymaut Yudki 
+			Zbigniew_Zbynek Zdenek Zdislav Ziemienikas Žiemininkas Zivinbudas Zygimantas Zygmunt_Sigmund 
+		}
 
 		female_names = {
-			Agita Äiatar Aime Aive Aldona Anele Anu Astrid Audra Ausala Ausra
-			Balba Betten Birute Bitens Brita
-			Dagas Daira Dannila Danute Darate Dardedze Dose Dzeguze
-			Eda Eevi Eha Ehaema Elmede Endla Ent Evalda
-			Galene Gaudimante Gelennis Gerkus Giedre Gintare Grasus Greze Gulbis Gunda Gundega
-			Haldjas Hämarik Hele Helga Helgi Heli Helja Helju Helme Helmi Helve Helvi Hilja
-			Ieva Ilma Ilmaneitsi Ilmatütar Ilo Ilu Imake Imatra Imela Imetra Imma Inda Ingrid
-			Jevna Jumara Jutta
-			Kairi Kaja Kalmuneiu Kenna Kordula Kratt
-			Laima Laine Leili Lelu Liga Linda Liva Lumme Luupainaja
-			Maaemä Maija Maimu Maire Marite Meeli Metsaema Mikova Mila Milyuns Murueide Murueit Näkk Naula Nõid
+			Agita Agnieszka_Agnes Äiatar Aime Aive Alabatis Aldona Alzbeta Andela Anele Anna_Anna Anu Astrid Audra Ausala Ausra Aušra Ausssra Austeja Austheja 
+			Balba Berta Betten Bezelea Biruta Birute Bitens Boba Bohuslava Bozena Branislava Brekšta Brekszta Brita Budintoja Budte 
+			Dagas Dagmar Daira Dannila Danuta Danute Darate Dardedze Dobravy Dobroniega Dorota_Dorothy Dose Dragomira Dugna Dugne Dzeguze Eda Edyta Eevi Eha Ehaema Elmede Emä Endla Ent Evalda Ewa 
+			Gabija Gaila Gajla Galene Gaudimante Geira Gelda Gelennis Gerkus Gertruda_Gertrude Giedre Gintare Gondu Gracja Grasus Grazyna Greze Gulbis Gunda Gundega 
+			Haldjas Halina Hämarik Hanna Hele Helga Helgi Heli Helja Helju Helme Helmi Helve Helvi Hilja 
+			Ieva Ilma Ilmaneitsi Ilmatütar Ilo Ilu Imake Imatra Imela Imetra Imma Inda Ingrid Irena Izabela 
+			Jadwiga Jarka Jarmila Jevna Jolanta Judyta_Judith Jumara Jutta 
+			Kairi Kaja Kalmuneiu Kamila Katarina_Catherine Kenna Kordula Kornelia Kratt Kronis Krumine Kruonis Krystyna_Christina Ksenia 
+			Lada Lado Laima Laine Lajma Lazdona Leili Lelu Lidia Liethua Lietuva Liga Linda Liva Ludmila Lumme Luna Luobo Luupainaja 
+			Maaemä Magda_Magdalena Magdalena_Magdalena Maija Maimu Maire Malgorzata Marcelina Maria_Maria Marite Markéta Martyna Mateja Matergabia Matylda_Matilda Medziojna Meeli Mešlu Metsaema Mikova Mila Milda Milena Milyuns Miroslava Moteru Motina Murueide Murueit 
+			Näkk Naula Neris Nijola Nijole Nõid 
 			Olavi 
-			Painaja Piret Pisuhänd Põrguneitsi
-			Raili Rasa Rõugutaja Roze Ruta
-			Salme Saule Savna Siret Sirje Svajone
-			Taara Taarapita Tarapita Tarapitha Tharapita Tooru Tulihänd Tütred Tuule-Emä
-			Vaike Vanema Veteema Viba Vida
-			Weslikan
-			Ziedas Zigne		
+			Painaja Pajauta Pati Pechna Pelenu Pergrube Pergrubie Perkunaitele Perkunatele Pilvyte Pilwite Piret Pisuhänd Polengabia Põrguneitsi Praurime 
+			Radomila Radomira Radoslava Ragana Ragutiene Raili Raina Rasa Ratainycia Ratajniczu Regelinda Rõugutaja Róza Roze Ruta Rycheza 
+			Salme Salomea Saule Savna Siret Sirje Smiechna Stanislava Stefana_Stephania Svajone Svetlana 
+			Taara Taarapita Tarapita Tarapitha Tharapita Tooru Tulihänd Tütred Tuule 
+			Upine Urszula Usparinia Užsparine 
+			Václava Vaike Valgine Vanema Veliuona Vera_Vera Verena_Verena Verpeja Veteema Viba Vida Vladislava 
+			Walgina Wellona Wera Werpeja Weslikan Wojslawa 
+			Zdenka Žemes Ziedas Zigne Zofia Zwinislawa 
 		}		
 		
 		pat_grf_name_chance = 40
@@ -275,51 +278,59 @@ kislevite_group = {
 		modifier = ungol_culture_modifier
 	}
 		
+
 	kyazak = {
 		graphical_culture = easternslavicgfx
 		color = { 0.6 0.9 0.2 }
 
 		male_names = {			
-			Azislaus Aybakmir Alghumir Asenislav Altanpolk
-			Batuslav Bayanslav Boleslav Bolaqdan Borislaus Bulat Branislav Baibagas
-			Chernogdan Chatagdan Chernomir Chernoslav
-			Djenghislav Dughlatir Dusan Duyan Dzungimil
-			Gennadimir Grigor Gibeldan Gibelaus Galdan Goranmir Geresandzir
-			Igorikh Ilyas Ilyumzhin
-			Janimir Jalalmir Jabarislav
-			Karemdan Küchükhan Kyrilomir Konstantir Kholodan Kipchaghan Kirsan Kubanmil Khoitibran
-			Leonidan Levohd Lekhrod
-			Mengudan Murtadamir Morozhin Moranir Miryan Mladrozh Mstimil Mstislav Morozpolk
-			Nazehdan
-			Puladan Petrohan
-			Qulpaslav
-			Ruslan Radimir Radislav Radibran
-			Sabranimir Stanimir Serghis Smertodan Slabidan Strimir Snezabran Skazimir
-			Talabugan Temurdan Temnir Tughlev
-			Uzbegmir Urus Ursulav Uluslav
-			Vladitaq Volodimir Viktorad Voloslav Vukdan Vlastimil
-			Yasaur Yesunir Yarmorozh
-			Zwentislav Zlatislav Zlatimir
+			Alghumir Alik Altanpolk Andyamo Asenislav Atyamas Aybakmir Azislaus Azyren 
+			Baibagas Batuslav Bayanslav Bolaqdan Boleslav Borislaus Branislav Bulat 
+			Chatagdan Chernogdan Chernomir Chernoslav Chichayka Chipaz Chumbulat 
+			Dergun Deryab Djenghislav Dobrinya Dughlatir Dusan Duyan Dzungimil 
+			Erziya 
+			Galdan Gennadimir Geresandzir Gibelaus Gibeldan Goranmir Grigor 
+			Hasaba 
+			Igorikh Ilyas Ilyumzhin Inzhay 
+			Jabarislav Jalalmir Janimir 
+			Kako Kardaz Karemdan Kezhapa Kezhay Kezhedey Kezhevat Kharuchi Khoitibran Kholodan Kichay Kinyak Kipchaghan Kirsan Kolik Konstantir Koshel Kubanmil Kubrat Küchükhan Kyrilomir 
+			Lekhrod Leonidan Levohd 
+			Malyaka Malyy Mandak Meltsayka Mengudan Miryan Mladrozh Moksha Moranir Mordvinko Morozhin Morozpolk Mstimil Mstislav Murtadamir Murunza 
+			Nabtiko Nalka Naruchad Nazehdan Nenyts Nga Ngënoh Nishkepaz Noumea Num Nuyaksha Nuyanza Nuyat Nyalku 
+			Orunza Ovtay 
+			Pakstyan Paksyay Paksyut Panay Parush Petrohan Pivtsay Pokshayka Pudak Puladan Puresh Purysho Putyayka 
+			Qulpaslav 
+			Radibran Radimir Radislav Ruslan 
+			Sabranimir Saksa Salinder Samatu Sarak Serghis Setyamka Shindyay Shkay Shoksha Sirtya Skazimir Slabidan Smertodan Snezabran Somatu Stanimir Strimir Surt Syrka Syudbya 
+			Talabugan Tatva Temnir Temurdan Tikshayka Tolik Tughlev Tul Tunya Tutyra Tylmache Tylze Tyueykezhut Tyushten Tyushtya 
+			Uchva Uluslav Ursulav Urus Uzbegmir Uzhara 
+			Varaka Varmanpaz Vechkas Velmayka Vesei Viktorad Virdyan Viryas Viryay Vladitaq Vlastimil Volodimir Voloslav Vukdan 
+			Wayngachi 
+			Xëryuchi 
+			Yadne Yapti Yar Yarmorozh Yasaur Yavlad Yesunir Yurak 
+			Zlatimir Zlatislav Zwentislav 
 		}
 
 		female_names = {
-			Awaisa Anuchinya Ayukana
-			Batumila Baidara Buzana Byelomila
-			Chernora Cherniluda Chorosmira
-			Dazbogda Dobrezhena Dorbeta
-			Esenbuqa
-			Ghiya
-			Khovda Kalinka
-			Lyubora Lyudmila
-			Morozyila Merznitya Mertvila Moranila Mingatdan
-			Nazehdya Natalya Negubeiya
-			Olexa Oksana Olha
-			Radostina
-			Sofiya Svetlana Sobenya Snezanya
-			Tudastasia Tatyana Temnota Teodora Torghutana
-			Ursula Ulyana Ubashya
-			Vera Veselanya
-			Yelena
+			Anava Anuchinya Ashava Asrava Atpälha Auli Awaisa Ayukana Azra-Va 
+			Baidara Batumila Buzana Byelomila 
+			Chechama Chenksa Cherava Cherniluda Chernora Chichayka Chindyapa Chindyayka Chinzhay Chitska Chorosmira 
+			Dazbogda Dobrezhena Dorbeta 
+			Elyuva Esenbuqa 
+			Galya Ghiya 
+			Ilme Inyava 
+			Kalinka Kanyava Kanyuva Kat Khatyako Khovda Kirdyava Kontäw Kujku Kunava Kunyavka 
+			Laptsui Litava Litova Liyava Lyubora Lyudmila 
+			Mastorava Mazava Megurka Mel'shay Mertvila Merznitya Mingatdan Moranila Morozyila 
+			Natalya_Natalie Nazehdya Negubeiya Nezayka Ngeva Noroava Nulzyava Nuyanza Nyal'ka Nyayka 
+			Oksana Olexa Olha Olota Ordava Oshama 
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka 
+			Radostina Ravzhava Ruzava 
+			Sanal'ka Sangasa Senda Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Snezanya Sobenya Sochava Sofiya Styaka Svetlana Syeju Syryava 
+			Tada Tadane Tatka Tatyana Tekay Temnota Teodora Tetyava Tikshayka Torghutana Toyaksha Tudastasia Tundava Tundya 
+			Ubashya Ulyana Unzhutka Upurga Ursula Utyayka 
+			Valdava Vera Vergava Veselanya Vezhav Vidyava Virtyava 
+			Yalgava Yar Yelena 
 			Zastivata Zivmila Zlatomira
 		}		
 		

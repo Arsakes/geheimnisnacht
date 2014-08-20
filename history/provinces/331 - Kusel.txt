@@ -16,3 +16,7 @@ religion = taalite
 
 
 # History
+
+2250.1.1 = {
+	b_strudel = castle
+}

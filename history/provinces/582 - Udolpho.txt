@@ -11,7 +11,7 @@ b_sovoio = city
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

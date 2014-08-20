@@ -7,10 +7,10 @@ title = c_aram
 max_settlements = 3
 b_aram = castle
 b_pilseresh = city
-b_sharam = temple
+#b_sharam = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

@@ -6,7 +6,7 @@ title = c_rhazgala
 # Settlements
 max_settlements = 2
 b_rhazgala = castle
-#b_korik = city
+#b_korik = temple
 
 # Misc
 culture = orc_main

@@ -7,7 +7,7 @@ title = c_wittgendorf
 max_settlements = 5
 b_castle_wittgenstein = castle
 b_wittgendorf = city
-b_brackenheim = city
+#b_brackenheim = city
 #b_gandersheim = temple
 #b_brandenburg = castle
 
@@ -17,3 +17,7 @@ religion = sigmarite
 
 
 # History
+
+2500.1.1 = {
+	b_brackenheim = city
+}

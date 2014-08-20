@@ -1,5 +1,5 @@
 #561 Montacute
-#County Title
+
 title = c_montacute
 
 #Settlements
@@ -11,6 +11,10 @@ b_invoca = temple
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_amita = temple
+}

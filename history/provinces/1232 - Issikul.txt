@@ -9,7 +9,7 @@ b_vurgul = castle
 #b_jakwa = temple
 
 # Misc
-culture = gharhar
+culture = tahmak
 religion = chaos
 
 

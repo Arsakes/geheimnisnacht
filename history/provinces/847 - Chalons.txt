@@ -7,7 +7,7 @@ title = c_chalons
 max_settlements = 4
 b_champebourg = castle
 b_maisonrie = city
-b_sainte_chapelle = temple
+#b_sainte_chapelle = temple
 #b_issoroux = temple
 
 # Misc
@@ -17,5 +17,9 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = breton }
+
+2250.1.1 = {
+	b_sainte_chapelle = temple
+}

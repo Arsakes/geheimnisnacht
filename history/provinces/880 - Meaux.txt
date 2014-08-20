@@ -13,7 +13,11 @@ b_jaurras = castle
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_gaumar = castle
+}

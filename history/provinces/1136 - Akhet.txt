@@ -6,11 +6,11 @@ title = c_akhet
 # Settlements
 max_settlements = 3
 b_akhet = castle
-b_naucratis = city
-b_nekheb = temple
+#b_naucratis = city
+#b_nekheb = temple
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 

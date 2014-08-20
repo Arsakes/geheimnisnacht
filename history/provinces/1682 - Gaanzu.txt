@@ -9,7 +9,7 @@ b_gaanzu = castle
 #b_temur = city
 
 # Misc
-culture = chi_an
+culture = mung
 religion = chaos
 
 

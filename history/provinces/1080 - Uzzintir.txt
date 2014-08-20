@@ -9,7 +9,7 @@ b_karak_uzzir = castle
 #b_rakkarol = city
 
 # Misc
-culture = lahmian
+culture = strigany
 religion = vampiric
 
 

@@ -7,13 +7,17 @@ title = c_brussergue
 max_settlements = 5
 b_brusse = temple
 b_tourasque = temple
-b_balamoir = castle
+#b_balamoir = castle
 #b_calotte = city
 #b_sombrac = city
 
 # Misc
 culture = carcassian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_balamoir = castle
+}

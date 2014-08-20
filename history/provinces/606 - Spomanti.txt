@@ -7,13 +7,17 @@ title = c_spomanti
 max_settlements = 5
 b_spomanti = castle
 b_belladonna = city
-b_corciro = temple
+#b_corciro = temple
 #b_litica = castle
 #b_olopia = castle
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_corciro = temple
+}

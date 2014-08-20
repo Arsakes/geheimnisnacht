@@ -1,40 +1,40 @@
 650000={
-name = "Karl"
-dynasty = 14021
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 8
-stewardship = 4
-intrigue = 7
-learning = 3
-father = 650024
-mother = 650025
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "thrifty_clerk"
+name="Karl"
+dynasty=14021
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=8
+stewardship=4
+intrigue=7
+learning=3
+father=650024
+mother=650025
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="thrifty_clerk"
 add_trait="gregarious"
 add_trait="craven"
 add_trait="honest"
 
 1966.10.29={birth=yes}
-1996.8.12 = {add_spouse=650030}
+1996.8.12={add_spouse=650030}
 2019.5.13={death=yes}
 }
 
 650001={
-name = "Halvor"
-dynasty = 14016
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 0
-intrigue = 6
-learning = 6
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "misguided_warrior"
+name="Halvor"
+dynasty=14016
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=0
+intrigue=6
+learning=6
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="misguided_warrior"
 add_trait="kind"
 
 1994.4.17={birth=yes}
@@ -42,19 +42,19 @@ add_trait="kind"
 }
 
 650002={
-name = "Ingebjørg"
-female = yes
-dynasty = 14039
-culture = nordlander
-religion = sigmarite
-martial = 1
-diplomacy = 8
-stewardship = 5
-intrigue = 5
-learning = 1
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "intricate_webweaver"
+name="Ingebjørg"
+female=yes
+dynasty=14039
+culture=nordlander
+religion=sigmarite
+martial=1
+diplomacy=8
+stewardship=5
+intrigue=5
+learning=1
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 1981.4.19={birth=yes}
@@ -62,40 +62,40 @@ add_trait="greedy"
 }
 
 650003={
-name = "Sigrid"
-female = yes
-dynasty = 14023
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 6
-stewardship = 8
-intrigue = 8
-learning = 8
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "charismatic_negotiator"
+name="Sigrid"
+female=yes
+dynasty=14023
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=6
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="charismatic_negotiator"
 add_trait="cruel"
 add_trait="tall"
 
 1957.11.4={birth=yes}
-1977.1.2 = {add_spouse=650071}
+1977.1.2={add_spouse=650071}
 2044.4.3={death=yes}
 }
 
 650004={
-name = "Halfdan"
-dynasty = 14054
-culture = nordlander
-religion = ulrican
-martial = 10
-diplomacy = 8
-stewardship = 2
-intrigue = 5
-learning = 10
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "elusive_shadow"
+name="Halfdan"
+dynasty=14054
+culture=nordlander
+religion=ulrican
+martial=10
+diplomacy=8
+stewardship=2
+intrigue=5
+learning=10
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="elusive_shadow"
 add_trait="wroth"
 add_trait="chaste"
 1972.7.25={birth=yes}
@@ -103,18 +103,18 @@ add_trait="chaste"
 }
 
 650005={
-name = "Leif"
-dynasty = 14025
-culture = nordlander
-religion = sigmarite
-martial = 0
-diplomacy = 6
-stewardship = 1
-intrigue = 8
-learning = 0
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "charismatic_negotiator"
+name="Leif"
+dynasty=14025
+culture=nordlander
+religion=sigmarite
+martial=0
+diplomacy=6
+stewardship=1
+intrigue=8
+learning=0
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="charismatic_negotiator"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
@@ -124,18 +124,18 @@ add_trait="humble"
 }
 
 650006={
-name = "Anders"
-dynasty = 14028
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 1
-stewardship = 6
-intrigue = 5
-learning = 1
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Anders"
+dynasty=14028
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=1
+stewardship=6
+intrigue=5
+learning=1
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 add_trait="content"
 
 1980.8.2={birth=yes}
@@ -143,21 +143,21 @@ add_trait="content"
 }
 
 650007={
-name = "Estrid"
-female = yes
-dynasty = 14022
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 8
-stewardship = 9
-intrigue = 4
-learning = 7
-father = 650034
-mother = 650035
-add_trait = "creature_human"
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Estrid"
+female=yes
+dynasty=14022
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=8
+stewardship=9
+intrigue=4
+learning=7
+father=650034
+mother=650035
+add_trait="creature_human"
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 add_trait="drunkard"
 
@@ -166,61 +166,61 @@ add_trait="drunkard"
 }
 
 650008={
-name = "Ulf"
-dynasty = 14034
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 6
-intrigue = 4
-learning = 5
-father = 650062
-mother = 650063
-add_trait = "creature_human"
-add_trait = "mastermind_theologian"
+name="Ulf"
+dynasty=14034
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=6
+intrigue=4
+learning=5
+father=650062
+mother=650063
+add_trait="creature_human"
+add_trait="mastermind_theologian"
 add_trait="lustful"
 
 1982.12.14={birth=yes}
-2004.3.1 = {add_spouse=650042}
+2004.3.1={add_spouse=650042}
 2038.11.26={death=yes}
 }
 
 650009={
-name = "Mikkel"
-dynasty = 14046
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 6
-stewardship = 6
-intrigue = 1
-learning = 10
-father = 650064
-mother = 650065
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "scholarly_theologian"
+name="Mikkel"
+dynasty=14046
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=6
+stewardship=6
+intrigue=1
+learning=10
+father=650064
+mother=650065
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="scholarly_theologian"
 add_trait="homosexual"
 1987.7.4={birth=yes}
 2021.8.19={death=yes}
 }
 
 650010={
-name = "Gotfred"
-dynasty = 14043
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 7
-father = 650047
-mother = 650048
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "scholarly_theologian"
+name="Gotfred"
+dynasty=14043
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=7
+father=650047
+mother=650048
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="scholarly_theologian"
 add_trait="lisp"
 
 2001.10.13={birth=yes}
@@ -228,38 +228,38 @@ add_trait="lisp"
 }
 
 650011={
-name = "Fredrik"
-dynasty = 14012
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 6
-intrigue = 6
-learning = 5
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "lustful"
-add_trait = "misguided_warrior"
+name="Fredrik"
+dynasty=14012
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=6
+intrigue=6
+learning=5
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="lustful"
+add_trait="misguided_warrior"
 
 1977.9.13={birth=yes}
-1994.9.27 = {add_spouse=650053}
+1994.9.27={add_spouse=650053}
 2022.1.30={death=yes}
 }
 
 650012={
-name = "Peder"
-dynasty = 14018
-culture = nordlander
-religion = sigmarite
-martial = 1
-diplomacy = 7
-stewardship = 2
-intrigue = 6
-learning = 7
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "flamboyant_schemer"
+name="Peder"
+dynasty=14018
+culture=nordlander
+religion=sigmarite
+martial=1
+diplomacy=7
+stewardship=2
+intrigue=6
+learning=7
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="flamboyant_schemer"
 add_trait="fair"
 add_trait="diligent"
 add_trait="strong"
@@ -269,18 +269,18 @@ add_trait="strong"
 }
 
 650013={
-name = "Jakob"
-dynasty = 14013
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 1
-stewardship = 9
-intrigue = 11
-learning = 6
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Jakob"
+dynasty=14013
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=1
+stewardship=9
+intrigue=11
+learning=6
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="proud"
 add_trait="patient"
@@ -290,18 +290,18 @@ add_trait="patient"
 }
 
 650014={
-name = "Sigfred"
-dynasty = 14028
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 4
-stewardship = 7
-intrigue = 0
-learning = 5
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Sigfred"
+dynasty=14028
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=4
+stewardship=7
+intrigue=0
+learning=5
+add_trait="creature_human"
+add_trait="poet"
+add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="envious"
 add_trait="arbitrary"
@@ -311,18 +311,18 @@ add_trait="arbitrary"
 }
 
 650015={
-name = "Olav"
-dynasty = 14016
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 6
-stewardship = 8
-intrigue = 4
-learning = 8
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "mastermind_theologian"
+name="Olav"
+dynasty=14016
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=6
+stewardship=8
+intrigue=4
+learning=8
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="mastermind_theologian"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="just"
@@ -332,18 +332,18 @@ add_trait="just"
 }
 
 650016={
-name = "Sivard"
-dynasty = 14047
-culture = nordlander
-religion = sigmarite
-martial = 10
-diplomacy = 8
-stewardship = 2
-intrigue = 6
-learning = 10
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Sivard"
+dynasty=14047
+culture=nordlander
+religion=sigmarite
+martial=10
+diplomacy=8
+stewardship=2
+intrigue=6
+learning=10
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="gregarious"
 add_trait="paranoid"
@@ -353,19 +353,19 @@ add_trait="paranoid"
 }
 
 650017={
-name = "Klara"
-female = yes
-dynasty = 14060
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 8
-stewardship = 7
-intrigue = 11
-learning = 9
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "grey_eminence"
+name="Klara"
+female=yes
+dynasty=14060
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=8
+stewardship=7
+intrigue=11
+learning=9
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="grey_eminence"
 add_trait="craven"
 add_trait="honest"
 add_trait="greedy"
@@ -375,18 +375,18 @@ add_trait="greedy"
 }
 
 650018={
-name = "Vilfred"
-dynasty = 14043
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 9
-intrigue = 6
-learning = 0
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "scholarly_theologian"
+name="Vilfred"
+dynasty=14043
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=9
+intrigue=6
+learning=0
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="scholarly_theologian"
 add_trait="kind"
 
 
@@ -396,18 +396,18 @@ add_trait="kind"
 }
 
 650019={
-name = "Rune"
-dynasty = 14027
-culture = nordlander
-religion = sigmarite
-martial = 9
-diplomacy = 6
-stewardship = 8
-intrigue = 0
-learning = 6
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "elusive_shadow"
+name="Rune"
+dynasty=14027
+culture=nordlander
+religion=sigmarite
+martial=9
+diplomacy=6
+stewardship=8
+intrigue=0
+learning=6
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="elusive_shadow"
 
 
 add_trait="tall"
@@ -420,19 +420,19 @@ add_trait="tall"
 #######################
 
 650020={
-name = "Ingrid"
-female = yes
-dynasty = 14022 
-culture = nordlander
-religion = sigmarite
-martial = 9
-diplomacy = 6
-stewardship = 8
-intrigue = 0
-learning = 6
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "elusive_shadow"
+name="Ingrid"
+female=yes
+dynasty=14022 
+culture=nordlander
+religion=sigmarite
+martial=9
+diplomacy=6
+stewardship=8
+intrigue=0
+learning=6
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="elusive_shadow"
 
 
 add_trait="tall"
@@ -443,40 +443,40 @@ add_trait="tall"
 
 
 650021={
-name = "Hjalmar"
-dynasty = 14019 
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 9
-intrigue = 6
-learning = 0
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "scholarly_theologian"
+name="Hjalmar"
+dynasty=14019 
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=9
+intrigue=6
+learning=0
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="scholarly_theologian"
 add_trait="kind"
 
 
 
 1231.4.16={birth=yes}
-1265.1.1={give_nickname = nick_the_tyrannical}
+1265.1.1={give_nickname=nick_the_tyrannical}
 1271.4.21={death=yes}
 }
 
 650022={
-name = "Valdemar"
-dynasty = 14020 
-culture = nordlander
-religion = sigmarite
-martial = 10
-diplomacy = 8
-stewardship = 2
-intrigue = 6
-learning = 10
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Valdemar"
+dynasty=14020 
+culture=nordlander
+religion=sigmarite
+martial=10
+diplomacy=8
+stewardship=2
+intrigue=6
+learning=10
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="gregarious"
 add_trait="paranoid"
@@ -486,20 +486,20 @@ add_trait="paranoid"
 }
 
 650023={
-name = "Konrad"
-dynasty = 14021 
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 8
-stewardship = 7
-intrigue = 11
-learning = 9
-father = 650058
-mother = 650060
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "grey_eminence"
+name="Konrad"
+dynasty=14021 
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=8
+stewardship=7
+intrigue=11
+learning=9
+father=650058
+mother=650060
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="grey_eminence"
 add_trait="craven"
 add_trait="honest"
 add_trait="greedy"
@@ -509,1080 +509,1080 @@ add_trait="greedy"
 }
 
 650024={
-name = "Hewald"
-dynasty = 14021
-dna = "gaibmhlebdn"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 3
-intrigue = 6
-learning = 5
-father = 650058
-mother = 650060
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "chaste"
+name="Hewald"
+dynasty=14021
+dna="gaibmhlebdn"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=6
+learning=5
+father=650058
+mother=650060
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="chaste"
 1942.10.5={birth=yes}
-1960.6.21 = {add_spouse=650025}
+1960.6.21={add_spouse=650025}
 1989.10.5={death=yes}
 }
 
 650025={
-name = "Cacilie"
-female = yes
-dynasty = 14033
-dna = "cigedoghdfh"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 3
-stewardship = 7
-intrigue = 6
-learning = 4
-add_trait = "creature_human"
-add_trait = "misguided_warrior"
+name="Cacilie"
+female=yes
+dynasty=14033
+dna="cigedoghdfh"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=3
+stewardship=7
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="misguided_warrior"
 1939.10.24={birth=yes}
-1960.6.21 = {add_spouse=650024}
+1960.6.21={add_spouse=650024}
 2014.10.24={death=yes}
 }
 
 650026={
-name = "Wim"
-dynasty = 14021
-dna = "gdofhonoimg"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 8
-stewardship = 4
-intrigue = 6
-learning = 4
-father = 650058
-mother = 650060
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "proud"
-add_trait = "patient"
-add_trait = "arbitrary"
-add_trait = "cruel"
+name="Wim"
+dynasty=14021
+dna="gdofhonoimg"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=8
+stewardship=4
+intrigue=6
+learning=4
+father=650058
+mother=650060
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="proud"
+add_trait="patient"
+add_trait="arbitrary"
+add_trait="cruel"
 1941.12.30={birth=yes}
-1968.2.26 = {add_spouse=650027}
+1968.2.26={add_spouse=650027}
 2013.12.30={death=yes}
 }
 
 650027={
-name = "Margit"
-female = yes
-dynasty = 14035
-dna = "lgjjjbkphbf"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 4
-intrigue = 4
-learning = 6
-add_trait = "creature_human"
-add_trait = "tough_soldier"
-add_trait = "proud"
-add_trait = "deceitful"
-add_trait = "temperate"
-add_trait = "envious"
+name="Margit"
+female=yes
+dynasty=14035
+dna="lgjjjbkphbf"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=4
+learning=6
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="proud"
+add_trait="deceitful"
+add_trait="temperate"
+add_trait="envious"
 1949.3.31={birth=yes}
-1968.2.26 = {add_spouse=650026}
+1968.2.26={add_spouse=650026}
 2019.3.31={death=yes}
 }
 
 650028={
-name = "Thorvald"
-dynasty = 14021
-dna = "akaeeipeekh"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 3
-intrigue = 4
-learning = 5
-father = 650026
-mother = 650027
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "temperate"
-add_trait = "content"
-add_trait = "trusting"
-add_trait = "depressed"
+name="Thorvald"
+dynasty=14021
+dna="akaeeipeekh"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=5
+father=650026
+mother=650027
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="temperate"
+add_trait="content"
+add_trait="trusting"
+add_trait="depressed"
 1970.5.14={birth=yes}
 2034.5.14={death=yes}
 }
 
 650029={
-name = "Diedke"
-female = yes
-dynasty = 14021
-dna = "okkfjpdcnhn"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 1
-intrigue = 4
-learning = 3
-father = 650026
-mother = 650027
-add_trait = "creature_human"
-add_trait = "skilled_tactician"
-add_trait = "diligent"
-add_trait = "ambitious"
+name="Diedke"
+female=yes
+dynasty=14021
+dna="okkfjpdcnhn"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=1
+intrigue=4
+learning=3
+father=650026
+mother=650027
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="diligent"
+add_trait="ambitious"
 1975.9.3={birth=yes}
 2042.9.3={death=yes}
 }
 
 650030={
-name = "Gloria"
-female = yes
-dynasty = 14038
-dna = "glfohibbifp"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 3
-stewardship = 5
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "detached_priest"
-add_trait = "cruel"
+name="Gloria"
+female=yes
+dynasty=14038
+dna="glfohibbifp"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=3
+stewardship=5
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="cruel"
 1979.6.2={birth=yes}
-1996.8.12 = {add_spouse=650000}
+1996.8.12={add_spouse=650000}
 2061.6.2={death=yes}
 }
 
 650031={
-name = "Wolfdietrich"
-dynasty = 14021
-dna = "mbdfdldcfhp"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 5
-stewardship = 4
-intrigue = 7
-learning = 8
-father = 650000
-mother = 650030
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "content"
+name="Wolfdietrich"
+dynasty=14021
+dna="mbdfdldcfhp"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=5
+stewardship=4
+intrigue=7
+learning=8
+father=650000
+mother=650030
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="content"
 1997.8.1={birth=yes}
 2061.8.1={death=yes}
 }
 
 650032={
-name = "Anjelika"
-female = yes
-dynasty = 14021
-dna = "emhlnpbcbii"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 4
-intrigue = 4
-learning = 1
-father = 650000
-mother = 650030
-add_trait = "creature_human"
-add_trait = "detached_priest"
-add_trait = "just"
+name="Anjelika"
+female=yes
+dynasty=14021
+dna="emhlnpbcbii"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=4
+intrigue=4
+learning=1
+father=650000
+mother=650030
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="just"
 2001.10.9={birth=yes}
 2052.10.9={death=yes}
 }
 
 650033={
-name = "Sweyn"
-dynasty = 14021
-dna = "celicjgcilc"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 3
-stewardship = 3
-intrigue = 7
-learning = 4
-father = 650000
-mother = 650030
-add_trait = "creature_human"
-add_trait = "thrifty_clerk"
-add_trait = "just"
-add_trait = "slothful"
-add_trait = "cynical"
-add_trait = "patient"
+name="Sweyn"
+dynasty=14021
+dna="celicjgcilc"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=7
+learning=4
+father=650000
+mother=650030
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="just"
+add_trait="slothful"
+add_trait="cynical"
+add_trait="patient"
 2002.5.20={birth=yes}
 2073.5.20={death=yes}
 }
 
 650034={
-name = "Sigslieb"
-dynasty = 14022
-dna = "bmjipbpicnn"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 1
-intrigue = 4
-learning = 2
-father = 650059
-mother = 650061
-add_trait = "creature_human"
-add_trait = "flamboyant_schemer"
-add_trait = "gardener"
-add_trait = "envious"
-add_trait = "craven"
+name="Sigslieb"
+dynasty=14022
+dna="bmjipbpicnn"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=1
+intrigue=4
+learning=2
+father=650059
+mother=650061
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="gardener"
+add_trait="envious"
+add_trait="craven"
 1923.1.28={birth=yes}
-1955.3.22 = {add_spouse=650035}
+1955.3.22={add_spouse=650035}
 2008.1.28={death=yes}
 }
 
 650035={
-name = "Aranka"
-female = yes
-dynasty = 14033
-dna = "hmgmeifdick"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 2
-intrigue = 2
-learning = 0
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "patient"
-add_trait = "content"
+name="Aranka"
+female=yes
+dynasty=14033
+dna="hmgmeifdick"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=2
+intrigue=2
+learning=0
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="patient"
+add_trait="content"
 1933.10.7={birth=yes}
-1955.3.22 = {add_spouse=650034}
+1955.3.22={add_spouse=650034}
 2021.10.7={death=yes}
 }
 
 650036={
-name = "Ranelf"
-dynasty = 14022
-dna = "kjpabjhjihd"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 6
-stewardship = 5
-intrigue = 4
-learning = 4
-father = 650059
-mother = 650061
-add_trait = "creature_human"
-add_trait = "grey_eminence"
-add_trait = "honest"
+name="Ranelf"
+dynasty=14022
+dna="kjpabjhjihd"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=6
+stewardship=5
+intrigue=4
+learning=4
+father=650059
+mother=650061
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="honest"
 1946.11.24={birth=yes}
 2037.11.24={death=yes}
 }
 
 650037={
-name = "Berchte"
-female = yes
-dynasty = 14022
-dna = "laabpmfelcd"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 3
-stewardship = 4
-intrigue = 4
-learning = 5
-father = 650034
-mother = 650035
-add_trait = "creature_human"
-add_trait = "fortune_builder"
-add_trait = "craven"
-add_trait = "temperate"
+name="Berchte"
+female=yes
+dynasty=14022
+dna="laabpmfelcd"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=3
+stewardship=4
+intrigue=4
+learning=5
+father=650034
+mother=650035
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="craven"
+add_trait="temperate"
 1960.9.2={birth=yes}
-1982.9.11 = {add_spouse=650038}
+1982.9.11={add_spouse=650038}
 2021.9.2={death=yes}
 }
 
 650038={
-name = "Leif"
-dynasty = 14036
-dna = "dechcgcmdfh"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 6
-intrigue = 2
-learning = 3
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "lustful"
-add_trait = "paranoid"
-add_trait = "slothful"
+name="Leif"
+dynasty=14036
+dna="dechcgcmdfh"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=6
+intrigue=2
+learning=3
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="lustful"
+add_trait="paranoid"
+add_trait="slothful"
 1954.3.16={birth=yes}
-1982.9.11 = {add_spouse=650037}
+1982.9.11={add_spouse=650037}
 2016.3.16={death=yes}
 }
 
 650039={
-name = "Leif"
-dynasty = 14036
-dna = "ncopgaonppl"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 6
-stewardship = 2
-intrigue = 1
-learning = 1
-father = 650038
-mother = 650037
-add_trait = "creature_human"
-add_trait = "brilliant_strategist"
-add_trait = "greedy"
-add_trait = "gregarious"
+name="Leif"
+dynasty=14036
+dna="ncopgaonppl"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=6
+stewardship=2
+intrigue=1
+learning=1
+father=650038
+mother=650037
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="greedy"
+add_trait="gregarious"
 1987.1.10={birth=yes}
 2050.1.10={death=yes}
 }
 
 650040={
-name = "Saxo"
-dynasty = 14034
-dna = "ckdmimajdjh"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 6
-stewardship = 6
-intrigue = 2
-learning = 4
-father = 650062
-mother = 650063
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "wroth"
-add_trait = "kind"
-add_trait = "trusting"
+name="Saxo"
+dynasty=14034
+dna="ckdmimajdjh"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=2
+learning=4
+father=650062
+mother=650063
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="wroth"
+add_trait="kind"
+add_trait="trusting"
 1985.4.29={birth=yes}
 2046.4.29={death=yes}
 }
 
 650041={
-name = "Brigida"
-female = yes
-dynasty = 14034
-dna = "nfahmjpngll"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 5
-intrigue = 7
-learning = 4
-father = 650062
-mother = 650063
-add_trait = "creature_human"
-add_trait = "fortune_builder"
-add_trait = "cruel"
-add_trait = "paranoid"
+name="Brigida"
+female=yes
+dynasty=14034
+dna="nfahmjpngll"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=7
+learning=4
+father=650062
+mother=650063
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="cruel"
+add_trait="paranoid"
 1988.8.14={birth=yes}
 2055.8.14={death=yes}
 }
 
 650042={
-name = "Dorthe"
-female = yes
-dynasty = 14040
-dna = "ilkjbpcbblh"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 5
-intrigue = 8
-learning = 5
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "honest"
-add_trait = "paranoid"
+name="Dorthe"
+female=yes
+dynasty=14040
+dna="ilkjbpcbblh"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=8
+learning=5
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="honest"
+add_trait="paranoid"
 1977.12.10={birth=yes}
-2004.3.1 = {add_spouse=650008}
+2004.3.1={add_spouse=650008}
 2054.12.10={death=yes}
 }
 
 650043={
-name = "Carlott"
-female = yes
-dynasty = 14034
-dna = "llgehkcomen"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 4
-stewardship = 3
-intrigue = 5
-learning = 1
-father = 650008
-mother = 650042
-add_trait = "creature_human"
-add_trait = "midas_touched"
+name="Carlott"
+female=yes
+dynasty=14034
+dna="llgehkcomen"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=1
+father=650008
+mother=650042
+add_trait="creature_human"
+add_trait="midas_touched"
 2007.1.5={birth=yes}
 2049.1.5={death=yes}
 }
 
 650044={
-name = "Cora"
-female = yes
-dynasty = 14046
-dna = "fdaopgooejf"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 1
-stewardship = 4
-intrigue = 5
-learning = 5
-father = 650064
-mother = 650065
-add_trait = "flamboyant_schemer"
+name="Cora"
+female=yes
+dynasty=14046
+dna="fdaopgooejf"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=1
+stewardship=4
+intrigue=5
+learning=5
+father=650064
+mother=650065
+add_trait="flamboyant_schemer"
 1976.2.11={birth=yes}
 2021.2.11={death=yes}
 }
 
 650045={
-name = "Erma"
-female = yes
-dynasty = 14046
-dna = "mkobigndidh"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 8
-learning = 5
-father = 650064
-mother = 650065
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "paranoid"
+name="Erma"
+female=yes
+dynasty=14046
+dna="mkobigndidh"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=8
+learning=5
+father=650064
+mother=650065
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="paranoid"
 1979.1.18={birth=yes}
 2007.1.18={death=yes}
 }
 
 650046={
-name = "Hanni"
-female = yes
-dynasty = 14046
-dna = "oopgbnbchpn"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 6
-learning = 0
-father = 650064
-mother = 650065
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "honest"
+name="Hanni"
+female=yes
+dynasty=14046
+dna="oopgbnbchpn"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=6
+learning=0
+father=650064
+mother=650065
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="honest"
 1983.4.19={birth=yes}
 2055.4.19={death=yes}
 }
 
 650047={
-name = "Wilfried"
-dynasty = 14043
-dna = "koffbbnicgl"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 4
-stewardship = 5
-intrigue = 5
-learning = 2
-add_trait = "creature_human"
-add_trait = "grey_eminence"
-add_trait = "brave"
-add_trait = "patient"
+name="Wilfried"
+dynasty=14043
+dna="koffbbnicgl"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=4
+stewardship=5
+intrigue=5
+learning=2
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="brave"
+add_trait="patient"
 1981.4.21={birth=yes}
-1999.9.2 = {add_spouse=650048}
+1999.9.2={add_spouse=650048}
 2009.4.21={death=yes}
 }
 
 650048={
-name = "Adele"
-female = yes
-dynasty = 14048
-dna = "dddppcbfnmg"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 1
-stewardship = 5
-intrigue = 8
-learning = 1
-father = 650066
-mother = 650067
-add_trait = "creature_human"
-add_trait = "skilled_tactician"
-add_trait = "hedonist"
-add_trait = "cruel"
+name="Adele"
+female=yes
+dynasty=14048
+dna="dddppcbfnmg"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=1
+stewardship=5
+intrigue=8
+learning=1
+father=650066
+mother=650067
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="hedonist"
+add_trait="cruel"
 1971.4.18={birth=yes}
-1999.9.2 = {add_spouse=650047}
+1999.9.2={add_spouse=650047}
 2056.4.18={death=yes}
 }
 
 650049={
-name = "Elke"
-female = yes
-dynasty = 14048
-dna = "kgdcebgbgml"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 4
-stewardship = 0
-intrigue = 0
-learning = 2
-father = 650066
-mother = 650067
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "charitable"
-add_trait = "brave"
-add_trait = "content"
-add_trait = "envious"
-add_trait = "depressed"
+name="Elke"
+female=yes
+dynasty=14048
+dna="kgdcebgbgml"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=4
+stewardship=0
+intrigue=0
+learning=2
+father=650066
+mother=650067
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="charitable"
+add_trait="brave"
+add_trait="content"
+add_trait="envious"
+add_trait="depressed"
 1973.7.7={birth=yes}
-1994.6.7 = {add_spouse=650050}
+1994.6.7={add_spouse=650050}
 2055.7.7={death=yes}
 }
 
 650050={
-name = "Torbjørn"
-dynasty = 14049
-dna = "jbcljfbkghc"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 5
-stewardship = 4
-intrigue = 5
-learning = 5
-add_trait = "creature_human"
-add_trait = "tough_soldier"
-add_trait = "impaler"
-add_trait = "deceitful"
-add_trait = "ambitious"
-add_trait = "greedy"
+name="Torbjørn"
+dynasty=14049
+dna="jbcljfbkghc"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=5
+stewardship=4
+intrigue=5
+learning=5
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="impaler"
+add_trait="deceitful"
+add_trait="ambitious"
+add_trait="greedy"
 1975.2.1={birth=yes}
-1994.6.7 = {add_spouse=650049}
+1994.6.7={add_spouse=650049}
 2034.2.1={death=yes}
 }
 
 650051={
-name = "Yves"
-dynasty = 14048
-dna = "gkllbnoghoc"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 4
-intrigue = 1
-learning = 6
-father = 650050
-mother = 650049
-add_trait = "creature_human"
-add_trait = "flamboyant_schemer"
-add_trait = "hedonist"
-add_trait = "cruel"
-add_trait = "zealous"
+name="Yves"
+dynasty=14048
+dna="gkllbnoghoc"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=1
+learning=6
+father=650050
+mother=650049
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="hedonist"
+add_trait="cruel"
+add_trait="zealous"
 2001.2.5={birth=yes}
 2051.2.5={death=yes}
 }
 
 650052={
-name = "Franka"
-female = yes
-dynasty = 14048
-dna = "ddbnmbllfkm"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 6
-stewardship = 1
-intrigue = 6
-learning = 4
-father = 650050
-mother = 650049
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "hunter"
-add_trait = "stressed"
+name="Franka"
+female=yes
+dynasty=14048
+dna="ddbnmbllfkm"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=6
+stewardship=1
+intrigue=6
+learning=4
+father=650050
+mother=650049
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="hunter"
+add_trait="stressed"
 1996.1.28={birth=yes}
 2036.1.28={death=yes}
 }
 
 650053={
-name = "Cothilda"
-female = yes
-dynasty = 14051
-dna = "oaloegndkjo"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 3
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "ambitious"
-add_trait = "gluttonous"
+name="Cothilda"
+female=yes
+dynasty=14051
+dna="oaloegndkjo"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=3
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="ambitious"
+add_trait="gluttonous"
 1973.9.13={birth=yes}
-1994.9.27 = {add_spouse=650011}
+1994.9.27={add_spouse=650011}
 2019.9.13={death=yes}
 }
 
 650054={
-name = "Rudolf"
-dynasty = 14012
-dna = "ecckljghhdi"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 0
-intrigue = 6
-learning = 6
-father = 650011
-mother = 650053
-add_trait = "creature_human"
-add_trait = "thrifty_clerk"
-add_trait = "deceitful"
+name="Rudolf"
+dynasty=14012
+dna="ecckljghhdi"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=0
+intrigue=6
+learning=6
+father=650011
+mother=650053
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="deceitful"
 1999.6.16={birth=yes}
 2042.6.16={death=yes}
 }
 
 650055={
-name = "Sigbert"
-dynasty = 14012
-dna = "cojkgaaonpf"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 4
-stewardship = 7
-intrigue = 0
-learning = 4
-father = 650011
-add_trait = "creature_human"
-add_trait = "thrifty_clerk"
-add_trait = "bastard"
-add_trait = "shy"
-add_trait = "wroth"
+name="Sigbert"
+dynasty=14012
+dna="cojkgaaonpf"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=4
+stewardship=7
+intrigue=0
+learning=4
+father=650011
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="bastard"
+add_trait="shy"
+add_trait="wroth"
 2001.12.9={birth=yes}
 2011.12.9={death=yes}
 }
 
 650056={
-name = "Elinand"
-female = yes
-dynasty = 14012
-dna = "fkkiibidaaa"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 5
-stewardship = 2
-intrigue = 3
-learning = 4
-father = 650011
-add_trait = "creature_human"
-add_trait = "bastard"
-add_trait = "flamboyant_schemer"
-add_trait = "impaler"
-add_trait = "kind"
-add_trait = "cynical"
-add_trait = "charitable"
-add_trait = "ill"
+name="Elinand"
+female=yes
+dynasty=14012
+dna="fkkiibidaaa"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=5
+stewardship=2
+intrigue=3
+learning=4
+father=650011
+add_trait="creature_human"
+add_trait="bastard"
+add_trait="flamboyant_schemer"
+add_trait="impaler"
+add_trait="kind"
+add_trait="cynical"
+add_trait="charitable"
+add_trait="ill"
 2002.5.31={birth=yes}
 2080.5.31={death=yes}
 }
 
 650057={
-name = "Gudrun"
-female = yes
-dynasty = 14012
-dna = "habnochnlfi"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 6
-learning = 2
-father = 650011
-mother = 650053
-add_trait = "creature_human"
-add_trait = "tough_soldier"
-add_trait = "duelist"
-add_trait = "diligent"
-add_trait = "ill"
+name="Gudrun"
+female=yes
+dynasty=14012
+dna="habnochnlfi"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=6
+learning=2
+father=650011
+mother=650053
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="duelist"
+add_trait="diligent"
+add_trait="ill"
 2004.12.19={birth=yes}
 2065.12.19={death=yes}
 }
 
 650058={
-name = "Karl"
-dynasty = 14021
-dna = "aepmkjgdeef"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 6
-intrigue = 7
-learning = 2
-father = 650079
-add_trait = "creature_human"
-add_trait = "grey_eminence"
-add_trait = "just"
-add_trait = "lustful"
-add_trait = "craven"
+name="Karl"
+dynasty=14021
+dna="aepmkjgdeef"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=6
+intrigue=7
+learning=2
+father=650079
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="just"
+add_trait="lustful"
+add_trait="craven"
 1911.11.17={birth=yes}
-1935.3.22 = {add_spouse=650060}
+1935.3.22={add_spouse=650060}
 1947.2.21={death=yes}
 }
 
 650059={
-name = "Warner"
-dynasty = 14022
-dna = "ekpdcjjmecg"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 4
-stewardship = 4
-intrigue = 3
-learning = 6
-add_trait = "creature_human"
-add_trait = "flamboyant_schemer"
-add_trait = "scholar"
-add_trait = "slothful"
-add_trait = "charitable"
-add_trait = "shy"
+name="Warner"
+dynasty=14022
+dna="ekpdcjjmecg"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=4
+stewardship=4
+intrigue=3
+learning=6
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="scholar"
+add_trait="slothful"
+add_trait="charitable"
+add_trait="shy"
 1902.9.7={birth=yes}
-1921.9.14 = {add_spouse=650061}
+1921.9.14={add_spouse=650061}
 1971.9.7={death=yes}
 }
 
 650060={
-name = "Becka"
-female = yes
-dynasty = 14058
-dna = "boejjmchgah"
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 1
-stewardship = 1
-intrigue = 4
-learning = 2
-add_trait = "creature_human"
-add_trait = "thrifty_clerk"
-add_trait = "diligent"
-add_trait = "temperate"
-add_trait = "craven"
-add_trait = "patient"
+name="Becka"
+female=yes
+dynasty=14058
+dna="boejjmchgah"
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="diligent"
+add_trait="temperate"
+add_trait="craven"
+add_trait="patient"
 1918.12.9={birth=yes}
-1935.3.22 = {add_spouse=650058}
+1935.3.22={add_spouse=650058}
 1961.12.9={death=yes}
 }
 
 650061={
-name = "Annemarie"
-female = yes
-dynasty = 14059
-dna = "oihfbdmfnbn"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 8
-stewardship = 6
-intrigue = 4
-learning = 4
-add_trait = "creature_human"
-add_trait = "fortune_builder"
-add_trait = "just"
-add_trait = "slothful"
+name="Annemarie"
+female=yes
+dynasty=14059
+dna="oihfbdmfnbn"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=8
+stewardship=6
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="just"
+add_trait="slothful"
 1897.7.18={birth=yes}
-1921.9.14 = {add_spouse=650059}
+1921.9.14={add_spouse=650059}
 1956.7.18={death=yes}
 }
 
 650062={
-name = "Seifried"
-dynasty = 14034
-dna = "olngkadodog"
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 5
-stewardship = 3
-intrigue = 0
-learning = 4
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
+name="Seifried"
+dynasty=14034
+dna="olngkadodog"
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=5
+stewardship=3
+intrigue=0
+learning=4
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
 1950.7.8={birth=yes}
-1976.3.19 = {add_spouse=650063}
+1976.3.19={add_spouse=650063}
 2003.5.8={death=yes}
 }
 
 650063={
-name = "Celeste"
-female = yes
-dynasty = 14061
-dna = "jpnahnaebek"
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 2
-stewardship = 5
-intrigue = 6
-learning = 4
-add_trait = "creature_human"
-add_trait = "elusive_shadow"
-add_trait = "gregarious"
+name="Celeste"
+female=yes
+dynasty=14061
+dna="jpnahnaebek"
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="gregarious"
 1945.1.14={birth=yes}
-1976.3.19 = {add_spouse=650062}
+1976.3.19={add_spouse=650062}
 2001.5.19={death=yes}
 }
 
 650064={
-name = "Wulf"
-dynasty = 14046
-dna = "hiaiohmmkfp"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 0
-stewardship = 3
-intrigue = 6
-learning = 7
-add_trait = "creature_human"
-add_trait = "indulgent_wastrel"
-add_trait = "envious"
-add_trait = "slothful"
-add_trait = "drunkard"
+name="Wulf"
+dynasty=14046
+dna="hiaiohmmkfp"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=0
+stewardship=3
+intrigue=6
+learning=7
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+add_trait="envious"
+add_trait="slothful"
+add_trait="drunkard"
 1941.5.14={birth=yes}
-1966.1.12 = {add_spouse=650065}
+1966.1.12={add_spouse=650065}
 1990.5.14={death=yes}
 }
 
 650065={
-name = "Eileen"
-female = yes
-dynasty = 14063
-dna = "hhkmjlbgeoi"
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 3
-stewardship = 4
-intrigue = 4
-learning = 4
-add_trait = "creature_human"
-add_trait = "indulgent_wastrel"
-add_trait = "honest"
-add_trait = "charitable"
-add_trait = "shy"
+name="Eileen"
+female=yes
+dynasty=14063
+dna="hhkmjlbgeoi"
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=3
+stewardship=4
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+add_trait="honest"
+add_trait="charitable"
+add_trait="shy"
 1947.6.20={birth=yes}
-1966.1.12 = {add_spouse=650064}
+1966.1.12={add_spouse=650064}
 1997.6.20={death=yes}
 }
 
 650066={
-name = "Veit"
-dynasty = 14048
-dna = "cfplknolehg"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 5
-intrigue = 2
-learning = 6
-add_trait = "creature_human"
-add_trait = "skilled_tactician"
-add_trait = "hedonist"
-add_trait = "diligent"
-add_trait = "humble"
-add_trait = "zealous"
+name="Veit"
+dynasty=14048
+dna="cfplknolehg"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=5
+intrigue=2
+learning=6
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="hedonist"
+add_trait="diligent"
+add_trait="humble"
+add_trait="zealous"
 1935.4.21={birth=yes}
-1966.10.2 = {add_spouse=650067}
+1966.10.2={add_spouse=650067}
 1994.4.21={death=yes}
 }
 
 650067={
-name = "Elinand"
-female = yes
-dynasty = 14065
-dna = "dcgpmjagaap"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 4
-stewardship = 3
-intrigue = 4
-learning = 6
-add_trait = "creature_human"
-add_trait = "flamboyant_schemer"
-add_trait = "cruel"
-add_trait = "charitable"
-add_trait = "lustful"
+name="Elinand"
+female=yes
+dynasty=14065
+dna="dcgpmjagaap"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=6
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="cruel"
+add_trait="charitable"
+add_trait="lustful"
 1947.8.31={birth=yes}
-1966.10.2 = {add_spouse=650066}
+1966.10.2={add_spouse=650066}
 1975.8.31={death=yes}
 }
 
 650068={
-name = "Sigrid"
-female = yes
-dynasty = 14023
-dna = "lnkpblcpbkc"
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 2
-stewardship = 6
-intrigue = 0
-learning = 1
-father = 650071
-mother = 650003
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "proud"
-add_trait = "tall"
+name="Sigrid"
+female=yes
+dynasty=14023
+dna="lnkpblcpbkc"
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=2
+stewardship=6
+intrigue=0
+learning=1
+father=650071
+mother=650003
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="proud"
+add_trait="tall"
 1985.6.23={birth=yes}
 2021.6.23={death=yes}
 }
 
 650069={
-name = "Alfrida"
-female = yes
-dynasty = 14023
-dna = "dpckpojgcee"
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 0
-stewardship = 4
-intrigue = 5
-learning = 4
-father = 650071
-mother = 650003
-add_trait = "creature_human"
-add_trait = "detached_priest"
-add_trait = "hedonist"
-add_trait = "gregarious"
-add_trait = "temperate"
-add_trait = "tall"
+name="Alfrida"
+female=yes
+dynasty=14023
+dna="dpckpojgcee"
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=0
+stewardship=4
+intrigue=5
+learning=4
+father=650071
+mother=650003
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="hedonist"
+add_trait="gregarious"
+add_trait="temperate"
+add_trait="tall"
 1987.9.8={birth=yes}
 2021.9.8={death=yes}
 }
 
 650070={
-name = "Natali"
-female = yes
-dynasty = 14023
-dna = "lfbeaeckmjn"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 5
-stewardship = 3
-intrigue = 0
-learning = 6
-father = 650071
-mother = 650003
-add_trait = "creature_human"
-add_trait = "skilled_tactician"
-add_trait = "lustful"
-add_trait = "honest"
-add_trait = "tall"
+name="Natali"
+female=yes
+dynasty=14023
+dna="lfbeaeckmjn"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=3
+intrigue=0
+learning=6
+father=650071
+mother=650003
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="lustful"
+add_trait="honest"
+add_trait="tall"
 1993.8.15={birth=yes}
 2045.8.15={death=yes}
 }
 
 650071={
-name = "Poul"
-dynasty = 14069
-dna = "dmaljdjkdib"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 2
-stewardship = 3
-intrigue = 6
-learning = 2
-add_trait = "creature_human"
-add_trait = "grey_eminence"
-add_trait = "gardener"
-add_trait = "lustful"
-add_trait = "cruel"
+name="Poul"
+dynasty=14069
+dna="dmaljdjkdib"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=2
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="gardener"
+add_trait="lustful"
+add_trait="cruel"
 1945.1.25={birth=yes}
-1977.1.2 = {add_spouse=650003}
+1977.1.2={add_spouse=650003}
 1998.1.25={death=yes}
 }
 
 650072={
-name = "Thietmar"
-dynasty = 14021
-dna = "jomhdkndpcj"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 6
-stewardship = 3
-intrigue = 4
-learning = 5
-father = 650024
-mother = 650025
-add_trait = "creature_human"
-add_trait = "elusive_shadow"
-add_trait = "humble"
-add_trait = "cruel"
-add_trait = "greedy"
+name="Thietmar"
+dynasty=14021
+dna="jomhdkndpcj"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=6
+stewardship=3
+intrigue=4
+learning=5
+father=650024
+mother=650025
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="humble"
+add_trait="cruel"
+add_trait="greedy"
 1969.10.1={birth=yes}
 2013.10.1={death=yes}
 }
 
 
 650073={
-name = "Thederic" # Graf Theoderic Gausser
-dynasty = 14003 
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 6
-learning = 3
-add_trait = "creature_human"
-add_trait = "elusive_shadow"
-add_trait = "humble"
+name="Thederic" # Graf Theoderic Gausser
+dynasty=14003 
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=3
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="humble"
 2469.10.1={birth=yes}
 2533.10.1={death=yes}
 }
@@ -1590,97 +1590,97 @@ add_trait = "humble"
 #### Todbringer related
 
 650074={
-name = "Anika-Elise" #Graf Boris Todbringer's second wife
-female = yes
-dynasty = 14018
-culture = nordlander
-religion = ulrican
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-father = 650078
-add_trait = "chaste"
-add_trait = "kind"
+name="Anika-Elise" #Graf Boris Todbringer's second wife
+female=yes
+dynasty=14018
+culture=nordlander
+religion=ulrican
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+father=650078
+add_trait="chaste"
+add_trait="kind"
 
 2475.5.1={birth=yes}
-2502.9.22 = {add_spouse=400022}
+2502.9.22={add_spouse=400022}
 2512.5.18={death=yes}
 }
 
 650075={
-name = "Brigit" #Graf Boris Todbringer's mother
-female = yes
-dynasty = 14018
-culture = nordlander
-religion = ulrican
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "gregarious"
-add_trait = "kind"
+name="Brigit" #Graf Boris Todbringer's mother
+female=yes
+dynasty=14018
+culture=nordlander
+religion=ulrican
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+add_trait="grey_eminence"
+add_trait="gregarious"
+add_trait="kind"
 
 2419.7.12={birth=yes}
-2439.8.26 = {add_spouse=400024}
+2439.8.26={add_spouse=400024}
 2471.12.28={death=yes}
 }
 
 
 650076={
-name = "Matilda" #Graf Boris Todbringer's grandmother
-female = yes
-dynasty = 14081
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-add_trait = "gregarious"
-add_trait = "kind"
+name="Matilda" #Graf Boris Todbringer's grandmother
+female=yes
+dynasty=14081
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+add_trait="gregarious"
+add_trait="kind"
 
 2398.1.2={birth=yes}
-2421.5.7 = {add_spouse=400025}
+2421.5.7={add_spouse=400025}
 2457.1.5={death=yes}
 }
 
 650077={
-name = "Hildegard" #Graf Boris Todbringer's great-grandmother
-female = yes
-dynasty = 14082
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-add_trait = "gregarious"
-add_trait = "kind"
+name="Hildegard" #Graf Boris Todbringer's great-grandmother
+female=yes
+dynasty=14082
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+add_trait="gregarious"
+add_trait="kind"
 
 2371.9.15={birth=yes}
-2400.12.21 = {add_spouse=400026}
+2400.12.21={add_spouse=400026}
 2416.2.24={death=yes}
 }
 
 650078={
-name = "Werner" #Anika-Elise's father
-dynasty = 14018
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 4
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "gregarious"
-add_trait = "kind"
+name="Werner" #Anika-Elise's father
+dynasty=14018
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+add_trait="tough_soldier"
+add_trait="gregarious"
+add_trait="kind"
 
 2451.9.12={birth=yes}
 2506.12.1={death=yes}
@@ -1689,112 +1689,112 @@ add_trait = "kind"
 
 
 650079={
-name = "Bjorn"
-dynasty = 14021
-dna = "cigedoghdfh"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 5
-intrigue = 5
-learning = 7
-add_trait = "creature_human"
-add_trait = "misguided_warrior"
-add_trait = "proud"
-add_trait = "brave"
+name="Bjorn"
+dynasty=14021
+dna="cigedoghdfh"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=5
+learning=7
+add_trait="creature_human"
+add_trait="misguided_warrior"
+add_trait="proud"
+add_trait="brave"
 1869.5.14={birth=yes}
 1911.11.17={death=yes}
 }
 
 650080={
-name = "Sigfried"
-dynasty = 14003
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 5
-stewardship = 6
-intrigue = 3
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "duelist"
-add_trait = "greedy"
+name="Sigfried"
+dynasty=14003
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=3
+learning=5
+add_trait="grey_eminence"
+add_trait="duelist"
+add_trait="greedy"
 
 1901.3.27={birth=yes}
 1964.4.21={death=yes}
 }
 
 650081={
-name = "Wilhelm"
-dynasty = 14003
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 4
-intrigue = 7
-learning = 3
-father = 650080
-add_trait = "tough_soldier"
-add_trait = "kind"
-add_trait = "proud"
+name="Wilhelm"
+dynasty=14003
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=7
+learning=3
+father=650080
+add_trait="tough_soldier"
+add_trait="kind"
+add_trait="proud"
 
 1947.9.21={birth=yes}
 2002.8.10={death=yes}
 }
 
 650082={
-name = "Albrecht"
-dynasty = 14003
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 5
-intrigue = 4
-learning = 5
-father = 650081
-add_trait = "intricate_webweaver"
-add_trait = "shy"
-add_trait = "cruel"
+name="Albrecht"
+dynasty=14003
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=5
+father=650081
+add_trait="intricate_webweaver"
+add_trait="shy"
+add_trait="cruel"
 
 1973.6.23={birth=yes}
 2042.10.15={death=yes}
 }
 
 650083={
-name = "Wilhelm"
-dynasty = 14003
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 5
-stewardship = 2
-intrigue = 6
-learning = 4
-father = 650082
-add_trait = "greedy"
-add_trait = "proud"
+name="Wilhelm"
+dynasty=14003
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=2
+intrigue=6
+learning=4
+father=650082
+add_trait="greedy"
+add_trait="proud"
 
 1993.6.23={birth=yes}
 2054.10.15={death=yes}
 }
 
 650084={
-name = "Wilhelm"
-dynasty = 14003
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 2
-intrigue = 3
-learning = 6
-father = 650083
-add_trait = "tough_soldier"
-add_trait = "brave"
-add_trait = "kind"
+name="Wilhelm"
+dynasty=14003
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=2
+intrigue=3
+learning=6
+father=650083
+add_trait="tough_soldier"
+add_trait="brave"
+add_trait="kind"
 
 2025.2.14={birth=yes}
 2078.9.19={death=yes}
@@ -1802,612 +1802,612 @@ add_trait = "kind"
 
 
 650085={
-name = "Friğgerğr"
-female = yes
-dynasty = 56034
-dna = "hlfebpbgjlf"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 6
-intrigue = 2
-learning = 5
-father = 1350022
-add_trait = "intricate_webweaver"
-add_trait = "paranoid"
+name="Friğgerğr"
+female=yes
+dynasty=56034
+dna="hlfebpbgjlf"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=6
+intrigue=2
+learning=5
+father=1350022
+add_trait="intricate_webweaver"
+add_trait="paranoid"
 1082.5.1={birth=yes}
 1144.7.18={death=yes}
 }
 
 650086={
-name = "Thangbrandr"
-dynasty = 56034
-dna = "gnpflpgbjdm"
-culture = nordlander
-religion = norse
-martial = 6
-diplomacy = 8
-stewardship = 5
-intrigue = 8
-learning = 5
-father = 1350022
-add_trait = "elusive_shadow"
-add_trait = "celibate"
-add_trait = "gregarious"
-add_trait = "deceitful"
+name="Thangbrandr"
+dynasty=56034
+dna="gnpflpgbjdm"
+culture=nordlander
+religion=norscan_gods
+martial=6
+diplomacy=8
+stewardship=5
+intrigue=8
+learning=5
+father=1350022
+add_trait="elusive_shadow"
+add_trait="celibate"
+add_trait="gregarious"
+add_trait="deceitful"
 1087.5.1={birth=yes}
 1134.12.9={death=yes}
 }
 
 650087={
-name = "Gunnvor"
-female = yes
-dynasty = 56034
-dna = "llcghkeacem"
-culture = nordlander
-religion = ulrican
-martial = 2
-diplomacy = 5
-stewardship = 2
-intrigue = 2
-learning = 6
-mother = 1350023
-add_trait = "naive_appeaser"
-add_trait = "arbitrary"
-add_trait = "zealous"
-add_trait = "wroth"
-add_trait = "trusting"
+name="Gunnvor"
+female=yes
+dynasty=56034
+dna="llcghkeacem"
+culture=nordlander
+religion=ulrican
+martial=2
+diplomacy=5
+stewardship=2
+intrigue=2
+learning=6
+mother=1350023
+add_trait="naive_appeaser"
+add_trait="arbitrary"
+add_trait="zealous"
+add_trait="wroth"
+add_trait="trusting"
 1081.1.1={birth=yes}
 1142.12.11={death=yes}
 }
 
 650088={
-name = "Thomas" #Neues Merchant
-dynasty = 14083
-dna = "ghdfingkikd"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 0
-stewardship = 3
-intrigue = 4
-learning = 4
-add_trait = "midas_touched"
-add_trait = "patient"
-add_trait = "cruel"
-add_trait = "wounded"
+name="Thomas" #Neues Merchant
+dynasty=14083
+dna="ghdfingkikd"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=0
+stewardship=3
+intrigue=4
+learning=4
+add_trait="midas_touched"
+add_trait="patient"
+add_trait="cruel"
+add_trait="wounded"
 2442.7.1={birth=yes}
 2491.4.12={death=yes}
 }
 
 650089={
-name = "Rahewin" #Neues Merchant
-dynasty = 14084
-dna = "oiphkomaaii"
-culture = nordlander
-religion = ulrican
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 4
-learning = 3
-add_trait = "intricate_webweaver"
-add_trait = "trusting"
+name="Rahewin" #Neues Merchant
+dynasty=14084
+dna="oiphkomaaii"
+culture=nordlander
+religion=ulrican
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=4
+learning=3
+add_trait="intricate_webweaver"
+add_trait="trusting"
 2431.5.1={birth=yes}
 2477.8.11={death=yes}
 }
 
 650090={
-name = "Suanhilde"
-female = yes
-dynasty = 14011
-dna = "hmgmeifdick"
-culture = nordlander
-religion = ulrican
-martial = 3
-diplomacy = 5
-stewardship = 5
-intrigue = 3
-learning = 3
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "patient"
-add_trait = "content"
+name="Suanhilde"
+female=yes
+dynasty=14011
+dna="hmgmeifdick"
+culture=nordlander
+religion=ulrican
+martial=3
+diplomacy=5
+stewardship=5
+intrigue=3
+learning=3
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="patient"
+add_trait="content"
 2443.10.7={birth=yes}
 2511.10.7={death=yes}
 }
 
 650091={
-name = "Jutte"
-female = yes
-dynasty = 14011
-dna = "ddkaimogajj"
-culture = nordlander
-religion = ulrican
-martial = 1
-diplomacy = 2
-stewardship = 5
-intrigue = 6
-learning = 5
-mother = 650090
-add_trait = "skilled_tactician"
-add_trait = "charitable"
+name="Jutte"
+female=yes
+dynasty=14011
+dna="ddkaimogajj"
+culture=nordlander
+religion=ulrican
+martial=1
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=5
+mother=650090
+add_trait="skilled_tactician"
+add_trait="charitable"
 2464.1.1={birth=yes}
 2525.8.10={death=yes}
 }
 
 650092={
-name = "Lilian"
-female = yes
-dynasty = 14011
-dna = "hgflkpiknji"
-culture = nordlander
-religion = ulrican
-martial = 1
-diplomacy = 8
-stewardship = 7
-intrigue = 6
-learning = 0
-mother = 650091
-add_trait = "indulgent_wastrel"
-add_trait = "proud"
-add_trait = "ambitious"
-add_trait = "shy"
-add_trait = "slothful"
+name="Lilian"
+female=yes
+dynasty=14011
+dna="hgflkpiknji"
+culture=nordlander
+religion=ulrican
+martial=1
+diplomacy=8
+stewardship=7
+intrigue=6
+learning=0
+mother=650091
+add_trait="indulgent_wastrel"
+add_trait="proud"
+add_trait="ambitious"
+add_trait="shy"
+add_trait="slothful"
 2495.1.1={birth=yes}
 2548.7.17={death=yes}
 }
 
 
 650093={
-name = "Hugo"
-dynasty = 14086
-dna = "mpplbcojane"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 3
-stewardship = 2
-intrigue = 6
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "deceitful"
+name="Hugo"
+dynasty=14086
+dna="mpplbcojane"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=3
+stewardship=2
+intrigue=6
+learning=4
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="deceitful"
 2459.1.1={birth=yes}
 2552.11.25={death=yes}
 }
 
 650094={
-name = "Rainfred"
-dynasty = 14086
-dna = "kmdjjnpcmnl"
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 1
-stewardship = 2
-intrigue = 6
-learning = 4
-father = 650093
-add_trait = "midas_touched"
-add_trait = "gardener"
-add_trait = "greedy"
-add_trait = "paranoid"
+name="Rainfred"
+dynasty=14086
+dna="kmdjjnpcmnl"
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=1
+stewardship=2
+intrigue=6
+learning=4
+father=650093
+add_trait="midas_touched"
+add_trait="gardener"
+add_trait="greedy"
+add_trait="paranoid"
 2478.1.1={birth=yes}
 2542.3.19={death=yes}
 }
 
 650095={
-name = "Guttorm"
-dynasty = 14086
-dna = "nbfaoehpenn"
-culture = nordlander
-religion = sigmarite
-martial = 8
-diplomacy = 4
-stewardship = 6
-intrigue = 4
-learning = 6
-father = 650093
-add_trait = "indulgent_wastrel"
-add_trait = "gardener"
-add_trait = "chaste"
-add_trait = "cynical"
-add_trait = "wounded"
+name="Guttorm"
+dynasty=14086
+dna="nbfaoehpenn"
+culture=nordlander
+religion=sigmarite
+martial=8
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=6
+father=650093
+add_trait="indulgent_wastrel"
+add_trait="gardener"
+add_trait="chaste"
+add_trait="cynical"
+add_trait="wounded"
 2481.1.1={birth=yes}
 2537.7.11={death=yes}
 }
 
 650096={
-name = "Hugo"
-dynasty = 14086
-dna = "knldkjacdnb"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 6
-stewardship = 2
-intrigue = 6
-learning = 4
-father = 650093
-add_trait = "charismatic_negotiator"
-add_trait = "scholar"
-add_trait = "deceitful"
+name="Hugo"
+dynasty=14086
+dna="knldkjacdnb"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=6
+stewardship=2
+intrigue=6
+learning=4
+father=650093
+add_trait="charismatic_negotiator"
+add_trait="scholar"
+add_trait="deceitful"
 2507.1.1={birth=yes}
 2559.3.25={death=yes}
 }
 
 650097={
-name = "Lilian"
-female = yes
-dynasty = 14088
-dna = "iojhnhbjbka"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 6
-stewardship = 2
-intrigue = 4
-learning = 6
-add_trait = "indulgent_wastrel"
-add_trait = "hedonist"
-add_trait = "lustful"
-add_trait = "slothful"
+name="Lilian"
+female=yes
+dynasty=14088
+dna="iojhnhbjbka"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=6
+stewardship=2
+intrigue=4
+learning=6
+add_trait="indulgent_wastrel"
+add_trait="hedonist"
+add_trait="lustful"
+add_trait="slothful"
 2484.1.1={birth=yes}
 2543.7.4={death=yes}
 }
 
 650098={
-name = "Stefi"
-female = yes
-dynasty = 14088
-dna = "ocdppcjffoa"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 7
-intrigue = 5
-learning = 5
-mother = 650097
-add_trait = "indulgent_wastrel"
-add_trait = "temperate"
-add_trait = "ill"
+name="Stefi"
+female=yes
+dynasty=14088
+dna="ocdppcjffoa"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=7
+intrigue=5
+learning=5
+mother=650097
+add_trait="indulgent_wastrel"
+add_trait="temperate"
+add_trait="ill"
 2502.1.1={birth=yes}
 2547.1.5={death=yes}
 }
 
 650099={
-name = "Sighast"
-dynasty = 14088
-dna = "ojiahfkkhlp"
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 2
-learning = 2
-mother = 650097
-add_trait = "tough_soldier"
-add_trait = "wroth"
-add_trait = "zealous"
+name="Sighast"
+dynasty=14088
+dna="ojiahfkkhlp"
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=2
+learning=2
+mother=650097
+add_trait="tough_soldier"
+add_trait="wroth"
+add_trait="zealous"
 2504.1.1={birth=yes}
 2562.11.8={death=yes}
 }
 
 650100={
-name = "Frida"
-female = yes
-dynasty = 14088
-dna = "lnjpdgjmmdg"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 3
-intrigue = 6
-learning = 5
-mother = 650097
-add_trait = "intricate_webweaver"
+name="Frida"
+female=yes
+dynasty=14088
+dna="lnjpdgjmmdg"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=5
+mother=650097
+add_trait="intricate_webweaver"
 2509.1.1={birth=yes}
 2572.7.12={death=yes}
 }
 
 650101={
-name = "Adelinde"
-female = yes
-dynasty = 14085
-dna = "mlhmhdkhlfj"
-culture = nordlander
-religion = sigmarite
-martial = 7
-diplomacy = 3
-stewardship = 3
-intrigue = 3
-learning = 4
-add_trait = "indulgent_wastrel"
-add_trait = "shy"
-add_trait = "wounded"
+name="Adelinde"
+female=yes
+dynasty=14085
+dna="mlhmhdkhlfj"
+culture=nordlander
+religion=sigmarite
+martial=7
+diplomacy=3
+stewardship=3
+intrigue=3
+learning=4
+add_trait="indulgent_wastrel"
+add_trait="shy"
+add_trait="wounded"
 2271.1.1={birth=yes}
 2344.7.5={death=yes}
 }
 
 650102={
-name = "Kaster"
-dynasty = 14085
-dna = "ibpglndialj"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 5
-stewardship = 4
-intrigue = 4
-learning = 4
-mother = 650101
-add_trait = "indulgent_wastrel"
-add_trait = "trusting"
-add_trait = "zealous"
+name="Kaster"
+dynasty=14085
+dna="ibpglndialj"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=4
+mother=650101
+add_trait="indulgent_wastrel"
+add_trait="trusting"
+add_trait="zealous"
 2293.1.1={birth=yes}
 2360.5.8={death=yes}
 }
 
 650103={
-name = "Björn"
-dynasty = 14087
-dna = "hnegabeapac"
-culture = nordlander
-religion = sigmarite
-martial = 10
-diplomacy = 5
-stewardship = 7
-intrigue = 1
-learning = 3
-add_trait = "flamboyant_schemer"
-add_trait = "envious"
-add_trait = "proud"
-add_trait = "humble"
-add_trait = "paranoid"
+name="Björn"
+dynasty=14087
+dna="hnegabeapac"
+culture=nordlander
+religion=sigmarite
+martial=10
+diplomacy=5
+stewardship=7
+intrigue=1
+learning=3
+add_trait="flamboyant_schemer"
+add_trait="envious"
+add_trait="proud"
+add_trait="humble"
+add_trait="paranoid"
 2482.1.1={birth=yes}
 2548.7.3={death=yes}
 }
 
 650104={
-name = "Brunhilde"
-female = yes
-dynasty = 14087
-dna = "nocpnoagggk"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 2
-add_trait = "grey_eminence"
-add_trait = "proud"
-add_trait = "just"
-add_trait = "drunkard"
+name="Brunhilde"
+female=yes
+dynasty=14087
+dna="nocpnoagggk"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=2
+add_trait="grey_eminence"
+add_trait="proud"
+add_trait="just"
+add_trait="drunkard"
 2500.1.1={birth=yes}
 2560.5.29={death=yes}
 }
 
 650105={
-name = "Ingebjørg"
-female = yes
-dynasty = 14087
-dna = "ifkagnaglaf"
-culture = nordlander
-religion = sigmarite
-martial = 1
-diplomacy = 4
-stewardship = 8
-intrigue = 3
-learning = 6
-add_trait = "tough_soldier"
-add_trait = "shy"
-add_trait = "gregarious"
+name="Ingebjørg"
+female=yes
+dynasty=14087
+dna="ifkagnaglaf"
+culture=nordlander
+religion=sigmarite
+martial=1
+diplomacy=4
+stewardship=8
+intrigue=3
+learning=6
+add_trait="tough_soldier"
+add_trait="shy"
+add_trait="gregarious"
 2506.1.1={birth=yes}
 2541.8.29={death=yes}
 }
 
 650106={
-name = "Ludolf"
-dynasty = 14011
-dna = "ejdchbciljo"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 1
-stewardship = 1
-intrigue = 8
-learning = 6
-mother = 650090
-add_trait = "fortune_builder"
-add_trait = "hedonist"
-add_trait = "slothful"
-add_trait = "charitable"
+name="Ludolf"
+dynasty=14011
+dna="ejdchbciljo"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=1
+stewardship=1
+intrigue=8
+learning=6
+mother=650090
+add_trait="fortune_builder"
+add_trait="hedonist"
+add_trait="slothful"
+add_trait="charitable"
 2482.1.1={birth=yes}
 2531.5.26={death=yes}
 }
 
 650107={
-name = "Ermtraud"
-female = yes
-dynasty = 14011
-dna = "nmbgcenogde"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 4
-stewardship = 6
-intrigue = 7
-learning = 3
-father = 650106
-add_trait = "thrifty_clerk"
-add_trait = "cruel"
-add_trait = "content"
-add_trait = "just"
+name="Ermtraud"
+female=yes
+dynasty=14011
+dna="nmbgcenogde"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=4
+stewardship=6
+intrigue=7
+learning=3
+father=650106
+add_trait="thrifty_clerk"
+add_trait="cruel"
+add_trait="content"
+add_trait="just"
 2508.1.1={birth=yes}
 2547.11.10={death=yes}
 }
 
 
 650108={
-name = "Gunther"
-dynasty = 14005
-dna = "kfboofdhjcm"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 1
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "charismatic_negotiator"
-add_trait = "gregarious"
-add_trait = "slothful"
-add_trait = "cruel"
+name="Gunther"
+dynasty=14005
+dna="kfboofdhjcm"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=1
+stewardship=1
+intrigue=5
+learning=5
+add_trait="charismatic_negotiator"
+add_trait="gregarious"
+add_trait="slothful"
+add_trait="cruel"
 2478.1.1={birth=yes}
 2526.1.4={death=yes}
 }
 
 650109={
-name = "Katharina"
-female = yes
-dynasty = 14005
-dna = "chblgmkpfgn"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 5
-stewardship = 5
-intrigue = 3
-learning = 4
-father = 650108
-add_trait = "tough_soldier"
-add_trait = "duelist"
-add_trait = "just"
-add_trait = "brave"
+name="Katharina"
+female=yes
+dynasty=14005
+dna="chblgmkpfgn"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=5
+stewardship=5
+intrigue=3
+learning=4
+father=650108
+add_trait="tough_soldier"
+add_trait="duelist"
+add_trait="just"
+add_trait="brave"
 2506.1.1={birth=yes}
 2588.6.15={death=yes}
 }
 
 650110={
-name = "Vigleik"
-dynasty = 14005
-dna = "kkmekedhgep"
-culture = nordlander
-religion = sigmarite
-martial = 4
-diplomacy = 4
-stewardship = 3
-intrigue = 5
-learning = 3
-father = 650108
-add_trait = "midas_touched"
-add_trait = "lustful"
-add_trait = "proud"
-add_trait = "kind"
-add_trait = "possessed"
+name="Vigleik"
+dynasty=14005
+dna="kkmekedhgep"
+culture=nordlander
+religion=sigmarite
+martial=4
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=3
+father=650108
+add_trait="midas_touched"
+add_trait="lustful"
+add_trait="proud"
+add_trait="kind"
+add_trait="possessed"
 2497.1.1={birth=yes}
 2563.10.5={death=yes}
 }
 
 650111={
-name = "Ewald"
-dynasty = 14012
-dna = "ffgpfggjfhn"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 4
-learning = 5
-add_trait = "indulgent_wastrel"
-add_trait = "craven"
+name="Ewald"
+dynasty=14012
+dna="ffgpfggjfhn"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=5
+add_trait="indulgent_wastrel"
+add_trait="craven"
 2483.1.1={birth=yes}
 2547.8.31={death=yes}
 }
 
 650112={
-name = "Richwara"
-female = yes
-dynasty = 14012
-dna = "nkhkepmdaoc"
-culture = nordlander
-religion = sigmarite
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 5
-learning = 6
-father = 650111
-add_trait = "underhanded_rogue"
-add_trait = "zealous"
-add_trait = "temperate"
+name="Richwara"
+female=yes
+dynasty=14012
+dna="nkhkepmdaoc"
+culture=nordlander
+religion=sigmarite
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=5
+learning=6
+father=650111
+add_trait="underhanded_rogue"
+add_trait="zealous"
+add_trait="temperate"
 2503.1.1={birth=yes}
 2537.7.20={death=yes}
 }
 
 650113={
-name = "Seiger"
-dynasty = 14012
-dna = "ghkffbibhbo"
-culture = nordlander
-religion = sigmarite
-martial = 5
-diplomacy = 6
-stewardship = 0
-intrigue = 3
-learning = 3
-father = 650111
-add_trait = "fortune_builder"
-add_trait = "impaler"
-add_trait = "zealous"
-add_trait = "trusting"
+name="Seiger"
+dynasty=14012
+dna="ghkffbibhbo"
+culture=nordlander
+religion=sigmarite
+martial=5
+diplomacy=6
+stewardship=0
+intrigue=3
+learning=3
+father=650111
+add_trait="fortune_builder"
+add_trait="impaler"
+add_trait="zealous"
+add_trait="trusting"
 2506.1.1={birth=yes}
 2555.12.20={death=yes}
 }
 
 650114={
-name = "Ottmar"
-dynasty = 14006
-dna = "oieogoeggci"
-culture = nordlander
-religion = sigmarite
-martial = 2
-diplomacy = 5
-stewardship = 3
-intrigue = 2
-learning = 2
-add_trait = "intricate_webweaver"
-add_trait = "hunter"
-add_trait = "brave"
-add_trait = "cynical"
+name="Ottmar"
+dynasty=14006
+dna="oieogoeggci"
+culture=nordlander
+religion=sigmarite
+martial=2
+diplomacy=5
+stewardship=3
+intrigue=2
+learning=2
+add_trait="intricate_webweaver"
+add_trait="hunter"
+add_trait="brave"
+add_trait="cynical"
 2496.1.1={birth=yes}
 2530.1.14={death=yes}
 }
 
 650115={
-name = "Saxo"
-dynasty = 14006
-dna = "mihnbdgmphg"
-culture = nordlander
-religion = sigmarite
-martial = 6
-diplomacy = 7
-stewardship = 2
-intrigue = 6
-learning = 8
-father = 650114
-add_trait = "underhanded_rogue"
-add_trait = "poet"
-add_trait = "kind"
-add_trait = "patient"
-add_trait = "stressed"
+name="Saxo"
+dynasty=14006
+dna="mihnbdgmphg"
+culture=nordlander
+religion=sigmarite
+martial=6
+diplomacy=7
+stewardship=2
+intrigue=6
+learning=8
+father=650114
+add_trait="underhanded_rogue"
+add_trait="poet"
+add_trait="kind"
+add_trait="patient"
+add_trait="stressed"
 2518.1.1={birth=yes}
 2569.7.13={death=yes}
 }

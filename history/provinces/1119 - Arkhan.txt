@@ -7,10 +7,10 @@ title = c_arkhan
 max_settlements = 3
 b_arkhan = castle
 b_quesir = city
-b_hnese = temple
+#b_hnese = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

@@ -1,15 +1,15 @@
 6100000={
-name = "Jog"
-dynasty = 91147
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 0
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Jog"
+dynasty=91147
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=0
+add_trait="scholar"
+add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
@@ -19,17 +19,17 @@ add_trait="gregarious"
 }
 
 6100001={
-name = "Senr"
-dynasty = 91407
-culture = goblin_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 9
-intrigue = 1
-learning = 5
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Senr"
+dynasty=91407
+culture=goblin_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=9
+intrigue=1
+learning=5
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
 
@@ -39,17 +39,17 @@ add_trait="honest"
 }
 
 6100002={
-name = "Skoxuz"
-dynasty = 91155
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 8
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Skoxuz"
+dynasty=91155
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=8
+add_trait="poet"
+add_trait="mastermind_theologian"
 
 
 
@@ -59,17 +59,17 @@ add_trait = "mastermind_theologian"
 }
 
 6100003={
-name = "Skoxuz"
-dynasty = 91408
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 0
-stewardship = 7
-intrigue = 0
-learning = 5
-add_trait = "poet"
-add_trait = "midas_touched"
+name="Skoxuz"
+dynasty=91408
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=0
+stewardship=7
+intrigue=0
+learning=5
+add_trait="poet"
+add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
@@ -79,17 +79,17 @@ add_trait="temperate"
 }
 
 6100004={
-name = "Knubs"
-dynasty = 91308
-culture = goblin_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 6
-learning = 10
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Knubs"
+dynasty=91308
+culture=goblin_main
+religion=greenskin_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=6
+learning=10
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="chaste"
 add_trait="cruel"
 add_trait="weak"
@@ -99,17 +99,17 @@ add_trait="weak"
 }
 
 6100005={
-name = "Rummy"
-dynasty = 91456
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 0
-learning = 1
-add_trait = "impaler"
-add_trait = "martial_cleric"
+name="Rummy"
+dynasty=91456
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=0
+learning=1
+add_trait="impaler"
+add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
@@ -119,17 +119,17 @@ add_trait="humble"
 }
 
 6100006={
-name = "Slit"
-dynasty = 91029
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 1
-intrigue = 6
-learning = 9
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Slit"
+dynasty=91029
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=1
+intrigue=6
+learning=9
+add_trait="poet"
+add_trait="elusive_shadow"
 add_trait="content"
 
 
@@ -139,17 +139,17 @@ add_trait="content"
 }
 
 6100007={
-name = "Tog"
-dynasty = 91154
-culture = goblin_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 5
-stewardship = 4
-intrigue = 9
-learning = 2
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Tog"
+dynasty=91154
+culture=goblin_main
+religion=greenskin_gods
+martial=7
+diplomacy=5
+stewardship=4
+intrigue=9
+learning=2
+add_trait="duelist"
+add_trait="mastermind_theologian"
 
 
 
@@ -159,17 +159,17 @@ add_trait = "mastermind_theologian"
 }
 
 6100008={
-name = "Kezt"
-dynasty = 91346
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 6
-stewardship = 7
-intrigue = 8
-learning = 6
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Kezt"
+dynasty=91346
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=6
+stewardship=7
+intrigue=8
+learning=6
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 add_trait="legit_bastard"
 add_trait="homosexual"
 add_trait="drunkard"
@@ -179,17 +179,17 @@ add_trait="drunkard"
 }
 
 6100009={
-name = "Runtbite"
-dynasty = 91089
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 8
-stewardship = 11
-intrigue = 8
-learning = 9
+name="Runtbite"
+dynasty=91089
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=8
+stewardship=11
+intrigue=8
+learning=9
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 
 add_trait="lisp"
 
@@ -199,17 +199,17 @@ add_trait="lisp"
 }
 
 6100010={
-name = "Sodding"
-dynasty = 91353
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "hedonist"
-add_trait = "flamboyant_schemer"
+name="Sodding"
+dynasty=91353
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=4
+add_trait="hedonist"
+add_trait="flamboyant_schemer"
 add_trait="lustful"
 
 
@@ -219,17 +219,17 @@ add_trait="lustful"
 }
 
 6100011={
-name = "Murn"
-dynasty = 91130
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 11
-learning = 2
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Murn"
+dynasty=91130
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=11
+learning=2
+add_trait="poet"
+add_trait="amateurish_plotter"
 
 
 
@@ -239,17 +239,17 @@ add_trait = "amateurish_plotter"
 }
 
 6100012={
-name = "Knocker"
-dynasty = 91497
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 4
-stewardship = 9
-intrigue = 5
-learning = 7
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Knocker"
+dynasty=91497
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=4
+stewardship=9
+intrigue=5
+learning=7
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
@@ -259,17 +259,17 @@ add_trait="proud"
 }
 
 6100013={
-name = "Gobgit"
-dynasty = 91254
-culture = goblin_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 5
-stewardship = 1
-intrigue = 2
-learning = 4
-add_trait = "hedonist"
-add_trait = "naive_appeaser"
+name="Gobgit"
+dynasty=91254
+culture=goblin_main
+religion=greenskin_gods
+martial=8
+diplomacy=5
+stewardship=1
+intrigue=2
+learning=4
+add_trait="hedonist"
+add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 add_trait="fair"
@@ -279,17 +279,17 @@ add_trait="fair"
 }
 
 6100014={
-name = "Bans"
-dynasty = 91411
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 1
-stewardship = 9
-intrigue = 7
-learning = 5
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Bans"
+dynasty=91411
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=1
+stewardship=9
+intrigue=7
+learning=5
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
@@ -299,17 +299,17 @@ add_trait="shy"
 }
 
 6100015={
-name = "Aggro"
-dynasty = 91441
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 8
-stewardship = 9
-intrigue = 8
-learning = 6
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Aggro"
+dynasty=91441
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=8
+stewardship=9
+intrigue=8
+learning=6
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
@@ -319,17 +319,17 @@ add_trait="ambitious"
 }
 
 6100016={
-name = "Bugaxe"
-dynasty = 91510
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 3
-stewardship = 5
-intrigue = 1
-learning = 5
-add_trait = "falconer"
-add_trait = "grey_eminence"
+name="Bugaxe"
+dynasty=91510
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=3
+stewardship=5
+intrigue=1
+learning=5
+add_trait="falconer"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
@@ -339,17 +339,17 @@ add_trait="honest"
 }
 
 6100017={
-name = "Qog"
-dynasty = 91378
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 4
-stewardship = 0
-intrigue = 1
-learning = 8
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Qog"
+dynasty=91378
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=8
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
@@ -359,17 +359,17 @@ add_trait="greedy"
 }
 
 6100018={
-name = "Pimpy"
-dynasty = 91430
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 1
-stewardship = 8
-intrigue = 2
-learning = 9
+name="Pimpy"
+dynasty=91430
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="kind"
 
 
@@ -379,17 +379,17 @@ add_trait="kind"
 }
 
 6100019={
-name = "Sbart"
-dynasty = 91349
-culture = goblin_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 9
-add_trait = "hedonist"
-add_trait = "intricate_webweaver"
+name="Sbart"
+dynasty=91349
+culture=goblin_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=9
+add_trait="hedonist"
+add_trait="intricate_webweaver"
 
 add_trait="tall"
 add_trait="weak"
@@ -399,17 +399,17 @@ add_trait="weak"
 }
 
 6100020={
-name = "Sneery"
-dynasty = 91475
-culture = goblin_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 3
-stewardship = 8
-intrigue = 1
-learning = 9
-add_trait = "hunter"
-add_trait = "naive_appeaser"
+name="Sneery"
+dynasty=91475
+culture=goblin_main
+religion=greenskin_gods
+martial=3
+diplomacy=3
+stewardship=8
+intrigue=1
+learning=9
+add_trait="hunter"
+add_trait="naive_appeaser"
 
 add_trait="wroth"
 add_trait="cruel"
@@ -419,17 +419,17 @@ add_trait="cruel"
 }
 
 6100021={
-name = "Marrow"
-dynasty = 91493
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 5
-stewardship = 8
-intrigue = 0
-learning = 2
-add_trait = "hedonist"
-add_trait = "tough_soldier"
+name="Marrow"
+dynasty=91493
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=5
+stewardship=8
+intrigue=0
+learning=2
+add_trait="hedonist"
+add_trait="tough_soldier"
 add_trait="humble"
 add_trait="content"
 add_trait="temperate"
@@ -439,17 +439,17 @@ add_trait="temperate"
 }
 
 6100022={
-name = "Goldgrin"
-dynasty = 91172
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 8
-learning = 8
+name="Goldgrin"
+dynasty=91172
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=8
+learning=8
 
-add_trait = "amateurish_plotter"
+add_trait="amateurish_plotter"
 add_trait="chaste"
 add_trait="ill"
 add_trait="trusting"
@@ -459,17 +459,17 @@ add_trait="trusting"
 }
 
 6100023={
-name = "Gool"
-dynasty = 91505
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 3
-stewardship = 2
-intrigue = 6
-learning = 5
+name="Gool"
+dynasty=91505
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=3
+stewardship=2
+intrigue=6
+learning=5
 
-add_trait = "scholarly_theologian"
+add_trait="scholarly_theologian"
 
 
 add_trait="drunkard"
@@ -479,17 +479,17 @@ add_trait="drunkard"
 }
 
 6100024={
-name = "Rzedak"
-dynasty = 91418
-culture = goblin_main
-religion = greenskin_gods
-martial = 2
-diplomacy = 10
-stewardship = 6
-intrigue = 9
-learning = 9
-add_trait = "hunter"
-add_trait = "amateurish_plotter"
+name="Rzedak"
+dynasty=91418
+culture=goblin_main
+religion=greenskin_gods
+martial=2
+diplomacy=10
+stewardship=6
+intrigue=9
+learning=9
+add_trait="hunter"
+add_trait="amateurish_plotter"
 
 add_trait="lustful"
 
@@ -499,17 +499,17 @@ add_trait="lustful"
 }
 
 6100025={
-name = "Sodit"
-dynasty = 91080
-culture = goblin_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 6
-intrigue = 11
-learning = 10
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
+name="Sodit"
+dynasty=91080
+culture=goblin_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=6
+intrigue=11
+learning=10
+add_trait="duelist"
+add_trait="underhanded_rogue"
 
 add_trait="legit_bastard"
 
@@ -519,17 +519,17 @@ add_trait="legit_bastard"
 }
 
 6100026={
-name = "Romuzb"
-dynasty = 91402
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 11
-intrigue = 2
-learning = 4
-add_trait = "impaler"
-add_trait = "thrifty_clerk"
+name="Romuzb"
+dynasty=91402
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=11
+intrigue=2
+learning=4
+add_trait="impaler"
+add_trait="thrifty_clerk"
 
 add_trait="lisp"
 
@@ -539,17 +539,17 @@ add_trait="lisp"
 }
 
 6100027={
-name = "Driznik"
-dynasty = 91430
-culture = goblin_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 5
-intrigue = 5
-learning = 9
-add_trait = "hunter"
-add_trait = "grey_eminence"
+name="Driznik"
+dynasty=91430
+culture=goblin_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=5
+intrigue=5
+learning=9
+add_trait="hunter"
+add_trait="grey_eminence"
 add_trait="homosexual"
 
 
@@ -559,17 +559,17 @@ add_trait="homosexual"
 }
 
 6100028={
-name = "Shadow"
-dynasty = 91079
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 6
-stewardship = 5
-intrigue = 1
-learning = 9
-add_trait = "duelist"
-add_trait = "brilliant_strategist"
+name="Shadow"
+dynasty=91079
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=6
+stewardship=5
+intrigue=1
+learning=9
+add_trait="duelist"
+add_trait="brilliant_strategist"
 add_trait="fair"
 
 add_trait="strong"
@@ -579,17 +579,17 @@ add_trait="strong"
 }
 
 6100029={
-name = "Pox"
-dynasty = 91327
-culture = goblin_main
-religion = greenskin_gods
-martial = 10
-diplomacy = 3
-stewardship = 1
-intrigue = 0
-learning = 5
-add_trait = "hunter"
-add_trait = "brilliant_strategist"
+name="Pox"
+dynasty=91327
+culture=goblin_main
+religion=greenskin_gods
+martial=10
+diplomacy=3
+stewardship=1
+intrigue=0
+learning=5
+add_trait="hunter"
+add_trait="brilliant_strategist"
 
 add_trait="proud"
 add_trait="envious"
@@ -599,17 +599,17 @@ add_trait="envious"
 }
 
 6100030={
-name = "Silvertooth"
-dynasty = 91429
-culture = goblin_main
-religion = greenskin_gods
-martial = 2
-diplomacy = 7
-stewardship = 3
-intrigue = 5
-learning = 1
-add_trait = "falconer"
-add_trait = "detached_priest"
+name="Silvertooth"
+dynasty=91429
+culture=goblin_main
+religion=greenskin_gods
+martial=2
+diplomacy=7
+stewardship=3
+intrigue=5
+learning=1
+add_trait="falconer"
+add_trait="detached_priest"
 add_trait="slothful"
 add_trait="shy"
 add_trait="diligent"
@@ -619,17 +619,17 @@ add_trait="diligent"
 }
 
 6100031={
-name = "Rtans"
-dynasty = 91051
-culture = goblin_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 9
-stewardship = 0
-intrigue = 4
-learning = 1
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Rtans"
+dynasty=91051
+culture=goblin_main
+religion=greenskin_gods
+martial=8
+diplomacy=9
+stewardship=0
+intrigue=4
+learning=1
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="patient"
 add_trait="just"
 add_trait="ambitious"
@@ -639,17 +639,17 @@ add_trait="ambitious"
 }
 
 6100032={
-name = "Hex"
-dynasty = 91333
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 4
-stewardship = 10
-intrigue = 8
-learning = 2
-add_trait = "hunter"
-add_trait = "intricate_webweaver"
+name="Hex"
+dynasty=91333
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=4
+stewardship=10
+intrigue=8
+learning=2
+add_trait="hunter"
+add_trait="intricate_webweaver"
 add_trait="zealous"
 add_trait="cynical"
 add_trait="paranoid"
@@ -659,17 +659,17 @@ add_trait="paranoid"
 }
 
 6100033={
-name = "Gxas"
-dynasty = 91506
-culture = goblin_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 8
-stewardship = 2
-intrigue = 6
-learning = 9
-add_trait = "gardener"
-add_trait = "charismatic_negotiator"
+name="Gxas"
+dynasty=91506
+culture=goblin_main
+religion=greenskin_gods
+martial=3
+diplomacy=8
+stewardship=2
+intrigue=6
+learning=9
+add_trait="gardener"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="arbitrary"
 add_trait="craven"
@@ -679,17 +679,17 @@ add_trait="craven"
 }
 
 6100034={
-name = "Dunggrub"
-dynasty = 91095
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 8
-stewardship = 9
-intrigue = 1
-learning = 9
-add_trait = "poet"
-add_trait = "brilliant_strategist"
+name="Dunggrub"
+dynasty=91095
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=8
+stewardship=9
+intrigue=1
+learning=9
+add_trait="poet"
+add_trait="brilliant_strategist"
 add_trait="gregarious"
 
 
@@ -699,17 +699,17 @@ add_trait="gregarious"
 }
 
 6100035={
-name = "Crag"
-dynasty = 91516
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 6
-intrigue = 9
-learning = 7
+name="Crag"
+dynasty=91516
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=6
+intrigue=9
+learning=7
 
-add_trait = "thrifty_clerk"
+add_trait="thrifty_clerk"
 
 add_trait="honest"
 
@@ -719,17 +719,17 @@ add_trait="honest"
 }
 
 6100036={
-name = "Rem"
-dynasty = 91282
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 5
-stewardship = 0
-intrigue = 8
-learning = 9
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Rem"
+dynasty=91282
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=5
+stewardship=0
+intrigue=8
+learning=9
+add_trait="impaler"
+add_trait="underhanded_rogue"
 add_trait="weak"
 add_trait="tall"
 add_trait="greedy"
@@ -739,17 +739,17 @@ add_trait="greedy"
 }
 
 6100037={
-name = "Prolly"
-dynasty = 91500
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 11
-intrigue = 11
-learning = 6
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Prolly"
+dynasty=91500
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=11
+intrigue=11
+learning=6
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="cruel"
 add_trait="chaste"
 add_trait="temperate"
@@ -759,17 +759,17 @@ add_trait="temperate"
 }
 
 6100038={
-name = "Nxezd"
-dynasty = 91178
-culture = goblin_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 5
-stewardship = 1
-intrigue = 7
-learning = 10
-add_trait = "gardener"
-add_trait = "misguided_warrior"
+name="Nxezd"
+dynasty=91178
+culture=goblin_main
+religion=greenskin_gods
+martial=3
+diplomacy=5
+stewardship=1
+intrigue=7
+learning=10
+add_trait="gardener"
+add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="humble"
 add_trait="ill"
@@ -779,17 +779,17 @@ add_trait="ill"
 }
 
 6100039={
-name = "Dork"
-dynasty = 91147
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 0
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Dork"
+dynasty=91147
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=0
+add_trait="scholar"
+add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
@@ -799,17 +799,17 @@ add_trait="gregarious"
 }
 
 6100040={
-name = "Big"
-dynasty = 91407
-culture = goblin_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 9
-intrigue = 1
-learning = 5
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Big"
+dynasty=91407
+culture=goblin_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=9
+intrigue=1
+learning=5
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
 
@@ -819,17 +819,17 @@ add_trait="honest"
 }
 
 6100041={
-name = "Bagger"
-dynasty = 91335
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 8
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Bagger"
+dynasty=91335
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=8
+add_trait="poet"
+add_trait="mastermind_theologian"
 
 
 
@@ -839,17 +839,17 @@ add_trait = "mastermind_theologian"
 }
 
 6100042={
-name = "Gobbo"
-dynasty = 91408
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 0
-stewardship = 7
-intrigue = 0
-learning = 5
-add_trait = "poet"
-add_trait = "midas_touched"
+name="Gobbo"
+dynasty=91408
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=0
+stewardship=7
+intrigue=0
+learning=5
+add_trait="poet"
+add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
@@ -859,17 +859,17 @@ add_trait="temperate"
 }
 
 6100043={
-name = "Goldy"
-dynasty = 91408
-culture = goblin_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 6
-learning = 10
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Goldy"
+dynasty=91408
+culture=goblin_main
+religion=greenskin_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=6
+learning=10
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="chaste"
 add_trait="cruel"
 add_trait="weak"
@@ -879,17 +879,17 @@ add_trait="weak"
 }
 
 6100044={
-name = "Geds"
-dynasty = 91456
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 0
-learning = 1
-add_trait = "impaler"
-add_trait = "martial_cleric"
+name="Geds"
+dynasty=91456
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=0
+learning=1
+add_trait="impaler"
+add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
@@ -899,17 +899,17 @@ add_trait="humble"
 }
 
 6100045={
-name = "Leery"
-dynasty = 91329
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 1
-intrigue = 6
-learning = 9
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Leery"
+dynasty=91329
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=1
+intrigue=6
+learning=9
+add_trait="poet"
+add_trait="elusive_shadow"
 add_trait="content"
 
 
@@ -919,17 +919,17 @@ add_trait="content"
 }
 
 6100046={
-name = "Zurn"
-dynasty = 91454
-culture = goblin_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 5
-stewardship = 4
-intrigue = 9
-learning = 2
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Zurn"
+dynasty=91454
+culture=goblin_main
+religion=greenskin_gods
+martial=7
+diplomacy=5
+stewardship=4
+intrigue=9
+learning=2
+add_trait="duelist"
+add_trait="mastermind_theologian"
 
 
 
@@ -939,17 +939,17 @@ add_trait = "mastermind_theologian"
 }
 
 6100047={
-name = "Qog"
-dynasty = 91446
-culture = goblin_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 6
-stewardship = 7
-intrigue = 8
-learning = 6
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Qog"
+dynasty=91446
+culture=goblin_main
+religion=greenskin_gods
+martial=9
+diplomacy=6
+stewardship=7
+intrigue=8
+learning=6
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 add_trait="legit_bastard"
 add_trait="homosexual"
 add_trait="drunkard"
@@ -959,17 +959,17 @@ add_trait="drunkard"
 }
 
 6100048={
-name = "Crag"
-dynasty = 91489
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 8
-stewardship = 11
-intrigue = 8
-learning = 9
+name="Crag"
+dynasty=91489
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=8
+stewardship=11
+intrigue=8
+learning=9
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 
 add_trait="lisp"
 
@@ -979,17 +979,17 @@ add_trait="lisp"
 }
 
 6100049={
-name = "Boff"
-dynasty = 91273
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "hedonist"
-add_trait = "flamboyant_schemer"
+name="Boff"
+dynasty=91273
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=4
+add_trait="hedonist"
+add_trait="flamboyant_schemer"
 add_trait="lustful"
 
 
@@ -999,17 +999,17 @@ add_trait="lustful"
 }
 
 6100050={
-name = "Mogant"
-dynasty = 91090
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 11
-learning = 2
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Mogant"
+dynasty=91090
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=11
+learning=2
+add_trait="poet"
+add_trait="amateurish_plotter"
 
 
 
@@ -1019,17 +1019,17 @@ add_trait = "amateurish_plotter"
 }
 
 6100051={
-name = "Nibbinz"
-dynasty = 91497
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 4
-stewardship = 9
-intrigue = 5
-learning = 7
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Nibbinz"
+dynasty=91497
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=4
+stewardship=9
+intrigue=5
+learning=7
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
@@ -1039,17 +1039,17 @@ add_trait="proud"
 }
 
 6100052={
-name = "Nad"
-dynasty = 91064
-culture = goblin_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 5
-stewardship = 1
-intrigue = 2
-learning = 4
-add_trait = "hedonist"
-add_trait = "naive_appeaser"
+name="Nad"
+dynasty=91064
+culture=goblin_main
+religion=greenskin_gods
+martial=8
+diplomacy=5
+stewardship=1
+intrigue=2
+learning=4
+add_trait="hedonist"
+add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 add_trait="fair"
@@ -1059,17 +1059,17 @@ add_trait="fair"
 }
 
 6100053={
-name = "Tog"
-dynasty = 91131
-culture = goblin_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 1
-stewardship = 9
-intrigue = 7
-learning = 5
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Tog"
+dynasty=91131
+culture=goblin_main
+religion=greenskin_gods
+martial=1
+diplomacy=1
+stewardship=9
+intrigue=7
+learning=5
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
@@ -1079,17 +1079,17 @@ add_trait="shy"
 }
 
 6100054={
-name = "Spox"
-dynasty = 91421
-culture = goblin_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 8
-stewardship = 9
-intrigue = 8
-learning = 6
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Spox"
+dynasty=91421
+culture=goblin_main
+religion=greenskin_gods
+martial=6
+diplomacy=8
+stewardship=9
+intrigue=8
+learning=6
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
@@ -1099,17 +1099,17 @@ add_trait="ambitious"
 }
 
 6100055={
-name = "Shiv"
-dynasty = 91050
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 3
-stewardship = 5
-intrigue = 1
-learning = 5
-add_trait = "falconer"
-add_trait = "grey_eminence"
+name="Shiv"
+dynasty=91050
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=3
+stewardship=5
+intrigue=1
+learning=5
+add_trait="falconer"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
@@ -1119,17 +1119,17 @@ add_trait="honest"
 }
 
 6100056={
-name = "Yip"
-dynasty = 91378
-culture = goblin_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 4
-stewardship = 0
-intrigue = 1
-learning = 8
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Yip"
+dynasty=91378
+culture=goblin_main
+religion=greenskin_gods
+martial=0
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=8
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
@@ -1139,17 +1139,17 @@ add_trait="greedy"
 }
 
 6100057={
-name = "Sneery"
-dynasty = 91430
-culture = goblin_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 1
-stewardship = 8
-intrigue = 2
-learning = 9
+name="Sneery"
+dynasty=91430
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="kind"
 
 

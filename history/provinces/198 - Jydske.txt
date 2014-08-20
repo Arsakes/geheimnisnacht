@@ -11,7 +11,7 @@ b_choika = city
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History

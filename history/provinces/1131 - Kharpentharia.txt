@@ -7,13 +7,17 @@ title = c_kharpentharia
 max_settlements = 5
 b_kharpentharia = castle
 b_khufa = city
-b_sakkarat = temple
-b_pharakh = castle
-b_khetep = city
+#b_sakkarat = temple
+#b_pharakh = castle
+#b_khetep = city
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_sakkarat = temple
+}

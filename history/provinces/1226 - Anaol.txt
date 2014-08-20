@@ -9,8 +9,8 @@ b_anaol = castle
 #b_mektut = temple
 
 # Misc
-culture = kvellig
-religion = chaos
+culture = gharhar
+religion = khorne
 
 
 # History

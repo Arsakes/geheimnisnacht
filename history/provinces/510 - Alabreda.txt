@@ -1,6 +1,5 @@
 # 510 Alabreda
 
-#County Title
 title = c_alabreda
 
 #Settlements
@@ -12,6 +11,10 @@ b_ropera = city
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_bellesta = temple
+}

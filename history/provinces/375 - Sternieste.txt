@@ -20,3 +20,7 @@ religion = vampiric
 
 2155.1.1 = { religion = sigmarite }
 2155.1.1 = { culture = stirlander }
+
+2500.1.1 = {
+	b_svarsee = temple
+}

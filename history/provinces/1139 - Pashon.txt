@@ -6,12 +6,16 @@ title = c_pashon
 # Settlements
 max_settlements = 3
 b_pashon = castle
-b_kahum = city
-b_buto = temple
+#b_kahum = city
+#b_buto = temple
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_kahum = city
+}

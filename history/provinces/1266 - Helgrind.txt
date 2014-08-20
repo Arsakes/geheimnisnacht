@@ -6,7 +6,7 @@ title = c_helgrind
 # Settlements
 max_settlements = 2
 b_helgrindgrad = castle
-b_pylgorod = city
+#b_pylgorod = temple
 
 # Misc
 culture = ungol
@@ -14,3 +14,7 @@ religion = northern_gods
 
 
 # History
+
+2500.1.1 = {
+	b_pylgorod = temple
+}

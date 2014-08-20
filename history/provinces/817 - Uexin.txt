@@ -7,12 +7,16 @@ title = c_uexin
 max_settlements = 4
 b_chateau_uesin = castle
 b_the_weeping_chapel = temple
-b_graalbourg = castle
+#b_graalbourg = castle
 #b_le_ruy = city
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_graalbourg = castle
+}

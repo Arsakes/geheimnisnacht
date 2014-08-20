@@ -22,9 +22,9 @@ ormazd_gods_group = {
 		crusade_name = "HOLY_WAR"
 		scripture_name = THE_PROPHETS
 		priests_can_marry = yes
-		allow_rivermovement = yes
+		allow_rivermovement = no
 		female_temple_holders = no
-		max_wives = 4
+		max_consorts = 3
 	}
 
 	akghan = {
@@ -43,9 +43,9 @@ ormazd_gods_group = {
 		crusade_name = "HOLY_WAR"
 		scripture_name = THE_PROPHETS
 		priests_can_marry = yes
-		allow_rivermovement = yes
+		allow_rivermovement = no
 		female_temple_holders = yes
-		max_wives = 4
+		max_consorts = 3
 	}
 	
 	atruhayid = {
@@ -64,10 +64,11 @@ ormazd_gods_group = {
 		crusade_name = "HOLY_WAR"
 		scripture_name = THE_PROPHETS
 		priests_can_marry = yes
+		peace_prestige_loss = yes
 		aggression = 1.5 		
 		allow_looting = yes
 		allow_rivermovement = yes
-		female_temple_holders = yes		
+		female_temple_holders = yes
 		max_consorts = 3
 		
 	}		

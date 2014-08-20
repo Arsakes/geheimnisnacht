@@ -7,7 +7,7 @@ title = c_ankarath
 max_settlements = 3
 b_ankarath = castle
 b_broken_spine = temple
-b_gnobhill = castle
+#b_gnobhill = castle
 
 # Misc
 culture = goblin_main

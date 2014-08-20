@@ -9,8 +9,8 @@ b_axabaxx = castle
 #b_taryatu_chulutu = city
 
 # Misc
-culture = mung
-religion = chaos
+culture = aghol
+religion = tzeentch
 
 
 # History

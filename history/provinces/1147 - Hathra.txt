@@ -7,10 +7,10 @@ title = c_hathra
 max_settlements = 3
 b_hathra = castle
 b_sebak = city
-b_tuth = temple
+#b_tuth = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

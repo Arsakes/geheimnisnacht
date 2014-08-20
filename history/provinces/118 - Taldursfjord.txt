@@ -12,7 +12,7 @@ b_barraka_eravik = temple
 
 # Misc
 culture = dwarf_norse
-religion = ancestor_gods
+religion = norse_ancestor_gods
 
 
 # History

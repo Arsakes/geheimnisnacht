@@ -13,7 +13,7 @@ b_pandino = temple
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

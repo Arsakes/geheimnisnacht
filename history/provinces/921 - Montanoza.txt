@@ -1,5 +1,5 @@
 #921 Montañoza
-#County Title
+
 title = c_montanoza
 
 #Settlements
@@ -10,6 +10,6 @@ b_azuei = city
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History

@@ -1,5 +1,5 @@
 #569 Las Navas
-#County Title
+
 title = c_las_navas
 
 #Settlements
@@ -11,6 +11,6 @@ b_caberno = city
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History

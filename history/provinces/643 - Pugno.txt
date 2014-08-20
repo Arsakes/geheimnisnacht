@@ -11,7 +11,7 @@ b_piccolla_pugno = city
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

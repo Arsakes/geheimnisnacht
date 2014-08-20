@@ -6,7 +6,7 @@ title = c_mezdah
 # Settlements
 max_settlements = 2
 b_mezdah = castle
-b_tantan = temple
+#b_tantan = temple
 
 # Misc
 culture = medean

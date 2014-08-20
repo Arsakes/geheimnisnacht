@@ -14,7 +14,11 @@ b_ceurs = city
 
 # Misc
 culture = gisoren
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_melonge = temple
+}

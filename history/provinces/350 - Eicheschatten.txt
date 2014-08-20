@@ -7,7 +7,7 @@ title = c_eicheschatten
 max_settlements = 6
 b_eicheschatten = castle
 b_molberg = city
-b_vorchdorf = city
+b_vorchdorf = temple
 #b_brandenberry = city
 #b_birnbaum = temple
 #b_bogglewort = city
@@ -15,6 +15,11 @@ b_vorchdorf = city
 # Misc
 culture = mootlander
 religion = halfling_gods
+terrain = farmlands
 
 
 # History
+
+2250.1.1 = {
+	b_brandenberry = city
+}

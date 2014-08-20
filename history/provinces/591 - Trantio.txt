@@ -8,14 +8,22 @@ max_settlements = 7
 b_trantio = castle
 b_apolino = city
 b_leone = temple
-b_latanero = castle
+#b_latanero = castle
 #b_eccomendo = city
 #b_samaldo = temple
 #b_aventino = castle
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_latanero = castle
+}
+
+2500.1.1 = {
+	b_eccomendo = city
+}

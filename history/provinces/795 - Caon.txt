@@ -12,7 +12,7 @@ b_dulcine = castle
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

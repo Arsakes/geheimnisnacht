@@ -14,7 +14,15 @@ b_maltane = city
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_valendra = temple
+}
+
+2500.1.1 = {
+	b_philany = castle
+}

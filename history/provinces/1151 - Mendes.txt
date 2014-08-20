@@ -9,7 +9,7 @@ b_mendes = castle
 b_amphit = city
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 

@@ -12,7 +12,7 @@ b_basica = city
 
 # Misc
 culture = oltremari
-religion = classical_gods
+religion = myrmidian
 
 
 # History

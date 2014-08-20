@@ -15,8 +15,12 @@ b_grand_chapel = temple
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_castel_le_vicomte = castle
+}

@@ -1,368 +1,368 @@
 2300000={
-name = "Sava"
-dynasty = 66000
-dna = "bcejdpejlde"
-culture = hastling
-religion = chaos
-martial = 7
-diplomacy = 1
-stewardship = 5
-intrigue = 1
-learning = 5
-add_trait = "thrifty_clerk"
-add_trait = "charitable"
-add_trait = "humble"
-add_trait = "gregarious"
+name="Sava"
+dynasty=66000
+dna="bcejdpejlde"
+culture=hastling
+religion=chaos
+martial=7
+diplomacy=1
+stewardship=5
+intrigue=1
+learning=5
+add_trait="thrifty_clerk"
+add_trait="charitable"
+add_trait="humble"
+add_trait="gregarious"
 1961.1.1={birth=yes}
 2011.1.27={death=yes}
 }
 
 2300001={
-name = "Emese"
-female = yes
-dynasty = 66001
-dna = "icolcjhkdgi"
-culture = hastling
-religion = chaos
-martial = 5
-diplomacy = 5
-stewardship = 3
-intrigue = 3
-learning = 4
-add_trait = "naive_appeaser"
-add_trait = "gardener"
-add_trait = "greedy"
-add_trait = "diligent"
-add_trait = "trusting"
+name="Emese"
+female=yes
+dynasty=66001
+dna="icolcjhkdgi"
+culture=hastling
+religion=chaos
+martial=5
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=4
+add_trait="naive_appeaser"
+add_trait="gardener"
+add_trait="greedy"
+add_trait="diligent"
+add_trait="trusting"
 1966.1.1={birth=yes}
 2021.10.28={death=yes}
 }
 
 2300002={
-name = "Skolasztika"
-female = yes
-dynasty = 66002
-dna = "innlglkggkp"
-culture = hastling
-religion = chaos
-martial = 2
-diplomacy = 5
-stewardship = 7
-intrigue = 3
-learning = 2
-add_trait = "elusive_shadow"
-add_trait = "patient"
+name="Skolasztika"
+female=yes
+dynasty=66002
+dna="innlglkggkp"
+culture=hastling
+religion=chaos
+martial=2
+diplomacy=5
+stewardship=7
+intrigue=3
+learning=2
+add_trait="elusive_shadow"
+add_trait="patient"
 1973.1.1={birth=yes}
 2025.5.3={death=yes}
 }
 
 2300003={
-name = "Edit"
-female = yes
-dynasty = 66003
-dna = "iibfiokgepc"
-culture = hastling
-religion = chaos
-martial = 3
-diplomacy = 2
-stewardship = 1
-intrigue = 5
-learning = 1
-add_trait = "thrifty_clerk"
-add_trait = "content"
-add_trait = "cynical"
+name="Edit"
+female=yes
+dynasty=66003
+dna="iibfiokgepc"
+culture=hastling
+religion=chaos
+martial=3
+diplomacy=2
+stewardship=1
+intrigue=5
+learning=1
+add_trait="thrifty_clerk"
+add_trait="content"
+add_trait="cynical"
 1965.1.1={birth=yes}
 2022.5.21={death=yes}
 }
 
 2300004={
-name = "Gábor"
-dynasty = 66004
-dna = "ipodebbodbg"
-culture = hastling
-religion = chaos
-martial = 6
-diplomacy = 5
-stewardship = 3
-intrigue = 3
-learning = 0
-add_trait = "thrifty_clerk"
-add_trait = "kind"
-add_trait = "cruel"
+name="Gábor"
+dynasty=66004
+dna="ipodebbodbg"
+culture=hastling
+religion=chaos
+martial=6
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=0
+add_trait="thrifty_clerk"
+add_trait="kind"
+add_trait="cruel"
 1990.1.1={birth=yes}
 2050.3.4={death=yes}
 }
 
 2300005={
-name = "Elemér"
-dynasty = 66005
-dna = "ihnjmfjgkdp"
-culture = hastling
-religion = chaos
-martial = 7
-diplomacy = 3
-stewardship = 7
-intrigue = 4
-learning = 3
-add_trait = "brilliant_strategist"
-add_trait = "paranoid"
-add_trait = "gregarious"
-add_trait = "deceitful"
+name="Elemér"
+dynasty=66005
+dna="ihnjmfjgkdp"
+culture=hastling
+religion=chaos
+martial=7
+diplomacy=3
+stewardship=7
+intrigue=4
+learning=3
+add_trait="brilliant_strategist"
+add_trait="paranoid"
+add_trait="gregarious"
+add_trait="deceitful"
 1979.1.1={birth=yes}
 2038.11.15={death=yes}
 }
 
 2300006={
-name = "Tamás"
-dynasty = 66006
-dna = "hnkhgfoccpf"
-culture = hastling
-religion = chaos
-martial = 5
-diplomacy = 2
-stewardship = 5
-intrigue = 4
-learning = 3
-add_trait = "flamboyant_schemer"
-add_trait = "brave"
-add_trait = "kind"
+name="Tamás"
+dynasty=66006
+dna="hnkhgfoccpf"
+culture=hastling
+religion=chaos
+martial=5
+diplomacy=2
+stewardship=5
+intrigue=4
+learning=3
+add_trait="flamboyant_schemer"
+add_trait="brave"
+add_trait="kind"
 1976.1.1={birth=yes}
 2041.5.22={death=yes}
 }
 
 2300007={
-name = "Sándor"
-dynasty = 66007
-dna = "fbeecocljke"
-culture = hastling
-religion = chaos
-martial = 2
-diplomacy = 4
-stewardship = 7
-intrigue = 1
-learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "impaler"
-add_trait = "trusting"
-add_trait = "envious"
+name="Sándor"
+dynasty=66007
+dna="fbeecocljke"
+culture=hastling
+religion=chaos
+martial=2
+diplomacy=4
+stewardship=7
+intrigue=1
+learning=4
+add_trait="underhanded_rogue"
+add_trait="impaler"
+add_trait="trusting"
+add_trait="envious"
 1987.1.1={birth=yes}
 2027.8.4={death=yes}
 }
 
 2300008={
-name = "Magdolna"
-female = yes
-dynasty = 66008
-dna = "lfjcmelfcgl"
-culture = hastling
-religion = chaos
-martial = 3
-diplomacy = 2
-stewardship = 5
-intrigue = 3
-learning = 3
-add_trait = "thrifty_clerk"
-add_trait = "arbitrary"
-add_trait = "brave"
-add_trait = "gluttonous"
-add_trait = "depressed"
+name="Magdolna"
+female=yes
+dynasty=66008
+dna="lfjcmelfcgl"
+culture=hastling
+religion=chaos
+martial=3
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=3
+add_trait="thrifty_clerk"
+add_trait="arbitrary"
+add_trait="brave"
+add_trait="gluttonous"
+add_trait="depressed"
 1989.1.1={birth=yes}
 2052.8.22={death=yes}
 }
 
 2300009={
-name = "N'Kara"
-female = yes
-dynasty = 66009
-dna = "pecodlpecba"
-culture = hastling
-religion = chaos
-martial = 7
-diplomacy = 1
-stewardship = 1
-intrigue = 5
-learning = 0
-add_trait = "grey_eminence"
-add_trait = "honest"
+name="N'Kara"
+female=yes
+dynasty=66009
+dna="pecodlpecba"
+culture=hastling
+religion=chaos
+martial=7
+diplomacy=1
+stewardship=1
+intrigue=5
+learning=0
+add_trait="grey_eminence"
+add_trait="honest"
 1968.1.1={birth=yes}
 2029.6.22={death=yes}
 }
 
 2300010={
-name = "Vilmos"
-dynasty = 66010
-dna = "mgelklojeli"
-culture = hastling
-religion = chaos
-martial = 8
-diplomacy = 4
-stewardship = 2
-intrigue = 7
-learning = 4
-add_trait = "charismatic_negotiator"
-add_trait = "kind"
+name="Vilmos"
+dynasty=66010
+dna="mgelklojeli"
+culture=hastling
+religion=chaos
+martial=8
+diplomacy=4
+stewardship=2
+intrigue=7
+learning=4
+add_trait="charismatic_negotiator"
+add_trait="kind"
 1975.1.1={birth=yes}
 2043.9.16={death=yes}
 }
 
 2300011={
-name = "Viseslav"
-dynasty = 66011
-dna = "mkhakdcgcmn"
-culture = hastling
-religion = chaos
-martial = 1
-diplomacy = 7
-stewardship = 4
-intrigue = 3
-learning = 2
-add_trait = "misguided_warrior"
-add_trait = "craven"
-add_trait = "lustful"
+name="Viseslav"
+dynasty=66011
+dna="mkhakdcgcmn"
+culture=hastling
+religion=chaos
+martial=1
+diplomacy=7
+stewardship=4
+intrigue=3
+learning=2
+add_trait="misguided_warrior"
+add_trait="craven"
+add_trait="lustful"
 1976.1.1={birth=yes}
 2011.4.19={death=yes}
 }
 
 2300012={
-name = "Radka"
-female = yes
-dynasty = 66012
-dna = "jdagcldlhad"
-culture = hastling
-religion = chaos
-martial = 3
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 3
-add_trait = "intricate_webweaver"
+name="Radka"
+female=yes
+dynasty=66012
+dna="jdagcldlhad"
+culture=hastling
+religion=chaos
+martial=3
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=3
+add_trait="intricate_webweaver"
 1982.1.1={birth=yes}
 2035.7.25={death=yes}
 }
 
 2300013={
-name = "Zoltána"
-female = yes
-dynasty = 66013
-dna = "jfjamebpbbl"
-culture = hastling
-religion = chaos
-martial = 6
-diplomacy = 2
-stewardship = 5
-intrigue = 2
-learning = 1
-add_trait = "fortune_builder"
-add_trait = "diligent"
+name="Zoltána"
+female=yes
+dynasty=66013
+dna="jfjamebpbbl"
+culture=hastling
+religion=chaos
+martial=6
+diplomacy=2
+stewardship=5
+intrigue=2
+learning=1
+add_trait="fortune_builder"
+add_trait="diligent"
 1963.1.1={birth=yes}
 2012.10.14={death=yes}
 }
 
 2300014={
-name = "Yaakov"
-dynasty = 66014
-dna = "kchalmfdkcf"
-culture = hastling
-religion = chaos
-martial = 2
-diplomacy = 5
-stewardship = 2
-intrigue = 3
-learning = 2
-add_trait = "indulgent_wastrel"
-add_trait = "impaler"
-add_trait = "ambitious"
-add_trait = "charitable"
+name="Yaakov"
+dynasty=66014
+dna="kchalmfdkcf"
+culture=hastling
+religion=chaos
+martial=2
+diplomacy=5
+stewardship=2
+intrigue=3
+learning=2
+add_trait="indulgent_wastrel"
+add_trait="impaler"
+add_trait="ambitious"
+add_trait="charitable"
 1987.1.1={birth=yes}
 2051.1.30={death=yes}
 }
 
 2300015={
-name = "János_John"
-dynasty = 66015
-dna = "gbpoepeaoon"
-culture = hastling
-religion = chaos
-martial = 6
-diplomacy = 4
-stewardship = 8
-intrigue = 2
-learning = 1
-add_trait = "underhanded_rogue"
-add_trait = "trusting"
-add_trait = "wroth"
+name="János_John"
+dynasty=66015
+dna="gbpoepeaoon"
+culture=hastling
+religion=chaos
+martial=6
+diplomacy=4
+stewardship=8
+intrigue=2
+learning=1
+add_trait="underhanded_rogue"
+add_trait="trusting"
+add_trait="wroth"
 1970.1.1={birth=yes}
 2017.1.16={death=yes}
 }
 
 2300016={
-name = "Ljubomir"
-dynasty = 66016
-dna = "mjcjgjiplej"
-culture = hastling
-religion = chaos
-martial = 8
-diplomacy = 8
-stewardship = 5
-intrigue = 7
-learning = 6
-add_trait = "tough_soldier"
-add_trait = "chaste"
-add_trait = "shy"
-add_trait = "arbitrary"
+name="Ljubomir"
+dynasty=66016
+dna="mjcjgjiplej"
+culture=hastling
+religion=chaos
+martial=8
+diplomacy=8
+stewardship=5
+intrigue=7
+learning=6
+add_trait="tough_soldier"
+add_trait="chaste"
+add_trait="shy"
+add_trait="arbitrary"
 1989.1.1={birth=yes}
 2047.7.19={death=yes}
 }
 
 2300017={
-name = "Elemér"
-dynasty = 66017
-dna = "jeoinjfaeha"
-culture = hastling
-religion = chaos
-martial = 5
-diplomacy = 4
-stewardship = 7
-intrigue = 3
-learning = 7
-add_trait = "brilliant_strategist"
-add_trait = "kind"
-add_trait = "cruel"
-add_trait = "wroth"
+name="Elemér"
+dynasty=66017
+dna="jeoinjfaeha"
+culture=hastling
+religion=chaos
+martial=5
+diplomacy=4
+stewardship=7
+intrigue=3
+learning=7
+add_trait="brilliant_strategist"
+add_trait="kind"
+add_trait="cruel"
+add_trait="wroth"
 1972.1.1={birth=yes}
 2032.7.10={death=yes}
 }
 
 2300018={
-name = "Lázár"
-dynasty = 66018
-dna = "elpfippbdlm"
-culture = hastling
-religion = chaos
-martial = 6
-diplomacy = 0
-stewardship = 3
-intrigue = 3
-learning = 6
-add_trait = "intricate_webweaver"
-add_trait = "greedy"
+name="Lázár"
+dynasty=66018
+dna="elpfippbdlm"
+culture=hastling
+religion=chaos
+martial=6
+diplomacy=0
+stewardship=3
+intrigue=3
+learning=6
+add_trait="intricate_webweaver"
+add_trait="greedy"
 1975.1.1={birth=yes}
 2019.8.3={death=yes}
 }
 
 2300019={
-name = "Quterkin"
-dynasty = 66019
-dna = "haommogbklp"
-culture = hastling
-religion = chaos
-martial = 3
-diplomacy = 6
-stewardship = 4
-intrigue = 3
-learning = 3
-add_trait = "detached_priest"
-add_trait = "ambitious"
+name="Quterkin"
+dynasty=66019
+dna="haommogbklp"
+culture=hastling
+religion=chaos
+martial=3
+diplomacy=6
+stewardship=4
+intrigue=3
+learning=3
+add_trait="detached_priest"
+add_trait="ambitious"
 1971.1.1={birth=yes}
 2031.6.5={death=yes}
 }

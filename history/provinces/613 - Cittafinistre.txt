@@ -12,7 +12,11 @@ b_carlone = city
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_nestorino = temple
+}

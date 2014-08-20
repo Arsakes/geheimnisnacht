@@ -6,7 +6,7 @@ title = c_grey_lady_pass
 # Settlements
 max_settlements = 4
 b_sanglac = castle
-b_grunere = city
+b_grunere = temple
 #b_chateau_gaston = castle
 #b_lisle_de_morre = temple
 

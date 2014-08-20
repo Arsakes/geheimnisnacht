@@ -12,8 +12,16 @@ b_urgutum = castle
 #b_karaborg = city
 
 # Misc
-culture = varg
-religion = dark_norse
+culture = graeling
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_morenzal = city
+}
+
+2500.1.1 = {
+	b_opilium = temple
+}

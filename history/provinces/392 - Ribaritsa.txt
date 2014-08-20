@@ -10,8 +10,8 @@ b_bozhentsi = city
 #b_gostilitsa = temple
 
 # Misc
-culture = tahmak
-religion = chaos
+culture = hastling
+religion = nurgle
 
 
 # History

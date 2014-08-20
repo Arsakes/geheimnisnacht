@@ -3,7 +3,7 @@ tilean_group = {
 	graphical_culture = westerngfx
 
 	umbrian = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 	#Tuscan
 		color = { 0.6 0.3 0.1 }
 
@@ -43,7 +43,7 @@ tilean_group = {
 			Rachele Raffaella Rebecca Regina Renata Rina Rita Roberta Romilda Rosa Rosalia Rosanna Rosaria Rossana Rossella 
 			Sabina Sabrina Sandra Santa Sara Selene Semiramide Serena Silvana Silvia Simona Simonetta Sofia Sonia Stefania 
 			Teresa Tiziana Tranquilla Tullia 
-			Valentina Valeria Vanessa Vera Veronica Vincenza Viola Virginia Vittoria viviana
+			Valentina Valeria Vanessa Vera_Vera Verena_Verena Veronica Vincenza Viola Virginia Vittoria Viviana
 		}
 		from_dynasty_prefix = "di "
 		
@@ -59,7 +59,7 @@ tilean_group = {
 	}
 	
 	tobaran = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 	#Corsican
 		color = { 0.2 0.2 0.6 }
 
@@ -98,7 +98,7 @@ tilean_group = {
 			Rachele Raffaella Rebecca Regina Renata Rina Rita Roberta Romilda Rosa Rosalia Rosanna Rosaria Rossana Rossella 
 			Sabina Sabrina Sandra Santa Sara Selene Semiramide Serena Silvana Silvia Simona Simonetta Sofia Sonia Stefania 
 			Teresa Tiziana Tranquilla Tullia 
-			Valentina Valeria Vanessa Vera veronica Vincenza Viola Virginia Vittoria Viviana
+			Valentina Valeria Vanessa Vera_Vera Verena_Verena Veronica Vincenza Viola Virginia Vittoria Viviana
 		}
 		
 		from_dynasty_prefix = "di "
@@ -115,7 +115,7 @@ tilean_group = {
 }
 
 	reman = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 	#Ligurian
 		color = { 0.2 0.2 0.9 }
 
@@ -154,7 +154,7 @@ tilean_group = {
 			Rachele Raffaella Rebecca Regina Renata Rina Rita Roberta Romilda Rosa Rosalia Rosanna Rosaria Rossana Rossella 
 			Sabina Sabrina Sandra Santa Sara Selene Semiramide Serena Silvana Silvia Simona Simonetta Sofia Sonia Stefania 
 			Teresa Tiziana Tranquilla Tullia 
-			Valentina Valeria Vanessa Vera Veronica Vincenza Viola Virginia Vittoria Viviana
+			Valentina Valeria Vanessa Vera_Vera Verena_Verena Veronica Vincenza Viola Virginia Vittoria Viviana
 		}
 
 		from_dynasty_prefix = "di "
@@ -171,7 +171,7 @@ tilean_group = {
 }
 	
 	lucian = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 	#Southern Italian
 		color = { 0.8 0.1 0.2 }
 
@@ -212,7 +212,7 @@ tilean_group = {
 			Rachele Raffaella Rebecca Regina Renata Rina Rita Roberta Romilda Rosa Rosalia Rosanna Rosaria Rossana Rossella 
 			Sabina Sabrina Sandra Santa Sara Selene Semiramide Serena Silvana Silvia Simona Simonetta Sofia Sonia Stefania 
 			Teresa Tiziana Tranquilla Tullia 
-			Valentina Valeria Vanessa Vera Veronica Vincenza Viola Virginia Vittoria Viviana
+			Valentina Valeria Vanessa Vera_Vera Verena_Verena Veronica Vincenza Viola Virginia Vittoria Viviana
 		}
 		from_dynasty_prefix = "di "
 
@@ -228,7 +228,7 @@ tilean_group = {
 	}
 	
 	miraglian = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 
 		color = { 0.3 0.7 0.2 }
 	#Venetian
@@ -271,7 +271,7 @@ tilean_group = {
 			Rachele Raffaella Rebecca Regina Renata Rina Rita Roberta Romilda Rosa Rosalia Rosanna Rosaria Rossana Rossella 
 			Sabina Sabrina Sandra Santa Sara Selene Semiramide Serena Silvana Silvia Simona Simonetta Sofia Sonia Stefania 
 			Teresa Tiziana Tranquilla Tullia 
-			Valentina Valeria Vanessa Vera Veronica Vincenza Viola Virginia Vittoria Viviana
+			Valentina Valeria Vanessa Vera_Vera Verena_Verena Veronica Vincenza Viola Virginia Vittoria Viviana
 		}
 		from_dynasty_prefix = "di "
 
@@ -288,7 +288,7 @@ tilean_group = {
 	
 	
 	oltremari = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 
 		color = { 0.5 0.2 0.5 }
 
@@ -337,7 +337,7 @@ tilean_group = {
 			Sabina Sabrina Sança_Sancha Sandra Santa Sara Selene Semiramide Serena Serilda Sibilla_Sibylla Silvana Silvia Simona Simonetta Snezana Sofia Sofia_Sophia Sonia Stefania Suronia Suzana_Susana Svetlana 
 			Tatiana Teresa Terèsa_Teresa Tiborga_Tiburge Ticcana Tiziana Tranquilla Trude Tullia 
 			Ulricca Ursula Ute 
-			Valentina Valeria Vanessa Vapurga Vedrana Vera veronica Verounica Viekoslava Vincenza Viola Viola_Yolanda Violanda_Yolanda Virginia Visnia Vittoria Viviana Vulfrilde 
+			Valentina Valeria Vanessa Vapurga Vedrana Vera_Vera Verena_Verena Veronica Verounica Viekoslava Vincenza Viola Viola_Yolanda Violanda_Yolanda Virginia Visnia Vittoria Viviana Vulfrilde 
 			Zlata Zvonimira 
 		}
 		
@@ -355,7 +355,7 @@ tilean_group = {
     }
 
 	myken = {
-		graphical_culture = westerngfx
+		graphical_culture = southerngfx
 	#Greek/Byzantine
 		color = { 0.9 0.4 0.5 }
 
@@ -400,7 +400,7 @@ tilean_group = {
 			Rhodanthe Romane Romylia Rustica Rusticana 
 			Salvianella Sergia Sibylla_Sibylla Sidonia Simonis Sophia_Sophia Stephania_Stephania Syagria 
 			Tetradia Thekla Theocharista Theochariste Theodora_Theodora Theodoracis Theodosia_Theodosia Theognosia Theoktiste Theophano Thomais 
-			Valeria Veneranda Vera Verena Vesta Vigilantia Vigilia Vitula Viviana 
+			Valeria Veneranda Vera_Vera Verena_Verena Vesta Vigilantia Vigilia Vitula Viviana 
 			Xene 
 			Zenobia Zoe 
 		}

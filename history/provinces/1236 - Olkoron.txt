@@ -9,7 +9,7 @@ b_golyamo = castle
 b_absath = castle
 
 # Misc
-culture = tahmak
+culture = hastling
 religion = chaos
 
 

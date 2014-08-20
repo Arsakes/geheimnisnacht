@@ -7,7 +7,7 @@ title = c_morlenfurt
 max_settlements = 5
 b_morlenfurt = castle
 b_geissbach = city
-b_memmingen = temple
+#b_memmingen = temple
 #b_meppen = city
 #b_freienwalde = castle
 
@@ -17,3 +17,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_memmingen = temple
+}

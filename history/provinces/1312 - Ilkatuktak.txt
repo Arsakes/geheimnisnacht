@@ -6,7 +6,7 @@ title = c_ilkatuktak
 # Settlements
 max_settlements = 2
 b_aaargh = castle
-#b_anthrax = city
+#b_anthrax = temple
 
 # Misc
 culture = goblin_main

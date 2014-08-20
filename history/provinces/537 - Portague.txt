@@ -1,5 +1,5 @@
 #537 Portague
-#County Title
+
 title = c_portague
 
 #Settlements
@@ -8,11 +8,15 @@ b_portobella = castle
 b_muros = city
 b_lisoba = temple
 b_san_enrique = city
-b_zeba = castle
+#b_zeba = castle
 #b_penhasco = city
 
 #Misc
 culture = avilian
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_zeba = castle
+}

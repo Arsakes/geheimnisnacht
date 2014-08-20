@@ -16,3 +16,7 @@ religion = northern_gods
 
 
 # History
+
+2500.1.1 = {
+	b_smarhona = temple
+}

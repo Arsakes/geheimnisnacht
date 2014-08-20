@@ -7,12 +7,17 @@ title = c_ilios
 max_settlements = 4
 b_ilios = castle
 b_adamas = city
-b_trapeza = temple
+#b_trapeza = temple
 #b_elleipsis = castle
 
 # Misc
 culture = myken
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_trapeza = temple
+}
+

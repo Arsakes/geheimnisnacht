@@ -12,7 +12,7 @@ b_sudissima = city
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

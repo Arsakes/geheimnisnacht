@@ -8,11 +8,11 @@ max_settlements = 5
 b_ahtaf = castle
 b_uruk = city
 b_edfu = temple
-b_tuna_gebel = city
-b_gebel_silisil = castle
+#b_tuna_gebel = city
+#b_gebel_silisil = castle
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

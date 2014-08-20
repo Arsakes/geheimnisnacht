@@ -1,15 +1,15 @@
 4950000={
-name = "Megistos"
-dynasty = 46008
-culture = myken
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Megistos"
+dynasty=46008
+culture=myken
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -21,18 +21,18 @@ add_trait="tall"
 }
 
 4950001={
-name = "Xene"
-female = yes
-dynasty = 46000
-culture = myken
-religion = classical_gods
-martial = 3
-diplomacy = 2
-stewardship = 1
-intrigue = 3
-learning = 2
-add_trait = "duelist"
-add_trait = "brilliant_strategist"
+name="Xene"
+female=yes
+dynasty=46000
+culture=myken
+religion=myrmidian
+martial=3
+diplomacy=2
+stewardship=1
+intrigue=3
+learning=2
+add_trait="duelist"
+add_trait="brilliant_strategist"
 add_trait="tall"
 add_trait="strong"
 add_trait="brave"
@@ -43,21 +43,21 @@ father=4950000
 mother=4950020
 
 1992.11.12={birth=yes}
-2007.5.19 = {give_nickname = nick_the_lawless}
+2007.5.19={give_nickname=nick_the_lawless}
 2060.8.10={death=yes}
 }
 
 4950002={
-name = "Heraklio"
-dynasty = 46032
-culture = myken
-religion = classical_gods
-martial = 9
-diplomacy = 2
-stewardship = 0
-intrigue = 5
-learning = 4
-add_trait = "misguided_warrior"
+name="Heraklio"
+dynasty=46032
+culture=myken
+religion=myrmidian
+martial=9
+diplomacy=2
+stewardship=0
+intrigue=5
+learning=4
+add_trait="misguided_warrior"
 add_trait="strong"
 add_trait="brave"
 add_trait="tall"
@@ -67,17 +67,17 @@ add_trait="tall"
 }
 
 4950003={
-name = "Niketas"
-dynasty = 46009
-culture = myken
-religion = classical_gods
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Niketas"
+dynasty=46009
+culture=myken
+religion=myrmidian
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -87,17 +87,17 @@ add_trait="wroth"
 }
 
 4950004={
-name = "Philippos"
-dynasty = 46007
-culture = myken
-religion = classical_gods
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Philippos"
+dynasty=46007
+culture=myken
+religion=myrmidian
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -107,18 +107,18 @@ add_trait="humble"
 }
 
 4950005={
-name = "Romylia"
-female = yes
-dynasty = 46006
-culture = myken
-religion = classical_gods
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Romylia"
+female=yes
+dynasty=46006
+culture=myken
+religion=myrmidian
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 1989.7.22={birth=yes}
@@ -126,33 +126,33 @@ add_trait="ill"
 }
 
 4950006={
-name = "Eusebios"
-dynasty = 46005
-culture = myken
-religion = classical_gods
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Eusebios"
+dynasty=46005
+culture=myken
+religion=myrmidian
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 1985.4.20={birth=yes}
 2045.7.2={death=yes}}
 
 4950007={
-name = "Dionysios"
-dynasty = 46004
-culture = myken
-religion = classical_gods
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Dionysios"
+dynasty=46004
+culture=myken
+religion=myrmidian
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -162,34 +162,34 @@ add_trait="lustful"
 }
 
 4950008={
-name = "Ignatios"
-dynasty = 46012
-culture = myken
-religion = classical_gods
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Ignatios"
+dynasty=46012
+culture=myken
+religion=myrmidian
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="drunkard"
 1986.5.30={birth=yes}
 2030.5.13={death=yes}
 }
 
 4950009={
-name = "Theodosios"
-dynasty = 46013
-culture = myken
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Theodosios"
+dynasty=46013
+culture=myken
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 add_trait="lisp"
 
 1959.9.12={birth=yes}
@@ -197,34 +197,34 @@ add_trait="lisp"
 }
 
 4950010={
-name = "Tryphon"
-dynasty = 46014
-culture = myken
-religion = classical_gods
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Tryphon"
+dynasty=46014
+culture=myken
+religion=myrmidian
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 4950011={
-name = "Philotheos"
-dynasty = 46016
-culture = myken
-religion = classical_gods
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Philotheos"
+dynasty=46016
+culture=myken
+religion=myrmidian
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="fair"
 
 1993.2.8={birth=yes}
@@ -232,17 +232,17 @@ add_trait="fair"
 }
 
 4950012={
-name = "Belisarios"
-dynasty = 46015
-culture = myken
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Belisarios"
+dynasty=46015
+culture=myken
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -252,17 +252,17 @@ add_trait="envious"
 }
 
 4950013={
-name = "Hierotheos"
-dynasty = 46017
-culture = myken
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Hierotheos"
+dynasty=46017
+culture=myken
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -272,17 +272,17 @@ add_trait="shy"
 }
 
 4950014={
-name = "Theodoros"
-dynasty = 46003
-culture = myken
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Theodoros"
+dynasty=46003
+culture=myken
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -292,17 +292,17 @@ add_trait="strong"
 }
 
 4950015={
-name = "Zacharias"
-dynasty = 46002
-culture = myken
-religion = classical_gods
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Zacharias"
+dynasty=46002
+culture=myken
+religion=myrmidian
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -312,17 +312,17 @@ add_trait="cynical"
 }
 
 4950016={
-name = "Serapion"
-dynasty = 46001
-culture = myken
-religion = classical_gods
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Serapion"
+dynasty=46001
+culture=myken
+religion=myrmidian
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -332,18 +332,18 @@ add_trait="honest"
 }
 
 4950017={
-name = "Gabrielia"
-female = yes
-dynasty = 46019
-culture = myken
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "poet"
-add_trait = "scholarly_theologian"
+name="Gabrielia"
+female=yes
+dynasty=46019
+culture=myken
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="poet"
+add_trait="scholarly_theologian"
 add_trait="gregarious"
 add_trait="fair"
 add_trait="homosexual"
@@ -353,19 +353,19 @@ add_trait="homosexual"
 }
 
 4950018={
-name = "Timotheos"
-dynasty = 46008
-culture = myken
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
+name="Timotheos"
+dynasty=46008
+culture=myken
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
 father=4950000
 mother=4950022
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="kind"
 add_trait="tall"
 add_trait="strong"
@@ -376,18 +376,18 @@ add_trait="strong"
 }
 
 4950019={
-name = "Nikarete"
-female = yes
-dynasty = 46008
-culture = myken
-religion = classical_gods
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Nikarete"
+female=yes
+dynasty=46008
+culture=myken
+religion=myrmidian
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 add_trait="tall"
 father=4950000
 mother=4950022
@@ -398,18 +398,18 @@ mother=4950022
 
 
 4950020={
-name = "Hypatia"
-female = yes
-dynasty = 46000
-culture = myken
-religion = classical_gods
-martial = 2
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 1
-add_trait = "hunter"
-add_trait = "scholarly_theologian"
+name="Hypatia"
+female=yes
+dynasty=46000
+culture=myken
+religion=myrmidian
+martial=2
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=1
+add_trait="hunter"
+add_trait="scholarly_theologian"
 add_trait="brave"
 add_trait="just"
 
@@ -418,17 +418,17 @@ add_trait="just"
 }
 
 4950021={
-name = "Demetra"
-female = yes
-dynasty = 46008
-culture = myken
-religion = classical_gods
-martial = 2
-diplomacy = 2
-stewardship = 1
-intrigue = 2
-learning = 4
-add_trait = "misguided_warrior"
+name="Demetra"
+female=yes
+dynasty=46008
+culture=myken
+religion=myrmidian
+martial=2
+diplomacy=2
+stewardship=1
+intrigue=2
+learning=4
+add_trait="misguided_warrior"
 father=4950000
 mother=4950022
 
@@ -437,17 +437,17 @@ mother=4950022
 }
 
 4950022={
-name = "Eunike"
-female = yes
-dynasty = 46025
-culture = myken
-religion = classical_gods
-martial = 5
-diplomacy = 3
-stewardship = 1
-intrigue = 6
-learning = 2
-add_trait = "intricate_webweaver"
+name="Eunike"
+female=yes
+dynasty=46025
+culture=myken
+religion=myrmidian
+martial=5
+diplomacy=3
+stewardship=1
+intrigue=6
+learning=2
+add_trait="intricate_webweaver"
 
 1965.2.24={birth=yes}
 1986.9.26={add_spouse=4950000}
@@ -455,42 +455,42 @@ add_trait = "intricate_webweaver"
 }
 
 4950023={
-name = "Elena"
-female = yes
-dynasty = 46033
-dna = "nljahgckgmb"
-culture = myken
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 7
-intrigue = 5
-learning = 5
-add_trait = "fortune_builder"
-add_trait = "just"
-add_trait = "diligent"
-add_trait = "cynical"
+name="Elena"
+female=yes
+dynasty=46033
+dna="nljahgckgmb"
+culture=myken
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=7
+intrigue=5
+learning=5
+add_trait="fortune_builder"
+add_trait="just"
+add_trait="diligent"
+add_trait="cynical"
 2490.1.1={birth=yes}
 2539.12.13={death=yes}
 }
 
 4950024={
-name = "Anicius"
-dynasty = 46030
-dna = "phefpblgfpo"
-culture = myken
-religion = classical_gods
-martial = 5
-diplomacy = 5
-stewardship = 7
-intrigue = 5
-learning = 5
-add_trait = "skilled_tactician"
-add_trait = "temperate"
-add_trait = "envious"
-add_trait = "zealous"
-add_trait = "wroth"
-add_trait = "stressed"
+name="Anicius"
+dynasty=46030
+dna="phefpblgfpo"
+culture=myken
+religion=myrmidian
+martial=5
+diplomacy=5
+stewardship=7
+intrigue=5
+learning=5
+add_trait="skilled_tactician"
+add_trait="temperate"
+add_trait="envious"
+add_trait="zealous"
+add_trait="wroth"
+add_trait="stressed"
 2482.1.1={birth=yes}
 2541.1.21={death=yes}
 }

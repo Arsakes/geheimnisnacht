@@ -12,7 +12,7 @@ b_essako = temple
 
 # Misc
 culture = wasai
-religion = sigmarite
+religion = akghan
 
 
 # History

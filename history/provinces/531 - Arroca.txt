@@ -1,5 +1,5 @@
 #531 Arroca
-#County Title
+
 title = c_arroca
 
 #Settlements
@@ -12,6 +12,6 @@ b_jaimizeda = temple
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History

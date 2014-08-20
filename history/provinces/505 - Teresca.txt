@@ -1,5 +1,5 @@
 #505 Teresca
-#County Title
+
 title = c_teresca
 
 #Settlements
@@ -11,6 +11,6 @@ b_tadora = temple
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History

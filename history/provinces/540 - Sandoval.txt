@@ -1,5 +1,5 @@
 #540 Sandoval
-#County Title
+
 title = c_sandoval
 
 #Settlements
@@ -11,6 +11,10 @@ b_ortega = city
 
 #Misc
 culture = obregonese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_trafolga = castle
+}

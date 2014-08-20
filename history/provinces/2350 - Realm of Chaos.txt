@@ -1,0 +1,15 @@
+# 2350 Realm of Chaos
+
+# County Title
+title = c_realm_of_chaos
+
+# Settlements
+max_settlements = 1
+#b_eye_of_chaos = castle
+
+# Misc
+culture = daemon_chaos
+religion = chaos
+
+
+# History

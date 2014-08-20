@@ -9,7 +9,7 @@ b_sarya = castle
 #b_ondas = city
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

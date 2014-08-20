@@ -7,12 +7,16 @@ title = c_nout
 max_settlements = 4
 b_nout = castle
 b_khargia = city
-b_wenes = temple
-b_wakhaf = city
+#b_wenes = temple
+#b_wakhaf = city
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_wenes = temple
+}

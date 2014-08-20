@@ -1,0 +1,16 @@
+# 945 Sakhur
+
+# County Title
+title = c_sakhur
+
+# Settlements
+max_settlements = 2
+b_sakhur = castle
+#b_artaans = castle
+
+# Misc
+culture = hastling
+religion = chaos
+
+
+# History

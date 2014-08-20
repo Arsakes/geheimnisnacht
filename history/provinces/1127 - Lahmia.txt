@@ -6,15 +6,19 @@ title = c_lahmia
 # Settlements
 max_settlements = 6
 b_lahmia = castle
-b_tutmos = city
-b_kherara = temple
-b_tanis = castle
-b_aruna = city
-b_rasut = temple
+b_tutmos = temple
+#b_kherara = temple
+#b_tanis = castle
+#b_aruna = city
+#b_rasut = temple
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_kherara = temple
+}

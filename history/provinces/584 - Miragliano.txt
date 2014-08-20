@@ -15,8 +15,12 @@ b_galegno = castle
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_palla = city
+}

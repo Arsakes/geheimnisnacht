@@ -18,3 +18,7 @@ religion = vampiric
 # History
 
 2155.1.1 = { religion = sigmarite }
+
+2250.1.1 = {
+	b_erkrath = temple
+}

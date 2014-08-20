@@ -13,7 +13,11 @@ b_jagergrop = city
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_hordenslag = city
+}

@@ -12,7 +12,15 @@ b_fenavyl = castle
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_fuunivyls_grasp = temple
+}
+
+2500.1.1 = {
+	b_lytervik = city
+}

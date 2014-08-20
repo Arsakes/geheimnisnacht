@@ -6,7 +6,7 @@ title = c_stimmigen
 # Settlements
 max_settlements = 4
 b_stimmigen = castle
-b_lilahalle = temple
+#b_lilahalle = temple
 #b_holgau = city
 #b_pfeiffer = city
 
@@ -16,3 +16,11 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_lilahalle = temple
+}
+
+2500.1.1 = {
+	b_holgau = city
+}

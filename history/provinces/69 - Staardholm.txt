@@ -10,8 +10,8 @@ b_nuravik = temple
 #b_wurkel = castle
 
 # Misc
-culture = sarl
-religion = norse
+culture = skaeling
+religion = norscan_gods
 
 
 # History

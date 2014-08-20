@@ -11,7 +11,7 @@ b_gharkulivik = city
 
 # Misc
 culture = baersonling
-religion = chaos
+religion = khorne
 
 
 # History

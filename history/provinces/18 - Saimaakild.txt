@@ -13,7 +13,11 @@ b_lade = temple
 
 # Misc
 culture = bjornling
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_saimaakild = city
+}

@@ -11,8 +11,8 @@ b_hekoms = city
 #b_cad = city
 
 # Misc
-culture = tahmak
-religion = chaos
+culture = hastling
+religion = nurgle
 
 
 # History

@@ -4,8 +4,9 @@
 title = c_merxheim
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_merxheim = castle
+#b_uhland = city
 #b_lemgo = temple
 #b_weinheim = temple
 
@@ -15,3 +16,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_uhland = city
+}

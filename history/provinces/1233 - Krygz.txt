@@ -9,7 +9,7 @@ b_sbor = castle
 b_kymmenen = temple
 
 # Misc
-culture = gharhar
+culture = tahmak
 religion = chaos
 
 

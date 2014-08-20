@@ -8,13 +8,17 @@ max_settlements = 6
 b_zandri = city
 b_ahtaf_zandri = castle
 b_yaa = temple
-b_barat = castle
-b_khemnu = temple
-b_habu = city
+#b_barat = castle
+#b_khemnu = temple
+#b_habu = city
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_barat = castle
+}

@@ -6,12 +6,16 @@ title = c_jarluns
 # Settlements
 max_settlements = 3
 b_jarlunsvik = castle
-#b_arlingheim = city
+#b_arlingheim = temple
 #b_jorlsborg = castle
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_arlingheim = temple
+}

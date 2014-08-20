@@ -1,5 +1,5 @@
 #522 Viacruz
-#County Title
+
 title = c_viacruz
 
 #Settlements
@@ -11,6 +11,10 @@ b_vereat = castle
 
 #Misc
 culture = tigarrese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_yaleris = city
+}

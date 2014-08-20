@@ -6,14 +6,22 @@ title = c_suderholm
 # Settlements
 max_settlements = 5
 b_suderholm = castle
-b_ytelivik = castle
-b_eartaholm = city
+#b_ytelivik = castle
+#b_eartaholm = temple
 #b_sylkonborg = city
 #b_jylkaavik = temple
 
 # Misc
 culture = sarl
-religion = norse
+religion = tzeentch
 
 
 # History
+
+2250.1.1 = {
+	b_ytelivik = castle
+}
+
+2500.1.1 = {
+	b_eartaholm = temple
+}

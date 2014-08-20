@@ -1,17 +1,17 @@
 1550000={
-name = "Tetyana"
-female = yes
-dynasty = 31005
-culture = gospodar
-religion = northern_gods
-martial = 7
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 9
-father = 1550037
-mother = 1550040
-add_trait = "naive_appeaser"
+name="Tetyana"
+female=yes
+dynasty=31005
+culture=gospodar
+religion=ursun
+martial=7
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=9
+father=1550037
+mother=1550040
+add_trait="naive_appeaser"
 add_trait="honest"
 add_trait="craven"
 add_trait="gregarious"
@@ -21,18 +21,18 @@ add_trait="gregarious"
 }
 
 1550001={
-name = "Yefimia"
-female = yes
-dynasty = 31040
-culture = gospodar
-religion = northern_gods
-martial = 9
-diplomacy = 8
-stewardship = 2
-intrigue = 11
-learning = 0
-add_trait = "mystic"
-add_trait = "fortune_builder"
+name="Yefimia"
+female=yes
+dynasty=31040
+culture=gospodar
+religion=northern_gods
+martial=9
+diplomacy=8
+stewardship=2
+intrigue=11
+learning=0
+add_trait="mystic"
+add_trait="fortune_builder"
 add_trait="kind"
 add_trait="greedy"
 
@@ -42,17 +42,17 @@ add_trait="greedy"
 }
 
 1550002={
-name = "Ruslan"
-dynasty = 31043
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 9
-stewardship = 7
-intrigue = 2
-learning = 10
-add_trait = "poet"
-add_trait = "tough_soldier"
+name="Ruslan"
+dynasty=31043
+culture=gospodar
+religion=ursun
+martial=2
+diplomacy=9
+stewardship=7
+intrigue=2
+learning=10
+add_trait="poet"
+add_trait="tough_soldier"
 
 
 add_trait="tall"
@@ -62,18 +62,18 @@ add_trait="tall"
 }
 
 1550003={
-name = "Bela"
-female = yes
-dynasty = 31087
-culture = gospodar
-religion = northern_gods
-martial = 10
-diplomacy = 1
-stewardship = 9
-intrigue = 8
-learning = 7
-add_trait = "mystic"
-add_trait = "naive_appeaser"
+name="Bela"
+female=yes
+dynasty=31087
+culture=gospodar
+religion=ursun
+martial=10
+diplomacy=1
+stewardship=9
+intrigue=8
+learning=7
+add_trait="mystic"
+add_trait="naive_appeaser"
 add_trait="cruel"
 
 add_trait="weak"
@@ -83,378 +83,375 @@ add_trait="weak"
 }
 
 1550004={
-name = "Oleg"
-dynasty = 31056
-culture = gospodar
-religion = northern_gods
-martial = 3
-diplomacy = 2
-stewardship = 4
-intrigue = 9
-learning = 3
-add_trait = "poet"
-add_trait = "tough_soldier"
+name="Oleg"
+dynasty=31056
+culture=gospodar
+religion=ursun
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=9
+learning=3
+add_trait="poet"
+add_trait="tough_soldier"
 add_trait="chaste"
 add_trait="wroth"
 add_trait="content"
 
-2010.10.8={birth="2010.10.8"}
-2057.1.29={death="2057.1.29"}
+2010.10.8={birth=yes}
+2057.1.29={death=yes}
 }
 
 1550005={
-name = "Vlademar"
-dynasty = 31175
-culture = gospodar
-religion = northern_gods
-martial = 0
-diplomacy = 5
-stewardship = 8
-intrigue = 2
-learning = 4
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Vlademar"
+dynasty=31175
+culture=gospodar
+religion=ursun
+martial=0
+diplomacy=5
+stewardship=8
+intrigue=2
+learning=4
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="trusting"
 add_trait="slothful"
 
 
-1988.5.27={birth="1988.5.27"}
-2027.6.23={death="2027.6.23"}
+1988.5.27={birth=yes}
+2027.6.23={death=yes}
 }
 
 1550006={
-name = "Ilyich"
-dynasty = 31081
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 6
-stewardship = 6
-intrigue = 11
-learning = 2
-add_trait = "scholar"
-add_trait = "martial_cleric"
+name="Ilyich"
+dynasty=31081
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=11
+learning=2
+add_trait="scholar"
+add_trait="martial_cleric"
 
 add_trait="ambitious"
 add_trait="temperate"
 
-1974.7.14={birth="1974.7.14"}
-2063.10.30={death="2063.10.30"}
+1974.7.14={birth=yes}
+2063.10.30={death=yes}
 }
 
 1550007={
-name = "Mikhaylyna"
-female = yes
-dynasty = 31109
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 8
-stewardship = 10
-intrigue = 6
-learning = 8
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Mikhaylyna"
+female=yes
+dynasty=31109
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=8
+stewardship=10
+intrigue=6
+learning=8
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="drunkard"
 
 
 
-1991.6.23={birth="1991.6.23"}
-2060.8.25={death="2060.8.25"}
+1991.6.23={birth=yes}
+2060.8.25={death=yes}
 }
 
 1550008={
-name = "Stepan"
-dynasty = 31141
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 4
-stewardship = 7
-intrigue = 9
-learning = 8
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Stepan"
+dynasty=31141
+culture=gospodar
+religion=ursun
+martial=2
+diplomacy=4
+stewardship=7
+intrigue=9
+learning=8
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="legit_bastard"
 add_trait="homosexual"
 
 
-2002.4.2={birth="2002.4.2"}
-2064.10.22={death="2064.10.22"}
+2002.4.2={birth=yes}
+2064.10.22={death=yes}
 }
 
 1550009={
-name = "Strelok"
-dynasty = 31159
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 1
-stewardship = 0
-intrigue = 8
-learning = 7
-add_trait = "hunter"
-add_trait = "fortune_builder"
+name="Strelok"
+dynasty=31159
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=1
+stewardship=0
+intrigue=8
+learning=7
+add_trait="hunter"
+add_trait="fortune_builder"
 add_trait="diligent"
 
 add_trait="honest"
 
-1997.7.6={birth="1997.7.6"}
-2062.9.8={death="2062.9.8"}
+1997.7.6={birth=yes}
+2062.9.8={death=yes}
 }
 
 1550010={
-name = "Svitlana"
-female = yes
-dynasty = 31131
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 3
-stewardship = 6
-intrigue = 11
-learning = 4
-add_trait = "hedonist"
-add_trait = "midas_touched"
+name="Svitlana"
+female=yes
+dynasty=31131
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=3
+stewardship=6
+intrigue=11
+learning=4
+add_trait="hedonist"
+add_trait="midas_touched"
 
-1988.7.8={birth="1988.7.8"}
-2015.4.25={death="2015.4.25"}
+1988.7.8={birth=yes}
+2015.4.25={death=yes}
 }
 
 1550011={
-name = "Lev"
-dynasty = 31156
-culture = gospodar
-religion = northern_gods
-martial = 1
-diplomacy = 5
-stewardship = 4
-intrigue = 6
-learning = 4
-add_trait = "falconer"
-add_trait = "skilled_tactician"
+name="Lev"
+dynasty=31156
+culture=gospodar
+religion=ursun
+martial=1
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=4
+add_trait="falconer"
+add_trait="skilled_tactician"
 
 
 add_trait="fair"
 
-1968.9.30={birth="1968.9.30"}
-2043.6.1={death="2043.6.1"}
+1968.9.30={birth=yes}
+2043.6.1={death=yes}
 }
 
 1550012={
-name = "Kezhay"
-dynasty = 31114
-culture = gospodar
-religion = northern_gods
-martial = 1
-diplomacy = 8
-stewardship = 4
-intrigue = 2
-learning = 9
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Kezhay"
+dynasty=31114
+culture=gospodar
+religion=ursun
+martial=1
+diplomacy=8
+stewardship=4
+intrigue=2
+learning=9
+add_trait="poet"
+add_trait="amateurish_plotter"
 
 add_trait="diligent"
 add_trait="envious"
 
-1961.1.7={birth="1961.1.7"}
-2011.11.24={death="2011.11.24"}
+1961.1.7={birth=yes}
+2011.11.24={death=yes}
 }
 
 1550013={
-name = "Ioseb"
-dynasty = 31160
-culture = gospodar
-religion = northern_gods
-martial = 7
-diplomacy = 10
-stewardship = 1
-intrigue = 1
-learning = 3
-add_trait = "hedonist"
-add_trait = "thrifty_clerk"
+name="Ioseb"
+dynasty=31160
+culture=gospodar
+religion=ursun
+martial=7
+diplomacy=10
+stewardship=1
+intrigue=1
+learning=3
+add_trait="hedonist"
+add_trait="thrifty_clerk"
 add_trait="slothful"
 add_trait="patient"
 add_trait="proud"
 
-2005.6.29={birth="2005.6.29"}
-2065.8.25={death="2065.8.25"}
+2005.6.29={birth=yes}
+2065.8.25={death=yes}
 }
 
 1550014={
-name = "Daniil"
-dynasty = 31142
-culture = gospodar
-religion = northern_gods
-martial = 5
-diplomacy = 3
-stewardship = 4
-intrigue = 1
-learning = 10
-add_trait = "hedonist"
-add_trait = "scholarly_theologian"
+name="Daniil"
+dynasty=31142
+culture=gospodar
+religion=ursun
+martial=5
+diplomacy=3
+stewardship=4
+intrigue=1
+learning=10
+add_trait="hedonist"
+add_trait="scholarly_theologian"
 add_trait="ambitious"
 add_trait="arbitrary"
 add_trait="shy"
 
-1959.2.16={birth="1959.2.16"}
-2036.11.3={death="2036.11.3"}
+1959.2.16={birth=yes}
+2036.11.3={death=yes}
 }
 
 1550015={
-name = "Rostislav"
-dynasty = 31120
-culture = gospodar
-religion = northern_gods
-martial = 8
-diplomacy = 7
-stewardship = 3
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "flamboyant_schemer"
+name="Rostislav"
+dynasty=31120
+culture=gospodar
+religion=ursun
+martial=8
+diplomacy=7
+stewardship=3
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="flamboyant_schemer"
 add_trait="just"
 add_trait="strong"
 add_trait="paranoid"
 
-1954.5.9={birth="1954.5.9"}
-2046.8.20={death="2046.8.20"}
+1954.5.9={birth=yes}
+2046.8.20={death=yes}
 }
 
 1550016={
-name = "Uchva"
-dynasty = 31060
-culture = gospodar
-religion = northern_gods
-martial = 1
-diplomacy = 0
-stewardship = 9
-intrigue = 3
-learning = 10
-add_trait = "gardener"
-add_trait = "brilliant_strategist"
+name="Uchva"
+dynasty=31060
+culture=gospodar
+religion=ursun
+martial=1
+diplomacy=0
+stewardship=9
+intrigue=3
+learning=10
+add_trait="gardener"
+add_trait="brilliant_strategist"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="cynical"
 
-1983.11.20={birth="1983.11.20"}
-2064.7.15={death="2064.7.15"}
+1983.11.20={birth=yes}
+2064.7.15={death=yes}
 }
 
 1550017={
-name = "Sanalka"
-female = yes
-dynasty = 31119
-culture = gospodar
-religion = northern_gods
-martial = 9
-diplomacy = 8
-stewardship = 11
-intrigue = 0
-learning = 8
-add_trait = "duelist"
-add_trait = "elusive_shadow"
+name="Sanalka"
+female=yes
+dynasty=31119
+culture=gospodar
+religion=northern_gods
+martial=9
+diplomacy=8
+stewardship=11
+intrigue=0
+learning=8
+add_trait="duelist"
+add_trait="elusive_shadow"
 add_trait="honest"
 add_trait="craven"
 add_trait="zealous"
 
-1983.10.15={birth="1983.10.15"}
-2045.2.26={death="2045.2.26"}
+1983.10.15={birth=yes}
+2045.2.26={death=yes}
 }
 
 1550018={
-name = "Nalka"
-dynasty = 31143
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 8
-stewardship = 1
-intrigue = 4
-learning = 2
+name="Nalka"
+dynasty=31143
+culture=gospodar
+religion=ursun
+martial=2
+diplomacy=8
+stewardship=1
+intrigue=4
+learning=2
 
-add_trait = "brilliant_strategist"
+add_trait="brilliant_strategist"
 
-
-
-
-2007.6.13={birth="2007.6.13"}
-2030.1.29={death="2030.1.29"}
+2001.9.11={birth=yes}
+2030.1.29={death=yes}
 }
 
 1550019={
-name = "Ivinia"
-female = yes
-dynasty = 31149
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 7
-stewardship = 7
-intrigue = 0
-learning = 9
-add_trait = "poet"
-add_trait = "flamboyant_schemer"
+name="Ivinia"
+female=yes
+dynasty=31149
+culture=gospodar
+religion=northern_gods
+martial=2
+diplomacy=7
+stewardship=7
+intrigue=0
+learning=9
+add_trait="poet"
+add_trait="flamboyant_schemer"
 add_trait="greedy"
 
 add_trait="weak"
 
-1988.8.18={birth="1988.8.18"}
-2029.10.6={death="2029.10.6"}
+1988.8.18={birth=yes}
+2029.10.6={death=yes}
 }
 
 1550020={
-name = "Oleg"
-dynasty = 31123
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 7
-stewardship = 7
-intrigue = 0
-learning = 9
-add_trait = "poet"
-add_trait = "flamboyant_schemer"
+name="Oleg"
+dynasty=31123
+culture=gospodar
+religion=ursun
+martial=2
+diplomacy=7
+stewardship=7
+intrigue=0
+learning=9
+add_trait="poet"
+add_trait="flamboyant_schemer"
 add_trait="greedy"
 add_trait="strong"
 
-1982.8.18={birth="1982.8.18"}
-2029.10.6={death="2029.10.6"}
+1982.8.18={birth=yes}
+2029.10.6={death=yes}
 }
 
 
 1550021={
-name = "Pier"
-dynasty = 31100
-culture = gospodar
-religion = northern_gods
-martial = 9
-diplomacy = 8
-stewardship = 2
-intrigue = 11
-learning = 0
-add_trait = "stressed"
-add_trait = "fortune_builder"
+name="Pier"
+dynasty=31100
+culture=gospodar
+religion=ursun
+martial=9
+diplomacy=8
+stewardship=2
+intrigue=11
+learning=0
+add_trait="stressed"
+add_trait="fortune_builder"
 add_trait="kind"
 add_trait="greedy"
 
-1984.5.12={birth="1984.5.12"}
-2014.4.20={death="2014.4.20"}
+1984.5.12={birth=yes}
+2014.4.20={death=yes}
 }
 
 
 1550022={
-name = "Yuri"
-dynasty = 31162
-culture = gospodar
-religion = northern_gods
-martial = 14
-diplomacy = 6
-stewardship = 7
-intrigue = 9
-learning = 2
-add_trait = "stressed"
-add_trait = "misguided_warrior"
+name="Yuri"
+dynasty=31162
+culture=gospodar
+religion=ursun
+martial=14
+diplomacy=6
+stewardship=7
+intrigue=9
+learning=2
+add_trait="stressed"
+add_trait="misguided_warrior"
 add_trait="kind"
 add_trait="greedy"
 
@@ -465,18 +462,18 @@ add_trait="greedy"
 ### Founders
 
 1550023={
-name = "Miska"
-female = yes
-dynasty = 31174
-culture = gospodar
-religion = northern_gods
-martial = 10
-diplomacy = 6
-stewardship = 7
-intrigue = 9
-learning = 2
-add_trait = "stressed"
-add_trait = "brilliant_strategist"
+name="Miska"
+female=yes
+dynasty=31174
+culture=gospodar
+religion=northern_gods
+martial=10
+diplomacy=6
+stewardship=7
+intrigue=9
+learning=2
+add_trait="stressed"
+add_trait="brilliant_strategist"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="tall"
@@ -486,18 +483,18 @@ add_trait="tall"
 }
 
 1550024={
-name = "Shoika"
-female = yes
-dynasty = 31174
-culture = gospodar
-religion = northern_gods
-martial = 10
-diplomacy = 6
-stewardship = 7
-intrigue = 9
-learning = 2
-mother = 1550023
-add_trait = "brilliant_strategist"
+name="Shoika"
+female=yes
+dynasty=31174
+culture=gospodar
+religion=northern_gods
+martial=10
+diplomacy=6
+stewardship=7
+intrigue=9
+learning=2
+mother=1550023
+add_trait="brilliant_strategist"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="tall"
@@ -509,328 +506,328 @@ add_trait="tall"
 ###
 
 1550025={
-name = "Kazahaila"
-female = yes
-dynasty = 31176
-dna = "khbkgmnmmcp"
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 4
-stewardship = 3
-intrigue = 5
-learning = 6
-add_trait = "grey_eminence"
-add_trait = "brave"
-add_trait = "greedy"
-add_trait = "charitable"
-add_trait = "cynical"
+name="Kazahaila"
+female=yes
+dynasty=31176
+dna="khbkgmnmmcp"
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=6
+add_trait="grey_eminence"
+add_trait="brave"
+add_trait="greedy"
+add_trait="charitable"
+add_trait="cynical"
 2027.1.1={birth=yes}
 2072.5.27={death=yes}
 }
 
 1550026={
-name = "Taira"
-female = yes
-dynasty = 31176
-dna = "eogogbplpfo"
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 2
-mother = 1550025
-add_trait = "midas_touched"
-add_trait = "celibate"
+name="Taira"
+female=yes
+dynasty=31176
+dna="eogogbplpfo"
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=2
+mother=1550025
+add_trait="midas_touched"
+add_trait="celibate"
 2045.1.1={birth=yes}
 2095.7.2={death=yes}
 }
 
 1550027={
-name = "Igor"
-dynasty = 31176
-dna = "obngmgpmmdb"
-culture = gospodar
-religion = northern_gods
-martial = 2
-diplomacy = 2
-stewardship = 5
-intrigue = 4
-learning = 4
-mother = 1550030
-add_trait = "brilliant_strategist"
-add_trait = "hedonist"
-add_trait = "wroth"
-add_trait = "cruel"
-add_trait = "impaler"
+name="Igor"
+dynasty=31176
+dna="obngmgpmmdb"
+culture=gospodar
+religion=ursun
+martial=2
+diplomacy=2
+stewardship=5
+intrigue=4
+learning=4
+mother=1550030
+add_trait="brilliant_strategist"
+add_trait="hedonist"
+add_trait="wroth"
+add_trait="cruel"
+add_trait="impaler"
 2073.3.1={birth=yes}
-2098.1.1={give_nickname = nick_the_terrible}
+2098.1.1={give_nickname=nick_the_terrible}
 2143.10.20={death=yes}
 }
 
 1550028={
-name = "Ivan"
-dynasty = 31176
-dna = "bhlmcfkaapf"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 8
-stewardship = 0
-intrigue = 2
-learning = 6
-mother = 1550030
-add_trait = "brilliant_strategist"
-add_trait = "humble"
-add_trait = "lunatic"
-add_trait = "paranoid"
+name="Ivan"
+dynasty=31176
+dna="bhlmcfkaapf"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=8
+stewardship=0
+intrigue=2
+learning=6
+mother=1550030
+add_trait="brilliant_strategist"
+add_trait="humble"
+add_trait="lunatic"
+add_trait="paranoid"
 2085.11.1={birth=yes}
-2104.1.1={give_nickname = nick_the_lunatic}
+2104.1.1={give_nickname=nick_the_lunatic}
 2143.11.1={death=yes}
 }
 
 1550029={
-name = "Alexandr"
-dynasty = 31177
-dna = "dopinjojlnm"
-culture = gospodar
-religion = northern_gods
-martial = 5
-diplomacy = 3
-stewardship = 2
-intrigue = 5
-learning = 5
-mother = 1550033
-add_trait = "intricate_webweaver"
-add_trait = "ambitious"
-add_trait = "trusting"
-add_trait = "temperate"
-add_trait = "depressed"
+name="Alexandr"
+dynasty=31177
+dna="dopinjojlnm"
+culture=gospodar
+religion=ursun
+martial=5
+diplomacy=3
+stewardship=2
+intrigue=5
+learning=5
+mother=1550033
+add_trait="intricate_webweaver"
+add_trait="ambitious"
+add_trait="trusting"
+add_trait="temperate"
+add_trait="depressed"
 2113.1.1={birth=yes}
-2144.1.1={give_nickname = nick_the_great}
+2144.1.1={give_nickname=nick_the_great}
 2178.11.21={death=yes}
 }
 
 1550030={
-name = "Annya"
-female = yes
-dynasty = 31176
-dna = "ojodffohoeh"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 2
-stewardship = 6
-intrigue = 4
-learning = 1
-mother = 1550025
-add_trait = "thrifty_clerk"
-add_trait = "diligent"
-add_trait = "kind"
-add_trait = "drunkard"
+name="Annya"
+female=yes
+dynasty=31176
+dna="ojodffohoeh"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=2
+stewardship=6
+intrigue=4
+learning=1
+mother=1550025
+add_trait="thrifty_clerk"
+add_trait="diligent"
+add_trait="kind"
+add_trait="drunkard"
 2050.11.1={birth=yes}
 2089.4.30={death=yes}
 }
 
 1550031={
-name = "Chernoslav"
-dynasty = 31176
-dna = "gccjkdfgdmh"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 8
-learning = 2
-mother = 1550030
-add_trait = "thrifty_clerk"
-add_trait = "shy"
-add_trait = "cynical"
-add_trait = "proud"
-add_trait = "zealous"
+name="Chernoslav"
+dynasty=31176
+dna="gccjkdfgdmh"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=8
+learning=2
+mother=1550030
+add_trait="thrifty_clerk"
+add_trait="shy"
+add_trait="cynical"
+add_trait="proud"
+add_trait="zealous"
 2087.11.1={birth=yes}
 2117.6.28={death=yes}
 }
 
 1550032={
-name = "Demid"
-dynasty = 31176
-dna = "lmbacfbfdga"
-culture = gospodar
-religion = northern_gods
-martial = 3
-diplomacy = 8
-stewardship = 6
-intrigue = 2
-learning = 4
-mother = 1550025
-add_trait = "brilliant_strategist"
-add_trait = "proud"
+name="Demid"
+dynasty=31176
+dna="lmbacfbfdga"
+culture=gospodar
+religion=ursun
+martial=3
+diplomacy=8
+stewardship=6
+intrigue=2
+learning=4
+mother=1550025
+add_trait="brilliant_strategist"
+add_trait="proud"
 2062.10.6={birth=yes}
 2101.2.10={death=yes}
 }
 
 1550033={
-name = "Esenbuqa"
-female = yes
-dynasty = 31176
-dna = "pfeoipianbp"
-culture = gospodar
-religion = northern_gods
-martial = 3
-diplomacy = 4
-stewardship = 2
-intrigue = 1
-learning = 3
-father = 1550032
-add_trait = "charismatic_negotiator"
-add_trait = "cruel"
-add_trait = "wroth"
-add_trait = "zealous"
+name="Esenbuqa"
+female=yes
+dynasty=31176
+dna="pfeoipianbp"
+culture=gospodar
+religion=ursun
+martial=3
+diplomacy=4
+stewardship=2
+intrigue=1
+learning=3
+father=1550032
+add_trait="charismatic_negotiator"
+add_trait="cruel"
+add_trait="wroth"
+add_trait="zealous"
 2090.1.1={birth=yes}
 2131.12.24={death=yes}
 }
 
 1550034={
-name = "Kanyuva"
-female = yes
-dynasty = 31005
-dna = "fljimddmldf"
-culture = gospodar
-religion = northern_gods
-martial = 5
-diplomacy = 1
-stewardship = 4
-intrigue = 5
-learning = 6
-father = 1550037
-mother = 1550040
-add_trait = "flamboyant_schemer"
-add_trait = "twin"
+name="Kanyuva"
+female=yes
+dynasty=31005
+dna="fljimddmldf"
+culture=gospodar
+religion=ursun
+martial=5
+diplomacy=1
+stewardship=4
+intrigue=5
+learning=6
+father=1550037
+mother=1550040
+add_trait="flamboyant_schemer"
+add_trait="twin"
 1984.11.1={birth=yes}
 2041.9.24={death=yes}
 }
 
 1550035={
-name = "Temnir"
-dynasty = 31005
-dna = "hhenmndpgjh"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 4
-add_trait = "skilled_tactician"
-add_trait = "trusting"
-add_trait = "chaste"
+name="Temnir"
+dynasty=31005
+dna="hhenmndpgjh"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=4
+add_trait="skilled_tactician"
+add_trait="trusting"
+add_trait="chaste"
 1913.9.1={birth=yes}
 1966.1.23={death=yes}
 }
 
 1550036={
-name = "Ulyana"
-female = yes
-dynasty = 31005
-dna = "emeifbblmoe"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 3
-stewardship = 7
-intrigue = 5
-learning = 4
-father = 1550035
-add_trait = "charismatic_negotiator"
-add_trait = "brave"
+name="Ulyana"
+female=yes
+dynasty=31005
+dna="emeifbblmoe"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=3
+stewardship=7
+intrigue=5
+learning=4
+father=1550035
+add_trait="charismatic_negotiator"
+add_trait="brave"
 1931.5.1={birth=yes}
 1975.10.29={death=yes}
 }
 
 1550037={
-name = "Küchükhan"
-dynasty = 31005
-dna = "kcglfdbkjop"
-culture = gospodar
-religion = northern_gods
-martial = 4
-diplomacy = 5
-stewardship = 4
-intrigue = 1
-learning = 5
-mother = 1550036
-add_trait = "underhanded_rogue"
+name="Küchükhan"
+dynasty=31005
+dna="kcglfdbkjop"
+culture=gospodar
+religion=ursun
+martial=4
+diplomacy=5
+stewardship=4
+intrigue=1
+learning=5
+mother=1550036
+add_trait="underhanded_rogue"
 1962.11.1={birth=yes}
-1980.5.19 = {add_spouse=1550040}
+1980.5.19={add_spouse=1550040}
 1996.3.25={death=yes}
 }
 
 
 1550038={
-name = "Akila"
-female = yes
-dynasty = 31005
-dna = "folejhaeflh"
-culture = gospodar
-religion = northern_gods
-martial = 1
-diplomacy = 8
-stewardship = 4
-intrigue = 2
-learning = 6
-father = 1550037
-mother = 1550040
-add_trait = "tough_soldier"
-add_trait = "shy"
-add_trait = "wroth"
-add_trait = "twin"
+name="Akila"
+female=yes
+dynasty=31005
+dna="folejhaeflh"
+culture=gospodar
+religion=ursun
+martial=1
+diplomacy=8
+stewardship=4
+intrigue=2
+learning=6
+father=1550037
+mother=1550040
+add_trait="tough_soldier"
+add_trait="shy"
+add_trait="wroth"
+add_trait="twin"
 1984.11.1={birth=yes}
-2003.6.22 = {add_spouse=1600020}
+2003.6.22={add_spouse=1600020}
 2029.9.30={death=yes}
 }
 
 1550039={
-name = "Rodislav"
-dynasty = 31005
-dna = "ekpmnhlghaf"
-culture = gospodar
-religion = northern_gods
-martial = 7
-diplomacy = 8
-stewardship = 7
-intrigue = 3
-learning = 3
-father = 1550037
-mother = 1550040
-add_trait = "intricate_webweaver"
-add_trait = "honest"
-add_trait = "chaste"
+name="Rodislav"
+dynasty=31005
+dna="ekpmnhlghaf"
+culture=gospodar
+religion=ursun
+martial=7
+diplomacy=8
+stewardship=7
+intrigue=3
+learning=3
+father=1550037
+mother=1550040
+add_trait="intricate_webweaver"
+add_trait="honest"
+add_trait="chaste"
 1993.11.1={birth=yes}
 2048.6.24={death=yes}
 }
 
 
 1550040={
-name = "Tatyana"
-female = yes
-dynasty = 31089
-dna = "cepnopohjlg"
-culture = gospodar
-religion = northern_gods
-martial = 6
-diplomacy = 1
-stewardship = 8
-intrigue = 4
-learning = 5
-add_trait = "charismatic_negotiator"
-add_trait = "paranoid"
-add_trait = "kind"
+name="Tatyana"
+female=yes
+dynasty=31089
+dna="cepnopohjlg"
+culture=gospodar
+religion=ursun
+martial=6
+diplomacy=1
+stewardship=8
+intrigue=4
+learning=5
+add_trait="charismatic_negotiator"
+add_trait="paranoid"
+add_trait="kind"
 1959.3.1={birth=yes}
-1980.5.19 = {add_spouse=1550037}
+1980.5.19={add_spouse=1550037}
 2022.9.19={death=yes}
 }
 

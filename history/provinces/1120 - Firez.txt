@@ -6,13 +6,17 @@ title = c_firez
 # Settlements
 max_settlements = 4
 b_firez = castle
-b_berenike = city
-b_panhesey = temple
-b_komombo = city
+#b_berenike = city
+#b_panhesey = temple
+#b_komombo = city
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_berenike = city
+}

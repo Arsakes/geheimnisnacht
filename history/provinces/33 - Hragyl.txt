@@ -11,7 +11,7 @@ b_eterivik = city
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History

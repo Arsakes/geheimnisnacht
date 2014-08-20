@@ -11,7 +11,7 @@ b_viner = temple
 
 # Misc
 culture = gharhar
-religion = chaos
+religion = khorne
 
 
 # History

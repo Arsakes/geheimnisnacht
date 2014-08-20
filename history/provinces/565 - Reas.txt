@@ -1,16 +1,20 @@
 #565 Reas
-#County Title
+
 title = c_reas
 
 #Settlements
 max_settlements = 4
 b_reas = castle
 b_barbagorza = city
-b_pitarra = temple
+#b_pitarra = temple
 #b_aurellana = castle
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_pitarra = temple
+}

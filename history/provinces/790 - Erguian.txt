@@ -12,7 +12,7 @@ b_hires = temple
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

@@ -11,7 +11,7 @@ b_aquatreno = city
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History

@@ -1,61 +1,61 @@
 950000={
-name = "Konrad" #Konrad von Blutheim, executed in 2011 by witch hunters, canon Khorne worshipper
-dynasty = 23000 
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 5
-stewardship = 7
-intrigue = 9
-learning = 6
-add_trait = "creature_human"
-add_trait = "hedonist"
-add_trait = "charismatic_negotiator"
+name="Konrad" #Konrad von Blutheim, executed in 2011 by witch hunters, canon Khorne worshipper
+dynasty=23000 
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=5
+stewardship=7
+intrigue=9
+learning=6
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 add_trait="cruel"
 add_trait="proud"
-father = 950029
-mother = 950028
+father=950029
+mother=950028
 
 1961.7.1={birth=yes}
-1980.5.25 = {add_spouse=950030}
-1984.12.5 = {add_spouse=950031}
-1989.2.12 = {add_spouse=950032}
-2010.4.19 = {add_spouse=950033}
+1980.5.25={add_spouse=950030}
+1984.12.5={add_spouse=950031}
+1989.2.12={add_spouse=950032}
+2010.4.19={add_spouse=950033}
 2011.7.29={death=yes}
 }
 
 950001={
-name = "Norbert"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-father = 950057
-mother = 950058
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "charismatic_negotiator"
+name="Norbert"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+father=950057
+mother=950058
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="strong"
 add_trait="twin"
 
 1976.6.8={birth=yes}
-1993.6.23 = {add_spouse=950072}
+1993.6.23={add_spouse=950072}
 2031.4.19={death=yes}
 }
 
 950002={
-name = "Johann"
-dynasty = 23072
-culture = wissenlander
-religion = sigmarite
-martial = 10
-diplomacy = 7
-stewardship = 3
-intrigue = 8
-learning = 6
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "detached_priest"
+name="Johann"
+dynasty=23072
+culture=wissenlander
+religion=sigmarite
+martial=10
+diplomacy=7
+stewardship=3
+intrigue=8
+learning=6
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="detached_priest"
 add_trait="harelip"
 add_trait="weak"
 add_trait="tall"
@@ -65,18 +65,18 @@ add_trait="tall"
 }
 
 950003={
-name = "Heinz"
-dynasty = 23013
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 4
-intrigue = 1
-learning = 9
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "naive_appeaser"
+name="Heinz"
+dynasty=23013
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=4
+intrigue=1
+learning=9
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="naive_appeaser"
 add_trait="ugly"
 add_trait="temperate"
 
@@ -85,111 +85,109 @@ add_trait="temperate"
 }
 
 950004={
-name = "Walther"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-martial = 0
-diplomacy = 9
-stewardship = 5
-intrigue = 6
-learning = 10
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "grey_eminence"
+name="Walther"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+martial=0
+diplomacy=9
+stewardship=5
+intrigue=6
+learning=10
+father=950043
+mother=950044
+add_trait="creature_human"
+add_trait="poet"
+add_trait="grey_eminence"
 add_trait="wroth"
 add_trait="cruel"
 add_trait="chaste"
-
-father = 950043
-mother = 950044
-
 1989.8.25={birth=yes}
-2008.3.10 = {add_spouse=950045}
-2009.11.5 = {add_spouse=975007}
+2008.3.10={add_spouse=950045}
+2009.11.5={add_spouse=975007}
 2028.7.10={death=yes}
 }
 
 950005={
-name = "Osterhild"
-female = yes
-dynasty = 23018
-culture = wissenlander
-religion = sigmarite
-martial = 6
-diplomacy = 8
-stewardship = 10
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Osterhild"
+female=yes
+dynasty=23018
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=8
+stewardship=10
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="misguided_warrior"
 add_trait="trusting"
 add_trait="humble"
 
-father = 950016
-mother = 950018
+father=950016
+mother=950018
 
 1990.12.22={birth=yes}
 2050.8.29={death=yes}
 }
 
 950006={
-name = "Ulricht"
-dynasty = 23022
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 11
-intrigue = 7
-learning = 3
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "naive_appeaser"
+name="Ulricht"
+dynasty=23022
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=11
+intrigue=7
+learning=3
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="naive_appeaser"
 add_trait="content"
 
-father = 950012
-mother = 950013
+father=950012
+mother=950013
 
 1992.4.15={birth=yes}
 2068.9.25={death=yes}
 }
 
 950007={
-name = "Sieghard"
-dynasty = 23018
-culture = wissenlander
-religion = sigmarite
-martial = 4
-diplomacy = 1
-stewardship = 4
-intrigue = 4
-learning = 4
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "mastermind_theologian"
+name="Sieghard"
+dynasty=23018
+culture=wissenlander
+religion=sigmarite
+martial=4
+diplomacy=1
+stewardship=4
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="mastermind_theologian"
 
-father = 950016
-mother = 950018
+father=950016
+mother=950018
 
 1993.12.16={birth=yes}
 2040.5.28={death=yes}
 }
 
 950008={
-name = "Hugo"
-dynasty = 23023
-culture = wissenlander
-religion = sigmarite
-martial = 9
-diplomacy = 8
-stewardship = 2
-intrigue = 9
-learning = 8
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "skilled_tactician"
+name="Hugo"
+dynasty=23023
+culture=wissenlander
+religion=sigmarite
+martial=9
+diplomacy=8
+stewardship=2
+intrigue=9
+learning=8
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="skilled_tactician"
 add_trait="homosexual"
 
 1981.10.14={birth=yes}
@@ -197,18 +195,18 @@ add_trait="homosexual"
 }
 
 950009={
-name = "Nikolaus"
-dynasty = 23080
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 10
-stewardship = 1
-intrigue = 5
-learning = 0
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
+name="Nikolaus"
+dynasty=23080
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=10
+stewardship=1
+intrigue=5
+learning=0
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="flamboyant_schemer"
 add_trait="legit_bastard"
 add_trait="lunatic"
 
@@ -217,58 +215,58 @@ add_trait="lunatic"
 }
 
 950010={
-name = "Giselbert"
-dynasty = 23025
-culture = wissenlander
-religion = sigmarite
-martial = 10
-diplomacy = 1
-stewardship = 6
-intrigue = 7
-learning = 5
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Giselbert"
+dynasty=23025
+culture=wissenlander
+religion=sigmarite
+martial=10
+diplomacy=1
+stewardship=6
+intrigue=7
+learning=5
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 
 1978.8.8={birth=yes}
 2059.4.27={death=yes}
 }
 
 950011={
-name = "Dietpold"
-dynasty = 23022
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 2
-stewardship = 4
-intrigue = 7
-learning = 3
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "charismatic_negotiator"
+name="Dietpold"
+dynasty=23022
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=2
+stewardship=4
+intrigue=7
+learning=3
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 
 add_trait="fair"
-father = 950012
-mother = 950013
+father=950012
+mother=950013
 
 1987.7.16={birth=yes}
 2028.6.5={death=yes}
 }
 
 950012={
-name = "Felix"
-dynasty = 23022
-culture = wissenlander
-religion = sigmarite
-martial = 6
-diplomacy = 7
-stewardship = 8
-intrigue = 7
-learning = 7
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "brilliant_strategist"
+name="Felix"
+dynasty=23022
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=7
+stewardship=8
+intrigue=7
+learning=7
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="brilliant_strategist"
 add_trait="diligent"
 add_trait="strong"
 
@@ -277,159 +275,158 @@ add_trait="strong"
 }
 
 950013={
-name = "Britta"
-female = yes
-dynasty = 23037
-culture = wissenlander
-religion = sigmarite
-martial = 3
-diplomacy = 7
-stewardship = 0
-intrigue = 5
-learning = 6
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "naive_appeaser"
+name="Britta"
+female=yes
+dynasty=23037
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=7
+stewardship=0
+intrigue=5
+learning=6
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="naive_appeaser"
 add_trait="proud"
 add_trait="envious"
 add_trait="shy"
 
 1963.9.18={birth=yes}
-1982.5.9 = {add_spouse=950012}
+1982.5.9={add_spouse=950012}
 2021.7.19={death=yes}
 }
 
 950014={
-name = "Udo"
-dynasty = 23025
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 1
-intrigue = 3
-learning = 1
-add_trait = "creature_human"
-add_trait = "elusive_shadow"
-add_trait = "proud"
-add_trait = "kind"
-add_trait = "greedy"
+name="Udo"
+dynasty=23025
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=1
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="proud"
+add_trait="kind"
+add_trait="greedy"
 
-father = 950010
-mother = 950015
+father=950010
+mother=950015
 
 2008.4.15={birth=yes}
 2061.4.8={death=yes}
 }
 
 950015={
-name = "Stefanie"
-female = yes
-dynasty = 23044
-culture = wissenlander
-religion = sigmarite
-martial = 0
-diplomacy = 8
-stewardship = 7
-intrigue = 4
-learning = 2
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Stefanie"
+female=yes
+dynasty=23044
+culture=wissenlander
+religion=sigmarite
+martial=0
+diplomacy=8
+stewardship=7
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="elusive_shadow"
 add_trait="cynical"
 add_trait="just"
 add_trait="zealous"
 
-father = 950017
-mother = 950034
+father=950017
+mother=950034
 
 1981.6.8={birth=yes}
-1998.1.1 = {add_spouse=950010}
+1998.1.1={add_spouse=950010}
 2020.10.3={death=yes}
 }
 
 950016={
-name = "Georg"
-dynasty = 23018
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 7
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "tough_soldier"
+name="Georg"
+dynasty=23018
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=7
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="tough_soldier"
 add_trait="slothful"
 add_trait="kind"
 add_trait="honest"
 
 1962.5.20={birth=yes}
-1988.4.20 = {add_spouse=950018}
+1988.4.20={add_spouse=950018}
 2005.11.5={death=yes}
 }
 
 950017={
-name = "Walram"
-dynasty = 23044
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 3
-learning = 7
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "amateurish_plotter"
+name="Walram"
+dynasty=23044
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=3
+learning=7
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="amateurish_plotter"
 add_trait="paranoid"
 add_trait="craven"
 add_trait="gregarious"
 
 1961.3.26={birth=yes}
-1980.2.13 = {add_spouse=950034}
+1980.2.13={add_spouse=950034}
 2014.6.26={death=yes}
 }
 
 950018={
-name = "Thyra"
-female = yes
-dynasty = 23048
-culture = wissenlander
-religion = sigmarite
-martial = 8
-diplomacy = 8
-stewardship = 3
-intrigue = 5
-learning = 8
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "naive_appeaser"
+name="Thyra"
+female=yes
+dynasty=23048
+culture=wissenlander
+religion=sigmarite
+martial=8
+diplomacy=8
+stewardship=3
+intrigue=5
+learning=8
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="naive_appeaser"
 
 1969.3.6={birth=yes}
-1988.4.20 = {add_spouse=950016}
+1988.4.20={add_spouse=950016}
 2027.10.21={death=yes}
 }
 
 950019={
-name = "Eckhardt"
-dynasty = 23060
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 7
-stewardship = 10
-intrigue = 9
-learning = 4
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "martial_cleric"
+name="Eckhardt"
+dynasty=23060
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=7
+stewardship=10
+intrigue=9
+learning=4
+father=950012
+mother=950013
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="martial_cleric"
 add_trait="greedy"
 add_trait="tall"
-
-father = 950012
-mother = 950013
 
 1985.6.13={birth=yes}
 2029.1.13={death=yes}
@@ -439,18 +436,18 @@ mother = 950013
 #########################
 
 950020={
-name = "Fulk" 
-dynasty = 23032 #950020 & 950021 same dynasty
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 4
-stewardship = 1
-intrigue = 3
-learning = 9
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "fortune_builder"
+name="Fulk" 
+dynasty=23032 #950020 & 950021 same dynasty
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=9
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="fortune_builder"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="ambitious"
@@ -460,41 +457,41 @@ add_trait="ambitious"
 }
 
 950021={
-name = "Henest"
-dynasty = 23032 #950020 & 950021 same dynasty
-culture = wissenlander
-religion = sigmarite
-martial = 0
-diplomacy = 8
-stewardship = 7
-intrigue = 8
-learning = 2
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Henest"
+dynasty=23032 #950020 & 950021 same dynasty
+culture=wissenlander
+religion=sigmarite
+martial=0
+diplomacy=8
+stewardship=7
+intrigue=8
+learning=2
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="elusive_shadow"
 add_trait="cynical"
 add_trait="just"
 add_trait="zealous"
-father = 950020
+father=950020
 
 53.6.8={birth=yes}
 101.10.3={death=yes}
 }
 
 950022={
-name = "Agnetha"
-female = yes
-dynasty = 23033 
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 7
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "tough_soldier"
+name="Agnetha"
+female=yes
+dynasty=23033 
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=7
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="tough_soldier"
 add_trait="slothful"
 add_trait="kind"
 add_trait="honest"
@@ -504,18 +501,18 @@ add_trait="honest"
 }
 
 950023={
-name = "Matthias"
-dynasty = 23034 
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 3
-learning = 7
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "amateurish_plotter"
+name="Matthias"
+dynasty=23034 
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=3
+learning=7
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="amateurish_plotter"
 add_trait="paranoid"
 add_trait="craven"
 add_trait="gregarious"
@@ -525,19 +522,19 @@ add_trait="gregarious"
 }
 
 950024={
-name = "Amalie"
-female = yes
-dynasty = 23035 #950024 & 950025 same dynasty
-culture = wissenlander
-religion = sigmarite
-martial = 8
-diplomacy = 8
-stewardship = 3
-intrigue = 5
-learning = 8
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "naive_appeaser"
+name="Amalie"
+female=yes
+dynasty=23035 #950024 & 950025 same dynasty
+culture=wissenlander
+religion=sigmarite
+martial=8
+diplomacy=8
+stewardship=3
+intrigue=5
+learning=8
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="naive_appeaser"
 add_trait="ugly"
 add_trait="clubfooted"
 
@@ -546,41 +543,41 @@ add_trait="clubfooted"
 }
 
 950025={
-name = "Amalie"
-female = yes
-dynasty = 23035 #950024 & 950025 same dynasty
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 7
-stewardship = 10
-intrigue = 9
-learning = 4
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "martial_cleric"
+name="Amalie"
+female=yes
+dynasty=23035 #950024 & 950025 same dynasty
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=7
+stewardship=10
+intrigue=9
+learning=4
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="martial_cleric"
 add_trait="greedy"
 add_trait="tall"
 add_trait="weak"
-mother = 950024
+mother=950024
 
 1401.6.13={birth=yes}
 1465.1.13={death=yes}
 }
 
 950026={
-name = "Volkmar"
-dynasty = 23067
-culture = wissenlander
-religion = sigmarite
-martial = 14
-diplomacy = 9
-stewardship = 0
-intrigue = 3
-learning = 14
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Volkmar"
+dynasty=23067
+culture=wissenlander
+religion=sigmarite
+martial=14
+diplomacy=9
+stewardship=0
+intrigue=3
+learning=14
+add_trait="creature_human"
+add_trait="poet"
+add_trait="mastermind_theologian"
 add_trait="zealous"
 
 add_trait="diligent"
@@ -592,1005 +589,1186 @@ add_trait="proud"
 
 
 950027={
-name = "Magnus" #Magnus 'the Pious' von Bildhofen
-dynasty = 23001
-culture = wissenlander
-religion = sigmarite
-martial = 9
-diplomacy = 9
-stewardship = 0
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "charismatic_negotiator"
+name="Magnus" #Magnus 'the Pious' von Bildhofen
+dynasty=23001
+culture=wissenlander
+religion=sigmarite
+martial=9
+diplomacy=9
+stewardship=0
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="poet"
+add_trait="charismatic_negotiator"
 add_trait="zealous"
 
 add_trait="diligent"
 add_trait="proud"
 
 2284.7.13={birth=yes}
-2304.1.1={give_nickname = nick_the_pious}#the pious
+2304.1.1={give_nickname=nick_the_pious}#the pious
 2369.5.14={death=yes}
 }
 
 950028={
-name = "Adela"
-female = yes
-dynasty = 23047
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Adela"
+female=yes
+dynasty=23047
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1932.1.1={birth=yes}
-1954.1.1 = {add_spouse=950029}
+1954.1.1={add_spouse=950029}
 1975.1.1={death=yes}
 }
 
 950029={
-name = "Rannalt"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Rannalt"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1930.1.1={birth=yes}
-1954.1.1 = {add_spouse=950028}
+1954.1.1={add_spouse=950028}
 1985.1.1={death=yes}
 }
 
 950030={
-name = "Ester"
-female = yes
-dynasty = 23052
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Ester"
+female=yes
+dynasty=23052
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1962.3.3={birth=yes}
-1980.5.25 = {add_spouse=950000}
+1980.5.25={add_spouse=950000}
 1983.6.19={death=yes}
 }
 
 950031={
-name = "Frieda"
-female = yes
-dynasty = 23003
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Frieda"
+female=yes
+dynasty=23003
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1965.5.11={birth=yes}
-1984.12.5 = {add_spouse=950000}
+1984.12.5={add_spouse=950000}
 1989.10.10={death=yes}
 }
 
 950032={
-name = "Maren"
-female = yes
-dynasty = 23004
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Maren"
+female=yes
+dynasty=23004
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1970.12.5={birth=yes}
-1989.2.12 = {add_spouse=950000}
+1989.2.12={add_spouse=950000}
 2005.3.7={death=yes}
 }
 
 950033={
-name = "Gertrude"
-female = yes
-dynasty = 23005
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Gertrude"
+female=yes
+dynasty=23005
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1993.8.16={birth=yes}
-2010.4.19 = {add_spouse=950000}
+2010.4.19={add_spouse=950000}
 2011.2.17={death=yes}
 }
 
 950034={
-name = "Amelia"
-female = yes
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950029
-mother = 950028
+name="Amelia"
+female=yes
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950029
+mother=950028
 
 1961.2.9={birth=yes}
-1980.2.13 = {add_spouse=950017}
+1980.2.13={add_spouse=950017}
 1993.12.26={death=yes}
 }
 
 950035={
-name = "Titus"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-add_trait = "legit_bastard"
-father = 950000
+name="Titus"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+add_trait="legit_bastard"
+father=950000
 
 1981.3.6={birth=yes}
 1996.7.15={death=yes}
 }
 
 950036={
-name = "Viktor"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-father = 950000
-mother = 950030
+name="Viktor"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+father=950000
+mother=950030
 
 1981.2.19={birth=yes}
 1997.8.14={death=yes}
 }
 
 950037={
-name = "Ivo"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-add_trait = "legit_bastard"
-father = 950000
+name="Ivo"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+add_trait="legit_bastard"
+father=950000
 
 1983.10.16={birth=yes}
 1999.12.4={death=yes}
 }
 
 950038={
-name = "Otto"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950000
-mother = 950031
+name="Otto"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950000
+mother=950031
 
 1989.2.5={birth=yes}
 2005.5.17={death=yes}
 }
 
 950039={
-name = "Leonhard"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950000
-mother = 950032
+name="Leonhard"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950000
+mother=950032
 
 1991.4.21={birth=yes}
 2007.4.25={death=yes}
 }
 
 950040={
-name = "Paul"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950000
-mother = 950032
+name="Paul"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950000
+mother=950032
 
 1992.6.8={birth=yes}
 2009.10.5={death=yes}
 }
 
 950041={
-name = "Detlef"
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950000
-mother = 950032
+name="Detlef"
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950000
+mother=950032
 
 2001.11.12={birth=yes}
 2064.7.5={death=yes}
 }
 
 950042={
-name = "Yseult"
-female = yes
-dynasty = 23000
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950000
-mother = 950032
+name="Yseult"
+female=yes
+dynasty=23000
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950000
+mother=950032
 
 2005.2.13={birth=yes}
 2005.7.20={death=yes}
 }
 
 950043={
-name = "Ludolf"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950071
+name="Ludolf"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950071
 
 1962.10.23={birth=yes}
-1988.5.25 = {add_spouse=950044}
+1988.5.25={add_spouse=950044}
 2006.5.19={death=yes}
 }
 
 950044={
-name = "Brigitte"
-female = yes
-dynasty = 23006
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Brigitte"
+female=yes
+dynasty=23006
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1967.9.12={birth=yes}
-1988.5.25 = {add_spouse=950043}
+1988.5.25={add_spouse=950043}
 2013.2.10={death=yes}
 }
 
 950045={
-name = "Jutte"
-female = yes
-dynasty = 23057
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Jutte"
+female=yes
+dynasty=23057
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1991.5.9={birth=yes}
-2008.3.10 = {add_spouse=950004}
+2008.3.10={add_spouse=950004}
 2009.10.6={death=yes}
 }
 
 950046={
-name = "Cyrillus"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950043
-mother = 950044
+name="Cyrillus"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950043
+mother=950044
 
 1991.1.1={birth=yes}
-2007.1.1 = {add_spouse=950047}
+2007.1.1={add_spouse=950047}
 2033.1.1={death=yes}
 }
 
 950047={
-name = "Franka"
-female = yes
-dynasty = 23009
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Franka"
+female=yes
+dynasty=23009
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1989.1.1={birth=yes}
-2007.1.1 = {add_spouse=950046}
+2007.1.1={add_spouse=950046}
 2014.1.1={death=yes}
 }
 
 950048={
-name = "Rainer"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950046
-mother = 950047
+name="Rainer"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950046
+mother=950047
 
 2008.1.1={birth=yes}
 2051.1.1={death=yes}
 }
 
 950049={
-name = "Irminburg"
-female = yes
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950050
-mother = 950051
+name="Irminburg"
+female=yes
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950050
+mother=950051
 
 1983.1.1={birth=yes}
 2030.1.1={death=yes}
 }
 
 950050={
-name = "Meinhard"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950071
+name="Meinhard"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950071
 
 1966.1.1={birth=yes}
-1982.1.1 = {add_spouse=950051}
+1982.1.1={add_spouse=950051}
 2006.1.1={death=yes}
 }
 
 950051={
-name = "Kriemhild"
-female = yes
-dynasty = 23010
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Kriemhild"
+female=yes
+dynasty=23010
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1965.1.1={birth=yes}
-1982.1.1 = {add_spouse=950050}
+1982.1.1={add_spouse=950050}
 2006.1.1={death=yes}
 }
 
 950052={
-name = "Rannalt"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950043
-mother = 950044
+name="Rannalt"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950043
+mother=950044
 
 1991.4.5={birth=yes}
-2008.1.1 = {add_spouse=950053}
-2010.3.5 = {add_spouse=975005}
+2008.1.1={add_spouse=950053}
+2010.3.5={add_spouse=975005}
 2015.9.15={death=yes}
 }
 
 950053={
-name = "Ute"
-female = yes
-dynasty = 23011
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Ute"
+female=yes
+dynasty=23011
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1991.1.1={birth=yes}
-2008.1.1 = {add_spouse=950052}
+2008.1.1={add_spouse=950052}
 2010.1.1={death=yes}
 }
 
 950054={
-name = "Ignaz"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950052
-mother = 950053
+name="Ignaz"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950052
+mother=950053
 
 2008.1.1={birth=yes}
 2070.1.1={death=yes}
 }
 
 950055={
-name = "Joachim"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950052
-mother = 950053
+name="Joachim"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950052
+mother=950053
 
 2009.1.1={birth=yes}
 2009.1.2={death=yes}
 }
 
 950056={
-name = "Aldred"
-female = yes
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950052
-mother = 950053
+name="Aldred"
+female=yes
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950052
+mother=950053
 
 2010.1.1={birth=yes}
 2058.1.1={death=yes}
 }
 
 950057={
-name = "Ezzo"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950075
+name="Ezzo"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950075
 
 1939.1.1={birth=yes}
-1975.1.1 = {add_spouse=950058}
+1975.1.1={add_spouse=950058}
 2009.1.1={death=yes}
 }
 
 950058={
-name = "Hannelore"
-female = yes
-dynasty = 23016
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Hannelore"
+female=yes
+dynasty=23016
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1944.1.1={birth=yes}
-1975.1.1 = {add_spouse=950057}
+1975.1.1={add_spouse=950057}
 1976.6.8={death=yes}
 }
 
 950059={
-name = "Veit"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950001
-mother = 950072
+name="Veit"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950001
+mother=950072
 
 1998.4.22={birth=yes}
 2017.1.1={death=yes}
 }
 
 950060={
-name = "Lothaire"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950001
-mother = 950072
+name="Lothaire"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950001
+mother=950072
 
 1999.1.1={birth=yes}
 2055.1.1={death=yes}
 }
 
 950061={
-name = "Lile"
-female = yes
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950001
-mother = 950072
+name="Lile"
+female=yes
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950001
+mother=950072
 
 1994.2.11={birth=yes}
 2044.1.1={death=yes}
 }
 
 950062={
-name = "Markward"
-dynasty = 23014
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950074
-mother = 950073
+name="Markward"
+dynasty=23014
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950074
+mother=950073
 
 1982.1.1={birth=yes}
-2001.1.1 = {add_spouse=950063}
+2001.1.1={add_spouse=950063}
 2034.1.1={death=yes}
 }
 
 950063={
-name = "Kunigunde"
-female = yes
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950057
-mother = 950058
+name="Kunigunde"
+female=yes
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950057
+mother=950058
 add_trait="twin"
 
 1976.6.8={birth=yes}
-2001.1.1 = {add_spouse=950062}
+2001.1.1={add_spouse=950062}
 2034.10.1={death=yes}
 }
 
 950064={
-name = "Nastassja"
-female = yes
-dynasty = 23014
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950062
-mother = 950063
+name="Nastassja"
+female=yes
+dynasty=23014
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950062
+mother=950063
 
 2002.1.1={birth=yes}
 2050.1.1={death=yes}
 }
 
 950065={
-name = "Kaspar"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-father = 950067
-mother = 950068
-add_trait = "creature_human"
+name="Kaspar"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+father=950067
+mother=950068
+add_trait="creature_human"
 
 1941.1.1={birth=yes}
-1986.1.1 = {add_spouse=950066}
+1986.1.1={add_spouse=950066}
 2011.1.1={death=yes}
 }
 
 950066={
-name = "Astrid"
-female = yes
-dynasty = 23015
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Astrid"
+female=yes
+dynasty=23015
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1944.1.1={birth=yes}
-1986.1.1 = {add_spouse=950065}
+1986.1.1={add_spouse=950065}
 2013.1.1={death=yes}
 }
 
 950067={
-name = "Sepp"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950075
+name="Sepp"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950075
 
 1919.1.1={birth=yes}
-1940.1.1 = {add_spouse=950068}
+1940.1.1={add_spouse=950068}
 1977.1.1={death=yes}
 }
 
 950068={
-name = "Cordula"
-female = yes
-dynasty = 23020
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Cordula"
+female=yes
+dynasty=23020
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1920.1.1={birth=yes}
-1940.1.1 = {add_spouse=950067}
+1940.1.1={add_spouse=950067}
 1975.1.1={death=yes}
 }
 
 950069={
-name = "Petrus"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-father = 950065
-mother = 950066
-add_trait = "creature_human"
+name="Petrus"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+father=950065
+mother=950066
+add_trait="creature_human"
 
 1987.1.1={birth=yes}
 2044.1.1={death=yes}
 }
 
 950070={
-name = "Margarethe"
-female = yes
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
-father = 950065
-mother = 950066
+name="Margarethe"
+female=yes
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
+father=950065
+mother=950066
 
 1989.1.1={birth=yes}
 2039.1.1={death=yes}
 }
 
 950071={
-name = "Wolfgang"
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Wolfgang"
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1922.1.1={birth=yes}
 1988.1.1={death=yes}
 }
 
 950072={
-name = "Irmele"
-female = yes
-dynasty = 23019
-culture = wissenlander
-religion = sigmarite
-add_trait = "creature_human"
+name="Irmele"
+female=yes
+dynasty=23019
+culture=wissenlander
+religion=sigmarite
+add_trait="creature_human"
 
 1972.1.1={birth=yes}
-1993.6.23 = {add_spouse=950001}
+1993.6.23={add_spouse=950001}
 2029.1.1={death=yes}
 }
 
 950073={
-name = "Cora"
-female = yes
-dynasty = 23021
-culture = wissenlander
-religion = sigmarite
-martial = 3
-diplomacy = 5
-stewardship = 2
-intrigue = 1
-learning = 1
-add_trait = "creature_human"
-add_trait = "tall"
-add_trait = "brave"
+name="Cora"
+female=yes
+dynasty=23021
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=2
+intrigue=1
+learning=1
+add_trait="creature_human"
+add_trait="tall"
+add_trait="brave"
 
 1955.1.1={birth=yes}
-1981.1.1 = {add_spouse=950074}
+1981.1.1={add_spouse=950074}
 1999.1.1={death=yes}
 }
 
 950074={
-name = "Lutz"
-dynasty = 23014
-culture = wissenlander
-religion = sigmarite
-martial = 1
-diplomacy = 2
-stewardship = 2
-intrigue = 1
-learning = 1
-add_trait = "creature_human"
-add_trait = "kind"
-add_trait = "charitable"
+name="Lutz"
+dynasty=23014
+culture=wissenlander
+religion=sigmarite
+martial=1
+diplomacy=2
+stewardship=2
+intrigue=1
+learning=1
+add_trait="creature_human"
+add_trait="kind"
+add_trait="charitable"
 
 1957.1.1={birth=yes}
-1981.1.1 = {add_spouse=950073}
+1981.1.1={add_spouse=950073}
 2001.1.1={death=yes}
 }
 
 950075={
-name = "Rudolph"
-dynasty = 23008
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 1
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "cruel"
-add_trait = "shy"
+name="Rudolph"
+dynasty=23008
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=1
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="cruel"
+add_trait="shy"
 
 1899.1.1={birth=yes}
 1954.1.1={death=yes}
 }
 
 950076={
-name = "Karlotte" 
-dynasty = 23017
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 1
-intrigue = 3
-learning = 1
-add_trait = "creature_human"
-add_trait = "proud"
-add_trait = "shy"
-father = 950004
-mother = 950045
+name="Karlotte" 
+dynasty=23017
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=1
+intrigue=3
+learning=1
+add_trait="creature_human"
+add_trait="proud"
+add_trait="shy"
+father=950004
+mother=950045
 
 2009.3.25={birth=yes}
 2063.3.8={death=yes}
 }
 
 950077={
-name = "Emmanuelle" 
-female = yes
-dynasty = 23002
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 1
-stewardship = 1
-intrigue = 3
-learning = 1
-add_trait = "creature_human"
-add_trait = "charismatic_negotiator"
-add_trait = "proud"
-add_trait = "greedy"
-add_trait = "cynical"
-add_trait = "quick"
+name="Emmanuelle" 
+female=yes
+dynasty=23002
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=1
+intrigue=3
+learning=1
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="proud"
+add_trait="greedy"
+add_trait="cynical"
+add_trait="quick"
+add_trait="fair"
+add_trait="gregarious"
 
 2486.4.4={birth=yes}
 2554.7.18={death=yes}
 }
 
 950078={
-name = "Bruno"
-dynasty = 23007
-dna = "kcppfdpnibb"
-culture = wissenlander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 6
-intrigue = 6
-learning = 5
-father = 950085
-add_trait = "tough_soldier"
-add_trait = "cruel"
+name="Bruno"
+dynasty=23007
+dna="kcppfdpnibb"
+culture=wissenlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=6
+intrigue=6
+learning=5
+father=950085
+add_trait="tough_soldier"
+add_trait="cruel"
 2506.1.1={birth=yes}
 2528.9.24={death=yes}
 }
 
 950079={
-name = "Ester"
-female = yes
-dynasty = 23007
-dna = "delpmmceikj"
-culture = wissenlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 6
-intrigue = 7
-learning = 0
-father = 950085
-add_trait = "tough_soldier"
-add_trait = "diligent"
-add_trait = "zealous"
-2496.7.1={birth=yes}
+name="Ester"
+female=yes
+dynasty=23007
+dna="delpmmceikj"
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=6
+intrigue=7
+learning=0
+father=950085
+add_trait="tough_soldier"
+add_trait="diligent"
+add_trait="zealous"
+2489.7.1={birth=yes}
 2538.3.7={death=yes}
 }
 
 950080={
-name = "Margret"
-female = yes
-dynasty = 23007
-dna = "nampbkmkfgj"
-culture = wissenlander
-religion = sigmarite
-martial = 2
-diplomacy = 8
-stewardship = 8
-intrigue = 5
-learning = 1
-father = 950085
-add_trait = "midas_touched"
-add_trait = "diligent"
-add_trait = "cruel"
-add_trait = "wounded"
+name="Margret"
+female=yes
+dynasty=23007
+dna="nampbkmkfgj"
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=8
+stewardship=8
+intrigue=5
+learning=1
+father=950085
+add_trait="midas_touched"
+add_trait="diligent"
+add_trait="cruel"
+add_trait="wounded"
 2520.9.1={birth=yes}
 2555.3.11={death=yes}
 }
 
 950081={
-name = "Lukas"
-dynasty = 23007
-dna = "oancoonbgpm"
-culture = wissenlander
-religion = sigmarite
-martial = 6
-diplomacy = 2
-stewardship = 3
-intrigue = 1
-learning = 3
-father = 950085
-add_trait = "flamboyant_schemer"
-add_trait = "gregarious"
-add_trait = "brave"
-add_trait = "just"
-add_trait = "humble"
+name="Lukas"
+dynasty=23007
+dna="oancoonbgpm"
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=2
+stewardship=3
+intrigue=1
+learning=3
+father=950085
+add_trait="flamboyant_schemer"
+add_trait="gregarious"
+add_trait="brave"
+add_trait="just"
+add_trait="humble"
 2512.11.1={birth=yes}
 2567.5.18={death=yes}
 }
 
 950082={
-name = "Manfred"
-dynasty = 23012
-dna = "kmphfihdkml"
-culture = wissenlander
-religion = sigmarite
-martial = 8
-diplomacy = 5
-stewardship = 4
-intrigue = 6
-learning = 0
-add_trait = "midas_touched"
-add_trait = "arbitrary"
-add_trait = "envious"
-add_trait = "gregarious"
-add_trait = "cynical"
+name="Manfred"
+dynasty=23012
+dna="kmphfihdkml"
+culture=wissenlander
+religion=sigmarite
+martial=8
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=0
+father=950096
+add_trait="midas_touched"
+add_trait="arbitrary"
+add_trait="envious"
+add_trait="gregarious"
+add_trait="cynical"
 2499.7.1={birth=yes}
 2566.7.10={death=yes}
 }
 
 950083={
-name = "Karen"
-female = yes
-dynasty = 23012
-dna = "oehmhncaoge"
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 5
-learning = 0
-father = 950082
-add_trait = "fortune_builder"
-add_trait = "ambitious"
-add_trait = "gregarious"
+name="Karen"
+female=yes
+dynasty=23012
+dna="oehmhncaoge"
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=5
+learning=0
+father=950082
+add_trait="fortune_builder"
+add_trait="ambitious"
+add_trait="gregarious"
 2518.5.1={birth=yes}
 2576.1.24={death=yes}
 }
 
 950084={
-name = "Ulf"
-dynasty = 23012
-dna = "kmmkhomnllk"
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 1
-stewardship = 6
-intrigue = 0
-learning = 2
-father = 950082
-add_trait = "grey_eminence"
-add_trait = "poet"
-add_trait = "humble"
-add_trait = "gregarious"
+name="Ulf"
+dynasty=23012
+dna="kmmkhomnllk"
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=1
+stewardship=6
+intrigue=0
+learning=2
+father=950082
+add_trait="grey_eminence"
+add_trait="poet"
+add_trait="humble"
+add_trait="gregarious"
 2520.9.1={birth=yes}
 2574.1.24={death=yes}
 }
 
 950085={
-name = "Bruno"
-dynasty = 23007
-dna = "mflhhpgocnk"
-culture = wissenlander
-religion = sigmarite
-martial = 5
-diplomacy = 7
-stewardship = 5
-intrigue = 3
-learning = 5
-add_trait = "thrifty_clerk"
-add_trait = "slothful"
-add_trait = "kind"
-add_trait = "arbitrary"
-add_trait = "wounded"
-2479.1.1={birth=yes}
+name="Bruno"
+dynasty=23007
+dna="mflhhpgocnk"
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=7
+stewardship=5
+intrigue=3
+learning=5
+add_trait="thrifty_clerk"
+add_trait="slothful"
+add_trait="kind"
+add_trait="arbitrary"
+add_trait="wounded"
+2470.1.1={birth=yes}
 2549.4.22={death=yes}
 }
 
 950086={
-name = "Bruno"
-dynasty = 23007
-dna = "kkjjlkcompk"
-culture = wissenlander
-religion = sigmarite
-martial = 6
-diplomacy = 5
-stewardship = 6
-intrigue = 5
-learning = 6
-father = 950085
-add_trait = "elusive_shadow"
-add_trait = "celibate"
-add_trait = "deceitful"
-add_trait = "cruel"
-add_trait = "paranoid"
+name="Bruno"
+dynasty=23007
+dna="kkjjlkcompk"
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=5
+stewardship=6
+intrigue=5
+learning=6
+father=950085
+add_trait="elusive_shadow"
+add_trait="celibate"
+add_trait="deceitful"
+add_trait="cruel"
+add_trait="paranoid"
 2512.1.1={birth=yes}
 2529.12.18={death=yes}
 }
 
 950087={
-name = "Erin"
-female = yes
-dynasty = 23007
-dna = "hogbhblkgpn"
-culture = wissenlander
-religion = sigmarite
-martial = 6
-diplomacy = 3
-stewardship = 6
-intrigue = 4
-learning = 6
-father = 950085
-add_trait = "misguided_warrior"
-add_trait = "arbitrary"
-add_trait = "cruel"
+name="Erin"
+female=yes
+dynasty=23007
+dna="hogbhblkgpn"
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=3
+stewardship=6
+intrigue=4
+learning=6
+father=950085
+add_trait="misguided_warrior"
+add_trait="arbitrary"
+add_trait="cruel"
 2516.1.1={birth=yes}
 2534.10.27={death=yes}
 }
 
 950088={
-name = "Rena"
-female = yes
-dynasty = 23007
-dna = "hfcgclomedc"
-culture = wissenlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 4
-intrigue = 6
-learning = 4
-father = 950085
-add_trait = "skilled_tactician"
-add_trait = "proud"
-add_trait = "kind"
-add_trait = "shy"
-add_trait = "stressed"
+name="Rena"
+female=yes
+dynasty=23007
+dna="hfcgclomedc"
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=6
+learning=4
+father=950085
+add_trait="skilled_tactician"
+add_trait="proud"
+add_trait="kind"
+add_trait="shy"
+add_trait="stressed"
 2519.1.1={birth=yes}
 2554.1.2={death=yes}
 }
 
 950089={
-name = "Vincentus"
-dynasty = 23009
-dna = "lebjgogehng"
-culture = wissenlander
-religion = sigmarite
-martial = 7
-diplomacy = 2
-stewardship = 5
-intrigue = 6
-learning = 6
-add_trait = "elusive_shadow"
-add_trait = "hedonist"
-add_trait = "brave"
-add_trait = "honest"
-add_trait = "wounded"
+name="Vincentus"
+dynasty=23009
+dna="lebjgogehng"
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=6
+add_trait="elusive_shadow"
+add_trait="hedonist"
+add_trait="brave"
+add_trait="honest"
+add_trait="wounded"
 2477.1.1={birth=yes}
 2535.10.3={death=yes}
 }
 
 950090={
-name = "Niedhart"
-dynasty = 23009
-dna = "pojpbejgpff"
-culture = wissenlander
-religion = sigmarite
-martial = 3
-diplomacy = 2
-stewardship = 5
-intrigue = 6
-learning = 0
-father = 950089
-add_trait = "detached_priest"
-add_trait = "hunter"
-add_trait = "brave"
-add_trait = "diligent"
-add_trait = "kind"
+name="Niedhart"
+dynasty=23009
+dna="pojpbejgpff"
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=0
+father=950089
+add_trait="detached_priest"
+add_trait="hunter"
+add_trait="brave"
+add_trait="diligent"
+add_trait="kind"
 2507.1.1={birth=yes}
 2554.1.9={death=yes}
 }
 
 950091={
-name = "Theodore" #Theodore Bruckner, marshal of Emmanuelle Liebwitz
-dynasty = 23091
-dna = "kmnejcmkjpg"
-culture = reiklander
-religion = sigmarite
-martial = 5
-diplomacy = 0
-stewardship = 8
-intrigue = 1
-learning = 1
-add_trait = "skilled_tactician"
-add_trait = "celibate"
-add_trait = "brave"
-add_trait = "honest"
+name="Theodore" #Theodore Bruckner, marshal of Emmanuelle Liebwitz
+dynasty=23091
+dna="kmnejcmkjpg"
+culture=reiklander
+religion=sigmarite
+martial=5
+diplomacy=0
+stewardship=8
+intrigue=1
+learning=1
+add_trait="skilled_tactician"
+add_trait="celibate"
+add_trait="brave"
+add_trait="honest"
 2465.1.1={birth=yes}
 2500.1.1={employer=950077}
 2535.1.5={death=yes}
 }
 
+
+950092={
+name="Sabine"
+female=yes
+dynasty=23006 #Toppenheimer
+dna="fdncjnfhblc"
+culture=wissenlander
+religion=sigmarite
+martial=1
+diplomacy=6
+stewardship=3
+intrigue=4
+learning=5
+add_trait="elusive_shadow"
+add_trait="paranoid"
+add_trait="proud"
+add_trait="envious"
+add_trait="greedy"
+2412.1.1={birth=yes}
+2441.7.10={add_spouse=500136}
+2468.8.30={death=yes}
+}
+
+950093={
+name="Juliane"
+female=yes
+dynasty=23012
+dna="amhhiahckml"
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=6
+father=950094
+add_trait="midas_touched"
+add_trait="gregarious"
+add_trait="envious"
+2448.3.16={birth=yes}
+2475.11.10={add_spouse=500136}
+2528.3.2={death=yes}
+}
+
+
+950094={
+name="Nicholaus"
+dynasty=23012
+dna="hogbhblkgpn"
+culture=wissenlander
+religion=sigmarite
+martial=6
+diplomacy=3
+stewardship=6
+intrigue=4
+learning=6
+add_trait="misguided_warrior"
+add_trait="arbitrary"
+add_trait="brave"
+2406.5.1={birth=yes}
+2464.10.27={death=yes}
+}
+
+950095={
+name="Wilfred"
+dynasty=23012
+dna="haccclobedc"
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=2
+stewardship=4
+intrigue=6
+learning=4
+father=950094
+add_trait="skilled_tactician"
+add_trait="proud"
+add_trait="gregarious"
+2429.4.1={birth=yes}
+2474.7.2={death=yes}
+}
+
+950096={
+name="Dietpold"
+dynasty=23012
+dna="leajcogahng"
+culture=wissenlander
+religion=sigmarite
+martial=7
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=2
+father=950095
+add_trait="elusive_shadow"
+add_trait="hedonist"
+2466.11.19={birth=yes}
+2513.1.3={death=yes}
+}
+
+950097={
+name="Claudia"
+female=yes
+dynasty=23006
+culture=wissenlander
+religion=sigmarite
+martial=3
+diplomacy=4
+stewardship=2
+intrigue=5
+learning=7
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="greedy"
+2498.3.4={birth=yes}
+2514.7.10={add_spouse=500131}
+2529.4.5={death=yes}
+}
+
+950098={
+name="Marianne"
+female=yes
+dynasty=23092
+culture=wissenlander
+religion=sigmarite
+martial=2
+diplomacy=1
+stewardship=4
+intrigue=1
+learning=3
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="strong"
+add_trait="kind"
+add_trait="greedy"
+2484.7.15={birth=yes}
+2501.5.12={add_spouse=500129}
+2543.2.8={death=yes}
+}
+
+950099={
+name="Miranda"
+female=yes
+dynasty=23093
+culture=wissenlander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=0
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="kind"
+2464.2.5={birth=yes}
+2490.4.22={add_spouse=500196}
+2503.4.18={death=yes}
+}
+
+950100={
+name="Ester"
+female=yes
+dynasty=23007
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=2
+stewardship=1
+intrigue=2
+learning=0
+father=950085
+add_trait="tough_soldier"
+add_trait="diligent"
+add_trait="cynical"
+2492.2.1={birth=yes}
+2513.5.21={add_spouse=500202}
+2532.5.7={death=yes}
+}

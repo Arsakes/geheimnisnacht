@@ -3,9 +3,6 @@ greenskin_gods_group = {
 	graphical_culture = westerngfx
 	playable = yes
 	
-	ai_convert_same_group = 0 # try to convert if ai_zeal is high
-	ai_convert_other_group = 0	# always try to convert
-
 	greenskin_gods = {
 		graphical_culture = westerngfx
 
@@ -24,7 +21,8 @@ greenskin_gods_group = {
 		
 		priests_can_marry = no
 		aggression = 2.5 		
-		allow_looting = yes
+		allow_looting = no
+		allow_rivermovement = no
 		can_hold_temples = yes
 	}
 
@@ -46,7 +44,8 @@ greenskin_gods_group = {
 		
 		priests_can_marry = no
 		aggression = 2.5 		
-		allow_looting = yes
+		allow_looting = no
+		allow_rivermovement = no
 		can_hold_temples = yes
 	}	
 }

@@ -7,13 +7,17 @@ title = c_atreus
 max_settlements = 5
 b_atreus = castle
 b_panticapaeum = city
-b_pitros = temple
+#b_pitros = temple
 #b_lycion = city
 #b_bionicas = temple
 
 # Misc
 culture = myken
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_pitros = temple
+}

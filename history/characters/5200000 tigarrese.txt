@@ -1,15 +1,15 @@
 5200000={
-name = "Regadazo"
-dynasty = 35000
-culture = tigarrese
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Regadazo"
+dynasty=35000
+culture=tigarrese
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 5200001={
-name = "Blas"
-dynasty = 35001
-culture = tigarrese
-religion = classical_gods
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Blas"
+dynasty=35001
+culture=tigarrese
+religion=myrmidian
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,16 +39,16 @@ add_trait="craven"
 }
 
 5200002={
-name = "Luiz"
-dynasty = 35002
-culture = tigarrese
-religion = classical_gods
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
-add_trait = "intricate_webweaver"
+name="Luiz"
+dynasty=35002
+culture=tigarrese
+religion=myrmidian
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
+add_trait="intricate_webweaver"
 add_trait="greedy"
 add_trait="tall"
 mother=5200004
@@ -58,17 +58,17 @@ mother=5200004
 }
 
 5200003={
-name = "Manrique"
-dynasty = 35003
-culture = tigarrese
-religion = classical_gods
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Manrique"
+dynasty=35003
+culture=tigarrese
+religion=myrmidian
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -78,18 +78,18 @@ add_trait="wroth"
 }
 
 5200004={
-name = "Urraca"
-female = yes
-dynasty = 35004
-culture = tigarrese
-religion = classical_gods
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Urraca"
+female=yes
+dynasty=35004
+culture=tigarrese
+religion=myrmidian
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +99,17 @@ add_trait="humble"
 }
 
 5200005={
-name = "Aureolo"
-dynasty = 35005
-culture = tigarrese
-religion = classical_gods
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Aureolo"
+dynasty=35005
+culture=tigarrese
+religion=myrmidian
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -119,17 +119,17 @@ add_trait="ill"
 }
 
 5200006={
-name = "Melchor"
-dynasty = 35006
-culture = tigarrese
-religion = classical_gods
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Melchor"
+dynasty=35006
+culture=tigarrese
+religion=myrmidian
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -138,17 +138,17 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 5200007={
-name = "Erramón"
-dynasty = 35007
-culture = tigarrese
-religion = classical_gods
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Erramón"
+dynasty=35007
+culture=tigarrese
+religion=myrmidian
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -158,17 +158,17 @@ add_trait="lustful"
 }
 
 5200008={
-name = "Fortún"
-dynasty = 35008
-culture = tigarrese
-religion = classical_gods
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Fortún"
+dynasty=35008
+culture=tigarrese
+religion=myrmidian
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -178,17 +178,17 @@ add_trait="drunkard"
 }
 
 5200009={
-name = "Dato"
-dynasty = 35009
-culture = tigarrese
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Dato"
+dynasty=35009
+culture=tigarrese
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -198,33 +198,33 @@ add_trait="lisp"
 }
 
 5200010={
-name = "Santiago"
-dynasty = 35010
-culture = tigarrese
-religion = classical_gods
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Santiago"
+dynasty=35010
+culture=tigarrese
+religion=myrmidian
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 1990.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 5200011={
-name = "Carlos"
-dynasty = 35011
-culture = tigarrese
-religion = classical_gods
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Carlos"
+dynasty=35011
+culture=tigarrese
+religion=myrmidian
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="fair"
 
 1993.2.8={birth=yes}
@@ -232,17 +232,17 @@ add_trait="fair"
 }
 
 5200012={
-name = "Ochoa"
-dynasty = 35012
-culture = tigarrese
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Ochoa"
+dynasty=35012
+culture=tigarrese
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -252,17 +252,17 @@ add_trait="envious"
 }
 
 5200013={
-name = "Tello"
-dynasty = 35013
-culture = tigarrese
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Tello"
+dynasty=35013
+culture=tigarrese
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -272,17 +272,17 @@ add_trait="shy"
 }
 
 5200014={
-name = "Ximeno"
-dynasty = 35014
-culture = tigarrese
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Ximeno"
+dynasty=35014
+culture=tigarrese
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -292,17 +292,17 @@ add_trait="strong"
 }
 
 5200015={
-name = "Piarres"
-dynasty = 35015
-culture = tigarrese
-religion = classical_gods
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Piarres"
+dynasty=35015
+culture=tigarrese
+religion=myrmidian
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -312,17 +312,17 @@ add_trait="cynical"
 }
 
 5200016={
-name = "Olivante"
-dynasty = 35016
-culture = tigarrese
-religion = classical_gods
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Olivante"
+dynasty=35016
+culture=tigarrese
+religion=myrmidian
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -332,17 +332,17 @@ add_trait="honest"
 }
 
 5200017={
-name = "Gaspar"
-dynasty = 35017
-culture = tigarrese
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Gaspar"
+dynasty=35017
+culture=tigarrese
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -352,33 +352,33 @@ add_trait="greedy"
 }
 
 5200018={
-name = "Leoleno"
-dynasty = 35018
-culture = tigarrese
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "midas_touched"
+name="Leoleno"
+dynasty=35018
+culture=tigarrese
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
+add_trait="midas_touched"
 add_trait="kind"
 1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 
 5200019={
-name = "Pinzón"
-dynasty = 35019
-culture = tigarrese
-religion = classical_gods
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Pinzón"
+dynasty=35019
+culture=tigarrese
+religion=myrmidian
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"
@@ -386,4 +386,3 @@ add_trait="weak"
 1984.1.10={birth=yes}
 2045.10.28={death=yes}
 }
-

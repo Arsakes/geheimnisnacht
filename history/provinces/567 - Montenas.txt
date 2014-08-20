@@ -1,5 +1,5 @@
 # 567 Montenas
-#County Title
+
 title = c_montenas
 
 #Settlements
@@ -11,6 +11,6 @@ b_merido = castle
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History

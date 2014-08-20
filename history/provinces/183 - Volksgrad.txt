@@ -11,7 +11,7 @@ b_kletsk = temple
 #b_lyuban = city
 
 # Misc
-culture = gospodar
+culture = ungol
 religion = northern_gods
 
 

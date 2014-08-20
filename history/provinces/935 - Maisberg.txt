@@ -1,0 +1,23 @@
+# 935 Maisberg
+
+# County Title
+title = c_maisberg
+
+# Settlements
+max_settlements = 4
+b_maisberg = castle
+#b_ahlsee = city
+#b_mellerfelden = temple
+#b_penzkirchen = temple
+
+# Misc
+culture = reiklander
+religion = sigmarite
+
+
+
+# History
+
+2250.1.1 = {
+	b_ahlsee = city
+}

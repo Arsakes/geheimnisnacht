@@ -12,7 +12,7 @@ b_groenevik = city
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History

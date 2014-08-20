@@ -9,7 +9,7 @@ b_yurgh = castle
 #b_lika = temple
 
 # Misc
-culture = gharhar
+culture = tahmak
 religion = chaos
 
 

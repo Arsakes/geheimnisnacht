@@ -1,15 +1,15 @@
 4800000={
-name = "Abbondio"
-dynasty = 45000
-culture = umbrian
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Abbondio"
+dynasty=45000
+culture=umbrian
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 4800001={
-name = "Calogero"
-dynasty = 45001
-culture = umbrian
-religion = classical_gods
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Calogero"
+dynasty=45001
+culture=umbrian
+religion=myrmidian
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 4800002={
-name = "Fausto"
-dynasty = 45002
-culture = umbrian
-religion = classical_gods
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Fausto"
+dynasty=45002
+culture=umbrian
+religion=myrmidian
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 4800003={
-name = "Osvaldo"
-dynasty = 45003
-culture = umbrian
-religion = classical_gods
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Osvaldo"
+dynasty=45003
+culture=umbrian
+religion=myrmidian
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,17 @@ add_trait="wroth"
 }
 
 4800004={
-name = "Severino"
-dynasty = 45004
-culture = umbrian
-religion = classical_gods
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Severino"
+dynasty=45004
+culture=umbrian
+religion=myrmidian
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,18 +99,18 @@ add_trait="humble"
 }
 
 4800005={
-name = "Ada"
-female = yes
-dynasty = 45005
-culture = umbrian
-religion = classical_gods
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Ada"
+female=yes
+dynasty=45005
+culture=umbrian
+religion=myrmidian
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -120,18 +120,18 @@ add_trait="ill"
 }
 
 4800006={
-name = "Lea"
-female = yes
-dynasty = 45006
-culture = umbrian
-religion = classical_gods
-martial = 7
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Lea"
+female=yes
+dynasty=45006
+culture=umbrian
+religion=myrmidian
+martial=7
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -140,18 +140,18 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 4800007={
-name = "Eleonora"
-female = yes
-dynasty = 45007
-culture = umbrian
-religion = classical_gods
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Eleonora"
+female=yes
+dynasty=45007
+culture=umbrian
+religion=myrmidian
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -161,18 +161,18 @@ add_trait="lustful"
 }
 
 4800008={
-name = "Sandra"
-female = yes
-dynasty = 45008
-culture = umbrian
-religion = classical_gods
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Sandra"
+female=yes
+dynasty=45008
+culture=umbrian
+religion=myrmidian
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -182,17 +182,17 @@ add_trait="drunkard"
 }
 
 4800009={
-name = "Piero"
-dynasty = 45100
-culture = umbrian
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Piero"
+dynasty=45100
+culture=umbrian
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -203,17 +203,17 @@ add_trait="lisp"
 
 
 4800010={
-name = "Rodolfo"
-dynasty = 45010
-culture = umbrian
-religion = classical_gods
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Rodolfo"
+dynasty=45010
+culture=umbrian
+religion=myrmidian
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 
 
 
@@ -223,17 +223,17 @@ add_trait = "underhanded_rogue"
 }
 
 4800011={
-name = "Leonida"
-dynasty = 45101
-culture = umbrian
-religion = classical_gods
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Leonida"
+dynasty=45101
+culture=umbrian
+religion=myrmidian
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -243,17 +243,17 @@ add_trait="fair"
 }
 
 4800012={
-name = "Ivano"
-dynasty = 45102
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Ivano"
+dynasty=45102
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -263,17 +263,17 @@ add_trait="envious"
 }
 
 4800013={
-name = "Chiaffredo"
-dynasty = 45103
-culture = umbrian
-religion = classical_gods
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Chiaffredo"
+dynasty=45103
+culture=umbrian
+religion=myrmidian
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -283,17 +283,17 @@ add_trait="shy"
 }
 
 4800014={
-name = "Fosco"
-dynasty = 45104
-culture = umbrian
-religion = classical_gods
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Fosco"
+dynasty=45104
+culture=umbrian
+religion=myrmidian
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -303,17 +303,17 @@ add_trait="strong"
 }
 
 4800015={
-name = "Bernardo"
-dynasty = 45015
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Bernardo"
+dynasty=45015
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -323,17 +323,17 @@ add_trait="cynical"
 }
 
 4800016={
-name = "Ezio"
-dynasty = 45016
-culture = umbrian
-religion = classical_gods
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Ezio"
+dynasty=45016
+culture=umbrian
+religion=myrmidian
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -343,17 +343,17 @@ add_trait="honest"
 }
 
 4800017={
-name = "Michele"
-dynasty = 45017
-culture = umbrian
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Michele"
+dynasty=45017
+culture=umbrian
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -363,17 +363,17 @@ add_trait="greedy"
 }
 
 4800018={
-name = "Ermes"
-dynasty = 45018
-culture = umbrian
-religion = classical_gods
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
+name="Ermes"
+dynasty=45018
+culture=umbrian
+religion=myrmidian
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 
 add_trait="kind"
 
@@ -383,17 +383,17 @@ add_trait="kind"
 }
 
 4800019={
-name = "Ignazio"
-dynasty = 45019
-culture = umbrian
-religion = classical_gods
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Ignazio"
+dynasty=45019
+culture=umbrian
+religion=myrmidian
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"
@@ -403,17 +403,17 @@ add_trait="weak"
 }
 
 4800020={
-name = "Manlio"
-dynasty = 45009
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 16
-stewardship = 3
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "charismatic_negotiator"
+name="Manlio"
+dynasty=45009
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=16
+stewardship=3
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 add_trait="clubfooted"
 
 1989.9.12={birth= yes}
@@ -421,267 +421,267 @@ add_trait="clubfooted"
 }
 
 4800021={
-name = "Valentina"
-female = yes
-dynasty = 45180
-dna = "pfcgapdapgp"
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 8
-stewardship = 5
-intrigue = 6
-learning = 2
-add_trait = "intricate_webweaver"
-add_trait = "diligent"
-add_trait = "fair"
-add_trait = "deceitful"
-add_trait = "patient"
+name="Valentina"
+female=yes
+dynasty=45180
+dna="pfcgapdapgp"
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=8
+stewardship=5
+intrigue=6
+learning=2
+add_trait="intricate_webweaver"
+add_trait="diligent"
+add_trait="fair"
+add_trait="deceitful"
+add_trait="patient"
 2457.5.1={birth=yes}
 2493.4.26={death=yes}
 }
 
 4800022={
-name = "Lucrezzia"
-female = yes
-dynasty = 45180
-dna = "ffakpcpdlbb"
-culture = umbrian
-religion = classical_gods
-martial = 1
-diplomacy = 2
-stewardship = 4
-intrigue = 6
-learning = 4
-mother = 4800021
-add_trait = "intricate_webweaver"
-add_trait = "strong"
-add_trait = "patient"
-add_trait = "fair"
-add_trait = "quick"
-add_trait = "deceitful"
-add_trait = "celibate"
+name="Lucrezzia"
+female=yes
+dynasty=45180
+dna="ffakpcpdlbb"
+culture=umbrian
+religion=myrmidian
+martial=1
+diplomacy=2
+stewardship=4
+intrigue=6
+learning=4
+mother=4800021
+add_trait="intricate_webweaver"
+add_trait="strong"
+add_trait="patient"
+add_trait="fair"
+add_trait="quick"
+add_trait="deceitful"
+add_trait="celibate"
 2478.3.1={birth=yes}
-2497.5.10 = {add_matrilineal_spouse=4800024}
-2500.5.10 = {add_matrilineal_spouse=4800025}
-2503.5.10 = {add_matrilineal_spouse=4800026}
-2505.5.10 = {add_matrilineal_spouse=4800027}
-2508.5.10 = {add_matrilineal_spouse=4800028}
-2510.5.10 = {add_matrilineal_spouse=4800029}
-2512.5.10 = {add_matrilineal_spouse=4800030}
+2497.5.10={add_matrilineal_spouse=4800024}
+2500.5.10={add_matrilineal_spouse=4800025}
+2503.5.10={add_matrilineal_spouse=4800026}
+2505.5.10={add_matrilineal_spouse=4800027}
+2508.5.10={add_matrilineal_spouse=4800028}
+2510.5.10={add_matrilineal_spouse=4800029}
+2512.5.10={add_matrilineal_spouse=4800030}
 2561.1.18={death=yes}
 }
 
 4800023={
-name = "Dolchellata"
-female = yes
-dynasty = 45180
-dna = "mjcodpiegnd"
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 6
-stewardship = 5
-intrigue = 5
-learning = 5
-mother = 4800021
-add_trait = "intricate_webweaver"
-add_trait = "hunter"
-add_trait = "fair"
-add_trait = "diligent"
-add_trait = "cruel"
+name="Dolchellata"
+female=yes
+dynasty=45180
+dna="mjcodpiegnd"
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=6
+stewardship=5
+intrigue=5
+learning=5
+mother=4800021
+add_trait="intricate_webweaver"
+add_trait="hunter"
+add_trait="fair"
+add_trait="diligent"
+add_trait="cruel"
 2477.9.1={birth=yes}
-2499.5.10 = {add_spouse=4700020}
+2499.5.10={add_spouse=4700020}
 2542.9.15={death=yes}
 }
 
 4800024={
-name = "Luigi"
-dynasty = 42108
-dna = "flblobngcjp"
-culture = umbrian
-religion = classical_gods
-martial = 1
-diplomacy = 4
-stewardship = 6
-intrigue = 7
-learning = 6
-add_trait = "misguided_warrior"
-add_trait = "poet"
-add_trait = "cynical"
+name="Luigi"
+dynasty=42108
+dna="flblobngcjp"
+culture=umbrian
+religion=myrmidian
+martial=1
+diplomacy=4
+stewardship=6
+intrigue=7
+learning=6
+add_trait="misguided_warrior"
+add_trait="poet"
+add_trait="cynical"
 2467.7.1={birth=yes}
-2497.5.10 = {add_matrilineal_spouse=4800022}
+2497.5.10={add_matrilineal_spouse=4800022}
 2499.6.11={death=yes}
 }
 
 4800025={
-name = "Borso"
-dynasty = 42160
-dna = "bgjhfgkmapc"
-culture = umbrian
-religion = classical_gods
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 4
-learning = 5
-add_trait = "fortune_builder"
-add_trait = "cynical"
-add_trait = "chaste"
+name="Borso"
+dynasty=42160
+dna="bgjhfgkmapc"
+culture=umbrian
+religion=myrmidian
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=5
+add_trait="fortune_builder"
+add_trait="cynical"
+add_trait="chaste"
 2457.7.1={birth=yes}
-2500.5.10 = {add_matrilineal_spouse=4800022}
+2500.5.10={add_matrilineal_spouse=4800022}
 2502.10.11={death=yes}
 }
 
 4800026={
-name = "Donato"
-dynasty = 42173
-dna = "lghlegpenld"
-culture = umbrian
-religion = classical_gods
-martial = 4
-diplomacy = 4
-stewardship = 5
-intrigue = 7
-learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "zealous"
+name="Donato"
+dynasty=42173
+dna="lghlegpenld"
+culture=umbrian
+religion=myrmidian
+martial=4
+diplomacy=4
+stewardship=5
+intrigue=7
+learning=4
+add_trait="underhanded_rogue"
+add_trait="zealous"
 2465.11.1={birth=yes}
-2503.5.10 = {add_matrilineal_spouse=4800022}
+2503.5.10={add_matrilineal_spouse=4800022}
 2504.12.18={death=yes}
 }
 
 4800027={
-name = "Ranuccio"
-dynasty = 42125
-dna = "dhebfjdepoo"
-culture = umbrian
-religion = classical_gods
-martial = 1
-diplomacy = 6
-stewardship = 3
-intrigue = 2
-learning = 3
-add_trait = "thrifty_clerk"
-add_trait = "ambitious"
-add_trait = "deceitful"
-add_trait = "arbitrary"
+name="Ranuccio"
+dynasty=42125
+dna="dhebfjdepoo"
+culture=umbrian
+religion=myrmidian
+martial=1
+diplomacy=6
+stewardship=3
+intrigue=2
+learning=3
+add_trait="thrifty_clerk"
+add_trait="ambitious"
+add_trait="deceitful"
+add_trait="arbitrary"
 2458.1.1={birth=yes}
-2505.5.10 = {add_matrilineal_spouse=4800022}
+2505.5.10={add_matrilineal_spouse=4800022}
 2507.10.16={death=yes}
 }
 
 4800028={
-name = "Bensario"
-dynasty = 42134
-dna = "faloiicdbgb"
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 2
-stewardship = 3
-intrigue = 4
-learning = 7
-add_trait = "brilliant_strategist"
-add_trait = "kind"
-add_trait = "trusting"
+name="Bensario"
+dynasty=42134
+dna="faloiicdbgb"
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=2
+stewardship=3
+intrigue=4
+learning=7
+add_trait="brilliant_strategist"
+add_trait="kind"
+add_trait="trusting"
 2460.3.1={birth=yes}
-2508.5.10 = {add_matrilineal_spouse=4800022}
+2508.5.10={add_matrilineal_spouse=4800022}
 2509.7.21={death=yes}
 }
 
 4800029={
-name = "Branzino"
-dynasty = 42172
-dna = "lidohmhdpcc"
-culture = umbrian
-religion = classical_gods
-martial = 7
-diplomacy = 6
-stewardship = 5
-intrigue = 7
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "cynical"
-add_trait = "lustful"
+name="Branzino"
+dynasty=42172
+dna="lidohmhdpcc"
+culture=umbrian
+religion=myrmidian
+martial=7
+diplomacy=6
+stewardship=5
+intrigue=7
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="cynical"
+add_trait="lustful"
 2461.7.1={birth=yes}
-2510.5.10 = {add_matrilineal_spouse=4800022}
+2510.5.10={add_matrilineal_spouse=4800022}
 2511.7.3={death=yes}
 }
 
 4800030={
-name = "Poggio"
-dynasty = 42094
-dna = "phnhhlkbkem"
-culture = umbrian
-religion = classical_gods
-martial = 2
-diplomacy = 8
-stewardship = 4
-intrigue = 4
-learning = 5
-add_trait = "intricate_webweaver"
-add_trait = "cruel"
-add_trait = "deceitful"
-add_trait = "diligent"
+name="Poggio"
+dynasty=42094
+dna="phnhhlkbkem"
+culture=umbrian
+religion=myrmidian
+martial=2
+diplomacy=8
+stewardship=4
+intrigue=4
+learning=5
+add_trait="intricate_webweaver"
+add_trait="cruel"
+add_trait="deceitful"
+add_trait="diligent"
 2454.3.1={birth=yes}
-2512.5.10 = {add_matrilineal_spouse=4800022}
+2512.5.10={add_matrilineal_spouse=4800022}
 2513.3.3={death=yes}
 }
 
 4800031={
-name = "Julia"
-female = yes
-dynasty = 42134
-dna = "fabojapngea"
-culture = umbrian
-religion = classical_gods
-martial = 2
-diplomacy = 3
-stewardship = 6
-intrigue = 4
-learning = 2
-father = 4800028
-add_trait = "intricate_webweaver"
-add_trait = "celibate"
-add_trait = "cynical"
+name="Julia"
+female=yes
+dynasty=42134
+dna="fabojapngea"
+culture=umbrian
+religion=myrmidian
+martial=2
+diplomacy=3
+stewardship=6
+intrigue=4
+learning=2
+father=4800028
+add_trait="intricate_webweaver"
+add_trait="celibate"
+add_trait="cynical"
 2484.1.1={birth=yes}
 2536.11.19={death=yes}
 }
 
 
 4800032={
-name = "Leonardo"
-dynasty = 45180
-dna = "macodaiegna"
-culture = umbrian
-religion = classical_gods
-martial = 5
-diplomacy = 6
-stewardship = 5
-intrigue = 5
-learning = 5
-mother = 4800021
-add_trait = "misguided_warrior"
-add_trait = "hunter"
+name="Leonardo"
+dynasty=45180
+dna="macodaiegna"
+culture=umbrian
+religion=myrmidian
+martial=5
+diplomacy=6
+stewardship=5
+intrigue=5
+learning=5
+mother=4800021
+add_trait="misguided_warrior"
+add_trait="hunter"
 2483.5.10={birth=yes}
 2532.9.11={death=yes}
 }
 
 4800033={
-name = "Francesco"
-dynasty = 45187
-dna = "jcdnhlaankd"
-culture = umbrian
-religion = classical_gods
-martial = 3
-diplomacy = 1
-stewardship = 5
-intrigue = 5
-learning = 3
-add_trait = "underhanded_rogue"
-add_trait = "gluttonous"
-add_trait = "chaste"
+name="Francesco"
+dynasty=45187
+dna="jcdnhlaankd"
+culture=umbrian
+religion=myrmidian
+martial=3
+diplomacy=1
+stewardship=5
+intrigue=5
+learning=3
+add_trait="underhanded_rogue"
+add_trait="gluttonous"
+add_trait="chaste"
 2481.1.1={birth=yes}
 2553.8.23={death=yes}
 }

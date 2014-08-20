@@ -1,16 +1,20 @@
 #573 Gualcazar
-#County Title
+
 title = c_gualcazar
 
 #Settlements
 max_settlements = 4
 b_gualcazar = castle
-b_zakar = city
+#b_zakar = temple
 #b_quitra = castle
 #b_sidoniaceli = castle
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_zakar = temple
+}

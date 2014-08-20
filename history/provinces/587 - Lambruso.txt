@@ -11,7 +11,7 @@ b_lambrusco = castle
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History

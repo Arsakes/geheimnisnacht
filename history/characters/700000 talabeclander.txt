@@ -1,75 +1,75 @@
 700000={
-name = "Ottilia" #Ottilia III
-female = yes
-dynasty = 11000
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 7
-stewardship = 5
-intrigue = 2
-learning = 8
-father = 700066
-add_trait = "creature_human"
-add_trait = "detached_priest"
+name="Ottilia" #Ottilia III
+female=yes
+dynasty=11000
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=7
+stewardship=5
+intrigue=2
+learning=8
+father=700066
+add_trait="creature_human"
+add_trait="detached_priest"
 add_trait="gregarious"
 add_trait="honest"
 add_trait="wroth"
 add_trait="proud" 
 1972.11.4={birth=yes}
-1995.2.19 = {add_spouse=700082}
+1995.2.19={add_spouse=700082}
 2041.9.6={death=yes}
 }
 
 700001={
-name = "Karl"
-dynasty = 11008
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 7
-stewardship = 5
-intrigue = 3
-learning = 9
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "elusive_shadow"
+name="Karl"
+dynasty=11008
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=7
+stewardship=5
+intrigue=3
+learning=9
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="elusive_shadow"
 add_trait="kind"
 1978.2.14={birth=yes}
 2035.11.21={death=yes}
 }
 
 700002={
-name = "Wenzel"
-dynasty = 11069
-culture = talabeclander
-religion = taalite
-martial = 9
-diplomacy = 3
-stewardship = 6
-intrigue = 8
-learning = 8
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Wenzel"
+dynasty=11069
+culture=talabeclander
+religion=taalite
+martial=9
+diplomacy=3
+stewardship=6
+intrigue=8
+learning=8
+add_trait="creature_human"
+add_trait="poet"
+add_trait="fortune_builder"
 add_trait="weak"
 1966.3.16={birth=yes}
 2052.2.25={death=yes}
 }
 
 700003={
-name = "Anselm"
-dynasty = 11070
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 8
-stewardship = 9
-intrigue = 0
-learning = 0
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "brilliant_strategist"
+name="Anselm"
+dynasty=11070
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=8
+stewardship=9
+intrigue=0
+learning=0
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="brilliant_strategist"
 add_trait="greedy"
 add_trait="cruel"
 add_trait="wroth"
@@ -79,19 +79,19 @@ add_trait="wroth"
 }
 
 700004={
-name = "Felizitas"
-female = yes
-dynasty = 11012
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 9
-stewardship = 1
-intrigue = 7
-learning = 6
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "flamboyant_schemer"
+name="Felizitas"
+female=yes
+dynasty=11012
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=9
+stewardship=1
+intrigue=7
+learning=6
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="flamboyant_schemer"
 add_trait="tall"
 add_trait="temperate"
 add_trait="chaste"
@@ -101,19 +101,19 @@ add_trait="chaste"
 }
 
 700005={
-name = "Helga"
-female = yes
-dynasty = 11015
-culture = talabeclander
-religion = taalite
-martial = 10
-diplomacy = 7
-stewardship = 4
-intrigue = 4
-learning = 9
-add_trait = "creature_human"
-add_trait = "hedonist"
-add_trait = "tough_soldier"
+name="Helga"
+female=yes
+dynasty=11015
+culture=talabeclander
+religion=taalite
+martial=10
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=9
+add_trait="creature_human"
+add_trait="hedonist"
+add_trait="tough_soldier"
 add_trait="trusting"
 add_trait="content"
 
@@ -123,18 +123,18 @@ add_trait="content"
 }
 
 700006={
-name = "Lutbert"
-dynasty = 11017
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 3
-stewardship = 5
-intrigue = 5
-learning = 0
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "flamboyant_schemer"
+name="Lutbert"
+dynasty=11017
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=3
+stewardship=5
+intrigue=5
+learning=0
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="flamboyant_schemer"
 
 add_trait="humble"
 1979.4.27={birth=yes}
@@ -142,21 +142,21 @@ add_trait="humble"
 }
 
 700007={
-name = "Nicola"
-female = yes
-dynasty = 11131
-culture = talabeclander
-religion = taalite
-martial = 9
-diplomacy = 1
-stewardship = 11
-intrigue = 6
-learning = 5
-father = 700035
-mother = 700036
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "underhanded_rogue"
+name="Nicola"
+female=yes
+dynasty=11131
+culture=talabeclander
+religion=taalite
+martial=9
+diplomacy=1
+stewardship=11
+intrigue=6
+learning=5
+father=700035
+mother=700036
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="underhanded_rogue"
 add_trait="diligent"
 add_trait="fair"
 
@@ -165,18 +165,18 @@ add_trait="fair"
 }
 
 700008={
-name = "Adolf"
-dynasty = 11019
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 8
-stewardship = 6
-intrigue = 3
-learning = 4
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "thrifty_clerk"
+name="Adolf"
+dynasty=11019
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=8
+stewardship=6
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 
 add_trait="lustful"
@@ -186,94 +186,94 @@ add_trait="lustful"
 }
 
 700009={
-name = "Jakob"
-dynasty = 11020
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 7
-stewardship = 7
-intrigue = 8
-learning = 3
-add_trait = "creature_human"
-add_trait = "misguided_warrior"
+name="Jakob"
+dynasty=11020
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=7
+stewardship=7
+intrigue=8
+learning=3
+add_trait="creature_human"
+add_trait="misguided_warrior"
 add_trait="homosexual"
 1970.5.23={birth=yes}
 2057.10.15={death=yes}
 }
 
 700010={
-name = "Ordulf"
-dynasty = 11023
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 7
-stewardship = 3
-intrigue = 7
-learning = 7
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Ordulf"
+dynasty=11023
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=7
+stewardship=3
+intrigue=7
+learning=7
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 add_trait="lisp"
 1964.12.11={birth=yes}
 2051.6.15={death=yes}
 }
 
 700011={
-name = "Seiger"
-dynasty = 11029
-culture = talabeclander
-religion = taalite
-martial = 0
-diplomacy = 2
-stewardship = 10
-intrigue = 7
-learning = 5
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "indulgent_wastrel"
+name="Seiger"
+dynasty=11029
+culture=talabeclander
+religion=taalite
+martial=0
+diplomacy=2
+stewardship=10
+intrigue=7
+learning=5
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="indulgent_wastrel"
 add_trait="fair"
 1989.9.24={birth=yes}
 2046.7.2={death=yes}
 }
 
 700012={
-name = "Alecto"
-female = yes
-dynasty = 11131
-dna = "odpaddeaajk"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 5
-stewardship = 5
-intrigue = 4
-learning = 4
-mother = 700007
-add_trait = "creature_human"
-add_trait = "intricate_webweaver"
-add_trait = "celibate"
-add_trait = "envious"
-add_trait = "shy"
+name="Alecto"
+female=yes
+dynasty=11131
+dna="odpaddeaajk"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=4
+mother=700007
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="celibate"
+add_trait="envious"
+add_trait="shy"
 2005.1.13={birth=yes}
 2041.1.13={death=yes}
 }
 
 
 700013={
-name = "Gerlach"
-dynasty = 11031
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 10
-stewardship = 4
-intrigue = 6
-learning = 7
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "flamboyant_schemer"
+name="Gerlach"
+dynasty=11031
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=10
+stewardship=4
+intrigue=6
+learning=7
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="flamboyant_schemer"
 add_trait="slothful"
 add_trait="envious"
 add_trait="patient"
@@ -283,18 +283,18 @@ add_trait="patient"
 }
 
 700014={
-name = "Viktor"
-dynasty = 11034
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 7
-stewardship = 8
-intrigue = 8
-learning = 9
-add_trait = "creature_human"
-add_trait = "impaler"
-add_trait = "tough_soldier"
+name="Viktor"
+dynasty=11034
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=7
+stewardship=8
+intrigue=8
+learning=9
+add_trait="creature_human"
+add_trait="impaler"
+add_trait="tough_soldier"
 add_trait="proud"
 add_trait="arbitrary"
 add_trait="shy"
@@ -304,18 +304,18 @@ add_trait="shy"
 }
 
 700015={
-name = "Mathias"
-dynasty = 11037
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 7
-stewardship = 0
-intrigue = 6
-learning = 1
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "naive_appeaser"
+name="Mathias"
+dynasty=11037
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=7
+stewardship=0
+intrigue=6
+learning=1
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="naive_appeaser"
 add_trait="ambitious"
 add_trait="cynical"
 add_trait="zealous"
@@ -325,18 +325,18 @@ add_trait="zealous"
 }
 
 700016={
-name = "Meinhard"
-dynasty = 11040
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 1
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "thrifty_clerk"
+name="Meinhard"
+dynasty=11040
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=1
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="thrifty_clerk"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="just"
@@ -346,18 +346,18 @@ add_trait="just"
 }
 
 700017={
-name = "Talecht"
-dynasty = 11041
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 9
-stewardship = 5
-intrigue = 6
-learning = 9
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "amateurish_plotter"
+name="Talecht"
+dynasty=11041
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=9
+stewardship=5
+intrigue=6
+learning=9
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="amateurish_plotter"
 add_trait="craven"
 add_trait="honest"
 
@@ -367,41 +367,41 @@ add_trait="honest"
 }
 
 700018={
-name = "Talbert"
-dynasty = 11043
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 8
-stewardship = 6
-intrigue = 11
-learning = 10
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "scholarly_theologian"
+name="Talbert"
+dynasty=11043
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=8
+stewardship=6
+intrigue=11
+learning=10
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="scholarly_theologian"
 add_trait="greedy"
 1972.3.26={birth=yes}
 2034.4.17={death=yes}
 }
 
 700019={
-name = "Helene"
-female = yes
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 10
-diplomacy = 8
-stewardship = 8
-intrigue = 6
-learning = 9
+name="Helene"
+female=yes
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=10
+diplomacy=8
+stewardship=8
+intrigue=6
+learning=9
 father=700024
 mother=700025
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "midas_touched"
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="midas_touched"
 1958.7.14={birth=yes}
-1977.3.23 = {add_spouse=800047}
+1977.3.23={add_spouse=800047}
 2001.3.6={death=yes}
 }
 
@@ -409,18 +409,18 @@ add_trait = "midas_touched"
 ###########################
 
 700020={
-name = "Maginulf"
-dynasty = 11003 #Taalsen
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 9
-stewardship = 5
-intrigue = 6
-learning = 9
-add_trait = "creature_human"
-add_trait = "gardener"
-add_trait = "amateurish_plotter"
+name="Maginulf"
+dynasty=11003 #Taalsen
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=9
+stewardship=5
+intrigue=6
+learning=9
+add_trait="creature_human"
+add_trait="gardener"
+add_trait="amateurish_plotter"
 add_trait="craven"
 add_trait="honest"
 221.5.12={birth=yes}
@@ -428,40 +428,40 @@ add_trait="honest"
 }
 
 700021={
-name = "Maginulf"
-dynasty = 11003 #Taalsen
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 8
-stewardship = 6
-intrigue = 11
-learning = 10
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "scholarly_theologian"
+name="Maginulf"
+dynasty=11003 #Taalsen
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=8
+stewardship=6
+intrigue=11
+learning=10
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="scholarly_theologian"
 add_trait="greedy"
 
 
-father = 700020
+father=700020
 
 243.3.26={birth=yes}
 310.4.17={death=yes}
 }
 
 700022={
-name = "Mattheus"
-dynasty = 11000 #Untermensch
-culture = talabeclander
-religion = taalite
-martial = 10
-diplomacy = 8
-stewardship = 8
-intrigue = 6
-learning = 9
-add_trait = "creature_human"
-add_trait = "hunter"
-add_trait = "midas_touched"
+name="Mattheus"
+dynasty=11000 #Untermensch
+culture=talabeclander
+religion=taalite
+martial=10
+diplomacy=8
+stewardship=8
+intrigue=6
+learning=9
+add_trait="creature_human"
+add_trait="hunter"
+add_trait="midas_touched"
 add_trait="weak"
 add_trait="gregarious"
 add_trait="tall"
@@ -473,18 +473,18 @@ add_trait="tall"
 #####
 
 700023={
-name = "Talbert"
-dynasty = 11023 
-culture = talabeclander
-religion = sigmarite
-martial = 14
-diplomacy = 9
-stewardship = 0
-intrigue = 3
-learning = 14
-add_trait = "creature_human"
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Talbert"
+dynasty=11023 
+culture=talabeclander
+religion=sigmarite
+martial=14
+diplomacy=9
+stewardship=0
+intrigue=3
+learning=14
+add_trait="creature_human"
+add_trait="poet"
+add_trait="mastermind_theologian"
 add_trait="zealous"
 
 add_trait="diligent"
@@ -496,57 +496,57 @@ add_trait="proud"
 
 
 700024={
-name = "Vilfred"
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 9
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "flamboyant_schemer"
+name="Vilfred"
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=9
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="flamboyant_schemer"
 add_trait="lustful"
 1925.5.8={birth=yes}
-1945.9.16 = {add_spouse=700025}
+1945.9.16={add_spouse=700025}
 1987.4.8={death=yes}
 }
 
 700025={
-name = "Luitgard"
-female = yes
-dynasty = 11043
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 8
-stewardship = 1
-intrigue = 1
-learning = 9
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Luitgard"
+female=yes
+dynasty=11043
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=8
+stewardship=1
+intrigue=1
+learning=9
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="mastermind_theologian"
 1928.1.2={birth=yes}
-1945.9.16 = {add_spouse=700024}
+1945.9.16={add_spouse=700024}
 1984.11.5={death=yes}
 }
 
 700026={
-name = "Cora"
-female = yes
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 9
-stewardship = 10
-intrigue = 9
-learning = 1
-add_trait = "creature_human"
-add_trait = "scholar"
-add_trait = "martial_cleric"
+name="Cora"
+female=yes
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=9
+stewardship=10
+intrigue=9
+learning=1
+add_trait="creature_human"
+add_trait="scholar"
+add_trait="martial_cleric"
 
 father=700024
 mother=700025
@@ -557,18 +557,18 @@ mother=700025
 }
 
 700027={
-name = "Poppo"
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 9
-diplomacy = 1
-stewardship = 9
-intrigue = 8
-learning = 8
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Poppo"
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=9
+diplomacy=1
+stewardship=9
+intrigue=8
+learning=8
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="scholarly_theologian"
 father=700024
 mother=700025
 1954.6.16={birth=yes}
@@ -576,89 +576,89 @@ mother=700025
 }
 
 700028={
-name = "Walram"
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 10
-stewardship = 10
-intrigue = 5
-learning = 2
-add_trait = "creature_human"
-add_trait = "falconer"
-add_trait = "fortune_builder"
+name="Walram"
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=10
+stewardship=10
+intrigue=5
+learning=2
+add_trait="creature_human"
+add_trait="falconer"
+add_trait="fortune_builder"
 add_trait="fair"
 add_trait="strong"
 add_trait="proud"
 father=700024
 mother=700025
 1953.11.24={birth=yes}
-1972.3.26 = {add_spouse=700030}
+1972.3.26={add_spouse=700030}
 1989.8.3={death=yes}
 }
 
 700029={
-name = "Vilfred"
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 7
-stewardship = 9
-intrigue = 2
-learning = 8
+name="Vilfred"
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=7
+stewardship=9
+intrigue=2
+learning=8
 father=700028
 mother=700030
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="envious"
 add_trait="shy"
 
 1979.2.14={birth=yes}
-1999.1.29 = {add_spouse=700032}
+1999.1.29={add_spouse=700032}
 2009.8.20={death=yes}
 }
 
 700030={
-name = "Kriemhild"
-female = yes
-dynasty = 11040
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 8
-stewardship = 3
-intrigue = 2
-learning = 1
-add_trait = "creature_human"
-add_trait = "hedonist"
-add_trait = "charismatic_negotiator"
+name="Kriemhild"
+female=yes
+dynasty=11040
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=8
+stewardship=3
+intrigue=2
+learning=1
+add_trait="creature_human"
+add_trait="hedonist"
+add_trait="charismatic_negotiator"
 add_trait="ambitious"
 add_trait="patient"
 add_trait="arbitrary"
 
 1953.2.23={birth=yes}
-1972.3.26 = {add_spouse=700028}
+1972.3.26={add_spouse=700028}
 2001.10.28={death=yes}
 }
 
 700031={
-name = "Ellen"
-female = yes
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 7
-intrigue = 11
-learning = 4
-add_trait = "creature_human"
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
+name="Ellen"
+female=yes
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=7
+intrigue=11
+learning=4
+add_trait="creature_human"
+add_trait="duelist"
+add_trait="underhanded_rogue"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="diligent"
@@ -672,35 +672,35 @@ mother=700030
 
 
 700032={
-name = "Magdalene"
-female = yes
-dynasty = 11037
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 7
-stewardship = 3
-intrigue = 7
-learning = 7
-add_trait = "creature_human"
+name="Magdalene"
+female=yes
+dynasty=11037
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=7
+stewardship=3
+intrigue=7
+learning=7
+add_trait="creature_human"
 1964.12.11={birth=yes}
-1999.1.29 = {add_spouse=700029}
+1999.1.29={add_spouse=700029}
 2051.6.15={death=yes}
 }
 
 700033={
-name = "Stefan"
-dynasty = 11049
-culture = talabeclander
-religion = taalite
-martial = 0
-diplomacy = 2
-stewardship = 10
-intrigue = 7
-learning = 5
-add_trait = "creature_human"
-add_trait = "mystic"
-add_trait = "indulgent_wastrel"
+name="Stefan"
+dynasty=11049
+culture=talabeclander
+religion=taalite
+martial=0
+diplomacy=2
+stewardship=10
+intrigue=7
+learning=5
+add_trait="creature_human"
+add_trait="mystic"
+add_trait="indulgent_wastrel"
 add_trait="fair"
 father=700029
 mother=700032
@@ -710,107 +710,107 @@ mother=700032
 }
 
 700034={
-name = "Swanahild"
-female = yes
-dynasty = 11131
-dna = "mjiemglkgak"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 5
-stewardship = 7
-intrigue = 5
-learning = 6
-mother = 700007
-add_trait = "creature_human"
-add_trait = "indulgent_wastrel"
-add_trait = "diligent"
-add_trait = "lustful"
+name="Swanahild"
+female=yes
+dynasty=11131
+dna="mjiemglkgak"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=5
+stewardship=7
+intrigue=5
+learning=6
+mother=700007
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+add_trait="diligent"
+add_trait="lustful"
 1999.2.18={birth=yes}
 2073.2.18={death=yes}
 }
 
 700035={
-name = "Willibrord"
-dynasty = 11131
-dna = "nldmndoobpa"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 8
-stewardship = 8
-intrigue = 4
-learning = 7
-add_trait = "creature_human"
-add_trait = "grey_eminence"
-add_trait = "envious"
+name="Willibrord"
+dynasty=11131
+dna="nldmndoobpa"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=8
+stewardship=8
+intrigue=4
+learning=7
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="envious"
 1941.8.3={birth=yes}
-1977.10.20 = {add_spouse=700036}
+1977.10.20={add_spouse=700036}
 2005.8.3={death=yes}
 }
 
 700036={
-name = "Sigourney"
-female = yes
-dynasty = 11100
-dna = "bcmnklbeedi"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 3
-learning = 2
-add_trait = "creature_human"
-add_trait = "brilliant_strategist"
-add_trait = "trusting"
-add_trait = "charitable"
-add_trait = "envious"
-add_trait = "wroth"
+name="Sigourney"
+female=yes
+dynasty=11100
+dna="bcmnklbeedi"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=3
+learning=2
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="trusting"
+add_trait="charitable"
+add_trait="envious"
+add_trait="wroth"
 1954.5.7={birth=yes}
-1977.10.20 = {add_spouse=700035}
+1977.10.20={add_spouse=700035}
 1991.5.7={death=yes}
 }
 
 700037={
-name = "Wolfgang"
-dynasty = 11131
-dna = "fledkadfbpp"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 4
-stewardship = 1
-intrigue = 3
-learning = 3
-father = 700035
-mother = 700036
-add_trait = "creature_human"
-add_trait = "flamboyant_schemer"
-add_trait = "kind"
-add_trait = "zealous"
-add_trait = "charitable"
+name="Wolfgang"
+dynasty=11131
+dna="fledkadfbpp"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=3
+father=700035
+mother=700036
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="kind"
+add_trait="zealous"
+add_trait="charitable"
 1984.7.29={birth=yes}
 2049.7.29={death=yes}
 }
 
 700038={
-name = "Sigourney"
-female = yes
-dynasty = 11131
-dna = "delgmepkddm"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 5
-stewardship = 5
-intrigue = 7
-learning = 5
-father = 700035
-mother = 700036
-add_trait = "creature_human"
-add_trait = "underhanded_rogue"
-add_trait = "ambitious"
+name="Sigourney"
+female=yes
+dynasty=11131
+dna="delgmepkddm"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=5
+stewardship=5
+intrigue=7
+learning=5
+father=700035
+mother=700036
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="ambitious"
 1986.4.14={birth=yes}
 2013.4.14={death=yes}
 }
@@ -818,756 +818,756 @@ add_trait = "ambitious"
 ### Talabecland-Claimant Emperors
 
 700039={
-name = "Ottilia"
-female = yes
-dynasty = 11000
-dna = "akncldpgihc"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "fortune_builder"
-add_trait = "gluttonous"
-add_trait = "patient"
+name="Ottilia"
+female=yes
+dynasty=11000
+dna="akncldpgihc"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=4
+add_trait="fortune_builder"
+add_trait="gluttonous"
+add_trait="patient"
 1333.7.21={birth=yes}
 1381.7.21={death=yes}
 }
 
 700040={
-name = "Frederik"
-dynasty = 11000
-dna = "igokcadchgc"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 0
-stewardship = 1
-intrigue = 6
-learning = 4
-add_trait = "skilled_tactician"
-add_trait = "kind"
+name="Frederik"
+dynasty=11000
+dna="igokcadchgc"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=0
+stewardship=1
+intrigue=6
+learning=4
+add_trait="skilled_tactician"
+add_trait="kind"
 1339.10.14={birth=yes}
 1391.10.14={death=yes}
 }
 
 700041={
-name = "Frederik"
-dynasty = 11000
-dna = "gldcondanbk"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 4
-stewardship = 4
-intrigue = 6
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "duelist"
-add_trait = "diligent"
-add_trait = "zealous"
+name="Frederik"
+dynasty=11000
+dna="gldcondanbk"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=4
+add_trait="tough_soldier"
+add_trait="duelist"
+add_trait="diligent"
+add_trait="zealous"
 1353.6.18={birth=yes}
 1398.6.18={death=yes}
 }
 
 700042={
-name = "Talgris"
-dynasty = 11000
-dna = "ioeohfbilon"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 5
-intrigue = 4
-learning = 1
-add_trait = "underhanded_rogue"
-add_trait = "cruel"
-add_trait = "drunkard"
+name="Talgris"
+dynasty=11000
+dna="ioeohfbilon"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=1
+add_trait="underhanded_rogue"
+add_trait="cruel"
+add_trait="drunkard"
 1376.4.20={birth=yes}
 1422.4.20={death=yes}
 }
 
 700043={
-name = "Frederik"
-dynasty = 11000
-dna = "bomodkgppfj"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 5
-intrigue = 4
-learning = 7
-add_trait = "intricate_webweaver"
-add_trait = "kind"
-add_trait = "slothful"
+name="Frederik"
+dynasty=11000
+dna="bomodkgppfj"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=7
+add_trait="intricate_webweaver"
+add_trait="kind"
+add_trait="slothful"
 1412.3.26={birth=yes}
 1424.3.26={death=yes}
 }
 
 700044={
-name = "Talgris"
-dynasty = 11000
-dna = "pabmhkcpehc"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 5
-stewardship = 4
-intrigue = 2
-learning = 3
-add_trait = "skilled_tactician"
-add_trait = "scholar"
-add_trait = "paranoid"
-add_trait = "deceitful"
-add_trait = "chaste"
-add_trait = "brave"
+name="Talgris"
+dynasty=11000
+dna="pabmhkcpehc"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=5
+stewardship=4
+intrigue=2
+learning=3
+add_trait="skilled_tactician"
+add_trait="scholar"
+add_trait="paranoid"
+add_trait="deceitful"
+add_trait="chaste"
+add_trait="brave"
 1401.11.5={birth=yes}
 1437.11.5={death=yes}
 }
 
 700045={
-name = "Talgris"
-dynasty = 11000
-dna = "cghnbhbgkec"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 6
-stewardship = 6
-intrigue = 5
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "cynical"
+name="Talgris"
+dynasty=11000
+dna="cghnbhbgkec"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=6
+stewardship=6
+intrigue=5
+learning=5
+add_trait="underhanded_rogue"
+add_trait="cynical"
 1395.6.7={birth=yes}
 1449.6.7={death=yes}
 }
 
 700046={
-name = "Frederik"
-dynasty = 11000
-dna = "kjdlnbajkbc"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 8
-add_trait = "charismatic_negotiator"
-add_trait = "greedy"
-add_trait = "zealous"
+name="Frederik"
+dynasty=11000
+dna="kjdlnbajkbc"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=8
+add_trait="charismatic_negotiator"
+add_trait="greedy"
+add_trait="zealous"
 1404.11.15={birth=yes}
 1455.11.15={death=yes}
 }
 
 700047={
-name = "Dietwin"
-dynasty = 11133
-dna = "hbeniikhcpj"
-culture = talabeclander
-religion = taalite
-martial = 7
-diplomacy = 3
-stewardship = 0
-intrigue = 5
-learning = 6
-add_trait = "underhanded_rogue"
-add_trait = "deceitful"
-add_trait = "cruel"
-add_trait = "lustful"
+name="Dietwin"
+dynasty=11133
+dna="hbeniikhcpj"
+culture=talabeclander
+religion=taalite
+martial=7
+diplomacy=3
+stewardship=0
+intrigue=5
+learning=6
+add_trait="underhanded_rogue"
+add_trait="deceitful"
+add_trait="cruel"
+add_trait="lustful"
 1434.5.8={birth=yes}
 1502.5.8={death=yes}
 }
 
 700048={
-name = "Talgris"
-dynasty = 11000
-dna = "bcmjoklgjbe"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 1
-learning = 5
-add_trait = "skilled_tactician"
-add_trait = "cruel"
-add_trait = "temperate"
+name="Talgris"
+dynasty=11000
+dna="bcmjoklgjbe"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=1
+learning=5
+add_trait="skilled_tactician"
+add_trait="cruel"
+add_trait="temperate"
 1466.11.5={birth=yes}
 1530.11.5={death=yes}
 }
 
 700049={
-name = "Frederik"
-dynasty = 11000
-dna = "kdkpigmmlnh"
-culture = talabeclander
-religion = taalite
-martial = 7
-diplomacy = 8
-stewardship = 1
-intrigue = 3
-learning = 1
-father = 700048
-add_trait = "underhanded_rogue"
-add_trait = "envious"
+name="Frederik"
+dynasty=11000
+dna="kdkpigmmlnh"
+culture=talabeclander
+religion=taalite
+martial=7
+diplomacy=8
+stewardship=1
+intrigue=3
+learning=1
+father=700048
+add_trait="underhanded_rogue"
+add_trait="envious"
 1512.4.26={birth=yes}
 1577.4.26={death=yes}
 }
 
 700050={
-name = "Ottilia"
-female = yes
-dynasty = 11000
-dna = "pnljploilbc"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 7
-stewardship = 7
-intrigue = 8
-learning = 3
-father = 700049
-add_trait = "skilled_tactician"
-add_trait = "cruel"
-add_trait = "patient"
+name="Ottilia"
+female=yes
+dynasty=11000
+dna="pnljploilbc"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=7
+stewardship=7
+intrigue=8
+learning=3
+father=700049
+add_trait="skilled_tactician"
+add_trait="cruel"
+add_trait="patient"
 1545.10.7={birth=yes}
 1589.10.7={death=yes}
 }
 
 700051={
-name = "Talgris"
-dynasty = 11000
-dna = "cfdhkinbbgk"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 5
-stewardship = 3
-intrigue = 8
-learning = 6
-add_trait = "fortune_builder"
+name="Talgris"
+dynasty=11000
+dna="cfdhkinbbgk"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=8
+learning=6
+add_trait="fortune_builder"
 1571.11.21={birth=yes}
 1623.11.21={death=yes}
 }
 
 700052={
-name = "Talgris"
-dynasty = 11000
-dna = "fgcmamoikch"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 4
-stewardship = 2
-intrigue = 6
-learning = 2
-add_trait = "intricate_webweaver"
-add_trait = "greedy"
-add_trait = "chaste"
+name="Talgris"
+dynasty=11000
+dna="fgcmamoikch"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=6
+learning=2
+add_trait="intricate_webweaver"
+add_trait="greedy"
+add_trait="chaste"
 1594.5.5={birth=yes}
 1631.5.5={death=yes}
 }
 
 700053={
-name = "Talgris"
-dynasty = 11000
-dna = "mjdeonhccdo"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 4
-stewardship = 3
-intrigue = 7
-learning = 2
-add_trait = "misguided_warrior"
+name="Talgris"
+dynasty=11000
+dna="mjdeonhccdo"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=4
+stewardship=3
+intrigue=7
+learning=2
+add_trait="misguided_warrior"
 1597.5.12={birth=yes}
 1637.5.12={death=yes}
 }
 
 700054={
-name = "Oskar"
-dynasty = 11000
-dna = "dhfolgnnlmp"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 6
-stewardship = 7
-intrigue = 4
-learning = 4
-add_trait = "intricate_webweaver"
-add_trait = "cruel"
-add_trait = "just"
+name="Oskar"
+dynasty=11000
+dna="dhfolgnnlmp"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=6
+stewardship=7
+intrigue=4
+learning=4
+add_trait="intricate_webweaver"
+add_trait="cruel"
+add_trait="just"
 1589.2.13={birth=yes}
 1652.2.13={death=yes}
 }
 
 700055={
-name = "Oskar"
-dynasty = 11000
-dna = "ellhajmaljn"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 3
-intrigue = 3
-learning = 6
-add_trait = "skilled_tactician"
-add_trait = "ambitious"
-add_trait = "humble"
-add_trait = "honest"
+name="Oskar"
+dynasty=11000
+dna="ellhajmaljn"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=3
+intrigue=3
+learning=6
+add_trait="skilled_tactician"
+add_trait="ambitious"
+add_trait="humble"
+add_trait="honest"
 1602.3.29={birth=yes}
 1653.3.29={death=yes}
 }
 
 700056={
-name = "Eckhardt"
-dynasty = 11000
-dna = "dljlafhdkbb"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 7
-stewardship = 4
-intrigue = 4
-learning = 0
-father = 700055
-add_trait = "thrifty_clerk"
-add_trait = "just"
-add_trait = "chaste"
-add_trait = "cynical"
+name="Eckhardt"
+dynasty=11000
+dna="dljlafhdkbb"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=0
+father=700055
+add_trait="thrifty_clerk"
+add_trait="just"
+add_trait="chaste"
+add_trait="cynical"
 1645.4.2={birth=yes}
 1655.4.2={death=yes}
 }
 
 700057={
-name = "Talgris"
-dynasty = 11000
-dna = "dlafaagmofo"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 8
-stewardship = 0
-intrigue = 7
-learning = 5
-father = 700055
-add_trait = "misguided_warrior"
+name="Talgris"
+dynasty=11000
+dna="dlafaagmofo"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=8
+stewardship=0
+intrigue=7
+learning=5
+father=700055
+add_trait="misguided_warrior"
 1647.3.24={birth=yes}
 1678.3.24={death=yes}
 }
 
 700058={
-name = "Talgris"
-dynasty = 11000
-dna = "phjmjppbmna"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 4
-stewardship = 6
-intrigue = 6
-learning = 4
-father = 700055
-add_trait = "flamboyant_schemer"
-add_trait = "content"
-add_trait = "proud"
-add_trait = "cruel"
-add_trait = "just"
+name="Talgris"
+dynasty=11000
+dna="phjmjppbmna"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=4
+stewardship=6
+intrigue=6
+learning=4
+father=700055
+add_trait="flamboyant_schemer"
+add_trait="content"
+add_trait="proud"
+add_trait="cruel"
+add_trait="just"
 1653.5.31={birth=yes}
 1683.5.31={death=yes}
 }
 
 700059={
-name = "Talgris"
-dynasty = 11000
-dna = "nkocgflmbdg"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 6
-stewardship = 4
-intrigue = 5
-learning = 1
-father = 700058
-add_trait = "flamboyant_schemer"
+name="Talgris"
+dynasty=11000
+dna="nkocgflmbdg"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=6
+stewardship=4
+intrigue=5
+learning=1
+father=700058
+add_trait="flamboyant_schemer"
 1671.4.19={birth=yes}
 1737.4.19={death=yes}
 }
 
 700060={
-name = "Horst"
-dynasty = 11132
-dna = "oldebgahdci"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 2
-stewardship = 5
-intrigue = 6
-learning = 3
-add_trait = "elusive_shadow"
-add_trait = "stressed"
+name="Horst"
+dynasty=11132
+dna="oldebgahdci"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=2
+stewardship=5
+intrigue=6
+learning=3
+add_trait="elusive_shadow"
+add_trait="stressed"
 1685.12.3={birth=yes}
 1750.12.3={death=yes}
 }
 
 700061={
-name = "Helmut"
-dynasty = 11132
-dna = "ipiaoilkgpp"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 3
-stewardship = 4
-intrigue = 3
-learning = 1
-father = 700060
-add_trait = "tough_soldier"
-add_trait = "content"
-add_trait = "brave"
-add_trait = "cruel"
+name="Helmut"
+dynasty=11132
+dna="ipiaoilkgpp"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=3
+stewardship=4
+intrigue=3
+learning=1
+father=700060
+add_trait="tough_soldier"
+add_trait="content"
+add_trait="brave"
+add_trait="cruel"
 1724.6.14={birth=yes}
 1784.6.14={death=yes}
 }
 
 700062={
-name = "Albrecht"
-dynasty = 11132
-dna = "bhagihkhgbo"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 2
-stewardship = 3
-intrigue = 6
-learning = 5
-father = 700061
-add_trait = "flamboyant_schemer"
-add_trait = "craven"
+name="Albrecht"
+dynasty=11132
+dna="bhagihkhgbo"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=5
+father=700061
+add_trait="flamboyant_schemer"
+add_trait="craven"
 1780.2.7={birth=yes}
 1840.2.7={death=yes}
 }
 
 700063={
-name = "Talgris"
-dynasty = 11000
-dna = "ajgabodhnpn"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 1
-stewardship = 5
-intrigue = 2
-learning = 2
-add_trait = "detached_priest"
-add_trait = "envious"
-add_trait = "gregarious"
-add_trait = "cynical"
+name="Talgris"
+dynasty=11000
+dna="ajgabodhnpn"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=1
+stewardship=5
+intrigue=2
+learning=2
+add_trait="detached_priest"
+add_trait="envious"
+add_trait="gregarious"
+add_trait="cynical"
 1819.10.20={birth=yes}
 1887.10.20={death=yes}
 }
 
 700064={
-name = "Gregory"
-dynasty = 11135
-dna = "jadnplkpegl"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 5
-stewardship = 4
-intrigue = 2
-learning = 2
-add_trait = "tough_soldier"
+name="Gregory"
+dynasty=11135
+dna="jadnplkpegl"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=5
+stewardship=4
+intrigue=2
+learning=2
+add_trait="tough_soldier"
 1855.7.29={birth=yes}
 1939.7.29={death=yes}
 }
 
 700065={
-name = "Gotzelo"
-dynasty = 11132
-dna = "mcahnbcpfhn"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 7
-stewardship = 6
-intrigue = 4
-learning = 7
-add_trait = "thrifty_clerk"
-add_trait = "slothful"
-add_trait = "cruel"
-add_trait = "honest"
+name="Gotzelo"
+dynasty=11132
+dna="mcahnbcpfhn"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=7
+stewardship=6
+intrigue=4
+learning=7
+add_trait="thrifty_clerk"
+add_trait="slothful"
+add_trait="cruel"
+add_trait="honest"
 1901.10.18={birth=yes}
 1972.10.18={death=yes}
 }
 
 700066={
-name = "Oskar"
-dynasty = 11000
-dna = "bkjeaolamog"
-culture = talabeclander
-religion = taalite
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 4
-learning = 4
-add_trait = "grey_eminence"
+name="Oskar"
+dynasty=11000
+dna="bkjeaolamog"
+culture=talabeclander
+religion=taalite
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=4
+learning=4
+add_trait="grey_eminence"
 1932.5.11={birth=yes}
 1998.5.11={death=yes}
 }
 
 700067={
-name = "Talbert"
-dynasty = 11000
-dna = "gplmbhmenni"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 7
-stewardship = 7
-intrigue = 1
-learning = 6
-father = 700066
-add_trait = "fortune_builder"
-add_trait = "proud"
-add_trait = "envious"
-add_trait = "ambitious"
+name="Talbert"
+dynasty=11000
+dna="gplmbhmenni"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=7
+stewardship=7
+intrigue=1
+learning=6
+father=700066
+add_trait="fortune_builder"
+add_trait="proud"
+add_trait="envious"
+add_trait="ambitious"
 1965.5.26={birth=yes}
 2007.5.26={death=yes}
 }
 
 700068={
-name = "Ermtraud"
-female = yes
-dynasty = 11132
-dna = "eejjjfkjigb"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 4
-stewardship = 8
-intrigue = 1
-learning = 1
-father = 700082
-mother = 700000
-add_trait = "naive_appeaser"
-add_trait = "just"
-add_trait = "brave"
-add_trait = "temperate"
-add_trait = "charitable"
+name="Ermtraud"
+female=yes
+dynasty=11132
+dna="eejjjfkjigb"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=4
+stewardship=8
+intrigue=1
+learning=1
+father=700082
+mother=700000
+add_trait="naive_appeaser"
+add_trait="just"
+add_trait="brave"
+add_trait="temperate"
+add_trait="charitable"
 1999.7.2={birth=yes}
 2066.7.2={death=yes}
 }
 
 700069={
-name = "Lothar"
-dynasty = 11132
-dna = "nilgbboihgl"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 3
-intrigue = 0
-learning = 1
-add_trait = "charismatic_negotiator"
-add_trait = "craven"
-add_trait = "proud"
-add_trait = "honest"
+name="Lothar"
+dynasty=11132
+dna="nilgbboihgl"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=3
+intrigue=0
+learning=1
+add_trait="charismatic_negotiator"
+add_trait="craven"
+add_trait="proud"
+add_trait="honest"
 2034.12.16={birth=yes}
 2076.12.16={death=yes}
 }
 
 700070={
-name = "Ottilia"
-female = yes
-dynasty = 11000
-dna = "fbamdaahpcc"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 4
-stewardship = 4
-intrigue = 5
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "celibate"
-add_trait = "humble"
+name="Ottilia"
+female=yes
+dynasty=11000
+dna="fbamdaahpcc"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=5
+learning=5
+add_trait="underhanded_rogue"
+add_trait="celibate"
+add_trait="humble"
 2050.6.28={birth=yes}
 2100.6.28={death=yes}
 }
 
 700071={
-name = "Talgris"
-dynasty = 11000
-dna = "bbeijocfcpp"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 3
-stewardship = 3
-intrigue = 3
-learning = 7
-add_trait = "intricate_webweaver"
-add_trait = "envious"
+name="Talgris"
+dynasty=11000
+dna="bbeijocfcpp"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=3
+stewardship=3
+intrigue=3
+learning=7
+add_trait="intricate_webweaver"
+add_trait="envious"
 2076.8.30={birth=yes}
 2101.8.30={death=yes}
 }
 
 700072={
-name = "Eckhardt"
-dynasty = 11000
-dna = "npegnfbhfce"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 7
-stewardship = 2
-intrigue = 3
-learning = 4
-add_trait = "charismatic_negotiator"
-add_trait = "cruel"
-add_trait = "gluttonous"
-add_trait = "content"
-add_trait = "wroth"
+name="Eckhardt"
+dynasty=11000
+dna="npegnfbhfce"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=7
+stewardship=2
+intrigue=3
+learning=4
+add_trait="charismatic_negotiator"
+add_trait="cruel"
+add_trait="gluttonous"
+add_trait="content"
+add_trait="wroth"
 2087.4.30={birth=yes}
 2122.4.30={death=yes}
 }
 
 700073={
-name = "Albrecht"
-dynasty = 11132
-dna = "ihpfcaohfom"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 7
-add_trait = "intricate_webweaver"
-add_trait = "charitable"
-add_trait = "wounded"
+name="Albrecht"
+dynasty=11132
+dna="ihpfcaohfom"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=7
+add_trait="intricate_webweaver"
+add_trait="charitable"
+add_trait="wounded"
 2096.6.9={birth=yes}
 2164.6.9={death=yes}
 }
 
 700074={
-name = "Ottilia"
-female = yes
-dynasty = 11000
-dna = "gbfcoalkkff"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 2
-stewardship = 7
-intrigue = 0
-learning = 8
-add_trait = "thrifty_clerk"
-add_trait = "wroth"
+name="Ottilia"
+female=yes
+dynasty=11000
+dna="gbfcoalkkff"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=2
+stewardship=7
+intrigue=0
+learning=8
+add_trait="thrifty_clerk"
+add_trait="wroth"
 2125.1.4={birth=yes}
 2171.1.4={death=yes}
 }
 
 700075={
-name = "Albrecht"
-dynasty = 11000
-dna = "eapcpkhfnmo"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 5
-stewardship = 7
-intrigue = 5
-learning = 7
-add_trait = "fortune_builder"
+name="Albrecht"
+dynasty=11000
+dna="eapcpkhfnmo"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=5
+stewardship=7
+intrigue=5
+learning=7
+add_trait="fortune_builder"
 2151.4.2={birth=yes}
 2208.4.2={death=yes}
 }
 
 700076={
-name = "Ottilia"
-female = yes
-dynasty = 11000
-dna = "egdagcnpgda"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 5
-stewardship = 6
-intrigue = 2
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "patient"
-add_trait = "temperate"
-add_trait = "kind"
+name="Ottilia"
+female=yes
+dynasty=11000
+dna="egdagcnpgda"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=5
+stewardship=6
+intrigue=2
+learning=5
+add_trait="underhanded_rogue"
+add_trait="patient"
+add_trait="temperate"
+add_trait="kind"
 2198.3.27={birth=yes}
 2267.3.27={death=yes}
 }
 
 700077={
-name = "Talgris"
-dynasty = 11000
-dna = "fbikdgakcob"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 6
-stewardship = 4
-intrigue = 4
-learning = 8
-add_trait = "flamboyant_schemer"
-add_trait = "trusting"
-add_trait = "envious"
-add_trait = "gregarious"
+name="Talgris"
+dynasty=11000
+dna="fbikdgakcob"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=8
+add_trait="flamboyant_schemer"
+add_trait="trusting"
+add_trait="envious"
+add_trait="gregarious"
 2229.3.17={birth=yes}
 2287.3.17={death=yes}
 }
 
 700078={
-name = "Boris"
-dynasty = 11134
-dna = "kekficohaod"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 4
-stewardship = 4
-intrigue = 1
-learning = 2
-add_trait = "tough_soldier"
-add_trait = "proud"
-add_trait = "greedy"
+name="Boris"
+dynasty=11134
+dna="kekficohaod"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=1
+learning=2
+add_trait="tough_soldier"
+add_trait="proud"
+add_trait="greedy"
 2260.10.21={birth=yes}
 2291.10.21={death=yes}
 }
 
 700079={
-name = "Hartmann"
-dynasty = 11134
-dna = "anenkikpdpa"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 5
-stewardship = 8
-intrigue = 3
-learning = 4
-add_trait = "elusive_shadow"
-add_trait = "content"
-add_trait = "patient"
-add_trait = "gregarious"
+name="Hartmann"
+dynasty=11134
+dna="anenkikpdpa"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=5
+stewardship=8
+intrigue=3
+learning=4
+add_trait="elusive_shadow"
+add_trait="content"
+add_trait="patient"
+add_trait="gregarious"
 2269.8.11={birth=yes}
 2325.8.11={death=yes}
 }
@@ -1575,1011 +1575,1011 @@ add_trait = "gregarious"
 ##### End Talabecland Claimants
 
 700080={
-name = "Talgris"
-dynasty = 11000
-dna = "ckfnhhffhgf"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 5
-learning = 7
-father = 700066
-add_trait = "skilled_tactician"
-add_trait = "hedonist"
-add_trait = "ambitious"
-add_trait = "cruel"
+name="Talgris"
+dynasty=11000
+dna="ckfnhhffhgf"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=5
+learning=7
+father=700066
+add_trait="skilled_tactician"
+add_trait="hedonist"
+add_trait="ambitious"
+add_trait="cruel"
 1970.2.23={birth=yes}
 1989.2.23={death=yes}
 }
 
 700081={
-name = "Talgris"
-dynasty = 11000
-dna = "jhnabeeigaf"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 2
-stewardship = 2
-intrigue = 7
-learning = 3
-father = 700066
-add_trait = "skilled_tactician"
-add_trait = "temperate"
-add_trait = "envious"
+name="Talgris"
+dynasty=11000
+dna="jhnabeeigaf"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=2
+stewardship=2
+intrigue=7
+learning=3
+father=700066
+add_trait="skilled_tactician"
+add_trait="temperate"
+add_trait="envious"
 1989.4.26={birth=yes}
 2040.4.26={death=yes}
 }
 
 700082={
-name = "Meinhart"
-dynasty = 11132
-dna = "ananagaofbj"
-culture = talabeclander
-religion = taalite
-martial = 7
-diplomacy = 0
-stewardship = 4
-intrigue = 5
-learning = 2
-add_trait = "underhanded_rogue"
-add_trait = "cruel"
-add_trait = "paranoid"
+name="Meinhart"
+dynasty=11132
+dna="ananagaofbj"
+culture=talabeclander
+religion=taalite
+martial=7
+diplomacy=0
+stewardship=4
+intrigue=5
+learning=2
+add_trait="underhanded_rogue"
+add_trait="cruel"
+add_trait="paranoid"
 1977.9.11={birth=yes}
-1995.2.19 = {add_spouse=700000}
+1995.2.19={add_spouse=700000}
 2027.9.11={death=yes}
 }
 
 700083={
-name = "Lambert"
-dynasty = 11000
-dna = "pnaplmedooo"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 0
-stewardship = 1
-intrigue = 2
-learning = 1
-father = 700066
-add_trait = "intricate_webweaver"
-add_trait = "envious"
-add_trait = "paranoid"
+name="Lambert"
+dynasty=11000
+dna="pnaplmedooo"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=0
+stewardship=1
+intrigue=2
+learning=1
+father=700066
+add_trait="intricate_webweaver"
+add_trait="envious"
+add_trait="paranoid"
 1977.1.25={birth=yes}
 1981.1.25={death=yes}
 }
 
 
 700084={
-name = "Helmut" #Graf Helmut Feuerbach of Talabecland
-dynasty = 11006
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 3
-stewardship = 3
-intrigue = 4
-learning = 2
-add_trait = "tough_soldier"
-add_trait = "brave"
-add_trait = "paranoid"
-add_trait = "proud"
+name="Helmut" #Graf Helmut Feuerbach of Talabecland
+dynasty=11006
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=2
+add_trait="tough_soldier"
+add_trait="brave"
+add_trait="paranoid"
+add_trait="proud"
 2475.7.1={birth=yes}
 2522.5.5={death=yes}
 }
 
 700085={
-name = "Rudolf"
-dynasty = 11136
-dna = "mgoahkndlpm"
-culture = reiklander
-religion = sigmarite
-martial = 4
-diplomacy = 2
-stewardship = 7
-intrigue = 5
-learning = 4
-add_trait = "midas_touched"
-add_trait = "paranoid"
-add_trait = "wroth"
-add_trait = "humble"
+name="Rudolf"
+dynasty=11136
+dna="mgoahkndlpm"
+culture=reiklander
+religion=sigmarite
+martial=4
+diplomacy=2
+stewardship=7
+intrigue=5
+learning=4
+add_trait="midas_touched"
+add_trait="paranoid"
+add_trait="wroth"
+add_trait="humble"
 2480.1.1={birth=yes}
 2532.2.25={death=yes}
 }
 
 700086={
-name = "Emil"
-dynasty = 11139
-dna = "kmbniplieag"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 8
-stewardship = 7
-intrigue = 6
-learning = 6
-add_trait = "underhanded_rogue"
-add_trait = "brave"
-add_trait = "paranoid"
+name="Emil"
+dynasty=11139
+dna="kmbniplieag"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=8
+stewardship=7
+intrigue=6
+learning=6
+add_trait="underhanded_rogue"
+add_trait="brave"
+add_trait="paranoid"
 1972.1.1={birth=yes}
 2044.8.6={death=yes}
 }
 
 700087={
-name = "Katrinelya"
-female = yes
-dynasty = 11137
-dna = "abieiiooogl"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 1
-stewardship = 0
-intrigue = 6
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "trusting"
+name="Katrinelya"
+female=yes
+dynasty=11137
+dna="abieiiooogl"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=1
+stewardship=0
+intrigue=6
+learning=5
+add_trait="tough_soldier"
+add_trait="trusting"
 2473.1.1={birth=yes}
-2499.3.15 = {add_spouse=700088}
+2499.3.15={add_spouse=700088}
 2535.2.6={death=yes}
 }
 
 700088={
-name = "Niav"
-dynasty = 11138
-dna = "bmhpnaffmho"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 3
-stewardship = 0
-intrigue = 1
-learning = 3
-add_trait = "fortune_builder"
-add_trait = "temperate"
-add_trait = "shy"
+name="Niav"
+dynasty=11138
+dna="bmhpnaffmho"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=3
+stewardship=0
+intrigue=1
+learning=3
+add_trait="fortune_builder"
+add_trait="temperate"
+add_trait="shy"
 2470.1.1={birth=yes}
-2499.3.15 = {add_spouse=700087}
+2499.3.15={add_spouse=700087}
 2536.11.25={death=yes}
 }
 
 700089={
-name = "Nathalie"
-female = yes
-dynasty = 11126
-dna = "eggpkjohhbn"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 0
-stewardship = 4
-intrigue = 5
-learning = 7
-add_trait = "flamboyant_schemer"
-add_trait = "shy"
-add_trait = "patient"
-add_trait = "lustful"
+name="Nathalie"
+female=yes
+dynasty=11126
+dna="eggpkjohhbn"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=0
+stewardship=4
+intrigue=5
+learning=7
+add_trait="flamboyant_schemer"
+add_trait="shy"
+add_trait="patient"
+add_trait="lustful"
 1972.1.1={birth=yes}
 2032.5.13={death=yes}
 }
 
 700090={
-name = "Grettel"
-female = yes
-dynasty = 11125
-dna = "nmppiahcaim"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 4
-stewardship = 0
-intrigue = 2
-learning = 4
-add_trait = "elusive_shadow"
-add_trait = "shy"
+name="Grettel"
+female=yes
+dynasty=11125
+dna="nmppiahcaim"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=4
+stewardship=0
+intrigue=2
+learning=4
+add_trait="elusive_shadow"
+add_trait="shy"
 1992.1.1={birth=yes}
 2063.7.15={death=yes}
 }
 
 700091={
-name = "Jutte"
-female = yes
-dynasty = 11009
-dna = "gjbfjloagnb"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 2
-stewardship = 4
-intrigue = 2
-learning = 6
-add_trait = "underhanded_rogue"
-add_trait = "cynical"
-add_trait = "depressed"
+name="Jutte"
+female=yes
+dynasty=11009
+dna="gjbfjloagnb"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=2
+stewardship=4
+intrigue=2
+learning=6
+add_trait="underhanded_rogue"
+add_trait="cynical"
+add_trait="depressed"
 2455.5.1={birth=yes}
 2504.10.1={death=yes}
 }
 
 700092={
-name = "Josef"
-dynasty = 11009
-dna = "pdafhiakion"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 7
-intrigue = 4
-learning = 5
-mother = 700091
-add_trait = "fortune_builder"
+name="Josef"
+dynasty=11009
+dna="pdafhiakion"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=7
+intrigue=4
+learning=5
+mother=700091
+add_trait="fortune_builder"
 2480.1.1={birth=yes}
 2550.6.6={death=yes}
 }
 
 700093={
-name = "Luitprand"
-dynasty = 11009
-dna = "podlgmkhkck"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 4
-stewardship = 6
-intrigue = 1
-learning = 5
-add_trait = "flamboyant_schemer"
-add_trait = "hedonist"
-add_trait = "diligent"
-add_trait = "zealous"
-add_trait = "just"
-add_trait = "ill"
-mother = 700091
+name="Luitprand"
+dynasty=11009
+dna="podlgmkhkck"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=1
+learning=5
+add_trait="flamboyant_schemer"
+add_trait="hedonist"
+add_trait="diligent"
+add_trait="zealous"
+add_trait="just"
+add_trait="ill"
+mother=700091
 2484.3.1={birth=yes}
 2542.5.13={death=yes}
 }
 
 700094={
-name = "Rolf"
-dynasty = 11009
-dna = "jfhfhjehejc"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 6
-stewardship = 5
-intrigue = 8
-learning = 4
-mother = 700091
-add_trait = "tough_soldier"
+name="Rolf"
+dynasty=11009
+dna="jfhfhjehejc"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=6
+stewardship=5
+intrigue=8
+learning=4
+mother=700091
+add_trait="tough_soldier"
 2490.11.1={birth=yes}
 2540.1.30={death=yes}
 }
 
 700095={
-name = "Zecharias"
-dynasty = 11010
-dna = "cpjniiagmlc"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 5
-stewardship = 3
-intrigue = 7
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "envious"
+name="Zecharias"
+dynasty=11010
+dna="cpjniiagmlc"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=5
+stewardship=3
+intrigue=7
+learning=5
+add_trait="underhanded_rogue"
+add_trait="envious"
 2401.11.1={birth=yes}
 2467.1.6={death=yes}
 }
 
 700096={
-name = "Georg"
-dynasty = 11010
-dna = "kbcnipholme"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 6
-stewardship = 3
-intrigue = 8
-learning = 1
-father = 700095
-add_trait = "misguided_warrior"
-add_trait = "ambitious"
-add_trait = "gregarious"
-add_trait = "trusting"
+name="Georg"
+dynasty=11010
+dna="kbcnipholme"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=6
+stewardship=3
+intrigue=8
+learning=1
+father=700095
+add_trait="misguided_warrior"
+add_trait="ambitious"
+add_trait="gregarious"
+add_trait="trusting"
 2431.11.1={birth=yes}
 2460.3.23={death=yes}
 }
 
 700097={
-name = "Felizitas"
-female = yes
-dynasty = 11010
-dna = "mhkiojfnfna"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 6
-intrigue = 4
-learning = 4
-father = 700096
-add_trait = "skilled_tactician"
-add_trait = "duelist"
-add_trait = "shy"
-add_trait = "charitable"
-add_trait = "wroth"
-add_trait = "envious"
+name="Felizitas"
+female=yes
+dynasty=11010
+dna="mhkiojfnfna"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=4
+father=700096
+add_trait="skilled_tactician"
+add_trait="duelist"
+add_trait="shy"
+add_trait="charitable"
+add_trait="wroth"
+add_trait="envious"
 2451.5.1={birth=yes}
 2493.4.11={death=yes}
 }
 
 700098={
-name = "Charlotte"
-female = yes
-dynasty = 11010
-dna = "ojfflioppbk"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 4
-stewardship = 1
-intrigue = 3
-learning = 5
-mother = 700097
-add_trait = "elusive_shadow"
-add_trait = "zealous"
-add_trait = "arbitrary"
-add_trait = "depressed"
+name="Charlotte"
+female=yes
+dynasty=11010
+dna="ojfflioppbk"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=5
+mother=700097
+add_trait="elusive_shadow"
+add_trait="zealous"
+add_trait="arbitrary"
+add_trait="depressed"
 2472.11.1={birth=yes}
 2511.7.26={death=yes}
 }
 
 700099={
-name = "Lambert"
-dynasty = 11010
-dna = "ogjjkeeambg"
-culture = talabeclander
-religion = taalite
-martial = 7
-diplomacy = 1
-stewardship = 5
-intrigue = 3
-learning = 7
-mother = 700097
-add_trait = "thrifty_clerk"
-add_trait = "gardener"
-add_trait = "humble"
-add_trait = "leper"
+name="Lambert"
+dynasty=11010
+dna="ogjjkeeambg"
+culture=talabeclander
+religion=taalite
+martial=7
+diplomacy=1
+stewardship=5
+intrigue=3
+learning=7
+mother=700097
+add_trait="thrifty_clerk"
+add_trait="gardener"
+add_trait="humble"
+add_trait="leper"
 2475.1.1={birth=yes}
 2514.6.28={death=yes}
 }
 
 700100={
-name = "Theodor"
-dynasty = 11010
-dna = "ahghjlilgpg"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 1
-stewardship = 3
-intrigue = 3
-learning = 5
-father = 700099
-add_trait = "thrifty_clerk"
-add_trait = "kind"
+name="Theodor"
+dynasty=11010
+dna="ahghjlilgpg"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=1
+stewardship=3
+intrigue=3
+learning=5
+father=700099
+add_trait="thrifty_clerk"
+add_trait="kind"
 2500.5.1={birth=yes}
 2550.1.9={death=yes}
 }
 
 700101={
-name = "Frances"
-female = yes
-dynasty = 11010
-dna = "egdpbkkkefe"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 1
-stewardship = 4
-intrigue = 6
-learning = 4
-father = 700100
-add_trait = "detached_priest"
-add_trait = "gregarious"
+name="Frances"
+female=yes
+dynasty=11010
+dna="egdpbkkkefe"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=4
+father=700100
+add_trait="detached_priest"
+add_trait="gregarious"
 2519.1.1={birth=yes}
 2589.6.10={death=yes}
 }
 
 700102={
-name = "Gretchen"
-female = yes
-dynasty = 11010
-dna = "hoadkahgpan"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 7
-intrigue = 4
-learning = 7
-father = 700100
-add_trait = "charismatic_negotiator"
-add_trait = "mystic"
+name="Gretchen"
+female=yes
+dynasty=11010
+dna="hoadkahgpan"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=7
+intrigue=4
+learning=7
+father=700100
+add_trait="charismatic_negotiator"
+add_trait="mystic"
 2520.1.1={birth=yes}
 2546.5.18={death=yes}
 }
 
 700103={
-name = "Annemarie"
-female = yes
-dynasty = 11010
-dna = "lapjcbbhjoe"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 1
-stewardship = 8
-intrigue = 3
-learning = 5
-father = 700100
-add_trait = "tough_soldier"
-add_trait = "diligent"
-add_trait = "honest"
-add_trait = "chaste"
+name="Annemarie"
+female=yes
+dynasty=11010
+dna="lapjcbbhjoe"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=1
+stewardship=8
+intrigue=3
+learning=5
+father=700100
+add_trait="tough_soldier"
+add_trait="diligent"
+add_trait="honest"
+add_trait="chaste"
 2529.11.1={birth=yes}
 2574.10.5={death=yes}
 }
 
 700104={
-name = "Heilwig"
-female = yes
-dynasty = 11014
-dna = "eiglaonmkdk"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 6
-stewardship = 1
-intrigue = 4
-learning = 3
-add_trait = "elusive_shadow"
-add_trait = "honest"
+name="Heilwig"
+female=yes
+dynasty=11014
+dna="eiglaonmkdk"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=6
+stewardship=1
+intrigue=4
+learning=3
+add_trait="elusive_shadow"
+add_trait="honest"
 2434.3.1={birth=yes}
 2490.2.12={death=yes}
 }
 
 700105={
-name = "Manfred"
-dynasty = 11014
-dna = "mdcmnmafbhh"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 3
-mother = 700104
-add_trait = "underhanded_rogue"
+name="Manfred"
+dynasty=11014
+dna="mdcmnmafbhh"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=3
+mother=700104
+add_trait="underhanded_rogue"
 2465.3.1={birth=yes}
 2526.6.5={death=yes}
 }
 
 700106={
-name = "Sigrid"
-female = yes
-dynasty = 11014
-dna = "kllfjkgdfjp"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 3
-stewardship = 3
-intrigue = 6
-learning = 3
-mother = 700104
-add_trait = "skilled_tactician"
-add_trait = "trusting"
-add_trait = "temperate"
-add_trait = "greedy"
+name="Sigrid"
+female=yes
+dynasty=11014
+dna="kllfjkgdfjp"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=3
+stewardship=3
+intrigue=6
+learning=3
+mother=700104
+add_trait="skilled_tactician"
+add_trait="trusting"
+add_trait="temperate"
+add_trait="greedy"
 2477.1.1={birth=yes}
 2531.11.4={death=yes}
 }
 
 700107={
-name = "Natali"
-female = yes
-dynasty = 11014
-dna = "cgoegdhlfcp"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 2
-stewardship = 4
-intrigue = 6
-learning = 0
-mother = 700106
-add_trait = "tough_soldier"
+name="Natali"
+female=yes
+dynasty=11014
+dna="cgoegdhlfcp"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=2
+stewardship=4
+intrigue=6
+learning=0
+mother=700106
+add_trait="tough_soldier"
 2500.5.1={birth=yes}
 2541.11.7={death=yes}
 }
 
 700108={
-name = "Volrad"
-dynasty = 11014
-dna = "koiccaddjei"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 3
-intrigue = 5
-learning = 5
-father = 700105
-add_trait = "charismatic_negotiator"
-add_trait = "honest"
-add_trait = "content"
-add_trait = "brave"
+name="Volrad"
+dynasty=11014
+dna="koiccaddjei"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=5
+father=700105
+add_trait="charismatic_negotiator"
+add_trait="honest"
+add_trait="content"
+add_trait="brave"
 2518.3.1={birth=yes}
 2588.9.26={death=yes}
 }
 
 700109={
-name = "Olfin"
-dynasty = 11014
-dna = "donfaabodlp"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 6
-stewardship = 3
-intrigue = 5
-learning = 4
-mother = 700106
-add_trait = "tough_soldier"
-add_trait = "duelist"
-add_trait = "honest"
-add_trait = "gluttonous"
-add_trait = "greedy"
+name="Olfin"
+dynasty=11014
+dna="donfaabodlp"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=6
+stewardship=3
+intrigue=5
+learning=4
+mother=700106
+add_trait="tough_soldier"
+add_trait="duelist"
+add_trait="honest"
+add_trait="gluttonous"
+add_trait="greedy"
 2520.9.1={birth=yes}
 2583.12.25={death=yes}
 }
 
 700110={
-name = "Becka"
-female = yes
-dynasty = 11014
-dna = "mjklddioikg"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 5
-stewardship = 8
-intrigue = 8
-learning = 2
-father = 700108
-add_trait = "misguided_warrior"
-add_trait = "hedonist"
-add_trait = "wroth"
-add_trait = "paranoid"
-add_trait = "ambitious"
+name="Becka"
+female=yes
+dynasty=11014
+dna="mjklddioikg"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=5
+stewardship=8
+intrigue=8
+learning=2
+father=700108
+add_trait="misguided_warrior"
+add_trait="hedonist"
+add_trait="wroth"
+add_trait="paranoid"
+add_trait="ambitious"
 2549.9.1={birth=yes}
 2617.2.10={death=yes}
 }
 
 700111={
-name = "Jozef"
-dynasty = 11014
-dna = "nnaieffcgld"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 5
-intrigue = 5
-learning = 4
-father = 700109
-add_trait = "thrifty_clerk"
-add_trait = "wroth"
-add_trait = "deceitful"
-add_trait = "charitable"
-add_trait = "cynical"
+name="Jozef"
+dynasty=11014
+dna="nnaieffcgld"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=5
+intrigue=5
+learning=4
+father=700109
+add_trait="thrifty_clerk"
+add_trait="wroth"
+add_trait="deceitful"
+add_trait="charitable"
+add_trait="cynical"
 2560.9.1={birth=yes}
 2627.7.22={death=yes}
 }
 
 700112={
-name = "Tobias"
-dynasty = 11018
-dna = "kkpknpoalkb"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 5
-stewardship = 0
-intrigue = 3
-learning = 5
-add_trait = "naive_appeaser"
-add_trait = "envious"
-add_trait = "cynical"
+name="Tobias"
+dynasty=11018
+dna="kkpknpoalkb"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=5
+stewardship=0
+intrigue=3
+learning=5
+add_trait="naive_appeaser"
+add_trait="envious"
+add_trait="cynical"
 2444.5.1={birth=yes}
 2497.12.18={death=yes}
 }
 
 700113={
-name = "Beatrix"
-female = yes
-dynasty = 11018
-dna = "jkgepllhblo"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 2
-stewardship = 5
-intrigue = 3
-learning = 4
-father = 700112
-add_trait = "grey_eminence"
-add_trait = "temperate"
-add_trait = "cruel"
-add_trait = "brave"
+name="Beatrix"
+female=yes
+dynasty=11018
+dna="jkgepllhblo"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=4
+father=700112
+add_trait="grey_eminence"
+add_trait="temperate"
+add_trait="cruel"
+add_trait="brave"
 2466.9.1={birth=yes}
 2494.6.18={death=yes}
 }
 
 700114={
-name = "Ulrich"
-dynasty = 11018
-dna = "fadenepljad"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 6
-stewardship = 6
-intrigue = 7
-learning = 4
-father = 700112
-add_trait = "grey_eminence"
-add_trait = "temperate"
-add_trait = "trusting"
+name="Ulrich"
+dynasty=11018
+dna="fadenepljad"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=6
+stewardship=6
+intrigue=7
+learning=4
+father=700112
+add_trait="grey_eminence"
+add_trait="temperate"
+add_trait="trusting"
 2474.11.1={birth=yes}
 2534.10.12={death=yes}
 }
 
 700115={
-name = "Mathias"
-dynasty = 11018
-dna = "henkkclpbbo"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 2
-stewardship = 0
-intrigue = 5
-learning = 7
-father = 700114
-add_trait = "skilled_tactician"
+name="Mathias"
+dynasty=11018
+dna="henkkclpbbo"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=2
+stewardship=0
+intrigue=5
+learning=7
+father=700114
+add_trait="skilled_tactician"
 2503.9.1={birth=yes}
 2557.10.1={death=yes}
 }
 
 700116={
-name = "Reymer"
-dynasty = 11018
-dna = "ogdplmkmobb"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 1
-stewardship = 1
-intrigue = 7
-learning = 4
-father = 700114
-add_trait = "flamboyant_schemer"
-add_trait = "temperate"
-add_trait = "arbitrary"
+name="Reymer"
+dynasty=11018
+dna="ogdplmkmobb"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=1
+stewardship=1
+intrigue=7
+learning=4
+father=700114
+add_trait="flamboyant_schemer"
+add_trait="temperate"
+add_trait="arbitrary"
 2508.5.1={birth=yes}
 2573.1.23={death=yes}
 }
 
 700117={
-name = "Britta"
-female = yes
-dynasty = 11018
-dna = "aigojonbahc"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 4
-stewardship = 5
-intrigue = 3
-learning = 4
-father = 700114
-add_trait = "elusive_shadow"
-add_trait = "wroth"
+name="Britta"
+female=yes
+dynasty=11018
+dna="aigojonbahc"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=4
+stewardship=5
+intrigue=3
+learning=4
+father=700114
+add_trait="elusive_shadow"
+add_trait="wroth"
 2518.1.1={birth=yes}
 2556.8.20={death=yes}
 }
 
 700118={
-name = "Andrea"
-female = yes
-dynasty = 11017
-dna = "ahjkgkipahn"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 1
-learning = 4
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "charitable"
-add_trait = "brave"
+name="Andrea"
+female=yes
+dynasty=11017
+dna="ahjkgkipahn"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=1
+learning=4
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="charitable"
+add_trait="brave"
 2451.11.1={birth=yes}
 2495.7.22={death=yes}
 }
 
 700119={
-name = "Rudi"
-dynasty = 11017
-dna = "icpfnppagbc"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 2
-stewardship = 5
-intrigue = 7
-learning = 5
-mother = 700118
-add_trait = "skilled_tactician"
-add_trait = "arbitrary"
-add_trait = "honest"
-add_trait = "gregarious"
+name="Rudi"
+dynasty=11017
+dna="icpfnppagbc"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=7
+learning=5
+mother=700118
+add_trait="skilled_tactician"
+add_trait="arbitrary"
+add_trait="honest"
+add_trait="gregarious"
 2472.9.1={birth=yes}
 2515.1.12={death=yes}
 }
 
 700120={
-name = "Leberecht"
-dynasty = 11017
-dna = "aafjmpfnbff"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 3
-stewardship = 3
-intrigue = 4
-learning = 4
-mother = 700118
-add_trait = "tough_soldier"
-add_trait = "arbitrary"
+name="Leberecht"
+dynasty=11017
+dna="aafjmpfnbff"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=4
+mother=700118
+add_trait="tough_soldier"
+add_trait="arbitrary"
 2479.1.1={birth=yes}
 2527.11.17={death=yes}
 }
 
 700121={
-name = "Hannelore"
-female = yes
-dynasty = 11017
-dna = "mnnlephadje"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 2
-intrigue = 4
-learning = 3
-mother = 700118
-add_trait = "tough_soldier"
-add_trait = "honest"
-add_trait = "charitable"
-add_trait = "cruel"
-add_trait = "patient"
-add_trait = "ill"
+name="Hannelore"
+female=yes
+dynasty=11017
+dna="mnnlephadje"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=2
+intrigue=4
+learning=3
+mother=700118
+add_trait="tough_soldier"
+add_trait="honest"
+add_trait="charitable"
+add_trait="cruel"
+add_trait="patient"
+add_trait="ill"
 2483.5.1={birth=yes}
 2537.2.7={death=yes}
 }
 
 700122={
-name = "Seifried"
-dynasty = 11017
-dna = "jocafcmmnlc"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 4
-stewardship = 2
-intrigue = 8
-learning = 4
-mother = 700121
-add_trait = "skilled_tactician"
-add_trait = "mystic"
-add_trait = "trusting"
-add_trait = "envious"
+name="Seifried"
+dynasty=11017
+dna="jocafcmmnlc"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=4
+stewardship=2
+intrigue=8
+learning=4
+mother=700121
+add_trait="skilled_tactician"
+add_trait="mystic"
+add_trait="trusting"
+add_trait="envious"
 2518.1.1={birth=yes}
 2551.4.20={death=yes}
 }
 
 700123={
-name = "Volker"
-dynasty = 11019
-dna = "fbbhelpgelb"
-culture = talabeclander
-religion = taalite
-martial = 2
-diplomacy = 0
-stewardship = 8
-intrigue = 5
-learning = 5
-add_trait = "midas_touched"
-add_trait = "celibate"
-add_trait = "wroth"
+name="Volker"
+dynasty=11019
+dna="fbbhelpgelb"
+culture=talabeclander
+religion=taalite
+martial=2
+diplomacy=0
+stewardship=8
+intrigue=5
+learning=5
+add_trait="midas_touched"
+add_trait="celibate"
+add_trait="wroth"
 2451.7.1={birth=yes}
 2519.11.14={death=yes}
 }
 
 700124={
-name = "Franz"
-dynasty = 11019
-dna = "hejlhijhmaf"
-culture = talabeclander
-religion = taalite
-martial = 4
-diplomacy = 4
-stewardship = 0
-intrigue = 5
-learning = 4
-father = 700123
-add_trait = "brilliant_strategist"
-add_trait = "celibate"
+name="Franz"
+dynasty=11019
+dna="hejlhijhmaf"
+culture=talabeclander
+religion=taalite
+martial=4
+diplomacy=4
+stewardship=0
+intrigue=5
+learning=4
+father=700123
+add_trait="brilliant_strategist"
+add_trait="celibate"
 2487.3.1={birth=yes}
 2543.3.30={death=yes}
 }
 
 700125={
-name = "Franza"
-female = yes
-dynasty = 11019
-dna = "llmpmncliln"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 3
-stewardship = 8
-intrigue = 1
-learning = 3
-father = 700123
-add_trait = "charismatic_negotiator"
-add_trait = "diligent"
-add_trait = "greedy"
-add_trait = "patient"
-add_trait = "lunatic"
+name="Franza"
+female=yes
+dynasty=11019
+dna="llmpmncliln"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=3
+stewardship=8
+intrigue=1
+learning=3
+father=700123
+add_trait="charismatic_negotiator"
+add_trait="diligent"
+add_trait="greedy"
+add_trait="patient"
+add_trait="lunatic"
 2496.9.1={birth=yes}
 2530.10.6={death=yes}
 }
 
 700126={
-name = "Volker"
-dynasty = 11019
-dna = "engpjblehmi"
-culture = talabeclander
-religion = taalite
-martial = 6
-diplomacy = 7
-stewardship = 8
-intrigue = 1
-learning = 1
-mother = 700125
-add_trait = "underhanded_rogue"
-add_trait = "chaste"
-add_trait = "just"
+name="Volker"
+dynasty=11019
+dna="engpjblehmi"
+culture=talabeclander
+religion=taalite
+martial=6
+diplomacy=7
+stewardship=8
+intrigue=1
+learning=1
+mother=700125
+add_trait="underhanded_rogue"
+add_trait="chaste"
+add_trait="just"
 2516.11.1={birth=yes}
 2561.9.26={death=yes}
 }
 
 700127={
-name = "Volker"
-dynasty = 11019
-dna = "ifcmbjonpki"
-culture = talabeclander
-religion = taalite
-martial = 1
-diplomacy = 4
-stewardship = 4
-intrigue = 5
-learning = 3
-mother = 700125
-add_trait = "charismatic_negotiator"
-add_trait = "deceitful"
-add_trait = "proud"
-add_trait = "wroth"
+name="Volker"
+dynasty=11019
+dna="ifcmbjonpki"
+culture=talabeclander
+religion=taalite
+martial=1
+diplomacy=4
+stewardship=4
+intrigue=5
+learning=3
+mother=700125
+add_trait="charismatic_negotiator"
+add_trait="deceitful"
+add_trait="proud"
+add_trait="wroth"
 2519.1.1={birth=yes}
 2555.12.3={death=yes}
 }
 
 700128={
-name = "Irma"
-female = yes
-dynasty = 11140
-dna = "kophljokonp"
-culture = talabeclander
-religion = taalite
-martial = 3
-diplomacy = 6
-stewardship = 3
-intrigue = 4
-learning = 2
-add_trait = "thrifty_clerk"
-add_trait = "cynical"
-add_trait = "charitable"
-add_trait = "gregarious"
+name="Irma"
+female=yes
+dynasty=11140
+dna="kophljokonp"
+culture=talabeclander
+religion=taalite
+martial=3
+diplomacy=6
+stewardship=3
+intrigue=4
+learning=2
+add_trait="thrifty_clerk"
+add_trait="cynical"
+add_trait="charitable"
+add_trait="gregarious"
 2490.1.1={birth=yes}
 2538.12.10={death=yes}
 }
 
 700129={
-name = "Viktor"
-dynasty = 11141
-dna = "hcdhanchecd"
-culture = talabeclander
-religion = taalite
-martial = 5
-diplomacy = 0
-stewardship = 5
-intrigue = 0
-learning = 2
-add_trait = "tough_soldier"
-add_trait = "trusting"
-add_trait = "greedy"
+name="Viktor"
+dynasty=11141
+dna="hcdhanchecd"
+culture=talabeclander
+religion=taalite
+martial=5
+diplomacy=0
+stewardship=5
+intrigue=0
+learning=2
+add_trait="tough_soldier"
+add_trait="trusting"
+add_trait="greedy"
 2474.7.1={birth=yes}
 2529.2.17={death=yes}
 }
 
 700130={
-name = "Debora"
-female = yes
-dynasty = 11142
-dna = "fallmdaoikf"
-culture = talabeclander
-religion = taalite
-martial = 0
-diplomacy = 4
-stewardship = 3
-intrigue = 4
-learning = 7
-add_trait = "thrifty_clerk"
-add_trait = "arbitrary"
-add_trait = "ambitious"
-add_trait = "envious"
-add_trait = "wounded"
+name="Debora"
+female=yes
+dynasty=11142
+dna="fallmdaoikf"
+culture=talabeclander
+religion=taalite
+martial=0
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=7
+add_trait="thrifty_clerk"
+add_trait="arbitrary"
+add_trait="ambitious"
+add_trait="envious"
+add_trait="wounded"
 2488.11.1={birth=yes}
 2548.1.28={death=yes}
 }
 
 
 700131={
-name = "Johan"
-dynasty = 11144
-dna = "akdkccfmplk"
-culture = talabeclander
-religion = taalite
-martial = 8
-diplomacy = 4
-stewardship = 5
-intrigue = 7
-learning = 3
-add_trait = "indulgent_wastrel"
-add_trait = "ambitious"
-add_trait = "kind"
-add_trait = "greedy"
+name="Johan"
+dynasty=11144
+dna="akdkccfmplk"
+culture=talabeclander
+religion=taalite
+martial=8
+diplomacy=4
+stewardship=5
+intrigue=7
+learning=3
+add_trait="indulgent_wastrel"
+add_trait="ambitious"
+add_trait="kind"
+add_trait="greedy"
 2486.1.1={birth=yes}
 2560.3.22={death=yes}
 }

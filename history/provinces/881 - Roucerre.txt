@@ -6,13 +6,13 @@ title = c_roucerre
 # Settlements
 max_settlements = 4
 b_roucy = castle
-b_douar = city
+b_douar = temple
 #b_sandeuse = castle
 #b_montair = temple
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

@@ -11,7 +11,7 @@ b_jardensleit = city
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = norscan_gods
 
 
 # History

@@ -10,8 +10,8 @@ b_ruriovik = city
 #b_hundegrestar = city
 
 # Misc
-culture = aesling
-religion = chaos
+culture = dwarf_chaos
+religion = hashut
 
 
 # History

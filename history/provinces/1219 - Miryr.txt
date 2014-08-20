@@ -9,7 +9,7 @@ b_marri = castle
 b_ovcci = temple
 
 # Misc
-culture = kvellig
+culture = gharhar
 religion = chaos
 
 

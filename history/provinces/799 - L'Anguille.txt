@@ -4,17 +4,22 @@
 title = c_languille
 
 # Settlements
-max_settlements = 6
+max_settlements = 7
 b_languille = castle
 b_dauphinac = city
 b_cove = temple
 b_cigognac = city
 #b_eret = castle
 #b_barran = temple
+#b_toulon = temple
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_eret = castle
+}

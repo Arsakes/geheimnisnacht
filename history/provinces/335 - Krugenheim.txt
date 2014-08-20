@@ -20,3 +20,7 @@ religion = taalite
 # History
 
 2155.1.1 = { culture = ostermarker }
+
+2250.1.1 = {
+	b_bissendorf = temple
+}

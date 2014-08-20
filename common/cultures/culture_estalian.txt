@@ -524,7 +524,7 @@ estalian_group = {
 			Jaime Jaime_Jacob Jaqués_Jacob Jasperto Jaufrés_Godfrey Jaumes_Jacob Javier Jean_John Jerónimo Jimeno_Simon Joan_John Joan-Alfonse_John-Alphonse Joan-Geraud Joanes_John Jofrè_Godfrey John-Alphonse Jordain_Jordan Jordan_Jordan Jose Josselin_Joscelin Juan Juan_John Juan-Alfonso_John-Alphonse Juancarlos Jules_Julian Julián_Julian 
 			Karlos_Charles 
 			Ladron Laín Lázar Leoleno León Léon Leonardo Lisuarte Llano Lop_Lupo Lope Lope_Lupo Lopo_Lupo Lorenz Lorenzo Lorenzo_Laurence Lotaro Luis_Louis 
-			Malrique_Amalric Manassès Manrike_Amalric Manrique_Amalric Manuel_Manuel Martín_Martin Matel_Matthew Mateo Matias Matieu_Matthew Mauricio Melchor Mendo_Mendo Mendoza Menendo_Mendo Mentzio Miguel Mirot Morgante Munio_Munio Muño_Munio 
+			Malrique_Amalric Manassès Manrike_Amalric Manrique_Amalric Manuel_Manuel Marco Martín_Martin Matel_Matthew Mateo Matias Matieu_Matthew Mauricio Melchor Mendo_Mendo Mendoza Menendo_Mendo Mentzio Miguel Mirot Morgante Munio_Munio Muño_Munio 
 			Nardo Nicolas_Nicholas Noe Nunne_Nuno Nuño_Nuno 
 			Oger Oliba Olibier Olivante Olivar Onfrés Ordoño_Ordono Orsebio Orsón Ortega Osorio Ot_Otto Otón_Otto Otxoa Oveco 
 			Pablo Pacheco Paen_Pagan Pagain_Pagan Pascual Paskoal_Pascal Paz Pedo_Peter Pedro Pedro_Peter Pelaio_Pelagius Pelayo_Pelagius Père_Peter Pere-Amat Philippo_Philip Piarres_Peter Piñal Pino Piñolo Pinzón Pirres_Peter Ponce_Pons 

@@ -12,7 +12,11 @@ b_rochefort = city
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_alencon = temple
+}

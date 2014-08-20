@@ -19,3 +19,11 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_halgerbach = temple
+}
+
+2500.1.1 = {
+	b_liebenzall = city
+}

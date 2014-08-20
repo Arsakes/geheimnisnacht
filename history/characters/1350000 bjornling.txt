@@ -1,241 +1,236 @@
 1350000={
-name = "Váli"
-dynasty = 56001
-culture = bjornling
-religion = norse
-martial = 1
-diplomacy = 6
-stewardship = 4
-intrigue = 3
-learning = 1
-add_trait = "falconer"
-add_trait = "scholarly_theologian"
+name="Váli"
+dynasty=56001
+culture=bjornling
+religion=norscan_gods
+martial=1
+diplomacy=6
+stewardship=4
+intrigue=3
+learning=1
+add_trait="falconer"
+add_trait="scholarly_theologian"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
 
 1982.6.25={birth=yes}
-2044.5.10={death="2044.5.10"}
+2044.5.10={death=yes}
 }
 
 1350001={
-name = "Halla"
-female = yes
-dynasty = 56002
-culture = bjornling
-religion = norse
-martial = 6
-diplomacy = 8
-stewardship = 6
-intrigue = 2
-learning = 1
-add_trait = "scholar"
-add_trait = "fortune_builder"
+name="Halla"
+female=yes
+dynasty=56002
+culture=bjornling
+religion=norscan_gods
+martial=6
+diplomacy=8
+stewardship=6
+intrigue=2
+learning=1
+add_trait="scholar"
+add_trait="fortune_builder"
 
 add_trait="greedy"
 
 
 1960.10.21={birth=yes}
-2010.9.10={death="2010.9.10"}
+2010.9.10={death=yes}
 }
 
 1350002={
-name = "Vésteinn"
-dynasty = 56004
-culture = bjornling
-religion = norse
-martial = 5
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 9
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Vésteinn"
+dynasty=56004
+culture=bjornling
+religion=norscan_gods
+martial=5
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=9
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 add_trait="craven"
 add_trait="weak"
 
 
 1957.12.30={birth=yes}
-2038.3.9={death="2038.3.9"}
+2038.3.9={death=yes}
 }
 
 1350003={
-name = "Ulfr"
-dynasty = 56005
-culture = bjornling
-religion = norse
-martial = 10
-diplomacy = 8
-stewardship = 10
-intrigue = 3
-learning = 2
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Ulfr"
+dynasty=56005
+culture=bjornling
+religion=norscan_gods
+martial=10
+diplomacy=8
+stewardship=10
+intrigue=3
+learning=2
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="cruel"
 add_trait="tall"
 add_trait="wroth"
 
-1978.4.19={birth="1978.4.19"}
-2047.5.29={death="2047.5.29"}
+1978.4.19={birth=yes}
+2047.5.29={death=yes}
 }
 
 1350004={
-name = "Svanhildr"
-female = yes
-dynasty = 56007
-culture = bjornling
-religion = norse
-martial = 10
-diplomacy = 10
-stewardship = 6
-intrigue = 4
-learning = 8
-add_trait = "hunter"
-add_trait = "grey_eminence"
+name="Svanhildr"
+female=yes
+dynasty=56007
+culture=bjornling
+religion=norscan_gods
+martial=10
+diplomacy=10
+stewardship=6
+intrigue=4
+learning=8
+add_trait="hunter"
+add_trait="grey_eminence"
 add_trait="temperate"
 add_trait="chaste"
 add_trait="content"
 
-1997.4.14={birth="1997.4.14"}
-2067.10.6={death="2067.10.6"}
+1997.4.14={birth=yes}
+2067.10.6={death=yes}
 }
 
 1350005={
-name = "Faste"
-dynasty = 56008
-culture = bjornling
-religion = norse
-martial = 7
-diplomacy = 1
-stewardship = 5
-intrigue = 8
-learning = 9
-add_trait = "poet"
-add_trait = "detached_priest"
+name="Faste"
+dynasty=56008
+culture=bjornling
+religion=norscan_gods
+martial=7
+diplomacy=1
+stewardship=5
+intrigue=8
+learning=9
+add_trait="poet"
+add_trait="detached_priest"
 add_trait="trusting"
 
 
 
-1951.10.3={birth="1951.10.3"}
-2036.5.14={death="2036.5.14"}
+1951.10.3={birth=yes}
+2036.5.14={death=yes}
 }
 
 1350006={
-name = "Geirný"
-female = yes
-dynasty = 56009
-culture = bjornling
-religion = norse
-martial = 2
-diplomacy = 1
-stewardship = 5
-intrigue = 2
-learning = 6
-add_trait = "poet"
-add_trait = "brilliant_strategist"
-
-
+name="Geirný"
+female=yes
+dynasty=56009
+culture=bjornling
+religion=norscan_gods
+martial=2
+diplomacy=1
+stewardship=5
+intrigue=2
+learning=6
+add_trait="poet"
+add_trait="brilliant_strategist"
 add_trait="humble"
 
-1954.5.29={birth="1954.5.29"}
-2022.6.2={death="2022.6.2"}
+1954.5.29={birth=yes}
+2022.6.2={death=yes}
 }
 
 1350007={
-name = "Hróðmarr"
-dynasty = 56010
-culture = bjornling
-religion = norse
-martial = 9
-diplomacy = 6
-stewardship = 1
-intrigue = 4
-learning = 2
-add_trait = "hunter"
-add_trait = "mastermind_theologian"
-add_trait="ill"
-
-
-
-1989.3.8={birth="1989.3.8"}
-2029.12.29={death="2029.12.29"}
+name="Hróðmarr"
+dynasty=56010
+culture=bjornling
+religion=norscan_gods
+martial=9
+diplomacy=6
+stewardship=1
+intrigue=4
+learning=2
+add_trait="hunter"
+add_trait="mastermind_theologian"
+add_trait="patient"
+1989.3.8={birth=yes}
+2029.12.29={death=yes}
 }
 
 1350008={
-name = "Sólveig"
-female = yes
-dynasty = 56011
-culture = bjornling
-religion = norse
-martial = 4
-diplomacy = 2
-stewardship = 6
-intrigue = 3
-learning = 8
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
+name="Sólveig"
+female=yes
+dynasty=56011
+culture=bjornling
+religion=norscan_gods
+martial=4
+diplomacy=2
+stewardship=6
+intrigue=3
+learning=8
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 add_trait="legit_bastard"
 add_trait="homosexual"
 add_trait="lustful"
 
-1972.12.21={birth="1972.12.21"}
-2044.9.30={death="2044.9.30"}
+1972.12.21={birth=yes}
+2044.9.30={death=yes}
 }
 
 1350009={
-name = "Ingfrid"
-female = yes
-dynasty = 56013
-culture = bjornling
-religion = norse
-martial = 7
-diplomacy = 9
-stewardship = 11
-intrigue = 11
-learning = 5
-add_trait = "impaler"
-add_trait = "elusive_shadow"
+name="Ingfrid"
+female=yes
+dynasty=56013
+culture=bjornling
+religion=norscan_gods
+martial=7
+diplomacy=9
+stewardship=11
+intrigue=11
+learning=5
+add_trait="impaler"
+add_trait="elusive_shadow"
 add_trait="drunkard"
 
 
 
-1998.10.5={birth="1998.10.5"}
-2017.8.26={death="2017.8.26"}
+1998.10.5={birth=yes}
+2017.8.26={death=yes}
 }
 
 1350010={
-name = "Ásleif"
-female = yes
-dynasty = 56015
-culture = bjornling
-religion = norse
-martial = 6
-diplomacy = 2
-stewardship = 6
-intrigue = 7
-learning = 4
-add_trait = "duelist"
-add_trait = "indulgent_wastrel"
+name="Ásleif"
+female=yes
+dynasty=56015
+culture=bjornling
+religion=norscan_gods
+martial=6
+diplomacy=2
+stewardship=6
+intrigue=7
+learning=4
+add_trait="duelist"
+add_trait="indulgent_wastrel"
 
 
 add_trait="lisp"
 
-1984.11.26={birth="1984.11.26"}
-2046.12.6={death="2046.12.6"}
+1984.11.26={birth=yes}
+2046.12.6={death=yes}
 }
 
 1350011={
-name = "Ondóttr"
-dynasty = 56016
-culture = bjornling
-religion = norse
-martial = 0
-diplomacy = 6
-stewardship = 10
-intrigue = 7
-learning = 5
-add_trait = "hunter"
-add_trait = "charismatic_negotiator"
+name="Ondóttr"
+dynasty=56016
+culture=bjornling
+religion=norscan_gods
+martial=0
+diplomacy=6
+stewardship=10
+intrigue=7
+learning=5
+add_trait="hunter"
+add_trait="charismatic_negotiator"
 
 add_trait="fair"
 add_trait="strong"
@@ -245,18 +240,18 @@ add_trait="strong"
 }
 
 1350012={
-name = "Dýrfinna"
-female = yes
-dynasty = 56018
-culture = bjornling
-religion = norse
-martial = 10
-diplomacy = 8
-stewardship = 8
-intrigue = 7
-learning = 10
-add_trait = "falconer"
-add_trait = "elusive_shadow"
+name="Dýrfinna"
+female=yes
+dynasty=56018
+culture=bjornling
+religion=norscan_gods
+martial=10
+diplomacy=8
+stewardship=8
+intrigue=7
+learning=10
+add_trait="falconer"
+add_trait="elusive_shadow"
 add_trait="diligent"
 add_trait="envious"
 
@@ -266,17 +261,17 @@ add_trait="envious"
 }
 
 1350013={
-name = "Starkaðr"
-dynasty = 56019
-culture = bjornling
-religion = norse
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 9
-learning = 6
-add_trait = "mystic"
-add_trait = "tough_soldier"
+name="Starkaðr"
+dynasty=56019
+culture=bjornling
+religion=norscan_gods
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=9
+learning=6
+add_trait="mystic"
+add_trait="tough_soldier"
 add_trait="proud"
 
 add_trait="shy"
@@ -286,221 +281,300 @@ add_trait="shy"
 }
 
 1350014={
-name = "Dís"
-female = yes
-dynasty = 56024
-culture = bjornling
-religion = norse
-martial = 4
-diplomacy = 7
-stewardship = 6
-intrigue = 3
-learning = 9
-add_trait = "duelist"
-add_trait = "detached_priest"
+name="Dís"
+female=yes
+dynasty=56024
+culture=bjornling
+religion=norscan_gods
+martial=4
+diplomacy=7
+stewardship=6
+intrigue=3
+learning=9
+add_trait="duelist"
+add_trait="detached_priest"
 add_trait="slothful"
 add_trait="ambitious"
 add_trait="patient"
 
-1998.3.15={birth="1998.3.15"}
-2064.11.30={death="2064.11.30"}
+1998.3.15={birth=yes}
+2064.11.30={death=yes}
 }
 
 1350015={
-name = "Arngunnr"
-female = yes
-dynasty = 56025
-culture = bjornling
-religion = norse
-martial = 8
-diplomacy = 2
-stewardship = 5
-intrigue = 0
-learning = 2
-add_trait = "impaler"
-add_trait = "naive_appeaser"
+name="Arngunnr"
+female=yes
+dynasty=56025
+culture=bjornling
+religion=norscan_gods
+martial=8
+diplomacy=2
+stewardship=5
+intrigue=0
+learning=2
+add_trait="impaler"
+add_trait="naive_appeaser"
 add_trait="just"
 add_trait="cynical"
 add_trait="arbitrary"
 
-1996.3.25={birth="1996.3.25"}
-2032.8.7={death="2032.8.7"}
+1996.3.25={birth=yes}
+2032.8.7={death=yes}
 }
 
 1350016={
-name = "Arngrímr"
-dynasty = 56026
-culture = bjornling
-religion = norse
-martial = 9
-diplomacy = 4
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "hunter"
-add_trait = "fortune_builder"
+name="Arngrímr"
+dynasty=56026
+culture=bjornling
+religion=norscan_gods
+martial=9
+diplomacy=4
+stewardship=1
+intrigue=6
+learning=1
+add_trait="hunter"
+add_trait="fortune_builder"
 add_trait="paranoid"
 add_trait="gregarious"
 add_trait="zealous"
 
-1984.1.24={birth="1984.1.24"}
-2014.5.18={death="2014.5.18"}
+1984.1.24={birth=yes}
+2014.5.18={death=yes}
 }
 
 1350017={
-name = "Oddlaug"
-female = yes
-dynasty = 56027
-culture = bjornling
-religion = norse
-martial = 10
-diplomacy = 3
-stewardship = 5
-intrigue = 5
-learning = 3
-add_trait = "gardener"
-add_trait = "midas_touched"
+name="Oddlaug"
+female=yes
+dynasty=56027
+culture=bjornling
+religion=norscan_gods
+martial=10
+diplomacy=3
+stewardship=5
+intrigue=5
+learning=3
+add_trait="gardener"
+add_trait="midas_touched"
 add_trait="honest"
 add_trait="craven"
 add_trait="kind"
 
-1962.3.20={birth="1962.3.20"}
-2053.10.4={death="2053.10.4"}
+1962.3.20={birth=yes}
+2053.10.4={death=yes}
 }
 
 1350018={
-name = "Steinmóðr"
-dynasty = 56028
-culture = bjornling
-religion = norse
-martial = 5
-diplomacy = 9
-stewardship = 8
-intrigue = 8
-learning = 0
-add_trait = "skilled_tactician"
+name="Steinmóðr"
+dynasty=56028
+culture=bjornling
+religion=norscan_gods
+martial=5
+diplomacy=9
+stewardship=8
+intrigue=8
+learning=0
+add_trait="skilled_tactician"
 add_trait="greedy"
 
-1998.2.15={birth="1998.2.15"}
-2025.5.21={death="2025.5.21"}
+1998.2.15={birth=yes}
+2025.5.21={death=yes}
 }
 
 1350019={
-name = "Naddoddr"
-dynasty = 56029
-culture = bjornling
-religion = norse
-martial = 4
-diplomacy = 8
-stewardship = 0
-intrigue = 0
-learning = 10
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Naddoddr"
+dynasty=56029
+culture=bjornling
+religion=norscan_gods
+martial=4
+diplomacy=8
+stewardship=0
+intrigue=0
+learning=10
+add_trait="duelist"
+add_trait="mastermind_theologian"
 
 add_trait="tall"
 add_trait="cruel"
 
-1991.11.11={birth="1991.11.11"}
-2040.5.18={death="2040.5.18"}
+1991.11.11={birth=yes}
+2040.5.18={death=yes}
 }
 
 1350020={
-name = "Bjorn"
-dynasty = 56034
-dna = "anacjbckklf"
-culture = bjornling
-religion = norse
-martial = 5
-diplomacy = 6
-stewardship = 2
-intrigue = 3
-learning = 4
-add_trait = "fortune_builder"
-add_trait = "trusting"
-add_trait = "slothful"
-add_trait = "brave"
+name="Bjorn"
+dynasty=56034
+dna="anacjbckklf"
+culture=bjornling
+religion=norscan_gods
+martial=5
+diplomacy=6
+stewardship=2
+intrigue=3
+learning=4
+add_trait="fortune_builder"
+add_trait="trusting"
+add_trait="slothful"
+add_trait="brave"
 1023.1.1={birth=yes}
-1048.4.7 = {add_spouse=1350021}
+1048.4.7={add_spouse=1350021}
 1092.9.21={death=yes}
 }
 
 1350021={
-name = "Hallbiorg"
-female = yes
-dynasty = 56035
-dna = "nfkchlchnln"
-culture = bjornling
-religion = norse
-martial = 4
-diplomacy = 3
-stewardship = 3
-intrigue = 4
-learning = 1
-add_trait = "tough_soldier"
-add_trait = "patient"
-add_trait = "humble"
+name="Hallbiorg"
+female=yes
+dynasty=56035
+dna="nfkchlchnln"
+culture=bjornling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=1
+add_trait="tough_soldier"
+add_trait="patient"
+add_trait="humble"
 1031.2.11={birth=yes}
-1048.4.7 = {add_spouse=1350020}
+1048.4.7={add_spouse=1350020}
 1109.10.4={death=yes}
 }
 
 1350022={
-name = "Kolskeggr"
-dynasty = 56034
-dna = "gfofpoafgel"
-culture = bjornling
-religion = norse
-martial = 6
-diplomacy = 3
-stewardship = 5
-intrigue = 7
-learning = 5
-father = 1350020
-mother = 1350021
-add_trait = "intricate_webweaver"
-add_trait = "hunter"
-add_trait = "envious"
+name="Kolskeggr"
+dynasty=56034
+dna="gfofpoafgel"
+culture=bjornling
+religion=norscan_gods
+martial=6
+diplomacy=3
+stewardship=5
+intrigue=7
+learning=5
+father=1350020
+mother=1350021
+add_trait="intricate_webweaver"
+add_trait="hunter"
+add_trait="envious"
 1049.1.1={birth=yes}
 1111.9.29={death=yes}
 }
 
 1350023={
-name = "Vilborg"
-female = yes
-dynasty = 56034
-dna = "pkfdhnhdfdb"
-culture = bjornling
-religion = norse
-martial = 0
-diplomacy = 2
-stewardship = 6
-intrigue = 7
-learning = 5
-father = 1350020
-mother = 1350021
-add_trait = "elusive_shadow"
-add_trait = "patient"
+name="Vilborg"
+female=yes
+dynasty=56034
+dna="pkfdhnhdfdb"
+culture=bjornling
+religion=norscan_gods
+martial=0
+diplomacy=2
+stewardship=6
+intrigue=7
+learning=5
+father=1350020
+mother=1350021
+add_trait="elusive_shadow"
+add_trait="patient"
 1054.5.14={birth=yes}
 1122.3.4={death=yes}
 }
 
 1350024={
-name = "Ragnar"
-dynasty = 56111
-dna = "cebnniplgif"
-culture = bjornling
-religion = norse
-martial = 2
-diplomacy = 2
-stewardship = 6
-intrigue = 5
-learning = 1
-add_trait = "elusive_shadow"
-add_trait = "chaste"
-add_trait = "gluttonous"
+name="Ragnar"
+dynasty=56111
+dna="cebnniplgif"
+culture=bjornling
+religion=norscan_gods
+martial=2
+diplomacy=2
+stewardship=6
+intrigue=5
+learning=1
+add_trait="elusive_shadow"
+add_trait="chaste"
+add_trait="gluttonous"
 2484.1.1={birth=yes}
 2574.3.27={death=yes}
 }
 
+1350025={
+name="Björn"
+dynasty=56112
+culture=bjornling
+religion=norscan_gods
+martial=10
+diplomacy=3
+stewardship=5
+intrigue=5
+learning=3
+add_trait="gardener"
+add_trait="midas_touched"
+add_trait="honest"
+add_trait="craven"
+add_trait="kind"
+2469.3.20={birth=yes}
+2495.7.23={add_spouse=1350026}
+2531.10.4={death=yes}
+}
 
+1350026={
+name="Úlfrún"
+female=yes
+dynasty=56080
+culture=bjornling
+religion=norscan_gods
+martial=3
+diplomacy=2
+stewardship=0
+intrigue=2
+learning=6
+add_trait="gardener"
+add_trait="underhanded_rogue"
+add_trait="kind"
+add_trait="envious"
+2476.3.20={birth=yes}
+2495.7.23={add_spouse=1350025}
+2527.10.4={death=yes}
+}
+
+1350027={
+name="Hafþórr"
+dynasty=56112
+culture=bjornling
+religion=norscan_gods
+martial=7
+diplomacy=3
+stewardship=5
+intrigue=0
+learning=3
+father=1350025
+mother=1350026
+add_trait="gardener"
+add_trait="midas_touched"
+add_trait="honest"
+add_trait="tall"
+add_trait="strong"
+2501.5.28={birth=yes}
+2553.6.4={death=yes}
+}
+
+1350028={
+name="Járngerðr"
+female=yes
+dynasty=56112
+culture=bjornling
+religion=norscan_gods
+martial=2
+diplomacy=3
+stewardship=2
+intrigue=5
+learning=3
+father=1350025
+mother=1350026
+add_trait="tough_soldier"
+add_trait="honest"
+add_trait="envious"
+2505.5.22={birth=yes}
+2532.8.14={death=yes}
+}

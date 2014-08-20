@@ -11,7 +11,7 @@ b_sklepgor = castle
 
 # Misc
 culture = dolgan
-religion = chaos
+religion = northern_gods
 
 
 # History

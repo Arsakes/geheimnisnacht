@@ -7,7 +7,7 @@ title = c_wurzen
 max_settlements = 5
 b_wurzen = castle
 b_csenger = city
-b_dorog = city
+#b_dorog = temple
 #b_boven = castle
 #b_penzlin = city
 
@@ -17,3 +17,7 @@ religion = ulrican
 
 
 # History
+
+2250.1.1 = {
+	b_dorog = temple
+}

@@ -1,0 +1,18 @@
+# 1410 Nephren
+
+# County Title
+title = c_nephren
+
+# Settlements
+max_settlements = 4
+b_nephren = castle
+b_hageth = castle
+b_atal_kar = castle
+#b_barzai = castle
+
+# Misc
+culture = mung
+religion = chaos
+
+
+# History

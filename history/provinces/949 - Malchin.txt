@@ -1,0 +1,17 @@
+# 949 Malchin
+
+# County Title
+title = c_malchin
+
+# Settlements
+max_settlements = 3
+b_malchin = castle
+b_iriqa = temple
+#b_turums = castle
+
+# Misc
+culture = hastling
+religion = chaos
+
+
+# History

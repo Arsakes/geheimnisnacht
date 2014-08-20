@@ -10,7 +10,7 @@ b_fays_la_chapelle = temple
 
 # Misc
 culture = bourgon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

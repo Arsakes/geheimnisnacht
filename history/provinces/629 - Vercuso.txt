@@ -7,7 +7,7 @@ title = c_vercuso
 max_settlements = 5
 b_vercuso = castle
 b_ragil = city
-b_vermunte = temple
+#b_vermunte = temple
 #b_beffardo = city
 #b_sircolosa = castle
 
@@ -17,3 +17,7 @@ religion = stromfels
 
 
 # History
+
+2250.1.1 = {
+	b_vermunte = temple
+}

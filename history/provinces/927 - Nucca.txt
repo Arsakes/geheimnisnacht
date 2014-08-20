@@ -10,7 +10,7 @@ b_nucca = city
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History

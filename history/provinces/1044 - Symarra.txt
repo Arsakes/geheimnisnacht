@@ -6,7 +6,7 @@ title = c_symarra
 # Settlements
 max_settlements = 3
 b_symarra = castle
-b_nirana = city
+#b_nirana = city
 #b_boram = temple
 
 # Misc
@@ -15,3 +15,7 @@ religion = akghan
 
 
 # History
+
+2250.1.1 = {
+	b_boram = temple
+}

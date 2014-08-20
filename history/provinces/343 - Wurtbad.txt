@@ -18,3 +18,11 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_tarshof = city
+}
+
+2500.1.1 = {
+	b_sonningwiese = temple
+}

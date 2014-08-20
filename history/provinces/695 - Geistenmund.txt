@@ -12,7 +12,7 @@ b_dieters_circle = city
 
 # Misc
 culture = tierrasman
-religion = classical_gods
+religion = myrmidian
 
 
 # History

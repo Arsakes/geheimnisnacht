@@ -11,7 +11,7 @@ b_delamata = castle
 
 # Misc
 culture = tobaran
-religion = classical_gods
+religion = myrmidian
 
 
 # History

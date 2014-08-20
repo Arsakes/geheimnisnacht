@@ -1,5 +1,5 @@
 #518 Bajamar
-#County Title
+
 title = c_bajamar
 
 #Settlements
@@ -11,6 +11,10 @@ b_pertro = castle
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_grazan = temple
+}

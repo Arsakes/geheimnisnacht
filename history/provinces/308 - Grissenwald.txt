@@ -7,7 +7,7 @@ title = c_grissenwald
 max_settlements = 5
 b_grissenwald = castle
 b_rohrhausen = castle
-b_grund = city
+#b_grund = temple
 #b_iburg = temple
 #b_arnedorf = castle
 
@@ -17,3 +17,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_grund = temple
+}

@@ -5,8 +5,8 @@ title = c_brasov
 
 # Settlements
 max_settlements = 4
-b_brasov = city
-b_eszterhazy = castle
+b_brasov = castle
+b_eszterhazy = temple
 #b_matyadi = castle
 #b_rakosvar = city
 
