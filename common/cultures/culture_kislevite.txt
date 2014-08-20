@@ -70,7 +70,7 @@ kislevite_group = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
-		modifier = default_culture_modifier
+		modifier = kislevite_culture_modifier
 	}
 	
 	gospodar = {
@@ -141,7 +141,7 @@ kislevite_group = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
-		modifier = default_culture_modifier
+		modifier = gospodar_culture_modifier
 	}
 
 	ungol = {
@@ -210,7 +210,7 @@ kislevite_group = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 0
 		
-		modifier = default_culture_modifier
+		modifier = ungol_culture_modifier
 	}
 
 	ropsmann = {
@@ -275,7 +275,7 @@ kislevite_group = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 0
 		
-		modifier = default_culture_modifier
+		modifier = ungol_culture_modifier
 	}
 		
 
@@ -343,7 +343,7 @@ kislevite_group = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 15
 		
-		modifier = default_culture_modifier
+		modifier = ungol_culture_modifier
 	}		
 }
 
