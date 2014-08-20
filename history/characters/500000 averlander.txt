@@ -2430,7 +2430,7 @@ add_trait="grey_eminence"
 add_trait="mystic"
 add_trait="cruel"
 add_trait="cynical"
-2440.7.1={birth=yes}
+2423.7.1={birth=yes}
 2441.7.10={add_spouse=950092}
 2475.11.10={add_spouse=950093}
 2498.9.3={death=yes}

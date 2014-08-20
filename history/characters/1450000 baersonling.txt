@@ -500,7 +500,7 @@ intrigue=8
 learning=1
 father=1450020
 mother=1450021
-add_trait="tough_warrior"
+add_trait="tough_soldier"
 add_trait="ambitious"
 2500.6.5={birth=yes}
 2532.5.8={death=yes}
@@ -518,7 +518,7 @@ intrigue=0
 learning=3
 father=1450020
 mother=1450021
-add_trait="tough_warrior"
+add_trait="tough_soldier"
 add_trait="patient"
 add_trait="tall"
 add_trait="strong"
@@ -538,7 +538,7 @@ stewardship=2
 intrigue=2
 learning=1
 father=1450025
-add_trait="tough_warrior"
+add_trait="tough_soldier"
 add_trait="ambitious"
 add_trait="patient"
 2518.10.22={birth=yes}

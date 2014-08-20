@@ -11,7 +11,7 @@ b_karag_dumril = city
 #b_azrizar = castle
 
 # Misc
-culture = lahmian
+culture = strigany
 religion = vampiric
 
 

@@ -126,7 +126,7 @@ learning=2
 add_trait="intricate_webweaver"
 add_trait="hunter"
 add_trait="shy"
-add_trait="proud"
+add_trait="strong"
 add_trait="proud"
 add_trait="wroth"
 1984.1.1={birth=yes}

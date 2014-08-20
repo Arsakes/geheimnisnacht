@@ -572,7 +572,7 @@ intrigue=5
 learning=3
 father=1350025
 mother=1350026
-add_trait="tough_warrior"
+add_trait="tough_soldier"
 add_trait="honest"
 add_trait="envious"
 2505.5.22={birth=yes}

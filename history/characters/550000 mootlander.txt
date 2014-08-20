@@ -108,7 +108,7 @@ add_trait="humble"
 father=550023
 mother=550024
 
-1977.12.12={birth="1977.12.12"}
+1977.12.12={birth=yes}
 1998.11.10={add_spouse=550000}
 2037.5.4={death=yes}
 }

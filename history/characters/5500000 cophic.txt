@@ -363,7 +363,7 @@ father=5500020
 add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
-1992.1.10={birth="1992.1.10"}
+1992.1.10={birth=yes}
 2009.3.15={add_matrilineal_spouse=5500000}
 2045.10.28={death=yes}
 }

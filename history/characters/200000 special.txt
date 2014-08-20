@@ -165,7 +165,7 @@ add_trait="zealous"
 
 200008={
 name="Morkar" #Everchosen Morkar the Uniter
-dynasty=1000002
+dynasty=9040
 dna="fleekhilbek"
 culture=kul
 religion=chaos
@@ -183,7 +183,7 @@ add_trait="diligent"
 
 200009={
 name="Vangael" #Everchosen Vangael 
-dynasty=1000003
+dynasty=9039
 dna="moffbgkphhg"
 culture=kul
 religion=chaos
@@ -201,7 +201,7 @@ add_trait="shy"
 
 200010={
 name="Khaardun" #Everchosen Khaardun the Gloried, ended up possessed and annihlated by Be'lakor in Mordheim
-dynasty=1000004
+dynasty=9038
 dna="pmhhbebifma"
 culture=graeling
 religion=chaos
@@ -221,7 +221,7 @@ add_trait="proud"
 
 200011={
 name="Egrimm" #Egrimm van Horstmann, champion of Tzeentch
-dynasty=1000005
+dynasty=9037
 dna="lobhkoikcbo"
 culture=westerlander
 religion=tzeentch
@@ -242,7 +242,7 @@ add_trait="patient"
 
 200012={
 name="Mortkin" #King Mortkin the Black-Iron Reaver, of Ulfennik
-dynasty=1000006
+dynasty=9036
 dna="hoaledcpfng"
 culture=skaeling
 religion=chaos
@@ -261,7 +261,7 @@ add_trait="chaste"
 
 200013={
 name="Sigvald" #Prince Sigvald the Magnificent
-dynasty=1000007
+dynasty=9035
 dna="jdhkbkhpidf"
 culture=kul
 religion=slaanesh
@@ -277,7 +277,7 @@ add_trait="skilled_tactician"
 
 200014={
 name="Tchar'zanek" #Not as famous as he could be
-dynasty=1000008
+dynasty=9034
 dna="bipdemmfjel"
 culture=kul
 religion=tzeentch
@@ -297,7 +297,7 @@ add_trait="patient"
 
 200015={
 name="Tamurkhan" #Tamurkhan the Maggot Lord, Champion of Nurgle
-dynasty=1000009
+dynasty=9033
 dna="jeikolcpjfn"
 culture=kul
 religion=nurgle
@@ -315,29 +315,29 @@ add_trait="wroth"
 200016={
 name="Valkia" #Valkia the Bloody, Consort of Khorne
 female=yes
-dynasty=1000000
+dynasty=9032
 dna="glcfahmlapi"
 culture=kul
 religion=khorne
-military=1
+martial=1
 diplomacy=1
 stewardship=2
 intrigue=7
 learning=6
 add_trait="tough_soldier"
 add_trait="honest"
-add_trait="leper"
+add_trait="strong"
 2261.1.1={birth=yes}
 2324.1.16={death=yes}
 }
 
 200017={
 name="Vardek" #Vardek Crom, the Conqueror, Herald of Archaon
-dynasty=1000001
+dynasty=9031
 dna="kobkakiccil"
 culture=kul
 religion=chaos
-military=3
+martial=3
 diplomacy=6
 stewardship=6
 intrigue=7
@@ -352,11 +352,11 @@ add_trait="just"
 
 200018={
 name="Harrgroth" #Harrgroth the Blooded One, General of Archaon, Champion of Khorne
-dynasty=1000002
+dynasty=9030
 dna="dmmeionlmdf"
 culture=kul
 religion=khorne
-military=4
+martial=4
 diplomacy=5
 stewardship=4
 intrigue=2
@@ -371,11 +371,11 @@ add_trait="duelist"
 
 200019={
 name="Feytor" #Feytor the Tainted, General of Archaon, Champion of Nurgle
-dynasty=1000003
+dynasty=9028
 dna="dieeopdiedk"
 culture=kul
 religion=nurgle
-military=4
+martial=4
 diplomacy=5
 stewardship=5
 intrigue=2
@@ -384,7 +384,6 @@ add_trait="underhanded_rogue"
 add_trait="scholar"
 add_trait="just"
 add_trait="craven"
-add_trait="craven"
 add_trait="slothful"
 2299.1.1={birth=yes}
 2350.5.5={death=yes}
@@ -392,11 +391,11 @@ add_trait="slothful"
 
 200020={
 name="Styrkaar" #Styrkaar of Sortsvinaer , General of Archaon, Champion of Slaanesh
-dynasty=1000004
+dynasty=9029
 dna="ilbfojkeajm"
-culture=kul
+culture=aesling
 religion=chaos
-military=6
+martial=6
 diplomacy=8
 stewardship=3
 intrigue=6
@@ -411,11 +410,11 @@ add_trait="gregarious"
 
 200021={
 name="Melekh" #Melekh the Changer, General of Archaon, Champion of Tzeentch
-dynasty=1000005
+dynasty=9027
 dna="pddhglgdpoi"
 culture=kul
 religion=tzeentch
-military=8
+martial=8
 diplomacy=7
 stewardship=4
 intrigue=5
@@ -430,15 +429,16 @@ add_trait="paranoid"
 
 200022={
 name="Cyspeth" #Cyspeth, son of Melekh, General of Archaon, Champion of Tzeentch
-dynasty=1000006
+dynasty=9027
 dna="faookjclkae"
 culture=kul
 religion=tzeentch
-military=3
+martial=3
 diplomacy=2
 stewardship=6
 intrigue=4
 learning=1
+father=200021
 add_trait="detached_priest"
 add_trait="gardener"
 add_trait="gluttonous"
@@ -448,11 +448,11 @@ add_trait="gluttonous"
 
 200023={
 name="Vilitch" #Vilitch the Curseling, Champion of Tzeentch
-dynasty=1000007
+dynasty=9026
 dna="aagllmpjjej"
 culture=kul
 religion=tzeentch
-military=3
+martial=3
 diplomacy=7
 stewardship=2
 intrigue=2
@@ -467,11 +467,11 @@ add_trait="possessed"
 
 200024={
 name="Thomin" #Brother of Vilitch
-dynasty=1000008
+dynasty=9026
 dna="aniijbcohpi"
 culture=kul
 religion=chaos
-military=5
+martial=5
 diplomacy=8
 stewardship=2
 intrigue=3
@@ -484,11 +484,11 @@ add_trait="arbitrary"
 
 200025={
 name="Azazel" #Gerron of Sigmar's Time, Champion of Slaanesh
-dynasty=1000009
+dynasty=9025
 dna="jdnefacoimh"
 culture=unberogen
 religion=slaanesh
-military=6
+martial=6
 diplomacy=4
 stewardship=3
 intrigue=1
@@ -502,11 +502,11 @@ add_trait="arbitrary"
 
 200026={
 name="Cormac" #Cormac Bloodaxe, Champion of Khorne
-dynasty=1000000
+dynasty=9024
 dna="ggnhcfenpnf"
 culture=kul
 religion=khorne
-military=1
+martial=1
 diplomacy=7
 stewardship=3
 intrigue=3
@@ -520,11 +520,11 @@ add_trait="brave"
 
 200027={
 name="Arek" #Arek Daemonclaw, Champion of Tzeentch
-dynasty=1000001
+dynasty=9023
 dna="ljopkbpaaac"
 culture=kul
 religion=tzeentch
-military=5
+martial=5
 diplomacy=7
 stewardship=0
 intrigue=6
@@ -537,11 +537,11 @@ add_trait="envious"
 
 200028={
 name="Kelmain" #Kelmain Blackstaff, Champion of Tzeentch
-dynasty=1000002
+dynasty=9022
 dna="idgkkhdfllm"
 culture=kul
 religion=tzeentch
-military=7
+martial=7
 diplomacy=2
 stewardship=4
 intrigue=1
@@ -554,11 +554,11 @@ add_trait="just"
 
 200029={
 name="Lhoigor" #Lhoigor Goldenrod, Champion of Tzeentch
-dynasty=1000003
+dynasty=9022
 dna="celldjlekhc"
 culture=kul
 religion=tzeentch
-military=8
+martial=8
 diplomacy=4
 stewardship=1
 intrigue=1
@@ -571,11 +571,11 @@ add_trait="cruel"
 
 200030={
 name="Festus" #Festus the Leechlord, Champion of Nurgle
-dynasty=1000004
+dynasty=9021
 dna="fdoapepnmel"
 culture=nordlander
 religion=nurgle
-military=4
+martial=4
 diplomacy=3
 stewardship=3
 intrigue=4
@@ -590,11 +590,11 @@ add_trait="depressed"
 
 200031={
 name="Wulfrik" #Wulfrik the Wanderer, cursed to wander and fight
-dynasty=1000005
+dynasty=9020
 dna="lkoggljocal"
 culture=kul
 religion=khorne
-military=3
+martial=3
 diplomacy=5
 stewardship=4
 intrigue=4
@@ -607,11 +607,11 @@ add_trait="temperate"
 
 200032={
 name="Arbaal" #Arbaal the Undefeated, Champion of Khorne
-dynasty=1000006
+dynasty=9019
 dna="fmgedbgcfgb"
 culture=kul
 religion=khorne
-military=6
+martial=6
 diplomacy=2
 stewardship=6
 intrigue=3
@@ -623,11 +623,11 @@ add_trait="skilled_tactician"
 
 200033={
 name="Aekold" #Aekold Helbrass, former Templar, Champion of Tzeentch
-dynasty=1000007
+dynasty=9018
 dna="jembphpifpj"
 culture=kul
 religion=tzeentch
-military=4
+martial=4
 diplomacy=4
 stewardship=4
 intrigue=3
@@ -643,11 +643,11 @@ add_trait="greedy"
 200034={
 name="Dechala" #Dechala the Denied One, High Elf princess, now daemon champion of Slaanesh
 female=yes
-dynasty=1000008
+dynasty=9017
 dna="dhcjelhdmbe"
 culture=kul
 religion=slaanesh
-military=5
+martial=5
 diplomacy=4
 stewardship=5
 intrigue=8
@@ -662,11 +662,11 @@ add_trait="greedy"
 
 200035={
 name="Harald" #Harald Hammerstorm, hater of undead
-dynasty=1000009
+dynasty=9016
 dna="hlofikcfidf"
 culture=kul
 religion=chaos
-military=5
+martial=5
 diplomacy=5
 stewardship=4
 intrigue=5
@@ -682,11 +682,11 @@ add_trait="charitable"
 
 200036={
 name="Scyla" #Scyla Anfinngrim, turned to Chaos Spawn
-dynasty=1000000
+dynasty=9015
 dna="haojakgghcj"
 culture=kul
 religion=khorne
-military=2
+martial=2
 diplomacy=2
 stewardship=6
 intrigue=2
@@ -701,12 +701,11 @@ add_trait="wounded"
 
 200037={
 name="Erlock" #Erlock One-Eye, Champion of Khorne, keeper of Scyla
-female=yes
-dynasty=1000000
+dynasty=9014
 dna="jpbgicgjmkn"
 culture=kul
 religion=khorne
-military=4
+martial=4
 diplomacy=0
 stewardship=7
 intrigue=0
@@ -722,11 +721,11 @@ add_trait="leper"
 
 200038={
 name="Thorgar" #Thorgar the Blooded One, general of Asavar Kul
-dynasty=1000000
+dynasty=9013
 dna="beojpglebdb"
 culture=kul
 religion=chaos
-military=4
+martial=4
 diplomacy=2
 stewardship=3
 intrigue=4
@@ -742,11 +741,11 @@ add_trait="temperate"
 
 200039={
 name="Sudobaal" #Sudobaal, sorceror of Tzeentch
-dynasty=1000001
+dynasty=9012
 dna="lkjmmlnjfjf"
 culture=kul
 religion=tzeentch
-military=3
+martial=3
 diplomacy=4
 stewardship=4
 intrigue=3
@@ -762,11 +761,11 @@ add_trait="deceitful"
 
 200040={
 name="Ograx" #Prince Ograx the Great, companion of Archaon, crushed by a dragon ogre
-dynasty=1000009
+dynasty=9011
 dna="hloeikdficf"
 culture=kul
 religion=chaos
-military=5
+martial=5
 diplomacy=5
 stewardship=4
 intrigue=5
@@ -782,11 +781,11 @@ add_trait="charitable"
 
 200041={
 name="Grakthor" #Grakthor Flameaxe invaded the Empire in 2518 and was defeated by the Grand Theogonist
-dynasty=1000001
+dynasty=9010
 dna="kobkakiccil"
 culture=kul
 religion=chaos
-military=3
+martial=3
 diplomacy=6
 stewardship=6
 intrigue=7
@@ -802,11 +801,11 @@ add_trait="just"
 
 200042={
 name="Aelfric" #Aelfric Cyrnwulf, invaded the Empire alongside Surtha Lenk
-dynasty=1000001
+dynasty=9009
 dna="hloeikiccil"
 culture=kul
 religion=tzeentch
-military=3
+martial=3
 diplomacy=6
 stewardship=6
 intrigue=7
@@ -819,13 +818,13 @@ add_trait="just"
 2528.7.28={death=yes}
 }
 
-200031={
+200043={
 name="Kordel" #Kordel Shorgaar, Standard Bearer of the Swords of Chaos
-dynasty=1000001
+dynasty=9008
 dna="lkoeikiccal"
 culture=kul
 religion=chaos
-military=3
+martial=3
 diplomacy=5
 stewardship=4
 intrigue=4
@@ -837,7 +836,7 @@ add_trait="temperate"
 }
 
 
-200032={
+200044={
 name="Khaligudar" #A Tong warlord invading the Chaos Wastes
 dynasty=83015
 culture=tong
@@ -851,10 +850,10 @@ add_trait="brilliant_strategist"
 add_trait="cruel"
 add_trait="wroth"
 add_trait="ambitious"
-father=200039
-mother=200040
+father=200051
+mother=200052
 1960.5.2={birth=yes}
-1978.5.11={add_spouse=200033}
+1978.5.11={add_spouse=200045}
 
 	2010.1.1={
 		# His army
@@ -917,7 +916,7 @@ mother=200040
 2025.5.29={death=yes}
 }
 
-200033={
+200045={
 name="Galdan"
 female=yes
 dynasty=83016
@@ -932,11 +931,11 @@ add_trait="flamboyant_schemer"
 add_trait="wroth"
 add_trait="temperate"
 1945.1.1={birth=yes}
-1978.5.11={add_spouse=200032}
+1978.5.11={add_spouse=200044}
 2017.5.25={death=yes}
 }
 
-200034={
+200046={
 name="Tokur"
 dynasty=83015
 culture=tong
@@ -946,14 +945,14 @@ diplomacy=5
 stewardship=4
 intrigue=6
 learning=8
-father=200032
-mother=200033
+father=200044
+mother=200045
 add_trait="flamboyant_schemer"
 1982.5.22={birth=yes}
 2023.10.5={death=yes}
 }
 
-200035={
+200047={
 name="Eldegai"
 dynasty=83015
 culture=tong
@@ -963,8 +962,8 @@ diplomacy=8
 stewardship=6
 intrigue=6
 learning=4
-father=200032
-mother=200033
+father=200044
+mother=200045
 add_trait="grey_eminence"
 add_trait="charitable"
 add_trait="brave"
@@ -972,7 +971,7 @@ add_trait="brave"
 2031.6.7={death=yes}
 }
 
-200036={
+200048={
 name="Khudukha"
 dynasty=83015
 culture=tong
@@ -982,8 +981,8 @@ diplomacy=0
 stewardship=5
 intrigue=6
 learning=7
-father=200032
-mother=200033
+father=200044
+mother=200045
 add_trait="misguided_warrior"
 add_trait="poet"
 add_trait="content"
@@ -992,7 +991,7 @@ add_trait="slothful"
 2053.4.28={death=yes}
 }
 
-200037={
+200049={
 name="Botokhui-Targhun"
 female=yes
 dynasty=83015
@@ -1003,8 +1002,8 @@ diplomacy=4
 stewardship=6
 intrigue=6
 learning=4
-father=200032
-mother=200033
+father=200044
+mother=200045
 add_trait="skilled_tactician"
 add_trait="brave"
 add_trait="twin"
@@ -1012,7 +1011,7 @@ add_trait="twin"
 2066.2.21={death=yes}
 }
 
-200038={
+200050={
 name="Turakina"
 female=yes
 dynasty=83015
@@ -1023,15 +1022,15 @@ diplomacy=2
 stewardship=1
 intrigue=5
 learning=5
-father=200032
-mother=200033
+father=200044
+mother=200045
 add_trait="grey_eminence"
 add_trait="twin"
 1993.5.21={birth=yes}
 2066.2.21={death=yes}
 }
 
-200039={
+200051={
 name="Toghtoga"
 dynasty=83015
 culture=tong
@@ -1043,11 +1042,11 @@ intrigue=2
 learning=4
 add_trait="grey_eminence"
 1927.2.10={birth=yes}
-1955.6.21={add_spouse=200040}
+1955.6.21={add_spouse=200052}
 1997.6.7={death=yes}
 }
 
-200040={
+200052={
 name="Chulunny"
 female=yes
 dynasty=83017
@@ -1061,11 +1060,11 @@ learning=2
 add_trait="misguided_warrior"
 add_trait="poet"
 1936.2.10={birth=yes}
-1955.6.21={add_spouse=200039}
+1955.6.21={add_spouse=200051}
 2003.4.28={death=yes}
 }
 
-200041={
+200053={
 name="Ozbeg"
 dynasty=83015
 culture=tong
@@ -1075,18 +1074,18 @@ diplomacy=4
 stewardship=3
 intrigue=6
 learning=4
-father=200039
-mother=200040
+father=200051
+mother=200052
 add_trait="skilled_tactician"
 add_trait="patient"
 add_trait="cynical"
 add_trait="drunkard"
 1968.2.23={birth=yes}
-2000.5.22={add_spouse=200042}
+2000.5.22={add_spouse=200054}
 2032.5.14={death=yes}
 }
 
-200042={
+200054={
 name="Adolat"
 female=yes
 dynasty=83018
@@ -1101,11 +1100,11 @@ add_trait="grey_eminence"
 add_trait="brave"
 add_trait="strong"
 1979.2.10={birth=yes}
-2000.5.22={add_spouse=200041}
+2000.5.22={add_spouse=200053}
 2024.6.7={death=yes}
 }
 
-200043={
+200055={
 name="Cirina"
 female=yes
 dynasty=83015
@@ -1116,15 +1115,15 @@ diplomacy=5
 stewardship=5
 intrigue=7
 learning=5
-father=200041
-mother=200042
+father=200053
+mother=200054
 add_trait="grey_eminence"
 add_trait="strong"
 2003.5.20={birth=yes}
 2054.9.25={death=yes}
 }
 
-200044={
+200056={
 name="Hjalmar"
 dynasty=71000
 culture=sartosan_norscan
@@ -1134,7 +1133,7 @@ diplomacy=4
 stewardship=6
 intrigue=6
 learning=3
-add_trait="tough_warrior"
+add_trait="tough_soldier"
 add_trait="patient"
 add_trait="deceitful"
 1985.5.1={birth=yes}

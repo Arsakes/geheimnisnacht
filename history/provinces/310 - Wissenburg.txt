@@ -24,6 +24,6 @@ religion = sigmarite
 	b_halgerbach = temple
 }
 
-250.1.1 = {
+2500.1.1 = {
 	b_liebenzall = city
 }
