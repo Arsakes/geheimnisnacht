@@ -10,7 +10,11 @@ b_stretto = castle
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_astri_vista = temple
+}

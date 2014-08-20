@@ -358,20 +358,20 @@ pretender_modifier = {
 ##########################################################################
 
 castle = {
-	tax_income = 4
-	fort_level = 2
-	build_time_modifier = 730
+	tax_income = 2
+	fort_level = 0
 	light_infantry = 50
-	heavy_infantry = 100
+	archers = 50
+	build_time_modifier = 730
 	build_cost_modifier = 600
 	levy_reinforce_rate = 1.25
 	land_organisation = 0.2
 }
 
 city = {
-	tax_income = 10
+	tax_income = 2
 	fort_level = 0
-	light_infantry = 75
+	light_infantry = 50
 	archers = 50
 	build_cost_modifier = 600
 	build_time_modifier = 730
@@ -380,9 +380,8 @@ city = {
 }
 
 temple = {
-	tax_income = 8
+	tax_income = 2
 	fort_level = 0
-	heavy_infantry = 50
 	light_infantry = 50
 	archers = 50
 	build_cost_modifier = 600
@@ -481,8 +480,6 @@ ungol_culture_modifier = {
         light_infantry_defensive = 0.05
 
 }
-
-
 
 ##########################################################################
 # Age Static Modifiers

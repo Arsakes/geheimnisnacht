@@ -9,7 +9,7 @@ b_kori = castle
 #b_yama = castle
 
 # Misc
-culture = chi_an
+culture = mung
 religion = chaos
 
 

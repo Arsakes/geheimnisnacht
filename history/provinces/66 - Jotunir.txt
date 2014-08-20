@@ -11,7 +11,7 @@ b_durenheim = castle
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History

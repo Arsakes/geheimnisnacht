@@ -9,16 +9,20 @@ b_ostio = castle
 b_remas = city
 b_matermyrmidia = temple
 b_iulio = castle
-b_pompeio = city
+#b_pompeio = city
 #b_crasso = temple
 #b_antonio = castle
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 # History
 
 2390.9.5 = { capital = b_remas }
+
+2500.1.1 = {
+	b_pompeio = city
+}

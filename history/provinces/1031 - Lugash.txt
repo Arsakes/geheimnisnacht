@@ -7,7 +7,7 @@ title = c_lugash
 max_settlements = 4
 b_lugash = castle
 b_elanakir = city
-b_xaun = temple
+#b_xaun = temple
 #b_bismiya = city
 
 # Misc
@@ -16,3 +16,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_xaun = temple
+}

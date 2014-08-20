@@ -7,10 +7,10 @@ title = c_itj_tawy
 max_settlements = 3
 b_itj_tawy = castle
 b_weryt = city
-b_mitani = temple
+#b_mitani = temple
 
 # Misc
-culture = khemrian
+culture = nehekharan
 religion = nehekharan_gods
 
 

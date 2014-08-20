@@ -4,10 +4,11 @@
 title = c_friedmark
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 b_sokh = castle
 b_brass_keep = castle
 #b_friedberg = city
+#b_wahnsinningen = temple
 
 # Misc
 culture = hochlander

@@ -7,14 +7,19 @@ title = c_pavona
 max_settlements = 5
 b_pavona = castle
 b_san_lannoio = city
-#b_capona = temple
+b_capona = temple
 #b_lanseco = castle
 #b_raghetti = city
 
 # Misc
 culture = umbrian
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2500.1.1 = {
+	b_lanseco = castle
+}
+

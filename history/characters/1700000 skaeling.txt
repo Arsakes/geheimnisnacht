@@ -1,311 +1,291 @@
 1700000={
-name = "Arnóra"
-female = yes
-dynasty = 58005
-culture = skaeling
-religion = norse
-martial = 5
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "intricate_webweaver"
+name="Arnóra"
+female=yes
+dynasty=58005
+culture=skaeling
+religion=norscan_gods
+martial=5
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="intricate_webweaver"
 add_trait="gregarious"
 add_trait="honest"
 add_trait="craven"
 
-1990.9.22={birth="1990.9.22"}
-2024.10.8={death="2024.10.8"}
+1990.9.22={birth=yes}
+2024.10.8={death=yes}
 }
 
 1700001={
-name = "Jóra"
-female = yes
-dynasty = 58004
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 9
-stewardship = 0
-intrigue = 5
-learning = 9
-add_trait = "hunter"
-add_trait = "mastermind_theologian"
+name="Jóra"
+female=yes
+dynasty=58004
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=9
+stewardship=0
+intrigue=5
+learning=9
+add_trait="hunter"
+add_trait="mastermind_theologian"
 add_trait="greedy"
 
-1982.12.17={birth="1982.12.17"}
-2030.8.9={death="2030.8.9"}
+1982.12.17={birth=yes}
+2030.8.9={death=yes}
 }
 
 1700002={
-name = "Úlfrún"
-female = yes
-dynasty = 58003
-culture = skaeling
-religion = norse
-martial = 7
-diplomacy = 8
-stewardship = 0
-intrigue = 9
-learning = 8
-add_trait = "duelist"
-add_trait = "elusive_shadow"
+name="Úlfrún"
+female=yes
+dynasty=58003
+culture=skaeling
+religion=norscan_gods
+martial=7
+diplomacy=8
+stewardship=0
+intrigue=9
+learning=8
+add_trait="duelist"
+add_trait="elusive_shadow"
 
 add_trait="kind"
 add_trait="weak"
 
-1967.10.18={birth="1967.10.18"}
-2067.10.5={death="2067.10.5"}
+1967.10.18={birth=yes}
+2067.10.5={death=yes}
 }
 
 1700003={
-name = "Þorbrandr"
-dynasty = 58002
-culture = skaeling
-religion = norse
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 5
-learning = 9
-add_trait = "mystic"
-add_trait = "intricate_webweaver"
-
+name="Þorbrandr"
+dynasty=58002
+culture=skaeling
+religion=norscan_gods
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=5
+learning=9
+add_trait="mystic"
+add_trait="intricate_webweaver"
 add_trait="cruel"
 add_trait="temperate"
-
-1973.6.16={birth="1973.6.16"}
-2028.7.16={death="2028.7.16"}
+1973.6.16={birth=yes}
+2028.7.16={death=yes}
 }
 
 1700004={
-name = "Starkaðr"
-dynasty = 58001
-culture = skaeling
-religion = norse
-martial = 2
-diplomacy = 3
-stewardship = 1
-intrigue = 8
-learning = 1
-add_trait = "mystic"
-add_trait = "naive_appeaser"
-add_trait="chaste"
-add_trait="tall"
+name="Starkaðr"
+dynasty=58001
+culture=skaeling
+religion=norscan_gods
+martial=2
+diplomacy=3
+stewardship=1
+intrigue=8
+learning=1
+add_trait="mystic"
+add_trait="naive_appeaser"
 add_trait="humble"
-
-1958.8.27={birth="1958.8.27"}
-2058.8.18={death="2058.8.18"}
+1958.8.27={birth=yes}
+2058.8.18={death=yes}
 }
 
 1700005={
-name = "Sæmundr"
-dynasty = 58010
-culture = skaeling
-religion = norse
-martial = 5
-diplomacy = 4
-stewardship = 2
-intrigue = 5
-learning = 6
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Sæmundr"
+dynasty=58010
+culture=skaeling
+religion=norscan_gods
+martial=5
+diplomacy=4
+stewardship=2
+intrigue=5
+learning=6
+add_trait="scholar"
+add_trait="detached_priest"
 add_trait="trusting"
 add_trait="content"
 add_trait="wroth"
 
-1973.2.11={birth="1973.2.11"}
-2055.10.20={death="2055.10.20"}
+1973.2.11={birth=yes}
+2055.10.20={death=yes}
 }
 
 1700006={
-name = "Kiallakr"
-dynasty = 58021
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 2
-stewardship = 11
-intrigue = 9
-learning = 1
-add_trait = "amateurish_plotter"
-
-add_trait="ill"
-
-1953.7.30={birth="1953.7.30"}
-2015.6.23={death="2015.6.23"}
+name="Kiallakr"
+dynasty=58021
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=2
+stewardship=11
+intrigue=9
+learning=1
+add_trait="amateurish_plotter"
+1953.7.30={birth=yes}
+2015.6.23={death=yes}
 }
 
 1700007={
-name = "Guðlaug"
-female = yes
-dynasty = 58022
-culture = skaeling
-religion = norse
-martial = 10
-diplomacy = 9
-stewardship = 4
-intrigue = 1
-learning = 7
-add_trait = "falconer"
-add_trait = "detached_priest"
+name="Guðlaug"
+female=yes
+dynasty=58022
+culture=skaeling
+religion=norscan_gods
+martial=10
+diplomacy=9
+stewardship=4
+intrigue=1
+learning=7
+add_trait="falconer"
+add_trait="detached_priest"
 add_trait="drunkard"
-
-
-
-2002.5.19={birth="2002.5.19"}
-2030.11.22={death="2030.11.22"}
+2002.5.19={birth=yes}
+2030.11.22={death=yes}
 }
 
 1700008={
-name = "Elin"
-female = yes
-dynasty = 58015
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 7
-stewardship = 0
-intrigue = 8
-learning = 10
-add_trait = "hunter"
-add_trait = "mastermind_theologian"
+name="Elin"
+female=yes
+dynasty=58015
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=7
+stewardship=0
+intrigue=8
+learning=10
+add_trait="hunter"
+add_trait="mastermind_theologian"
 add_trait="legit_bastard"
 add_trait="lustful"
-
-2001.5.21={birth="2001.5.21"}
-2056.1.21={death="2056.1.21"}
+2001.5.21={birth=yes}
+2056.1.21={death=yes}
 }
 
 1700009={
-name = "Kraka"
-female = yes
-dynasty = 58012
-culture = skaeling
-religion = norse
-martial = 3
-diplomacy = 4
-stewardship = 5
-intrigue = 4
-learning = 9
-add_trait = "gardener"
-add_trait = "underhanded_rogue"
+name="Kraka"
+female=yes
+dynasty=58012
+culture=skaeling
+religion=norscan_gods
+martial=3
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=9
+add_trait="gardener"
+add_trait="underhanded_rogue"
 add_trait="lisp"
 
-1990.12.16={birth="1990.12.16"}
-2021.9.18={death="2021.9.18"}
+1990.12.16={birth=yes}
+2021.9.18={death=yes}
 }
 
 1700010={
-name = "Thórir"
-dynasty = 58014
-culture = skaeling
-religion = norse
-martial = 2
-diplomacy = 7
-stewardship = 4
-intrigue = 4
-learning = 9
-add_trait = "falconer"
-add_trait = "indulgent_wastrel"
+name="Thórir"
+dynasty=58014
+culture=skaeling
+religion=norscan_gods
+martial=2
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=9
+add_trait="falconer"
+add_trait="indulgent_wastrel"
 
 1985.4.18={birth=yes}
 2028.5.30={death=yes}
 }
 
 1700011={
-name = "Steinþórr"
-dynasty = 58017
-culture = skaeling
-religion = norse
-martial = 9
-diplomacy = 7
-stewardship = 5
-intrigue = 3
-learning = 5
-add_trait = "gardener"
-add_trait = "midas_touched"
-add_trait="homosexual"
-
+name="Steinþórr"
+dynasty=58017
+culture=skaeling
+religion=norscan_gods
+martial=9
+diplomacy=7
+stewardship=5
+intrigue=3
+learning=5
+add_trait="gardener"
+add_trait="midas_touched"
 add_trait="strong"
-
 1992.5.24={birth=yes}
 2046.4.23={death=yes}
 }
 
 1700012={
-name = "Hrói"
-dynasty = 58019
-culture = skaeling
-religion = norse
-martial = 3
-diplomacy = 5
-stewardship = 7
-intrigue = 2
-learning = 8
-add_trait = "poet"
-add_trait = "flamboyant_schemer"
-
+name="Hrói"
+dynasty=58019
+culture=skaeling
+religion=norscan_gods
+martial=3
+diplomacy=5
+stewardship=7
+intrigue=2
+learning=8
+add_trait="poet"
+add_trait="flamboyant_schemer"
 add_trait="envious"
 add_trait="fair"
-
 1966.11.26={birth=yes}
 2023.7.29={death=yes}
 }
 
 1700013={
-name = "Hafliótr"
-dynasty = 58023
-culture = skaeling
-religion = norse
-martial = 9
-diplomacy = 6
-stewardship = 6
-intrigue = 1
-learning = 0
-add_trait = "mystic"
-add_trait = "martial_cleric"
-add_trait="slothful"
+name="Hafliótr"
+dynasty=58023
+culture=skaeling
+religion=norscan_gods
+martial=9
+diplomacy=6
+stewardship=6
+intrigue=1
+learning=0
+add_trait="mystic"
+add_trait="martial_cleric"
 add_trait="diligent"
 add_trait="shy"
-
 1985.6.2={birth=yes}
 2015.11.16={death=yes}
 }
 
 1700014={
-name = "Bolli"
-dynasty = 58025
-culture = skaeling
-religion = norse
-martial = 8
-diplomacy = 8
-stewardship = 7
-intrigue = 3
-learning = 10
-add_trait = "hedonist"
-add_trait = "mastermind_theologian"
+name="Bolli"
+dynasty=58025
+culture=skaeling
+religion=norscan_gods
+martial=8
+diplomacy=8
+stewardship=7
+intrigue=3
+learning=10
+add_trait="hedonist"
+add_trait="mastermind_theologian"
 add_trait="proud"
 add_trait="patient"
 add_trait="arbitrary"
-
 1995.3.24={birth=yes}
 2026.10.19={death=yes}
 }
 
 1700015={
-name = "Arngrimr"
-dynasty = 58026
-culture = skaeling
-religion = norse
-martial = 9
-diplomacy = 1
-stewardship = 9
-intrigue = 5
-learning = 8
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
+name="Arngrimr"
+dynasty=58026
+culture=skaeling
+religion=norscan_gods
+martial=9
+diplomacy=1
+stewardship=9
+intrigue=5
+learning=8
+add_trait="duelist"
+add_trait="underhanded_rogue"
 add_trait="just"
 add_trait="ambitious"
 add_trait="zealous"
@@ -315,17 +295,17 @@ add_trait="zealous"
 }
 
 1700016={
-name = "Geitir"
-dynasty = 58028
-culture = skaeling
-religion = norse
-martial = 8
-diplomacy = 1
-stewardship = 6
-intrigue = 5
-learning = 3
-add_trait = "gardener"
-add_trait = "flamboyant_schemer"
+name="Geitir"
+dynasty=58028
+culture=skaeling
+religion=norscan_gods
+martial=8
+diplomacy=1
+stewardship=6
+intrigue=5
+learning=3
+add_trait="gardener"
+add_trait="flamboyant_schemer"
 add_trait="cynical"
 add_trait="gregarious"
 add_trait="kind"
@@ -335,17 +315,17 @@ add_trait="kind"
 }
 
 1700017={
-name = "Kýlan"
-dynasty = 58027
-culture = skaeling
-religion = ulrican
-martial = 0
-diplomacy = 0
-stewardship = 11
-intrigue = 6
-learning = 9
-add_trait = "scholar"
-add_trait = "charismatic_negotiator"
+name="Kýlan"
+dynasty=58027
+culture=skaeling
+religion=ulrican
+martial=0
+diplomacy=0
+stewardship=11
+intrigue=6
+learning=9
+add_trait="scholar"
+add_trait="charismatic_negotiator"
 add_trait="zealous"
 add_trait="paranoid"
 add_trait="greedy"
@@ -355,17 +335,17 @@ add_trait="greedy"
 }
 
 1700018={
-name = "Hróðólfr"
-dynasty = 58029
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 10
-stewardship = 11
-intrigue = 6
-learning = 8
-add_trait = "mystic"
-add_trait = "tough_soldier"
+name="Hróðólfr"
+dynasty=58029
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=10
+stewardship=11
+intrigue=6
+learning=8
+add_trait="mystic"
+add_trait="tough_soldier"
 add_trait="honest"
 
 1956.6.8={birth=yes}
@@ -373,18 +353,18 @@ add_trait="honest"
 }
 
 1700019={
-name = "Sif"
-female = yes
-dynasty = 58030
-culture = skaeling
-religion = norse
-martial = 7
-diplomacy = 2
-stewardship = 0
-intrigue = 5
-learning = 6
-add_trait = "impaler"
-add_trait = "mastermind_theologian"
+name="Sif"
+female=yes
+dynasty=58030
+culture=skaeling
+religion=norscan_gods
+martial=7
+diplomacy=2
+stewardship=0
+intrigue=5
+learning=6
+add_trait="impaler"
+add_trait="mastermind_theologian"
 add_trait="weak"
 add_trait="tall"
 add_trait="cruel"
@@ -394,292 +374,292 @@ add_trait="cruel"
 }
 
 1700020={
-name = "Yngwulf"
-dynasty = 58110
-dna = "heoabebanfl"
-culture = skaeling
-religion = norse
-martial = 4
-diplomacy = 2
-stewardship = 2
-intrigue = 6
-learning = 4
-add_trait = "thrifty_clerk"
-add_trait = "duelist"
-add_trait = "just"
-add_trait = "brave"
-add_trait = "ambitious"
+name="Yngwulf"
+dynasty=58110
+dna="heoabebanfl"
+culture=skaeling
+religion=norscan_gods
+martial=4
+diplomacy=2
+stewardship=2
+intrigue=6
+learning=4
+add_trait="thrifty_clerk"
+add_trait="duelist"
+add_trait="just"
+add_trait="brave"
+add_trait="ambitious"
 2479.1.1={birth=yes}
 2529.1.27={death=yes}
 }
 
 1700021={
-name = "Hinrik"
-dynasty = 58111
-dna = "dlpdfcfdmib"
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 3
-stewardship = 3
-intrigue = 6
-learning = 1
-add_trait = "intricate_webweaver"
-add_trait = "envious"
+name="Hinrik"
+dynasty=58111
+dna="dlpdfcfdmib"
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=3
+stewardship=3
+intrigue=6
+learning=1
+add_trait="intricate_webweaver"
+add_trait="envious"
 2424.9.1={birth=yes}
 2481.11.3={death=yes}
 }
 
 1700022={
-name = "Svanr"
-dynasty = 58111
-dna = "fbjcagmaijb"
-culture = skaeling
-religion = norse
-martial = 5
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 0
-father = 1700021
-add_trait = "flamboyant_schemer"
-add_trait = "lustful"
+name="Svanr"
+dynasty=58111
+dna="fbjcagmaijb"
+culture=skaeling
+religion=norscan_gods
+martial=5
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=0
+father=1700021
+add_trait="flamboyant_schemer"
+add_trait="lustful"
 2444.3.1={birth=yes}
 2505.10.18={death=yes}
 }
 
 1700023={
-name = "Hinrik"
-dynasty = 58111
-dna = "fchgaecladn"
-culture = skaeling
-religion = norse
-martial = 3
-diplomacy = 7
-stewardship = 2
-intrigue = 3
-learning = 3
-father = 1700022
-add_trait = "flamboyant_schemer"
-add_trait = "content"
+name="Hinrik"
+dynasty=58111
+dna="fchgaecladn"
+culture=skaeling
+religion=norscan_gods
+martial=3
+diplomacy=7
+stewardship=2
+intrigue=3
+learning=3
+father=1700022
+add_trait="flamboyant_schemer"
+add_trait="content"
 2462.1.1={birth=yes}
 2515.2.13={death=yes}
 }
 
 1700024={
-name = "Hinrik"
-dynasty = 58111
-dna = "epcpenpfeka"
-culture = skaeling
-religion = norse
-martial = 2
-diplomacy = 4
-stewardship = 6
-intrigue = 3
-learning = 5
-father = 1700023
-add_trait = "misguided_warrior"
-add_trait = "ambitious"
-add_trait = "humble"
-add_trait = "charitable"
+name="Hinrik"
+dynasty=58111
+dna="epcpenpfeka"
+culture=skaeling
+religion=norscan_gods
+martial=2
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=5
+father=1700023
+add_trait="misguided_warrior"
+add_trait="ambitious"
+add_trait="humble"
+add_trait="charitable"
 2488.5.1={birth=yes}
 2545.4.22={death=yes}
 }
 
 1700025={
-name = "Dalla"
-female = yes
-dynasty = 58111
-dna = "piambmlgplm"
-culture = skaeling
-religion = norse
-martial = 6
-diplomacy = 4
-stewardship = 5
-intrigue = 4
-learning = 4
-father = 1700024
-add_trait = "elusive_shadow"
-add_trait = "hunter"
-add_trait = "greedy"
-add_trait = "deceitful"
-add_trait = "lustful"
-add_trait = "diligent"
+name="Dalla"
+female=yes
+dynasty=58111
+dna="piambmlgplm"
+culture=skaeling
+religion=norscan_gods
+martial=6
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=4
+father=1700024
+add_trait="elusive_shadow"
+add_trait="hunter"
+add_trait="greedy"
+add_trait="deceitful"
+add_trait="lustful"
+add_trait="diligent"
 2509.7.1={birth=yes}
 2565.8.14={death=yes}
 }
 
 1700026={
-name = "Hinrik"
-dynasty = 58111
-dna = "akfbpeebojf"
-culture = skaeling
-religion = norse
-martial = 4
-diplomacy = 3
-stewardship = 5
-intrigue = 2
-learning = 4
-father = 1700024
-add_trait = "flamboyant_schemer"
-add_trait = "scholar"
-add_trait = "patient"
-add_trait = "lustful"
-add_trait = "diligent"
-add_trait = "proud"
+name="Hinrik"
+dynasty=58111
+dna="akfbpeebojf"
+culture=skaeling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=4
+father=1700024
+add_trait="flamboyant_schemer"
+add_trait="scholar"
+add_trait="patient"
+add_trait="lustful"
+add_trait="diligent"
+add_trait="proud"
 2513.5.1={birth=yes}
 2577.6.10={death=yes}
 }
 
 1700027={
-name = "Ivar"
-dynasty = 58111
-dna = "npcjpcpjclj"
-culture = skaeling
-religion = norse
-martial = 3
-diplomacy = 3
-stewardship = 7
-intrigue = 6
-learning = 5
-father = 1700024
-add_trait = "skilled_tactician"
-add_trait = "cynical"
+name="Ivar"
+dynasty=58111
+dna="npcjpcpjclj"
+culture=skaeling
+religion=norscan_gods
+martial=3
+diplomacy=3
+stewardship=7
+intrigue=6
+learning=5
+father=1700024
+add_trait="skilled_tactician"
+add_trait="cynical"
 2518.5.1={birth=yes}
 2586.5.2={death=yes}
 }
 
 1700028={
-name = "Æsa"
-female = yes
-dynasty = 58111
-dna = "lgnphmnkbni"
-culture = skaeling
-religion = norse
-martial = 7
-diplomacy = 2
-stewardship = 4
-intrigue = 2
-learning = 2
-father = 1700022
-add_trait = "misguided_warrior"
+name="Æsa"
+female=yes
+dynasty=58111
+dna="lgnphmnkbni"
+culture=skaeling
+religion=norscan_gods
+martial=7
+diplomacy=2
+stewardship=4
+intrigue=2
+learning=2
+father=1700022
+add_trait="misguided_warrior"
 2464.9.1={birth=yes}
 2527.11.23={death=yes}
 }
 
 1700029={
-name = "Dís"
-female = yes
-dynasty = 58111
-dna = "afkcjffokhh"
-culture = skaeling
-religion = norse
-martial = 5
-diplomacy = 4
-stewardship = 7
-intrigue = 5
-learning = 4
-mother = 1700028
-add_trait = "elusive_shadow"
-add_trait = "hunter"
+name="Dís"
+female=yes
+dynasty=58111
+dna="afkcjffokhh"
+culture=skaeling
+religion=norscan_gods
+martial=5
+diplomacy=4
+stewardship=7
+intrigue=5
+learning=4
+mother=1700028
+add_trait="elusive_shadow"
+add_trait="hunter"
 2488.9.1={birth=yes}
 2562.1.12={death=yes}
 }
 
 1700030={
-name = "Leif"
-dynasty = 58111
-dna = "lookkaienig"
-culture = skaeling
-religion = norse
-martial = 4
-diplomacy = 7
-stewardship = 2
-intrigue = 7
-learning = 7
-mother = 1700028
-add_trait = "naive_appeaser"
-add_trait = "drunkard"
+name="Leif"
+dynasty=58111
+dna="lookkaienig"
+culture=skaeling
+religion=norscan_gods
+martial=4
+diplomacy=7
+stewardship=2
+intrigue=7
+learning=7
+mother=1700028
+add_trait="naive_appeaser"
+add_trait="drunkard"
 2497.1.1={birth=yes}
 2576.10.23={death=yes}
 }
 
 1700031={
-name = "Ásvor"
-female = yes
-dynasty = 58111
-dna = "alnkfikdijd"
-culture = skaeling
-religion = norse
-martial = 4
-diplomacy = 5
-stewardship = 2
-intrigue = 1
-learning = 3
-mother = 1700028
-add_trait = "underhanded_rogue"
-add_trait = "diligent"
+name="Ásvor"
+female=yes
+dynasty=58111
+dna="alnkfikdijd"
+culture=skaeling
+religion=norscan_gods
+martial=4
+diplomacy=5
+stewardship=2
+intrigue=1
+learning=3
+mother=1700028
+add_trait="underhanded_rogue"
+add_trait="diligent"
 2507.5.1={birth=yes}
 2564.1.5={death=yes}
 }
 
 1700032={
-name = "Hinrik"
-dynasty = 58111
-dna = "ljggbfeifmd"
-culture = skaeling
-religion = norse
-martial = 1
-diplomacy = 4
-stewardship = 3
-intrigue = 2
-learning = 4
-father = 1700022
-add_trait = "flamboyant_schemer"
-add_trait = "gregarious"
-add_trait = "cruel"
-add_trait = "deceitful"
+name="Hinrik"
+dynasty=58111
+dna="ljggbfeifmd"
+culture=skaeling
+religion=norscan_gods
+martial=1
+diplomacy=4
+stewardship=3
+intrigue=2
+learning=4
+father=1700022
+add_trait="flamboyant_schemer"
+add_trait="gregarious"
+add_trait="cruel"
+add_trait="deceitful"
 2470.1.1={birth=yes}
 2521.6.22={death=yes}
 }
 
 1700033={
-name = "Bothildr"
-female = yes
-dynasty = 58086
-dna = "lgmhkfeloej"
-culture = skaeling
-religion = norse
-martial = 4
-diplomacy = 6
-stewardship = 5
-intrigue = 4
-learning = 1
-father = 1700032
-add_trait = "fortune_builder"
-add_trait = "content"
+name="Bothildr"
+female=yes
+dynasty=58086
+dna="lgmhkfeloej"
+culture=skaeling
+religion=norscan_gods
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=4
+learning=1
+father=1700032
+add_trait="fortune_builder"
+add_trait="content"
 2493.1.1={birth=yes}
 2538.11.14={death=yes}
 }
 
 1700034={
-name = "Oddleif"
-female = yes
-dynasty = 58111
-dna = "cljobdagfme"
-culture = skaeling
-religion = norse
-martial = 1
-diplomacy = 5
-stewardship = 1
-intrigue = 4
-learning = 3
-father = 1700032
-add_trait = "fortune_builder"
-add_trait = "impaler"
-add_trait = "deceitful"
-add_trait = "greedy"
-add_trait = "wroth"
+name="Oddleif"
+female=yes
+dynasty=58111
+dna="cljobdagfme"
+culture=skaeling
+religion=norscan_gods
+martial=1
+diplomacy=5
+stewardship=1
+intrigue=4
+learning=3
+father=1700032
+add_trait="fortune_builder"
+add_trait="impaler"
+add_trait="deceitful"
+add_trait="greedy"
+add_trait="wroth"
 2510.11.1={birth=yes}
 2577.3.26={death=yes}
 }

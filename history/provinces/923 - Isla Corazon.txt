@@ -1,5 +1,5 @@
 #923 Isla Corazón
-#County Title
+
 title = c_isla_corazon
 
 #Settlements
@@ -9,6 +9,6 @@ b_fort_wilheimsdok = castle
 
 #Misc
 culture = westerlander
-religion = sigmarite
+religion = manannite
 
 #History

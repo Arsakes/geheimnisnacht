@@ -6,7 +6,7 @@ title = c_chalde
 # Settlements
 max_settlements = 2
 b_chalde = castle
-#b_sipraa = city
+#b_sipraa = temple
 
 # Misc
 culture = goblin_main

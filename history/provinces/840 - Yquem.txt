@@ -12,7 +12,7 @@ b_chapelle_la_dame = temple
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

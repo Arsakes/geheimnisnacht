@@ -11,7 +11,7 @@ b_kraka_dunkor = castle
 
 # Misc
 culture = dwarf_norse
-religion = ancestor_gods
+religion = norse_ancestor_gods
 
 
 # History

@@ -7,7 +7,7 @@ title = c_pigbarter
 max_settlements = 5
 b_pigbarter = castle
 b_runtspike = city
-b_ogrik = city
+b_ogrik = temple
 #b_harad = temple
 #b_eksfoldom = castle
 

@@ -14,9 +14,13 @@ b_chaglev = city
 #b_lynskdok = city
 
 # Misc
-culture = gospodar
+culture = ungol
 religion = northern_gods
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_ivanovo = temple
+}

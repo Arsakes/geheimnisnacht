@@ -14,19 +14,17 @@ b_tempelwijk = temple
 #b_ostmuur = temple
 #b_oudgeldwijk = city
 #b_doodkanaal = city
-#b_kruiersmuur = castle
-#b_goudberg = castle
-#b_paleisbuurt = temple
-#b_handelaarmarkt = city
-#b_noordmuur = temple
-#b_vlakland = city
 
 # Misc
 culture = westerlander
-religion = sigmarite
+religion = manannite
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_suiddock = city
+}
 
 2302.7.23 = { capital = b_winkelmarkt }

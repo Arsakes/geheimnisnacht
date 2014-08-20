@@ -9,7 +9,7 @@ b_mundus = castle
 b_exitus = temple
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 

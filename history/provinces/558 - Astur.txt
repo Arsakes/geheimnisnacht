@@ -1,16 +1,20 @@
 #558 Cordobra
-#County Title
+
 title = c_cordobra
 
 #Settlements
 max_settlements = 4
 b_cordobra = castle
 b_pebala = city
-b_vocamo = city
+#b_vocamo = temple
 #b_contiva = temple
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_vocamo = temple
+}

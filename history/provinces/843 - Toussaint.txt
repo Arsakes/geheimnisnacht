@@ -12,7 +12,7 @@ b_chablis = city
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

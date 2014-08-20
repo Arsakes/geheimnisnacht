@@ -9,7 +9,7 @@ b_mador = castle
 #b_nedhri = temple
 
 # Misc
-culture = kvellig
+culture = gharhar
 religion = chaos
 
 

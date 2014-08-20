@@ -7,7 +7,7 @@ necromantic_group = {
 		graphical_culture = westerngfx
 
 		icon = 15
-		color = { 0.5 0.1 0.1 }
+		color = { 0.6 0.1 0.1 }
 		god_names = {
 			GOD_THE_BLOOD
 		}
@@ -20,8 +20,8 @@ necromantic_group = {
 		scripture_name = THE_BLOOD
 		
 		priests_can_marry = yes
+		allow_rivermovement = no
 		female_temple_holders = yes
-		feminist = yes
 		max_consorts = 3
 		can_hold_temples = yes
 	}

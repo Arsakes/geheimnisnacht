@@ -7,7 +7,7 @@ title = c_kazad_urkbavak
 max_settlements = 5
 b_kazad_urkbavak = castle
 b_kazak_tonadol = city
-b_khadimar = temple
+#b_khadimar = temple
 #b_paragromag = castle
 #b_galt_dum = city
 
@@ -19,3 +19,7 @@ terrain = mountain_pass
 
 
 # History
+
+2250.1.1 = {
+	b_khadimar = temple
+}

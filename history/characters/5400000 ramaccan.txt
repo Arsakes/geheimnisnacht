@@ -1,15 +1,15 @@
 5400000={
-name = "Abu-Bakr"
-dynasty = 321
-culture = ramaccan
-religion = ormazd
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Abu-Bakr"
+dynasty=47002
+culture=ramaccan
+religion=ormazd
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 5400001={
-name = "Jawdat"
-dynasty = 340
-culture = ramaccan
-religion = ormazd
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Jawdat"
+dynasty=47003
+culture=ramaccan
+religion=ormazd
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 5400002={
-name = "Ghiyasaddin"
-dynasty = 351
-culture = ramaccan
-religion = ormazd
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Ghiyasaddin"
+dynasty=47004
+culture=ramaccan
+religion=ormazd
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 5400003={
-name = "Athanasios"
-dynasty = 325
-culture = ramaccan
-religion = ormazd
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Athanasios"
+dynasty=47005
+culture=ramaccan
+religion=ormazd
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,17 @@ add_trait="wroth"
 }
 
 5400004={
-name = "Ilyas"
-dynasty = 325
-culture = ramaccan
-religion = ormazd
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Ilyas"
+dynasty=47006
+culture=ramaccan
+religion=ormazd
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +99,17 @@ add_trait="humble"
 }
 
 5400005={
-name = "Da’oud"
-dynasty = 325
-culture = ramaccan
-religion = ormazd
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Da'oud"
+dynasty=47007
+culture=ramaccan
+religion=ormazd
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -119,17 +119,17 @@ add_trait="ill"
 }
 
 5400006={
-name = "Jalaaladdin"
-dynasty = 325
-culture = ramaccan
-religion = ormazd
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Jalaaladdin"
+dynasty=47008
+culture=ramaccan
+religion=ormazd
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -138,17 +138,17 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 5400007={
-name = "Firuz"
-dynasty = 329
-culture = ramaccan
-religion = ormazd
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Firuz"
+dynasty=47009
+culture=ramaccan
+religion=ormazd
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -158,19 +158,17 @@ add_trait="lustful"
 }
 
 5400008={
-name = "Khalil"
-dynasty = 359
-culture = ramaccan
-religion = ormazd
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
-
-add_trait="legit_bastard"
+name="Khalil"
+dynasty=47010
+culture=ramaccan
+religion=ormazd
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="drunkard"
 
 1986.5.30={birth=yes}
@@ -178,57 +176,49 @@ add_trait="drunkard"
 }
 
 5400009={
-name = "Adnan"
-dynasty = 344
-culture = ramaccan
-religion = ormazd
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
-
-add_trait="homosexual"
-add_trait="lisp"
-
+name="Adnan"
+dynasty=47011
+culture=ramaccan
+religion=ormazd
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 1959.9.12={birth=yes}
 2030.2.19={death=yes}
 }
 
 5400010={
-name = "Abianos"
-dynasty = 359
-culture = ramaccan
-religion = ormazd
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
-
-
-
-
+name="Abianos"
+dynasty=47012
+culture=ramaccan
+religion=ormazd
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 5400011={
-name = "Hakam"
-dynasty = 324
-culture = ramaccan
-religion = ormazd
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Hakam"
+dynasty=47013
+culture=ramaccan
+religion=ormazd
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -238,17 +228,17 @@ add_trait="fair"
 }
 
 5400012={
-name = "Agathos"
-dynasty = 336
-culture = ramaccan
-religion = ormazd
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Agathos"
+dynasty=47014
+culture=ramaccan
+religion=ormazd
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -258,17 +248,17 @@ add_trait="envious"
 }
 
 5400013={
-name = "Qadir"
-dynasty = 323
-culture = ramaccan
-religion = ormazd
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Qadir"
+dynasty=47015
+culture=ramaccan
+religion=ormazd
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -278,17 +268,17 @@ add_trait="shy"
 }
 
 5400014={
-name = "Zakariyah"
-dynasty = 348
-culture = ramaccan
-religion = ormazd
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Zakariyah"
+dynasty=47016
+culture=ramaccan
+religion=ormazd
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -298,17 +288,17 @@ add_trait="strong"
 }
 
 5400015={
-name = "Ghiyasaddin"
-dynasty = 347
-culture = ramaccan
-religion = ormazd
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Ghiyasaddin"
+dynasty=47017
+culture=ramaccan
+religion=ormazd
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -318,17 +308,17 @@ add_trait="cynical"
 }
 
 5400016={
-name = "Khalil"
-dynasty = 329
-culture = ramaccan
-religion = ormazd
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Khalil"
+dynasty=47018
+culture=ramaccan
+religion=ormazd
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -338,17 +328,17 @@ add_trait="honest"
 }
 
 5400017={
-name = "Milad"
-dynasty = 322
-culture = ramaccan
-religion = ormazd
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Milad"
+dynasty=47019
+culture=ramaccan
+religion=ormazd
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -358,37 +348,33 @@ add_trait="greedy"
 }
 
 5400018={
-name = "Jawdat"
-dynasty = 330
-culture = ramaccan
-religion = ormazd
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
-
-add_trait = "midas_touched"
-
+name="Jawdat"
+dynasty=47020
+culture=ramaccan
+religion=ormazd
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
+add_trait="midas_touched"
 add_trait="kind"
-
-
 1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 
 5400019={
-name = "Ezra"
-dynasty = 355
-culture = ramaccan
-religion = ormazd
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Ezra"
+dynasty=47021
+culture=ramaccan
+religion=ormazd
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"

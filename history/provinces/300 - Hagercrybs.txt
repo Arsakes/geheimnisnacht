@@ -5,7 +5,7 @@ title = c_hagercrybs
 
 # Settlements
 max_settlements = 3
-b_wetzler = city
+b_wetzler = castle
 b_wiehl = temple
 #b_marktlehuen = city
 

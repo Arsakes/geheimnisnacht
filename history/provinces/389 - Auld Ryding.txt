@@ -6,7 +6,7 @@ title = c_auld_ryding
 # Settlements
 max_settlements = 4
 b_stoodhof = castle
-b_maylhof = temple
+#b_maylhof = temple
 #b_averridge = city
 #b_geihselhoff = temple
 
@@ -18,3 +18,11 @@ religion = vampiric
 # History
 
 2155.1.1 = { religion = sigmarite }
+
+2250.1.1 = {
+	b_maylhof = temple
+}
+
+2500.1.1 = {
+	b_averridge = city
+}

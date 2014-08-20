@@ -1,26 +1,79 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-nick_the_fine;The Fine;;;;;;;;;;;;;x
-nick_the_monumentally_cruel;The Monumentally Cruel;;;;;;;;;;;;;x
-nick_the_incompetent;The Incompetent;;;;;;;;;;;;;x
-nick_the_lawgiver;The Lawgiver;;;;;;;;;;;;;x
-nick_the_furious;The Furious;;;;;;;;;;;;;x
-nick_the_opulent;The Opulent;;;;;;;;;;;;;x
-nick_skavenslayer;Skavenslayer;;;;;;;;;;;;;x
-nick_the_unjust;The Unjust;;;;;;;;;;;;;x
-nick_the_stout;The Stout;;;;;;;;;;;;;x
-nick_the_lawless;The Lawless;;;;;;;;;;;;;x
+nick_the_fine;the Fine;;;;;;;;;;;;;x
+nick_the_monumentally_cruel;the Monumentally Cruel;;;;;;;;;;;;;x
+nick_the_incompetent;the Incompetent;;;;;;;;;;;;;x
+nick_the_lawgiver;the Lawgiver;;;;;;;;;;;;;x
+nick_the_furious;the Furious;;;;;;;;;;;;;x
+nick_the_opulent;the Opulent;;;;;;;;;;;;;x
+nick_the_unjust;the Unjust;;;;;;;;;;;;;x
+nick_the_stout;the Stout;;;;;;;;;;;;;x
+nick_the_lawless;the Lawless;;;;;;;;;;;;;x
 nick_heldenhammer;Heldenhammer;;;;;;;;;;;;;x
-nick_the_besieger;The Besieger;;;;;;;;;;;;;x
-nick_the_black;The Black;;;;;;;;;;;;;x
-nick_the_pious;The Pious;;;;;;;;;;;;;x
-nick_grudgebearer;Grudgebearer;;;;;;;;;;;;;x
-nick_the_terrible;The Terrible;;;;;;;;;;;;;x
-nick_the_lunatic;The Lunatic;;;;;;;;;;;;;x
-nick_the_bloody;The Bloody;;;;;;;;;;;;;x
+nick_the_besieger;the Besieger;;;;;;;;;;;;;x
+nick_the_black;the Black;;;;;;;;;;;;;x
+nick_the_pious;the Pious;;;;;;;;;;;;;x
+nick_the_terrible;the Terrible;;;;;;;;;;;;;x
+nick_the_lunatic;the Lunatic;;;;;;;;;;;;;x
+nick_the_bloody;the Bloody;;;;;;;;;;;;;x
+nick_the_uniter;the Uniter;;;;;;;;;;;;;x
+nick_the_enormous;the Enormous;;;;;;;;;;;;;x
+nick_the_jouster;the Jouster;;;;;;;;;;;;;x
+nick_the_rash;the Rash;;;;;;;;;;;;;x
+nick_the_seafarer;the Seafarer;;;;;;;;;;;;;x
+nick_the_sage;the Sage;;;;;;;;;;;;;x
+nick_the_impetuous;the Impetuous;;;;;;;;;;;;;x
+nick_the_poet;the Poet;;;;;;;;;;;;;x
+nick_the_scholar;the Scholar;;;;;;;;;;;;;x
+nick_the_slayer;the Slayer;;;;;;;;;;;;;x
+nick_the_peacemaker;the Peacemaker;;;;;;;;;;;;;x
+nick_the_warrior;the Warrior;;;;;;;;;;;;;x
+nick_the_explorer;the Explorer;;;;;;;;;;;;;x
+nick_the_defender;the Defender;;;;;;;;;;;;;x
+nick_the_blooded_one;the Blooded One;;;;;;;;;;;;;x
+nick_the_denied_one;the Denied One;;;;;;;;;;;;;x
+nick_the_undefeated;the Undefeated;;;;;;;;;;;;;x
+nick_the_wanderer;the Wanderer;;;;;;;;;;;;;x
+nick_the_curseling;the Curseling;;;;;;;;;;;;;x
+nick_the_leechlord;the Leechlord;;;;;;;;;;;;;x
+nick_the_changer;the Changer;;;;;;;;;;;;;x
+nick_the_tainted;the Tainted;;;;;;;;;;;;;x
+nick_the_maggot_lord;the Maggot Lord;;;;;;;;;;;;;x
+nick_the_magnificent;the Magnificent;;;;;;;;;;;;;x
+nick_the_black_iron_reaver;the Black-Iron Reaver;;;;;;;;;;;;;x
+nick_the_righteous;the Righteous;;;;;;;;;;;;;x
+nick_the_gloried;the Gloried;;;;;;;;;;;;;x
+nick_the_tyrannical;the Tyrannical;;;;;;;;;;;;;x
+nick_the_mighty;the Mighty;;;;;;;;;;;;;x
+nick_the_invincible;the Invincible;;;;;;;;;;;;;x
+nick_the_immortal;the Immortal;;;;;;;;;;;;;x
+nick_the_eternal;the Eternal;;;;;;;;;;;;;x
 nick_ursus;Ursus;;;;;;;;;;;;;x
-nick_the_uniter;The Uniter;;;;;;;;;;;;;x
-nick_orc_slayer;Orc Slayer;;;;;;;;;;;;;x
-nick_the_enormous;The Enormous;;;;;;;;;;;;;x
-nick_the_jouster;The Jouster;;;;;;;;;;;;;x
-nick_dragon_slayer;Dragon Slayer;;;;;;;;;;;;;x
-nick_the_rash;The Rash;;;;;;;;;;;;;x
+nick_dragon_slayer;Dragon-Slayer;;;;;;;;;;;;;x
+nick_orc_slayer;Orc-Slayer;;;;;;;;;;;;;x
+nick_goblin_slayer;Goblin-Slayer;;;;;;;;;;;;;x
+nick_ogre_slayer;Ogre-Slayer;;;;;;;;;;;;;x
+nick_beast_slayer;Beast-Slayer;;;;;;;;;;;;;x
+nick_daemon_slayer;Daemon-Slayer;;;;;;;;;;;;;x
+nick_troll_slayer;Troll-Slayer;;;;;;;;;;;;;x
+nick_giant_slayer;Giant-Slayer;;;;;;;;;;;;;x
+nick_man_slayer;Man-Slayer;;;;;;;;;;;;;x
+nick_elf_slayer;Elf-Slayer;;;;;;;;;;;;;x
+nick_dwarf_slayer;Dwarf-Slayer;;;;;;;;;;;;;x
+nick_grudgebearer;Grudgebearer;;;;;;;;;;;;;x
+nick_skavenslayer;Skavenslayer;;;;;;;;;;;;;x
+nick_wartooth;Wartooth;;;;;;;;;;;;;x
+nick_flameaxe;Flameaxe;;;;;;;;;;;;;x
+nick_hammerstorm;Hammerstorm;;;;;;;;;;;;;x
+nick_sourscowl;Sourscowl;;;;;;;;;;;;;x
+nick_bloodaxe;Bloodaxe;;;;;;;;;;;;;x
+nick_ironbeard;Ironbeard;;;;;;;;;;;;;x
+nick_one_eye;One-Eye;;;;;;;;;;;;;x
+nick_blackstaff;Blackstaff;;;;;;;;;;;;;x
+nick_goldenrod;Goldenrod;;;;;;;;;;;;;x
+nick_radii;Radii;;;;;;;;;;;;;x
+nick_blackbeard;Blackbeard;;;;;;;;;;;;;x
+nick_proudbeard;Proudbeard;;;;;;;;;;;;;x
+nick_daemonclaw;Daemonclaw;;;;;;;;;;;;;x
+nick_starbreaker;Starbreaker;;;;;;;;;;;;;x
+nick_whitebeard;Whitebeard;;;;;;;;;;;;;x
+nick_;Whitebeard;;;;;;;;;;;;;x

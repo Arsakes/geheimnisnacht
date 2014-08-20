@@ -8,7 +8,7 @@ max_settlements = 5
 b_kaldach = castle
 b_rottefach = temple
 #b_hochloff = city
-#b_walfen = city
+#b_walfen = temple
 #b_hartsklein = city
 #b_schlafebild = castle
 
@@ -18,3 +18,11 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_hochloff = city
+}
+
+2500.1.1 = {
+	b_walfen = temple
+}

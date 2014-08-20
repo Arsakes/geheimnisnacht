@@ -9,7 +9,7 @@ b_kolim = castle
 #b_giptumadhor = temple
 
 # Misc
-culture = gharhar
+culture = tahmak
 religion = chaos
 
 

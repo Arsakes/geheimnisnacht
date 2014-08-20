@@ -9,7 +9,7 @@ b_pano = castle
 b_muz = castle
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 

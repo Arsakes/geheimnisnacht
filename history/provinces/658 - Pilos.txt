@@ -7,12 +7,16 @@ title = c_pilos
 max_settlements = 4
 b_mursili = castle
 b_kizil = city
-b_chirisoph = temple
+#b_chirisoph = temple
 #b_myrmigora = temple
 
 # Misc
 culture = myken
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_chirisoph = temple
+}

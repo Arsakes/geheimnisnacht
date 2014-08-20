@@ -1,35 +1,35 @@
 6800000={
-name = "Placeholder"
-dynasty = 321
-culture = strigany
-religion = vampiric
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Augusta"
+female=yes
+dynasty=87000
+culture=strigany
+religion=vampiric
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
-
 1992.4.30={birth=yes}
 2021.12.2={death=yes}
 }
 
 6800001={
-name = "Placeholder"
-dynasty = 340
-culture = strigany
-religion = vampiric
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Philippe"
+dynasty=87001
+culture=strigany
+religion=vampiric
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,37 +39,34 @@ add_trait="craven"
 }
 
 6800002={
-name = "Placeholder"
-dynasty = 351
-culture = strigany
-religion = vampiric
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Tristram"
+dynasty=87002
+culture=strigany
+religion=vampiric
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
-
 add_trait="tall"
-
 1989.9.29={birth=yes}
 2050.3.25={death=yes}
 }
 
 6800003={
-name = "Placeholder"
-dynasty = 325
-culture = strigany
-religion = vampiric
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
-
-add_trait = "midas_touched"
+name="Lambert"
+dynasty=87003
+culture=strigany
+religion=vampiric
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +76,17 @@ add_trait="wroth"
 }
 
 6800004={
-name = "Placeholder"
-dynasty = 325
-culture = strigany
-religion = vampiric
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Stephen"
+dynasty=87004
+culture=strigany
+religion=vampiric
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +96,18 @@ add_trait="humble"
 }
 
 6800005={
-name = "Placeholder"
-dynasty = 325
-culture = strigany
-religion = vampiric
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Floella"
+female=yes
+dynasty=87006
+culture=strigany
+religion=vampiric
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -119,56 +117,52 @@ add_trait="ill"
 }
 
 6800006={
-name = "Placeholder"
-dynasty = 325
-culture = strigany
-religion = vampiric
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
-
-add_trait = "misguided_warrior"
+name="Marcelyn"
+female=yes
+dynasty=87007
+culture=strigany
+religion=vampiric
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
+add_trait="misguided_warrior"
 add_trait="content"
-
-
-
 1985.4.20={birth=yes}
 2045.7.2={death=yes}}
 
 6800007={
-name = "Placeholder"
-dynasty = 329
-culture = strigany
-religion = vampiric
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
-
+name="Talima"
+female=yes
+dynasty=87008
+culture=strigany
+religion=vampiric
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 add_trait="trusting"
 add_trait="lustful"
-
 1993.8.3={birth=yes}
 2025.4.10={death=yes}
 }
 
 6800008={
-name = "Placeholder"
-dynasty = 359
-culture = strigany
-religion = vampiric
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Zindelo"
+dynasty=87009
+culture=strigany
+religion=vampiric
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -178,17 +172,17 @@ add_trait="drunkard"
 }
 
 6800009={
-name = "Placeholder"
-dynasty = 344
-culture = strigany
-religion = vampiric
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Jurgen"
+dynasty=87010
+culture=strigany
+religion=vampiric
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -198,39 +192,33 @@ add_trait="lisp"
 }
 
 6800010={
-name = "Placeholder"
-dynasty = 359
-culture = strigany
-religion = vampiric
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
-
-
-
-
+name="Chal"
+dynasty=87011
+culture=strigany
+religion=vampiric
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 6800011={
-name = "Placeholder"
-dynasty = 324
-culture = strigany
-religion = vampiric
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
-
-
+name="Iorghu"
+dynasty=87012
+culture=strigany
+religion=vampiric
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="fair"
 
 1993.2.8={birth=yes}
@@ -238,17 +226,17 @@ add_trait="fair"
 }
 
 6800012={
-name = "Placeholder"
-dynasty = 336
-culture = strigany
-religion = vampiric
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Pierre"
+dynasty=87013
+culture=strigany
+religion=vampiric
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -258,17 +246,17 @@ add_trait="envious"
 }
 
 6800013={
-name = "Placeholder"
-dynasty = 323
-culture = strigany
-religion = vampiric
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Lucius"
+dynasty=87014
+culture=strigany
+religion=vampiric
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -278,17 +266,17 @@ add_trait="shy"
 }
 
 6800014={
-name = "Placeholder"
-dynasty = 348
-culture = strigany
-religion = vampiric
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Domonic"
+dynasty=87015
+culture=strigany
+religion=vampiric
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -298,17 +286,17 @@ add_trait="strong"
 }
 
 6800015={
-name = "Placeholder"
-dynasty = 347
-culture = strigany
-religion = vampiric
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Ieronimus"
+dynasty=87016
+culture=strigany
+religion=vampiric
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -318,17 +306,18 @@ add_trait="cynical"
 }
 
 6800016={
-name = "Placeholder"
-dynasty = 329
-culture = strigany
-religion = vampiric
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Beatrix"
+female=yes
+dynasty=87017
+culture=strigany
+religion=vampiric
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -338,17 +327,18 @@ add_trait="honest"
 }
 
 6800017={
-name = "Placeholder"
-dynasty = 322
-culture = strigany
-religion = vampiric
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Emmanaia"
+female=yes
+dynasty=87018
+culture=strigany
+religion=vampiric
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -358,41 +348,36 @@ add_trait="greedy"
 }
 
 6800018={
-name = "Placeholder"
-dynasty = 330
-culture = strigany
-religion = vampiric
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
-
-add_trait = "midas_touched"
-
+name="Kirsten"
+female=yes
+dynasty=87019
+culture=strigany
+religion=vampiric
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
+add_trait="midas_touched"
 add_trait="kind"
-
-
 1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 
 6800019={
-name = "Placeholder"
-dynasty = 355
-culture = strigany
-religion = vampiric
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
-
+name="Nefereta"
+dynasty=87071
+culture=strigany
+religion=vampiric
+martial=5
+diplomacy=5
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 add_trait="tall"
-add_trait="weak"
-
+add_trait="fair"
 1991.1.10={birth=yes}
 2045.10.28={death=yes}
 }

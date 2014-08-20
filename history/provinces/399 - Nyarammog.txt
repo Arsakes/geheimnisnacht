@@ -13,7 +13,7 @@ b_zoth = city
 #b_wyrdz = castle
 
 # Misc
-culture = hastling
+culture = kul
 religion = tzeentch
 
 

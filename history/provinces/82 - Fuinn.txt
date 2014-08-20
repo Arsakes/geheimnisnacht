@@ -6,12 +6,16 @@ title = c_fuinn
 # Settlements
 max_settlements = 3
 b_hellir_fuinn = castle
-#b_fuinn_heill = city
+#b_fuinn_heill = temple
 #b_morke_hule = castle
 
 # Misc
 culture = aesling
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2500.1.1 = {
+	b_fuinn_heill = temple
+}

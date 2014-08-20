@@ -11,7 +11,7 @@ b_oostzaan = city
 
 # Misc
 culture = westerlander
-religion = sigmarite
+religion = manannite
 
 
 # History

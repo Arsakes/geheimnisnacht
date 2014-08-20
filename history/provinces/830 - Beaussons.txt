@@ -13,7 +13,7 @@ b_queim = castle
 
 # Misc
 culture = gisoren
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

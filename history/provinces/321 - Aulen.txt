@@ -6,7 +6,7 @@ title = c_aulen
 # Settlements
 max_settlements = 5
 b_sochtenau = castle
-b_rohrhof = temple
+#b_rohrhof = temple
 #b_eppiswald = city
 #b_bedernau = castle
 #b_hornfurt = city
@@ -17,3 +17,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_rohrhof = temple
+}

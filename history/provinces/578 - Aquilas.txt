@@ -6,14 +6,18 @@ title = c_aquilas
 # Settlements
 max_settlements = 4
 b_aquilas = castle
-b_abasco = city
+#b_abasco = city
 #b_rame = temple
 #b_omavi = castle
 #b_porto_noresto = city
 
 # Misc
 culture = tobaran
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_abasco = city
+}

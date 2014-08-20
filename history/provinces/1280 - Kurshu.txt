@@ -6,7 +6,7 @@ title = c_kurshu
 # Settlements
 max_settlements = 3
 b_kurshu = castle
-b_skullport = city
+b_skullport = temple
 #b_rosszutvonal = city
 
 # Misc

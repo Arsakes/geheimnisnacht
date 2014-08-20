@@ -11,7 +11,7 @@ b_shirangol = temple
 #b_asen = city
 
 # Misc
-culture = aghol
+culture = kvellig
 religion = chaos
 
 

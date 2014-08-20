@@ -1,5 +1,5 @@
 #919 Santa Clair
-#County Title
+
 title = c_santa_clair
 
 #Settlements
@@ -8,9 +8,14 @@ b_santa_clair = castle
 b_point_de_segundo = castle
 #b_santo_de_yuna = city
 #b_laguna_au_paix = temple
+#b_faro_del_punto = castle
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_santo_de_yuna = city
+}

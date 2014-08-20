@@ -7,7 +7,7 @@ title = c_barrows_of_cuileux
 max_settlements = 5
 b_crac_de_sang = castle
 b_gardez_de_la_peur = temple
-b_village_des_damnes = city
+#b_village_des_damnes = city
 #b_sanctuaire_de_voshieme = temple
 #b_cuileux = city
 
@@ -18,5 +18,5 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = breton }

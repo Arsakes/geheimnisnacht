@@ -1,0 +1,18 @@
+# 1656 Celephai
+
+# County Title
+title = c_celephai
+
+# Settlements
+max_settlements = 4
+b_celephai = castle
+b_ngarek = castle
+b_thal_thon = temple
+#b_yaath = castle
+
+# Misc
+culture = mung
+religion = chaos
+
+
+# History

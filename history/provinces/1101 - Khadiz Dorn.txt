@@ -6,7 +6,7 @@ title = c_khadiz_dorn
 # Settlements
 max_settlements = 4
 b_khadiz_dorn = castle
-b_undim_barak = city
+#b_undim_barak = city
 #b_ungol_agrimar = temple
 #b_karag_tiamal = castle
 
@@ -16,3 +16,7 @@ religion = ancestor_gods
 
 
 # History
+
+2250.1.1 = {
+	b_undim_barak = city
+}

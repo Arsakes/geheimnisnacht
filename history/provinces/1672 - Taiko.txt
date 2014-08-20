@@ -9,7 +9,7 @@ b_song = castle
 #b_duwa = city
 
 # Misc
-culture = chi_an
+culture = mung
 religion = chaos
 
 

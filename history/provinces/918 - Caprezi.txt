@@ -10,7 +10,7 @@ b_caprezi = castle
 
 # Misc
 culture = tobaran
-religion = classical_gods
+religion = myrmidian
 
 
 # History

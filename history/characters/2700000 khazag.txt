@@ -1,374 +1,374 @@
 2700000={
-name = "Omerjan"
-dynasty = 69000
-dna = "lnongeonhcl"
-culture = khazag
-religion = chaos
-martial = 3
-diplomacy = 5
-stewardship = 6
-intrigue = 6
-learning = 4
-add_trait = "flamboyant_schemer"
-add_trait = "gardener"
-add_trait = "slothful"
-add_trait = "brave"
-add_trait = "temperate"
-add_trait = "cruel"
+name="Omerjan"
+dynasty=69000
+dna="lnongeonhcl"
+culture=khazag
+religion=chaos
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=4
+add_trait="flamboyant_schemer"
+add_trait="gardener"
+add_trait="slothful"
+add_trait="brave"
+add_trait="temperate"
+add_trait="cruel"
 1969.1.1={birth=yes}
 2029.11.27={death=yes}
 }
 
 2700001={
-name = "Abdumannob"
-dynasty = 69001
-dna = "nfmbdbonhld"
-culture = khazag
-religion = chaos
-martial = 4
-diplomacy = 3
-stewardship = 0
-intrigue = 5
-learning = 4
-add_trait = "elusive_shadow"
-add_trait = "cynical"
-add_trait = "brave"
-add_trait = "deceitful"
+name="Abdumannob"
+dynasty=69001
+dna="nfmbdbonhld"
+culture=khazag
+religion=chaos
+martial=4
+diplomacy=3
+stewardship=0
+intrigue=5
+learning=4
+add_trait="elusive_shadow"
+add_trait="cynical"
+add_trait="brave"
+add_trait="deceitful"
 1976.1.1={birth=yes}
 2024.1.22={death=yes}
 }
 
 2700002={
-name = "Yabgu"
-dynasty = 69002
-dna = "pcmeeiinoim"
-culture = khazag
-religion = chaos
-martial = 5
-diplomacy = 2
-stewardship = 1
-intrigue = 1
-learning = 2
-add_trait = "midas_touched"
-add_trait = "honest"
+name="Yabgu"
+dynasty=69002
+dna="pcmeeiinoim"
+culture=khazag
+religion=chaos
+martial=5
+diplomacy=2
+stewardship=1
+intrigue=1
+learning=2
+add_trait="midas_touched"
+add_trait="honest"
 1990.1.1={birth=yes}
 2039.6.27={death=yes}
 }
 
 2700003={
-name = "Tekçe"
-female = yes
-dynasty = 69003
-dna = "leifmgfnmfm"
-culture = khazag
-religion = chaos
-martial = 4
-diplomacy = 2
-stewardship = 5
-intrigue = 7
-learning = 4
-add_trait = "misguided_warrior"
-add_trait = "impaler"
-add_trait = "paranoid"
-add_trait = "honest"
-add_trait = "depressed"
+name="Tekçe"
+female=yes
+dynasty=69003
+dna="leifmgfnmfm"
+culture=khazag
+religion=chaos
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=7
+learning=4
+add_trait="misguided_warrior"
+add_trait="impaler"
+add_trait="paranoid"
+add_trait="honest"
+add_trait="depressed"
 1977.1.1={birth=yes}
 2041.12.26={death=yes}
 }
 
 2700004={
-name = "Okors"
-dynasty = 69004
-dna = "aokopjaohak"
-culture = khazag
-religion = chaos
-martial = 3
-diplomacy = 1
-stewardship = 3
-intrigue = 5
-learning = 7
-add_trait = "fortune_builder"
-add_trait = "honest"
-add_trait = "temperate"
-add_trait = "patient"
-add_trait = "diligent"
+name="Okors"
+dynasty=69004
+dna="aokopjaohak"
+culture=khazag
+religion=chaos
+martial=3
+diplomacy=1
+stewardship=3
+intrigue=5
+learning=7
+add_trait="fortune_builder"
+add_trait="honest"
+add_trait="temperate"
+add_trait="patient"
+add_trait="diligent"
 1954.1.1={birth=yes}
 2017.3.15={death=yes}
 }
 
 2700005={
-name = "Irnek"
-dynasty = 69005
-dna = "hhnpgaobmla"
-culture = khazag
-religion = chaos
-martial = 6
-diplomacy = 2
-stewardship = 2
-intrigue = 3
-learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "wroth"
-add_trait = "humble"
-add_trait = "greedy"
-add_trait = "wounded"
+name="Irnek"
+dynasty=69005
+dna="hhnpgaobmla"
+culture=khazag
+religion=chaos
+martial=6
+diplomacy=2
+stewardship=2
+intrigue=3
+learning=5
+add_trait="underhanded_rogue"
+add_trait="wroth"
+add_trait="humble"
+add_trait="greedy"
+add_trait="wounded"
 1967.1.1={birth=yes}
 2018.8.18={death=yes}
 }
 
 2700006={
-name = "Sibel"
-female = yes
-dynasty = 69006
-dna = "dnhfocdbomp"
-culture = khazag
-religion = chaos
-martial = 5
-diplomacy = 3
-stewardship = 6
-intrigue = 7
-learning = 2
-add_trait = "thrifty_clerk"
-add_trait = "scholar"
+name="Sibel"
+female=yes
+dynasty=69006
+dna="dnhfocdbomp"
+culture=khazag
+religion=chaos
+martial=5
+diplomacy=3
+stewardship=6
+intrigue=7
+learning=2
+add_trait="thrifty_clerk"
+add_trait="scholar"
 1975.1.1={birth=yes}
 2049.1.22={death=yes}
 }
 
 2700007={
-name = "Ildico"
-female = yes
-dynasty = 69007
-dna = "akfhcphjlff"
-culture = khazag
-religion = chaos
-martial = 4
-diplomacy = 2
-stewardship = 5
-intrigue = 3
-learning = 3
-add_trait = "midas_touched"
-add_trait = "impaler"
-add_trait = "stressed"
+name="Ildico"
+female=yes
+dynasty=69007
+dna="akfhcphjlff"
+culture=khazag
+religion=chaos
+martial=4
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=3
+add_trait="midas_touched"
+add_trait="impaler"
+add_trait="stressed"
 1985.1.1={birth=yes}
 2034.5.4={death=yes}
 }
 
 2700008={
-name = "Dilek"
-female = yes
-dynasty = 69008
-dna = "glhcoeacpol"
-culture = khazag
-religion = chaos
-martial = 0
-diplomacy = 6
-stewardship = 6
-intrigue = 7
-learning = 0
-add_trait = "brilliant_strategist"
+name="Dilek"
+female=yes
+dynasty=69008
+dna="glhcoeacpol"
+culture=khazag
+religion=chaos
+martial=0
+diplomacy=6
+stewardship=6
+intrigue=7
+learning=0
+add_trait="brilliant_strategist"
 1968.1.1={birth=yes}
 2017.5.28={death=yes}
 }
 
 2700009={
-name = "Isa"
-dynasty = 69009
-dna = "ahgedfoabbj"
-culture = khazag
-religion = chaos
-martial = 0
-diplomacy = 5
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "indulgent_wastrel"
-add_trait = "paranoid"
-add_trait = "proud"
+name="Isa"
+dynasty=69009
+dna="ahgedfoabbj"
+culture=khazag
+religion=chaos
+martial=0
+diplomacy=5
+stewardship=1
+intrigue=5
+learning=5
+add_trait="indulgent_wastrel"
+add_trait="paranoid"
+add_trait="proud"
 1973.1.1={birth=yes}
 2039.5.15={death=yes}
 }
 
 2700010={
-name = "Ishana"
-dynasty = 69010
-dna = "jlihibholgb"
-culture = khazag
-religion = chaos
-martial = 7
-diplomacy = 6
-stewardship = 2
-intrigue = 3
-learning = 7
-add_trait = "midas_touched"
-add_trait = "duelist"
-add_trait = "deceitful"
-add_trait = "trusting"
-add_trait = "slothful"
+name="Ishana"
+dynasty=69010
+dna="jlihibholgb"
+culture=khazag
+religion=chaos
+martial=7
+diplomacy=6
+stewardship=2
+intrigue=3
+learning=7
+add_trait="midas_touched"
+add_trait="duelist"
+add_trait="deceitful"
+add_trait="trusting"
+add_trait="slothful"
 1984.1.1={birth=yes}
 2051.5.9={death=yes}
 }
 
 2700011={
-name = "Elemag"
-dynasty = 69011
-dna = "niiheekmpam"
-culture = khazag
-religion = chaos
-martial = 3
-diplomacy = 1
-stewardship = 3
-intrigue = 4
-learning = 6
-add_trait = "misguided_warrior"
+name="Elemag"
+dynasty=69011
+dna="niiheekmpam"
+culture=khazag
+religion=chaos
+martial=3
+diplomacy=1
+stewardship=3
+intrigue=4
+learning=6
+add_trait="misguided_warrior"
 1989.1.1={birth=yes}
 2035.9.28={death=yes}
 }
 
 2700012={
-name = "Ilkay"
-female = yes
-dynasty = 69012
-dna = "dckfgllilkp"
-culture = khazag
-religion = chaos
-martial = 5
-diplomacy = 1
-stewardship = 4
-intrigue = 6
-learning = 5
-add_trait = "intricate_webweaver"
-add_trait = "poet"
-add_trait = "paranoid"
-add_trait = "slothful"
-add_trait = "zealous"
-add_trait = "shy"
+name="Ilkay"
+female=yes
+dynasty=69012
+dna="dckfgllilkp"
+culture=khazag
+religion=chaos
+martial=5
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=5
+add_trait="intricate_webweaver"
+add_trait="poet"
+add_trait="paranoid"
+add_trait="slothful"
+add_trait="zealous"
+add_trait="shy"
 1950.1.1={birth=yes}
 2019.6.30={death=yes}
 }
 
 2700013={
-name = "Sati"
-female = yes
-dynasty = 69013
-dna = "bfmekdoahca"
-culture = khazag
-religion = chaos
-martial = 0
-diplomacy = 5
-stewardship = 6
-intrigue = 4
-learning = 5
-add_trait = "misguided_warrior"
-add_trait = "cruel"
-add_trait = "cynical"
+name="Sati"
+female=yes
+dynasty=69013
+dna="bfmekdoahca"
+culture=khazag
+religion=chaos
+martial=0
+diplomacy=5
+stewardship=6
+intrigue=4
+learning=5
+add_trait="misguided_warrior"
+add_trait="cruel"
+add_trait="cynical"
 1968.1.1={birth=yes}
 2017.6.5={death=yes}
 }
 
 2700014={
-name = "Rais"
-dynasty = 69014
-dna = "bemlgajdhnk"
-culture = khazag
-religion = chaos
-martial = 7
-diplomacy = 7
-stewardship = 5
-intrigue = 1
-learning = 2
-add_trait = "underhanded_rogue"
-add_trait = "cruel"
-add_trait = "kind"
-add_trait = "content"
-add_trait = "patient"
+name="Rais"
+dynasty=69014
+dna="bemlgajdhnk"
+culture=khazag
+religion=chaos
+martial=7
+diplomacy=7
+stewardship=5
+intrigue=1
+learning=2
+add_trait="underhanded_rogue"
+add_trait="cruel"
+add_trait="kind"
+add_trait="content"
+add_trait="patient"
 1990.1.1={birth=yes}
 2038.12.15={death=yes}
 }
 
 2700015={
-name = "Çat"
-dynasty = 69015
-dna = "lndfpglcbpl"
-culture = khazag
-religion = chaos
-martial = 7
-diplomacy = 4
-stewardship = 7
-intrigue = 2
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "just"
+name="Çat"
+dynasty=69015
+dna="lndfpglcbpl"
+culture=khazag
+religion=chaos
+martial=7
+diplomacy=4
+stewardship=7
+intrigue=2
+learning=5
+add_trait="tough_soldier"
+add_trait="just"
 1959.1.1={birth=yes}
 2025.9.9={death=yes}
 }
 
 2700016={
-name = "Ergash"
-dynasty = 69016
-dna = "jafhhpkkhgf"
-culture = khazag
-religion = chaos
-martial = 4
-diplomacy = 6
-stewardship = 2
-intrigue = 7
-learning = 2
-add_trait = "brilliant_strategist"
-add_trait = "cruel"
-add_trait = "gregarious"
+name="Ergash"
+dynasty=69016
+dna="jafhhpkkhgf"
+culture=khazag
+religion=chaos
+martial=4
+diplomacy=6
+stewardship=2
+intrigue=7
+learning=2
+add_trait="brilliant_strategist"
+add_trait="cruel"
+add_trait="gregarious"
 1987.1.1={birth=yes}
 2048.1.6={death=yes}
 }
 
 2700017={
-name = "Ramil"
-dynasty = 69017
-dna = "mcedmdegbnk"
-culture = khazag
-religion = chaos
-martial = 4
-diplomacy = 4
-stewardship = 3
-intrigue = 7
-learning = 3
-add_trait = "tough_soldier"
-add_trait = "proud"
-add_trait = "cynical"
-add_trait = "maimed"
+name="Ramil"
+dynasty=69017
+dna="mcedmdegbnk"
+culture=khazag
+religion=chaos
+martial=4
+diplomacy=4
+stewardship=3
+intrigue=7
+learning=3
+add_trait="tough_soldier"
+add_trait="proud"
+add_trait="cynical"
+add_trait="maimed"
 1982.1.1={birth=yes}
 2019.3.6={death=yes}
 }
 
 2700018={
-name = "Erkin"
-dynasty = 69018
-dna = "pjkgkjpoinl"
-culture = khazag
-religion = chaos
-martial = 2
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 4
-add_trait = "midas_touched"
-add_trait = "envious"
+name="Erkin"
+dynasty=69018
+dna="pjkgkjpoinl"
+culture=khazag
+religion=chaos
+martial=2
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=4
+add_trait="midas_touched"
+add_trait="envious"
 1971.1.1={birth=yes}
 2025.2.25={death=yes}
 }
 
 2700019={
-name = "Ablajan"
-dynasty = 69019
-dna = "ejppbfomdoj"
-culture = khazag
-religion = chaos
-martial = 5
-diplomacy = 4
-stewardship = 1
-intrigue = 4
-learning = 1
-add_trait = "underhanded_rogue"
-add_trait = "slothful"
+name="Ablajan"
+dynasty=69019
+dna="ejppbfomdoj"
+culture=khazag
+religion=chaos
+martial=5
+diplomacy=4
+stewardship=1
+intrigue=4
+learning=1
+add_trait="underhanded_rogue"
+add_trait="slothful"
 1968.1.1={birth=yes}
 2049.6.14={death=yes}
 }

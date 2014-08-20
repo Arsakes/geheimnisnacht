@@ -9,7 +9,7 @@ b_turang = castle
 #b_kylmik = city
 
 # Misc
-culture = mung
+culture = aghol
 religion = chaos
 
 

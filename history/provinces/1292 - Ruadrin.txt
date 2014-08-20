@@ -8,7 +8,7 @@ max_settlements = 5
 b_ruadrin = castle
 b_langrim = city
 b_zharr_grim = castle
-b_indri = temple
+#b_indri = temple
 #b_sephirat = castle
 
 # Misc
@@ -17,3 +17,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_indri = temple
+}

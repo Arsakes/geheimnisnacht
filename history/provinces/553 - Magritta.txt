@@ -1,5 +1,5 @@
 # 553 Magritta
-#County Title
+
 title = c_magritta
 
 #Settlements
@@ -8,14 +8,18 @@ b_castillo_de_magritta = castle
 b_magritta = city
 b_inquisitoria_general = temple
 b_san_carlos = city
-b_san_sebastiano = castle
+#b_san_sebastiano = castle
 #b_televaro = city
 #b_morica = city
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 #History
+
+2250.1.1 = {
+	b_san_sebastiano = castle
+}

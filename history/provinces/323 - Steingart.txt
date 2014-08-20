@@ -7,7 +7,7 @@ title = c_steingart
 max_settlements = 6
 b_osterzell = castle
 b_erbshausen = temple
-b_steingart = city
+#b_steingart = city
 #b_mendelhof = temple
 #b_jengen = castle
 #b_merfeld = city
@@ -18,3 +18,7 @@ religion = sigmarite
 
 
 # History
+
+2250.1.1 = {
+	b_steingart = city
+}

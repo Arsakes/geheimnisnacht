@@ -11,7 +11,12 @@ b_arnalos = castle
 
 # Misc
 culture = oltremari
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_proxema = temple
+}
+

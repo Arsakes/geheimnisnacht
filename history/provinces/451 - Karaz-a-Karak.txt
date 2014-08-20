@@ -9,7 +9,7 @@ b_karaz_a_karak = castle
 b_karaz_ungol_bar = city
 b_gorlzad = temple
 b_ril_grung = castle
-b_grungizorn = city
+#b_grungizorn = city
 #b_khazidazul = temple
 #b_kazad_grum = castle
 
@@ -21,3 +21,7 @@ terrain = mountain_pass
 
 
 # History
+
+2250.1.1 = {
+	b_grungizorn = city
+}

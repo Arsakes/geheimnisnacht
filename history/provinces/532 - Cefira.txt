@@ -1,17 +1,25 @@
 #532 Cefira
-#County Title
+
 title = c_cefira
 
 #Settlements
 max_settlements = 5
 b_natula = castle
-b_boroda = temple
-b_cufiza = city
-b_loraro = city
+#b_boroda = temple
+#b_cufiza = city
+#b_loraro = city
 #b_ovenda = castle
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_boroda = temple
+}
+
+2500.1.1 = {
+	b_cufiza = city
+}

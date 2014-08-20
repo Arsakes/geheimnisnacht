@@ -11,7 +11,7 @@ b_tarra_ulktuk = temple
 
 # Misc
 culture = baersonling
-religion = chaos
+religion = khorne
 
 
 # History

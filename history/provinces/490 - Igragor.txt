@@ -11,7 +11,7 @@ b_dirtz = temple
 
 # Misc
 culture = dolgan
-religion = chaos
+religion = northern_gods
 
 
 # History

@@ -10,8 +10,8 @@ b_voro = temple
 #b_anbur = city
 
 # Misc
-culture = kvellig
-religion = chaos
+culture = gharhar
+religion = khorne
 
 
 # History

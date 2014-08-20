@@ -6,13 +6,21 @@ title = c_gamay
 # Settlements
 max_settlements = 4
 b_tharravil = castle
-b_gamelin = city
-b_fourier = castle
+#b_gamelin = city
+#b_fourier = castle
 #b_chateaudreux = castle
 
 # Misc
 culture = bourgon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_gamelin = city
+}
+
+2500.1.1 = {
+	b_fourier = castle
+}

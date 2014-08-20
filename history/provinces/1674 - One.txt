@@ -10,7 +10,7 @@ b_abishi = city
 #b_arghun = temple
 
 # Misc
-culture = chi_an
+culture = mung
 religion = chaos
 
 

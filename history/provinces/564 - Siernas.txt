@@ -1,5 +1,5 @@
 #564 Siernas
-#County Title
+
 title = c_siernas
 
 #Settlements
@@ -11,6 +11,6 @@ b_cortado = castle
 
 #Misc
 culture = montanese
-religion = classical_gods
+religion = myrmidian
 
 #History

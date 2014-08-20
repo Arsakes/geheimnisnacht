@@ -18,3 +18,7 @@ religion = greenskin_gods
 
 2034.1.1 = { culture = westerlander }
 2034.1.1 = { religion = sigmarite }
+
+2250.1.1 = {
+	b_dornhan = city
+}

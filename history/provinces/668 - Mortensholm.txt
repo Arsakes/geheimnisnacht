@@ -13,7 +13,15 @@ b_syldavia = city
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_borduritsa = temple
+}
+
+2250.1.1 = {
+	b_dacs = castle
+}

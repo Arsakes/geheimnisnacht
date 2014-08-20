@@ -10,7 +10,7 @@ b_sakar = castle
 #b_mergr = city
 
 # Misc
-culture = kvellig
+culture = gharhar
 religion = chaos
 
 

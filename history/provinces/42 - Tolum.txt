@@ -5,13 +5,17 @@ title = c_tolum
 
 # Settlements
 max_settlements = 3
-b_tolum = city
+b_tolum = castle
 #b_harkyl = castle
 #b_olurmer = city
 
 # Misc
-culture = varg
-religion = dark_norse
+culture = graeling
+religion = norscan_gods
 
 
 # History
+
+2500.1.1 = {
+	b_harkyl = castle
+}

@@ -6,7 +6,7 @@ title = c_korgrim
 # Settlements
 max_settlements = 3
 b_korgrim = castle
-b_khazalid_wust = city
+b_khazalid_wust = temple
 #b_karak_gromval = temple
 
 # Misc

@@ -12,7 +12,12 @@ b_santa_elena = temple
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_copponi = castle
+}
+

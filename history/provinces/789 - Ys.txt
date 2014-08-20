@@ -13,7 +13,7 @@ b_nez = city
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

@@ -10,7 +10,7 @@ b_kilarghdal = city
 #b_pyrial = temple
 
 # Misc
-culture = varg
+culture = graeling
 religion = chaos
 
 

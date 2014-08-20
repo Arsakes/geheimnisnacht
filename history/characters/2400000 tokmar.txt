@@ -1,366 +1,366 @@
 2400000={
-name = "Bahaguli"
-dynasty = 65000
-dna = "gjnnejpjhca"
-culture = tokmar
-religion = chaos
-martial = 3
-diplomacy = 2
-stewardship = 0
-intrigue = 3
-learning = 2
-add_trait = "fortune_builder"
-add_trait = "brave"
-add_trait = "shy"
-add_trait = "just"
+name="Bahaguli"
+dynasty=65000
+dna="gjnnejpjhca"
+culture=tokmar
+religion=chaos
+martial=3
+diplomacy=2
+stewardship=0
+intrigue=3
+learning=2
+add_trait="fortune_builder"
+add_trait="brave"
+add_trait="shy"
+add_trait="just"
 1974.1.1={birth=yes}
 2026.2.11={death=yes}
 }
 
 2400001={
-name = "Zenti"
-dynasty = 65001
-dna = "ljdgclgolaj"
-culture = tokmar
-religion = chaos
-martial = 7
-diplomacy = 6
-stewardship = 3
-intrigue = 4
-learning = 2
-add_trait = "misguided_warrior"
-add_trait = "slothful"
-add_trait = "ill"
+name="Zenti"
+dynasty=65001
+dna="ljdgclgolaj"
+culture=tokmar
+religion=chaos
+martial=7
+diplomacy=6
+stewardship=3
+intrigue=4
+learning=2
+add_trait="misguided_warrior"
+add_trait="slothful"
+add_trait="ill"
 1972.1.1={birth=yes}
 2014.10.9={death=yes}
 }
 
 2400002={
-name = "Yildiz"
-female = yes
-dynasty = 65002
-dna = "peidcjkhamo"
-culture = tokmar
-religion = chaos
-martial = 6
-diplomacy = 6
-stewardship = 6
-intrigue = 3
-learning = 8
-add_trait = "grey_eminence"
-add_trait = "celibate"
-add_trait = "charitable"
-add_trait = "gregarious"
+name="Yildiz"
+female=yes
+dynasty=65002
+dna="peidcjkhamo"
+culture=tokmar
+religion=chaos
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=3
+learning=8
+add_trait="grey_eminence"
+add_trait="celibate"
+add_trait="charitable"
+add_trait="gregarious"
 1971.1.1={birth=yes}
 2039.5.29={death=yes}
 }
 
 2400003={
-name = "Zabergan"
-dynasty = 65003
-dna = "lpmdmlncjbg"
-culture = tokmar
-religion = chaos
-martial = 4
-diplomacy = 3
-stewardship = 3
-intrigue = 1
-learning = 4
-add_trait = "flamboyant_schemer"
-add_trait = "humble"
-add_trait = "just"
+name="Zabergan"
+dynasty=65003
+dna="lpmdmlncjbg"
+culture=tokmar
+religion=chaos
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=1
+learning=4
+add_trait="flamboyant_schemer"
+add_trait="humble"
+add_trait="just"
 1970.1.1={birth=yes}
 2030.9.19={death=yes}
 }
 
 2400004={
-name = "Bahaguli"
-dynasty = 65004
-dna = "aiomnjjdkfi"
-culture = tokmar
-religion = chaos
-martial = 7
-diplomacy = 1
-stewardship = 4
-intrigue = 3
-learning = 6
-add_trait = "flamboyant_schemer"
-add_trait = "wroth"
-add_trait = "temperate"
+name="Bahaguli"
+dynasty=65004
+dna="aiomnjjdkfi"
+culture=tokmar
+religion=chaos
+martial=7
+diplomacy=1
+stewardship=4
+intrigue=3
+learning=6
+add_trait="flamboyant_schemer"
+add_trait="wroth"
+add_trait="temperate"
 1965.1.1={birth=yes}
 2027.4.15={death=yes}
 }
 
 2400005={
-name = "Ishana"
-dynasty = 65005
-dna = "cjginbfblgc"
-culture = tokmar
-religion = chaos
-martial = 5
-diplomacy = 5
-stewardship = 4
-intrigue = 6
-learning = 8
-add_trait = "flamboyant_schemer"
+name="Ishana"
+dynasty=65005
+dna="cjginbfblgc"
+culture=tokmar
+religion=chaos
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=6
+learning=8
+add_trait="flamboyant_schemer"
 1948.1.1={birth=yes}
 2013.10.31={death=yes}
 }
 
 2400006={
-name = "Ubaydullah"
-dynasty = 65006
-dna = "djhgbjaaffh"
-culture = tokmar
-religion = chaos
-martial = 4
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 4
-add_trait = "grey_eminence"
-add_trait = "charitable"
-add_trait = "brave"
+name="Ubaydullah"
+dynasty=65006
+dna="djhgbjaaffh"
+culture=tokmar
+religion=chaos
+martial=4
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=4
+add_trait="grey_eminence"
+add_trait="charitable"
+add_trait="brave"
 1967.1.1={birth=yes}
 2034.3.7={death=yes}
 }
 
 2400007={
-name = "Afaq"
-dynasty = 65007
-dna = "djiodjfdccd"
-culture = tokmar
-religion = chaos
-martial = 3
-diplomacy = 0
-stewardship = 5
-intrigue = 6
-learning = 7
-add_trait = "misguided_warrior"
-add_trait = "poet"
-add_trait = "content"
-add_trait = "slothful"
+name="Afaq"
+dynasty=65007
+dna="djiodjfdccd"
+culture=tokmar
+religion=chaos
+martial=3
+diplomacy=0
+stewardship=5
+intrigue=6
+learning=7
+add_trait="misguided_warrior"
+add_trait="poet"
+add_trait="content"
+add_trait="slothful"
 1981.1.1={birth=yes}
 2023.3.18={death=yes}
 }
 
 2400008={
-name = "Tat-Ugek"
-dynasty = 65008
-dna = "nebdfiniakm"
-culture = tokmar
-religion = chaos
-martial = 5
-diplomacy = 4
-stewardship = 6
-intrigue = 6
-learning = 4
-add_trait = "skilled_tactician"
-add_trait = "brave"
+name="Tat-Ugek"
+dynasty=65008
+dna="nebdfiniakm"
+culture=tokmar
+religion=chaos
+martial=5
+diplomacy=4
+stewardship=6
+intrigue=6
+learning=4
+add_trait="skilled_tactician"
+add_trait="brave"
 1972.1.1={birth=yes}
 2036.2.11={death=yes}
 }
 
 2400009={
-name = "Esin"
-female = yes
-dynasty = 65009
-dna = "iclnlcniejm"
-culture = tokmar
-religion = chaos
-martial = 6
-diplomacy = 2
-stewardship = 1
-intrigue = 5
-learning = 5
-add_trait = "grey_eminence"
+name="Esin"
+female=yes
+dynasty=65009
+dna="iclnlcniejm"
+culture=tokmar
+religion=chaos
+martial=6
+diplomacy=2
+stewardship=1
+intrigue=5
+learning=5
+add_trait="grey_eminence"
 1987.1.1={birth=yes}
 2045.5.21={death=yes}
 }
 
 2400010={
-name = "Yani"
-dynasty = 65010
-dna = "kohejopgnbc"
-culture = tokmar
-religion = chaos
-martial = 3
-diplomacy = 4
-stewardship = 5
-intrigue = 1
-learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "cynical"
+name="Yani"
+dynasty=65010
+dna="kohejopgnbc"
+culture=tokmar
+religion=chaos
+martial=3
+diplomacy=4
+stewardship=5
+intrigue=1
+learning=4
+add_trait="underhanded_rogue"
+add_trait="cynical"
 1964.1.1={birth=yes}
 2029.2.15={death=yes}
 }
 
 2400011={
-name = "Amannisa"
-female = yes
-dynasty = 65011
-dna = "dfkjfnicogg"
-culture = tokmar
-religion = chaos
-martial = 7
-diplomacy = 4
-stewardship = 4
-intrigue = 6
-learning = 3
-add_trait = "elusive_shadow"
-add_trait = "slothful"
-add_trait = "cruel"
-add_trait = "honest"
-add_trait = "ill"
+name="Amannisa"
+female=yes
+dynasty=65011
+dna="dfkjfnicogg"
+culture=tokmar
+religion=chaos
+martial=7
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=3
+add_trait="elusive_shadow"
+add_trait="slothful"
+add_trait="cruel"
+add_trait="honest"
+add_trait="ill"
 1972.1.1={birth=yes}
 2038.3.5={death=yes}
 }
 
 2400012={
-name = "Umor"
-dynasty = 65012
-dna = "jkncelfnfid"
-culture = tokmar
-religion = chaos
-martial = 3
-diplomacy = 1
-stewardship = 1
-intrigue = 2
-learning = 0
-add_trait = "midas_touched"
-add_trait = "gluttonous"
-add_trait = "gregarious"
-add_trait = "content"
-add_trait = "cruel"
+name="Umor"
+dynasty=65012
+dna="jkncelfnfid"
+culture=tokmar
+religion=chaos
+martial=3
+diplomacy=1
+stewardship=1
+intrigue=2
+learning=0
+add_trait="midas_touched"
+add_trait="gluttonous"
+add_trait="gregarious"
+add_trait="content"
+add_trait="cruel"
 1956.1.1={birth=yes}
 2017.2.10={death=yes}
 }
 
 2400013={
-name = "Shahrukh_Shahrokh"
-dynasty = 65013
-dna = "ogapefgmlem"
-culture = tokmar
-religion = chaos
-martial = 5
-diplomacy = 4
-stewardship = 5
-intrigue = 5
-learning = 3
-add_trait = "flamboyant_schemer"
-add_trait = "paranoid"
-add_trait = "kind"
-add_trait = "pneumonic"
+name="Shahrukh_Shahrokh"
+dynasty=65013
+dna="ogapefgmlem"
+culture=tokmar
+religion=chaos
+martial=5
+diplomacy=4
+stewardship=5
+intrigue=5
+learning=3
+add_trait="flamboyant_schemer"
+add_trait="paranoid"
+add_trait="kind"
+add_trait="pneumonic"
 1982.1.1={birth=yes}
 2050.12.31={death=yes}
 }
 
 2400014={
-name = "Ilteber"
-dynasty = 65014
-dna = "bgfhaiafoke"
-culture = tokmar
-religion = chaos
-martial = 1
-diplomacy = 5
-stewardship = 2
-intrigue = 6
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "cynical"
+name="Ilteber"
+dynasty=65014
+dna="bgfhaiafoke"
+culture=tokmar
+religion=chaos
+martial=1
+diplomacy=5
+stewardship=2
+intrigue=6
+learning=5
+add_trait="tough_soldier"
+add_trait="cynical"
 1983.1.1={birth=yes}
 2037.7.18={death=yes}
 }
 
 2400015={
-name = "Dilnaz"
-female = yes
-dynasty = 65015
-dna = "jbialmcpchg"
-culture = tokmar
-religion = chaos
-martial = 4
-diplomacy = 6
-stewardship = 7
-intrigue = 7
-learning = 4
-add_trait = "flamboyant_schemer"
-add_trait = "content"
-add_trait = "cruel"
+name="Dilnaz"
+female=yes
+dynasty=65015
+dna="jbialmcpchg"
+culture=tokmar
+religion=chaos
+martial=4
+diplomacy=6
+stewardship=7
+intrigue=7
+learning=4
+add_trait="flamboyant_schemer"
+add_trait="content"
+add_trait="cruel"
 1981.1.1={birth=yes}
 2027.6.7={death=yes}
 }
 
 2400016={
-name = "Yamin"
-dynasty = 65016
-dna = "hinfljblngf"
-culture = tokmar
-religion = chaos
-martial = 7
-diplomacy = 4
-stewardship = 4
-intrigue = 5
-learning = 7
-add_trait = "thrifty_clerk"
+name="Yamin"
+dynasty=65016
+dna="hinfljblngf"
+culture=tokmar
+religion=chaos
+martial=7
+diplomacy=4
+stewardship=4
+intrigue=5
+learning=7
+add_trait="thrifty_clerk"
 1990.1.1={birth=yes}
 2038.12.14={death=yes}
 }
 
 2400017={
-name = "Çat"
-dynasty = 65017
-dna = "mkijomjniea"
-culture = tokmar
-religion = chaos
-martial = 6
-diplomacy = 5
-stewardship = 7
-intrigue = 6
-learning = 2
-add_trait = "flamboyant_schemer"
-add_trait = "impaler"
-add_trait = "humble"
-add_trait = "lustful"
+name="Çat"
+dynasty=65017
+dna="mkijomjniea"
+culture=tokmar
+religion=chaos
+martial=6
+diplomacy=5
+stewardship=7
+intrigue=6
+learning=2
+add_trait="flamboyant_schemer"
+add_trait="impaler"
+add_trait="humble"
+add_trait="lustful"
 1962.1.1={birth=yes}
 2015.2.6={death=yes}
 }
 
 2400018={
-name = "Samur"
-female = yes
-dynasty = 65018
-dna = "pgcmhhfdfhe"
-culture = tokmar
-religion = chaos
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 5
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "cruel"
-add_trait = "craven"
-add_trait = "proud"
+name="Samur"
+female=yes
+dynasty=65018
+dna="pgcmhhfdfhe"
+culture=tokmar
+religion=chaos
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=5
+learning=5
+add_trait="grey_eminence"
+add_trait="cruel"
+add_trait="craven"
+add_trait="proud"
 1978.1.1={birth=yes}
 2031.12.14={death=yes}
 }
 
 2400019={
-name = "Goleda"
-dynasty = 65019
-dna = "acdpjkhmcfd"
-culture = tokmar
-religion = chaos
-martial = 4
-diplomacy = 5
-stewardship = 3
-intrigue = 4
-learning = 3
-add_trait = "underhanded_rogue"
-add_trait = "arbitrary"
-add_trait = "cynical"
-add_trait = "honest"
+name="Goleda"
+dynasty=65019
+dna="acdpjkhmcfd"
+culture=tokmar
+religion=chaos
+martial=4
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=3
+add_trait="underhanded_rogue"
+add_trait="arbitrary"
+add_trait="cynical"
+add_trait="honest"
 1972.1.1={birth=yes}
 2026.3.5={death=yes}
 }

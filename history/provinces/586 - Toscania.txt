@@ -6,13 +6,17 @@ title = c_toscania
 # Settlements
 max_settlements = 4
 b_toscania = castle
-b_gimignano = city
-b_fiorenta = temple
+#b_gimignano = city
+#b_fiorenta = temple
 #b_amaleto = castle
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_gimignano = city
+}

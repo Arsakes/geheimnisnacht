@@ -12,9 +12,13 @@ b_harenskarpel = city
 
 # Misc
 culture = westerlander
-religion = sigmarite
+religion = manannite
 
 
 # History
+
+2250.1.1 = {
+	b_kriel = castle
+}
 
 2302.7.23 = { capital = b_harenskarpel }

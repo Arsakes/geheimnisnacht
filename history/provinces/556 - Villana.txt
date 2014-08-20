@@ -1,5 +1,5 @@
 #556 Villana
-#County Title
+
 title = c_villana
 
 #Settlements
@@ -11,6 +11,6 @@ b_lirocana = city
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History

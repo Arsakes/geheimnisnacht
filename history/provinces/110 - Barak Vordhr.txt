@@ -10,7 +10,7 @@ b_kraka_durandel = castle
 
 # Misc
 culture = dwarf_norse
-religion = ancestor_gods
+religion = norse_ancestor_gods
 
 
 # History

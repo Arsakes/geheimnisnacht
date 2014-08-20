@@ -4,16 +4,21 @@
 title = c_mousillon
 
 # Settlements
-max_settlements = 5
+max_settlements = 6
 b_palais_damne = castle
 b_chapel_mousillon = temple
 b_quartier_du_sud = city
-b_quartier_des_ponts = city
-#b_donlet = city
+#b_quartier_des_ponts = city
+#b_donlet = castle
+#b_grismerie = city
 
 # Misc
 culture = mousillonian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_quartier_des_ponts = city
+}

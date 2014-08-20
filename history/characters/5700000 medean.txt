@@ -1,15 +1,15 @@
 5700000={
-name = "Adebamgbe"
-dynasty = 321
-culture = medean
-religion = ormazd
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 9
-learning = 10
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Bahram"
+dynasty=49001
+culture=medean
+religion=ormazd
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=9
+learning=10
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
@@ -19,17 +19,17 @@ add_trait="kind"
 }
 
 5700001={
-name = "Akinmoyero"
-dynasty = 340
-culture = medean
-religion = ormazd
-martial = 0
-diplomacy = 9
-stewardship = 3
-intrigue = 7
-learning = 10
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Emad"
+dynasty=49002
+culture=medean
+religion=ormazd
+martial=0
+diplomacy=9
+stewardship=3
+intrigue=7
+learning=10
+add_trait="hunter"
+add_trait="misguided_warrior"
 
 add_trait="craven"
 
@@ -39,17 +39,17 @@ add_trait="craven"
 }
 
 5700002={
-name = "Oluwasegun"
-dynasty = 351
-culture = medean
-religion = ormazd
-martial = 9
-diplomacy = 4
-stewardship = 0
-intrigue = 11
-learning = 6
+name="Jehangir"
+dynasty=49003
+culture=medean
+religion=ormazd
+martial=9
+diplomacy=4
+stewardship=0
+intrigue=11
+learning=6
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="greedy"
 
 add_trait="tall"
@@ -59,17 +59,17 @@ add_trait="tall"
 }
 
 5700003={
-name = "Oluwaseyi"
-dynasty = 325
-culture = medean
-religion = ormazd
-martial = 3
-diplomacy = 8
-stewardship = 11
-intrigue = 1
-learning = 4
+name="Meherbakhsh"
+dynasty=49004
+culture=medean
+religion=ormazd
+martial=3
+diplomacy=8
+stewardship=11
+intrigue=1
+learning=4
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
@@ -79,17 +79,17 @@ add_trait="wroth"
 }
 
 5700004={
-name = "Larunnka"
-dynasty = 325
-culture = medean
-religion = ormazd
-martial = 7
-diplomacy = 2
-stewardship = 9
-intrigue = 9
-learning = 7
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Sasan"
+dynasty=49005
+culture=medean
+religion=ormazd
+martial=7
+diplomacy=2
+stewardship=9
+intrigue=9
+learning=7
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
@@ -99,17 +99,17 @@ add_trait="humble"
 }
 
 5700005={
-name = "Boadi"
-dynasty = 325
-culture = medean
-religion = ormazd
-martial = 4
-diplomacy = 0
-stewardship = 2
-intrigue = 5
-learning = 0
-add_trait = "hedonist"
-add_trait = "indulgent_wastrel"
+name="Yazdandad"
+dynasty=49006
+culture=medean
+religion=ormazd
+martial=4
+diplomacy=0
+stewardship=2
+intrigue=5
+learning=0
+add_trait="hedonist"
+add_trait="indulgent_wastrel"
 
 add_trait="ill"
 
@@ -119,17 +119,17 @@ add_trait="ill"
 }
 
 5700006={
-name = "Gbegbaaje"
-dynasty = 325
-culture = medean
-religion = ormazd
-martial = 5
-diplomacy = 9
-stewardship = 7
-intrigue = 11
-learning = 9
+name="Narimanzadeh"
+dynasty=49007
+culture=medean
+religion=ormazd
+martial=5
+diplomacy=9
+stewardship=7
+intrigue=11
+learning=9
 
-add_trait = "misguided_warrior"
+add_trait="misguided_warrior"
 add_trait="content"
 
 
@@ -138,17 +138,17 @@ add_trait="content"
 2045.7.2={death=yes}}
 
 5700007={
-name = "Fiifi"
-dynasty = 329
-culture = medean
-religion = ormazd
-martial = 7
-diplomacy = 0
-stewardship = 2
-intrigue = 9
-learning = 2
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Khudayar"
+dynasty=49008
+culture=medean
+religion=ormazd
+martial=7
+diplomacy=0
+stewardship=2
+intrigue=9
+learning=2
+add_trait="poet"
+add_trait="fortune_builder"
 
 add_trait="trusting"
 add_trait="lustful"
@@ -158,17 +158,17 @@ add_trait="lustful"
 }
 
 5700008={
-name = "Anikulapo"
-dynasty = 359
-culture = medean
-religion = ormazd
-martial = 6
-diplomacy = 6
-stewardship = 9
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "brilliant_strategist"
+name="Rewniz"
+dynasty=49009
+culture=medean
+religion=ormazd
+martial=6
+diplomacy=6
+stewardship=9
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="brilliant_strategist"
 
 add_trait="legit_bastard"
 add_trait="drunkard"
@@ -178,17 +178,17 @@ add_trait="drunkard"
 }
 
 5700009={
-name = "Ayo"
-dynasty = 344
-culture = medean
-religion = ormazd
-martial = 8
-diplomacy = 1
-stewardship = 11
-intrigue = 5
-learning = 5
-add_trait = "duelist"
-add_trait = "grey_eminence"
+name="Meherafshan"
+dynasty=49010
+culture=medean
+religion=ormazd
+martial=8
+diplomacy=1
+stewardship=11
+intrigue=5
+learning=5
+add_trait="duelist"
+add_trait="grey_eminence"
 
 add_trait="homosexual"
 add_trait="lisp"
@@ -198,37 +198,33 @@ add_trait="lisp"
 }
 
 5700010={
-name = "Babafemi"
-dynasty = 359
-culture = medean
-religion = ormazd
-martial = 10
-diplomacy = 8
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "underhanded_rogue"
-
-
-
-
+name="Parizad"
+dynasty=49011
+culture=medean
+religion=ormazd
+martial=10
+diplomacy=8
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="underhanded_rogue"
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
 5700011={
-name = "Olufunmilola"
-dynasty = 324
-culture = medean
-religion = ormazd
-martial = 8
-diplomacy = 9
-stewardship = 8
-intrigue = 0
-learning = 4
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Shervin"
+dynasty=49012
+culture=medean
+religion=ormazd
+martial=8
+diplomacy=9
+stewardship=8
+intrigue=0
+learning=4
+add_trait="scholar"
+add_trait="scholarly_theologian"
 
 
 add_trait="fair"
@@ -238,17 +234,17 @@ add_trait="fair"
 }
 
 5700012={
-name = "Kweku"
-dynasty = 336
-culture = medean
-religion = ormazd
-martial = 5
-diplomacy = 8
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "scholar"
-add_trait = "scholarly_theologian"
+name="Zadsparam"
+dynasty=49013
+culture=medean
+religion=ormazd
+martial=5
+diplomacy=8
+stewardship=1
+intrigue=6
+learning=1
+add_trait="scholar"
+add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
 
@@ -258,17 +254,17 @@ add_trait="envious"
 }
 
 5700013={
-name = "Kwaw"
-dynasty = 323
-culture = medean
-religion = ormazd
-martial = 6
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 1
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Raham"
+dynasty=49014
+culture=medean
+religion=ormazd
+martial=6
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=1
+add_trait="poet"
+add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
@@ -278,17 +274,17 @@ add_trait="shy"
 }
 
 5700014={
-name = "Kashimawo"
-dynasty = 348
-culture = medean
-religion = ormazd
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 9
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Sheherazad"
+dynasty=49015
+culture=medean
+religion=ormazd
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=9
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
@@ -298,17 +294,17 @@ add_trait="strong"
 }
 
 5700015={
-name = "Lagunja"
-dynasty = 347
-culture = medean
-religion = ormazd
-martial = 5
-diplomacy = 0
-stewardship = 9
-intrigue = 0
-learning = 10
-add_trait = "mystic"
-add_trait = "grey_eminence"
+name="Khojasteh"
+dynasty=49016
+culture=medean
+religion=ormazd
+martial=5
+diplomacy=0
+stewardship=9
+intrigue=0
+learning=10
+add_trait="mystic"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
@@ -318,17 +314,17 @@ add_trait="cynical"
 }
 
 5700016={
-name = "Ayodele"
-dynasty = 329
-culture = medean
-religion = ormazd
-martial = 10
-diplomacy = 2
-stewardship = 5
-intrigue = 8
-learning = 1
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Gayomard"
+dynasty=49017
+culture=medean
+religion=ormazd
+martial=10
+diplomacy=2
+stewardship=5
+intrigue=8
+learning=1
+add_trait="duelist"
+add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
@@ -338,17 +334,17 @@ add_trait="honest"
 }
 
 5700017={
-name = "Jojo"
-dynasty = 322
-culture = medean
-religion = ormazd
-martial = 1
-diplomacy = 3
-stewardship = 6
-intrigue = 6
-learning = 3
-add_trait = "hedonist"
-add_trait = "skilled_tactician"
+name="Keyvan"
+dynasty=49018
+culture=medean
+religion=ormazd
+martial=1
+diplomacy=3
+stewardship=6
+intrigue=6
+learning=3
+add_trait="hedonist"
+add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
@@ -358,17 +354,17 @@ add_trait="greedy"
 }
 
 5700018={
-name = "Minkah"
-dynasty = 330
-culture = medean
-religion = ormazd
-martial = 1
-diplomacy = 3
-stewardship = 1
-intrigue = 5
-learning = 5
+name="Arvand"
+dynasty=49019
+culture=medean
+religion=ormazd
+martial=1
+diplomacy=3
+stewardship=1
+intrigue=5
+learning=5
 
-add_trait = "midas_touched"
+add_trait="midas_touched"
 
 add_trait="kind"
 
@@ -378,17 +374,17 @@ add_trait="kind"
 }
 
 5700019={
-name = "Obafemi"
-dynasty = 355
-culture = medean
-religion = ormazd
-martial = 2
-diplomacy = 0
-stewardship = 6
-intrigue = 7
-learning = 9
-add_trait = "mystic"
-add_trait = "scholarly_theologian"
+name="Adarhormazd"
+dynasty=49020
+culture=medean
+religion=ormazd
+martial=2
+diplomacy=0
+stewardship=6
+intrigue=7
+learning=9
+add_trait="mystic"
+add_trait="scholarly_theologian"
 
 add_trait="tall"
 add_trait="weak"

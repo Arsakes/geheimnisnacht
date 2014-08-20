@@ -1,0 +1,61 @@
+cadai_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+
+	cadai = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		color = { 1.0 1.0 0.3 }
+		god_names = {
+			GOD_ASURYAN
+		}
+		
+		evil_god_names = {
+			GOD_KHAINE
+		}
+		
+		crusade_name = "HOLY_WAR"
+		scripture_name = THE_PROPHETS
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		feminist = yes
+		female_temple_holders = yes
+	}
+}
+
+cytharai_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+
+	cytharai = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		color = { 1.0 1.0 0.3 }
+		
+		god_names = {
+			GOD_KHAINE
+		}
+		
+		evil_god_names = {
+			GOD_ASURYAN
+		}
+		
+		crusade_name = "HOLY_WAR"
+		scripture_name = THE_PROPHETS
+		
+		priests_can_marry = yes
+		aggression = 1.5 		
+		allow_looting = no
+		allow_rivermovement = yes
+		female_temple_holders = yes		
+		max_consorts = 3
+		
+		pc_marriage = yes
+		bs_marriage = yes
+		psc_marriage = yes 
+	}
+}

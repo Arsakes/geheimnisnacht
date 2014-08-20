@@ -3,24 +3,53 @@ arabyan_group = {
 
 	ramaccan = {
 		graphical_culture = muslimgfx
-	#Arabic Egyptian
+
 		color = { 0.8 0.7 0.1 }
 		
 		male_names = {
-			Aaron_Aaron Abanoub Abderahman_Abderrahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah_Abdullah
-			Abianos_Abijah Abisalom Ablarion Abraam_Abraham Abu-Bakr_Abu-Bakr Adnan Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos
-			Ahmad_Ahmad Akbar_Akbar Alam Ali_Ali Amr Androus_Andrew Anthinos_Anthimos Arsenios_Arsenios Ashraf_Ashraf Asim
-			Athanasios_Athanasius Badr Bashir Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Boutros_Peter Danyal_Daniel Dawlat Da'oud_David
-			Ezra_Ezra Farhan Firuz Gabri'el_Gabriel Georgios_George Ghiyasaddin Habil_Abel Hakam_Hakam Hammud Hanri_Henry Haroun_Aaron Hisham
-			Hussayn_Hussayn Ibrahim_Abraham Ilyas_Elijah Is'mail_Ismail Izzaddin Jalaaladdin Jawdat Jerjer_Gregory Kemaladdin Khalil Krystafer_Christopher
-			Latif Lot_Lothair Malik Matta_Matthew Mehtar Mikail_Michael Mikhael_Michael Milad_Milad Mina_Menas Muammar
-			Mukhtar Murad Murshid Musa_Moses Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra'uf Rafiq Ridwan Sabah Salim Sha'ban
-			Sharif Suhail Tadros_Theodore Tajaddin Tayyib Touma_Thomas Usama Walid Yahya_Yahya Yared Yassir Youkhanna_John Youssef_Joseph Zaia_Isaiah Zakariyah_Zachary
+			Abanoub Abbad Abbas_Abbas Abdallah_Abdullah Abderahman_Abderrahman Abdul_Abdul Abdul-Azeem Abdul-Aziz Abdul-Hakam Abdul-Hamid Abdul-Haq Abdul-Hasan_Hasan Abdul-Hazm Abdul-Lateef Abdul-Madjid Abdul-Rahman Abdul-Razzaq Abdul-Salaam Abdul-Wahad Abdullah_Abdullah Abianos_Abijah Abisalom Ablarion Abraam_Abraham Abu Abu-Bakr_Abu-Bakr Adfuns_Alphonse Adhid Adil Adnan Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos Ahmad_Ahmad Akab Akbar_Akbar Ala'i Alam Ali_Ali Amir Amr Androus_Andrew Anthinos_Anthimos Arsenios_Arsenios Ashraf Ashraf_Ashraf Asim Athanasios_Athanasius Ayyub Aziz 
+			Badr Balashk_Vasco Bashar Bashir Biktor_Victor Bilal Binyamin_Benjamin Bishoi_Bishara Boutros_Peter 
+			Da'oud_David Da'ud_David Da'oud_David Danyal_Daniel Dawlat 
+			Ezra_Ezra 
+			Fadl Faisal Farhan Fath Fayiz Firuz 
+			Gabri'el_Gabriel Galind_Galindo Garsiya_Garcia Georgios_George Ghazi Ghiyasaddin 
+			Habil_Abel Hakam_Hakam Hamdan Hammud Hanri_Henry Haroun_Aaron Hashmaddin Hilal Hisham Hussayn_Hussayn 
+			Ibrahim_Abraham Ilyas_Elijah Imamaddin Is'mail_Ismail Isa Isma'il_Ismail Ismat Izzaddin 
+			Jahan Jalaaladdin Jamil Jawdat Jerjer_Gregory Jyad 
+			Kamran Kemaladdin Khalid Khalil Khudayar Krystafer_Christopher 
+			Latif Lot_Lothair Lubb_Lupo 
+			Ma'n Majid Malik Mas'ud Matta_Matthew Mehtar Mikail_Michael Mikhael_Michael Milad_Milad Mina_Menas Muaddam Muammar Mubashir Muhsin Mukhtar Mundir Murad Murshid Musa_Moses Muyahid Muzaffar Muzaffaraddin 
+			Nabil Nasir Nasraddin Nassib Nuraddin Nuri 
+			Pamin 
+			Qadir 
+			Ra'uf Radhi Raf Rafiq Rashid Rasiq Rasul Ridwan Sa'd Sa'ud Sabah Salahaddin Salim Sanyo_Sancho Seyfullah Sha'ban Sharaf Sharif Siddray Sirhan Suhail Suleyman_Solomon 
+			Tadros_Theodore Taimur Tajaddin Tariq Tawfiq Tayyib Tifilwit Touma_Thomas 
+			Umar_Umar Umaya Usama Utman 
+			Wahid Walid Wannaqo_Inigo 
+			Ya'far Ya'qub_Jacob Yahaff Yahya_John Yahya_Yahya Yared Yasar Yassir Youkhanna_John Youssef_Joseph Yusuf_Joseph 
+			Zahir Zaia_Isaiah Zakariyah_Zachary 
 		}
 		female_names = {
-			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima 
-			Jamila Khadija Majida Mariam_Maria Nabila Nura Radiya Rana Sacmis Safiya 
-			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra_Zahra
+			Abda Acenith Ahu Aisha Aiza Alia Aliyah Amunet Andali Asanet Asenath Asenet Azenet Aziza 
+			Badiat Butayna 
+			Cena 
+			Daniyah Dima Duha 
+			Fahra Fahriya Farida Fatima 
+			Gamila Ghada Golbahar Gulnar Gulnaz Gulpari 
+			Habiba Hafsa Halima Hasti Huda Huma 
+			Ibtisam Isra 
+			Jalila Jamila 
+			Kamala Karima Kera Khadija Khandan Khaterah Khatira Kinah 
+			Lala Layla 
+			Madiha Maha Mahdokht Mahsa Mahwash Majida Malika Mariam_Maria Marwa Mastana Mehri Mina Minoo Munawwar Munya_Munia Muzhdah 
+			Nabila Nadia Nahal Naila Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin Nur Nura 
+			Rabiya Radiya Rafiqa Rahat Raisa Rajiya Rana Randa 
+			Sacmis Sadiya Safiya Salma Samira Shakira Sitara Suhaila Suraya 
+			Tahira Tarifa Tawaret Taweret Thana Thashim Thuriya Titi 
+			Umm 
+			Wahida 
+			Yasmin Yazmine 
+			Zahida Zahra Zahra_Zahra Zara Zuhayra 
 		}
 		from_dynasty_prefix = "mn "
 		
@@ -37,7 +66,7 @@ arabyan_group = {
 
 	tevari = {
 		graphical_culture = muslimgfx
-	#Bedouin
+
 		color = { 0.7 0.9 0.3 }
 
 		male_names = {
@@ -65,7 +94,7 @@ arabyan_group = {
 
 	cophic = {
 		graphical_culture = muslimgfx
-	#Berber/Maghreb
+
 		color = { 0.7 0.7 0.4 }
 
 		male_names = {
@@ -122,45 +151,60 @@ arabyan_group = {
 	medean = {
 		graphical_culture = africangfx
 		second_graphical_culture = muslimgfx
-	#Akan/Yoruba
+
 		color = { 0.8 0.4 0.3 }
 
 		male_names = {
-			Abayomi Abegunde Abejide Abiade Abidemi Abidugun Abimbola Abiodun Abiola Abioye Adagba Addae Ade Adeagbo Adebamgbe Adebayo Adeben Adebowale Adegbalu Adegoke Adejinle Adejola Ademilu Adeniyi Adetokunbo Adisa Adofo Adom Adusa Afolabi Agbedegbede Agyei Agyeman Agyemang Ajimuda Akinmoyero Akron Akwasi Alayemore Amadi Amoa Amoani Ampah Anan Anane Anikulapo Ankoma Anum Aribiwoso Asamoah Ashon Ason Atoapem Aworokolokin Awotwe Awotwi Ayetise Ayo Ayodele Ayokunle Ayomide Ayotunde 
-			Babafemi Babajide Babatunde Badu Bamidele Bandele Berko Boadi Bodua Bolade 
-			Donkor Dubaku Ebo Ekow Ekun Ekundayo Eniola Enitan Enu 
-			Femi Fiifi Folami Gbanlare Gbegbaaje Gboonijio Giesi Gyasi Idowu Ifedapo Jojo 
-			Kashimawo Kayin Kayode Kehinde Kobby Kobena Kobi Kobina Kodjo Koffi Kofi Kojo Komla Komlan Kontar Kosi Kow Kwabena Kwadwo Kwaku Kwame Kwasi Kwaw Kweku Kwesi Kwodwo Kyere 
-			Lafogido Lagunja Lajamisan Lajodoogun Larunnka Lugbade Lumobi Luwoo 
-			Mansa Manu Minkah 
-			Nkruma Nsia Nsonowa Ntonni 
-			Oba Obafemi Obalufon Obamakin Odidimode Odudua Oduduwa Ogbogbodirin Ogboruu Ogun Ogyam Ojelokunbirin Ojigidiri Okanlajosin Okiti Okoto Okyin Olabode Oladele Olamilekan Olanrewaju Olateju Olojo Oloyede Olufemi Olufunke Olufunmilola Olujimi Olukayode Olumide Olumuyiwa Oluremi Olusegun Oluwa Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Oluyemi Omobolanle Omogbogbo Opeyemi Oranmiyan Oranyan Osangangan Osei Osinkola Osinlade Owusu Owusuwao Oyin 
-			Pereko 
-			Remilekun Rogbeesin 
-			Siisi 
-			Taiwo Tano Temiloluwa Tokunbo 
-			Wunmonije 
-			Yaba Yao Yaw Yawo Yoofi
+			Aazin Abadan Abadard Abadi Abarja Abbas Abolhassan Abtin Abtum Adar Adarbad Adarbahram Adarburzin Adarburzinmeher Adarfiroz Adarfra Adargushnasp Adarhormazd Adarhoshang Adarji Adarkhordad Adarkhurshid Adarmah Adarmard Adarpadyavand Adarvan Adel Adro Advi Afiveh Aflatun Afshar Afshar_Afshar Afshin Ahmad_Ahmad Ahumstut Ahun Airyaman Akbar_Akbar Akhgar Ali Allahyar Amardad Amavand Amin Amir Anaoshak Anosh Anoshiruvan Anoush Anoushiravan Anushirvan_Anushirvan Aorang Aoshnar Aparviz Arad Aram Arash Arasti Arawaostra Ardafravash Ardahan_Ardahan Ardakhoreh Ardalan Ardashir Ardavan Ardavan_Ardavan Ardaviraf Ardeshir Ardeshir_Ardeshir Ardvan Ardwahisht Arman Armeen Armin Arsalan Arshak Arsham Arshama Arshan Arshavir Arshia Arshis Arta Artafarnis Artan Artavardiya Artawahishta Arvand Arya Aryaburzin Aryamanesh Aryameher Aryan Aryanan Aryo Arzani Arzhang Asdin Asfandiar Ashavahisht Ashkan Ashraf Ashtad Aspandad Aspandyar Aspantaman Asrat Assad Astoh Atars Atash Atbin Athrina Atosa Aurang Aurashaspa Aurvatasp Aushedar Avizheh Ayanghat Ayeshah Azad Azadafroz Azadchehr Azadmard Azadsarv Azarafrooz Azarkevan Azarmig Azarzushnes Azin Azman 
+			Babak Babak_Babak Baghodat Bahadur Bahman Bahmanyar Bahmard Bahram Bahram_Bahram Bahramchobin Bahramdad Bahramgor Bahramian Bakhtafrid Bakhtafrit Bakhtiar_Bakhtiar Bakhtyar Balash Bamanji Bamdad Bamdat Bameen Bamshad Bapuji Baraz Barbad Bardia Barjorji Barman Barsam Barzin Barzu Bastavar Bastur Behbud Behmanesh Behnam Behnoud Behrad Behrang Behrouz Behruz Behzad Bejanji Belonging Beramji Berezavant Bezan Bhikhaji Bhimji Bijan Bizhan Bokhtar Borjis Borna Borzoo Bozorg Bozorgmehr Bundar Burzafrah Burzafrid Burzasp Burzin Burzincheher Burzinkurush Burzinmeher 
+			Chakhravat Chaxshnush Cheherazad Chubin Cirrus Cyrus Dad Dadabhai Dadafarin Dadar Dadbandad Dadbeh Dadburzin Dadfaruk Dadfiruz Dadgar Dadmeher Daenovajangh Dajibhai Daneshvar Danush Danush_Danush Dara Darab Darasha Darayus Darazdast Dariush Dariush_Darius Daryush Dastan Davrameshi Davud_David Day Dehmeher Delafruz Delawar Delir Delsuz Dhanjibhai Dinpanah Dinshah Dinshaw Dinyar Divband Djamasp Dorabji Dosabhai Dravasp 
+			Ebrahim_Abraham Edalji Ehsan Emad Emet Erach Erachji Erezwand Esfandiar Esfandiar_Esfandiar Esfandyar Eskander_Alexander Esmail_Ismail 
+			Fakirji Faramarz Faramarz_Faramarz Faramroze Faravindad Faraz Faraz_Faraz Farbod Fardad Fardin Fardunji Faredun Fareed_Farid Farhad Farhad_Farhad Farhang Farhoud Fariborz Fariborz_Fariborz Fariburz Farid Faridoon Farjad Farkhan Farnbag Farrokh Farrokhan Farrokhbakhsh Farrokhbondad Farrokhhormazd Farrokhmard Farrokhnezad Farrokhruz Farrokhzad Farroukh_Farroukh Farrukhzad_Farrukhzad Farsak Farshad Farsheed Farshid Farud Farzad Farzad_Farzad Farzam Farzan Farzeen Farzin Fath Ferdows Ferdows_Ferdows Fereedun_Feridun Fereydoon Ferozgar Firdous Firdousi Firouz Firozji Foremost Forood Foroohar Foroud Frahimrawa Frahisrva Framarz Framji Frashaoshtra Frashavard Fravak Freortis 
+			Gaodhasti Gashtaham Gaubruva Gave Gayomard Gelshah Geramig Ghandibhai Ghobad Gholam Gira Giv Goberu Godarz Godrezji Goraze Goshnjam Goshtasb Goshtasb_Goshtasb Goudarz Govad Gudarz Gushnasp Gushtahm Gushtasp Gustadji 
+			Habub Haechataspa Hafez Haftanbad Hakhamanish Hami Hardar Hardarashna Hassan_Hasan Hazarasp_Hazarasp Hedayat Heerad Hirad Hom Homa Homayoon Homfrashmi Homi Homji Homyar Hooman Hooshang Hooshmand Hooshyar_Hooshyar Hootan Hormasji Hormazd Hormazd_Hormazd Hormazdad Hormazdyar Hormoz Hosh Hoshang Hoshedar Hoshedarmah Hoshyar Hossein_Hossein Huafrid Huafrita Huchithra Hukhshthra Human Humayun Husrav Hutan Huvaspa Huzvak Hvarechaeshman Hvarechithra 
+			Iraj Iranshah Isatvastra Ishvat Izad Izadyar 
+			Jahan Jahanabad Jahanbax Jahandar Jahandar_Jahandar Jahangir Jahangir_Jahangir Jahanjuy Jahanmard Jahanshah Jahanshah_Jahanshah Jahansuz Jalbhai Jamasp Jamaspji Jamshed Jamshedji Jamshid Jamshid_Jamshid Jamshir Janafruz Jandal Jangi Javanmard Javeed Javeed_Javeed Javidan Jehangir Jijibhai Jivaji Jivanji 
+			Kabujiva Kai Kaikhosru Kaikobad Kambiz Kambujiya Kamdele Kamran Kamshad Kamus Kamyar Karan Karlman Kasra Kaus Kavadh Kavannush Kavas Kavasji Kavay Kaveh Kavoos Kavoos_Kavoos Kay Kayan Kayanshah Kayarax Kayarmin Kaygushtasp Kaykaus Kaykhusru Kaylohrasp Kaynashnin Kayomars Kaypassen Kayras Kayvan Kayvishtasp Kayzad Kerbad Kerbadji Kerfegar Kermanshah Kersasp Keshwad Kevan Keyghobad Keykhosrau_Keykhosrau Keyumars Keyvan Khanvant Kharad Kharmandar_Kharmandar Kharshedji Khashayar Khashayar_Khashayar Khavar Khoda Khodabax Khodadad_Khodadad Khojasteh Khordad Khorehomand Khorram Khorushasp Khosrau_Khosrau Khosrav Khosrow Khubchehr Khubruy Khubyar Khudabandeh Khudabax Khudadad Khudamard Khudamorad Khudaparasht Khudaram Khudavand Khudavandeh Khudayad Khudayar Khudayar_Khudayar Khufiruz Khurdad Khursand Khurshid Khurshid_Khurshid Khurshidchehr Khushchehr Khushmanish Khushmasta Khushnavaz Khushrod Khusru Khwarshed Kia Kian Kianoosh Kiarash Kiumars Kiyan Kobad Koohyar Koosha Kouros Kourosh Kurush Kurush_Cyrus Kuvarji 
+			Lavji Limji Lohrasp 
+			Mahbod Mahburzin Mahdat Mahmeher Mahmud Mahnahid Mahraspand Mahruy Mahvandad Mahvir Mahyar Makan Manakji Mancherji Manchersha Manee Mani Manouchehr Manuchihr_Manuchihr Manush Manushihr_Manushihr Manushkhunarf Mardan Mardbud Marzban Marzuban_Marzuban Mashad_Mashad Maziar Mediomah Mehbazu Mehbud Meher Meherab Meherabad Meherafshan Meherak Meheran Meherasp Meherbakhsh Meherban Meherburzin Meherdad Mehernarseh Mehernosh Meheroj Mehersan Meheryar Meherzad Mehrab Mehrak Mehran Mehrang Mehrdad Mehrzad Merjibhai Mervanji Milad Minochehr Minoo Mohor Morad_Morad Morteza Motabhai Mozaffar Murad Murdad 
+			Nadarsha Nadir Namdar Namvar Nanabhai Naorozji Naoruz Naoshad Naotar Naozad Nard Nariman Narimanzadeh Narseh Nasarvanji Nashak Naveed Navid Nawazish Nawid Nazban Nekchehr Nekdel Nekmard Nekshad Nerlosangh Nevazar Nezam Nima Nimrustam Niyoosha Noshirwan Noshzad Notriga Nouri Noushzad Nush Nushadar Nuved 
+			Omeed Omid Orang Orvadasp 
+			Paband Padmani Pahalvan Pahlawan Pahlbod Paitiraspa Paktan Palanji Palash Parastar Parham Parizad Parsa Parshan Parvanda Parviz Parwez Pasha Pashang_Pashang Pashangh Pashin Pashoutan Payam Pejman Peroz Peroz_Peroz Perozshah Peshotan Pestanji Peterasp Peyman Pezhman Pirangushnasp Pirgushnasp Pirooz Piroozan Piruz Piruzan Pishan Pishkar Pishkasir Pisnangh Pochaji Porgav Poulad Pouriya Pourushaspa Pouya Pujman Pulad Puladvand Puzhman 
+			Raham Rakhoh Rakhshan Ram Rambax Rambehesht Rambod Ramburzin Ramdin Ramgushnasp Ramin Ramisht Ramtin Ramyar Rangushtar Ranjishn Rashid Rashna Rastamji Ratanji Ratushtar Rayomand Rewniz Reza Rointan Roozbeh Roshan Rostam Rostam_Rostam Rozafzun Rozbahar Rozmeher Ruhollah Ruinton Rushad Rustam Ruzbeh 
+			Sadri Saen Safna Sahi Salar Salm Salman Sam Saman Sami Sanjar Santokji Sarafraz Sarosh Saroshyar Sarvar Sarvazad Sarvin Sasan Savaksha Sepehr Shahab Shahab_Shahab Shahak Shaham Shahan Shahbahram Shahbaz Shahbaz_Shahbaz Shahdan Shaheen Shahen Shahfiruz Shahin_Shahin Shahjahan Shahkam Shahmard Shahmardan Shahpur Shahram Shahram_Shahram Shahrdad Shahren Shahrevar Shahrewar Shahriar Shahrokh Shahrokh_Sharokh Shahrooz Shahrud Shahruz Shahruz_Shahruz Shahryar Shahryar_Shahryar Shahrzad Shahvir Shahyar Shahzad Shapour Shapur_Shapur Shapurji Sharukh Shaya Shayan Shayan_Shayan Sheherazad Sheherbaraz Sherfiruz Shergir Sheriadji Shershah Sherveen Shervin Shidasp Shidush Shirmard Shiruy Shirvanshah Shirzad Siamak Siavakhsh Siavakhshan Siavash Siavax Siavosh Sina Smardis Sohrab Sorabji Soroush Sorush Spentodad Spitaman Spityur Sriroxna Stivant Suklaji Surin Suroyazat Syamak 
+			Tahm Tahmasb_Tahmasb Tahmaseb Tahmasp Tahmouress Tahmtan Tahmuras Taj Takhmaspada Tamur Taronish Tehmuras Temulji Teymour Thritak Tigran Tir Tirandaz Tirdad Tishtar Tiz Tizasp Tizrav Tizyarshti Tokhare Tooraj Touraj Tus 
+			Ukarji Upamana Urvakhsha Urvatatnara Ushah 
+			Vahhab_Vahhab Vahid Valakhsh Vali Vandad Vanitar Varaz Varazdad Vardanis Varshasb Varshasb_Varshasb Varun Vasna Vaspan Vaspar Veer Vehmard Vifranavaz Vishnasp Vishtasb Vishtasb_Vishtasb Vishtaspa Vispanfria Vohu Vohuperes Vourunemangha 
+			Wehafrid Wehshapur Wehzan 
+			Yadgar Yakdast Yashar Yavisht Yazad Yazdandad Yazdansetae Yazdegerd Yazdezad Yazdgerd Yazdyar Yima Yousef_Joseph 
+			Zadhormazd Zadmehr Zadsparam Zahak Zahan Zakaria Zal Zamyad Zand Zaosh Zar Zaran Zarathushtra Zarazdaiti Zard Zariab Zarir Zarman Zarmeher Zartosht Zartosht_Zartosht Zarvan Zavareh Zia Zinawar Zirak Zirakzadeh Zreh Zubin 
 
 		}
 		
 		female_names = {
-			Aba Abagbe Abayomi Abebi Abeje Abeke Abena Abeni Abeo Abina Abiodun Abiona Abisola Abla Abrema Adebola Adebomi Adebowale Adedagbo Adedewe Adedoja Adeleke Adenrele Adeola Aderinola Adesimbo Adesina Adetokunbo Adeyemi Adowa Adwoa Afi Afia Afua Akosi Akosiwa Akosua Aku Akua Alaba Ama Amba Ame Ameyo Amma Araba Asi Awusi Ayawa Ayo Ayobami Ayobunmi Ayodele Ayofemi Ayoluwa Ayomide Ayotunde 
-			Baaba Baako Baduwaa Bandele Bolade Bolanle 
-			Dada Dayo 
-			Efia Efua Ekua Ekundayo Eniola Esi 
-			Folade Folasade 
-			Gbemisola 
-			Idowu Ife Ifedapo Ige Iyabo 
-			Kaakyire Kakra Kayin Kehinde Kessie Kunto Kwasiba 
-			Maanu Mansa Modupe Mojisola Monifa Morayo Moremi Morowa 
-			Nkroma Nsowaa 
-			Oladele Olamide Olateju Olayinka Olubunmi Olufunke Olufunmilola Oluremi Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Oyin 
-			Panyin 
-			Remilekun 
-			Simisola 
-			Temiloluwa Temitope Thema Titilayo 
-			Yaa Yaaba Yejide Yetunde Yewande 
+			Aban Abandokht Abanhir Abenahir Abnous Afareen Afsaneh Afsar Afshan Afsoon Ahoo Ahou Ahu Akhtar Alaleh Anahita Anoosheh Anusheh Ara Ardvisura Aredetfredhi Arenavachi Arezoo Argavan Arghavan Armaghan Armaiti Armindokht Arnavaz Arnaz Arta Artdokht Arya Aryana Aryenish Arzu Asa Asal Asha Ashishvangh Atoosa Aturdokht Ava Avizeh Ayin Azad_Azad Azaddokht Azadeh Azadeh Azar Azarakhsh Azargoon Azarmidokht Azarnoush Azin Azita 
+			Bahameen Bahamin Bahar Baharak Bahareh Bahmanbanu Bahmandokht Bakhtavar Banafsheh Banoo Banou Banu Banudadhush Banugul Banugushnasp Banuhufriya Banuhufriz Banuhuram Banuhururish Beeta Beh Behafrid Behbaha Behbod Behnaz Behrokh Behruz Behzad Benafsha Bita Bolour Bostan Boubak Bousseh Burandokht 
+			Chalipa Chaman Cheherazad 
+			Dadhush Dadhushfarrokh Danish Darya Deena Dehbanu Delafruz Delara Delaram Delbahar Delbanu Delbar Deldar Delkash Delkhush Delnavaz Delruba Delshad Deyazad Din Dina Dinah Dinaz Dinbai Dinbanu Dogdo Donya Dorri Dosibai Dugedhra 
+			Elham Elnaz Fahnik 
+			Farah Farahnaz Faranak Farangis Fareedeh Farhang Fariba Farida Farideh Farkhonda Farkhondeh Farnaz Farnaza Farnaza_Farzanak Farrin Farva Farzanak_Farzanak Farzaneh Feerouzeh Ferangiz Fereshteh Feroza Ferozbanu Fila Firouzeh Fojan Forough Forouzan Forouzandeh Fozhan Franak Frawarti Freny Friya_Friyana Friyana_Friyana Furuzan 
+			Ganj Geesou Gelareh Ghamze Ghamzeh Ghassedak Ghazal Ghazaleh Ghodsi Ghoncheh Ghoncheh_Ghoncheh Gisou Gita Giti Gohar Goharafrid Golbahar Golbahar_Golbahar Golbanoo Goli Golnar Golnaz Golnaz_Golnaz Golnessa Golpari Golshan Gordafarid Gordafrid Gordia Gordieh Guita Guiti Gul Gulafruz Gulafsan Gulafshan Gulandam Gulbadan Gulbaher Gulbai Gulbanu Gulbarg Gulchehr Gulestan Gulkhandan Gulkhurshid Gullala Gulnar Gulpaekar Gulroxar Gulrukh Gulshan Gulshirin Gulzar 
+			Hamdam Hastee Hasti Hediyeh Hengameh Homa Homai Hormazbanu Hufriya Hurmat Hutosh Hutoxi Hvovi 
+			Iran Iranbanu Irandokht 
+			Jahanaray Jaleh Jamileh Javaneh Jilla 
+			Kaiandokht Kaidokht Kaniz Katayoun Katayun Katin Keherafrid Kerbanu Keshvar Khandan Kharmen Kharshedbai Khatereh Khojassteh Khorsheed Khubchehr Khubrui Khurmand Khurshid Khurshidbanu Khushchehr Khushmand Khushnam Khushnam_Khushnama Khushnama_Khushnama Khushnawaz Kiana Kimiya 
+			Ladan Lal Lalagul Laleh Layly Leila Leily Lida Lila Lili Lily Lilya 
+			Mah_Mahin Mahafrid Mahafrin Mahasti Mahaziver Mahbanu Mahchehr Mahdokht Maheen Mahin Mahin_Mahin Mahinbanu Mahkameh Mahkhurshid Mahnaz Mahnoosh Mahpaekar Mahpari Mahparvin Mahperviz Mahrokh Mahrokh_Mahrokh Mahru_Mahrokh Mahsa Mahsheed Mahta Mahtab Mahvash Mahzarin Makhmal Malakeh Mana Mandana Manee Mani Manizeh Manizheh Mariam Mariam_Mariam Marjan Marjaneh Marmar Maryam Mastaneh Meher Meherafraz Meherafrid Meherafrin Meherafruz Meherangiz Meherbai Meherbanu Meherchehr Meherkhoda Meherokh Meherpaekar Mehersimin Mehrangiz Mehrnaz Mehrnoosh Mehry Meshia Mina Minoo Mitra Mona Morvareed Morvarid Mozhdeh Mozhgan 
+			Naghmeh Nahal Naheed Naheed_Venus Nahid Nahlibai Narenj Narges_Narcissus Nargess Nasreen Nasrin Nastaran Nava Navaz Navazbai Navazesh Navvaba Nazafarin Nazakat Nazanin Nazbanu Nazchehr Nazgol Nazgol_Nazgol Nazhin Nazilla Nazneen Naztab Nazy Neda Negah Negar Negeen Negin Nekakhtar Nekbakht Nekchehr Nekdel Nezhat Niki Nikoo Nikou Nilopal_Nilopal Niloufar Nilufer_Nilopal Niyoosha Noor Noushafarin Noushin 
+			Omeed Omid Oranous Orkideh 
+			Padideh Paesangnu Panteha Parand Parastoo Paree Pareechehr Pareerou Pareesa Pareevash Pareeya Parendi Pari Pari_Parin Paribanu Parichehr Parik_Parin Parin_Parin Parindokht Parisa Parizad Parto Parvana Parvaneh Parvaneh_Parvaneh Parvin Parviz Payendeh Pegah Pegita Pertevniyal Peymaneh Peyvand Pooneh Pouneh Poupak Pouran Pourandokht Pourandokht_Pourandokht Pouri Pouruchisti Puran Purandokht Purgav Puyendeh 
+			Raha Rakhshandeh Rambanu Rambehesht Ramesh Rasa Rashna Ravan Reema Rima Robab Robeab Rokhsar Roksana Roshan Roshanaf Roshanak Roshanora Roshni Roudabeh Roxana Roxenda Rozafzun Rozbahar Rozmeher Rudabeh Ruhae Rux Ruxshin Ruzbeh 
+			Sadaf Saghar Sahba Sakarbai Salomeh Saman Samanbar Samannaz Samanrukh Samila Samira Sana Sanaz Sanober Sapinud Sara Sarafraz Sarosh Sarv Sarvazad Sarvenaz Savanghvachi Sayeh Seema Seeta Sepeedeh Sepideh Setareh Shabnam Shadan Shadee Shadi Shahbanu Shahdokht Shaheen Shahi Shahin Shahla Shahnavaz Shahnaz Shahrbanou Shahrewar_Shahrewar Shahrinaz Shahrnaz Shahru Shahrzad Shahzadeh Shahzan Shaker Shakerbanu Shakernaz Shalizeh Sharareh Sheedeh Sheefteh Sheeva Sheherazad Sheherbanu Sheherivar_Shahrewar Shehernavaz Shehernaz Sheyda Shideh Shima Shirbanu Shirdokht Shireen Shirin Shirinbanu Shiva Shokoufeh Shokouh Sholeh Shouka Sima Simbar Simin Simindokht Simurg Sindokht Sita Sogand Soraya Soudabeh Souri Soussan Souzan Spenta Srutatfedhri Sudabeh Suri Susan_Susana Sussan 
+			Tabendeh Tahereh Tahmineh Tajbanu Tala Tanaz Tara Taraneh Tarsa Teena Tehmina Thrity Tina Tishtar Tokhmesarv Touca Touran Tourandokht Tushnamaity 
+			Ushtavaity 
+			Vahbiz Vanda Veeda Vida Vira Virbanu Vispanfriva 
+			Yalda Yasaman Yasmin_Jasmine Yass Yazdin Yazdindokht Yeganeh Yekta 
+			Zamrod Zari Zarin Zarinchinar Zarmandokht Zarrin Zarrindokht Zeeba Zer Zeynab Zhaleh Zhila Ziba Zohreh Zoish Zoya 
 		}
 
 		pat_grf_name_chance = 40
@@ -177,54 +221,54 @@ arabyan_group = {
 	wasai = {
 		graphical_culture = africangfx
 		second_graphical_culture = muslimgfx
-	#Mande/Mossi
+
 		color = { 0.2 0.9 0.8 }
 
 		male_names = {
-			Ablasse Abubakari Akba Alayaman Alfa Ali Ankada Askia 
-			Baaga Baahamma Baalisongi Babatu Bakon Bakr Balam Bamari Bandigoo Bankanu Bantia Banydoba Banyikuba Baongo Baru Bassarou Bello Berté Birma Biya Biyay Biyo Boagri Bogora Bomba Borgo Bory Boubakar Boukare Boumi Builsa Bulli 
-			Camba 
-			Dankaran Dankataya Dao Dawud Diebo Djata Doauda Doukourou Dulugu Dunku Dyabe 
-			Fadazaw Fari Fodi 
-			Gamambu Gao Gazari Geda Gigma Gima Gmarba Gnounga Gonga Gori Guifo Gumasida 
-			Hamaria Hamicuuri Haminari Hampandi Hanmiliri Hano Harun Huntani 
-			Igoumou Ikoi Ismail 
-			Kabayao Kalabi Kalinkuma Kampadi Kampadiboaghi Kanbga Kanbu Kango Kani Kankan Kanku Kanté Kaongo Karay Karfo Karim Katiya Kaya Kayna Keita Keïta Khalifa Kimi Kinba Kinkin Kobga Konaté Koom Korogo Korongo Kouka Koukiya Kourita Kukura Kumay Kusoy Kusur Kutu 
-			Labidiedo Lahilatoul Ligidi Lisongi Lompo 
-			M'Bali Mabungu Madao Magan Maghan Maghann Mahmud Malla Mamadi Manding Mansa Mari Mayan Mayroumfa Mazi Moogo Musa 
-			Naré Nawalagmba Nene Noaga Nonraogo Nyambe Nyambre 
-			Onadja Ouati Ouedraogo 
-			Pangangri Pataragombe Piiyo 
-			Ragongo Raissa Reidja Riale 
-			Saaga Sagmandia Sakura Salam Salma Sambo Sandaki Sanum Sapilem Sawadogo Saye Shinyunbu Sigiri Silman Sonni Sorgo Souleyman Soumaba Soumaoro Suleiman Sundiata 
-			Tagnogokelin Takoi Tantiari Tenin Tidarpo Tigre Tiiga Tokurma Tontuoriba Totebaldbo Touman Toumani Tuguri 
-			Uli Untani 
-			Wali Wati Wedraogo Wendmi Wobgho Wobogoo Wori Wurbendi Wuribiari Wurijuari 
-			Yaaparigu Yadega Yalle Yama Yamba Yankoi Yembrima Yembuado Yemde Yempaabu Yendabri Yenhamma Yenkoari Yenkpaari Yensombu Yentagma Yentema Yolomfaogoma Yomho Yuma 
-			Zakoi Zalil Zunku 
+			Abi-Bakr Abubakari Adeh Adeng Adim Afan Akah Akba Akoi Alayaman Aleng Ali_Ali Ali-Fay Ali-Kolon Ali-Zalil Amah Amang Amim Angan Anim Ankada Anyan Arool Askia Assang Atoh Azim 
+			Babayo Badä Bakon Bakr Bakr-Kanbu Balam Bamari Bamu Bankanu Bannu Baru Bassarou Bassi Bello Berté Birama Birma Bisi Biya Biyay Biyo Biyu Bomba Bonga Boohe Boohoyo Borgo Bory Botchwu Boubakar Boumi Bundou Bunoe Busu 
+			Camba Cisse 
+			Dankaran Dankataya Dao Daoud_David Dawud Dawud_David Demba Dese Diara Dikkou Dipo Djata Doauda Doukourou Dunku Düru Dyabe 
+			Eyallah 
+			Fadazaw Fädazu Faga-Laye Fari Fatta Fodi Fuluku 
+			Gane Gao Gbamu Gbenge Gbise Gonga Guifo 
+			Hargani Harun Hekwu 
+			Idah Igoumou Ikoi Ishaq_Isaac Ismail Ismail_Ismail 
+			Jukwu 
+			Kabayao Kabayo Kafia Kalabi Kambine Kanafa Kanbu Kani Kankan Kanku Kanté Karay Kassa Kasseï Katiya Kaya Kayna Keita Keïta Khalifa Kimi Kinba Kinkin Kisha Kodama Koïzé Konaté Koukiya Kukura Kukuray Kumay Kusoy Kusur 
+			Lahilatoul Lahiltoul 
+			M'Bali M'Bali Maammarou Madao Magan Maghan Maghann Mahmud_Mahmud Majan Malla Mamadi Mamoudou Manding Manding-Bory Mari Mari-Djata Mayan Mayroumfa Maÿroumfa Missi-Izé Morobani Musa Musa_Moses 
+			Naré Ndele Nene Nintasanay Nkegba Nuh Nwola Nwose Nwuse 
+			Obian Oblim Ogun Okim Okun Olah Olan Oloh Olol Oseng Ouali Ouankoÿ Ouati Ougbun Owun Owux Oyedeh 
+			Reidja 
+			Sagmandia Sakoura Sakura Salman_Solomon Samsou-Béri Samsou-Keïna Sandaki Shinyunbu Silman Sonni Souleyman Soumaba Soumaoro Soundiata Sulayman_Solomon Suleiman Sundiata 
+			Tagnogokelin Takoi Tib Tola Tomo_Thomas Touman Toumani Tunka 
+			Ucheah Uli Umar_Umar Unjoh 
+			Wali Wati 
+			Yama Yankoi Yaqub_Jacob Yasiboy Yomho Yuma 
+			Zakoi Zalil Zenku Zunku 
 
 		}
 
 		female_names = {
-			Aba Abena Abi Adama Adel Adjo Adjua Adzo Afi Aisa Aja Alanso Alima Alimatou Amie Aminata Anti Aramata Assita Attha Awa Balkissa 
-			Bassin Binta Bintou Bintu 
-			Daba Dene Djeneba 
-			Edwige 
-			Fanta Fatim Fatou Fatoumatta Filije Filijee 
-			Guessrima 
-			Hadang Haddy Haoua Hawa 
-			Isatou Jabou Jahou Jainaba Jankeh Jatou Jojo Joma Juka 
-			Kadi Kankou Kati Kenga Keyah Khadijatu Kinti Kisswendsida Koba Kobba Kumba Kunda Kurukemeh Kuta Kutu 
-			Leila_Layla 
-			Madina Maimouna Makuto Maram Marang Mariam Mariama Mbasi Mboose 
-			Nadege Nafi Nafissatou Namandjé Nyima Nyonkoling 
-			Ouedraogo 
-			Pengdwende Pogbi Poko Pokobila 
-			Rasmata Relwende Rikki 
-			Salimata Sanji Sanpoko Sassouma Satang Satou Sibiri Sibo Sogolon Solange Sukai Sunkarr 
-			Tatiana Tomaring 
-			Wamanegdo Wend-Kouni Wenkouni 
-			Yama Yamma 
+			Aba Abena Abi Adama Adayeh Adeh Adel Aden Adeng Adim Adja Adjo Adjua Adzo Afi Aggen Aichata Aisa Aissata Aja Akux Alanso Alima Alimatou Amie Amin Aminata Amita Amoah Amoang Angim Anim Ansah Anti Anyaol Aoua Arah Aramata Arang Arooh Atoh Attha Awa Azun 
+			Bamu Bange Barakissa Barba Bassin Beru Biange Binta Bintou Bintu Bodiaye Boignoe 
+			Daba Dene Deri Desie Deye Djeneba Djenly Djire 
+			Edeh Edjin Egbeng 
+			Fadima Fagba Fagboye Fanta Fatim Fatou Fatoumata Fatoumatta Filije Filijee 
+			Hadang Haddy Halima Hasroo Hawa 
+			Igny Ikpen Ina Isatou 
+			Jabou Jahou Jainaba Jakou Jankeh Jatou Jojo Joma Juka 
+			Kadi Kankou Kanse Kati Keyah Khadijatu Kilia Kinge Kinji Kinti Koba Kobba Kolonkan Kumba Kunda Kurukemeh Kuta Kutu 
+			Ladie Lorane 
+			Makuto Maram Marang Mariam Mariama Mbasi Mboose Mfagboye 
+			Nafissa Namandjé Namiss Nana Nderi Nkejo Nyima Nyonkoling 
+			Obeh Obim Ogun Okim Okun Olah Olang Osen Otsen Otseng Ounnun Owux Oyegbux 
+			Safiatou Salimata Sanji Sassouma Satang Satou Sibo Sidibé Siya Sogolon Sukai Sunkarr 
+			Tekhaye Tomaring 
+			Usian 
+			Yama Yamma Youma 
+			Zeïnab 
 		}
 
 		pat_grf_name_chance = 40

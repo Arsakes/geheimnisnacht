@@ -68,6 +68,12 @@ d_sisters_of_faith_and_chastity_modifier = {
 	heavy_infantry = 600
 	knights = 300
 }
+
+d_knights_of_the_cleansing_flame_modifier = {
+	levy_size = 1
+	heavy_infantry = 600
+	knights = 300
+}
 #Myrmidia
 d_knights_blazing_sun_modifier = {
 	levy_size = 1
@@ -167,6 +173,7 @@ d_sons_of_manann_modifier = {
 }
 ###Mercenaries
 #Private Armies
+
 d_estalian_inquisition_modifier = {
 	levy_size = 1
 	heavy_infantry = 600
@@ -183,6 +190,12 @@ d_reiksguard_modifier = {
 	levy_size = 1
 	heavy_infantry = 300
 	knights = 600
+}
+
+d_mercy_killers_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
 }
 
 #Imperial
@@ -296,12 +309,10 @@ d_stir_river_patrol_modifier = {
 	light_infantry = 600
 }
 
-
 d_helhuntens_redeemers_modifier = {
 	levy_size = 1
 	heavy_infantry = 600
 }
-
 
 d_murderers_out_of_marienburg_modifier = {
 	levy_size = 1
@@ -323,6 +334,11 @@ d_fighting_cocks_modifier = {
 	heavy_infantry = 600
 }
 
+d_red_redemption_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	heavy_infantry = 300
+}
 #Tilean
 
 d_alcatani_fellowship_modifier = {
@@ -373,29 +389,111 @@ d_leopolds_leopard_company_modifier = {
 
 d_birdmen_of_catrazza_modifier = {
 	levy_size = 1
-	horse_archers = 200
+	heavy_infantry = 200
 	archers = 300
 }
 
 d_red_company_modifier = {
 	levy_size = 1
-	horse_archers = 200
+	heavy_infantry = 200
 	archers = 300
 }
+
+d_black_gulf_guard_company_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_badlands_company_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_circle_of_the_fair_maiden_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
 
 #Estalian
 
 d_pirazzos_lost_legion_modifier = {
 	levy_size = 1
-	horse_archers = 200
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_barboza_lancers_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_calafina_company_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_company_of_the_red_hat_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_carcassonne_cavaliers_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_blades_of_valour_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_santa_clair_sellswords_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
 	archers = 300
 }
 
 d_finterra_tercios_modifier = {
 	levy_size = 1
-	horse_archers = 200
+	pikemen = 300
 	archers = 300
 }
+
+#Shallyan
+
+d_peoples_band_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_free_company_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_morrs_heralds_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
+d_bretonnian_band_modifier = {
+	levy_size = 1
+	heavy_infantry = 200
+	archers = 300
+}
+
 
 #Norscan
 
@@ -421,12 +519,60 @@ d_shieldmaidens_of_the_storm_modifier = {
 	heavy_infantry = 500
 }
 
+d_nordlig_reavers_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_sons_of_fimbulvintr_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_norscveg_band_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_longhall_guardians_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_weregild_huskarls_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_sons_of_syrul_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_wyrmscale_band_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
+d_gianthome_wildmen_modifier = {
+	levy_size = 1
+	light_infantry = 500
+	heavy_infantry = 300
+}
+
 #Kislevite
 
 d_gryphon_legion_modifier = {
 	levy_size = 1
-	light_cavalry = 400
-	knights = 400
+	light_cavalry = 500
+	knights = 300
 }
 
 d_winged_company_modifier = {
@@ -435,7 +581,136 @@ d_winged_company_modifier = {
 	knights = 300
 }
 
+d_lynsk_defenders_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
 d_dobryrion_company_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_north_guard_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_dukhyls_militia_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_ropsmann_raiders_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+#
+
+d_night_witches_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_blood_pact_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_dragonblooded_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_mousillonian_unliving_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_sylvanian_unliving_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_bone_breakers_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_dark_accord_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_nightmare_legion_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+#Arabyan
+
+d_sorcerers_league_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_desert_dogs_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_death_commandos_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_red_sands_riders_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_tevari_band_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_araby_adventurers_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_southern_company_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_venture_company_modifier = {
+	levy_size = 1
+	light_cavalry = 300
+	horse_archers = 300
+}
+
+d_swords_of_songhai_modifier = {
 	levy_size = 1
 	light_cavalry = 300
 	horse_archers = 300
@@ -444,6 +719,24 @@ d_dobryrion_company_modifier = {
 #Chaos
 
 d_swords_of_chaos_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	archers = 300
+}
+
+d_headtakers_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	archers = 300
+}
+
+d_storm_raiders_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	archers = 300
+}
+
+d_beastbloods_modifier = {
 	levy_size = 1
 	light_infantry = 600
 	archers = 300
@@ -461,7 +754,25 @@ d_velvet_touch_modifier = {
 	archers = 300
 }
 
+d_sybarites_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	archers = 300
+}
+
 d_bloody_skull_warband_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	heavy_infantry = 300
+}
+
+d_brass_sisters_modifier = {
+	levy_size = 1
+	light_infantry = 600
+	heavy_infantry = 300
+}
+
+d_disciples_of_the_red_redemption_modifier = {
 	levy_size = 1
 	light_infantry = 600
 	heavy_infantry = 300
@@ -528,6 +839,13 @@ d_dragon_company_modifier = {
 d_slayer_legion_modifier = {
 	levy_size = 1
 	heavy_infantry = 600
+}
+
+#Elf
+
+d_greenwoods_modifier = {
+	levy_size = 1
+	archers = 300
 }
 
 #Greenskin
@@ -616,6 +934,11 @@ d_erengrad_convoy_modifier = {
 d_marienburg_merchant_fleet_modifier = {
 	levy_size = 1
 	galleys = 40
+}
+
+d_tiranq_traders_modifier = {
+	levy_size = 1
+	galleys = 20
 }
 
 d_nurgle_hulks_modifier = {

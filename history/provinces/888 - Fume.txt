@@ -12,7 +12,7 @@ b_chambonnay = temple
 
 # Misc
 culture = bourgon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

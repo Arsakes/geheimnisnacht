@@ -4,16 +4,21 @@
 title = c_artois
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 b_castel_artois = castle
-b_arnimes = city
-b_tarjou = castle
+b_artois = city
+b_arnimes = temple
+#b_tarjou = castle
 #b_the_bitter_convent = temple
 #b_la_montremouille = city
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2500.1.1 = {
+	b_tarjou = castle
+}

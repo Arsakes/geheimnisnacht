@@ -17,3 +17,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_undgrim_dhark = city
+}

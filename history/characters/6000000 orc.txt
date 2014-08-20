@@ -1,16 +1,16 @@
 6000000={
-name = "Grom"
-dynasty = 90147
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 0
-add_trait = "creature_orc"
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Grom"
+dynasty=90147
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=0
+add_trait="creature_orc"
+add_trait="scholar"
+add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
@@ -20,18 +20,18 @@ add_trait="gregarious"
 }
 
 6000001={
-name = "Keng"
-dynasty = 90507
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 9
-intrigue = 1
-learning = 5
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Keng"
+dynasty=90507
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=9
+intrigue=1
+learning=5
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
 
@@ -41,36 +41,36 @@ add_trait="honest"
 }
 
 6000002={
-name = "Shurz"
-dynasty = 90055
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 8
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Shurz"
+dynasty=90055
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=8
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="mastermind_theologian"
 
 1978.2.3={birth=yes}
 2015.9.9={death=yes}
 }
 
 6000003={
-name = "Lirk"
-dynasty = 90108
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 0
-stewardship = 7
-intrigue = 0
-learning = 5
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "midas_touched"
+name="Lirk"
+dynasty=90108
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=0
+stewardship=7
+intrigue=0
+learning=5
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
@@ -80,18 +80,18 @@ add_trait="temperate"
 }
 
 6000004={
-name = "Blarg"
-dynasty = 90445
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 6
-learning = 10
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Blarg"
+dynasty=90445
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=6
+learning=10
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 
 add_trait="cruel"
 add_trait="weak"
@@ -101,18 +101,18 @@ add_trait="weak"
 }
 
 6000005={
-name = "Glersh"
-dynasty = 90056
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 0
-learning = 1
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "martial_cleric"
+name="Glersh"
+dynasty=90056
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=0
+learning=1
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
@@ -122,18 +122,18 @@ add_trait="humble"
 }
 
 6000006={
-name = "Ludbag"
-dynasty = 90029
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 1
-intrigue = 6
-learning = 9
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Ludbag"
+dynasty=90029
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=1
+intrigue=6
+learning=9
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="elusive_shadow"
 add_trait="content"
 
 
@@ -143,18 +143,18 @@ add_trait="content"
 }
 
 6000007={
-name = "Morglum"
-dynasty = 90374
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 5
-stewardship = 4
-intrigue = 9
-learning = 2
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Morglum"
+dynasty=90374
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=5
+stewardship=4
+intrigue=9
+learning=2
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="mastermind_theologian"
 
 
 
@@ -164,18 +164,18 @@ add_trait = "mastermind_theologian"
 }
 
 6000008={
-name = "Rirkz"
-dynasty = 90116
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 6
-stewardship = 7
-intrigue = 8
-learning = 6
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Rirkz"
+dynasty=90116
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=6
+stewardship=7
+intrigue=8
+learning=6
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 
 
 add_trait="drunkard"
@@ -185,17 +185,17 @@ add_trait="drunkard"
 }
 
 6000009={
-name = "Pang"
-dynasty = 90019
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 8
-stewardship = 11
-intrigue = 8
-learning = 9
-add_trait = "creature_orc"
-add_trait = "intricate_webweaver"
+name="Pang"
+dynasty=90019
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=8
+stewardship=11
+intrigue=8
+learning=9
+add_trait="creature_orc"
+add_trait="intricate_webweaver"
 add_trait="strong"
 
 
@@ -204,18 +204,18 @@ add_trait="strong"
 }
 
 6000010={
-name = "Shurz"
-dynasty = 90032
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
+name="Shurz"
+dynasty=90032
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=4
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="flamboyant_schemer"
 
 
 1978.3.14={birth=yes}
@@ -223,36 +223,36 @@ add_trait = "flamboyant_schemer"
 }
 
 6000011={
-name = "Vagak"
-dynasty = 90290
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 11
-learning = 2
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Vagak"
+dynasty=90290
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=11
+learning=2
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="amateurish_plotter"
 
 1976.11.11={birth=yes}
 2049.6.2={death=yes}
 }
 
 6000012={
-name = "Komak"
-dynasty = 90457
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 4
-stewardship = 9
-intrigue = 5
-learning = 7
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Komak"
+dynasty=90457
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=4
+stewardship=9
+intrigue=5
+learning=7
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
@@ -262,18 +262,18 @@ add_trait="proud"
 }
 
 6000013={
-name = "Grishnak"
-dynasty = 90324
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 5
-stewardship = 1
-intrigue = 2
-learning = 4
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "naive_appeaser"
+name="Grishnak"
+dynasty=90324
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=5
+stewardship=1
+intrigue=2
+learning=4
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 
@@ -283,18 +283,18 @@ add_trait="envious"
 }
 
 6000014={
-name = "Gatbad"
-dynasty = 90121
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 1
-stewardship = 9
-intrigue = 7
-learning = 5
-add_trait = "creature_orc"
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Gatbad"
+dynasty=90121
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=1
+stewardship=9
+intrigue=7
+learning=5
+add_trait="creature_orc"
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
@@ -304,18 +304,18 @@ add_trait="shy"
 }
 
 6000015={
-name = "Holg"
-dynasty = 90421
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 8
-stewardship = 9
-intrigue = 8
-learning = 6
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Holg"
+dynasty=90421
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=8
+stewardship=9
+intrigue=8
+learning=6
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
@@ -325,18 +325,18 @@ add_trait="ambitious"
 }
 
 6000016={
-name = "Pramak"
-dynasty = 90360
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 3
-stewardship = 5
-intrigue = 1
-learning = 5
-add_trait = "creature_orc"
-add_trait = "falconer"
-add_trait = "grey_eminence"
+name="Pramak"
+dynasty=90360
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=3
+stewardship=5
+intrigue=1
+learning=5
+add_trait="creature_orc"
+add_trait="falconer"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
@@ -346,18 +346,18 @@ add_trait="honest"
 }
 
 6000017={
-name = "Patches"
-dynasty = 90078
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 4
-stewardship = 0
-intrigue = 1
-learning = 8
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Patches"
+dynasty=90078
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=8
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
@@ -367,17 +367,17 @@ add_trait="greedy"
 }
 
 6000018={
-name = "Ugwort"
-dynasty = 90530
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 1
-stewardship = 8
-intrigue = 2
-learning = 9
-add_trait = "creature_orc"
-add_trait = "mastermind_theologian"
+name="Ugwort"
+dynasty=90530
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_orc"
+add_trait="mastermind_theologian"
 add_trait="kind"
 
 1971.8.28={birth=yes}
@@ -385,18 +385,18 @@ add_trait="kind"
 }
 
 6000019={
-name = "Forg"
-dynasty = 90449
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 9
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "intricate_webweaver"
+name="Forg"
+dynasty=90449
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=9
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="intricate_webweaver"
 
 add_trait="tall"
 add_trait="weak"
@@ -406,18 +406,18 @@ add_trait="weak"
 }
 
 6000020={
-name = "Gorzun"
-dynasty = 90565
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 3
-stewardship = 8
-intrigue = 1
-learning = 9
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "naive_appeaser"
+name="Gorzun"
+dynasty=90565
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=3
+stewardship=8
+intrigue=1
+learning=9
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="naive_appeaser"
 
 add_trait="wroth"
 add_trait="cruel"
@@ -427,18 +427,18 @@ add_trait="cruel"
 }
 
 6000021={
-name = "Kalbaz"
-dynasty = 90493
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 5
-stewardship = 8
-intrigue = 0
-learning = 2
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "tough_soldier"
+name="Kalbaz"
+dynasty=90493
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=5
+stewardship=8
+intrigue=0
+learning=2
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="tough_soldier"
 add_trait="humble"
 add_trait="content"
 add_trait="temperate"
@@ -448,17 +448,17 @@ add_trait="temperate"
 }
 
 6000022={
-name = "Moggra"
-dynasty = 90472
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 5
-stewardship = 6
-intrigue = 8
-learning = 8
-add_trait = "creature_orc"
-add_trait = "amateurish_plotter"
+name="Moggra"
+dynasty=90472
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=5
+stewardship=6
+intrigue=8
+learning=8
+add_trait="creature_orc"
+add_trait="amateurish_plotter"
 
 add_trait="ill"
 add_trait="trusting"
@@ -468,17 +468,17 @@ add_trait="trusting"
 }
 
 6000023={
-name = "Rirag"
-dynasty = 90306
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 3
-stewardship = 2
-intrigue = 6
-learning = 5
-add_trait = "creature_orc"
-add_trait = "scholarly_theologian"
+name="Rirag"
+dynasty=90306
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=3
+stewardship=2
+intrigue=6
+learning=5
+add_trait="creature_orc"
+add_trait="scholarly_theologian"
 
 
 add_trait="drunkard"
@@ -488,18 +488,18 @@ add_trait="drunkard"
 }
 
 6000024={
-name = "Tazuk"
-dynasty = 90428
-culture = orc_main
-religion = greenskin_gods
-martial = 2
-diplomacy = 10
-stewardship = 6
-intrigue = 9
-learning = 9
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "amateurish_plotter"
+name="Tazuk"
+dynasty=90428
+culture=orc_main
+religion=greenskin_gods
+martial=2
+diplomacy=10
+stewardship=6
+intrigue=9
+learning=9
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="amateurish_plotter"
 
 
 
@@ -509,18 +509,18 @@ add_trait = "amateurish_plotter"
 }
 
 6000025={
-name = "Morglum"
-dynasty = 90385
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 6
-intrigue = 11
-learning = 10
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "underhanded_rogue"
+name="Morglum"
+dynasty=90385
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=6
+intrigue=11
+learning=10
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="underhanded_rogue"
 
 
 
@@ -530,18 +530,18 @@ add_trait = "underhanded_rogue"
 }
 
 6000026={
-name = "Kraka"
-dynasty = 90402
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 11
-intrigue = 2
-learning = 4
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "thrifty_clerk"
+name="Kraka"
+dynasty=90402
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=11
+intrigue=2
+learning=4
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="thrifty_clerk"
 
 add_trait="strong"
 
@@ -551,18 +551,18 @@ add_trait="strong"
 }
 
 6000027={
-name = "Lemak"
-dynasty = 90430
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 7
-stewardship = 5
-intrigue = 5
-learning = 9
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "grey_eminence"
+name="Lemak"
+dynasty=90430
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=7
+stewardship=5
+intrigue=5
+learning=9
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="grey_eminence"
 
 
 
@@ -572,18 +572,18 @@ add_trait = "grey_eminence"
 }
 
 6000028={
-name = "Risil"
-dynasty = 90412
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 6
-stewardship = 5
-intrigue = 1
-learning = 9
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "brilliant_strategist"
+name="Risil"
+dynasty=90412
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=6
+stewardship=5
+intrigue=1
+learning=9
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="brilliant_strategist"
 
 
 add_trait="strong"
@@ -593,18 +593,18 @@ add_trait="strong"
 }
 
 6000029={
-name = "Squig"
-dynasty = 90287
-culture = orc_main
-religion = greenskin_gods
-martial = 10
-diplomacy = 3
-stewardship = 1
-intrigue = 0
-learning = 5
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "brilliant_strategist"
+name="Squig"
+dynasty=90287
+culture=orc_main
+religion=greenskin_gods
+martial=10
+diplomacy=3
+stewardship=1
+intrigue=0
+learning=5
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="brilliant_strategist"
 
 add_trait="proud"
 add_trait="envious"
@@ -614,18 +614,18 @@ add_trait="envious"
 }
 
 6000030={
-name = "Groifur"
-dynasty = 90479
-culture = orc_main
-religion = greenskin_gods
-martial = 2
-diplomacy = 7
-stewardship = 3
-intrigue = 5
-learning = 1
-add_trait = "creature_orc"
-add_trait = "falconer"
-add_trait = "detached_priest"
+name="Groifur"
+dynasty=90479
+culture=orc_main
+religion=greenskin_gods
+martial=2
+diplomacy=7
+stewardship=3
+intrigue=5
+learning=1
+add_trait="creature_orc"
+add_trait="falconer"
+add_trait="detached_priest"
 add_trait="slothful"
 add_trait="shy"
 add_trait="diligent"
@@ -635,18 +635,18 @@ add_trait="diligent"
 }
 
 6000031={
-name = "Firan"
-dynasty = 90461
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 9
-stewardship = 0
-intrigue = 4
-learning = 1
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Firan"
+dynasty=90461
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=9
+stewardship=0
+intrigue=4
+learning=1
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="patient"
 add_trait="just"
 add_trait="ambitious"
@@ -656,18 +656,18 @@ add_trait="ambitious"
 }
 
 6000032={
-name = "Crusher"
-dynasty = 90133
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 4
-stewardship = 10
-intrigue = 8
-learning = 2
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "intricate_webweaver"
+name="Crusher"
+dynasty=90133
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=4
+stewardship=10
+intrigue=8
+learning=2
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="intricate_webweaver"
 add_trait="zealous"
 add_trait="cynical"
 add_trait="paranoid"
@@ -677,18 +677,18 @@ add_trait="paranoid"
 }
 
 6000033={
-name = "Balst"
-dynasty = 90026
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 8
-stewardship = 2
-intrigue = 6
-learning = 9
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "charismatic_negotiator"
+name="Balst"
+dynasty=90026
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=8
+stewardship=2
+intrigue=6
+learning=9
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="arbitrary"
 add_trait="craven"
@@ -698,18 +698,18 @@ add_trait="craven"
 }
 
 6000034={
-name = "Basha"
-dynasty = 90465
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 8
-stewardship = 9
-intrigue = 1
-learning = 9
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "brilliant_strategist"
+name="Basha"
+dynasty=90465
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=8
+stewardship=9
+intrigue=1
+learning=9
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="brilliant_strategist"
 add_trait="gregarious"
 
 
@@ -719,17 +719,17 @@ add_trait="gregarious"
 }
 
 6000035={
-name = "Bilik"
-dynasty = 90316
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 6
-intrigue = 9
-learning = 7
-add_trait = "creature_orc"
-add_trait = "thrifty_clerk"
+name="Bilik"
+dynasty=90316
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=6
+intrigue=9
+learning=7
+add_trait="creature_orc"
+add_trait="thrifty_clerk"
 add_trait="honest"
 
 
@@ -738,18 +738,18 @@ add_trait="honest"
 }
 
 6000036={
-name = "Loigdish"
-dynasty = 90282
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 5
-stewardship = 0
-intrigue = 8
-learning = 9
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Loigdish"
+dynasty=90282
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=5
+stewardship=0
+intrigue=8
+learning=9
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 add_trait="weak"
 add_trait="tall"
 add_trait="greedy"
@@ -759,18 +759,18 @@ add_trait="greedy"
 }
 
 6000037={
-name = "Gurk"
-dynasty = 90220
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 11
-intrigue = 11
-learning = 6
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Gurk"
+dynasty=90220
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=11
+intrigue=11
+learning=6
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="cruel"
 
 add_trait="temperate"
@@ -780,18 +780,18 @@ add_trait="temperate"
 }
 
 6000038={
-name = "Reezulz"
-dynasty = 90228
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 5
-stewardship = 1
-intrigue = 7
-learning = 10
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "misguided_warrior"
+name="Reezulz"
+dynasty=90228
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=5
+stewardship=1
+intrigue=7
+learning=10
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="humble"
 add_trait="ill"
@@ -801,18 +801,18 @@ add_trait="ill"
 }
 
 6000039={
-name = "Grimfang"
-dynasty = 90447
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 8
-stewardship = 6
-intrigue = 5
-learning = 0
-add_trait = "creature_orc"
-add_trait = "scholar"
-add_trait = "detached_priest"
+name="Grimfang"
+dynasty=90447
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=8
+stewardship=6
+intrigue=5
+learning=0
+add_trait="creature_orc"
+add_trait="scholar"
+add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
@@ -822,18 +822,18 @@ add_trait="gregarious"
 }
 
 6000040={
-name = "Labur"
-dynasty = 90407
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 9
-intrigue = 1
-learning = 5
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Labur"
+dynasty=90407
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=9
+intrigue=1
+learning=5
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
 
@@ -843,18 +843,18 @@ add_trait="honest"
 }
 
 6000041={
-name = "Rirag"
-dynasty = 90155
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 7
-stewardship = 8
-intrigue = 0
-learning = 8
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "mastermind_theologian"
+name="Rirag"
+dynasty=90155
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=0
+learning=8
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="mastermind_theologian"
 
 
 
@@ -864,18 +864,18 @@ add_trait = "mastermind_theologian"
 }
 
 6000042={
-name = "Wot"
-dynasty = 90088
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 0
-stewardship = 7
-intrigue = 0
-learning = 5
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "midas_touched"
+name="Wot"
+dynasty=90088
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=0
+stewardship=7
+intrigue=0
+learning=5
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
@@ -885,18 +885,18 @@ add_trait="temperate"
 }
 
 6000043={
-name = "Wot"
-dynasty = 90101
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 6
-learning = 10
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Wot"
+dynasty=90101
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=6
+learning=10
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 
 add_trait="cruel"
 add_trait="weak"
@@ -906,18 +906,18 @@ add_trait="weak"
 }
 
 6000044={
-name = "Wot"
-dynasty = 90456
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 1
-intrigue = 0
-learning = 1
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "martial_cleric"
+name="Wot"
+dynasty=90456
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=1
+intrigue=0
+learning=1
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
@@ -927,18 +927,18 @@ add_trait="humble"
 }
 
 6000045={
-name = "Vrolg"
-dynasty = 90169
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 1
-intrigue = 6
-learning = 9
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Vrolg"
+dynasty=90169
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=1
+intrigue=6
+learning=9
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="elusive_shadow"
 add_trait="content"
 
 
@@ -948,35 +948,35 @@ add_trait="content"
 }
 
 6000046={
-name = "Hugruck"
-dynasty = 90404
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 5
-stewardship = 4
-intrigue = 9
-learning = 2
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "mastermind_theologian"
+name="Hugruck"
+dynasty=90404
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=5
+stewardship=4
+intrigue=9
+learning=2
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="mastermind_theologian"
 1980.4.12={birth=yes}
 2036.8.13={death=yes}
 }
 
 6000047={
-name = "Craggy"
-dynasty = 90236
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 6
-stewardship = 7
-intrigue = 8
-learning = 6
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "flamboyant_schemer"
+name="Craggy"
+dynasty=90236
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=6
+stewardship=7
+intrigue=8
+learning=6
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="flamboyant_schemer"
 
 
 add_trait="drunkard"
@@ -986,18 +986,18 @@ add_trait="drunkard"
 }
 
 6000048={
-name = "Blud"
-dynasty = 90489
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 8
-stewardship = 11
-intrigue = 8
-learning = 9
-add_trait = "creature_orc"
+name="Blud"
+dynasty=90489
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=8
+stewardship=11
+intrigue=8
+learning=9
+add_trait="creature_orc"
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 
 add_trait="strong"
 
@@ -1007,18 +1007,18 @@ add_trait="strong"
 }
 
 6000049={
-name = "Morbaag"
-dynasty = 90273
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 4
-stewardship = 2
-intrigue = 2
-learning = 4
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "flamboyant_schemer"
+name="Morbaag"
+dynasty=90273
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=4
+stewardship=2
+intrigue=2
+learning=4
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="flamboyant_schemer"
 
 
 
@@ -1028,18 +1028,18 @@ add_trait = "flamboyant_schemer"
 }
 
 6000050={
-name = "Gristle"
-dynasty = 90120
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 2
-stewardship = 1
-intrigue = 11
-learning = 2
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "amateurish_plotter"
+name="Gristle"
+dynasty=90120
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=2
+stewardship=1
+intrigue=11
+learning=2
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="amateurish_plotter"
 
 
 
@@ -1049,18 +1049,18 @@ add_trait = "amateurish_plotter"
 }
 
 6000051={
-name = "Hali"
-dynasty = 90497
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 4
-stewardship = 9
-intrigue = 5
-learning = 7
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Hali"
+dynasty=90497
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=4
+stewardship=9
+intrigue=5
+learning=7
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
@@ -1070,18 +1070,18 @@ add_trait="proud"
 }
 
 6000052={
-name = "Kirat"
-dynasty = 90064
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 5
-stewardship = 1
-intrigue = 2
-learning = 4
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "naive_appeaser"
+name="Kirat"
+dynasty=90064
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=5
+stewardship=1
+intrigue=2
+learning=4
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 
@@ -1091,18 +1091,18 @@ add_trait="envious"
 }
 
 6000053={
-name = "Orcamungus"
-dynasty = 90331
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 1
-stewardship = 9
-intrigue = 7
-learning = 5
-add_trait = "creature_orc"
-add_trait = "mystic"
-add_trait = "amateurish_plotter"
+name="Orcamungus"
+dynasty=90331
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=1
+stewardship=9
+intrigue=7
+learning=5
+add_trait="creature_orc"
+add_trait="mystic"
+add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
@@ -1112,18 +1112,18 @@ add_trait="shy"
 }
 
 6000054={
-name = "Crakker"
-dynasty = 90421
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 8
-stewardship = 9
-intrigue = 8
-learning = 6
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Crakker"
+dynasty=90421
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=8
+stewardship=9
+intrigue=8
+learning=6
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
@@ -1133,18 +1133,18 @@ add_trait="ambitious"
 }
 
 6000055={
-name = "Grimgor"
-dynasty = 90150
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 3
-stewardship = 5
-intrigue = 1
-learning = 5
-add_trait = "creature_orc"
-add_trait = "falconer"
-add_trait = "grey_eminence"
+name="Grimgor"
+dynasty=90150
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=3
+stewardship=5
+intrigue=1
+learning=5
+add_trait="creature_orc"
+add_trait="falconer"
+add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
@@ -1154,18 +1154,18 @@ add_trait="honest"
 }
 
 6000056={
-name = "Nurk"
-dynasty = 90378
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 4
-stewardship = 0
-intrigue = 1
-learning = 8
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "martial_cleric"
+name="Nurk"
+dynasty=90378
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=8
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
@@ -1175,18 +1175,18 @@ add_trait="greedy"
 }
 
 6000057={
-name = "Ripper"
-dynasty = 90430
-culture = orc_main
-religion = greenskin_gods
-martial = 5
-diplomacy = 1
-stewardship = 8
-intrigue = 2
-learning = 9
-add_trait = "creature_orc"
+name="Ripper"
+dynasty=90430
+culture=orc_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_orc"
 
-add_trait = "mastermind_theologian"
+add_trait="mastermind_theologian"
 add_trait="kind"
 
 
@@ -1196,18 +1196,18 @@ add_trait="kind"
 }
 
 6000058={
-name = "Loigdish"
-dynasty = 90322
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 5
-stewardship = 0
-intrigue = 8
-learning = 9
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Loigdish"
+dynasty=90322
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=5
+stewardship=0
+intrigue=8
+learning=9
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 add_trait="weak"
 add_trait="tall"
 add_trait="greedy"
@@ -1217,18 +1217,18 @@ add_trait="greedy"
 }
 
 6000059={
-name = "Gurk"
-dynasty = 90287
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 6
-stewardship = 11
-intrigue = 11
-learning = 6
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "indulgent_wastrel"
+name="Gurk"
+dynasty=90287
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=6
+stewardship=11
+intrigue=11
+learning=6
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="indulgent_wastrel"
 add_trait="cruel"
 
 add_trait="temperate"
@@ -1238,18 +1238,18 @@ add_trait="temperate"
 }
 
 6000060={
-name = "Bang"
-dynasty = 90089
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 8
-intrigue = 6
-learning = 5
-add_trait = "creature_orc"
+name="Bang"
+dynasty=90089
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=5
+add_trait="creature_orc"
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="honest"
 add_trait="craven"
 add_trait="gregarious"
@@ -1259,18 +1259,18 @@ add_trait="gregarious"
 }
 
 6000061={
-name = "Mitz"
-dynasty = 90074
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 4
-intrigue = 8
-learning = 4
-add_trait = "creature_orc"
-add_trait = "scholar"
-add_trait = "flamboyant_schemer"
+name="Mitz"
+dynasty=90074
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=4
+intrigue=8
+learning=4
+add_trait="creature_orc"
+add_trait="scholar"
+add_trait="flamboyant_schemer"
 add_trait="greedy"
 
 
@@ -1280,18 +1280,18 @@ add_trait="greedy"
 }
 
 6000062={
-name = "Puzz"
-dynasty = 90066
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 4
-stewardship = 9
-intrigue = 6
-learning = 6
-add_trait = "creature_orc"
-add_trait = "falconer"
-add_trait = "amateurish_plotter"
+name="Puzz"
+dynasty=90066
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=4
+stewardship=9
+intrigue=6
+learning=6
+add_trait="creature_orc"
+add_trait="falconer"
+add_trait="amateurish_plotter"
 
 add_trait="kind"
 add_trait="tall"
@@ -1301,18 +1301,18 @@ add_trait="tall"
 }
 
 6000063={
-name = "Mash"
-dynasty = 90269
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 8
-stewardship = 7
-intrigue = 7
-learning = 1
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "detached_priest"
+name="Mash"
+dynasty=90269
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=8
+stewardship=7
+intrigue=7
+learning=1
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="detached_priest"
 
 add_trait="weak"
 add_trait="cruel"
@@ -1322,18 +1322,18 @@ add_trait="cruel"
 }
 
 6000064={
-name = "Rik"
-dynasty = 90011
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 0
-stewardship = 9
-intrigue = 5
-learning = 3
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "detached_priest"
+name="Rik"
+dynasty=90011
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=0
+stewardship=9
+intrigue=5
+learning=3
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="detached_priest"
 add_trait="temperate"
 add_trait="wroth"
 add_trait="content"
@@ -1343,18 +1343,18 @@ add_trait="content"
 }
 
 6000065={
-name = "Glersh"
-dynasty = 90036
-culture = orc_main
-religion = greenskin_gods
-martial = 7
-diplomacy = 3
-stewardship = 9
-intrigue = 1
-learning = 3
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "scholarly_theologian"
+name="Glersh"
+dynasty=90036
+culture=orc_main
+religion=greenskin_gods
+martial=7
+diplomacy=3
+stewardship=9
+intrigue=1
+learning=3
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="scholarly_theologian"
 add_trait="humble"
 
 add_trait="ill"
@@ -1364,18 +1364,18 @@ add_trait="ill"
 }
 
 6000066={
-name = "Ripper"
-dynasty = 90377
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 8
-stewardship = 5
-intrigue = 6
-learning = 0
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "naive_appeaser"
+name="Ripper"
+dynasty=90377
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=8
+stewardship=5
+intrigue=6
+learning=0
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="naive_appeaser"
 add_trait="trusting"
 
 
@@ -1385,18 +1385,18 @@ add_trait="trusting"
 }
 
 6000067={
-name = "Garuk"
-dynasty = 90090
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 2
-intrigue = 3
-learning = 1
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "fortune_builder"
+name="Garuk"
+dynasty=90090
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=2
+intrigue=3
+learning=1
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="fortune_builder"
 add_trait="drunkard"
 
 
@@ -1406,18 +1406,18 @@ add_trait="drunkard"
 }
 
 6000068={
-name = "Rirkz"
-dynasty = 90095
-culture = orc_main
-religion = greenskin_gods
-martial = 10
-diplomacy = 7
-stewardship = 1
-intrigue = 3
-learning = 10
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "mastermind_theologian"
+name="Rirkz"
+dynasty=90095
+culture=orc_main
+religion=greenskin_gods
+martial=10
+diplomacy=7
+stewardship=1
+intrigue=3
+learning=10
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="mastermind_theologian"
 
 
 
@@ -1427,18 +1427,18 @@ add_trait = "mastermind_theologian"
 }
 
 6000069={
-name = "Holg"
-dynasty = 90015
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 4
-stewardship = 8
-intrigue = 6
-learning = 2
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "fortune_builder"
+name="Holg"
+dynasty=90015
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=2
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="fortune_builder"
 
 
 add_trait="strong"
@@ -1448,18 +1448,18 @@ add_trait="strong"
 }
 
 6000070={
-name = "Orz"
-dynasty = 90155
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 7
-stewardship = 11
-intrigue = 6
-learning = 7
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "skilled_tactician"
+name="Orz"
+dynasty=90155
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=7
+stewardship=11
+intrigue=6
+learning=7
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="skilled_tactician"
 
 
 
@@ -1469,18 +1469,18 @@ add_trait = "skilled_tactician"
 }
 
 6000071={
-name = "Earbite"
-dynasty = 90079
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 10
-stewardship = 1
-intrigue = 7
-learning = 2
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Earbite"
+dynasty=90079
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=10
+stewardship=1
+intrigue=7
+learning=2
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 
 
 
@@ -1490,18 +1490,18 @@ add_trait = "underhanded_rogue"
 }
 
 6000072={
-name = "Grom"
-dynasty = 90456
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 8
-stewardship = 4
-intrigue = 3
-learning = 3
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "misguided_warrior"
+name="Grom"
+dynasty=90456
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=8
+stewardship=4
+intrigue=3
+learning=3
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="misguided_warrior"
 add_trait="diligent"
 add_trait="strong"
 
@@ -1511,18 +1511,18 @@ add_trait="strong"
 }
 
 6000073={
-name = "Git"
-dynasty = 90335
-culture = orc_main
-religion = greenskin_gods
-martial = 6
-diplomacy = 0
-stewardship = 1
-intrigue = 5
-learning = 1
-add_trait = "creature_orc"
-add_trait = "scholar"
-add_trait = "fortune_builder"
+name="Git"
+dynasty=90335
+culture=orc_main
+religion=greenskin_gods
+martial=6
+diplomacy=0
+stewardship=1
+intrigue=5
+learning=1
+add_trait="creature_orc"
+add_trait="scholar"
+add_trait="fortune_builder"
 add_trait="envious"
 add_trait="patient"
 add_trait="proud"
@@ -1532,18 +1532,18 @@ add_trait="proud"
 }
 
 6000074={
-name = "Blud"
-dynasty = 90171
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 8
-stewardship = 9
-intrigue = 0
-learning = 6
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "martial_cleric"
+name="Blud"
+dynasty=90171
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=8
+stewardship=9
+intrigue=0
+learning=6
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="martial_cleric"
 add_trait="shy"
 add_trait="arbitrary"
 add_trait="ambitious"
@@ -1553,18 +1553,18 @@ add_trait="ambitious"
 }
 
 6000075={
-name = "Shurz"
-dynasty = 90028
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 1
-stewardship = 4
-intrigue = 6
-learning = 7
-add_trait = "creature_orc"
-add_trait = "duelist"
-add_trait = "charismatic_negotiator"
+name="Shurz"
+dynasty=90028
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=7
+add_trait="creature_orc"
+add_trait="duelist"
+add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="cynical"
 add_trait="paranoid"
@@ -1574,18 +1574,18 @@ add_trait="paranoid"
 }
 
 6000076={
-name = "Poirag"
-dynasty = 90080
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 7
-stewardship = 4
-intrigue = 8
-learning = 2
-add_trait = "creature_orc"
-add_trait = "gardener"
-add_trait = "flamboyant_schemer"
+name="Poirag"
+dynasty=90080
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=7
+stewardship=4
+intrigue=8
+learning=2
+add_trait="creature_orc"
+add_trait="gardener"
+add_trait="flamboyant_schemer"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="zealous"
@@ -1595,18 +1595,18 @@ add_trait="zealous"
 }
 
 6000077={
-name = "Komak"
-dynasty = 90312
-culture = orc_main
-religion = greenskin_gods
-martial = 9
-diplomacy = 8
-stewardship = 3
-intrigue = 8
-learning = 9
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "detached_priest"
+name="Komak"
+dynasty=90312
+culture=orc_main
+religion=greenskin_gods
+martial=9
+diplomacy=8
+stewardship=3
+intrigue=8
+learning=9
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="detached_priest"
 add_trait="just"
 add_trait="craven"
 add_trait="honest"
@@ -1616,18 +1616,18 @@ add_trait="honest"
 }
 
 6000078={
-name = "Ludbag"
-dynasty = 90453
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 4
-stewardship = 10
-intrigue = 11
-learning = 8
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "misguided_warrior"
+name="Ludbag"
+dynasty=90453
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=4
+stewardship=10
+intrigue=11
+learning=8
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="misguided_warrior"
 
 add_trait="greedy"
 
@@ -1637,18 +1637,18 @@ add_trait="greedy"
 }
 
 6000079={
-name = "Craggy"
-dynasty = 90313
-culture = orc_main
-religion = greenskin_gods
-martial = 3
-diplomacy = 4
-stewardship = 6
-intrigue = 6
-learning = 9
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "underhanded_rogue"
+name="Craggy"
+dynasty=90313
+culture=orc_main
+religion=greenskin_gods
+martial=3
+diplomacy=4
+stewardship=6
+intrigue=6
+learning=9
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="underhanded_rogue"
 
 add_trait="tall"
 add_trait="weak"
@@ -1658,18 +1658,18 @@ add_trait="weak"
 }
 
 6000080={
-name = "Irsz"
-dynasty = 90483
-culture = orc_main
-religion = greenskin_gods
-martial = 4
-diplomacy = 7
-stewardship = 1
-intrigue = 4
-learning = 9
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "misguided_warrior"
+name="Irsz"
+dynasty=90483
+culture=orc_main
+religion=greenskin_gods
+martial=4
+diplomacy=7
+stewardship=1
+intrigue=4
+learning=9
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="temperate"
 add_trait="cruel"
@@ -1679,18 +1679,18 @@ add_trait="cruel"
 }
 
 6000081={
-name = "Squig"
-dynasty = 90129
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 7
-stewardship = 1
-intrigue = 2
-learning = 7
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "mastermind_theologian"
+name="Squig"
+dynasty=90129
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=7
+stewardship=1
+intrigue=2
+learning=7
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="mastermind_theologian"
 
 add_trait="content"
 add_trait="humble"
@@ -1700,18 +1700,18 @@ add_trait="humble"
 }
 
 6000082={
-name = "Wurg"
-dynasty = 90309
-culture = orc_main
-religion = greenskin_gods
-martial = 1
-diplomacy = 7
-stewardship = 7
-intrigue = 6
-learning = 0
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "elusive_shadow"
+name="Wurg"
+dynasty=90309
+culture=orc_main
+religion=greenskin_gods
+martial=1
+diplomacy=7
+stewardship=7
+intrigue=6
+learning=0
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="elusive_shadow"
 
 add_trait="trusting"
 add_trait="ill"
@@ -1721,52 +1721,52 @@ add_trait="ill"
 }
 
 6000083={
-name = "Gor"
-dynasty = 90208
-culture = orc_main
-religion = greenskin_gods
-martial = 2
-diplomacy = 7
-stewardship = 4
-intrigue = 4
-learning = 9
-add_trait = "creature_orc"
-add_trait = "poet"
-add_trait = "intricate_webweaver"
+name="Gor"
+dynasty=90208
+culture=orc_main
+religion=greenskin_gods
+martial=2
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=9
+add_trait="creature_orc"
+add_trait="poet"
+add_trait="intricate_webweaver"
 1959.9.23={birth=yes}
 2060.4.8={death=yes}
 }
 
 6000084={
-name = "Yurz"
-dynasty = 90069
-culture = orc_main
-religion = greenskin_gods
-martial = 0
-diplomacy = 7
-stewardship = 5
-intrigue = 5
-learning = 9
-add_trait = "creature_orc"
-add_trait = "hunter"
-add_trait = "indulgent_wastrel"
+name="Yurz"
+dynasty=90069
+culture=orc_main
+religion=greenskin_gods
+martial=0
+diplomacy=7
+stewardship=5
+intrigue=5
+learning=9
+add_trait="creature_orc"
+add_trait="hunter"
+add_trait="indulgent_wastrel"
 1970.2.14={birth=yes}
 2056.11.5={death=yes}
 }
 
 6000085={
-name = "Cro"
-dynasty = 90039
-culture = orc_main
-religion = greenskin_gods
-martial = 8
-diplomacy = 8
-stewardship = 10
-intrigue = 6
-learning = 2
-add_trait = "creature_orc"
-add_trait = "impaler"
-add_trait = "tough_soldier"
+name="Cro"
+dynasty=90039
+culture=orc_main
+religion=greenskin_gods
+martial=8
+diplomacy=8
+stewardship=10
+intrigue=6
+learning=2
+add_trait="creature_orc"
+add_trait="impaler"
+add_trait="tough_soldier"
 add_trait="drunkard"
 
 

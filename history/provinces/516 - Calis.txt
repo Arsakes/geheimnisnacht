@@ -1,5 +1,5 @@
 #516 Calis
-#County Title
+
 title = c_calis
 
 #Settlements
@@ -11,6 +11,10 @@ b_zaopala = temple
 
 #Misc
 culture = tigarrese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_celiasto = castle
+}

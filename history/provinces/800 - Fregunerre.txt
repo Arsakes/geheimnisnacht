@@ -11,7 +11,7 @@ b_fregune = castle
 
 # Misc
 culture = nortagnese
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

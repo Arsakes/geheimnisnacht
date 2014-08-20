@@ -12,7 +12,11 @@ b_ulyl_pyjorovik = temple
 
 # Misc
 culture = varg
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_kaldrkastali = city
+}

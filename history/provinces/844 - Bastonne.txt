@@ -4,18 +4,23 @@
 title = c_bastonne
 
 # Settlements
-max_settlements = 6
-b_castle_bastonne = castle
+max_settlements = 7
+b_chateau_bastonne = castle
+b_bastonne = city
 b_baux = city
 b_marmin = castle
-b_medeme = temple
+#b_medeme = temple
 #b_amargueuse = castle
 #b_joyaux = city
 
 # Misc
 culture = breton
-religion = lady_of_the_lake
+religion = grail
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2250.1.1 = {
+	b_medeme = temple
+}

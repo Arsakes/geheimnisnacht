@@ -1,663 +1,663 @@
 1175000={
-name = "Eiríkr"
-dynasty = 52012
-dna = "cfeeipocgpc"
-culture = fjarmann
-religion = norse
-martial = 6
-diplomacy = 3
-stewardship = 3
-intrigue = 5
-learning = 5
-add_trait = "grey_eminence"
-add_trait = "celibate"
-add_trait = "shy"
-add_trait = "paranoid"
+name="Eiríkr"
+dynasty=52012
+dna="cfeeipocgpc"
+culture=fjarmann
+religion=norscan_gods
+martial=6
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=5
+add_trait="grey_eminence"
+add_trait="celibate"
+add_trait="shy"
+add_trait="paranoid"
 1917.9.1={birth=yes}
-1938.1.21 = {add_spouse=1175001}
+1938.1.21={add_spouse=1175001}
 1981.1.23={death=yes}
 }
 
 1175001={
-name = "Hallgerðr"
-female = yes
-dynasty = 52001
-dna = "adhkmhedlfc"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 1
-stewardship = 5
-intrigue = 4
-learning = 3
-add_trait = "detached_priest"
-add_trait = "cruel"
+name="Hallgerðr"
+female=yes
+dynasty=52001
+dna="adhkmhedlfc"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=1
+stewardship=5
+intrigue=4
+learning=3
+add_trait="detached_priest"
+add_trait="cruel"
 1914.3.1={birth=yes}
-1938.1.21 = {add_spouse=1175000}
+1938.1.21={add_spouse=1175000}
 1965.5.28={death=yes}
 }
 
 1175002={
-name = "Hloðver"
-dynasty = 52012
-dna = "pnodoceminp"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 2
-stewardship = 3
-intrigue = 4
-learning = 5
-father = 1175000
-mother = 1175001
-add_trait = "underhanded_rogue"
-add_trait = "content"
+name="Hloðver"
+dynasty=52012
+dna="pnodoceminp"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=2
+stewardship=3
+intrigue=4
+learning=5
+father=1175000
+mother=1175001
+add_trait="underhanded_rogue"
+add_trait="content"
 1942.9.1={birth=yes}
-1960.5.1 = {add_spouse=1175003}
-1989.2.22 = {add_spouse=1175025}
+1960.5.1={add_spouse=1175003}
+1989.2.22={add_spouse=1175025}
 1999.5.1={death=yes}
 }
 
 1175003={
-name = "Cecilia"
-female = yes
-dynasty = 52043
-dna = "cccncglnkng"
-culture = fjarmann
-religion = norse
-martial = 4
-diplomacy = 4
-stewardship = 5
-intrigue = 5
-learning = 6
-add_trait = "skilled_tactician"
-add_trait = "greedy"
-add_trait = "kind"
+name="Cecilia"
+female=yes
+dynasty=52043
+dna="cccncglnkng"
+culture=fjarmann
+religion=norscan_gods
+martial=4
+diplomacy=4
+stewardship=5
+intrigue=5
+learning=6
+add_trait="skilled_tactician"
+add_trait="greedy"
+add_trait="kind"
 1941.7.1={birth=yes}
-1960.5.1 = {add_spouse=1175002}
+1960.5.1={add_spouse=1175002}
 1987.2.3={death=yes}
 }
 
 1175004={
-name = "Halvor"
-dynasty = 52007
-dna = "iojefiafjpe"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 5
-stewardship = 2
-intrigue = 2
-learning = 4
-father = 1175002
-mother = 1175003
-add_trait = "brilliant_strategist"
-add_trait = "hedonist"
-add_trait = "slothful"
-add_trait = "envious"
+name="Halvor"
+dynasty=52007
+dna="iojefiafjpe"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=5
+stewardship=2
+intrigue=2
+learning=4
+father=1175002
+mother=1175003
+add_trait="brilliant_strategist"
+add_trait="hedonist"
+add_trait="brave"
+add_trait="envious"
 1964.1.1={birth=yes}
-1983.3.10 = {add_spouse=1175007}
+1983.3.10={add_spouse=1175007}
 2019.6.24={death=yes}
 }
 
 1175005={
-name = "Úlfar"
-dynasty = 52007
-dna = "nbalphbbdlm"
-culture = fjarmann
-religion = norse
-martial = 4
-diplomacy = 3
-stewardship = 6
-intrigue = 2
-learning = 6
-father = 1175004
-mother = 1175007
-add_trait = "tough_soldier"
-add_trait = "gardener"
-add_trait = "trusting"
-add_trait = "humble"
-add_trait = "cruel"
+name="Úlfar"
+dynasty=52007
+dna="nbalphbbdlm"
+culture=fjarmann
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=6
+intrigue=2
+learning=6
+father=1175004
+mother=1175007
+add_trait="tough_soldier"
+add_trait="gardener"
+add_trait="trusting"
+add_trait="humble"
+add_trait="cruel"
 1988.5.1={birth=yes}
 2039.8.1={death=yes}
 }
 
 1175006={
-name = "Kristina"
-female = yes
-dynasty = 52007
-dna = "dcoflljgado"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 5
-stewardship = 6
-intrigue = 1
-learning = 4
-father = 1175004
-mother = 1175007
-add_trait = "flamboyant_schemer"
-add_trait = "greedy"
-add_trait = "chaste"
+name="Kristina"
+female=yes
+dynasty=52007
+dna="dcoflljgado"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=5
+stewardship=6
+intrigue=1
+learning=4
+father=1175004
+mother=1175007
+add_trait="flamboyant_schemer"
+add_trait="greedy"
+add_trait="chaste"
 1993.3.1={birth=yes}
 2054.11.1={death=yes}
 }
 
 1175007={
-name = "Katla"
-female = yes
-dynasty = 52028
-dna = "hoeknhlnmnc"
-culture = fjarmann
-religion = norse
-martial = 2
-diplomacy = 0
-stewardship = 5
-intrigue = 1
-learning = 0
-add_trait = "underhanded_rogue"
+name="Katla"
+female=yes
+dynasty=52028
+dna="hoeknhlnmnc"
+culture=fjarmann
+religion=norscan_gods
+martial=2
+diplomacy=0
+stewardship=5
+intrigue=1
+learning=0
+add_trait="underhanded_rogue"
 1963.5.1={birth=yes}
-1983.3.10 = {add_spouse=1175004}
+1983.3.10={add_spouse=1175004}
 2024.5.2={death=yes}
 }
 
 1175008={
-name = "Sæmundr"
-dynasty = 52028
-dna = "gaklgjfkiba"
-culture = fjarmann
-religion = norse
-martial = 3
-diplomacy = 2
-stewardship = 2
-intrigue = 1
-learning = 3
-father = 1175004
-mother = 1175007
-add_trait = "thrifty_clerk"
-add_trait = "slothful"
-add_trait = "diligent"
+name="Sæmundr"
+dynasty=52028
+dna="gaklgjfkiba"
+culture=fjarmann
+religion=norscan_gods
+martial=3
+diplomacy=2
+stewardship=2
+intrigue=1
+learning=3
+father=1175004
+mother=1175007
+add_trait="thrifty_clerk"
+add_trait="slothful"
+add_trait="diligent"
 2006.7.1={birth=yes}
 2062.10.15={death=yes}
 }
 
 1175009={
-name = "Auðr"
-female = yes
-dynasty = 52028
-dna = "djfjojgkihc"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 3
-stewardship = 7
-intrigue = 4
-learning = 2
-father = 1175004
-mother = 1175007
-add_trait = "skilled_tactician"
-add_trait = "craven"
+name="Auðr"
+female=yes
+dynasty=52028
+dna="djfjojgkihc"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=4
+learning=2
+father=1175004
+mother=1175007
+add_trait="skilled_tactician"
+add_trait="craven"
 2009.7.1={birth=yes}
 2081.2.10={death=yes}
 }
 
 1175010={
-name = "Morten"
-dynasty = 52000
-dna = "mdnodendnfc"
-culture = fjarmann
-religion = norse
-martial = 6
-diplomacy = 4
-stewardship = 6
-intrigue = 8
-learning = 2
-father = 1175002
-mother = 1175003
-add_trait = "grey_eminence"
-add_trait = "humble"
-add_trait = "craven"
-add_trait = "zealous"
+name="Morten"
+dynasty=52000
+dna="mdnodendnfc"
+culture=fjarmann
+religion=norscan_gods
+martial=6
+diplomacy=4
+stewardship=6
+intrigue=8
+learning=2
+father=1175002
+mother=1175003
+add_trait="grey_eminence"
+add_trait="proud"
+add_trait="ambitious"
+add_trait="zealous"
 1969.11.1={birth=yes}
-1994.8.20 = {add_spouse=1175011}
+1994.8.20={add_spouse=1175011}
 2036.8.7={death=yes}
 }
 
 1175011={
-name = "Valdís"
-female = yes
-dynasty = 52032
-dna = "eclejldfnnd"
-culture = fjarmann
-religion = norse
-martial = 2
-diplomacy = 5
-stewardship = 6
-intrigue = 2
-learning = 5
-add_trait = "intricate_webweaver"
+name="Valdís"
+female=yes
+dynasty=52032
+dna="eclejldfnnd"
+culture=fjarmann
+religion=norscan_gods
+martial=2
+diplomacy=5
+stewardship=6
+intrigue=2
+learning=5
+add_trait="intricate_webweaver"
 1977.1.1={birth=yes}
-1994.8.20 = {add_spouse=1175010}
+1994.8.20={add_spouse=1175010}
 2025.2.16={death=yes}
 }
 
 1175012={
-name = "Morten"
-dynasty = 52000
-dna = "oajaegpdgka"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 4
-stewardship = 6
-intrigue = 2
-learning = 4
-father = 1175010
-mother = 1175011
-add_trait = "flamboyant_schemer"
-add_trait = "gluttonous"
-add_trait = "cruel"
-add_trait = "just"
+name="Morten"
+dynasty=52000
+dna="oajaegpdgka"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=4
+stewardship=6
+intrigue=2
+learning=4
+father=1175010
+mother=1175011
+add_trait="flamboyant_schemer"
+add_trait="gluttonous"
+add_trait="cruel"
+add_trait="just"
 1997.11.1={birth=yes}
 2042.4.5={death=yes}
 }
 
 1175013={
-name = "Rognvaldr"
-dynasty = 52000
-dna = "kahjaoaplnj"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 1
-stewardship = 3
-intrigue = 2
-learning = 3
-father = 1175010
-mother = 1175011
-add_trait = "fortune_builder"
-add_trait = "just"
-add_trait = "gluttonous"
-add_trait = "humble"
+name="Rognvaldr"
+dynasty=52000
+dna="kahjaoaplnj"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=1
+stewardship=3
+intrigue=2
+learning=3
+father=1175010
+mother=1175011
+add_trait="fortune_builder"
+add_trait="just"
+add_trait="gluttonous"
+add_trait="humble"
 2003.7.1={birth=yes}
 2051.4.13={death=yes}
 }
 
 1175014={
-name = "Hloðver"
-dynasty = 52000
-dna = "doniammbkmj"
-culture = fjarmann
-religion = norse
-martial = 8
-diplomacy = 3
-stewardship = 3
-intrigue = 2
-learning = 4
-father = 1175010
-mother = 1175011
-add_trait = "flamboyant_schemer"
-add_trait = "arbitrary"
-add_trait = "trusting"
-add_trait = "ambitious"
-add_trait = "brave"
-add_trait = "depressed"
+name="Hloðver"
+dynasty=52000
+dna="doniammbkmj"
+culture=fjarmann
+religion=norscan_gods
+martial=8
+diplomacy=3
+stewardship=3
+intrigue=2
+learning=4
+father=1175010
+mother=1175011
+add_trait="flamboyant_schemer"
+add_trait="arbitrary"
+add_trait="trusting"
+add_trait="ambitious"
+add_trait="brave"
+add_trait="depressed"
 2009.7.1={birth=yes}
 2064.6.4={death=yes}
 }
 
 1175015={
-name = "Bót"
-female = yes
-dynasty = 52012
-dna = "jcnffpmgmda"
-culture = fjarmann
-religion = norse
-martial = 2
-diplomacy = 2
-stewardship = 2
-intrigue = 5
-learning = 0
-father = 1175002
-mother = 1175025
-add_trait = "fortune_builder"
-add_trait = "zealous"
-add_trait = "content"
+name="Bót"
+female=yes
+dynasty=52012
+dna="jcnffpmgmda"
+culture=fjarmann
+religion=norscan_gods
+martial=2
+diplomacy=2
+stewardship=2
+intrigue=5
+learning=0
+father=1175002
+mother=1175025
+add_trait="fortune_builder"
+add_trait="zealous"
+add_trait="content"
 1991.3.1={birth=yes}
 2007.5.5={employer=1175017}
 2047.12.27={death=yes}
 }
 
 1175016={
-name = "Maria"
-female = yes
-dynasty = 52012
-dna = "fmbhlkopoej"
-culture = fjarmann
-religion = norse
-martial = 6
-diplomacy = 3
-stewardship = 5
-intrigue = 3
-learning = 2
-father = 1175002
-mother = 1175025
-add_trait = "underhanded_rogue"
-add_trait = "arbitrary"
-add_trait = "greedy"
-add_trait = "gregarious"
+name="Maria"
+female=yes
+dynasty=52012
+dna="fmbhlkopoej"
+culture=fjarmann
+religion=norscan_gods
+martial=6
+diplomacy=3
+stewardship=5
+intrigue=3
+learning=2
+father=1175002
+mother=1175025
+add_trait="underhanded_rogue"
+add_trait="arbitrary"
+add_trait="greedy"
+add_trait="gregarious"
 1997.11.1={birth=yes}
 2054.5.6={death=yes}
 }
 
 1175017={
-name = "Skúli"
-dynasty = 52024
-dna = "afjplieimcj"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 1
-stewardship = 7
-intrigue = 5
-learning = 5
-father = 1175002
-mother = 1175003
-add_trait = "tough_soldier"
-add_trait = "humble"
-add_trait = "charitable"
-add_trait = "lustful"
-add_trait = "hedonist"
+name="Skúli"
+dynasty=52024
+dna="afjplieimcj"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=1
+stewardship=7
+intrigue=5
+learning=5
+father=1175002
+mother=1175003
+add_trait="tough_soldier"
+add_trait="cruel"
+add_trait="charitable"
+add_trait="lustful"
+add_trait="hedonist"
 1981.11.1={birth=yes}
-2007.5.6 = {add_spouse=1175028}
+2007.5.6={add_spouse=1175028}
 2022.10.28={death=yes}
 }
 
 1175018={
-name = "Thorgautr"
-dynasty = 52016
-dna = "kaaoiombjjm"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 3
-stewardship = 7
-intrigue = 0
-learning = 3
-father = 1175004
-mother = 1175007
-add_trait = "thrifty_clerk"
-add_trait = "cruel"
-add_trait = "charitable"
-add_trait = "arbitrary"
-add_trait = "kind"
+name="Thorgautr"
+dynasty=52016
+dna="kaaoiombjjm"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=3
+stewardship=7
+intrigue=0
+learning=3
+father=1175004
+mother=1175007
+add_trait="thrifty_clerk"
+add_trait="cruel"
+add_trait="charitable"
+add_trait="arbitrary"
+add_trait="kind"
 1985.1.1={birth=yes}
 2032.9.17={death=yes}
 }
 
 1175019={
-name = "Bolverkr"
-dynasty = 52016
-dna = "dfiildilpna"
-culture = fjarmann
-religion = norse
-martial = 6
-diplomacy = 4
-stewardship = 2
-intrigue = 3
-learning = 5
-father = 1175018
-add_trait = "thrifty_clerk"
-add_trait = "patient"
-add_trait = "proud"
-add_trait = "humble"
+name="Bolverkr"
+dynasty=52016
+dna="dfiildilpna"
+culture=fjarmann
+religion=norscan_gods
+martial=6
+diplomacy=4
+stewardship=2
+intrigue=3
+learning=5
+father=1175018
+add_trait="thrifty_clerk"
+add_trait="patient"
+add_trait="proud"
+add_trait="humble"
 2006.11.1={birth=yes}
 2060.10.9={death=yes}
 }
 
 1175020={
-name = "Ingríðr"
-female = yes
-dynasty = 52016
-dna = "dnmfjlefpak"
-culture = fjarmann
-religion = norse
-martial = 6
-diplomacy = 4
-stewardship = 7
-intrigue = 7
-learning = 3
-father = 1175018
-add_trait = "fortune_builder"
-add_trait = "kind"
-add_trait = "patient"
-add_trait = "humble"
+name="Ingríðr"
+female=yes
+dynasty=52016
+dna="dnmfjlefpak"
+culture=fjarmann
+religion=norscan_gods
+martial=6
+diplomacy=4
+stewardship=7
+intrigue=7
+learning=3
+father=1175018
+add_trait="fortune_builder"
+add_trait="kind"
+add_trait="patient"
+add_trait="humble"
 2009.9.1={birth=yes}
 2078.7.9={death=yes}
 }
 
 1175021={
-name = "Vsevolod"
-dynasty = 52012
-dna = "dpccojfahbg"
-culture = fjarmann
-religion = norse
-martial = 0
-diplomacy = 4
-stewardship = 5
-intrigue = 5
-learning = 4
-father = 1175002
-mother = 1175003
-add_trait = "elusive_shadow"
-add_trait = "gregarious"
-add_trait = "kind"
-add_trait = "diligent"
+name="Vsevolod"
+dynasty=52012
+dna="dpccojfahbg"
+culture=fjarmann
+religion=norscan_gods
+martial=0
+diplomacy=4
+stewardship=5
+intrigue=5
+learning=4
+father=1175002
+mother=1175003
+add_trait="elusive_shadow"
+add_trait="gregarious"
+add_trait="kind"
+add_trait="diligent"
 1961.1.1={birth=yes}
 2029.1.29={death=yes}
 }
 
 1175022={
-name = "Ulfr"
-dynasty = 52012
-dna = "kbcnamhemad"
-culture = fjarmann
-religion = norse
-martial = 3
-diplomacy = 4
-stewardship = 1
-intrigue = 3
-learning = 4
-father = 1175021
-add_trait = "intricate_webweaver"
+name="Ulfr"
+dynasty=52012
+dna="kbcnamhemad"
+culture=fjarmann
+religion=norscan_gods
+martial=3
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=4
+father=1175021
+add_trait="intricate_webweaver"
 1993.1.1={birth=yes}
 2049.1.1={death=yes}
 }
 
 1175023={
-name = "Orm"
-dynasty = 52024
-dna = "cfhbghoopdf"
-culture = fjarmann
-religion = norse
-martial = 1
-diplomacy = 1
-stewardship = 4
-intrigue = 3
-learning = 0
-father = 1175017
-add_trait = "flamboyant_schemer"
-add_trait = "envious"
-add_trait = "gluttonous"
-add_trait = "bastard"
+name="Orm"
+dynasty=52024
+dna="cfhbghoopdf"
+culture=fjarmann
+religion=norscan_gods
+martial=1
+diplomacy=1
+stewardship=4
+intrigue=3
+learning=0
+father=1175017
+add_trait="flamboyant_schemer"
+add_trait="envious"
+add_trait="gluttonous"
+add_trait="bastard"
 2004.11.1={birth=yes}
 2044.6.27={death=yes}
 }
 
 1175024={
-name = "Vinsi"
-dynasty = 52024
-dna = "inagpmefege"
-culture = fjarmann
-religion = norse
-martial = 2
-diplomacy = 1
-stewardship = 1
-intrigue = 4
-learning = 5
-father = 1175017
-mother = 1175028
-add_trait = "thrifty_clerk"
-add_trait = "patient"
-add_trait = "just"
-add_trait = "cynical"
-add_trait = "zealous"
+name="Vinsi"
+dynasty=52024
+dna="inagpmefege"
+culture=fjarmann
+religion=norscan_gods
+martial=2
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=5
+father=1175017
+mother=1175028
+add_trait="thrifty_clerk"
+add_trait="patient"
+add_trait="just"
+add_trait="cynical"
+add_trait="zealous"
 2009.3.1={birth=yes}
 2062.1.4={death=yes}
 }
 
 1175025={
-name = "Margareta"
-female = yes
-dynasty = 52029
-dna = "hdmbodhmlne"
-culture = fjarmann
-religion = norse
-martial = 3
-diplomacy = 1
-stewardship = 1
-intrigue = 4
-learning = 5
-add_trait = "tough_soldier"
-add_trait = "just"
-add_trait = "shy"
-add_trait = "charitable"
-add_trait = "wroth"
+name="Margareta"
+female=yes
+dynasty=52029
+dna="hdmbodhmlne"
+culture=fjarmann
+religion=norscan_gods
+martial=3
+diplomacy=1
+stewardship=1
+intrigue=4
+learning=5
+add_trait="tough_soldier"
+add_trait="just"
+add_trait="shy"
+add_trait="charitable"
+add_trait="wroth"
 1971.7.1={birth=yes}
-1989.2.22 = {add_spouse=1175002}
+1989.2.22={add_spouse=1175002}
 2035.5.17={death=yes}
 }
 
 1175026={
-name = "Katla"
-female = yes
-dynasty = 52012
-dna = "mmjefdbnocg"
-culture = fjarmann
-religion = norse
-martial = 8
-diplomacy = 3
-stewardship = 4
-intrigue = 2
-learning = 3
-father = 1175000
-add_trait = "skilled_tactician"
-add_trait = "zealous"
-add_trait = "paranoid"
+name="Katla"
+female=yes
+dynasty=52012
+dna="mmjefdbnocg"
+culture=fjarmann
+religion=norscan_gods
+martial=8
+diplomacy=3
+stewardship=4
+intrigue=2
+learning=3
+father=1175000
+add_trait="skilled_tactician"
+add_trait="zealous"
+add_trait="paranoid"
 1950.3.1={birth=yes}
 2034.5.7={death=yes}
 }
 
 1175027={
-name = "Gloð"
-female = yes
-dynasty = 52012
-dna = "hdhjngijioc"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 3
-stewardship = 2
-intrigue = 8
-learning = 4
-mother = 1175026
-add_trait = "brilliant_strategist"
-add_trait = "brave"
-add_trait = "stressed"
+name="Gloð"
+female=yes
+dynasty=52012
+dna="hdhjngijioc"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=3
+stewardship=2
+intrigue=8
+learning=4
+mother=1175026
+add_trait="brilliant_strategist"
+add_trait="brave"
+add_trait="stressed"
 1969.5.1={birth=yes}
 2020.11.23={death=yes}
 }
 
 1175028={
-name = "Thórodda"
-female = yes
-dynasty = 52012
-dna = "adjolcgcmpl"
-culture = fjarmann
-religion = norse
-martial = 3
-diplomacy = 2
-stewardship = 2
-intrigue = 7
-learning = 6
-mother = 1175027
-add_trait = "skilled_tactician"
-add_trait = "shy"
-add_trait = "ambitious"
-add_trait = "trusting"
-add_trait = "wroth"
+name="Thórodda"
+female=yes
+dynasty=52012
+dna="adjolcgcmpl"
+culture=fjarmann
+religion=norscan_gods
+martial=3
+diplomacy=2
+stewardship=2
+intrigue=7
+learning=6
+mother=1175027
+add_trait="skilled_tactician"
+add_trait="shy"
+add_trait="ambitious"
+add_trait="trusting"
+add_trait="wroth"
 1990.9.1={birth=yes}
-2007.5.6 = {add_spouse=1175017}
+2007.5.6={add_spouse=1175017}
 2071.6.12={death=yes}
 }
 
 1175029={
-name = "Ýrr"
-female = yes
-dynasty = 52012
-dna = "mbglbjodojg"
-culture = fjarmann
-religion = norse
-martial = 7
-diplomacy = 5
-stewardship = 3
-intrigue = 5
-learning = 2
-father = 1175017
-mother = 1175015
-add_trait = "underhanded_rogue"
-add_trait = "deceitful"
-add_trait = "bastard"
+name="Ýrr"
+female=yes
+dynasty=52012
+dna="mbglbjodojg"
+culture=fjarmann
+religion=norscan_gods
+martial=7
+diplomacy=5
+stewardship=3
+intrigue=5
+learning=2
+father=1175017
+mother=1175015
+add_trait="underhanded_rogue"
+add_trait="deceitful"
+add_trait="bastard"
 2008.9.1={birth=yes}
 2073.12.27={death=yes}
 }
 
 1175030={
-name = "Steinunn"
-dynasty = 52024
-dna = "iodlofagdli"
-culture = fjarmann
-religion = norse
-martial = 5
-diplomacy = 5
-stewardship = 2
-intrigue = 4
-learning = 6
-father = 1175017
-add_trait = "skilled_tactician"
-add_trait = "temperate"
-add_trait = "deceitful"
-add_trait = "kind"
-add_trait = "bastard"
+name="Steinunn"
+dynasty=52024
+dna="iodlofagdli"
+culture=fjarmann
+religion=norscan_gods
+martial=5
+diplomacy=5
+stewardship=2
+intrigue=4
+learning=6
+father=1175017
+add_trait="skilled_tactician"
+add_trait="temperate"
+add_trait="deceitful"
+add_trait="kind"
+add_trait="bastard"
 1999.1.1={birth=yes}
 2039.4.3={death=yes}
 }
 
 1175031={
-name = "Sven"
-dynasty = 52000
-dna = "cibkpjppafd"
-culture = fjarmann
-religion = sigmarite
-martial = 1
-diplomacy = 4
-stewardship = 4
-intrigue = 6
-learning = 5
-add_trait = "skilled_tactician"
-add_trait = "trusting"
-add_trait = "just"
-add_trait = "honest"
+name="Sven"
+dynasty=52000
+dna="cibkpjppafd"
+culture=fjarmann
+religion=sigmarite
+martial=1
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=5
+add_trait="skilled_tactician"
+add_trait="trusting"
+add_trait="just"
+add_trait="honest"
 2385.1.1={birth=yes}
 2453.9.5={death=yes}
 }

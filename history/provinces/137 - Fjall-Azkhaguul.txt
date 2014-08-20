@@ -10,7 +10,7 @@ b_kappi = castle
 
 # Misc
 culture = baersonling
-religion = norse
+religion = norscan_gods
 
 
 # History

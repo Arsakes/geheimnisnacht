@@ -14,7 +14,11 @@ b_port_piratea = city
 
 # Misc
 culture = myken
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_thakos = temple
+}

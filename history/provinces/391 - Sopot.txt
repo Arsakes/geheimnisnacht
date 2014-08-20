@@ -12,7 +12,7 @@ b_oreshak = city
 
 # Misc
 culture = tahmak
-religion = chaos
+religion = nurgle
 
 
 # History

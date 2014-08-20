@@ -4,15 +4,16 @@
 title = c_anjarlac
 
 # Settlements
-max_settlements = 4
-b_anjarre = castle
+max_settlements = 5
+b_chateau_du_mainse = castle
+b_anjarre = temple
 b_derrevin = city
 #b_ladamme = castle
 #b_grisances = city
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

@@ -12,7 +12,7 @@ b_halstjald = temple
 
 # Misc
 culture = aesling
-religion = dark_norse
+religion = norscan_gods
 
 
 # History

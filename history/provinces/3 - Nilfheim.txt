@@ -12,7 +12,11 @@ b_jorlar = city
 
 # Misc
 culture = graeling
-religion = dark_norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_nilfheim = temple
+}

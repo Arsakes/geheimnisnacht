@@ -12,7 +12,7 @@ b_romny = castle
 
 # Misc
 culture = carcassian
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

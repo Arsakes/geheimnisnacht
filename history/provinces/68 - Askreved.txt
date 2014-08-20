@@ -5,13 +5,13 @@ title = c_askreved
 
 # Settlements
 max_settlements = 3
-b_askreved = temple
-#b_darlstaad = city
+b_askreved = castle
+b_darlstaad = city
 #b_yuliberg = castle
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History

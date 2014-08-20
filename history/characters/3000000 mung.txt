@@ -1,15 +1,15 @@
 3000000={
-name = "Jebke"
-dynasty = 82500
-culture = mung
-religion = chaos
-martial = 4
-diplomacy = 2
-stewardship = 9
-intrigue = 2
-learning = 9
-add_trait = "scholar"
-add_trait = "elusive_shadow"
+name="Jebke"
+dynasty=82500
+culture=mung
+religion=chaos
+martial=4
+diplomacy=2
+stewardship=9
+intrigue=2
+learning=9
+add_trait="scholar"
+add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="craven"
 add_trait="honest"
@@ -19,17 +19,17 @@ add_trait="honest"
 }
 
 3000001={
-name = "Tuli"
-female = yes
-dynasty = 82501
-culture = mung
-religion = chaos
-martial = 5
-diplomacy = 2
-stewardship = 11
-intrigue = 2
-learning = 7
-add_trait = "mastermind_theologian"
+name="Tuli"
+female=yes
+dynasty=82501
+culture=mung
+religion=chaos
+martial=5
+diplomacy=2
+stewardship=11
+intrigue=2
+learning=7
+add_trait="mastermind_theologian"
 add_trait="greedy"
 add_trait="kind"
 1972.1.14={birth=yes}
@@ -37,34 +37,34 @@ add_trait="kind"
 }
 
 3000002={
-name = "Holui"
-dynasty = 82502
-culture = mung
-religion = chaos
-martial = 8
-diplomacy = 9
-stewardship = 2
-intrigue = 11
-learning = 9
-add_trait = "hedonist"
-add_trait = "misguided_warrior"
+name="Holui"
+dynasty=82502
+culture=mung
+religion=chaos
+martial=8
+diplomacy=9
+stewardship=2
+intrigue=11
+learning=9
+add_trait="hedonist"
+add_trait="misguided_warrior"
 add_trait="tall"
 1981.6.4={birth=yes}
 2057.7.25={death=yes}
 }
 
 3000003={
-name = "Qoriqacha"
-dynasty = 82503
-culture = mung
-religion = chaos
-martial = 3
-diplomacy = 8
-stewardship = 8
-intrigue = 1
-learning = 10
-add_trait = "hedonist"
-add_trait = "naive_appeaser"
+name="Qoriqacha"
+dynasty=82503
+culture=mung
+religion=chaos
+martial=3
+diplomacy=8
+stewardship=8
+intrigue=1
+learning=10
+add_trait="hedonist"
+add_trait="naive_appeaser"
 
 add_trait="cruel"
 add_trait="temperate"
@@ -74,18 +74,18 @@ add_trait="temperate"
 }
 
 3000004={
-name = "Minghan"
-female = yes
-dynasty = 82504
-culture = mung
-religion = chaos
-martial = 8
-diplomacy = 5
-stewardship = 5
-intrigue = 2
-learning = 10
-add_trait = "impaler"
-add_trait = "martial_cleric"
+name="Minghan"
+female=yes
+dynasty=82504
+culture=mung
+religion=chaos
+martial=8
+diplomacy=5
+stewardship=5
+intrigue=2
+learning=10
+add_trait="impaler"
+add_trait="martial_cleric"
 add_trait="weak"
 add_trait="wroth"
 add_trait="content"
@@ -95,17 +95,17 @@ add_trait="content"
 }
 
 3000005={
-name = "Khagatai"
-dynasty = 82505
-culture = mung
-religion = chaos
-martial = 10
-diplomacy = 3
-stewardship = 2
-intrigue = 7
-learning = 1
+name="Khagatai"
+dynasty=82505
+culture=mung
+religion=chaos
+martial=10
+diplomacy=3
+stewardship=2
+intrigue=7
+learning=1
 
-add_trait = "amateurish_plotter"
+add_trait="amateurish_plotter"
 add_trait="humble"
 add_trait="trusting"
 
@@ -115,17 +115,17 @@ add_trait="trusting"
 }
 
 3000006={
-name = "Shirgugetu"
-dynasty = 82506
-culture = mung
-religion = chaos
-martial = 2
-diplomacy = 7
-stewardship = 1
-intrigue = 6
-learning = 0
-add_trait = "impaler"
-add_trait = "grey_eminence"
+name="Shirgugetu"
+dynasty=82506
+culture=mung
+religion=chaos
+martial=2
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=0
+add_trait="impaler"
+add_trait="grey_eminence"
 add_trait="chaste"
 
 add_trait="ill"
@@ -135,17 +135,17 @@ add_trait="ill"
 }
 
 3000007={
-name = "Kinggiyadai"
-dynasty = 82507
-culture = mung
-religion = chaos
-martial = 7
-diplomacy = 9
-stewardship = 4
-intrigue = 2
-learning = 1
-add_trait = "scholar"
-add_trait = "underhanded_rogue"
+name="Kinggiyadai"
+dynasty=82507
+culture=mung
+religion=chaos
+martial=7
+diplomacy=9
+stewardship=4
+intrigue=2
+learning=1
+add_trait="scholar"
+add_trait="underhanded_rogue"
 add_trait="drunkard"
 
 add_trait="lustful"
@@ -155,34 +155,34 @@ add_trait="lustful"
 }
 
 3000008={
-name = "Adliya"
-female = yes
-dynasty = 82508
-culture = mung
-religion = chaos
-martial = 5
-diplomacy = 6
-stewardship = 9
-intrigue = 4
-learning = 10
-add_trait = "gardener"
-add_trait = "midas_touched"
+name="Adliya"
+female=yes
+dynasty=82508
+culture=mung
+religion=chaos
+martial=5
+diplomacy=6
+stewardship=9
+intrigue=4
+learning=10
+add_trait="gardener"
+add_trait="midas_touched"
 1960.8.18={birth=yes}
 2040.2.27={death=yes}
 }
 
 3000009={
-name = "Qoribucha"
-dynasty = 82509
-culture = mung
-religion = chaos
-martial = 2
-diplomacy = 6
-stewardship = 8
-intrigue = 6
-learning = 7
-add_trait = "falconer"
-add_trait = "intricate_webweaver"
+name="Qoribucha"
+dynasty=82509
+culture=mung
+religion=chaos
+martial=2
+diplomacy=6
+stewardship=8
+intrigue=6
+learning=7
+add_trait="falconer"
+add_trait="intricate_webweaver"
 
 add_trait="homosexual"
 add_trait="legit_bastard"
@@ -192,17 +192,17 @@ add_trait="legit_bastard"
 }
 
 3000010={
-name = "Miyangëdei"
-dynasty = 82510
-culture = mung
-religion = chaos
-martial = 4
-diplomacy = 5
-stewardship = 1
-intrigue = 8
-learning = 2
-add_trait = "gardener"
-add_trait = "tough_soldier"
+name="Miyangëdei"
+dynasty=82510
+culture=mung
+religion=chaos
+martial=4
+diplomacy=5
+stewardship=1
+intrigue=8
+learning=2
+add_trait="gardener"
+add_trait="tough_soldier"
 
 add_trait="lisp"
 
@@ -212,34 +212,34 @@ add_trait="lisp"
 }
 
 3000011={
-name = "Yeke-Cheren"
-dynasty = 82511
-culture = mung
-religion = chaos
-martial = 0
-diplomacy = 2
-stewardship = 5
-intrigue = 5
-learning = 8
-add_trait = "impaler"
-add_trait = "tough_soldier"
+name="Yeke-Cheren"
+dynasty=82511
+culture=mung
+religion=chaos
+martial=0
+diplomacy=2
+stewardship=5
+intrigue=5
+learning=8
+add_trait="impaler"
+add_trait="tough_soldier"
 1992.5.20={birth=yes}
 2049.8.10={death=yes}
 }
 
 3000012={
-name = "Hunggum"
-female = yes
-dynasty = 82512
-culture = mung
-religion = chaos
-martial = 8
-diplomacy = 3
-stewardship = 9
-intrigue = 0
-learning = 9
-add_trait = "poet"
-add_trait = "elusive_shadow"
+name="Hunggum"
+female=yes
+dynasty=82512
+culture=mung
+religion=chaos
+martial=8
+diplomacy=3
+stewardship=9
+intrigue=0
+learning=9
+add_trait="poet"
+add_trait="elusive_shadow"
 add_trait="fair"
 add_trait="envious"
 add_trait="strong"
@@ -249,17 +249,17 @@ add_trait="strong"
 }
 
 3000013={
-name = "Mersentei"
-dynasty = 82513
-culture = mung
-religion = chaos
-martial = 8
-diplomacy = 1
-stewardship = 4
-intrigue = 0
-learning = 0
-add_trait = "mystic"
-add_trait = "martial_cleric"
+name="Mersentei"
+dynasty=82513
+culture=mung
+religion=chaos
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=0
+learning=0
+add_trait="mystic"
+add_trait="martial_cleric"
 add_trait="slothful"
 add_trait="proud"
 add_trait="patient"
@@ -269,17 +269,17 @@ add_trait="patient"
 }
 
 3000014={
-name = "Tatar"
-dynasty = 82514
-culture = mung
-religion = chaos
-martial = 9
-diplomacy = 0
-stewardship = 9
-intrigue = 11
-learning = 3
+name="Tatar"
+dynasty=82514
+culture=mung
+religion=chaos
+martial=9
+diplomacy=0
+stewardship=9
+intrigue=11
+learning=3
 
-add_trait = "intricate_webweaver"
+add_trait="intricate_webweaver"
 add_trait="ambitious"
 add_trait="arbitrary"
 add_trait="just"
@@ -289,18 +289,18 @@ add_trait="just"
 }
 
 3000015={
-name = "Adolat"
-female = yes
-dynasty = 82515
-culture = mung
-religion = chaos
-martial = 10
-diplomacy = 7
-stewardship = 6
-intrigue = 9
-learning = 9
-add_trait = "mystic"
-add_trait = "indulgent_wastrel"
+name="Adolat"
+female=yes
+dynasty=82515
+culture=mung
+religion=chaos
+martial=10
+diplomacy=7
+stewardship=6
+intrigue=9
+learning=9
+add_trait="mystic"
+add_trait="indulgent_wastrel"
 add_trait="shy"
 add_trait="zealous"
 add_trait="diligent"
@@ -310,17 +310,17 @@ add_trait="diligent"
 }
 
 3000016={
-name = "Narin"
-dynasty = 82516
-culture = mung
-religion = chaos
-martial = 0
-diplomacy = 2
-stewardship = 9
-intrigue = 5
-learning = 9
-add_trait = "gardener"
-add_trait = "grey_eminence"
+name="Narin"
+dynasty=82516
+culture=mung
+religion=chaos
+martial=0
+diplomacy=2
+stewardship=9
+intrigue=5
+learning=9
+add_trait="gardener"
+add_trait="grey_eminence"
 add_trait="cynical"
 add_trait="paranoid"
 add_trait="gregarious"
@@ -330,17 +330,17 @@ add_trait="gregarious"
 }
 
 3000017={
-name = "Arik"
-dynasty = 82517
-culture = mung
-religion = chaos
-martial = 9
-diplomacy = 8
-stewardship = 4
-intrigue = 3
-learning = 9
-add_trait = "hunter"
-add_trait = "charismatic_negotiator"
+name="Arik"
+dynasty=82517
+culture=mung
+religion=chaos
+martial=9
+diplomacy=8
+stewardship=4
+intrigue=3
+learning=9
+add_trait="hunter"
+add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="honest"
 add_trait="craven"
@@ -349,34 +349,34 @@ add_trait="craven"
 }
 
 3000018={
-name = "Jub"
-dynasty = 82518
-culture = mung
-religion = chaos
-martial = 6
-diplomacy = 9
-stewardship = 11
-intrigue = 11
-learning = 0
-add_trait = "gardener"
-add_trait = "skilled_tactician"
+name="Jub"
+dynasty=82518
+culture=mung
+religion=chaos
+martial=6
+diplomacy=9
+stewardship=11
+intrigue=11
+learning=0
+add_trait="gardener"
+add_trait="skilled_tactician"
 add_trait="greedy"
 2004.1.30={birth=yes}
 2055.10.9={death=yes}
 }
 
 3000019={
-name = "Ebegei"
-dynasty = 82519
-culture = mung
-religion = chaos
-martial = 6
-diplomacy = 1
-stewardship = 11
-intrigue = 9
-learning = 10
-add_trait = "poet"
-add_trait = "midas_touched"
+name="Ebegei"
+dynasty=82519
+culture=mung
+religion=chaos
+martial=6
+diplomacy=1
+stewardship=11
+intrigue=9
+learning=10
+add_trait="poet"
+add_trait="midas_touched"
 add_trait="tall"
 1988.3.16={birth=yes}
 2031.11.24={death=yes}

@@ -19,3 +19,7 @@ religion = vampiric
 # History
 
 2155.1.1 = { religion = sigmarite }
+
+2500.1.1 = {
+	b_gablitz = castle
+}

@@ -1,5 +1,5 @@
 hung_group = {
-	graphical_culture = mongolgfx
+	graphical_culture = muslimgfx
 
 	chi_an = {
 		graphical_culture = mongolgfx

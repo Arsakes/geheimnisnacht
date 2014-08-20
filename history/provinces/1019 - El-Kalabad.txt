@@ -18,3 +18,7 @@ religion = ormazd
 
 
 # History
+
+2250.1.1 = {
+	b_tamdul = city
+}

@@ -10,7 +10,7 @@ b_villa_tranquille = castle
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History

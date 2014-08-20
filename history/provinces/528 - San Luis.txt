@@ -1,17 +1,25 @@
 #528 San Luis
-#County Title
+
 title = c_san_luis
 
 #Settlements
 max_settlements = 5
 b_san_luis = castle
 b_sabida = city
-b_adreno = temple
-b_felizada = temple
+#b_adreno = temple
+#b_felizada = temple
 #b_quatorna = temple
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_adreno = temple
+}
+
+2500.1.1 = {
+	b_felizada = temple
+}

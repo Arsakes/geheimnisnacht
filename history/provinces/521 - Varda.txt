@@ -1,5 +1,5 @@
 #521 Varda
-#County Title
+
 title = c_varda
 
 #Settlements
@@ -11,6 +11,6 @@ b_defundos = city
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History

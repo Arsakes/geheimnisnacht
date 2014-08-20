@@ -5,14 +5,18 @@ title = c_yelstir_hills
 
 # Settlements
 max_settlements = 4
-b_yelstirvik = castle
-#b_jorgenslavly = temple
+b_yelstirvik = temple
+b_jorgenslavly = castle
 #b_revistrirak = city
 #b_aerom = castle
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2500.1.1 = {
+	b_revistrirak = city
+}

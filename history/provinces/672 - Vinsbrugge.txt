@@ -12,7 +12,11 @@ b_albane = city
 
 # Misc
 culture = fjarmann
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_castle_tuscarno = castle
+}

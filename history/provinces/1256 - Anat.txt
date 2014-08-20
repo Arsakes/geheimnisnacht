@@ -6,7 +6,7 @@ title = c_anat
 # Settlements
 max_settlements = 2
 b_anat = castle
-b_ummar = city
+b_ummar = temple
 
 # Misc
 culture = orc_main

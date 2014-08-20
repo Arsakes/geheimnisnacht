@@ -12,7 +12,7 @@ b_belava = city
 
 # Misc
 culture = ungol
-religion = northern_gods
+religion = ursun
 
 
 # History

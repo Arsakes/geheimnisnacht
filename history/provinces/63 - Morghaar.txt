@@ -11,8 +11,8 @@ b_helheim = city
 #b_feiknstafir_lidha = temple
 
 # Misc
-culture = aesling
-religion = chaos
+culture = dwarf_chaos
+religion = hashut
 
 
 # History

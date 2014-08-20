@@ -7,13 +7,17 @@ title = c_turov
 max_settlements = 5
 b_ardhka = castle
 b_turov = city
-b_suzdal = city
+#b_suzdal = temple
 #b_kem = temple
 #b_mehikoorma = castle
 
 # Misc
 culture = gospodar
-religion = northern_gods
+religion = ursun
 
 
 # History
+
+2250.1.1 = {
+	b_suzdal = temple
+}

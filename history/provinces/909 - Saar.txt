@@ -5,7 +5,7 @@ title = c_saar
 
 # Settlements
 max_settlements = 3
-b_saar = city
+b_saar = castle
 #b_huuzel = castle
 #b_sallizes = temple
 
@@ -16,5 +16,9 @@ religion = greenskin_gods
 
 # History
 
-2155.1.1 = { religion = lady_of_the_lake }
+2155.1.1 = { religion = grail }
 2155.1.1 = { culture = nortagnese }
+
+2250.1.1 = {
+	b_huuzel = castle
+}

@@ -7,7 +7,7 @@ title = c_ubersreik
 max_settlements = 6
 b_flussberg = castle
 b_ubersreik = city
-b_hugeldal = temple
+#b_hugeldal = temple
 #b_lachenbad = city
 #b_hersfeld = castle
 #b_hupeberg = castle
@@ -19,4 +19,10 @@ religion = sigmarite
 
 # History
 
-2513.10.5 = { capital = b_ubersreik }
+2250.1.1 = {
+	b_hugeldal = temple
+}
+
+2500.1.1 = {
+	b_lachenbad = city
+}

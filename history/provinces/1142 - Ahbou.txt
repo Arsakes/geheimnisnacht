@@ -9,7 +9,7 @@ b_ahbou = castle
 b_kal = city
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 

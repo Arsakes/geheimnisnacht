@@ -1,4 +1,4 @@
-# 1201 Uvs
+# 1221 Khamchata
 
 # County Title
 title = c_khamchata
@@ -10,8 +10,8 @@ b_yhdeksan = temple
 #b_stader = city
 
 # Misc
-culture = kvellig
-religion = chaos
+culture = gharhar
+religion = khorne
 
 
 # History

@@ -6,13 +6,21 @@ title = c_saintilles
 # Settlements
 max_settlements = 4
 b_saintilles = castle
-b_siege_perilous = castle
-b_pompignan = temple
+#b_siege_perilous = castle
+#b_pompignan = temple
 #b_athos = city
 
 # Misc
 culture = armoric
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_siege_perilous = castle
+}
+
+2500.1.1 = {
+	b_pompignan = temple
+}

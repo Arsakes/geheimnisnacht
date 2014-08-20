@@ -1,5 +1,5 @@
 # 551 Malmeria
-#County Title
+
 title = c_malmeria
 
 #Settlements
@@ -12,6 +12,10 @@ b_macaria = castle
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2250.1.1 = {
+	b_trigasta = temple
+}

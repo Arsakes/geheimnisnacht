@@ -6,12 +6,16 @@ title = c_thorshafn
 # Settlements
 max_settlements = 3
 b_thorshafn = castle
-#b_ulmsteadvik = city
+#b_ulmsteadvik = temple
 #b_feordivik = city
 
 # Misc
 culture = sarl
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2500.1.1 = {
+	b_ulmsteadvik = temple
+}

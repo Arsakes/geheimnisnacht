@@ -12,7 +12,11 @@ b_reves = castle
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
+
+2250.1.1 = {
+	b_leurs = temple
+}

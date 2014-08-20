@@ -1,5 +1,5 @@
 #536 Verin
-#County Title
+
 title = c_verin
 
 #Settlements
@@ -10,6 +10,10 @@ b_verin = castle
 
 #Misc
 culture = obregonese
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_flagante = city
+}

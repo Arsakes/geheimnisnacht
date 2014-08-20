@@ -8,7 +8,7 @@ max_settlements = 4
 b_karak_hirn = castle
 b_grung_rakakadan = city
 b_khazid_vank = temple
-b_grung_skrim = castle
+#b_grung_skrim = castle
 #b_khazid_ruvalkund = castle
 #b_grongil_tariem = temple
 
@@ -18,3 +18,7 @@ religion = ancestor_gods
 
 
 # History
+
+2250.1.1 = {
+	b_grung_skrim = castle
+}

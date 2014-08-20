@@ -7,12 +7,16 @@ title = c_enavot
 max_settlements = 4
 b_kogi = castle
 b_naharin = city
-b_sahure = temple
-b_akarun = city
+#b_sahure = temple
+#b_akarun = city
 
 # Misc
-culture = kashite
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_sahure = temple
+}

@@ -14,8 +14,12 @@ b_morrpater = castle
 
 # Misc
 culture = lucian
-religion = classical_gods
+religion = myrmidian
 
-terrain = city
+terrain = farmlands
 
 # History
+
+2500.1.1 = {
+	b_santo_plinio = city
+}

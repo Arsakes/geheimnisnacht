@@ -7,12 +7,17 @@ title = c_raverno
 max_settlements = 4
 b_raverno = castle
 b_arlequino = city
-b_acandosto = temple
+#b_acandosto = temple
 #b_testarossa = castle
 
 # Misc
 culture = reman
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_acandosto = temple
+}
+

@@ -20,7 +20,7 @@ old_ones_group = {
 		
 		priests_can_marry = no
 		aggression = 1.5 
-		allow_rivermovement = yes
+		allow_rivermovement = no
 		can_hold_temples = yes
 	}
 }

@@ -1,5 +1,5 @@
 #508 Sobremarca
-#County Title
+
 title = c_sobremarca
 
 #Settlements
@@ -12,6 +12,10 @@ b_san_fernando = city
 
 #Misc
 culture = norteno
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_rocamaura = temple
+}

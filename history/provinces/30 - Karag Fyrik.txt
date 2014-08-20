@@ -10,8 +10,8 @@ b_grung_fyrik = city
 #b_kazad_uream = temple
 
 # Misc
-culture = skaeling
-religion = chaos
+culture = dwarf_chaos
+religion = hashut
 
 
 # History

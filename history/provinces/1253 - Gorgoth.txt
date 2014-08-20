@@ -7,8 +7,8 @@ title = c_gorgoth
 max_settlements = 6
 b_tower_of_gorgoth = castle
 b_grung_azgorha = city
-b_grung_hargmur = city
-b_khadizar_thraldom = castle
+b_grung_hargmur = temple
+#b_khadizar_thraldom = castle
 #b_urbar_serdom = castle
 #b_ishataraz = temple
 
@@ -18,3 +18,7 @@ religion = hashut
 
 
 # History
+
+2250.1.1 = {
+	b_khadizar_thraldom = castle
+}

@@ -1,5 +1,5 @@
 #515 Barboza
-#County Title
+
 title = c_barboza
 
 #Settlements
@@ -12,6 +12,6 @@ b_alfonza = city
 
 #Misc
 culture = tigarrese
-religion = classical_gods
+religion = myrmidian
 
 #History

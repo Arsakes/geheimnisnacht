@@ -6,12 +6,16 @@ title = c_peret
 # Settlements
 max_settlements = 3
 b_peret = castle
-b_napata = city
-b_nedyt = temple
+#b_napata = city
+#b_nedyt = temple
 
 # Misc
-culture = canopic
+culture = nehekharan
 religion = nehekharan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_napata = city
+}

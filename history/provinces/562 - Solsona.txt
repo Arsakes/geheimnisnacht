@@ -1,5 +1,5 @@
 #562 Solsona
-#County Title
+
 title = c_solsona
 
 #Settlements
@@ -11,6 +11,6 @@ b_tredana = temple
 
 #Misc
 culture = astur
-religion = classical_gods
+religion = myrmidian
 
 #History

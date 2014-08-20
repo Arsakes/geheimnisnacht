@@ -13,7 +13,11 @@ b_nygavik = city
 
 # Misc
 culture = skaeling
-religion = norse
+religion = norscan_gods
 
 
 # History
+
+2250.1.1 = {
+	b_skartasund = castle
+}

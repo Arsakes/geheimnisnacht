@@ -12,7 +12,12 @@ b_corcio = city
 
 # Misc
 culture = miraglian
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2500.1.1 = {
+	b_talaberdi = temple
+}
+

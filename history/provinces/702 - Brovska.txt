@@ -7,13 +7,17 @@ title = c_brovska
 max_settlements = 5
 b_brovska = castle
 b_porthos = city
-b_aramilla = temple
+#b_aramilla = temple
 #b_cilla = city
 #b_karzik = castle
 
 # Misc
 culture = tierrasman
-religion = classical_gods
+religion = myrmidian
 
 
 # History
+
+2250.1.1 = {
+	b_aramilla = temple
+}

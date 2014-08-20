@@ -1,5 +1,5 @@
 #530 Edeta
-#County Title
+
 title = c_edeta
 
 #Settlements
@@ -11,6 +11,10 @@ b_san_luiz = city
 
 #Misc
 culture = galice
-religion = classical_gods
+religion = myrmidian
 
 #History
+
+2500.1.1 = {
+	b_tollada = city
+}

@@ -7,13 +7,13 @@ title = c_rennaille
 max_settlements = 5
 b_combeferre = castle
 b_rohes = temple
-b_fergerac = castle
+#b_fergerac = castle
 #b_garlande = temple
 #b_savie = city
 
 # Misc
 culture = gascon
-religion = lady_of_the_lake
+religion = grail
 
 
 # History
