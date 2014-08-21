@@ -26,15 +26,17 @@ castle = {
 			}
 			FROM = { culture_group = kislevite_group }
 			# this building is getting destroyed after province culture changes
-		}
-		trigger = { 
-			TECH_CASTLE_CONSTRUCTION = 0 
 			FROMFROM = {
 				NOT = { has_building = ca_gospodar_military }
 			}
+
 		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+		}
+		not_if_x_exists = { ca_gospodar_military }
 		build_cost = 50
-		build_time = 570
+		build_time = 30 #FIXME
 		ai_creation_factor = 100
 
 		extra_tech_building_start = 0
@@ -44,19 +46,18 @@ castle = {
 		desc = ca_kislevite_stable_desc
 		potential = {
 			OR = {
-					culture = gospodar
-					culture = kislevite
+				culture = gospodar
+				culture = kislevite
 			}
 			FROM = { culture_group = kislevite_group }
+
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0 
-			FROMFROM = {
-				NOT = { has_building = ca_ungol_military }
-			}
 		}
+		not_if_x_exists = { ca_ungol_military }
 		build_cost = 50
-		build_time = 570
+		build_time = 30 #FIXME
 		ai_creation_factor = 100
 
 		extra_tech_building_start = 0
@@ -185,6 +186,7 @@ castle = {
 		}
 		replaces = ca_stable_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_gospodar_military }
 		build_cost = 100
 		build_time = 365
 		light_cavalry = 25
@@ -295,6 +297,7 @@ castle = {
 		}
 		replaces = ca_stable_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_ungol_military }
 		build_cost = 100
 		build_time = 365
 		light_cavalry = 30

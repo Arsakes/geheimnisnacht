@@ -148,6 +148,7 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
+        # additive buildings only for kurgans & hungs
 	ca_steppe_stable_4 = {
 		desc = ca_steppe_stable_desc
 		potential = {

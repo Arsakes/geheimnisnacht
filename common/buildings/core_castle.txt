@@ -253,6 +253,12 @@ castle = {
 	#Stable, gives light cavalry and some heavy cavalry
 	ca_stable_1 = {
 		desc = ca_stable_1_desc
+		potential = {
+			NOT = {
+				culture_group = kislevite_group 
+				FROM = { culture_group = kislevite_group }
+			}
+		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		build_cost = 100
 		build_time = 365

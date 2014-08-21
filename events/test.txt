@@ -1222,3 +1222,28 @@ character_event = {
         }
     }
 }
+# CULTURE test.31
+character_event = {
+    id = test.31
+    desc = "Choose culture"
+    is_triggered_only = yes
+    
+    option = {
+        name = gospodar
+        location = {
+            culture = gospodar
+	}
+    }
+    option = {
+        name = ungol
+        location = {
+            culture = ungol
+	}
+    }
+    option = {
+        name = kislevite
+        location = {
+            culture = kislevite
+	}
+    }
+}
