@@ -1,0 +1,374 @@
+# Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	build_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+#
+# Here we put additional buildings common for all civilized human nations
+# this buildings are additions which mean they don't replace anything.
+# Also they are not! replaced by nation specific buildings
+# since they are nation specific! (Just specific to many nations).
+# 
+#
+# Castle Additions for all civlized human nations
+castle = {
+	# Wall quality, gives fortlevel
+	ca_wall_q_4 = {
+		desc = ca_wall_q_4_desc
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_wall_q_3
+		build_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 0.2
+	}
+	ca_wall_q_5 = {
+		desc = ca_wall_q_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		upgrades_from = ca_wall_q_4
+		build_cost = 100
+		build_time = 365
+		fort_level = 1.0
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 0.2
+	}
+	
+	#Walls, gives fortlevel, levysize and income
+	ca_wall_4 = {
+		desc = ca_wall_4_desc
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_wall_3
+		build_cost = 150
+		build_time = 1095 #3y
+		fort_level = 1.0
+		levy_size = 0.05
+		tax_income = 0.2
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_wall_5 = {
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		desc = ca_wall_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_wall_4
+		build_cost = 150
+		build_time = 1460 #4y
+		fort_level = 1.5
+		levy_size = 0.1
+		tax_income = 0.5
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	#ca_con_wall_6 = { # Theodosian Walls
+	#	potential = {
+	#		FROMFROM = { title = b_constantinople }
+	#	}
+	#	desc = ca_con_wall_6_desc
+	#	upgrades_from = ca_wall_5
+	#	build_cost = 150
+	#	build_time = 1460 #4y
+	#	fort_level = 4.0
+	#	ai_creation_factor = 86
+	#
+	#	extra_tech_building_start = 0.0
+	#}
+
+	
+	#Castle town, gives income
+	ca_town_4 = {
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		desc = ca_town_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_town_3
+		build_cost = 300
+		build_time = 1095
+		tax_income = 2
+		ai_creation_factor = 97
+
+		extra_tech_building_start = 0.2
+	}
+	ca_town_5 = {
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		desc = ca_town_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_town_4
+		build_cost = 400
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+	ca_town_6 = {
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		desc = ca_town_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_town_5
+		build_cost = 500
+		build_time = 2190
+		tax_income = 2
+		ai_creation_factor = 96
+
+		extra_tech_building_start = 0.2
+	}
+	 
+	# Shipyards 3,4
+	ca_shipyard_3 = {
+		desc = shipyard_desc
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		port = yes
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ca_shipyard_2
+		build_cost = 100
+		build_time = 1095
+		galleys = 8
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	ca_shipyard_4 = {
+		desc = shipyard_desc
+		potential = {
+			OR = {
+				culture_group = arabyan_group
+				culture_group = bretonnian_group
+				culture_group = estalian_group
+				culture_group = imperial_group
+				culture_group = halfling_group
+				culture_group = kislevite_group
+				culture_group = tilean_group
+				culture_group = sartosan_group
+			}
+			FROM = {
+				OR = {
+					culture_group = arabyan_group
+					culture_group = bretonnian_group
+					culture_group = estalian_group
+					culture_group = imperial_group
+					culture_group = halfling_group
+					culture_group = kislevite_group
+					culture_group = tilean_group
+					culture_group = sartosan_group
+				}
+			}
+		}
+
+		port = yes
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = ca_shipyard_3
+		build_cost = 100
+		build_time = 1460
+		galleys = 9
+		ai_creation_factor = 97
+		
+		extra_tech_building_start = 0.3
+	}
+}

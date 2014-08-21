@@ -11,7 +11,8 @@
  #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
  #}
  
- # Castle CORE SET OF BUILDINGS
+# Castle CORE SET OF BUILDINGS
+#
 castle = {
 	# Wall quality, gives fortlevel
 	ca_wall_q_1 = {
@@ -338,6 +339,7 @@ castle = {
 		desc = shipyard_desc
 		port = yes
 		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ca_shipyard_1
 		build_cost = 100
 		build_time = 730
 		galleys = 7

@@ -823,7 +823,7 @@ NMilitary = {
 	LOOT_HOLDING_BUILDING_DEST_ODDS = 10,			-- there is a 1 in this chance a random building is destroyed when looted
 	
 	RETINUE_FROM_REALMSIZE = 6.0,
-	RETINUE_INCREASE_PER_TECH = 2.0,
+	RETINUE_INCREASE_PER_TECH = 0.5,
 	RETINUE_HIRE_COST_MULTIPLIER = 0.08,			-- Retinues are free to hire atm, but they cost alot to reinforce
 	RETINUE_REINFORCE_RATE = 0.05,
 	RETINUE_REINFORCE_COST = 1.4,					-- Retinues cost while reinforcing.

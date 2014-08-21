@@ -76,8 +76,8 @@ RETTYPE_CUL_IMP;Imperial Infantry Company.;;;;;;;;;;;;;x
 RETTYPE_CUL_IMP2;Imperial Light Infantry Company.;;;;;;;;;;;;;x
 RETTYPE_CUL_BRET;Bertonian Pikeman Company.;;;;;;;;;;;;;x
 RETTYPE_CUL_BRET2;Bertonian Archers Company.;;;;;;;;;;;;;x
-RETTYPE_CUL_KISLEV1;Kislevite Kossars Company;;;;;;;;;;;;;x
-RETTYPE_CUL_KISLEV2;Kremlin Guard Company;;;;;;;;;;;;;x
+RETTYPE_CUL_KISLEV1;Kossar Pulk;;;;;;;;;;;;;x
+RETTYPE_CUL_KISLEV2;Kremlin Guard Pulk;;;;;;;;;;;;;x
 # DISEASES GUI INFO
 has_creeping_buboes;Has Creeping Buboes;;;;;;;;;;;;;x
 has_creeping_buboes_desc;This character has Creeping Buboes, which leave horrible itchy red welts;;;;;;;;;;;;;x

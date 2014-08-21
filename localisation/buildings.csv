@@ -169,10 +169,6 @@ ca_sartosan_barracks_1;Sartosan Guard;;;;;;;;;;;;;x
 ca_sartosan_barracks_1_desc;.;;;;;;;;;;;;;x
 ca_sartosan_militia_1;Sartosan Militia;;;;;;;;;;;;;x
 ca_sartosan_militia_1_desc;.;;;;;;;;;;;;;x
-ca_kislevite_barracks_1;Lancer Rota;;;;;;;;;;;;;x
-ca_kislevite_barracks_1_desc;.;;;;;;;;;;;;;x
-ca_kislevite_militia_1;Kossar Levy;;;;;;;;;;;;;x
-ca_kislevite_militia_1_desc;.;;;;;;;;;;;;;x
 ca_norscan_barracks_1;Huskarl Barracks;;;;;;;;;;;;;x
 ca_norscan_barracks_1_desc;.;;;;;;;;;;;;;x
 ca_norscan_militia_1;Freeman Militia;;;;;;;;;;;;;x
@@ -278,3 +274,31 @@ ca_wall_steppe_q_1;Scouting Outposts;;;;;;;;;;;;;x
 ca_wall_steppe_q_2;Scouting Outposts;;;;;;;;;;;;;x
 ca_wall_steppe_q_3;Scouting Outposts;;;;;;;;;;;;;x
 ca_wall_steppe_q_desc;Tribe keeps a number of scouting parties patrolling their territory looking for the danger.;;;;;;;;;;;;;x
+# Kislevites
+ca_kislevite_barracks_1;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_2;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_3;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_4;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_5;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_6;Kossar Barracks;;;;;;;;;;;;;x
+ca_kislevite_barracks_desc;A Barracks for kossar pulks recruited from nearby stanitsas.;;;;;;;;;;;;;x
+# gospodar style
+ca_gospodar_military;Gospodar Influences;;;;;;;;;;;;;x
+ca_gospodar_military_desc;The neighbouring stanitsas hold ancient traditions of Gospodar tribes and fight from horseback as winged lancers.;;;;;;;;;;;;;x
+ca_kislevite_stable_1;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_2;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_3;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_4;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_5;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_6;Winged Lancers Rally Place;;;;;;;;;;;;;x
+ca_kislevite_stable_desc;The people of the neighbouring stanitsas provides this castle with rotas of winged lancers.;;;;;;;;;;;;;x
+# ungol
+ca_ungol_military;Ungol Influences;;;;;;;;;;;;;x
+ca_ungol_military_desc;The Ungol influences in neighbouring stanitsas are strong. The people here tend to fight in Ungol style as horse archers.;;;;;;;;;;;;;x
+ca_ungol_stable_1;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_2;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_3;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_4;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_5;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_6;Horse Archers Rally Point;;;;;;;;;;;;;x
+ca_ungol_stable_desc;The people of the neighbouring stanitsas hprovides this castle with bands of Horse Archers.;;;;;;;;;;;;;x

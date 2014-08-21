@@ -38,9 +38,6 @@ normangfx = {
 
 # Eastern
 
-easternslavicgfx = {
-	skin_tone = 0
-}
 westernslavicgfx = {
 	skin_tone = 0
 }

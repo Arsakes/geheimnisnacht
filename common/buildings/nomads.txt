@@ -11,7 +11,10 @@
  #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
  #}
  
- # Castle replacements for nomadic people (Hungs, Kurgans)
+# Castle replacements for nomadic people (Hungs, Kurgans)
+#
+#
+#
 castle = {
 	# Steppe Barracks, gives less heavy infantry, no pikemen, but some horsies
 	ca_steppe_barracks_1 = {
@@ -300,7 +303,7 @@ castle = {
 		build_cost = 100
 		build_time = 365
 		tax_income = 1.5
-		light_infantry = 20
+		light_infantry = 30
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.5
@@ -323,7 +326,7 @@ castle = {
 		build_cost = 120
 		build_time = 547
 		tax_income = 1.5
-		light_infantry = 20
+		light_infantry = 30
 		ai_creation_factor = 99
 
 		extra_tech_building_start = 1.0
@@ -346,7 +349,7 @@ castle = {
 		build_cost = 200
 		build_time = 730
 		tax_income = 1.5
-		light_infantry = 20
+		light_infantry = 30
 
 		ai_creation_factor = 98
 
