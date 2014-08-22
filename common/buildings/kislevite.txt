@@ -1,17 +1,9 @@
- # Triggers are in Province scope. The From Scope contains the settlement holder (character)
- # start trigger is in title scope.
- 
- #<tag> = {
- #	desc = description used in the tooltip of the building
- #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
- #	build_cost = cost to build the building
- #	build_time = time to build, in days
- #	
- #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
- #}
- 
- # Castle replacements for semi-nomadic people Ungols Kislevites
+#
+# @author pietrko
+# @version 0.1.1
+# @compatibility 2.1.6
+# @descritpion  Castle replacements for semi-nomadic people Ungols & Kislevites
+#
 castle = {
 	# Stanitsa provide ungol rotas
 	ca_ungol_military = {
@@ -24,7 +16,6 @@ castle = {
 				culture = kyazak
 				culture = kislevite # safe no kislevite at the begining
 			}
-			FROM = { culture_group = kislevite_group }
 			# this building is getting destroyed after province culture changes
 			FROMFROM = {
 				NOT = { has_building = ca_gospodar_military }
@@ -49,8 +40,6 @@ castle = {
 				culture = gospodar
 				culture = kislevite
 			}
-			FROM = { culture_group = kislevite_group }
-
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0 
@@ -68,9 +57,7 @@ castle = {
 	ca_kislevite_barracks_1 = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 		}
 		replaces = ca_barracks_1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -85,9 +72,7 @@ castle = {
 	ca_kislevite_barracks_2 = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 		}
 		replaces = ca_barracks_2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -106,9 +91,9 @@ castle = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
 			culture_group = kislevite_group
-			FROM = {
-				culture_group = kislevite_group
-			}
+			#FROM = {
+			#	culture_group = kislevite_group
+			#}
 		}
 		replaces = ca_barracks_3
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -126,9 +111,6 @@ castle = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
 			culture_group = kislevite_group
-			FROM = {
-				culture_group = kislevite_group
-			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4}
 		prerequisites = { ca_wall_2 }
@@ -144,9 +126,6 @@ castle = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
 			culture_group = kislevite_group
-			FROM = {
-				culture_group = kislevite_group
-			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
 		upgrades_from = ca_kislevite_barracks_4
@@ -161,9 +140,6 @@ castle = {
 		desc = ca_kislevite_barracks_desc
 		potential = {
 			culture_group = kislevite_group
-			FROM = {
-				culture_group = kislevite_group
-			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
 		upgrades_from = ca_kislevite_barracks_5
@@ -179,9 +155,7 @@ castle = {
 	ca_kislevite_stable_1 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		replaces = ca_stable_1
@@ -198,9 +172,7 @@ castle = {
 	ca_kislevite_stable_2 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		replaces = ca_stable_2
@@ -218,9 +190,7 @@ castle = {
 	ca_kislevite_stable_3 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		replaces = ca_stable_3
@@ -238,7 +208,7 @@ castle = {
 	ca_kislevite_stable_4 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		#replaces = ca_stable_4
@@ -255,7 +225,7 @@ castle = {
 	ca_kislevite_stable_5 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		#replaces = ca_stable_5
@@ -272,7 +242,7 @@ castle = {
 	ca_kislevite_stable_6 = {
 		desc = ca_kislevite_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_gospodar_military }
 		}
 		#replaces = ca_stable_6
@@ -290,9 +260,7 @@ castle = {
 	ca_ungol_stable_1 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		replaces = ca_stable_1
@@ -309,9 +277,7 @@ castle = {
 	ca_ungol_stable_2 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		replaces = ca_stable_2
@@ -329,9 +295,7 @@ castle = {
 	ca_ungol_stable_3 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = {
-				culture_group = kislevite_group
-			}
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		replaces = ca_stable_3
@@ -350,7 +314,7 @@ castle = {
 	ca_ungol_stable_4 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		#replaces = ca_stable_4
@@ -367,7 +331,7 @@ castle = {
 	ca_ungol_stable_5 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		#replaces = ca_stable_5
@@ -384,7 +348,7 @@ castle = {
 	ca_ungol_stable_6 = {
 		desc = ca_ungol_stable_desc
 		potential = {
-			FROM = { culture_group = kislevite_group }
+			culture_group = kislevite_group
 			FROMFROM = { has_building = ca_ungol_military }
 		}
 		#replaces = ca_stable_6

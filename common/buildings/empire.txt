@@ -1,0 +1,209 @@
+# 
+# @author Shade, Pietrko
+# @description Imperial buildings additions & replacements
+#
+# Castle
+castle = { 
+	# Imperial Addition State Army building represents 
+	# that imperial army is composed of professional troops
+	# those are capital only buildings for elector counts and 
+	# emperor itself
+	# Elector count Level state troops headquaters
+	ca_imperial_state_1 = {
+		desc = ca_imperial_state_1_desc
+		potential = {
+			culture_group = imperial_group
+			is_capital = yes
+			FROM = { 
+				OR = {	
+					tier = king 
+					tier = emperor
+				}
+				NOT = {	has_landed_title = e_the_empire }
+
+			}
+			FROMFROM = { empire = e_the_empire }
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_imperial_barracks_1 }	
+		#not_if_x_exists = { ca_imperial_free_1 ca_imperial_militia_1 }
+		build_cost = 50
+		build_time = 30
+		land_morale = 0.1
+		retinuesize_perc = 0.5
+		retinuesize = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 3.0		
+	}
+	# Emperor Level state troops headquaters
+	ca_imperial_state_2 = {
+		desc = ca_imperial_state_2_desc
+		potential = {
+			culture_group = imperial_group
+			is_capital = yes
+			FROM = { 
+				has_landed_title = e_the_empire
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_imperial_barracks_1 }	
+		#not_if_x_exists = { ca_imperial_free_1 ca_imperial_militia_1 }
+		replaces = ca_imperial_state_1
+		build_cost = 50
+		build_time = 30
+		land_morale = 0.1
+		retinuesize_perc = 1.0
+		retinuesize = 200
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 3.0		
+	}
+
+
+	# barracks replacement
+	ca_imperial_barracks_1 = {
+		desc = ca_imperial_barracks_1_desc
+		potential = {
+			culture_group = imperial_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_barracks_1
+		build_cost = 50
+		build_time = 30
+		levy_size = 0.1
+		retinuesize = 50
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 0.0		
+	}
+	
+	ca_imperial_barracks_2 = {
+		desc = ca_imperial_barracks_1_desc
+		potential = {
+			culture_group = imperial_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_imperial_barracks_1
+		prerequisites = { ca_wall_1 }
+		replaces = ca_barracks_2
+		build_cost = 100
+		build_time = 365
+		levy_size = 0.1
+		retinuesize = 50
+		ai_creation_factor = 79
+		
+		extra_tech_building_start = 0.5
+	}
+	
+	ca_imperial_barracks_3 = {
+		desc = ca_imperial_barracks_1_desc
+		potential = {
+			culture_group = imperial_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		replaces = ca_barracks_3
+		upgrades_from = ca_imperial_barracks_2
+		build_cost = 150
+		build_time = 365
+		levy_size = 0.1
+		retinuesize = 50
+		ai_creation_factor = 78
+
+		extra_tech_building_start = 3.0		
+	}
+	# those are additional
+	ca_imperial_barracks_4 = {
+		desc = ca_imperial_barracks_1_desc
+		potential = {
+			culture_group = imperial_group
+			#FROM = {
+			#	OR = {
+			#		culture_group = imperial_group
+			#	}
+			#}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_imperial_barracks_3
+		build_cost = 200
+		build_time = 365
+		levy_size = 0.1
+		retinuesize = 50
+		ai_creation_factor = 77
+
+		extra_tech_building_start = 3.0		
+	}
+	
+	ca_imperial_barracks_5 = {
+		desc = ca_imperial_barracks_1_desc
+		potential = {
+			culture_group = imperial_group
+			#FROM = {
+			#	OR = {
+			#		culture_group = imperial_group
+			#	}
+			#}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_imperial_barracks_4
+		build_cost = 250
+		build_time = 365
+		levy_size = 0.1
+		retinuesize = 50
+		ai_creation_factor = 76
+
+		extra_tech_building_start = 3.0		
+	}
+
+        # IMPERIAL NON-STATE TROOPS FOR CASTLES
+        # 
+        # Knightly Orders are mainly nobles who are not state soldiers
+	# therefore the should be treated as levies
+ 	# in case of empire the replace stables
+	# stable replacements (Secular Knightly Orders)
+
+	# Knights + Light cav (squires)
+	ca_imperial_stable_1 = {
+		desc = ca_imperial_stable_1_desc
+		potential = { culture_group = imperial_group }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		replaces = ca_stable_1
+		build_cost = 200
+		build_time = 730
+		knights = 20
+		light_cavalry = 20
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_imperial_stable_2 = {
+		desc = ca_imperial_stable_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		potential = { culture_group = imperial_group }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_imperial_stable_1
+		replaces = ca_stable_2
+		build_cost = 250
+		build_time = 1095
+		knights = 25
+		light_cavalry = 25
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_imperial_stable_3 = {
+		desc = ca_imperial_stable_3_desc
+		potential = { culture_group = imperial_group }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_imperial_stable_2
+		replaces = ca_stable_3
+		build_cost = 300
+		build_time = 2190
+		knights = 30
+		light_cavalry = 30
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+}
