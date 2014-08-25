@@ -1,6 +1,6 @@
 
 kislevite_group = {
-	graphical_culture = westerngfx
+	graphical_culture = easterngfx
 
 	kislevite = {
 		graphical_culture = kislevgfx

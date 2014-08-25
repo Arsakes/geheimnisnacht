@@ -17,17 +17,18 @@ horse_archers = {
 # UI new icons will be ready for new types of soldier
 #
 
-#gunpowder = {
-#       morale = 3
-#       maintenance = 2
-#       phase_skirmish_attack = 3
-#       phase_melee_attack = 5
-#       phase_pursue_attack = 2
-#       phase_skirmish_defense = 4
-#       phase_melee_defense = 4
-#       phase_pursue_defense = 3
-#       base_type = heavy_infantry
-#}
+gunpowder = {
+       morale = 3
+       maintenance = 2
+       phase_skirmish_attack = 2
+       phase_melee_attack = 4
+       phase_pursue_attack = 2
+       phase_skirmish_defense = 4
+       phase_melee_defense = 4
+       phase_pursue_defense = 3
+       base_type = heavy_infantry
+       graphical_culture_type = empiregfx
+}
 
 #monstrous_creatures = {
 #	morale = 5

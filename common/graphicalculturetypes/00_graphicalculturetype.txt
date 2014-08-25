@@ -1,7 +1,10 @@
 # Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
 
-# Western
+# Western #
 
+empiregfx = {
+	skin_tone = 0
+}
 frankishgfx = {
 	skin_tone = 0
 }
@@ -38,6 +41,9 @@ normangfx = {
 
 # Eastern
 
+kislevgfx = {
+	skin_tone = 0
+}
 westernslavicgfx = {
 	skin_tone = 0
 }
@@ -88,15 +94,17 @@ mesoamericangfx = {
 	skin_tone = 1
 }
 
-#Warhammer culture groups
-
+#Warhammer culture groups 
+# bad idea to have it 
+#
 arabyangfx = {
 	skin_tone = 2
 }
 
-oldworldgfx = {
-	skin_tone = 0
-}
+# no you should use westerngfx for oldworld 
+#oldworldgfx = {		
+#	skin_tone = 0
+#}
 
 westerngfx_immortal = {
 	skin_tone = 0
@@ -125,6 +133,4 @@ skavengfx = {
 lizardmangfx = {
 	skin_tone = 1
 }
-kislevgfx = {
-	skin_tone = 0
-}
+

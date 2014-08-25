@@ -1210,14 +1210,38 @@ character_event = {
                     }
                     home = PREV
                 }
-                spawn_unit = { 
-                    province = PREV
-                    owner = ROOT
-                    troops = { 
-                        horse_archers = { 500 500 }
+                if = {
+                    limit = { 
+                        ROOT = { 
+                            culture_group = kurgan_group 
+                            culture_group = kislevite_group
+                        }
                     }
-                    home = PREV
+                    spawn_unit = { 
+                        province = PREV
+                        owner = ROOT
+                        troops = { 
+                            horse_archers = { 500 500 }
+                        }
+                        home = PREV
+                    }
                 }
+                if = {
+                    limit = { 
+                        ROOT = { 
+                            culture_group = imperial_group
+                        }
+                    }
+                    spawn_unit = { 
+                        province = PREV
+                        owner = ROOT
+                        troops = { 
+                            gunpowder = { 500 500 }
+                        }
+                        home = PREV
+                    }
+                }
+
             }
         }
     }

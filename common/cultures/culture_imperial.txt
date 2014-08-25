@@ -3,7 +3,7 @@ imperial_group = {
 	graphical_culture = westerngfx
 
 	averlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 
 		color = { 0.9 0.9 0.1 }
 
@@ -76,7 +76,7 @@ imperial_group = {
 	}
 
 	drakwalder = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	#Thuringian
 
 		color = { 0.3 0.6 0.1 }
@@ -150,7 +150,7 @@ imperial_group = {
 	}
 
 	hochlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 
 		color = { 0.2 0.8 0.1 }
 
@@ -223,7 +223,7 @@ imperial_group = {
 	}
 
 	middenlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 
 		color = { 0.3 0.3 0.9 }
 
@@ -296,7 +296,7 @@ imperial_group = {
 	}
 
 	nordlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 
 		color = { 0.1 0.1 0.6 }
 
@@ -368,7 +368,7 @@ imperial_group = {
 	}
 
 	ostermarker = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 		
 		color = { 0.9 0.3 0.7 }
 
@@ -441,7 +441,7 @@ imperial_group = {
 	}		
 
 	ostlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 0.4 0.6 0.6 }
 
@@ -514,7 +514,7 @@ imperial_group = {
 	}
 
 	reiklander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	#German
 		color = { 0.9 0.9 0.9 }
 
@@ -588,7 +588,7 @@ imperial_group = {
 
 
 	sollander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 0.8 0.7 0.3 }
 
@@ -661,7 +661,7 @@ imperial_group = {
 	}
 
 	stirlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 		#Sachsen
 		
 		color = { 0.6 0.9 0.6 }
@@ -736,7 +736,7 @@ imperial_group = {
 	}
 
 	sylvanian = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 0.5 0.4 0.6 }
 
@@ -809,7 +809,7 @@ imperial_group = {
 	}
 
 	talabeclander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 1.0 0.4 0.5 }
 
@@ -882,7 +882,7 @@ imperial_group = {
 	}
 
 	westerlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 
 		color = { 0.7 0.7 1.0 }
 
@@ -953,7 +953,7 @@ imperial_group = {
 	}
 
 	wissenlander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 0.7 0.7 0.7 }
 
@@ -1027,7 +1027,7 @@ imperial_group = {
 	
 	
 	neueslander = {
-		graphical_culture = westerngfx
+		graphical_culture = empiregfx
 	
 		color = { 0.5 0.7 0.9 }
 
