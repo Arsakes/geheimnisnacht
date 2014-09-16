@@ -49,6 +49,7 @@ namespace = duelengine
 
 # HIDDEN EVENTS FOR MECHANICS 
 #
+# TODO take into consideration that two people can attack the same target
 #
 # for this event FORM = ROOT?
 
@@ -1101,216 +1102,114 @@ character_event = {
     # subcase 1
     option = {
         name = "EVTOPT_DUELENGINE_4A"
+        trigger = { 
+            # 1 or less hp points - alive
+            check_variable = { which = "duel_hp" value = 1 }}
+        }
+
         # Now when dmg is done there is time to send report events
+        set_character_flag = duel_move_combat
         #
         # Both people hit themselves
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            check_variable = { which = "duel_dmg" value = 1 }
-        }
- 
-        set_character_flag = duel_move_combat
-        hidden_tooltip = { character_event = { id = duelengine.20 }}
-        ai_chance = { factor = 1 }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_4B"
-        # Now when dmg is done there is time to send report events
-        #
-        # Both people hit themselves
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            check_variable = { which = "duel_dmg" value = 1 }
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                check_variable = { which = "duel_dmg" value = 1 }
             }
+            hidden_tooltip = { character_event = { id = duelengine.20 }}
         }
-
-        set_character_flag = duel_move_magic_spell
-        hidden_tooltip = { character_event = { id = duelengine.20 }}
-        ai_chance = { factor = 1 }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_4C"
-        # Now when dmg is done there is time to send report events
-        #
-        # Both people hit themselves
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            check_variable = { which = "duel_dmg" value = 1 }
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-        }
-
-        set_character_flag = duel_move_magic_other
-        hidden_tooltip = { character_event = { id = duelengine.20 }}
-        ai_chance = { factor = 1 }
-    }
-    ###################################################################
-    #
-    # CASE 2: VICTORY
-    #
-    option = {
-        name = "EVTOPT_DUELENGINE_4A"
         # You hit your opponent
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-        }
-
-        set_character_flag = duel_move_combat
-        hidden_tooltip = { character_event = { id = duelengine.21 } }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_4B"
-        # You hit your opponent
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
             }
-
+            hidden_tooltip = { character_event = { id = duelengine.21 } }
         }
-
-        set_character_flag = duel_move_magic_spell
-        hidden_tooltip = { character_event = { id = duelengine.21 } }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_4C"
-        # You hit your opponent
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-
-        }
-
-        set_character_flag = duel_move_magic_other
-        hidden_tooltip = { character_event = { id = duelengine.21 } }
-    }
-    #################################################################
-    #
-    # CASE 3: FAILURE
-    #
-    option = {   
-        name = "EVTOPT_DUELENGINE_4A"
         # Your opponent hits you   
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            check_variable = { which = "duel_dmg" value = 1 }
-        }
-
-        set_character_flag = duel_move_combat
-        hidden_tooltip = { character_event = { id = duelengine.22 }}
-        ai_chance = { factor = 1 }
-    }   
-    option = {   
-        name = "EVTOPT_DUELENGINE_4B"
-        # Your opponent hits you   
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            check_variable = { which = "duel_dmg" value = 1 }
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                check_variable = { which = "duel_dmg" value = 1 }
             }
-
+            hidden_tooltip = { character_event = { id = duelengine.22 }}
         }
-
-        set_character_flag = duel_move_magic_spell
-        hidden_tooltip = { character_event = { id = duelengine.22 }}
-        ai_chance = { factor = 1 }
-    }   
-    option = {   
-        name = "EVTOPT_DUELENGINE_4C"
-        # Your opponent hits you   
-        trigger = { 
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            check_variable = { which = "duel_dmg" value = 1 }
-            OR = { 
-                trait = magic_power_adept
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-
-        }
-
-        set_character_flag = duel_move_magic_other
-        hidden_tooltip = { character_event = { id = duelengine.22 }}
-        ai_chance = { factor = 1 }
-    }   
-    ###################################################################
-    # 
-    # CASE 4: WHITE DRAW
-    #
-    option = {
-        name = "EVTOPT_DUELENGINE_4A"
         # Nobody hits
-        trigger = {
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        if = {
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            hidden_tooltip = { character_event = { id = duelengine.23 }}
         }
 
-        set_character_flag = duel_move_combat
-        hidden_tooltip = { character_event = { id = duelengine.23 }}
         ai_chance = { factor = 1 }
     }
     option = {
         name = "EVTOPT_DUELENGINE_4B"
-        # Nobody hits
-        trigger = {
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        # Now when dmg is done there is time to send report events
+        #
+        # Both people hit themselves
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }}
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
                 trait = magic_power_lord
                 trait = magic_power_archmaster
             }
-
+        }
+        set_character_flag = duel_move_magic_spell
+        # Both people hit themselves
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            hidden_tooltip = { character_event = { id = duelengine.20 }}
+        }
+        # You hit your opponent
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            hidden_tooltip = { character_event = { id = duelengine.21 } }
+        }
+        # Your opponent hits you   
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            hidden_tooltip = { character_event = { id = duelengine.22 }}
+        }
+        # Nobody hits
+        if = {
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            hidden_tooltip = { character_event = { id = duelengine.23 }}
         }
 
-        set_character_flag = duel_move_magic_spell
-        hidden_tooltip = { character_event = { id = duelengine.23 }}
         ai_chance = { factor = 1 }
     }
     option = {
         name = "EVTOPT_DUELENGINE_4C"
-        # channeling, counterspell
-        trigger = {
-            check_variable = { which = "duel_hp" value = 1 }
-            NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-            NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+        # Now when dmg is done there is time to send report events
+        #
+        # Both people hit themselves
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }}
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
@@ -1318,11 +1217,44 @@ character_event = {
                 trait = magic_power_archmaster
             }
         }
-
         set_character_flag = duel_move_magic_other
-        hidden_tooltip = { character_event = { id = duelengine.23 }}
+        # Both people hit themselves
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            hidden_tooltip = { character_event = { id = duelengine.20 }}
+        }
+        # You hit your opponent
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            hidden_tooltip = { character_event = { id = duelengine.21 } }
+        }
+        # Your opponent hits you   
+        if = { 
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            hidden_tooltip = { character_event = { id = duelengine.22 }}
+        }
+        # Nobody hits
+        if = {
+            limit = {
+                check_variable = { which = "duel_hp" value = 1 }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            hidden_tooltip = { character_event = { id = duelengine.23 }}
+        }
         ai_chance = { factor = 1 }
-
     }
     # END OF THIS FUCKING BIG EVENT
 }
