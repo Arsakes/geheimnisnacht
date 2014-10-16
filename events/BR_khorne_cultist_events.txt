@@ -1,0 +1,112 @@
+namespace = khornecultist
+
+#Cultist Menu - Khorne#
+character_event = {
+id = khornecultist.1
+    desc = "Your Lord demands that you do his bidding. What shall you attempt to do for him? With each task, you need to wait 1000 days for another, so as to not arouse suspicion." 
+    picture = "GFX_evt_khorne"
+    min_age = 16
+    capable_only = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "I will donate to our cult's coffers."
+	trigger = { wealth = 100 }
+	random_playable_ruler = { 
+	limit = { has_character_flag = hidden_khorne_cultist3 }
+	wealth = 100
+	character_event = { id = khornecultist.3 }
+	}
+	wealth = -100
+	change_variable = { which = khornefavor value = 2 }  
+	character_event = { id = khornecultist.2 days = 1000 }	
+	299 = {  change_variable = { which = khornecultpower value = 1 } }
+	}
+	
+	option = { 
+	name = "Show more choices / Close Menu"
+	}
+	
+	}
+	
+character_event = {
+id = khornecultist.2
+    desc = "It has been some time since your last task for Khorne. It should be safe to actively serve him once more, without arousing too much suspicion..." 
+    picture = "GFX_evt_khorne"
+    min_age = 16
+    capable_only = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Excellent...."
+	clr_character_flag = cultist_cooldown
+	}
+	
+	}
+
+	#a random playable ruler that is level 3 cultist gets the donation#
+character_event = {
+id = khornecultist.3
+    desc = "A fellow cultist has donated some money to you - a high level member. Use it to further the glory of our Lord!" 
+    picture = "GFX_evt_khorne"
+    min_age = 16
+    capable_only = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Excellent."
+	}
+	
+	}
+	
+##Now for the events where you get promoted inside the cult##
+character_event = {
+id = khornecultist.4
+    desc = "You have advanced in favor, and are now considered a mid-level cultist. Congratulations!" 
+    picture = "GFX_evt_khorne"
+    min_age = 16
+    capable_only = yes
+	
+	trigger = {
+	check_variable = { which = khornefavor value = 10 }
+	NOT = { has_character_flag = hidden_cultist_khorne2 }
+	}
+	
+	mean_time_to_happen = {
+	days = 30
+	}
+	
+	option = {
+	name = "I live to serve."
+	clr_character_flag = hidden_cultist_khorne
+	set_character_flag = hidden_cultist_khorne2
+	}
+	
+	}
+	
+character_event = {
+id = khornecultist.5
+    desc = "You have advanced in favor, and are now considered a high-level cultist. Congratulations!" 
+    picture = "GFX_evt_khorne"
+    min_age = 16
+    capable_only = yes
+	
+	trigger = {
+	check_variable = { which = khornefavor value = 20 }
+	NOT = { has_character_flag = hidden_cultist_khorne3 }
+	}
+	
+	mean_time_to_happen = {
+	days = 30
+	}
+	
+	option = {
+	name = "I live to serve."
+	clr_character_flag = hidden_cultist_khorne2
+	set_character_flag = hidden_cultist_khorne3
+	}
+	
+	}

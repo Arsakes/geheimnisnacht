@@ -1,9 +1,9 @@
 
 druchi_group = {
-	graphical_culture = westerngfx
+	graphical_culture = elfgfx
 
 	naggarondi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -71,7 +71,7 @@ druchi_group = {
 	}
 
 	ghrondari = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -139,7 +139,7 @@ druchi_group = {
 	}	
 
 	elthrai = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -207,7 +207,7 @@ druchi_group = {
 	}
 
 	ganethi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -275,7 +275,7 @@ druchi_group = {
 	}
 	
 	khlari = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -343,7 +343,7 @@ druchi_group = {
 	}
 
 	kynthi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 

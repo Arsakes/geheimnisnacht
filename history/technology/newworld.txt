@@ -1,0 +1,120 @@
+#Lustria
+
+technology = {
+	titles = {
+		d_mazur
+		d_dtella
+		d_typhlos
+		d_dorado
+	}
+
+	769 = {
+		military = 0.5
+		economy = 0.5
+		culture = 0.5
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+
+#Naggaroth & Ulthuan
+
+technology = {
+	titles = {
+		d_lothern
+		d_shimmersward
+		d_asuryan_march
+		d_saroth
+		d_angerrial
+		d_dragonwake
+		d_caladai
+		d_caelandriol
+		d_anroc
+		d_tiranoc
+		d_senlathain
+		d_elyr
+		d_unicorn_gate
+		d_griffon_gate
+		d_eagle_gate
+		d_highvale
+		d_reavers_mark
+		d_arsuai
+		d_anlec
+		d_shadowmarch
+		d_isle_of_blight
+		d_the_isles
+		d_sundered_strand
+		d_thanon
+		d_cairnmoor
+		d_finu
+		d_chrace
+		d_blackswale
+		d_ceyl
+		d_laurefalas
+		d_gaen_vale
+		d_evershore
+		d_avelorn_march
+		d_ithilin
+		d_everwood
+		d_dragon_gate
+		d_phoenix_gate
+		d_yvraine
+		d_taeland
+		d_tamarha
+		d_aestuniae
+		d_shifting_isles
+		d_drake_isles
+		d_naggarond
+		d_ruath
+		d_bleak_coast
+		d_sombrum
+		d_atarwoud
+		d_kharaam
+		d_sulphas
+		d_clar_karond
+		d_khali
+		d_charix
+		d_sylus
+		d_verix
+		d_gorghast
+		d_hag_graef
+		d_nagorum
+		d_huramarch
+		d_kaliath
+		d_xunos
+		d_nuin
+		d_har_ganeth
+		d_felrime
+		d_khorthar
+		d_ghrond
+		d_ghrondaar_march
+		d_sarthyk_rift
+		d_zardoz
+		d_karond_kar
+		d_iros
+		d_black_sisters
+		d_arnheim
+		d_coetic_strand
+		d_arnheim_forest
+		d_ashfall
+		d_ashen_vale
+		d_cython_march
+		d_hinterland
+	}
+
+	769 = {
+		military = 0.5
+		economy = 0.5
+		culture = 0.5
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

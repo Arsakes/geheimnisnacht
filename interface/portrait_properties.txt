@@ -1198,6 +1198,7 @@
 				spouse = { tier = emperor }
 				spouse = { tier = king }
 				spouse = { tier = duke }
+				culture_group = druchi_group
 			}
 		}
 	}
@@ -1217,6 +1218,7 @@
 				is_theocracy = no
 			}
 			NOT = { has_job_title  = job_spiritual }
+			culture_group = druchi_group
 		}
 		modifier = {
 			factor = 0
@@ -1270,6 +1272,7 @@
 				is_theocracy = no
 			}
 			NOT = { has_job_title  = job_spiritual }
+			culture_group = druchi_group
 		}
 	}
 	

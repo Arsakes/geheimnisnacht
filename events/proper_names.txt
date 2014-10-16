@@ -1,0 +1,31 @@
+namespace = propername
+#Example event
+character_event = {
+    id = propername.0
+	title = EVTNAME62930
+	desc = EVTDESC62930
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_averland
+		NOT = { dynasty = 25061 } # Karling dynasty
+		NOT = { has_global_flag = west_francia_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62930
+		k_averland = {
+			title_prefix = "ARCHDUCHY_OF"
+			title = "ARCHDUCHY"
+			foa = "ARCHDUKE"
+		}
+	}
+}

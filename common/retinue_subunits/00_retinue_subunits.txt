@@ -10,9 +10,9 @@
 RETTYPE_CUL_IMP =
 {
 	first_type = 1
-	first_amount = 100
+	first_amount = 250
 	second_type = 2
-	second_amount = 100
+	second_amount = 250
 	
 	potential = {
 		culture_group = imperial_group
@@ -27,9 +27,9 @@ RETTYPE_CUL_IMP =
 RETTYPE_CUL_IMP2 =
 {
 	first_type = 0
-	first_amount = 100
+	first_amount = 250
 	second_type = 5
-	second_amount = 100
+	second_amount = 250
 	potential = {
 	 	culture_group = imperial_group
 	}
@@ -43,9 +43,9 @@ RETTYPE_CUL_IMP2 =
 RETTYPE_CUL_BRET =
 {
 	first_type = 1
-	first_amount = 100
+	first_amount = 250
 	second_type = 2
-	second_amount = 100
+	second_amount = 250
 	
 	potential = {
 		culture_group = bretonnian_group
@@ -59,9 +59,9 @@ RETTYPE_CUL_BRET =
 RETTYPE_CUL_BRET2 =
 {
 	first_type = 0
-	first_amount = 100
+	first_amount = 250
 	second_type = 5
-	second_amount = 100
+	second_amount = 250
 	
 	
 	potential = {
@@ -70,5 +70,40 @@ RETTYPE_CUL_BRET2 =
 	modifier = {
 		archers_defensive = 0.4
 		light_infantry_defensive = 0.2
+	}
+}
+
+RETTYPE_CUL_KISLEV1 =
+{
+	first_type = 0
+	first_amount = 250
+	second_type = 5
+	second_amount = 250
+	
+	
+	potential = {
+		culture_group = kislevite_group
+	}
+	modifier = {
+		archers_defensive = 0.4
+		light_infantry_defensive = 0.2
+		light_infantry_offensive = 0.2
+	}
+}
+
+RETTYPE_CUL_KISLEV2 =
+{
+	first_type = 1
+	first_amount = 100
+	second_type = 2
+	second_amount = 400
+	
+	
+	potential = {
+		culture_group = kislevite_group
+	}
+	modifier = {
+                heavy_infantry_defensive = 0.2
+                pikeman_offensive = 0.2
 	}
 }

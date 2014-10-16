@@ -1,0 +1,365 @@
+#
+# @author pietrko
+# @version 0.1.1
+# @compatibility 2.1.6
+# @descritpion  Castle replacements for semi-nomadic people Ungols & Kislevites
+#
+castle = {
+	# Stanitsa provide ungol rotas
+	ca_ungol_military = {
+		desc = ca_ungol_military_desc
+		potential = {
+			#culture_group = kislevite_group	
+			OR = {
+				culture = ungol
+				culture = ropsmann
+				culture = kyazak
+				culture = kislevite # safe no kislevite at the begining
+			}
+			# this building is getting destroyed after province culture changes
+			FROMFROM = {
+				NOT = { has_building = ca_gospodar_military }
+			}
+
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+		}
+		not_if_x_exists = { ca_gospodar_military }
+		build_cost = 50
+		build_time = 30 #FIXME
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0
+	}
+	# Stanitsa provide gospodar rotas
+	ca_gospodar_military = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			OR = {
+				culture = gospodar
+				culture = kislevite
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+		}
+		not_if_x_exists = { ca_ungol_military }
+		build_cost = 50
+		build_time = 30 #FIXME
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0
+	}
+
+
+	# Kislevite Barracks, gives Kossars : archer/light infantary mix, and retinue pool for kossars
+	ca_kislevite_barracks_1 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+		}
+		replaces = ca_barracks_1
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		build_cost = 100
+		build_time = 365
+		light_infantry = 40
+		archers = 40
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_kislevite_barracks_2 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+		}
+		replaces = ca_barracks_2
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_kislevite_barracks_1
+		build_cost = 120
+		build_time = 547
+		light_infantry = 10
+		archers = 10
+ 		retinuesize = 20
+		ai_creation_factor = 90
+		
+		extra_tech_building_start = 1.8
+	}
+	ca_kislevite_barracks_3 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+			#FROM = {
+			#	culture_group = kislevite_group
+			#}
+		}
+		replaces = ca_barracks_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_kislevite_barracks_2
+		build_cost = 200
+		build_time = 730
+ 		retinuesize = 40
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 3.0
+	}
+	# Kislev culture specific
+	ca_kislevite_barracks_4 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4}
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_kislevite_barracks_3
+		build_cost = 300
+		build_time = 1095
+ 		retinuesize = 40
+		ai_creation_factor = 82
+
+		extra_tech_building_start = 6.0
+	}
+	ca_kislevite_barracks_5 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_kislevite_barracks_4
+		build_cost = 400
+		build_time = 1460
+ 		retinuesize = 40
+		ai_creation_factor = 78
+
+		extra_tech_building_start = 8.0
+	}
+	ca_kislevite_barracks_6 = {
+		desc = ca_kislevite_barracks_desc
+		potential = {
+			culture_group = kislevite_group
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_kislevite_barracks_5
+		build_cost = 500
+		build_time = 2190
+ 		retinuesize = 40
+		ai_creation_factor = 75
+
+		extra_tech_building_start = 10.0
+	}
+	
+	#Gospodar Stable, gives light cavalry and heavy cavalry
+	ca_kislevite_stable_1 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		replaces = ca_stable_1
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_gospodar_military }
+		build_cost = 100
+		build_time = 365
+		light_cavalry = 25
+		knights = 10
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_kislevite_stable_2 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		replaces = ca_stable_2
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_kislevite_stable_1
+		build_cost = 120
+		build_time = 547
+		light_cavalry = 25
+		knights = 15
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_kislevite_stable_3 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		replaces = ca_stable_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_kislevite_stable_2
+		build_cost = 200
+		build_time = 730
+		light_cavalry = 30
+		knights = 20
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+	ca_kislevite_stable_4 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		#replaces = ca_stable_4
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_kislevite_stable_3
+		build_cost = 300
+		build_time = 1095
+		light_cavalry = 35
+		knights = 20
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_kislevite_stable_5 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		#replaces = ca_stable_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_kislevite_stable_4
+		build_cost = 400
+		build_time = 2190
+		light_cavalry = 35
+		knights = 25
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_kislevite_stable_6 = {
+		desc = ca_kislevite_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_gospodar_military }
+		}
+		#replaces = ca_stable_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_kislevite_stable_5
+		build_cost = 500
+		build_time = 2190
+		light_cavalry = 35
+		knights = 35
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	# ungol stables
+	ca_ungol_stable_1 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		replaces = ca_stable_1
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_ungol_military }
+		build_cost = 100
+		build_time = 365
+		light_cavalry = 30
+		horse_archers = 15
+		ai_creation_factor = 89
+		
+		extra_tech_building_start = 0.4
+	}
+	ca_ungol_stable_2 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		replaces = ca_stable_2
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_ungol_stable_1
+		build_cost = 120
+		build_time = 547
+		light_cavalry = 30
+		horse_archers = 20
+		ai_creation_factor = 88
+
+		extra_tech_building_start = 0.8
+	}
+	ca_ungol_stable_3 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		replaces = ca_stable_3
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		prerequisites = { ca_wall_2 }
+		upgrades_from = ca_ungol_stable_2
+		build_cost = 200
+		build_time = 730
+		light_cavalry = 35
+		horse_archers = 25
+		ai_creation_factor = 87
+
+		extra_tech_building_start = 0.2
+	}
+
+	ca_ungol_stable_4 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		#replaces = ca_stable_4
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_ungol_stable_3
+		build_cost = 300
+		build_time = 1095
+		light_cavalry = 40
+		horse_archers = 25
+		ai_creation_factor = 86
+
+		extra_tech_building_start = 0.2
+	}
+	ca_ungol_stable_5 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		#replaces = ca_stable_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_ungol_stable_4
+		build_cost = 400
+		build_time = 2190
+		light_cavalry = 45
+		horse_archers = 30
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+	ca_ungol_stable_6 = {
+		desc = ca_ungol_stable_desc
+		potential = {
+			culture_group = kislevite_group
+			FROMFROM = { has_building = ca_ungol_military }
+		}
+		#replaces = ca_stable_6
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_ungol_stable_5
+		build_cost = 500
+		build_time = 2190
+		light_cavalry = 45
+		horse_archers = 35
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 0.2
+	}
+}

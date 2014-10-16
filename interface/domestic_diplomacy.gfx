@@ -24,6 +24,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_marriage_claims_icon"
+		texturefile = "gfx\\interface\\has_claim_icon.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
 		name = "GFX_diplo_chance_bg"
 		texturefile = "gfx\\interface\\diplo_chance_bg.dds"
 	}

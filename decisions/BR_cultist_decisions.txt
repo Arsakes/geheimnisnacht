@@ -1,0 +1,153 @@
+decisions = {
+
+"Serve Nurgle" = {
+is_high_prio = yes
+
+potential = {
+AND = {
+age = 16
+OR = {
+has_character_flag = hidden_cultist_nurgle
+has_character_flag = hidden_cultist_nurgle2
+has_character_flag = hidden_cultist_nurgle3
+}
+}
+}
+
+allow = {
+AND = {
+age = 16
+wealth = 100
+NOT = { has_character_flag = cultist_cooldown }
+OR = {
+has_character_flag = hidden_cultist_nurgle
+has_character_flag = hidden_cultist_nurgle2
+has_character_flag = hidden_cultist_nurgle3
+}
+}
+}
+
+effect = {
+ROOT = { character_event = { id = nurglecultist.1 } }
+		}
+		
+	ai_will_do = {
+	factor = 1
+	}
+	
+	}
+	
+"Serve Slaanesh" = {
+is_high_prio = yes
+
+potential = {
+AND = {
+age = 16
+OR = {
+has_character_flag = hidden_cultist_slaanesh
+has_character_flag = hidden_cultist_slaanesh2
+has_character_flag = hidden_cultist_slaanesh3
+}
+}
+}
+
+allow = {
+AND = {
+age = 16
+wealth = 100
+NOT = { has_character_flag = cultist_cooldown }
+OR = {
+has_character_flag = hidden_cultist_slaanesh
+has_character_flag = hidden_cultist_slaanesh2
+has_character_flag = hidden_cultist_slaanesh3
+}
+}
+}
+
+effect = {
+ROOT = { character_event = { id = slaaneshcultist.1 } }
+		}
+		
+	ai_will_do = {
+	factor = 1
+	}
+	
+	}
+	
+"Serve Khorne" = {
+is_high_prio = yes
+
+potential = {
+AND = {
+age = 16
+OR = {
+has_character_flag = hidden_cultist_khorne
+has_character_flag = hidden_cultist_khorne2
+has_character_flag = hidden_cultist_khorne3
+}
+}
+}
+
+allow = {
+AND = {
+age = 16
+wealth = 100
+NOT = { has_character_flag = cultist_cooldown }
+OR = {
+has_character_flag = hidden_cultistkhorne
+has_character_flag = hidden_cultist_khorne2
+has_character_flag = hidden_cultist_khorne3
+}
+}
+}
+
+effect = {
+ROOT = { character_event = { id = khornecultist.1 } }
+		}
+		
+	ai_will_do = {
+	factor = 1
+	}
+	
+	}
+	
+"Serve Tzeentch" = {
+is_high_prio = yes
+
+potential = {
+AND = {
+age = 16
+OR = {
+has_character_flag = hidden_cultist_tzeentch
+has_character_flag = hidden_cultist_tzeentch2
+has_character_flag = hidden_cultist_tzeentch3
+}
+}
+}
+
+allow = {
+AND = {
+age = 16
+wealth = 100
+NOT = { has_character_flag = cultist_cooldown }
+OR = {
+has_character_flag = hidden_cultisttzeentch
+has_character_flag = hidden_cultist_tzeentch2
+has_character_flag = hidden_cultist_tzeentch3
+}
+}
+}
+
+effect = {
+ROOT = { character_event = { id = tzeentchcultist.1 } }
+		}
+		
+	ai_will_do = {
+	factor = 1
+	}
+	
+	}
+	
+	}
+	
+	

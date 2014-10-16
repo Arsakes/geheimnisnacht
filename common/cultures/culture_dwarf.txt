@@ -1,8 +1,8 @@
 dwarf_group = {
-	graphical_culture = westerngfx
+	graphical_culture = dwarfgfx
 
 	dwarf_main = {
-		graphical_culture = westerngfx
+		graphical_culture = dwarfgfx
 		
 		color = { 0.6 0.3 0.4 }
 
@@ -73,7 +73,7 @@ dwarf_group = {
 	}
 	
 	dwarf_norse = {
-		graphical_culture = westerngfx
+		graphical_culture = dwarfgfx
 		
 		color = { 0.8 0.8 1.0 }
 
@@ -135,7 +135,7 @@ dwarf_group = {
 	}
 	
 	dwarf_imperial = {
-		graphical_culture = westerngfx
+		graphical_culture = dwarfgfx
 		
 		color = { 0.8 0.8 0.8 }
 
