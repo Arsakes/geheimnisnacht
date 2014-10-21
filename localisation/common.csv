@@ -105,8 +105,8 @@ green_pox;the Green Pox;;;;;;;;;;;;;x
 GREEN_POX_INFO;There is an epidemic of the Green Pox in this place;;;;;;;;;;;;;x
 # EVENT MODIFIERS
 # duel
-battlafield_fight;Fight on the Battlefield;;;;;;;;;;;;;x
-battlafield_fight_desc;This character recently fought on a battlefield.;;;;;;;;;;;;;x
+battlefield_fight;Fight on the Battlefield;;;;;;;;;;;;;x
+battlefield_fight_desc;This character recently fought on a battlefield.;;;;;;;;;;;;;x
 # magic ones
 spell_inspiration;Inspiration;;;;;;;;;;;;;x
 spell_inspiration_desc;The luminous power of Hysh filled this character with wisdom.;;;;;;;;;;;;;x

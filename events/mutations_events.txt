@@ -20,6 +20,7 @@
 # 6.Possession [possession_engine]
 #
 #
+# TODO fix this chain with validator !
 # 1- hidden governing events
 # 2-19: mutation
 #
@@ -96,9 +97,9 @@ character_event = {
         modifier = {
             factor = 0.7
             OR = {
-                trait =  mutation_minor
-                trait =  mutation_massive
-                trait =  mutation_major
+                trait = mutation_minor
+                trait = mutation_major
+                trait = mutation_massive
             }
         }
         
@@ -150,9 +151,7 @@ character_event = {
         # to be done in empire only Sylvany gets modifer
         modifier = {
             factor = 0.5
-            OR = {
-                location = { kingdom = k_sylvania }
-            }   
+            location = { kingdom = k_sylvania }
         }
     }
     # trigger an actual mutation event depending on 

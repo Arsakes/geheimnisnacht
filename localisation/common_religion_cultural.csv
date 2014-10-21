@@ -188,6 +188,7 @@ norse;Norse;;;;;;;;;;;;;x
 norse_group;Norse;;;;;;;;;;;;;x
 sigmarite;Sigmarite;;;;;;;;;;;;;x
 northern_gods;Northern;;;;;;;;;;;;;x
+ursun;Kislev Gods;;;;;;;;;;;;;x
 ulrican;Ulrican;;;;;;;;;;;;;x
 taalite;Taalite;;;;;;;;;;;;;x
 classical_gods;Myrmidian;;;;;;;;;;;;;x
@@ -1552,7 +1553,7 @@ job_spiritual_hung_group;Shaman;;;;;;;;;;;;;x;
 # DESCRIPTIONS 
 elder_gods_DESC;The Elder Gods are a loose collection of related deities commonly worshipped in the Empire. They are typically more wild and less friendly than their southern counterparts, an attitude required in the dangerous and uncivilised north. The most powerful and militant cult is the Cult of Ulric, headed by the Ar-Ulric residing in Middenheim. The Ar-Ulric holds an Imperial Elector seat, and typically supports the election of Emperors from Middenland and Talabecland.;;;;;;;;;;;;;x;
 sigmarite_DESC;The Cult of Sigmar is one of the newer additions to the pantheons of the Old World, but is one of the most influential. After Emperor Sigmar's departure to the east, he was deified and became the patron and protector of the Empire. The Sigmarite faith has an ancient alliance with the Dwarfs, and is on reasonably good terms with most other Old World cults. The Grand Theogonist holds enormous power, and with the Arch-Lectors of Talabheim and Nuln holds three of the traditional Imperial Elector seats.;;;;;;;;;;;;;x;
-northern_gods_DESC;The Northern Gods are a group of gods favoured by the residents of Kislev. The land is subject to Chaos incursions, deadly winters and savage raiders, requiring equally fierce gods. The cults of this region are decentralised and have no real reach.;;;;;;;;;;;;;x;
+ursun_DESC;The Kislev Gods are a group of gods favoured by the residents of Kislev. The land is subject to Chaos incursions, deadly winters and savage raiders, requiring equally fierce gods. The cults of this region are decentralised and have no real reach.;;;;;;;;;;;;;x;
 classical_gods_DESC;The Classical Gods are an ancient pantheon of deities that are most popular in the south of the Old World. The states of Tilea and Estalia are particularly beholden to the Cult of Myrmidia, which is based in Magritta. The city of Remas contests this and claims to be the true center of the faith.;;;;;;;;;;;;;x;
 lady_of_the_lake_DESC;The Lady of the Lake is the patron of Bretonnia and chivalry. The Knights who follow the faith strive to embody the righteous virtues of their legendary forebears, while those outside the nobility are forbidden to pray or worship in her name. The peasants and burghers instead follow the gods widely found throughout the Old World.;;;;;;;;;;;;;x;
 manannite_DESC;The Manannites are sailors, traders, pirates and raiders. As they spend their lives on the waves, the worship of Manann, god of the oceans and great rivers, takes the greatest priority. This separation from the rest of the world tends to breed outlaws and renegades, so piracy can become a problem in lawless, isolated regions.;;;;;;;;;;;;;x;
