@@ -1,9 +1,9 @@
 
 asur_group = {
-	graphical_culture = westerngfx
+	graphical_culture = elfgfx
 
 	yvressi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -69,7 +69,7 @@ asur_group = {
 		modifier = default_culture_modifier
 	}
 	sapherian = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -135,7 +135,7 @@ asur_group = {
 	}
 	
 	ellyrian = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -201,7 +201,7 @@ asur_group = {
 	}
 	
 	tiranoci = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -267,7 +267,7 @@ asur_group = {
 	}
 			
 	cothiq = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -333,7 +333,7 @@ asur_group = {
 	}
 				
 	eataini = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -400,7 +400,7 @@ asur_group = {
 	
 	
 	nagarythi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -467,7 +467,7 @@ asur_group = {
 	
 
 	chracian = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -534,7 +534,7 @@ asur_group = {
 
 	
 	avelorni = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 
@@ -600,7 +600,7 @@ asur_group = {
 	}
 	
 	asthoi = {
-		graphical_culture = westerngfx
+		graphical_culture = elfgfx
 
 		color = { 1.0 0.4 0.1 }
 

@@ -1,0 +1,1658 @@
+
+	k_zanbaijin = {
+		color = { 105 104 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 405 #Zanbaijin
+	
+		d_zanbaijin = {
+			color = { 110 121 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 405 #Zanbaijin
+			
+			c_zanbaijin = {
+				color = { 137 140 153 }
+				color2 = { 255 255 255 }
+				
+				b_zanbaijin = {
+				}
+				b_radulovtsi = {
+				}
+				b_kolonii = {
+				}
+				b_shuraab = {
+				}
+				b_cynagoth = {
+				}
+				b_iqatha = {
+				}
+				b_gabra = {
+				}
+			}
+			
+			c_nyarammog = {
+				color = { 122 163 177 }
+				color2 = { 255 255 255 }
+				
+				b_nyarammog = {
+				}
+				b_gaim_bol = {
+				}
+				b_tsaragg = {
+				}
+				b_zoth = {
+				}
+				b_krali = {
+				}
+				b_wyrdz = {
+				}
+			}
+			
+			c_kathuul = {
+				color = { 176 134 73 }
+				color2 = { 255 255 255 }
+				
+				b_kathuul = {
+				}
+				b_levski = {
+				}
+				b_ghatoraz = {
+				}
+				b_nurgathar = {
+				}
+				b_saraya = {
+				}
+				b_zalgu = {
+				}
+			}
+
+			c_sarog = {
+				color = { 127 110 113 }
+				color2 = { 255 255 255 }
+				
+				b_sarog = {
+				}
+				b_rakaska = {
+				}
+				b_leskovdol = {
+				}
+				b_largor = {
+				}
+				b_vakarel = {
+				}
+				b_paloc = {
+				}
+			}
+			
+			c_azkaroth = {
+				color = { 89 115 100 }
+				color2 = { 255 255 255 }
+				
+				b_azkaroth = {
+				}
+				b_kummen = {
+				}
+				b_dagron = {
+				}
+				b_hydarox = {
+				}
+				b_karphoom = {
+				}
+				b_logsber = {
+				}
+			}
+		}
+	}
+	
+	k_araz = {
+		color = { 225 194 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 409 #Dragoynovo
+		
+		d_altaya = {
+			color = { 210 181 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 408 #Skutare
+			
+			c_skutare = {
+				color = { 197 150 83 }
+				color2 = { 255 255 255 }
+				
+				b_skutare = {
+				}
+				b_krumovo = {
+				}
+				b_iskra = {
+				}
+			}
+			
+			c_arda = {
+				color = { 157 110 13 }
+				color2 = { 255 255 255 }
+				
+				b_varvara = {
+				}
+				b_chuchur = {
+				}
+				b_kasak = {
+				}
+			}
+			
+			c_qernildom = {
+				color = { 135 16 53 }
+				color2 = { 255 255 255 }
+				
+				b_werenthal = {
+				}
+				b_octulthal = {
+				}
+			}			
+			
+			c_zetisu = {
+				color = { 113 70 95 }
+				color2 = { 255 255 255 }
+				
+				b_permin = {
+				}
+				b_mikil = {
+				}
+				b_skorul = {
+				}
+			}			
+		}
+
+		d_potchesh = {
+			color = { 240 191 190 }
+			color2 = { 255 255 255 }
+			
+			capital = 409 #Dragoynovo
+			
+			c_dragoynovo = {
+				color = { 227 160 203 }
+				color2 = { 255 255 255 }
+				
+				b_dragoynovo = {
+				}
+				b_hrabrino = {
+				}
+				b_byala_reka = {
+				}
+				b_ignatievo = {
+				}
+			}		
+			
+			c_graf = {
+				color = { 187 120 113 }
+				color2 = { 255 255 255 }
+				
+				b_graf = {
+				}
+				b_opan = {
+				}
+				b_kovachevo = {
+				}
+			}
+			
+			c_overjul = {
+				color = { 247 130 203 }
+				color2 = { 255 255 255 }
+				
+				b_juntum = {
+				}
+				b_horakil = {
+				}
+			}
+		}
+		
+		d_kurlun = {
+			color = { 190 101 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 401 #Mokrishte
+			
+			c_panitsovo = {
+				color = { 157 89 93 }
+				color2 = { 255 255 255 }
+				
+				b_ravda = {
+				}
+				b_orizare = {
+				}
+				b_lozenets = {
+				}
+				b_sigmen = {
+				}
+			}		
+			
+			c_mokrishte = {
+				color = { 198 120 73 }
+				color2 = { 255 255 255 }
+				
+				b_ruen = {
+				}
+				b_rezovo = {
+				}
+				b_debelte = {
+				}
+				b_gyulyovtsa = {
+				}
+			}
+			
+			c_dragotintsi = {
+				color = { 197 150 123 }
+				color2 = { 255 255 255 }
+				
+				b_popintsi = {
+				}
+				b_han = {
+				}
+				b_beledie = {
+				}
+			}
+			
+			c_izvor = {
+				color = { 192 110 170 }
+				color2 = { 255 255 255 }
+				
+				b_izvor = {
+				}
+				b_karlievo = {
+				}
+			}
+		}
+		
+		d_svarg = {
+			color = { 190 141 140 }
+			color2 = { 255 255 255 }
+			
+			capital = 407 #Delyan
+			
+			c_delyan = {
+				color = { 197 100 23 }
+				color2 = { 255 255 255 }
+				
+				b_rakovskova = {
+				}
+				b_bahalin = {
+				}
+			}
+			
+			c_chavdar = {
+				color = { 167 20 83 }
+				color2 = { 255 255 255 }
+				
+				b_chavdar = {
+				}
+				b_gorna_malina = {
+				}
+				b_golema = {
+				}
+			}
+		}
+	}
+
+	
+	k_onoq = {
+		color = { 35 122 17 }
+		color2 = { 255 255 255 }
+	
+		capital = 1183 #Oluod
+		
+		d_qagran = {
+			color = { 21 142 62 }
+			color2 = { 255 255 255 }
+			
+			capital = 1183 #Oluod
+			
+			c_oluod = {
+				color = { 52 153 32 }
+				color2 = { 255 255 255 }
+				
+				b_oluod = {
+				}
+				b_tanga = {
+				}
+			}
+			
+			c_frunz = {
+				color = { 27 119 56 }
+				color2 = { 255 255 255 }
+				
+				b_frunz = {
+				}
+			}
+			
+			c_pishpek = {
+				color = { 65 169 71 }
+				color2 = { 255 255 255 }
+				
+				b_pishpek = {
+				}
+			}			
+		}
+
+		d_uruma = {
+			color = { 15 111 22 }
+			color2 = { 255 255 255 }
+			
+			capital = 1177 #Askola
+			
+			c_askola = {
+				color = { 10 76 31 }
+				color2 = { 255 255 255 }
+				
+				b_askola = {
+				}
+				b_sarkela = {
+				}
+			}
+			c_dira = {
+				color = { 34 98 45 }
+				color2 = { 255 255 255 }
+				
+				b_dira = {
+				}
+			}
+		}
+		
+		d_gaoche = {
+			color = { 85 168 65 }
+			color2 = { 255 255 255 }
+			
+			capital = 1180 #Kharakit
+			
+			c_kharakit = {
+				color = { 55 156 38 }
+				color2 = { 255 255 255 }
+				
+				b_kharakit = {
+				}
+				b_tel = {
+				}
+			}
+			c_balasaqun = {
+				color = { 17 112 67 }
+				color2 = { 255 255 255 }
+				
+				b_balasaqun = {
+				}
+				b_anx = {
+				}
+			}
+			
+			c_suyab = {
+				color = { 65 122 87 }
+				color2 = { 255 255 255 }
+				
+				b_suyub = {
+				}
+			}
+		}
+	}
+	
+	k_kharakas = {
+		color = { 55 102 147 }
+		color2 = { 255 255 255 }
+	
+		capital = 1187 #Angara
+		
+		d_zays = {
+			color = { 40 82 190 }
+			color2 = { 255 255 255 }
+			
+			capital = 1187 #Angara
+			
+			c_norisk = {
+				color = { 185 110 213 }
+				color2 = { 255 255 255 }
+				
+				b_norisk = {
+				}
+				b_hyrog = {
+				}
+			}
+						
+			c_khakatass = {
+				color = { 27 150 213 }
+				color2 = { 255 255 255 }
+				
+				b_khakatass = {
+				}
+				b_ulkhari = {
+				}
+				b_negida = {
+				}
+			}
+						
+			c_yarsk = {
+				color = { 2 10 113 }
+				color2 = { 255 255 255 }
+				
+				b_yarsk = {
+				}
+				b_ishan = {
+				}
+			}
+						
+			c_angara = {
+				color = { 127 100 173 }
+				color2 = { 255 255 255 }
+				
+				b_angara = {
+				}
+				b_krai = {
+				}
+				b_udeg = {
+				}
+				b_irwink = {
+				}
+			}
+		}
+		
+		d_dzhagna = {
+			color = { 120 72 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1193 #Barabas
+			
+			c_nuur = {
+				color = { 15 70 113 }
+				color2 = { 255 255 255 }
+				
+				b_nuur = {
+				}
+				b_khabyr = {
+				}
+			}
+			
+			c_barabas = {
+				color = { 85 70 153 }
+				color2 = { 255 255 255 }
+				
+				b_barabas = {
+				}
+				b_cherno = {
+				}
+				b_anadyr = {
+				}
+			}
+			
+			c_sybyr = {
+				color = { 115 110 183 }
+				color2 = { 255 255 255 }
+				
+				b_sybyr = {
+				}
+				b_evinka = {
+				}
+			}
+		}
+		
+		d_tungask = {
+			color = { 31 13 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 1191 #Suleng
+			
+			c_tuva = {
+				color = { 15 10 203 }
+				color2 = { 255 255 255 }
+				
+				b_tuva = {
+				}
+				b_chukokta = {
+				}
+			}
+			
+			c_abak = {
+				color = { 185 110 253 }
+				color2 = { 255 255 255 }
+				
+				b_abak = {
+				}
+				b_magarad = {
+				}
+			}
+			
+			c_suleng = {
+				color = { 135 110 193 }
+				color2 = { 255 255 255 }
+				
+				b_suleng = {
+				}
+				b_husk = {
+				}
+				b_sakhal = {
+				}
+			}
+			
+			c_tatarum = {
+				color = { 85 50 233 }
+				color2 = { 255 255 255 }
+				
+				b_tatarum = {
+				}
+				b_ukok = {
+				}
+				b_amur = {
+				}
+			}
+		}
+	}
+	
+	k_tomar = {
+		color = { 225 64 77 }
+		color2 = { 255 255 255 }
+	
+		capital = 409 #Dragoynovo
+		
+		d_udomn = {
+			color = { 180 71 130 }
+			color2 = { 255 255 255 }
+			
+			capital = 1196 #Carsuri
+			
+			c_saget = {
+				color = { 185 110 113 }
+				color2 = { 255 255 255 }
+				
+				b_saget = {
+				}
+				b_pechdos = {
+				}
+			}
+						
+			c_carsuri = {
+				color = { 227 150 113 }
+				color2 = { 255 255 255 }
+				
+				b_carsuri = {
+				}
+				b_tets = {
+				}
+			}
+		}
+		
+		d_djeiten = {
+			color = { 210 41 110 }
+			color2 = { 255 255 255 }
+			
+			capital = 1239 #Kurshun
+			
+			c_bakal = {
+				color = { 190 20 123 }
+				color2 = { 255 255 255 }
+				
+				b_dramsha = {
+				}
+				b_mirkovo = {
+				}
+			}
+			
+			c_kurshun = {
+				color = { 190 25 162 }
+				color2 = { 255 255 255 }
+				
+				b_voisil = {
+				}
+				b_debelt = {
+				}
+				b_emona = {
+				}
+			}
+			
+			c_ailish = {
+				color = { 199 50 52 }
+				color2 = { 255 255 255 }
+				
+				b_golbma = {
+				}
+				b_egy = {
+				}
+			}
+			
+			c_miluks = {
+				color = { 152 15 25 }
+				color2 = { 255 255 255 }
+				
+				b_miluks = {
+				}
+				b_seras = {
+				}
+				b_kasar = {
+				}
+			}
+			
+			c_komri = {
+				color = { 127 55 60 }
+				color2 = { 255 255 255 }
+				
+				b_komri = {
+				}
+				b_jokis = {
+				}
+			}
+
+		}	
+		
+		d_ganibek = {
+			color = { 250 71 50 }
+			color2 = { 255 255 255 }
+			
+			capital = 1243 #Rataumyr
+			
+			c_ganibek = {
+				color = { 227 110 13 }
+				color2 = { 255 255 255 }
+				
+				b_ganibek = {
+				}
+				b_gotar_bor = {
+				}
+			}
+			
+			c_rataumyr = {
+				color = { 200 100 89 }
+				color2 = { 255 255 255 }
+				
+				b_sjot = {
+				}
+				b_faera = {
+				}
+				b_elska = {
+				}
+				b_hautur = {
+				}
+			}
+		}
+		
+		d_chakmyr = {
+			color = { 190 11 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 1245 #Tohkar
+						
+			c_tohkar = {
+				color = { 123 3 78 }
+				color2 = { 255 255 255 }
+				
+				b_tohkar = {
+				}
+				b_harom = {
+				}
+				b_forrad = {
+				}
+			}
+			
+			c_zapad = {
+				color = { 167 23 64 }
+				color2 = { 255 255 255 }
+				
+				b_hurum = {
+				}
+				b_godhor = {
+				}
+			}
+			
+			c_krasnodar = {
+				color = { 164 16 90 }
+				color2 = { 255 255 255 }
+				
+				b_mannliger = {
+				}
+				b_kunnigor = {
+				}
+			}
+		}	
+
+	}		
+
+	k_issik = {
+		color = { 125 164 217 }
+		color2 = { 255 255 255 }
+	
+		capital = 1230 #Kamas
+	
+		d_tamt_bulak = {
+			color = { 180 151 230 }
+			color2 = { 255 255 255 }
+			
+			capital = 1230 #Kamas
+			
+			c_votioi = {
+				color = { 157 163 213 }
+				color2 = { 255 255 255 }
+				
+				b_votioi = {
+				}
+				b_besermy = {
+				}
+			}
+			
+			c_ninyt = {
+				color = { 155 110 203 }
+				color2 = { 255 255 255 }
+				
+				b_ninyt = {
+				}
+			}			
+			
+			c_magad = {
+				color = { 189 132 180 }
+				color2 = { 255 255 255 }
+				
+				b_magad = {
+				}
+				b_belda = {
+				}
+			}			
+			
+			c_kamas = {
+				color = { 190 50 200 }
+				color2 = { 255 255 255 }
+				
+				b_katosa = {
+				}
+				b_viner = {
+				}
+				b_visi = {
+				}
+			}
+		}
+		
+		d_issik = {
+			color = { 140 151 220 }
+			color2 = { 255 255 255 }
+			
+			capital = 1232 #Issikul
+			
+			c_anaol = {
+				color = { 127 167 200 }
+				color2 = { 255 255 255 }
+				
+				b_anaol = {
+				}
+				b_mektut = {
+				}
+			}			
+			
+			c_eiigin = {
+				color = { 123 190 223 }
+				color2 = { 255 255 255 }
+				
+				b_eiigin = {
+				}
+				b_muroman = {
+				}
+			}	
+			
+			c_issikul = {
+				color = { 167 180 250 }
+				color2 = { 255 255 255 }
+				
+				b_vurgul = {
+				}
+				b_jakwa = {
+				}
+			}
+			
+			c_yurgh = {
+				color = { 176 150 232 }
+				color2 = { 255 255 255 }
+				
+				b_yurgh = {
+				}
+				b_lika = {
+				}
+			}			
+		}
+		
+		d_sakatchi_alay = {
+			color = { 150 121 210 }
+			color2 = { 255 255 255 }
+			
+			capital = 1235 #Ents
+			
+			c_kolim = {
+				color = { 127 125 213 }
+				color2 = { 255 255 255 }
+				
+				b_kolim = {
+				}
+				b_giptumadhor = {
+				}
+			}	
+			
+			c_krygz = {
+				color = { 152 89 189 }
+				color2 = { 255 255 255 }
+				
+				b_sbor = {
+				}
+				b_kymmenen = {
+				}
+			}
+			
+			c_kropot = {
+				color = { 167 120 200 }
+				color2 = { 255 255 255 }
+				
+				b_morvinik = {
+				}
+				b_veidhor = {
+				}
+				b_mannskar = {
+				}
+			}	
+			
+			c_ents = {
+				color = { 156 123 198 }
+				color2 = { 255 255 255 }
+				
+				b_kanti = {
+				}
+				b_yukag = {
+				}
+			}	
+		}			
+	}
+
+	k_ruan = {
+		color = { 150 214 117 }
+		color2 = { 255 255 255 }
+	
+		capital = 1208 #Ket
+	
+		d_urian = {
+			color = { 90 171 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1201 #Uvs
+			
+			c_uvs = {
+				color = { 163 246 126 }
+				color2 = { 255 255 255 }
+				
+				b_uvs = {
+				}
+				b_kamniga = {
+				}
+				b_umrad = {
+				}
+			}	
+			
+			c_baatar = {
+				color = { 190 232 165 }
+				color2 = { 255 255 255 }
+				
+				b_udigi = {
+				}
+				b_kangjia = {
+				}
+			}	
+			
+			c_yucho = {
+				color = { 176 209 175 }
+				color2 = { 255 255 255 }
+				
+				b_yucho = {
+				}
+				b_khalka = {
+				}
+			}	
+		}
+		
+		d_xanbi = {
+			color = { 90 251 90 }
+			color2 = { 255 255 255 }
+			
+			capital = 1201 #Uvs
+			
+			c_tarim = {
+				color = { 56 238 34 }
+				color2 = { 255 255 255 }
+				
+				b_aina = {
+				}
+				b_merqi = {
+				}
+			}	
+			
+			c_khovd = {
+				color = { 23 160 84 }
+				color2 = { 255 255 255 }
+				
+				b_khovd = {
+				}
+				b_ulch = {
+				}
+			}
+			
+			c_uromqi = {
+				color = { 78 150 78 }
+				color2 = { 255 255 255 }
+				
+				b_uromqi = {
+				}
+				b_xibi = {
+				}
+			}
+		}
+		
+		d_shaar = {
+			color = { 90 201 120 }
+			color2 = { 255 255 255 }
+			
+			capital = 1208 #Ket
+			
+			c_khotaan = {
+				color = { 127 245 163 }
+				color2 = { 255 255 255 }
+				
+				b_orrok = {
+				}
+			}			
+			
+			c_ket = {
+				color = { 64 190 173 }
+				color2 = { 255 255 255 }
+				
+				b_ket = {
+				}
+				b_shirangol = {
+				}
+				b_oroch = {
+				}
+				b_asen = {
+				}
+			}			
+			
+			c_bagstay = {
+				color = { 83 240 176 }
+				color2 = { 255 255 255 }
+				
+				b_bagstay = {
+				}
+				b_swaddi = {
+				}
+				b_lisa = {
+				}
+			}
+			
+			c_nivk = {
+				color = { 26 189 142 }
+				color2 = { 255 255 255 }
+				
+				b_tankovo = {
+				}
+				b_dagur = {
+				}
+			}
+		}
+	}
+	
+	k_aztrakhan = {
+		color = { 100 14 137 }
+		color2 = { 255 255 255 }
+	
+		capital = 1218 #Karmay
+	
+		d_mador = {
+			color = { 60 11 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1224 #Mador
+			
+			c_mador = {
+				color = { 127 24 113 }
+				color2 = { 255 255 255 }
+				
+				b_mador = {
+				}
+				b_nedhri = {
+				}
+			}
+
+			c_mesch = {
+				color = { 123 64 78 }
+				color2 = { 255 255 255 }
+				
+				b_mesch = {
+				}
+				b_voro = {
+				}
+				b_anbur = {
+				}
+			}
+		}
+	
+		d_srubnya = {
+			color = { 140 51 150 }
+			color2 = { 255 255 255 }
+			
+			capital = 1221 #Khamchata
+			
+			c_khamchata = {
+				color = { 100 156 140 }
+				color2 = { 255 255 255 }
+				
+				b_urmurt = {
+				}
+				b_yhdeksan = {
+				}
+				b_stader = {
+				}
+			}
+
+			c_chamsyts = {
+				color = { 124 167 100 }
+				color2 = { 255 255 255 }
+				
+				b_chamsyts = {
+				}
+				b_retti = {
+				}
+			}
+
+			c_sakar = {
+				color = { 123 186 134 }
+				color2 = { 255 255 255 }
+				
+				b_sakar = {
+				}
+				b_izhoria = {
+				}
+				b_mergr = {
+				}
+			}
+		}		
+
+		d_bulak = {
+			color = { 100 11 100 }
+			color2 = { 255 255 255 }
+			
+			capital = 1218 #Karmay
+			
+			c_torpan = {
+				color = { 123 53 133 }
+				color2 = { 255 255 255 }
+				
+				b_evenk = {
+				}
+				b_mogholi = {
+				}
+				b_elta = {
+				}
+			}
+			
+			c_zanur = {
+				color = { 162 64 90 }
+				color2 = { 255 255 255 }
+				
+				b_zanur = {
+				}
+				b_oroq = {
+				}
+				b_taum = {
+				}
+			}
+			
+			c_karmay = {
+				color = { 86 23 58 }
+				color2 = { 255 255 255 }
+				
+				b_nanai = {
+				}
+				b_skyrrin = {
+				}
+				b_finnabor = {
+				}
+				b_geta = {
+				}
+			}
+			
+			c_miryr = {
+				color = { 27 72 197 }
+				color2 = { 255 255 255 }
+				
+				b_marri = {
+				}
+				b_ovcci = {
+				}
+			}
+		}
+		
+		d_sayon = {
+			color = { 140 121 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1212 #Nerchin
+			
+			c_nerchin = {
+				color = { 100 23 63 }
+				color2 = { 255 255 255 }
+				
+				b_donxi = {
+				}
+				b_oold = {
+				}
+				b_naglbor = {
+				}
+			}		
+			
+			c_bortaala = {
+				color = { 163 110 98 }
+				color2 = { 255 255 255 }
+				
+				b_bata = {
+				}
+			}		
+		}
+
+		d_arali = {
+			color = { 90 91 80 }
+			color2 = { 255 255 255 }
+			
+			capital = 1214 #Aral
+			
+			c_tiel = {
+				color = { 75 153 140 }
+				color2 = { 255 255 255 }
+				
+				b_tiel = {
+				}
+				b_prausk = {
+				}
+				b_garrot = {
+				}
+			}		
+			
+			c_yupyk = {
+				color = { 126 17 140 }
+				color2 = { 255 255 255 }
+				
+				b_oirat = {
+				}
+				b_laeti = {
+				}
+			}
+			
+			c_aral = {
+				color = { 23 163 143 }
+				color2 = { 255 255 255 }
+				
+				b_solon = {
+				}
+				b_shira = {
+				}
+			}		
+		}
+	}	
+	
+	k_kura = {
+		color = { 125 164 17 }
+		color2 = { 255 255 255 }
+	
+		capital = 393 #Blatnista
+	
+		d_zaural = {
+			color = { 160 211 60 }
+			color2 = { 255 255 255 }
+			
+			capital = 391 #Sopot
+			
+			c_aydemir = {
+				color = { 176 134 23 }
+				color2 = { 255 255 255 }
+				
+				b_cherna = {
+				}
+				b_kaynardzha = {
+				}
+				b_sitovo = {
+				}
+				b_kakrina = {
+				}
+			}
+			
+			c_sopot = {
+				color = { 123 163 63 }
+				color2 = { 255 255 255 }
+				
+				b_sopot = {
+				}
+				b_oreshak = {
+				}
+				b_loss = {
+				}
+				b_petrevene = {
+				}
+			}
+			
+			c_ribaritsa = {
+				color = { 167 123 85 }
+				color2 = { 255 255 255 }
+				
+				b_ribaritsa = {
+				}
+				b_bozhentsi = {
+				}
+				b_gostilitsa = {
+				}
+			}
+			
+			c_olkoron = {
+				color = { 152 173 84 }
+				color2 = { 255 255 255 }
+				
+				b_golyamo = {
+				}
+				b_absath = {
+				}
+			}
+		}
+		
+		d_maykar = {
+			color = { 130 181 70 }
+			color2 = { 255 255 255 }
+			
+			capital = 393 #Blatnista
+
+			c_blatnista = {
+				color = { 162 122 190 }
+				color2 = { 255 255 255 }
+				
+				b_blatnista = {
+				}
+				b_hekoms = {
+				}
+				b_malo_konare = {
+				}
+				b_cad = {
+				}
+			}
+			
+			c_poibrene = {
+				color = { 123 100 231 }
+				color2 = { 255 255 255 }
+				
+				b_poibrene = {
+				}
+				b_stranagl = {
+				}
+				b_belovo = {
+				}
+			}
+			
+			c_lesichovo = {
+				color = { 67 87 187 }
+				color2 = { 255 255 255 }
+				
+				b_lesichovo = {
+				}
+				b_heel = {
+				}
+				b_marko = {
+				}
+			}
+			
+			c_yakhdoi = {
+				color = { 86 43 176 }
+				color2 = { 255 255 255 }
+				
+				b_plagaz = {
+				}
+				b_panagyuriski = {
+				}
+				b_nyolc = {
+				}
+				b_felaus = {
+				}
+			}
+		}
+		
+		d_hahk = {
+			color = { 100 151 10 }
+			color2 = { 255 255 255 }
+			
+			capital = 393 #Blatnista
+			
+			c_katunets = {
+				color = { 125 174 32 }
+				color2 = { 255 255 255 }
+				
+				b_zekeal = {
+				}
+				b_dyulevo = {
+				}
+			}
+					
+			c_jakki = {
+				color = { 89 187 26 }
+				color2 = { 255 255 255 }
+				
+				b_svoboda = {
+				}
+				b_sharpi = {
+				}
+			}
+		}
+	}
+
+
+	k_zuungar = {
+		color = { 184 109 56 }
+		color2 = { 255 255 255 }
+		
+		capital = 1666 #Tasanda
+
+		d_tian = {
+			color = { 187 105 16 }
+			color2 = { 255 255 255 }
+			
+			capital = 1666 #Tasanda
+
+			c_ngama = {
+				color = { 190 100 80 }
+				color2 = { 255 255 255 }
+					
+				b_ngama = {
+				}
+				b_kurultai = {
+				}
+			}
+
+			c_tasanda = {
+				color = { 163 121 76 }
+				color2 = { 255 255 255 }
+					
+				b_tasanda = {
+				}
+				b_kitbuq = {
+				}
+			}
+
+			c_shouxo = {
+				color = { 183 95 65 }
+				color2 = { 255 255 255 }
+					
+				b_shouxo = {
+				}
+				b_ariq = {
+				}
+			}
+		}
+		
+		d_kaldan = {
+			color = { 207 105 146 }
+			color2 = { 255 255 255 }
+			
+			capital = 1668 #Andaka
+
+			c_haizhen = {
+				color = { 189 100 156 }
+				color2 = { 255 255 255 }
+					
+				b_haizhen = {
+				}
+			}
+
+			c_andaka = {
+				color = { 199 145 104 }
+				color2 = { 255 255 255 }
+					
+				b_andaka = {
+				}
+			}
+
+			c_tuulud = {
+				color = { 210 100 130 }
+				color2 = { 255 255 255 }
+					
+				b_tuulud = {
+				}
+			}
+		
+			c_gaanzu = {
+				color = { 175 132 128 }
+				color2 = { 255 255 255 }
+					
+				b_gaanzu = {
+				}
+				b_temur = {
+				}
+			}
+		}
+		
+		d_zuusotyn = {
+			color = { 207 105 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 1672 #Taiko
+
+			c_nai_khi = {
+				color = { 220 134 46 }
+				color2 = { 255 255 255 }
+					
+				b_toqata = {
+				}
+				b_giray = {
+				}
+			}
+
+			c_dorno = {
+				color = { 209 151 62 }
+				color2 = { 255 255 255 }
+					
+				b_dorno = {
+				}
+				b_mulaan = {
+				}
+			}
+
+			c_taiko = {
+				color = { 184 120 30 }
+				color2 = { 255 255 255 }
+					
+				b_song = {
+				}
+				b_duwa = {
+				}
+			}
+		}
+	}
+	
+	k_khangai = {
+		color = { 100 109 56 }
+		color2 = { 255 255 255 }
+		
+		capital = 1664 #Bashikir
+		
+		d_dariganga = {
+			color = { 167 125 116 }
+			color2 = { 255 255 255 }
+			
+			capital = 1660 #Obo
+
+			c_nauk = {
+				color = { 157 160 133 }
+				color2 = { 255 255 255 }
+					
+				b_nauk = {
+				}
+				b_khanuy_gol = {
+				}
+			}
+
+			c_obo = {
+				color = { 197 170 155 }
+				color2 = { 255 255 255 }
+					
+				b_obo = {
+				}
+				b_boyuk = {
+				}
+				b_taunshi = {
+				}
+			}
+
+			c_axabaxx = {
+				color = { 200 178 142 }
+				color2 = { 255 255 255 }
+					
+				b_axabaxx = {
+				}
+				b_taryatu_chulutu = {
+				}
+			}
+		}
+		
+		d_tunggut = {
+			color = { 207 205 146 }
+			color2 = { 255 255 255 }
+			
+			capital = 1674 #One
+
+			c_one = {
+				color = { 220 210 178 }
+				color2 = { 255 255 255 }
+					
+				b_one = {
+				}
+				b_abishi = {
+				}
+				b_arghun = {
+				}
+			}
+
+			c_kori = {
+				color = { 209 214 166 }
+				color2 = { 255 255 255 }
+					
+				b_kori = {
+				}
+				b_yama = {
+				}
+			}
+			
+			c_halai = {
+				color = { 199 189 165 }
+				color2 = { 255 255 255 }
+					
+				b_halai = {
+				}
+			}
+
+			c_khurunbur = {
+				color = { 220 190 177 }
+				color2 = { 255 255 255 }
+					
+				b_khurunbur = {
+				}
+			}
+		}
+
+		d_zham = {
+			color = { 107 105 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 1664 #Bashikir
+
+			c_bashikir = {
+				color = { 87 90 74 }
+				color2 = { 255 255 255 }
+					
+				b_bashikir = {
+				}
+				b_nuka = {
+				}
+				b_beke = {
+				}
+			}
+
+			c_sarya = {
+				color = { 105 122 55 }
+				color2 = { 255 255 255 }
+					
+				b_sarya = {
+				}
+				b_ondas = {
+				}
+			}
+		}
+				
+		d_korha = {
+			color = { 154 105 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 1679 #Turang
+
+			c_ulunbuur = {
+				color = { 123 100 50 }
+				color2 = { 255 255 255 }
+					
+				b_ulunbuur = {
+				}
+				b_yass = {
+				}
+			}
+
+			c_tulpan = {
+				color = { 167 120 53 }
+				color2 = { 255 255 255 }
+					
+				b_tulpan = {
+				}
+				b_nurzhigit = {
+				}
+			}
+			
+			c_turang = {
+				color = { 100 109 88 }
+				color2 = { 255 255 255 }
+					
+				b_turang = {
+				}
+				b_kylmik = {
+				}
+			}
+		}
+		
+		d_tsetseg = {
+			color = { 217 205 126 }
+			color2 = { 255 255 255 }
+			
+			capital = 1681 #Yueh Zu
+
+			c_erena = {
+				color = { 177 170 123 }
+				color2 = { 255 255 255 }
+					
+				b_erena = {
+				}
+			}
+
+			c_toba = {
+				color = { 209 185 135 }
+				color2 = { 255 255 255 }
+					
+				b_toba = {
+				}
+				b_zandar = {
+				}
+			}
+
+			c_yueh_zu = {
+				color = { 210 170 110 }
+				color2 = { 255 255 255 }
+					
+				b_yueh_zu = {
+				}
+				b_jelme = {
+				}
+			}
+		}
+	}

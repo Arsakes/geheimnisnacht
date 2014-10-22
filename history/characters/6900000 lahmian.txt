@@ -1,0 +1,22 @@
+6900000={
+name = "Nefereta"
+female = yes
+dynasty = 321
+culture = lahmian
+religion = vampiric
+martial = 3
+diplomacy = 8
+stewardship = 1
+intrigue = 9
+learning = 5
+add_trait = "hedonist"
+add_trait = "grey_eminence"
+add_trait="deceitful"
+add_trait="gregarious"
+add_trait="cruel"
+add_trait="fair"
+add_trait="strong"
+
+1992.4.30={birth=yes}
+2021.12.2={death=yes}
+}

@@ -1,0 +1,54 @@
+norse_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = no
+
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 1	# always try to convert
+		
+	norse = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		color = { 0.7 0.7 0.9 }
+		god_names = {
+			GOD_SPIRITS GOD_DARK_ONES GOD_ANCESTORS GOD_GODS
+		}
+
+		evil_god_names = {
+			GOD_THE_DARK_GODS
+		}
+		
+		
+		priests_can_marry = yes
+		aggression = 2.5 		
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes		
+		max_consorts = 3
+	}
+	
+	dark_norse = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		color = { 0.4 0.3 0.5 }
+		god_names = {
+			GOD_SPIRITS GOD_DARK_ONES GOD_ANCESTORS GOD_GODS
+		}
+
+		evil_god_names = {
+			GOD_THE_DARK_GODS
+		}
+		
+		
+		priests_can_marry = yes
+		aggression = 2.5 		
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes		
+		max_consorts = 3
+	}		
+}

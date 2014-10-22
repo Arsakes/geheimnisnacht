@@ -47,6 +47,10 @@ character_event = {
             has_plot = plot_weaken_fellow_vassal
             has_plot = plot_gain_liege_title
             has_plot = plot_gain_fellow_vassal_title
+			has_plot = plot_convert_nurgle
+			has_plot = plot_convert_slaanesh
+			has_plot = plot_convert_tzeentch
+			has_plot = plot_convert_khorne
         }
         is_plot_active = no
         num_of_plot_backers = 1
@@ -257,6 +261,10 @@ character_event = {
                 has_plot = plot_weaken_fellow_vassal
                 has_plot = plot_gain_liege_title
                 has_plot = plot_gain_fellow_vassal_title
+				has_plot = plot_convert_nurgle
+				has_plot = plot_convert_slaanesh
+				has_plot = plot_convert_tzeentch
+				has_plot = plot_convert_khorne
             }
             is_plot_active = no
             NOT = { has_character_flag = event7040 }

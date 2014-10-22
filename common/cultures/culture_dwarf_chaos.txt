@@ -1,8 +1,8 @@
 dwarf_chaos_group = {
-	graphical_culture = westerngfx
+	graphical_culture = dwarfgfx
 
 		dwarf_chaos = {
-		graphical_culture = westerngfx
+		graphical_culture = dwarfgfx
 		
 		color = { 0.6 0.2 0.5 }
 

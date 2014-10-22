@@ -27,7 +27,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		prerequisites = { ca_imperial_barracks_1 }	
 		#not_if_x_exists = { ca_imperial_free_1 ca_imperial_militia_1 }
-		build_cost = 50
+		gold_cost = 50
 		build_time = 30
 		land_morale = 0.1
 		retinuesize_perc = 0.5
@@ -50,7 +50,7 @@ castle = {
 		prerequisites = { ca_imperial_barracks_1 }	
 		#not_if_x_exists = { ca_imperial_free_1 ca_imperial_militia_1 }
 		replaces = ca_imperial_state_1
-		build_cost = 50
+		gold_cost = 50
 		build_time = 30
 		land_morale = 0.1
 		retinuesize_perc = 1.0
@@ -69,7 +69,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		replaces = ca_barracks_1
-		build_cost = 50
+		gold_cost = 50
 		build_time = 30
 		levy_size = 0.1
 		retinuesize = 50
@@ -87,7 +87,7 @@ castle = {
 		upgrades_from = ca_imperial_barracks_1
 		prerequisites = { ca_wall_1 }
 		replaces = ca_barracks_2
-		build_cost = 100
+		gold_cost = 100
 		build_time = 365
 		levy_size = 0.1
 		retinuesize = 50
@@ -104,7 +104,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		replaces = ca_barracks_3
 		upgrades_from = ca_imperial_barracks_2
-		build_cost = 150
+		gold_cost = 150
 		build_time = 365
 		levy_size = 0.1
 		retinuesize = 50
@@ -125,7 +125,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
 		upgrades_from = ca_imperial_barracks_3
-		build_cost = 200
+		gold_cost = 200
 		build_time = 365
 		levy_size = 0.1
 		retinuesize = 50
@@ -146,7 +146,7 @@ castle = {
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
 		upgrades_from = ca_imperial_barracks_4
-		build_cost = 250
+		gold_cost = 250
 		build_time = 365
 		levy_size = 0.1
 		retinuesize = 50
@@ -168,7 +168,7 @@ castle = {
 		potential = { culture_group = imperial_group }
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		replaces = ca_stable_1
-		build_cost = 200
+		gold_cost = 200
 		build_time = 730
 		knights = 20
 		light_cavalry = 20
@@ -183,7 +183,7 @@ castle = {
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_imperial_stable_1
 		replaces = ca_stable_2
-		build_cost = 250
+		gold_cost = 250
 		build_time = 1095
 		knights = 25
 		light_cavalry = 25
@@ -198,7 +198,7 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_imperial_stable_2
 		replaces = ca_stable_3
-		build_cost = 300
+		gold_cost = 300
 		build_time = 2190
 		knights = 30
 		light_cavalry = 30

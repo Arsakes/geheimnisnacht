@@ -1,0 +1,18 @@
+# 860 Epre
+
+# County Title
+title = c_epre
+
+# Settlements
+max_settlements = 4
+b_chateau_depre = castle
+b_giscard = city
+b_bordet = castle
+#b_drengaut = temple
+
+# Misc
+culture = gascon
+religion = lady_of_the_lake
+
+
+# History

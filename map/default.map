@@ -13,6 +13,8 @@ adjacencies = "adjacencies.csv"
 climate = "climate.txt"
 region = "region.txt"
 static = "static.txt"
+seasons = "seasons.txt"
+
 
 # Great Sea
 sea_zones = { 1820 2062 }

@@ -1,9 +1,9 @@
 
 halfling_group = {
-	graphical_culture = westerngfx
+	graphical_culture = hobbitsgfx
 
 	mootlander = {
-		graphical_culture = westerngfx
+		graphical_culture = hobbitsgfx
 
 		color = { 0.3 0.6 0.3 }
 

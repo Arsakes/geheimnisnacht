@@ -64,5 +64,16 @@ spriteTypes = {
                 texturefile = "gfx\\event_pictures\\hysh_spell.tga"
                 allwaystransparent = yes
         }
+		#Quest Events
+	spriteType = {
+                name = "GFX_evt_zombies"
+                texturefile = "gfx\\event_pictures\\zombies.tga"
+                allwaystransparent = yes
+        }	
+	spriteType = {
+                name = "GFX_evt_carstein"
+                texturefile = "gfx\\event_pictures\\carstein.tga"
+                allwaystransparent = yes
+        }				
 
 }

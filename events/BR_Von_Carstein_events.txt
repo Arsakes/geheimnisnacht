@@ -1,0 +1,165 @@
+namespace = carstein
+
+	#Carstein event-line starts, he gets event-army#
+	character_event = {
+    id = carstein.0
+    title = "Conquest"
+    desc = "For too long, you have bided your time. Now your great spell is complete, and you have raised an army of undead to take on the Empire. Let blood flow, and let those who will not serve you in life - serve you in death!"
+    picture = "GFX_evt_zombies"
+	
+	trigger={
+	year = 2010
+	NOT = { year = 2011 }
+	NOT = { has_global_flag = carstein1 }
+	has_landed_title = k_sylvania
+	}
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+	
+	option = {
+	name = "To War!"
+	set_character_flag = vladvoncarstein
+	set_global_flag = carstein1
+	add_claim = d_geisterforst
+	location = {
+			ROOT = {
+			spawn_unit = {
+			province = PREV
+			troops = {
+			zombies = { 8000 8000 }
+						}
+					}
+				}
+			}
+	location = {
+			ROOT = {
+			spawn_unit = {
+			province = PREV
+			troops = {
+			skeletons = { 2000 2000 }
+						}
+					}
+				}
+			}
+	location = {
+			ROOT = {
+			spawn_unit = {
+			province = PREV
+			troops = {
+			skeleton_cavalry = { 1000 1000 }
+						}
+					}
+				}
+			}
+	any_playable_ruler = {
+	limit = { 
+	OR = {
+	culture_group = imperial_group
+	culture_group = kislevite_group
+	culture_group = estalian_group
+	culture_group = tilean_group
+	culture_group = bretonnian_group
+	culture_group = dwarf_group
+	}
+	ai = no
+	}
+	character_event = { id = carstein.1 days = 7 }
+	}
+	any_playable_ruler = {
+	limit = { 
+	AND = {
+	NOT = { culture_group = imperial_group }
+	NOT = {culture_group = kislevite_group }
+	NOT = {culture_group = estalian_group }
+	NOT = {culture_group = tilean_group }
+	NOT = {culture_group = bretonnian_group }
+	NOT = {culture_group = dwarf_group }
+	}
+	ai = no
+	}
+	character_event = { id = carstein.2 days = 30 }
+	}
+	}
+	
+	}
+
+	#nearby pc rulers are informed#
+	character_event = {
+    id = carstein.1
+    title = "Rise of the Undead"
+    desc = "Rumors reach you that in Sylvania a Vampire Count by the name of Vlad von Carstein has summoned a massive army of undead, and aims to make war on the fragmented empire."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Damnations!"
+	}
+	
+	}
+	#more distant pc rulers are informed#
+	character_event = {
+    id = carstein.2
+    title = "Rumors of Doom"
+    desc = "Rumors reach you that in the duchy of Sylvania, a Vampire Count by the name of Vlad von Carstein has summoned a massive army of undead, and makes war on the fragmented empire."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "OK"
+	}
+	
+	}
+	
+	#Von Carstein gets series of claims leading him deeper into the Empire#
+	character_event = {
+    id = carstein.3
+    title = "Conquest"
+    desc = "You have conquered Geisterforst from Ostermark. Now you should move west, towards the imperial capitals and cripple the Empire while it is still divided!"
+    picture = "GFX_evt_carstein"
+	is_triggered_only = yes
+	
+	trigger = {
+	AND = {
+	has_character_flag = vladvoncarstein
+	any_realm_lord = { has_landed_title = k_sylvania }
+	any_realm_lord = { has_landed_title = d_geisterforst }
+	}
+	}
+	
+	option = {
+	name = "All shall fall before me."
+	add_claim = d_steyr
+	add_claim = d_talumfang
+			}
+			
+			}
+	
+	#Von Carstein gets series of claims leading him deeper into the Empire#
+	character_event = {
+    id = carstein.4
+    title = "Conquest"
+    desc = "You have conquered large parts of the empire - now it is time to move towards Altdorf, and crush this center of resistance once and for all."
+    picture = "GFX_evt_carstein"
+	is_triggered_only = yes
+	
+	trigger = {
+	AND = {
+	has_character_flag = vladvoncarstein
+	any_realm_lord = { has_landed_title = k_sylvania }
+	any_realm_lord = {has_landed_title = d_geisterforst }
+	any_realm_lord = { has_landed_title = d_steyr }
+	any_realm_lord = { has_landed_title = d_talumfang }
+	}
+	}
+	
+	option = {
+	name = "Victory is inevitable!"
+	add_claim = d_vergenland
+	add_claim = d_altdorf
+			}
+			
+			}

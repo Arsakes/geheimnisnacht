@@ -1,6 +1,6 @@
 bookmark =
 {
-	name = "BM_GEHEIMNISNACHT"
+	name = "BM_FATE_OF_ENGLAND"
 	desc = "BM_GEHEIMNISNACHT_DESC"
 	date = 2010.7.1
 	
@@ -11,51 +11,51 @@ bookmark =
 	character = 400000 #Emperor Mannfred Todbringer
 }
 
-bookmark =
-{
-	name = "BM_WINTER_WAR"
-	desc = "BM_WINTER_WAR_DESC"
-	date = 2132.1.1
-}
-
-bookmark =
-{
-	name = "BM_GREAT_WAR_AGAINST_CHAOS"
-	desc = "BM_GREAT_WAR_AGAINST_CHAOS"
-	date = 2301.9.15
-}
-
-bookmark =
-{
-	name = "BM_MAGNUS_THE_PIOUS"
-	desc = "BM_MAGNUS_THE_PIOUS_DESC"
-	date = 2304.12.5
-	
-	character = 950027 #Emperor Magnus von Bildhofen
-}
-
-bookmark =
-{
-	name = "BM_NORTHERN_MERCANTILE_SOCIETY"
-	desc = "BM_NORTHERN_MERCANTILE_SOCIETY_DESC"
-	date = 2462.5.22
-	
-	character = 800087 #Jens-Peter of the Society
-	character = 600150 #Maarten of Marienburg
-}
-
-bookmark =
-{
-	name = "BM_STORM_OF_CHAOS"
-	desc = "BM_STORM_OF_CHAOS_DESC"
-	date = 2521.4.9
-	
-	character = 900043 #Emperor Karl-Franz Holswig-Schleistein
-}
-
-bookmark =
-{
-	name = "BM_THE_END"
-	desc = "BM_THE_END_DESC"
-	date = 2610.7.1
-}
+#bookmark =
+#{
+#	name = "BM_WINTER_WAR"
+#	desc = "BM_WINTER_WAR_DESC"
+#	date = 2132.1.1
+#}
+#
+#bookmark =
+#{
+#	name = "BM_GREAT_WAR_AGAINST_CHAOS"
+#	desc = "BM_GREAT_WAR_AGAINST_CHAOS"
+#	date = 2301.9.15
+#}
+#
+#bookmark =
+#{
+#	name = "BM_MAGNUS_THE_PIOUS"
+#	desc = "BM_MAGNUS_THE_PIOUS_DESC"
+#	date = 2304.12.5
+#	
+#	character = 950027 #Emperor Magnus von Bildhofen
+#}
+#
+#bookmark =
+#{
+#	name = "BM_NORTHERN_MERCANTILE_SOCIETY"
+#	desc = "BM_NORTHERN_MERCANTILE_SOCIETY_DESC"
+#	date = 2462.5.22
+#	
+#	character = 800087 #Jens-Peter of the Society
+#	character = 600150 #Maarten of Marienburg
+#}
+#
+#bookmark =
+#{
+#	name = "BM_STORM_OF_CHAOS"
+#	desc = "BM_STORM_OF_CHAOS_DESC"
+#	date = 2521.4.9
+#	
+#	character = 900043 #Emperor Karl-Franz Holswig-Schleistein
+#}
+#
+#bookmark =
+#{
+#	name = "BM_THE_END"
+#	desc = "BM_THE_END_DESC"
+#	date = 2610.7.1
+#}
