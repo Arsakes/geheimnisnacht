@@ -1,12 +1,14 @@
 Warhammer Geheimnishnacht
 ===============
 
+# GOALS FOR ME(PIETRKO):
+* [ ] Art & Graphics
+  - [ ] Make event pictures for spell system
+  - [ ] Make icons for new troop types
+  - [ ] Make new kislevite clothes
+  - [ ] Make new clothes for kurgans and update female version
 
 # ROADMAP
-
-we start here
-
-
 
 * [x] 0.1.0 *basic -- means getting rid of non warhammer stuff*
   - [x] basic port of cbs 
@@ -26,7 +28,7 @@ we start here
 
 * [ ] 0.1.2 
   - [ ] implement buildings for all human races 
-  - [ ] implement units, retinues and culture modifires (humans only)
+  - [ ] implement units, retinues and culture modifiers (humans only)
   - [ ] final touch of traits, modifiers, cultures, religions (humans only)
 
 

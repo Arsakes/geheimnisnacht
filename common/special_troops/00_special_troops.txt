@@ -9,14 +9,12 @@ horse_archers = {
 	phase_melee_defense = 4
 	phase_pursue_defense = 7
 	base_type = light_cavalry
-        graphical_culture_type = easterngfx # for the time being it needs it
 }
 
 #
 # These changes should'be uncommented when
 # UI new icons will be ready for new types of soldier
 #
-
 gunpowder = {
        morale = 3
        maintenance = 2
@@ -27,9 +25,7 @@ gunpowder = {
        phase_melee_defense = 4
        phase_pursue_defense = 3
        base_type = heavy_infantry
-       graphical_culture_type = westerngfx
 }
-
 #monstrous_creatures = {
 #	morale = 5
 #	maintenance = 2

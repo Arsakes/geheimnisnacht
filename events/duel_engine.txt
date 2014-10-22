@@ -7,6 +7,10 @@
 # @description  Warhammer mod custom duel engine
 # @wip
 #
+#
+# TODO
+# Duel engine doesn't work after simplification sha=0aa5471c9751d9090203d8468917246a825c505a
+#
 # DUEL MODEL
 #
 # attributes
@@ -37,6 +41,7 @@
 # 0-9:   Engine events
 # 10-19: Triggerning events
 # 20-x:  Reporting events
+#
 #
 #
 # TARGET LOCKING

@@ -1,4 +1,4 @@
-#landed titles
+#Civilized Old World
 
 technology = {
 	titles = {
@@ -431,6 +431,7 @@ technology = {
 
 technology = {
 	titles = {
+		d_realm_of_chaos
 		d_zanbaijin
 		d_altaya
 		d_potchesh
@@ -593,6 +594,3 @@ technology = {
 		culture = 4.0
 	}
 }
-
-
-
