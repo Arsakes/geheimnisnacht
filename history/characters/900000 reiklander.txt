@@ -1441,8 +1441,8 @@ father=900000
 add_trait="grey_eminence"
 add_trait="cruel"
 add_trait="wroth"
-2008.11.1={birth=yes}
-2078.5.7={death=yes}
+2002.11.1={birth=yes}
+2038.5.7={death=yes}
 }
 
 900072={
@@ -1502,7 +1502,7 @@ father=900071
 add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="gregarious"
-2046.7.1={birth=yes}
+2031.7.1={birth=yes}
 2088.5.3={death=yes}
 }
 
@@ -1523,7 +1523,7 @@ add_trait="thrifty_clerk"
 add_trait="kind"
 add_trait="charitable"
 add_trait="arbitrary"
-2054.3.1={birth=yes}
+2034.3.1={birth=yes}
 2104.1.18={death=yes}
 }
 
@@ -1543,7 +1543,7 @@ father=900071
 add_trait="thrifty_clerk"
 add_trait="patient"
 add_trait="diligent"
-2061.3.1={birth=yes}
+2037.3.1={birth=yes}
 2123.12.1={death=yes}
 }
 
@@ -2548,7 +2548,7 @@ add_trait="arbitrary"
 }
 
 900128={
-name="Wilhelm" #Grand Theogonist who killed Vlad von Carstein
+name="Wilhelm" #Wilhelm von Ostwald Grand Theogonist who killed Vlad von Carstein
 dynasty=10139
 dna="klnolpmaaam"
 culture=reiklander
@@ -4232,4 +4232,76 @@ add_trait="brave"
 add_trait="proud"
 2441.12.15={birth=yes}
 2503.2.12={death=yes}
+}
+
+900217={
+name="Reynard"#Captain of the Guard of Altdorf in 2049
+dynasty=0#Fill Grimm
+culture=reiklander
+religion=sigmarite
+martial=7
+diplomacy=4
+stewardship=2
+intrigue=4
+learning=3
+add_trait="patient"
+add_trait="brave"
+add_trait="tough_soldier"
+2011.4.24={birth=yes}
+2054.2.21={death=yes}
+}
+
+900218={
+name="Ludwig"#Reiklander Emperor of 2049
+dynasty=10000
+culture=reiklander
+religion=sigmarite
+martial=2
+diplomacy=2
+stewardship=2
+intrigue=2
+learning=0
+father=900071
+add_trait="indulgent_wastrel"
+add_trait="craven"
+add_trait="slothful"
+add_trait="proud"
+2026.10.15={birth=yes}
+2073.11.12={death=yes}
+}
+
+900219={
+name="Wilhelm"
+dynasty=10000
+culture=reiklander
+religion=sigmarite
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=5
+learning=1
+father=900218
+add_trait="indulgent_wastrel"
+add_trait="craven"
+add_trait="envious"
+2047.5.5={birth=yes}
+2093.8.22={death=yes}
+}
+900220={
+name="Ludwig"
+dynasty=10000
+culture=reiklander
+religion=sigmarite
+martial=2
+diplomacy=5
+stewardship=3
+intrigue=6
+learning=0
+father=900218
+add_trait="intricate_webweaver"
+add_trait="craven"
+add_trait="diligent"
+add_trait="proud"
+2049.1.19={birth=yes}
+2089.6.1={death=yes}
 }
