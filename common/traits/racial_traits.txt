@@ -6,18 +6,18 @@ creature_human = {
 		OR = {
 			culture_group = amazon_group
 			culture_group = arabyan_group
-			culture_group = cathayan_group
 			culture_group = bretonnian_group
 			culture_group = estalian_group
 			culture_group = hung_group
+			culture_group = immortal_group
 			culture_group = imperial_group
 			culture_group = kislevite_group
 			culture_group = kurgan_group
-			culture_group = nipponese_group
 			culture_group = norscan_group
-			culture_group = old_imperial_group
-			culture_group = tilean_group
+			culture_group = orient_group
+			culture_group = sanguine_group
 			culture_group = sartosan_group
+			culture_group = tilean_group
 		}
 	}
 	inherit_chance = 100
@@ -177,7 +177,7 @@ creature_goblin = {
 	martial = -2
 
 	# racism	
-	same_opinion = 40	#goblins heat each other and are hated by everyone
+	same_opinion = 40	#goblins hate each other and are hated by everyone
 	general_opinion = -50
 	
 	ai_rationality = -20
