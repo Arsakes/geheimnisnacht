@@ -1,0 +1,99 @@
+#Bretonnia
+#Major City-States and Trade Centres
+
+technology = {
+	titles = {
+		d_languille
+		d_couronne
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 4.0
+		economy = 4.0
+		culture = 4.0
+	}
+}
+
+#Minor City-States and Trade Centres
+
+technology = {
+	titles = {
+		d_bastonne
+		d_parravon
+		d_montfort
+		d_lyonesse
+		d_normagne
+		d_gisoreux
+		d_carcassonne
+		d_brionne
+		d_quierzy
+		d_montmagnac
+		d_nar
+		d_pinot
+		d_bordeleaux
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+
+#Main Lands
+technology = {
+	titles = {
+		d_franchelande
+		d_la_marche
+		d_quenelles
+		d_ausanne
+		d_marche_orcale
+		d_cuileux
+		d_chinon
+		d_cherry
+		d_mousillon
+		d_potevenne
+		d_armorique
+		d_grand_senlou
+		d_armagne
+		d_guerac
+		d_grisoeurs
+		d_glanborielle
+		d_morency
+		d_aix
+		d_charboneau
+		d_alemoges
+		d_chalons
+		d_toussaint
+		d_ancon
+		d_artois
+		d_arden
+		d_aquitaine
+		d_eprenois
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+}

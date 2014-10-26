@@ -1,25 +1,3 @@
-#Lustria
-
-technology = {
-	titles = {
-		d_mazur
-		d_dtella
-		d_typhlos
-		d_dorado
-	}
-
-	769 = {
-		military = 0.5
-		economy = 0.5
-		culture = 0.5
-	}
-		
-	1337 = {
-		military = 5.0
-		economy = 5.0
-		culture = 5.0
-	}
-}
 
 #Naggaroth & Ulthuan
 

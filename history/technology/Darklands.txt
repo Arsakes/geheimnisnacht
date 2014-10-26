@@ -1,0 +1,95 @@
+#Darklands
+#Major City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_zharr_naggrund
+		d_unzkulak
+		d_azgorh
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+#Minor City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_karag_dum
+		d_skald
+		d_vorag
+		d_dawizag
+		d_chargrim
+		d_ruinmarch
+		d_drazhdrin
+		d_grimaz_orrud
+		d_gazan_haraz
+		d_gazan_zharr
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+}
+
+
+#Main Lands
+technology = {
+	titles = {
+		d_howl
+		d_nagrazzor
+		d_cathay_kadrin
+		d_karag_zorn
+		d_zorn_uzkul
+		d_ossia
+		d_baartak
+		d_gazan
+		d_hamu
+		d_talbar
+		d_ugra
+		d_drakenmoor
+		d_kirulg
+		d_harazi
+		d_zutvonal
+		d_blackwater
+		d_zharrud
+		d_karish
+		d_nagash
+		d_mazur
+		d_dtella
+		d_typhlos
+		d_dorado
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+}

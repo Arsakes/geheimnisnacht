@@ -1,0 +1,120 @@
+#Tilea and Estalia
+#Major City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_miragliano
+		d_the_magritate
+		d_luccini
+		d_remas
+		d_verezzo
+		d_bilbali
+		
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#Minor City-States and Trade Centres
+
+technology = {
+	titles = {
+		d_monte_castello
+		d_trantio
+		d_pavona
+		d_sartosa
+		d_tobaro
+		d_barduila
+		d_santa_clair
+		d_diamenterra
+		d_santoyo
+
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 4.0
+		economy = 4.0
+		culture = 4.0
+	}
+}
+
+#Main Lands
+technology = {
+	titles = {
+		d_pavezzano
+		d_aldente
+		d_luparno
+		d_firento
+		d_scorcio
+		d_perigua
+		d_urbimo
+		d_astiano
+		d_bragante
+		d_tartantia
+		d_el_toboso
+		d_garnata
+		d_portua
+		d_trastamara
+		d_larra
+		d_cantabrona
+		d_las_marcas
+		d_navana
+		d_piraneo
+		d_fierroso
+		d_osborna
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+#Poor lands
+
+technology = {
+	titles = {
+		d_finterra
+		d_organza
+		d_irrana
+		d_siren_isles
+		d_nacary_isles
+		d_gaula
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 2.5
+		economy = 2.5
+		culture = 2.5
+	}
+}

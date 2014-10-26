@@ -1,0 +1,114 @@
+#Darklands
+#Major City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_drakanzang
+		d_vala_azril_ungol
+		d_karaz_a_karak
+		d_ekrund
+		d_barak_varr
+		d_karak_ungor
+		d_zhufbar
+		d_karak_kadrin
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}
+
+#Minor City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_naglifell
+		d_hjorix
+		d_zhufbar_barak
+		d_karaskadi
+		d_felskagi
+		d_dharkwyr
+		d_eragol
+		d_karak_dum
+		d_ekzfilazanar
+		d_fneldurk
+		d_korv_ozero
+		d_haz_drazh
+		d_karak_azgalzul
+		d_grombar
+		d_kadridaw
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+
+#Main Lands
+technology = {
+	titles = {
+		d_grontfell
+		d_grontizar
+		d_vulkrond
+		d_zardrak
+		d_fyriksfeld
+		d_grungozar
+		d_kadazgul
+		d_varag_kadrin
+		d_barodrin
+		d_dwardin
+		d_karag_azril
+		d_komar
+		d_kogan
+		d_karag_wyr
+		d_azgarazar
+		d_zifilibar
+		d_karak_norn
+		d_varnan
+		d_gromzikar
+		d_kol
+		d_dokuvalk
+		d_krombar
+		d_zarkadrin
+		d_kadrin_gorm
+		d_darnovark
+		d_hirn
+		d_vlagaar
+		d_zarazri
+		d_karak_opulim
+		d_karaz_garaz_a_bryn
+		d_langkt_orrud
+		d_karag_shathur
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+}

@@ -1,0 +1,94 @@
+#Border Princes and Badlands
+#Major City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_sarngul
+		d_khypria
+		d_ionica
+		d_schwarzwald
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 3.0
+		economy = 3.0
+		culture = 3.0
+	}
+}
+
+#Minor City-States and Trade Centres
+
+technology = {
+	titles = {
+
+		d_mirasino
+		d_mourkain
+		d_rhothira
+		d_drakon_coast
+		d_scarosio
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+}
+
+
+#Main Lands
+technology = {
+	titles = {
+		d_kampos
+		d_wilderwald
+		d_mirkenwald
+		d_gyrn
+		d_clazomene
+		d_kolluk
+		d_haflok
+		d_ophira
+		d_odris
+		d_bebrikia
+		d_starnek
+		d_fatandira
+		d_masse
+		d_hvagir
+		d_the_galat
+		d_kharnos
+		d_skiros
+		
+		d_troas
+		d_anksary
+		d_lodring
+		d_greater_khernarch
+		d_qarum
+		d_hadastim
+		d_capra
+		d_marash
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+	}
+
+	2600 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+}
