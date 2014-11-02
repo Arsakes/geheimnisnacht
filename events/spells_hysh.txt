@@ -202,7 +202,7 @@ character_event = {
        name = OK
    }
 }
-#body of light
+#Body of Light
 character_event = {
    id = hysh.11
    picture = GFX_evt_spell_hysh

@@ -2,7 +2,7 @@
 # 
 # @author Pietrko <p.l.stepnicki@gmail.com>
 # @version 0.1.0
-# @compatibility 2.1.6
+# @compatibility 2.2.0
 # @modified_on 0.1.2
 # @description  Warhammer mod custom duel engine
 # @wip
@@ -424,10 +424,17 @@ character_event = {
     is_triggered_only = yes
     
     immediate = {
+        set_character_flag = debug_duel_defender # FIXME DEBUG ONLY
         add_character_modifier = {
             name = battlefield_fight
             duration = 10
         }
+	FROM = {
+            add_character_modifier = {
+                name = battlefield_fight
+                duration = 10
+            }
+	}
         # Remove targeting information (just from the fighter)
         remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
         reverse_remove_opinion = { who = FROM modifier = opinion_battle_duel_target }
@@ -487,7 +494,6 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_1B"
         hidden_tooltip = { FROM = { character_event = { id = duelengine.5 } } }        
-        remove_character_modifier = battlefield_fight
         if = {
             limit = { NOT = { trait = craven } }
             random = {
@@ -576,6 +582,7 @@ character_event = {
     
     immediate = {
        # set stats
+       set_character_flag = debug_duel_attacker # FIXME DEBUG ONLY
        character_event = { id = duelengine.3 }
     }
     option = {
@@ -630,7 +637,7 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_1B"
         hidden_tooltip = { FROM = { character_event = { id = duelengine.5 } } }
-        remove_character_modifier = battlefield_fight
+
         if = {
             limit = { NOT = { trait = craven } }
             random = {
@@ -1272,9 +1279,13 @@ character_event = {
     border = "GFX_event_normal_frame_war"
     is_triggered_only = yes
     
+    immediate = { 
+        remove_character_modifier = battlefield_fight
+        FROM = { remove_character_modifier = battlefield_fight }
+    }
     option = {
         name = "EVTOPT_DUELENGINE_5A"
-        remove_character_modifier = battlefield_fight
+
         morale = 0.1
         # trigger clearing event
         hidden_tooltip = {
@@ -1336,14 +1347,14 @@ character_event = {
         }
         # hysh effect: flare
         if = { 
-            limit = { has_character_flag = duel_effect_flare }
+            limit = { has_character_flag = duel_effect_weaken2 }
             change_variable = { which = "duel_att_mod" value = -1 }
             change_variable = { which = "duel_def_mod" value = -1 }
         }
         # hysh effect: radiant weapon
         if = { 
             limit = { 
-                has_character_flag = duel_effect_radiant_weapon
+                has_character_flag = duel_effect_chaos_bane
                 FROMFROM = { religion_group = chaos_gods_group } 
             } 
             change_variable = { which = "duel_att_mod" value = 2 }
@@ -1351,7 +1362,7 @@ character_event = {
         # body of light
         if = { 
             limit = { 
-                has_character_flag = duel_effect_body_of_light
+                has_character_flag = duel_effect_defence_bonus2
             } 
             change_variable = { which = "duel_def_mod" value = 2 }
         }
@@ -1416,13 +1427,17 @@ character_event = {
         clr_character_flag = duel_effect_defend
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
-        clr_character_flag = duel_effect_body_of_light
-        clr_character_flag = duel_effect_flare
-        clr_character_flag = duel_effect_radiant_weapon
+        clr_character_flag = duel_effect_defence_bonus2
+        clr_character_flag = duel_effect_weaken2
+        clr_character_flag = duel_effect_chaos_bane 
  
         clr_character_flag = duel_move_combat
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
+
+
+        clr_character_flag = debug_duel_attacker # FIXME DEBUG ONLY
+        clr_character_flag = debug_duel_defender # FIXME DEBUG ONLY
     }
 }
 
@@ -1459,7 +1474,9 @@ character_event = {
 # FROMFROM - enemy
 # FROM = ROOT = us
 #
+##################
 # Round draw
+##################
 character_event = { 
     id = duelengine.20
     desc = "EVTDESC_DUELENGINE_20"
@@ -1472,11 +1489,11 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
-        custom_tooltip = { text = TOOLTIP_defence_stance }
-
         set_character_flag = duel_effect_defend
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_defence_stance }
+        }
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1496,9 +1513,10 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        FROMFROM = { 
+           character_event = { id = duelengine.4 tooltip = TOOLTIP_attack_stance }
+        }
         # high hp - higher chances to attack
         ai_chance = { 
             factor = 2
@@ -1517,47 +1535,67 @@ character_event = {
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
+    # spell one
     option = {
         name = "EVTOPT_DUELENGINE_20D"
         trigger = { has_character_flag = duel_move_magic_spell }
 
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.6 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell two
     option = {
         name = "EVTOPT_DUELENGINE_20E"
         trigger = { has_character_flag = duel_move_magic_spell }
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.7 }}
-       
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell three
     option = {
         name = "EVTOPT_DUELENGINE_20F"
         trigger = { has_character_flag = duel_move_magic_spell }
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.8 }}
-     
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-     option = {
+    # spell four
+    option = {
         name = "EVTOPT_DUELENGINE_20G"
         trigger = { has_character_flag = duel_move_magic_spell }
        
-        # special spell dispatcher
+        # special spell dispatcher here tooltip is decided
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.9 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1584,7 +1622,9 @@ character_event = {
         ai_chance = { factor = 4 }
     }
 }
+##################
 # Round your win
+##################
 character_event = {
     id = duelengine.21
     desc = "EVTDESC_DUELENGINE_21"
@@ -1596,11 +1636,10 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
-        custom_tooltip = { text = TOOLTIP_defence_stance }
-
         set_character_flag = duel_effect_defend
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_defence_stance }
+        }
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1620,9 +1659,10 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_attack_stance }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
         ai_chance = { 
             factor = 2
@@ -1647,7 +1687,12 @@ character_event = {
 
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.6 }}
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
+            }
+        }
 
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1658,8 +1703,12 @@ character_event = {
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.7 }}
-       
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1669,8 +1718,12 @@ character_event = {
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.8 }}
-     
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1680,8 +1733,12 @@ character_event = {
        
         # special spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.9 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1709,7 +1766,9 @@ character_event = {
     }
 
 }
+##################
 # Round lost
+##################
 character_event = { 
     id = duelengine.22
     desc = "EVTDESC_DUELENGINE_22"
@@ -1720,12 +1779,12 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
- 
-        custom_tooltip = { text = TOOLTIP_defence_stance }
 
         set_character_flag = duel_effect_defend
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_defence_stance }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1745,9 +1804,10 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_attack_stance }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
         # high hp - higher chances to attack
         ai_chance = { 
             factor = 2
@@ -1772,8 +1832,12 @@ character_event = {
 
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.6 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1783,8 +1847,12 @@ character_event = {
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.7 }}
-       
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1794,8 +1862,12 @@ character_event = {
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.8 }}
-     
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1805,8 +1877,12 @@ character_event = {
        
         # special spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.9 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1834,7 +1910,9 @@ character_event = {
     }
 
 }
+##################
 # Round draw
+##################
 character_event = { 
     id = duelengine.23
     desc = "EVTDESC_DUELENGINE_23"
@@ -1847,11 +1925,10 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
-        custom_tooltip = { text = TOOLTIP_defence_stance }
-
         set_character_flag = duel_effect_defend
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_defence_stance }
+        }
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1871,9 +1948,9 @@ character_event = {
         trigger = { has_character_flag = duel_move_combat }
         
         set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        FROMFROM = { 
+            character_event = { id = duelengine.4 tooltip = TOOLTIP_attack_stance }
+        }
         # high hp - higher chances to attack
         ai_chance = { 
             factor = 2
@@ -1898,8 +1975,12 @@ character_event = {
 
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.6 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1909,8 +1990,12 @@ character_event = {
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.7 }}
-       
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1920,8 +2005,12 @@ character_event = {
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.8 }}
-     
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1931,8 +2020,12 @@ character_event = {
        
         # special spell dispatcher
         # trickery with FROMFROM see magicengine
-        FROMFROM = { character_event = { id = magicengine.9 }}
-
+        if = { 
+            limit = { trait = lore_light }
+            FROMFROM = { 
+                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
+            }
+        }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1962,7 +2055,6 @@ character_event = {
 #####################################################################
 #
 # DUEL OUTCOMES
-#
 #
 #####################################################################
 character_event = { 

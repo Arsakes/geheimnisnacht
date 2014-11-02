@@ -116,13 +116,15 @@ EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
 EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledName] has managed to escape!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
 #
-# DUEL TOOLTIPS
-TOOLTIP_attack_stance;Improves attack: §GAtt:+1§!, but lowers defence: §RDef:-1§!.;;;;;;;;;;;;;x
-TOOLTIP_defence_stance;Lowers attack: §RAtt:-1§!, but improves defence: §GDef:+1§!.;;;;;;;;;;;;;x
+# DUEL TOOLTIPS TODO add character for colorful text here
+TOOLTIP_attack_stance;Improves attack: 1+ Att, but lowers defence: -1 Def.;;;;;;;;;;;;;x
+TOOLTIP_defence_stance;Lowers attack: -1 Att, but improves defence:+1 Def.;;;;;;;;;;;;;x
 #
 # MAGIC ENGINE namespace = magicengine
-TOOLTIP_burning_gaze;Burning Gaze - damages with §KS 4§!, costs §B3 mp§!.;;;;;;;;;;;;;x
-TOOLTIP_body_of_light;Body of Light - improves defence §GDef +2§!, costs §B4 mp§!.;;;;;;;;;;;;;x
+TOOLTIP_hysh_ds1;Burning Gaze - damages with: S 6, costs: 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_hysh_ds2;Body of Light - improves defence: +2 Def, costs: 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_hysh_ds3;Healing Energy - heals the character: +(1-3) hp, 4 mp .;;;;;;;;;;;;;x
+TOOLTIP_hysh_ds4;Radiant Weapon - character weapon becomes blessed: +2 Att against chaos, 2 mp.;;;;;;;;;;;;;x
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
