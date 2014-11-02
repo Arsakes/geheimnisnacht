@@ -1555,15 +1555,23 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20D"
         trigger = { has_character_flag = duel_move_magic_spell }
-
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
+        
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds1 }
+        }
+
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1571,15 +1579,23 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20E"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds2 }
+        }
+
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1587,15 +1603,23 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20F"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds3 }
+        }
+
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1603,15 +1627,23 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_20G"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
        
         # special spell dispatcher here tooltip is decided
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds4 }
+        }
+
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
@@ -1637,6 +1669,7 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+
 }
 ##################
 # Round your win
@@ -1647,15 +1680,16 @@ character_event = {
     picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
+
     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
         set_character_flag = duel_effect_defend
+
         custom_tooltip = { text = TOOLTIP_defence_stance }
         FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1692,67 +1726,66 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 }}}
+        FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
+    # spell one
     option = {
         name = "EVTOPT_DUELENGINE_20D"
         trigger = { has_character_flag = duel_move_magic_spell }
-
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
+        
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
-
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell two
     option = {
         name = "EVTOPT_DUELENGINE_20E"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell three
     option = {
         name = "EVTOPT_DUELENGINE_20F"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-     option = {
+    # spell four
+    option = {
         name = "EVTOPT_DUELENGINE_20G"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
        
-        # special spell dispatcher
+        # special spell dispatcher here tooltip is decided
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1790,15 +1823,16 @@ character_event = {
     is_triggered_only = yes
     picture = "GFX_evt_duel4"
     border = GFX_event_normal_frame_war
-     # CASE 1 MEELE COMBAT
+
+    # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
-
+ 
         set_character_flag = duel_effect_defend
+
         custom_tooltip = { text = TOOLTIP_defence_stance }
         FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1839,62 +1873,62 @@ character_event = {
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
+    # spell one
     option = {
         name = "EVTOPT_DUELENGINE_20D"
         trigger = { has_character_flag = duel_move_magic_spell }
-
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
+        
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell two
     option = {
         name = "EVTOPT_DUELENGINE_20E"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell three
     option = {
         name = "EVTOPT_DUELENGINE_20F"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-     option = {
+    # spell four
+    option = {
         name = "EVTOPT_DUELENGINE_20G"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
        
-        # special spell dispatcher
+        # special spell dispatcher here tooltip is decided
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -1932,16 +1966,16 @@ character_event = {
     is_triggered_only = yes
     picture = "GFX_evt_duel0"
     border = GFX_event_normal_frame_war
-     
+
     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
         set_character_flag = duel_effect_defend
+
         custom_tooltip = { text = TOOLTIP_defence_stance }
         FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
         # low hp - higher chances to defend
         ai_chance = { 
             factor = 2
@@ -1982,62 +2016,62 @@ character_event = {
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
+    # spell one
     option = {
         name = "EVTOPT_DUELENGINE_20D"
         trigger = { has_character_flag = duel_move_magic_spell }
-
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
+        
         # offensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.6 tooltip = TOOLTIP_hysh_ds1 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell two
     option = {
         name = "EVTOPT_DUELENGINE_20E"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
         
         # defensive spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.7 tooltip = TOOLTIP_hysh_ds2 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+    # spell three
     option = {
         name = "EVTOPT_DUELENGINE_20F"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
  
         # buff spell dispatcher
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.8 tooltip = TOOLTIP_hysh_ds3 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
-     option = {
+    # spell four
+    option = {
         name = "EVTOPT_DUELENGINE_20G"
         trigger = { has_character_flag = duel_move_magic_spell }
+        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
        
-        # special spell dispatcher
+        # special spell dispatcher here tooltip is decided
         # trickery with FROMFROM see magicengine
         if = { 
             limit = { trait = lore_light }
-            FROMFROM = { 
-                character_event = { id = magicengine.9 tooltip = TOOLTIP_hysh_ds4 }
-            }
+            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
@@ -2064,6 +2098,7 @@ character_event = {
         FROMFROM = { character_event = { id = duelengine.4 }}
         ai_chance = { factor = 4 }
     }
+
 }
 #####################################################################
 #

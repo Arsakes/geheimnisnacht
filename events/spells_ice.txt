@@ -173,3 +173,8 @@ character_event = {
 #              BATTLE SPELLS
 #
 ###################################################
+#
+# Offensive Shardstorm
+# Deffensive Wall of Ice
+# Buff Permafrost - movement is slower (-1 Attack for both, easier escape)
+# Special Ice Maiden Kiss
