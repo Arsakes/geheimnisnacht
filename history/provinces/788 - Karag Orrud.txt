@@ -5,10 +5,10 @@ title = c_karag_orrud
 
 # Settlements
 max_settlements = 2
-b_karag_orrud = castle
-b_grimshank = city
-#b_barak_ungor_orrud = castle
-#b_wutram_ungor = temple
+b_karag_orrud = tribal
+b_grimshank = tribal
+#b_barak_ungor_orrud = tribal
+#b_wutram_ungor = tribal
 
 # Misc
 culture = goblin_main

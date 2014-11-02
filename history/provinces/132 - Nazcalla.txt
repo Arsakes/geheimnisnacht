@@ -5,9 +5,9 @@ title = c_nazcalla
 
 # Settlements
 max_settlements = 3
-b_ozdal = castle
-b_tarra_ulktuk = temple
-#b_iertiborg = castle
+b_ozdal = tribal
+b_tarra_ulktuk = tribal
+#b_iertiborg = tribal
 
 # Misc
 culture = baersonling

@@ -5,10 +5,10 @@ title = c_adygea
 
 # Settlements
 max_settlements = 4
-b_adygea = castle
-b_byrandei = temple
-#b_sorus = castle
-#b_idel = temple
+b_adygea = tribal
+b_byrandei = tribal
+#b_sorus = tribal
+#b_idel = tribal
 
 # Misc
 culture = orc_main

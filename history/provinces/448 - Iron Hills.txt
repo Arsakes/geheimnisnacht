@@ -5,9 +5,9 @@ title = c_iron_hills
 
 # Settlements
 max_settlements = 3
-b_iron_pike = castle
-#b_ribwich = city
-#b_hamad = temple
+b_iron_pike = tribal
+#b_ribwich = tribal
+#b_hamad = tribal
 
 # Misc
 culture = orc_main

@@ -5,8 +5,8 @@ title = c_yarsk
 
 # Settlements
 max_settlements = 2
-b_yarsk = castle
-#b_ishan = city
+b_yarsk = tribal
+#b_ishan = tribal
 
 # Misc
 culture = yusak

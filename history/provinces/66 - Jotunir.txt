@@ -5,9 +5,9 @@ title = c_jotunir
 
 # Settlements
 max_settlements = 3
-b_jotunirvik = castle
-b_durenheim = castle
-#b_korelsborg = city
+b_jotunirvik = tribal
+b_durenheim = tribal
+#b_korelsborg = tribal
 
 # Misc
 culture = sarl

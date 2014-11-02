@@ -5,9 +5,9 @@ title = c_kaldr
 
 # Settlements
 max_settlements = 3
-b_kjoleheim = castle
-b_jardensleit = city
-#b_sinuvik = castle
+b_kjoleheim = tribal
+b_jardensleit = tribal
+#b_sinuvik = tribal
 
 # Misc
 culture = varg

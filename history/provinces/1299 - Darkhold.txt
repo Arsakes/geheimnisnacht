@@ -5,10 +5,10 @@ title = c_darkhold
 
 # Settlements
 max_settlements = 4
-b_darkhold = castle
-b_dooma = temple
-#b_darium = castle
-#b_arrechi = castle
+b_darkhold = tribal
+b_dooma = tribal
+#b_darium = tribal
+#b_arrechi = tribal
 
 # Misc
 culture = goblin_main

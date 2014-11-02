@@ -5,9 +5,9 @@ title = c_zetisu
 
 # Settlements
 max_settlements = 3
-b_permin = castle
-b_mikil = temple
-#b_skorul = castle
+b_permin = tribal
+b_mikil = tribal
+#b_skorul = tribal
 
 # Misc
 culture = dolgan

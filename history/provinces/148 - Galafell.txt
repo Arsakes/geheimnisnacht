@@ -5,8 +5,8 @@ title = c_galafell
 
 # Settlements
 max_settlements = 2
-b_kulum_haugr = temple
-#b_abogienvik = castle
+b_kulum_haugr = tribal
+#b_abogienvik = tribal
 
 # Misc
 culture = sarl

@@ -5,10 +5,10 @@ title = c_jaols_apex
 
 # Settlements
 max_settlements = 4
-b_jaols_apex = castle
-b_jurgen_dys = castle
-#b_yurtib = temple
-#b_yrlvin = city
+b_jaols_apex = tribal
+b_jurgen_dys = tribal
+#b_yurtib = tribal
+#b_yrlvin = tribal
 
 # Misc
 culture = graeling
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_yurtib = temple
+	b_yurtib = tribal
 }

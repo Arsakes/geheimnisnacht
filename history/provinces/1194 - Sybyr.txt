@@ -5,8 +5,8 @@ title = c_sybyr
 
 # Settlements
 max_settlements = 2
-b_sybyr = castle
-#b_evinka = city
+b_sybyr = tribal
+#b_evinka = tribal
 
 # Misc
 culture = yusak

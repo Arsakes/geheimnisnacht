@@ -5,8 +5,8 @@ title = c_tanahk
 
 # Settlements
 max_settlements = 2
-b_tanahk = castle
-b_shaush = city
+b_tanahk = tribal
+b_shaush = tribal
 
 # Misc
 culture = goblin_main

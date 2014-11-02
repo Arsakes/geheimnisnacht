@@ -5,12 +5,12 @@ title = c_skorlm
 
 # Settlements
 max_settlements = 6
-b_skorlm = castle
-b_ulfennik = castle
-b_forest_of_fyrul = temple
-#b_urgathastad = city
-#b_quedefjord = castle
-#b_skuttiberg = temple
+b_skorlm = tribal
+b_ulfennik = tribal
+b_forest_of_fyrul = tribal
+#b_urgathastad = tribal
+#b_quedefjord = tribal
+#b_skuttiberg = tribal
 
 # Misc
 culture = skaeling
@@ -20,9 +20,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_urgathastad = city
+	b_urgathastad = tribal
 }
 
 2500.1.1 = {
-	b_quedefjord = castle
+	b_quedefjord = tribal
 }

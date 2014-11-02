@@ -5,9 +5,9 @@ title = c_voltag
 
 # Settlements
 max_settlements = 3
-b_voltag = castle
-b_nurasikil = castle
-#b_fjorivik = castle
+b_voltag = tribal
+b_nurasikil = tribal
+#b_fjorivik = tribal
 
 # Misc
 culture = graeling
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_fjorivik = castle
+	b_fjorivik = tribal
 }

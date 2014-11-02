@@ -5,9 +5,9 @@ title = c_bagstay
 
 # Settlements
 max_settlements = 3
-b_bagstay = castle
-#b_swaddi = temple
-#b_lisa = city
+b_bagstay = tribal
+#b_swaddi = tribal
+#b_lisa = tribal
 
 # Misc
 culture = kvellig

@@ -5,10 +5,10 @@ title = c_tivar_peak
 
 # Settlements
 max_settlements = 4
-b_fielljebu = castle
-b_tivar_peak = temple
-#b_jotunvik = city
-#b_karlsuraborg = castle
+b_fielljebu = tribal
+b_tivar_peak = tribal
+#b_jotunvik = tribal
+#b_karlsuraborg = tribal
 
 # Misc
 culture = baersonling

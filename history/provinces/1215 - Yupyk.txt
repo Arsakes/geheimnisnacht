@@ -5,8 +5,8 @@ title = c_yupyk
 
 # Settlements
 max_settlements = 2
-b_oirat = castle
-b_laeti = temple
+b_oirat = tribal
+b_laeti = tribal
 
 # Misc
 culture = kvellig

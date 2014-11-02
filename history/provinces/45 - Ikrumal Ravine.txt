@@ -5,10 +5,10 @@ title = c_ikrumal_ravine
 
 # Settlements
 max_settlements = 4
-b_kraka_hurylikal = castle
-b_khazid_ikrumal = castle
-#b_grung_wyruvik = city
-#b_tiroborg = temple
+b_kraka_hurylikal = tribal
+b_khazid_ikrumal = tribal
+#b_grung_wyruvik = tribal
+#b_tiroborg = tribal
 
 # Misc
 culture = dwarf_chaos

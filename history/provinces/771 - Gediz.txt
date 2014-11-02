@@ -5,8 +5,8 @@ title = c_gediz
 
 # Settlements
 max_settlements = 2
-b_gediz = castle
-#b_diavarder = city
+b_gediz = tribal
+#b_diavarder = tribal
 
 # Misc
 culture = orc_main

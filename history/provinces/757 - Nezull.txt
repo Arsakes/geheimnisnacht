@@ -5,9 +5,9 @@ title = c_nezull
 
 # Settlements
 max_settlements = 3
-b_khazid_nezull = castle
-#b_grung_nezull = city
-#b_ekzobar_yannk = city
+b_khazid_nezull = tribal
+#b_grung_nezull = tribal
+#b_ekzobar_yannk = tribal
 
 # Misc
 culture = orc_main

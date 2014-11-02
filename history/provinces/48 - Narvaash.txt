@@ -5,10 +5,10 @@ title = c_narvaash
 
 # Settlements
 max_settlements = 4
-b_arothburg = castle
-b_narvaash = city
-#b_fyjorum = city
-#b_raknyl = temple
+b_arothburg = tribal
+b_narvaash = tribal
+#b_fyjorum = tribal
+#b_raknyl = tribal
 
 # Misc
 culture = varg
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2500.1.1 = {
-	b_fyjorum = city
+	b_fyjorum = tribal
 }

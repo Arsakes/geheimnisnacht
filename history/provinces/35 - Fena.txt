@@ -5,10 +5,10 @@ title = c_fena
 
 # Settlements
 max_settlements = 4
-b_fenavyl = castle
-#b_fuunivyls_grasp = temple
-#b_lytervik = city
-#b_lysial = temple
+b_fenavyl = tribal
+#b_fuunivyls_grasp = tribal
+#b_lytervik = tribal
+#b_lysial = tribal
 
 # Misc
 culture = skaeling
@@ -18,9 +18,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_fuunivyls_grasp = temple
+	b_fuunivyls_grasp = tribal
 }
 
 2500.1.1 = {
-	b_lytervik = city
+	b_lytervik = tribal
 }

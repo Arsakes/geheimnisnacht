@@ -5,9 +5,9 @@ title = c_inanna
 
 # Settlements
 max_settlements = 3
-b_inanna = castle
-b_virmir = castle
-#b_rappar = temple
+b_inanna = tribal
+b_virmir = tribal
+#b_rappar = tribal
 
 # Misc
 culture = orc_main

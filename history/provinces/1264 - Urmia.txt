@@ -5,8 +5,8 @@ title = c_urmia
 
 # Settlements
 max_settlements = 2
-b_aralan = castle
-#b_zastdom = city
+b_aralan = tribal
+#b_zastdom = tribal
 
 # Misc
 culture = dwarf_chaos

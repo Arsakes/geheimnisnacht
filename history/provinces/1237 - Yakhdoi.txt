@@ -5,10 +5,10 @@ title = c_yakhdoi
 
 # Settlements
 max_settlements = 4
-b_plagaz = castle
-b_panagyuriski = temple
-#b_nyolc = castle
-#b_felaus = city
+b_plagaz = tribal
+b_panagyuriski = tribal
+#b_nyolc = tribal
+#b_felaus = tribal
 
 # Misc
 culture = hastling

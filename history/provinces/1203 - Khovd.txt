@@ -5,8 +5,8 @@ title = c_khovd
 
 # Settlements
 max_settlements = 2
-b_khovd = castle
-#b_ulch = temple
+b_khovd = tribal
+#b_ulch = tribal
 
 # Misc
 culture = aghol

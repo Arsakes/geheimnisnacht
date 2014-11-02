@@ -5,8 +5,8 @@ title = c_orgris
 
 # Settlements
 max_settlements = 2
-b_orgris = castle
-b_balgar = city
+b_orgris = tribal
+b_balgar = tribal
 
 # Misc
 culture = dwarf_chaos

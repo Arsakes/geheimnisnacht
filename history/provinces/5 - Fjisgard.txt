@@ -5,10 +5,10 @@ title = c_fjisgard
 
 # Settlements
 max_settlements = 4
-b_fjisgard = castle
-b_poyrvik = temple
-b_fikslburhg = city
-#b_teravumivik = temple
+b_fjisgard = tribal
+b_poyrvik = tribal
+b_fikslburhg = tribal
+#b_teravumivik = tribal
 
 # Misc
 culture = graeling
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_teravumivik = temple
+	b_teravumivik = tribal
 }

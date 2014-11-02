@@ -5,10 +5,10 @@ title = c_haflok
 
 # Settlements
 max_settlements = 4
-b_mirstadt = castle
-#b_pinossa = city
-#b_gundoakos = temple
-#b_bannestag = castle
+b_mirstadt = tribal
+#b_pinossa = tribal
+#b_gundoakos = tribal
+#b_bannestag = tribal
 
 # Misc
 culture = orc_main

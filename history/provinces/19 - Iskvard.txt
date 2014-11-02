@@ -5,11 +5,11 @@ title = c_iskvard
 
 # Settlements
 max_settlements = 5
-b_iskvard = castle
-b_goslor = temple
-#b_tralvik = city
-#b_loiot = city
-#b_bomgang = castle
+b_iskvard = tribal
+b_goslor = tribal
+#b_tralvik = tribal
+#b_loiot = tribal
+#b_bomgang = tribal
 
 # Misc
 culture = bjornling
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_tralvik = city
+	b_tralvik = tribal
 }

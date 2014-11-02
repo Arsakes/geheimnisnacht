@@ -5,7 +5,7 @@ title = c_khurunbur
 
 # Settlements
 max_settlements = 1
-b_khurunbur = castle
+b_khurunbur = tribal
 
 # Misc
 culture = mung

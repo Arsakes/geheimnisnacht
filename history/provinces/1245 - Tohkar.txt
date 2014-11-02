@@ -5,9 +5,9 @@ title = c_tohkar
 
 # Settlements
 max_settlements = 3
-b_tohkar = castle
-b_harom = temple
-#b_forrad = castle
+b_tohkar = tribal
+b_harom = tribal
+#b_forrad = tribal
 
 # Misc
 culture = tokmar

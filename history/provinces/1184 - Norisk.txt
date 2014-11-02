@@ -5,8 +5,8 @@ title = c_norisk
 
 # Settlements
 max_settlements = 2
-b_norisk = castle
-#b_hyrog = city
+b_norisk = tribal
+#b_hyrog = tribal
 
 # Misc
 culture = yusak

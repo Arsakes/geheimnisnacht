@@ -5,9 +5,9 @@ title = c_erkum
 
 # Settlements
 max_settlements = 3
-b_wall_of_lurtum = castle
-b_erkumvik = city
-b_dys_froedhi = temple
+b_wall_of_lurtum = tribal
+b_erkumvik = tribal
+b_dys_froedhi = tribal
 
 # Misc
 culture = varg

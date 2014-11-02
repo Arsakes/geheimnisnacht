@@ -5,8 +5,8 @@ title = c_tuva
 
 # Settlements
 max_settlements = 2
-b_tuva = castle
-b_chukokta = city
+b_tuva = tribal
+b_chukokta = tribal
 
 # Misc
 culture = yusak

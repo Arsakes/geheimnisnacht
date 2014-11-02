@@ -5,7 +5,7 @@ title = c_mount_hellspire
 
 # Settlements
 max_settlements = 1
-b_mount_hellspire = castle
+b_mount_hellspire = tribal
 
 # Misc
 culture = graeling

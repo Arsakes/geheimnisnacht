@@ -5,8 +5,8 @@ title = c_mador
 
 # Settlements
 max_settlements = 2
-b_mador = castle
-#b_nedhri = temple
+b_mador = tribal
+#b_nedhri = tribal
 
 # Misc
 culture = gharhar

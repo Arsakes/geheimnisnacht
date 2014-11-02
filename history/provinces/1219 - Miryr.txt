@@ -5,8 +5,8 @@ title = c_miryr
 
 # Settlements
 max_settlements = 2
-b_marri = castle
-b_ovcci = temple
+b_marri = tribal
+b_ovcci = tribal
 
 # Misc
 culture = gharhar

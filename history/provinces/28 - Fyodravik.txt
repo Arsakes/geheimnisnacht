@@ -5,10 +5,10 @@ title = c_fyodravik
 
 # Settlements
 max_settlements = 4
-b_fyodravik = castle
-b_lytilvik = city
-#b_cadai = temple
-#b_cytharai = city
+b_fyodravik = tribal
+b_lytilvik = tribal
+#b_cadai = tribal
+#b_cytharai = tribal
 
 # Misc
 culture = bjornling

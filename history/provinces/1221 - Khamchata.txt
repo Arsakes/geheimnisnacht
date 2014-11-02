@@ -5,9 +5,9 @@ title = c_khamchata
 
 # Settlements
 max_settlements = 3
-b_urmurt = castle
-b_yhdeksan = temple
-#b_stader = city
+b_urmurt = tribal
+b_yhdeksan = tribal
+#b_stader = tribal
 
 # Misc
 culture = gharhar

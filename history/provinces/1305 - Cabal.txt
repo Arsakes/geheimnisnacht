@@ -5,8 +5,8 @@ title = c_cabal
 
 # Settlements
 max_settlements = 2
-b_cabal = castle
-b_eriksveld = temple
+b_cabal = tribal
+b_eriksveld = tribal
 
 # Misc
 culture = orc_main

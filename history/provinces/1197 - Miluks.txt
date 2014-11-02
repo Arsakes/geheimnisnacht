@@ -5,9 +5,9 @@ title = c_miluks
 
 # Settlements
 max_settlements = 3
-b_miluks = castle
-#b_seras = temple
-#b_kasar = city
+b_miluks = tribal
+#b_seras = tribal
+#b_kasar = tribal
 
 # Misc
 culture = dolgan

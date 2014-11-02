@@ -5,8 +5,8 @@ title = c_overjul
 
 # Settlements
 max_settlements = 2
-b_juntum = castle
-#b_horakil = temple
+b_juntum = tribal
+#b_horakil = tribal
 
 # Misc
 culture = kul

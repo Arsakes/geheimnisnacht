@@ -171,7 +171,7 @@ character_event = {
     option = {
         name = OK
         random_list = { 
-            50 = { add_trait = wouned }
+            50 = { add_trait = wounded }
             50 = { }
         }
     }

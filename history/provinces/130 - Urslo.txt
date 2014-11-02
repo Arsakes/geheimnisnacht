@@ -5,11 +5,11 @@ title = c_urslo
 
 # Settlements
 max_settlements = 5
-b_urslo = castle
-b_ursfjord = castle
-b_arenheim = city
-#b_totenorg = temple
-#b_eratungard = castle
+b_urslo = tribal
+b_ursfjord = tribal
+b_arenheim = tribal
+#b_totenorg = tribal
+#b_eratungard = tribal
 
 # Misc
 culture = baersonling

@@ -5,11 +5,11 @@ title = c_fyruvals_passage
 
 # Settlements
 max_settlements = 5
-b_fyruvalheim = castle
-b_urgutum = castle
-#b_morenzal = city
-#b_opilium = temple
-#b_karaborg = city
+b_fyruvalheim = tribal
+b_urgutum = tribal
+#b_morenzal = tribal
+#b_opilium = tribal
+#b_karaborg = tribal
 
 # Misc
 culture = graeling
@@ -19,9 +19,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_morenzal = city
+	b_morenzal = tribal
 }
 
 2500.1.1 = {
-	b_opilium = temple
+	b_opilium = tribal
 }

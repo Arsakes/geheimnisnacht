@@ -5,8 +5,8 @@ title = c_zinir
 
 # Settlements
 max_settlements = 2
-b_ziniran = castle
-b_akta = temple
+b_ziniran = tribal
+b_akta = tribal
 
 # Misc
 culture = orc_main

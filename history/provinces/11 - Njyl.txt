@@ -5,9 +5,9 @@ title = c_njyl
 
 # Settlements
 max_settlements = 3
-b_durakul = castle
-b_durakil = temple
-#b_durakal = city
+b_durakul = tribal
+b_durakil = tribal
+#b_durakal = tribal
 
 # Misc
 culture = bjornling
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_durakal = city
+	b_durakal = tribal
 }

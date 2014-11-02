@@ -5,9 +5,9 @@ title = c_fimbulvintr_wood
 
 # Settlements
 max_settlements = 3
-b_fimbulvintr = castle
-b_yorgenstaal = city
-#b_kurns_triumph = castle
+b_fimbulvintr = tribal
+b_yorgenstaal = tribal
+#b_kurns_triumph = tribal
 
 # Misc
 culture = aesling

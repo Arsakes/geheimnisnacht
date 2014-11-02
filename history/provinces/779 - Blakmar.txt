@@ -5,9 +5,9 @@ title = c_blakmar
 
 # Settlements
 max_settlements = 3
-b_blakmar = castle
-#b_marnovo = city
-#b_bihan = temple
+b_blakmar = tribal
+#b_marnovo = tribal
+#b_bihan = tribal
 
 # Misc
 culture = goblin_main

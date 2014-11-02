@@ -5,9 +5,9 @@ title = c_kropot
 
 # Settlements
 max_settlements = 3
-b_morvinik = castle
-b_veidhor = city
-#b_mannskar = temple
+b_morvinik = tribal
+b_veidhor = tribal
+#b_mannskar = tribal
 
 # Misc
 culture = tahmak

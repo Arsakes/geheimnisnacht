@@ -5,10 +5,10 @@ title = c_hjemsokt_skog
 
 # Settlements
 max_settlements = 4
-b_kodradfief = castle
-b_valfisk = temple
-b_dodved = temple
-#b_earzum = city
+b_kodradfief = tribal
+b_valfisk = tribal
+b_dodved = tribal
+#b_earzum = tribal
 
 # Misc
 culture = skaeling

@@ -5,9 +5,9 @@ title = c_staardholm
 
 # Settlements
 max_settlements = 3
-b_staardholm = city
-b_nuravik = temple
-#b_wurkel = castle
+b_staardholm = tribal
+b_nuravik = tribal
+#b_wurkel = tribal
 
 # Misc
 culture = skaeling

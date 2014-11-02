@@ -5,11 +5,11 @@ title = c_kraka_untylum
 
 # Settlements
 max_settlements = 5
-b_kraka_untylum = castle
-b_grung_fyjolum = city
-#b_grung_kazidul = city
-#b_grung_hudum = city
-#b_khazid_haarta = castle
+b_kraka_untylum = tribal
+b_grung_fyjolum = tribal
+#b_grung_kazidul = tribal
+#b_grung_hudum = tribal
+#b_khazid_haarta = tribal
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_grung_kazidul = city
+	b_grung_kazidul = tribal
 }

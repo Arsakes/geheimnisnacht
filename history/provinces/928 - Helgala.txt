@@ -5,7 +5,7 @@ title = c_helgala
 
 # Settlements
 max_settlements = 1
-b_skongen = castle
+b_skongen = tribal
 
 # Misc
 culture = bjornling

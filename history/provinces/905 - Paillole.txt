@@ -5,9 +5,9 @@ title = c_paillole
 
 # Settlements
 max_settlements = 3
-b_paillole = castle
-#b_montbelion = temple
-#b_bois_gisbert = castle
+b_paillole = tribal
+#b_montbelion = tribal
+#b_bois_gisbert = tribal
 
 # Misc
 culture = orc_main

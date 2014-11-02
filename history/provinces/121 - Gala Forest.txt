@@ -5,10 +5,10 @@ title = c_gala_forest
 
 # Settlements
 max_settlements = 4
-b_gala_spa = castle
-b_mikill_haugr = city
-b_untelyvim = temple
-#b_kharsgood = temple
+b_gala_spa = tribal
+b_mikill_haugr = tribal
+b_untelyvim = tribal
+#b_kharsgood = tribal
 
 # Misc
 culture = aesling

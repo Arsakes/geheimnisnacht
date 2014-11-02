@@ -5,10 +5,10 @@ title = c_viksjoergsberg
 
 # Settlements
 max_settlements = 4
-b_fortress_of_viksjoergsberg = castle
-b_ulrikshamm = city
-b_grotti = castle
-#b_fimmborg = city
+b_fortress_of_viksjoergsberg = tribal
+b_ulrikshamm = tribal
+b_grotti = tribal
+#b_fimmborg = tribal
 
 # Misc
 culture = bjornling

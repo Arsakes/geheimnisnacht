@@ -5,9 +5,9 @@ title = c_seltar
 
 # Settlements
 max_settlements = 3
-b_seltar = castle
-#b_dubrus = city
-#b_the_lone_tower = castle
+b_seltar = tribal
+#b_dubrus = tribal
+#b_the_lone_tower = tribal
 
 # Misc
 culture = orc_main

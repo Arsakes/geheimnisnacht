@@ -1,16 +1,14 @@
 # @author pietrko
 # @version 0.1.1
-# @compatibility 2.1.2
-# @descritpion  Castle replacements for nomads Kurgans & Hungs
+# @compatibility 2.2.0
+# @descritpion  Tribal replacements for nomads Kurgans & Hungs
 #
+tribal = {
 
-#
-#
-castle = {
-	# Steppe Barracks, gives less heavy infantry, no pikemen, but some horsies
-	ca_steppe_barracks_1 = {
+	tb_steppe_barracks_1 = {
 		desc = ca_steppe_barracks_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -18,19 +16,21 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_barracks_1
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
+		replaces = tb_war_camp_1
+		trigger = { TECH_CAVALRY = 0 }
+		prestige_cost = 300
 		build_time = 365
-		heavy_infantry = 25
-		light_cavalry = 20
+		archers = 12
+		light_cavalry = 10
 		ai_creation_factor = 105
 		
-		extra_tech_building_start = 1.0
+		extra_tech_building_start = 1
 	}
-	ca_steppe_barracks_2 = {
+	
+	tb_steppe_barracks_2 = {
 		desc = ca_steppe_barracks_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -38,21 +38,25 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_barracks_2
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_steppe_barracks_1
-		gold_cost = 120
+		replaces = tb_war_camp_2
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_barracks_1
+		prestige_cost = 400
 		build_time = 547
-		heavy_infantry = 35
-		light_cavalry = 20
+		archers = 12
+		light_cavalry = 10
 		ai_creation_factor = 104
 		
-		extra_tech_building_start = 1.8
+		convert_to_feudal = ca_steppe_barracks_1
+		convert_to_republic = ct_guard_1
+		
+		extra_tech_building_start = 1.5
 	}
-	ca_steppe_barracks_3 = {
+	
+	tb_steppe_barracks_3 = {
 		desc = ca_steppe_barracks_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -60,24 +64,48 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_barracks_3
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_steppe_barracks_2
-		gold_cost = 200
+		replaces = tb_war_camp_3
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_barracks_2
+		prestige_cost = 500
 		build_time = 730
-		heavy_infantry = 40
-		light_cavalry = 25
+		archers = 12
+		light_cavalry = 10
 		ai_creation_factor = 103
-
-		extra_tech_building_start = 3.0
+		
+		extra_tech_building_start = 2
 	}
-        # 4,5,6 deleted
 	
-	#Steppe Stable, gives light cavalry, horse archers and some heavy cavalry
-	ca_steppe_stable_1 = {
+	tb_steppe_barracks_4 = {
+		desc = ca_steppe_barracks_desc
+		potential = {
+			terrain = steppe
+			FROM = {
+				OR = {
+					culture_group = kurgan_group
+					culture_group = hung_group
+				}
+			}
+		}
+		replaces = tb_war_camp_4
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_barracks_3
+		prestige_cost = 600
+		build_time = 1095
+		archers = 12
+		light_cavalry = 10
+		ai_creation_factor = 102
+		
+		convert_to_feudal = ca_steppe_barracks_2
+		convert_to_republic = ct_guard_2
+		
+		extra_tech_building_start = 2.5
+	}
+	
+	tb_steppe_stable_1 = {
 		desc = ca_steppe_stable_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -85,19 +113,21 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_stable_1
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		gold_cost = 100
+		replaces = tb_practice_range_1
+		trigger = { TECH_CAVALRY = 0 }
+		prestige_cost = 300
 		build_time = 365
-		light_cavalry = 25
-		horse_archers = 10
+		light_cavalry = 12
+		horse_archers = 5
 		ai_creation_factor = 89
 		
-		extra_tech_building_start = 0.4
+		extra_tech_building_start = 1
 	}
-	ca_steppe_stable_2 = {
+	
+	tb_steppe_stable_2 = {
 		desc = ca_steppe_stable_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -105,21 +135,25 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_stable_2
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_steppe_stable_1
-		gold_cost = 120
+		replaces = tb_practice_range_2
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_stable_1
+		prestige_cost = 400
 		build_time = 547
-		light_cavalry = 25
-		horse_archers = 20
+		light_cavalry = 12
+		horse_archers = 5
 		ai_creation_factor = 88
+		
+		convert_to_feudal = ca_steppe_stable_1
+		convert_to_republic = ct_barracks_1
 
-		extra_tech_building_start = 0.8
+		extra_tech_building_start = 1.5
 	}
-	ca_steppe_stable_3 = {
+	
+	tb_steppe_stable_3 = {
 		desc = ca_steppe_stable_desc
 		potential = {
+			terrain = steppe
 			FROM = {
 				OR = {
 					culture_group = kurgan_group
@@ -127,20 +161,19 @@ castle = {
 				}
 			}
 		}
-		replaces = ca_stable_3
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_steppe_stable_2
-		gold_cost = 200
+		replaces = tb_practice_range_3
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_stable_2
+		prestige_cost = 500
 		build_time = 730
-		light_cavalry = 35
-		horse_archers = 20
+		light_cavalry = 12
+		horse_archers = 5
 		ai_creation_factor = 87
 
-		extra_tech_building_start = 0.2
+		extra_tech_building_start = 2
 	}
-        # additive buildings only for kurgans & hungs
-	ca_steppe_stable_4 = {
+	
+	tb_steppe_stable_4 = {
 		desc = ca_steppe_stable_desc
 		potential = {
 			terrain = steppe
@@ -151,200 +184,19 @@ castle = {
 				}
 			}
 		}
-		#replaces = ca_stable_4
-		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
-		upgrades_from = ca_steppe_stable_3
-		gold_cost = 300
+		replaces = tb_practice_range_4
+		trigger = { TECH_CAVALRY = 0 }
+		upgrades_from = tb_steppe_stable_3
+		prestige_cost = 600
 		build_time = 1095
-		light_cavalry = 35
-		horse_archers = 20
-		knights = 5
+		light_cavalry = 12
+		horse_archers = 5
 		ai_creation_factor = 86
-
-		extra_tech_building_start = 0.2
-	}
-	ca_steppe_stable_5 = {
-		desc = ca_steppe_stable_desc
-		potential = {
-			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-		#replaces = ca_stable_5
-		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
-		upgrades_from = ca_steppe_stable_4
-		gold_cost = 400
-		build_time = 2190
-		light_cavalry = 35
-		horse_archers = 20
-		knights = 10
-		ai_creation_factor = 85
-
-		extra_tech_building_start = 0.2
-	}
-	ca_steppe_stable_6 = {
-		desc = ca_steppe_stable_desc
-		potential = {
-			terrain = steppe
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-		#replaces = ca_stable_6
-		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
-		upgrades_from = ca_steppe_stable_5
-		gold_cost = 500
-		build_time = 2190
-		light_cavalry = 35
-		horse_archers = 20
-		knights = 20
-		ai_creation_factor = 85
-
-		extra_tech_building_start = 0.2
-	}
-        # Wall quality, for steppe people without good walls this 
-        # gives a scout parites
-	ca_wall_steppe_q_1 = {
-		desc = ca_wall_steppe_q_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
-		replaces = ca_wall_q_1
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.2
-		light_cavalry = 10
-		ai_creation_factor = 80
-
-		extra_tech_building_start = 1.0
-	}
-	ca_wall_steppe_q_2 = {
-		desc = ca_wall_steppe_q_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
-		upgrades_from = ca_wall_steppe_q_1
-		replaces = ca_wall_q_2
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.2
-		light_cavalry = 20
-		ai_creation_factor = 79
-
-		extra_tech_building_start = 0.6
-	}
-	ca_wall_steppe_q_3 = {
-		desc = ca_wall_steppe_q_desc
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
-		upgrades_from = ca_wall_steppe_q_2
-		replaces = ca_wall_q_3
-		gold_cost = 50
-		build_time = 182
-		fort_level = 0.2
-		light_cavalry = 20
-		horse_archers = 10
-		ai_creation_factor = 78
 		
-		extra_tech_building_start = 0.2
+		convert_to_feudal = ca_steppe_stable_2
+		convert_to_republic = ct_barracks_2
+
+		extra_tech_building_start = 2.5
 	}
-        # deleted lvls 4,5
 
-	#Slaver camp replaces Castle town, gives income
-	ca_slave_camp_1 = {
-		desc = ca_slave_camp_desc
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		replaces = ca_town_1
-		gold_cost = 100
-		build_time = 365
-		tax_income = 1.5
-		light_infantry = 30
-		ai_creation_factor = 100
-		
-		extra_tech_building_start = 0.5
-	}
-	ca_slave_camp_2 = {
-		desc = ca_slave_camp_desc
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_wall_1 }
-		upgrades_from = ca_slave_camp_1
-		replaces = ca_town_1
-		gold_cost = 120
-		build_time = 547
-		tax_income = 1.5
-		light_infantry = 30
-		ai_creation_factor = 99
-
-		extra_tech_building_start = 1.0
-	}
-	ca_slave_camp_3 = {
-		desc = ca_slave_camp_desc
-		potential = {
-			FROM = {
-				OR = {
-					culture_group = kurgan_group
-					culture_group = hung_group
-				}
-			}
-		}
-
-		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
-		prerequisites = { ca_wall_2 }
-		upgrades_from = ca_slave_camp_2
-		replaces = ca_town_1
-		gold_cost = 200
-		build_time = 730
-		tax_income = 1.5
-		light_infantry = 30
-
-		ai_creation_factor = 98
-
-		extra_tech_building_start = 0.2
-	}
 }

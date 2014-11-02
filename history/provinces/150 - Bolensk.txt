@@ -5,8 +5,8 @@ title = c_bolensk
 
 # Settlements
 max_settlements = 2
-b_lebyla = castle
-#b_bolenskborg = castle
+b_lebyla = tribal
+#b_bolenskborg = tribal
 
 # Misc
 culture = sarl

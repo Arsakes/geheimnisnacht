@@ -5,9 +5,9 @@ title = c_sakar
 
 # Settlements
 max_settlements = 3
-b_sakar = castle
-#b_izhoria = temple
-#b_mergr = city
+b_sakar = tribal
+#b_izhoria = tribal
+#b_mergr = tribal
 
 # Misc
 culture = gharhar

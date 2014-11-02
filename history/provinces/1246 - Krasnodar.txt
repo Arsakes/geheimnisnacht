@@ -5,8 +5,8 @@ title = c_krasnodar
 
 # Settlements
 max_settlements = 2
-b_mannliger = castle
-#b_kunnigor = temple
+b_mannliger = tribal
+#b_kunnigor = tribal
 
 # Misc
 culture = tokmar

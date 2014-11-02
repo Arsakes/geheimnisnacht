@@ -5,10 +5,10 @@ title = c_karmay
 
 # Settlements
 max_settlements = 4
-b_nanai = castle
-b_skyrrin = temple
-b_finnabor = city
-#b_geta = castle
+b_nanai = tribal
+b_skyrrin = tribal
+b_finnabor = tribal
+#b_geta = tribal
 
 # Misc
 culture = kvellig

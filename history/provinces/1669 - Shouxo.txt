@@ -5,8 +5,8 @@ title = c_shouxo
 
 # Settlements
 max_settlements = 2
-b_shouxo = castle
-#b_ariq = city
+b_shouxo = tribal
+#b_ariq = tribal
 
 # Misc
 culture = chi_an

@@ -5,9 +5,9 @@ title = c_bjarkavig
 
 # Settlements
 max_settlements = 3
-b_bjarkavig = castle
-b_worms = temple
-#b_svinborhovit = city
+b_bjarkavig = tribal
+b_worms = tribal
+#b_svinborhovit = tribal
 
 # Misc
 culture = bjornling

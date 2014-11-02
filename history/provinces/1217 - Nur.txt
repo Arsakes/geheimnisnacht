@@ -5,9 +5,9 @@ title = c_zanur
 
 # Settlements
 max_settlements = 3
-b_zanur = castle
-#b_oroq = temple
-#b_taum = city
+b_zanur = tribal
+#b_oroq = tribal
+#b_taum = tribal
 
 # Misc
 culture = kvellig

@@ -5,9 +5,9 @@ title = c_karag_fyrik
 
 # Settlements
 max_settlements = 3
-b_kraka_undrum = castle
-b_grung_fyrik = city
-#b_kazad_uream = temple
+b_kraka_undrum = tribal
+b_grung_fyrik = tribal
+#b_kazad_uream = tribal
 
 # Misc
 culture = dwarf_chaos

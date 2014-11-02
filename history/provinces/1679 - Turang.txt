@@ -5,8 +5,8 @@ title = c_turang
 
 # Settlements
 max_settlements = 2
-b_turang = castle
-#b_kylmik = city
+b_turang = tribal
+#b_kylmik = tribal
 
 # Misc
 culture = aghol

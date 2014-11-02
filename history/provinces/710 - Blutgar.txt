@@ -5,9 +5,9 @@ title = c_blutgar
 
 # Settlements
 max_settlements = 3
-b_blutgar = castle
-#b_the_blacktor = temple
-#b_graystak = temple
+b_blutgar = tribal
+#b_the_blacktor = tribal
+#b_graystak = tribal
 
 # Misc
 culture = orc_main

@@ -5,9 +5,9 @@ title = c_styrs_ridge
 
 # Settlements
 max_settlements = 3
-b_styrvik = castle
-b_hedelborg = castle
-#b_hcraeum = temple
+b_styrvik = tribal
+b_hedelborg = tribal
+#b_hcraeum = tribal
 
 # Misc
 culture = sarl

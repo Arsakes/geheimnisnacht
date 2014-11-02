@@ -5,9 +5,9 @@ title = c_thimbulvintr
 
 # Settlements
 max_settlements = 3
-b_ufulriik = castle
-b_kilarghdal = city
-#b_pyrial = temple
+b_ufulriik = tribal
+b_kilarghdal = tribal
+#b_pyrial = tribal
 
 # Misc
 culture = graeling

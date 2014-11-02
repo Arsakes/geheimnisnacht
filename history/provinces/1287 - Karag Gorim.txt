@@ -5,9 +5,9 @@ title = c_karag_gorim
 
 # Settlements
 max_settlements = 3
-b_karag_gorim = castle
-#b_khazid_gorim = city
-#b_ungrim_gor = castle
+b_karag_gorim = tribal
+#b_khazid_gorim = tribal
+#b_ungrim_gor = tribal
 
 # Misc
 culture = dwarf_chaos

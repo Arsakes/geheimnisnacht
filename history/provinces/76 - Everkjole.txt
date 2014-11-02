@@ -5,10 +5,10 @@ title = c_everkjole
 
 # Settlements
 max_settlements = 4
-b_kjolvevik = castle
-b_ulyl_pyjorovik = temple
-#b_kaldrkastali = city
-#b_vintrholm = castle
+b_kjolvevik = tribal
+b_ulyl_pyjorovik = tribal
+#b_kaldrkastali = tribal
+#b_vintrholm = tribal
 
 # Misc
 culture = varg
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_kaldrkastali = city
+	b_kaldrkastali = tribal
 }

@@ -5,9 +5,9 @@ title = c_arzawe
 
 # Settlements
 max_settlements = 3
-b_arzawe = castle
-#b_artis_watch = city
-#b_the_oar = city
+b_arzawe = tribal
+#b_artis_watch = tribal
+#b_the_oar = tribal
 
 # Misc
 culture = orc_main

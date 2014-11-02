@@ -187,7 +187,8 @@ dark_norse;Dark Norse;;;;;;;;;;;;;x
 norse;Norse;;;;;;;;;;;;;x
 norse_group;Norse;;;;;;;;;;;;;x
 sigmarite;Sigmarite;;;;;;;;;;;;;x
-northern_gods;Northern;;;;;;;;;;;;;x
+old_gods_group;Old Gods;;;;;;;;;;;;;x
+northern_gods;Northern Gods;;;;;;;;;;;;;x
 ursun;Kislev Gods;;;;;;;;;;;;;x
 ulrican;Ulrican;;;;;;;;;;;;;x
 taalite;Taalite;;;;;;;;;;;;;x
@@ -197,7 +198,7 @@ old_world_group;Old World Pantheon;;;;;;;;;;;;;x
 lady_of_the_lake;Grail;;;;;;;;;;;;;x
 manannite;Manannite;;;;;;;;;;;;;x
 stromfels;Stromfels;;;;;;;;;;;;;x
-norse_ancestor_gods;Norse Ancestral;;;;;;;;;;;;;x
+norscan_gods;Norse Gods;;;;;;;;;;;;;x
 ancestor_gods;Ancestral;;;;;;;;;;;;;x
 dwarf_gods_group;Dwarven;;;;;;;;;;;;;x
 greenskin_gods;Gork & Mork;;;;;;;;;;;;;x
@@ -1551,6 +1552,8 @@ job_marshal_hung_group;Champion;;;;;;;;;;;;;x;
 job_spymaster_hung_group;Scoutmaster;;;;;;;;;;;;;x
 job_spiritual_hung_group;Shaman;;;;;;;;;;;;;x;
 # DESCRIPTIONS 
+norscan_gods_DESC;Norscan Gods are as harsh and unforgiving as the land of Norsca. They favour brute strength above all and despise the weak, some say that they some of them are Daemons or the Ruinous Power themselves.;;;;;;;;;;;;;x
+northern_gods_DESC;Northern Gods are loose collection of deites widely worshipeed before the times of Sigmar.;;;;;;;;;;;;;x
 elder_gods_DESC;The Elder Gods are a loose collection of related deities commonly worshipped in the Empire. They are typically more wild and less friendly than their southern counterparts, an attitude required in the dangerous and uncivilised north. The most powerful and militant cult is the Cult of Ulric, headed by the Ar-Ulric residing in Middenheim. The Ar-Ulric holds an Imperial Elector seat, and typically supports the election of Emperors from Middenland and Talabecland.;;;;;;;;;;;;;x;
 sigmarite_DESC;The Cult of Sigmar is one of the newer additions to the pantheons of the Old World, but is one of the most influential. After Emperor Sigmar's departure to the east, he was deified and became the patron and protector of the Empire. The Sigmarite faith has an ancient alliance with the Dwarfs, and is on reasonably good terms with most other Old World cults. The Grand Theogonist holds enormous power, and with the Arch-Lectors of Talabheim and Nuln holds three of the traditional Imperial Elector seats.;;;;;;;;;;;;;x;
 ursun_DESC;The Kislev Gods are a group of gods favoured by the residents of Kislev. The land is subject to Chaos incursions, deadly winters and savage raiders, requiring equally fierce gods. The cults of this region are decentralised and have no real reach.;;;;;;;;;;;;;x;

@@ -5,9 +5,9 @@ title = c_zamak_spanyenya
 
 # Settlements
 max_settlements = 3
-b_chamon_dharek = castle
-b_ungalya = city
-#b_yurickum = castle
+b_chamon_dharek = tribal
+b_ungalya = tribal
+#b_yurickum = tribal
 
 # Misc
 culture = sarl

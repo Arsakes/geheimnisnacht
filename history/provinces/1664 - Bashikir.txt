@@ -5,9 +5,9 @@ title = c_bashikir
 
 # Settlements
 max_settlements = 3
-b_bashikir = castle
-b_nuka = city
-#b_beke = temple
+b_bashikir = tribal
+b_nuka = tribal
+#b_beke = tribal
 
 # Misc
 culture = mung

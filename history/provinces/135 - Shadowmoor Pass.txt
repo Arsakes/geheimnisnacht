@@ -5,8 +5,8 @@ title = c_shadowmoor_pass
 
 # Settlements
 max_settlements = 2
-b_murivum = castle
-#b_eytulium = city
+b_murivum = tribal
+#b_eytulium = tribal
 
 # Misc
 culture = baersonling

@@ -5,11 +5,11 @@ title = c_turui
 
 # Settlements
 max_settlements = 5
-b_turui = castle
-b_sergyls = temple
-b_nygavik = city
-#b_skartasund = castle
-#b_midalfjord = city
+b_turui = tribal
+b_sergyls = tribal
+b_nygavik = tribal
+#b_skartasund = tribal
+#b_midalfjord = tribal
 
 # Misc
 culture = skaeling
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_skartasund = castle
+	b_skartasund = tribal
 }

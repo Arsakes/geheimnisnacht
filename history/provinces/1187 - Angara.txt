@@ -5,10 +5,10 @@ title = c_angara
 
 # Settlements
 max_settlements = 4
-b_angara = castle
-b_krai = city
-#b_udeg = temple
-#b_irwink = castle
+b_angara = tribal
+b_krai = tribal
+#b_udeg = tribal
+#b_irwink = tribal
 
 # Misc
 culture = yusak

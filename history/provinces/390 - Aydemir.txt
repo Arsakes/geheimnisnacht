@@ -5,10 +5,10 @@ title = c_aydemir
 
 # Settlements
 max_settlements = 4
-b_cherna = castle
-b_kaynardzha = city
-b_sitovo = temple
-#b_kakrina = city
+b_cherna = tribal
+b_kaynardzha = tribal
+b_sitovo = tribal
+#b_kakrina = tribal
 
 # Misc
 culture = tahmak

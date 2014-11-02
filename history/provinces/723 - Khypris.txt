@@ -5,12 +5,12 @@ title = c_khypris
 
 # Settlements
 max_settlements = 6
-b_khypris = castle
-b_maltane = city
-#b_valendra = temple
-#b_philany = castle
-#b_keltut = city
-#b_strigoviste = temple
+b_khypris = tribal
+b_maltane = tribal
+#b_valendra = tribal
+#b_philany = tribal
+#b_keltut = tribal
+#b_strigoviste = tribal
 
 # Misc
 culture = fjarmann
@@ -20,9 +20,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_valendra = temple
+	b_valendra = tribal
 }
 
 2500.1.1 = {
-	b_philany = castle
+	b_philany = tribal
 }

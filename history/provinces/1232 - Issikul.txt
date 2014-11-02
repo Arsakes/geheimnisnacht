@@ -5,8 +5,8 @@ title = c_issikul
 
 # Settlements
 max_settlements = 2
-b_vurgul = castle
-#b_jakwa = temple
+b_vurgul = tribal
+#b_jakwa = tribal
 
 # Misc
 culture = tahmak

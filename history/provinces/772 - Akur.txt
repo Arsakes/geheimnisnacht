@@ -5,9 +5,9 @@ title = c_akur
 
 # Settlements
 max_settlements = 3
-b_akur = castle
-#b_kutara = city
-#b_sinipa = temple
+b_akur = tribal
+#b_kutara = tribal
+#b_sinipa = tribal
 
 # Misc
 culture = orc_main

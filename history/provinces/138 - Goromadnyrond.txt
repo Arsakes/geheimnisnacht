@@ -5,8 +5,8 @@ title = c_goromadnyrond
 
 # Settlements
 max_settlements = 2
-b_arstul = castle
-#b_quirvik = temple
+b_arstul = tribal
+#b_quirvik = tribal
 
 # Misc
 culture = baersonling

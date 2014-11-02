@@ -5,10 +5,10 @@ title = c_cardariborg
 
 # Settlements
 max_settlements = 4
-b_cardariborg = castle
-#b_irtyshkvik = city
-#b_iivashkvik = temple
-#b_kunbyrul = castle
+b_cardariborg = tribal
+#b_irtyshkvik = tribal
+#b_iivashkvik = tribal
+#b_kunbyrul = tribal
 
 # Misc
 culture = graeling
@@ -18,9 +18,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_irtyshkvik = city
+	b_irtyshkvik = tribal
 }
 
 2500.1.1 = {
-	b_iivashkvik = temple
+	b_iivashkvik = tribal
 }

@@ -5,12 +5,12 @@ title = c_ulfsland
 
 # Settlements
 max_settlements = 6
-b_ulfsland = castle
-b_tulkirivik = temple
-b_hardaborg = city
-#b_laussland = castle
-#b_kedelvik = temple
-#b_vardahus = castle
+b_ulfsland = tribal
+b_tulkirivik = tribal
+b_hardaborg = tribal
+#b_laussland = tribal
+#b_kedelvik = tribal
+#b_vardahus = tribal
 
 # Misc
 culture = skaeling
@@ -20,9 +20,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_laussland = castle
+	b_laussland = tribal
 }
 
 2500.1.1 = {
-	b_kedelvik = temple
+	b_kedelvik = tribal
 }

@@ -5,10 +5,10 @@ title = c_panitsovo
 
 # Settlements
 max_settlements = 4
-b_ravda = castle
-b_orizare = city
-#b_lozenets = temple
-#b_sigmen = castle
+b_ravda = tribal
+b_orizare = tribal
+#b_lozenets = tribal
+#b_sigmen = tribal
 
 # Misc
 culture = hastling

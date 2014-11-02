@@ -5,8 +5,8 @@ title = c_eana
 
 # Settlements
 max_settlements = 2
-b_eana = castle
-#b_ashen_crag = city
+b_eana = tribal
+#b_ashen_crag = tribal
 
 # Misc
 culture = goblin_main

@@ -5,7 +5,7 @@ title = c_khotaan
 
 # Settlements
 max_settlements = 1
-b_orrok = castle
+b_orrok = tribal
 
 # Misc
 culture = kvellig

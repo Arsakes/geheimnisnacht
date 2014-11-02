@@ -5,11 +5,11 @@ title = c_targhizizi
 
 # Settlements
 max_settlements = 5
-b_targhizizi = castle
-b_eriduun = castle
-b_nazgarl = temple
-#b_qindiker = temple
-#b_duranki = temple
+b_targhizizi = tribal
+b_eriduun = tribal
+b_nazgarl = tribal
+#b_qindiker = tribal
+#b_duranki = tribal
 
 # Misc
 culture = goblin_main

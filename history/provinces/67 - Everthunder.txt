@@ -5,9 +5,9 @@ title = c_everthunder
 
 # Settlements
 max_settlements = 3
-b_thunder_peak = castle
-b_tors_hammer = castle
-#b_kalid = city
+b_thunder_peak = tribal
+b_tors_hammer = tribal
+#b_kalid = tribal
 
 # Misc
 culture = sarl

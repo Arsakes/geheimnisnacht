@@ -5,9 +5,9 @@ title = c_nath_agra
 
 # Settlements
 max_settlements = 3
-b_nath_karad = castle
-b_duron_var = city
-#b_angmar = castle
+b_nath_karad = tribal
+b_duron_var = tribal
+#b_angmar = tribal
 
 # Misc
 culture = dwarf_chaos

@@ -5,8 +5,8 @@ title = c_taiko
 
 # Settlements
 max_settlements = 2
-b_song = castle
-#b_duwa = city
+b_song = tribal
+#b_duwa = tribal
 
 # Misc
 culture = mung

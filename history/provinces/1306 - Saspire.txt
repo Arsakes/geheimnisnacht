@@ -5,7 +5,7 @@ title = c_saspire
 
 # Settlements
 max_settlements = 1
-b_saspire = castle
+b_saspire = tribal
 
 # Misc
 culture = orc_main

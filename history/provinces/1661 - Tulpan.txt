@@ -5,8 +5,8 @@ title = c_tulpan
 
 # Settlements
 max_settlements = 2
-b_tulpan = castle
-b_nurzhigit = city
+b_tulpan = tribal
+b_nurzhigit = tribal
 
 # Misc
 culture = aghol

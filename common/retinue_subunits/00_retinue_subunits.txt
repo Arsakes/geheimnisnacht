@@ -5,7 +5,7 @@
 # 3 - Light Cavalry
 # 4 - Heavy Cavalry
 # 5 - Archers
-# 6 - Horse Archers
+# 6 - Special troops
 
 RETTYPE_CUL_IMP =
 {
@@ -104,6 +104,6 @@ RETTYPE_CUL_KISLEV2 =
 	}
 	modifier = {
                 heavy_infantry_defensive = 0.2
-                pikeman_offensive = 0.2
+                pikemen_offensive = 0.2
 	}
 }

@@ -5,8 +5,8 @@ title = c_uromqi
 
 # Settlements
 max_settlements = 2
-b_uromqi = castle
-b_xibi = temple
+b_uromqi = tribal
+b_xibi = tribal
 
 # Misc
 culture = kvellig

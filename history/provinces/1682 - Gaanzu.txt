@@ -5,8 +5,8 @@ title = c_gaanzu
 
 # Settlements
 max_settlements = 2
-b_gaanzu = castle
-#b_temur = city
+b_gaanzu = tribal
+#b_temur = tribal
 
 # Misc
 culture = mung

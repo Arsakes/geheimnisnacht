@@ -5,8 +5,8 @@ title = c_krygz
 
 # Settlements
 max_settlements = 2
-b_sbor = castle
-b_kymmenen = temple
+b_sbor = tribal
+b_kymmenen = tribal
 
 # Misc
 culture = tahmak

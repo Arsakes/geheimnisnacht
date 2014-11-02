@@ -5,9 +5,9 @@ title = c_khakatass
 
 # Settlements
 max_settlements = 3
-b_khakatass = castle
-b_ulkhari = city
-#b_negida = castle
+b_khakatass = tribal
+b_ulkhari = tribal
+#b_negida = tribal
 
 # Misc
 culture = yusak

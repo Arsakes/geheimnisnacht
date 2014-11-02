@@ -5,8 +5,8 @@ title = c_delyan
 
 # Settlements
 max_settlements = 2
-b_rakovskova = castle
-#b_bahalin = castle
+b_rakovskova = tribal
+#b_bahalin = tribal
 
 # Misc
 culture = kul

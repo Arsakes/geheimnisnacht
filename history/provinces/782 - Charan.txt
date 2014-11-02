@@ -5,9 +5,9 @@ title = c_charan
 
 # Settlements
 max_settlements = 3
-b_charan = castle
-#b_direcaster = city
-#b_varlav = temple
+b_charan = tribal
+#b_direcaster = tribal
+#b_varlav = tribal
 
 # Misc
 culture = orc_main

@@ -5,10 +5,10 @@ title = c_iisgalt
 
 # Settlements
 max_settlements = 4
-b_hinriksen = castle
-b_iisgalt = city
-#b_kelda = temple
-#b_stek = castle
+b_hinriksen = tribal
+b_iisgalt = tribal
+#b_kelda = tribal
+#b_stek = tribal
 
 # Misc
 culture = bjornling
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_kelda = temple
+	b_kelda = tribal
 }

@@ -5,9 +5,9 @@ title = c_west_rock_mountain
 
 # Settlements
 max_settlements = 3
-b_mingol_khrum = city
-b_thraggol = castle
-#b_grung_ungr = temple
+b_mingol_khrum = tribal
+b_thraggol = tribal
+#b_grung_ungr = tribal
 
 # Misc
 culture = goblin_main

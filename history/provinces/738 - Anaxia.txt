@@ -5,8 +5,8 @@ title = c_anaxia
 
 # Settlements
 max_settlements = 2
-b_anaxia = castle
-#b_trebizo = city
+b_anaxia = tribal
+#b_trebizo = tribal
 
 # Misc
 culture = orc_main

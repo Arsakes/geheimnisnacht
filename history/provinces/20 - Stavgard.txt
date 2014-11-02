@@ -5,10 +5,10 @@ title = c_stavgard
 
 # Settlements
 max_settlements = 4
-b_swerborg = castle
-b_gottborg = temple
-b_stavgard = city
-#b_norskvald = castle
+b_swerborg = tribal
+b_gottborg = tribal
+b_stavgard = tribal
+#b_norskvald = tribal
 
 # Misc
 culture = bjornling

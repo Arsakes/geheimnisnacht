@@ -5,9 +5,9 @@ title = c_tiel
 
 # Settlements
 max_settlements = 3
-b_tiel = castle
-b_prausk = temple
-#b_garrot = city
+b_tiel = tribal
+b_prausk = tribal
+#b_garrot = tribal
 
 # Misc
 culture = kvellig

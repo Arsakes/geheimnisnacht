@@ -5,10 +5,10 @@ title = c_squigoruz
 
 # Settlements
 max_settlements = 4
-b_squigoruz = castle
-b_squigbar = city
-#b_dankbar = temple
-#b_grung_duradan = castle
+b_squigoruz = tribal
+b_squigbar = tribal
+#b_dankbar = tribal
+#b_grung_duradan = tribal
 
 # Misc
 culture = orc_main

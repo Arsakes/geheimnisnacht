@@ -5,8 +5,8 @@ title = c_olnzar
 
 # Settlements
 max_settlements = 2
-b_olnzarstad = castle
-#b_gayny = temple
+b_olnzarstad = tribal
+#b_gayny = tribal
 
 # Misc
 culture = dolgan

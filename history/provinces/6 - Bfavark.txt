@@ -5,9 +5,9 @@ title = c_bfavark
 
 # Settlements
 max_settlements = 3
-b_bfavark = castle
-b_yulatuk = castle
-#b_harzuum = city
+b_bfavark = tribal
+b_yulatuk = tribal
+#b_harzuum = tribal
 
 
 # Misc

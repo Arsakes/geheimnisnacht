@@ -5,9 +5,9 @@ title = c_khazid_irkulaz
 
 # Settlements
 max_settlements = 3
-b_khazid_irkulaz = castle
-#b_karagonk = city
-#b_nogarun_ungor = temple
+b_khazid_irkulaz = tribal
+#b_karagonk = tribal
+#b_nogarun_ungor = tribal
 
 # Misc
 culture = goblin_main

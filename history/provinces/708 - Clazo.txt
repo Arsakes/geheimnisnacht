@@ -5,9 +5,9 @@ title = c_clazo
 
 # Settlements
 max_settlements = 3
-b_clazo = castle
-b_dardano = city
-#b_mileta = temple
+b_clazo = tribal
+b_dardano = tribal
+#b_mileta = tribal
 
 # Misc
 culture = orc_main

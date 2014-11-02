@@ -158,15 +158,15 @@ character_event = {
     # the amount of mutation
     immediate = { 
         random_list = {
-            12 = character_event = { id = mutation.2 }
-            11 = character_event = { id = mutation.3 }
-            11 = character_event = { id = mutation.4 }
-            11 = character_event = { id = mutation.5 }
-            11 = character_event = { id = mutation.6 }
-            11 = character_event = { id = mutation.7 }
-            11 = character_event = { id = mutation.8 }
-            11 = character_event = { id = mutation.9 }
-            11 = character_event = { id = mutation.10 }
+            12 = { character_event = { id = mutation.2 } }
+            11 = { character_event = { id = mutation.3 } }
+            11 = { character_event = { id = mutation.4 } }
+            11 = { character_event = { id = mutation.5 } }
+            11 = { character_event = { id = mutation.6 } }
+            11 = { character_event = { id = mutation.7 } }
+            11 = { character_event = { id = mutation.8 } }
+            11 = { character_event = { id = mutation.9 } }
+            11 = { character_event = { id = mutation.10 } }
         }
     }
 }
@@ -185,7 +185,6 @@ character_event = {
     option = {
        name = OK
        change_intrigue = 1
-
        if = {
            limit = { 
                NOT = { trait = mutation_minor  }

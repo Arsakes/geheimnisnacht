@@ -5,9 +5,9 @@ title = c_kurshu
 
 # Settlements
 max_settlements = 3
-b_kurshu = castle
-b_skullport = temple
-#b_rosszutvonal = city
+b_kurshu = tribal
+b_skullport = tribal
+#b_rosszutvonal = tribal
 
 # Misc
 culture = goblin_main

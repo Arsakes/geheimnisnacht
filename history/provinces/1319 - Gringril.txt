@@ -5,9 +5,9 @@ title = c_gringril
 
 # Settlements
 max_settlements = 3
-b_khaz_gringril = castle
-b_opular_khar = castle
-#b_morhn_grim = temple
+b_khaz_gringril = tribal
+b_opular_khar = tribal
+#b_morhn_grim = tribal
 
 # Misc
 culture = goblin_main

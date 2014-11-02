@@ -5,11 +5,11 @@ title = c_mortensholm
 
 # Settlements
 max_settlements = 5
-b_mortensholm = castle
-b_syldavia = city
-#b_borduritsa = temple
-#b_dacs = castle
-#b_gram = temple
+b_mortensholm = tribal
+b_syldavia = tribal
+#b_borduritsa = tribal
+#b_dacs = tribal
+#b_gram = tribal
 
 # Misc
 culture = fjarmann
@@ -19,9 +19,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_borduritsa = temple
+	b_borduritsa = tribal
 }
 
 2250.1.1 = {
-	b_dacs = castle
+	b_dacs = tribal
 }

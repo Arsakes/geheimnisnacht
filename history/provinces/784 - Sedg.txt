@@ -5,9 +5,9 @@ title = c_sedg
 
 # Settlements
 max_settlements = 3
-b_sedg = castle
-#b_geworth = city
-#b_the_widows_foot = temple
+b_sedg = tribal
+#b_geworth = tribal
+#b_the_widows_foot = tribal
 
 # Misc
 culture = orc_main

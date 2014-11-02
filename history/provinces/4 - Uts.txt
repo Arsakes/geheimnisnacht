@@ -5,9 +5,9 @@ title = c_uts
 
 # Settlements
 max_settlements = 3
-b_uts = castle
-b_itik = temple
-#b_uyljik = castle
+b_uts = tribal
+b_itik = tribal
+#b_uyljik = tribal
 
 # Misc
 culture = graeling
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_uyljik = castle
+	b_uyljik = tribal
 }

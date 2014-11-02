@@ -5,9 +5,9 @@ title = c_chavdar
 
 # Settlements
 max_settlements = 3
-b_chavdar = castle
-b_gorna_malina = castle
-#b_golema = castle
+b_chavdar = tribal
+b_gorna_malina = tribal
+#b_golema = tribal
 
 # Misc
 culture = kul

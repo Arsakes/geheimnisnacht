@@ -5,9 +5,9 @@ title = c_zagros
 
 # Settlements
 max_settlements = 3
-b_zagros = castle
-b_urdishan = city
-#b_labbagor = temple
+b_zagros = tribal
+b_urdishan = tribal
+#b_labbagor = tribal
 
 # Misc
 culture = orc_main
