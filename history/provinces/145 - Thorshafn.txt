@@ -5,9 +5,9 @@ title = c_thorshafn
 
 # Settlements
 max_settlements = 3
-b_thorshafn = castle
-#b_ulmsteadvik = temple
-#b_feordivik = city
+b_thorshafn = tribal
+#b_ulmsteadvik = tribal
+#b_feordivik = tribal
 
 # Misc
 culture = sarl
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2500.1.1 = {
-	b_ulmsteadvik = temple
+	b_ulmsteadvik = tribal
 }

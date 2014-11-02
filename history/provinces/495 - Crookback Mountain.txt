@@ -5,11 +5,11 @@ title = c_crookback_mountain
 
 # Settlements
 max_settlements = 5
-b_crookback_spire = castle
-b_crookback_deep = castle
-b_skreetlezorn = city
-#b_rottanbak = temple
-#b_feltoo = castle
+b_crookback_spire = tribal
+b_crookback_deep = tribal
+b_skreetlezorn = tribal
+#b_rottanbak = tribal
+#b_feltoo = tribal
 
 # Misc
 culture = goblin_main

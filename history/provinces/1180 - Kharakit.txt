@@ -5,8 +5,8 @@ title = c_kharakit
 
 # Settlements
 max_settlements = 2
-b_kharakit = castle
-#b_tel = temple
+b_kharakit = tribal
+#b_tel = tribal
 
 # Misc
 culture = khazag

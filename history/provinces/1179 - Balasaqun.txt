@@ -5,8 +5,8 @@ title = c_balasaqun
 
 # Settlements
 max_settlements = 2
-b_balasaqun = castle
-b_anx = temple
+b_balasaqun = tribal
+b_anx = tribal
 
 # Misc
 culture = khazag

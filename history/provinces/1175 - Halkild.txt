@@ -5,9 +5,9 @@ title = c_halkild
 
 # Settlements
 max_settlements = 3
-b_halkildfjord = castle
-#b_thjazivik = city
-#b_ymirald = temple
+b_halkildfjord = tribal
+#b_thjazivik = tribal
+#b_ymirald = tribal
 
 # Misc
 culture = skaeling
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_thjazivik = city
+	b_thjazivik = tribal
 }

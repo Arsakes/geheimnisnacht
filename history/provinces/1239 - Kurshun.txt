@@ -5,9 +5,9 @@ title = c_kurshun
 
 # Settlements
 max_settlements = 3
-b_voisil = castle
-b_debelt = temple
-#b_emona = castle
+b_voisil = tribal
+b_debelt = tribal
+#b_emona = tribal
 
 # Misc
 culture = dolgan

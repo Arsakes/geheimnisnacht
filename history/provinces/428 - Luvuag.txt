@@ -5,8 +5,8 @@ title = c_luvuag
 
 # Settlements
 max_settlements = 2
-b_luvuag = castle
-#b_dozzan = city
+b_luvuag = tribal
+#b_dozzan = tribal
 
 # Misc
 culture = orc_main

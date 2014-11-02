@@ -5,9 +5,9 @@ title = c_lower_vale_of_florida
 
 # Settlements
 max_settlements = 3
-b_troucy = castle
-#b_bar_la_dame = temple
-#b_la_maisontenay = castle
+b_troucy = tribal
+#b_bar_la_dame = tribal
+#b_la_maisontenay = tribal
 
 # Misc
 culture = orc_main
@@ -20,5 +20,5 @@ religion = greenskin_gods
 2155.1.1 = { culture = nortagnese }
 
 2500.1.1 = {
-	b_bar_la_dame = temple
+	b_bar_la_dame = tribal
 }

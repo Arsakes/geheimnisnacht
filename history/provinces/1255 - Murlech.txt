@@ -5,9 +5,9 @@ title = c_murlech
 
 # Settlements
 max_settlements = 3
-b_murlech = castle
-b_rovanon = temple
-#b_atrahasis = city
+b_murlech = tribal
+b_rovanon = tribal
+#b_atrahasis = tribal
 
 # Misc
 culture = orc_main

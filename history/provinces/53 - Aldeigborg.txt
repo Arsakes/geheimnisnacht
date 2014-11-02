@@ -5,10 +5,10 @@ title = c_aldeigborg
 
 # Settlements
 max_settlements = 4
-b_aldeigborg = castle
-b_afenheim = castle
-#b_afensvik = castle
-#b_oldegar = castle
+b_aldeigborg = tribal
+b_afenheim = tribal
+#b_afensvik = tribal
+#b_oldegar = tribal
 
 # Misc
 culture = varg
@@ -18,5 +18,5 @@ religion = slaanesh
 # History
 
 2250.1.1 = {
-	b_afensvik = castle
+	b_afensvik = tribal
 }

@@ -5,9 +5,9 @@ title = c_chade
 
 # Settlements
 max_settlements = 3
-b_chade = castle
-b_hamu_hulladek = castle
-#b_vladistbek = city
+b_chade = tribal
+b_hamu_hulladek = tribal
+#b_vladistbek = tribal
 
 # Misc
 culture = goblin_main

@@ -5,8 +5,8 @@ title = c_morzarn
 
 # Settlements
 max_settlements = 2
-b_morzarn = castle
-#b_zulrat = city
+b_morzarn = tribal
+#b_zulrat = tribal
 
 # Misc
 culture = orc_main

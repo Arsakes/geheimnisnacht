@@ -5,8 +5,8 @@ title = c_chamsyts
 
 # Settlements
 max_settlements = 2
-b_chamsyts = castle
-#b_retti = temple
+b_chamsyts = tribal
+#b_retti = tribal
 
 # Misc
 culture = gharhar

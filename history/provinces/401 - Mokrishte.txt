@@ -5,10 +5,10 @@ title = c_mokrishte
 
 # Settlements
 max_settlements = 4
-b_ruen = castle
-b_rezovo = city
-#b_debelte = temple
-#b_gyulyovtsa = castle
+b_ruen = tribal
+b_rezovo = tribal
+#b_debelte = tribal
+#b_gyulyovtsa = tribal
 
 # Misc
 culture = hastling

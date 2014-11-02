@@ -5,11 +5,11 @@ title = c_unzkulak
 
 # Settlements
 max_settlements = 5
-b_unzkulak = castle
-b_karak_varrson = city
-b_barak_hrunzak = temple
-#b_tilid_ungor = temple
-#b_barak_mundak = castle
+b_unzkulak = tribal
+b_karak_varrson = tribal
+b_barak_hrunzak = tribal
+#b_tilid_ungor = tribal
+#b_barak_mundak = tribal
 
 # Misc
 culture = dwarf_chaos

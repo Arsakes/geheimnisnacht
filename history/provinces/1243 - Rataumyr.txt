@@ -5,10 +5,10 @@ title = c_rataumyr
 
 # Settlements
 max_settlements = 4
-b_sjot = castle
-b_faera = temple
-b_elska = castle
-#b_hautur = castle
+b_sjot = tribal
+b_faera = tribal
+b_elska = tribal
+#b_hautur = tribal
 
 # Misc
 culture = dolgan

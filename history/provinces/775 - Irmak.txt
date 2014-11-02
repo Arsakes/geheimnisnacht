@@ -5,10 +5,10 @@ title = c_irmak
 
 # Settlements
 max_settlements = 4
-b_irmak = castle
-#b_karamissar = city
-#b_eiries = castle
-#b_samsun = temple
+b_irmak = tribal
+#b_karamissar = tribal
+#b_eiries = tribal
+#b_samsun = tribal
 
 # Misc
 culture = goblin_main

@@ -5,8 +5,8 @@ title = c_hjornsum
 
 # Settlements
 max_settlements = 2
-b_hitalzum = castle
-#b_hyorkum = castle
+b_hitalzum = tribal
+#b_hyorkum = tribal
 
 # Misc
 culture = kul

@@ -5,7 +5,7 @@
 # @version 0.1
 # @modified_on 0.1.2
 # @wip
-# @compatibility 2.1.6
+# @compatibility 2.2.0
 #
 #
 # main spell events    0-19
@@ -171,7 +171,7 @@ character_event = {
     option = {
         name = OK
         random_list = { 
-            50 = { add_trait = wouned }
+            50 = { add_trait = wounded }
             50 = { }
         }
     }
@@ -204,6 +204,7 @@ character_event = {
         }
     }
 }
+# Duel action: Channeling
 character_event = {
     id = magicengine.5
     hide_window  = yes
@@ -352,8 +353,8 @@ character_event = {
         FROM = {
             # INIT
             if = { 
-                 limit = { trait = lore_light }
-                 set_variable = {  which = "magic_spell_cost" value = 2 }
+                limit = { trait = lore_light }
+                set_variable = {  which = "magic_spell_cost" value = 2 }
             }
 
             # TEST of spellcraft

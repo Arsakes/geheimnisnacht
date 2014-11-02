@@ -5,9 +5,9 @@ title = c_qarum
 
 # Settlements
 max_settlements = 3
-b_qarumbog = castle
-#b_sentinel = castle
-#b_thronelond = temple
+b_qarumbog = tribal
+#b_sentinel = tribal
+#b_thronelond = tribal
 
 # Misc
 culture = orc_main

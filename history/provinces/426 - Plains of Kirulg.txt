@@ -5,8 +5,8 @@ title = c_plains_of_kirulg
 
 # Settlements
 max_settlements = 2
-b_uraturu = castle
-b_gnashar = city
+b_uraturu = tribal
+b_gnashar = tribal
 
 # Misc
 culture = orc_main

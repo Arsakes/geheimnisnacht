@@ -5,10 +5,10 @@ title = c_tharumagi
 
 # Settlements
 max_settlements = 4
-b_thaumagar = castle
-b_ashenvold = city
-b_norgen = temple
-#b_nuskuru = castle
+b_thaumagar = tribal
+b_ashenvold = tribal
+b_norgen = tribal
+#b_nuskuru = tribal
 
 # Misc
 culture = goblin_main

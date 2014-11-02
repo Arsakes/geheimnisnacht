@@ -5,13 +5,13 @@ title = c_zanbaijin
 
 # Settlements
 max_settlements = 7
-b_zanbaijin = castle
-b_radulovtsi = temple
-b_kolonii = castle
-b_shuraab = city
-b_cynagoth = temple
-b_iqatha = temple
-#b_gabra = temple
+b_zanbaijin = tribal
+b_radulovtsi = tribal
+b_kolonii = tribal
+b_shuraab = tribal
+b_cynagoth = tribal
+b_iqatha = tribal
+#b_gabra = tribal
 
 # Misc
 culture = kul

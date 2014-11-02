@@ -5,10 +5,10 @@ title = c_ket
 
 # Settlements
 max_settlements = 4
-b_ket = castle
-b_shirangol = temple
-#b_oroch = castle
-#b_asen = city
+b_ket = tribal
+b_shirangol = tribal
+#b_oroch = tribal
+#b_asen = tribal
 
 # Misc
 culture = kvellig

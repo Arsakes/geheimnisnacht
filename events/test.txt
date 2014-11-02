@@ -1271,3 +1271,56 @@ character_event = {
 	}
     }
 }
+# DUELENGINE
+character_event = {
+    id = test.32
+    is_triggered_only = yes
+    desc = "Opponent: Option ATTACK (duelengine.4 event)"
+    option = {
+        name = "blank"
+    }
+}
+character_event = {
+    id = test.33
+    is_triggered_only = yes
+    desc = "Opponent have chosen following option in duel(duelengine.4 event): run/die"
+    option = {
+        name = "blank"
+    }
+}
+character_event = {
+    id = test.40
+    is_triggered_only = yes
+    desc = "Event duelengine.20 triggered"
+
+    option = {
+        name = "blank"
+    }
+}
+character_event = {
+    id = test.41
+    is_triggered_only = yes
+    desc = "Event duelengine.21 triggered"
+
+    option = {
+        name = "blank"
+    }
+}
+character_event = {
+    id = test.42
+    is_triggered_only = yes
+    desc = "Event duelengine.22 triggered"
+
+    option = {
+        name = "blank"
+    }
+}
+character_event = {
+    id = test.43
+    is_triggered_only = yes
+    desc = "Event duelengine.23 triggered"
+
+    option = {
+        name = "blank"
+    }
+}

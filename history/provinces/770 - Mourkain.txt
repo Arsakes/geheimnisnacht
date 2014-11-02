@@ -5,11 +5,11 @@ title = c_mourkain
 
 # Settlements
 max_settlements = 5
-b_mourkain_citadel = castle
-b_mourkain = city
-b_antak = temple
-#b_presidia = castle
-#b_trogus = city
+b_mourkain_citadel = tribal
+b_mourkain = tribal
+b_antak = tribal
+#b_presidia = tribal
+#b_trogus = tribal
 
 # Misc
 culture = orc_main

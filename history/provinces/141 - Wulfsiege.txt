@@ -5,10 +5,10 @@ title = c_wulfsiege
 
 # Settlements
 max_settlements = 4
-b_selthis_lysk = castle
-b_kaltivik = temple
-#b_torungard = city
-#b_hjyolivik = castle
+b_selthis_lysk = tribal
+b_kaltivik = tribal
+#b_torungard = tribal
+#b_hjyolivik = tribal
 
 # Misc
 culture = sarl

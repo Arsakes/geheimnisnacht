@@ -5,7 +5,7 @@ title = c_ninyt
 
 # Settlements
 max_settlements = 1
-b_ninyt = castle
+b_ninyt = tribal
 
 # Misc
 culture = gharhar

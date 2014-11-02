@@ -5,9 +5,9 @@ title = c_barabas
 
 # Settlements
 max_settlements = 3
-b_barabas = castle
-b_cherno = temple
-#b_anadyr = castle
+b_barabas = tribal
+b_cherno = tribal
+#b_anadyr = tribal
 
 # Misc
 culture = yusak

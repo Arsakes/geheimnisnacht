@@ -5,8 +5,8 @@ title = c_yueh_zu
 
 # Settlements
 max_settlements = 2
-b_yueh_zu = castle
-#b_jelme = temple
+b_yueh_zu = tribal
+#b_jelme = tribal
 
 # Misc
 culture = aghol

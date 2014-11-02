@@ -5,10 +5,10 @@ title = c_karsack
 
 # Settlements
 max_settlements = 4
-b_karsack = castle
-b_diepenwald = city
-#b_doosten = temple
-#b_wichtbog = city
+b_karsack = tribal
+b_diepenwald = tribal
+#b_doosten = tribal
+#b_wichtbog = tribal
 
 # Misc
 culture = orc_main

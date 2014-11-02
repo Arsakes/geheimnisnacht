@@ -5,10 +5,10 @@ title = c_tanngniost
 
 # Settlements
 max_settlements = 4
-b_heorot = castle
-b_jayrlsvik = city
-#b_kaugang = city
-#b_tanngniostvik = castle
+b_heorot = tribal
+b_jayrlsvik = tribal
+#b_kaugang = tribal
+#b_tanngniostvik = tribal
 
 # Misc
 culture = skaeling
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_kaugang = city
+	b_kaugang = tribal
 }

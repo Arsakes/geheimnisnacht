@@ -5,9 +5,9 @@ title = c_graf
 
 # Settlements
 max_settlements = 3
-b_graf = castle
-b_opan = city
-#b_kovachevo = castle
+b_graf = tribal
+b_opan = tribal
+#b_kovachevo = tribal
 
 # Misc
 culture = kul

@@ -5,9 +5,9 @@ title = c_gernach
 
 # Settlements
 max_settlements = 3
-b_gernach = castle
-#b_milfords_mendicance = city
-#b_pendrove = temple
+b_gernach = tribal
+#b_milfords_mendicance = tribal
+#b_pendrove = tribal
 
 # Misc
 culture = orc_main

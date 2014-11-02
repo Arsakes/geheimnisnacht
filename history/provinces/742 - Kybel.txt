@@ -5,9 +5,9 @@ title = c_kybel
 
 # Settlements
 max_settlements = 3
-b_kybel = castle
-#b_dhorrensburg = city
-#b_lambracs = temple
+b_kybel = tribal
+#b_dhorrensburg = tribal
+#b_lambracs = tribal
 
 # Misc
 culture = orc_main

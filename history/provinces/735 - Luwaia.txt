@@ -5,9 +5,9 @@ title = c_luwaia
 
 # Settlements
 max_settlements = 3
-b_luwaia = castle
-b_tauricas = city
-#b_sandwash = temple
+b_luwaia = tribal
+b_tauricas = tribal
+#b_sandwash = tribal
 
 # Misc
 culture = orc_main

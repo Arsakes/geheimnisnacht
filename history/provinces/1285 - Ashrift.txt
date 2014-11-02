@@ -5,9 +5,9 @@ title = c_ashrift
 
 # Settlements
 max_settlements = 3
-b_ashrift_gate = castle
-b_ashrift_dam = city
-#b_ashrift_tower = castle
+b_ashrift_gate = tribal
+b_ashrift_dam = tribal
+#b_ashrift_tower = tribal
 
 # Misc
 culture = dwarf_chaos

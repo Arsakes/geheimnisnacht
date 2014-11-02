@@ -5,9 +5,9 @@ title = c_libis
 
 # Settlements
 max_settlements = 3
-b_samarkhara = castle
-#b_libisoara = city
-#b_sastromatan = temple
+b_samarkhara = tribal
+#b_libisoara = tribal
+#b_sastromatan = tribal
 
 # Misc
 culture = goblin_main

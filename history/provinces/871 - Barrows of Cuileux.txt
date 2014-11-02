@@ -5,11 +5,11 @@ title = c_barrows_of_cuileux
 
 # Settlements
 max_settlements = 5
-b_crac_de_sang = castle
-b_gardez_de_la_peur = temple
-#b_village_des_damnes = city
-#b_sanctuaire_de_voshieme = temple
-#b_cuileux = city
+b_crac_de_sang = tribal
+b_gardez_de_la_peur = tribal
+#b_village_des_damnes = tribal
+#b_sanctuaire_de_voshieme = tribal
+#b_cuileux = tribal
 
 # Misc
 culture = orc_main

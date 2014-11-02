@@ -5,11 +5,11 @@ title = c_gotland
 
 # Settlements
 max_settlements = 5
-b_gotland = castle
-b_holmsteinn = temple
-#b_ulfenwyr = city
-#b_yulfen_vale = city
-#b_artolden = castle
+b_gotland = tribal
+b_holmsteinn = tribal
+#b_ulfenwyr = tribal
+#b_yulfen_vale = tribal
+#b_artolden = tribal
 
 # Misc
 culture = sarl
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_ulfenwyr = city
+	b_ulfenwyr = tribal
 }

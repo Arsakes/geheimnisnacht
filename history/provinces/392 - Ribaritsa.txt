@@ -5,9 +5,9 @@ title = c_ribaritsa
 
 # Settlements
 max_settlements = 3
-b_ribaritsa = castle
-b_bozhentsi = city
-#b_gostilitsa = temple
+b_ribaritsa = tribal
+b_bozhentsi = tribal
+#b_gostilitsa = tribal
 
 # Misc
 culture = hastling

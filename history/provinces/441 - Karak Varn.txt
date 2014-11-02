@@ -5,11 +5,11 @@ title = c_karak_varn
 
 # Settlements
 max_settlements = 5
-b_karak_varn = castle
-b_khazid_aldum = castle
-b_untolaz_ungor = city
-#b_grung_durandum = temple
-#b_khazid_grungdulum = temple
+b_karak_varn = tribal
+b_khazid_aldum = tribal
+b_untolaz_ungor = tribal
+#b_grung_durandum = tribal
+#b_khazid_grungdulum = tribal
 
 # Misc
 culture = goblin_main

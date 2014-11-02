@@ -5,8 +5,8 @@ title = c_ngama
 
 # Settlements
 max_settlements = 2
-b_ngama = castle
-#b_kurultai = city
+b_ngama = tribal
+#b_kurultai = tribal
 
 # Misc
 culture = chi_an

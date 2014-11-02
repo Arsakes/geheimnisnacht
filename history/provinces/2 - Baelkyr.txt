@@ -5,10 +5,10 @@ title = c_baelkyr
 
 # Settlements
 max_settlements = 4
-b_baelkyr = castle
-b_norvag = temple
-b_tyrunal = city
-#b_jarzul = city
+b_baelkyr = tribal
+b_norvag = tribal
+b_tyrunal = tribal
+#b_jarzul = tribal
 
 # Misc
 culture = graeling

@@ -5,9 +5,9 @@ title = c_aponnia
 
 # Settlements
 max_settlements = 3
-b_aponnia = castle
-#b_hartolden = city
-#b_osomi = city
+b_aponnia = tribal
+#b_hartolden = tribal
+#b_osomi = tribal
 
 # Misc
 culture = sarl
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_hartolden = city
+	b_hartolden = tribal
 }

@@ -5,9 +5,9 @@ title = c_skutare
 
 # Settlements
 max_settlements = 3
-b_skutare = castle
-#b_krumovo = city
-#b_iskra = city
+b_skutare = tribal
+#b_krumovo = tribal
+#b_iskra = tribal
 
 # Misc
 culture = kul

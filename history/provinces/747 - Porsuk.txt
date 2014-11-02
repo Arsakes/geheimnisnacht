@@ -5,9 +5,9 @@ title = c_porsuk
 
 # Settlements
 max_settlements = 3
-b_porsuk = castle
-b_bicharnos = city
-#b_sarabosna = castle
+b_porsuk = tribal
+b_bicharnos = tribal
+#b_sarabosna = tribal
 
 # Misc
 culture = orc_main

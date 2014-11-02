@@ -5,9 +5,9 @@ title = c_bragnir
 
 # Settlements
 max_settlements = 3
-b_bragnir = castle
-b_bergen = temple
-#b_matrheim = temple
+b_bragnir = tribal
+b_bergen = tribal
+#b_matrheim = tribal
 
 # Misc
 culture = bjornling

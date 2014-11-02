@@ -5,9 +5,9 @@ title = c_tatarum
 
 # Settlements
 max_settlements = 3
-b_tatarum = castle
-#b_ukok = city
-#b_amur = temple
+b_tatarum = tribal
+#b_ukok = tribal
+#b_amur = tribal
 
 # Misc
 culture = yusak

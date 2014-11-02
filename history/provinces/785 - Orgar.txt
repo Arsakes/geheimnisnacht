@@ -5,10 +5,10 @@ title = c_orgar
 
 # Settlements
 max_settlements = 4
-b_orgar = castle
-#b_ragrovnik = city
-#b_thurmark = temple
-#b_murk = city
+b_orgar = tribal
+#b_ragrovnik = tribal
+#b_thurmark = tribal
+#b_murk = tribal
 
 # Misc
 culture = orc_main

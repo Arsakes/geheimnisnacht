@@ -5,8 +5,8 @@ title = c_abraq
 
 # Settlements
 max_settlements = 2
-b_abraqol = castle
-#b_mesharr = city
+b_abraqol = tribal
+#b_mesharr = tribal
 
 # Misc
 culture = orc_main

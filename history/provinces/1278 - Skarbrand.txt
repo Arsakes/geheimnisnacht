@@ -5,8 +5,8 @@ title = c_skarbrand
 
 # Settlements
 max_settlements = 2
-b_skarbrand = castle
-b_skarwatch = city
+b_skarbrand = tribal
+b_skarwatch = tribal
 
 # Misc
 culture = dwarf_chaos

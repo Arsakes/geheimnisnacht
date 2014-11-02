@@ -5,9 +5,9 @@ title = c_kamas
 
 # Settlements
 max_settlements = 3
-b_katosa = castle
-b_viner = temple
-#b_visi = city
+b_katosa = tribal
+b_viner = tribal
+#b_visi = tribal
 
 # Misc
 culture = gharhar

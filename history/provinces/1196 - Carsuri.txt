@@ -5,8 +5,8 @@ title = c_carsuri
 
 # Settlements
 max_settlements = 2
-b_carsuri = castle
-#b_tets = city
+b_carsuri = tribal
+#b_tets = tribal
 
 # Misc
 culture = tokmar

@@ -5,8 +5,8 @@ title = c_qernildom
 
 # Settlements
 max_settlements = 2
-b_werenthal = castle
-#b_octulthal = castle
+b_werenthal = tribal
+#b_octulthal = tribal
 
 # Misc
 culture = kul

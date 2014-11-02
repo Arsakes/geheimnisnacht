@@ -5,10 +5,10 @@ title = c_heldegrad
 
 # Settlements
 max_settlements = 4
-b_heldegrad = castle
-b_drona = temple
-#b_neryaslavl = castle
-#b_chernimets = city
+b_heldegrad = tribal
+b_drona = tribal
+#b_neryaslavl = tribal
+#b_chernimets = tribal
 
 # Misc
 culture = fjarmann

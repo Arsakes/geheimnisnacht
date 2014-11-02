@@ -5,9 +5,9 @@ title = c_dhazyn
 
 # Settlements
 max_settlements = 3
-b_dhzayn = castle
-#b_hoezyn = temple
-#b_untelivik = castle
+b_dhzayn = tribal
+#b_hoezyn = tribal
+#b_untelivik = tribal
 
 # Misc
 culture = sarl
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2500.1.1 = {
-	b_hoezyn = temple
+	b_hoezyn = tribal
 }

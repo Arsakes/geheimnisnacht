@@ -5,10 +5,10 @@ title = c_teeth_of_the_kraken
 
 # Settlements
 max_settlements = 4
-b_ships_end = castle
-b_isle_of_elska = temple
-#b_ygurnylsvik = city
-#b_ityluvik = city
+b_ships_end = tribal
+b_isle_of_elska = tribal
+#b_ygurnylsvik = tribal
+#b_ityluvik = tribal
 
 # Misc
 culture = varg
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_ygurnylsvik = city
+	b_ygurnylsvik = tribal
 }

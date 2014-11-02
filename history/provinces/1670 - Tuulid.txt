@@ -5,7 +5,7 @@ title = c_tuulud
 
 # Settlements
 max_settlements = 1
-b_tuulud = castle
+b_tuulud = tribal
 
 # Misc
 culture = chi_an

@@ -5,8 +5,8 @@ title = c_oluod
 
 # Settlements
 max_settlements = 2
-b_oluod = castle
-#b_tanga = city
+b_oluod = tribal
+#b_tanga = tribal
 
 # Misc
 culture = khazag

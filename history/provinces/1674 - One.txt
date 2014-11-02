@@ -5,9 +5,9 @@ title = c_one
 
 # Settlements
 max_settlements = 3
-b_one = castle
-b_abishi = city
-#b_arghun = temple
+b_one = tribal
+b_abishi = tribal
+#b_arghun = tribal
 
 # Misc
 culture = mung

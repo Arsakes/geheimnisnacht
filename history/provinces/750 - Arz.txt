@@ -5,10 +5,10 @@ title = c_arz
 
 # Settlements
 max_settlements = 4
-b_arz = castle
-b_aumur = city
-#b_pillar_of_sankaor = castle
-#b_indelwor = temple
+b_arz = tribal
+b_aumur = tribal
+#b_pillar_of_sankaor = tribal
+#b_indelwor = tribal
 
 # Misc
 culture = orc_main

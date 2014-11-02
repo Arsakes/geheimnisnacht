@@ -5,9 +5,9 @@ title = c_arda
 
 # Settlements
 max_settlements = 3
-b_varvara = castle
-b_chuchur = temple
-#b_kasak = castle
+b_varvara = tribal
+b_chuchur = tribal
+#b_kasak = tribal
 
 # Misc
 culture = dolgan

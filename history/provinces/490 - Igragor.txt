@@ -5,9 +5,9 @@ title = c_igragor
 
 # Settlements
 max_settlements = 3
-b_igragor = castle
-b_dirtz = temple
-#b_lugalbaran = castle
+b_igragor = tribal
+b_dirtz = tribal
+#b_lugalbaran = tribal
 
 # Misc
 culture = dolgan

@@ -5,9 +5,9 @@ title = c_loren_pass
 
 # Settlements
 max_settlements = 3
-b_salignac_la_rouge = castle
-b_lyancon = temple
-#b_maison_la_dame = temple
+b_salignac_la_rouge = tribal
+b_lyancon = tribal
+#b_maison_la_dame = tribal
 
 # Misc
 culture = orc_main

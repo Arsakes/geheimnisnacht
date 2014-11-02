@@ -5,10 +5,10 @@ title = c_anu
 
 # Settlements
 max_settlements = 4
-b_anu = castle
-b_kishra = temple
-b_stone_claw = castle
-#b_komorit = castle
+b_anu = tribal
+b_kishra = tribal
+b_stone_claw = tribal
+#b_komorit = tribal
 
 # Misc
 culture = orc_main

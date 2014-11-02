@@ -5,8 +5,8 @@ title = c_morogoth
 
 # Settlements
 max_settlements = 2
-b_morogoroba_azakimolgar_aagabal = castle
-#b_ifirike = castle
+b_morogoroba_azakimolgar_aagabal = tribal
+#b_ifirike = tribal
 
 # Misc
 culture = goblin_main

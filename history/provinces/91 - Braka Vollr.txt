@@ -5,9 +5,9 @@ title = c_braka_vollr
 
 # Settlements
 max_settlements = 3
-b_roturavik = castle
-#b_fdolvuum = temple
-#b_jazuum = city
+b_roturavik = tribal
+#b_fdolvuum = tribal
+#b_jazuum = tribal
 
 # Misc
 culture = varg
@@ -17,5 +17,5 @@ religion = slaanesh
 # History
 
 2250.1.1 = {
-	b_fdolvuum = temple
+	b_fdolvuum = tribal
 }

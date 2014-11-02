@@ -5,9 +5,9 @@ title = c_poibrene
 
 # Settlements
 max_settlements = 3
-b_poibrene = castle
-#b_stranagl = castle
-#b_belovo = temple
+b_poibrene = tribal
+#b_stranagl = tribal
+#b_belovo = tribal
 
 # Misc
 culture = hastling

@@ -5,9 +5,9 @@ title = c_sorg
 
 # Settlements
 max_settlements = 3
-b_sorgheim = castle
-#b_tumenvik = temple
-#b_ulgen = city
+b_sorgheim = tribal
+#b_tumenvik = tribal
+#b_ulgen = tribal
 
 # Misc
 culture = varg

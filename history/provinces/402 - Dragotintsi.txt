@@ -5,9 +5,9 @@ title = c_dragotintsi
 
 # Settlements
 max_settlements = 3
-b_popintsi = castle
-b_han = city
-#b_beledie = temple
+b_popintsi = tribal
+b_han = tribal
+#b_beledie = tribal
 
 # Misc
 culture = kul

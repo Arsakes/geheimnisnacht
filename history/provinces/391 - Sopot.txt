@@ -5,10 +5,10 @@ title = c_sopot
 
 # Settlements
 max_settlements = 4
-b_sopot = castle
-b_oreshak = city
-#b_loss = temple
-#b_petrevene = city
+b_sopot = tribal
+b_oreshak = tribal
+#b_loss = tribal
+#b_petrevene = tribal
 
 # Misc
 culture = tahmak

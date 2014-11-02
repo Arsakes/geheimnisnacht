@@ -5,11 +5,11 @@ title = c_saimaakild
 
 # Settlements
 max_settlements = 5
-b_heimseter = castle
-b_trollbo = castle
-b_lade = temple
-#b_saimaakild = city
-#b_vobarg = city
+b_heimseter = tribal
+b_trollbo = tribal
+b_lade = tribal
+#b_saimaakild = tribal
+#b_vobarg = tribal
 
 # Misc
 culture = bjornling
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_saimaakild = city
+	b_saimaakild = tribal
 }

@@ -5,12 +5,12 @@ title = c_gorgoth
 
 # Settlements
 max_settlements = 6
-b_tower_of_gorgoth = castle
-b_grung_azgorha = city
-b_grung_hargmur = temple
-#b_khadizar_thraldom = castle
-#b_urbar_serdom = castle
-#b_ishataraz = temple
+b_tower_of_gorgoth = tribal
+b_grung_azgorha = tribal
+b_grung_hargmur = tribal
+#b_khadizar_thraldom = tribal
+#b_urbar_serdom = tribal
+#b_ishataraz = tribal
 
 # Misc
 culture = dwarf_chaos
@@ -20,5 +20,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_khadizar_thraldom = castle
+	b_khadizar_thraldom = tribal
 }

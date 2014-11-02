@@ -5,10 +5,10 @@ title = c_panion
 
 # Settlements
 max_settlements = 4
-b_panion = castle
-#b_malaidos = city
-#b_techornos = temple
-#b_eshera = temple
+b_panion = tribal
+#b_malaidos = tribal
+#b_techornos = tribal
+#b_eshera = tribal
 
 # Misc
 culture = orc_main

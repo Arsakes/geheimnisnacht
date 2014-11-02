@@ -5,8 +5,8 @@ title = c_olkoron
 
 # Settlements
 max_settlements = 2
-b_golyamo = castle
-b_absath = castle
+b_golyamo = tribal
+b_absath = tribal
 
 # Misc
 culture = hastling

@@ -194,7 +194,7 @@ objectTypes = {
 	
 	# Change to mongol archer (Kislevites use ungols horse archers which are similar to real life Mongols)
 	EMFXActorType = {
-		name = "kislevgfx_SPECIAL_TROOPS_rider"
+		name = "kislevgfx_horse_archers_rider"
 		actorfile = "gfx\models\Mongol_Mounted_Archer.xac"
 		
 		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
@@ -205,7 +205,7 @@ objectTypes = {
 	}
 
 	EMFXActorType = {
-		name = "kislevgfx_SPECIAL_TROOPS"
+		name = "kislevgfx_horse_archers"
 		actorfile = "gfx\models\Horse.xac"
 		
 		idle   = "gfx\models\Horse_Idle.xsm"
@@ -216,7 +216,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "kislevgfx_SPECIAL_TROOPS_weapon"
+		name = "kislevgfx_horse_archers_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
@@ -227,7 +227,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "kislevgfx_SPECIAL_TROOPS_shield"
+		name = "kislevgfx_horse_archer_shield"
 		actorfile = "gfx\models\Attachments\Bow_02.xac"
 		
 		idle   = "gfx\models\Attachments\Bow_idle.xsm"

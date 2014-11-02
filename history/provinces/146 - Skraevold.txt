@@ -5,10 +5,10 @@ title = c_skraevold
 
 # Settlements
 max_settlements = 4
-b_skraevold = castle
-b_groenevik = city
-#b_groenelvborg = castle
-#b_dypvann = city
+b_skraevold = tribal
+b_groenevik = tribal
+#b_groenelvborg = tribal
+#b_dypvann = tribal
 
 # Misc
 culture = sarl

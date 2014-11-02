@@ -5,10 +5,10 @@ title = c_blatnista
 
 # Settlements
 max_settlements = 4
-b_blatnista = castle
-b_hekoms = city
-#b_malo_konare = temple
-#b_cad = city
+b_blatnista = tribal
+b_hekoms = tribal
+#b_malo_konare = tribal
+#b_cad = tribal
 
 # Misc
 culture = hastling

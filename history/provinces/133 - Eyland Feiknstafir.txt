@@ -5,10 +5,10 @@ title = c_eyland_feiknstafir
 
 # Settlements
 max_settlements = 4
-b_endi = temple
-b_spa = temple
-b_lognbu = castle
-#b_aratulizids_rest = temple
+b_endi = tribal
+b_spa = tribal
+b_lognbu = tribal
+#b_aratulizids_rest = tribal
 
 # Misc
 culture = baersonling

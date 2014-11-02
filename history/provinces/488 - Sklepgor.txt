@@ -5,9 +5,9 @@ title = c_sklepgor
 
 # Settlements
 max_settlements = 3
-b_sklepgor = castle
-#b_zilair = city
-#b_naska = city
+b_sklepgor = tribal
+#b_zilair = tribal
+#b_naska = tribal
 
 # Misc
 culture = dolgan

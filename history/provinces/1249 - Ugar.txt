@@ -5,9 +5,9 @@ title = c_ugar
 
 # Settlements
 max_settlements = 3
-b_kulaba = castle
-#b_turaza = temple
-#b_hansa = castle
+b_kulaba = tribal
+#b_turaza = tribal
+#b_hansa = tribal
 
 # Misc
 culture = orc_main

@@ -5,8 +5,8 @@ title = c_jakki
 
 # Settlements
 max_settlements = 2
-b_svoboda = castle
-#b_sharpi = castle
+b_svoboda = tribal
+#b_sharpi = tribal
 
 # Misc
 culture = hastling

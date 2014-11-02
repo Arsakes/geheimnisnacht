@@ -5,8 +5,8 @@ title = c_abak
 
 # Settlements
 max_settlements = 2
-b_abak = castle
-#b_magarad = temple
+b_abak = tribal
+#b_magarad = tribal
 
 # Misc
 culture = yusak

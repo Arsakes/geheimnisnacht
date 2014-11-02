@@ -5,8 +5,8 @@ title = c_ksidioc
 
 # Settlements
 max_settlements = 2
-b_ksidioc = castle
-#b_kilheim = city
+b_ksidioc = tribal
+#b_kilheim = tribal
 
 # Misc
 culture = bjornling

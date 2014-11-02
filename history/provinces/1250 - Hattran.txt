@@ -5,8 +5,8 @@ title = c_hattran
 
 # Settlements
 max_settlements = 2
-b_hattran = castle
-#b_mitzu = temple
+b_hattran = tribal
+#b_mitzu = tribal
 
 # Misc
 culture = orc_main

@@ -5,9 +5,9 @@ title = c_suleng
 
 # Settlements
 max_settlements = 3
-b_suleng = castle
-b_husk = temple
-#b_sakhal = castle
+b_suleng = tribal
+b_husk = tribal
+#b_sakhal = tribal
 
 # Misc
 culture = yusak

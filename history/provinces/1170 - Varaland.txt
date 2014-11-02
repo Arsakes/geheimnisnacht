@@ -5,10 +5,10 @@ title = c_varaland
 
 # Settlements
 max_settlements = 4
-b_sigismunds_rise = castle
-b_truskholm = city
-#b_hedaby = city
-#b_fiskrheim = temple
+b_sigismunds_rise = tribal
+b_truskholm = tribal
+#b_hedaby = tribal
+#b_fiskrheim = tribal
 
 # Misc
 culture = skaeling
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_hedaby = city
+	b_hedaby = tribal
 }

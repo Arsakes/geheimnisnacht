@@ -5,10 +5,10 @@ title = c_isle_of_gaman
 
 # Settlements
 max_settlements = 4
-b_ilsheim = temple
-#b_shornaals_reach = temple
-#b_ast_pinnacle = castle
-#b_elski = city
+b_ilsheim = tribal
+#b_shornaals_reach = tribal
+#b_ast_pinnacle = tribal
+#b_elski = tribal
 
 # Misc
 culture = varg

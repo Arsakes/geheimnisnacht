@@ -5,10 +5,10 @@ title = c_khazgoruz
 
 # Settlements
 max_settlements = 4
-b_khazgoruz = castle
-b_undi_khazarak = city
-#b_barakabor = castle
-#b_azri_grint = temple
+b_khazgoruz = tribal
+b_undi_khazarak = tribal
+#b_barakabor = tribal
+#b_azri_grint = tribal
 
 # Misc
 culture = goblin_main
@@ -18,5 +18,5 @@ religion = greenskin_gods
 # History
 
 2250.1.1 = {
-	b_barakabor = castle
+	b_barakabor = tribal
 }

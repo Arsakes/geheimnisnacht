@@ -5,7 +5,7 @@ title = c_pishpek
 
 # Settlements
 max_settlements = 1
-b_pishpek = castle
+b_pishpek = tribal
 
 # Misc
 culture = khazag

@@ -5,8 +5,8 @@ title = c_tarim
 
 # Settlements
 max_settlements = 2
-b_aina = castle
-b_merqi = temple
+b_aina = tribal
+b_merqi = tribal
 
 # Misc
 culture = aghol

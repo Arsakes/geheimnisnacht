@@ -5,10 +5,10 @@ title = c_skyggehaug
 
 # Settlements
 max_settlements = 4
-b_skyggehaug = castle
-b_katimavik = temple
-#b_varnus_triumph = castle
-#b_cunilivik = city
+b_skyggehaug = tribal
+b_katimavik = tribal
+#b_varnus_triumph = tribal
+#b_cunilivik = tribal
 
 # Misc
 culture = sarl
@@ -18,5 +18,5 @@ religion = tzeentch
 # History
 
 2250.1.1 = {
-	b_varnus_triumph = castle
+	b_varnus_triumph = tribal
 }

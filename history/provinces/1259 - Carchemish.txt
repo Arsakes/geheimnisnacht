@@ -5,9 +5,9 @@ title = c_carchemish
 
 # Settlements
 max_settlements = 3
-b_carchemish = castle
-b_vrilig = temple
-#b_rhund = temple
+b_carchemish = tribal
+b_vrilig = tribal
+#b_rhund = tribal
 
 # Misc
 culture = goblin_main

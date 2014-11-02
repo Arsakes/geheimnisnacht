@@ -5,8 +5,8 @@ title = c_ossarl
 
 # Settlements
 max_settlements = 2
-b_ossarl = castle
-#b_lizoz = city
+b_ossarl = tribal
+#b_lizoz = tribal
 
 # Misc
 culture = dolgan

@@ -5,9 +5,9 @@ title = c_gulthac
 
 # Settlements
 max_settlements = 3
-b_salzac = castle
-#b_payens = city
-#b_la_volpissa = city
+b_salzac = tribal
+#b_payens = tribal
+#b_la_volpissa = tribal
 
 # Misc
 culture = orc_main

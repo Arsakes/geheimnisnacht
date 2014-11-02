@@ -5,9 +5,9 @@ title = c_inred
 
 # Settlements
 max_settlements = 3
-b_inred = castle
-b_molag = temple
-#b_gordrun = city
+b_inred = tribal
+b_molag = tribal
+#b_gordrun = tribal
 
 # Misc
 culture = goblin_main

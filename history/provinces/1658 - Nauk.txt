@@ -5,8 +5,8 @@ title = c_nauk
 
 # Settlements
 max_settlements = 2
-b_nauk = castle
-#b_khanuy_gol = city
+b_nauk = tribal
+#b_khanuy_gol = tribal
 
 # Misc
 culture = aghol

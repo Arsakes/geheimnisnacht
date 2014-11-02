@@ -5,9 +5,9 @@ title = c_mushki
 
 # Settlements
 max_settlements = 3
-b_the_honour = castle
-#b_mushkh = castle
-#b_szapravony = city
+b_the_honour = tribal
+#b_mushkh = tribal
+#b_szapravony = tribal
 
 # Misc
 culture = orc_main

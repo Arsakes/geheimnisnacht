@@ -5,12 +5,12 @@ title = c_azkaroth
 
 # Settlements
 max_settlements = 6
-b_azkaroth = temple
-b_kummen = castle
-b_dagron = city
-#b_hydarox = temple
-#b_karphoom = temple
-#b_logsber = temple
+b_azkaroth = tribal
+b_kummen = tribal
+b_dagron = tribal
+#b_hydarox = tribal
+#b_karphoom = tribal
+#b_logsber = tribal
 
 # Misc
 culture = tokmar

@@ -5,9 +5,9 @@ title = c_gorlabar
 
 # Settlements
 max_settlements = 3
-b_gorlabar = castle
-b_grundfel = city
-#b_grongang = castle
+b_gorlabar = tribal
+b_grundfel = tribal
+#b_grongang = tribal
 
 # Misc
 culture = dwarf_chaos

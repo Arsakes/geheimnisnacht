@@ -5,9 +5,9 @@ title = c_daro
 
 # Settlements
 max_settlements = 3
-b_darograd = castle
-b_urgraza = city
-#b_daroberg = castle
+b_darograd = tribal
+b_urgraza = tribal
+#b_daroberg = tribal
 
 # Misc
 culture = dwarf_chaos

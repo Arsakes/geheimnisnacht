@@ -5,8 +5,8 @@ title = c_konar
 
 # Settlements
 max_settlements = 2
-b_konar = castle
-b_riken = city
+b_konar = tribal
+b_riken = tribal
 
 # Misc
 culture = orc_main

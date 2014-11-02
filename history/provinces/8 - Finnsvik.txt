@@ -5,10 +5,10 @@ title = c_finnsvik
 
 # Settlements
 max_settlements = 4
-b_finnsvik = castle
-b_bjarkoy = castle
-b_rost = temple
-#b_urliuvik = city
+b_finnsvik = tribal
+b_bjarkoy = tribal
+b_rost = tribal
+#b_urliuvik = tribal
 
 # Misc
 culture = graeling

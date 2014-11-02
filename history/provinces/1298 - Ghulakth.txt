@@ -5,8 +5,8 @@ title = c_ghulakth
 
 # Settlements
 max_settlements = 2
-b_ghulakth = castle
-b_charrin = temple
+b_ghulakth = tribal
+b_charrin = tribal
 
 # Misc
 culture = goblin_main

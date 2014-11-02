@@ -5,9 +5,9 @@ title = c_oxos
 
 # Settlements
 max_settlements = 3
-b_oxos = castle
-b_sais = castle
-#b_marea = temple
+b_oxos = tribal
+b_sais = tribal
+#b_marea = tribal
 
 # Misc
 culture = orc_main

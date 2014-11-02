@@ -5,11 +5,11 @@ title = c_hyttafjord
 
 # Settlements
 max_settlements = 5
-b_hyttaholm = castle
-b_gnistvag = temple
-#b_volsbaek = city
-#b_grexragi = castle
-#b_strindaherad = city
+b_hyttaholm = tribal
+b_gnistvag = tribal
+#b_volsbaek = tribal
+#b_grexragi = tribal
+#b_strindaherad = tribal
 
 # Misc
 culture = skaeling
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_volsbaek = city
+	b_volsbaek = tribal
 }

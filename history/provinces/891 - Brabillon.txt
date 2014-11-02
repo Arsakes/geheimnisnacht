@@ -5,10 +5,10 @@ title = c_brabillon
 
 # Settlements
 max_settlements = 4
-b_brigendie = temple
-#b_brondes = castle
-#b_flabant = temple
-#b_abrige = city
+b_brigendie = tribal
+#b_brondes = tribal
+#b_flabant = tribal
+#b_abrige = tribal
 
 # Misc
 culture = orc_main
@@ -21,5 +21,5 @@ religion = greenskin_gods
 2155.1.1 = { culture = bourgon }
 
 2250.1.1 = {
-	b_brondes = castle
+	b_brondes = tribal
 }

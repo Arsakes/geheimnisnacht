@@ -5,11 +5,11 @@ title = c_stromstaad
 
 # Settlements
 max_settlements = 5
-b_stromstaad = city
-b_stuurumsvik = temple
-b_etid_castle = castle
-#b_yornsberg = castle
-#b_yolkenson = city
+b_stromstaad = tribal
+b_stuurumsvik = tribal
+b_etid_tribal = tribal
+#b_yornsberg = tribal
+#b_yolkenson = tribal
 
 # Misc
 culture = sarl
@@ -19,5 +19,5 @@ religion = tzeentch
 # History
 
 2250.1.1 = {
-	b_yornsberg = castle
+	b_yornsberg = tribal
 }

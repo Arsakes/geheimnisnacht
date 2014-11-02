@@ -5,9 +5,9 @@ title = c_snara_forest
 
 # Settlements
 max_settlements = 3
-b_unheim = castle
-b_tylovik = city
-#b_jerghstodard = castle
+b_unheim = tribal
+b_tylovik = tribal
+#b_jerghstodard = tribal
 
 # Misc
 culture = varg

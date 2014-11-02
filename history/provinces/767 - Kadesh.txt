@@ -5,10 +5,10 @@ title = c_kadesh
 
 # Settlements
 max_settlements = 4
-b_kadesh = castle
-b_ivory_wall = castle
-#b_galymbria = city
-#b_greenwell = temple
+b_kadesh = tribal
+b_ivory_wall = tribal
+#b_galymbria = tribal
+#b_greenwell = tribal
 
 # Misc
 culture = orc_main

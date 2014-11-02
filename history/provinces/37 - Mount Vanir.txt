@@ -5,10 +5,10 @@ title = c_mount_vanir
 
 # Settlements
 max_settlements = 4
-b_mount_vanir = castle
-b_spiritmyrr = temple
-b_hjergyl = temple
-#b_nurilivik = castle
+b_mount_vanir = tribal
+b_spiritmyrr = tribal
+b_hjergyl = tribal
+#b_nurilivik = tribal
 
 # Misc
 culture = skaeling

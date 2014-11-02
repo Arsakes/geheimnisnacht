@@ -5,8 +5,8 @@ title = c_askola
 
 # Settlements
 max_settlements = 2
-b_askola = castle
-b_sarkela = temple
+b_askola = tribal
+b_sarkela = tribal
 
 # Misc
 culture = khazag

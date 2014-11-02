@@ -5,9 +5,9 @@ title = c_icewind_pass
 
 # Settlements
 max_settlements = 3
-b_dalesvik = city
-b_hordenborg = castle
-#b_odenberg = castle
+b_dalesvik = tribal
+b_hordenborg = tribal
+#b_odenberg = tribal
 
 # Misc
 culture = baersonling

@@ -5,10 +5,10 @@ title = c_frjosafit
 
 # Settlements
 max_settlements = 4
-b_fryjstaad = castle
-b_rerivik = city
-#b_durnvik = city
-#b_khargalitan = castle
+b_fryjstaad = tribal
+b_rerivik = tribal
+#b_durnvik = tribal
+#b_khargalitan = tribal
 
 # Misc
 culture = aesling

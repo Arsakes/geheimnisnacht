@@ -5,9 +5,9 @@ title = c_cungal_hills
 
 # Settlements
 max_settlements = 3
-b_hyjular = temple
-b_welrstik = castle
-#b_opijylmun = city
+b_hyjular = tribal
+b_welrstik = tribal
+#b_opijylmun = tribal
 
 # Misc
 culture = skaeling

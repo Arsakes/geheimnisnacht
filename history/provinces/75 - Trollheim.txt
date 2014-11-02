@@ -5,11 +5,11 @@ title = c_trollheim
 
 # Settlements
 max_settlements = 5
-b_narberg = castle
-b_tillbearga = city
-b_jagergrop = city
-#b_hordenslag = city
-#b_odensden = temple
+b_narberg = tribal
+b_tillbearga = tribal
+b_jagergrop = tribal
+#b_hordenslag = tribal
+#b_odensden = tribal
 
 # Misc
 culture = sarl
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_hordenslag = city
+	b_hordenslag = tribal
 }

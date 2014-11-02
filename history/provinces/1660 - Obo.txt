@@ -5,9 +5,9 @@ title = c_obo
 
 # Settlements
 max_settlements = 3
-b_obo = castle
-b_boyuk = city
-#b_taunshi = temple
+b_obo = tribal
+b_boyuk = tribal
+#b_taunshi = tribal
 
 # Misc
 culture = aghol

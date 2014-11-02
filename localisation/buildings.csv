@@ -265,15 +265,24 @@ ca_oldworldgods_keep_5;Temple of Shallya;;;;;;;;;;;;;x
 #
 # PIETRKO  BUILDINGS
 # Kurgans/Hung nomad buildings replacement
-ca_slave_camp_1;Slave Camp;;;;;;;;;;;;;x
-ca_slave_camp_2;Slave Camp;;;;;;;;;;;;;x
-ca_slave_camp_3;Slave Camp;;;;;;;;;;;;;x
-ca_slave_camp_desc;A slaver camp has formed around tribe seat, buying and selling slaves.;;;;;;;;;;;;;x
+tb_market_town_1_kurgan_group;Slave Trader;;;;;;;;;;;;;x
+tb_market_town_2_kurgan_group;Slave Camp;;;;;;;;;;;;;x
+tb_market_town_3_kurgan_group;Slave Market;;;;;;;;;;;;;x
+tb_market_town_4_kurgan_group;Great Slave Market;;;;;;;;;;;;;x
+tb_market_town_1_desc_kurgan_group;A slave trader is present in the settlement.;;;;;;;;;;;;;x
+tb_market_town_2_desc_kurgan_group;A slaver camp has formed around tribe seat, buying and selling slaves.;;;;;;;;;;;;;x
+tb_market_town_3_desc_kurgan_group;A slave market has formed around tribe seat, buying and selling slaves.;;;;;;;;;;;;;x
+tb_market_town_4_desc_kurgan_group;A Great Slave market  has formed around tribe seat, buying and selling slaves.;;;;;;;;;;;;;x
 # steppe for
-ca_wall_steppe_q_1;Scouting Outposts;;;;;;;;;;;;;x
-ca_wall_steppe_q_2;Scouting Outposts;;;;;;;;;;;;;x
-ca_wall_steppe_q_3;Scouting Outposts;;;;;;;;;;;;;x
-ca_wall_steppe_q_desc;Tribe keeps a number of scouting parties patrolling their territory looking for the danger.;;;;;;;;;;;;;x
+#ca_wall_steppe_q_1;Scouting Outposts;;;;;;;;;;;;;x
+#ca_wall_steppe_q_2;Scouting Outposts;;;;;;;;;;;;;x
+#ca_wall_steppe_q_3;Scouting Outposts;;;;;;;;;;;;;x
+#ca_wall_steppe_q_desc;Tribe keeps a number of scouting parties patrolling their territory looking for the danger.;;;;;;;;;;;;;x
+# Norscans
+tb_norscan_shipyard_1;Norscan Shipyard;;;;;;;;;;;;;x
+tb_norscan_shipyard_2;Norscan Shipyard;;;;;;;;;;;;;x
+tb_norscan_shipyard_3;Norscan Shipyard;;;;;;;;;;;;;x
+tb_norscan_shipyard_4;Norscan Shipyard;;;;;;;;;;;;;x
 # Kislevites
 ca_kislevite_barracks_1;Kossar Barracks;;;;;;;;;;;;;x
 ca_kislevite_barracks_2;Kossar Barracks;;;;;;;;;;;;;x

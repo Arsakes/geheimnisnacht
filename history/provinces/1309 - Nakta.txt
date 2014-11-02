@@ -5,8 +5,8 @@ title = c_nakta
 
 # Settlements
 max_settlements = 2
-b_nakta = castle
-b_maltak = temple
+b_nakta = tribal
+b_maltak = tribal
 
 # Misc
 culture = orc_main

@@ -5,9 +5,9 @@ title = c_torpan
 
 # Settlements
 max_settlements = 3
-b_evenk = castle
-#b_mogholi = temple
-#b_elta = city
+b_evenk = tribal
+#b_mogholi = tribal
+#b_elta = tribal
 
 # Misc
 culture = kvellig

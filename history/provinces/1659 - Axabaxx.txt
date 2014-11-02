@@ -5,8 +5,8 @@ title = c_axabaxx
 
 # Settlements
 max_settlements = 2
-b_axabaxx = castle
-#b_taryatu_chulutu = city
+b_axabaxx = tribal
+#b_taryatu_chulutu = tribal
 
 # Misc
 culture = aghol

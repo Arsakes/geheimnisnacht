@@ -5,11 +5,11 @@ title = c_novgoborg
 
 # Settlements
 max_settlements = 5
-b_novgoborg = castle
-b_kraken_bay = city
-#b_utumel = castle
-#b_gharlsborg = temple
-#b_jurdiralborg = city
+b_novgoborg = tribal
+b_kraken_bay = tribal
+#b_utumel = tribal
+#b_gharlsborg = tribal
+#b_jurdiralborg = tribal
 
 # Misc
 culture = varg

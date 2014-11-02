@@ -5,9 +5,9 @@ title = c_askreved
 
 # Settlements
 max_settlements = 3
-b_askreved = castle
-b_darlstaad = city
-#b_yuliberg = castle
+b_askreved = tribal
+b_darlstaad = tribal
+#b_yuliberg = tribal
 
 # Misc
 culture = sarl

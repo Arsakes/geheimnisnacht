@@ -5,10 +5,10 @@ title = c_ey_kragmor
 
 # Settlements
 max_settlements = 4
-b_kragmors_stand = castle
-#b_gazrevik = city
-#b_port_of_thex = city
-#b_hezjul = temple
+b_kragmors_stand = tribal
+#b_gazrevik = tribal
+#b_port_of_thex = tribal
+#b_hezjul = tribal
 
 # Misc
 culture = baersonling

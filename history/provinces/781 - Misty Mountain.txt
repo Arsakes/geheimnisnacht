@@ -5,10 +5,10 @@ title = c_misty_mountain
 
 # Settlements
 max_settlements = 4
-b_misty_keep = castle
-#b_moat_of_the_dolphin = city
-#b_dreadhold = castle
-#b_mandyston = temple
+b_misty_keep = tribal
+#b_moat_of_the_dolphin = tribal
+#b_dreadhold = tribal
+#b_mandyston = tribal
 
 # Misc
 culture = goblin_main

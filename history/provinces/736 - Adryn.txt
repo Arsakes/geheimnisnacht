@@ -5,10 +5,10 @@ title = c_adryn
 
 # Settlements
 max_settlements = 4
-b_adryn = castle
-b_karon = city
-b_bassit = castle
-#b_asteron = temple
+b_adryn = tribal
+b_karon = tribal
+b_bassit = tribal
+#b_asteron = tribal
 
 # Misc
 culture = orc_main

@@ -1,0 +1,88 @@
+# @author Pietrko
+# @compatibility 2.2.0
+# @descritpion  Norscan tribal buildings replacement
+
+tribal = {
+	tb_norscan_shipyard_1 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 1 }
+
+		potential = { culture_group = norscan_group }
+		replaces = tb_shipyard_1
+
+		gold_cost = 50
+		build_time = 365
+		galleys = 10
+		ai_creation_factor = 97
+		ai_republic_modifier = 5
+		
+		convert_to_feudal = ca_shipyard_1
+		convert_to_republic = ct_shipyard_1
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	tb_norscan_shipyard_2 = {
+		desc = shipyard_desc
+		port = yes
+		replaces = tb_shipyard_2
+
+		trigger = { TECH_NAVAL = 2 }
+		potential = { culture_group = norscan_group }
+
+		upgrades_from = tb_norscan_shipyard_1
+		gold_cost = 100
+		build_time = 730
+		galleys = 11
+		ai_creation_factor = 95
+		ai_republic_modifier = 5
+		
+		convert_to_feudal = ca_shipyard_2
+		convert_to_republic = ct_shipyard_2
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	tb_norscan_shipyard_3 = {
+		desc = shipyard_desc
+		port = yes
+
+		replaces = tb_shipyard_3
+		potential = { culture_group = norscan_group }
+	
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = tb_norscan_shipyard_2
+		gold_cost = 100
+		build_time = 1095
+		galleys = 12
+		ai_creation_factor = 94
+		ai_republic_modifier = 5
+		
+		convert_to_feudal = ca_shipyard_3
+		convert_to_republic = ct_shipyard_3
+		
+		extra_tech_building_start = 0.3
+	}
+	
+	tb_norscan_shipyard_4 = {
+		desc = shipyard_desc
+		port = yes
+		trigger = { TECH_NAVAL = 4 }
+
+		potential = { culture_group = norscan_group }
+		replaces = tb_shipyard_4
+		
+		upgrades_from = tb_norscan_shipyard_3
+		gold_cost = 100
+		build_time = 1460
+		galleys = 13
+		ai_creation_factor = 93
+		ai_republic_modifier = 5
+		
+		convert_to_feudal = ca_shipyard_4
+		convert_to_republic = ct_shipyard_4
+		
+		extra_tech_building_start = 0.3
+	}
+}

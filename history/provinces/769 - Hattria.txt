@@ -5,9 +5,9 @@ title = c_hattria
 
 # Settlements
 max_settlements = 3
-b_hattria = castle
-#b_white_cliff = city
-#b_agat = temple
+b_hattria = tribal
+#b_white_cliff = tribal
+#b_agat = tribal
 
 # Misc
 culture = orc_main

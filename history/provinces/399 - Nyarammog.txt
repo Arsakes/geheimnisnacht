@@ -5,12 +5,12 @@ title = c_nyarammog
 
 # Settlements
 max_settlements = 6
-b_nyarammog = castle
-b_gaim_bol = castle
-b_tsaragg = temple
-b_zoth = city
-#b_krali = city
-#b_wyrdz = castle
+b_nyarammog = tribal
+b_gaim_bol = tribal
+b_tsaragg = tribal
+b_zoth = tribal
+#b_krali = tribal
+#b_wyrdz = tribal
 
 # Misc
 culture = kul

@@ -5,9 +5,9 @@ title = c_passere_brann
 
 # Settlements
 max_settlements = 3
-b_brannsvik = temple
-b_nilkunsvik = city
-#b_tikolaheim = castle
+b_brannsvik = tribal
+b_nilkunsvik = tribal
+#b_tikolaheim = tribal
 
 # Misc
 culture = aesling

@@ -5,8 +5,8 @@ title = c_nuur
 
 # Settlements
 max_settlements = 2
-b_nuur = castle
-b_khabyr = city
+b_nuur = tribal
+b_khabyr = tribal
 
 # Misc
 culture = yusak

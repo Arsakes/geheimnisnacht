@@ -5,10 +5,10 @@ title = c_komar
 
 # Settlements
 max_settlements = 4
-b_komar = castle
-b_karak_ekzfar = castle
-#b_kazad_urbigaz = temple
-#b_karag_opar = temple
+b_komar = tribal
+b_karak_ekzfar = tribal
+#b_kazad_urbigaz = tribal
+#b_karag_opar = tribal
 
 # Misc
 culture = orc_main

@@ -5,12 +5,12 @@ title = c_kathuul
 
 # Settlements
 max_settlements = 6
-b_kathuul = castle
-b_levski = castle
-b_ghatoraz = temple
-b_nurgathar = city
-#b_saraya = temple
-#b_zalgu = city
+b_kathuul = tribal
+b_levski = tribal
+b_ghatoraz = tribal
+b_nurgathar = tribal
+#b_saraya = tribal
+#b_zalgu = tribal
 
 # Misc
 culture = tokmar

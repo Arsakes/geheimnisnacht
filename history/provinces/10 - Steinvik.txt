@@ -5,9 +5,9 @@ title = c_steinvik
 
 # Settlements
 max_settlements = 3
-b_steinvik = castle
-#b_hrakorn = temple
-#b_ioravik = city
+b_steinvik = tribal
+#b_hrakorn = tribal
+#b_ioravik = tribal
 
 # Misc
 culture = graeling
@@ -17,5 +17,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_hrakorn = temple
+	b_hrakorn = tribal
 }

@@ -5,9 +5,9 @@ title = c_ironhide
 
 # Settlements
 max_settlements = 3
-b_enragg = castle
-#b_kriken = temple
-#b_noveria = city
+b_enragg = tribal
+#b_kriken = tribal
+#b_noveria = tribal
 
 # Misc
 culture = orc_main

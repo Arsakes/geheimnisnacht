@@ -5,10 +5,10 @@ title = c_uvs
 
 # Settlements
 max_settlements = 4
-b_uvs = castle
-#b_kamniga = temple
-#b_umrad = city
-#b_telengar = city
+b_uvs = tribal
+#b_kamniga = tribal
+#b_umrad = tribal
+#b_telengar = tribal
 
 # Misc
 culture = aghol

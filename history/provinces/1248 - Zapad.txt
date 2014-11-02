@@ -5,8 +5,8 @@ title = c_zapad
 
 # Settlements
 max_settlements = 2
-b_hurum = castle
-#b_godhor = temple
+b_hurum = tribal
+#b_godhor = tribal
 
 # Misc
 culture = tokmar

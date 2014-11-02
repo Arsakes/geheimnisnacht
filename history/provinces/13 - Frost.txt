@@ -5,10 +5,10 @@ title = c_frost
 
 # Settlements
 max_settlements = 4
-b_frost = castle
-b_mironoff = castle
-b_kalevanvik = temple
-#b_aura = city
+b_frost = tribal
+b_mironoff = tribal
+b_kalevanvik = tribal
+#b_aura = tribal
 
 # Misc
 culture = bjornling

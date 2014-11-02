@@ -5,9 +5,9 @@ title = c_afayan
 
 # Settlements
 max_settlements = 3
-b_afayan = castle
-b_samanda = city
-#b_teion = temple
+b_afayan = tribal
+b_samanda = tribal
+#b_teion = tribal
 
 # Misc
 culture = orc_main

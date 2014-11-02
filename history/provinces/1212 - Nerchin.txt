@@ -5,9 +5,9 @@ title = c_nerchin
 
 # Settlements
 max_settlements = 3
-b_donxi = castle
-b_oold = temple
-#b_naglbor = city
+b_donxi = tribal
+b_oold = tribal
+#b_naglbor = tribal
 
 # Misc
 culture = kvellig

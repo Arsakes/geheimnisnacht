@@ -5,8 +5,8 @@ title = c_kori
 
 # Settlements
 max_settlements = 2
-b_kori = castle
-#b_yama = castle
+b_kori = tribal
+#b_yama = tribal
 
 # Misc
 culture = mung

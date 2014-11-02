@@ -5,8 +5,8 @@ title = c_votioi
 
 # Settlements
 max_settlements = 2
-b_votioi = castle
-#b_besermy = temple
+b_votioi = tribal
+#b_besermy = tribal
 
 # Misc
 culture = gharhar

@@ -5,8 +5,8 @@ title = c_tyronim
 
 # Settlements
 max_settlements = 2
-b_tyronim = castle
-#b_utulum = temple
+b_tyronim = tribal
+#b_utulum = tribal
 
 # Misc
 culture = bjornling
@@ -16,5 +16,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_utulum = temple
+	b_utulum = tribal
 }

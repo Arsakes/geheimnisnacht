@@ -5,9 +5,9 @@ title = c_ombra
 
 # Settlements
 max_settlements = 3
-b_fort_ombra = castle
-b_pebble = castle
-#b_deadstone = city
+b_fort_ombra = tribal
+b_pebble = tribal
+#b_deadstone = tribal
 
 # Misc
 culture = dwarf_chaos

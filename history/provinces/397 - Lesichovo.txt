@@ -5,9 +5,9 @@ title = c_lesichovo
 
 # Settlements
 max_settlements = 3
-b_lesichovo = castle
-#b_heel = city
-#b_marko = temple
+b_lesichovo = tribal
+#b_heel = tribal
+#b_marko = tribal
 
 # Misc
 culture = hastling

@@ -5,9 +5,9 @@ title = c_dagrolad
 
 # Settlements
 max_settlements = 3
-b_anzarangol = castle
-b_urkrandorf = city
-#b_mausolo = temple
+b_anzarangol = tribal
+b_urkrandorf = tribal
+#b_mausolo = tribal
 
 # Misc
 culture = orc_main

@@ -5,9 +5,9 @@ title = c_durfang
 
 # Settlements
 max_settlements = 3
-b_durfang = castle
-b_jykalvik = city
-#b_thurilheim = city
+b_durfang = tribal
+b_jykalvik = tribal
+#b_thurilheim = tribal
 
 # Misc
 culture = sarl
