@@ -490,6 +490,7 @@ lore_nurgle;Lore of Nurgle;;;;;;;;;;;;;x
 lore_slaanesh;Lore of Slaanesh;;;;;;;;;;;;;x
 lore_tzeentch;Lore of Tzeentch;;;;;;;;;;;;;x
 lore_ice;Lore of Ice;;;;;;;;;;;;;x
+lore_necromancy;Lore of Necromancy;;;;;;;;;;;;;x
 # MAGIC TRAITS Descriptions
 magic_power_adept_desc;This character shows an affinity in the use of magic.;;;;;;;;;;;;;x
 magic_power_magister_desc;This character is capable in the use of magic.;;;;;;;;;;;;;x
@@ -509,4 +510,5 @@ lore_nurgle_desc;This character can use spells specially crafted by Nurgle.;;;;;
 lore_slaanesh_desc;This character can use spells specially crafted by Slaanesh.;;;;;;;;;;;;;x
 lore_tzeentch_desc;This character can use spells specially crafted by Tzeenth.;;;;;;;;;;;;;x
 lore_ice_desc;This character can use magic of Ice practiced by Ice Witches of Kislev.;;;;;;;;;;;;;x
+lore_necromancy_desc;This character can use spells from dark art of necromancy.;;;;;;;;;;;;;x
 

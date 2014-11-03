@@ -24,6 +24,15 @@ spriteTypes = {
 		name = "GFX_decision_lore_light"
 		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_lore_light"
+		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_necromancy"
+		texturefile = "gfx\\interface\\decision_icon_lore_necromancy.tga"
+	}
+
 	# traits from duel mod
 	spriteType = {
 		name = "GFX_trait_master_warrior"
@@ -354,6 +363,13 @@ spriteTypes = {
         spriteType = {
 		name = "GFX_trait_lore_tzeentch"
 		texturefile = "gfx/traits/lore_tzeentch.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+        spriteType = {
+		name = "GFX_trait_lore_necromancy"
+		texturefile = "gfx/traits/lore_necromancy.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

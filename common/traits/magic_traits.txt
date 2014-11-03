@@ -101,3 +101,8 @@ lore_slaanesh = {
 lore_tzeentch = {
 	random = no
 }
+#Other Dark
+lore_necromancy = {
+	random = no
+}
+

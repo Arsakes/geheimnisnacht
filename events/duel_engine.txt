@@ -1547,7 +1547,7 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
@@ -1571,8 +1571,56 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds1 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds1 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell two
@@ -1595,8 +1643,57 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds2 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds2 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell three
@@ -1619,8 +1716,57 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds3 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds3 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell four
@@ -1643,8 +1789,56 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds4 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds4 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 3 MAGIC ACTION
@@ -1654,7 +1848,7 @@ character_event = {
 
         # channeling event
         character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     option = {
@@ -1666,7 +1860,7 @@ character_event = {
         # magic points penalty
         change_variable = { which = "magic_points" value = -2 }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
 
@@ -1680,7 +1874,7 @@ character_event = {
     picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
-
+  
     # CASE 1 MEELE COMBAT
     option = {
         name = "EVTOPT_DUELENGINE_20A"
@@ -1726,7 +1920,7 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
@@ -1742,7 +1936,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds1 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell two
@@ -1757,7 +2008,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds2 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell three
@@ -1772,7 +2081,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds3 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell four
@@ -1787,7 +2154,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds4 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 3 MAGIC ACTION
@@ -1797,7 +2221,7 @@ character_event = {
 
         # channeling event
         character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     option = {
@@ -1809,9 +2233,10 @@ character_event = {
         # magic points penalty
         change_variable = { which = "magic_points" value = -2 }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
+
 
 }
 ##################
@@ -1869,7 +2294,7 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
@@ -1885,7 +2310,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds1 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell two
@@ -1900,7 +2382,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds2 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell three
@@ -1915,7 +2455,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds3 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell four
@@ -1930,7 +2528,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds4 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 3 MAGIC ACTION
@@ -1940,7 +2595,7 @@ character_event = {
 
         # channeling event
         character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     option = {
@@ -1952,7 +2607,7 @@ character_event = {
         # magic points penalty
         change_variable = { which = "magic_points" value = -2 }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
 
@@ -2012,7 +2667,7 @@ character_event = {
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 2 CASTING SPELL
@@ -2028,7 +2683,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds1 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds1 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell two
@@ -2043,7 +2755,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds2 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds2 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell three
@@ -2058,7 +2828,65 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds3 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds3 }
+        }
+
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell four
@@ -2073,7 +2901,64 @@ character_event = {
             limit = { trait = lore_light }
             custom_tooltip = { text = TOOLTIP_hysh_ds4 }
         }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        if = { 
+            limit = { trait = lore_ice }
+            custom_tooltip = { text = TOOLTIP_ice_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_fire }
+            custom_tooltip = { text = TOOLTIP_fire_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds4 }
+        }
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # CASE 3 MAGIC ACTION
@@ -2083,7 +2968,7 @@ character_event = {
 
         # channeling event
         character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     option = {
@@ -2095,7 +2980,7 @@ character_event = {
         # magic points penalty
         change_variable = { which = "magic_points" value = -2 }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
 

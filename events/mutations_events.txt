@@ -20,6 +20,11 @@
 # 6.Possession [possession_engine]
 #
 #
+#
+# Mutation counter: counts mutations
+# 1 for minor, 3 for major, 5 for massive
+# mutatitions add up more than 10 mutation counter kills the character
+#
 # TODO fix this chain with validator !
 # 1- hidden governing events
 # 2-19: mutation
@@ -151,22 +156,22 @@ character_event = {
         # to be done in empire only Sylvany gets modifer
         modifier = {
             factor = 0.5
-            location = { kingdom = k_sylvania }
+            location = { kingdom = { title = k_sylvania } }
         }
     }
     # trigger an actual mutation event depending on 
     # the amount of mutation
     immediate = { 
         random_list = {
-            12 = { character_event = { id = mutation.2 } }
-            11 = { character_event = { id = mutation.3 } }
-            11 = { character_event = { id = mutation.4 } }
+            13 = { character_event = { id = mutation.2 } }
+            14 = { character_event = { id = mutation.3 } }
+            13 = { character_event = { id = mutation.4 } }
             11 = { character_event = { id = mutation.5 } }
             11 = { character_event = { id = mutation.6 } }
             11 = { character_event = { id = mutation.7 } }
-            11 = { character_event = { id = mutation.8 } }
-            11 = { character_event = { id = mutation.9 } }
-            11 = { character_event = { id = mutation.10 } }
+            9 = { character_event = { id = mutation.8 } }
+            9 = { character_event = { id = mutation.9 } }
+            9 = { character_event = { id = mutation.10 } }
         }
     }
 }
@@ -193,10 +198,14 @@ character_event = {
            }
            add_trait = mutation_minor
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 1 }
+           character_event = { id = mutation.11 }
+       }
     }
 }
 # strage look (come up with some generic description could be strange
-# coulour hair, fur, fingers growing on  head etc)
+# colour hair, fur, fingers growing on  head etc)
 character_event = {
     id = mutation.3
     desc = "EVTDESC_MUTATION_3"
@@ -213,6 +222,10 @@ character_event = {
                NOT = { trait = mutation_massive }
            }
            add_trait = mutation_minor
+       }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 1 }
+           character_event = { id = mutation.11 }
        }
 
     }
@@ -237,6 +250,10 @@ character_event = {
            }
            add_trait = mutation_minor
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 1 }
+           character_event = { id = mutation.11 }
+       }
 
     }
 }
@@ -259,6 +276,11 @@ character_event = {
            add_trait = mutation_major
            hidden_tooltip = { remove_trait = mutation_minor }
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 3 }
+           character_event = { id = mutation.11 }
+       }
+
     }
 }
 # atrophy (without leg, hand or something)
@@ -282,6 +304,10 @@ character_event = {
            add_trait = mutation_major
            hidden_tooltip = { remove_trait = mutation_minor }
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 3 }
+           character_event = { id = mutation.11 }
+       }
 
     }
 }
@@ -304,6 +330,10 @@ character_event = {
            }
            add_trait = mutation_major
            hidden_tooltip = { remove_trait = mutation_minor }
+       }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 3 }
+           character_event = { id = mutation.11 }
        }
 
     }
@@ -332,6 +362,10 @@ character_event = {
                remove_trait = mutation_major
            }
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 5 }
+           character_event = { id = mutation.11 }
+       }
 
     }
 }
@@ -359,7 +393,10 @@ character_event = {
                remove_trait = mutation_minor 
                remove_trait = mutation_major
            }
-
+       }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 5 }
+           character_event = { id = mutation.11 }
        }
 
     }
@@ -386,6 +423,72 @@ character_event = {
                remove_trait = mutation_major
            }
        }
+       hidden_tooltip = { 
+           change_variable = { which = "mutation_counter" value = 5 }
+           character_event = { id = mutation.11 }
+       }
 
+    }
+}
+# Mutation checker 
+#
+# Event triggers only when mutation counter is high enough and bigger 
+# than it should be for character mutation trait
+character_event = {
+    id = mutation.11
+    desc = "EVTDESC_MUTATION_11"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+
+    trigger = {
+        OR = {
+            # minor/none -> major
+            AND = {
+                check_variable = { which = "mutation_counter" value = 3 } 
+                NOT = { check_variable = { which = "mutation_counter" value = 5 }}
+                NOT = { trait = mutation_major }
+            }
+            # major/minor/none - > massive
+            AND = {
+                check_variable = { which = "mutation_counter" value = 5 } 
+                NOT = { trait = mutation_massive }
+            }
+            check_variable = { which = "mutation_counter" value = 11 } 
+        }
+    }
+    option = {
+        name = OK
+        trigger = { check_variable = { which = "mutation_counter" value = 5 } }
+        hidden_tooltip = {
+            remove_trait = mutation_major
+            remove_trait = mutation_minor
+            if = {
+ 	        limit = { check_variable = { which = "mutation_counter" value = 11 }}
+                character_event = { id = mutation.12 days = 2 }
+            }
+        }
+        add_trait = mutation_massive
+    }
+    option = {
+        name = OK
+        trigger = { NOT = { check_variable = { which = "mutation_counter" value = 5 }}}
+        hidden_tooltip = {
+            remove_trait = mutation_massive
+            remove_trait = mutation_minor
+        }
+        add_trait = mutation_major
+    }
+}
+# Mutation counter higher than 10 - become Chaos spawn
+character_event = {
+    id = mutation.12
+    desc = "EVTDESC_MUTATION_12"
+    picture = GFX_evt_mutation
+    is_triggered_only = yes
+
+    option = {
+        name = OK
+        # character dies
+        death = { death_reason = death_illness } # FIXME there is such death reason ?
     }
 }
