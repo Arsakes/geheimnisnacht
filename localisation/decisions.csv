@@ -20,6 +20,8 @@ decision_lore_dark;Dark magic;;;;;;;;;;;;;x
 decision_lore_dark_desc;Attempt to cast dark magic spells.;;;;;;;;;;;;;x
 decision_lore_fire;Lore of Fire;;;;;;;;;;;;;x
 decision_lore_fire_desc;Attempt to manipulate Aqushy the red wind of magic.;;;;;;;;;;;;;x
+decision_lore_necromancy;Lore of Necromancy;;;;;;;;;;;;;x
+decision_lore_necromancy_desc;Attempt to use dark magic of necromancy.;;;;;;;;;;;;;x
 #
 decision_open_spellbook;Open the spellbook;;;;;;;;;;;;;x
 decision_close_spellbook;Close the spellbook;;;;;;;;;;;;;x

@@ -122,4 +122,16 @@ decisions = {
             character_event = { id = dark.0 }
         }
     }
+    # Chose spells from necromancy lore (PC only)
+    decision_lore_necromancy = {
+        potential = {
+            has_character_flag = spellbook_open 
+            ai = no
+            trait = lore_necromancy
+        }
+        allow = { always = yes }
+        effect = { 
+            character_event = { id = necromancy.0 }
+        }
+    }
 }

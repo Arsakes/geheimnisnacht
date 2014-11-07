@@ -155,6 +155,7 @@ character_event = {
     id = magicengine.2
     desc = "EVTDESC_MAGICENGINE_2"
     is_triggered_only = yes
+    picture = "GFX_evt_mistcast"
      
     option = {
         name = OK
@@ -164,6 +165,7 @@ character_event = {
     id = magicengine.3
     desc = "EVTDESC_MAGICENGINE_3"
     is_triggered_only = yes
+    picture = "GFX_evt_mistcast"
     
     immediate = {
         change_variable = { which = "duel_hp" value = -1 }
@@ -180,6 +182,7 @@ character_event = {
     id = magicengine.4
     desc = "EVTDESC_MAGICENGINE_4"
     is_triggered_only = yes
+    picture = "GFX_evt_mistcast"
   
     immediate = {
         change_variable = { which = "duel_hp" value = -2 } 
@@ -192,8 +195,8 @@ character_event = {
             50 = {
                 custom_tooltip = { 
                     text = "TOOLTIP_MAGICENGINE_MUTATION"
-                    character_event = { id = mutation.1 } 
                 }
+                hidden_tooltip = { character_event = { id = mutation.1 }}
             }
             25 = {
                 add_trait = maimed
@@ -256,7 +259,7 @@ character_event = {
 
     immediate = { 
         FROM = {
-            # INIT
+            # calculating magic cost
             if = { 
                  limit = { trait = lore_light }
                  set_variable = {  which = "magic_spell_cost" value = 3 }

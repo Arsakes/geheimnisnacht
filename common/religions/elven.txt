@@ -1,3 +1,4 @@
+# Delete on or the other
 cadai_gods_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx

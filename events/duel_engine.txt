@@ -1071,9 +1071,9 @@ character_event = {
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
         # FIXME: dmg reporting events
-        character_event = { id = test.25 } # FROMFROM is the victim
-        character_event = { id = test.23 } # dmg dealt to enemy
-        character_event = { id = test.27 } # defence of enemy
+        #character_event = { id = test.25 } # FROMFROM is the victim
+        #character_event = { id = test.23 } # dmg dealt to enemy
+        #character_event = { id = test.27 } # defence of enemy
         # clear flags that mark character's choose of type of move
         clr_character_flag = duel_move_combat
         clr_character_flag = duel_move_magic_spell
@@ -1084,17 +1084,15 @@ character_event = {
         # MAGIC - passive channeling
         character_event = { id = magicengine.5 } 
     }
- 
     
     #############################################################################
     #
     # Here is decided round outcome, also the player decides what 
-    # kind of move (regular combat, prepare spell, control the winds, change lore)
+    # kind of move (regular combat, cast spell, other action
     # for each kind of round outcome there are 4 options 
     # therefore no more 4 * 4 options alotgether
     #
-    # There are 4 (+1 death case) big mutally exclusive big cases  - in each case 
-    # player is able to do one 
+    # There are 4 (+1 death case) big mutally exclusive big cases could more
     #
     ############################################################################
     #
@@ -1118,6 +1116,55 @@ character_event = {
     # MEELE FIGHT
     option = {
         name = "EVTOPT_DUELENGINE_4A"
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 0 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp0 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_hp" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhpMAX }
+        }
+
         trigger = { 
             # 1 or less hp points - alive
             check_variable = { which = "duel_hp" value = 1 }
@@ -1171,9 +1218,57 @@ character_event = {
     # CAST SPELL
     option = {
         name = "EVTOPT_DUELENGINE_4B"
-        # Now when dmg is done there is time to send report events
-        #
-        # Both people hit themselves
+     
+        # CUSTOM TOOLTIP - reporting magic state
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 0 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints0 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "magic_points" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpointsMAX }
+        }
+
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
             OR = { 
@@ -1230,8 +1325,6 @@ character_event = {
     # OTHER MAGIC ACTIONS
     option = {
         name = "EVTOPT_DUELENGINE_4C"
-        # Now when dmg is done there is time to send report events
-        #
         # Both people hit themselves
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }

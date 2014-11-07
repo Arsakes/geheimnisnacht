@@ -58,13 +58,28 @@ spriteTypes = {
                 texturefile = "gfx\\event_pictures\\chaos_incrusion.tga"
                 allwaystransparent = yes
         }
-        # Magci events
+        # Magic events
 	spriteType = {
                 name = "GFX_evt_spell_hysh"
                 texturefile = "gfx\\event_pictures\\hysh_spell.tga"
                 allwaystransparent = yes
         }
-		#Quest Events
+	spriteType = {
+                name = "GFX_evt_spell_ice"
+                texturefile = "gfx\\event_pictures\\ice_spell.tga"
+                allwaystransparent = yes
+        }
+	spriteType = {
+                name = "GFX_evt_mistcast"
+                texturefile = "gfx\\event_pictures\\mistcast.tga"
+                allwaystransparent = yes
+        }
+	spriteType = {
+                name = "GFX_evt_mutation"
+                texturefile = "gfx\\event_pictures\\mutation.tga"
+                allwaystransparent = yes
+        }
+	#Quest Events
 	spriteType = {
                 name = "GFX_evt_zombies"
                 texturefile = "gfx\\event_pictures\\zombies.tga"
@@ -75,5 +90,4 @@ spriteTypes = {
                 texturefile = "gfx\\event_pictures\\carstein.tga"
                 allwaystransparent = yes
         }				
-
 }
