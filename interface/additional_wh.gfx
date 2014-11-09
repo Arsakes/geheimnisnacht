@@ -9,7 +9,15 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_spellbook.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_lore_ice"
+		name = "GFX_decision_lore_ice1"
+		texturefile = "gfx\\interface\\decision_icon_lore_ice.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_ice2"
+		texturefile = "gfx\\interface\\decision_icon_lore_ice.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_ice3"
 		texturefile = "gfx\\interface\\decision_icon_lore_ice.tga"
 	}
 	spriteType = {
@@ -21,11 +29,15 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_lore_fire.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_lore_light"
+		name = "GFX_decision_lore_light1"
 		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_lore_light"
+		name = "GFX_decision_lore_light2"
+		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_lore_light3"
 		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
 	}
 	spriteType = {

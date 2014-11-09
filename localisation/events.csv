@@ -166,6 +166,14 @@ hide_my_cultist;Hide My Cultist;;;;;;;;;;;;;x
 # MAGIC LORE EVENTS
 #
 # namespace = hysh
+EVTDESC_HYSH_1;The white wind of magic Hysh can cure both mental and physical injures. White Magese are both healers and relentless demon hunteres. What kind of injuries you would like to heal?;;;;;;;;;;;;;x
+EVTDESC_HYSH_1A;Cure injuries;;;;;;;;;;;;;x
+EVTDESC_HYSH_1B;Cure illness;;;;;;;;;;;;;x
+EVTDESC_HYSH_1C;Apply hysh blessing;;;;;;;;;;;;;x
+EVTDESC_HYSH_2;You start the exorcism, the streaks of Hysh entangle the daemon and the mental struggle begins... Let the light guide you!;;;;;;;;;;;;;x
+EVTOPT_HYSH_2A;Begone Demon!;;;;;;;;;;;;;x
+TOOLTIP_HYSH_2;A character possessed by the Daemon character must be in reach.;;;;;;;;;;;;;x
+# hysh duel spells
 EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
 EVTDESC_HYSH_11;You have successfully cast the spell Body of Light. Your body shines with an intensely bright light, making you difficult to look upon. Your enemy will have difficulty attacking you.;;;;;;;;;;;;;x
 EVTDESC_HYSH_12;You have successfully cast the spell Healing Energy. Light fills your wounds, healing them and bringing you back into the fight;;;;;;;;;;;;;x
@@ -177,10 +185,17 @@ EVTOPT_ICE_0A;Summon blizzard to surrounding lands;;;;;;;;;;;;;x
 EVTOPT_ICE_0B;Raise ice walls for defence;;;;;;;;;;;;;x
 EVTOPT_ICE_0C;Send icestrom to besiegers;;;;;;;;;;;;;x
 EVTOPT_ICE_0D;Send icestrom to defenders;;;;;;;;;;;;;x
-EVTDESC_ICE_1;You summon the power of ice and unleash the mighty blizzard upon your enemies. The blizzard will last for many days slowing the enemy march and weakening its forces.;;;;;;;;;;;;;x
+EVTDESC_ICE_1;You summon the power of ice and unleash the mighty blizzard upon your enemies. The blizzard will last for many days slowing the enemy march and weakening its forces. Where you want to direct the blizzard?;;;;;;;;;;;;;x
+EVTOPT_ICE_1A;Send blizzard to neighbor lands...;;;;;;;;;;;;;x
+EVTOPT_ICE_1B;Let the icestorm stay here;;;;;;;;;;;;;x
 EVTDESC_ICE_2;The walls of solid ice grow out of the ground, providing additional defence in strategical locations in the settlement.;;;;;;;;;;;;;x
 EVTDESC_ICE_3;You send hail and biting winds to enemy's army. Soldiers die from cold and harsh conditions are affecting the their morale.;;;;;;;;;;;;;x
 EVTDESC_ICE_4;You send hail and biting winds to defending enemy. Soldiers shatter from terible cold. Enemy army is losing their spirit.;;;;;;;;;;;;;x
+EVTDESC_ICE_5;A hail and biting wind come out of the sky and struck your army. Soldiers shatter from terible cold and are losing heart.;;;;;;;;;;;;;x
+#
+TOOLTIP_ICE_1;Blizzard is sent to [This.GetName].;;;;;;;;;;;;;x
+TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two months.;;;;;;;;;;;;;x
+
 #
 # SPECIAL MAGIC LOCALISATION
 #

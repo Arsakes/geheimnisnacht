@@ -442,6 +442,15 @@ tribal = {
 default_culture_modifier = {
 }
 
+# DAEMONS (ANY SORT)
+daemons_culture_modifier = {
+	land_morale = 0.66
+        light_infantry_offensive = 0.66
+        light_infantry_defensive = 0.66
+        heavy_infantry_offensive = 0.66
+        heavy_infantry_defensive = 0.66
+}
+
 
 # EMPIRE
 empire_culture_modifier = {

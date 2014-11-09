@@ -88,7 +88,7 @@ character_event = {
     immediate = {
         # get intelligence (Int)
         character_event = { id = dicethrow.1 }
-        # roll k6
+        # roll k10
         character_event = { id = dicethrow.10 }
         # calculate
         subtract_variable = { which = "Int" which = "k10_roll" }
@@ -126,9 +126,8 @@ character_event = {
             }
             # trigger mistcasts
             random_list = {
-                33 = { character_event = { id = magicengine.3 }} # minor mistcast
-                33 = { character_event = { id = magicengine.2 }} # failure
-                34 = { set_character_flag = last_spell_sucess } # sucess
+                50 = { character_event = { id = magicengine.3 }} # minor mistcast
+                50 = { character_event = { id = magicengine.2 }} # failure
             }
         }
         # big failure: out < -3
@@ -136,8 +135,8 @@ character_event = {
             limit = { NOT = { check_variable = { which = "k10_roll" value = -3 } }}
             random_list = {
                 33 = { character_event = { id = magicengine.4 }} # bad mistcast
-                33 = { character_event = { id = magicengine.3 }} # minor mistcast
-                34 = { character_event = { id = magicengine.2 }} # failure
+                34 = { character_event = { id = magicengine.3 }} # minor mistcast
+                33 = { character_event = { id = magicengine.2 }} # failure
             }
         }
         # clear all variables

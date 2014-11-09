@@ -5,182 +5,127 @@ namespace = ice
 ###################################################
 #
 # STRATEGIC SPELLS MAIN EVENT
-# Spell choosing event for decision triggered spells
 #
-###################################################
-character_event = {
-    id = ice.0
-    desc = "EVTDESC_ICE_0"
-    picture = "GFX_spell_ice"
-    is_triggered_only = yes
-
-    # channeling for strategic spells if any
-    immediate = { 
-        # spell test
-        character_event = { id = magicengine.1 }
-    }
-    # Blizzard
-    option = {
-        # checking if casting is possible 
-        trigger = {
-            OR = {
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-            NOT = { has_character_flag = strategic_spell_used }
-        }
-        name = "EVTOPT_ICE_0A" #Cast Blizzard
-        # triggering spell event 
-        if = {
-            limit = { has_character_flag = last_spell_success }
-            character_event = { id = ice.1 }
-        }
-        # failure of spellcast trigger failure report
-        if = {
-            limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.11 }
-        }
-        # clear stuff
-        clr_character_flag = last_spell_success 
-    }
-    # Ice walls
-    option = {
-        # checking if casting is possible 
-        trigger = {
-            OR = {
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-            NOT = { has_character_flag = strategic_spell_used }
-        }
-        name = "EVTOPT_ICE_0B" #Cast Winter Realm"
-        character_event = { id = magicengine.1 }
-        # triggering spell event 
-        if = {
-            limit = { has_character_flag = last_spell_success }
-            character_event = { id = ice.2 }
-        }
-        # failure of spellcast trigger failure report
-        if = {
-            limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.11 }
-        }
-        # clear stuff
-        clr_character_flag = last_spell_success 
-    }
-    # In Siege strategic spell 
-    option = {
-        # checking if casting is possible 
-        trigger = {
-            OR = {
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-            in_siege = yes
-            siege = { is_attacker = no }
-            NOT = { has_character_flag = strategic_spell_used }
-        }
-        name = "EVTOPT_ICE_0C" #Cast Hail"
-        character_event = { id = magicengine.1 }
-        # triggering spell event 
-        if = {
-            limit = { has_character_flag = last_spell_success }
-            character_event = { id = ice.3 }
-        }
-        # failure of spellcast trigger failure report
-        if = {
-            limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.11 }
-        }
-        # clear stuff
-        clr_character_flag = last_spell_success 
-    }
-    # In Siege (Attacker) strategic spell 
-    option = {
-        # checking if casting is possible 
-        trigger = {
-            OR = {
-                trait = magic_power_magister
-                trait = magic_power_lord
-                trait = magic_power_archmaster
-            }
-            in_siege = yes
-            siege = { is_attacker = yes }
-            NOT = { has_character_flag = strategic_spell_used }
-        }
-        name = "EVTOPT_ICE_0D"
-        character_event = { id = magicengine.1 }
-        # triggering spell event 
-        if = {
-            limit = { has_character_flag = last_spell_success }
-            character_event = { id = ice.4 }
-        }
-        # failure of spellcast trigger failure report
-        if = {
-            limit = { NOT = { has_character_flag = last_spell_success } }
-            character_event = { id = magicengine.11 }
-        }
-        # clear stuff
-        clr_character_flag = last_spell_success 
-    }
-
-    option = { name = "EVTOPT_STOP_CASTING" }
-}
+#
 # Blizzard (strategic spell)
-#
-# selects some enemy character
-#
 character_event = {
     id = ice.1
     desc = "EVTDESC_ICE_1"
-    picture = "GFX_spell_ice"
+    picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
+
+    immediate = { set_character_flag = strategic_spell_used }
+
     option = {
-        name = "EVTOPT_CAST_SPELL"
-       #trigger = { has_character_flag = last_spell_success }
-        # first select any enemy
+        name = "EVTOPT_ICE_1A"
         location = {
-            add_province_modifier = { name = spell_blizzard duration = 15 }
-            any_neighbor_province = {
-                add_province_modifier = { name = spell_blizzard duration = 15 }
+            random_neighbor_province = {
+                limit = { NOT = { has_province_modifier = spell_blizzard }}
+                hidden_tooltip = {
+                    add_province_modifier = { name = spell_blizzard duration = 25 } 
+                }
+                custom_tooltip = { text = "TOOLTIP_ICE_1" }
+            } 
+        }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+    }
+    option = {
+        name = "EVTOPT_ICE_1A"
+        location = {
+            random_neighbor_province = {
+                limit = { NOT = { has_province_modifier = spell_blizzard }}
+                hidden_tooltip = {
+                    add_province_modifier = { name = spell_blizzard duration = 25 } 
+                }
+                custom_tooltip = { text = "TOOLTIP_ICE_1" }
+            } 
+        }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+    }
+    option = {
+        name = "EVTOPT_ICE_1A"
+        location = {
+            random_neighbor_province = {
+                limit = { NOT = { has_province_modifier = spell_blizzard }}
+                hidden_tooltip = {
+                    add_province_modifier = { name = spell_blizzard duration = 25 } 
+                }
+                custom_tooltip = { text = "TOOLTIP_ICE_1" }
+            } 
+        }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+    }
+    # Blizzard stays
+    option = {
+        name = "EVTOPT_ICE_1B"
+        location = {
+            hidden_tooltip = {
+                add_province_modifier = { name = spell_blizzard duration = 25 }
             }
+            custom_tooltip = { text = "TOOLTIP_ICE_1" }
         }
         # marks character that uses powerfull strategic spells
-        hidden_tooltip = {
-            set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.6 days = 15 }
-        }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
     }
 }
 # Ice Walls
 character_event = {
     id = ice.2
     desc = "EVTDESC_ICE_2"
-    picture = "GFX_spell_ice"
+    picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
-    option = {
-        name = "EVTOPT_CAST_SPELL"
-       #trigger = { has_character_flag = last_spell_success }
-        # first select any enemy
+    immediate = { 
+        set_character_flag = strategic_spell_used
         location = {
-            if = { 
-                limit = { is_winter = yes } 
-                add_province_modifier = { name = spell_winter_realm duration = 60 }
-            }
-            if = { 
-                limit = { is_winter = no } 
-                add_province_modifier = { name = spell_winter_realm duration = 30 }
-            }
+            set_province_flag = ice_walls
         }
+    }
+    option = {
+        name = OK
+        custom_tooltip = { text = "TOOLTIP_ICE_2" }
+        location = {
+             holder_scope = { 
+                 # just main holding
+                 random_demesne_title = {
+                     limit = { 
+                         tier = BARON 
+                         NOT = { has_building = eb_ice_walls }
+                         location = { has_province_flag = ice_walls }
+                     }
+                     add_building = eb_ice_walls
+                 }
+             }
+        }
+        #hidden_tooltip = {
+	#    random_demesne_title = {
+        #        limit ={ 
+        #            tier = BARON
+        #            NOT = { has_building = eb_ice_walls }
+        #            location = { has_province_flag = ice_walls }
+        #        }
+        #        add_building = eb_ice_walls
+        #    }
+        #}
         # marks character that uses powerfull strategic spells
         hidden_tooltip = {
-            set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.6 days = 15 }
+            location = { 
+                if = { limit = { is_winter = yes }  province_event ={ id = ice.200 days = 70 } }
+                if = { limit = { is_winter = no  }  province_event = { id = ice.200 days = 40 } }
+            }
+            character_event = { id = magicengine.11 days = 15 }
         }
+    }
+}
+# Canceling event for Ice Walls
+character_event = {
+    id = ice.2000
+    is_triggered_only = yes
+    hide_window = yes
+   
+    immediate = {
+        clr_province_flag = ice_walls
     }
 }
 #
@@ -188,7 +133,7 @@ character_event = {
     id = ice.3
     #desc = "Send hail to the enemy"
     desc = "EVTDESC_ICE_3"
-    picture = "GFX_spell_ice"
+    picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
     option = {
@@ -198,12 +143,13 @@ character_event = {
             enemy = {
                 troops = -0.1
                 morale = -0.1
+                leader = { character_event = { id = ice.5 } }
             }
         }
         # marks character that uses powerfull strategic spells
         hidden_tooltip = {
             set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.6 days = 15 }
+            character_event = { id = magicengine.11 days = 15 }
         }
     }
 }
@@ -211,7 +157,7 @@ character_event = {
     id = ice.4
     #desc = "Send hail to the enemy"
     desc = "EVTDESC_ICE_4"
-    picture = "GFX_spell_ice"
+    picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
     option = {
@@ -221,14 +167,25 @@ character_event = {
             enemy = {
                 troops = -0.04
                 morale = -0.04
+                leader = { character_event = { id = ice.5 } }
             }
         }
         # marks character that uses powerfull strategic spells
         hidden_tooltip = {
             set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.6 days = 15 }
+            character_event = { id = magicengine.11 days = 15 }
         }
     }
+}
+# Hail/Biting wind informer (enemy siege leader - both defender and attacker)
+character_event = {
+    id = ice.5
+    desc = "EVTDESC_ICE_5"
+    picture = "GFX_evt_spell_ice"
+    is_triggered_only = yes
+    option = {
+        name = OK
+    }    
 }
 
 ###################################################

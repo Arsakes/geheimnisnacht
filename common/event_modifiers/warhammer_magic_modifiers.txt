@@ -25,10 +25,10 @@ spell_blizzard = {
     supply_limit = -6
     max_attrition = 0.15
 }
-spell_winter_realm = {
-    icon = 53
-    fort_level = 1
-}
+#spell_winter_realm = {
+#    icon = 53
+#    fort_level = 1
+#}
 
 #beast spell icon = 46
 #death spell icon = 47

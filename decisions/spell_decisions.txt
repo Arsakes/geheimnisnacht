@@ -74,35 +74,188 @@ decisions = {
     }
     # END of close/open spellbok decisions
     #
+    ##########################################
+    #
+    #              ICE LORE 
+    #
+    ##########################################
+    #
     # Chose spells from ice lore (PC only)
-    decision_lore_ice = {
+    decision_lore_ice1 = {
         potential = {
             has_character_flag = spellbook_open 
-            ai = no
             trait = lore_ice
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
         }
-        allow = { always = yes }
+        allow = { NOT = { has_character_flag = strategic_spell_used } }
         effect = { 
-            character_event = { id = ice.0 }
+            set_variable = { which = "magic_spell_cost" value = 5 }      
+            character_event = { id = magicengine.1 }
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.1 } }
+            clr_character_flag = last_spell_success
         }
     }
-    # Chose spells from light lore
-    decision_lore_light = {
+    decision_lore_ice2 = {
         potential = {
             has_character_flag = spellbook_open 
-            ai = no
-            trait = lore_light
+            trait = lore_ice
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
         }
-        allow = { always = yes }
+        allow = { NOT = { has_character_flag = strategic_spell_used } }
         effect = { 
-            character_event = { id = light.0 }
+            set_variable = { which = "magic_spell_cost" value = 4 }      
+            character_event = { id = magicengine.1 }
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
+            clr_character_flag = last_spell_success
         }
     }
-    # Chose spells from fire lore (PC only)
+    decision_lore_ice3 = {
+        potential = {
+            has_character_flag = spellbook_open 
+            trait = lore_ice
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
+        }
+        allow = { 
+            NOT = { has_character_flag = strategic_spell_used } 
+            in_siege = yes           
+        }
+        effect = { 
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
+            character_event = { id = magicengine.1 }
+            if = { 
+                limit = { 
+                    has_character_flag = last_spell_success
+                    siege = { is_attacker = yes } 
+                } 
+                character_event = { id = ice.4 }
+            }
+            if = { 
+                limit = { 
+                    has_character_flag = last_spell_success
+                    siege = { is_attacker = no } 
+                } 
+                character_event = { id = ice.3 }
+            }
+            clr_character_flag = last_spell_success
+        }
+    }
+    ########################################################
+    #
+    # Light lore
+    #
+    ########################################################
+    # Heal wounded, some illness too
+    decision_lore_light1 = {
+       potential = {
+            has_character_flag = spellbook_open 
+            trait = lore_light
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_adept
+                trait = magic_power_magister
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
+        }
+        allow = {
+            NOT = { has_character_flag = strategic_spell_used }
+            location = {
+                any_province_character = {
+                    OR = {
+                        trait = ill
+                        trait = wounded
+                        trait = pneumonic
+                        trait = syphilitic
+                        trait = leper
+                        trait = has_green_pox
+                        trait = has_red_pox
+                        trait = has_bone_auge
+                        trait = has_rattlelung
+                        trait = has_creeping_buboes
+                    }
+                }
+            }
+        }
+        effect = { 
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 3 } }
+            location = {
+                random_province_character = {
+                    limit = {
+                        OR = {
+                            trait = ill
+                            trait = wounded
+                            trait = pneumonic
+                            trait = syphilitic
+                            trait = leper
+                            trait = has_green_pox
+                            trait = has_red_pox
+                            trait = has_bone_auge
+                            trait = has_rattlelung
+                            trait = has_creeping_buboes
+                        }
+                    }
+                    set_character_flag = hysh_heal_target
+                }
+            }        
+            character_event = { id = magicengine.1 }
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = hysh.1 } }
+
+            if = { 
+                limit = { NOT = { has_character_flag = last_spell_success } }
+                location = { any_province_character = { clr_character_flag = hysh_heal_target } }
+            } 
+            clr_character_flag = last_spell_success
+        }
+    }
+    # Banish the daemon from person
+    decision_lore_light2 = {
+       potential = {
+            has_character_flag = spellbook_open 
+            trait = lore_light
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
+        }
+        allow = { 
+            hidden_tooltip = {
+                NOT = { has_character_flag = strategic_spell_used } 
+                location = { any_province_character = { trait = possessed } }
+            }
+            custom_tooltip = { text = "TOOLTIP_HYSH_2" }
+        }
+        effect = { 
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
+            character_event = { id = magicengine.1 }
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = hysh.2 } }
+            clr_character_flag = last_spell_success
+        }
+    }
+
+    ########################################################
+    #
+    # Fire lore
+    #
+    ########################################################
     decision_lore_fire = {
         potential = {
             has_character_flag = spellbook_open 
-            ai = no
             trait = lore_fire
         }
         allow = { always = yes }
@@ -110,11 +263,14 @@ decisions = {
             character_event = { id = fire.0 }
         }
     }
-    # Chose spells from dark lore (PC only)
+    ########################################################
+    #
+    # Chaos spells
+    #
+    ########################################################
     decision_lore_dark = {
         potential = {
             has_character_flag = spellbook_open 
-            ai = no
             trait = lore_dark_magic
         }
         allow = { always = yes }
@@ -122,11 +278,14 @@ decisions = {
             character_event = { id = dark.0 }
         }
     }
-    # Chose spells from necromancy lore (PC only)
+    ########################################################
+    #
+    # Spells from necromancy lore
+    #
+    ########################################################
     decision_lore_necromancy = {
         potential = {
             has_character_flag = spellbook_open 
-            ai = no
             trait = lore_necromancy
         }
         allow = { always = yes }

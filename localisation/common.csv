@@ -131,6 +131,7 @@ resistance_desc;Most of population is hiding before forces of Chaos, those who a
 gospodar_culture_modifier;Gospodar Traditions;;;;;;;;;;;;;x
 kislevite_culture_modifier;Kislevite Traditions;;;;;;;;;;;;;x
 ungol_culture_modifier;Ungol Traditions;;;;;;;;;;;;;x
+daemons_culture_modifier;Daemonic Host;;;;;;;;;;;;;x
 #CBS
 # Chaos subjugation
 CB_NAME_CHAOS_SUBJUGATION;Unholy Subjugation of [Title.GetBaseName];Assujettissement de [Title.GetBaseName];Unterwerfung von [Title.GetBaseName];;Subyugación de [Title.GetBaseName];;;;;;;;;x
