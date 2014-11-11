@@ -5,10 +5,10 @@ title = c_mount_grey_hag
 
 # Settlements
 max_settlements = 4
-b_greyspire = tribal
-b_prukold = tribal
-#b_garukold = tribal
-#b_qarbold = tribal
+b_greyspire = castle
+b_prukold = temple
+#b_garukold = castle
+#b_qarbold = castle
 
 # Misc
 culture = goblin_main

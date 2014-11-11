@@ -5,9 +5,9 @@ title = c_leen
 
 # Settlements
 max_settlements = 4
-b_leen = castle
+b_leen = tribal
 b_hlanithar_leen = temple
-b_sarnath = castle
+b_sarnath = tribal
 #b_illaranak = temple
 
 # Misc

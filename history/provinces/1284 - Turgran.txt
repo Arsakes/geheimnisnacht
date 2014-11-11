@@ -5,9 +5,9 @@ title = c_turgran
 
 # Settlements
 max_settlements = 3
-b_turgran = tribal
-b_gargaran = tribal
-#b_blizzardpeak = tribal
+b_turgran = castle
+b_gargaran = city
+#b_blizzardpeak = castle
 
 # Misc
 culture = dwarf_chaos

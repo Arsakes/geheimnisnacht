@@ -5,10 +5,10 @@ title = c_zuwadison
 
 # Settlements
 max_settlements = 4
-b_zuwadison = tribal
-b_balgorandazor = tribal
-#b_barak_jorgun = tribal
-#b_karak_akeroth = tribal
+b_zuwadison = castle
+b_balgorandazor = city
+#b_barak_jorgun = temple
+#b_karak_akeroth = temple
 
 # Misc
 culture = orc_main

@@ -5,8 +5,8 @@ title = c_char
 
 # Settlements
 max_settlements = 2
-b_char = tribal
-b_apsum = tribal
+b_char = castle
+b_apsum = city
 
 # Misc
 culture = dwarf_chaos

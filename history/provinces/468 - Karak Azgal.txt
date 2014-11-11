@@ -5,10 +5,10 @@ title = c_karak_azgal
 
 # Settlements
 max_settlements = 4
-b_karak_azgal = tribal
-b_uristigar = tribal
-b_khazid_ongorod = tribal
-#b_rand_bad = tribal
+b_karak_azgal = castle
+b_uristigar = city
+b_khazid_ongorod = temple
+#b_rand_bad = castle
 
 # Misc
 culture = orc_main

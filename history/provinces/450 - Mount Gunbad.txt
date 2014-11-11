@@ -5,11 +5,11 @@ title = c_mount_gunbad
 
 # Settlements
 max_settlements = 5
-b_kazad_gunbad = tribal
-b_grung_brynduraz = tribal
-b_grungil_gorm = tribal
-#b_barak_yar = tribal
-#b_grung_vlad = tribal
+b_kazad_gunbad = castle
+b_grung_brynduraz = city
+b_grungil_gorm = temple
+#b_barak_yar = castle
+#b_grung_vlad = city
 
 # Misc
 culture = orc_main

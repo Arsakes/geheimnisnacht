@@ -5,10 +5,10 @@ title = c_vinsbrugge
 
 # Settlements
 max_settlements = 4
-b_burkesburg = tribal
-b_albane = tribal
-#b_tribal_tuscarno = tribal
-#b_serene_grove = tribal
+b_burkesburg = castle
+b_albane = city
+#b_castle_tuscarno = castle
+#b_serene_grove = temple
 
 # Misc
 culture = fjarmann
@@ -18,5 +18,5 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_tribal_tuscarno = tribal
+	b_castle_tuscarno = castle
 }

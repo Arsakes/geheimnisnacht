@@ -5,10 +5,10 @@ title = c_morghaar
 
 # Settlements
 max_settlements = 4
-b_morghaar_fortress = tribal
-b_helheim = tribal
-#b_heltjald = tribal
-#b_feiknstafir_lidha = tribal
+b_morghaar_fortress = castle
+b_helheim = city
+#b_heltjald = temple
+#b_feiknstafir_lidha = temple
 
 # Misc
 culture = dwarf_chaos

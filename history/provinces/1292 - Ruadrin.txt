@@ -5,11 +5,11 @@ title = c_ruadrin
 
 # Settlements
 max_settlements = 5
-b_ruadrin = tribal
-b_langrim = tribal
-b_zharr_grim = tribal
-#b_indri = tribal
-#b_sephirat = tribal
+b_ruadrin = castle
+b_langrim = city
+b_zharr_grim = castle
+#b_indri = temple
+#b_sephirat = castle
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_indri = tribal
+	b_indri = temple
 }

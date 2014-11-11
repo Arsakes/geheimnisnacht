@@ -5,9 +5,9 @@ title = c_zanen_ruvalk
 
 # Settlements
 max_settlements = 3
-b_gargamel = tribal
-b_barak_gurnin = tribal
-#b_slurri = tribal
+b_gargamel = city
+b_barak_gurnin = castle
+#b_slurri = city
 
 # Misc
 culture = dwarf_chaos

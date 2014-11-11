@@ -5,11 +5,11 @@ title = c_black_fortress
 
 # Settlements
 max_settlements = 5
-b_the_black_fortress = tribal
-b_blackgate = tribal
-b_flayed_rock = tribal
-#b_undorim = tribal
-#b_dwarrinfel = tribal
+b_the_black_fortress = castle
+b_blackgate = city
+b_flayed_rock = temple
+#b_undorim = temple
+#b_dwarrinfel = castle
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_undorim = tribal
+	b_undorim = temple
 }

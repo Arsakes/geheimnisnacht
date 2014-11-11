@@ -5,9 +5,9 @@ title = c_karag_ril
 
 # Settlements
 max_settlements = 2
-b_karag_ril = tribal
-#b_ril_khaz = tribal
-#b_wudarim = tribal
+b_karag_ril = castle
+#b_ril_khaz = city
+#b_wudarim = temple
 
 # Misc
 culture = goblin_main

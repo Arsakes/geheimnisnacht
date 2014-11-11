@@ -5,10 +5,10 @@ title = c_blakkr_kadrin
 
 # Settlements
 max_settlements = 4
-b_untam = tribal
-b_kraka_skygge = tribal
-b_kazad_vanar = tribal
-#b_grung_uaazul = tribal
+b_untam = castle
+b_kraka_skygge = castle
+b_kazad_vanar = temple
+#b_grung_uaazul = city
 
 # Misc
 culture = dwarf_norse

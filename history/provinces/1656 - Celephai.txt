@@ -5,10 +5,10 @@ title = c_celephai
 
 # Settlements
 max_settlements = 4
-b_celephai = castle
-b_ngarek = castle
+b_celephai = tribal
+b_ngarek = tribal
 b_thal_thon = temple
-#b_yaath = castle
+#b_yaath = tribal
 
 # Misc
 culture = mung

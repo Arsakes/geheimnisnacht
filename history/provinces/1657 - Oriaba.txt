@@ -5,9 +5,9 @@ title = c_oriaba
 
 # Settlements
 max_settlements = 4
-b_oriaba = castle
+b_oriaba = tribal
 b_sarnath = temple
-b_dylath_oriaba = castle
+b_dylath_oriaba = tribal
 b_baharan = temple
 
 # Misc

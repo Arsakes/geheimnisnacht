@@ -5,9 +5,9 @@ title = c_karak_palik
 
 # Settlements
 max_settlements = 3
-b_karak_palik = tribal
-b_yirni = tribal
-#b_furil = tribal
+b_karak_palik = castle
+b_yirni = castle
+#b_furil = temple
 
 # Misc
 culture = goblin_main

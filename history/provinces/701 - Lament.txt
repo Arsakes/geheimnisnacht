@@ -5,11 +5,11 @@ title = c_lament
 
 # Settlements
 max_settlements = 5
-b_lament = tribal
-b_orontonas = tribal
-#b_quarteras = tribal
-#b_urkenberg = tribal
-#b_sineward = tribal
+b_lament = castle
+b_orontonas = temple
+#b_quarteras = city
+#b_urkenberg = castle
+#b_sineward = temple
 
 # Misc
 culture = fjarmann
@@ -19,5 +19,5 @@ religion = norscan_gods
 # History
 
 2500.1.1 = {
-	b_quarteras = tribal
+	b_quarteras = city
 }

@@ -5,9 +5,9 @@ title = c_karak_zharr
 
 # Settlements
 max_settlements = 3
-b_karak_zharr = tribal
-b_kazad_zharr = tribal
-#b_gouranth = tribal
+b_karak_zharr = castle
+b_kazad_zharr = city
+#b_gouranth = castle
 
 # Misc
 culture = dwarf_chaos

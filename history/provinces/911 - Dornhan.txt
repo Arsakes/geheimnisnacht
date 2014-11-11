@@ -5,9 +5,9 @@ title = c_dornhan
 
 # Settlements
 max_settlements = 3
-b_fort_karls = tribal
-#b_dornhan = tribal
-#b_sankt_veit = tribal
+b_fort_karls = castle
+#b_dornhan = city
+#b_sankt_veit = temple
 
 # Misc
 culture = orc_main
@@ -20,5 +20,5 @@ religion = greenskin_gods
 2034.1.1 = { religion = sigmarite }
 
 2250.1.1 = {
-	b_dornhan = tribal
+	b_dornhan = city
 }

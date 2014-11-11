@@ -5,13 +5,13 @@ title = c_zharr_naggrund
 
 # Settlements
 max_settlements = 7
-b_gromthidum = tribal
-b_barak_marduk = tribal
-b_naggrund_thryng = tribal
-b_barak_ishtaz = tribal
-#b_barak_nimrok = tribal
-#b_barak_enka = tribal
-#b_flegekrund = tribal
+b_gromthidum = castle
+b_barak_marduk = city
+b_naggrund_thryng = temple
+b_barak_ishtaz = castle
+#b_barak_nimrok = castle
+#b_barak_enka = castle
+#b_flegekrund = city
 
 # Misc
 culture = dwarf_chaos
@@ -21,5 +21,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_barak_nimrok = tribal
+	b_barak_nimrok = castle
 }

@@ -5,8 +5,8 @@ title = c_varag_kadrin
 
 # Settlements
 max_settlements = 2
-b_varag_mingol = tribal
-#b_karag_furgin = tribal
+b_varag_mingol = castle
+#b_karag_furgin = temple
 
 # Misc
 culture = orc_main

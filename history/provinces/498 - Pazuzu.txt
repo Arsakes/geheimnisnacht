@@ -5,10 +5,10 @@ title = c_pazuzu
 
 # Settlements
 max_settlements = 4
-b_pazuzubad = tribal
-#b_grung_azgrabar = tribal
-#b_darkiron = tribal
-#b_zaltu = tribal
+b_pazuzubad = castle
+#b_grung_azgrabar = castle
+#b_darkiron = temple
+#b_zaltu = city
 
 # Misc
 culture = dwarf_chaos
@@ -18,5 +18,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_grung_azgrabar = tribal
+	b_grung_azgrabar = castle
 }

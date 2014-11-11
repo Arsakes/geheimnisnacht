@@ -5,10 +5,10 @@ title = c_zuangzi
 
 # Settlements
 max_settlements = 4
-b_zuangzi = castle
-b_lerion = castle
-b_thurai = castle
-#b_zakaraia = castle
+b_zuangzi = tribal
+b_lerion = tribal
+b_thurai = tribal
+#b_zakaraia = tribal
 
 # Misc
 culture = mung

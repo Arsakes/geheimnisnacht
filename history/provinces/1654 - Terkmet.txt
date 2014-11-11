@@ -5,11 +5,11 @@ title = c_terkmet
 
 # Settlements
 max_settlements = 5
-b_terkmet = castle
+b_terkmet = tribal
 b_ulthur = temple
-#b_gurunar = castle
-#b_archonar = castle
-#b_qaluud = castle
+#b_gurunar = tribal
+#b_archonar = tribal
+#b_qaluud = tribal
 
 # Misc
 culture = mung

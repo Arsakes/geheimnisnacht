@@ -5,9 +5,9 @@ title = c_raseri_oks
 
 # Settlements
 max_settlements = 3
-b_barak_zhar = tribal
-b_fortress_of_krig = tribal
-#b_raseri_oks = tribal
+b_barak_zhar = castle
+b_fortress_of_krig = castle
+#b_raseri_oks = temple
 
 # Misc
 culture = aesling
@@ -17,5 +17,5 @@ religion = nurgle
 # History
 
 2500.1.1 = {
-	b_raseri_oks = tribal
+	b_raseri_oks = temple
 }

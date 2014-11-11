@@ -5,11 +5,11 @@ title = c_sulfuras
 
 # Settlements
 max_settlements = 5
-b_sulfuras_keep = tribal
-b_ragnaron = tribal
-b_moltron = tribal
-#b_golmagg = tribal
-#b_sharraz = tribal
+b_sulfuras_keep = castle
+b_ragnaron = city
+b_moltron = castle
+#b_golmagg = temple
+#b_sharraz = castle
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_golmagg = tribal
+	b_golmagg = temple
 }

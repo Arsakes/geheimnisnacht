@@ -5,9 +5,9 @@ title = c_perik
 
 # Settlements
 max_settlements = 3
-b_perik = tribal
-b_ruinford = tribal
-#b_grinnin = tribal
+b_perik = castle
+b_ruinford = castle
+#b_grinnin = temple
 
 # Misc
 culture = dwarf_chaos

@@ -5,10 +5,10 @@ title = c_kraka_borkum
 
 # Settlements
 max_settlements = 4
-b_kraka_borkum = tribal
-b_khazid_opilyum = tribal
-#b_kraka_carvag = tribal
-#b_kazad_durop = tribal
+b_kraka_borkum = castle
+b_khazid_opilyum = temple
+#b_kraka_carvag = city
+#b_kazad_durop = castle
 
 # Misc
 culture = dwarf_chaos

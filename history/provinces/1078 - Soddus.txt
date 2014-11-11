@@ -5,9 +5,9 @@ title = c_soddus
 
 # Settlements
 max_settlements = 3
-b_soddus_ungor = tribal
-b_soddus_grung = tribal
-#b_grimbol = tribal
+b_soddus_ungor = castle
+b_soddus_grung = city
+#b_grimbol = temple
 
 # Misc
 culture = goblin_main

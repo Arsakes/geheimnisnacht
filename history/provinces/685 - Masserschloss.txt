@@ -5,10 +5,10 @@ title = c_masserschloss
 
 # Settlements
 max_settlements = 4
-b_masserschloss = tribal
-b_timohir = tribal
-b_gongilo = tribal
-#b_medok = tribal
+b_masserschloss = castle
+b_timohir = castle
+b_gongilo = city
+#b_medok = temple
 
 # Misc
 culture = fjarmann

@@ -5,8 +5,8 @@ title = c_krakav
 
 # Settlements
 max_settlements = 2
-b_jordekberg = tribal
-#b_vidarheim = tribal
+b_jordekberg = castle
+#b_vidarheim = temple
 
 # Misc
 culture = bjornling
