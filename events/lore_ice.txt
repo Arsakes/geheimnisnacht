@@ -184,9 +184,41 @@ character_event = {
     picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
     option = {
-        name = OK
+        name = "EVTOPT_ICE_5A"
     }    
 }
+
+###################################################
+#
+#              BATTLE SPELLS EFFECTS
+#
+###################################################
+
+# For us
+character_event = {
+    id = ice.6
+    #desc = "Send hail to the enemy"
+    desc = "EVTDESC_ICE_3"
+    picture = "GFX_evt_spell_ice"
+    is_triggered_only = yes
+   
+    option = {
+        name = OK
+    }
+}
+character_event = {
+    id = ice.7
+    #desc = "Send hail to the enemy"
+    desc = "EVTDESC_ICE_5"
+    picture = "GFX_evt_spell_ice"
+    is_triggered_only = yes
+   
+    option = {
+        name = "EVTOPT_ICE_5A"
+        troops = -0.02
+    }
+}
+
 
 ###################################################
 #

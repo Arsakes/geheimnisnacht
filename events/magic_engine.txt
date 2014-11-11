@@ -11,7 +11,6 @@
 # main spell events    0-19
 # magic potential gain 20-30
 #
-#
 ##############################################
 namespace = magicengine
 #
@@ -93,6 +92,7 @@ character_event = {
         # calculate
         subtract_variable = { which = "Int" which = "k10_roll" }
         subtract_variable = { which = "Int" which = "magic_spell_cost" }
+        subtract_variable = { which = "magic_points" which = "magic_spell_cost" }
 
         # modifier from experience
         if = {
@@ -145,10 +145,12 @@ character_event = {
         set_variable = { which = "magic_spell_cost" value = 0 }      
     }
 }
-#
+############################################
 #
 # MISTCAST & CAST FAILURE EFFECTS EVENTS
 #
+###########################################
+
 # Spell failure event  (no consequences)
 character_event = {
     id = magicengine.2
@@ -160,6 +162,7 @@ character_event = {
         name = OK
     }
 }
+
 character_event = {
     id = magicengine.3
     desc = "EVTDESC_MAGICENGINE_3"
@@ -177,6 +180,7 @@ character_event = {
         }
     }
 }
+
 character_event = {
     id = magicengine.4
     desc = "EVTDESC_MAGICENGINE_4"
@@ -206,6 +210,7 @@ character_event = {
         }
     }
 }
+
 # Duel action: Channeling
 character_event = {
     id = magicengine.5
@@ -250,6 +255,7 @@ character_event = {
 # ROOT = target of spell
 #
 ##########################################################a
+
 # offensive spell
 character_event = {
     id = magicengine.6
@@ -259,21 +265,23 @@ character_event = {
     immediate = { 
         FROM = {
             # calculating magic cost
-            if = { 
-                 limit = { trait = lore_light }
-                 set_variable = {  which = "magic_spell_cost" value = 3 }
-            }
+            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 6 }}
+            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 5 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
 
             # OUTCOME
+            # Light - Burning Gaze
             if = {
-                limit = { 
-                    has_character_flag = last_spell_success 
-                    trait = lore_light
-                }
-                character_event = { id = hysh.10 }
+                limit = { has_character_flag = last_spell_success trait = lore_light }
+                set_variable = { which = "duel_magic_att" value = 6 }
+                if = { limit = { random = 50 } ROOT = { set_character_flag = duel_effect_weaken2 } }
+            }
+            # Ice - Shardstorm
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_ice }
+                set_variable = { which = "duel_magic_att" value = 8 }
             }
 
             # CLEANING
@@ -281,6 +289,7 @@ character_event = {
         }
     }
 }
+
 # defensive spell
 character_event = {
     id = magicengine.7
@@ -290,22 +299,25 @@ character_event = {
     immediate = { 
         FROM = {
             # INIT
-            if = { 
-                 limit = { trait = lore_light }
-                 set_variable = {  which = "magic_spell_cost" value = 3 }
-            }
+            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 3 }}
+            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 3 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
 
             # OUTCOME
+            # Light Lore: body of light
             if = {
-                limit = { 
-                    has_character_flag = last_spell_success 
-                    trait = lore_light
-                }
-                character_event = { id = hysh.11 }
+                limit = { has_character_flag = last_spell_success trait = lore_light }
+                set_variable = { which = "duel_magic_att" value = 0 }
+                set_character_flag  = duel_effect_defence_bonus2
             }
+            # Crytal Cloak
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_ice }
+                set_character_flag  = duel_effect_defence_bonus2
+            }
+
 
             # CLEANING
             clr_character_flag = last_spell_success
@@ -322,29 +334,39 @@ character_event = {
     immediate = { 
         FROM = {
             # INIT
-            if = { 
-                 limit = { trait = lore_light }
-                 set_variable = {  which = "magic_spell_cost" value = 4 }
-            }
+            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 4 } }
+            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 2 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
 
             # OUTCOME
+            # Lore of Light : Heal
             if = {
-                limit = { 
-                    has_character_flag = last_spell_success 
-                    trait = lore_light
+                limit = { has_character_flag = last_spell_success trait = lore_light }
+                set_variable = { which = "duel_magic_att" value = 0 }
+                random_list = {
+                    33 = { change_variable = { which = "duel_hp" value = 1 } }
+                    34 = { change_variable = { which = "duel_hp" value = 2 } }
+                    33 = { change_variable = { which = "duel_hp" value = 3 } }
                 }
-                character_event = { id = hysh.12 }
+                if = {
+                    limit = { check_variable = { which = "duel_hp" which = "duel_max_hp" } }
+                    set_variable = { which = "duel_hp" which = "duel_max_hp" }
+                }
+            }
+            # Lore of Ice: Permafrost
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_ice }
+                ROOT = { set_character_flag  = duel_effect_noescape } #TODO
             }
 
             # CLEANING
             clr_character_flag = last_spell_success
         }
     }
-
 }
+
 # special lore spell
 character_event = {
     id = magicengine.9
@@ -354,27 +376,40 @@ character_event = {
     immediate = { 
         FROM = {
             # INIT
-            if = { 
-                limit = { trait = lore_light }
-                set_variable = {  which = "magic_spell_cost" value = 2 }
-            }
+            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 4 } }
+            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 8 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
 
             # OUTCOME
+            # Lore of Light: Radiant Weapon
             if = {
-                limit = { 
-                    has_character_flag = last_spell_success 
-                    trait = lore_light
-                }
-                character_event = { id = hysh.13 }
+                limit = { has_character_flag = last_spell_success trait = lore_light }
+                set_variable = { which = "duel_magic_att" value = 0 }
+                set_character_flag  = duel_effect_chaos_bane
+            }
+            # Lore of Ice: Ice Maiden Kiss (dmg+freeze)
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_ice }
+                set_variable = { which = "duel_magic_att" value = 8 }
+                ROOT = { set_character_flag  = duel_effect_freeze } #TODO implement effects
             }
 
             # CLEANING
             clr_character_flag = last_spell_success
         }
     }
+}
+
+# Battle spell cancel on_action triggering (after battle)
+character_event = {
+    id = magicengine.10
+    hide_window = yes
+    
+    is_triggered_only = yes
+
+    immediate = { disband_event_forces = magical_spells }
 }
 
 # Strategic spell cooldown event
@@ -387,8 +422,365 @@ character_event = {
         clr_character_flag = strategic_spell_used
     }
 }
+################################################################
+#
+# BATTLE SPELL ENGINE
+#
+# event that spawn troops representing direct damage spell effect
+# in regular battles
+#
+# triggered in each battle on_combat_pulse
+#
+character_event = {
+    id = magicengine.12
+    hide_window = yes
+    is_triggered_only = yes
 
+    trigger = {
+        NOT = { has_earmarked_regiments = magical_spells }
+        is_alive = yes
+        OR = {
+            # large scale spells: not available to adepts
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+        OR = {
+            trait = lore_light
+            trait = lore_fire
+            trait = lore_ice
+            trait = lore_dark_magic
+            trait = lore_necromancy
+        }
+    }
+    immediate = {
+        if = { 
+            limit = { trait = magic_power_adept }
+            location = {
+            ROOT = {
+                spawn_unit = {
+                province = PREV
+                owner = ROOT
+                home = PREV
+                earmark = magical_spells
+                attrition = 1.0
+                troops = { magical_spells = { 10 10 } }
+                }
+           }
+           }
+        }
+        if = { 
+            limit = { trait = magic_power_magister }
+            location = {
+            ROOT = {
+                spawn_unit = {
+                province = PREV
+                owner = ROOT
+                home = PREV
+                earmark = magical_spells
+                attrition = 1.0
+                troops = { magical_spells = { 20 20 } }
+                }
+            }
+            }
+        }
+        if = { 
+            limit = { trait = magic_power_lord }
+            location = {
+            ROOT = {
+                spawn_unit = {
+                    province = PREV
+                    owner = ROOT
+                    home = PREV
+                    earmark = magical_spells
+                    attrition = 1.0
+                    troops = { magical_spells = { 30 30 } }
+                }
+            }
+            }
+        }
+        if = { 
+            limit = { trait = magic_power_archmaster }
+            location = {
+            ROOT = {
+                spawn_unit = {
+                    province = PREV
+                    owner = ROOT
+                    home = PREV
+                    earmark = magical_spells
+                    attrition = 1.0
+                    troops = { magical_spells = { 40 40 } }
+                }
+            }
+            }
+        }
+    }
+}
+# SPECIAL MAGIC IN-BATTLE EFFECTS DISPATCHER
+# 
+# triggers events for mages in battle
+#
+character_event = {
+    id = magicengine.13
+    hide_window = yes
+    is_triggered_only = yes
 
+    trigger = {
+        is_alive = yes
+        OR = {
+            # large scale spells: not available to adepts
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+        OR = {
+            trait = lore_light
+            trait = lore_fire
+            trait = lore_ice
+            trait = lore_dark_magic
+            trait = lore_necromancy
+        }
+    }
+
+    weight_multiplier = {
+        days = 1
+        modifier = {
+            factor = 1.5
+            trait = brave
+        }
+        modifier = {
+            factor = 0.5
+            trait = craven
+        }
+        modifier = {
+            trait = genius
+            factor = 1.2
+        }
+        modifier = {
+            trait = quick
+            factor = 1.1
+        }    
+        modifier = {
+            trait = slow
+            factor = 0.9
+        }
+        
+        modifier = {
+            trait = imbecile
+            factor = 0.2
+        }
+        modifier = {
+            trait = inbred
+            factor = 0.2
+        }
+        modifier = {
+            trait = strong
+            factor = 1.5
+        }
+        modifier = {
+            trait = weak
+            factor = 0.8
+        }    
+        modifier = {
+            factor = 0.8
+            trait = stressed
+        }
+        modifier = {
+            factor = 0.8
+            trait = depressed
+        }
+        modifier = {
+            factor = 0.75
+            trait = lunatic
+        }
+        modifier = {
+            factor = 0.75
+            trait = possessed
+        }
+        modifier = {
+            factor = 0.9
+            trait = ill
+        }
+        modifier = {
+            factor = 0.8
+            trait = pneumonic
+        }
+        modifier = {
+            factor = 0.8
+            trait = syphilitic
+        }
+        modifier = {
+            factor = 0.5
+            trait = leper
+        }
+        modifier = {
+            factor = 0.9
+            trait = wounded
+        }
+        modifier = {
+            factor = 0.8
+            trait = maimed
+        }
+        modifier = {
+            factor = 0.5
+            trait = infirm
+        }
+        modifier = {
+            factor = 0.4
+            trait = incapable
+        }
+        modifier = {
+            factor = 0.5
+            trait = drunkard
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_rattlelung
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_bone_auge
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_nurgles_rot
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_creeping_buboes
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_green_pox
+        }        
+        modifier = {
+            factor = 0.5
+            trait = has_red_pox
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_tomb_rot
+        }
+        modifier = {
+            factor = 2
+            trait = magic_power_lord
+        }
+        modifier = {
+            factor = 3
+            trait = magic_power_archmaster
+        }
+        #FIXME DEBUG
+        #modifier = {
+        #    factor = 30
+        #}
+    }
+    ##### DISPATCHING TO CORRECT TARGETS GOES HERE #######
+    immediate = {
+        # FOR CHARACTERS
+        if = { 
+            limit = { trait = lore_light } 
+            character_event = { id = hysh.5 }
+        }
+        if = { 
+            limit = { trait = lore_ice } 
+            character_event = { id = ice.6 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy } 
+            #character_event = { id = necromancy.6 }
+        }
+        if = { 
+            limit = { trait = lore_dark_magic } 
+            #character_event = { id = necromancy.6 }
+        }
+        # FOR ENEMIES
+        # Ruler cas
+        if = {
+            limit = { 
+                war = yes
+                is_ruler = yes
+                OR = {
+                    is_primary_war_attacker = yes
+                    is_primary_war_defender = yes
+                    independent = yes
+                }
+            }
+            any_current_enemy = {
+                limit = { 
+                    at_location = ROOT
+                    in_command = yes
+                    prisoner = no
+                }
+                # here should be commands
+                if = { limit = { trait = lore_light } character_event = { id = hysh.6 } }
+                if = { limit = { trait = lore_ice } character_event = { id = ice.7 } }
+            }
+            any_current_enemy = {
+                any_realm_character = {
+                    limit = { 
+                        at_location = ROOT
+                        in_command = yes
+                        prisoner = no
+                    } 
+                    # here should be commands
+                    if = { limit = { trait = lore_light } character_event = { id = hysh.6 } }
+                    if = { limit = { trait = lore_ice } character_event = { id = ice.7 } }
+
+                }
+            }
+        }
+        # Ok next case (not a ruler)
+        if = {
+            limit = { 
+                NOT = {
+                    war = yes
+                    is_ruler = yes
+                    OR = {
+                        is_primary_war_attacker = yes
+                        is_primary_war_defender = yes
+                        independent = yes
+                    }
+                }
+            }
+            liege = {
+                any_current_enemy = {
+                    limit = { 
+                        at_location = ROOT
+                        in_command = yes
+                        prisoner = no
+                    }
+                    # here should be commands
+                    if = { limit = { trait = lore_light } character_event = { id = hysh.6 } }
+                    if = { limit = { trait = lore_ice } character_event = { id = ice.7 } }
+                }
+                any_current_enemy = {
+                    any_realm_character = {
+                        limit = { 
+                            at_location = ROOT
+                            in_command = yes
+                            prisoner = no
+                        }    
+                        # here should be commands
+                       if = { limit = { trait = lore_light } character_event = { id = hysh.6 } }
+                       if = { limit = { trait = lore_ice } character_event = { id = ice.7 } }
+                    }
+                }
+            }
+        }
+        # Ok next case (mercanaries)
+        any_independent_ruler = {
+            limit = {
+                mercenary = yes
+                at_location = ROOT
+                in_command = yes
+                prisoner = no
+            }
+            # here should be commands
+            if = { limit = { trait = lore_light } character_event = { id = hysh.6 } }
+            if = { limit = { trait = lore_ice } character_event = { id = ice.7 } }
+        }
+    }
+}
 ##########################################################
 #
 # On birth events and gaining magic potential
@@ -635,3 +1027,5 @@ character_event = {
         name = "ok"
     }
 }
+
+

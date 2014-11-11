@@ -2152,6 +2152,15 @@ character_event = {
         add_trait = rough_terrain_leader
     }
     option = {
+        name = EVTOPTM96500 # WINTER Terrain Specialization
+        trigger = {
+            location = { is_winter = yes }
+            NOT = { trait = winter_soldier }
+        }
+        add_trait = winter_soldier
+    }
+
+    option = {
         name = EVTOPTB96500 # Flat Terrain Specialization
         trigger = {
             OR = {

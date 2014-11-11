@@ -1052,7 +1052,7 @@ character_event = {
         # Ok now duel_dmg has proper value which we should substract from health
         #
         # 
-	# thing that prevents infinite duels (thanks erik) setting dmg to 1 if less than 0
+	# thing that prevents infinite duels setting dmg to 1 if less than 0
         # (50% chance) or to 0 
         if = {
             limit = { 
@@ -1070,12 +1070,16 @@ character_event = {
         clr_character_flag = duel_effect_defend
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
+        # dispel some LIMITED DURATION effects 
+        character_event = { id = duelengine.7 }
+
         # FIXME: dmg reporting events
         #character_event = { id = test.25 } # FROMFROM is the victim
         #character_event = { id = test.23 } # dmg dealt to enemy
         #character_event = { id = test.27 } # defence of enemy
         # clear flags that mark character's choose of type of move
         clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_nomove
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
         # clear flags for triggering next round (DEBUG its needed)
@@ -1083,6 +1087,7 @@ character_event = {
      
         # MAGIC - passive channeling
         character_event = { id = magicengine.5 } 
+
     }
     
     #############################################################################
@@ -1104,6 +1109,8 @@ character_event = {
         trigger = { 
             # 1 or less hp points - death
             NOT = { check_variable = { which = "duel_hp" value = 1 }}
+            NOT = { has_character_flag = duel_effect_noescape } 
+            NOT = { has_character_flag = duel_effect_freeze }
         }
         # Erik: here is decided what happens to loser
         hidden_tooltip = {
@@ -1111,6 +1118,24 @@ character_event = {
             70 = { character_event = { id = duelengine.24 } } # death
             30 = { character_event = { id = duelengine.26 } } # wounded but managed to run away
         }}
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_4F"
+        # ONLY ONE IF CASE SHOULD FIRE
+        # Events in case of death
+        trigger = { 
+            # 1 or less hp points - death
+            NOT = { check_variable = { which = "duel_hp" value = 1 }}
+            OR = { 
+                has_character_flag = duel_effect_noescape 
+                has_character_flag = duel_effect_freeze 
+            }
+        }
+        # Erik: here is decided what happens to loser
+        hidden_tooltip = {
+            character_event = { id = duelengine.24 } # death
+        }
         ai_chance = { factor = 1 }
     }
     # MEELE FIGHT
@@ -1168,6 +1193,9 @@ character_event = {
         trigger = { 
             # 1 or less hp points - alive
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
+            NOT = { has_character_flag = duel_effect_barrier }
+            FROM = { NOT = { has_character_flag = duel_effect_barrier } }
         }
 
         # Now when dmg is done there is time to send report events
@@ -1271,6 +1299,7 @@ character_event = {
 
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
@@ -1325,9 +1354,9 @@ character_event = {
     # OTHER MAGIC ACTIONS
     option = {
         name = "EVTOPT_DUELENGINE_4C"
-        # Both people hit themselves
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
@@ -1377,6 +1406,108 @@ character_event = {
             hidden_tooltip = { character_event = { id = duelengine.23 }}
         }
         ai_chance = { factor = 1 }
+    }
+    # Do nothing option in case of freeze or barrier
+    option = {
+        name = "EVTOPT_DUELENGINE_4D"
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            OR = { 
+                has_character_flag = duel_effect_freeze
+                has_character_flag = duel_effect_barrier
+                FROM = { has_character_flag = duel_effect_barrier }
+            }
+        }
+
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 0 }} 
+            custom_tooltip = { text = TOOLTIP_duelhp0 }}
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_hp" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhpMAX }
+        }
+
+        set_character_flag = duel_move_nomove
+        # Both people hit themselves
+        if = { 
+            limit = {
+                NOT = { has_character_flag = debug_duel_calculated }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            set_character_flag = debug_duel_calculated
+            hidden_tooltip = { character_event = { id = duelengine.20 }}
+        }
+        # You hit your opponent
+        if = { 
+            limit = {
+                NOT = { has_character_flag = debug_duel_calculated }
+                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            set_character_flag = debug_duel_calculated
+            hidden_tooltip = { character_event = { id = duelengine.21 } }
+        }
+        # Your opponent hits you   
+        if = { 
+            limit = {
+                NOT = { has_character_flag = debug_duel_calculated }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                check_variable = { which = "duel_dmg" value = 1 }
+            }
+            set_character_flag = debug_duel_calculated
+            hidden_tooltip = { character_event = { id = duelengine.22 }}
+        }
+        # Nobody hits
+        if = {
+            limit = {
+                NOT = { has_character_flag = debug_duel_calculated }
+                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
+                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
+            }
+            set_character_flag = debug_duel_calculated
+            hidden_tooltip = { character_event = { id = duelengine.23 }}
+        }
     }
     # END OF THIS FUCKING BIG EVENT
 }
@@ -1455,13 +1586,22 @@ character_event = {
             change_variable = { which = "duel_def_mod" value = 3 }
             # TODO apply lvl dependent bonus
         }
-        # hysh effect: flare
+        # weakan2
         if = { 
             limit = { has_character_flag = duel_effect_weaken2 }
             change_variable = { which = "duel_att_mod" value = -1 }
             change_variable = { which = "duel_def_mod" value = -1 }
         }
-        # hysh effect: radiant weapon
+        # weaken1
+        if = { 
+            limit = { has_character_flag = duel_effect_weaken1 }
+            random_list = {
+                50 = { change_variable = { which = "duel_att_mod" value = -1 }}
+                50 = { change_variable = { which = "duel_def_mod" value = -1 }}
+            }
+        }
+
+        # chaos bane effect
         if = { 
             limit = { 
                 has_character_flag = duel_effect_chaos_bane
@@ -1469,7 +1609,7 @@ character_event = {
             } 
             change_variable = { which = "duel_att_mod" value = 2 }
         }
-        # body of light
+        # defence bonus effect 
         if = { 
             limit = { 
                 has_character_flag = duel_effect_defence_bonus2
@@ -1480,9 +1620,7 @@ character_event = {
         # MAGIC ATTACK CASE
         # swap duel_att_mod with duel_magic_att
         if = {
-            limit = { 
-                has_character_flag = duel_move_magic_spell 
-            }
+            limit = { has_character_flag = duel_move_magic_spell }
             # if the spells wasn't offensive duel_magic_att should be 0
             set_variable = { which = "duel_att_mod" which = "duel_magic_att" }
         }
@@ -1504,10 +1642,37 @@ character_event = {
                 16 = { change_variable = { which = "duel_att_mod" value =  4 } }
             }
         }
-        # zero attack in case of other magic things
+        # zero attack in case in specific case
         if = {
-            limit = { has_character_flag = duel_move_magic_other }
+            limit = { 
+                OR = { 
+                    has_character_flag = duel_move_magic_other 
+                    has_character_flag = duel_effect_freeze # just to be sure 
+                }
+            }
             set_variable = { which = "duel_att_mod" value = 0 }
+        }
+    }
+}
+# EFFECTS DISPEL EVENT
+# 
+# Dispel effects that have limited duration
+#
+character_event = {
+    id = duelengine.7
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        # dispel Freeze
+        random_list = {
+            75 = { clr_character_flag = duel_effect_freeze }
+            25 = { }
+        }
+        # dispel Barrier
+        random_list = {
+            75 = { clr_character_flag = duel_effect_barrier }
+            25 = { }
         }
     }
 }
@@ -1538,10 +1703,13 @@ character_event = {
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
         clr_character_flag = duel_effect_defence_bonus2
+        clr_character_flag = duel_effect_weaken1
         clr_character_flag = duel_effect_weaken2
-        clr_character_flag = duel_effect_chaos_bane 
+        clr_character_flag = duel_effect_freeze
+        clr_character_flag = duel_effect_noescape 
  
         clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_nomove
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
 
@@ -1565,15 +1733,6 @@ character_event = {
 #
 # TEMPLATE
 #
-##So my understanding is that we will have several of these events each with their own unique descriptions?
-##So that the reporting event isn't the same each time
-##Could they be further broken down so you'll get unique report based on whether you or your opponent is a mage?
-##Seems like this could make for lots of fun description writing as there are really only 6 outcomes right now
-##     -Erik
-#
-# Pietrko(Arsakes): yes we could make mage dependnet outcomes too
-#
-#
 #
 # id = 20-x
 #
@@ -1596,6 +1755,8 @@ character_event = {
     is_triggered_only = yes
   
     # CASE 1 MEELE COMBAT
+
+
     option = {
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
@@ -1955,6 +2116,15 @@ character_event = {
 
         hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
+    }
+    # character is immoblized cannot choose special reaction
+    option = {
+        name = "EVTOPT_DUELENGINE_20J"
+        trigger = { has_character_flag = duel_move_nomove }
+ 
+        custom_tooltip = { text = TOOLTIP_duel_nomove }
+        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
+        ai_chance = { factor = 1 }
     }
 
 }
@@ -2328,6 +2498,15 @@ character_event = {
 
         hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
+    }
+    # character is immoblized cannot choose special reaction
+    option = {
+        name = "EVTOPT_DUELENGINE_20J"
+        trigger = { has_character_flag = duel_move_nomove }
+ 
+        custom_tooltip = { text = TOOLTIP_duel_nomove }
+        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
+        ai_chance = { factor = 1 }
     }
 
 
@@ -2703,6 +2882,15 @@ character_event = {
         hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
+    # character is immoblized cannot choose special reaction
+    option = {
+        name = "EVTOPT_DUELENGINE_20J"
+        trigger = { has_character_flag = duel_move_nomove }
+ 
+        custom_tooltip = { text = TOOLTIP_duel_nomove }
+        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
+        ai_chance = { factor = 1 }
+    }
 
 }
 ##################
@@ -3076,6 +3264,15 @@ character_event = {
         hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
+    # character is immoblized cannot choose special reaction
+    option = {
+        name = "EVTOPT_DUELENGINE_20J"
+        trigger = { has_character_flag = duel_move_nomove }
+ 
+        custom_tooltip = { text = TOOLTIP_duel_nomove }
+        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
+        ai_chance = { factor = 1 }
+    }
 
 }
 #####################################################################
@@ -3093,7 +3290,7 @@ character_event = {
     option = {
         name = "EVTOPT_DUELENGINE_24A"
         morale = -0.1
-        death = { death_reason = death_accident }
+        death = { death_reason = death_battle }
         FROMFROM = { character_event = { id = duelengine.25 } }
         # garbage clean
         hidden_tooltip = {

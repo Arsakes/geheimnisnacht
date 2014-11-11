@@ -1,3 +1,14 @@
+magical_spells = {
+	morale = 100
+	maintenance = 0
+	phase_skirmish_attack = 500
+	phase_melee_attack = 500
+	phase_pursue_attack = 500
+	phase_skirmish_defense = 500
+	phase_melee_defense = 500
+	phase_pursue_defense = 500
+	base_type = archers
+}
 
 horse_archers = {
 	morale = 5

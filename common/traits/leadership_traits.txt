@@ -162,3 +162,12 @@ narrow_flank_leader = {
 		narrow_flank = 0.5
 	}
 }
+
+winter_soldier = {
+	leader = yes
+	
+	command_modifier = {
+		winter_supply = 4
+		winter_combat = 0.5
+	}
+}

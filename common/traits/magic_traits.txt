@@ -57,10 +57,18 @@ magic_power_archmaster = {
 }
 # Non-Imperial magics
 lore_ice = {
+        command_modifier = {
+		winter_combat = 0.2
+		morale_offence = 0.1
+        }
 	random = no
 }
 #Winds of Magic (most common lores)
 lore_fire = {
+	command_modifier = {
+		magical_spells = 0.3
+		morale_offence = 0.1
+	}
 	random = no
 }
 lore_beasts = {
@@ -70,6 +78,12 @@ lore_metal = {
 	random = no
 }
 lore_light = {
+        command_modifier = {
+		religious_enemy = 0.2
+		morale_defence = 0.2
+		defence = 0.1
+		speed = 0.05
+        }
 	random = no
 }
 lore_life = {
@@ -90,6 +104,13 @@ lore_high_magic = {
 }
 #Lores of Chaos
 lore_dark_magic = {
+	command_modifier = {
+		magical_spells = 0.2
+		morale_offence = 0.2
+		random = 0.2
+	}
+	random = no
+
 	random = no
 }
 lore_nurgle = {
@@ -103,6 +124,10 @@ lore_tzeentch = {
 }
 #Other Dark
 lore_necromancy = {
+	command_modifier = {
+		magical_spells = 0.1
+		morale_offence = 0.1
+	}
 	random = no
 }
 

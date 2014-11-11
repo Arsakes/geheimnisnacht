@@ -93,7 +93,7 @@ decisions = {
         }
         allow = { NOT = { has_character_flag = strategic_spell_used } }
         effect = { 
-            set_variable = { which = "magic_spell_cost" value = 5 }      
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.1 } }
             clr_character_flag = last_spell_success
@@ -112,7 +112,7 @@ decisions = {
         }
         allow = { NOT = { has_character_flag = strategic_spell_used } }
         effect = { 
-            set_variable = { which = "magic_spell_cost" value = 4 }      
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
             clr_character_flag = last_spell_success
@@ -197,7 +197,7 @@ decisions = {
                     limit = {
                         OR = {
                             trait = ill
-                            trait = wounded
+                            trait = wounde
                             trait = pneumonic
                             trait = syphilitic
                             trait = leper
@@ -243,6 +243,7 @@ decisions = {
         effect = { 
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
             character_event = { id = magicengine.1 }
+            
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = hysh.2 } }
             clr_character_flag = last_spell_success
         }

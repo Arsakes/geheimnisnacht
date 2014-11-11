@@ -14,10 +14,9 @@
 namespace = hysh
 
 
-
 ######################################################
 #
-# STRATEGIC SPELLS TODO completely broken now
+# STRATEGIC SPELLS 
 #
 ######################################################
 #
@@ -28,6 +27,7 @@ character_event = {
     desc = "EVTDESC_HYSH_1"
     is_triggered_only = yes
 
+    immediate = { set_character_flag = strategic_spell_used }
     # Heal injuries
     option = {
         name = "EVTOPT_HYSH_1A"
@@ -46,16 +46,27 @@ character_event = {
                 if = { limit = { trait = wounded } remove_trait = wounded }
             }
         }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
-    # Heal ilness
+    # Heal illness
     option = {
         name = "EVTOPT_HYSH_1B"
         trigger = {
-            OR = { trait = magic_power_lord trait = magic_power_archmaster trait = magic_power_magister }
+            OR = { 
+                trait = magic_power_lord 
+                trait = magic_power_archmaster 
+                trait = magic_power_magister }
             location =  {
                 any_province_character = { 
-                    NOT = { trait = wounded }
                     has_character_flag = hysh_heal_target
+                    trait = ill 
+                    trait = pneumonic
+                    trait = syphilitic
+                    trait = leper
+                    trait = has_red_pox
+                    trait = has_bone_auge
+                    trait = has_rattlelung
+                    trait = has_creeping_buboes
                 }
             }
         }
@@ -74,6 +85,7 @@ character_event = {
                 if = { limit = { trait = has_creeping_buboes } remove_trait = has_creeping_buboes }
             }
         }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
     # Heal ilness & injuries
     option = {
@@ -97,6 +109,7 @@ character_event = {
                 if = { limit = { trait = has_creeping_buboes } remove_trait = has_creeping_buboes }
             }
         }
+        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
 }
 # Demon Banishing (presonal)
@@ -105,8 +118,11 @@ character_event = {
 character_event = {
    id = hysh.2
    is_triggered_only = yes
+   desc = "EVTDESC_HYSH_2"
    picture = "GFX_evt_spell_hysh"
    
+   immediate = { set_character_flag = strategic_spell_used }
+
    option = {
        name = "EVTOPT_HYSH_2A"
        location =  {
@@ -114,257 +130,65 @@ character_event = {
                limit = { trait = possessed }
                if = { limit = { random = 70 }  remove_trait = possessed }
                if = { limit = { random = 30 }  add_trait = wounded }
-               if = { limit = { random = 15 }  death = { wounded } }
+               if = { limit = { random = 15 }  death = { death_reason = death_trait } }
 
                ROOT = { if = { limit = { random = 15 trait = stressed }  add_trait = lunatic } }
                ROOT = { if = { limit = { random = 15 }  add_trait = stressed } }
                ROOT = { if = { limit = { random = 15 }  add_trait = wounded } }
            }
        }
+       hidden_tooltip = { character_event = { id = magicengine.11 days = 7 }}
    }
 }
 ##############################################################
-#
-# Battle Spells:
+# 
+# Special on_combat_pulse event effect
 #
 ##############################################################
-# Pillar of light TODO - add to it on_action_events
+# For character
 character_event = {
     id = hysh.5
-    picture = GFX_evt_spell_hysh
+    picture = "GFX_evt_spell_hysh"
     border = GFX_event_normal_frame_war
-    desc = "EVTDESC_HYSH_1"
+    desc = "EVTDESC_HYSH_5"
     
     is_triggered_only = yes
-
     
-    trigger = {
-        is_alive = yes
-        OR = {
-            trait = magic_power_magister
-            trait = magic_power_lord
-            trait = magic_power_archmaster
-        }
-        trait = lore_light
-    }
-    
-    weight_multiplier = {
-        days = 1
-        modifier = {
-            factor = 5 #SPELL FACTOR
-        }
-        modifier = {
-            factor = 1.5
-            trait = brave
-        }
-        modifier = {
-            factor = 0.5
-            trait = craven
-        }
-        modifier = {
-            trait = genius
-            factor = 1.2
-        }
-        modifier = {
-            trait = quick
-            factor = 1.1
-        }    
-        modifier = {
-            trait = slow
-            factor = 0.9
-        }
-        
-        modifier = {
-            trait = imbecile
-            factor = 0.2
-        }
-        modifier = {
-            trait = inbred
-            factor = 0.2
-        }
-        modifier = {
-            trait = strong
-            factor = 1.5
-        }
-        modifier = {
-            trait = weak
-            factor = 0.8
-        }    
-        modifier = {
-            factor = 0.8
-            trait = stressed
-        }
-        modifier = {
-            factor = 0.8
-            trait = depressed
-        }
-        modifier = {
-            factor = 0.75
-            trait = lunatic
-        }
-        modifier = {
-            factor = 0.75
-            trait = possessed
-        }
-        modifier = {
-            factor = 0.9
-            trait = ill
-        }
-        modifier = {
-            factor = 0.8
-            trait = pneumonic
-        }
-        modifier = {
-            factor = 0.8
-            trait = syphilitic
-        }
-        modifier = {
-            factor = 0.5
-            trait = leper
-        }
-        modifier = {
-            factor = 0.9
-            trait = wounded
-        }
-        modifier = {
-            factor = 0.8
-            trait = maimed
-        }
-        modifier = {
-            factor = 0.5
-            trait = infirm
-        }
-        modifier = {
-            factor = 0.4
-            trait = incapable
-        }
-        modifier = {
-            factor = 0.5
-            trait = drunkard
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_rattlelung
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_bone_auge
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_nurgles_rot
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_creeping_buboes
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_green_pox
-        }        
-        modifier = {
-            factor = 0.5
-            trait = has_red_pox
-        }
-        modifier = {
-            factor = 0.5
-            trait = has_tomb_rot
-        }
-        modifier = {
-            factor = 2
-            trait = magic_power_lord
-        }
-        modifier = {
-            factor = 3
-            trait = magic_power_archmaster
-        }
-    }
-
     option = {
-        name = EXCELLENT
-        # TODO
+        name = OK
+        troops = 0.03
+        morale = 0.05
     }
 }
+# For Enemy 
+character_event = {
+    id = hysh.6
+    picture = "GFX_evt_spell_hysh"
+    border = GFX_event_normal_frame_war
+    desc = "EVTDESC_HYSH_5"
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "EVTOPT_HYSH_5A"
+        # Banish daemons
+        if = { 
+            limit = { has_earmarked_regiments = daemon_legion }
+            troops = -0.07
+        }
+    }
+}
+
 
 ##############################################################
 #
 # Duel Spells:
-#
-# FROM = enemy(spell target)
-# ROOT = caster
 # 
+# implemented in duelengine.txt
 ##############################################################
-
-# Burning Gaze
-character_event = {
-   id = hysh.10
-   is_triggered_only = yes
-   picture = GFX_evt_spell_hysh
-   desc = "EVTDESC_HYSH_10"
-   #major = yes
-
-   immediate = { 
-       #FIXME change damage
-       set_variable = { which = "duel_magic_att" value = 6 }
-       # FIXME
-       FROMFROM = { set_character_flag = duel_effect_flare } 
-   }
-   option = {
-       name = OK
-   }
-}
-#Body of Light
-character_event = {
-   id = hysh.11
-   picture = GFX_evt_spell_hysh
-   is_triggered_only = yes
-   desc = "EVTDESC_HYSH_11"
-
-   immediate = { 
-       set_variable = { which = "duel_magic_att" value = 0 }
-       set_character_flag  = duel_effect_body_of_light
-   }
-   option = {
-       name = "OK"
-   }
-}
-#healing energy
-character_event = {
-   id = hysh.12
-   is_triggered_only = yes
-   picture = GFX_evt_spell_hysh
-   desc = "EVTDESC_HYSH_12"
- 
-   immediate = { 
-       set_variable = { which = "duel_magic_att" value = 0 }
-       random_list = {
-          33 = { change_variable = { which = "duel_hp" value = 1 } }
-          34 = { change_variable = { which = "duel_hp" value = 2 } }
-          33 = { change_variable = { which = "duel_hp" value = 3 } }
-       }
-       if = {
-           limit = { check_variable = { which = "duel_hp" which = "duel_max_hp" } }
-           set_variable = { which = "duel_hp" which = "duel_max_hp" }
-       }
-   }
-
-   option = {
-       name = "OK"
-   }
-}
-#radiant Weapon
-character_event = {
-   id = hysh.13
-   is_triggered_only = yes
-   picture = GFX_evt_spell_hysh
-   desc = "EVTDESC_HYSH_13"
-
-   immediate = { 
-       set_variable = { which = "duel_magic_att" value = 0 }
-       set_character_flag  = duel_effect_radiant_weapon
-   }
-   option = {
-       name = OK
-   }
-}
-
+#
+# Offensive: Burning Gaze
+# Defensive: Body of Light
+# Buff: Heal
+# Speical : Radiant Weapon
+#
