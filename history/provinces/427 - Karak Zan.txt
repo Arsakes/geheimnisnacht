@@ -5,8 +5,8 @@ title = c_karak_zan
 
 # Settlements
 max_settlements = 2
-b_karak_zan = tribal
-#b_alabrin_rhuvan = tribal
+b_karak_zan = castle
+#b_alabrin_rhuvan = temple
 
 # Misc
 culture = dwarf_chaos

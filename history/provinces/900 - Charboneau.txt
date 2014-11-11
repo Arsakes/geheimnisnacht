@@ -5,11 +5,11 @@ title = c_charboneau
 
 # Settlements
 max_settlements = 5
-b_charboneau = tribal
-#b_montdaure = tribal
-#b_charlebois = tribal
-#b_avranches = tribal
-#b_aujon = tribal
+b_charboneau = castle
+#b_montdaure = city
+#b_charlebois = temple
+#b_avranches = temple
+#b_aujon = city
 
 # Misc
 culture = orc_main
@@ -22,5 +22,5 @@ religion = greenskin_gods
 2155.1.1 = { culture = carcassian }
 
 2250.1.1 = {
-	b_montdaure = tribal
+	b_montdaure = city
 }

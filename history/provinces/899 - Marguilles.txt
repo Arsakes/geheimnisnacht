@@ -5,10 +5,10 @@ title = c_marguilles
 
 # Settlements
 max_settlements = 4
-b_marguilles = tribal
-b_maisemane = tribal
-#b_chausefort = tribal
-#b_chermercy = tribal
+b_marguilles = castle
+b_maisemane = city
+#b_chausefort = castle
+#b_chermercy = temple
 
 # Misc
 culture = orc_main
@@ -21,5 +21,5 @@ religion = greenskin_gods
 2155.1.1 = { culture = carcassian }
 
 2250.1.1 = {
-	b_chausefort = tribal
+	b_chausefort = castle
 }

@@ -5,10 +5,10 @@ title = c_thaurizon
 
 # Settlements
 max_settlements = 4
-b_thaurizon = tribal
-b_skazim = tribal
-b_zonfel = tribal
-#b_zunthrum_drin = tribal
+b_thaurizon = castle
+b_skazim = city
+b_zonfel = castle
+#b_zunthrum_drin = temple
 
 # Misc
 culture = dwarf_chaos

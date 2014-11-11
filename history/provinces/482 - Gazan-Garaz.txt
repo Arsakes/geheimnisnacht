@@ -5,10 +5,10 @@ title = c_gazan_garaz
 
 # Settlements
 max_settlements = 4
-b_argelmarch = tribal
-b_krak_magaz = tribal
-#b_ironcore = tribal
-#b_bad_ghull = tribal
+b_argelmarch = castle
+b_krak_magaz = city
+#b_ironcore = temple
+#b_bad_ghull = city
 
 # Misc
 culture = dwarf_chaos
@@ -18,5 +18,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_ironcore = tribal
+	b_ironcore = temple
 }

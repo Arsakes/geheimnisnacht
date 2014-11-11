@@ -5,9 +5,9 @@ title = c_daemons_stump
 
 # Settlements
 max_settlements = 3
-b_daemons_stump = tribal
-b_ironstone = tribal
-#b_ogrikford = tribal
+b_daemons_stump = castle
+b_ironstone = city
+#b_ogrikford = castle
 
 # Misc
 culture = dwarf_chaos

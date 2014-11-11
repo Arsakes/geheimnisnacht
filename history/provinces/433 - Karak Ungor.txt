@@ -5,13 +5,13 @@ title = c_karak_ungor
 
 # Settlements
 max_settlements = 7
-b_karak_ungor = tribal
-b_ungor_ungol = tribal
-b_karaz_yannir = tribal
-b_grung_adril = tribal
-#b_grungil_kromin = tribal
-#b_karag_hyloriz = tribal
-#b_jondorin = tribal
+b_karak_ungor = castle
+b_ungor_ungol = city
+b_karaz_yannir = temple
+b_grung_adril = castle
+#b_grungil_kromin = temple
+#b_karag_hyloriz = city
+#b_jondorin = castle
 
 # Misc
 culture = goblin_main

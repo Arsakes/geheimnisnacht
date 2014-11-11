@@ -5,10 +5,10 @@ title = c_khazid_untulum
 
 # Settlements
 max_settlements = 4
-b_khazid_untulum = tribal
-b_kraka_drydel = tribal
-#b_grung_byrum = tribal
-#b_kazad_jarkulm = tribal
+b_khazid_untulum = castle
+b_kraka_drydel = temple
+#b_grung_byrum = city
+#b_kazad_jarkulm = castle
 
 # Misc
 culture = dwarf_chaos
@@ -18,5 +18,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_grung_byrum = tribal
+	b_grung_byrum = city
 }

@@ -5,8 +5,8 @@ title = c_blood_keep
 
 # Settlements
 max_settlements = 2
-b_blood_keep = tribal
-#b_la_maisontaal = tribal
+b_blood_keep = castle
+#b_la_maisontaal = temple
 
 # Misc
 culture = orc_main

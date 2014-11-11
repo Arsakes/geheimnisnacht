@@ -5,11 +5,11 @@ title = c_kuldevind_islands
 
 # Settlements
 max_settlements = 5
-b_funninguur = tribal
-b_gnaefur = tribal
-#b_kaupmadhormen = tribal
-#b_kjopmanndokk = tribal
-#b_slagetspir = tribal
+b_funninguur = city
+b_gnaefur = castle
+#b_kaupmadhormen = temple
+#b_kjopmanndokk = city
+#b_slagetspir = castle
 
 # Misc
 culture = fjarmann
@@ -19,9 +19,9 @@ religion = norscan_gods
 # History
 
 2250.1.1 = {
-	b_kaupmadhormen = tribal
+	b_kaupmadhormen = temple
 }
 
 2500.1.1 = {
-	b_kjopmanndokk = tribal
+	b_kjopmanndokk = city
 }

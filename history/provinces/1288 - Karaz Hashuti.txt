@@ -5,11 +5,11 @@ title = c_karaz_hashuti
 
 # Settlements
 max_settlements = 5
-b_karaz_hashuti = tribal
-b_kurgaz_hashuti = tribal
-b_grodum = tribal
-#b_undgrim_dhark = tribal
-#b_khazid_brakk = tribal
+b_karaz_hashuti = castle
+b_kurgaz_hashuti = temple
+b_grodum = temple
+#b_undgrim_dhark = city
+#b_khazid_brakk = castle
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_undgrim_dhark = tribal
+	b_undgrim_dhark = city
 }

@@ -5,8 +5,8 @@ title = c_karaz_lumbar
 
 # Settlements
 max_settlements = 2
-b_karaz_lumbar = tribal
-#b_lumbar_ungor = tribal
+b_karaz_lumbar = castle
+#b_lumbar_ungor = city
 
 # Misc
 culture = goblin_main

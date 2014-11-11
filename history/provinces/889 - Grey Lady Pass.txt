@@ -5,10 +5,10 @@ title = c_grey_lady_pass
 
 # Settlements
 max_settlements = 4
-b_sanglac = tribal
-b_grunere = tribal
-#b_chateau_gaston = tribal
-#b_lisle_de_morre = tribal
+b_sanglac = castle
+b_grunere = temple
+#b_chateau_gaston = castle
+#b_lisle_de_morre = temple
 
 # Misc
 culture = orc_main

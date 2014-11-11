@@ -5,10 +5,10 @@ title = c_drageberg
 
 # Settlements
 max_settlements = 4
-b_drageberg = tribal
-b_hjorix_hybyli = tribal
-#b_nyta_godhahus = tribal
-#b_gradhor_hellir = tribal
+b_drageberg = castle
+b_hjorix_hybyli = castle
+#b_nyta_godhahus = castle
+#b_gradhor_hellir = castle
 
 # Misc
 culture = dwarf_chaos
@@ -18,5 +18,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_nyta_godhahus = tribal
+	b_nyta_godhahus = castle
 }

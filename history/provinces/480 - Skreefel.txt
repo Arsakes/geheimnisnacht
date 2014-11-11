@@ -5,9 +5,9 @@ title = c_skreefel
 
 # Settlements
 max_settlements = 3
-b_skreefel = tribal
-b_huwaz = tribal
-#b_black_fang = tribal
+b_skreefel = castle
+b_huwaz = city
+#b_black_fang = temple
 
 # Misc
 culture = dwarf_chaos

@@ -5,9 +5,9 @@ title = c_azgrimar
 
 # Settlements
 max_settlements = 3
-b_karak_azgrimar = tribal
-b_thoriam = tribal
-#b_ungra_dharksol = tribal
+b_karak_azgrimar = castle
+b_thoriam = temple
+#b_ungra_dharksol = castle
 
 # Misc
 culture = dwarf_chaos

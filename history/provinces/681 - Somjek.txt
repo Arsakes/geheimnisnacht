@@ -5,10 +5,10 @@ title = c_somjek
 
 # Settlements
 max_settlements = 4
-b_somjek = tribal
-b_mykadon = tribal
-#b_stallis = tribal
-#b_szomol = tribal
+b_somjek = castle
+b_mykadon = city
+#b_stallis = temple
+#b_szomol = castle
 
 # Misc
 culture = fjarmann

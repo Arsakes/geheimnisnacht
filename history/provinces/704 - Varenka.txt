@@ -5,9 +5,9 @@ title = c_varenka
 
 # Settlements
 max_settlements = 3
-b_karls_folly = tribal
-b_maek_schloss = tribal
-#b_the_warrens = tribal
+b_karls_folly = castle
+b_maek_schloss = castle
+#b_the_warrens = city
 
 # Misc
 culture = fjarmann

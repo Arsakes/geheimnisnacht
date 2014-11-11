@@ -8,10 +8,54 @@ asrai_group = {
 		color = { 1.0 0.4 0.1 }
 
 		male_names = {
-			Finavar Jokleel Mauro Mormo Thuralin Caorann Beldeas Hauran Eremon Atolmis Olachas Kariath Ilaruss Selva Sephian Elatior Arthron Khoron Alioth Salicis Orion Cyanos Elpenor Singas Haldus Scarloc Gavra
+			Adanhu Aedoth Aelwyn Aeron Aestin Afeen Afyn Ain Aingar Alanter Alioth Amadri Andaras Aneeran Aneirian Anyr Aon Aonic Araflane Araloth Arin Arkhar Arkon Arkos Arlas Arnoth Arthron Arwel Aryon Asfael Ashan Astwin Atharian Atherin Athlon Atolmis Aysten 
+			Barwyn Begeir Beldeas Berach Born Braith Bran Brandir Brennul Briceris Bryn 
+			Cadarn Cadoc Cadwaith Caedel Caedfan Caedfel Caedgeen Caith Calaingor Calgor Camath Caome Caorann Carbul Cardael Cardog Carnbel Caronn Carwel Caryn Cathal Cathnair Cead Cefeir Ceir Ceithin Cerd Cernhelm Ciaren Ciliarn Coeddil Colmgar Conar Corbal Corentir Corradan Couranstar Cuandran Cuathbar Cuilich Cyanos Cyndor Cystern 
+			Daith Daranaith Darath Daylen Declar Dei Deinal Dest Deweid Drysten Durall Durneel Durthu 
+			Eabair Edrael Eeras Efaen Einrar Elatior Elbar Eleised Elisan Elpenor Emyr Enfair Eremon Eurin Evrag 
+			Faelan Falchar Faolan Farlon Fei Feidul Feldath Feldor Felian Fian Finavar Findol Findric Finnebar Fluren Folan 
+			Gaelen Galed Garanoth Garneel Garnoc Garun Garuneth Garwiath Gavra Geth Gethir Glam Glawin Glyn Gondaric Gorandol Goronir Gronaith Grufid Guarn Gurian Gwilnid Gwindalor Gwythraul 
+			Haldus Har Harath Hareel Haruan Harweld Haryn Hauran Hedwan Hesteoun Heulog Hual Hurian Huring 
+			Idinal Ilaruss Ione Isandar Islen Ithel Ivnor Ivoreth 
+			Jarcul Jaroc Jerain Joculeer Jokleel Jondulis Judoc 
+			Kaith Kariath Karloc Karnaith Karnol Kastmar Khardan Khoron Kilarn 
+			Lain Ledwarn Lessenhar Locleth Loegar Lorcain Lornaith Losen Lucarian Lynning 
+			Mahaon Maldarn Mannus Marcol Marduc Marloc Masseth Mauro Meir Mellas Melos Meryon Meuroc Morain Moratoth Morion Mormo Mormoth Mornaith Mostyn 
+			Naisus Naith Neirion Nervath Neurvon Nolar Norian 
+			Olachas Olandis Orainedar Oran Ordanstar Oshein Oweine 
+			Padaron Padoth Paederon Pagaroth Paran Parioth Pascarl Ponleec 
+			Ragehal Rhaes Rhoden Rhodian Riane Romas Roparin Roris Rysel 
+			Saetean Salesan Salicis Sayenar Scarloc Sceolan Seachel Seisel Selva Selvic Sephian Seun Shael Singas Sinoth Skarn Skaroth Skaryn Sothr Star Sterrain Sturneel Sturnoc Suibhon Sulyn Swendbarn Synnbor 
+			Taen Tainoth Talyn Targol Taroc Teun Teuvor Thalandor Thuralin Tomosair Torian Torn Tourenal Traevanoth Traevon Trysten Turnoc Turon Twyngor 
+			Ultian Urien Urvas 
+			Vandaris Vannic Varnal Vaugard Vaunic Velwed Vercoc Vylan 
+			Wulderith Wynas Wynneger 
+			Yaldor Yannath Yelstairn Yenoc Yorath 
 		}
 		female_names = {
-			Alhena Ordaana Asphalia Isere Ariel Anel Laelia Naileth Glorana Aefa Tethea Naestra Arahan Sylvanus Belidae
+			Aderynn Aefa Aefol Aerony Aineca Aithe Alana Alastra Alfaste Alhena Alira Alis Alissa Allelda Allisara Alys Ambra Andrasta Anel Aneora Angared Anghara Annere Anwen Aprina Arahan Araline Araneir Arastone Arda Arelle Arica Arielle Arien Arsara Arwen Asphalia Astaria Astarielle Atona Avera Ayna 
+			Bairethe Bedele Belidae Bellana Bethelan Betrias Bevane Blaeden Bleneid Boadec Bofaen Brene Brenna Briallia Brodiri 
+			Cadi Caitha Caressa Caroun Cartrin Carys Catharess Catrassa Catrianna Ceinsara Ceinwyn Celana Cerri Charel Charne Charsara Chelsara Chrain Ciara Coriasta Cura 
+			Darana Dedreine Delynna Devena Draya Drya Dylaes 
+			Efaena Eilia Eimella Eira Eirwain Elenor Elin Elown Eluine Eluna Eoalas Epona Erain Erhaen Erinnia Erise Eseld Eslet Estrala Etelenna Ethane Evelyne 
+			Farsara Fedela Felene Felfae Feynaani Fion Fionise Flane Forsene Fraeda Fyna 
+			Gaena Galena Garnait Gavrielle Genovia Glaesa Glenes Glorana Graine Gwarne Gwenaith 
+			Haefi Halensara Hamaela Hathdreathia Heggria Helliana Heula Hilenstar Hyled 
+			Imeeria Immolde Isandra Isere Isiban Isola 
+			Jaelsene Jalyn Jestyne Jorianna Jouriana 
+			Kaia Kalara Kareesa Katene Khial Koria Kyra 
+			Laelia Laeria Lalana Leannia Lenos Leostine Lownes Luned Lynet Lyra 
+			Mair Mairyn Maive Maldenia Malle Marasara Mareged Margara Marian Meinwe Menra Mere Mereda Merrain Morain Morgalla Moria Moriste Morlanna Morwain Muirien Myna Mythanfae Mywene 
+			Naestra Naieth Naileth Nalana Nalia Narrea Neris Nesta Niama Nlaraei 
+			Oanes Olana Olwine Olymas Onor Ordaana Oria Orianna Oun Ourana Ourane Owein 
+			Padain Paelia Pasara Pelennor Pendea 
+			Relene Rhiane Rhosine Riana Rigane Rosene 
+			Sarane Sarene Sasa Sassira Serena Siana Sileth Sinear Siohaen Slaine Slasia Solas Stallia Stelynne Sterein Storalla Syansara Syanwen Syldane Sylvanus Synmarra 
+			Taila Talana Talaun Talia Tanavea Taranane Telanna Telen Tellane Telsara Tesia Tethea Tevaril Thalyssae Toiress Toria Tornane Torwynne Tyrande Tyste 
+			Uasara Ulana Urielme 
+			Valeera Vareesa Varsarene Veris 
+			Welana Wenleath Wensara Windeir Wyswen 
+			Yennica Yllonys Ysal Ysandra
 		}
 
 		male_patronym = ""

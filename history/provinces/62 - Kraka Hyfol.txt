@@ -5,9 +5,9 @@ title = c_kraka_hyfol
 
 # Settlements
 max_settlements = 3
-b_kraka_hyfol = tribal
-b_ruriovik = tribal
-#b_hundegrestar = tribal
+b_kraka_hyfol = castle
+b_ruriovik = city
+#b_hundegrestar = city
 
 # Misc
 culture = dwarf_chaos

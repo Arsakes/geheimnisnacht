@@ -5,10 +5,10 @@ title = c_chalons
 
 # Settlements
 max_settlements = 4
-b_champebourg = tribal
-b_maisonrie = tribal
-#b_sainte_chapelle = tribal
-#b_issoroux = tribal
+b_champebourg = castle
+b_maisonrie = city
+#b_sainte_chapelle = temple
+#b_issoroux = temple
 
 # Misc
 culture = orc_main
@@ -21,5 +21,5 @@ religion = greenskin_gods
 2155.1.1 = { culture = breton }
 
 2250.1.1 = {
-	b_sainte_chapelle = tribal
+	b_sainte_chapelle = temple
 }

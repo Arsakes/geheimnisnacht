@@ -5,9 +5,9 @@ title = c_achaes
 
 # Settlements
 max_settlements = 3
-b_achaes = tribal
-b_kratus = tribal
-#b_aleria = tribal
+b_achaes = castle
+b_kratus = castle
+#b_aleria = temple
 
 # Misc
 culture = orc_main

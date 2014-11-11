@@ -5,11 +5,11 @@ title = c_gaz_orrud
 
 # Settlements
 max_settlements = 5
-b_gaz_orrud_kazgrim = tribal
-b_gaz_orrud_bar = tribal
-b_valdrin_ona = tribal
-#b_thragik = tribal
-#b_izor_brakk = tribal
+b_gaz_orrud_kazgrim = castle
+b_gaz_orrud_bar = city
+b_valdrin_ona = castle
+#b_thragik = castle
+#b_izor_brakk = temple
 
 # Misc
 culture = dwarf_chaos
@@ -19,5 +19,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_thragik = tribal
+	b_thragik = castle
 }

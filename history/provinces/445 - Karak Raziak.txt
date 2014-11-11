@@ -5,8 +5,8 @@ title = c_karak_raziak
 
 # Settlements
 max_settlements = 2
-b_barak_raziak = tribal
-#b_krikin_raziak = tribal
+b_barak_raziak = castle
+#b_krikin_raziak = temple
 
 # Misc
 culture = goblin_main

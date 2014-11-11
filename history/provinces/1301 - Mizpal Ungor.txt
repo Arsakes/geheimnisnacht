@@ -5,11 +5,11 @@ title = c_mizpal_ungor
 
 # Settlements
 max_settlements = 5
-b_mizpal_ungor = tribal
-b_mhornar_ungor = tribal
-b_mhornar_mingol = tribal
-#b_mizpal_grung = tribal
-#b_keezium = tribal
+b_mizpal_ungor = castle
+b_mhornar_ungor = city
+b_mhornar_mingol = castle
+#b_mizpal_grung = temple
+#b_keezium = castle
 
 # Misc
 culture = dwarf_chaos

@@ -5,9 +5,9 @@ title = c_the_sentinels
 
 # Settlements
 max_settlements = 3
-b_the_sentinels = tribal
-b_ogrikston = tribal
-#b_irksiz_hold = tribal
+b_the_sentinels = castle
+b_ogrikston = castle
+#b_irksiz_hold = city
 
 # Misc
 culture = dwarf_chaos

@@ -5,9 +5,9 @@ title = c_gorlgal
 
 # Settlements
 max_settlements = 3
-b_gorlgal = tribal
-b_vangorram = tribal
-#b_jargom_deep = tribal
+b_gorlgal = castle
+b_vangorram = city
+#b_jargom_deep = temple
 
 # Misc
 culture = dwarf_chaos

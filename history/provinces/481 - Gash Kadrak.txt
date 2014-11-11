@@ -5,10 +5,10 @@ title = c_gash_kadrak
 
 # Settlements
 max_settlements = 4
-b_krutin_hold = tribal
-b_kigalmarch = tribal
-#b_grummbak = tribal
-#b_ragrin_ungor = tribal
+b_krutin_hold = castle
+b_kigalmarch = castle
+#b_grummbak = castle
+#b_ragrin_ungor = city
 
 # Misc
 culture = dwarf_chaos

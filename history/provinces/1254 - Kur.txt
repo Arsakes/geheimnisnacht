@@ -5,10 +5,10 @@ title = c_kur
 
 # Settlements
 max_settlements = 4
-b_kur = tribal
-b_skreefall_citadel = tribal
-b_ashun = tribal
-#b_grushkin = tribal
+b_kur = castle
+b_skreefall_citadel = castle
+b_ashun = temple
+#b_grushkin = city
 
 # Misc
 culture = dwarf_chaos

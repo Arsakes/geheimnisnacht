@@ -5,8 +5,8 @@ title = c_varaz_barak
 
 # Settlements
 max_settlements = 2
-b_varaz_barak = tribal
-#b_dimgol_bar = tribal
+b_varaz_barak = castle
+#b_dimgol_bar = city
 
 # Misc
 culture = orc_main

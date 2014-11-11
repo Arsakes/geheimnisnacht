@@ -5,9 +5,9 @@ title = c_kraka_hakut
 
 # Settlements
 max_settlements = 3
-b_kraka_hakut = tribal
-#b_khazid_groghen = tribal
-#b_khazid_untul = tribal
+b_kraka_hakut = castle
+#b_khazid_groghen = temple
+#b_khazid_untul = castle
 
 # Misc
 culture = dwarf_chaos

@@ -5,9 +5,9 @@ title = c_karak_farjul
 
 # Settlements
 max_settlements = 3
-b_karak_farjul = tribal
-#b_grung_dul = tribal
-#b_tarzum_ungor = tribal
+b_karak_farjul = castle
+#b_grung_dul = city
+#b_tarzum_ungor = temple
 
 # Misc
 culture = dwarf_chaos
@@ -17,5 +17,5 @@ religion = hashut
 # History
 
 2250.1.1 = {
-	b_grung_dul = tribal
+	b_grung_dul = city
 }
