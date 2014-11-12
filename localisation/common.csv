@@ -127,6 +127,10 @@ ravaged_by_chaos;Ravaged by Chaos;;;;;;;;;;;;;x
 ravaged_by_chaos_desc;These lands were target of recent chaos incursion, those who didn't escape from this defiled land were killed by chaos host. This earth is soaked by blood and terrible creaters are haunting city streets in the light of day.;;;;;;;;;;;;;x
 resistance;Resistance against Chaos;;;;;;;;;;;;;x
 resistance_desc;Most of population is hiding before forces of Chaos, those who aren not will never surrender.;;;;;;;;;;;;;x
+dead_raised;Dead Raised;;;;;;;;;;;;;x
+dead_raised_desc;The whole legion of undead was raised in this province.;;;;;;;;;;;;;x
+depopulated;Depopulated;;;;;;;;;;;;;x
+depopulated_desc;The province was severly depopulated - it will take years for it to reach the former number of inhabitants.;;;;;;;;;;;;;x
 # CULTURE MODIFIERS
 gospodar_culture_modifier;Gospodar Traditions;;;;;;;;;;;;;x
 kislevite_culture_modifier;Kislevite Traditions;;;;;;;;;;;;;x

@@ -1,7 +1,7 @@
 # hair, mouth, chin, nose, eyes, cheek, ear, neck
 spriteTypes = {
 	
-############## EASTERNSLAVIC ##########################
+############## KISLEV ##########################
 #
 # In future this file will describe kislev portraits
 # based on russian ones
@@ -21,7 +21,7 @@ spriteTypes = {
 		norefcount = yes
 	}
 	
-	### EASTERNSLAVIC MALE ####
+	### KISLEV MALE ####
 	
 	spriteType = {
 		name = "GFX_kislev_male_clothes_behind"
@@ -494,7 +494,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-#### EASTERNSLAVIC FEMALE ####
+#### KISLEV FEMALE ####
 
 	spriteType = {
 		name = "GFX_kislev_female_clothes_behind"

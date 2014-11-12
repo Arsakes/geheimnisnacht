@@ -28,8 +28,12 @@ decision_lore_dark;Dark magic;;;;;;;;;;;;;x
 decision_lore_dark_desc;Attempt to cast dark magic spells.;;;;;;;;;;;;;x
 decision_lore_fire;Lore of Fire;;;;;;;;;;;;;x
 decision_lore_fire_desc;Attempt to manipulate Aqushy the red wind of magic.;;;;;;;;;;;;;x
-decision_lore_necromancy;Lore of Necromancy;;;;;;;;;;;;;x
-decision_lore_necromancy_desc;Attempt to use dark magic of necromancy.;;;;;;;;;;;;;x
+decision_lore_necromancy1;Raise the Army of Undead;;;;;;;;;;;;;x
+decision_lore_necromancy1_desc;Performs a ritual of great power raising undead legion.;;;;;;;;;;;;;x
+decision_lore_necromancy2;Cast Wind of Death;;;;;;;;;;;;;x
+decision_lore_necromancy2_desc;Summons the Wind of Death - which sucks the life from the the living in area. ;;;;;;;;;;;;;x
+TOOLTIP_NECROMANCY_1;Requires enormous magical power and hundreds of human corpses.;;;;;;;;;;;;;
+TOOLTIP_NECROMANCY_2;Requires trendemous magical power. Will kill large amount of population - cannot be used in the same province twice. ;;;;;;;;;;;;;x
 #
 decision_open_spellbook;Open the spellbook;;;;;;;;;;;;;x
 decision_open_spellbook_desc;Shows the available spells;;;;;;;;;;;;;x

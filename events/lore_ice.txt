@@ -1,11 +1,11 @@
+#
+# @author Pietrko(Arsakes)
+# @description spells for ice mages
+#
 namespace = ice
-# 
-# SPELLS FOR KISLEV ICE MAGES
+##################################################
 #
-###################################################
-#
-# STRATEGIC SPELLS MAIN EVENT
-#
+# STRATEGIC SPELLS
 #
 # Blizzard (strategic spell)
 character_event = {
@@ -14,7 +14,6 @@ character_event = {
     picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
-
     immediate = { set_character_flag = strategic_spell_used }
 
     option = {

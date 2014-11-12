@@ -265,8 +265,9 @@ character_event = {
     immediate = { 
         FROM = {
             # calculating magic cost
-            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 6 }}
-            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 5 }}
+            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 4 }}
+            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 3 }}
+            if = { limit = { trait = lore_necromancy } set_variable = {  which = "magic_spell_cost" value = 3 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
@@ -281,8 +282,15 @@ character_event = {
             # Ice - Shardstorm
             if = {
                 limit = { has_character_flag = last_spell_success trait = lore_ice }
-                set_variable = { which = "duel_magic_att" value = 8 }
+                set_variable = { which = "duel_magic_att" value = 7 }
             }
+            # Lore of Necromancy: Drain Life
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_necromancy }
+                set_variable = { which = "duel_magic_att" value = 6 }
+                change_variable = { which = "duel_hp" value = 1 }
+            }
+
 
             # CLEANING
             clr_character_flag = last_spell_success
@@ -301,6 +309,7 @@ character_event = {
             # INIT
             if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 3 }}
             if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 3 }}
+            if = { limit = { trait = lore_necromancy } set_variable = {  which = "magic_spell_cost" value = 3 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
@@ -315,9 +324,15 @@ character_event = {
             # Crytal Cloak
             if = {
                 limit = { has_character_flag = last_spell_success trait = lore_ice }
-                set_character_flag  = duel_effect_defence_bonus2
+                set_character_flag  = duel_effect_defence_bonus1
+                ROOT = { set_character_flag  = duel_effect_weaken1 }
             }
-
+            # Lore of Necromancy: Hellish Vigour
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_necromancy }
+                change_variable = { which = "duel_hp" value = 1 }
+                set_character_flag = duel_effect_defence_bonus1
+            }
 
             # CLEANING
             clr_character_flag = last_spell_success
@@ -336,6 +351,7 @@ character_event = {
             # INIT
             if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 4 } }
             if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 2 }}
+            if = { limit = { trait = lore_necromancy } set_variable = {  which = "magic_spell_cost" value = 2 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
@@ -360,6 +376,12 @@ character_event = {
                 limit = { has_character_flag = last_spell_success trait = lore_ice }
                 ROOT = { set_character_flag  = duel_effect_noescape } #TODO
             }
+            # Lore of Necromancy: Hand of Dust
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_necromancy }
+                set_variable = { which = "duel_magic_att" which = "duel_att" }
+                if = { limit = { random = 50 } ROOT = { set_character_flag = duel_effect_weaken1 }} 
+            }
 
             # CLEANING
             clr_character_flag = last_spell_success
@@ -376,8 +398,9 @@ character_event = {
     immediate = { 
         FROM = {
             # INIT
-            if = { limit = { trait = lore_light } set_variable = {  which = "magic_spell_cost" value = 4 } }
-            if = { limit = { trait = lore_ice } set_variable = {  which = "magic_spell_cost" value = 8 }}
+            if = { limit = { trait = lore_light } set_variable = { which = "magic_spell_cost" value = 2 } }
+            if = { limit = { trait = lore_ice } set_variable = { which = "magic_spell_cost" value = 6 }}
+            if = { limit = { trait = lore_necromancy } set_variable = {  which = "magic_spell_cost" value = 4 }}
 
             # TEST of spellcraft
             character_event = { id = magicengine.1 }
@@ -395,6 +418,15 @@ character_event = {
                 set_variable = { which = "duel_magic_att" value = 8 }
                 ROOT = { set_character_flag  = duel_effect_freeze } #TODO implement effects
             }
+            # Lore of Necromancy: Siphon Life
+            if = {
+                limit = { has_character_flag = last_spell_success trait = lore_ice }
+                set_variable = { which = "duel_magic_att" value = 6 }
+                random_list = { 
+                    50 = { change_variable = { which = "duel_hp" value = 1 } }
+                    50 = { change_variable = { which = "magic_points" value = 5 }}
+                }
+            }
 
             # CLEANING
             clr_character_flag = last_spell_success
@@ -406,7 +438,6 @@ character_event = {
 character_event = {
     id = magicengine.10
     hide_window = yes
-    
     is_triggered_only = yes
 
     immediate = { disband_event_forces = magical_spells }

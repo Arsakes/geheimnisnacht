@@ -3,21 +3,6 @@
 # Here is set of modifiers used  for spell effects
 #
 ##################################################
-# Light(Hysh spells)
-spell_inspiration = {
-    learning = 3
-    icon = 45
-}
-spell_truthpower = {
-    diplomacy = 3
-    icon = 45
-}
-spell_eyesoftruth = {
-    intrigue = 1
-    # FIXME : implement some additional effect in plot scripts
-    icon = 45
-}
-
 # province modifier
 spell_blizzard = {
     icon = 53

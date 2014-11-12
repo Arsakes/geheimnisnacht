@@ -52,9 +52,21 @@ resistance = {
 	levy_size = -0.8
 	local_revolt_risk = 0.2
 	local_tax_modifier = -0.6
-	local_build_time_modifier = 0.33
-	local_build_cost_modifier = 0.33
+	local_build_time_modifier = 0.5
+	local_build_cost_modifier = 0.5
 	icon = 60
+}
+
+depopulated = {
+	supply_limit = -10
+	levy_size = -0.75
+	local_tax_modifier = -0.5
+	local_build_time_modifier = 0.75
+	local_build_cost_modifier = 0.75
+	icon = 19
+}
+
+dead_raised = {
 }
 
 

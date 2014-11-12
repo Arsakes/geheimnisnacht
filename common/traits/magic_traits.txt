@@ -127,7 +127,7 @@ lore_necromancy = {
 	command_modifier = {
 		magical_spells = 0.1
 		morale_offence = 0.1
+		speed = 0.05
 	}
 	random = no
 }
-

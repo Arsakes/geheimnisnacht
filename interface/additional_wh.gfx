@@ -41,9 +41,14 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_lore_light.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_lore_necromancy"
+		name = "GFX_decision_lore_necromancy1"
 		texturefile = "gfx\\interface\\decision_icon_lore_necromancy.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_lore_necromancy2"
+		texturefile = "gfx\\interface\\decision_icon_lore_necromancy.tga"
+	}
+
 
 	# traits from duel mod
 	spriteType = {

@@ -42,6 +42,7 @@ decisions = {
                 # non-human races lores
                 trait = lore_high_magic
                 # other human lores
+                trait = lore_necromancy
                 trait = lore_ice
                 # chaos lores
                 trait = lore_dark_magic
@@ -284,14 +285,54 @@ decisions = {
     # Spells from necromancy lore
     #
     ########################################################
-    decision_lore_necromancy = {
-        potential = {
+    decision_lore_necromancy1 = {
+       potential = {
             has_character_flag = spellbook_open 
             trait = lore_necromancy
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_magister
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
         }
-        allow = { always = yes }
+        allow = { 
+            NOT = { has_character_flag = strategic_spell_used } 
+            hidden_tooltip = { NOT = { location = { has_province_modifier = dead_raised }}}
+            custom_tooltip = { text = "TOOLTIP_NECROMANCY_1" }
+        }
         effect = { 
-            character_event = { id = necromancy.0 }
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 } }
+            character_event = { id = magicengine.1 }
+            
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = necromancy.1 } }
+            clr_character_flag = last_spell_success
         }
     }
+    # Wind of Death
+    decision_lore_necromancy2 = {
+       potential = {
+            has_character_flag = spellbook_open 
+            trait = lore_necromancy
+            NOT = { trait = incapable }
+            OR = {
+                trait = magic_power_lord 
+                trait = magic_power_archmaster
+            }
+        }
+        allow = { 
+            NOT = { has_character_flag = strategic_spell_used } 
+            hidden_tooltip = { NOT = { location = { has_province_modifier = depopulated }}}
+            custom_tooltip = { text = "TOOLTIP_NECROMANCY_2" }
+        }
+        effect = { 
+            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 7 } }
+            character_event = { id = magicengine.1 }
+            
+            if = { limit = { has_character_flag = last_spell_success } character_event = { id = necromancy.3 } }
+            clr_character_flag = last_spell_success
+        }
+    }
+
+
 }
