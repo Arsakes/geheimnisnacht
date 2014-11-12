@@ -1,3 +1,8 @@
+# @wip
+# @compatibility 2.2.0
+# @author Pietrko=Arsakes=elminister@interia.pl
+# @description 
+#
 # THE DOOM ENGINE
 #
 # Those events are responsible for maintaining the balance of forces in 
@@ -162,8 +167,56 @@ province_event = {
        ai_chance = { factor = 1 }
     }
 }
+##################################################
+#
+# Events governing the daemon legions spawning
+#
+# each daemon has unique earmark: daemon_legionX
+# each daemon is a 400 ppl regiment
+#
+#
+# for each 
+#
+# reserved 10-19
+#
+#################################################
 
+# Add a daemon legion event
+#
+# Variables:
+#
+# FROM = ?
+# ROOT = general that is receiving daemon help
+#
+# should be send to character to receive daemons hordes
+character_event = {
+    id = doomengine.10
+    name = "demony"
+    desc = "demony bardzo"
+    
+    is_triggered_only = yes
 
+    option = {
+       name = "EVTOPT_DOOMENGINE_2A"
+       # change modifier resistance to ravaged by chaos
+       location = {
+	   ROOT = {
+	       spawn_unit = {
+		   province = PREV
+		   owner = FROM
+		   home = PREV
+		   earmark = daemonic_legion1
+		   attrition = 1.0
+		   troops = { 
+		       light_infantry = { 250 250 } 
+		       heavy_infantry = { 150 150 } 
+		   }
+	       }
+	   }
+	}
+    }
+}
+# Disbanding
 ##################################################
 #
 # Here should be events governing the conflicts
@@ -608,61 +661,4 @@ character_event = {
     }
 }
 
-# Daemon spawning
-character_event = {
-    id = doomengine.40
-    name = "demony"
-    desc = "demony bardzo"
-    
-    is_triggered_only = yes
-    immediate = {
-           culture = daemon_khorne
-    }
-    option = {
-       name = "EVTOPT_DOOMENGINE_2A"
-       # change modifier resistance to ravaged by chaos
-       location = {
-           ROOT = {
-               spawn_unit = {
-                   province = PREV
-                   owner = ROOT 
-                   home = PREV
-                   match_character = ROOT 
-                   match_mult = 0.1
-                   earmark = demons
-                   attrition = 1.0
-               }
-           }
-       }
-    }
-}
-# Daemon spawning
-character_event = {
-    id = doomengine.41
-    name = "demony"
-    desc = "demony bardzo"
-    
-    is_triggered_only = yes
-    immediate = {
-           location = {
-               culture = daemon_khorne
-           }
-    }
-    option = {
-       name = "EVTOPT_DOOMENGINE_2A"
-       # change modifier resistance to ravaged by chaos
-       location = {
-           ROOT = {
-               spawn_unit = {
-                   province = PREV
-                   owner = ROOT 
-                   home = PREV
-                   match_character = ROOT 
-                   match_mult = 0.1
-                   earmark = demons2
-                   attrition = 1.0
-               }
-           }
-        }
-    }
-}
+

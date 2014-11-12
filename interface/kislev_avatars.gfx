@@ -240,7 +240,7 @@ objectTypes = {
 	# Old russian helmet (doesn't matter)
 		
 	EMFXActorType = {
-		name = "kislevgfx_SPECIAL_TROOPS_helmet"
+		name = "kislevgfx_horse_archer_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_01.xac"
 		scale = 0.0000001f
 	}

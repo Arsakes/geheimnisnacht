@@ -613,12 +613,16 @@ on_yearly_childhood_pulse = {
 
 #on combat pulse
 on_combat_pulse = {
+        events = {
+		magicengine.12 # Initial magic magic effect
+        }
 	random_events = {
 		2750 = 0
 		10 = 242 # Killed
 		20 = 243 # Wounded
 		10 = 244 # Maimed
-                100 = duelengine.0 # duelengine start battle?
+                100 = duelengine.0   # duelengine start battle
+                100 = magicengine.13 # Random magic spell effects
 		5 = 245 # Serious head injury
 		50 = 246 # Improves martial education
 		20 = 247 # Flat improvement to martial skill
@@ -667,6 +671,9 @@ on_siege_pulse = {
 
 #character
 on_battle_won = {
+        events = {
+        	magicengine.10 #Clear spell effects 
+        }
 	random_events = {
 		800 = 0
 		10 = 260 # Heroism shown
@@ -676,11 +683,16 @@ on_battle_won = {
 }
 
 on_battle_won_leader = {
-
+        events = {
+                magicengine.10 #Clear spell effects 
+        }
 }
 
 #character
 on_battle_lost = {
+        events = {
+                magicengine.10 #Clear spell effects 
+        }
 	random_events = {
 		900 = 0
 		50 = 250 # Imprisoned by the enemy
@@ -689,7 +701,9 @@ on_battle_lost = {
 }
 
 on_battle_lost_leader = {
-
+        events = {
+                magicengine.10 #Clear spell effects 
+        }
 }
 
 on_siege_won_leader = {

@@ -75,6 +75,13 @@ EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of
 EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
 TOOLTIP_MAGICENGINE_MUTATION;Character gains a mutation.;;;;;;;;;;;;;x
 # special character §§§
+#
+#
+# namespace = mutation
+EVTDESC_MUTATION_11;After all those mutations that happended to you, you barely look like human. Your body is strangely mishapen and normal people will hate and fear you whenever they find you.;;;;;;;;;;;;;x
+EVTDESC_MUTATION_12;Your mortal body could not longer endure the effects of mutations - you've become a chaos spawn - mindless creature in service of Ruinous Powers.;;;;;;;;;;;;;x
+#
+#
 # namespace = duelengine
 EVTDESC_DUELENGINE_0;Across the field of battle you have spotted an enemy worth facing.;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_0A;Who shall I fight today?;;;;;;;;;;;;;x
@@ -83,16 +90,16 @@ EVTOPT_DUELENGINE_1A;I shall defeat [From.GetHerHim]!;;;;;;;;;;;;;x
 DUELENGINE_TOOLTIP_1A;The enemy reacts!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_1B;Discretion is the better part of valour!;;;;;;;;;;;;;x
 # tactics for next round
-EVTDESC_DUELENGINE_4;The battle is not yet won... How will you proceed?;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4A;Attack Enemy;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_4;The battle is not yet won... Your enemy did [From.GetHerHis] move and you may and assess combat situation and choose a proper respond:;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4A;Continue Combat;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4B;Cast Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4C;Counterspell or Channel Magic Power;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_4D;Focus On The Other Aspects of Magic;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4D;Continue Combat;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_4E;Try to escape!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_4F;I cannot move!;;;;;;;;;;;;;x
 #
 EVTDESC_DUELENGINE_5;[From.GetTitledFirstName] managed to escape the battlefield, shaming [From.GetHerHim]self forever!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_5A;The coward has escaped... for now.;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_20;You slash at [FromFrom.GetFirstName] and manage to wound [FromFrom.GetHerHim], however your attack left you open to [FromFrom.GetHerHis] counter attack. How will you respond?;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20A;Focus on defence. Let no attack through!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20B;Focus on offence. Attack without restraint!;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20C;Balance your defence and offence. Overcompensation will lead to ruin!;;;;;;;;;;;;;x
@@ -103,28 +110,76 @@ EVTOPT_DUELENGINE_20F;Cast Buff Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20G;Cast Lore Special Spell;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20H;Channel Magic Power;;;;;;;;;;;;;x
 EVTOPT_DUELENGINE_20I;Perform Counterspell;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_20J;Wait;;;;;;;;;;;;;x
 #
-EVTDESC_DUELENGINE_21;[FromFrom.GetFirstName] sends a wild attack your way, but you are able to brush it aside and counter attack wounding [FromFrom.GetHerHim]. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_22;You attack [FromFrom.GetFirstName] but are unable to penetrate [FromFrom.GetHerHis] defences, and [FromFrom.GetSheHe] responds with a vicious counter that leaves you wounded. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_23;[FromFrom.GetFirstName] blocks every blow you send [FromFrom.GetHerHis] way, but you manage to do same. How will you respond?;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_24;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_24A;Avenge me!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_25;You have won! The body of [From.GetTitledName] lies before you.;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_25A;Hurray!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_26;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_26A;Run!;;;;;;;;;;;;;x
-EVTDESC_DUELENGINE_27;You have won! However [From.GetTitledName] has managed to escape!;;;;;;;;;;;;;x
-EVTOPT_DUELENGINE_27A;A coward through and through!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_20;You decided to engage in physical combat. You will fight your enemy and hopefully injure him. What stance you prefer?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_21;You are preparing a spell - this time you won't fight your enemy in physical combat. What spell do you wish to cast?;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_22;You decided to channel magical energies to regain power and be able to cast spells, however you will not deal any damage to enemy this round.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_23;Enemy immbilized you. You cannot do anything this round.;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_50;Unable to continue, you succumb to your wounds...;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_50A;Avenge me!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_51;You have won! The body of [From.GetTitledName] lies before you.;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_51A;Hurray!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_52;You have lost the battle... Wounded and weak you managed to escape...;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_52A;Run!;;;;;;;;;;;;;x
+EVTDESC_DUELENGINE_53;You have won! However [From.GetTitledName] has managed to escape!;;;;;;;;;;;;;x
+EVTOPT_DUELENGINE_53A;A coward through and through!;;;;;;;;;;;;;x
 #
 # DUEL TOOLTIPS TODO add character for colorful text here
 TOOLTIP_attack_stance;Improves attack: 1+ Att, but lowers defence: -1 Def.;;;;;;;;;;;;;x
 TOOLTIP_defence_stance;Lowers attack: -1 Att, but improves defence:+1 Def.;;;;;;;;;;;;;x
 #
-# MAGIC ENGINE namespace = magicengine
-TOOLTIP_hysh_ds1;Burning Gaze - damages with: S 6, costs: 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_hysh_ds1;Burning Gaze - damages with: S=6, costs: 4 mp, may apply flare -1 Attk, -1 Def.;;;;;;;;;;;;;x
 TOOLTIP_hysh_ds2;Body of Light - improves defence: +2 Def, costs: 3 mp.;;;;;;;;;;;;;x
 TOOLTIP_hysh_ds3;Healing Energy - heals the character: +(1-3) hp, 4 mp .;;;;;;;;;;;;;x
 TOOLTIP_hysh_ds4;Radiant Weapon - character weapon becomes blessed: +2 Att against chaos, 2 mp.;;;;;;;;;;;;;x
+TOOLTIP_ice_ds1;Shardstorm - throwes a ice shards at enemy: S=7, 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_ice_ds2;Crystal Cloak - creates a mist of swirling ice around character: +1 Def, -1 Att/Def for enemy, costs 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_ice_ds3;Ice Sheet - covers the terrain with slippery ice. Disturbs enemy -1 Att/Def, enemy cannot escape, 2 mp;;;;;;;;;;;;;x
+TOOLTIP_ice_ds4;Ice Maiden Kiss - damages S=8 and immobilizes the enemy for the next round 5 mp.;;;;;;;;;;;;;x
+TOOLTIP_necromancy_ds1;Drain Life - damages S=6 and heals caster +1 hp, 4 mp.;;;;;;;;;;;;;x
+TOOLTIP_necromancy_ds2;Hellish Vigour - heals character +1hp and improves defence +1 Def 3 mp.;;;;;;;;;;;;;x
+TOOLTIP_necromancy_ds3;Hand of Dust - damages S = Att, and weaken the enemy -1 Att/Def 2 mp.;;;;;;;;;;;;;x
+TOOLTIP_necromancy_ds4;Siphon Life - damages enemy S=6, heals +1hp or gives magic points +5mp, costs 4 mp.;;;;;;;;;;;;;x
+#
+TOOLTIP_magicpoints0;Your character has 0 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints1;Your character has 1 magic point.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints2;Your character has 2 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints3;Your character has 3 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints4;Your character has 4 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints5;Your character has 5 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints6;Your character has 6 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints7;Your character has 7 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints8;Your character has 8 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints9;Your character has 9 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpoints10;Your character has 10 magic points.;;;;;;;;;;;;;x
+TOOLTIP_magicpointsMAX;Your character more than 10 magic points.;;;;;;;;;;;;;x
+#
+TOOLTIP_duelhp0;Your character has 0 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp1;Your character has 1 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp2;Your character has 2 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp3;Your character has 3 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp4;Your character has 4 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp5;Your character has 5 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp6;Your character has 6 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp7;Your character has 7 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp8;Your character has 8 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp9;Your character has 9 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhp10;Your character has 10 hp points.;;;;;;;;;;;;;x
+TOOLTIP_duelhpMAX;Your character has 11 hp points or more.;;;;;;;;;;;;;x
+#
+TOOLTIP_nodmg;Enemy did no damage.\n;;;;;;;;;;;;;x
+TOOLTIP_minordmg;Enemy did minor damage (1dmg).\n;;;;;;;;;;;;;x
+TOOLTIP_majordmg;Enemy did major damage (2 or more dmg).\n;;;;;;;;;;;;;x
+#
+TOOLTIP_enemy_magic_spell;Your enemy casted a spell.\n;;;;;;;;;;;;;x
+TOOLTIP_enemy_combat;Enemy engaged you in physical combat.\n;;;;;;;;;;;;;x
+TOOLTIP_enemy_magic_other;Enemy was prepared himself for magic combat.\n;;;;;;;;;;;;;x
+TOOLTIP_enemy_nothing;Your enemy did nothing.\n;;;;;;;;;;;;;x
+#
+# Character state report for duel
+#
+#
 #
 # namespace = HCLT
 EVTDESCHCLT.1;You are a secret servant of Chaos Undivided!;;;;;;;;;;;;;x
@@ -141,11 +196,51 @@ EVTDESCHCLT.26;You are a secret Jade vampire!;;;;;;;;;;;;;x
 EVTDESCHCLT.27;You are a secret Mahtmasi vampire!;;;;;;;;;;;;;x
 hide_my_cultist;Hide My Cultist;;;;;;;;;;;;;x
 #
-# namespace = Hysh
+#
+# MAGIC LORE EVENTS
+#
+# namespace = hysh
+EVTDESC_HYSH_1;The white wind of magic Hysh can cure both mental and physical injures. White Magese are both healers and relentless demon hunteres. What kind of injuries you would like to heal?;;;;;;;;;;;;;x
+EVTOPT_HYSH_1A;Cure injuries;;;;;;;;;;;;;x
+EVTOPT_HYSH_1B;Cure illness;;;;;;;;;;;;;x
+EVTOPT_HYSH_1C;Apply hysh blessing;;;;;;;;;;;;;x
+EVTDESC_HYSH_2;You start the exorcism, the streaks of Hysh entangle the daemon and the mental struggle begins... Let the light guide you!;;;;;;;;;;;;;x
+EVTOPT_HYSH_2A;Begone Demon!;;;;;;;;;;;;;x
+TOOLTIP_HYSH_2;A character possessed by the Daemon must be in reach.;;;;;;;;;;;;;x
+# Hysh battle spells
+EVTDESC_HYSH_5;You fight side by side with your troops, banshing daemons, burning your foes with streaks of Hysh and healing your soldiers. Wherever you show up a new hope arises.;;;;;;;;;;;;;x
+EVTDESC_HYSH_6;Your enemy is has aid of White of magic on his side, wherever the Hierophants show up enemy troops are healed and your forces burn in blinding light.;;;;;;;;;;;;;x
+EVTOPT_HYSH_6A;Die unholy creatures!;;;;;;;;;;;;;x
+# hysh duel spells
 EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
 EVTDESC_HYSH_11;You have successfully cast the spell Body of Light. Your body shines with an intensely bright light, making you difficult to look upon. Your enemy will have difficulty attacking you.;;;;;;;;;;;;;x
 EVTDESC_HYSH_12;You have successfully cast the spell Healing Energy. Light fills your wounds, healing them and bringing you back into the fight;;;;;;;;;;;;;x
 EVTDESC_HYSH_13;You have successfully cast the spell Radiant Weapon. You infuse your weapon with the radiant energy of Hysh. It now glows with a pure white light, allowing you attack more effectively and doing additional damage against deamons.;;;;;;;;;;;;;x
+#
+# nmespace = ice
+EVTDESC_ICE_0;Ica mages get their power from the Icy land of Kislev they can unleash blizzards and frozing winds to their enemies, turn people into frozen statue or freeze the land. Which spell from the Lore of Ice you would like to cast?;;;;;;;;;;;;;x
+EVTOPT_ICE_0A;Summon blizzard to surrounding lands;;;;;;;;;;;;;x
+EVTOPT_ICE_0B;Raise ice walls for defence;;;;;;;;;;;;;x
+EVTOPT_ICE_0C;Send icestrom to besiegers;;;;;;;;;;;;;x
+EVTOPT_ICE_0D;Send icestrom to defenders;;;;;;;;;;;;;x
+EVTDESC_ICE_1;You summon the power of ice and unleash the mighty blizzard upon your enemies. The blizzard will last for many days slowing the enemy march and weakening its forces. Where you want to direct the blizzard?;;;;;;;;;;;;;x
+EVTOPT_ICE_1A;Send blizzard to neighbor lands...;;;;;;;;;;;;;x
+EVTOPT_ICE_1B;Let the icestorm stay here;;;;;;;;;;;;;x
+EVTDESC_ICE_2;The walls of solid ice grow out of the ground, providing additional defence in strategical locations in the settlement.;;;;;;;;;;;;;x
+EVTDESC_ICE_3;You send hail and biting winds to enemy's army. Soldiers die from cold and harsh conditions are affecting the their morale.;;;;;;;;;;;;;x
+EVTDESC_ICE_4;You send hail and biting winds to defending enemy. Soldiers shatter from terible cold. Enemy army is losing their spirit.;;;;;;;;;;;;;x
+EVTDESC_ICE_5;A hail and biting wind come out of the sky and struck your army. Soldiers shatter from terible cold and are losing heart.;;;;;;;;;;;;;x
+EVTOPT_ICE_5A;Nooo!;;;;;;;;;;;;;x
+#
+TOOLTIP_ICE_1;Blizzard is sent to [This.GetName].;;;;;;;;;;;;;x
+TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two months.;;;;;;;;;;;;;x
+
+#
+# SPECIAL MAGIC LOCALISATION
+#
+EVTOPT_CAST_SPELL;Cast Spell;;;;;;;;;;;;;x
+EVTOPT_STOP_CASTING;Stop Casting;;;;;;;;;;;;;x
+#
 #
 # SYLVANIA EVENTS I DONT KNOW IF THOSE ARE CORRECT 
 EVTDESCUDSYL.1;Sylvania is a dangerous place for all live, but a lovely country if you are a Vampire.;;;;;;;;;;;;;x

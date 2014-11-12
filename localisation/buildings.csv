@@ -311,3 +311,8 @@ ca_ungol_stable_4;Horse Archers Rally Point;;;;;;;;;;;;;x
 ca_ungol_stable_5;Horse Archers Rally Point;;;;;;;;;;;;;x
 ca_ungol_stable_6;Horse Archers Rally Point;;;;;;;;;;;;;x
 ca_ungol_stable_desc;The people of the neighbouring stanitsas hprovides this castle with bands of Horse Archers.;;;;;;;;;;;;;x
+#
+# EVENT BUILDINGS
+#
+eb_ice_walls;Ice Walls;;;;;;;;;;;;;x
+eb_ice_walls_desc;Magical walls made of solid ice were raised in this settlement. They provide additional defence and are visible proff of power of ice magic.;;;;;;;;;;;;;x

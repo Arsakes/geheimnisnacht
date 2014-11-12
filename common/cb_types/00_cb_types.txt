@@ -2291,7 +2291,7 @@ tribal_invasion = {
     }
 }
 
-# WARHAMMER CHANGED
+# WARHAMMER CHANGED (HOLY WAR in-game)
 # TODO: we should change the locals i guess
 religious = {
     name = CB_NAME_RELIGIOUS
@@ -2327,6 +2327,8 @@ religious = {
                 }
             }
         }
+        # TODO ask guys if ursun vs northern case should be excluded from here 
+        #      kislevites get easy cb then resulting in holy wars
     }
     
     can_use_title = {

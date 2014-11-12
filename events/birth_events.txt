@@ -13,7 +13,7 @@
 # @modified_by Pietrko
 # @version 0.1.1
 # @modified_on 0.1.2
-# @compatibility 2.1.6
+# @compatibility 2.2.0
 # @localisation vanilla_mod_events.txt
 # @wip
 

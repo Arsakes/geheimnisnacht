@@ -1,0 +1,159 @@
+#
+# @author Pietrko(Arsakes)
+# @description spells for vampires/undead
+#
+namespace = necromancy
+##################################################
+#
+# STRATEGIC SPELLS MAIN EVENT
+#
+##################################################
+
+#
+# Raise Dead 
+# there are three undead legions to summon depending
+# on mage power
+#
+#
+character_event = {
+    id = necromancy.1
+    desc = "EVTDESC_NECROMANCY_1"
+    picture = "GFX_evt_spell_necromancy"
+    is_triggered_only = yes
+
+    immediate = { set_character_flag = strategic_spell_used }
+    
+    option = {
+        name = "EVTOPT_NECROMANCY_1A"
+        if = {
+            limit = { location = { has_province_modifier = depopulated }}
+            character_event = { id = necromancy.2 }
+        }
+        hidden_tooltip = { character_event = { id = necromancy.2 } }
+        # applying cooldown
+        if = {
+            limit = { trait = magic_power_magister }
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 90 }}
+        }
+        if = {
+            limit = { trait = magic_power_lord }
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
+        }
+        location = { add_province_modifier = { name = dead_raised duration = 10950 }}  # 30 years 
+    }
+}
+# Actual summoning function
+character_event = {
+    id = necromancy.2
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = { 
+        if = {
+            limit = { trait = magic_power_magister }
+            location = {
+                ROOT = { 
+                # 400 troops
+                spawn_unit = {
+                    province = PREV
+                    owner = ROOT
+                    home = PREV
+                    earmark = summoned_undead
+                    attrition = 1.0
+                    troops = { 
+                        archers = { 120 120 }
+                        light_infantry = { 200 200 }
+                        heavy_infantry = { 40 40 }
+                        pikemen = { 40 40 } 
+                    }
+                }
+                }
+            }
+        }
+        if = {
+            limit = { trait = magic_power_lord }
+            location = {
+                ROOT = { 
+                # 600 troops
+                spawn_unit = {
+                    province = PREV
+                    owner = ROOT
+                    home = PREV
+                    earmark = summoned_undead
+                    attrition = 1.0
+                    troops = { 
+                        archers = { 170 170 }
+                        light_infantry = { 330 330 }
+                        heavy_infantry = { 50 50 }
+                        pikemen = { 50 50 } 
+                    }
+                }
+                }
+            }
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            location = {
+                ROOT = { 
+                # 800 troops
+                spawn_unit = {
+                    province = PREV
+                    owner = ROOT
+                    home = PREV
+                    earmark = summoned_undead
+                    attrition = 1.0
+                    troops = { 
+                        archers = { 250 250 }
+                        light_infantry = { 400 400 }
+                        heavy_infantry = { 75 75 }
+                        pikemen = { 75 75 } 
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+# Wind of Death
+character_event = {
+    id = necromancy.3
+    desc = "EVTDESC_NECROMANCY_3"
+    picture = "GFX_evt_spell_necromancy"
+    is_triggered_only = yes
+
+    immediate = { set_character_flag = strategic_spell_used }
+    
+    option = {
+        #TODO apply effects on armies & characters in province
+        name = "EVTOPT_NECROMANCY_3A"
+        if = {
+            limit = { location = { has_province_modifier = dead_raised }}
+            location = { remove_province_modifier = { name = dead_raised }} 
+        }
+        location = { add_province_modifier = { name = depopulated duration = 18250 }}  # 50 years 
+        # applying cooldown
+        if = {
+            limit = { trait = magic_power_lord }
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
+        }
+        if = {
+            limit = { trait = magic_power_archmaster }
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
+        }
+    }
+}
+
+###############################################
+#
+# DUEL SPELLS
+#
+###############################################
+#
+# Drain Life dmg+heal
+# Hand of Dust (physical dmg)
+# Hellish Vigour 
+# Siphon Life dmg + mg regen

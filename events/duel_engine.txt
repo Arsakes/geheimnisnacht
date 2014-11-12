@@ -1050,32 +1050,30 @@ character_event = {
         FROM = { subtract_variable = { which = "duel_dmg" which = "duel_def_mod" }}
 
         # Ok now duel_dmg has proper value which we should substract from health
-        #
         # 
-	# thing that prevents infinite duels (thanks erik) setting dmg to 1 if less than 0
+	# thing that prevents infinite duels setting dmg to 1 if less than 0
         # (50% chance) or to 0 
         if = {
-            limit = { 
-                FROM = { NOT = { check_variable = { which = "duel_dmg" value = 1 }}}
-            }
+            limit = { FROM = { NOT = { check_variable = { which = "duel_dmg" value = 1 }}}}
             random_list = {
                50 = { FROM = { set_variable = { which = "duel_dmg" value =  0 }} } #FIXME set 1
                50 = { FROM = { set_variable = { which = "duel_dmg" value =  0 }} }
             }
         }
-        # applying damge
+        # applying damage
         FROM = { subtract_variable = { which = "duel_hp" which = "duel_dmg" } }
         
-        # clear some ONE ROUND effects 
-        clr_character_flag = duel_effect_defend
-        clr_character_flag = duel_effect_attack
-        clr_character_flag = duel_effect_counterspell
+        # clear effects (those which have limited duration)
+        character_event = { id = duelengine.7 }
+
         # FIXME: dmg reporting events
-        character_event = { id = test.25 } # FROMFROM is the victim
-        character_event = { id = test.23 } # dmg dealt to enemy
-        character_event = { id = test.27 } # defence of enemy
+        #character_event = { id = test.25 } # FROMFROM is the victim
+        #character_event = { id = test.23 } # dmg dealt to enemy
+        #character_event = { id = test.27 } # defence of enemy
+  
         # clear flags that mark character's choose of type of move
         clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_nomove
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
         # clear flags for triggering next round (DEBUG its needed)
@@ -1083,18 +1081,17 @@ character_event = {
      
         # MAGIC - passive channeling
         character_event = { id = magicengine.5 } 
+
     }
- 
     
     #############################################################################
     #
     # Here is decided round outcome, also the player decides what 
-    # kind of move (regular combat, prepare spell, control the winds, change lore)
+    # kind of move (regular combat, cast spell, other action
     # for each kind of round outcome there are 4 options 
     # therefore no more 4 * 4 options alotgether
     #
-    # There are 4 (+1 death case) big mutally exclusive big cases  - in each case 
-    # player is able to do one 
+    # There are 4 (+1 death case) big mutally exclusive big cases could more
     #
     ############################################################################
     #
@@ -1106,76 +1103,184 @@ character_event = {
         trigger = { 
             # 1 or less hp points - death
             NOT = { check_variable = { which = "duel_hp" value = 1 }}
+            NOT = { has_character_flag = duel_effect_noescape } 
+            NOT = { has_character_flag = duel_effect_freeze }
         }
         # Erik: here is decided what happens to loser
         hidden_tooltip = {
         random_list = {
-            70 = { character_event = { id = duelengine.24 } } # death
-            30 = { character_event = { id = duelengine.26 } } # wounded but managed to run away
+            70 = { character_event = { id = duelengine.50 } } # death
+            30 = { character_event = { id = duelengine.52 } } # wounded but managed to run away
         }}
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_DUELENGINE_4F"
+        # ONLY ONE IF CASE SHOULD FIRE
+        # Events in case of death
+        trigger = { 
+            # 1 or less hp points - death
+            NOT = { check_variable = { which = "duel_hp" value = 1 }}
+            OR = { 
+                has_character_flag = duel_effect_noescape 
+                has_character_flag = duel_effect_freeze 
+            }
+        }
+        # Here is precisely defined what happens to the loser
+        hidden_tooltip = {
+            character_event = { id = duelengine.50 } # death
+        }
         ai_chance = { factor = 1 }
     }
     # MEELE FIGHT
     option = {
         name = "EVTOPT_DUELENGINE_4A"
+        # Damage report
+        if = { 
+               limit = { NOT = { check_variable = { which = "duel_dmg" value = 1 }  } }
+               custom_tooltip = { text = TOOLTIP_nodmg } 
+        }
+        if = { 
+               limit = { is_variable_equal = { which = "duel_dmg" value = 1 } } 
+               custom_tooltip = { text = TOOLTIP_minordmg } 
+        }
+        if = { 
+               limit = { check_variable = { which = "duel_dmg" value = 2 } }
+               custom_tooltip = { text = TOOLTIP_majordmg } 
+        }
+
+        # Report on enemy move
+        if = { limit = { FROM = { has_character_flag = duel_move_combat }} custom_tooltip = { text = TOOLTIP_enemy_combat }}
+        if = { limit = { FROM = { has_character_flag = duel_move_magical_spell }} custom_tooltip = { text = TOOLTIP_enemy_magic_spell }}
+        if = { limit = { FROM = { has_character_flag = duel_move_magical_other }} custom_tooltip = { text = TOOLTIP_enemy_magic_other }}
+        if = { limit = { FROM = { has_character_flag = duel_move_nomove }} custom_tooltip = { text = TOOLTIP_enemy_nothing }}
+
+        # Hp report
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 0 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp0 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_hp" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhpMAX }
+        }
+
         trigger = { 
             # 1 or less hp points - alive
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
+            NOT = { has_character_flag = duel_effect_barrier }
+            FROM = { NOT = { has_character_flag = duel_effect_barrier } }
         }
 
         # Now when dmg is done there is time to send report events
         set_character_flag = duel_move_combat
         #
-        # Both people hit themselves
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.20 }}
-        }
-        # You hit your opponent
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.21 } }
-        }
-        # Your opponent hits you   
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { NOT = { check_variable = { which = "duel_dmg" value = 1 }}}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.22 }}
-        }
-        # Nobody hits
-        if = {
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { NOT = { check_variable = { which = "duel_dmg" value = 1 }}}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.23 }}
-        }
+        hidden_tooltip = { character_event = { id = duelengine.20 }}
         ai_chance = { factor = 1 }
     }
     # CAST SPELL
     option = {
         name = "EVTOPT_DUELENGINE_4B"
-        # Now when dmg is done there is time to send report events
-        #
-        # Both people hit themselves
+        # Report on enemy move
+        #if = { limit = { FROM = { has_character_flag = duel_move_combat }} custom_tooltip = { text = TOOLTIP_enemy_combat }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_magical_spell }} custom_tooltip = { text = TOOLTIP_enemy_magic_spell }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_magical_other }} custom_tooltip = { text = TOOLTIP_enemy_magic_other }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_nomove }} custom_tooltip = { text = TOOLTIP_enemy_nothing }}
+
+        # CUSTOM TOOLTIP - reporting magic state
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 0 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints0 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "magic_points" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpointsMAX }
+        }
+
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
@@ -1184,57 +1289,17 @@ character_event = {
             }
         }
         set_character_flag = duel_move_magic_spell
-        # Both people hit themselves
-        if = { 
-            limit = { 
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.20 }}
-        }
-        # You hit your opponent
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.21 } }
-        }
-        # Your opponent hits you   
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.22 }}
-        }
-        # Nobody hits
-        if = {
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.23 }}
-        }
+
+        hidden_tooltip = { character_event = { id = duelengine.21 }}
 
         ai_chance = { factor = 1 }
     }
     # OTHER MAGIC ACTIONS
     option = {
         name = "EVTOPT_DUELENGINE_4C"
-        # Now when dmg is done there is time to send report events
-        #
-        # Both people hit themselves
         trigger = { 
             check_variable = { which = "duel_hp" value = 1 }
+            NOT = { has_character_flag = duel_effect_freeze }
             OR = { 
                 trait = magic_power_adept
                 trait = magic_power_magister
@@ -1242,48 +1307,126 @@ character_event = {
                 trait = magic_power_archmaster
             }
         }
+        # CUSTOM TOOLTIP - reporting magic state
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 0 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints0 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "magic_points" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpoints10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "magic_points" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_magicpointsMAX }
+        }
         set_character_flag = duel_move_magic_other
-        # Both people hit themselves
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.20 }}
-        }
-        # You hit your opponent
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                FROM = { check_variable = { which = "duel_dmg" value = 1 }}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.21 } }
-        }
-        # Your opponent hits you   
-        if = { 
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                check_variable = { which = "duel_dmg" value = 1 }
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.22 }}
-        }
-        # Nobody hits
-        if = {
-            limit = {
-                NOT = { has_character_flag = debug_duel_calculated }
-                NOT = { FROM = { check_variable = { which = "duel_dmg" value = 1 }}}
-                NOT = { check_variable = { which = "duel_dmg" value = 1 }}
-            }
-            set_character_flag = debug_duel_calculated
-            hidden_tooltip = { character_event = { id = duelengine.23 }}
-        }
+        hidden_tooltip = { character_event = { id = duelengine.22 }}
         ai_chance = { factor = 1 }
+    }
+    # Do nothing option in case of freeze or barrier
+    option = {
+        name = "EVTOPT_DUELENGINE_4D"
+        trigger = { 
+            check_variable = { which = "duel_hp" value = 1 }
+            OR = { 
+                has_character_flag = duel_effect_freeze
+                has_character_flag = duel_effect_barrier
+                FROM = { has_character_flag = duel_effect_barrier }
+            }
+        }
+        # Report on enemy move
+        #if = { limit = { FROM = { has_character_flag = duel_move_combat }} custom_tooltip = { text = TOOLTIP_enemy_combat }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_magical_spell }} custom_tooltip = { text = TOOLTIP_enemy_magic_spell }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_magical_other }} custom_tooltip = { text = TOOLTIP_enemy_magic_other }}
+        #if = { limit = { FROM = { has_character_flag = duel_move_nomove }} custom_tooltip = { text = TOOLTIP_enemy_nothing }}
+
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 0 }} 
+            custom_tooltip = { text = TOOLTIP_duelhp0 }}
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 1 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp1 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 2 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp2 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 3 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp3 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 4 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp4 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 5 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp5 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 6 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp6 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 7 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp7 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 8 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp8 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 9 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp9 }
+        }
+        if = { 
+            limit = { is_variable_equal = { which = "duel_hp" value = 10 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhp10 }
+        }
+        if = { 
+            limit = { check_variable = { which = "duel_hp" value = 11 }  } 
+            custom_tooltip = { text = TOOLTIP_duelhpMAX }
+        }
+
+        set_character_flag = duel_move_nomove
+        hidden_tooltip = { character_event = { id = duelengine.23 }}
     }
     # END OF THIS FUCKING BIG EVENT
 }
@@ -1330,7 +1473,7 @@ character_event = {
     
     immediate = {
 
-        # set basic attac & defence
+        # set basic attack & defence
         set_variable = { which = "duel_att_mod" which = "duel_att" }
         set_variable = { which = "duel_def_mod" which = "duel_def" }
        
@@ -1362,13 +1505,22 @@ character_event = {
             change_variable = { which = "duel_def_mod" value = 3 }
             # TODO apply lvl dependent bonus
         }
-        # hysh effect: flare
+        # weakan2
         if = { 
             limit = { has_character_flag = duel_effect_weaken2 }
             change_variable = { which = "duel_att_mod" value = -1 }
             change_variable = { which = "duel_def_mod" value = -1 }
         }
-        # hysh effect: radiant weapon
+        # weaken1
+        if = { 
+            limit = { has_character_flag = duel_effect_weaken1 }
+            random_list = {
+                50 = { change_variable = { which = "duel_att_mod" value = -1 }}
+                50 = { change_variable = { which = "duel_def_mod" value = -1 }}
+            }
+        }
+
+        # chaos bane effect
         if = { 
             limit = { 
                 has_character_flag = duel_effect_chaos_bane
@@ -1376,20 +1528,20 @@ character_event = {
             } 
             change_variable = { which = "duel_att_mod" value = 2 }
         }
-        # body of light
+        # defence bonus effect 
         if = { 
-            limit = { 
-                has_character_flag = duel_effect_defence_bonus2
-            } 
+            limit = { has_character_flag = duel_effect_defence_bonus2 } 
             change_variable = { which = "duel_def_mod" value = 2 }
+        }
+        if = { 
+            limit = { has_character_flag = duel_effect_defence_bonus1 } 
+            change_variable = { which = "duel_def_mod" value = 1 }
         }
 
         # MAGIC ATTACK CASE
         # swap duel_att_mod with duel_magic_att
         if = {
-            limit = { 
-                has_character_flag = duel_move_magic_spell 
-            }
+            limit = { has_character_flag = duel_move_magic_spell }
             # if the spells wasn't offensive duel_magic_att should be 0
             set_variable = { which = "duel_att_mod" which = "duel_magic_att" }
         }
@@ -1411,11 +1563,52 @@ character_event = {
                 16 = { change_variable = { which = "duel_att_mod" value =  4 } }
             }
         }
-        # zero attack in case of other magic things
+        # zero attack in case in specific case
         if = {
-            limit = { has_character_flag = duel_move_magic_other }
+            limit = { 
+                OR = { 
+                    has_character_flag = duel_move_magic_other 
+                    has_character_flag = duel_effect_freeze # just to be sure 
+                }
+            }
             set_variable = { which = "duel_att_mod" value = 0 }
         }
+    }
+}
+# EFFECTS DISPEL EVENT
+# 
+# Dispel effects that have limited duration
+#
+character_event = {
+    id = duelengine.7
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        # clear effects for sure
+        clr_character_flag = duel_effect_defend
+        clr_character_flag = duel_effect_attack
+        clr_character_flag = duel_effect_counterspell
+
+        # dispel Freeze
+        random_list = {
+            75 = { clr_character_flag = duel_effect_freeze }
+            25 = { }
+        }
+        # dispel Barrier
+        random_list = {
+            75 = { clr_character_flag = duel_effect_barrier }
+            25 = { }
+        }
+        # dispel rest
+        random_list = {
+            15 = { clr_character_flag = duel_effect_weaken1 }
+            15 = { clr_character_flag = duel_effect_weaken2 }
+            15 = { clr_character_flag = duel_effect_defence_bonus1 }
+            15 = { clr_character_flag = duel_effect_defence_bonus2 }
+            40 = { }
+        }
+
     }
 }
 # CLEAR ALL EVENT
@@ -1445,10 +1638,13 @@ character_event = {
         clr_character_flag = duel_effect_attack
         clr_character_flag = duel_effect_counterspell
         clr_character_flag = duel_effect_defence_bonus2
+        clr_character_flag = duel_effect_weaken1
         clr_character_flag = duel_effect_weaken2
-        clr_character_flag = duel_effect_chaos_bane 
+        clr_character_flag = duel_effect_freeze
+        clr_character_flag = duel_effect_noescape 
  
         clr_character_flag = duel_move_combat
+        clr_character_flag = duel_move_nomove
         clr_character_flag = duel_move_magic_spell
         clr_character_flag = duel_move_magic_other
 
@@ -1472,15 +1668,6 @@ character_event = {
 #
 # TEMPLATE
 #
-##So my understanding is that we will have several of these events each with their own unique descriptions?
-##So that the reporting event isn't the same each time
-##Could they be further broken down so you'll get unique report based on whether you or your opponent is a mage?
-##Seems like this could make for lots of fun description writing as there are really only 6 outcomes right now
-##     -Erik
-#
-# Pietrko(Arsakes): yes we could make mage dependnet outcomes too
-#
-#
 #
 # id = 20-x
 #
@@ -1492,18 +1679,20 @@ character_event = {
 # FROMFROM - enemy
 # FROM = ROOT = us
 #
-##################
-# Round draw
-##################
+
+######################
+# Player using meele combat
+######################
 character_event = { 
     id = duelengine.20
     desc = "EVTDESC_DUELENGINE_20"
-    picture = "GFX_evt_duel1"
+    picture = "GFX_evt_duel3"
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
   
-    # CASE 1 MEELE COMBAT
+    # MEELE COMBAT
     option = {
+
         name = "EVTOPT_DUELENGINE_20A"
         trigger = { has_character_flag = duel_move_combat }
  
@@ -1544,12 +1733,24 @@ character_event = {
     }
     # normal stance
     option = {
+
         name = "EVTOPT_DUELENGINE_20C"
         trigger = { has_character_flag = duel_move_combat }
        
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
+}
+##########################
+# Character casting spell
+##########################
+character_event = {
+    id = duelengine.21
+    desc = "EVTDESC_DUELENGINE_21"
+    picture = "GFX_evt_mistcast"
+    border = GFX_event_normal_frame_war
+    is_triggered_only = yes
+  
     # CASE 2 CASTING SPELL
     # spell one
     option = {
@@ -1571,8 +1772,56 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds1 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds1 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds1 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell two
@@ -1595,8 +1844,57 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds2 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds2 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds2 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell three
@@ -1619,8 +1917,57 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds3 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds3 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds3 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     # spell four
@@ -1643,296 +1990,69 @@ character_event = {
             limit = { trait = lore_fire }
             custom_tooltip = { text = TOOLTIP_fire_ds4 }
         }
+        if = { 
+            limit = { trait = lore_dark_magic }
+            custom_tooltip = { text = TOOLTIP_dark_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_necromancy }
+            custom_tooltip = { text = TOOLTIP_necromancy_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_beasts }
+            custom_tooltip = { text = TOOLTIP_beasts_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_metal }
+            custom_tooltip = { text = TOOLTIP_metal_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_life }
+            custom_tooltip = { text = TOOLTIP_life_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_heavens }
+            custom_tooltip = { text = TOOLTIP_heavens_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_death }
+            custom_tooltip = { text = TOOLTIP_death_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_shadows }
+            custom_tooltip = { text = TOOLTIP_shadows_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_high_magic }
+            custom_tooltip = { text = TOOLTIP_high_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_nurgle }
+            custom_tooltip = { text = TOOLTIP_nurgle_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_slaanesh }
+            custom_tooltip = { text = TOOLTIP_slaanesh_ds4 }
+        }
+        if = { 
+            limit = { trait = lore_tzeentch }
+            custom_tooltip = { text = TOOLTIP_tzeentch_ds4 }
+        }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
-    # CASE 3 MAGIC ACTION
-    option = {
-        name = "EVTOPT_DUELENGINE_20H"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # channeling event
-        character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_20I"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # counterspell flag
-        set_character_flag = duel_effect_counterspell
-        # magic points penalty
-        change_variable = { which = "magic_points" value = -2 }
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-
 }
-##################
-# Round your win
-##################
-character_event = {
-    id = duelengine.21
-    desc = "EVTDESC_DUELENGINE_21"
-    picture = "GFX_evt_duel3"
-    border = GFX_event_normal_frame_war
-    is_triggered_only = yes
-
-    # CASE 1 MEELE COMBAT
-    option = {
-        name = "EVTOPT_DUELENGINE_20A"
-        trigger = { has_character_flag = duel_move_combat }
- 
-        set_character_flag = duel_effect_defend
-
-        custom_tooltip = { text = TOOLTIP_defence_stance }
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-        # low hp - higher chances to defend
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                NOT = { check_variable = { which = "duel_hp" value = 3 } }
-            }
-            modifier = {
-                factor = 0.5
-                check_variable = { which = "duel_hp" value = 5 }
-            }
-        }
-    }
-    # attack stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20B"
-        trigger = { has_character_flag = duel_move_combat }
-        
-        set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
-        # high hp - higher chances to attack
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                check_variable = { which = "duel_hp" value = 5 }
-            } 
-        }
-    }
-    # normal stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20C"
-        trigger = { has_character_flag = duel_move_combat }
-       
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # CASE 2 CASTING SPELL
-    # spell one
-    option = {
-        name = "EVTOPT_DUELENGINE_20D"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
-        
-        # offensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell two
-    option = {
-        name = "EVTOPT_DUELENGINE_20E"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
-        
-        # defensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell three
-    option = {
-        name = "EVTOPT_DUELENGINE_20F"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
- 
-        # buff spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell four
-    option = {
-        name = "EVTOPT_DUELENGINE_20G"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
-       
-        # special spell dispatcher here tooltip is decided
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # CASE 3 MAGIC ACTION
-    option = {
-        name = "EVTOPT_DUELENGINE_20H"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # channeling event
-        character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_20I"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # counterspell flag
-        set_character_flag = duel_effect_counterspell
-        # magic points penalty
-        change_variable = { which = "magic_points" value = -2 }
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-
-}
-##################
-# Round lost
-##################
+###################################
+# Character doing other stuff
+###################################
 character_event = { 
     id = duelengine.22
     desc = "EVTDESC_DUELENGINE_22"
     is_triggered_only = yes
-    picture = "GFX_evt_duel4"
+    picture = "GFX_evt_mistcast"
     border = GFX_event_normal_frame_war
-
-    # CASE 1 MEELE COMBAT
-    option = {
-        name = "EVTOPT_DUELENGINE_20A"
-        trigger = { has_character_flag = duel_move_combat }
  
-        set_character_flag = duel_effect_defend
-
-        custom_tooltip = { text = TOOLTIP_defence_stance }
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-        # low hp - higher chances to defend
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                NOT = { check_variable = { which = "duel_hp" value = 3 } }
-            }
-            modifier = {
-                factor = 0.5
-                check_variable = { which = "duel_hp" value = 5 }
-            }
-        }
-    }
-    # attack stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20B"
-        trigger = { has_character_flag = duel_move_combat }
-        
-        set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
-        # high hp - higher chances to attack
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                check_variable = { which = "duel_hp" value = 5 }
-            } 
-        }
-    }
-    # normal stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20C"
-        trigger = { has_character_flag = duel_move_combat }
-       
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # CASE 2 CASTING SPELL
-    # spell one
-    option = {
-        name = "EVTOPT_DUELENGINE_20D"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
-        
-        # offensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell two
-    option = {
-        name = "EVTOPT_DUELENGINE_20E"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
-        
-        # defensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell three
-    option = {
-        name = "EVTOPT_DUELENGINE_20F"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
- 
-        # buff spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell four
-    option = {
-        name = "EVTOPT_DUELENGINE_20G"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
-       
-        # special spell dispatcher here tooltip is decided
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
     # CASE 3 MAGIC ACTION
     option = {
         name = "EVTOPT_DUELENGINE_20H"
@@ -1940,7 +2060,7 @@ character_event = {
 
         # channeling event
         character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
     option = {
@@ -1952,171 +2072,48 @@ character_event = {
         # magic points penalty
         change_variable = { which = "magic_points" value = -2 }
 
-        FROMFROM = { character_event = { id = duelengine.4 }}
+        hidden_tooltip = { FROMFROM = { character_event = { id = duelengine.4 }}}
         ai_chance = { factor = 4 }
     }
-
 }
-##################
-# Round draw
-##################
-character_event = { 
+####################################
+# Character immobilized 
+####################################
+character_event = {
     id = duelengine.23
     desc = "EVTDESC_DUELENGINE_23"
     is_triggered_only = yes
     picture = "GFX_evt_duel0"
     border = GFX_event_normal_frame_war
 
-    # CASE 1 MEELE COMBAT
+    # character is immoblized cannot choose special reaction
     option = {
-        name = "EVTOPT_DUELENGINE_20A"
-        trigger = { has_character_flag = duel_move_combat }
+        name = "EVTOPT_DUELENGINE_20J"
+        trigger = { has_character_flag = duel_move_nomove }
  
-        set_character_flag = duel_effect_defend
-
-        custom_tooltip = { text = TOOLTIP_defence_stance }
+        custom_tooltip = { text = TOOLTIP_duel_nomove }
         FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-        # low hp - higher chances to defend
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                NOT = { check_variable = { which = "duel_hp" value = 3 } }
-            }
-            modifier = {
-                factor = 0.5
-                check_variable = { which = "duel_hp" value = 5 }
-            }
-        }
+        ai_chance = { factor = 1 }
     }
-    # attack stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20B"
-        trigger = { has_character_flag = duel_move_combat }
-        
-        set_character_flag = duel_effect_attack
-        custom_tooltip = { text = TOOLTIP_attack_stance }
-        FROMFROM = { hidden_tooltip = { character_event = { id = duelengine.4 } } }
-
-        # high hp - higher chances to attack
-        ai_chance = { 
-            factor = 2
-            modifier = {
-                factor = 4
-                check_variable = { which = "duel_hp" value = 5 }
-            } 
-        }
-    }
-    # normal stance
-    option = {
-        name = "EVTOPT_DUELENGINE_20C"
-        trigger = { has_character_flag = duel_move_combat }
-       
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # CASE 2 CASTING SPELL
-    # spell one
-    option = {
-        name = "EVTOPT_DUELENGINE_20D"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.6 }}}
-        
-        # offensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds1 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell two
-    option = {
-        name = "EVTOPT_DUELENGINE_20E"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.7 }}}
-        
-        # defensive spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds2 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell three
-    option = {
-        name = "EVTOPT_DUELENGINE_20F"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.8 }}}
- 
-        # buff spell dispatcher
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds3 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # spell four
-    option = {
-        name = "EVTOPT_DUELENGINE_20G"
-        trigger = { has_character_flag = duel_move_magic_spell }
-        hidden_tooltip = { FROMFROM = { character_event = { id = magicengine.9 }}}
-       
-        # special spell dispatcher here tooltip is decided
-        # trickery with FROMFROM see magicengine
-        if = { 
-            limit = { trait = lore_light }
-            custom_tooltip = { text = TOOLTIP_hysh_ds4 }
-        }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    # CASE 3 MAGIC ACTION
-    option = {
-        name = "EVTOPT_DUELENGINE_20H"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # channeling event
-        character_event =  { id = magicengine.0 }
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-    option = {
-        name = "EVTOPT_DUELENGINE_20I"
-        trigger = { has_character_flag = duel_move_magic_other }
-
-        # counterspell flag
-        set_character_flag = duel_effect_counterspell
-        # magic points penalty
-        change_variable = { which = "magic_points" value = -2 }
-
-        FROMFROM = { character_event = { id = duelengine.4 }}
-        ai_chance = { factor = 4 }
-    }
-
 }
 #####################################################################
 #
 # DUEL OUTCOMES
 #
+# ids: 50-x
 #####################################################################
 character_event = { 
-    id = duelengine.24
-    desc = "EVTDESC_DUELENGINE_24"
+    id = duelengine.50
+    desc = "EVTDESC_DUELENGINE_50"
     is_triggered_only = yes
     picture = "GFX_evt_duel5"
     border = GFX_event_normal_frame_war
     
     option = {
-        name = "EVTOPT_DUELENGINE_24A"
+        name = "EVTOPT_DUELENGINE_50A"
         morale = -0.1
-        death = { death_reason = death_accident }
-        FROMFROM = { character_event = { id = duelengine.25 } }
+        death = { death_reason = death_battle }
+        FROMFROM = { character_event = { id = duelengine.51 } }
         # garbage clean
         hidden_tooltip = {
             character_event = { id = duelengine.9 }
@@ -2125,14 +2122,14 @@ character_event = {
 }
 # report the death to winner
 character_event = { 
-    id = duelengine.25
-    desc = "EVTDESC_DUELENGINE_25"
+    id = duelengine.51
+    desc = "EVTDESC_DUELENGINE_51"
     is_triggered_only = yes
     picture = "GFX_evt_duel5"
     border = GFX_event_normal_frame_war
     
     option = {
-        name = "EVTOPT_DUELENGINE_25A"
+        name = "EVTOPT_DUELENGINE_51A"
         morale = 0.1
         # garbage clean
         hidden_tooltip = {
@@ -2142,14 +2139,14 @@ character_event = {
 }
 # report about escape
 character_event = { 
-    id = duelengine.26
-    desc = "EVTDESC_DUELENGINE_26"
+    id = duelengine.52
+    desc = "EVTDESC_DUELENGINE_52"
     is_triggered_only = yes
     picture = GFX_evt_battle
     border = GFX_event_normal_frame_war
     
     option = {
-        name = "EVTOPT_DUELENGINE_26A"
+        name = "EVTOPT_DUELENGINE_52A"
         random_list = { 
             60 = { add_trait = wounded }
             40 = { add_trait = maimed  }
@@ -2167,7 +2164,7 @@ character_event = {
             }
         }    
         morale = -0.1
-        FROMFROM = { character_event = { id = duelengine.27 } }
+        FROMFROM = { character_event = { id = duelengine.53 } }
         # garbage clean
         hidden_tooltip = {
             # clean all other duel stats
@@ -2177,14 +2174,14 @@ character_event = {
 }
 # report the escape to winner
 character_event = { 
-    id = duelengine.27
-    desc = "EVTDESC_DUELENGINE_27"
+    id = duelengine.53
+    desc = "EVTDESC_DUELENGINE_53"
     is_triggered_only = yes
     picture = GFX_evt_battle
     border = GFX_event_normal_frame_war
     
     option = {
-        name = "EVTOPT_DUELENGINE_27A"
+        name = "EVTOPT_DUELENGINE_53A"
         morale = 0.1
         # garbage clean
         hidden_tooltip = {

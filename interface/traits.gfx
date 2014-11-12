@@ -1,4 +1,6 @@
 # We keep this file for replacing the original one
+# IMPORTANT!
+# To ADD GRAPHICS for additional/new traits use additional_wh.gfx
 spriteTypes = {
 
 	spriteType = {

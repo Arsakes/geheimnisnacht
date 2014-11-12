@@ -18,7 +18,7 @@ daemonic_group = {
 		dynasty_title_names = yes
 		founder_named_dynasties = yes
 		
-		modifier = default_culture_modifier
+		modifier = daemons_culture_modifier
 	}
 	
 	daemon_khorne = {
