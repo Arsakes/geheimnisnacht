@@ -1,0 +1,19 @@
+# c_ystin_morai_heg
+
+# County Title
+title = c_ystin_morai_heg
+
+# Settlements
+max_settlements = 5
+
+b_ystin_morai_heg = castle
+b_lierin = city
+b_tal_stroot = temple
+#b_tal_tarvyr = castle
+#b_marsara = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

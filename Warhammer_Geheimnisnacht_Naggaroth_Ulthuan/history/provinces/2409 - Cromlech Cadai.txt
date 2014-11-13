@@ -1,0 +1,19 @@
+# c_cromlech_cadai
+
+# County Title
+title = c_cromlech_cadai
+
+# Settlements
+max_settlements = 5
+
+b_cromlech_cadai = castle
+b_flolot = city
+b_nimue = temple
+#b_tal_evaroth = castle
+#b_tal_elora = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

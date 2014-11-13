@@ -1,0 +1,19 @@
+# c_inverin
+
+# County Title
+title = c_inverin
+
+# Settlements
+max_settlements = 5
+
+b_inverin = castle
+b_tiriara = city
+b_tal_daen = temple
+#b_thafane = castle
+#b_raenostar = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

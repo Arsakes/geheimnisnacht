@@ -1,0 +1,19 @@
+# c_talrennic
+
+# County Title
+title = c_talrennic
+
+# Settlements
+max_settlements = 5
+
+b_talrennic = castle
+b_wrein = city
+b_llualwas = temple
+#b_zaleria = castle
+#b_silke = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

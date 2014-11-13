@@ -1,0 +1,19 @@
+# c_tal_silvoch
+
+# County Title
+title = c_tal_silvoch
+
+# Settlements
+max_settlements = 5
+
+b_tal_silvoch = castle
+b_arthwyth = city
+b_athel_gormon = temple
+#b_guilott = castle
+#b_aired = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

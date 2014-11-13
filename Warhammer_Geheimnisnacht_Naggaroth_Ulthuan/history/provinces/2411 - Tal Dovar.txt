@@ -1,0 +1,19 @@
+# c_tal_dovar
+
+# County Title
+title = c_tal_dovar
+
+# Settlements
+max_settlements = 5
+
+b_tal_dovar = castle
+b_athel_lorelei = city
+b_gyth = temple
+#b_kellam = castle
+#b_afransar = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

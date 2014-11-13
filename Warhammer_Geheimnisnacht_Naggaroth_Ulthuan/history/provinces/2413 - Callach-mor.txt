@@ -1,0 +1,19 @@
+# c_callach_mor
+
+# County Title
+title = c_callach_mor
+
+# Settlements
+max_settlements = 5
+
+b_callach_mor = castle
+b_tal_lenanne = city
+b_vulred = temple
+#b_ilyana = castle
+#b_tal_nythanthas = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

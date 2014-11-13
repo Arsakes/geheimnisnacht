@@ -1,0 +1,19 @@
+# c_yn_cavaroc
+
+# County Title
+title = c_yn_cavaroc
+
+# Settlements
+max_settlements = 5
+
+b_yn_cavaroc = castle
+b_peririon = city
+b_rondstar = temple
+#b_ofaena = castle
+#b_elaines = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

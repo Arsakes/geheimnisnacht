@@ -1,0 +1,19 @@
+# c_tal_varigan
+
+# County Title
+title = c_tal_varigan
+
+# Settlements
+max_settlements = 5
+
+b_tal_varigan = castle
+b_astoflour = city
+b_ashtone = temple
+#b_antiga = castle
+#b_cuned = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

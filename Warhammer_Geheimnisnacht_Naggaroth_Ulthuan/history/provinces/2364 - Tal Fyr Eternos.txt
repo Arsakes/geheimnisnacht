@@ -1,0 +1,19 @@
+# c_tal_fyr_eternos
+
+# County Title
+title = c_tal_fyr_eternos
+
+# Settlements
+max_settlements = 5
+
+b_tal_fyr_eternos = castle
+b_elyanore = city
+b_tal_ashaneth = temple
+#b_estaroth = castle
+#b_tal_phraan = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

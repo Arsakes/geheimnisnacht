@@ -1,0 +1,19 @@
+# c_tirsyth
+
+# County Title
+title = c_tirsyth
+
+# Settlements
+max_settlements = 5
+
+b_tirsyth = castle
+b_nevarth = city
+b_elluin = temple
+#b_maeral_sel = castle
+#b_ashera = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History
