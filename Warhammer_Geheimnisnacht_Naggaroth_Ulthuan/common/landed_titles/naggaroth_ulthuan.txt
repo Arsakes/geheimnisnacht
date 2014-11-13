@@ -4234,3 +4234,1360 @@ e_naggaroth = {
 			}
 		}
 	}
+	
+	
+e_athel_loren = {
+	color={ 168 246 224 }
+	color2={ 255 255 20 }
+	
+	capital = 2353 # c_tal_driacha
+	
+	short_name = yes
+	
+	k_tirsyth = {
+		color={ 158 0 219 }
+		color2={ 255 255 255 }
+		
+		capital = 2354 #Delliandra
+		
+		d_tirsyth = {
+			color={ 138 20 209 }
+			color2={ 255 255 255 }
+			
+			capital = 2354 #Delliandra
+			
+			c_tal_driacha = { # 2353
+				color={ 128 30 204 }
+				color2={ 255 255 255 }
+				
+				b_tal_driacha = {
+				}
+				b_tal_maevyn = {
+				}
+				b_sorsasta = {
+				}
+				b_athel_eternos = {
+				}
+				b_hesen = {
+				}
+				b_sant = {
+				}
+				b_olweramur = {
+				}
+			}
+			c_delliandra = { # 2354
+				color={ 170 33 77 }
+				color2={ 255 255 255 }
+				
+				b_delliandra = {
+				}
+				b_calarel = {
+				}
+				b_durvath = {
+				}
+				b_goras = {
+				}
+				b_edhil = {
+				}
+				b_klaern = {
+				}
+				b_malgath = {
+				}
+			}
+			c_tal_silvoch = { # 2356
+				color={ 44 39 78 }
+				color2={ 255 255 255 }
+				
+				b_tal_silvoch = {
+				}
+				b_arthwyth = {
+				}
+				b_athel_gormon = {
+				}
+				b_guilott = {
+				}
+				b_aired = {
+				}
+				b_wylchyr = {
+				}
+				b_bakin = {
+				}
+			}
+			c_tirsyth = { # 2355
+				color={ 2 36 205 }
+				color2={ 255 255 255 }
+				
+				b_tirsyth = {
+				}
+				b_nevarth = {
+				}
+				b_elluin = {
+				}
+				b_maeral_sel = {
+				}
+				b_ashera = {
+				}
+				b_mardeiym = {
+				}
+				b_liluth = {
+				}
+			}
+		}
+	}
+	k_anmyr = {
+		color={ 228 186 210 }
+		color2={ 255 255 255 }
+		
+		capital = 2405 #Anaereth
+		
+		d_anmyr = {
+			color={ 248 166 220 }
+			color2={ 255 255 255 }
+			
+			capital = 2405 #Anaereth
+			
+			c_tal_rond = { # 2401
+				color={ 2 156 225 }
+				color2={ 255 255 255 }
+				
+				b_tal_rond = {
+				}
+				b_tal_scaraen = {
+				}
+				b_blanore = {
+				}
+				b_engrerawd = {
+				}
+				b_galake = {
+				}
+				b_arwenstar = {
+				}
+				b_zeno = {
+				}
+			}
+			c_addaivoch = { # 2402
+				color={ 44 159 98 }
+				color2={ 255 255 255 }
+				
+				b_addaivoch = {
+				}
+				b_kadyngaine = {
+				}
+				b_anaraeyn = {
+				}
+				b_voron = {
+				}
+				b_tal_myliline = {
+				}
+				b_feyrith = {
+				}
+				b_horith = {
+				}
+			}
+			c_anaereth = { # 2405
+				color={ 170 168 227 }
+				color2={ 255 255 255 }
+				
+				b_anaereth = {
+				}
+				b_adorellan = {
+				}
+				b_maiele = {
+				}
+				b_tal_osynar = {
+				}
+				b_ashanstar = {
+				}
+				b_clairet = {
+				}
+				b_myantha = {
+				}
+			}
+			c_ithorien = { # 2408
+				color={ 86 177 1 }
+				color2={ 255 255 255 }
+				
+				b_ithorien = {
+				}
+				b_tal_nyth = {
+				}
+				b_wran = {
+				}
+				b_merialeth = {
+				}
+				b_llothlorien = {
+				}
+				b_imizael = {
+				}
+				b_itylra = {
+				}
+			}
+			c_tal_brianda = { # 2406
+				color={ 2 171 0 }
+				color2={ 255 255 255 }
+				
+				b_tal_brianda = {
+				}
+				b_flinar = {
+				}
+				b_sylsnor = {
+				}
+				b_arn_anoran = {
+				}
+				b_arthwyrion = {
+				}
+				b_ashsterane = {
+				}
+				b_uiathen = {
+				}
+			}
+			c_tal_hakan = { # 2404
+				color={ 128 165 99 }
+				color2={ 255 255 255 }
+				
+				b_tal_hakan = {
+				}
+				b_cudwyr = {
+				}
+				b_yalanilue = {
+				}
+				b_tarnok = {
+				}
+				b_amra = {
+				}
+				b_linella = {
+				}
+				b_cellica = {
+				}
+			}
+			c_tal_valerin = { # 2403
+				color={ 86 162 226 }
+				color2={ 255 255 255 }
+				
+				b_tal_valerin = {
+				}
+				b_tal_garn = {
+				}
+				b_eyrynnhv = {
+				}
+				b_alirion = {
+				}
+				b_astrolan_mar = {
+				}
+				b_owaise = {
+				}
+				b_tal_rhothomir = {
+				}
+			}
+			c_ystin_morai_heg = { # 2407
+				color={ 44 174 128 }
+				color2={ 255 255 255 }
+				
+				b_ystin_morai_heg = {
+				}
+				b_lierin = {
+				}
+				b_tal_stroot = {
+				}
+				b_tal_tarvyr = {
+				}
+				b_marsara = {
+				}
+				b_syla_evaeserine = {
+				}
+				b_ilmadia = {
+				}
+			}
+		}
+	}
+	k_argwylon = {
+		color={ 74 174 148 }
+		color2={ 255 255 255 }
+		
+		capital = 2364 # Tal Fyr Eternos
+		
+		d_argwylon = {
+			color={ 54 194 138 }
+			color2={ 255 255 255 }
+			
+			capital = 2364 # Tal Fyr Eternos
+			
+			c_naiados = { # 2362
+				color={ 44 204 133 }
+				color2={ 255 255 255 }
+				
+				b_naiados = {
+				}
+				b_naevys = {
+				}
+				b_athel_lathai = {
+				}
+				b_faledver = {
+				}
+				b_gyll = {
+				}
+				b_erendriel = {
+				}
+				b_tal_yealserin = {
+				}
+			}
+			c_locrimere = { # 2363
+				color={ 44 54 208 }
+				color2={ 255 255 255 }
+				
+				b_locrimere = {
+				}
+				b_pryndrie = {
+				}
+				b_bacuain = {
+				}
+				b_tal_vesryn = {
+				}
+				b_burolia = {
+				}
+				b_erglareo = {
+				}
+				b_tal_drannor = {
+				}
+			}
+			c_tal_enda_varian = { # 2365
+				color={ 128 45 79 }
+				color2={ 255 255 255 }
+				
+				b_tal_enda_varian = {
+				}
+				b_tal_inveress = {
+				}
+				b_uaena = {
+				}
+				b_peremains = {
+				}
+				b_glatiladr = {
+				}
+				b_tollam = {
+				}
+				b_avagune = {
+				}
+			}
+			c_tal_fyr_eternos = { # 2364
+				color={ 86 207 6 }
+				color2={ 255 255 255 }
+				
+				b_tal_fyr_eternos = {
+				}
+				b_elyanore = {
+				}
+				b_tal_ashaneth = {
+				}
+				b_estaroth = {
+				}
+				b_tal_phraan = {
+				}
+				b_eldar_mar = {
+				}
+				b_aolis = {
+				}
+			}
+		}
+	}
+	k_arranoc = {
+		color={ 116 12 221 }
+		color2={ 255 255 255 }
+		
+		capital = 2360 #Tal Esth
+		
+		d_arranoc = {
+			color={ 96 32 211 }
+			color2={ 255 255 255 }
+			
+			capital = 2360 #Tal Esth
+			
+			c_alarin = { # 2357
+				color={ 86 42 206 }
+				color2={ 255 255 255 }
+				
+				b_alarin = {
+				}
+				b_syla_ennar = {
+				}
+				b_thalas = {
+				}
+				b_imparoth = {
+				}
+				b_gaeloch = {
+				}
+				b_sariandi = {
+				}
+				b_torvarayn = {
+				}
+			}
+			c_beithir_seun = { # 2358
+				color={ 170 198 132 }
+				color2={ 255 255 255 }
+				
+				b_beithir_seun = {
+				}
+				b_engrerat = {
+				}
+				b_ennar_asar = {
+				}
+				b_tal_sharssen = {
+				}
+				b_arnalune = {
+				}
+				b_kandhis = {
+				}
+				b_dorthor = {
+				}
+			}
+			c_sumnos = { # 2361
+				color={ 2 201 5 }
+				color2={ 255 255 255 }
+				
+				b_sumnos = {
+				}
+				b_ashnal = {
+				}
+				b_penelo = {
+				}
+				b_tal_martainn = {
+				}
+				b_tal_tiriara = {
+				}
+				b_oyinore = {
+				}
+				b_lluner = {
+				}
+			}
+			c_tal_esth = { # 2360
+				color={ 2 51 80 }
+				color2={ 255 255 255 }
+				
+				b_tal_esth = {
+				}
+				b_tarsonnis = {
+				}
+				b_amyn = {
+				}
+				b_bleorion = {
+				}
+				b_ilyrana = {
+				}
+				b_uunuun = {
+				}
+				b_kae_dom = {
+				}
+			}
+			c_ystin_lileath = { # 2359
+				color={ 170 48 207 }
+				color2={ 255 255 255 }
+				
+				b_ystin_lileath = {
+				}
+				b_lafarallin = {
+				}
+				b_tal_celdines = {
+				}
+				b_imperas = {
+				}
+				b_aeson = {
+				}
+				b_uldreiyn = {
+				}
+				b_alora = {
+				}
+			}
+		}
+	}
+	k_atylwyth = {
+		color={ 140 138 202 }
+		color2={ 255 255 255 }
+		
+		capital = 2387 #Coeth-mara
+		
+		d_atylwyth = {
+			color={ 160 118 212 }
+			color2={ 255 255 255 }
+			
+			capital = 2387 #Coeth-mara
+			
+			c_tal_drost = { # 2385
+				color={ 170 108 217 }
+				color2={ 255 255 255 }
+				
+				b_tal_drost = {
+				}
+				b_ruvyn = {
+				}
+				b_teirvydd = {
+				}
+				b_arryn = {
+				}
+				b_tavass = {
+				}
+				b_asran = {
+				}
+				b_bedirdin = {
+				}
+			}
+			c_coeth_mara = { # 2387
+				color={ 44 114 218 }
+				color2={ 255 255 255 }
+				
+				b_coeth_mara = {
+				}
+				b_raenic = {
+				}
+				b_kuskyn = {
+				}
+				b_aeneas = {
+				}
+				b_vuus = {
+				}
+				b_maever = {
+				}
+				b_dindrawlwyd = {
+				}
+			}
+			c_inverin = { # 2389
+				color={ 128 120 219 }
+				color2={ 255 255 255 }
+				
+				b_inverin = {
+				}
+				b_tiriara = {
+				}
+				b_tal_daen = {
+				}
+				b_thafane = {
+				}
+				b_raenostar = {
+				}
+				b_athel_lyonwen = {
+				}
+				b_tal_elin = {
+				}
+			}
+			c_tal_amere = { # 2386
+				color={ 2 111 90 }
+				color2={ 255 255 255 }
+				
+				b_tal_amere = {
+				}
+				b_kadyres = {
+				}
+				b_lyithion = {
+				}
+				b_gwalchacas = {
+				}
+				b_arthwyngere = {
+				}
+				b_athel_strynos = {
+				}
+				b_condwingwain = {
+				}
+			}
+			c_tal_mora = { # 2388
+				color={ 86 117 91 }
+				color2={ 255 255 255 }
+				
+				b_tal_mora = {
+				}
+				b_tal_stonar = {
+				}
+				b_nlossae = {
+				}
+				b_offelane = {
+				}
+				b_modrise = {
+				}
+				b_dechtever = {
+				}
+				b_guithi = {
+				}
+			}
+		}
+	}
+	k_cavaroc = {
+		color={ 140 153 77 }
+		color2={ 255 255 255 }
+		
+		capital = 2391 #Equos
+		
+		d_cavaroc = {
+			color={ 160 133 87 }
+			color2={ 255 255 255 }
+			
+			capital = 2391 #Equos
+			
+			c_tal_amara = { # 2390
+				color={ 170 123 92 }
+				color2={ 255 255 255 }
+				
+				b_tal_amara = {
+				}
+				b_olweneve = {
+				}
+				b_tal_caern = {
+				}
+				b_chomylla = {
+				}
+				b_lalabala = {
+				}
+				b_llorien_mara = {
+				}
+				b_condwindelis = {
+				}
+			}
+			c_cromarc = { # 2393
+				color={ 86 132 221 }
+				color2={ 255 255 255 }
+				
+				b_cromarc = {
+				}
+				b_ilfathaes = {
+				}
+				b_chaenath = {
+				}
+				b_coureine = {
+				}
+				b_dagohoot = {
+				}
+				b_hakastar = {
+				}
+				b_cynebar = {
+				}
+			}
+			c_equos = { # 2391
+				color={ 2 126 220 }
+				color2={ 255 255 255 }
+				
+				b_equos = {
+				}
+				b_yoroun = {
+				}
+				b_inialos = {
+				}
+				b_aever = {
+				}
+				b_milren = {
+				}
+				b_dinadeam = {
+				}
+				b_ywaires = {
+				}
+			}
+			c_yn_cavaroc = { # 2392
+				color={ 44 129 93 }
+				color2={ 255 255 255 }
+				
+				b_yn_cavaroc = {
+				}
+				b_peririon = {
+				}
+				b_rondstar = {
+				}
+				b_ofaena = {
+				}
+				b_elaines = {
+				}
+				b_glaedos = {
+				}
+				b_perigan = {
+				}
+			}
+		}
+	}
+	k_cythral = {
+		color={ 116 42 226 }
+		color2={ 255 255 255 }
+		
+		capital = 2373 #Cullodinen
+		
+		d_cythral = {
+			color={ 96 62 216 }
+			color2={ 255 255 255 }
+			
+			capital = 2373 #Cullodinen
+			
+			c_cullodinen = { # 2373
+				color={ 86 72 211 }
+				color2={ 255 255 255 }
+				
+				b_cullodinen = {
+				}
+				b_llothen = {
+				}
+				b_ailas = {
+				}
+				b_khyrmn = {
+				}
+				b_grem = {
+				}
+				b_rosario = {
+				}
+				b_tal_kadyrd = {
+				}
+			}
+			c_tyr_edrell = { # 2375
+				color={ 170 78 212 }
+				color2={ 255 255 255 }
+				
+				b_tyr_edrell = {
+				}
+				b_farryn = {
+				}
+				b_aelrue = {
+				}
+				b_tal_elnael = {
+				}
+				b_laan = {
+				}
+				b_tal_alloralla = {
+				}
+				b_ayla = {
+				}
+			}
+			c_tyr_vanna = { # 2374
+				color={ 128 75 84 }
+				color2={ 255 255 255 }
+				
+				b_tyr_vanna = {
+				}
+				b_kadygrenant = {
+				}
+				b_bedin = {
+				}
+				b_sharia = {
+				}
+				b_tal_kharis = {
+				}
+				b_larrel = {
+				}
+				b_brevance = {
+				}
+			}
+		}
+	}
+	k_fyr_darric = {
+		color={ 116 117 111 }
+		color2={ 255 255 255 }
+		
+		capital = 2400 #Festalym
+		
+		d_fyr_darric = {
+			color={ 96 137 101 }
+			color2={ 255 255 255 }
+			
+			capital = 2400 #Festalym
+			
+			c_threllock = { # 2398
+				color={ 86 147 96 }
+				color2={ 255 255 255 }
+				
+				b_threllock = {
+				}
+				b_tal_kaas = {
+				}
+				b_lethhonel = {
+				}
+				b_trivres = {
+				}
+				b_tal_twiduine = {
+				}
+				b_hihnlan = {
+				}
+				b_theoduin = {
+				}
+			}
+			c_festalym = { # 2400
+				color={ 170 153 97 }
+				color2={ 255 255 255 }
+				
+				b_festalym = {
+				}
+				b_elanil = {
+				}
+				b_tal_raibyr = {
+				}
+				b_naertho_mara = {
+				}
+				b_feno = {
+				}
+				b_chasara = {
+				}
+				b_tal_aeson = {
+				}
+			}
+			c_ystin_eldrazor = { # 2399
+				color={ 128 150 224 }
+				color2={ 255 255 255 }
+				
+				b_ystin_eldrazor = {
+				}
+				b_tal_guine = {
+				}
+				b_laenshe = {
+				}
+				b_rina = {
+				}
+				b_lyonte = {
+				}
+				b_gahewn = {
+				}
+				b_saevel = {
+				}
+			}
+		}
+	}
+	k_modryn = {
+		color={ 158 105 109 }
+		color2={ 255 255 255 }
+		
+		capital = 2395 #Talrennic
+		
+		d_modryn = {
+			color={ 138 125 99 }
+			color2={ 255 255 255 }
+			
+			capital = 2395 #Talrennic
+			
+			c_tal_stornos = { # 2394
+				color={ 128 135 94 }
+				color2={ 255 255 255 }
+				
+				b_tal_stornos = {
+				}
+				b_kyrtaar = {
+				}
+				b_athel_mythos = {
+				}
+				b_stornia = {
+				}
+				b_kyrenic = {
+				}
+				b_myline = {
+				}
+				b_iefyr = {
+				}
+			}
+			c_edryl_modr = { # 2397
+				color={ 44 144 223 }
+				color2={ 255 255 255 }
+				
+				b_edryl_modr = {
+				}
+				b_teiwg = {
+				}
+				b_eschallus = {
+				}
+				b_athel_itharic = {
+				}
+				b_escaraan = {
+				}
+				b_emedell = {
+				}
+				b_usunaar = {
+				}
+			}
+			c_talrennic = { # 2395
+				color={ 170 138 222 }
+				color2={ 255 255 255 }
+				
+				b_talrennic = {
+				}
+				b_wrein = {
+				}
+				b_llualwas = {
+				}
+				b_zaleria = {
+				}
+				b_silke = {
+				}
+				b_merith = {
+				}
+				b_shihon = {
+				}
+			}
+			c_ystin_drakira = { # 2396
+				color={ 2 141 95 }
+				color2={ 255 255 255 }
+				
+				b_ystin_drakira = {
+				}
+				b_phaerl = {
+				}
+				b_kasdarne = {
+				}
+				b_athel_tasteryn = {
+				}
+				b_tal_doma = {
+				}
+				b_celthine = {
+				}
+				b_tal_faelyn = {
+				}
+			}
+		}
+	}
+	k_talsyn = {
+		color={ 32 51 100 }
+		color2={ 255 255 255 }
+		
+		capital = 2378 #Yn Edryl Koiran
+		
+		d_talsyn = {
+			color={ 12 71 90 }
+			color2={ 255 255 255 }
+			
+			capital = 2378 #Yn Edryl Koiran
+			
+			c_druthandor = { # 2376
+				color={ 2 81 85 }
+				color2={ 255 255 255 }
+				
+				b_druthandor = {
+				}
+				b_tal_thafa = {
+				}
+				b_ashomel = {
+				}
+				b_elduin = {
+				}
+				b_arielimnda = {
+				}
+				b_tal_yueana = {
+				}
+				b_wriss = {
+				}
+			}
+			c_cerura_carn = { # 2381
+				color={ 2 96 215 }
+				color2={ 255 255 255 }
+				
+				b_cerura_carn = {
+				}
+				b_danbrawse = {
+				}
+				b_onyal = {
+				}
+				b_tal_filena = {
+				}
+				b_emryfir = {
+				}
+				b_eliaurdin = {
+				}
+				b_vaulisa_faen = {
+				}
+			}
+			c_drune_fell = { # 2379
+				color={ 128 90 214 }
+				color2={ 255 255 255 }
+				
+				b_drune_fell = {
+				}
+				b_athel_khuumal = {
+				}
+				b_fylel = {
+				}
+				b_eloimaya = {
+				}
+				b_rauveloren = {
+				}
+				b_rafaen = {
+				}
+				b_riorch = {
+				}
+			}
+			c_tal_cullon = { # 2377
+				color={ 44 84 213 }
+				color2={ 255 255 255 }
+				
+				b_tal_cullon = {
+				}
+				b_horis = {
+				}
+				b_delmuth = {
+				}
+				b_carnweramur = {
+				}
+				b_hastos = {
+				}
+				b_athel_moraen = {
+				}
+				b_caerthynna = {
+				}
+			}
+			c_tal_eth_ayr = { # 2380
+				color={ 170 93 87 }
+				color2={ 255 255 255 }
+				
+				b_tal_eth_ayr = {
+				}
+				b_enskarl = {
+				}
+				b_elhac = {
+				}
+				b_bedilleas = {
+				}
+				b_blanchegune = {
+				}
+				b_tal_floffire = {
+				}
+				b_ialantha = {
+				}
+			}
+			c_tal_govorn = { # 2384
+				color={ 128 105 89 }
+				color2={ 255 255 255 }
+				
+				b_tal_govorn = {
+				}
+				b_athel_duun = {
+				}
+				b_silvanstar = {
+				}
+				b_sakaala = {
+				}
+				b_marsa = {
+				}
+				b_tal_nanthleene = {
+				}
+				b_aralleas = {
+				}
+			}
+			c_tal_merion = { # 2383
+				color={ 86 102 216 }
+				color2={ 255 255 255 }
+				
+				b_tal_merion = {
+				}
+				b_orist = {
+				}
+				b_agandaur = {
+				}
+				b_athel_chaenath = {
+				}
+				b_alessandra = {
+				}
+				b_tal_alaglossa = {
+				}
+				b_gynedwyr = {
+				}
+			}
+			c_yn_edri_eternos = { # 2382
+				color={ 44 99 88 }
+				color2={ 255 255 255 }
+				
+				b_yn_edri_eternos = {
+				}
+				b_biafyndar = {
+				}
+				b_llamryl = {
+				}
+				b_sataleeti = {
+				}
+				b_sannoth = {
+				}
+				b_hevese = {
+				}
+				b_gynever = {
+				}
+			}
+			c_yn_edryl_koiran = { # 2378
+				color={ 86 87 86 }
+				color2={ 255 255 255 }
+				
+				b_yn_edryl_koiran = {
+				}
+				b_tal_julain = {
+				}
+				b_tal_kurvast = {
+				}
+				b_josidiah = {
+				}
+				b_cunesse = {
+				}
+				b_tirion = {
+				}
+				b_tal_varinar = {
+				}
+			}
+		}
+	}
+	k_torgovann = {
+		color={ 98 210 114 }
+		color2={ 255 255 255 }
+		
+		capital = 2412 #Ystin Vaul
+		
+		d_torgovann = {
+			color={ 118 190 124 }
+			color2={ 255 255 255 }
+			
+			capital = 2412 #Ystin Vaul
+			
+			c_cromlech_cadai = { # 2409
+				color={ 128 180 129 }
+				color2={ 255 255 255 }
+				
+				b_cromlech_cadai = {
+				}
+				b_flolot = {
+				}
+				b_nimue = {
+				}
+				b_tal_evaroth = {
+				}
+				b_tal_elora = {
+				}
+				b_mamor = {
+				}
+				b_tal_falenas = {
+				}
+			}
+			c_callach_mor = { # 2413
+				color={ 86 192 131 }
+				color2={ 255 255 255 }
+				
+				b_callach_mor = {
+				}
+				b_tal_lenanne = {
+				}
+				b_vulred = {
+				}
+				b_ilyana = {
+				}
+				b_tal_nythanthas = {
+				}
+				b_tal_vandam = {
+				}
+				b_eloimaya_2 = {
+				}
+			}
+			c_durthu = { # 2414
+				color={ 128 195 4 }
+				color2={ 255 255 255 }
+				
+				b_durthu = {
+				}
+				b_sylon = {
+				}
+				b_luebos = {
+				}
+				b_tal_poruun = {
+				}
+				b_mylran = {
+				}
+				b_entael = {
+				}
+				b_stynneth = {
+				}
+			}
+			c_myrga = { # 2410
+				color={ 170 183 2 }
+				color2={ 255 255 255 }
+				
+				b_myrga = {
+				}
+				b_gwelgoth = {
+				}
+				b_sturn = {
+				}
+				b_leojym = {
+				}
+				b_tal_hylat = {
+				}
+				b_anoran = {
+				}
+				b_malruthiia = {
+				}
+			}
+			c_tal_dovar = { # 2411
+				color={ 2 186 130 }
+				color2={ 255 255 255 }
+				
+				b_tal_dovar = {
+				}
+				b_athel_lorelei = {
+				}
+				b_gyth = {
+				}
+				b_kellam = {
+				}
+				b_afransar = {
+				}
+				b_ninesse = {
+				}
+				b_tal_nyathria = {
+				}
+			}
+			c_ystin_vaul = { # 2412
+				color={ 44 189 3 }
+				color2={ 255 255 255 }
+				
+				b_ystin_vaul = {
+				}
+				b_tal_korvaine = {
+				}
+				b_nhamashal = {
+				}
+				b_tal_arlayna = {
+				}
+				b_thyren = {
+				}
+				b_lyeecia = {
+				}
+				b_merlara = {
+				}
+			}
+		}
+	}
+	k_wydrioth = {
+		color={ 116 27 96 }
+		color2={ 255 255 255 }
+		
+		capital = 2370 #Findol
+		
+		d_wydrioth = {
+			color={ 96 47 86 }
+			color2={ 255 255 255 }
+			
+			capital = 2370 #Findol
+			
+			c_tal_varigan = { # 2366
+				color={ 86 57 81 }
+				color2={ 255 255 255 }
+				
+				b_tal_varigan = {
+				}
+				b_astoflour = {
+				}
+				b_ashtone = {
+				}
+				b_antiga = {
+				}
+				b_cuned = {
+				}
+				b_rathal = {
+				}
+				b_ommaen = {
+				}
+			}
+			c_cader_donam = { # 2367
+				color={ 128 60 209 }
+				color2={ 255 255 255 }
+				
+				b_cader_donam = {
+				}
+				b_tal_celthalas = {
+				}
+				b_ashen = {
+				}
+				b_ulstar = {
+				}
+				b_yvess = {
+				}
+				b_korhal = {
+				}
+				b_araenatheas = {
+				}
+			}
+			c_eomain_tarn = { # 2368
+				color={ 170 63 82 }
+				color2={ 255 255 255 }
+				
+				b_eomain_tarn = {
+				}
+				b_tal_bohem = {
+				}
+				b_tal_eathkadi = {
+				}
+				b_gueneve = {
+				}
+				b_evadeam = {
+				}
+				b_tal_faesten = {
+				}
+				b_celtrin_ser = {
+				}
+			}
+			c_findol = { # 2370
+				color={ 44 69 83 }
+				color2={ 255 255 255 }
+				
+				b_findol = {
+				}
+				b_kandoth = {
+				}
+				b_blailydd = {
+				}
+				b_cywain = {
+				}
+				b_fymaet = {
+				}
+				b_taranath = {
+				}
+				b_tal_jonik = {
+				}
+			}
+			c_sceolath_mar = { # 2371
+				color={ 128 210 134 }
+				color2={ 255 255 255 }
+				
+				b_sceolath_mar = {
+				}
+				b_jandar = {
+				}
+				b_athel_broelvar = {
+				}
+				b_athel_fae = {
+				}
+				b_blaen_mar = {
+				}
+				b_esylda = {
+				}
+				b_hamane_mara = {
+				}
+			}
+			c_sylamel = { # 2372
+				color={ 170 0 7 }
+				color2={ 255 255 255 }
+				
+				b_sylamel = {
+				}
+				b_injros_mar = {
+				}
+				b_athel_almar = {
+				}
+				b_avaerisoth = {
+				}
+				b_fentalos = {
+				}
+				b_tal_llalyn = {
+				}
+				b_arthion = {
+				}
+			}
+			c_tal_jul_finel = { # 2369
+				color={ 2 66 210 }
+				color2={ 255 255 255 }
+				
+				b_tal_jul_finel = {
+				}
+				b_aathenor = {
+				}
+				b_celine = {
+				}
+				b_tal_briaene = {
+				}
+				b_selrenuth = {
+				}
+				b_dinadure = {
+				}
+				b_athel_korvoss = {
+				}
+			}
+		}
+	}
+}

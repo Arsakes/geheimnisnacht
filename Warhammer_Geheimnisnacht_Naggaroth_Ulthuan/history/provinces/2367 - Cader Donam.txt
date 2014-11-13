@@ -1,0 +1,19 @@
+# c_cader_donam
+
+# County Title
+title = c_cader_donam
+
+# Settlements
+max_settlements = 5
+
+b_cader_donam = castle
+b_tal_celthalas = city
+b_ashen = temple
+#b_ulstar = castle
+#b_yvess = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

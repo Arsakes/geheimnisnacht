@@ -1442,7 +1442,7 @@ PROV1440;Typhor;;;;;;;;;;;;;x
 PROV1441;Afaduum;;;;;;;;;;;;;x
 PROV1442;Erux;;;;;;;;;;;;;x
 PROV1443;Kyssos;;;;;;;;;;;;;x
-PROV1444;Vaul's Other Anvil;;;;;;;;;;;;;x
+PROV1444;Vaul Khar;;;;;;;;;;;;;x
 PROV1445;Hotek's Column;;;;;;;;;;;;;x
 PROV1446;Clar Karond;;;;;;;;;;;;;x
 PROV1447;Xerond;;;;;;;;;;;;;x
@@ -2351,11 +2351,65 @@ PROV2349;;;;;;;;;;;;;;x
 PROV2350;Realm of Chaos;;;;;;;;;;;;;x
 PROV2351;;;;;;;;;;;;;;x
 PROV2352;;;;;;;;;;;;;;x
-PROV2353;;;;;;;;;;;;;;x
-PROV2354;;;;;;;;;;;;;;x
-PROV2355;;;;;;;;;;;;;;x
-PROV2356;;;;;;;;;;;;;;x
-PROV2357;;;;;;;;;;;;;;x
-PROV2358;;;;;;;;;;;;;;x
-PROV2359;;;;;;;;;;;;;;x
-PROV2360;;;;;;;;;;;;;;x
+PROV2353;Tal Driacha;Tal Driacha;Tal Driacha;;;;;;;;;x
+PROV2354;Delliandra;Delliandra;Delliandra;;;;;;;;;x
+PROV2355;Tirsyth;Tirsyth;Tirsyth;;;;;;;;;x
+PROV2356;Tal Silvoch;Tal Silvoch;Tal Silvoch;;;;;;;;;x
+PROV2357;Alarin;Alarin;Alarin;;;;;;;;;x
+PROV2358;Beithir Seun;Beithir Seun;Beithir Seun;;;;;;;;;x
+PROV2359;Ystin Lileath;Ystin Lileath;Ystin Lileath;;;;;;;;;x
+PROV2360;Tal Esth;Tal Esth;Tal Esth;;;;;;;;;x
+PROV2361;Sumnos;Sumnos;Sumnos;;;;;;;;;x
+PROV2362;Naiados;Naiados;Naiados;;;;;;;;;x
+PROV2363;Locrimere;Locrimere;Locrimere;;;;;;;;;x
+PROV2364;Tal Fyr Eternos;Tal Fyr Eternos;Tal Fyr Eternos;;;;;;;;;x
+PROV2365;Tal Enda Varian;Tal Enda Varian;Tal Enda Varian;;;;;;;;;x
+PROV2366;Tal Varigan;Tal Varigan;Tal Varigan;;;;;;;;;x
+PROV2367;Cader Donam;Cader Donam;Cader Donam;;;;;;;;;x
+PROV2368;Eomain Tarn;Eomain Tarn;Eomain Tarn;;;;;;;;;x
+PROV2369;Tal Jul-finel;Tal Jul-finel;Tal Jul-finel;;;;;;;;;x
+PROV2370;Findol;Findol;Findol;;;;;;;;;x
+PROV2371;Sceolath-mar;Sceolath-mar;Sceolath-mar;;;;;;;;;x
+PROV2372;Sylamel;Sylamel;Sylamel;;;;;;;;;x
+PROV2373;Cullodinen;Cullodinen;Cullodinen;;;;;;;;;x
+PROV2374;Tyr Vanna;Tyr Vanna;Tyr Vanna;;;;;;;;;x
+PROV2375;Tyr Edrell;Tyr Edrell;Tyr Edrell;;;;;;;;;x
+PROV2376;Druthandor;Druthandor;Druthandor;;;;;;;;;x
+PROV2377;Tal Cullon;Tal Cullon;Tal Cullon;;;;;;;;;x
+PROV2378;Yn Edryl Koiran;Yn Edryl Koiran;Yn Edryl Koiran;;;;;;;;;x
+PROV2379;Drûne Fell;Drûne Fell;Drûne Fell;;;;;;;;;x
+PROV2380;Tal Eth Ayr;Tal Eth Ayr;Tal Eth Ayr;;;;;;;;;x
+PROV2381;Cerura Carn;Cerura Carn;Cerura Carn;;;;;;;;;x
+PROV2382;Yn Edri Eternos;Yn Edri Eternos;Yn Edri Eternos;;;;;;;;;x
+PROV2383;Tal Merion;Tal Merion;Tal Merion;;;;;;;;;x
+PROV2384;Tal Govorn;Tal Govorn;Tal Govorn;;;;;;;;;x
+PROV2385;Tal Drost;Tal Drost;Tal Drost;;;;;;;;;x
+PROV2386;Tal Amere;Tal Amere;Tal Amere;;;;;;;;;x
+PROV2387;Coeth-mara;Coeth-mara;Coeth-mara;;;;;;;;;x
+PROV2388;Tal Mora;Tal Mora;Tal Mora;;;;;;;;;x
+PROV2389;Inverin;Inverin;Inverin;;;;;;;;;x
+PROV2390;Tal Amara;Tal Amara;Tal Amara;;;;;;;;;x
+PROV2391;Equos;Equos;Equos;;;;;;;;;x
+PROV2392;Yn Cavaroc;Yn Cavaroc;Yn Cavaroc;;;;;;;;;x
+PROV2393;Cromarc;Cromarc;Cromarc;;;;;;;;;x
+PROV2394;Tal Stornos;Tal Stornos;Tal Stornos;;;;;;;;;x
+PROV2395;Talrennic;Talrennic;Talrennic;;;;;;;;;x
+PROV2396;Ystin Drakira;Ystin Drakira;Ystin Drakira;;;;;;;;;x
+PROV2397;Edryl Modr;Edryl Modr;Edryl Modr;;;;;;;;;x
+PROV2398;Threllock;Threllock;Threllock;;;;;;;;;x
+PROV2399;Ystin Eldrazor;Ystin Eldrazor;Ystin Eldrazor;;;;;;;;;x
+PROV2400;Festalym;Festalym;Festalym;;;;;;;;;x
+PROV2401;Tal Rond;Tal Rond;Tal Rond;;;;;;;;;x
+PROV2402;Addaivoch;Addaivoch;Addaivoch;;;;;;;;;x
+PROV2403;Tal Valerin;Tal Valerin;Tal Valerin;;;;;;;;;x
+PROV2404;Tal Hakan;Tal Hakan;Tal Hakan;;;;;;;;;x
+PROV2405;Anaereth;Anaereth;Anaereth;;;;;;;;;x
+PROV2406;Tal Brianda;Tal Brianda;Tal Brianda;;;;;;;;;x
+PROV2407;Ystin Morai-Heg;Ystin Morai-Heg;Ystin Morai-Heg;;;;;;;;;x
+PROV2408;Ithorien;Ithorien;Ithorien;;;;;;;;;x
+PROV2409;Cromlech Cadai;Cromlech Cadai;Cromlech Cadai;;;;;;;;;x
+PROV2410;Myrga;Myrga;Myrga;;;;;;;;;x
+PROV2411;Tal Dovar;Tal Dovar;Tal Dovar;;;;;;;;;x
+PROV2412;Ystin Vaul;Ystin Vaul;Ystin Vaul;;;;;;;;;x
+PROV2413;Callach-mor;Callach-mor;Callach-mor;;;;;;;;;x
+PROV2414;Durthu;Durthu;Durthu;;;;;;;;;x

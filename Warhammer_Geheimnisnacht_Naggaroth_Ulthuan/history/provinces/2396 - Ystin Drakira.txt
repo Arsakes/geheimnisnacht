@@ -1,0 +1,19 @@
+# c_ystin_drakira
+
+# County Title
+title = c_ystin_drakira
+
+# Settlements
+max_settlements = 5
+
+b_ystin_drakira = castle
+b_phaerl = city
+b_kasdarne = temple
+#b_athel_tasteryn = castle
+#b_tal_doma = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

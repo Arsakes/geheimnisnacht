@@ -1,0 +1,19 @@
+# c_tyr_edrell
+
+# County Title
+title = c_tyr_edrell
+
+# Settlements
+max_settlements = 5
+
+b_tyr_edrell = castle
+b_farryn = city
+b_aelrue = temple
+#b_tal_elnael = castle
+#b_laan = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

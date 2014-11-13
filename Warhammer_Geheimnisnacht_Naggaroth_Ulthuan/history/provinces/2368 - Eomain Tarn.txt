@@ -1,0 +1,19 @@
+# c_eomain_tarn
+
+# County Title
+title = c_eomain_tarn
+
+# Settlements
+max_settlements = 5
+
+b_eomain_tarn = castle
+b_tal_bohem = city
+b_tal_eathkadi = temple
+#b_gueneve = castle
+#b_evadeam = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

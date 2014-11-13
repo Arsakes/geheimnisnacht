@@ -1,0 +1,19 @@
+# c_tyr_vanna
+
+# County Title
+title = c_tyr_vanna
+
+# Settlements
+max_settlements = 5
+
+b_tyr_vanna = castle
+b_kadygrenant = city
+b_bedin = temple
+#b_sharia = castle
+#b_tal_kharis = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

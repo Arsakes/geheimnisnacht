@@ -1,0 +1,19 @@
+# c_tal_hakan
+
+# County Title
+title = c_tal_hakan
+
+# Settlements
+max_settlements = 5
+
+b_tal_hakan = castle
+b_cudwyr = city
+b_yalanilue = temple
+#b_tarnok = castle
+#b_amra = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

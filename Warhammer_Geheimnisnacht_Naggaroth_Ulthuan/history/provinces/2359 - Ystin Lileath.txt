@@ -1,0 +1,19 @@
+# c_ystin_lileath
+
+# County Title
+title = c_ystin_lileath
+
+# Settlements
+max_settlements = 5
+
+b_ystin_lileath = castle
+b_lafarallin = city
+b_tal_celdines = temple
+#b_imperas = castle
+#b_aeson = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

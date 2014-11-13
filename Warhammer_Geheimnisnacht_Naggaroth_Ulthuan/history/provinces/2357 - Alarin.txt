@@ -1,0 +1,19 @@
+# c_alarin
+
+# County Title
+title = c_alarin
+
+# Settlements
+max_settlements = 5
+
+b_alarin = castle
+b_syla_ennar = city
+b_thalas = temple
+#b_imparoth = castle
+#b_gaeloch = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

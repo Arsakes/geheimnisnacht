@@ -1,0 +1,19 @@
+# c_tal_driacha
+
+# County Title
+title = c_tal_driacha
+
+# Settlements
+max_settlements = 5
+
+b_tal_driacha = castle
+b_tal_maevyn = city
+b_sorsasta = temple
+#b_athel_eternos = castle
+#b_hesen = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

@@ -1,0 +1,19 @@
+# c_myrga
+
+# County Title
+title = c_myrga
+
+# Settlements
+max_settlements = 5
+
+b_myrga = castle
+b_gwelgoth = city
+b_sturn = temple
+#b_leojym = castle
+#b_tal_hylat = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

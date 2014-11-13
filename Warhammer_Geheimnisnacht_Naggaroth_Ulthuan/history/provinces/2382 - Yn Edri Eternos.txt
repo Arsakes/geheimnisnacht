@@ -1,0 +1,19 @@
+# c_yn_edri_eternos
+
+# County Title
+title = c_yn_edri_eternos
+
+# Settlements
+max_settlements = 5
+
+b_yn_edri_eternos = castle
+b_biafyndar = city
+b_llamryl = temple
+#b_sataleeti = castle
+#b_sannoth = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History

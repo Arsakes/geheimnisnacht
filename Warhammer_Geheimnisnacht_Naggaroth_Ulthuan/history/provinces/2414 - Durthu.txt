@@ -1,0 +1,19 @@
+# c_durthu
+
+# County Title
+title = c_durthu
+
+# Settlements
+max_settlements = 5
+
+b_durthu = castle
+b_sylon = city
+b_luebos = temple
+#b_tal_poruun = castle
+#b_mylran = city
+
+# Misc
+culture = loren
+religion = cadai
+
+#History
