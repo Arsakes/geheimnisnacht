@@ -31,6 +31,10 @@
 	holder = 650000 #Karl II
 }
 
+2000.10.5 = {
+	holder = 600000
+}
+
 2304.12.5 = {
 	liege="e_the_empire"
 }

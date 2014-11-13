@@ -1,0 +1,8 @@
+carstein_ring = {
+	cached = yes
+	random = no
+	command_modifier = {
+		morale_defence = 0.3
+		morale_offence = 0.3
+	}
+}

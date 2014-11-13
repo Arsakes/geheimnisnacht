@@ -420,5 +420,32 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-
+        ##########################################################################
+        #
+	# BR ADDED STUFF
+        #
+        ##########################################################################
+	spriteType = {
+		name = "GFX_trait_carstein_ring"
+		texturefile = "gfx/traits/carstein_ring.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_witch_hunter"
+		texturefile = "gfx/traits/witch_hunter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_on_witch_hunt"
+		texturefile = "gfx/traits/on_witch_hunt.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
 }

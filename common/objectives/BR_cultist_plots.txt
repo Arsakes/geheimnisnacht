@@ -7,12 +7,21 @@ plot_convert_nurgle = {
 		age = 16
 		is_ruler = yes
 		primary_title = { higher_tier_than = COUNT }
+		OR = {
+		has_character_flag = hidden_cultist_nurgle
+		has_character_flag = hidden_cultist_nurgle2
+		has_character_flag = hidden_cultist_nurgle3
+    }
 	}
 	
     player_allow = {
         is_within_diplo_range = FROM
+		OR = {
 		FROM = { has_character_flag = hidden_cultist_nurgle }
+		FROM = { has_character_flag = hidden_cultist_nurgle2 }
+		FROM = { has_character_flag = hidden_cultist_nurgle3 }
     }
+	}
 	
 allow = {
 		age = 14
@@ -71,12 +80,21 @@ plot_convert_slaanesh = {
 		age = 16
 		is_ruler = yes
 		primary_title = { higher_tier_than = COUNT }
+		OR = {
+		has_character_flag = hidden_cultist_slaanesh
+		has_character_flag = hidden_cultist_slaanesh2
+		has_character_flag = hidden_cultist_slaanesh3
+    }
 	}
 	
     player_allow = {
         is_within_diplo_range = FROM
+		OR = {
 		FROM = { has_character_flag = hidden_cultist_slaanesh }
+		FROM = { has_character_flag = hidden_cultist_slaanesh2 }
+		FROM = { has_character_flag = hidden_cultist_slaanesh3 }
     }
+	}
 	
 allow = {
 		age = 14
@@ -135,12 +153,21 @@ plot_convert_tzeentch = {
 		age = 16
 		is_ruler = yes
 		primary_title = { higher_tier_than = COUNT }
+		OR = {
+		has_character_flag = plot_convert_tzeentch 
+		has_character_flag = plot_convert_tzeentch2 
+		has_character_flag = plot_convert_tzeentch3
+    }
 	}
 	
     player_allow = {
         is_within_diplo_range = FROM
+		OR = {
 		FROM = { has_character_flag = plot_convert_tzeentch }
+		FROM = { has_character_flag = plot_convert_tzeentch2 }
+		FROM = { has_character_flag = plot_convert_tzeentch3 }
     }
+	}
 	
 allow = {
 		age = 14
@@ -151,7 +178,7 @@ allow = {
 		NOT = { has_character_flag = hidden_cultist_slaanesh }
 		NOT = { has_character_flag = hidden_cultist_tzeentch }
 		NOT = { has_character_flag = hidden_cultist_khorne }
-		FROM = { has_character_flag = plot_convert_tzeentch }
+		FROM = { has_character_flag = hidden_cultist_tzeentch }
 	}
 	
 chance = {
@@ -195,11 +222,90 @@ plot_convert_khorne = {
 		age = 16
 		is_ruler = yes
 		primary_title = { higher_tier_than = COUNT }
+		OR = {
+		has_character_flag = hidden_cultist_khorne
+		has_character_flag = hidden_cultist_khorne2
+		as_character_flag = hidden_cultist_khorne3
+    }
 	}
 	
     player_allow = {
         is_within_diplo_range = FROM
+		OR = {
 		FROM = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_khorne2 }
+		FROM = { has_character_flag = hidden_cultist_khorne3 }
+    }
+	}
+	
+allow = {
+		age = 14
+		prisoner = no
+		#To reduce list of potential candidates
+		NOT = { tier = EMPEROR } #In theory too well guarded :p	
+		NOT = { has_character_flag = hidden_cultist_nurgle}
+		NOT = { has_character_flag = hidden_cultist_slaanesh }
+		NOT = { has_character_flag = hidden_cultist_tzeentch }
+		NOT = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_khorne }
+	}
+	
+chance = {
+		factor = 25
+		}
+		
+	success = {
+		has_character_flag = plot_convert_khorne
+	}
+	
+	abort = {
+		OR = {
+			is_alive = no
+			FROM = { trait = incapable }
+			FROM = { prisoner = yes }
+		}
+	}
+	abort_effect = {
+	}
+	
+effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+		}
+		}
+		
+		}
+		
+##Nurgle Generic Plot##
+plot_province_disease = {
+	type = realm_characters_plus
+	intrigue_plot = yes
+	
+	potential = {
+		prisoner = no
+		age = 16
+		is_ruler = yes
+		OR = {
+		has_character_flag = hidden_cultist_nurgle
+		has_character_flag = hidden_cultist_nurgle2 
+		has_character_flag = hidden_cultist_nurgle3
+		}
+	}
+	
+    player_allow = {
+        is_within_diplo_range = FROM
+		is_landed = yes
+		OR = {
+		FROM = { has_character_flag = hidden_cultist_nurgle }
+		FROM = { has_character_flag = hidden_cultist_nurgle2 }
+		FROM = { has_character_flag = hidden_cultist_nurgle3 }
+		}
     }
 	
 allow = {
@@ -211,7 +317,7 @@ allow = {
 		NOT = { has_character_flag = hidden_cultist_slaanesh }
 		NOT = { has_character_flag = hidden_cultist_tzeentch }
 		NOT = { has_character_flag = hidden_cultist_khorne }
-		FROM = { has_character_flag = plot_convert_tzeentch }
+		FROM = { has_character_flag = hidden_cultist_nurgle }
 	}
 	
 chance = {
@@ -219,7 +325,217 @@ chance = {
 		}
 		
 	success = {
-		has_character_flag = plot_convert_khorne
+		plot_target_char = { location = { has_province_modifier = nurgle_province_disease } }
+	}
+	
+	abort = {
+		OR = {
+			is_alive = no
+			FROM = { trait = incapable }
+			FROM = { prisoner = yes }
+		}
+	}
+	abort_effect = {
+	}
+	
+effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+		}
+		}
+		
+		}
+		
+##khorne Generic Plot##
+plot_beastmen_unrest = {
+	type = realm_characters_plus
+	intrigue_plot = yes
+	
+	potential = {
+		prisoner = no
+		age = 16
+		is_ruler = yes
+		OR = {
+		has_character_flag = hidden_cultist_khorne
+		has_character_flag = hidden_cultist_khorne2 
+		has_character_flag = hidden_cultist_khorne3
+		}
+	}
+	
+    player_allow = {
+        is_within_diplo_range = FROM
+		is_landed = yes
+		OR = {
+		FROM = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_khorne2 }
+		FROM = { has_character_flag = hidden_cultist_khorne3 }
+		}
+    }
+	
+allow = {
+		age = 14
+		prisoner = no
+		#To reduce list of potential candidates
+		NOT = { tier = EMPEROR } #In theory too well guarded :p	
+		NOT = { has_character_flag = hidden_cultist_nurgle}
+		NOT = { has_character_flag = hidden_cultist_slaanesh }
+		NOT = { has_character_flag = hidden_cultist_tzeentch }
+		NOT = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_khorne }
+	}
+	
+chance = {
+		factor = 25
+		}
+		
+	success = {
+		plot_target_char = { location = { has_province_modifier = beastmen_unrest } }
+	}
+	
+	abort = {
+		OR = {
+			is_alive = no
+			FROM = { trait = incapable }
+			FROM = { prisoner = yes }
+		}
+	}
+	abort_effect = {
+	}
+	
+effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+		}
+		}
+		
+		}
+		
+##tzeentch Generic Plot##
+plot_warpdust = {
+	type = realm_characters_plus
+	intrigue_plot = yes
+	
+	potential = {
+		prisoner = no
+		age = 16
+		is_ruler = yes
+		OR = {
+		has_character_flag = hidden_cultist_tzeentch
+		has_character_flag = hidden_cultist_tzeentch2 
+		has_character_flag = hidden_cultist_tzeentch3
+		}
+	}
+	
+    player_allow = {
+        is_within_diplo_range = FROM
+		is_landed = yes
+		OR = {
+		FROM = { has_character_flag = hidden_cultist_tzeentch }
+		FROM = { has_character_flag = hidden_cultist_tzeentch2 }
+		FROM = { has_character_flag = hidden_cultist_tzeentch3 }
+		}
+    }
+	
+allow = {
+		age = 14
+		prisoner = no
+		#To reduce list of potential candidates
+		NOT = { tier = EMPEROR } #In theory too well guarded :p	
+		NOT = { has_character_flag = hidden_cultist_nurgle}
+		NOT = { has_character_flag = hidden_cultist_slaanesh }
+		NOT = { has_character_flag = hidden_cultist_tzeentch }
+		NOT = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_tzeentch }
+	}
+	
+chance = {
+		factor = 25
+		}
+		
+	success = {
+		plot_target_char = { location = { has_province_modifier = warpdust } }
+	}
+	
+	abort = {
+		OR = {
+			is_alive = no
+			FROM = { trait = incapable }
+			FROM = { prisoner = yes }
+		}
+	}
+	abort_effect = {
+	}
+	
+effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+		}
+		}
+		
+		}
+		
+##slaanesh Generic Plot##
+plot_hedonism = {
+	type = realm_characters_plus
+	intrigue_plot = yes
+	
+	potential = {
+		prisoner = no
+		age = 16
+		is_ruler = yes
+		OR = {
+		has_character_flag = hidden_cultist_slaanesh
+		has_character_flag = hidden_cultist_slaanesh2 
+		has_character_flag = hidden_cultist_slaanesh3
+		}
+	}
+	
+    player_allow = {
+        is_within_diplo_range = FROM
+		is_landed = yes
+		OR = {
+		FROM = { has_character_flag = hidden_cultist_slaanesh }
+		FROM = { has_character_flag = hidden_cultist_slaanesh2 }
+		FROM = { has_character_flag = hidden_cultist_slaanesh3 }
+		}
+    }
+	
+allow = {
+		age = 14
+		prisoner = no
+		#To reduce list of potential candidates
+		NOT = { tier = EMPEROR } #In theory too well guarded :p	
+		NOT = { has_character_flag = hidden_cultist_nurgle}
+		NOT = { has_character_flag = hidden_cultist_slaanesh }
+		NOT = { has_character_flag = hidden_cultist_tzeentch }
+		NOT = { has_character_flag = hidden_cultist_khorne }
+		FROM = { has_character_flag = hidden_cultist_slaanesh }
+	}
+	
+chance = {
+		factor = 25
+		}
+		
+	success = {
+		plot_target_char = { location = { has_province_modifier = slaanesh_hedonism } }
 	}
 	
 	abort = {

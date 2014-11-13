@@ -1,0 +1,140 @@
+namespace = suspicion
+
+#events to assign suspicion flags to characters, since the check variable doesn't seem to work as a trigger/condition##
+	character_event = {
+    id = suspicion.0
+    title = "Suspicion"
+    desc = "Word reaches you that the people are beginning to whisper - are you in league with the forces of chaos and heresy? People question your righteousness, and this is a dangerous position to be in."
+    picture = "GFX_evt_beheading"
+	
+	trigger = {
+	check_variable = { which = suspicion value = 5 }
+	age = 16
+	NOT = { has_character_flag = suspicion5 }
+	}
+	
+	mean_time_to_happen = {
+	days = 7
+	}
+	
+	option = {
+	name = "Damn. That's not good."
+	set_character_flag = suspicion5
+	}
+	
+	}
+	
+	character_event = {
+    id = suspicion.1
+    title = "Suspicion"
+    desc = "People no longer question your righteousness. Your recent actions seems to have quelled the suspicion surrounding you."
+    picture = "GFX_evt_beheading"
+	
+	trigger = {
+	NOT = { check_variable = { which = suspicion value = 5 } }
+	age = 16
+	has_character_flag = suspicion5
+	}
+	
+	mean_time_to_happen = {
+	days = 7
+	}
+	
+	option = {
+	name = "Good!"
+	clr_character_flag = suspicion5
+	}
+	
+	}
+	
+	character_event = {
+    id = suspicion.2
+    title = "Suspicion"
+    desc = "Word reaches you that the people are almost convinced that are you in league with the forces of chaos and heresy, People question your righteousness, and this is a very dangerous position to be in."
+    picture = "GFX_evt_beheading"
+	
+	trigger = {
+	check_variable = { which = suspicion value = 10 }
+	age = 16
+	NOT = { has_character_flag = suspicion10 }
+	}
+	
+	mean_time_to_happen = {
+	days = 7
+	}
+	
+	option = {
+	name = "Damn. That's not good."
+	set_character_flag = suspicion10
+	}
+	
+	}
+	
+	character_event = {
+    id = suspicion.3
+    title = "Suspicion"
+    desc = "People still question, but are no longer convinced that you are a cultist or a heretic. Your recent actions seems to have quelled the suspicion surrounding you."
+    picture = "GFX_evt_beheading"
+	
+	trigger = {
+	NOT = { check_variable = { which = suspicion value = 10 } }
+	age = 16
+	has_character_flag = suspicion10
+	}
+	
+	mean_time_to_happen = {
+	days = 7
+	}
+	
+	option = {
+	name = "Good!"
+	clr_character_flag = suspicion10
+	}
+	
+	}
+	
+	##characters of old world religion will have a hard time ruling their realm if they are suspected cultists (level 10 suspicion flag)##
+	character_event = {
+    id = suspicion.4
+    title = "Suspicion"
+    desc = "Even your own vassals now whisper against you and the stories of your alleged heretical inclinations grow larger with each telling. They have no proof, but you can see it in their eyes that they no longer trust you and even hate and fear you."
+    picture = "GFX_evt_beheading"
+	
+	trigger = {
+	age = 16
+	has_character_flag = suspicion10
+	}
+	
+	mean_time_to_happen = {
+	months = 48
+	}
+	
+	option = {
+	name = "Damnations."
+	any_vassal = {
+	limit = {
+	NOT = { 
+	has_character_flag = hidden_cultist_slaanesh
+	has_character_flag = hidden_cultist_slaanesh2 
+	has_character_flag = hidden_cultist_slaanesh3
+	has_character_flag = hidden_cultist_tzeentch
+	has_character_flag = hidden_cultist_tzeentch2 
+	has_character_flag = hidden_cultist_tzeentch3	
+	has_character_flag = hidden_cultist_khorne
+	has_character_flag = hidden_cultist_khorne2 
+	has_character_flag = hidden_cultist_khorne3
+	has_character_flag = hidden_cultist_nurgle
+	has_character_flag = hidden_cultist_nurgle2 
+	has_character_flag = hidden_cultist_nurgle3
+	}
+}
+		opinion = {
+			who = PREV
+			modifier = opinion_suspected_heretic
+			months = 240
+		}
+}
+}
+
+}
+	

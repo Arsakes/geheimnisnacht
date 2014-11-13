@@ -7,6 +7,8 @@
 # 5 - Archers
 # 6 - Special troops
 
+#IMPERIAL RETINUES#
+
 RETTYPE_CUL_IMP =
 {
 	first_type = 1
@@ -39,6 +41,8 @@ RETTYPE_CUL_IMP2 =
 		light_infantry_defensive = 0.2
 	}
 }
+
+#BRETONNIAN RETINUES#
 
 RETTYPE_CUL_BRET =
 {
@@ -73,6 +77,34 @@ RETTYPE_CUL_BRET2 =
 	}
 }
 
+"Knights of the Realm" = {
+    first_type = 4
+    first_amount = 100
+	potential = {
+		culture_group = bretonnian_group
+	}
+    modifier = {
+        knights_defensive = 0.4
+        knights_offensive = 0.4
+        knights_morale = 0.5    
+    }
+	}
+
+"Squires" = {
+    first_type = 3
+    first_amount = 250
+	potential = {
+		culture_group = bretonnian_group
+	}
+    modifier = {
+        light_cavalry_defensive = 0.4
+        light_cavalry__offensive = 0.2
+        light_cavalry__morale = 0.3  
+    }
+	}
+
+#KISLEV RETINUES#
+
 RETTYPE_CUL_KISLEV1 =
 {
 	first_type = 0
@@ -106,4 +138,52 @@ RETTYPE_CUL_KISLEV2 =
                 heavy_infantry_defensive = 0.2
                 pikemen_offensive = 0.2
 	}
+}
+
+#VAMPIRE RETINUES#
+
+"Vampire Knights" = {
+    first_type = 4
+    first_amount = 100
+	potential = {
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+	}
+    modifier = {
+        knights_defensive = 1.0
+        knights_offensive = 1.0
+        knights_morale = 0.5    
+    }
+}
+
+#ORC RETINUES#
+
+"Black Orcs" =
+{
+    first_type = 1
+    first_amount = 250
+	potential = {
+		culture = orc
+	}
+    modifier = {
+        heavy_infantry_defensive = 0.4
+        heavy_infantry_offensive = 0.4
+        heavy_infantry_morale = 0.5       
+    }
+}
+
+#DWARF RETINUES#
+
+"Dwarf Longbeards" =
+{
+    first_type = 1
+    first_amount = 250
+	potential = {
+		culture_group = dwarf_group
+	}
+    modifier = {
+        heavy_infantry_defensive = 0.4
+        heavy_infantry_offensive = 0.4
+        heavy_infantry_morale = 0.4     
+    }
 }

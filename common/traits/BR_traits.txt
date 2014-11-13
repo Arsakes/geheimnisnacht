@@ -1,0 +1,11 @@
+witch_hunter = {
+	random = no
+	cached = yes
+}
+
+on_witch_hunt = {
+	pilgrimage = yes
+	fertility = -0.3
+	monthly_character_prestige = 5.0
+	monthly_character_piety = 5.0
+}

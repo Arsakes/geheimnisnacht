@@ -1521,3 +1521,645 @@ id = cultistplot.30
 	}
 	
 	}
+	
+#########Now for the plots to damage a province#########
+
+character_event = {
+    id = cultistplot.31
+    desc = "With the help of various backers - both witting and unwitting - you are now in a position to spread disease in his or her home province. Nurgle will be pleased!"
+    picture = GFX_evt_nurgle
+    border = GFX_event_normal_frame_intrigue
+    
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+    has_plot = plot_province_disease
+	plot_target_char = {
+            prisoner = no
+            NOT = { trait = incapable }
+        }
+	plot_power_contribution = 
+        {
+            plotter = ROOT
+            power = 0.025
+        }
+        }
+		
+    mean_time_to_happen = {
+        months = 120
+        
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.10
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.20
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.30
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.40
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.50
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.60
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.70
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.80
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.90
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 1.5
+            }
+        }
+        
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_province_disease = {
+                plot_power = 1.0
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+			plot_province_disease = {
+                plot_power = 1.5
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_province_disease = {
+                plot_power = 2.0
+            }
+        }
+		}
+    }
+	
+	
+	 option = {
+        name = "Death and disease are so beautiful."
+        plot_target_char = { character_event = { id = cultistplot.32 days = 7 } }
+		change_variable = { which = nurglefavor value = 1 }
+		change_variable = { which = suspicion value = 1 } 
+    }
+	
+	}
+
+#target is informed#
+character_event = {
+    id = cultistplot.32
+    desc = "A vile nurgle cultist has started a plague of nurgle's rot in your province. It could be a courtier, or a distant noble - all you can do now is try to contain the outbreak and redouble your efforts to root out cultists in your midst!"
+    picture = GFX_evt_nurgle
+    border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Damnations..."
+	location = { 
+	add_province_modifier = { name = nurgle_province_disease duration = 1500 }  
+	}
+	}
+	
+	}
+	
+character_event = {
+    id = cultistplot.33
+    desc = "With the help of various backers - both witting and unwitting - you are now in a position to incite a tribe of beastmen to ravage this province. Khorne will be pleased!"
+    picture = GFX_evt_khorne
+    border = GFX_event_normal_frame_intrigue
+    
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+    has_plot = plot_beastmen_unrest
+	plot_target_char = {
+            prisoner = no
+            NOT = { trait = incapable }
+        }
+	plot_power_contribution = 
+        {
+            plotter = ROOT
+            power = 0.025
+        }
+        }
+		
+    mean_time_to_happen = {
+        months = 120
+        
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.10
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.20
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.30
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.40
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.50
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.60
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.70
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.80
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.90
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 1.5
+            }
+        }
+        
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_beastmen_unrest = {
+                plot_power = 1.0
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+			plot_beastmen_unrest = {
+                plot_power = 1.5
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_beastmen_unrest = {
+                plot_power = 2.0
+            }
+        }
+		}
+    }
+	
+	
+	 option = {
+        name = "Blood for the Blood God!"
+        plot_target_char = { character_event = { id = cultistplot.34 days = 7 } }
+		change_variable = { which = khornefavor value = 1 }
+		change_variable = { which = suspicion value = 1 } 
+    }
+	
+	}
+
+#target is informed#
+character_event = {
+    id = cultistplot.34
+    desc = "A tribe of beastmen is gathering on the outskirts of one of your provinces, raiding villages and burning homesteads. Your people are blaming you for the lack of protection against them."
+    picture = GFX_evt_khorne
+    border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Damnations..."
+	location = { 
+	add_province_modifier = { name = beastmen_unrest duration = 1500 }  
+	}
+	}
+	
+	}
+	
+character_event = {
+    id = cultistplot.35
+    desc = "With the help of various backers - both witting and unwitting - you are now in a position to poison this province with warpdust, which will lead to an increase of mutations. Tzeentch will be pleased!"
+    picture = GFX_evt_tzeentch
+    border = GFX_event_normal_frame_intrigue
+    
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+    has_plot = plot_warpdust
+	plot_target_char = {
+            prisoner = no
+            NOT = { trait = incapable }
+        }
+	plot_power_contribution = 
+        {
+            plotter = ROOT
+            power = 0.025
+        }
+        }
+		
+    mean_time_to_happen = {
+        months = 120
+        
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.10
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.20
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.30
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.40
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.50
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.60
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.70
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.80
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.90
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 1.5
+            }
+        }
+        
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_warpdust = {
+                plot_power = 1.0
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+			plot_warpdust = {
+                plot_power = 1.5
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_warpdust = {
+                plot_power = 2.0
+            }
+        }
+		}
+    }
+	
+	
+	 option = {
+        name = "Glory to the Lord of Change."
+        plot_target_char = { character_event = { id = cultistplot.36 days = 7 } }
+		change_variable = { which = tzeentchfavor value = 1 }
+		change_variable = { which = suspicion value = 1 } 
+    }
+	
+	}
+
+#target is informed#
+character_event = {
+    id = cultistplot.36
+    desc = "Traces of warpdust have been found in your province, and the people are terrified of a surge in mutations. The mutations may even reach your own court, until the warpdust has expended itself!"
+    picture = GFX_evt_tzeentch
+    border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Damnations..."
+	location = { 
+	add_province_modifier = { name = warpdust_traces duration = 1500 }  
+	}
+	}
+	
+	}
+	
+character_event = {
+    id = cultistplot.37
+    desc = "With the help of various backers - both witting and unwitting - you are now in a position to make sure that this province falls prey to temptations of both the mind, spirit, and body. Slaanesh will be pleased!"
+    picture = GFX_evt_slaanesh
+    border = GFX_event_normal_frame_intrigue
+    
+    capable_only = yes
+    prisoner = no
+    
+    trigger = {
+    has_plot = plot_hedonism
+	plot_target_char = {
+            prisoner = no
+            NOT = { trait = incapable }
+        }
+	plot_power_contribution = 
+        {
+            plotter = ROOT
+            power = 0.025
+        }
+        }
+		
+    mean_time_to_happen = {
+        months = 120
+        
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.10
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.20
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.30
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.40
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.50
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.60
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.70
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.80
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 0.90
+            }
+        }
+        modifier = {
+            factor = 0.7
+            plot_power_contribution = 
+            {
+                plotter = ROOT
+                power = 1.5
+            }
+        }
+        
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_hedonism = {
+                plot_power = 1.0
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+			plot_hedonism = {
+                plot_power = 1.5
+            }
+        }
+		}
+        modifier = {
+            factor = 0.33
+            any_backed_character = {
+            plot_hedonism = {
+                plot_power = 2.0
+            }
+        }
+		}
+    }
+	
+	
+	 option = {
+        name = "Glory to the Prince of Pleasure."
+        plot_target_char = { character_event = { id = cultistplot.38 days = 7 } }
+		change_variable = { which = slaaneshfavor value = 1 }
+		change_variable = { which = suspicion value = 1 } 
+    }
+	
+	}
+
+#target is informed#
+character_event = {
+    id = cultistplot.38
+    desc = "Your steward informs you that your province has been unruly and downright un-pious. The peasants seem to drink, whore,and gamble away all their income, and even some of the better bred citizens do the same."
+    picture = GFX_evt_slaanesh
+    border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "But... they'll still pay taxes, right?"
+	location = { 
+	add_province_modifier = { name = slaanesh_hedonism duration = 1500 }  
+	}
+	}
+	
+	}

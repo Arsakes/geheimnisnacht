@@ -1,0 +1,211 @@
+#HUMAN RANDOM FLAVOR EVENTS#
+
+namespace = humanflavor
+
+##A courtier wins a victory against enemies##
+character_event = {
+	id = humanflavor.0
+	title = "A courtier wins a victory"
+	desc = "While on a border patrol, a courtier won a great victory against when cornered by a dozen enemies. He slew half of them, and the rest fled. The court is hailing him as a great warrior!"
+	picture = "GFX_evt_crusaders"
+	age = 16
+	
+	
+	trigger = {
+		religion_group = old_world_group
+		is_ruler = yes
+		any_courtier = {
+		AND = {
+		martial = 12
+		trait = brave
+		is_female = no
+		age = 16
+		}
+		  }
+		  }
+	
+		mean_time_to_happen = {
+		years = 20
+		}
+		
+		option = {
+		name = "We shall honor him!"
+		random_courtier = {
+		limit = {
+		AND = {
+		martial = 12
+		trait = brave
+		is_female = no
+		age = 16
+		}
+		}
+		prestige = 50
+		  }
+		  }
+		 
+		option = {
+		name = "I could have done just as well."
+		trigger = {
+		trait = proud
+		trait = cruel
+		trait = brave
+		martial = 12
+		age = 16
+		}
+		random_courtier = {
+		limit = {
+		AND = {
+		martial = 12
+		trait = brave
+		is_female = no
+		age = 16
+		}
+		}
+		prestige = 5
+		  }
+		  }
+		
+		  }
+		  
+##A courtier flees from enemies##
+character_event = {
+	id = humanflavor.1
+	title = "A courtier disgraces himself"
+	desc = "While on a border patrol, a courtier was ambushed, but fled and left his men to die! His name is in disgrace."
+	picture = "GFX_evt_crusaders"
+	age = 16
+	
+	
+	trigger = {
+		is_ruler = yes
+		religion_group = old_world_group
+		any_courtier = {
+		OR = {
+		trait = craven
+		trait = misguided_warrior
+		trait = drunkard
+		trait = weak
+		is_female = no
+		age = 16
+		}
+		  }
+		  }
+	
+		mean_time_to_happen = {
+		years = 35
+		}
+		
+		option = {
+		name = "That was ill-done."
+		random_courtier = {
+		limit = {
+		OR = {
+		trait = craven
+		trait = misguided_warrior
+		trait = drunkard
+		trait = weak
+		is_female = no
+		age = 16
+		}
+		}
+		prestige = -100
+		piety = -100
+		  }
+		  }
+		 
+		option = {
+		name = "Imprison him for cowardice!"
+		random_courtier = {
+		limit = {
+		OR = {
+		trait = craven
+		trait = misguided_warrior
+		trait = drunkard
+		trait = weak
+		is_female = no
+		age = 16
+		}
+		}
+		imprison = yes
+		piety = -100
+		prestige = -100
+		  }
+		  }
+		
+		option = {
+		name = "Banish him for cowardice!"
+		random_courtier = {
+		limit = {
+		OR = {
+		trait = craven
+		trait = misguided_warrior
+		trait = drunkard
+		trait = weak
+		is_female = no
+		age = 16
+		}
+		}
+		banish = yes
+		piety = -100
+		prestige = -100
+		  }
+		  }
+		  }
+
+##A cabal troubles a province##
+character_event = {
+	id = humanflavor.3
+	title = "Cabal"
+	desc = "A shadowy group of cultists seems to have formed in one of your cities, performing dark rituals and even summoning demons if the rumors are true! Your people beg you to root them out, but what can men do against such dark magic?"
+	picture = "GFX_evt_shadowy_cabal"
+	age = 16
+	
+	
+	trigger = {
+		religion_group = old_world_group
+		is_ruler = yes
+		  }
+	
+		mean_time_to_happen = {
+		years = 50
+		}
+		
+		option = {
+		name = "We must send for a Witch Hunter."
+		location = { 
+		add_province_modifier = { name = warpdust_traces duration = 1500 }  
+		}
+		random_realm_character = {
+		limit = {
+		religion = ROOT
+		trait = witch_hunter
+		NOT = { trait = on_witch_hunt }
+		}
+		character_event = { id = witchhunter.2 }
+		}	
+	}
+	
+	option = { 
+	name = "No, Witch hunters cause too much trouble."
+	trigger = {
+	OR = {
+	ai = no 
+	has_character_flag = hidden_cultist_slaanesh
+	has_character_flag = hidden_cultist_slaanesh2 
+	has_character_flag = hidden_cultist_slaanesh3
+	has_character_flag = hidden_cultist_tzeentch
+	has_character_flag = hidden_cultist_tzeentch2 
+	has_character_flag = hidden_cultist_tzeentch3	
+	has_character_flag = hidden_cultist_khorne
+	has_character_flag = hidden_cultist_khorne2 
+	has_character_flag = hidden_cultist_khorne3
+	has_character_flag = hidden_cultist_nurgle
+	has_character_flag = hidden_cultist_nurgle2 
+	has_character_flag = hidden_cultist_nurgle3
+	}
+	}
+	change_variable = { which = suspicion value = 0.5 } 
+	}
+	
+	}
+	

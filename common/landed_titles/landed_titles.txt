@@ -23662,6 +23662,25 @@ e_nehekhara = {
 
 ######Titular Realms
 
+e_sylvania = {
+	color = { 100 40 130 }
+	color2 = { 255 255 255 }
+		
+	capital = 386 #Drakenhof
+		
+	title = "EMPEROR"
+	title_female = "EMPRESS"	
+		
+	short_name = yes
+		
+	allow = {
+		has_landed_title = k_sylvania
+		has_trait = carstein_ring
+	}
+}
+
+
+
 ### Chaos Wastes
 
 ###Norsca

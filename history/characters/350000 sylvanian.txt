@@ -21,6 +21,12 @@ add_trait="vampire_carstein_visible"
 1771.11.4={birth=yes}
 1771.11.4={effect={culture=sylvanian}}
 1797.5.10={add_spouse=350026}
+2010.7.1={
+effect = { 
+set_character_flag = vlad_von_carstein
+character_event = { id = carstein.0 }
+ }
+}
 2051.3.22={death=yes}
 }
 

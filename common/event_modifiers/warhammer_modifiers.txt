@@ -27,12 +27,11 @@
 # 37 - Prison 				- 38
 # 39 - Love 				- 40
 
+##########################################################
+# Province Modifiers
+##########################################################
 
-# Province
-
-
-# First marks province as traget of chaos incrusion 
-# Second one prevents chaos host recruiting from the recently conquered province
+# Marks province as traget of chaos incrusion 
 ravaged_by_chaos = {
 	local_tax_modifier = -0.4
 	levy_size = -0.4
@@ -41,12 +40,7 @@ ravaged_by_chaos = {
 	disease_defence = -0.1
 	icon = 60
 }
-# Asked for
-called_for_help_chaos = {
-	monthly_character_prestige = -0.03
-        icon = 59
-}
-# for provinces of non chaotic religion ruled by chaos
+# Prevents chaos host recruiting from the recently conquered province
 resistance = {
 	supply_limit = -5
 	levy_size = -0.8
@@ -70,57 +64,12 @@ dead_raised = {
 	icon = 61
 }
 
-
-sylvania_malus_strong = {
-	city_tax_modifier = -0.5
-	castle_tax_modifier = -0.5
-	temple_tax_modifier = -0.5
-	local_build_time_modifier = 0.5
-	local_build_cost_modifier = 0.5
-	castle_levy_size = -0.5
-	city_levy_size = -0.5
-	temple_levy_size = -0.5
-	icon = 24
-}
-
-sylvania_malus_weak = {
-	city_tax_modifier = -0.2
-	castle_tax_modifier = -0.2
-	temple_tax_modifier = -0.2
-	local_build_time_modifier = 0.2
-	local_build_cost_modifier = 0.2
-	castle_levy_size = -0.2
-	city_levy_size = -0.2
-	temple_levy_size = -0.2
-	icon = 24
-}
-
-sylvania_bonus_none = {
-	icon = 6
-}
-
-sylvania_bonus_weak = {
-	city_tax_modifier = 0.1
-	castle_tax_modifier = 0.1
-	temple_tax_modifier = 0.1
-	local_build_time_modifier = -0.1
-	local_build_cost_modifier = -0.1
-	castle_levy_size = 0.1
-	city_levy_size = 0.1
-	temple_levy_size = 0.1
-	icon = 6
-}
-
-sylvania_bonus_strong = {
-	city_tax_modifier = 0.2
-	castle_tax_modifier = 0.2
-	temple_tax_modifier = 0.2
-	local_build_time_modifier = -0.2
-	local_build_cost_modifier = -0.2
-	castle_levy_size = 0.2
-	city_levy_size = 0.2
-	temple_levy_size = 0.2
-	icon = 6
+##########################################################
+# Character modifiers
+##########################################################
+called_for_help_chaos = {
+	monthly_character_prestige = -0.03
+        icon = 59
 }
 
 ##########################################################
@@ -129,4 +78,50 @@ sylvania_bonus_strong = {
 battlefield_fight = {
 	monthly_character_prestige = 0.01
 	icon = 1
+}
+
+##########################################################
+# BR MODIFIERS
+##########################################################
+
+nurgle_province_disease = {
+	city_tax_modifier = -0.4
+	castle_tax_modifier = -0.4
+	temple_tax_modifier = -0.4
+	local_build_time_modifier = 0.2
+	local_build_cost_modifier = 0.2
+	castle_levy_size = -0.4
+	city_levy_size = -0.4
+	temple_levy_size = -0.4
+	icon = 62
+}
+
+beastmen_unrest = {
+	local_revolt_risk = 0.30
+	city_tax_modifier = -0.2
+	castle_tax_modifier = -0.2
+	temple_tax_modifier = -0.2
+	icon = 60
+}
+
+warpdust_traces = {
+	local_revolt_risk = 0.10
+	city_tax_modifier = -0.1
+	castle_tax_modifier = -0.1
+	temple_tax_modifier = -0.1
+	icon = 60
+}
+
+slaanesh_hedonism = {
+	city_tax_modifier = -0.7
+	castle_tax_modifier = -0.7
+	temple_tax_modifier = -0.7
+	local_build_time_modifier = 0.2
+	local_build_cost_modifier = 0.2
+	icon = 60
+}
+
+witch_hunter_purge_in_progress = {
+	local_revolt_risk = 0.10
+	icon = 59
 }

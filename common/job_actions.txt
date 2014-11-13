@@ -30,7 +30,7 @@ action_improve_relations = {
         }
         is_within_diplo_range = FROM
     }
-    
+
     events = { 910 911 }
 }
 
@@ -56,7 +56,7 @@ action_fabricate_claims = {
         }
         is_within_diplo_range = FROM
     }
-    
+
     events = { 913 914 }
 }
 
@@ -70,7 +70,7 @@ action_sow_dissent = {
         }
         is_within_diplo_range = FROM
     }
-    
+
     events = { 916 917 }
 }
 
@@ -83,7 +83,7 @@ action_squeeze_peasants = {
             character = FROM
         }
     }
-    
+
     local_tax_modifier = 0.025
     
     events = { 920 921 }
@@ -99,7 +99,7 @@ action_oversee_construction = {
     }
     
     local_build_time_modifier = -0.025
-    
+
     events = { 923 924 }
 }
 
@@ -111,7 +111,7 @@ action_advance_eco_tech = {
             character = FROM
         }
     }
-    
+
     tech_growth_modifier_economy = 0.05
     
     events = { }
@@ -131,7 +131,7 @@ action_uncover_plots = {
     }
     
     plot_discovery_chance = 0.01
-    
+
     events = { 929 931 9000 9020}
 }
 
@@ -146,7 +146,7 @@ action_study_technology = {
         }
         is_within_diplo_range = FROM
     }
-    
+
     events = { 932 933 }
 }
 
@@ -161,7 +161,7 @@ action_organize_spies = {
     }
     
     assassinate_chance_modifier = 0.005
-    
+
     events = { 935 936 }
 }
 
@@ -174,7 +174,7 @@ action_advance_mil_tech = {
             character = FROM
         }
     }
-    
+
     tech_growth_modifier_military = 0.05
     
     events = { 938 939 }
@@ -188,7 +188,7 @@ action_train_troops = {
             character = FROM
         }
     }
-    
+
     levy_size = 0.025
     levy_reinforce_rate = 0.05
     
@@ -206,7 +206,7 @@ action_assist_arrest = {
             }
         }
     }
-    
+
     arrest_chance_modifier = 0.01
     local_revolt_risk = -0.01
     
@@ -249,7 +249,7 @@ action_inquisition = {
             }
         }
     }
-    
+
     events = { 900 901 902 903 }
 }
 
@@ -277,7 +277,7 @@ action_improve_rel_relations = {
         }
         is_within_diplo_range = FROM
     }
-    
+
     events = { 906 907 }
 }
 
@@ -292,8 +292,8 @@ action_advance_cul_tech = {
             }
         }
     }
-    
+
     tech_growth_modifier_culture = 0.05
-    
+
     events = { 926 927 }
 }
