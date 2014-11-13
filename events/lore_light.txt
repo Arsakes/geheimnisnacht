@@ -2,8 +2,7 @@
 # @author Pietrko <p.l.stepnicki@gmail.com>
 # @description  Spells for Hysh lore
 # @version 0.1.0
-# @compatibility 2.1.6
-# @wip
+# @compatibility 2.2
 #
 # id = hysh.xy, x - spellchain id, y - event from spellchain
 #
@@ -27,7 +26,6 @@ character_event = {
     desc = "EVTDESC_HYSH_1"
     is_triggered_only = yes
 
-    immediate = { set_character_flag = strategic_spell_used }
     # Heal injuries
     option = {
         name = "EVTOPT_HYSH_1A"
@@ -46,7 +44,6 @@ character_event = {
                 if = { limit = { trait = wounded } remove_trait = wounded }
             }
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
     # Heal illness
     option = {
@@ -85,7 +82,6 @@ character_event = {
                 if = { limit = { trait = has_creeping_buboes } remove_trait = has_creeping_buboes }
             }
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
     # Heal ilness & injuries
     option = {
@@ -109,7 +105,6 @@ character_event = {
                 if = { limit = { trait = has_creeping_buboes } remove_trait = has_creeping_buboes }
             }
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
     }
 }
 # Demon Banishing (presonal)
@@ -121,8 +116,6 @@ character_event = {
    desc = "EVTDESC_HYSH_2"
    picture = "GFX_evt_spell_hysh"
    
-   immediate = { set_character_flag = strategic_spell_used }
-
    option = {
        name = "EVTOPT_HYSH_2A"
        location =  {
@@ -137,7 +130,6 @@ character_event = {
                ROOT = { if = { limit = { random = 15 }  add_trait = wounded } }
            }
        }
-       hidden_tooltip = { character_event = { id = magicengine.11 days = 7 }}
    }
 }
 ##############################################################

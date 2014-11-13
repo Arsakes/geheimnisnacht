@@ -206,7 +206,6 @@ EVTOPT_HYSH_1B;Cure illness;;;;;;;;;;;;;x
 EVTOPT_HYSH_1C;Apply hysh blessing;;;;;;;;;;;;;x
 EVTDESC_HYSH_2;You start the exorcism, the streaks of Hysh entangle the daemon and the mental struggle begins... Let the light guide you!;;;;;;;;;;;;;x
 EVTOPT_HYSH_2A;Begone Demon!;;;;;;;;;;;;;x
-TOOLTIP_HYSH_2;A character possessed by the Daemon must be in reach.;;;;;;;;;;;;;x
 # Hysh battle spells
 EVTDESC_HYSH_5;You fight side by side with your troops, banshing daemons, burning your foes with streaks of Hysh and healing your soldiers. Wherever you show up a new hope arises.;;;;;;;;;;;;;x
 EVTDESC_HYSH_6;Your enemy is has aid of White of magic on his side, wherever the Hierophants show up enemy troops are healed and your forces burn in blinding light.;;;;;;;;;;;;;x
@@ -234,7 +233,11 @@ EVTOPT_ICE_5A;Nooo!;;;;;;;;;;;;;x
 #
 TOOLTIP_ICE_1;Blizzard is sent to [This.GetName].;;;;;;;;;;;;;x
 TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two months.;;;;;;;;;;;;;x
-
+#
+# namespace = necromancy
+EVTDESC_NECROMANCY_1;As you intone the dread syllables handed down from Nagash himself, you feel the winds of magic surge around you. This arcane enegery breathes unlife into the dead creatures that lie before you. Long dead cadavers claw themselves from the ground while recently dead bodies prop themselves up on rotting limbs. These undead creatures now await your command.;;;;;;;;;;;;;x
+EVTDESC_NECROMANCY_3;Using the power of Dhar you summon a wind of deadly dark magic, that kills anyone that it encounters. The victims experience extreme agony as the spell rips their very soul form their body, leacing them a lifeless husk.;;;;;;;;;;;;;x
+#
 #
 # SPECIAL MAGIC LOCALISATION
 #

@@ -499,8 +499,8 @@ gender_laws = {
                 NOT = { religion = taalite }
                 NOT = { religion = classical_gods }
                 NOT = { religion = old_faith }
-                NOT = { religion_group = cadai_gods_group }
-                NOT = { religion_group = cytharai_gods_group }
+                NOT = { religion_group = cadai_group }
+                NOT = { religion_group = cytharai_group }
                 NOT = { religion_group = halfling_gods_group }
                 NOT = { religion_group = nehekharan_gods_group }
             }
@@ -585,7 +585,7 @@ gender_laws = {
                 NOT = { religion = lady_of_the_lake }    
                 NOT = { religion = ulrican }    
                 NOT = { religion = sigmarite }        
-                NOT = { religion_group = norse_group }
+                NOT = { religion_group = old_gods_group }
                 NOT = { religion_group = ormazd_gods_group }
                 NOT = { religion_group = dwarf_gods_group }            
                 NOT = { religion_group = greenskin_gods_group }
@@ -607,10 +607,10 @@ gender_laws = {
         
         potential = {
             holder_scope = {
-                NOT = { religion_group = norse_group }
+                NOT = { religion_group = old_gods_group }
                 NOT = { religion_group = ormazd_gods_group }
-                NOT = { religion_group = cadai_gods_group }
-                NOT = { religion_group = cytharai_gods_group }
+                NOT = { religion_group = cadai_group }
+                NOT = { religion_group = cytharai_group }
                 NOT = { religion_group = halfling_gods_group }
                 NOT = { religion_group = old_world_group }
                 NOT = { religion_group = dwarf_gods_group }            

@@ -2413,7 +2413,7 @@ religious = {
         # DOOM COUNTER: Chaos had won religious war against others
         if = {
             limit = { ROOT = { religion_group = chaos_gods_group  }}
-            1 = { change_variable = { which = "doom_counter" value = 3 } }
+            1 = { change_variable = { which = "doom_counter" value = 5 } }
         }
 
         any_attacker = {

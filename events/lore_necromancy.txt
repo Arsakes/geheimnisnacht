@@ -1,6 +1,7 @@
 #
 # @author Pietrko(Arsakes)
 # @description spells for vampires/undead
+# @compatibility 2.2
 #
 namespace = necromancy
 ##################################################
@@ -21,8 +22,6 @@ character_event = {
     picture = "GFX_evt_spell_necromancy"
     is_triggered_only = yes
 
-    immediate = { set_character_flag = strategic_spell_used }
-    
     option = {
         name = "EVTOPT_NECROMANCY_1A"
         if = {
@@ -30,19 +29,6 @@ character_event = {
             character_event = { id = necromancy.2 }
         }
         hidden_tooltip = { character_event = { id = necromancy.2 } }
-        # applying cooldown
-        if = {
-            limit = { trait = magic_power_magister }
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 90 }}
-        }
-        if = {
-            limit = { trait = magic_power_lord }
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
-        }
-        if = {
-            limit = { trait = magic_power_archmaster }
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
-        }
         location = { add_province_modifier = { name = dead_raised duration = 10950 }}  # 30 years 
     }
 }
@@ -125,25 +111,14 @@ character_event = {
     picture = "GFX_evt_spell_necromancy"
     is_triggered_only = yes
 
-    immediate = { set_character_flag = strategic_spell_used }
-    
     option = {
         #TODO apply effects on armies & characters in province
         name = "EVTOPT_NECROMANCY_3A"
         if = {
             limit = { location = { has_province_modifier = dead_raised }}
-            location = { remove_province_modifier = { name = dead_raised }} 
+            location = { remove_province_modifier = dead_raised }
         }
         location = { add_province_modifier = { name = depopulated duration = 18250 }}  # 50 years 
-        # applying cooldown
-        if = {
-            limit = { trait = magic_power_lord }
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
-        }
-        if = {
-            limit = { trait = magic_power_archmaster }
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
-        }
     }
 }
 

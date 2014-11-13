@@ -489,6 +489,6 @@ character_event = {
     option = {
         name = OK
         # character dies
-        death = { death_reason = death_illness } # FIXME there is such death reason ?
+        death = { death_reason = death_trait } # FIXME there is such death reason ?
     }
 }

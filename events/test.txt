@@ -1213,8 +1213,10 @@ character_event = {
                 if = {
                     limit = { 
                         ROOT = { 
-                            culture_group = kurgan_group 
-                            culture_group = kislevite_group
+                            OR = { 
+                               culture_group = kurgan_group 
+                               culture_group = kislevite_group
+                            }
                         }
                     }
                     spawn_unit = { 

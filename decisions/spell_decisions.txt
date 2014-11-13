@@ -3,19 +3,13 @@
 # Here are spell casting decisions for
 # PC player characters
 #
-# decision_open_spellbook -
+# decision_open_spellbook 
 # decison_close_spellbook
-# decision_lore_<nameoflore>
-# decision_lore_back
+# decision_lore_<nameoflore><spell number>
 # 
 # those decisions are used by players
 # to select proper spells
 #
-# Flags:
-# spellbook_open - to mark opened spellbok
-# spell_lore_chosen - to mark chosen set of spells
-# spell_lore_<name> - to mark particular set of spells
-# 
 ######################################
 decisions = {
     # TODO localize decisions
@@ -59,6 +53,9 @@ decisions = {
         effect = { 
             set_character_flag = spellbook_open
         }
+        ai_will_do = {
+            factor = 100
+        }
     }
     decision_close_spellbook = {
         potential = {
@@ -81,7 +78,8 @@ decisions = {
     #
     ##########################################
     #
-    # Chose spells from ice lore (PC only)
+    # 
+    # Ice blizzard
     decision_lore_ice1 = {
         potential = {
             has_character_flag = spellbook_open 
@@ -94,12 +92,16 @@ decisions = {
         }
         allow = { NOT = { has_character_flag = strategic_spell_used } }
         effect = { 
+            set_character_flag = strategic_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.1 } }
             clr_character_flag = last_spell_success
+            # marks character that uses powerfull strategic spells
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
         }
     }
+    # Ice walls
     decision_lore_ice2 = {
         potential = {
             has_character_flag = spellbook_open 
@@ -111,14 +113,42 @@ decisions = {
                 trait = magic_power_archmaster
             }
         }
-        allow = { NOT = { has_character_flag = strategic_spell_used } }
+        allow = { 
+            custom_tooltip = { text = "TOOLTIP_DEC_ICE_2" }
+            hidden_tooltip = {
+                NOT = { has_character_flag = strategic_spell_used } 
+                NOT = { location = { has_province_flag = ice_walls }} 
+            }
+        }
         effect = { 
+            set_character_flag = strategic_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
             clr_character_flag = last_spell_success
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no
+            }
+            modifier = { 
+                in_siege = yes
+                factor = 100
+            }
+            modifier = { 
+                in_siege = no
+                factor = 0
+            }
+            modifier = {
+                factor = 0
+                NOT = { location = { ROOT = { owns = PREV }}}
+            }
         }
     }
+    # Hail
     decision_lore_ice3 = {
         potential = {
             has_character_flag = spellbook_open 
@@ -135,6 +165,7 @@ decisions = {
             in_siege = yes           
         }
         effect = { 
+            set_character_flag = strategic_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
             character_event = { id = magicengine.1 }
             if = { 
@@ -152,6 +183,17 @@ decisions = {
                 character_event = { id = ice.3 }
             }
             clr_character_flag = last_spell_success
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no 
+            }
+            modifier = {
+                factor = 100
+            }
         }
     }
     ########################################################
@@ -192,13 +234,14 @@ decisions = {
             }
         }
         effect = { 
+            set_character_flag = strategic_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 3 } }
             location = {
                 random_province_character = {
                     limit = {
                         OR = {
                             trait = ill
-                            trait = wounde
+                            trait = wounded
                             trait = pneumonic
                             trait = syphilitic
                             trait = leper
@@ -220,7 +263,27 @@ decisions = {
                 location = { any_province_character = { clr_character_flag = hysh_heal_target } }
             } 
             clr_character_flag = last_spell_success
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
         }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 100
+                OR = {
+                    trait = ill
+                    trait = wounded
+                    trait = pneumonic
+                    trait = syphilitic
+                    trait = leper
+                    trait = has_green_pox
+                    trait = has_red_pox
+                    trait = has_bone_auge
+                    trait = has_rattlelung
+                    trait = has_creeping_buboes
+                }
+            }
+        }
+
     }
     # Banish the daemon from person
     decision_lore_light2 = {
@@ -239,15 +302,25 @@ decisions = {
                 NOT = { has_character_flag = strategic_spell_used } 
                 location = { any_province_character = { trait = possessed } }
             }
-            custom_tooltip = { text = "TOOLTIP_HYSH_2" }
+            custom_tooltip = { text = "TOOLTIP_DEC_HYSH_2" }
         }
         effect = { 
+            set_character_flag = strategic_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
             character_event = { id = magicengine.1 }
             
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = hysh.2 } }
             clr_character_flag = last_spell_success
+
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 7 }}
         }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 100
+            }
+        }
+
     }
 
     ########################################################
@@ -298,15 +371,31 @@ decisions = {
         }
         allow = { 
             NOT = { has_character_flag = strategic_spell_used } 
-            hidden_tooltip = { NOT = { location = { has_province_modifier = dead_raised }}}
-            custom_tooltip = { text = "TOOLTIP_NECROMANCY_1" }
+            #hidden_tooltip = { 
+                NOT = { location = { has_province_modifier = dead_raised }}
+                location = { controlled_by = ROOT }
+            #}
+            #custom_tooltip = { text = "TOOLTIP_DEC_NECROMANCY_1" }
         }
         effect = { 
+            set_character_flag = strategic_spell_used
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
+
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 } }
             character_event = { id = magicengine.1 }
             
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = necromancy.1 } }
             clr_character_flag = last_spell_success
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no 
+            }
+            modifier = {
+                factor = 100
+            }
         }
     }
     # Wind of Death
@@ -322,17 +411,35 @@ decisions = {
         }
         allow = { 
             NOT = { has_character_flag = strategic_spell_used } 
-            hidden_tooltip = { NOT = { location = { has_province_modifier = depopulated }}}
-            custom_tooltip = { text = "TOOLTIP_NECROMANCY_2" }
+            #hidden_tooltip = { 
+                NOT = { location = { has_province_modifier = depopulated }}
+                location = { controlled_by = ROOT }
+            #}
+            #custom_tooltip = { text = "TOOLTIP_DEC_NECROMANCY_2" }
         }
         effect = { 
+            set_character_flag = strategic_spell_used
+            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
+
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 7 } }
             character_event = { id = magicengine.1 }
             
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = necromancy.3 } }
             clr_character_flag = last_spell_success
         }
+        # perform rather in enemy provinces
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                war = no 
+            }
+            modifier = {
+                factor = 100
+                location = { controlled_by = ROOT }
+                NOT = { location = { ROOT = { owns = PREV }} }
+            }
+        }
     }
-
 
 }

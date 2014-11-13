@@ -205,7 +205,7 @@ character_event = {
                 add_trait = maimed
             }
             25 = {
-                add_trait = wouned
+                add_trait = wounded
             }
         }
     }
@@ -826,7 +826,7 @@ character_event = {
     id = magicengine.20
     desc = "Inheritance of magic potential" #FIXME delte desc
     is_triggered_only = yes
-    #hide_windw = yes 
+    hide_windw = yes 
 
     immediate = {
         # case 1,1
@@ -1055,7 +1055,7 @@ character_event = {
         }
     }
     option = {
-        name = "ok"
+        name = OK
     }
 }
 

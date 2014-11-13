@@ -16,6 +16,7 @@ decision_lore_light1;Cast Heal;;;;;;;;;;;;;x
 decision_lore_light1_desc;Attempt to manipulate Hysh to heal the people from injuries and illness.;;;;;;;;;;;;;x
 decision_lore_light2;Banish Demon;;;;;;;;;;;;;x
 decision_lore_light2_desc;Use white wind of magic to anish the demon from the body of a person.;;;;;;;;;;;;;x
+TOOLTIP_DEC_HYSH_2;A character possessed by the Daemon must be in reach.;;;;;;;;;;;;;x
 # ICE LORE
 decision_lore_ice1;Summon Blizzard;;;;;;;;;;;;;x
 decision_lore_ice1_desc;Summon a blizzard to slow march of your enemies.;;;;;;;;;;;;;x
@@ -23,6 +24,7 @@ decision_lore_ice2;Raise Ice walls;;;;;;;;;;;;;x
 decision_lore_ice2_desc;Raises an ice wall from the ground.;;;;;;;;;;;;;x
 decision_lore_ice3;Cast Biting Wind;;;;;;;;;;;;;x
 decision_lore_ice3_desc;Unleash a icestorm and biting winds upon enemies.;;;;;;;;;;;;;x
+TOOLTIP_DEC_ICE_2;Ice walls cannot be raised in province holdings.;;;;;;;;;;;;;
 #
 decision_lore_dark;Dark magic;;;;;;;;;;;;;x
 decision_lore_dark_desc;Attempt to cast dark magic spells.;;;;;;;;;;;;;x
@@ -32,8 +34,8 @@ decision_lore_necromancy1;Raise the Army of Undead;;;;;;;;;;;;;x
 decision_lore_necromancy1_desc;Performs a ritual of great power raising undead legion.;;;;;;;;;;;;;x
 decision_lore_necromancy2;Cast Wind of Death;;;;;;;;;;;;;x
 decision_lore_necromancy2_desc;Summons the Wind of Death - which sucks the life from the the living in area. ;;;;;;;;;;;;;x
-TOOLTIP_NECROMANCY_1;Requires enormous magical power and hundreds of human corpses.;;;;;;;;;;;;;
-TOOLTIP_NECROMANCY_2;Requires trendemous magical power. Will kill large amount of population - cannot be used in the same province twice. ;;;;;;;;;;;;;x
+TOOLTIP_DEC_NECROMANCY_1;Requires enormous magical power and hundreds of human corpses. Province must be controlled by character.;;;;;;;;;;;;;
+TOOLTIP_DEC_NECROMANCY_2;Requires trendemous magical power. Will kill large amount of population - cannot be used in the same province twice. Province must be controlled by character. ;;;;;;;;;;;;;x
 #
 decision_open_spellbook;Open the spellbook;;;;;;;;;;;;;x
 decision_open_spellbook_desc;Shows the available spells;;;;;;;;;;;;;x

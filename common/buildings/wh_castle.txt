@@ -135,15 +135,15 @@ castle = {
 
 		extra_tech_building_start = 0.2
 	}
-	ca_wall_6 = {
-		desc = ca_wall_5_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+	ca_con_wall_6 = { # Theodosian Walls
+		potential = {
+			FROMFROM = { title = b_constantinople }
+		}
+		desc = ca_con_wall_6_desc
 		upgrades_from = ca_wall_5
-		gold_cost = 1000
-		build_time = 3500
-		levy_size = 0.2
-		tax_income = 1
-		fort_level = 3.0
+		gold_cost = 150
+		build_time = 1460 #4y
+		fort_level = 4.0
 		ai_creation_factor = 86
 
 		extra_tech_building_start = 0.0
@@ -534,13 +534,13 @@ castle = {
 	ca_shipyard_1 = {
 		desc = shipyard_desc
 		port = yes
-		trigger = { TECH_NAVAL = 0 }
+		trigger = { TECH_NAVAL = 1 }
 		gold_cost = 100
 		build_time = 365
 		galleys = 6
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.0
+		extra_tech_building_start = 0.3
 	}
 	
 	ca_shipyard_2 = {
@@ -553,7 +553,7 @@ castle = {
 		galleys = 7
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.0
+		extra_tech_building_start = 0.3
 	}
 	
 	ca_shipyard_3 = {

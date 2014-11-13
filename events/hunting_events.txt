@@ -194,6 +194,7 @@ character_event = {
     
     immediate = {
         set_character_flag = hunt_event_happened
+        set_character_flag = hunt_paranoia
     }    
 
     mean_time_to_happen = {
@@ -208,10 +209,6 @@ character_event = {
             factor = 1.5
             has_character_flag = hunt_event_happened
         }        
-    }
-
-    immediate = {
-        set_character_flag = hunt_paranoia
     }
 
     option = {

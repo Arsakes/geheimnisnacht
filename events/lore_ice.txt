@@ -14,8 +14,6 @@ character_event = {
     picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
-    immediate = { set_character_flag = strategic_spell_used }
-
     option = {
         name = "EVTOPT_ICE_1A"
         location = {
@@ -64,8 +62,6 @@ character_event = {
             }
             custom_tooltip = { text = "TOOLTIP_ICE_1" }
         }
-        # marks character that uses powerfull strategic spells
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
     }
 }
 # Ice Walls
@@ -76,10 +72,7 @@ character_event = {
     is_triggered_only = yes
    
     immediate = { 
-        set_character_flag = strategic_spell_used
-        location = {
-            set_province_flag = ice_walls
-        }
+        location = { set_province_flag = ice_walls }
     }
     option = {
         name = OK
@@ -110,16 +103,15 @@ character_event = {
         # marks character that uses powerfull strategic spells
         hidden_tooltip = {
             location = { 
-                if = { limit = { is_winter = yes }  province_event ={ id = ice.200 days = 70 } }
+                if = { limit = { is_winter = yes }  province_event = { id = ice.200 days = 70 } }
                 if = { limit = { is_winter = no  }  province_event = { id = ice.200 days = 40 } }
             }
-            character_event = { id = magicengine.11 days = 15 }
         }
     }
 }
 # Canceling event for Ice Walls
-character_event = {
-    id = ice.2000
+province_event = {
+    id = ice.200
     is_triggered_only = yes
     hide_window = yes
    
@@ -145,11 +137,6 @@ character_event = {
                 leader = { character_event = { id = ice.5 } }
             }
         }
-        # marks character that uses powerfull strategic spells
-        hidden_tooltip = {
-            set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.11 days = 15 }
-        }
     }
 }
 character_event = {
@@ -168,11 +155,6 @@ character_event = {
                 morale = -0.04
                 leader = { character_event = { id = ice.5 } }
             }
-        }
-        # marks character that uses powerfull strategic spells
-        hidden_tooltip = {
-            set_character_flag = strategic_spell_used
-            character_event = { id = magicengine.11 days = 15 }
         }
     }
 }

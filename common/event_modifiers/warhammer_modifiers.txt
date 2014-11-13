@@ -63,10 +63,11 @@ depopulated = {
 	local_tax_modifier = -0.5
 	local_build_time_modifier = 0.75
 	local_build_cost_modifier = 0.75
-	icon = 19
+	icon = 62
 }
 
 dead_raised = {
+	icon = 61
 }
 
 
