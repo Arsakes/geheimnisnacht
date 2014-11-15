@@ -7,27 +7,28 @@ dwarf_chaos_group = {
 		color = { 0.6 0.2 0.5 }
 
 		male_names = {
-			Abgal Abzu Adapar Addad Adrar'meloch Agrot Ahur Alnun Ammidikaga Amukkan Annun Ansar Antor Anur Anzar Anzur Apsur Ardir Argel Arkon Armahand Ash'azel Ashak Asher Ashurban Asrid Astragoth Astrus Avas Azakil Azel 
-			Bakthet Balav Baldrick Baldrik Balenam Barag Barensus Barin Barukh Batal Bazherak Belakhost Bethek Boga Bultar Bzaark 
+			Abgal Abzu Adapar Addad Adrar'meloch Agrot Ahur Alnun Ammidikaga Amukkan Angror Annun Ansar Antor Anur Anzar Anzur Apsur Ardir Argel Arkon Armahand Ash'azel Ashak Asher Ashurban Asrid Astragoth Astrus Avas Azakil Azel 
+			Bakthet Balav Baldrick Baldrik Balenam Barag Barensus Barin Barka Bartak Bartan Barukh Batal Bazherak Belakhost Bethek Boga Bultar Bzaakh Bzaark 
 			Carazad Carthar 
-			Dagran Dakseen Dammaz Damor Damu Dargah Dario Darquas Dathor Demator Dourgrim Drazh Drazhoath Dron Dthar Dugud Dum Dumuzi Duniun Durgal Dwor 
-			Ekalim El'gram El'graz Enil Enk'kidu Enka Enum'elish Erish Etan Fineous Fonhajus Fonras Fonsu Fontar Furgul Furrik Gakroth Galgann Garz Gazn Gazrakh Geggus Ghal Ghorth Ghull Gibil Gilgl'rmesh Ginit Gnar Gorfal Gorran Goruz Grebmar Grimaz Grimdur Grint Grizal Groz Grumabak Grumabaki Grundrin Gurarra 
-			Haddad Hadkova Hadvas Hakka Halgir Hamu Har Haraz Hardgrab Harharu Harv Hashutim Hengist Hokajak Horkaj Hthark Hunzuu Huwaz Huz 
+			Dagran Dakseen Dammaz Damor Damu Dardhak Dargah Dario Darquas Dathor Demator Dourgrim Drazh Drazhoath Dron Dthar Dugud Dum Dumuzi Duniun Durgal Dut Dwor 
+			Ekalim El'gram El'graz Enil Enk'kidu Enka Enum'elish Erish Etan Farral Farrik Fineous Fonhajus Fonras Fonsu Fontar Frakar Furgul Furrik 
+			Gakroth Galgann Garz Gashgrut Gazn Gazrakh Geggus Ghal Ghalhad Gharoakk Ghorth Ghull Gibil Gilgl'rmesh Ginit Gnar Gorfal Gorkag Gornhak Gorran Gorsha Goruz Grakhan Grebmar Grimaz Grimdur Grint Grizal Groz Gruil Grumabak Grumabaki Grundrin Gurarra 
+			Haddad Hadkova Hadvas Hakka Halgir Hamu Har Haraz Hardgrab Harharu Harv Hashutim Hengist Hitgrak Hokajak Horkaj Htha Hthark Hunzuu Huwaz Huz 
 			Iamhu Iku Ilsept Irra Ishkir Iskur 
-			Javhor Jezreel 
-			Kaaos Kabus Kadash Kajtis Kalak Kanlu Kantuuz Karazad Karg Karz Kava Kazk Khaar Khardang Khardrang Khazrek Khrum Kirgund Kisar Komdar Korthis Kro Krut Krutim Kukanto Kulthak Kultkosis Kumar Lararra Lardar Lartab Lotam Lufin Lumtur Luuddav Luudrid Luudrith 
-			Makaz Malik Maraz Marduk Martun Matadar Mataisis Matakan Matan Matatoru Matojun Mhornar Milluk Mizpal Moakdon Molus Mordian Morjat Morkan Morras Morsar Mothensu Mothgam Mottha Muzdam Muzkh'grum 
-			Nabu-Kabar Nabu-Shum Nai Nak'nar Namtir Narga Naurthang Nimrok Ningizzid Ninurt Norn Nur-Azar Nutesh Nutseen Nuuf 
-			Odro Oensus Ofgut Ok Onin Ori Origol Oruud 
+			Jashor Javhor Jezreel 
+			Kaaos Kabus Kadash Kajtis Kalak Kanlu Kantuuz Karazad Karg Karnhage Karz Kava Kazk Khaar Khardang Khardrang Khazrek Khorak Khoraki Khozh Khrum Khu'khan Khurath Kirgund Kisar Komdar Korthis Krakok Kro Krut Krutim Kukanto Kulthak Kultkosis Kumar 
+			Lararra Lardar Lartab Lharikk Lotam Lufin Lumtur Luuddav Luudrid Luudrith 
+			Makaz Malik Maraz Marduk Markath Martun Matadar Mataisis Matakan Matan Matatoru Matojun Mhornar Milluk Mizpal Moakdon Molus Morcak Mordian Morjat Morkan Morras Morsar Mothensu Mothgam Mottha Muzdam Muzkh'grum 
+			Nabu-Kabar Nabu-Shum Nai Nak'nar Namtir Narga Narkha Naurthang Nazhak Nazharr Nhur'k Nimrok Ningizzid Ninurt Norn Nur-Azar Nutesh Nutseen Nuuf 
+			Od Odro Oensus Ofgut Ogara Ogi Ok Onin Ori Origol Oruud 
 			Partlu Pelver Phaklak Phakova Pharas Phdorg Ptarra 
-			Radblast Ragarin Rainhard Rash'nuel Rastur Rhun Rhunki Rhyn Rikkazen Rorkaz Runk Rutz Ruvalk Rykarth 
-			Sardor Scarsol Sephar Shagarak Shamaz Shkajak Shlak Shuriash Shurtur Sine Sithan Skaz Skazi Skraat Skree Skrund Skruuf Skuf Slotch Smark Soran Soth Stok Stormez 
-			Tabman Talar Taltal Talvan Tammaz Tantor Tanud Tarddav Tardtar Targ Tariokova Tariovast Telar Telegrim Thabphor Thag Thaggoraki Thagi Thorkar Thraag Thrakbal Thuensu Thurgar Thymbrin Tromm Turlak Turtak Turthar 
-			Ufdi Ulfo Umanar Umgak Unbak Unbaraki Ungrim Urk Urkk Urtgam Urttai Utna'parshun Utok Uzgul Uzkul Uzkular 
-			Vaim Vangor Varag Varf Varn Varr Varrkhulg Varzhnak Vasdon Vikram Virkova Vlag Vongal Vorkhul Vorlak Vurlu 
-			Wanaz Wattock Wazzok Werit Wovan Wyr 
-			Xar Xaraz
-			Zadrian Zagaz Zaki Zakk Zelazad Zerus Zharg Zharr Zhatan Zhorgath Zhorgrath Zhrazak Zimrel Zorin Zunthrum Zur Zur-Har Zur-Sin Zygrad Zzharg 
+			Radblast Ragarin Rahkarr Rainhard Rash'nuel Rastur Rhagrakh Rhun Rhunki Rhyn Rikkazen Rorkaz Runk Rutz Ruvalk Rykarth 
+			Sardor Sarkath Scarsol Sephar Shagarak Shakog Shalund Shamaz Shkajak Shlak Shukh Shuriash Shurtur Sine Sithan Skaz Skazi Skraat Skree Skrund Skruuf Skuf Skurfrik Slotch Smark Soran Soth Stok Stormez Sureye Svarn 
+			Tabman Tagrakka Talar Taltal Talvan Tammaz Tankhor Tantor Tanud Tarddav Tardtar Targ Tariokova Tariovast Tarkhak Tekar Telar Telegrim Thabphor Thag Thaggoraki Thagi Theskus Thorkar Thraag Thrakbal Thuensu Thurgar Thymbrin Tromm Turkhat Turlak Turtak Turthar 
+			Ufdi Ulfo Umanar Umgak Unbak Unbaraki Ungrim Urk Urkk Urtgam Urttai Utkal Utna'parshun Utok Uzgul Uzkrag Uzkul Uzkular Vaim 
+			Vangor Varag Varf Varn Varr Varrkhulg Varzhnak Vasdon Vertebre Vikram Vile Virkova Vlag Vongal Vorkhul Vorlak Voxin Vurlu 
+			Wanaz Wardrakk Warggrund Wargrahk Wattock Wazzok Werit Wharik Wovan Wyr Xar Xaraz 
+			Zadrian Zagaz Zaki Zakk Zelazad Zerus Zharg Zharr Zhatan Zhorgath Zhorgrath Zhrazak Zhukh Zhukkath Zhulak Zimrel Zorin Zorn Zunthrum Zur Zur-Har Zur-Sin Zygrad Zzharg 
 		}
 		
 		female_names = {

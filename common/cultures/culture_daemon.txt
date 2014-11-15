@@ -27,11 +27,11 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Angrarr
+			Ae'nar Angrarr Ar'hek B'zekk Ba'ltor Baktra Beelzat Bennkor Em'lon H'gurhutk It'krah K'zarak'era Ka'tren Ke'haza Kh'arek Kr'athul Kreznk Ku'gat Mal'ek Mar'tek Me'kt'han Mel'nak Mig'read N'Kerri N'Kira Na'huk Nai'eth Ne'hut No'rik Ra'nek Ri'nak Si'grat T'argk T'gerak Ta'ryon Te'enar Te'kle Te'nar Te'nka Ty'ria Tz'aarkan Tz'akel Tz'ek't Tzerkan Uk'zal Ur'gua Z'nekra Zu'ltan 
 		}
 		
 		female_names = {
-			Angrarr
+			Ae'nar Angrarr Ar'hek B'zekk Ba'ltor Baktra Beelzat Bennkor Em'lon H'gurhutk It'krah K'zarak'era Ka'tren Ke'haza Kh'arek Kr'athul Kreznk Ku'gat Mal'ek Mar'tek Me'kt'han Mel'nak Mig'read N'Kerri N'Kira Na'huk Nai'eth Ne'hut No'rik Ra'nek Ri'nak Si'grat T'argk T'gerak Ta'ryon Te'enar Te'kle Te'nar Te'nka Ty'ria Tz'aarkan Tz'akel Tz'ek't Tzerkan Uk'zal Ur'gua Z'nekra Zu'ltan 
 		}
 
 		dynasty_title_names = yes
@@ -46,11 +46,11 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Festus
+			Achaugo Athamme Attractus Best-ra Bris'fagors Da-ke Dathazan Dorax Ephatho Fagors Farmulgor Festus Frax Ghaar Ghaar-nogors Ghamon'gor Ghur Ghur-gor Gishtigors Gra Gra-ek Gra-sa Guck Haro-ash Hurllogotsh Khar Khar-nogors Kharnn Kisaruab Kita Kita-sa Krazz'lar Kryp'er Leprad Lornosis Ly'mulgor Lyme Mash'fagors Moldor Morbos Mras Mras-mulgors Mulgors My-da Nogors Ogloth Orgus Pan'de'mic Pestus Phactho Plague Plauge Py'nogors Qhaysh Qhaysh-da Ra Rawrg Ri-gor Salvis Sloth Stocco Tathorshae Thish Thish-ash To-ro Toxaik Ulgu Ulgu-nogors Ulgu'mulgors Wal Wal-tigor Wal'gors Y'boshogosh 
 		}
 		
 		female_names = {
-			Festus
+			Achaugo Athamme Attractus Best-ra Bris'fagors Da-ke Dathazan Dorax Ephatho Fagors Farmulgor Festus Frax Ghaar Ghaar-nogors Ghamon'gor Ghur Ghur-gor Gishtigors Gra Gra-ek Gra-sa Guck Haro-ash Hurllogotsh Khar Khar-nogors Kharnn Kisaruab Kita Kita-sa Krazz'lar Kryp'er Leprad Lornosis Ly'mulgor Lyme Mash'fagors Moldor Morbos Mras Mras-mulgors Mulgors My-da Nogors Ogloth Orgus Pan'de'mic Pestus Phactho Plague Plauge Py'nogors Qhaysh Qhaysh-da Ra Rawrg Ri-gor Salvis Sloth Stocco Tathorshae Thish Thish-ash To-ro Toxaik Ulgu Ulgu-nogors Ulgu'mulgors Wal Wal-tigor Wal'gors Y'boshogosh 
 		}
 
 		dynasty_title_names = yes

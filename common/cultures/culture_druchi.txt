@@ -8,51 +8,10 @@ druchi_group = {
 		color = { 1.0 0.4 0.1 }
 
 		male_names = {
-			Akrana Alondir Arishok Atar 
-			Baromad 
-			Citae Corrus Coru Crucum 
-			Devak Drai Drazek Duris 
-			Eniko Erax 
-			Festuc Fueris 
-			Garek Ghaunadaur Girathon Gloreir 
-			Hakazin Harodir Hathdror Hyethan 
-			Ilries Inpuric 
-			Kaltarn Karbo Karithan Kesida Khaeleth Khalaeth Kolith Koridrel Kossith Krartil Krathar Krellian Kulvorath Kyaran 
-			Leiaceus Livor Lokhir 
-			Maefyr Maelthraen Malagurn Malefic Malek Malekith Malign Malik Malo Manarith Metruor Metus Morelan 
-			Nyethan 
-			Perduc 
-			Ralkuth Riakahd Rindhor 
-			Saril Scalus Scelus Selvetarm Sicar Skarus Skrumar 
-			Taraj Taromir Telurna Thalyn Thandros Torrath Trepis Typhoth 
-			Urian Uzoe 
-			Valensyl Velathor Vereor Vex Vexo Vexos 
-			Vhaeraun Vilkareth Yldrian 
-			Zural 
+			Aelaeith Aelrystir Aetheoth Akrana Alondir Anmael Argbaire Arishok Astalthyr Atar Athraosyr Avadrys Baromad Cadnal Caelmair Cellan Cirbrior Cirmael Citae Corrus Coru Crucum Devak Drai Drazek Duris Ellisyrior Elthtain Endlan Eniko Eralisior Erax Fereoth Ferlan Festuc Fueris Gaendror Galgil Garek Ghaunadaur Girathon Gloreir Glorhil Hakazin Hakelth Harketh Harodir Hastil Hathdror Helfin Heltain Hethir Hethirnae Hithinae Hithwe Hyethan Ilries Indeorl Inpuric Istothae Ithfaensithi Kaithysior Kaltarn Karbo Karithan Kesida Khaeleth Khalaeth Killieth Kolith Koridrel Kossith Krartil Krathar Krellian Kulvorath Kyaran Kyirentae Kyithil Kyrithteal Laenbeth Lalaen Lanelithi Lanith Laromael Leiaceus Lilenlor Limion Lithdhil Livor Lokhir Maefyr Maelthraen Malagurn Malefic Malek Malekith Maleos Malign Malik Malithina Malo Malselrinth Malsyldrior Manarith Masdrir Mathbien Methelys Metruor Metus Meuloseos Morelan Morteos Nalir Nalryel Naraseth Nendhil Nenmael Nolroleth Norolarth Nyethan Perduc Raketh Ralkuth Riabbis Riabbmair Riakahd Ridnaen Riimair Rindhor Rynothar Saldith Saril Scalus Scelus Selvetarm Sicar Skarus Skrumar Tabenlae Tablaine Tabranil Tabriorn Talfintar Talonriel Tanith Tanles Tanlos Taraj Taromir Telosoth Telthar Telurna Thalyn Thandros Toraleys Toreoth Torrath Torrel Trepis Tyonirytor Typhoth Urian Uriuthan Uzoe Valensyl Velathor Vereor Vex Vexo Vexos Vhaeraun Vilkareth Yldrian Yrfin Yveilsar Zural 
 		}
 		female_names = {
-			Aelfil Aenesintryan Aenrenasar Aethlas Alba Alyth Argenfys Astoniella 
-			Balaniell 
-			Caethsol Camilet Celo Chorane Cornix Crinis Crucia 
-			Deprava 
-			Eilistraee Elrelsar Elthfannith Ersfen 
-			Fae Faerie Fandenfelle Fel Ferfys Finirryeth Foram 
-			Gesulrell Glorrorys Glorrose Gracilia 
-			Hasilsothyn Hel Hellebron Hellis Helsiine 
-			Igniax Illanolthyn Inlica Ithsalaa Ithselroi Iyralsinath 
-			Kathandris Keress Kiaransalee Korana Krinis Kyroldet 
-			Lafenorys Lamina Lanfanona Lanfenronneth Lanselrali Larathryn Laresenther Leti Letum Lilasaira Liliath Lilroit Limfina Limrolisa Limroth Lolth Lothtrys 
-			Malifyr Malsefynn Melthirolnem Morag Morathi Moridyth Morithia Morotir Morrega Morsi 
-			Nenassela Norsor 
-			Orsula 
-			Pelicai 
-			Rapina Raptua Ridolraam Riellaeys Riilsoneleth Riinerai 
-			Sanik Sarava Seleis Shar Sharr Shazamel Sicara Skari Sprite 
-			Taenia Taluolieth Tanarashar Tanesoa Tarsisa Telsanys Tenuis Toxi Toxika 
-			Uleneleann Ulseeltar 
-			Vasti Venen Venum Vexo Viri Virik 
-			Yrrensasar 
-			Zinzerena 
+			Aelfil Aenanras Aenesintryan Aenrenasar Aethlas Alba Alyth Argenfys Astoniella Balaniell Caemfana Caemfanfynn Caethsol Camilet Caminmael Celo Chorane Cornix Crinis Crucia Deprava Eilistraee Eldili Elini Elrelsar Elthfannith Ersfen Fae Faerie Fandenfelle Fandoitt Fel Ferfys Fimohir Finirryeth Finolelle Finoleys Foram Gaenraelle Genralsys Gesulrell Glorrorys Glorrose Gracilia Hasilsothyn Hel Hellebron Hellis Helsiine Igniax Illanolthyn Inlica Ithsalaa Ithselroi Iyralsinath Kathandris Keress Kiaransalee Korana Krinis Kyroldet Lafenorys Lamina Lanfanona Lanfenronneth Lanselrali Larathryn Laresenther Leti Letum Lilasaira Liliath Lilrilath Lilroit Limfina Limrolisa Limroth Lolth Lothrinfelle Lothrinlana Lothrinshar Lothtrys Malifyr Malsefynn Melthirolnem Mesani Morag Morathi Moridyth Morithia Morotir Morrega Morsi Nenassela Norsor Orsula Pelicai Rapina Raptua Ridolraam Riellaeys Riilsoneleth Riinerai Sanik Sarava Seleis Shar Sharr Shazamel Sicara Skari Sprite Taenia Taluolieth Tanarashar Tanesoa Tarsisa Telmarys Telsanys Tenuis Toxi Toxika Tyulath Uleneleann Ulseeltar Vasti Venen Venum Vexo Viri Virik Yrrensasar Zinzerena 
 		}
 
 		male_patronym = ""
