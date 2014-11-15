@@ -1,0 +1,52 @@
+#
+# @author Pietrko(Arsakes)
+# @compatibility 2.2
+# @description Empire related events
+# @compatibility 2.2.0
+#
+namespace = empire
+#
+#
+# Clears the decision cooldown
+character_event = {
+    id = empire.0
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = { clr_character_flag = electors_asked_for_help }
+}
+
+# Ask Elector count to join emperor's wars
+# FROM = Emperor 
+# ROOT = Elector Count
+character_event = {
+    id = empire.1
+    is_triggered_only = yes
+    picture = "GFX_evt_emissary"
+    border = GFX_event_normal_frame_war
+    desc = "EVTDESC_EMPIRE_1"
+
+    # join the emperor's wars
+    option = {
+	join_defender_wars = FROM
+        name = "EVTOPT_EMPIRE_1A"
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_EMPIRE_1B"
+        join_attacker_wars = FROM
+        ai_chance = { factor = 1 }
+    }
+    option = {
+        name = "EVTOPT_EMPIRE_1C"
+        join_defender_wars = FROM
+        join_attacker_wars = FROM
+        ai_chance = { factor = 10 }
+    }
+
+    # not today
+    option = {
+        name = "EVTOPT_EMPIRE_1D"
+        ai_chance = { factor = 1 }
+    }
+}

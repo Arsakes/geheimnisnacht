@@ -60,6 +60,11 @@ spriteTypes = {
         }
         # Magic events
 	spriteType = {
+                name = "GFX_evt_spell_hysh2"
+                texturefile = "gfx\\event_pictures\\hysh_spell2.tga"
+                allwaystransparent = yes
+        }
+	spriteType = {
                 name = "GFX_evt_spell_hysh"
                 texturefile = "gfx\\event_pictures\\hysh_spell.tga"
                 allwaystransparent = yes

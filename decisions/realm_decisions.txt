@@ -1,5 +1,53 @@
-decisions = {
+# @author ParadoxDevTeam
+# @modified_by Pietrko(Arsakes)
+# @compatibility 2.2
+# @description Additional (non-vanilla) decisions specific to warhammer
 
+decisions = {
+    ##############################################################
+    # WARHAMMER SPECIFIC
+    ##############################################################
+    # Call for help (for Empire Emperor)  
+    decision_empire_call_help = {
+        is_high_prio = yes
+        potential = {
+            war = yes
+            has_landed_title = e_the_empire
+            NOT = { has_character_flag = electors_asked_for_help }
+        }
+        allow = {
+            age = 16
+            prisoner = no
+            NOT = { trait = in_hiding }
+            # target elector counts (de jure imperial) that are not in Emperor war
+            any_vassal = {
+                higher_tier_than = BARON
+		NOT = { character = ROOT }
+                de_jure_liege = ROOT
+                NOT = { war_with = ROOT }
+            }
+        }
+        effect = {
+            set_character_flag = electors_asked_for_help 
+            any_vassal = {
+                limit = {
+                    # target elector counts (de jure imperial) that are not in Emperor war
+                    higher_tier_than = BARON
+                    NOT = { character = ROOT }
+                    de_jure_liege = ROOT
+                    NOT = { war_with = ROOT }
+                }
+                # ask them to join emperor wars + cooldown reset
+                character_event = { id = empire.1 tooltip = "tooltip_dec_empire_call_help" days = 1 }
+                hidden_tooltip = { character_event = { id = empire.0 days = 90 }}
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            #TODO
+        }
+    }  
+    ##############################################################
     hold_a_epic_tournament  = {
         is_high_prio = yes
         potential = {
@@ -397,13 +445,9 @@ decisions = {
             custom_tooltip = { 
                 text = TT_NOT_UNREFORMED_PAGAN
                 hidden_tooltip = {
-                    NOT = { religion = norse_pagan }
-                    NOT = { religion = tengri_pagan }
-                    NOT = { religion = baltic_pagan }
-                    NOT = { religion = finnish_pagan }
-                    NOT = { religion = aztec }
-                    NOT = { religion = slavic_pagan }
-                    NOT = { religion = west_african_pagan }
+                    NOT = { religion = norscan_gods }
+                    NOT = { religion = northern_gods }
+
                 }
             }
         }
@@ -479,13 +523,8 @@ decisions = {
             custom_tooltip = { 
                 text = TT_NOT_UNREFORMED_PAGAN
                 hidden_tooltip = {
-                    NOT = { religion = norse_pagan }
-                    NOT = { religion = tengri_pagan }
-                    NOT = { religion = baltic_pagan }
-                    NOT = { religion = finnish_pagan }
-                    NOT = { religion = aztec }
-                    NOT = { religion = slavic_pagan }
-                    NOT = { religion = west_african_pagan }
+                    NOT = { religion = norscan_gods }
+                    NOT = { religion = northern_gods }
                 }
             }
         }

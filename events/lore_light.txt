@@ -22,7 +22,7 @@ namespace = hysh
 # Hysh blessing (metaspell, strategic spell)
 character_event = {
     id = hysh.1
-    picture = "GFX_evt_spell_hysh"
+    picture = "GFX_evt_spell_hysh2"
     desc = "EVTDESC_HYSH_1"
     is_triggered_only = yes
 
@@ -140,7 +140,7 @@ character_event = {
 # For character
 character_event = {
     id = hysh.5
-    picture = "GFX_evt_spell_hysh"
+    picture = "GFX_evt_spell_hysh2"
     border = GFX_event_normal_frame_war
     desc = "EVTDESC_HYSH_5"
     

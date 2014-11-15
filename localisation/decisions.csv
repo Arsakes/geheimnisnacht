@@ -11,7 +11,15 @@ ai_race_halfling;;;;;;;;;;;;;;x
 ai_race_chaos_dwarf;;;;;;;;;;;;;;x
 ai_race_dwarf;;;;;;;;;;;;;;x
 ai_race_human;;;;;;;;;;;;;;x
+#
+# REALM DECISION
+#
+decision_empire_call_help;Request Aid from Elector Counts;;;;;;;;;;;;;x
+decision_empire_call_help_desc;In the time of need Elector Counts are meant to provide Emperor with their forces.;;;;;;;;;;;;;x
+tooltip_dec_empire_call_help_desc;Is asked about to help in war.;;;;;;;;;;;;;x
+#
 # spell decisions
+#
 decision_lore_light1;Cast Heal;;;;;;;;;;;;;x
 decision_lore_light1_desc;Attempt to manipulate Hysh to heal the people from injuries and illness.;;;;;;;;;;;;;x
 decision_lore_light2;Banish Demon;;;;;;;;;;;;;x
