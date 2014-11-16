@@ -8,7 +8,7 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Urthok
+			Urthok Kelbor-hal Ker'ngar Nadzybar Niadar Nokad Khrel Kas Oriax Quixos Qux Kaarja Elak Sin Sholen Votheer Terax Varan Xaphan Ren-sar
 		}
 		
 		female_names = {
@@ -27,11 +27,11 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Ae'nar Angrarr Ar'hek B'zekk Ba'ltor Baktra Beelzat Bennkor Em'lon H'gurhutk It'krah K'zarak'era Ka'tren Ke'haza Kh'arek Kr'athul Kreznk Ku'gat Mal'ek Mar'tek Me'kt'han Mel'nak Mig'read N'Kerri N'Kira Na'huk Nai'eth Ne'hut No'rik Ra'nek Ri'nak Si'grat T'argk T'gerak Ta'ryon Te'enar Te'kle Te'nar Te'nka Ty'ria Tz'aarkan Tz'akel Tz'ek't Tzerkan Uk'zal Ur'gua Z'nekra Zu'ltan 
+			Ae'nar Angrarr Ar'hek B'zekk Ba'ltor Baktra Beelzat Bennkor Em'lon H'gurhutk It'krah K'zarak'era Ka'tren Ke'haza Kh'arek Kr'athul Kreznk Ku'gat Mal'ek Mar'tek Me'kt'han Mel'nak Mig'read N'Kerri N'Kira Na'huk Nai'eth Ne'hut No'rik Ra'nek Ri'nak Si'grat T'argk T'gerak Ta'ryon Te'enar Te'kle Te'nar Te'nka Ty'ria Tz'aarkan Tz'akel Tz'ek't Tzerkan Uk'zal Ur'gua Z'nekra Zu'ltan Ak'cogu'thiou'euak Akashneth An'ggrath An'kha'arak Angron Arguthrax Arvax Bazrak Roghax Carron Crull Ekrak Furion Gaur Kraagon Gzrel Hak'vasha Hakk'an'graah Ka'bandha Ka'jagga'nath Kar'voth Karanak Karnikhal Keraz Kha-ak-lash Kha-aksha Khalos Kho'ren Kharn Kor'agar'and Kossolax Krakiota Krieg Azar Kzorgoth Mailokh Scyrak Anak Sek Skara Skarbrand Skchalick Ss'll Sh'karr Umbragg Valk Uraka Az'baramael Urkrathos Uzas Zhufor Vangash'hagash Gorgoth Goroth Ka'naggar'zeroth Paz'rar Garr'rash Kruul Gruul Ruul'eth T'ash Urr'rosh Maladarr
 		}
 		
 		female_names = {
-			Ae'nar Angrarr Ar'hek B'zekk Ba'ltor Baktra Beelzat Bennkor Em'lon H'gurhutk It'krah K'zarak'era Ka'tren Ke'haza Kh'arek Kr'athul Kreznk Ku'gat Mal'ek Mar'tek Me'kt'han Mel'nak Mig'read N'Kerri N'Kira Na'huk Nai'eth Ne'hut No'rik Ra'nek Ri'nak Si'grat T'argk T'gerak Ta'ryon Te'enar Te'kle Te'nar Te'nka Ty'ria Tz'aarkan Tz'akel Tz'ek't Tzerkan Uk'zal Ur'gua Z'nekra Zu'ltan 
+
 		}
 
 		dynasty_title_names = yes
@@ -46,11 +46,11 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Achaugo Athamme Attractus Best-ra Bris'fagors Da-ke Dathazan Dorax Ephatho Fagors Farmulgor Festus Frax Ghaar Ghaar-nogors Ghamon'gor Ghur Ghur-gor Gishtigors Gra Gra-ek Gra-sa Guck Haro-ash Hurllogotsh Khar Khar-nogors Kharnn Kisaruab Kita Kita-sa Krazz'lar Kryp'er Leprad Lornosis Ly'mulgor Lyme Mash'fagors Moldor Morbos Mras Mras-mulgors Mulgors My-da Nogors Ogloth Orgus Pan'de'mic Pestus Phactho Plague Plauge Py'nogors Qhaysh Qhaysh-da Ra Rawrg Ri-gor Salvis Sloth Stocco Tathorshae Thish Thish-ash To-ro Toxaik Ulgu Ulgu-nogors Ulgu'mulgors Wal Wal-tigor Wal'gors Y'boshogosh 
+			Achaugo Athamme Attractus Best-ra Bris'fagors Da-ke Dathazan Dorax Ephatho Fagors Farmulgor Festus Frax Ghaar Ghaar-nogors Ghamon'gor Ghur Ghur-gor Gishtigors Gra Gra-ek Gra-sa Guck Haro-ash Hurllogotsh Khar Khar-nogors Kharnn Kisaruab Kita Kita-sa Krazz'lar Kryp'er Leprad Lornosis Ly'mulgor Lyme Mash'fagors Moldor Morbos Mras Mras-mulgors Mulgors My-da Nogors Ogloth Orgus Pan'de'mic Pestus Phactho Plague Plauge Py'nogors Qhaysh Qhaysh-da Ra Rawrg Ri-gor Salvis Sloth Stocco Tathorshae Thish Thish-ash To-ro Toxaik Ulgu Ulgu-nogors Ulgu'mulgors Wal Wal-tigor Wal'gors Y'boshogosh Anathrax Anexthrok Bile Bubonicus Botchulaz Cachexis Colathrax Corpulax Dhornurgh Epidemius Festardius Glutgora Grulgor Gurglish Herperitus Mangar Infectus Ku'gath Mamon Lurgon Mephidast Mortaron Necrosius Orad Paramyx Pestiliance Purgor Scabeiathrax Shub'luth'gug Skyrak Typhus Ulkair Ussax Dathik Kel-gor Mar-ek Ki-gor
 		}
 		
 		female_names = {
-			Achaugo Athamme Attractus Best-ra Bris'fagors Da-ke Dathazan Dorax Ephatho Fagors Farmulgor Festus Frax Ghaar Ghaar-nogors Ghamon'gor Ghur Ghur-gor Gishtigors Gra Gra-ek Gra-sa Guck Haro-ash Hurllogotsh Khar Khar-nogors Kharnn Kisaruab Kita Kita-sa Krazz'lar Kryp'er Leprad Lornosis Ly'mulgor Lyme Mash'fagors Moldor Morbos Mras Mras-mulgors Mulgors My-da Nogors Ogloth Orgus Pan'de'mic Pestus Phactho Plague Plauge Py'nogors Qhaysh Qhaysh-da Ra Rawrg Ri-gor Salvis Sloth Stocco Tathorshae Thish Thish-ash To-ro Toxaik Ulgu Ulgu-nogors Ulgu'mulgors Wal Wal-tigor Wal'gors Y'boshogosh 
+
 		}
 
 		dynasty_title_names = yes
@@ -65,7 +65,7 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Slythiss
+			Slythiss Abyssa Amnaich Arhendros Asteroth Balzropht Braskh'har Caduceia Charybdia Demetrius Emeli Duboir Eleaxus Elyssar'sirath Emmesh-aiye Evenus Favian Hemsk Av'lyd Hex'tan Hexagalimere Zarghan Jihar K'alith Kaharhaedros Kanani Kyriss Laesydra Lesh'jae'thi'hah Mindarus Luxuria N'Kari Shyak Lilesh Xavaes Sssair Oros Vorarr Yria Zarakynel Zhan'naoshdaerg'gan Luxus Lux Heresh Avas'syl
 		}
 		
 		female_names = {
@@ -84,7 +84,7 @@ daemonic_group = {
 		color = { 0.3 0.6 0.3 }
 
 		male_names = {
-			Tzirr
+			Tzirr Abraxes Aetaos'rau'keres Ahzek Ghargatuloth Hazriah Ix'thar'ganix K'rix'xi'kra K'tzis'trix'a'tzar Akhor'menet Khrove M'Kachan Malfallax Marabas Mk'ell Mordeghai Mutatismutandis N'eemz Phokulozortis Raezazel Sanakht Sar'tir Sektoth Atum Sethselameth Skra'kalichaust Soh'F'Epok T'zzarkon Tarkh'ax Ti'Lath Tolbek Tzax'lan-tar Tzenahk Vorchiss Xyn'Goran Zarathur Azar'arrak'a'zor Tan'zur'rek Ash'har'zzurek Jul'harr'xxen Xan-tar Akhor Kacha-tar Kach'amet Kelk'azar
 		}
 		
 		female_names = {
