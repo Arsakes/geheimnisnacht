@@ -1,4 +1,4 @@
-max_provinces = 2500
+max_provinces = 2450
 #sea_starts = 1820 # Old mechanics
 definitions = "definition.csv"
 provinces = "provinces.bmp"

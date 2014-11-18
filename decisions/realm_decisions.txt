@@ -20,27 +20,32 @@ decisions = {
             prisoner = no
             NOT = { trait = in_hiding }
             # target elector counts (de jure imperial) that are not in Emperor war
-            any_vassal = {
-                higher_tier_than = BARON
-		NOT = { character = ROOT }
-                de_jure_liege = ROOT
-                NOT = { war_with = ROOT }
+            hidden_tooltip = {
+                any_vassal = {
+                    higher_tier_than = BARON
+		    NOT = { character = ROOT }
+                    de_jure_liege = ROOT
+                    NOT = { war_with = ROOT }
+                }
             }
+            custom_tooltip = { text = "tooltip_dec_empire_call_help" }
         }
         effect = {
             set_character_flag = electors_asked_for_help 
             any_vassal = {
-                limit = {
-                    # target elector counts (de jure imperial) that are not in Emperor war
-                    higher_tier_than = BARON
-                    NOT = { character = ROOT }
-                    de_jure_liege = ROOT
-                    NOT = { war_with = ROOT }
+                # target elector counts (de jure imperial) that are not in Emperor war
+                if = {
+                    limit = {
+                        higher_tier_than = BARON
+                        NOT = { character = ROOT }
+                        de_jure_liege = ROOT
+                        NOT = { war_with = ROOT }
+                    }
+                    # ask them to join emperor wars + cooldown reset
+                    character_event = { id = empire.1 days = 1 }
                 }
-                # ask them to join emperor wars + cooldown reset
-                character_event = { id = empire.1 tooltip = "tooltip_dec_empire_call_help" days = 1 }
-                hidden_tooltip = { character_event = { id = empire.0 days = 90 }}
             }
+            hidden_tooltip = { character_event = { id = empire.0 days = 90 }}
         }
         ai_will_do = {
             factor = 1

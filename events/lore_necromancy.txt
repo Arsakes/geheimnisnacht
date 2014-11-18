@@ -15,7 +15,6 @@ namespace = necromancy
 # there are three undead legions to summon depending
 # on mage power
 #
-#
 character_event = {
     id = necromancy.1
     desc = "EVTDESC_NECROMANCY_1"
@@ -119,6 +118,41 @@ character_event = {
             location = { remove_province_modifier = dead_raised }
         }
         location = { add_province_modifier = { name = depopulated duration = 18250 }}  # 50 years 
+    }
+}
+
+
+##################################################
+#
+# BATTLE SPELLS 
+#
+##################################################
+
+
+# Raise portion of your army after battle
+character_event = {
+    id = necromancy.4
+    desc = "EVTDESC_NECROMANCY_4"
+    picture = "GFX_evt_spell_necromancy"
+    is_triggered_only = yes
+
+    trigger = {
+       in_command = yes
+       is_alive = yes
+       OR = {
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+       }
+       trait = lore_necromancy
+    }
+
+    option = {
+        #TODO apply effects on armies & characters in province
+        name = "EVTOPT_NECROMANCY_4A"
+        troops = 0.07
+        if = { limit = { trait = magic_power_lord } troops = 0.03 } 
+        if = { limit = { trait = magic_power_archmaster } troops = 0.03 } 
     }
 }
 

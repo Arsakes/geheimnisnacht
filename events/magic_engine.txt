@@ -818,245 +818,202 @@ character_event = {
 #
 #########################################################
 #
-# magic_potential_1 : low
-# magic_potential_2 : medium
-# magic_potential_3 : high
+# Eeach character magic potenttial is described by two
+# signs from the set { 0, A, B } 
+# Let name those XY = { 00, 0A, A0, BA, AB, AA, BB, B0, 0B }
 #
+# Genetic code is writen in value of variable "magic_potential" 
+# genetic code: variable value
+#
+# Two genetic markers
+# x_magic_gene = { 0,1,2 } - mother 'magic gene'
+# y_magic_gene = { 0,1,2 } - father 'magic gene'
+#
+# This is main on_birth event
+#
+# ROOT = child 
 character_event = {
     id = magicengine.20
-    desc = "Inheritance of magic potential" #FIXME delte desc
     is_triggered_only = yes
-    hide_windw = yes 
-
+    hide_windw = yes  
+    
     immediate = {
-        # case 1,1
-        if = {
-            limit = {
-                AND = {
-                    father = { has_character_flag = magic_potential_1 }
-                    mother = { has_character_flag = magic_potential_1 }
-                }
-            }
-            random_list = {
-                29 = { }
-                55 = { set_character_flag = magic_potential_1 }
-                12 = { set_character_flag = magic_potential_2 }
-                4 = { set_character_flag = magic_potential_3 }
-            }
-        }
-        # case 2,2
-        if = {
-            limit = {
-                AND = {
-                    father = { has_character_flag = magic_potential_2 }
-                    mother = { has_character_flag = magic_potential_2 }
-                }
-            }
-            random_list = {
-                3 = { }
-                32 = { set_character_flag = magic_potential_1 }
-                53 = { set_character_flag = magic_potential_2 }
-                12 = { set_character_flag = magic_potential_3 }
-            }
-        }
-        # case 3,3
-        if = {
-            limit = {
-                AND = {
-                    father = { has_character_flag = magic_potential_3 }
-                    mother = { has_character_flag = magic_potential_3 }
-                }
-            }
-            random_list = {
-                1 = { }
-                3 = { set_character_flag = magic_potential_1 }
-                36 = { set_character_flag = magic_potential_2 }
-                60 = { set_character_flag = magic_potential_3 }
-            }
+        # fire fixing events for ppl without genetic markers
+        father = { character_event = { id = magicengine.21 }}
+        mother = { character_event = { id = magicengine.21 }}
 
-        }
-        # Mixed cases
-        # case 1,2
-        if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_1 }
-                        mother = { has_character_flag = magic_potential_2 }
-                    }
-                    AND = {
-                        father = { has_character_flag = magic_potential_2 }
-                        mother = { has_character_flag = magic_potential_1 }
-                    }
-                }
-            }
-            random_list = {
-                19 = { }
-                40 = { set_character_flag = magic_potential_1 }
-                32 = { set_character_flag = magic_potential_2 }
-                9 = { set_character_flag = magic_potential_3 }
-            }
-        }
-        # case 1,3
-        if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_1 }
-                        mother = { has_character_flag = magic_potential_3 }
-                    }
-                    AND = {
-                        father = { has_character_flag = magic_potential_3 }
-                        mother = { has_character_flag = magic_potential_1 }
-                    }
-                }
-            }
-            # do stuff
-            random_list = {
-                17 = { }
-                28 = { set_character_flag = magic_potential_1 }
-                31 = { set_character_flag = magic_potential_2 }
-                24 = { set_character_flag = magic_potential_3 }
-            }
+        # send event that make parents to pass their genes
+        father = { character_event = { id = magicengine.22 }}
+        mother = { character_event = { id = magicengine.22 }}
 
+        # send event that inform parents about magic power of child
+        if = { 
+            limit = { 
+               father = {
+                   trait = magic_power_adept
+                   trait = magic_power_magister
+                   trait = magic_power_lord
+                   trait = magic_power_archmaster
+               }
+            }
+            check_variable = { which = "x_magic_gene" value = 1 }
+            check_variable = { which = "y_magic_gene" value = 1 }
+            father = { character_event = { id = magicengine.23 days = 3 }}
         }
-        # 2,3
+        # send event that inform parents about magic power of child
+        if = { 
+            limit = { 
+               mother = {
+                   trait = magic_power_adept
+                   trait = magic_power_magister
+                   trait = magic_power_lord
+                   trait = magic_power_archmaster
+               }
+               check_variable = { which = "x_magic_gene" value = 1 }
+               check_variable = { which = "y_magic_gene" value = 1 }
+            }
+            mother = { character_event = { id = magicengine.23 days = 3 }}
+        }
+    }
+}
+# Set the gene marker for wizards that have traits but doesn't have magic genes
+# THIS IS COMPLETELY RANDOM
+character_event = {
+    id = magicengine.21
+    is_triggered_only = yes
+    hide_windw = yes  
+    
+    immediate = {
         if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_2 }
-                        mother = { has_character_flag = magic_potential_3 }
-                    }
-                    AND = {
-                        father = { has_character_flag = magic_potential_3 }
-                        mother = { has_character_flag = magic_potential_2 }
-                    }
+            limit = { 
+                OR = {
+                   trait = magic_power_adept
+                   trait = magic_power_magister
+                   trait = magic_power_lord
+                   trait = magic_power_archmaster
                 }
+                is_variable_equal = { which = "x_magic_gene" value = 0 }
+                is_variable_equal = { which = "y_magic_gene" value = 0 }
             }
-            # do stuff
             random_list = {
-                4 = { }
-                20 = { set_character_flag = magic_potential_1 }
-                42 = { set_character_flag = magic_potential_2 }
-                34 = { set_character_flag = magic_potential_3 }
+                50 = { set_variable = { which = "x_magic_gene" value = 1 }}
+                50 = { set_variable = { which = "x_magic_gene" value = 2 }}
             }
-        }
-        # case of only one parent being mage
-        # 1,0
-        if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_1 }
-                        mother = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                    AND = {
-                        mother = { has_character_flag = magic_potential_1 }
-                        father = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                }
-            }
-            # do stuff
             random_list = {
-                49 = { }
-                39 = { set_character_flag = magic_potential_1 }
-                11 = { set_character_flag = magic_potential_2 }
-                1 = { set_character_flag = magic_potential_3 }
-            }
-
-        }
-        # 2,0
-        if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_1 }
-                        mother = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                    AND = {
-                        mother = { has_character_flag = magic_potential_1 }
-                        father = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                }
-            }
-            # do stuff
-            random_list = {
-                30 = { }
-                34 = { set_character_flag = magic_potential_1 }
-                24 = { set_character_flag = magic_potential_2 }
-                12 = { set_character_flag = magic_potential_3 }
-            }
-
-        }
-        # 3,0
-        if = {
-            limit = {
-                OR = { 
-                    AND = {
-                        father = { has_character_flag = magic_potential_1 }
-                        mother = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                    AND = {
-                        mother = { has_character_flag = magic_potential_1 }
-                        father = { 
-                            NOT = { has_character_flag = magic_potential_1 }
-                            NOT = { has_character_flag = magic_potential_2 }
-                            NOT = { has_character_flag = magic_potential_3 }
-                        }
-                    }
-                }
-            }
-            # do stuff
-            random_list = {
-                23 = { }
-                33 = { set_character_flag = magic_potential_1 }
-                24 = { set_character_flag = magic_potential_2 }
-                20 = { set_character_flag = magic_potential_3 }
-            }
-
-        }
-        # TODO make some adjustments for elves and other races maybe?
-        # case of non-magical parents (both)
-        # 0,0
-        if = {
-            limit = {
-               NOT = { has_character_flag = magic_potential_1 }
-               NOT = { has_character_flag = magic_potential_2 }
-               NOT = { has_character_flag = magic_potential_3 }
-            }
-            # do stuff
-            random_list = {
-                88 = { }
-                 8 = { set_character_flag = magic_potential_1 }
-                 3 = { set_character_flag = magic_potential_2 }
-                 1 = { set_character_flag = magic_potential_3 }
+                50 = { set_variable = { which = "y_magic_gene" value = 1 }}
+                50 = { set_variable = { which = "y_magic_gene" value = 2 }}
             }
         }
     }
+}
+# passing genes
+character_event = {
+    id = magicengine.22
+    is_triggered_only = yes
+    hide_windw = yes 
+
+    # x_magic_gene - female
+    # y_magic_gene - male
+    immediate = {
+       # PASS GENE FOR FEMALES (SAVES GENE TO x_magic_gene OF CHILD)
+       if = {
+           limit = { is_female = yes } 
+           # chose one of two version of gene and save it as  X to child
+           random_list = {
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 2 }}
+                   }
+               }
+               # save as y
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 2 }}
+                   }
+               }
+           }
+           # Mutation
+           random_list = {
+               97 = {}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 0 }}}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 1 }}}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 2 }}}
+           }
+
+       }
+       # PASS GENE FOR MALES (SAVES GENE TO y_magic_gene OF CHILD)
+       if = {
+           limit = { is_female = no } 
+           # chose one of two version of gene and save it as  Y to child
+           random_list = {
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 2 }}
+                   }
+               }
+               # save as y
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 2 }}
+                   }
+               }
+           }
+           # Mutation
+           random_list = {
+               97 = {}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 0 }}}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 1 }}}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 2 }}}
+           }
+       }
+       # Enough of this
+       # now we have both x_magic_gene, y_magic_gene for FROM (child)
+       # Randomisation
+}
+
+# Children shows magic potential (Inform parents)
+character_event = {
+    id = magicengine.23
+    is_triggered_only = yes # triggered from magicengine.20
+    desc = "EVTDESC_MAGICENGINE_23"
+  
     option = {
         name = OK
     }
 }
-
-

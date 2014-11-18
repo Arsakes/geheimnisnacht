@@ -30,23 +30,39 @@ character_event = {
     option = {
 	join_defender_wars = FROM
         name = "EVTOPT_EMPIRE_1A"
-        ai_chance = { factor = 1 }
+        FROM = { character_event = { id = empire.2 } }
+        ai_chance = { factor = 0 }
     }
     option = {
         name = "EVTOPT_EMPIRE_1B"
         join_attacker_wars = FROM
-        ai_chance = { factor = 1 }
+        FROM = { character_event = { id = empire.2 } }
+        ai_chance = { factor = 0 }
     }
     option = {
         name = "EVTOPT_EMPIRE_1C"
         join_defender_wars = FROM
         join_attacker_wars = FROM
+        FROM = { character_event = { id = empire.2 } }
         ai_chance = { factor = 10 }
     }
-
     # not today
     option = {
         name = "EVTOPT_EMPIRE_1D"
         ai_chance = { factor = 1 }
+    }
+}
+
+# Inform liege that person has joined the war
+character_event = {
+    id = empire.2
+    is_triggered_only = yes
+    picture = "GFX_evt_emissary"
+    border = GFX_event_normal_frame_war
+    desc = "EVTDESC_EMPIRE_2"
+   
+    option = {
+        # TODO add opinion here 
+        name = OK
     }
 }

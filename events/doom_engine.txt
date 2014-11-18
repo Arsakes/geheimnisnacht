@@ -122,7 +122,8 @@ province_event = {
 #
 #
 #
-province_event = { #works
+#works
+province_event = { 
     id = doomengine.1
     #name = "EVTNAME_DOOMENGINE_1"
     desc = "EVTDESC_DOOMENGINE_1"
@@ -189,6 +190,10 @@ province_event = {
 # ROOT = general that is receiving daemon help
 #
 # should be send to character to receive daemons hordes
+#
+# List of provinces with daemonic legions
+#
+#
 character_event = {
     id = doomengine.10
     desc = "EVTOPT_DOOMENGINE_10"
@@ -197,12 +202,18 @@ character_event = {
     capable_only = yes
 
     trigger = {
+        # to be fast
+        has_global_flag = chaos_invasion
         OR = {
            has_global_flag = doom_high
            has_global_flag = doom_very_high
         }
-
+        any_war = {
+           using_cb = chaos_invasion
+        }
+        is_primary_war_attacker = yes
     } 
+
     mean_time_to_happen = {
         days = 60
         modifier = {
@@ -212,13 +223,13 @@ character_event = {
     }
 
     immediate = { 
-       # Each daemon legion costs 1 doom counter
+       # Each daemon summoned this way legion costs 1 doom counter
        change_variable = { which = "doom_counter" value = -1 }
     }
     option = {
         name = "EVTOPT_DOOMENGINE_10A"
-        # change modifier resistance to ravaged by chaos
-        location = {
+        # 1000 troops
+        capital_scope = {
 	    ROOT = {
 	        spawn_unit = {
 		    province = PREV
@@ -227,10 +238,9 @@ character_event = {
 		    earmark = daemon_legion
 		    attrition = 1.0
 		    troops = { 
-		        archers = { 100 100 } 
-		        light_infantry = { 350 350 } 
-		        heavy_infantry = { 100 100 } 
-		        pikemen = { 50 50 } 
+		        archers = { 200 200 } 
+		        light_infantry = { 550 550 } 
+		        heavy_infantry = { 250 250 } 
 		    }
 	        }
 	    }
@@ -238,6 +248,36 @@ character_event = {
     }
 }
 # Disbanding
+character_event = {
+    id = doomengine.11
+    desc = "EVTOPT_DOOMENGINE_11"
+    picture = "GFX_evt_demons"
+    min_age = 16
+    capable_only = yes
+
+    trigger = {
+        OR = {
+            has_global_flag = doom_low
+            has_global_flag = doom_medium
+        }
+        has_earmarked_regiments = daemon_legion
+    } 
+
+    mean_time_to_happen = {
+        days = 90
+        modifier = {
+           factor = 0.33
+           has_global_flag = doom_low
+        }
+    }
+
+    option = {
+        name = "EVTOPT_DOOMENGINE_11A"
+        # Disband
+        disband_event_forces = daemon_legion
+    }
+}
+
 ##################################################
 #
 # Here should be events governing the conflicts

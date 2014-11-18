@@ -16,7 +16,7 @@ ai_race_human;;;;;;;;;;;;;;x
 #
 decision_empire_call_help;Request Aid from Elector Counts;;;;;;;;;;;;;x
 decision_empire_call_help_desc;In the time of need Elector Counts are meant to provide Emperor with their forces.;;;;;;;;;;;;;x
-tooltip_dec_empire_call_help_desc;Is asked about to help in war.;;;;;;;;;;;;;x
+tooltip_dec_empire_call_help;Elector counts are in position to help.;;;;;;;;;;;;;x
 #
 # spell decisions
 #

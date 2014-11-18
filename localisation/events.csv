@@ -1,5 +1,12 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #
+# namespace = empire
+EVTDESC_EMPIRE_1;The Emperor [From.GetBestName] send you the letter requesting help in [From.GetHerHis] wars, What will be your response?;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1A;Join [From.GetHerHis] defensive wars;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1B;Join [From.GetHerHis] offensive wars;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1C;Join all of [From.GetHerHis] wars;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1D;Turn back on your Emperor;;;;;;;;;;;;;x
+#
 # namespace = temptation
 temptation.1;The Embrace of Uncle Nurgle;;;;;;;;;;;;;x
 temptation.1_desc;The Plague Father, Fly Lord, Great Corruptor, the Master of Pestilence... Grandfather Nurgle has many titles. Within your very mind and soul you hear the maddened buzzing of a billion flies, and a chorus of choking, coughing voices whispering in your ears. They are calling you to join them in the endless bliss of utter pestilence and decay, to cast aside the facade of health and embrace the utter rottenness that is the inevitable fate of all life.;;;;;;;;;;;;;x
@@ -52,6 +59,10 @@ EVTOPT_RACIAL_3A;Aaaaaa...;;;;;;;;;;;;;x
 EVTNAME_DOOMENGINE_1;Signs of Armageddon;;;;;;;;;;;;;x
 EVTDESC_DOOMENGINE_1;The Signs on heaven and earth are telling about forecoming Armageddon. Mutants attacks are more frequent and people are telling stories about strange ilnesses that depopulated whole villages...;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_1A;Yes indeed something is happening...;;;;;;;;;;;;;x
+EVTDESC_DOOMENGINE_10;The Power of Dark Gods is rising. Daemonic Legions are enetering this world to spread destruction in the name of Gods. The Legion join your forces to help you in your crusade...;;;;;;;;;;;;;x
+EVTOPT_DOOMENGINE_10A;The World will Fall!;;;;;;;;;;;;;x
+EVTDESC_DOOMENGINE_11;You feel that influence of Dark powers is getting weaker with each day. The Daemonic forces that march with you slowly dissapear.;;;;;;;;;;;;;x
+EVTOPT_DOOMENGINE_11A;Why have you forsaken me!;;;;;;;;;;;;;x
 EVTDESC_DOOMENGINE_20;The Unholy crusade has begun! The world will tremble! The believers of false gods will be sink in their blood!!;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_20A;For glory!;;;;;;;;;;;;;x
 EVTDESC_DOOMENGINE_21;The Armies of Chaos march through the world spreading destruction in the name of their Dark Gods. The Doom is coming... In such conflict One must take a side..;;;;;;;;;;;;;x
@@ -237,6 +248,8 @@ TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two 
 # namespace = necromancy
 EVTDESC_NECROMANCY_1;As you intone the dread syllables handed down from Nagash himself, you feel the winds of magic surge around you. This arcane enegery breathes unlife into the dead creatures that lie before you. Long dead cadavers claw themselves from the ground while recently dead bodies prop themselves up on rotting limbs. These undead creatures now await your command.;;;;;;;;;;;;;x
 EVTDESC_NECROMANCY_3;Using the power of Dhar you summon a wind of deadly dark magic, that kills anyone that it encounters. The victims experience extreme agony as the spell rips their very soul form their body, leacing them a lifeless husk.;;;;;;;;;;;;;x
+EVTDESC_NECROMANCY_4;Using the dark powers you raise soldiers that have fallen in battle from the dead. Now they have honour to serve you again in undeath.;;;;;;;;;;;;;x
+EVTDESC_NECROMANCY_4A;Rise and serve me forever!;;;;;;;;;;;;;x
 #
 #
 # SPECIAL MAGIC LOCALISATION

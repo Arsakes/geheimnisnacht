@@ -8,50 +8,54 @@
 #
 # no magic potential is marked by no magic potential
 #
-# Magic Power
+# Magic Education traits
 magic_power_adept = {
-	opposites = {
-		magic_power_lord
-		magic_power_archmaster
-		magic_power_magister
-	}
-        learning = 1
-	random = no
+        education = yes
+        potential = { trait = creature_human }
+	#opposites = {
+	#	magic_power_lord
+	#	magic_power_archmaster
+	#	magic_power_magister
+	#}
+        learning = 2
+	#random = no
 }
 magic_power_magister = {
-	opposites = {
-		magic_power_adept
-		magic_power_archmaster
-		magic_power_lord
-	}
-	health = 0.5	# magic prolongs life nobody knows why
-	immortal = yes
-        learning = 2
+        education = yes
+        potential = { trait = creature_human }
+	#opposites = {
+	#	magic_power_adept
+	#	magic_power_archmaster
+	#	magic_power_lord
+	#}
+        learning = 4
 	monthly_character_prestige = 0.2
-	random = no
+	#random = no
 }
 magic_power_lord = {
-	opposites = {
-		magic_power_adept
-		magic_power_archmaster
-		magic_power_magister
-	}
+        education = yes
+        potential = { always = no }
+	#opposites = {
+	#	magic_power_adept
+	#	magic_power_archmaster
+	#	magic_power_magister
+	#}
 	monthly_character_prestige = 0.4
 	immortal = yes
-	health = 0.5	# magic prolongs life nobody knows why
-        learning = 3
-	random = no
+        learning = 4
+	#random = no
 		
 }
 magic_power_archmaster = {
-	opposites = {
-		magic_power_adept
-		magic_power_lord
-		magic_power_magister
-	}
-	health = 0.5	# magic prolongs life nobody knows why
+        education = yes
+        potential = { always = no }
+	#opposites = {
+	#	magic_power_adept
+	#	magic_power_lord
+	#	magic_power_magister
+	#}
 	immortal = yes
-        learning = 4
+        learning = 5
 	monthly_character_prestige = 0.6
 	random = no
 }
