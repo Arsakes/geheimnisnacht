@@ -32,6 +32,12 @@ spriteTypes = {
                 allwaystransparent = yes
         }
         # Chaos gods
+       		spriteType = {
+                name = "GFX_evt_daemons"
+                texturefile = "gfx\\event_pictures\\daemons.tga"
+                allwaystransparent = yes
+        }
+
 	spriteType = {
                 name = "GFX_evt_slaanesh"
                 texturefile = "gfx\\event_pictures\\slaanesh.tga"

@@ -197,7 +197,7 @@ province_event = {
 character_event = {
     id = doomengine.10
     desc = "EVTOPT_DOOMENGINE_10"
-    picture = "GFX_evt_demons"
+    picture = "GFX_evt_daemons"
     min_age = 16
     capable_only = yes
 
@@ -251,7 +251,7 @@ character_event = {
 character_event = {
     id = doomengine.11
     desc = "EVTOPT_DOOMENGINE_11"
-    picture = "GFX_evt_demons"
+    picture = "GFX_evt_daemons"
     min_age = 16
     capable_only = yes
 

@@ -154,3 +154,19 @@ reincarnation = {
 	customizer = no
 	random = no
 }
+
+in_hiding = {
+	potential = {
+		prisoner = no
+	}
+
+	monthly_character_prestige = -2
+	diplomacy = -5
+	vassal_opinion = -10
+	
+	in_hiding = yes
+
+	customizer = no
+	random = no
+}
+

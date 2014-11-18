@@ -18,6 +18,7 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
+		        NOT = { check_variable = { which = "state_army" value = 5 } }
 		}
 		trigger = { always = yes }
 		gold_cost = 0
@@ -33,9 +34,10 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
+		        check_variable = { which = "state_army" value = 5 }
+		        NOT = { FROM = { check_variable = "state_army" value = 10 }}
 		}
-		trigger = { FROM = { check_variable = "state_army" value = 5 }}
-		upgrades_from = ca_imperial_army_0
+		trigger = { always = yes }
 		gold_cost = 0
 		build_time = 0
                 retinuesize = 250 # 50% of full retinues
@@ -49,13 +51,15 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
+		        check_variable = { which = "state_army" value = 10 }
+		        NOT = { FROM = { check_variable = "state_army" value = 20 }}
 		}
-		trigger = { FROM = { check_variable = "state_army" value = 10 }}
-		upgrades_from = ca_imperial_army_1
+		trigger = { always = yes }
 		gold_cost = 0
 		build_time = 0
-                retinuesize = 250
+                retinuesize = 500
 		ai_creation_factor = 200
+
 		extra_tech_building_start = 0.0		
         }
         # 2k
@@ -65,12 +69,13 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
+		        FROM = { check_variable = "state_army" value = 20 }
+		        NOT = { FROM = { check_variable = "state_army" value = 30 }}
 		}
-		trigger = { FROM = { check_variable = "state_army" value = 20 }}
-		upgrades_from = ca_imperial_army_2
+		trigger = { always = yes }
 		gold_cost = 0
 		build_time = 0
-                retinuesize = 500
+                retinuesize = 1000
 		ai_creation_factor = 200
 		extra_tech_building_start = 0.0		
         }
@@ -81,12 +86,13 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
+		        FROM = { check_variable = "state_army" value = 30 }
+		        NOT = { FROM = { check_variable = "state_army" value = 40 }}
 		}
-		trigger = { FROM = { check_variable = "state_army" value = 30 }}
-		upgrades_from = ca_imperial_army_3
+		trigger = { always = yes }
 		gold_cost = 0
 		build_time = 0
-                retinuesize = 500
+                retinuesize = 1500
 		ai_creation_factor = 200
 		extra_tech_building_start = 0.0		
         }
@@ -97,22 +103,15 @@ castle = {
 			culture_group = imperial_group
 			is_capital = yes
 			FROM = { has_landed_title = e_the_empire }
-		        FROM = { check_variable = "state_army" value = 50 }
+		        FROM = { check_variable = "state_army" value = 40 }
 		}
-		upgrades_from = ca_imperial_army_4
+		trigger = { always = yes }
 		gold_cost = 0
 		build_time = 0
-                retinuesize = 1000
+                retinuesize = 2000
 		ai_creation_factor = 200
 		extra_tech_building_start = 0.0		
         }
-        # 7k
-
-
-
-
-
-
         #################################################################################
         # Duke & Count army headquatores
 	ca_imperial_state_0 = {

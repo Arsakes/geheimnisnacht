@@ -131,13 +131,13 @@ ca_imperial_barracks_3;Large Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_4;Minor Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_5;Major Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_6;Main Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_stables_1_desc;There are stables of Knight Order in this settlement. Orders both secular and religious provide Imperial army with armoured knights.;;;;;;;;;;;;;x
-ca_imperial_stables_1;Small Knightly Order Barracks;;;;;;;;;;;;;x
-ca_imperial_stables_2;Medium Knightly Order Barracks;;;;;;;;;;;;;x
-ca_imperial_stables_3;Large Knightly Order Barracks;;;;;;;;;;;;;x
-ca_imperial_stables_4;Minor Knightly Order Seat;;;;;;;;;;;;;x
-ca_imperial_stables_5;Major Knightly Order Seat;;;;;;;;;;;;;x
-ca_imperial_stables_6;Main Knightly Order Seat;;;;;;;;;;;;;x
+ca_imperial_stable_1_desc;There are stables of Knight Order in this settlement. Orders both secular and religious provide Imperial army with armoured knights.;;;;;;;;;;;;;x
+ca_imperial_stable_1;Small Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stable_2;Medium Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stable_3;Large Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stable_4;Minor Knightly Order Seat;;;;;;;;;;;;;x
+ca_imperial_stable_5;Major Knightly Order Seat;;;;;;;;;;;;;x
+ca_imperial_stable_6;Main Knightly Order Seat;;;;;;;;;;;;;x
 # BRETONNIA
 ca_imperial_militia_1_desc;In the absence of proper infrastructure or trustworthy vassals, it can be necessary to levy the peasantry into service. Although poor in combat, it is better than nothing.;;;;;;;;;;;;;x
 ca_imperial_free_1;Free Company;;;;;;;;;;;;;x
