@@ -7,48 +7,37 @@ decisions = {
     ##############################################################
     # WARHAMMER SPECIFIC
     ##############################################################
-    # Call for help (for Empire Emperor)  
-    decision_empire_call_help = {
+    # For Empire Emperor)  
+    decision_empire_count_army = {
         is_high_prio = yes
         potential = {
-            war = yes
             has_landed_title = e_the_empire
-            NOT = { has_character_flag = electors_asked_for_help }
+            NOT = { has_character_flag = state_troops_counted }
         }
         allow = {
             age = 16
             prisoner = no
-            NOT = { trait = in_hiding }
             # target elector counts (de jure imperial) that are not in Emperor war
-            hidden_tooltip = {
-                any_vassal = {
-                    higher_tier_than = BARON
-		    NOT = { character = ROOT }
-                    de_jure_liege = ROOT
-                    NOT = { war_with = ROOT }
-                }
-            }
             custom_tooltip = { text = "tooltip_dec_empire_call_help" }
         }
         effect = {
-            set_character_flag = electors_asked_for_help 
+            set_character_flag = state_troops_counted 
+            set_variable = { which = "state_troops" value = 0 }
             any_vassal = {
                 # target elector counts (de jure imperial) that are not in Emperor war
-                if = {
-                    limit = {
-                        higher_tier_than = BARON
-                        NOT = { character = ROOT }
-                        de_jure_liege = ROOT
-                        NOT = { war_with = ROOT }
-                    }
-                    # ask them to join emperor wars + cooldown reset
-                    character_event = { id = empire.1 days = 1 }
+                limit = {
+                    higher_tier_than = DUKE
+                    NOT = { character = ROOT }
+                    de_jure_liege = ROOT
+                    NOT = { war_with = ROOT }
                 }
+                # ask them to provide state army
+                character_event = { id = empire.1 days = 1 }
             }
             hidden_tooltip = { character_event = { id = empire.0 days = 90 }}
         }
         ai_will_do = {
-            factor = 1
+            factor = 1000
             #TODO
         }
     }  

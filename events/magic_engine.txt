@@ -1005,6 +1005,7 @@ character_event = {
        # Enough of this
        # now we have both x_magic_gene, y_magic_gene for FROM (child)
        # Randomisation
+    }
 }
 
 # Children shows magic potential (Inform parents)

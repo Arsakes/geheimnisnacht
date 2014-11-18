@@ -123,13 +123,22 @@ ca_halfling_vigilant_1;Vigilant Guard;;;;;;;;;;;;;x
 ca_halfling_vigilant_1_desc;Sharp-eyed halflings are recruited and trained as scouts and guards. Specialising in archery, some brave halflings also learn to ride ponies into battle, called Hobilars.;;;;;;;;;;;;;x
 ca_halfling_great_1;Great Militia;;;;;;;;;;;;;x
 ca_halfling_great_1_desc;Rather than forcing halflings into long, brunchless days of training, it is possible to simply drag as many as possible from their homes at the time of crisis. The effect of a great many angry, hungry halflings defending their dinners is not to be underestimated.;;;;;;;;;;;;;x
-ca_imperial_barracks_1;Imperial Barracks;;;;;;;;;;;;;x
+# EMPIRE BUILDINGS
 ca_imperial_barracks_1_desc;A garrison of household troops helps protect the castle and fight in the field. Proper Imperial fashion tends to favour a strong army of infatry, with supporting artillery and cavalry.;;;;;;;;;;;;;x
-ca_imperial_barracks_2;Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_barracks_3;Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_barracks_4;Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_barracks_5;Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_militia_1;Imperial Militia;;;;;;;;;;;;;x
+ca_imperial_barracks_1;Small Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_barracks_2;Medium Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_barracks_3;Large Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_barracks_4;Minor Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_barracks_5;Major Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_barracks_6;Main Imperial Barracks;;;;;;;;;;;;;x
+ca_imperial_stables_1_desc;There are stables of Knight Order in this settlement. Orders both secular and religious provide Imperial army with armoured knights.;;;;;;;;;;;;;x
+ca_imperial_stables_1;Small Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stables_2;Medium Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stables_3;Large Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stables_4;Minor Knightly Order Seat;;;;;;;;;;;;;x
+ca_imperial_stables_5;Major Knightly Order Seat;;;;;;;;;;;;;x
+ca_imperial_stables_6;Main Knightly Order Seat;;;;;;;;;;;;;x
+# BRETONNIA
 ca_imperial_militia_1_desc;In the absence of proper infrastructure or trustworthy vassals, it can be necessary to levy the peasantry into service. Although poor in combat, it is better than nothing.;;;;;;;;;;;;;x
 ca_imperial_free_1;Free Company;;;;;;;;;;;;;x
 ca_imperial_free_1_desc;The local levy are combined with sellswords and adventurers, creating a cheap yet effective army that can be raised at a moments notice. The high proportion of 'former' bandits, pirates, and criminals means that the levies possess some skill and courage.;;;;;;;;;;;;;x
