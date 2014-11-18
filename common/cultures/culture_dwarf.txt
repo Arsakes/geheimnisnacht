@@ -7,12 +7,12 @@ dwarf_group = {
 		color = { 0.6 0.3 0.4 }
 
 		male_names = {
-			Agnar Alaric Aldin Alfginnar Algrim Alric Alrik Argam Arik Arnek Arngrim Athran Athranbor Azram 
-			Bael Balabin Baldrick Balgor Balik Balin Balkrag Balzud Baragor Bardin Bari Barik Barin Belegar Belegol Belegond Belgar Belgol Belgond Belm Bodor Bogni Borgin Borgo Borgus Borin Borm Borri Bradni Bragni Brand Brandur Brann Brogar Brokk Brokki Brond Brondi Bronn Budrik Burlok Buurf 
+			Agnar Alaric Aldin Alfginnar Algrim Alric Alrik Arail Argam Arik Arnek Arngrim Athran Athranbor Azram Azumek
+			Bael Balabin Baldrick Balgor Balik Balin Balkrag Balzud Baragor Bardin Bari Barik Barin Belegar Belegol Belegond Belgar Belgol Belgond Belm Belmli Bodor Bofaks Bogni Borgin Borgo Borgus Borin Borm Borri Bradni Bragni Brand Brandur Brann Brogar Brokk Brokki Brond Brondi Bronn Budrik Burlok Buurf 
 			Cranneg 
 			Dadrin Daled Damin Damir Dammin Dank Darbli Dared Darek Dargo Dern Dimgol Dimrond Dimzad Dodrum Dolgr Doragrum Dorin Dorri Drakk Drakki Droki Drokki Drong Drongli Dronglik Drumin Durak Duregar Durgar Durgin Durik Durim Durin Durkin Durrag Durrig Dwalik Dwinbar 
 			Einar Ekkel Elanlik Elgaroth Elgrom Elmador Enlag 
-			Falagrim Falgrim Falstad Faragrim Fargrim Farin Farnir Felder Fenni Fimbur Finn Flakki Floi Fodrin Foragor Fraggar Frerin Fror Fundin Furagrum Furen Furgil Furtin 
+			Falagrim Falgrim Falstad Falul Faragrim Fargrim Farin Farnir Felder Fenni Fimbur Finn Flakki Floi Fodrin Foragor Fraggar Frerin Fror Fundin Furagrum Furen Furgil Furtin 
 			Gadrin Gamil Garag Gargrim Garik Garil Garin Gav Gazin Gharth Gimli Glorthal Glugnur Glumi Goddi Golengil Gomrund Gorazin Gorek Gorem Gorim Gorm Gorn Gotrek Gottri Grim Grimand Grimbul Grimdal Grimgor Grimli Grimnir Grimwold Grindol Grodrik Grogan Grogril Groin Grom Grond Gror Groth Grufbad Grum Grumdi Grumdin Grumir Grun Grundi Grung Grunlok Grunni Guddi Gudrun Gumli Gundrik Gurni Guttri 
 			Haakon Hadra Hadrin Haggis Hagrag Haki Halig Hanri Haragin Harakaz Harek Harggan Hargin Hargrim Harkan Harkaz Harlok Harok Haud Hegakin Heganbor Herger Hlom Holgar Horgar Hrungnor Hugen Hugnir Hulfden Hurgar Hurgin 
 			Ibun 
@@ -20,13 +20,13 @@ dwarf_group = {
 			Kadri Kadrin Kallon Kargul Kargun Karmir Karon Kaz Kazadar Kazador Kazgar Kazi Kazran Kazrik Ketil Kettri Khanna Khim Kimril Korbad Korgan Kragdin Kragg Krogan Krom Krorag Krudd Krung Kurgan Kurgaz 
 			Lagnus Largs Logan Logazor Loki Lokki Lokri Loni Lothor Lungni Lunn 
 			Magni Magnund Mak Makai Malakai Mankir Mendri Mim Molatok Morag Moranir Mordin Mordred Morek Morgrim Morgund Morngrim Mundri Murdogh Murkan
-			Nain Nali Nar Narvi Nokin Norgrim Norgun Norskin 
+			Nain Nali Nar Narvi Nokin Norgrim Noinar Norgun Norir Norskin 
 			Odarik Oglaf Oin Okri Oldor Olfgrond Oliv Orek Orgri Othos 
 			Rafi Raga Ragnar Ragni Ranulf Rarek Rogni Rogrin Rokiri Rorantok Rordin Rorek Rorgan Rori Rork Rukh Rungni Rutner 
-			Sindri Skaf Skag Skaggi Skaldor Skalf Skalli Skolm Skoragrim Skorri Skudd Skuddi Smakki Snaddri Snarri Snorri Storri Strakerd Strom Stromni Stumpi Sundrim Sven Svengin 
-			Telchar Therum Thialfi Thingrim Thorbal Thordrin Thorek Thorgrim Thori Thorin Thorlek Thrain Throbin Thror Thrund Thulfram Thungni Thurgrom Thurn Thyk Torbek Truk Trygg Tudnak
+			Sindri Skaf Skag Skaggi Skaldor Skalf Skalli Skolm Skoragrim Skorri Skudd Skuddi Skurak Smakki Snaddri Snarri Snorri Storri Strakerd Strom Stromni Stumpi Sundrim Sven Svengin 
+			Telchar Therum Thialfi Thingrim Thorbal Thordrin Thorek Thorgrim Thori Thorin Thorlek Thrain Throbin Thror Thrund Thulfram Thungni Thurgrom Thurn Thyk Torbek Truk Trygg Tudnak Turan
 			Ulfar Ulfir Ulrik Ultham Ulther Urist 
-			Varmir Vikram Volkin Volkmar Voragor Vragni 
+			Valaz Varent Varmir Vikram Volkin Volkmar Voragor Vragni 
 			Yadri Yanni Yodri Yorg Yorri 
 			Zakakragella Zakris Zambor Zamgrund Zamgund Zamnil Zarador Zirak 
 		}

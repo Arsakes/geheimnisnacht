@@ -36,7 +36,23 @@ orc_group = {
 		}
 		
 		female_names = {
-			Bite Grot Meal Munch Splib Splog Sprog Teeny Tiny Winky
+			Bdaset Bite Bizzle Blib Blotty Bogoexr Bred Btesg 
+			Doz 
+			Ekalim 
+			Faq Ferenghi 
+			Gkobat Grot Grott Grotty 
+			Kzed 
+			Lotty 
+			Mab Mazy Meal Moretar Mtan Munch 
+			Nilbog Nmatub Nozudg 
+			Origol 
+			Puff 
+			Rikkitikki Rundo 
+			Sber Serugz Shakog Shisho Splib Splog Sprog Squeebles Squik Squog 
+			Teeny Temn Ten Tiny Toerag Toss Tosukg Turbogz 
+			Winky 
+			Xob 
+			Zogubd 
 		}
 
 		male_patronym = ""
