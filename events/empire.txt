@@ -13,56 +13,85 @@ character_event = {
     is_triggered_only = yes
     hide_window = yes
 
-    immediate = { clr_character_flag = electors_asked_for_help }
+    immediate = { clr_character_flag = state_troops_counted }
 }
 
-# Ask Elector count to join emperor's wars
-# FROM = Emperor 
-# ROOT = Elector Count
+#####################################################
+#
+# Army counting 
+#
+#####################################################
+
+#
+# Calculate retinues in province
+#
+# ROOT = king level holder
+# FROM = liege of ROOT
+#
 character_event = {
     id = empire.1
-    is_triggered_only = yes
-    picture = "GFX_evt_emissary"
-    border = GFX_event_normal_frame_war
+    is_triggered_only = yes 
     desc = "EVTDESC_EMPIRE_1"
+    picture = "GFX_evt_emmisary"
 
-    # join the emperor's wars
     option = {
-	join_defender_wars = FROM
         name = "EVTOPT_EMPIRE_1A"
-        FROM = { character_event = { id = empire.2 } }
-        ai_chance = { factor = 0 }
+        any_realm_title = {
+            limit = { tier = baron }
+            # change army counter
+            if = {
+                limit = { has_building = ca_imperial_barracks_1 }
+                FROM = { change_variable = { which = "state_army" value = 0.5 }}
+            }
+            if = {
+                limit = { has_building = ca_imperial_barracks_2 }
+                FROM = { change_variable = { which = "state_army" value = 1.5 }}
+            }
+            if = {
+                limit = { has_building = ca_imperial_barracks_3 }
+                FROM = { change_variable = { which = "state_army" value = 3.5 }}
+            }
+            if = {
+                limit = { has_building = ca_imperial_barracks_4 }
+                FROM = { change_variable = { which = "state_army" value = 5.5 }}
+            }
+            if = {
+                limit = { has_building = ca_imperial_barracks_5 }
+                FROM = { change_variable = { which = "state_army" value = 7 }}
+            }
+            if = {
+                limit = { has_building = ca_imperial_barracks_6 }
+                FROM = { change_variable = { which = "state_army" value = 10 }}
+            }
+        }
+        FROM = { character_event = { id = empire.2 days = 1 }}
     }
+    # don't provide retinues to emperor
     option = {
         name = "EVTOPT_EMPIRE_1B"
-        join_attacker_wars = FROM
-        FROM = { character_event = { id = empire.2 } }
-        ai_chance = { factor = 0 }
-    }
-    option = {
-        name = "EVTOPT_EMPIRE_1C"
-        join_defender_wars = FROM
-        join_attacker_wars = FROM
-        FROM = { character_event = { id = empire.2 } }
-        ai_chance = { factor = 10 }
-    }
-    # not today
-    option = {
-        name = "EVTOPT_EMPIRE_1D"
-        ai_chance = { factor = 1 }
+        FROM = { character_event = { id = empire.3 days = 1 }}
     }
 }
-
-# Inform liege that person has joined the war
+# inform liege about provided troops
 character_event = {
     id = empire.2
-    is_triggered_only = yes
-    picture = "GFX_evt_emissary"
-    border = GFX_event_normal_frame_war
+    is_triggered_only = yes 
     desc = "EVTDESC_EMPIRE_2"
-   
+    picture = "GFX_evt_emmisary"
+
     option = {
-        # TODO add opinion here 
         name = OK
     }
 }
+# inform liege about provided troops
+character_event = {
+    id = empire.3
+    is_triggered_only = yes 
+    desc = "EVTDESC_EMPIRE_3"
+    picture = "GFX_evt_emmisary"
+
+    option = {
+        name = OK
+    }
+}
+

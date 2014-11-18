@@ -1326,3 +1326,16 @@ character_event = {
         name = "blank"
     }
 }
+
+# JOIN WAR TEST
+character_event = {
+    id = test.50
+    is_triggered_only = yes
+    desc = "Event duelengine.23 triggered"
+
+    option = {
+        e_kislev = { holder_scope = { character_event = { id = empire.1 } } }
+        any_vassal = { character_event = { id = empire.1 } }
+        name = "blank"
+    }
+}

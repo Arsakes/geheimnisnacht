@@ -42,13 +42,7 @@ chaos_invasion = {
     check_de_jure_tier = KING # this scans all de jure kingdoms for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
     
     can_use_gui = {
-       ROOT = {
-                religion_group = chaos_gods_group
-            }
-    }
-
-    can_use = {
-        ROOT = {
+         ROOT = {
             # there must be a price this cb targets a kingdom!
             OR = {
                 AND = {
@@ -70,6 +64,13 @@ chaos_invasion = {
             NOT = { religion_group = ROOT } 
             NOT = { religion_group = horned_rat_god_group } 
             NOT = { religion_group = hashut_god_group } 
+        }
+
+    }
+
+    can_use = {
+        ROOT = {
+            religion_group = chaos_gods_group
         }
     }
     can_use_title = {

@@ -1,11 +1,11 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #
 # namespace = empire
-EVTDESC_EMPIRE_1;The Emperor [From.GetBestName] send you the letter requesting help in [From.GetHerHis] wars, What will be your response?;;;;;;;;;;;;;x
-EVTOPT_EMPIRE_1A;Join [From.GetHerHis] defensive wars;;;;;;;;;;;;;x
-EVTOPT_EMPIRE_1B;Join [From.GetHerHis] offensive wars;;;;;;;;;;;;;x
-EVTOPT_EMPIRE_1C;Join all of [From.GetHerHis] wars;;;;;;;;;;;;;x
-EVTOPT_EMPIRE_1D;Turn back on your Emperor;;;;;;;;;;;;;x
+EVTDESC_EMPIRE_1;The Emperor [From.GetBestName] reminds about your duty to provide State with troops. What will be your response?;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1A;Its my sacred duty!;;;;;;;;;;;;;x
+EVTOPT_EMPIRE_1B;Turn back on your Emperor;;;;;;;;;;;;;x
+EVTDESC_EMPIRE_2;Your vassal [From.GetBestName] will provide Empire with [From.GetHerHis] troops in the time of need.;;;;;;;;;;;;;x
+EVTDESC_EMPIRE_3;A traitor! Your vassal [From.GetBestName] didn't provide Empire with troops!;;;;;;;;;;;;;x
 #
 # namespace = temptation
 temptation.1;The Embrace of Uncle Nurgle;;;;;;;;;;;;;x

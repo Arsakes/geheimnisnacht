@@ -487,4 +487,67 @@ de_jure_laws = {
         }
     }
     
+    # ARMY LAWS
+    army_org_0 = {
+        group = army_org
+        default = yes
+        
+        allow = {
+            has_law = army_org_1
+        }
+        potential = {
+            holder_scope = { has_landed_title = e_the_empire }
+            holder_scope = {
+                is_tribal = no
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        ai_will_revoke = {
+            factor = 0
+        }
+        effect = {
+            hidden_tooltip = {
+                revoke_law = army_org_1
+            }
+            
+        }
+        retinuesize = 100
+    }
+    army_org_1 = {
+        group = army_org
+        default = yes
+        
+        allow = {
+            has_law = army_org_0
+        }
+        potential = {
+            holder_scope = { has_landed_title = e_the_empire }
+            holder_scope = {
+                is_tribal = no
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        ai_will_revoke = {
+            factor = 0
+        }
+        effect = {
+            hidden_tooltip = {
+                revoke_law = army_org_0
+            }
+            
+        }
+        land_morale = 0.1
+        global_tax_modifier = 0.1
+    }
+
 }

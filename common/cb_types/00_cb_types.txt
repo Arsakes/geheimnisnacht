@@ -2304,11 +2304,30 @@ religious = {
 
     can_use = {
         ROOT = {
-            # TODO put here othere religions that shouldn't be allowed to do holy wars
-            NOT = { religion_group = greenskin_gods_group }
-            NOT = { religion_group = dwarf_gods_group }
-            NOT = { religion_group = halfling_gods_group }
-            #
+            # holy war cannot be between different races 
+            OR = { 
+                AND = { trait = creature_human FROM = { trait = creature_human } }
+                AND = { trait = creature_elf FROM = { trait = creature_elf } }
+                AND = { trait = creature_dwarf FROM = { trait = creature_dwarf } }
+                AND = { trait = creature_chaos_dwarf FROM = { trait = creature_chaos_dwarf } }
+                AND = { trait = creature_nehekharan FROM = { trait = creature_nehekharan } }
+                AND = { trait = creature_skaven FROM = { trait = creature_skaven } }
+                AND = { trait = creature_human FROM = { trait = creature_human } }
+                
+                religion_group = chaos_gods_group # chaos wants to conquer all #FIXME
+                #AND = { trait = creature_orc FROM = { trait = creature_orc } }
+                #AND = { trait = creature_goblin FROM = { trait = creature_goblin } }
+                #AND = { trait = creature_snotling FROM = { trait = creature_snotling } }
+            }
+
+            # Excluded religion pairs
+            # kislevites northern gods and ursun
+            NOT = { 
+                religion = ursun 
+                FROM = { religion = northern_gods }
+            }
+            # vanilla stuff
+
             NOT = { same_realm = FROM }
             OR = {
                 NOT = { religion_group = FROM }
@@ -2387,12 +2406,29 @@ religious = {
 
     is_valid = {
         ROOT = {
-            #TODO: same stuff about not being too pagan
-            NOT = { religion_group = greenskin_gods_group }
-            NOT = { religion_group = dwarf_gods_group }
-            NOT = { religion_group = halfling_gods_group }
-            #NOT = { religion_group = norse_group }
-            # end of this stuff
+            # holy war cannot be between different races 
+            OR = { 
+                AND = { trait = creature_human FROM = { trait = creature_human } }
+                AND = { trait = creature_elf FROM = { trait = creature_elf } }
+                AND = { trait = creature_dwarf FROM = { trait = creature_dwarf } }
+                AND = { trait = creature_chaos_dwarf FROM = { trait = creature_chaos_dwarf } }
+                AND = { trait = creature_nehekharan FROM = { trait = creature_nehekharan } }
+                AND = { trait = creature_skaven FROM = { trait = creature_skaven } }
+                AND = { trait = creature_human FROM = { trait = creature_human } }
+                
+                religion_group = chaos_gods_group # chaos wants to conquer all #FIXME
+                #AND = { trait = creature_orc FROM = { trait = creature_orc } }
+                #AND = { trait = creature_goblin FROM = { trait = creature_goblin } }
+                #AND = { trait = creature_snotling FROM = { trait = creature_snotling } }
+            }
+
+            # Excluded religion pairs
+            # kislevites northern gods and ursun
+            NOT = { 
+                religion = ursun 
+                FROM = { religion = northern_gods }
+            }
+            # vanilla stuff
             NOT = { same_realm = FROM }
             OR = {
                 NOT = { religion_group = FROM }
@@ -7130,6 +7166,7 @@ imperial_reconquest2 = {
     check_de_jure_tier = DUKE # this scans all dejure duchies for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 
     can_use = {
+        NOT = { is_title_active = e_the_empire } #Pietrko modification
         ROOT = {
             OR = {
                 has_landed_title = e_westerland
