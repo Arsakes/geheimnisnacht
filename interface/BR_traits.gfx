@@ -1,0 +1,130 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_carstein_ring"
+		texturefile = "gfx/traits/carstein_ring.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_witch_hunter"
+		texturefile = "gfx/traits/witch_hunter.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_on_witch_hunt"
+		texturefile = "gfx/traits/on_witch_hunt.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+
+	spriteType = {
+		name = "GFX_trait_on_knight_quest"
+		texturefile = "gfx/traits/on_witch_hunt.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_on_grail_quest"
+		texturefile = "gfx/traits/on_witch_hunt.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_grail_knight"
+		texturefile = "gfx/traits/grail_knight.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_bretonnian_knight_errant"
+		texturefile = "gfx/traits/bretonnian_knight_errant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_bretonnian_knight"
+		texturefile = "gfx/traits/bretonnian_knight.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_carstein_visible"
+		texturefile = "gfx/traits/vampire_carstein_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_lahmian_visible"
+		texturefile = "gfx/traits/vampire_lahmian_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_strigoi_visible"
+		texturefile = "gfx/traits/vampire_strigoi_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_strigoi_visible"
+		texturefile = "gfx/traits/vampire_strigoi_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_necrach_visible"
+		texturefile = "gfx/traits/vampire_necrach_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_vampire_jade_visible"
+		texturefile = "gfx/traits/vampire_jade_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_vampire_mahtmasi_visible"
+		texturefile = "gfx/traits/vampire_mahtmasi_visible.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_infertile"
+		texturefile = "gfx/traits/infertile.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+}

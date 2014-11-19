@@ -1,0 +1,19 @@
+###vampire heir creation title###
+minor_title_vampire_heir = {
+ dignity = 0.1
+ grant_limit = 1
+ 
+  allow = {
+    FROM = { ai = no }
+    age = 1
+    }
+
+    gain_effect = {
+    }
+
+    lose_effect = {
+    }
+
+    message = yes
+
+}

@@ -1008,6 +1008,11 @@ character_event = {
     trigger = {
         NOT = { trait = infirm }
         NOT = { trait = incapable }
+        NOT = { trait = creature_elf }
+        NOT = { trait = creature_dwarf }
+        NOT = { trait = creature_chaos_dwarf }
+        NOT = { culture_group = orc_group }
+        NOT = { culture_group = goblin_group }
     }
     
     mean_time_to_happen = {
@@ -1065,6 +1070,11 @@ character_event = {
             trait = inbred
         }
         NOT = { trait = incapable }
+        NOT = { trait = creature_elf }
+        NOT = { trait = creature_dwarf }
+        NOT = { trait = creature_chaos_dwarf }
+        NOT = { culture_group = orc_group }
+        NOT = { culture_group = goblin_group }
     }
     
     mean_time_to_happen = {

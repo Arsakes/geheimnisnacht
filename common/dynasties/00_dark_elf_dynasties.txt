@@ -1,0 +1,64 @@
+100000 = {
+name = "Witch King"
+	culture = naggarondi
+}
+
+100001 = {
+name = "Darkseed"
+	culture = naggarondi
+}
+
+100002 = {
+name = "Mournblade"
+	culture = naggarondi
+}
+
+100003 = {
+name = "Manslayer"
+	culture = naggarondi
+}
+
+100004 = {
+name = "Doombringer"
+	culture = naggarondi
+}
+
+100005 = {
+name = "Fellblade"
+	culture = naggarondi
+}
+
+100006 = {
+name = "Darksinger"
+	culture = naggarondi
+}
+
+100007 = {
+name = "Deepwatcher"
+	culture = naggarondi
+}
+
+100008 = {
+name = "Bloodsinger"
+	culture = naggarondi
+}
+
+100009 = {
+name = "Redspear"
+	culture = naggarondi
+}
+
+100010 = {
+name = "Blackheart"
+	culture = naggarondi
+}
+
+100011 = {
+name = "Maglen"
+	culture = naggarondi
+}
+
+100011 = {
+name = "Maglen"
+	culture = naggarondi
+}

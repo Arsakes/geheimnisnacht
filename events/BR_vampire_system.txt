@@ -1,0 +1,1211 @@
+namespace = vampire
+
+##traits that will make a vassal ask to be turned: cruel, impaler, cynical, ambitious##
+
+#A courtier is turned into a vampire from the player-only decision#
+	character_event = {
+    id = vampire.0
+    title = "Undeath"
+    desc = "As you are in your liege's court, he confronts you one evening with a retinue of guards. 'It is time,' your vampire liege says, 'for you to join me in the darkness...' You can't escape, there is no choice now."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "W-w-waiit, my liege!"
+	host = { character_event = { id = vampire.1 } }
+			if = { 
+			limit = { FROM = { is_female = no } }
+			set_father = FROM
+			}
+			if = { 
+			limit = { FROM = { is_female = yes } }
+			set_mother = FROM
+			}
+	}
+	
+	}
+	
+	
+#A courtier is turned into a vampire from the player-only decision#
+	character_event = {
+    id = vampire.1
+    title = "Undeath"
+    desc = "This courtier has been turned into a loyal vampire minion now."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Excellent."
+	if = {
+	limit = {
+	trait = vampire_lahmian_visible
+	}
+	FROM = { add_trait = vampire_lahmian_visible }
+	FROM = { religion = vampiric }
+	}
+	if = {
+	limit = {
+	trait = vampire_lahmian_visible
+	}
+	FROM = { add_trait = vampire_lahmian_visible }
+	FROM = { religion = vampiric }
+	}	
+	if = {
+	limit = {
+	trait = vampire_blood_visible
+	}
+	FROM = { add_trait = vampire_blood_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_necrach_visible
+	}
+	FROM = { add_trait = vampire_necrach_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_jade_visible
+	}
+	FROM = { add_trait = vampire_jade_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_mahtmasi_visible
+	}
+	FROM = { add_trait = vampire_mahtmasi_visible }
+	FROM = { religion = vampiric }
+	}		
+	}
+	
+	}
+	
+	##Now for the AI vampire turning events##
+	
+	#If a realm character has very high stats in one of the four, he will be turned (15+} if the vampire does not have certain anti-turning traits##
+	character_event = {
+    id = vampire.2
+    title = "Worthy Candidate?"
+    desc = "A character in your realm is particularly skilled, and might make a worthy recipient of the dark gift."
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	independent = yes
+	AND = {
+	NOT = { trait = just }
+	NOT = { trait = paranoid }
+	NOT = { trait = envious }
+	}
+	NOT = { has_character_flag = vampire2 }
+	any_realm_character = {
+	OR = {
+	martial = 15
+	intrigue = 15
+	stewardship = 15
+	diplomacy = 15
+	}
+	AND = {
+		NOT = { trait = vampire_lahmian_visible }
+		NOT = { trait = vampire_carstein_visible }
+		NOT = { trait = vampire_blood_visible }
+		NOT = { trait = vampire_strigoi_visible }
+		NOT = { trait = vampire_necrach_visible }
+		NOT = { trait = vampire_jade_visible }
+		NOT = { trait = vampire_mahtmasi_visible }
+		}
+	}
+	}
+	
+	mean_time_to_happen = {
+	months = 3
+	}
+	
+	option = {
+	name = "Yes, send an invitation to my court..."
+	random_realm_character = {
+	limit = {
+	OR = {
+	martial = 15
+	intrigue = 15
+	stewardship = 15
+	diplomacy = 15
+	}
+	AND = {
+		NOT = { trait = vampire_lahmian_visible }
+		NOT = { trait = vampire_carstein_visible }
+		NOT = { trait = vampire_blood_visible }
+		NOT = { trait = vampire_strigoi_visible }
+		NOT = { trait = vampire_necrach_visible }
+		NOT = { trait = vampire_jade_visible }
+		NOT = { trait = vampire_mahtmasi_visible }
+		}
+	}
+	character_event = { id = vampire.3 days = 7 }
+	}
+	}
+	
+	option = {
+	name = "No, do not bother me with this again."
+	trigger = { ai = no }
+	set_character_flag = vampire2
+	}
+	
+	}
+	
+	#the highly skilled character gets an invitation to the court##
+	character_event = {
+    id = vampire.3
+    title = "You are summoned"
+    desc = "You are summoned to a vampire lord's court. The way the invitation arrived, with no explanation, makes you pretty certain that you are going to be turned into a vampire if you go... it has happened before to others..."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "I'll go. I have no choice."
+	FROM = { character_event = { id = vampire.4 days = 7 } }
+	}
+	
+	option = {
+	name = "Never! I must flee!"
+	trigger = {
+	is_landed = no
+	OR = {
+	trait = craven
+	trait = shy
+	trait = kind
+	trait = just
+	}
+	}
+	banish = yes
+	FROM = { character_event = { id = vampire.5 days = 7 } }
+	}
+	
+	}
+	
+	#the highly skilled character gets an invitation to the court##
+	character_event = {
+    id = vampire.4
+    title = "The Dark Gift"
+    desc = "Your guest arrives. It is time to bestow the dark gift!"
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "First death, then eternal life, my new minion..."
+	if = { 
+			limit = { is_female = no  }
+			FROM = { set_father = ROOT }
+			}
+	if = { 
+			limit = { is_female = yes } 
+			FROM = { set_mother = ROOT }
+			}
+	if = {
+	limit = {
+	trait = vampire_lahmian_visible
+	}
+	FROM = { add_trait = vampire_lahmian_visible }
+	FROM = { religion = vampiric }
+	}
+	if = {
+	limit = {
+	trait = vampire_carstein_visible
+	}
+	FROM = { add_trait = vampire_carstein_visible }
+	FROM = { religion = vampiric }
+	}	
+	if = {
+	limit = {
+	trait = vampire_blood_visible
+	}
+	FROM = { add_trait = vampire_blood_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_necrach_visible
+	}
+	FROM = { add_trait = vampire_necrach_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_jade_visible
+	}
+	FROM = { add_trait = vampire_jade_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_mahtmasi_visible
+	}
+	FROM = { add_trait = vampire_mahtmasi_visible }
+	FROM = { religion = vampiric }
+	}		
+	}
+	
+	}
+	
+	#the highly skilled character gets an invitation to the court##
+	character_event = {
+    id = vampire.5
+    title = "The Dark Gift"
+    desc = "Word reaches you that your intended recipient for the dark gift has fled your realm, rather than become a vampire."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Faithless coward!"
+	}
+	
+	}
+	
+	#If a realm lord, duke or above is not a vampire, they will be turned if the vampire ruler has certain traits that make him turn people##
+character_event = {
+    id = vampire.6
+    title = "Consolidating your Rule"
+    desc = "It is often safest to have your highest ranked vassals become vampires themselves, so that they know that their fortunes are tied to your own success. Do you want to start turning your most powerful vassals?"
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	independent = yes
+	AND = {
+	NOT = { trait = just }
+	NOT = { trait = paranoid }
+	NOT = { trait = envious }
+	}
+	NOT = { has_character_flag = vampire6 }
+	any_realm_character = {
+	OR = {
+	tier = DUKE
+	tier = KING
+	}
+	AND = {
+		NOT = { trait = vampire_lahmian_visible }
+		NOT = { trait = vampire_carstein_visible }
+		NOT = { trait = vampire_blood_visible }
+		NOT = { trait = vampire_strigoi_visible }
+		NOT = { trait = vampire_necrach_visible }
+		NOT = { trait = vampire_jade_visible }
+		NOT = { trait = vampire_mahtmasi_visible }
+		}
+	}
+	}
+	
+	mean_time_to_happen = {
+	months = 3
+	}
+	
+	option = {
+	name = "Yes, send an invitation to my court..."
+	any_realm_lord = {
+	limit = {
+	OR = {
+	tier = DUKE
+	tier = KING
+	}
+	AND = {
+		NOT = { trait = vampire_lahmian_visible }
+		NOT = { trait = vampire_carstein_visible }
+		NOT = { trait = vampire_blood_visible }
+		NOT = { trait = vampire_strigoi_visible }
+		NOT = { trait = vampire_necrach_visible }
+		NOT = { trait = vampire_jade_visible }
+		NOT = { trait = vampire_mahtmasi_visible }
+		}
+	}
+	character_event = { id = vampire.7 days = 7 }
+	}
+	}
+	
+	option = {
+	name = "No, do not bother me with this again."
+	trigger = { ai = no }
+	set_character_flag = vampire7
+	}
+	
+	}
+	
+	#the duke+ tier vassal gets an invitation to the court##
+	character_event = {
+    id = vampire.7
+    title = "You are summoned"
+    desc = "You are summoned to your vampire liege's court. The way the invitation arrived, with no explanation, makes you pretty certain that you are going to be turned into a vampire if you go... it has happened before to others..."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "I'll go. I have no choice."
+	trigger = {
+	OR = {
+	ai = no 
+	AND = {	
+	NOT = { trait = craven }
+	NOT = { trait = shy }
+	NOT = { trait = kind }
+	NOT = { trait = just }
+	}
+	}
+	}
+	FROM = { character_event = { id = vampire.8 days = 7 } }
+	}
+	
+	option = {
+	name = "Never! I will fight for my life!"
+	trigger = {
+	prisoner = no
+	OR = {
+	trait = craven
+	trait = shy
+	trait = kind
+	trait = just
+	ai = no
+	}
+	}
+	war = {
+		target = FROM
+		casus_belli = bid_for_independence
+		}
+	FROM = { character_event = { id = vampire.9 } }
+	}
+	
+	}
+	
+	#theduke + character gets an invitation to the court##
+	character_event = {
+    id = vampire.8
+    title = "The Dark Gift"
+    desc = "Your guest arrives. It is time to bestow the dark gift!"
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "First death, then eternal life, my new minion..."
+	if = {
+	limit = {
+	trait = vampire_lahmian_visible
+	}
+	FROM = { add_trait = vampire_lahmian_visible }
+	FROM = { religion = vampiric }
+	}
+	if = {
+	limit = {
+	trait = vampire_carstein_visible
+	}
+	FROM = { add_trait = vampire_carstein_visible }
+	FROM = { religion = vampiric }
+	}	
+	if = {
+	limit = {
+	trait = vampire_blood_visible
+	}
+	FROM = { add_trait = vampire_blood_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_necrach_visible
+	}
+	FROM = { add_trait = vampire_necrach_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_jade_visible
+	}
+	FROM = { add_trait = vampire_jade_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_mahtmasi_visible
+	}
+	FROM = { add_trait = vampire_mahtmasi_visible }
+	FROM = { religion = vampiric }
+	}		
+	}
+	
+	}	
+	
+	#the duke+ character gets an invitation to the court##
+	character_event = {
+    id = vampire.9
+    title = "The Dark Gift"
+    desc = "Your vassal has refused your invitation, sending word: 'I will fight to the death, rather than be submitted to your eternal curse!' "
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "So be it! You will serve me in death then!"
+	}
+	 
+	}
+	
+	##some vassals will ask to be given the dark gift depending on traits##
+	character_event = {
+    id = vampire.10
+    title = "The Dark Gift"
+    desc = "Your liege is a vampire, so why should you have to suffer and die as a mortal? Why not just join the ruling caste fully, and embrace the darkness in return for life eternal? "
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	liege = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+	}
+	AND = {
+		NOT = { trait = vampire_lahmian_visible }
+		NOT = { trait = vampire_carstein_visible }
+		NOT = { trait = vampire_blood_visible }
+		NOT = { trait = vampire_strigoi_visible }
+		NOT = { trait = vampire_necrach_visible }
+		NOT = { trait = vampire_jade_visible }
+		NOT = { trait = vampire_mahtmasi_visible }
+		}
+	OR = {
+		trait = cruel
+		trait = impaler
+		trait = cynical
+		trait = ambitious
+		}
+	OR = {
+		tier = COUNT
+		tier = DUKE
+		tier = KING
+		}
+	NOT = { has_character_flag = vampire10 }
+		}
+		
+	mean_time_to_happen = {
+		months = 60
+		}
+		
+		option = {
+		name = "Yes, I shall ask my liege!"
+		liege = { character_event = { id = vampire.11 days = 7 } }
+		}
+		
+		option = {
+		name = "No, I prefer life to undeath."
+		trigger = { ai = no }
+		set_character_flag = vampire10
+		}
+	
+	}
+	
+	
+	#theduke + character gets an invitation to the court##
+	character_event = {
+    id = vampire.11
+    title = "The Dark Gift"
+    desc = "One of your vassals has asked you for the dark gift, and swears eternal fealty if you would but grant this heartfelt desire."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "First death, then eternal life, my new minion..."
+	add_friend = FROM
+	if = {
+	limit = {
+	trait = vampire_lahmian_visible
+	}
+	FROM = { add_trait = vampire_lahmian_visible }
+	FROM = { religion = vampiric }
+	}
+	if = {
+	limit = {
+	trait = vampire_carstein_visible
+	}
+	FROM = { add_trait = vampire_carstein_visible }
+	FROM = { religion = vampiric }
+	}	
+	if = {
+	limit = {
+	trait = vampire_blood_visible
+	}
+	FROM = { add_trait = vampire_blood_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_necrach_visible
+	}
+	FROM = { add_trait = vampire_necrach_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_jade_visible
+	}
+	FROM = { add_trait = vampire_jade_visible }
+	FROM = { religion = vampiric }
+	}		
+	if = {
+	limit = {
+	trait = vampire_mahtmasi_visible
+	}
+	FROM = { add_trait = vampire_mahtmasi_visible }
+	FROM = { religion = vampiric }
+	}
+	FROM = { character_event = { id = vampire.12 } }
+	}
+	
+	option = {
+	name ="No, that one is not worthy."
+	trigger = {
+	OR = {
+	ai = no 
+	OR = {
+	FROM = { NOT = { martial = 12 } }
+	FROM = { NOT = { intrigue = 12 } }
+	FROM = { NOT = { stewardship = 12 } }
+	FROM = { NOT = { diplomacy = 12 } }
+	}
+	}
+}
+FROM = { character_event = { id = vampire.13 } }
+}	
+	
+	}
+	
+	#the asker is told his request is approved, he is now a vampire.##
+	character_event = {
+    id = vampire.12
+    title = "The Dark Gift"
+    desc = "Your Liege bestows the dark gift upon you, and bids you serve faithfully until the end of your days."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "I live... forever!"
+	add_friend = FROM
+	}
+	 
+	}
+	
+	#the asker is told his request is denied due to low stats##
+	character_event = {
+    id = vampire.13
+    title = "Cruelly Rejected"
+    desc = "Your liege refuses your request, saying that you are just not vampire-material. Your skills are lacking, and you are too thoroughly unimpressive to join the illustrious ranks of the vampire aristocracy."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "Ouch..."
+	set_character_flag = vampire10
+	add_rival = FROM
+	}
+	 
+	}
+	
+	##Now for the event where you can turn a vampire heir into your own dynasty - players only via decision, AI will use another mechanic##
+	character_event = {
+    id = vampire.14
+    title = "A Vampire Heir"
+    desc = "You can make a vampire part of your own dynasty by giving him or her the minor title 'Vampire Heir Target' and then click on the event option below. Remember to remove the minor title after you have used it."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+		
+	option = {
+	name = "Make this vampire part of my dynasty."
+	any_realm_character = {
+	limit = {
+	has_minor_title = minor_title_vampire_heir
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+			}
+	}
+	character_event = { id = vampire.15 days = 7 }
+	}
+	}
+	
+	}
+	
+	character_event = {
+    id = vampire.15
+    title = "A great honor"
+    desc = "Your liege has decided to formally welcome you into his dynasty."
+    picture = "GFX_evt_carstein"
+	
+	is_triggered_only = yes
+		
+	option = {
+	name = "I welcome this great honor."
+	if = {
+	limit = { FROM = { is_female = no } }
+	dynasty = FROM
+	set_father = FROM
+	}
+	if = {
+	limit = { FROM = { is_female = yes } }
+	dynasty = FROM
+	set_mother = FROM
+	}
+	}
+	
+	}
+	
+	###Now for the AI events to make heirs; Emperors will make 4, kings 3, dukes 2 and counts 1. Unlanded and barons will not make any##
+
+	#AI Vampire Emperors##
+	character_event = {
+    id = vampire.16
+    title = "The Dark Gift"
+    desc = "You are a powerful ruler, it is time to make some heirs of your dynasty. You will scour the land for worthy candidates and then turn them and call them children." ##no description needed really, this is ai only##
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	ai = yes
+	tier = EMPEROR
+	NOT = { num_of_children = 4 }
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+		
+	mean_time_to_happen = {
+		months = 60
+		}
+		
+		option = {
+		name = "This one seems promising..."
+		random_list = {
+		50 = {
+		create_random_soldier = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = no
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+50 = {
+		create_random_intriguer = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = yes
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+}
+}		
+	
+	}	
+	
+	#AI Vampire Kings##
+	character_event = {
+    id = vampire.17
+    title = "The Dark Gift"
+    desc = "You are a powerful ruler, it is time to make some heirs of your dynasty. You will scour the land for worthy candidates and then turn them and call them children." ##no description needed really, this is ai only##
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	ai = yes
+	tier = EMPEROR
+	NOT = { num_of_children = 3 }
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+		
+	mean_time_to_happen = {
+		months = 60
+		}
+		
+		option = {
+		name = "This one seems promising..."
+		random_list = {
+		50 = {
+		create_random_soldier = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = no
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+50 = {
+		create_random_intriguer = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = yes
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+}
+}		
+	
+	}	
+	
+	#AI Vampire Dukes##
+	character_event = {
+    id = vampire.18
+    title = "The Dark Gift"
+    desc = "You are a powerful ruler, it is time to make some heirs of your dynasty. You will scour the land for worthy candidates and then turn them and call them children." ##no description needed really, this is ai only##
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	ai = yes
+	tier = DUKE
+	NOT = { num_of_children = 2 }
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+		
+	mean_time_to_happen = {
+		months = 60
+		}
+		
+		option = {
+		name = "This one seems promising..."
+		random_list = {
+		50 = {
+		create_random_soldier = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = no
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+50 = {
+		create_random_intriguer = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = yes
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+}
+}		
+	
+	}
+	
+#AI Vampire Counts##
+	character_event = {
+    id = vampire.20
+    title = "The Dark Gift"
+    desc = "You are a powerful ruler, it is time to make some heirs of your dynasty. You will scour the land for worthy candidates and then turn them and call them children." ##no description needed really, this is ai only##
+    picture = "GFX_evt_carstein"
+	
+	trigger = {
+	ai = yes
+	tier = COUNT
+	NOT = { num_of_children = 1 }
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+		
+	mean_time_to_happen = {
+		months = 60
+		}
+		
+		option = {
+		name = "This one seems promising..."
+		random_list = {
+		50 = {
+		create_random_soldier = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = no
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+50 = {
+		create_random_intriguer = {
+            random_traits = yes
+            dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            female = yes
+			age = 25
+            }
+            new_character = {
+			change_martial = 5
+			change_intrigue = 5
+			if = { 
+			limit = { is_female = no }
+			set_father = ROOT
+			}
+			if = { 
+			limit = { is_female = yes }
+			set_mother = ROOT
+			}
+            if = {
+				limit = { ROOT = { trait = vampire_lahmian_visible } }
+				add_trait = vampire_lahmian_visible
+				}
+			if = {
+				limit = { ROOT = { trait = vampire_carstein_visible } }
+				add_trait = vampire_carstein_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_blood_visible } }
+				add_trait = vampire_blood_visible
+				}					
+			if = {
+				limit = { ROOT = { trait = vampire_strigoi_visible } }
+				add_trait = vampire_strigoi_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_necrach_visible } }
+				add_trait = vampire_necrach_visible
+				}	
+			if = {
+				limit = { ROOT = { trait = vampire_jade_visible } }
+				add_trait = vampire_jade_visible
+				}				
+			if = {
+				limit = { ROOT = { trait = vampire_mahtmasi_visible } }
+				add_trait = vampire_mahtmasi_visible
+				}				
+				}
+		}
+}
+}		
+	
+	}
+	

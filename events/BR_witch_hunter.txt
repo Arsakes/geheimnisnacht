@@ -991,3 +991,190 @@ namespace = witchhunter
 	}
 	
 	}	
+	
+##Now for vampire hunting - this time just for open vampires##
+
+#first a witch hunter who is not on a witch hunt tells the liege that there are open vampires in his realm##
+	character_event = {
+    id = witchhunter.30
+    title = "Witch Hunt"
+    desc = "There are known vampires in the realm... these must be rooted out with fire, stakes, and sharp silver swords!"
+    picture = "GFX_evt_beheading"	
+	
+	trigger = {
+	age = 16
+	trait = witch_hunter
+	NOT = { trait = on_witch_hunt }
+	OR = {
+	any_realm_character = {
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+	any_realm_lord = {
+	OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+		}
+}		
+	top_liege = { 
+	NOT = { has_character_flag = vampires_allowed } 
+	religion_group = old_world_group
+	}
+	}
+
+	mean_time_to_happen = {
+	days = 90
+	}
+	
+	option = {
+	name = "I must inform my liege at once!"
+	top_liege = { 
+	character_event = { id = witchhunter.31 }
+	}
+	}
+	
+	}
+	
+	##top liege is informed##
+	character_event = {
+    id = witchhunter.31
+    title = "Witch Hunt"
+    desc = "My liege, there are known vampires infesting your realm! These must be hunted down at once. Will you give the temple the authority to cleanse the land of this foul taint?"
+    picture = "GFX_evt_beheading"	
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "Yes, of course - get to work at once."
+	##vampires with either martial or intrigue of 15+ manage to escape and are banished##
+	any_realm_character = {
+	limit = {
+		OR = {
+		martial = 15
+		intrigue = 15
+		}
+		OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+	}
+	character_event = { id = witchhunter.32 }
+	}
+	any_realm_lord = {
+	limit = {
+		OR = {
+		martial = 15
+		intrigue = 15
+		}
+		OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+	}
+	character_event = { id = witchhunter.32 }
+	}
+	##vampires with less get destroyed##
+	any_realm_character = {
+	limit = {
+		AND = {
+		NOT = { martial = 15 }
+		NOT = { intrigue = 15 }
+		}
+		OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+	}
+	character_event = { id = witchhunter.33 }
+	}
+any_realm_lord = {
+	limit = {
+		AND = {
+		NOT = { martial = 15 }
+		NOT = { intrigue = 15 }
+		}
+		OR = {
+		trait = vampire_lahmian_visible
+		trait = vampire_carstein_visible
+		trait = vampire_blood_visible
+		trait = vampire_strigoi_visible
+		trait = vampire_necrach_visible
+		trait = vampire_jade_visible
+		trait = vampire_mahtmasi_visible
+		}
+	}
+	character_event = { id = witchhunter.33 }
+	}	
+	}
+	
+	option = {
+	name = "No, leave them alone..."
+	set_character_flag = vampires_allowed
+	change_variable = { which = suspicion value = 9.0 } 
+	}
+	
+	}
+	
+	
+	##vampire hunters come, vampire escapes##
+	character_event = {
+    id = witchhunter.32
+    title = "Vampire Hunters"
+    desc = "Your top liege has ordered that open vampires in the realm be exterminated - temple armies led by Witch Hunters approach with fire and silver blades, but due to your skills you manage to escape them alive!"
+    picture = "GFX_evt_beheading"	
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "My lands... lost!"
+	banish = yes
+	}
+	
+	}
+	
+	##vampire hunters come, vampire escapes##
+	character_event = {
+    id = witchhunter.33
+    title = "Vampire Hunters"
+    desc = "Your top liege has ordered that open vampires in the realm be exterminated and temple armies led by Witch Hunters approach with fire and silver blades. You try to run, but they manage to corner you!"
+    picture = "GFX_evt_beheading"	
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = "No, not like this - I was promised eternal life!"
+		death = {
+	death_reason = death_execution
+	killer = FROM
+	}
+	}
+	
+	}

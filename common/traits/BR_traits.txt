@@ -1,11 +1,42 @@
 witch_hunter = {
-	random = no
-	cached = yes
+random = no
+cached = yes
 }
 
 on_witch_hunt = {
-	pilgrimage = yes
-	fertility = -0.3
-	monthly_character_prestige = 5.0
-	monthly_character_piety = 5.0
+pilgrimage = yes
+fertility = -0.3
+monthly_character_prestige = 5.0
+monthly_character_piety = 5.0
+}
+
+on_knight_quest = {
+pilgrimage = yes
+fertility = -0.3
+monthly_character_prestige = 5.0
+monthly_character_piety = 5.0
+}
+
+on_grail_quest = {
+pilgrimage = yes
+fertility = -0.3
+monthly_character_prestige = 10.0
+monthly_character_piety = 10.0
+}
+
+bretonnian_knight_errant = {
+martial = 1
+}
+
+bretonnian_knight = {
+martial = 3
+}
+
+grail_knight = {
+health = 15
+martial = 5
+}
+
+infertile = {
+fertility = -10.0
 }

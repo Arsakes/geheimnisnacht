@@ -731,7 +731,6 @@ option = {
     title = "Good news!"
     desc = "Rumors reach your realm that the mighty Von Carstein ring which has made this tyrant almost unkillable has been stolen, and he has not managed to retrieve it... there is hope now, that he can be stopped."
     picture = "GFX_evt_carstein"
-	is_triggered_only = yes
 	
 	is_triggered_only = yes
 	

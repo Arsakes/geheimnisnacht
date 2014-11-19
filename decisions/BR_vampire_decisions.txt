@@ -1,0 +1,99 @@
+decisions = {
+
+"Show Courtiers that can be Turned" = {
+		potential = {
+			ai = no
+			NOT = {	has_character_flag = turning_decisions_open }
+			OR = {
+			trait = vampire_lahmian_visible
+			trait = vampire_carstein_visible
+			trait = vampire_blood_visible
+			trait = vampire_strigoi_visible
+			trait = vampire_necrach_visible
+			trait = vampire_jade_visible
+			trait = vampire_mahtmasi_visible
+			}
+			}
+		
+		effect = { set_character_flag = turning_decisions_open }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+"Close Vampire Turning Decisions" = {
+	is_high_prio = yes
+		potential = {
+			ai = no
+			has_character_flag = turning_decisions_open
+		}
+		
+		effect = { clr_character_flag = turning_decisions_open }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+"Make a Vampire Heir" = {
+	
+		potential = {
+			ai = no
+			OR = {
+			trait = vampire_lahmian_visible
+			trait = vampire_carstein_visible
+			trait = vampire_blood_visible
+			trait = vampire_strigoi_visible
+			trait = vampire_necrach_visible
+			trait = vampire_jade_visible
+			trait = vampire_mahtmasi_visible
+			}
+			}
+		
+		effect = { character_event = { id = vampire.14 }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	}
+	
+	}
+vassal_decisions = {
+
+turn_courtier_into_vampire = {
+
+		from_potential = {
+			ai = no ###they turn highly skilled courtiers via another event
+			has_character_flag = turning_decisions_open
+		}
+		
+		potential = {
+			host = { character = FROM }
+			NOT = { trait = vampire_lahmian_visible }
+			NOT = { trait = vampire_carstein_visible }
+			NOT = { trait = vampire_blood_visible }
+			NOT = { trait = vampire_strigoi_visible }
+			NOT = { trait = vampire_necrach_visible }
+			NOT = { trait = vampire_jade_visible }
+			NOT = { trait = vampire_mahtmasi_visible }
+		}
+		
+		allow = {
+			age = 16
+		}
+		
+		effect = {
+			character_event = { id = vampire.0 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+
+}
