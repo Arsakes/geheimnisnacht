@@ -1334,8 +1334,9 @@ character_event = {
     desc = "Event duelengine.23 triggered"
 
     option = {
-        e_kislev = { holder_scope = { character_event = { id = empire.1 } } }
-        any_vassal = { character_event = { id = empire.1 } }
-        name = "blank"
+        if = {
+            limit ={ check_variable = { which = "state_army" value = 2 }  }
+            character_event = { id = test.40 } 
+        }
     }
 }

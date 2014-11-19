@@ -1,36 +1,4 @@
 # Definitions of the dynamically defined modifiers by other elements such as special troops
-magical_spells = {
-	show_as_percent = no
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 0
-}
-
-magical_spells_offensive = {
-	show_as_percent = yes
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 2
-}
-
-magical_spells_defensive = {
-	show_as_percent = yes
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 2
-}
-
-magical_spells_morale = {
-	show_as_percent = yes
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 2
-}
-
 horse_archers = {
 	show_as_percent = no
 	is_good = yes
@@ -56,6 +24,38 @@ horse_archers_defensive = {
 }
 
 horse_archers_morale = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+magical_spells = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+magical_spells_offensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+magical_spells_defensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+magical_spells_morale = {
 	show_as_percent = yes
 	is_good = yes
 	is_monthly = no

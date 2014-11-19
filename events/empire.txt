@@ -36,33 +36,64 @@ character_event = {
 
     option = {
         name = "EVTOPT_EMPIRE_1A"
-        any_realm_title = {
-            limit = { tier = baron }
-            # change army counter
-            if = {
-                limit = { has_building = ca_imperial_barracks_1 }
-                FROM = { change_variable = { which = "state_army" value = 0.5 }}
+	add_character_modifier = { name = state_troops_given duration = 1825 }
+        any_vassal = {
+            limit = { NOT = { character = ROOT } }
+	    add_character_modifier = { name = state_troops_given duration = 1825 }
+            # per 100 retinue increase variable by ? something less than for true vassal
+            any_demesne_title = {
+                if = {
+                    limit = { has_building = ca_imperial_barracks_1 }
+                    FROM = { change_variable = { which = "state_army" value = 0.1 }}
+                }
+                if = {
+                    limit = { has_building = ca_imperial_barracks_2 }
+                    FROM = { change_variable = { which = "state_army" value = 0.25 }}
+                }
+                if = {
+                    limit = { has_building = ca_imperial_barracks_3 }
+                    FROM = { change_variable = { which = "state_army" value = 0.75 }}
+                }
+                if = {
+                    limit = { has_building = ca_imperial_barracks_4 }
+                    FROM = { change_variable = { which = "state_army" value = 1.75 }}
+                }
+                if = {
+                    limit = { has_building = ca_imperial_barracks_5 }
+                    FROM = { change_variable = { which = "state_army" value = 2.5 }}
+                }
+                if = {
+                    limit = { has_building = ca_imperial_barracks_6 }
+                    FROM = { change_variable = { which = "state_army" value = 3.5 }}
+                }
             }
-            if = {
-                limit = { has_building = ca_imperial_barracks_2 }
-                FROM = { change_variable = { which = "state_army" value = 1.5 }}
-            }
-            if = {
-                limit = { has_building = ca_imperial_barracks_3 }
-                FROM = { change_variable = { which = "state_army" value = 3.5 }}
-            }
-            if = {
-                limit = { has_building = ca_imperial_barracks_4 }
-                FROM = { change_variable = { which = "state_army" value = 5.5 }}
-            }
-            if = {
-                limit = { has_building = ca_imperial_barracks_5 }
-                FROM = { change_variable = { which = "state_army" value = 7 }}
-            }
-            if = {
-                limit = { has_building = ca_imperial_barracks_6 }
-                FROM = { change_variable = { which = "state_army" value = 10 }}
-            }
+        }
+        any_demesne_title = {
+             # per 100 retinue increase variable by 0.5
+             if = {
+                 limit = { has_building = ca_imperial_barracks_1 }
+                 FROM = { change_variable = { which = "state_army" value = 0.25 }}  
+             }
+             if = {
+                 limit = { has_building = ca_imperial_barracks_2 }
+                 FROM = { change_variable = { which = "state_army" value = 0.75 }}
+             }
+             if = {
+                 limit = { has_building = ca_imperial_barracks_3 }
+                 FROM = { change_variable = { which = "state_army" value = 1.75 }}
+             }
+             if = {
+                 limit = { has_building = ca_imperial_barracks_4 }
+                 FROM = { change_variable = { which = "state_army" value = 2.5 }}
+             }
+             if = {
+                 limit = { has_building = ca_imperial_barracks_5 }
+                 FROM = { change_variable = { which = "state_army" value = 3.5 }}
+             }
+             if = {
+                 limit = { has_building = ca_imperial_barracks_6 }
+                 FROM = { change_variable = { which = "state_army" value = 5.0 }}
+             }
         }
         FROM = { character_event = { id = empire.2 days = 1 }}
     }
@@ -70,6 +101,9 @@ character_event = {
     option = {
         name = "EVTOPT_EMPIRE_1B"
         FROM = { character_event = { id = empire.3 days = 1 }}
+	remove_character_modifier = state_troops_given
+	any_vassal = { remove_character_modifier = state_troops_given }
+        ai_chance = { factor = 0 }
     }
 }
 # inform liege about provided troops
@@ -92,6 +126,86 @@ character_event = {
 
     option = {
         name = OK
+    }
+}
+# build proper building that provides retinues
+character_event = {
+    id = empire.4
+    is_triggered_only = yes 
+    desc = "EVTDESC_EMPIRE_4"
+    picture = "GFX_evt_emmisary"
+
+    option = {
+        name = OK
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 2 }
+		    NOT ={ check_variable = { which = "state_army" value = 5 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_1 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 5 }
+		    NOT ={ check_variable = { which = "state_army" value = 10 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_2 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 10 }
+		    NOT ={ check_variable = { which = "state_army" value = 15 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_3 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 15 }
+		    NOT ={ check_variable = { which = "state_army" value = 20 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_4 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 20 }
+		    NOT ={ check_variable = { which = "state_army" value = 30 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_5 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 30 }
+		    NOT ={ check_variable = { which = "state_army" value = 40 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_6 }
+            }
+            if = { 
+                limit = {
+		    check_variable = { which = "state_army" value = 40 }
+		    NOT ={ check_variable = { which = "state_army" value = 50 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_7 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 50 }
+		    NOT ={ check_variable = { which = "state_army" value = 70 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_8 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 70 }
+		    NOT ={ check_variable = { which = "state_army" value = 90 }}
+                }
+                capital_holding = { add_building = ca_imperial_army_9 }
+            }
+            if = { 
+                limit = { 
+		    check_variable = { which = "state_army" value = 90 }
+                }
+                capital_holding = { add_building = ca_imperial_army_10 }
+            }
     }
 }
 

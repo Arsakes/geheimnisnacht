@@ -124,6 +124,18 @@ ca_halfling_vigilant_1_desc;Sharp-eyed halflings are recruited and trained as sc
 ca_halfling_great_1;Great Militia;;;;;;;;;;;;;x
 ca_halfling_great_1_desc;Rather than forcing halflings into long, brunchless days of training, it is possible to simply drag as many as possible from their homes at the time of crisis. The effect of a great many angry, hungry halflings defending their dinners is not to be underestimated.;;;;;;;;;;;;;x
 # EMPIRE BUILDINGS
+building_imperial_army;The settlement was chosen as rally point for Imperial Army.;;;;;;;;;;;;;x
+ca_imperial_army_1;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_2;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_3;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_4;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_5;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_6;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_7;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_8;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_9;Imperial Army;;;;;;;;;;;;;x
+ca_imperial_army_10;Imperial Army;;;;;;;;;;;;;x
+#
 ca_imperial_barracks_1_desc;A garrison of household troops helps protect the castle and fight in the field. Proper Imperial fashion tends to favour a strong army of infatry, with supporting artillery and cavalry.;;;;;;;;;;;;;x
 ca_imperial_barracks_1;Small Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_2;Medium Imperial Barracks;;;;;;;;;;;;;x
@@ -131,19 +143,30 @@ ca_imperial_barracks_3;Large Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_4;Minor Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_5;Major Imperial Barracks;;;;;;;;;;;;;x
 ca_imperial_barracks_6;Main Imperial Barracks;;;;;;;;;;;;;x
-ca_imperial_stable_1_desc;There are stables of Knight Order in this settlement. Orders both secular and religious provide Imperial army with armoured knights.;;;;;;;;;;;;;x
-ca_imperial_stable_1;Small Knightly Order Barracks;;;;;;;;;;;;;x
-ca_imperial_stable_2;Medium Knightly Order Barracks;;;;;;;;;;;;;x
-ca_imperial_stable_3;Large Knightly Order Barracks;;;;;;;;;;;;;x
+ca_imperial_stable_1_desc;There are stables of Knightly Order in this settlement. Orders both secular and religious provide Imperial army with armoured knights.;;;;;;;;;;;;;x
+ca_imperial_stable_1;Small Knightly Order Stables;;;;;;;;;;;;;x
+ca_imperial_stable_2;Medium Knightly Order Stables;;;;;;;;;;;;;x
+ca_imperial_stable_3;Large Knightly Order Stables;;;;;;;;;;;;;x
 ca_imperial_stable_4;Minor Knightly Order Seat;;;;;;;;;;;;;x
 ca_imperial_stable_5;Major Knightly Order Seat;;;;;;;;;;;;;x
 ca_imperial_stable_6;Main Knightly Order Seat;;;;;;;;;;;;;x
-# BRETONNIA
+# City
+ct_imperial_barracks_1_desc;A garrison of household troops helps protect the castle and fight in the field. Proper Imperial fashion tends to favour a strong army of infatry, with supporting artillery and cavalry.;;;;;;;;;;;;;x
+ct_imperial_barracks_1;Small Imperial Barracks;;;;;;;;;;;;;x
+ct_imperial_barracks_2;Medium Imperial Barracks;;;;;;;;;;;;;x
+ct_imperial_barracks_3;Large Imperial Barracks;;;;;;;;;;;;;x
+ct_imperial_barracks_4;Minor Imperial Barracks;;;;;;;;;;;;;x
+ct_imperial_barracks_5;Major Imperial Barracks;;;;;;;;;;;;;x
+ct_imperial_barracks_6;Main Imperial Barracks;;;;;;;;;;;;;x
+#
 ca_imperial_militia_1_desc;In the absence of proper infrastructure or trustworthy vassals, it can be necessary to levy the peasantry into service. Although poor in combat, it is better than nothing.;;;;;;;;;;;;;x
-ca_imperial_free_1;Free Company;;;;;;;;;;;;;x
+#ca_imperial_free_1;Free Company;;;;;;;;;;;;;x
 ca_imperial_free_1_desc;The local levy are combined with sellswords and adventurers, creating a cheap yet effective army that can be raised at a moments notice. The high proportion of 'former' bandits, pirates, and criminals means that the levies possess some skill and courage.;;;;;;;;;;;;;x
-ca_imperial_state_1;State Barracks;;;;;;;;;;;;;x
-ca_imperial_state_1_desc;A professional core of soldiers are trained and quartered for the service of their lord. The most common formations are of halberdiers and other line infantry, supported by auxilary troops.;;;;;;;;;;;;;x
+ca_imperial_state_1_desc;Core of Empire army consist of professional soldiers which are trained and quartered for the service of their lord. Each Elecetor Count is expected to provide a Imperial Army with troops. Lower rank nobles posses limited amount of proffesional troops.;;;;;;;;;;;;;x
+ca_imperial_state_1;Army Headquaters;;;;;;;;;;;;;x
+ca_imperial_state_2;Army Headquaters;;;;;;;;;;;;;x
+#
+# BRETONNIA
 ca_bretonnian_barracks_1;Knightly Service;;;;;;;;;;;;;x
 ca_bretonnian_barracks_1_desc;In exchange for generous landed estates and legal privilages, the minor nobility are required to volunteer their swords and lances when called upon. In addition to the typical peasant levy, a significant number of knights and squires form the core of the army, unmatched in training and equipment.;;;;;;;;;;;;;x
 ca_bretonnian_militia_1;Tenement Conscription;;;;;;;;;;;;;x

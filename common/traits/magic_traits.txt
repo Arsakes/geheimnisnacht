@@ -34,7 +34,7 @@ magic_power_magister = {
 }
 magic_power_lord = {
         education = yes
-        potential = { always = no }
+        potential = { always = no } # doesn't work 
 	#opposites = {
 	#	magic_power_adept
 	#	magic_power_archmaster

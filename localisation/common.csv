@@ -72,12 +72,19 @@ DYN13_DESC;With a score of $SCORE$ you$FAILED$ beat House von Drak. The von Drak
 DYN14_DESC;With a score of $SCORE$ you$FAILED$ beat House Stoutheart. In the 26th century, Hisme Stoutheart achieved a record ten consecutive three-year terms as Elder of the Mootland.;;;;;;;;;;;;;x
 DYN15_DESC;With a score of $SCORE$ you$FAILED$ beat House Nikse. The Nikse family were a minor noble family in Nordland, and are only known from their ocassional marriages into the Todbringer dynasty.;;;;;;;;;;;;;x
 # RETINUES
-RETTYPE_CUL_IMP;Imperial Infantry Company.;;;;;;;;;;;;;x
-RETTYPE_CUL_IMP2;Imperial Light Infantry Company.;;;;;;;;;;;;;x
-RETTYPE_CUL_BRET;Bertonian Pikeman Company.;;;;;;;;;;;;;x
-RETTYPE_CUL_BRET2;Bertonian Archers Company.;;;;;;;;;;;;;x
-RETTYPE_CUL_KISLEV1;Kossar Pulk;;;;;;;;;;;;;x
-RETTYPE_CUL_KISLEV2;Kremlin Guard Pulk;;;;;;;;;;;;;x
+RETTYPE_CUL_IMP;Imperial Swordsman Company;;;;;;;;;;;;;x
+RETTYPE_CUL_IMP2;Imperial Halabardier Company;;;;;;;;;;;;;x
+RETTYPE_CUL_IMP3;Imperial Spearman Company;;;;;;;;;;;;;x
+RETTYPE_CUL_IMP4;Imperial Handgunner Company;;;;;;;;;;;;;x
+RETTYPE_CUL_IMP5;Imperial Pistolier Company;;;;;;;;;;;;;x
+RETTYPE_CUL_BRET;Bertonian Pikeman Company;;;;;;;;;;;;;x
+RETTYPE_CUL_BRET2;Bertonian Archers Company;;;;;;;;;;;;;x
+RETTYPE_CUL_BRET3;Knights of the Realm;;;;;;;;;;;;;x
+RETTYPE_CUL_KISLEV1;Kossar Rota;;;;;;;;;;;;;x
+RETTYPE_CUL_KISLEV2;Kremlin Guard Rota;;;;;;;;;;;;;x
+RETTYPE_CUL_ORC;Black Orc Boyz;;;;;;;;;;;;;x
+RETTYPE_CUL_DWARF;Longbeards;;;;;;;;;;;;;x
+RETTYPE_SPEC_VAMP;Vampire Knights;;;;;;;;;;;;;x
 # DISEASES GUI INFO
 has_creeping_buboes;Has Creeping Buboes;;;;;;;;;;;;;x
 has_creeping_buboes_desc;This character has Creeping Buboes, which leave horrible itchy red welts;;;;;;;;;;;;;x
@@ -104,6 +111,8 @@ RED_POX_INFO;There is an epidemic of the Red Pox in this place;;;;;;;;;;;;;x
 green_pox;the Green Pox;;;;;;;;;;;;;x
 GREEN_POX_INFO;There is an epidemic of the Green Pox in this place;;;;;;;;;;;;;x
 # EVENT MODIFIERS
+state_troops_given;Provided Proffesional Troops;;;;;;;;;;;;;x
+state_troops_given_desc;The Character has provided Emperor with proffesional troops.;;;;;;;;;;;;;x
 # duel
 battlefield_fight;Fight on the Battlefield;;;;;;;;;;;;;x
 battlefield_fight_desc;This character recently fought on a battlefield.;;;;;;;;;;;;;x
@@ -148,11 +157,20 @@ WAR_NAME_CHAOS_INVASION;$ORDER$$FIRST_ADJ$ Chaos Invasion of $OTHER_TITLE$;;;;;;
 #
 # NEW TROOP TYPES 
 #
-magical_spells;Spell points;;;;;;;;;;;;;x
+magical_spells;Spell Points;;;;;;;;;;;;;x
 magical_spells_MORALE;<not applicable>;;;;;;;;;;;;;x
 magical_spells_DISCIPLINE;<not applicable>;;;;;;;;;;;;;x
-magical_spells_OFFENSIVE_FIRE;Active Spells damage;;;;;;;;;;;;;x
-magical_spells_DEFENSIVE_FIRE;Active Spells duration;;;;;;;;;;;;;x
-magical_spells_modifier;Spellpower;;;;;;;;;;;;;x
-magical_spells_offensive;Spell Power Modifier;;;;;;;;;;;;;x
-magical_spells_defensive;Spells Duration Modifier;;;;;;;;;;;;;x
+magical_spells_OFFENSIVE_FIRE;Spells Damage;;;;;;;;;;;;;x
+magical_spells_DEFENSIVE_FIRE;Spells Duration;;;;;;;;;;;;;x
+magical_spells_modifier;Combat Modifier boost to Spells;;;;;;;;;;;;;x
+magical_spells_offensive;Spells Offensive;;;;;;;;;;;;;x
+magical_spells_defensive;Spells Defensive;;;;;;;;;;;;;x
+#
+gunpowder;Gunners;;;;;;;;;;;;;x
+gunpowder_MORALE;Gunners Morale;;;;;;;;;;;;;x
+gunpowder_DISCIPLINE;Gunners Discipline;;;;;;;;;;;;;x
+gunpowder_modifier;Combat Modfier boost to Gunners Troops;;;;;;;;;;;;;x
+gunpowder_OFFENSIVE_FIRE;Gunners Damage;;;;;;;;;;;;;x
+gunpowder_DFENSIVE_FIRE;Gunners Defense;;;;;;;;;;;;;x
+gunpowder_defensive;Gunners Defensive;;;;;;;;;;;;;x
+gunpowder_offensive;Gunners Offensive;;;;;;;;;;;;;x

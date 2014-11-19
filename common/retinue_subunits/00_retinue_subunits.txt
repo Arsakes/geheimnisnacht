@@ -7,40 +7,89 @@
 # 5 - Archers
 # 6 - Special troops
 
-#IMPERIAL RETINUES#
+#IMPERIAL RETINUES# 
+#
+# A lot of them since empire use standing army 
+#
 
+# Swordsman Regiment
 RETTYPE_CUL_IMP =
 {
 	first_type = 1
-	first_amount = 250
-	second_type = 2
-	second_amount = 250
+	first_amount = 300
 	
 	potential = {
 		culture_group = imperial_group
 	}
 	
 	modifier = {
-		pikemen_defensive = 0.4
 		heavy_infantry_defensive = 0.2
+		heavy_infantry_offensive = 0.2
 	}
 }
 
+# Halabardier Regiment
 RETTYPE_CUL_IMP2 =
 {
-	first_type = 0
-	first_amount = 250
-	second_type = 5
-	second_amount = 250
+	first_type = 2
+	first_amount = 300
+
+
 	potential = {
 	 	culture_group = imperial_group
 	}
 	
 	modifier = {
-		archers_defensive = 0.4
-		light_infantry_defensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_offensive = 0.3
 	}
 }
+
+
+# Spearman Regiment 
+RETTYPE_CUL_IMP3 =
+{
+	first_type = 0
+	first_amount = 300
+	potential = {
+	 	culture_group = imperial_group
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		light_infantry_defensive = 0.5
+		light_infantry_morale = 0.4
+	}
+}
+# Gunpowder Regiment 
+RETTYPE_CUL_IMP4 =
+{
+	first_type = 6
+	first_amount = 300
+	potential = {
+	 	culture_group = imperial_group
+	}
+        special_troops = gunpowder 
+}
+
+
+# Pistolier Regiment 
+RETTYPE_CUL_IMP5 =
+{
+	first_type = 3
+	first_amount = 200
+	potential = {
+	 	culture_group = imperial_group
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.5
+		light_cavalry_morale = 0.4
+	}
+}
+
+
 
 #BRETONNIAN RETINUES#
 
@@ -77,31 +126,19 @@ RETTYPE_CUL_BRET2 =
 	}
 }
 
-"Knights of the Realm" = {
-    first_type = 4
-    first_amount = 100
+# Knights of the Realm
+RETTYPE_CUL_BRET3 = {
+	first_type = 4
+	first_amount = 100
 	potential = {
 		culture_group = bretonnian_group
 	}
-    modifier = {
-        knights_defensive = 0.4
-        knights_offensive = 0.4
-        knights_morale = 0.5    
-    }
+	modifier = {
+        	knights_defensive = 0.4
+	        knights_offensive = 0.4
+        	knights_morale = 0.5    
 	}
-
-"Squires" = {
-    first_type = 3
-    first_amount = 250
-	potential = {
-		culture_group = bretonnian_group
-	}
-    modifier = {
-        light_cavalry_defensive = 0.4
-        light_cavalry__offensive = 0.2
-        light_cavalry__morale = 0.3  
-    }
-	}
+}
 
 #KISLEV RETINUES#
 
@@ -142,7 +179,7 @@ RETTYPE_CUL_KISLEV2 =
 
 #VAMPIRE RETINUES#
 
-"Vampire Knights" = {
+RETTYPE_SPEC_VAMP = {
     first_type = 4
     first_amount = 100
 	potential = {
@@ -158,7 +195,7 @@ RETTYPE_CUL_KISLEV2 =
 
 #ORC RETINUES#
 
-"Black Orcs" =
+RETTYPE_CUL_ORC =
 {
     first_type = 1
     first_amount = 250
@@ -174,7 +211,7 @@ RETTYPE_CUL_KISLEV2 =
 
 #DWARF RETINUES#
 
-"Dwarf Longbeards" =
+RETTYPE_CUL_DWARF =
 {
     first_type = 1
     first_amount = 250

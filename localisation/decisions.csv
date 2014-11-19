@@ -14,9 +14,8 @@ ai_race_human;;;;;;;;;;;;;;x
 #
 # REALM DECISION
 #
-decision_empire_call_help;Request Aid from Elector Counts;;;;;;;;;;;;;x
-decision_empire_call_help_desc;In the time of need Elector Counts are meant to provide Emperor with their forces.;;;;;;;;;;;;;x
-tooltip_dec_empire_call_help;Elector counts are in position to help.;;;;;;;;;;;;;x
+decision_empire_count_army;Inspect Army;;;;;;;;;;;;;x
+decision_empire_count_army_desc;Inspects the army counting the number of troops that Elector Counts can provide state.;;;;;;;;;;;;;x
 #
 # spell decisions
 #

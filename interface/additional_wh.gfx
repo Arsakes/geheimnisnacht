@@ -1,7 +1,7 @@
 spriteTypes = {
         # DECISIONS
 	spriteType = {
-		name = "GFX_decision_empire_call_help"
+		name = "GFX_decision_empire_count_army"
 		texturefile = "gfx\\interface\\decision_icon_empire.tga"
 	}
 	spriteType = {
