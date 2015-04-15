@@ -16,6 +16,9 @@ ai_race_human;;;;;;;;;;;;;;x
 #
 decision_empire_count_army;Inspect Army;;;;;;;;;;;;;x
 decision_empire_count_army_desc;Inspects the army counting the number of troops that Elector Counts can provide state.;;;;;;;;;;;;;x
+decision_empire_call_electors;Call Electors for Aid;;;;;;;;;;;;;x
+tooltip_dec_empire_call_help1;Must have any Elector Count as vassal.;;;;;;;;;;;;;x
+tooltip_dec_empire_call_help2;Have not called for help recently.;;;;;;;;;;;;;x
 #
 # spell decisions
 #

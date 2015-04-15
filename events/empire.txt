@@ -1,4 +1,3 @@
-#
 # @author Pietrko(Arsakes)
 # @compatibility 2.2
 # @description Empire related events
@@ -209,3 +208,124 @@ character_event = {
     }
 }
 
+
+#####################################################
+#
+# Calling Emperor Counts to War
+#
+#####################################################
+character_event = {
+    id = empire.5
+    is_triggered_only = yes 
+    desc = "EVTDESC_EMPIRE_5"
+    picture = "GFX_evt_emmisary"
+ 
+    option = {
+        name = "EVTOPT_EMPIRE_1A" # its my sacred duty
+        set_defacto_liege = THIS
+        if = { 
+            limit = { FROM = { is_primary_war_attacker = yes } }
+            join_attacker_wars = FROM
+        }
+        if = { 
+            limit = { FROM = { is_primary_war_defender = yes } }
+            join_defender_wars = FROM
+        }
+        set_defacto_liege = FROM
+        FROM = { letter_event = { id = empire.7 tooltip = "EMPEROR_INFORMED" } }
+        ai_chance = { 
+            factor = 1 
+            modifier = { 
+                factor = 0.7
+                NOT = { opinion = { who = FROM value = -30 } }
+            }
+            modifier = { 
+                factor = 0.7
+                NOT = { opinion = { who = FROM value = 0 } }
+            }
+            modifier = { 
+                factor = 1.3
+                opinion = { who = FROM value = 30 }
+            }
+            modifier = { 
+                factor = 1.3
+                opinion = { who = FROM value = 60 }
+            }
+            modifier = { 
+                factor = 1.3
+                opinion = { who = FROM value = 90 }
+            }
+            modifier = { 
+                factor = 0
+                war = yes # already in war
+            }
+            modifier = { 
+                factor = 1.5
+                trait = just
+            }
+            modifier = { 
+                factor = 1.5
+                trait = honest
+            }
+            modifier = { 
+                factor = 1.1
+                trait = brave
+            }
+            modifier = { 
+                factor = 0.75
+                trait = craven
+            }
+            modifier = { 
+                factor = 0.75
+                trait = deceitful
+            }
+            modifier = { 
+                factor = 0.75
+                trait = cynical
+            }
+            modifier = { 
+                factor = 0.75
+                trait = ruthless
+            }
+            modifier = { 
+                factor = 0.75
+                trait = arbitrary
+            }
+        }
+    }
+    option = {
+        name = "EVTOPT_EMPIRE_1B" # Turn back on your Emperor
+        FROM = { letter_event = { id = empire.8 tooltip = "EMPEROR_INFORMED" } }
+        ai_chance = { 
+            factor = 1 
+        }
+    }
+}
+character_event = {
+    id = empire.6
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = { clr_character_flag = called_electors }
+}
+# Inform Emperor: Vassals will give troops
+letter_event = {
+    id = empire.7
+    is_triggered_only = yes 
+    is_friendly = yes
+    desc = "EVTDESC_EMPIRE_2"
+ 
+    option = {
+        name = EXCELLENT
+    }
+}
+# Inform Emperor: Vassals won't give troops
+letter_event = {
+    id = empire.8
+    is_triggered_only = yes 
+    desc = "EVTDESC_EMPIRE_3"
+ 
+    option = {
+        name = OK
+    }
+}

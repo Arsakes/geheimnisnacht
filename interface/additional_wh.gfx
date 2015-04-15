@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_empire.tga"
 	}
 	spriteType = {
+		name = "GFX_decision_empire_call_electors"
+		texturefile = "gfx\\interface\\decision_icon_empire.tga"
+	}
+	spriteType = {
 		name = "GFX_decision_open_spellbook"
 		texturefile = "gfx\\interface\\decision_icon_spellbook.tga"
 	}

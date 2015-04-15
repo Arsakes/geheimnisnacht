@@ -1,0 +1,94 @@
+# @author Pietrko(Arsakes)
+# @compatibility 2.2.1
+# @description Empire only decisions
+
+decisions = {
+    # For Empire Emperor #FIXME OBSOLETE
+    decision_empire_count_army = {
+        is_high_prio = yes
+        potential = {
+            has_landed_title = e_the_empire
+            independent = yes
+            war = no 
+            always = no
+        }
+        allow = {
+            age = 16
+            prisoner = no
+            # target elector counts (de jure imperial) that are not in Emperor war
+            NOT = { has_character_flag = state_troops_counted }
+        }
+        effect = {
+            set_character_flag = state_troops_counted 
+            set_variable = { which = "state_army" value = 0 }
+            any_vassal = {
+                # target elector counts (de jure imperial) that are not in Emperor war
+                limit = {
+                    higher_tier_than = DUKE
+                    NOT = { character = ROOT }
+                    de_jure_liege = ROOT
+                    NOT = { war_with = ROOT }
+                }
+                # ask them to provide state army
+                character_event = { id = empire.1 days = 1 }
+            }
+            hidden_tooltip = { 
+                character_event = { id = empire.0 days = 90 }
+                character_event = { id = empire.4 days = 7 } # build appropriate buildings
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            #TODO
+        }
+    }  
+
+    # Call electors to
+    decision_empire_call_electors = {
+        is_high_prio = yes
+        potential = {
+            has_landed_title = e_the_empire
+            war = yes
+            independent = yes
+            prisoner = no
+        }
+        allow = {
+            # target elector counts (de jure imperial) that are not in Emperor war
+            custom_tooltip = {
+                text = "tooltip_dec_empire_call_help1"
+                hidden_tooltip = {
+                    any_vassal = { 
+                        tier = king 
+                        de_jure_liege = ROOT
+                        NOT = { war_with = ROOT }
+                        NOT = { character = ROOT }
+                    }
+                }
+            }
+            custom_tooltip = { 
+                text = "tooltip_dec_empire_call_help2" 
+                NOT = { has_character_flag = called_electors }
+            }
+        }
+        effect = {
+            set_character_flag = called_electors 
+            hidden_tooltip = { 
+                any_vassal = {
+                    # target elector counts (de jure imperial) that are not in Emperor war
+                    limit = {
+                        tier = king 
+                        de_jure_liege = ROOT
+                        NOT = { character = ROOT }
+                        NOT = { war_with = ROOT }
+                    }
+                    # ask them to provide state army
+                    character_event = { id = empire.5 days = 1 }
+                    character_event = { id = empire.6 days = 90 }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 200
+        }
+    }  
+}

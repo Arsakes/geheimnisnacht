@@ -1,5 +1,5 @@
 horse_archers = {
-	morale = 5
+	morale = 3
 	maintenance = 2
 	phase_skirmish_attack = 4
 	phase_melee_attack = 3
@@ -30,12 +30,12 @@ magical_spells = {
 gunpowder = {
        morale = 3
        maintenance = 2
-       phase_skirmish_attack = 2
-       phase_melee_attack = 4
+       phase_skirmish_attack = 6
+       phase_melee_attack = 1.5
        phase_pursue_attack = 2
        phase_skirmish_defense = 4
-       phase_melee_defense = 4
-       phase_pursue_defense = 3
+       phase_melee_defense = 2
+       phase_pursue_defense = 2
        base_type = heavy_infantry
 }
 #monstrous_creatures = {

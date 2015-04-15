@@ -12,60 +12,61 @@
 # A lot of them since empire use standing army 
 #
 
-# Swordsman Regiment
+# Swordsman Regiment (Shock troops)
 RETTYPE_CUL_IMP =
 {
 	first_type = 1
-	first_amount = 300
-	
+	first_amount = 400
+
 	potential = {
 		culture_group = imperial_group
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.2
-		heavy_infantry_offensive = 0.2
+		heavy_infantry_offensive = 0.3
+		heavy_infantry_defensive = 0.3
 	}
 }
 
-# Halabardier Regiment
+# Halabardier Regiment with Handgunners (Defensive)
 RETTYPE_CUL_IMP2 =
 {
 	first_type = 2
-	first_amount = 300
-
+	first_amount = 400
 
 	potential = {
 	 	culture_group = imperial_group
 	}
 	
 	modifier = {
-		pikemen_defensive = 0.2
+		pikemen_defensive = 0.3
 		pikemen_offensive = 0.3
 	}
 }
 
 
-# Spearman Regiment 
+# Spearman Regiment (Defensive)
 RETTYPE_CUL_IMP3 =
 {
 	first_type = 0
 	first_amount = 300
+        second_type = 2
+	second_amount = 100
+
 	potential = {
 	 	culture_group = imperial_group
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.3
 		light_infantry_defensive = 0.5
-		light_infantry_morale = 0.4
+		light_infantry_morale = 0.5
 	}
 }
 # Gunpowder Regiment 
 RETTYPE_CUL_IMP4 =
 {
 	first_type = 6
-	first_amount = 300
+	first_amount = 400
 	potential = {
 	 	culture_group = imperial_group
 	}
@@ -77,7 +78,7 @@ RETTYPE_CUL_IMP4 =
 RETTYPE_CUL_IMP5 =
 {
 	first_type = 3
-	first_amount = 200
+	first_amount = 300
 	potential = {
 	 	culture_group = imperial_group
 	}
@@ -85,7 +86,7 @@ RETTYPE_CUL_IMP5 =
 	modifier = {
 		light_cavalry_offensive = 0.3
 		light_cavalry_defensive = 0.5
-		light_cavalry_morale = 0.4
+		light_cavalry_morale = 0.5
 	}
 }
 
