@@ -208,7 +208,6 @@ castle = {
 		build_time = 0
 		retinuesize_perc = -0.5
 		ai_creation_factor = 200
-
 		extra_tech_building_start = 0.0		
 	}
 	# Emperor Level state troops headquaters
