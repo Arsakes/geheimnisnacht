@@ -1,0 +1,88 @@
+70000={
+name="Jonathon"
+dynasty=23094
+culture=mousillonian
+religion=grail
+martial=3
+diplomacy=7
+stewardship=5
+intrigue=9
+learning=9
+add_trait="creature_human"
+1700.1.2={birth=yes}
+1700.1.3 = {
+effect = { set_graphical_culture = generic_vampire }
+}
+1760.5.15={death=yes}
+}
+
+70001={
+name="Walach"
+dynasty=23094
+culture=mousillonian
+religion=vampiric
+martial=14
+diplomacy=7
+stewardship=5
+intrigue=9
+learning=9
+father=70000
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="proud"
+add_trait="wroth"
+add_trait="vampire_blood_visible"
+1722.1.2={birth=yes}
+1724.1.3 = {
+effect = { set_graphical_culture = generic_vampire }
+}
+2069.5.15={death=yes}
+}
+
+#1st son of Walach
+70002={
+name="Geoffe"
+dynasty=23094
+culture=mousillonian
+religion=vampiric
+martial=10
+diplomacy=7
+stewardship=5
+intrigue=9
+learning=9
+father=70001
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="proud"
+add_trait="wroth"
+add_trait="vampire_blood_visible"
+1900.1.2={birth=yes}
+1900.1.3 = {
+effect = { set_graphical_culture = generic_vampire }
+}
+2069.5.15={death=yes}
+}
+
+#2nd son of Walach and commander of the blood dragon mercs, lieged to Walach/d_dar
+70003={
+name="Lafayette"
+dynasty=23094
+culture=mousillonian
+religion=vampiric
+martial=13
+diplomacy=7
+stewardship=8
+intrigue=9
+learning=9
+father=70001
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="proud"
+add_trait="wroth"
+add_trait="vampire_blood_visible"
+1905.1.2={birth=yes}
+1905.1.3 = {
+effect = { set_graphical_culture = generic_vampire }
+}
+2069.5.15={death=yes}
+}

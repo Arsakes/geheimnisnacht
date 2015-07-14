@@ -3,7 +3,7 @@ name="Bahaguli"
 dynasty=65000
 dna="gjnnejpjhca"
 culture=tokmar
-religion=chaos
+religion=nurgle
 martial=3
 diplomacy=2
 stewardship=0
@@ -14,7 +14,9 @@ add_trait="fortune_builder"
 add_trait="brave"
 add_trait="shy"
 add_trait="just"
-1974.1.1={birth=yes}
+1974.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2026.2.11={death=yes}
 }
 
@@ -23,7 +25,7 @@ name="Zenti"
 dynasty=65001
 dna="ljdgclgolaj"
 culture=tokmar
-religion=chaos
+religion=slaanesh
 martial=7
 diplomacy=6
 stewardship=3
@@ -39,11 +41,10 @@ add_trait="ill"
 
 2400002={
 name="Yildiz"
-female=yes
 dynasty=65002
 dna="peidcjkhamo"
 culture=tokmar
-religion=chaos
+religion=nurgle
 martial=6
 diplomacy=6
 stewardship=6
@@ -63,7 +64,7 @@ name="Zabergan"
 dynasty=65003
 dna="lpmdmlncjbg"
 culture=tokmar
-religion=chaos
+religion=khorne
 martial=4
 diplomacy=3
 stewardship=3
@@ -82,7 +83,7 @@ name="Bahaguli"
 dynasty=65004
 dna="aiomnjjdkfi"
 culture=tokmar
-religion=chaos
+religion=khorne
 martial=7
 diplomacy=1
 stewardship=4
@@ -137,7 +138,7 @@ name="Afaq"
 dynasty=65007
 dna="djiodjfdccd"
 culture=tokmar
-religion=chaos
+religion=nurgle
 martial=3
 diplomacy=0
 stewardship=5
@@ -157,7 +158,7 @@ name="Tat-Ugek"
 dynasty=65008
 dna="nebdfiniakm"
 culture=tokmar
-religion=chaos
+religion=nurgle
 martial=5
 diplomacy=4
 stewardship=6
@@ -202,7 +203,9 @@ learning=4
 add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="cynical"
-1964.1.1={birth=yes}
+1964.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2029.2.15={death=yes}
 }
 

@@ -51,7 +51,8 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="brilliant_strategist"
 add_trait="weak"
-1949.8.30={birth=yes}
+1949.8.30={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 } }
 2039.4.28={death=yes}
 }
 
@@ -219,7 +220,8 @@ learning=9
 add_trait="creature_human"
 add_trait="poet"
 add_trait="mastermind_theologian"
-1979.4.23={birth=yes}
+1979.4.23={birth=yes
+		effect = { set_character_flag = magic_potential_flag_3 } }
 2045.2.3={death=yes}
 }
 
@@ -280,7 +282,8 @@ add_trait="amateurish_plotter"
 add_trait="fair"
 add_trait="proud"
 add_trait="just"
-1969.1.24={birth=yes}
+1969.1.24={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 }}
 2022.11.6={death=yes}
 }
 
@@ -339,7 +342,8 @@ add_trait="hedonist"
 add_trait="thrifty_clerk"
 add_trait="craven"
 add_trait="kind"
-1982.6.22={birth=yes}
+1982.6.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 } }
 2064.4.2={death=yes}
 }
 
@@ -417,7 +421,12 @@ learning=13
 female=yes
 add_trait="creature_human"
 add_trait="martial_cleric"
-1972.7.5={birth=yes}
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1972.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -433,7 +442,11 @@ intrigue=4
 learning=14
 add_trait="creature_human"
 add_trait="scholarly_theologian"
-1972.7.5={birth=yes}
+add_trait="lore_light"
+add_trait="magic_potential_1"
+1972.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -444,14 +457,17 @@ culture=aesling
 religion=norscan_gods
 martial=4
 diplomacy=3
-intrigue=4
 stewardship=3
+intrigue=4
 learning=15
 female=yes
 add_trait="creature_human"
 add_trait="martial_cleric"
 add_trait="lore_beasts"
-1972.7.5={birth=yes}
+add_trait="magic_potential_1"
+1972.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -467,7 +483,11 @@ intrigue=4
 learning=14
 add_trait="creature_human"
 add_trait="martial_cleric"
-1972.7.5={birth=yes}
+add_trait="lore_heavens"
+add_trait="magic_potential_1"
+1972.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -484,7 +504,12 @@ learning=13
 female=yes
 add_trait="creature_human"
 add_trait="martial_cleric"
-1962.7.5={birth=yes}
+add_trait="lore_death"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1962.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -501,7 +526,11 @@ intrigue=4
 learning=12
 add_trait="creature_human"
 add_trait="scholarly_theologian"
-1952.7.5={birth=yes}
+add_trait="lore_life"
+add_trait="magic_potential_1"
+1952.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -519,7 +548,10 @@ female=yes
 add_trait="creature_human"
 add_trait="martial_cleric"
 add_trait="lore_metal"
-1992.7.5={birth=yes}
+add_trait="magic_potential_1"
+1992.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -535,7 +567,11 @@ intrigue=4
 learning=12
 add_trait="creature_human"
 add_trait="martial_cleric"
-1985.7.5={birth=yes}
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+1985.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -552,7 +588,11 @@ learning=13
 female=yes
 add_trait="creature_human"
 add_trait="martial_cleric"
-1984.7.5={birth=yes}
+add_trait="lore_beasts"
+add_trait="magic_potential_1"
+1984.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_3 duration = -1 } }
+}
 2060.3.26={death=yes}
 }
 
@@ -568,6 +608,11 @@ intrigue=4
 learning=14
 add_trait="creature_human"
 add_trait="martial_cleric"
-1970.7.5={birth=yes}
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1970.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
 2060.3.26={death=yes}
 }

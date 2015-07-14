@@ -13,7 +13,9 @@ add_trait="indulgent_wastrel"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="craven"
-1987.12.23={birth=yes}
+1987.12.23={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2040.12.17={death=yes}
 }
 
@@ -69,8 +71,6 @@ add_trait="mystic"
 add_trait="detached_priest"
 add_trait="cruel"
 add_trait="weak"
-
-
 1972.2.19={birth=yes}
 2062.5.24={death=yes}
 }
@@ -92,7 +92,6 @@ add_trait="grey_eminence"
 add_trait="wroth"
 add_trait="humble"
 add_trait="chaste"
-
 1991.10.6={birth=yes}
 2055.3.20={death=yes}
 }
@@ -146,12 +145,9 @@ stewardship=7
 intrigue=8
 learning=9
 add_trait="creature_human"
-
 add_trait="scholarly_theologian"
 add_trait="drunkard"
 add_trait="lustful"
-
-
 1986.3.20={birth="1986.3.20"}
 2051.2.2={death="2051.2.2"}
 }
@@ -170,10 +166,8 @@ learning=2
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="brilliant_strategist"
-
 add_trait="legit_bastard"
 add_trait="homosexual"
-
 2005.3.19={birth="2005.3.19"}
 2060.4.25={death="2060.4.25"}
 }
@@ -191,10 +185,6 @@ learning=9
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="elusive_shadow"
-
-
-
-
 1985.8.6={birth="1985.8.6"}
 2056.4.10={death="2056.4.10"}
 }
@@ -210,12 +200,8 @@ stewardship=2
 intrigue=0
 learning=8
 add_trait="creature_human"
-
 add_trait="scholarly_theologian"
 add_trait="lisp"
-
-
-
 1975.4.3={birth="1975.4.3"}
 2027.2.17={death="2027.2.17"}
 }
@@ -233,10 +219,6 @@ learning=4
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="detached_priest"
-
-
-
-
 2008.8.1={birth="2008.8.1"}
 2069.10.17={death="2069.10.17"}
 }
@@ -257,7 +239,6 @@ add_trait="intricate_webweaver"
 add_trait="diligent"
 add_trait="strong"
 add_trait="envious"
-
 1968.1.1={birth="1968.1.1"}
 2017.9.1={death="2017.9.1"}
 }
@@ -278,8 +259,9 @@ add_trait="skilled_tactician"
 add_trait="proud"
 add_trait="slothful"
 add_trait="fair"
-
-1973.11.3={birth="1973.11.3"}
+1973.11.3={birth="1973.11.3"
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2010.9.10={death="2010.9.10"}
 }
 
@@ -299,7 +281,6 @@ add_trait="fortune_builder"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="just"
-
 1987.4.10={birth="1987.4.10"}
 2059.3.4={death="2059.3.4"}
 }
@@ -320,7 +301,6 @@ add_trait="amateurish_plotter"
 add_trait="shy"
 add_trait="zealous"
 add_trait="cynical"
-
 1973.1.16={birth="1973.1.16"}
 2022.9.14={death="2022.9.14"}
 }
@@ -341,7 +321,6 @@ add_trait="naive_appeaser"
 add_trait="ambitious"
 add_trait="paranoid"
 add_trait="honest"
-
 2009.12.6={birth="2009.12.6"}
 2019.3.21={death="2019.3.21"}
 }
@@ -358,12 +337,9 @@ stewardship=5
 intrigue=11
 learning=1
 add_trait="creature_human"
-
 add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="kind"
-
-
 1955.3.28={birth="1955.3.28"}
 2044.6.30={death="2044.6.30"}
 }
@@ -380,12 +356,8 @@ stewardship=8
 intrigue=8
 learning=7
 add_trait="creature_human"
-
 add_trait="martial_cleric"
 add_trait="craven"
-
-
-
 1992.10.6={birth="1992.10.6"}
 2052.7.15={death="2052.7.15"}
 }
@@ -405,10 +377,10 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="grey_eminence"
 add_trait="greedy"
-
 add_trait="cruel"
-
-1974.12.26={birth=yes}
+1974.12.26={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2052.5.1={death=yes}
 }
 

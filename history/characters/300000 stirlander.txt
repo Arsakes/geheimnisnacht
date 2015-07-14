@@ -13,10 +13,69 @@ add_trait="hedonist"
 add_trait="flamboyant_schemer"
 add_trait="kind"
 add_trait="honest"
-
-
+add_trait="sword_1"
 1976.7.15={birth=yes}
+2002.4.16={add_spouse=300073}
 2041.2.5={death=yes}
+}
+
+300073={
+name="Edith"
+female=yes #Sepp's fictional wife
+culture=stirlander
+religion=sigmarite
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="gregarious"
+add_trait="lustful"
+add_trait="ambitious"
+1986.7.15={birth=yes}
+2002.4.16={add_spouse=300000}
+2045.1.6={death=yes}
+}
+
+300074={
+name="Ottmar"
+dynasty=20056 #Sepp's fictional son 
+culture=stirlander
+religion=sigmarite
+father=300000
+mother=300073
+martial=2
+diplomacy=2
+stewardship=3
+intrigue=0
+learning=1
+add_trait="creature_human"
+add_trait="humble"
+add_trait="shy"
+2006.7.15={birth=yes}
+2060.8.10={death=yes}
+}
+
+300075={
+name="Yvette"
+female=yes
+dynasty=20056 #Sepp's fictional daughter
+culture=stirlander
+religion=sigmarite
+father=300000
+mother=300073
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="gregarious"
+add_trait="proud"
+2004.7.15={birth=yes}
+2055.8.10={death=yes}
 }
 
 300001={
@@ -34,8 +93,6 @@ add_trait="impaler"
 add_trait="charismatic_negotiator"
 add_trait="greedy"
 add_trait="gregarious"
-
-
 1967.5.26={birth=yes}
 2062.2.19={death=yes}
 }
@@ -54,10 +111,8 @@ learning=2
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="scholarly_theologian"
-
 add_trait="weak"
 add_trait="craven"
-
 1999.4.3={birth=yes}
 2064.5.19={death=yes}
 }
@@ -78,7 +133,6 @@ add_trait="flamboyant_schemer"
 add_trait="tall"
 add_trait="wroth"
 add_trait="cruel"
-
 1992.11.25={birth=yes}
 2062.6.5={death=yes}
 }
@@ -95,12 +149,9 @@ stewardship=6
 intrigue=5
 learning=9
 add_trait="creature_human"
-
 add_trait="detached_priest"
 add_trait="chaste"
 add_trait="temperate"
-
-
 1980.10.12={birth=yes}
 2019.10.7={death=yes}
 }
@@ -121,7 +172,6 @@ add_trait="grey_eminence"
 add_trait="content"
 add_trait="humble"
 add_trait="ill"
-
 1955.12.13={birth=yes}
 2011.7.30={death=yes}
 }
@@ -177,7 +227,9 @@ add_trait="impaler"
 add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 add_trait="lustful"
-1968.9.5={birth=yes}
+1968.9.5={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2027.12.9={death=yes}
 }
 
@@ -251,7 +303,6 @@ add_trait="charismatic_negotiator"
 add_trait="diligent"
 add_trait="envious"
 add_trait="proud"
-
 1982.4.14={birth=yes}
 2033.7.17={death=yes}
 }
@@ -272,7 +323,6 @@ add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="fair"
 add_trait="patient"
-
 1991.12.15={birth=yes}
 2055.8.14={death=yes}
 }
@@ -288,12 +338,10 @@ stewardship=5
 intrigue=5
 learning=8
 add_trait="creature_human"
-
 add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="strong"
 add_trait="shy"
-
 2009.9.8={birth=yes}
 2022.4.5={death=yes}
 }
@@ -314,7 +362,6 @@ add_trait="martial_cleric"
 add_trait="cynical"
 add_trait="just"
 add_trait="arbitrary"
-
 1954.8.22={birth=yes}
 2035.3.9={death=yes}
 }
@@ -336,7 +383,6 @@ add_trait="fortune_builder"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="honest"
-
 1994.8.20={birth=yes}
 2014.1.21={death=yes}
 }
@@ -355,9 +401,7 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="thrifty_clerk"
 add_trait="gregarious"
-
 add_trait="craven"
-
 1983.11.29={birth=yes}
 2063.1.13={death=yes}
 }
@@ -377,8 +421,6 @@ add_trait="hunter"
 add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="greedy"
-
-
 2006.7.21={birth="2006.7.21"}
 2054.4.30={death="2054.4.30"}
 }
@@ -397,10 +439,7 @@ learning=3
 add_trait="creature_human"
 add_trait="falconer"
 add_trait="detached_priest"
-
-
 add_trait="weak"
-
 1982.2.18={birth="1982.2.18"}
 2037.8.9={death="2037.8.9"}
 }
@@ -422,10 +461,8 @@ learning=3
 add_trait="creature_human"
 add_trait="poet"
 add_trait="brilliant_strategist"
-
-
 add_trait="lisp"
-
+add_trait="sword_1"
 324.9.4={birth="324.9.4"}
 391.4.11={death="391.4.11"}
 }
@@ -444,11 +481,10 @@ learning=4
 add_trait="creature_human"
 add_trait="poet"
 add_trait="intricate_webweaver"
-
-
-
-
-552.5.27={birth="552.5.27"}
+add_trait="sword_1"
+552.5.27={birth="552.5.27"
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 581.9.25={death="581.9.25"}
 }
 
@@ -469,6 +505,7 @@ add_trait="charismatic_negotiator"
 add_trait="diligent"
 add_trait="envious"
 add_trait="proud"
+add_trait="sword_1"
 mother=300021
 
 573.4.14={birth="573.4.14"}
@@ -492,7 +529,7 @@ add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="fair"
 add_trait="patient"
-
+add_trait="sword_1"
 711.12.15={birth="711.12.15"}
 754.8.14={death="754.8.14"}
 }
@@ -509,11 +546,11 @@ stewardship=5
 intrigue=5
 learning=8
 add_trait="creature_human"
-
 add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="strong"
 add_trait="shy"
+add_trait="sword_1"
 mother=300023
 
 742.9.8={birth="742.9.8"}
@@ -536,7 +573,7 @@ add_trait="martial_cleric"
 add_trait="cynical"
 add_trait="just"
 add_trait="arbitrary"
-
+add_trait="sword_1"
 924.8.22={birth="924.8.22"}
 970.3.9={death="970.3.9"}
 }
@@ -557,7 +594,7 @@ add_trait="fortune_builder"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="honest"
-
+add_trait="sword_1"
 1344.8.20={birth="1344.8.20"}
 1395.1.21={death="1395.1.21"}
 }
@@ -576,9 +613,8 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="thrifty_clerk"
 add_trait="gregarious"
-
 add_trait="craven"
-
+add_trait="sword_1"
 1773.11.29={birth="1773.11.29"}
 1856.1.13={death="1856.1.13"}
 }
@@ -598,6 +634,7 @@ add_trait="hunter"
 add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="greedy"
+add_trait="sword_1"
 2339.7.21={birth=yes}
 2387.9.18={death=yes}
 }
@@ -616,12 +653,12 @@ add_trait="creature_human"
 add_trait="falconer"
 add_trait="detached_priest"
 add_trait="weak"
+add_trait="sword_1"
 father=300028
 
 2384.2.18={birth=yes}
 2453.8.9={death=yes}
 }
-
 
 300030={
 name="Eckhardt"
@@ -638,11 +675,10 @@ add_trait="poet"
 add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
-
+add_trait="sword_1"
 2362.5.19={birth="2362.5.19"}
 2411.4.30={death="2411.4.30"}
 }
-
 
 300031={
 name="Eckhardt"
@@ -659,11 +695,10 @@ add_trait="poet"
 add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
-
+add_trait="sword_1"
 1741.7.22={birth="1741.7.22"}
 1784.4.4={death="1784.4.4"}
 }
-
 
 300032={
 name="Eckhardt"
@@ -679,11 +714,10 @@ add_trait="creature_human"
 add_trait="poet"
 add_trait="misguided_warrior"
 add_trait="weak"
-
+add_trait="sword_1"
 1755.1.26={birth="1755.1.26"}
 1794.8.13={death="1794.8.13"}
 }
-
 
 300033={
 name="Alberich"
@@ -700,7 +734,7 @@ add_trait="poet"
 add_trait="misguided_warrior"
 add_trait="brave"
 add_trait="zealous"
-
+add_trait="sword_1"
 2489.6.12={birth=yes}
 2544.2.23={death=yes}
 }
@@ -722,6 +756,7 @@ add_trait="poet"
 add_trait="chaste"
 add_trait="proud"
 add_trait="zealous"
+add_trait="sword_1"
 2125.1.1={birth=yes}
 2179.10.25={death=yes}
 }
@@ -786,7 +821,9 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="gluttonous"
 add_trait="deceitful"
-2471.1.1={birth=yes}
+2471.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2526.11.13={death=yes}
 }
 
@@ -1229,7 +1266,9 @@ add_trait="tough_soldier"
 add_trait="craven"
 add_trait="paranoid"
 add_trait="shy"
-2506.1.1={birth=yes}
+2506.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2576.4.14={death=yes}
 }
 
@@ -1517,7 +1556,9 @@ add_trait="content"
 add_trait="craven"
 add_trait="trusting"
 add_trait="gregarious"
-2496.5.1={birth=yes}
+2496.5.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2553.4.2={death=yes}
 }
 

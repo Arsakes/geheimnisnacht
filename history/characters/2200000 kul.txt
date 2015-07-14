@@ -1,10 +1,9 @@
 2200000={
 name="Nevena"
-female=yes
 dynasty=67000
 dna="lkibhomgegg"
 culture=kul
-religion=chaos
+religion=tzeentch
 martial=1
 diplomacy=6
 stewardship=3
@@ -14,7 +13,9 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="lustful"
 add_trait="cruel"
-1955.1.1={birth=yes}
+1955.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2018.9.12={death=yes}
 }
 
@@ -23,7 +24,7 @@ name="Alburia"
 dynasty=67001
 dna="bhgghinmiik"
 culture=kul
-religion=chaos
+religion=tzeentch
 martial=3
 diplomacy=2
 stewardship=1
@@ -39,11 +40,10 @@ add_trait="ambitious"
 
 2200002={
 name="Emese"
-female=yes
 dynasty=67002
 dna="iplemiboapd"
 culture=kul
-religion=chaos
+religion=tzeentch
 martial=7
 diplomacy=3
 stewardship=3
@@ -120,11 +120,10 @@ add_trait="wroth"
 
 2200006={
 name="Ildikó"
-female=yes
 dynasty=67006
 dna="ckocongkaim"
 culture=kul
-religion=chaos
+religion=khorne
 martial=4
 diplomacy=6
 stewardship=3
@@ -142,7 +141,7 @@ name="Nisi"
 dynasty=67007
 dna="lmocnplmfjb"
 culture=kul
-religion=chaos
+religion=khorne
 martial=6
 diplomacy=4
 stewardship=2
@@ -196,7 +195,9 @@ add_trait="humble"
 add_trait="slothful"
 add_trait="trusting"
 add_trait="brave"
-1967.1.1={birth=yes}
+1967.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2014.1.21={death=yes}
 }
 
@@ -386,13 +387,115 @@ martial=6
 diplomacy=3
 stewardship=4
 intrigue=4
-learning=7
+learning=13
 add_trait="creature_human"
 add_trait="fortune_builder"
 add_trait="craven"
 add_trait="just"
 add_trait="cruel"
-1959.1.1={birth=yes}
+1959.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2011.12.25={death=yes}
 }
 
+#Shamans
+
+2200020={
+name="Elisaveta"
+dynasty=67020 
+culture=kul
+religion=tzeentch
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=9
+learning=11
+female=yes
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="magic_potential_1"
+add_trait="lore_tzeentch"
+1998.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+
+2200021={
+name="Dezsõ"
+dynasty=67021
+culture=kul
+religion=tzeentch
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=9
+learning=14
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="magic_potential_1"
+add_trait="lore_tzeentch"
+1968.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2200022={
+name="Piroska"
+dynasty=67022
+culture=kul
+religion=slaanesh
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=9
+learning=13
+female=yes
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="magic_potential_1"
+add_trait="lore_slaanesh"
+1981.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_3 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2200023={
+name="Yaakov"
+dynasty=67023
+culture=kul
+religion=nurgle
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=9
+learning=11
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="magic_potential_1"
+add_trait="lore_tzeentch"
+1964.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2200024={
+name="Tacsony"
+dynasty=67024
+culture=kul
+religion=slaanesh
+martial=8
+diplomacy=8
+stewardship=1
+intrigue=9
+learning=3
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="magic_potential_1"
+add_trait="lore_slaanesh"
+1979.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}

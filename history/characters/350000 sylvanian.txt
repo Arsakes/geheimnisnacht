@@ -1,7 +1,11 @@
+###ההה
+
 350000={
 name="Vlad" #Vlad von Carstein in 2010
 dynasty=19000
-culture=immortal_imperial
+dna=aajceflahal
+properties=ag0bh000000
+culture=sylvanian
 religion=vampiric
 martial=8
 diplomacy=2
@@ -9,25 +13,26 @@ stewardship=11
 intrigue=6
 learning=6
 add_trait="creature_human"
-add_trait="impaler"
+add_trait=lore_necromancy
 add_trait="brilliant_strategist"
+add_trait="genius"
 add_trait="cruel"
 add_trait="just"
-add_trait="gregarious"
 add_trait="brave"
 add_trait="proud"
 add_trait="carstein_ring"
 add_trait="vampire_carstein_visible"
-
 1771.11.4={birth=yes}
-1771.11.4={effect={culture=sylvanian}}
 1797.5.10={add_spouse=350026}
+1797.5.11={effect ={ add_lover = 350026 }}
 2010.7.1={
 effect = { 
+set_graphical_culture = generic_vampire
+add_character_modifier = { name = magic_power_4 duration = -1 }
 set_character_flag = vlad_von_carstein
 character_event = { id = carstein.0 }
  }
-}
+ }
 2051.3.22={death=yes}
 }
 
@@ -47,10 +52,10 @@ add_trait="hedonist"
 add_trait="mastermind_theologian"
 add_trait="greedy"
 add_trait="vampire_carstein_visible"
-
-
-
-1982.12.12={birth=yes}
+1982.12.12={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2035.3.17={death=yes}
 }
 
@@ -71,8 +76,10 @@ add_trait="intricate_webweaver"
 add_trait="vampire_carstein_visible"
 add_trait="gregarious"
 add_trait="tall"
-
-1959.7.2={birth=yes}
+1959.7.2={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2021.2.9={death=yes}
 }
 
@@ -94,14 +101,18 @@ add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
 add_trait="vampire_carstein_visible"
-
-1963.11.29={birth=yes}
+1963.11.29={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2017.1.19={death=yes}
 }
 
 350004={
 name="Eduard"
 dynasty=19005
+dna=bjelhcfbcat
+properties=cb0dgd00000
 culture=sylvanian
 religion=vampiric
 martial=5
@@ -114,10 +125,11 @@ add_trait="hunter"
 add_trait="intricate_webweaver"
 add_trait="chaste"
 add_trait="vampire_carstein_visible"
-
 add_trait="humble"
-
-1977.2.23={birth=yes}
+1977.2.23={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2000.5.10={add_spouse=350013}
 2036.9.29={death=yes}
 }
@@ -134,14 +146,17 @@ stewardship=7
 intrigue=0
 learning=9
 add_trait="creature_human"
-add_trait="hedonist"
-add_trait="flamboyant_schemer"
-add_trait="content"
-add_trait="trusting"
-add_trait="ill"
+add_trait="strong"
+add_trait="arbitrary"
+add_trait="tough_soldier"
+add_trait="ambitious"
+add_trait="impaler"
+add_trait="cruel"
 add_trait="vampire_carstein_visible"
-
-1974.12.17={birth=yes}
+1974.12.17={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2013.1.23={death=yes}
 }
 
@@ -160,7 +175,10 @@ add_trait="hunter"
 add_trait="mastermind_theologian"
 add_trait="temperate"
 add_trait="vampire_carstein_visible"
-1965.1.2={birth=yes}
+1965.1.2={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2069.5.15={death=yes}
 }
 
@@ -177,12 +195,13 @@ learning=3
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="tough_soldier"
-
 add_trait="lustful"
 add_trait="drunkard"
 add_trait="vampire_carstein_visible"
-
-1975.10.29={birth=yes}
+1975.10.29={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2028.2.20={death=yes}
 }
 
@@ -194,18 +213,28 @@ religion=vampiric
 father = 350000
 martial=9
 diplomacy=7
-stewardship=0
+stewardship=3
 intrigue=4
 learning=3
 add_trait="creature_human"
-add_trait="gardener"
-add_trait="brilliant_strategist"
-add_trait="legit_bastard"
+add_trait="quick"
+add_trait="lore_necromancy"
+add_trait="intricate_webweaver"
+add_trait="cruel"
+add_trait="ambitious"
+add_trait="deceitful"
 add_trait="vampire_carstein_visible"
+1983.3.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 
+2010.7.1={
+effect = { 
+add_character_modifier = { name = magic_power_2 duration = -1 }
+ }
+}
 
-
-1983.3.1={birth=yes}
 2047.9.28={death=yes}
 }
 
@@ -224,7 +253,6 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="skilled_tactician"
 add_trait="lisp"
-
 1968.7.15={birth=yes}
 2063.4.8={death=yes}
 }
@@ -245,8 +273,10 @@ add_trait="scholar"
 add_trait="thrifty_clerk"
 add_trait="homosexual"
 add_trait="vampire_carstein_visible"
-
-1989.1.1={birth=yes}
+1989.1.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2030.3.17={death=yes}
 }
 
@@ -263,10 +293,7 @@ learning=6
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="brilliant_strategist"
-
-
 add_trait="strong"
-
 1953.3.9={birth=yes}
 2039.3.23={death=yes}
 }
@@ -287,7 +314,6 @@ add_trait="thrifty_clerk"
 add_trait="fair"
 add_trait="envious"
 add_trait="diligent"
-
 1956.10.7={birth=yes}
 2044.5.29={death=yes}
 }
@@ -296,6 +322,8 @@ add_trait="diligent"
 name="Isabelle"
 female=yes
 dynasty=19002
+dna=aefdghldfcy
+properties=ce0c0d00000
 culture=sylvanian
 religion=vampiric
 martial=1
@@ -308,12 +336,18 @@ add_trait="hunter"
 add_trait="indulgent_wastrel"
 add_trait="proud"
 add_trait="slow"
-add_trait="patient"
+add_trait="pretty"
 add_trait="chaste"
-
-1982.2.25={birth=yes}
-2000.5.10={add_spouse=350004}
-2037.10.24={death=yes}
+add_trait = lunatic_1
+1983.2.25={birth=yes}
+2010.1.2={add_spouse=350004
+	effect = {
+		add_lover=350004
+		add_lover=8000008
+		set_variable = { which = "lunatic_counter" value = 5 }
+	}
+	}
+2047.10.24={death=yes}
 }
 
 350014={
@@ -331,8 +365,6 @@ add_trait="falconer"
 add_trait="tough_soldier"
 add_trait="ambitious"
 add_trait="shy"
-
-
 1994.11.21={birth=yes}
 2061.3.11={death=yes}
 }
@@ -353,7 +385,6 @@ add_trait="tough_soldier"
 add_trait="just"
 add_trait="zealous"
 add_trait="cynical"
-
 1962.6.13={birth=yes}
 2017.2.23={death=yes}
 }
@@ -374,7 +405,6 @@ add_trait="charismatic_negotiator"
 add_trait="paranoid"
 add_trait="gregarious"
 add_trait="kind"
-
 1988.4.4={birth=yes}
 2026.1.25={death=yes}
 }
@@ -393,9 +423,7 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="fortune_builder"
 add_trait="arbitrary"
-
 add_trait="greedy"
-
 1975.3.13={birth=yes}
 2014.3.17={death=yes}
 }
@@ -413,10 +441,7 @@ learning=1
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="elusive_shadow"
-
 add_trait="honest"
-
-
 1982.9.14={birth=yes}
 2036.9.10={death=yes}
 }
@@ -438,7 +463,6 @@ add_trait="naive_appeaser"
 add_trait="weak"
 add_trait="tall"
 add_trait="cruel"
-
 1969.9.25={birth=yes}
 2040.11.27={death=yes}
 }
@@ -462,7 +486,10 @@ add_trait="flamboyant_schemer"
 add_trait="diligent"
 add_trait="kind"
 add_trait="vampire_carstein_visible"
-1992.1.1={birth=yes}
+1992.1.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2098.9.24={death=yes}
 }
 
@@ -483,16 +510,20 @@ add_trait="elusive_shadow"
 add_trait="hedonist"
 add_trait="humble"
 add_trait="vampire_carstein_hidden"
-2497.1.1={birth=yes}
+2497.1.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2570.7.11={death=yes}
 }
 
-
 350026={
 name="Isabella"
+dna=ahmlgnibgai
+properties=aa00f000000
 female=yes
 dynasty=19003
-culture=immortal_imperial
+culture=sylvanian
 religion=vampiric
 martial=5
 diplomacy=6
@@ -501,13 +532,17 @@ intrigue=8
 learning=9
 add_trait="creature_human"
 add_trait="scholar"
+add_trait="arbitrary"
+add_trait="gluttonous"
 add_trait="grey_eminence"
 add_trait="cruel"
 add_trait="fair"
 add_trait="proud"
 add_trait="vampire_carstein_visible"
-
-1775.7.29={birth=yes}
+1775.7.29={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 1775.7.29={effect={culture=sylvanian}}
 1797.5.10={add_spouse=350000}
 2051.3.22={death=yes}
@@ -551,7 +586,10 @@ add_trait="cruel"
 add_trait="proud"
 add_trait="tall"
 add_trait="vampire_carstein_hidden"
-2475.1.1={birth=yes}
+2475.1.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2672.10.17={death=yes}
 }
 
@@ -574,7 +612,32 @@ add_trait="cruel"
 add_trait="proud"
 add_trait="tall"
 add_trait="vampire_carstein_hidden"
-2488.1.1={birth=yes}
+2488.1.1={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
 2560.11.8={death=yes}
 }
 
+#Luther Harkon - lord of the vampire coast in lustria#
+
+350030={
+name="Luther"
+dynasty=23094
+culture=mousillonian
+religion=vampiric
+martial=3
+diplomacy=7
+stewardship=5
+intrigue=9
+learning=9
+father=70000
+add_trait="creature_human"
+add_trait="lunatic_2"
+add_trait="vampire_carstein_visible"
+1725.1.2={
+birth=yes
+effect = { set_graphical_culture = generic_vampire }
+}
+2069.5.15={death=yes}
+}

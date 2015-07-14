@@ -1,9 +1,11 @@
+###ההה
+
 2900000={
 name="Alchidai-Khachigun"
 dynasty=81000
 dna="hpckokjbnmh"
 culture=chi_an
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=2
 stewardship=3
@@ -18,11 +20,10 @@ add_trait="craven"
 
 2900001={
 name="Adolat"
-female=yes
 dynasty=81001
 dna="pdmkeioafam"
 culture=chi_an
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=4
 stewardship=5
@@ -42,7 +43,7 @@ name="Uighurtai"
 dynasty=81002
 dna="oglbajdmkcf"
 culture=chi_an
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=3
 stewardship=5
@@ -172,7 +173,9 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="cruel"
 add_trait="gluttonous"
-1977.1.1={birth=yes}
+1977.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2035.8.20={death=yes}
 }
 
@@ -326,7 +329,9 @@ learning=2
 add_trait="creature_human"
 add_trait="fortune_builder"
 add_trait="diligent"
-1979.1.1={birth=yes}
+1979.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2029.11.15={death=yes}
 }
 
@@ -387,7 +392,9 @@ add_trait="skilled_tactician"
 add_trait="cruel"
 add_trait="craven"
 add_trait="envious"
-1971.1.1={birth=yes}
+1971.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2032.8.8={death=yes}
 }
 

@@ -15,8 +15,9 @@ add_trait="misguided_warrior"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
-
-1975.7.14={birth=yes}
+1975.7.14={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2044.2.14={death=yes}
 }
 
@@ -36,8 +37,6 @@ add_trait="hedonist"
 add_trait="indulgent_wastrel"
 add_trait="honest"
 add_trait="greedy"
-
-
 1991.12.22={birth=yes}
 2057.7.19={death=yes}
 }
@@ -55,10 +54,7 @@ learning=9
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="thrifty_clerk"
-
-
 add_trait="weak"
-
 1979.6.26={birth=yes}
 2029.1.23={death=yes}
 }
@@ -78,8 +74,6 @@ add_trait="duelist"
 add_trait="skilled_tactician"
 add_trait="cruel"
 add_trait="wroth"
-
-
 1951.8.5={birth=yes}
 2028.6.21={death=yes}
 }
@@ -100,7 +94,6 @@ add_trait="mastermind_theologian"
 add_trait="tall"
 add_trait="chaste"
 add_trait="content"
-
 1991.3.14={birth=yes}
 2012.8.14={death=yes}
 }
@@ -120,7 +113,6 @@ add_trait="hedonist"
 add_trait="skilled_tactician"
 add_trait="humble"
 add_trait="ill"
-
 1969.10.14={birth=yes}
 2017.12.23={death=yes}
 }
@@ -140,8 +132,6 @@ add_trait="scholar"
 add_trait="midas_touched"
 add_trait="trusting"
 add_trait="temperate"
-
-
 1996.6.22={birth=yes}
 2049.12.7={death=yes}
 }
@@ -160,9 +150,7 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="indulgent_wastrel"
 add_trait="drunkard"
-
 add_trait="lustful"
-
 1952.5.12={birth=yes}
 2021.2.18={death=yes}
 }
@@ -180,10 +168,8 @@ learning=2
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="thrifty_clerk"
-
 add_trait="legit_bastard"
 add_trait="homosexual"
-
 1990.8.26={birth=yes}
 2024.7.17={death=yes}
 }
@@ -201,7 +187,6 @@ learning=7
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="mastermind_theologian"
-
 1991.4.5={birth=yes}
 2052.11.23={death=yes}
 }
@@ -236,11 +221,10 @@ learning=7
 add_trait="creature_human"
 add_trait="duelist"
 add_trait="naive_appeaser"
-
-
 add_trait="lisp"
-
-2007.5.17={birth=yes}
+2007.5.17={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2031.4.16={death=yes}
 }
 
@@ -260,7 +244,6 @@ add_trait="martial_cleric"
 add_trait="fair"
 add_trait="envious"
 add_trait="proud"
-
 1966.7.5={birth=yes}
 2025.10.1={death=yes}
 }
@@ -281,7 +264,6 @@ add_trait="misguided_warrior"
 add_trait="slothful"
 add_trait="strong"
 add_trait="patient"
-
 1984.10.13={birth=yes}
 2049.7.12={death=yes}
 }
@@ -302,7 +284,6 @@ add_trait="elusive_shadow"
 add_trait="diligent"
 add_trait="ambitious"
 add_trait="arbitrary"
-
 1987.12.23={birth=yes}
 2064.4.22={death=yes}
 }
@@ -323,7 +304,6 @@ add_trait="elusive_shadow"
 add_trait="just"
 add_trait="zealous"
 add_trait="paranoid"
-
 2009.8.21={birth=yes}
 2015.2.13={death=yes}
 }
@@ -344,7 +324,6 @@ add_trait="indulgent_wastrel"
 add_trait="shy"
 add_trait="cynical"
 add_trait="kind"
-
 1952.2.2={birth=yes}
 2015.2.27={death=yes}
 }
@@ -363,9 +342,7 @@ add_trait="creature_human"
 add_trait="hedonist"
 add_trait="amateurish_plotter"
 add_trait="honest"
-
 add_trait="gregarious"
-
 1995.12.4={birth=yes}
 2052.11.10={death=yes}
 }
@@ -383,10 +360,7 @@ learning=8
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="charismatic_negotiator"
-
 add_trait="craven"
-
-
 1975.8.3={birth=yes}
 2046.8.26={death=yes}
 }
@@ -405,10 +379,10 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="greedy"
-
 add_trait="cruel"
-
-1957.5.13={birth=yes}
+1957.5.13={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2023.12.13={death=yes}
 }
 
@@ -429,9 +403,8 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="greedy"
-
 add_trait="cruel"
-
+add_trait="sword_1"
 371.5.13={birth=yes}
 403.12.13={death=yes}
 }
@@ -449,10 +422,8 @@ learning=8
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="charismatic_negotiator"
-
 add_trait="craven"
-
-
+add_trait="sword_1"
 953.8.3={birth=yes}
 975.8.3={give_nickname=nick_the_opulent}
 1012.6.26={death=yes}
@@ -474,13 +445,15 @@ add_trait="amateurish_plotter"
 add_trait="gluttonous"
 add_trait="drunkard"
 add_trait="gregarious"
+add_trait="sword_1"
 father=850021
 
-999.12.4={birth=yes}
+999.12.4={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1025.8.3={give_nickname=nick_the_fat}
 1053.11.10={death=yes}
 }
-
 
 850023={
 name="Boris"
@@ -497,7 +470,7 @@ add_trait="mystic"
 add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="arbitrary"
-
+add_trait="sword_1"
 father=850022
 
 1037.2.2={birth=yes}
@@ -519,7 +492,6 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="skilled_tactician"
 add_trait="diligent"
-
 1981.4.24={birth=yes}
 2048.12.26={death=yes}
 }
@@ -626,7 +598,9 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="honest"
 add_trait="craven"
-2386.1.1={birth=yes}
+2386.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2439.6.1={death=yes}
 }
 
@@ -890,7 +864,9 @@ learning=3
 add_trait="creature_human"
 father=850043
 add_trait="intricate_webweaver"
-2041.1.1={birth=yes}
+2041.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2098.7.27={death=yes}
 }
 

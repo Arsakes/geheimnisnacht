@@ -16,7 +16,7 @@ add_trait="thrifty_clerk"
 add_trait="gregarious"
 add_trait="craven"
 add_trait="honest"
-
+add_trait="sword_1"
 1966.10.29={birth=yes}
 1996.8.12={add_spouse=650030}
 2019.5.13={death=yes}
@@ -36,7 +36,6 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="misguided_warrior"
 add_trait="kind"
-
 1994.4.17={birth=yes}
 2052.9.12={death=yes}
 }
@@ -56,7 +55,6 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="intricate_webweaver"
 add_trait="greedy"
-
 1981.4.19={birth=yes}
 2026.4.29={death=yes}
 }
@@ -77,7 +75,6 @@ add_trait="hunter"
 add_trait="charismatic_negotiator"
 add_trait="cruel"
 add_trait="tall"
-
 1957.11.4={birth=yes}
 1977.1.2={add_spouse=650071}
 2044.4.3={death=yes}
@@ -118,7 +115,6 @@ add_trait="charismatic_negotiator"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
-
 1974.5.14={birth=yes}
 2028.1.21={death=yes}
 }
@@ -137,7 +133,6 @@ add_trait="creature_human"
 add_trait="impaler"
 add_trait="underhanded_rogue"
 add_trait="content"
-
 1980.8.2={birth=yes}
 2056.7.1={death=yes}
 }
@@ -158,9 +153,7 @@ mother=650035
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="underhanded_rogue"
-
 add_trait="drunkard"
-
 2001.3.29={birth=yes}
 2030.10.26={death=yes}
 }
@@ -180,8 +173,9 @@ mother=650063
 add_trait="creature_human"
 add_trait="mastermind_theologian"
 add_trait="lustful"
-
-1982.12.14={birth=yes}
+1982.12.14={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2004.3.1={add_spouse=650042}
 2038.11.26={death=yes}
 }
@@ -222,7 +216,6 @@ add_trait="creature_human"
 add_trait="falconer"
 add_trait="scholarly_theologian"
 add_trait="lisp"
-
 2001.10.13={birth=yes}
 2058.4.22={death=yes}
 }
@@ -241,7 +234,6 @@ add_trait="creature_human"
 add_trait="mystic"
 add_trait="lustful"
 add_trait="misguided_warrior"
-
 1977.9.13={birth=yes}
 1994.9.27={add_spouse=650053}
 2022.1.30={death=yes}
@@ -263,7 +255,6 @@ add_trait="flamboyant_schemer"
 add_trait="fair"
 add_trait="diligent"
 add_trait="strong"
-
 1953.5.16={birth=yes}
 2034.7.20={death=yes}
 }
@@ -284,7 +275,6 @@ add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="proud"
 add_trait="patient"
-
 1998.7.17={birth=yes}
 2032.4.17={death=yes}
 }
@@ -305,7 +295,6 @@ add_trait="mastermind_theologian"
 add_trait="ambitious"
 add_trait="envious"
 add_trait="arbitrary"
-
 1980.11.14={birth=yes}
 2029.10.19={death=yes}
 }
@@ -326,7 +315,6 @@ add_trait="mastermind_theologian"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="just"
-
 1997.1.28={birth=yes}
 2057.11.19={death=yes}
 }
@@ -347,7 +335,6 @@ add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="gregarious"
 add_trait="paranoid"
-
 1986.5.12={birth=yes}
 2024.5.9={death=yes}
 }
@@ -369,7 +356,6 @@ add_trait="grey_eminence"
 add_trait="craven"
 add_trait="honest"
 add_trait="greedy"
-
 1980.4.16={birth=yes}
 2036.5.16={death=yes}
 }
@@ -388,9 +374,6 @@ add_trait="creature_human"
 add_trait="falconer"
 add_trait="scholarly_theologian"
 add_trait="kind"
-
-
-
 1959.4.16={birth=yes}
 2024.4.21={death=yes}
 }
@@ -408,10 +391,7 @@ learning=6
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="elusive_shadow"
-
-
 add_trait="tall"
-
 1974.10.21={birth=yes}
 2025.1.8={death=yes}
 }
@@ -433,14 +413,11 @@ learning=6
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="elusive_shadow"
-
-
 add_trait="tall"
-
+add_trait="sword_1"
 1134.10.21={birth=yes}
 1201.1.8={death=yes}
 }
-
 
 650021={
 name="Hjalmar"
@@ -456,9 +433,7 @@ add_trait="creature_human"
 add_trait="falconer"
 add_trait="scholarly_theologian"
 add_trait="kind"
-
-
-
+add_trait="sword_1"
 1231.4.16={birth=yes}
 1265.1.1={give_nickname=nick_the_tyrannical}
 1271.4.21={death=yes}
@@ -480,7 +455,7 @@ add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="gregarious"
 add_trait="paranoid"
-
+add_trait="sword_1"
 1557.5.12={birth=yes}
 1621.5.9={death=yes}
 }
@@ -503,7 +478,7 @@ add_trait="grey_eminence"
 add_trait="craven"
 add_trait="honest"
 add_trait="greedy"
-
+add_trait="sword_1"
 1938.4.16={birth=yes}
 1979.5.16={death=yes}
 }
@@ -524,6 +499,7 @@ mother=650060
 add_trait="creature_human"
 add_trait="charismatic_negotiator"
 add_trait="chaste"
+add_trait="sword_1"
 1942.10.5={birth=yes}
 1960.6.21={add_spouse=650025}
 1989.10.5={death=yes}
@@ -636,7 +612,9 @@ add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="diligent"
 add_trait="ambitious"
-1975.9.3={birth=yes}
+1975.9.3={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2042.9.3={death=yes}
 }
 
@@ -1037,7 +1015,9 @@ add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="hedonist"
 add_trait="cruel"
-1971.4.18={birth=yes}
+1971.4.18={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1999.9.2={add_spouse=650047}
 2056.4.18={death=yes}
 }
@@ -1261,6 +1241,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="lustful"
 add_trait="craven"
+add_trait="sword_1"
 1911.11.17={birth=yes}
 1935.3.22={add_spouse=650060}
 1947.2.21={death=yes}
@@ -1430,7 +1411,9 @@ add_trait="hedonist"
 add_trait="diligent"
 add_trait="humble"
 add_trait="zealous"
-1935.4.21={birth=yes}
+1935.4.21={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1966.10.2={add_spouse=650067}
 1994.4.21={death=yes}
 }
@@ -1569,7 +1552,6 @@ add_trait="greedy"
 2013.10.1={death=yes}
 }
 
-
 650073={
 name="Thederic" # Graf Theoderic Gausser
 dynasty=14003 
@@ -1583,6 +1565,7 @@ learning=3
 add_trait="creature_human"
 add_trait="elusive_shadow"
 add_trait="humble"
+add_trait="sword_1"
 2469.10.1={birth=yes}
 2533.10.1={death=yes}
 }
@@ -1604,7 +1587,6 @@ add_trait="creature_human"
 father=650078
 add_trait="chaste"
 add_trait="kind"
-
 2475.5.1={birth=yes}
 2502.9.22={add_spouse=400022}
 2512.5.18={death=yes}
@@ -1625,12 +1607,10 @@ add_trait="creature_human"
 add_trait="grey_eminence"
 add_trait="gregarious"
 add_trait="kind"
-
 2419.7.12={birth=yes}
 2439.8.26={add_spouse=400024}
 2471.12.28={death=yes}
 }
-
 
 650076={
 name="Matilda" #Graf Boris Todbringer's grandmother
@@ -1646,7 +1626,6 @@ learning=5
 add_trait="creature_human"
 add_trait="gregarious"
 add_trait="kind"
-
 2398.1.2={birth=yes}
 2421.5.7={add_spouse=400025}
 2457.1.5={death=yes}
@@ -1666,7 +1645,6 @@ learning=5
 add_trait="creature_human"
 add_trait="gregarious"
 add_trait="kind"
-
 2371.9.15={birth=yes}
 2400.12.21={add_spouse=400026}
 2416.2.24={death=yes}
@@ -1686,12 +1664,10 @@ add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="gregarious"
 add_trait="kind"
-
 2451.9.12={birth=yes}
 2506.12.1={death=yes}
 }
 ###
-
 
 650079={
 name="Bjorn"
@@ -1708,6 +1684,7 @@ add_trait="creature_human"
 add_trait="misguided_warrior"
 add_trait="proud"
 add_trait="brave"
+add_trait="sword_1"
 1869.5.14={birth=yes}
 1911.11.17={death=yes}
 }
@@ -1726,7 +1703,6 @@ add_trait="creature_human"
 add_trait="grey_eminence"
 add_trait="duelist"
 add_trait="greedy"
-
 1901.3.27={birth=yes}
 1964.4.21={death=yes}
 }
@@ -1746,7 +1722,6 @@ father=650080
 add_trait="tough_soldier"
 add_trait="kind"
 add_trait="proud"
-
 1947.9.21={birth=yes}
 2002.8.10={death=yes}
 }
@@ -1766,7 +1741,6 @@ father=650081
 add_trait="intricate_webweaver"
 add_trait="shy"
 add_trait="cruel"
-
 1973.6.23={birth=yes}
 2042.10.15={death=yes}
 }
@@ -1785,7 +1759,6 @@ add_trait="creature_human"
 father=650082
 add_trait="greedy"
 add_trait="proud"
-
 1993.6.23={birth=yes}
 2054.10.15={death=yes}
 }
@@ -1805,11 +1778,9 @@ father=650083
 add_trait="tough_soldier"
 add_trait="brave"
 add_trait="kind"
-
 2025.2.14={birth=yes}
 2078.9.19={death=yes}
 }
-
 
 650085={
 name="Friğgerğr"
@@ -1827,7 +1798,10 @@ add_trait="creature_human"
 father=1350022
 add_trait="intricate_webweaver"
 add_trait="paranoid"
-1082.5.1={birth=yes}
+add_trait="sword_1"
+1082.5.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1144.7.18={death=yes}
 }
 
@@ -1975,7 +1949,6 @@ add_trait="slothful"
 2495.1.1={birth=yes}
 2548.7.17={death=yes}
 }
-
 
 650093={
 name="Hugo"
@@ -2284,7 +2257,6 @@ add_trait="just"
 2508.1.1={birth=yes}
 2547.11.10={death=yes}
 }
-
 
 650108={
 name="Gunther"

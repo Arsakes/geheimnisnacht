@@ -58,7 +58,6 @@ add_trait="gardener"
 add_trait="martial_cleric"
 add_trait="ugly"
 add_trait="hunchback"
-
 1977.9.1={birth=yes}
 2045.3.6={death=yes}
 }
@@ -80,7 +79,6 @@ add_trait="amateurish_plotter"
 add_trait="cruel"
 add_trait="tall"
 add_trait="wroth"
-
 1992.8.14={birth=yes}
 2016.2.24={death=yes}
 }
@@ -101,7 +99,6 @@ add_trait="midas_touched"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="content"
-
 1963.1.24={birth=yes}
 2052.7.29={death=yes}
 }
@@ -122,7 +119,6 @@ add_trait="detached_priest"
 add_trait="humble"
 add_trait="trusting"
 add_trait="weak"
-
 1970.8.7={birth=yes}
 2017.3.2={death=yes}
 }
@@ -141,10 +137,6 @@ learning=8
 add_trait="creature_human"
 add_trait="falconer"
 add_trait="amateurish_plotter"
-
-
-add_trait="lunatic"
-
 1997.2.25={birth=yes}
 2047.6.4={death=yes}
 }
@@ -162,10 +154,7 @@ learning=1
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="flamboyant_schemer"
-add_trait="possessed"
 add_trait="drunkard"
-
-
 1991.10.27={birth=yes}
 2062.10.9={death=yes}
 }
@@ -184,9 +173,6 @@ add_trait="creature_human"
 father=500018
 add_trait="falconer"
 add_trait="intricate_webweaver"
-add_trait="bastard"
-add_trait="ill"
-
 1999.8.4={birth=yes}
 2034.3.27={death=yes}
 }
@@ -205,9 +191,6 @@ learning=9
 add_trait="creature_human"
 add_trait="duelist"
 add_trait="tough_soldier"
-add_trait="dwarf"
-add_trait="lustful"
-
 1989.7.9={birth=yes}
 2060.7.24={death=yes}
 }
@@ -225,10 +208,6 @@ learning=4
 add_trait="creature_human"
 add_trait="duelist"
 add_trait="charismatic_negotiator"
-add_trait="imbecile"
-add_trait="stutter"
-add_trait="slow"
-
 2003.8.7={birth=yes}
 2030.11.14={death=yes}
 }
@@ -246,9 +225,7 @@ learning=6
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="misguided_warrior"
-add_trait="lisp"
 add_trait="fair"
-
 1976.2.23={birth=yes}
 2021.1.15={death=yes}
 }
@@ -268,7 +245,6 @@ add_trait="poet"
 add_trait="mastermind_theologian"
 add_trait="diligent"
 add_trait="proud"
-
 1958.3.19={birth=yes}
 2042.3.27={death=yes}
 }
@@ -289,8 +265,9 @@ add_trait="fortune_builder"
 add_trait="slothful"
 add_trait="patient"
 add_trait="envious"
-
-1993.6.7={birth=yes}
+1993.6.7={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2066.11.1={death=yes}
 }
 
@@ -310,7 +287,6 @@ add_trait="naive_appeaser"
 add_trait="ambitious"
 add_trait="strong"
 add_trait="arbitrary"
-
 1990.2.23={birth=yes}
 2022.1.10={death=yes}
 }
@@ -331,7 +307,6 @@ add_trait="tough_soldier"
 add_trait="shy"
 add_trait="cynical"
 add_trait="zealous"
-
 1984.3.22={birth=yes}
 2022.1.11={death=yes}
 }
@@ -352,7 +327,6 @@ add_trait="grey_eminence"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="honest"
-
 1980.2.25={birth=yes}
 2054.6.23={death=yes}
 }
@@ -369,11 +343,9 @@ intrigue=6
 learning=7
 add_trait="creature_human"
 add_trait="scholar"
-add_trait="creature_human"
 add_trait="flamboyant_schemer"
 add_trait="craven"
 add_trait="gregarious"
-
 1960.7.22={birth=yes}
 2014.1.28={death=yes}
 }
@@ -395,7 +367,6 @@ add_trait="creature_human"
 add_trait="amateurish_plotter"
 add_trait="lustful"
 add_trait="just"
-
 1962.7.9={birth=yes}
 2010.2.4={add_spouse=975003}
 2038.1.28={death=yes}
@@ -413,14 +384,11 @@ intrigue=8
 learning=4
 add_trait="creature_human"
 add_trait="celibate"
-add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="tall"
-
 2007.12.28={birth=yes}
 2034.1.26={death=yes}
 }
-
 
 #Emperors from Averland
 #######################
@@ -437,11 +405,9 @@ intrigue=8
 learning=4
 add_trait="creature_human"
 add_trait="celibate"
-add_trait="creature_human"
 add_trait="skilled_tactician"
-add_trait="weak"
-add_trait="harelip"
 add_trait="tall"
+add_trait="sword_1"
 father=500028
 
 170.12.28={birth=yes}
@@ -451,7 +417,7 @@ father=500028
 500021={
 name="Hilder"
 dynasty=12024 
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 martial=7
 diplomacy=2
@@ -460,8 +426,8 @@ intrigue=2
 learning=9
 add_trait="creature_human"
 add_trait="scholar"
-add_trait="creature_human"
 add_trait="amateurish_plotter"
+add_trait="sword_1"
 father=500020
 
 193.7.9={birth=yes}
@@ -481,7 +447,7 @@ learning=7
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="grey_eminence"
-add_trait="creature_human"
+add_trait="sword_1"
 mother=500037
 
 610.11.22={birth=yes}
@@ -491,26 +457,12 @@ mother=500037
 500023={
 name="Beatrice"
 female=yes
-dynasty=12026
+dynasty=12027 #von Flusstor
 culture=averlander
 religion=sigmarite
-martial=8
-diplomacy=0
-stewardship=6
-intrigue=11
-learning=1
 add_trait="creature_human"
-add_trait="impaler"
-add_trait="flamboyant_schemer"
-add_trait="creature_human"
-add_trait="arbitrary"
-add_trait="cruel"
-add_trait="wroth"
-father=500050
-
-1253.2.25={birth=yes}
-1287.1.1={give_nickname=nick_the_monumentally_cruel}
-1289.6.23={death=yes}
+1240.4.1={birth=yes}
+1302.1.25={death=yes}
 }
 
 500024={
@@ -526,13 +478,12 @@ learning=1
 add_trait="creature_human"
 add_trait="poet"
 add_trait="tough_soldier"
-add_trait="creature_human"
 add_trait="shy"
 add_trait="cynical"
 add_trait="zealous"
 father=500054
 
-1342.3.22={birth=yes}
+1350.3.22={birth=yes}
 1401.10.11={death=yes}
 }
 
@@ -542,144 +493,142 @@ father=500054
 500025={
 name="Siggurd"
 dynasty=12024 #Siggurdsunu 
-culture=brigundian
+culture=old_imperial
 religion=ulrican
 
 add_trait="creature_human"
-
-1.1.1={birth="1.1.1"}
-63.3.4={death="63.3.4"}
+add_trait="sword_1"
+1.1.1={birth=yes}
+63.3.4={death=yes}
 }
 
 500026={
 name="Siegrich"
 dynasty=12024 #Siggurdsunu 
-culture=brigundian
+culture=old_imperial
 religion=ulrican
 father=500025
 
 add_trait="creature_human"
-
-34.5.21={birth="34.5.21"}
-97.6.20={death="97.6.20"}
+add_trait="sword_1"
+34.5.21={birth=yes}
+97.6.20={death=yes}
 }
 
 500027={
 name="Herman"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=ulrican
 father=500026
 
 add_trait="creature_human"
-
-87.4.1={birth="87.4.1"}
-143.9.7={death="143.9.7"}
+add_trait="sword_1"
+87.4.1={birth=yes}
+143.9.7={death=yes}
 }
 
 500028={
 name="Lutburt"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=ulrican
 father=500027
 
 add_trait="creature_human"
-
-128.11.18={birth="128.11.18"}
-182.7.11={death="182.7.11"}
+add_trait="sword_1"
+128.11.18={birth=yes}
+182.7.11={death=yes}
 }
 
 500029={
 name="Siegrich"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500021
 
 add_trait="creature_human"
-
-232.2.2={birth="232.2.2"}
-291.5.13={death="291.5.13"}
+add_trait="sword_1"
+232.2.2={birth=yes}
+291.5.13={death=yes}
 }
 
 500030={
-name="Agold "
+name="Agold"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500029
 
 add_trait="creature_human"
-
-273.8.2={birth="273.8.2"}
-316.12.7={death="316.12.7"}
+add_trait="sword_1"
+273.8.2={birth=yes}
+316.12.7={death=yes}
 }
 
 500031={
 name="Siggurd"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500030
 
 add_trait="creature_human"
-
-300.11.11={birth="300.11.11"}
-348.1.8={death="348.1.8"}
+add_trait="sword_1"
+300.11.11={birth=yes}
+348.1.8={death=yes}
 }
 
 500032={
 name="Radulf"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500031
 
 add_trait="creature_human"
-
-327.9.28={birth="327.9.28"}
-399.8.18={death="399.8.18"}
+add_trait="sword_1"
+327.9.28={birth=yes}
+399.8.18={death=yes}
 }
 
 500033={
 name="Odovacar"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500032
 
 add_trait="creature_human"
-
-374.4.25={birth="374.4.25"}
-454.5.17={death="454.5.17"}
+add_trait="sword_1"
+374.4.25={birth=yes}
+454.5.17={death=yes}
 }
 
 500034={
 name="Siggurd"
 dynasty=12024 #Siggurdsunu
-culture=brigundian
+culture=old_imperial
 religion=sigmarite
 father=500033
 
 add_trait="creature_human"
-
-428.4.13={birth="428.4.13"}
-503.12.14={death="503.12.14"}
+add_trait="sword_1"
+428.4.13={birth=yes}
+503.12.14={death=yes}
 }
 
 500035={
-name="Hildegard"
-female=yes
+name="Siggurd"
 dynasty=12024 #Siggurdsunu
-culture=averlander
+culture=old_imperial
 religion=sigmarite
 father=500034
-
 add_trait="creature_human"
-
-536.4.5={birth="536.4.5"}
-571.7.19={death="571.7.19"}
+add_trait="sword_1"
+474.6.23={birth=yes}
+571.11.21={death=yes}
 }
 
 500036={
@@ -687,12 +636,12 @@ name="Marius"
 dynasty=12024 #Siggurdsunu
 culture=averlander
 religion=sigmarite
-mother=500035
+father=500035
 
 add_trait="creature_human"
-
-559.7.16={birth="559.7.16"}
-632.1.17={death="632.1.17"}
+add_trait="sword_1"
+559.7.16={birth=yes}
+632.1.17={death=yes}
 }
 
 500037={
@@ -704,9 +653,9 @@ religion=sigmarite
 father=500036
 
 add_trait="creature_human"
-
-587.6.11={birth="587.6.11"}
-637.6.23={death="637.6.23"}
+add_trait="sword_1"
+587.6.11={birth=yes}
+637.6.23={death=yes}
 }
 
 500038={
@@ -717,9 +666,9 @@ religion=sigmarite
 father=500022
 
 add_trait="creature_human"
-
-658.2.4={birth="658.2.4"}
-709.5.21={death="709.5.21"}
+add_trait="sword_1"
+658.2.4={birth=yes}
+709.5.21={death=yes}
 }
 
 500039={
@@ -730,9 +679,9 @@ religion=sigmarite
 father=500038
 
 add_trait="creature_human"
-
-692.3.4={birth="692.3.4"}
-734.6.23={death="734.6.23"}
+add_trait="sword_1"
+692.3.4={birth=yes}
+734.6.23={death=yes}
 }
 
 500040={
@@ -743,9 +692,9 @@ culture=averlander
 religion=sigmarite
 father=500039
 add_trait="creature_human"
-
-708.8.17={birth="708.8.17"}
-787.4.10={death="787.4.10"}
+add_trait="sword_1"
+708.8.17={birth=yes}
+787.4.10={death=yes}
 }
 
 500041={
@@ -755,9 +704,9 @@ culture=averlander
 religion=sigmarite
 mother=500040
 add_trait="creature_human"
-
-763.7.1={birth="763.7.1"}
-821.10.19={death="821.10.19"}
+add_trait="sword_1"
+763.7.1={birth=yes}
+821.10.19={death=yes}
 }
 
 500042={
@@ -768,9 +717,9 @@ religion=sigmarite
 father=500041
 
 add_trait="creature_human"
-
-798.6.19={birth="798.6.19"}
-875.8.13={death="875.8.13"}
+add_trait="sword_1"
+798.6.19={birth=yes}
+875.8.13={death=yes}
 }
 
 500043={
@@ -781,9 +730,9 @@ religion=sigmarite
 father=500042
 
 add_trait="creature_human"
-
-854.11.3={birth="854.11.3"}
-908.3.13={death="908.3.13"}
+add_trait="sword_1"
+854.11.3={birth=yes}
+908.3.13={death=yes}
 }
 
 500044={
@@ -794,9 +743,9 @@ religion=sigmarite
 father=500043
 
 add_trait="creature_human"
-
-883.9.2={birth="883.9.2"}
-967.12.22={death="967.12.22"}
+add_trait="sword_1"
+883.9.2={birth=yes}
+967.12.22={death=yes}
 }
 
 500045={
@@ -808,9 +757,9 @@ religion=sigmarite
 father=500044
 
 add_trait="creature_human"
-
-937.2.10={birth="937.2.10"}
-1002.7.15={death="1002.7.15"}
+add_trait="sword_1"
+937.2.10={birth=yes}
+1002.7.15={death=yes}
 }
 
 500046={
@@ -821,9 +770,9 @@ religion=sigmarite
 mother=500045
 
 add_trait="creature_human"
-
-976.2.5={birth="976.2.5"}
-1060.1.26={death="1060.1.26"}
+add_trait="sword_1"
+976.2.5={birth=yes}
+1060.1.26={death=yes}
 }
 
 500047={
@@ -834,9 +783,9 @@ religion=sigmarite
 father=500046
 
 add_trait="creature_human"
-
-1032.5.16={birth="1032.5.16"}
-1114.3.24={death="1114.3.24"}
+add_trait="sword_1"
+1032.5.16={birth=yes}
+1114.3.24={death=yes}
 }
 
 500048={
@@ -848,9 +797,9 @@ religion=sigmarite
 father=500047
 
 add_trait="creature_human"
-
-1069.3.19={birth="1069.3.19"}
-1153.9.18={death="1153.9.18"}
+add_trait="sword_1"
+1069.3.19={birth=yes}
+1153.9.18={death=yes}
 }
 
 500049={
@@ -861,9 +810,9 @@ religion=sigmarite
 mother=500048
 
 add_trait="creature_human"
-
-1137.3.24={birth="1137.3.24"}
-1172.9.2={death="1172.9.2"}
+add_trait="sword_1"
+1137.3.24={birth=yes}
+1172.9.2={death=yes}
 }
 
 500050={
@@ -875,9 +824,9 @@ religion=sigmarite
 father=500049
 
 add_trait="creature_human"
-
-1155.2.3={birth="1155.2.3"}
-1218.12.1={death="1218.12.1"}
+add_trait="sword_1"
+1155.2.3={birth=yes}
+1200.12.1={death=yes}
 }
 
 500051={
@@ -888,9 +837,9 @@ religion=sigmarite
 mother=500050
 
 add_trait="creature_human"
-
-1206.9.23={birth="1206.9.23"}
-1269.12.15={death="1269.12.15"}
+add_trait="sword_1"
+1186.9.23={birth=yes}
+1269.12.15={death=yes}
 }
 
 500052={
@@ -901,9 +850,9 @@ religion=sigmarite
 mother=500023
 
 add_trait="creature_human"
-
-1267.8.15={birth="1267.8.15"}
-1334.11.15={death="1334.11.15"}
+add_trait="sword_1"
+1270.8.15={birth=yes}
+1334.11.15={death=yes}
 }
 
 500053={
@@ -914,9 +863,9 @@ religion=sigmarite
 father=500052
 
 add_trait="creature_human"
-
-1306.5.18={birth="1306.5.18"}
-1352.7.8={death="1352.7.8"}
+add_trait="sword_1"
+1306.5.18={birth=yes}
+1352.7.8={death=yes}
 }
 
 500054={
@@ -927,9 +876,9 @@ religion=sigmarite
 father=500053
 
 add_trait="creature_human"
-
-1331.9.28={birth="1331.9.28"}
-1368.3.4={death="1368.3.4"}
+add_trait="sword_1"
+1331.9.28={birth=yes}
+1368.3.4={death=yes}
 }
 
 500055={
@@ -940,9 +889,11 @@ religion=sigmarite
 father=500024
 
 add_trait="creature_human"
-
-1374.7.12={birth="1374.7.12"}
-1447.5.13={death="1447.5.13"}
+add_trait="sword_1"
+1374.7.12={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+1447.5.13={death=yes}
 }
 
 500056={
@@ -953,9 +904,9 @@ religion=sigmarite
 father=500055
 
 add_trait="creature_human"
-
-1399.3.26={birth="1399.3.26"}
-1475.11.22={death="1475.11.22"}
+add_trait="sword_1"
+1399.3.26={birth=yes}
+1475.11.22={death=yes}
 }
 
 500057={
@@ -966,9 +917,9 @@ religion=sigmarite
 father=500056
 
 add_trait="creature_human"
-
-1457.8.21={birth="1457.8.21"}
-1510.9.15={death="1510.9.15"}
+add_trait="sword_1"
+1457.8.21={birth=yes}
+1510.9.15={death=yes}
 }
 
 500058={
@@ -980,9 +931,9 @@ religion=sigmarite
 father=500057
 
 add_trait="creature_human"
-
-1494.2.24={birth="1494.2.24"}
-1573.12.9={death="1573.12.9"}
+add_trait="sword_1"
+1494.2.24={birth=yes}
+1573.12.9={death=yes}
 }
 
 500059={
@@ -993,9 +944,9 @@ religion=sigmarite
 mother=500058
 
 add_trait="creature_human"
-
-1532.11.14={birth="1532.11.14"}
-1622.8.4={death="1622.8.4"}
+add_trait="sword_1"
+1532.11.14={birth=yes}
+1622.8.4={death=yes}
 }
 
 500060={
@@ -1006,9 +957,9 @@ religion=sigmarite
 father=500059
 
 add_trait="creature_human"
-
-1602.7.15={birth =yes}
-1676.8.20={death =yes}
+add_trait="sword_1"
+1602.7.15={birth=yes}
+1676.8.20={death=yes}
 }
 
 500061={
@@ -1019,9 +970,9 @@ religion=sigmarite
 father=500060
 
 add_trait="creature_human"
-
-1648.2.16={birth="1648.2.16"}
-1729.8.14={death="1729.8.14"}
+add_trait="sword_1"
+1648.2.16={birth=yes}
+1729.8.14={death=yes}
 }
 
 500062={
@@ -1032,9 +983,9 @@ religion=sigmarite
 father=500061
 
 add_trait="creature_human"
-
-1706.11.19={birth="1706.11.19"}
-1793.6.12={death="1793.6.12"}
+add_trait="sword_1"
+1706.11.19={birth=yes}
+1793.6.12={death=yes}
 }
 
 500063={
@@ -1045,9 +996,9 @@ religion=sigmarite
 father=500062
 
 add_trait="creature_human"
-
-1759.8.12={birth="1759.8.12"}
-1814.1.20={death="1814.1.20"}
+add_trait="sword_1"
+1759.8.12={birth=yes}
+1814.1.20={death=yes}
 }
 
 500064={
@@ -1058,9 +1009,9 @@ religion=sigmarite
 father=500063
 
 add_trait="creature_human"
-
-1797.11.22={birth="1797.11.22"}
-1881.9.16={death="1881.9.16"}
+add_trait="sword_1"
+1797.11.22={birth=yes}
+1881.9.16={death=yes}
 }
 
 500065={
@@ -1071,9 +1022,9 @@ religion=sigmarite
 father=500064
 
 add_trait="creature_human"
-
-1854.5.23={birth="1854.5.23"}
-1926.8.10={death="1926.8.10"}
+add_trait="sword_1"
+1854.5.23={birth=yes}
+1926.8.10={death=yes}
 }
 
 500066={
@@ -1085,7 +1036,7 @@ religion=sigmarite
 father=500065
 
 add_trait="creature_human"
-
+add_trait="sword_1"
 1911.4.3={birth=yes}
 1978.8.18={death=yes}
 }
@@ -1098,7 +1049,7 @@ religion=sigmarite
 mother=500066
 
 add_trait="creature_human"
-
+add_trait="sword_1"
 1948.10.5={birth=yes}
 2007.12.9={death=yes}
 }
@@ -1117,10 +1068,10 @@ add_trait="creature_human"
 add_trait="gardener"
 # FIXME nonexisting trait add_trait="worshipper_of_chaos_undivided_hidden"
 add_trait="scholarly_theologian"
-add_trait="creature_human"
 add_trait="kind"
 add_trait="charitable"
 add_trait="gregarious"
+add_trait="sword_1"
 father=500067
 mother=500084
 
@@ -1140,7 +1091,7 @@ mother=500084
 		force_mult=1.0
    }
 }
-2051.5.11={death="2051.5.11"}
+2051.5.11={death=yes}
 }
 
 500069={
@@ -1149,7 +1100,7 @@ dynasty=12109
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500068
 2024.6.25={birth=yes}
 2088.1.11={death=yes}
@@ -1162,7 +1113,7 @@ dynasty=12109
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500069
 
 2073.6.16={birth=yes}
@@ -1175,7 +1126,7 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 2125.9.1={birth=yes}
 2163.8.3={death=yes}
 }
@@ -1186,7 +1137,7 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500071
 2147.1.17={birth=yes}
 2197.4.13={death=yes}
@@ -1198,7 +1149,7 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500072
 
 2163.6.2={birth=yes}
@@ -1213,7 +1164,7 @@ culture=averlander
 religion=sigmarite
 
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500073
 
 2211.3.7={birth=yes}
@@ -1226,10 +1177,12 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 mother=500074
 
-2262.12.14={birth=yes}
+2262.12.14={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2313.8.2={death=yes}
 }
 
@@ -1239,7 +1192,7 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500075
 
 2294.6.23={birth=yes}
@@ -1252,7 +1205,7 @@ dynasty=12005 #von Grunwald
 culture=averlander
 religion=sigmarite
 add_trait="creature_human"
-
+add_trait="sword_1"
 father=500076
 
 2316.1.18={birth=yes}
@@ -1266,6 +1219,7 @@ culture=averlander
 religion=sigmarite
 
 add_trait="creature_human"
+add_trait="sword_1"
 father=500077
 
 2332.3.23={birth=yes}
@@ -1280,6 +1234,7 @@ culture=averlander
 religion=sigmarite
 
 add_trait="creature_human"
+add_trait="sword_1"
 father=500078
 
 2378.12.6={birth=yes}
@@ -1293,6 +1248,7 @@ culture=averlander
 religion=sigmarite
 mother=500079
 add_trait="creature_human"
+add_trait="sword_1"
 add_trait="greedy"
 add_trait="craven"
 add_trait="shy"
@@ -1312,8 +1268,8 @@ mother=900213
 add_trait="creature_human"
 add_trait="cynical"
 add_trait="tough_soldier"
-2425.8.25={birth=yes}
-2440.6.2={add_spouse=500181}
+add_trait="sword_1"
+2426.8.25={birth=yes}
 2451.11.19={add_spouse=500182}
 2502.10.23={death=yes}
 }
@@ -1332,11 +1288,12 @@ father=500136
 mother=950092
 add_trait="creature_human"
 add_trait="kind"
-add_trait="lunatic"
+add_trait="lunatic_2"
 add_trait="genius"
 add_trait="zealous"
+add_trait="sword_1"
 2467.4.5={birth=yes}
-2499.8.19={add_spouse=500133}
+2488.8.19={add_spouse=500133}
 2520.6.27={death=yes}
 }
 
@@ -1357,7 +1314,7 @@ add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="brave"
 2465.12.6={birth=yes}
-2484.5.5={add_matrilineal_spouse=500201}
+2484.5.5={add_spouse=500201}
 2520.6.27={add_claim=k_averland}
 2528.5.27={death=yes}
 }
@@ -1378,7 +1335,6 @@ father=500104
 mother=500105
 add_trait="scholarly_theologian"
 add_trait="creature_human"
-
 1952.1.23={birth=yes}
 2007.12.9={death=yes}
 }
@@ -1397,7 +1353,6 @@ intrigue=6
 learning=8
 add_trait="creature_human"
 add_trait="indulgent_wastrel"
-add_trait="creature_human"
 add_trait="proud"
 add_trait="fair"
 1973.8.24={birth=yes}
@@ -1419,7 +1374,6 @@ intrigue=6
 learning=6
 add_trait="creature_human"
 add_trait="charismatic_negotiator"
-add_trait="creature_human"
 add_trait="fair"
 add_trait="shy"
 father=500068
@@ -1442,7 +1396,6 @@ intrigue=6
 learning=6
 add_trait="creature_human"
 add_trait="bastard"
-add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="envious"
 add_trait="cruel"
@@ -1465,7 +1418,6 @@ intrigue=6
 learning=6
 add_trait="creature_human"
 add_trait="fortune_builder"
-add_trait="creature_human"
 add_trait="chaste"
 add_trait="shy"
 father=500068
@@ -1487,9 +1439,9 @@ stewardship=5
 intrigue=5
 learning=5
 add_trait="creature_human"
-
-add_trait="creature_human"
-
+add_trait="shy"
+add_trait="proud"
+add_trait="content"
 1935.2.8={birth=yes}
 1952.7.16={add_spouse=500090}
 1991.9.4={death=yes}
@@ -1583,7 +1535,6 @@ stewardship=5
 intrigue=5
 learning=5
 add_trait="creature_human"
-
 1958.7.29={birth=yes}
 1988.11.10={add_spouse=500001}
 2024.2.13={death=yes}
@@ -1695,7 +1646,6 @@ intrigue=5
 learning=5
 father=500065
 add_trait="creature_human"
-
 1904.1.8={birth=yes}
 1921.8.13={add_spouse=500101}
 1957.2.18={death=yes}
@@ -1714,7 +1664,6 @@ learning=5
 add_trait="creature_human"
 add_trait="temperate"
 add_trait="paranoid"
-
 1889.1.17={birth=yes}
 1921.8.13={add_spouse=500100}
 1966.5.7={death=yes}
@@ -1763,7 +1712,6 @@ add_trait="proud"
 1996.6.15={birth=yes}
 2002.6.15={death=yes}
 }
-
 
 500104={
 name="Stefan"
@@ -1826,7 +1774,6 @@ add_trait="diligent"
 1965.8.16={birth=yes}
 2000.8.16={death=yes}
 }
-
 
 500107={
 name="Dieter"
@@ -1914,7 +1861,6 @@ add_trait="ambitious"
 2489.9.2={add_spouse=500177}
 2542.4.3={death=yes}
 }
-
 
 500111={
 name="Mortimer"
@@ -2101,7 +2047,9 @@ add_trait="creature_human"
 mother=500120
 add_trait="detached_priest"
 add_trait="patient"
-2481.11.1={birth=yes}
+2481.11.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2536.9.15={death=yes}
 }
 
@@ -2148,7 +2096,6 @@ add_trait="deceitful"
 2564.2.4={death=yes}
 }
 
-
 500122={
 name="Selena"
 female=yes
@@ -2191,7 +2138,6 @@ add_trait="gregarious"
 2494.1.1={birth=yes}
 2553.3.21={death=yes}
 }
-
 
 500124={
 name="Karloman"
@@ -2274,7 +2220,6 @@ add_trait="kind"
 2347.11.27={death=yes}
 }
 
-
 500128={
 name="Lämmerslint"
 dynasty=12001 #Leitdorf
@@ -2318,7 +2263,6 @@ add_trait="wroth"
 2520.6.27={add_claim=k_averland}
 2531.7.14={death=yes}
 }
-
 
 500130={
 name="Claudia"
@@ -2405,10 +2349,9 @@ mother=500081
 add_trait="underhanded_rogue"
 add_trait="proud"
 2470.10.1={birth=yes}
-2499.8.19={add_spouse=500082}
+2488.8.19={add_spouse=500082}
 2506.10.15={death=yes}
 }
-
 
 500134={
 name="Haldred"
@@ -2607,7 +2550,7 @@ add_trait="flamboyant_schemer"
 add_trait="honest"
 add_trait="ambitious"
 add_trait="just"
-2468.1.1={birth=yes}
+2465.1.1={birth=yes}
 2482.8.12={add_spouse=500163}
 2545.12.22={death=yes}
 }
@@ -2826,42 +2769,41 @@ add_trait="midas_touched"
 }
 
 500153={
-name="Svigerus"
+name="Fränze"
+female=yes
 dynasty=12001 #Leitdorf
-dna="pihjfpokoko"
+dna="jbagajhaejl"
 culture=averlander
 religion=sigmarite
 martial=5
-diplomacy=7
-stewardship=4
-intrigue=1
-learning=7
-father=500152
+diplomacy=6
+stewardship=2
+intrigue=4
+learning=5
+mother=500152
 add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="ambitious"
-add_trait="diligent"
-2177.11.1={birth=yes}
-2206.7.10={death=yes}
+add_trait="midas_touched"
+2188.5.5={birth=yes}
+2232.5.1={death=yes}
 }
 
 500154={
-name="Walarik"
+name="Silvester"
 dynasty=12001 #Leitdorf
-dna="peeehojfgjg"
+dna="akdafakgaei"
 culture=averlander
 religion=sigmarite
-martial=4
-diplomacy=5
+martial=5
+diplomacy=3
 stewardship=2
 intrigue=6
-learning=5
-father=500152
+learning=2
+mother=500152
 add_trait="creature_human"
 add_trait="charismatic_negotiator"
-add_trait="cynical"
-2181.9.1={birth=yes}
-2239.3.21={death=yes}
+add_trait="proud"
+2180.5.1={birth=yes}
+2231.4.2={death=yes}
 }
 
 500155={
@@ -2900,7 +2842,7 @@ father=500155
 add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="wroth"
-2224.9.1={birth=yes}
+2228.9.1={birth=yes}
 2277.11.13={death=yes}
 }
 
@@ -2918,7 +2860,6 @@ intrigue=4
 learning=3
 add_trait="creature_human"
 mother=500156
-add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="shy"
 2245.9.1={birth=yes}
@@ -2965,7 +2906,6 @@ add_trait="indulgent_wastrel"
 add_trait="gluttonous"
 add_trait="lustful"
 add_trait="drunkard"
-
 2491.10.28={birth=yes}
 2515.6.10={add_spouse=600168}
 2524.5.21={death=yes}
@@ -2992,7 +2932,6 @@ add_trait="deceitful"
 2513.11.2={birth=yes}
 2559.6.20={death=yes}
 }
-
 
 500161={
 name="Hans"
@@ -3051,8 +2990,7 @@ add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="humble"
 add_trait="craven"
-2470.5.1={birth=yes}
-2482.8.12={add_spouse=500142}
+2460.5.1={birth=yes}
 2533.1.25={death=yes}
 }
 
@@ -3074,7 +3012,9 @@ mother=500163
 add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="trusting"
-2491.8.22={birth=yes}
+2491.8.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2520.6.27={add_claim=k_averland}
 2544.4.25={death=yes}
 }
@@ -3090,7 +3030,6 @@ diplomacy=4
 stewardship=4
 intrigue=4
 learning=4
-add_trait="creature_human"
 add_trait="poet"
 add_trait="tough_soldier"
 add_trait="creature_human"
@@ -3179,7 +3118,6 @@ add_trait="chaste"
 2514.5.7={birth=yes}
 2568.5.12={death=yes}
 }
-
 
 500170={
 name="Raimund"
@@ -3363,7 +3301,7 @@ add_trait="chaste"
 add_trait="proud"
 add_trait="shy"
 2460.9.12={birth=yes}
-2475.12.24={add_spouse=500179}
+2477.12.24={add_spouse=500179}
 2531.7.23={death=yes}
 }
 
@@ -3383,7 +3321,7 @@ add_trait="hedonist"
 add_trait="ambitious"
 add_trait="gregarious"
 2451.2.12={birth=yes}
-2475.12.24={add_spouse=500178}
+2477.12.24={add_spouse=500178}
 2499.9.12={death=yes}
 }
 
@@ -3408,7 +3346,6 @@ add_trait="gregarious"
 2541.5.10={death=yes}
 }
 
-
 500181={
 name="Kasper"
 dynasty=12000 #von Alptraum
@@ -3426,7 +3363,7 @@ add_trait="temperate"
 add_trait="honest"
 add_trait="proud"
 2409.10.22={birth=yes}
-2440.6.2={add_spouse=500081}
+2443.6.2={add_spouse=500081}
 2449.4.17={death=yes}
 }
 
@@ -3510,7 +3447,9 @@ add_trait="legit_bastard"
 add_trait="indulgent_wastrel"
 add_trait="craven"
 add_trait="shy"
-2444.7.1={birth=yes}
+2444.7.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 }
+		}
 2504.2.25={death=yes}
 }
 
@@ -3705,7 +3644,7 @@ add_trait="temperate"
 add_trait="cruel"
 add_trait="lustful"
 2430.12.3={birth=yes}
-2452.4.22={add_spouse=4700024}
+#2452.4.22={add_spouse=4700024}
 2495.9.19={death=yes}
 }
 
@@ -3742,7 +3681,7 @@ intrigue=0
 learning=1
 add_trait="creature_human"
 father=500195
-add_trait="thifty_clerk"
+add_trait="thrifty_clerk"
 add_trait="chaste"
 add_trait="shy"
 2457.8.21={birth=yes}
@@ -3765,7 +3704,9 @@ mother=950099
 add_trait="skilled_tactician"
 add_trait="craven"
 add_trait="charitable"
-2497.7.24={birth=yes}
+2497.7.24={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2531.8.21={death=yes}
 }
 
@@ -3802,7 +3743,7 @@ learning=5
 add_trait="creature_human"
 father=500183
 mother=500187
-add_trait="thifty_clerk"
+add_trait="thrifty_clerk"
 add_trait="shy"
 2474.8.21={birth=yes}
 2502.2.15={death=yes}
@@ -3822,7 +3763,7 @@ add_trait="creature_human"
 add_trait="indulgent_wastrel"
 add_trait="brave"
 2456.5.12={birth=yes}
-2484.5.5={add_matrilineal_spouse=500083}
+2484.5.5={add_spouse=500083}
 2503.1.25={death=yes}
 }
 

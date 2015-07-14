@@ -1,3 +1,5 @@
+###ההה
+
 6100000={
 name="Jog"
 dynasty=91147
@@ -14,7 +16,7 @@ add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
-
+add_trait="goblin_huge"
 1986.11.14={birth=yes}
 2066.12.17={death=yes}
 }
@@ -34,8 +36,7 @@ add_trait="gardener"
 add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
-
-
+add_trait="goblin_average"
 1986.4.29={birth=yes}
 2024.1.3={death=yes}
 }
@@ -53,7 +54,8 @@ learning=8
 add_trait="creature_goblin"
 add_trait="poet"
 add_trait="mastermind_theologian"
-1997.2.3={birth=yes}
+add_trait="goblin_average"
+1975.2.3={birth=yes}
 2015.9.9={death=yes}
 }
 
@@ -73,8 +75,8 @@ add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
-
-1982.11.13={birth=yes}
+add_trait="goblin_large"
+1975.11.13={birth=yes}
 2035.1.23={death=yes}
 }
 
@@ -94,7 +96,7 @@ add_trait="indulgent_wastrel"
 add_trait="chaste"
 add_trait="cruel"
 add_trait="weak"
-
+add_trait="goblin_large"
 1989.1.6={birth=yes}
 2020.6.10={death=yes}
 }
@@ -115,7 +117,7 @@ add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
-
+add_trait="goblin_huge"
 1973.5.22={birth=yes}
 2066.8.5={death=yes}
 }
@@ -134,7 +136,8 @@ add_trait="creature_goblin"
 add_trait="poet"
 add_trait="elusive_shadow"
 add_trait="content"
-1999.8.25={birth=yes}
+add_trait="goblin_average"
+1975.8.25={birth=yes}
 2043.8.7={death=yes}
 }
 
@@ -151,6 +154,7 @@ learning=2
 add_trait="creature_goblin"
 add_trait="duelist"
 add_trait="mastermind_theologian"
+add_trait="goblin_large"
 1980.4.12={birth=yes}
 2036.8.13={death=yes}
 }
@@ -169,7 +173,7 @@ add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="flamboyant_schemer"
 add_trait="drunkard"
-
+add_trait="goblin_average"
 1984.2.20={birth=yes}
 2015.10.2={death=yes}
 }
@@ -185,9 +189,9 @@ stewardship=11
 intrigue=8
 learning=9
 add_trait="creature_goblin"
-
+add_trait="goblin_large"
 add_trait="intricate_webweaver"
-1998.1.3={birth=yes}
+1975.1.3={birth=yes}
 2065.4.20={death=yes}
 }
 
@@ -205,9 +209,7 @@ add_trait="creature_goblin"
 add_trait="hedonist"
 add_trait="flamboyant_schemer"
 add_trait="lustful"
-
-
-
+add_trait="goblin_large"
 1994.3.14={birth=yes}
 2030.5.30={death=yes}
 }
@@ -225,11 +227,8 @@ learning=2
 add_trait="creature_goblin"
 add_trait="poet"
 add_trait="amateurish_plotter"
-
-
-
-
-2008.11.11={birth=yes}
+add_trait="goblin_average"
+1975.11.11={birth=yes}
 2049.6.2={death=yes}
 }
 
@@ -249,7 +248,7 @@ add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
-
+add_trait="goblin_large"
 1967.1.23={birth=yes}
 2039.11.12={death=yes}
 }
@@ -270,7 +269,7 @@ add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 add_trait="fair"
-
+add_trait="goblin_average"
 1978.8.29={birth=yes}
 2025.1.10={death=yes}
 }
@@ -291,7 +290,7 @@ add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
-
+add_trait="goblin_large"
 1958.1.30={birth=yes}
 2028.3.18={death=yes}
 }
@@ -312,8 +311,8 @@ add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
-
-2003.7.16={birth=yes}
+add_trait="goblin_large"
+1975.7.16={birth=yes}
 2065.1.3={death=yes}
 }
 
@@ -333,7 +332,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
-
+add_trait="goblin_large"
 1965.6.30={birth=yes}
 2028.11.17={death=yes}
 }
@@ -354,8 +353,8 @@ add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
-
-2001.3.4={birth=yes}
+add_trait="goblin_average"
+1975.3.4={birth=yes}
 2023.2.2={death=yes}
 }
 
@@ -370,13 +369,10 @@ stewardship=8
 intrigue=2
 learning=9
 add_trait="creature_goblin"
-
+add_trait="goblin_average"
 add_trait="mastermind_theologian"
 add_trait="kind"
-
-
-
-2002.8.28={birth=yes}
+1975.8.28={birth=yes}
 2062.1.29={death=yes}
 }
 
@@ -393,10 +389,9 @@ learning=9
 add_trait="creature_goblin"
 add_trait="hedonist"
 add_trait="intricate_webweaver"
-
+add_trait="goblin_large"
 add_trait="tall"
 add_trait="weak"
-
 1952.9.13={birth=yes}
 2031.6.11={death=yes}
 }
@@ -414,11 +409,10 @@ learning=9
 add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="naive_appeaser"
-
+add_trait="goblin_large"
 add_trait="wroth"
 add_trait="cruel"
-
-1994.8.15={birth=yes}
+1975.8.15={birth=yes}
 2041.2.6={death=yes}
 }
 
@@ -438,7 +432,7 @@ add_trait="tough_soldier"
 add_trait="humble"
 add_trait="content"
 add_trait="temperate"
-
+add_trait="goblin_large"
 1982.3.29={birth=yes}
 2053.12.8={death=yes}
 }
@@ -454,12 +448,11 @@ stewardship=6
 intrigue=8
 learning=8
 add_trait="creature_goblin"
-
+add_trait="goblin_average"
 add_trait="amateurish_plotter"
 add_trait="chaste"
 add_trait="ill"
 add_trait="trusting"
-
 1985.1.20={birth=yes}
 2024.4.24={death=yes}
 }
@@ -475,12 +468,9 @@ stewardship=2
 intrigue=6
 learning=5
 add_trait="creature_goblin"
-
+add_trait="goblin_average"
 add_trait="scholarly_theologian"
-
-
 add_trait="drunkard"
-
 2009.6.11={birth=yes}
 2034.3.26={death=yes}
 }
@@ -498,10 +488,8 @@ learning=9
 add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="amateurish_plotter"
-
+add_trait="goblin_large"
 add_trait="lustful"
-
-
 1983.10.3={birth=yes}
 2030.6.17={death=yes}
 }
@@ -519,10 +507,8 @@ learning=1
 add_trait="creature_goblin"
 add_trait="duelist"
 add_trait="underhanded_rogue"
-
+add_trait="goblin_average"
 add_trait="legit_bastard"
-
-
 1962.5.30={birth=yes}
 2016.8.19={death=yes}
 }
@@ -540,6 +526,7 @@ learning=4
 add_trait="creature_goblin"
 add_trait="impaler"
 add_trait="thrifty_clerk"
+add_trait="goblin_large"
 1976.1.11={birth=yes}
 2064.3.30={death=yes}
 }
@@ -557,6 +544,7 @@ learning=9
 add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="grey_eminence"
+add_trait="goblin_average"
 1957.8.15={birth=yes}
 2025.7.20={death=yes}
 }
@@ -575,9 +563,8 @@ add_trait="creature_goblin"
 add_trait="duelist"
 add_trait="brilliant_strategist"
 add_trait="fair"
-
+add_trait="goblin_average"
 add_trait="strong"
-
 1959.1.8={birth=yes}
 2016.12.1={death=yes}
 }
@@ -595,10 +582,9 @@ learning=5
 add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="brilliant_strategist"
-
+add_trait="goblin_average"
 add_trait="proud"
 add_trait="envious"
-
 1987.4.27={birth=yes}
 2017.11.11={death=yes}
 }
@@ -619,7 +605,7 @@ add_trait="detached_priest"
 add_trait="slothful"
 add_trait="shy"
 add_trait="diligent"
-
+add_trait="goblin_average"
 1978.12.11={birth=yes}
 2061.3.19={death=yes}
 }
@@ -640,7 +626,7 @@ add_trait="indulgent_wastrel"
 add_trait="patient"
 add_trait="just"
 add_trait="ambitious"
-
+add_trait="goblin_average"
 1995.2.24={birth=yes}
 2014.4.16={death=yes}
 }
@@ -661,7 +647,7 @@ add_trait="intricate_webweaver"
 add_trait="zealous"
 add_trait="cynical"
 add_trait="paranoid"
-
+add_trait="goblin_average"
 1979.4.25={birth=yes}
 2016.7.4={death=yes}
 }
@@ -682,7 +668,7 @@ add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="arbitrary"
 add_trait="craven"
-
+add_trait="goblin_average"
 1970.4.21={birth=yes}
 2042.8.21={death=yes}
 }
@@ -701,9 +687,7 @@ add_trait="creature_goblin"
 add_trait="poet"
 add_trait="brilliant_strategist"
 add_trait="gregarious"
-
-
-
+add_trait="goblin_average"
 1986.10.28={birth=yes}
 2069.4.21={death=yes}
 }
@@ -719,12 +703,9 @@ stewardship=6
 intrigue=9
 learning=7
 add_trait="creature_goblin"
-
+add_trait="goblin_average"
 add_trait="thrifty_clerk"
-
 add_trait="honest"
-
-
 1990.11.17={birth=yes}
 2055.8.15={death=yes}
 }
@@ -745,7 +726,7 @@ add_trait="underhanded_rogue"
 add_trait="weak"
 add_trait="tall"
 add_trait="greedy"
-
+add_trait="goblin_average"
 1988.12.22={birth=yes}
 2038.12.9={death=yes}
 }
@@ -766,7 +747,7 @@ add_trait="indulgent_wastrel"
 add_trait="cruel"
 add_trait="chaste"
 add_trait="temperate"
-
+add_trait="goblin_average"
 2007.6.20={birth=yes}
 2054.6.17={death=yes}
 }
@@ -787,7 +768,7 @@ add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="humble"
 add_trait="ill"
-
+add_trait="goblin_average"
 1989.9.16={birth=yes}
 2015.3.12={death=yes}
 }
@@ -808,7 +789,7 @@ add_trait="detached_priest"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
-
+add_trait="goblin_average"
 1986.11.14={birth=yes}
 2066.12.17={death=yes}
 }
@@ -828,8 +809,7 @@ add_trait="gardener"
 add_trait="tough_soldier"
 add_trait="greedy"
 add_trait="honest"
-
-
+add_trait="goblin_average"
 1986.4.29={birth=yes}
 2024.1.3={death=yes}
 }
@@ -847,10 +827,7 @@ learning=8
 add_trait="creature_goblin"
 add_trait="poet"
 add_trait="mastermind_theologian"
-
-
-
-
+add_trait="goblin_average"
 1997.2.3={birth=yes}
 2015.9.9={death=yes}
 }
@@ -871,7 +848,7 @@ add_trait="midas_touched"
 add_trait="tall"
 add_trait="wroth"
 add_trait="temperate"
-
+add_trait="goblin_average"
 1982.11.13={birth=yes}
 2035.1.23={death=yes}
 }
@@ -892,7 +869,7 @@ add_trait="indulgent_wastrel"
 add_trait="chaste"
 add_trait="cruel"
 add_trait="weak"
-
+add_trait="goblin_small"
 1989.1.6={birth=yes}
 2020.6.10={death=yes}
 }
@@ -913,7 +890,7 @@ add_trait="martial_cleric"
 add_trait="trusting"
 add_trait="ill"
 add_trait="humble"
-
+add_trait="goblin_small"
 1973.5.22={birth=yes}
 2066.8.5={death=yes}
 }
@@ -932,9 +909,7 @@ add_trait="creature_goblin"
 add_trait="poet"
 add_trait="elusive_shadow"
 add_trait="content"
-
-
-
+add_trait="goblin_small"
 1999.8.25={birth=yes}
 2043.8.7={death=yes}
 }
@@ -952,10 +927,7 @@ learning=2
 add_trait="creature_goblin"
 add_trait="duelist"
 add_trait="mastermind_theologian"
-
-
-
-
+add_trait="goblin_small"
 1980.4.12={birth=yes}
 2036.8.13={death=yes}
 }
@@ -973,6 +945,7 @@ learning=6
 add_trait="creature_goblin"
 add_trait="hunter"
 add_trait="flamboyant_schemer"
+add_trait="goblin_small"
 1984.2.20={birth=yes}
 2015.10.2={death=yes}
 }
@@ -989,6 +962,7 @@ intrigue=8
 learning=9
 add_trait="creature_goblin"
 add_trait="intricate_webweaver"
+add_trait="goblin_small"
 1998.1.3={birth=yes}
 2065.4.20={death=yes}
 }
@@ -1007,9 +981,7 @@ add_trait="creature_goblin"
 add_trait="hedonist"
 add_trait="flamboyant_schemer"
 add_trait="lustful"
-
-
-
+add_trait="goblin_small"
 1994.3.14={birth=yes}
 2030.5.30={death=yes}
 }
@@ -1027,10 +999,7 @@ learning=2
 add_trait="creature_goblin"
 add_trait="poet"
 add_trait="amateurish_plotter"
-
-
-
-
+add_trait="goblin_small"
 2008.11.11={birth=yes}
 2049.6.2={death=yes}
 }
@@ -1051,7 +1020,7 @@ add_trait="indulgent_wastrel"
 add_trait="strong"
 add_trait="diligent"
 add_trait="proud"
-
+add_trait="goblin_small"
 1967.1.23={birth=yes}
 2039.11.12={death=yes}
 }
@@ -1072,7 +1041,7 @@ add_trait="naive_appeaser"
 add_trait="slothful"
 add_trait="envious"
 add_trait="fair"
-
+add_trait="goblin_small"
 1978.8.29={birth=yes}
 2025.1.10={death=yes}
 }
@@ -1093,7 +1062,7 @@ add_trait="amateurish_plotter"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="shy"
-
+add_trait="goblin_small"
 1958.1.30={birth=yes}
 2028.3.18={death=yes}
 }
@@ -1114,7 +1083,7 @@ add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="zealous"
 add_trait="ambitious"
-
+add_trait="goblin_small"
 2003.7.16={birth=yes}
 2065.1.3={death=yes}
 }
@@ -1135,7 +1104,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="paranoid"
 add_trait="honest"
-
+add_trait="goblin_small"
 1965.6.30={birth=yes}
 2028.11.17={death=yes}
 }
@@ -1156,8 +1125,8 @@ add_trait="martial_cleric"
 add_trait="craven"
 add_trait="gregarious"
 add_trait="greedy"
-
-2001.3.4={birth=yes}
+add_trait="goblin_small"
+1975.3.4={birth=yes}
 2023.2.2={death=yes}
 }
 
@@ -1172,12 +1141,97 @@ stewardship=8
 intrigue=2
 learning=9
 add_trait="creature_goblin"
-
+add_trait="goblin_small"
 add_trait="mastermind_theologian"
 add_trait="kind"
+1975.8.28={birth=yes}
+2062.1.29={death=yes}
+}
 
+6100058={
+name="Zork"
+dynasty=90087
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_goblin"
+add_trait="goblin_average"
+add_trait="tough_soldier"
+add_trait="ambitious"
+add_trait="zealous"
+1975.8.28={birth=yes}
+2062.1.29={death=yes}
+}
 
+6100059={
+name="Oddblum"
+dynasty=90678
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_goblin"
+add_trait="goblin_average"
+add_trait="martial_cleric"
+1980.8.28={birth=yes}
+2062.1.29={death=yes}
+}
 
-2002.8.28={birth=yes}
+6100060={
+name="Nibgut"
+dynasty=90637
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_goblin"
+add_trait="goblin_average"
+add_trait="amateurish_plotter"
+1978.8.28={birth=yes}
+2062.1.29={death=yes}
+}
+
+6100061={
+name="Backopa"
+dynasty=91207
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_goblin"
+add_trait="goblin_average"
+add_trait="tough_soldier"
+add_trait="envious"
+1976.8.28={birth=yes}
+2062.1.29={death=yes}
+}
+
+6100062={
+name="Flam Flim"
+dynasty=91115
+culture=goblin_main
+religion=greenskin_gods
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=2
+learning=9
+add_trait="creature_goblin"
+add_trait="goblin_average"
+add_trait="indulgent_wastrel"
+1976.8.28={birth=yes}
 2062.1.29={death=yes}
 }

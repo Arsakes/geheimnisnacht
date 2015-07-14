@@ -3,7 +3,7 @@ name="Taliqu"
 dynasty=61000
 dna="logkhnfmghp"
 culture=kvellig
-religion=chaos
+religion=slaanesh
 martial=3
 diplomacy=0
 stewardship=6
@@ -23,7 +23,7 @@ name="Mersentei"
 dynasty=61001
 dna="dodlhddmaml"
 culture=kvellig
-religion=chaos
+religion=slaanesh
 martial=4
 diplomacy=5
 stewardship=2
@@ -43,7 +43,7 @@ name="Temuge"
 dynasty=61002
 dna="impnhacfipa"
 culture=kvellig
-religion=chaos
+religion=slaanesh
 martial=8
 diplomacy=0
 stewardship=2
@@ -80,7 +80,7 @@ name="Samil"
 dynasty=61004
 dna="nlcciphmcpl"
 culture=kvellig
-religion=chaos
+religion=tzeentch
 martial=6
 diplomacy=5
 stewardship=2
@@ -120,7 +120,7 @@ name="Nasil"
 dynasty=61006
 dna="doghcdnkpkl"
 culture=kvellig
-religion=chaos
+religion=nurgle
 martial=5
 diplomacy=4
 stewardship=3
@@ -137,11 +137,10 @@ add_trait="zealous"
 
 2000007={
 name="Aida"
-female=yes
 dynasty=61007
 dna="pkfefalakpf"
 culture=kvellig
-religion=chaos
+religion=tzeentch
 martial=6
 diplomacy=4
 stewardship=7
@@ -173,7 +172,9 @@ add_trait="fortune_builder"
 add_trait="diligent"
 add_trait="humble"
 add_trait="ambitious"
-1971.1.1={birth=yes}
+1971.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2014.1.1={death=yes}
 }
 
@@ -388,7 +389,9 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="diligent"
 add_trait="greedy"
-1967.1.1={birth=yes}
+1967.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2020.7.3={death=yes}
 }
 

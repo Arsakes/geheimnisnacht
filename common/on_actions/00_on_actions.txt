@@ -1,4 +1,7 @@
 #character
+on_startup = {
+}
+
 on_yearly_pulse = {
 	random_events = {
 		

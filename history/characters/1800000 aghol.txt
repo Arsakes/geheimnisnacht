@@ -3,7 +3,7 @@ name="Tahir"
 dynasty=62000
 dna="fhocbgpjfkh"
 culture=aghol
-religion=chaos
+religion=slaanesh
 martial=5
 diplomacy=4
 stewardship=2
@@ -13,17 +13,18 @@ add_trait="creature_human"
 add_trait="misguided_warrior"
 add_trait="envious"
 add_trait="honest"
-1986.1.1={birth=yes}
+1986.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2039.8.4={death=yes}
 }
 
 1800001={
 name="Zöhrä"
-female=yes
 dynasty=62001
 dna="iaidpjnnane"
 culture=aghol
-religion=chaos
+religion=nurgle
 martial=1
 diplomacy=8
 stewardship=1
@@ -43,7 +44,7 @@ name="Ilbars"
 dynasty=62002
 dna="aoeggheifpn"
 culture=aghol
-religion=chaos
+religion=nurgle
 martial=2
 diplomacy=2
 stewardship=4
@@ -62,7 +63,7 @@ name="Shahrukh"
 dynasty=62003
 dna="epnlnknenpm"
 culture=aghol
-religion=chaos
+religion=slaanesh
 martial=4
 diplomacy=4
 stewardship=1
@@ -83,7 +84,7 @@ name="Yahya"
 dynasty=62004
 dna="pcbbheogodp"
 culture=aghol
-religion=chaos
+religion=nurgle
 martial=3
 diplomacy=3
 stewardship=3
@@ -103,7 +104,7 @@ name="Eljigidey"
 dynasty=62005
 dna="jpfomfbkdfl"
 culture=aghol
-religion=chaos
+religion=slaanesh
 martial=4
 diplomacy=0
 stewardship=3
@@ -233,7 +234,9 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="honest"
-1979.1.1={birth=yes}
+1979.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2011.11.19={death=yes}
 }
 
@@ -386,7 +389,9 @@ learning=6
 add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="celibate"
-1974.1.1={birth=yes}
+1974.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2031.7.12={death=yes}
 }
 

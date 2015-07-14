@@ -1,3 +1,5 @@
+###ההה
+
 950000={
 name="Konrad" #Konrad von Blutheim, executed in 2011 by witch hunters, canon Khorne worshipper
 dynasty=23000 
@@ -13,6 +15,7 @@ add_trait="duelist"
 add_trait="charismatic_negotiator"
 add_trait="cruel"
 add_trait="proud"
+add_trait="sword_1"
 father=950029
 mother=950028
 
@@ -37,7 +40,6 @@ add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="strong"
 add_trait="twin"
-
 1976.6.8={birth=yes}
 1993.6.23={add_spouse=950072}
 2031.4.19={death=yes}
@@ -59,7 +61,6 @@ add_trait="detached_priest"
 add_trait="harelip"
 add_trait="weak"
 add_trait="tall"
-
 1979.9.9={birth=yes}
 2011.2.2={death=yes}
 }
@@ -79,7 +80,6 @@ add_trait="gardener"
 add_trait="naive_appeaser"
 add_trait="ugly"
 add_trait="temperate"
-
 2005.8.28={birth=yes}
 2018.12.12={death=yes}
 }
@@ -94,7 +94,6 @@ diplomacy=9
 stewardship=5
 intrigue=6
 learning=1
-add_trait="creature_human"
 father=950043
 mother=950044
 add_trait="creature_human"
@@ -125,11 +124,12 @@ add_trait="hunter"
 add_trait="misguided_warrior"
 add_trait="trusting"
 add_trait="humble"
-
 father=950016
 mother=950018
 
-1990.12.22={birth=yes}
+1990.12.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2050.8.29={death=yes}
 }
 
@@ -147,7 +147,6 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="naive_appeaser"
 add_trait="content"
-
 father=950012
 mother=950013
 
@@ -168,7 +167,6 @@ learning=4
 add_trait="creature_human"
 add_trait="impaler"
 add_trait="mastermind_theologian"
-
 father=950016
 mother=950018
 
@@ -190,7 +188,6 @@ add_trait="creature_human"
 add_trait="hunter"
 add_trait="skilled_tactician"
 add_trait="homosexual"
-
 1981.10.14={birth=yes}
 2055.7.23={death=yes}
 }
@@ -209,8 +206,7 @@ add_trait="creature_human"
 add_trait="impaler"
 add_trait="flamboyant_schemer"
 add_trait="legit_bastard"
-add_trait="lunatic"
-
+add_trait="lunatic_2"
 1979.3.20={birth=yes}
 2057.8.23={death=yes}
 }
@@ -228,7 +224,6 @@ learning=5
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="flamboyant_schemer"
-
 1978.8.8={birth=yes}
 2059.4.27={death=yes}
 }
@@ -246,7 +241,6 @@ learning=3
 add_trait="creature_human"
 add_trait="duelist"
 add_trait="charismatic_negotiator"
-
 add_trait="fair"
 father=950012
 mother=950013
@@ -270,7 +264,6 @@ add_trait="duelist"
 add_trait="brilliant_strategist"
 add_trait="diligent"
 add_trait="strong"
-
 1956.4.12={birth=yes}
 2022.1.19={death=yes}
 }
@@ -292,7 +285,6 @@ add_trait="naive_appeaser"
 add_trait="proud"
 add_trait="envious"
 add_trait="shy"
-
 1963.9.18={birth=yes}
 1982.5.9={add_spouse=950012}
 2021.7.19={death=yes}
@@ -313,7 +305,6 @@ add_trait="elusive_shadow"
 add_trait="proud"
 add_trait="kind"
 add_trait="greedy"
-
 father=950010
 mother=950015
 
@@ -338,7 +329,6 @@ add_trait="elusive_shadow"
 add_trait="cynical"
 add_trait="just"
 add_trait="zealous"
-
 father=950017
 mother=950034
 
@@ -363,7 +353,6 @@ add_trait="tough_soldier"
 add_trait="slothful"
 add_trait="kind"
 add_trait="honest"
-
 1962.5.20={birth=yes}
 1988.4.20={add_spouse=950018}
 2005.11.5={death=yes}
@@ -385,7 +374,6 @@ add_trait="amateurish_plotter"
 add_trait="paranoid"
 add_trait="craven"
 add_trait="gregarious"
-
 1961.3.26={birth=yes}
 1980.2.13={add_spouse=950034}
 2014.6.26={death=yes}
@@ -405,7 +393,6 @@ learning=8
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="naive_appeaser"
-
 1969.3.6={birth=yes}
 1988.4.20={add_spouse=950016}
 2027.10.21={death=yes}
@@ -421,7 +408,6 @@ diplomacy=7
 stewardship=10
 intrigue=9
 learning=4
-add_trait="creature_human"
 father=950012
 mother=950013
 add_trait="creature_human"
@@ -429,7 +415,6 @@ add_trait="duelist"
 add_trait="martial_cleric"
 add_trait="greedy"
 add_trait="tall"
-
 1985.6.13={birth=yes}
 2029.1.13={death=yes}
 }
@@ -453,8 +438,10 @@ add_trait="fortune_builder"
 add_trait="patient"
 add_trait="arbitrary"
 add_trait="ambitious"
-
-19.4.15={birth=yes}
+add_trait="sword_1"
+19.4.15={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 69.4.8={death=yes}
 }
 
@@ -474,6 +461,7 @@ add_trait="elusive_shadow"
 add_trait="cynical"
 add_trait="just"
 add_trait="zealous"
+add_trait="sword_1"
 father=950020
 
 53.6.8={birth=yes}
@@ -497,7 +485,7 @@ add_trait="tough_soldier"
 add_trait="slothful"
 add_trait="kind"
 add_trait="honest"
-
+add_trait="sword_1"
 280.5.20={birth=yes}
 328.11.5={death=yes}
 }
@@ -518,7 +506,6 @@ add_trait="amateurish_plotter"
 add_trait="paranoid"
 add_trait="craven"
 add_trait="gregarious"
-
 1213.3.26={birth=yes}
 1264.6.26={death=yes}
 }
@@ -539,7 +526,7 @@ add_trait="mystic"
 add_trait="naive_appeaser"
 add_trait="ugly"
 add_trait="clubfooted"
-
+add_trait="sword_1"
 1353.3.6={birth=yes}
 1438.10.21={death=yes}
 }
@@ -561,6 +548,7 @@ add_trait="martial_cleric"
 add_trait="greedy"
 add_trait="tall"
 add_trait="weak"
+add_trait="sword_1"
 mother=950024
 
 1401.6.13={birth=yes}
@@ -581,14 +569,11 @@ add_trait="creature_human"
 add_trait="poet"
 add_trait="mastermind_theologian"
 add_trait="zealous"
-
 add_trait="diligent"
 add_trait="proud"
-
 1974.7.13={birth=yes}
 2039.5.14={death=yes}
 }
-
 
 950027={
 name="Magnus" #Magnus 'the Pious' von Bildhofen
@@ -604,10 +589,9 @@ add_trait="creature_human"
 add_trait="poet"
 add_trait="charismatic_negotiator"
 add_trait="zealous"
-
 add_trait="diligent"
 add_trait="proud"
-
+add_trait="sword_1"
 2284.7.13={birth=yes}
 2304.1.1={give_nickname=nick_the_pious}#the pious
 2369.5.14={death=yes}
@@ -620,7 +604,6 @@ dynasty=23047
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1932.1.1={birth=yes}
 1954.1.1={add_spouse=950029}
 1975.1.1={death=yes}
@@ -632,7 +615,6 @@ dynasty=23000
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1930.1.1={birth=yes}
 1954.1.1={add_spouse=950028}
 1985.1.1={death=yes}
@@ -645,7 +627,6 @@ dynasty=23052
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1962.3.3={birth=yes}
 1980.5.25={add_spouse=950000}
 1983.6.19={death=yes}
@@ -658,7 +639,6 @@ dynasty=23003
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1965.5.11={birth=yes}
 1984.12.5={add_spouse=950000}
 1989.10.10={death=yes}
@@ -671,7 +651,6 @@ dynasty=23004
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1970.12.5={birth=yes}
 1989.2.12={add_spouse=950000}
 2005.3.7={death=yes}
@@ -684,7 +663,6 @@ dynasty=23005
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1993.8.16={birth=yes}
 2010.4.19={add_spouse=950000}
 2011.2.17={death=yes}
@@ -765,7 +743,9 @@ add_trait="creature_human"
 father=950000
 mother=950032
 
-1991.4.21={birth=yes}
+1991.4.21={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2007.4.25={death=yes}
 }
 
@@ -829,7 +809,6 @@ dynasty=23006
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1967.9.12={birth=yes}
 1988.5.25={add_spouse=950043}
 2013.2.10={death=yes}
@@ -842,7 +821,6 @@ dynasty=23057
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1991.5.9={birth=yes}
 2008.3.10={add_spouse=950004}
 2009.10.6={death=yes}
@@ -869,7 +847,6 @@ dynasty=23009
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1989.1.1={birth=yes}
 2007.1.1={add_spouse=950046}
 2014.1.1={death=yes}
@@ -922,7 +899,6 @@ dynasty=23010
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1965.1.1={birth=yes}
 1982.1.1={add_spouse=950050}
 2006.1.1={death=yes}
@@ -950,7 +926,6 @@ dynasty=23011
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1991.1.1={birth=yes}
 2008.1.1={add_spouse=950052}
 2010.1.1={death=yes}
@@ -1016,7 +991,6 @@ dynasty=23016
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1944.1.1={birth=yes}
 1975.1.1={add_spouse=950057}
 1976.6.8={death=yes}
@@ -1086,7 +1060,6 @@ add_trait="creature_human"
 father=950057
 mother=950058
 add_trait="twin"
-
 1976.6.8={birth=yes}
 2001.1.1={add_spouse=950062}
 2034.10.1={death=yes}
@@ -1114,7 +1087,6 @@ religion=sigmarite
 father=950067
 mother=950068
 add_trait="creature_human"
-
 1941.1.1={birth=yes}
 1986.1.1={add_spouse=950066}
 2011.1.1={death=yes}
@@ -1127,7 +1099,6 @@ dynasty=23015
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1944.1.1={birth=yes}
 1986.1.1={add_spouse=950065}
 2013.1.1={death=yes}
@@ -1153,8 +1124,9 @@ dynasty=23020
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
-1920.1.1={birth=yes}
+1920.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1940.1.1={add_spouse=950067}
 1975.1.1={death=yes}
 }
@@ -1167,7 +1139,6 @@ religion=sigmarite
 father=950065
 mother=950066
 add_trait="creature_human"
-
 1987.1.1={birth=yes}
 2044.1.1={death=yes}
 }
@@ -1192,7 +1163,6 @@ dynasty=23017
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1922.1.1={birth=yes}
 1988.1.1={death=yes}
 }
@@ -1204,7 +1174,6 @@ dynasty=23019
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-
 1972.1.1={birth=yes}
 1993.6.23={add_spouse=950001}
 2029.1.1={death=yes}
@@ -1224,7 +1193,6 @@ learning=1
 add_trait="creature_human"
 add_trait="tall"
 add_trait="brave"
-
 1955.1.1={birth=yes}
 1981.1.1={add_spouse=950074}
 1999.1.1={death=yes}
@@ -1243,7 +1211,6 @@ learning=1
 add_trait="creature_human"
 add_trait="kind"
 add_trait="charitable"
-
 1957.1.1={birth=yes}
 1981.1.1={add_spouse=950073}
 2001.1.1={death=yes}
@@ -1262,7 +1229,6 @@ learning=4
 add_trait="creature_human"
 add_trait="cruel"
 add_trait="shy"
-
 1899.1.1={birth=yes}
 1954.1.1={death=yes}
 }
@@ -1306,7 +1272,7 @@ add_trait="cynical"
 add_trait="quick"
 add_trait="fair"
 add_trait="gregarious"
-
+add_trait="sword_1"
 2486.4.4={birth=yes}
 2554.7.18={death=yes}
 }
@@ -1610,7 +1576,6 @@ add_trait="honest"
 2535.1.5={death=yes}
 }
 
-
 950092={
 name="Sabine"
 female=yes
@@ -1655,7 +1620,6 @@ add_trait="envious"
 2475.11.10={add_spouse=500136}
 2528.3.2={death=yes}
 }
-
 
 950094={
 name="Nicholaus"
@@ -1793,4 +1757,43 @@ add_trait="cynical"
 2492.2.1={birth=yes}
 2513.5.21={add_spouse=500202}
 2532.5.7={death=yes}
+}
+
+950101={
+name="Luther"
+dynasty=23095
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=2
+stewardship=1
+intrigue=2
+learning=8
+add_trait="creature_human"
+#father=950085 #BR Note this father is -500 years old...
+add_trait="mastermind_theologian"
+add_trait="diligent"
+add_trait="kind"
+add_trait="zealous"
+1962.3.3={birth=yes}
+2020.6.19={death=yes}
+}
+
+950102={
+name="Meinhart"
+dynasty=23096
+culture=wissenlander
+religion=sigmarite
+martial=5
+diplomacy=2
+stewardship=1
+intrigue=2
+learning=8
+add_trait="creature_human"
+#father=950085 #BR Note this father is -500 years old...
+add_trait="scholarly_theologian"
+1965.3.3={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2020.6.19={death=yes}
 }

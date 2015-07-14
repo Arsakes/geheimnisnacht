@@ -1,0 +1,3772 @@
+########################################################################################
+## Nortagnesians from 40000 - 44999
+########################################################################################
+##  40000		29011		d_normagne	
+##  40200		29020		d_quierzy
+##  40400		29013		c_sanz
+##  40600		29016		c_mirke
+##  40800		29014		c_ganet
+##  41000		29021
+##  41200		29010
+##  41400		29012
+##  41600		29073
+##  41800		29015
+##  42000		29017		c_normagne
+########################################################################################
+
+##  42000		29017
+42000={
+	name = Ardolf
+	dynasty = 29017
+	dna = "mhpabamcopa"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 6 intrigue = 5 learning = 5
+	add_trait = scholarly_theologian add_trait = poet add_trait = charitable add_trait = gregarious add_trait = envious add_trait = lustful add_trait = content add_trait = trained_warrior 
+	1849.4.25={ birth=yes }
+	1906.3.16={ death=yes }
+}
+42001={
+	name = Gerbaud
+	dynasty = 29017
+	dna = "nhnjffmpgpp"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 7 stewardship = 7 intrigue = 4 learning = 7
+	add_trait = charismatic_negotiator add_trait = gregarious add_trait = chaste add_trait = cruel add_trait = skilled_warrior 
+	father = 42000	#Ardolf
+	1873.11.21={ birth=yes }
+	1928.7.19={ death=yes }
+}
+42002={
+	name = Eremburga
+	female = yes
+	dynasty = 29017
+	dna = "mfpdgamkopa"
+	culture = nortagnese religion = grail
+	father = 42000	#Ardolf
+	1876.2.6={ birth=yes }
+	1927.3.24={ death=yes }
+}
+42003={
+	name = Anna
+	female = yes
+	dynasty = 29017
+	dna = "nhdabaefoea"
+	culture = nortagnese religion = grail
+	father = 42000	#Ardolf
+	1878.8.20={ birth=yes }
+	1944.9.22={ death=yes }
+}
+42004={
+	name = Gunnora
+	female = yes
+	dynasty = 29017
+	dna = "oepakomlkpa"
+	culture = nortagnese religion = grail
+	father = 42000	#Ardolf
+	1879.8.3={ birth=yes }
+	1931.7.7={ death=yes }
+}
+42005={
+	name = Fulbert
+	dynasty = 29017
+	dna = "poppiamcope"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 4 stewardship = 7 intrigue = 5 learning = 8
+	add_trait = indulgent_wastrel add_trait = deceitful add_trait = brave add_trait = temperate add_trait = paranoid add_trait = diligent add_trait = ill add_trait = trained_warrior 
+	father = 42000	#Ardolf
+	1883.1.22={ birth=yes }
+	1934.9.17={ death=yes }
+}
+42006={
+	name = Fressende
+	female = yes
+	dynasty = 29017
+	dna = "mipamaicopa"
+	culture = nortagnese religion = grail
+	father = 42000	#Ardolf
+	1886.8.6={ birth=yes }
+	1952.1.25={ death=yes }
+}
+42007={
+	name = Wauter
+	dynasty = 29017
+	dna = "jhcadamlioa"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 8 stewardship = 5 intrigue = 5 learning = 6
+	add_trait = midas_touched add_trait = paranoid add_trait = wroth add_trait = honest add_trait = cruel add_trait = proud add_trait = trained_warrior 
+	father = 42000	#Ardolf
+	1888.12.1={ birth=yes }
+	1942.7.26={ death=yes }
+}
+42008={
+	name = Heria
+	female = yes
+	dynasty = 29017
+	dna = "nhbpdfgjbjp"
+	culture = nortagnese religion = grail
+	father = 42001	#Gerbaud
+	1895.12.13={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	1937.9.17={ death=yes }
+}
+42009={
+	name = Thomas
+	dynasty = 29017
+	dna = "ghnjbpmoaip"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 6 intrigue = 4 learning = 7
+	add_trait = intricate_webweaver add_trait = content add_trait = zealous add_trait = greedy add_trait = chaste add_trait = poor_warrior 
+	father = 42001	#Gerbaud
+	1898.5.8={ birth=yes }
+	1955.8.30={ death=yes }
+}
+42010={
+	name = Ricard
+	dynasty = 29017
+	dna = "hhijjohpmhd"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 8 intrigue = 7 learning = 8
+	add_trait = flamboyant_schemer add_trait = gluttonous add_trait = brave add_trait = cynical add_trait = patient add_trait = skilled_warrior 
+	father = 42001	#Gerbaud
+	1902.10.18={ birth=yes }
+	1969.5.5={ death=yes }
+}
+42011={
+	name = Mylisant
+	female = yes
+	dynasty = 29017
+	dna = "chnfkhmggde"
+	culture = nortagnese religion = grail
+	father = 42001	#Gerbaud
+	1906.8.24={ birth=yes }
+	1960.1.6={ death=yes }
+}
+42012={
+	name = Thierry
+	dynasty = 29017
+	dna = "ghnjbdmeakf"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 7 intrigue = 8 learning = 7
+	add_trait = indulgent_wastrel add_trait = duelist add_trait = trusting add_trait = arbitrary add_trait = diligent add_trait = humble 
+	father = 42009	#Thomas
+	1921.10.23={ birth=yes }
+	1980.6.30={ death=yes }
+}
+42013={
+	name = Wyf
+	female = yes
+	dynasty = 29017
+	dna = "jhpjbjmcpep"
+	culture = nortagnese religion = grail
+	father = 42009	#Thomas
+	1925.11.18={ birth=yes }
+	1995.3.30={ death=yes }
+}
+42014={
+	name = Féderyc
+	dynasty = 29017
+	dna = "ghdjepioade"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 7 intrigue = 8 learning = 4
+	add_trait = charismatic_negotiator add_trait = honest add_trait = gluttonous add_trait = poor_warrior 
+	father = 42009	#Thomas
+	1928.4.2={ birth=yes }
+	1987.11.7={ death=yes }
+}
+42015={
+	name = Gunnora
+	female = yes
+	dynasty = 29017
+	dna = "nmnjepmdgih"
+	culture = nortagnese religion = grail
+	father = 42009	#Thomas
+	1931.2.19={ birth=yes }
+	1972.8.27={ death=yes }
+}
+42016={
+	name = Wauter
+	dynasty = 29017
+	dna = "ihfjhdgpbjj"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 8 stewardship = 4 intrigue = 6 learning = 4
+	add_trait = indulgent_wastrel add_trait = greedy add_trait = content add_trait = kind add_trait = lustful add_trait = trusting 
+	father = 42012	#Thierry
+	1945.5.16={ birth=yes }
+	1995.2.15={ death=yes }
+}
+42017={
+	name = Rouland
+	dynasty = 29017
+	dna = "lhpjbofgakf"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 6 stewardship = 6 intrigue = 4 learning = 7
+	add_trait = elusive_shadow add_trait = gregarious add_trait = humble add_trait = envious add_trait = ambitious add_trait = trained_warrior 
+	father = 42012	#Thierry
+	1948.6.18={ birth=yes }
+	2026.4.17={ death=yes }
+}
+42018={
+	name = Maysant
+	female = yes
+	dynasty = 29017
+	dna = "cljjbomealk"
+	culture = nortagnese religion = grail
+	father = 42012	#Thierry
+	1952.5.2={ birth=yes }
+	1986.7.23={ death=yes }
+}
+42019={
+	name = Aristolf
+	dynasty = 29017
+	dna = "alfjgdhlbjh"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 5 stewardship = 6 intrigue = 6 learning = 4
+	add_trait = thrifty_clerk add_trait = content add_trait = humble add_trait = temperate add_trait = trained_warrior 
+	father = 42016	#Wauter
+	1971.9.22={ birth=yes }
+	2020.4.12={ death=yes }
+}
+42020={
+	name = Wevia
+	female = yes
+	dynasty = 29017
+	dna = "ihjjhdmcfkj"
+	culture = nortagnese religion = grail
+	father = 42016	#Wauter
+	1973.12.26={ birth=yes }
+	2003.11.2={ death=yes }
+}
+42021={
+	name = Godehilde
+	female = yes
+	dynasty = 29017
+	dna = "imffkajobnj"
+	culture = nortagnese religion = grail
+	father = 42016	#Wauter
+	1976.4.21={ birth=yes }
+	2042.8.17={ death=yes }
+}
+42022={
+	name = Fouque
+	dynasty = 29017
+	dna = "ccfjhdapmjj"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 6 stewardship = 6 intrigue = 7 learning = 5
+	add_trait = martial_cleric add_trait = poet add_trait = lustful add_trait = zealous add_trait = kind add_trait = shy 
+	father = 42016	#Wauter
+	1980.6.4={ birth=yes }
+	2032.4.21={ death=yes }
+}
+42023={
+	name = Mabel
+	female = yes
+	dynasty = 29017
+	dna = "npcjhmgmbjm"
+	culture = nortagnese religion = grail
+	father = 42016	#Wauter
+	1985.5.12={ birth=yes }
+	2027.11.23={ death=yes }
+}
+42024={
+	name = Eremberga
+	female = yes
+	dynasty = 29017
+	dna = "jnbdhdgfbhj"
+	culture = nortagnese religion = grail
+	father = 42016	#Wauter
+	1989.6.17={ birth=yes }
+	2036.12.4={ death=yes }
+}
+42025={
+	name = Honfroi
+	dynasty = 29017
+	dna = "ihfjhdhpcdj"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 6 stewardship = 6 intrigue = 5 learning = 7
+	add_trait = mastermind_theologian add_trait = brave add_trait = chaste add_trait = humble add_trait = patient add_trait = content add_trait = deceitful add_trait = ill add_trait = poor_warrior 
+	father = 42016	#Wauter
+	1992.2.14={ birth=yes }
+	2055.5.30={ death=yes }
+}
+42026={
+	name = Auelyna
+	female = yes
+	dynasty = 29017
+	dna = "cbfcghhldbe"
+	culture = nortagnese religion = grail
+	father = 42019	#Aristolf
+	1997.1.14={ birth=yes }
+	2044.2.21={ death=yes }
+}
+42027={
+	name = Arnulf
+	dynasty = 29017
+	dna = "blnjgdnbnch"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 5 stewardship = 6 intrigue = 5 learning = 7
+	add_trait = indulgent_wastrel add_trait = proud add_trait = arbitrary add_trait = wroth add_trait = skilled_warrior 
+	father = 42019	#Aristolf
+	2001.10.4={ birth=yes }
+	2054.8.31={ death=yes }
+}
+42028={
+	name = Curteis
+	dynasty = 29017
+	dna = "ajfggdfmojh"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 4 intrigue = 6 learning = 7
+	add_trait = grey_eminence add_trait = chaste add_trait = humble add_trait = charitable add_trait = gluttonous add_trait = ambitious add_trait = lunatic_2 add_trait = trained_warrior 
+	father = 42019	#Aristolf
+	2002.9.24={ birth=yes }
+	2068.11.25={ death=yes }
+}
+42029={
+	name = Heymon
+	dynasty = 29017
+	dna = "aehpgnelbkf"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 6 intrigue = 8 learning = 7
+	add_trait = midas_touched add_trait = trusting add_trait = cruel add_trait = just add_trait = lustful add_trait = shy add_trait = trained_warrior 
+	father = 42019	#Aristolf
+	2004.6.25={ birth=yes }
+	2057.4.28={ death=yes }
+}
+42030={
+	name = Ermyntrude
+	female = yes
+	dynasty = 29017
+	dna = "alfjgdhlnjh"
+	culture = nortagnese religion = grail
+	father = 42019	#Aristolf
+	2008.9.22={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	2072.4.22={ death=yes }
+}
+##  42000		29017
+
+##  41800		29015
+4000017={
+name="Waïfre"
+dynasty=29015
+dna="oadapneleke"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=4
+stewardship=3
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+1976.11.18={birth=yes}
+2047.1.13={death=yes}
+}
+4000018={
+name="Maysant"
+female=yes
+dynasty=29015
+dna="eadagnagpie"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=6
+stewardship=7
+intrigue=7
+learning=3
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="lustful"
+add_trait="charitable"
+father=4000017
+2007.4.24={birth=yes}
+2009.9.17={death=yes}
+}
+4000019={
+name="Adela"
+female=yes
+dynasty=29015
+dna="eaefpneepkb"
+culture=nortagnese
+religion=grail
+martial=8
+diplomacy=4
+stewardship=5
+intrigue=3
+learning=2
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="humble"
+father=4000017
+2002.11.28={birth=yes}
+2006.9.10={death=yes}
+}
+4000020={
+name="Alyna"
+female=yes
+dynasty=29015
+dna="oadfpneelce"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=1
+stewardship=2
+intrigue=4
+learning=3
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="kind"
+add_trait="honest"
+add_trait="brave"
+add_trait="drunkard"
+father=4000017
+2004.5.10={birth=yes}
+2071.1.22={death=yes}
+}
+4000021={
+name="Felicia"
+female=yes
+dynasty=29015
+dna="opdagbeleid"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=3
+stewardship=6
+intrigue=7
+learning=5
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="cruel"
+father=4000017
+2005.5.25={birth=yes}
+2065.5.17={death=yes}
+}
+4000022={
+name="Myles"
+dynasty=29015
+dna="opdfgbeeegm"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=7
+stewardship=8
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+add_trait="gregarious"
+add_trait="charitable"
+add_trait="zealous"
+father=4000017
+2006.9.15={birth=yes}
+2057.3.9={death=yes}
+}
+##  41800		29015
+
+##  41000		29021
+4000042={
+	name="Piers"
+	dynasty=29021
+	dna="ohlacjdkdbc"
+	culture=nortagnese
+	religion=grail
+	martial=6
+	diplomacy=6
+	stewardship=5
+	intrigue=1
+	learning=5
+	add_trait="creature_human"
+	add_trait="charismatic_negotiator"
+	add_trait="hunter"
+	add_trait="deceitful"
+	add_trait="paranoid"
+	add_trait="envious"
+	father=4000105
+	mother=4000106
+	1976.1.13={birth=yes}
+	2038.4.22={death=yes}
+}
+4000043={
+name="Anna"
+female=yes
+dynasty=29021
+dna="ofbfjickegp"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=3
+stewardship=8
+intrigue=3
+learning=2
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="just"
+father=4000042
+2007.11.8={birth=yes}
+2067.8.17={death=yes}
+}
+4000044={
+name="Raimond"
+dynasty=29021
+dna="ohlkjjclebc"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=7
+stewardship=3
+intrigue=5
+learning=6
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="cruel"
+add_trait="brave"
+father=4000042
+1999.3.21={birth=yes}
+2078.8.30={death=yes}
+}
+4000045={
+name="Godehilde"
+female=yes
+dynasty=29021
+dna="bhbkcoclegc"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=5
+intrigue=6
+learning=7
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="cynical"
+add_trait="trusting"
+father=4000042
+2004.8.31={birth=yes}
+2031.5.6={death=yes}
+}
+4000046={
+name="Ysembert"
+dynasty=29021
+dna="onbacicldgp"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=3
+learning=5
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="brave"
+add_trait="stressed"
+father=4000042
+1996.6.10={birth=yes}
+2003.2.7={death=yes}
+}
+4000105={
+name="Sagard"
+dynasty=29021
+dna="hbdgpnaeapd"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=6
+stewardship=4
+intrigue=0
+learning=7
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="duelist"
+add_trait="trusting"
+add_trait="gluttonous"
+add_trait="deceitful"
+1957.6.5={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+1976.6.21={add_spouse=4000106}
+2008.6.5={death=yes}
+}
+4000107={
+name="Maud"
+female=yes
+dynasty=29021
+dna="hphgpnmnolf"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=3
+stewardship=5
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="honest"
+add_trait="gregarious"
+father=4000105
+mother=4000106
+1974.11.29={birth=yes}
+1996.11.14={add_spouse=4000108}
+2025.2.6={death=yes}
+}
+4000112={
+name="Ranulf"
+dynasty=29021
+dna="hbhgpnmnapd"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=1
+stewardship=3
+intrigue=2
+learning=7
+add_trait="creature_human"
+add_trait="misguided_warrior"
+add_trait="impaler"
+add_trait="slothful"
+father=4000105
+mother=4000106
+1978.6.20={birth=yes}
+2001.2.5={add_spouse=4000113}
+2032.11.25={death=yes}
+}
+4000114={
+name="Myles"
+dynasty=29021
+dna="hbcgkombnfd"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=4
+stewardship=1
+intrigue=7
+learning=8
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="gluttonous"
+add_trait="zealous"
+father=4000112
+mother=4000113
+2004.1.29={birth=yes}
+2057.1.16={death=yes}
+}
+4000115={
+name="Helewyse"
+female=yes
+dynasty=29021
+dna="pbhepnmnafd"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=3
+stewardship=4
+intrigue=2
+learning=7
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="envious"
+add_trait="chaste"
+father=4000112
+mother=4000113
+2002.11.1={birth=yes}
+2059.2.2={death=yes}
+}
+4000116={
+name="Wariner"
+dynasty=29021
+dna="hhhgpnnbnpb"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=1
+intrigue=3
+learning=8
+add_trait="creature_human"
+add_trait="midas_touched"
+add_trait="honest"
+father=4000112
+mother=4000113
+2009.2.21={birth=yes}
+2059.3.5={death=yes}
+}
+4000117={
+name="Tybaut"
+dynasty=29021
+dna="jphggfanapd"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=2
+stewardship=1
+intrigue=3
+learning=0
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="shy"
+add_trait="slothful"
+father=4000105
+mother=4000106
+1979.11.29={birth=yes}
+2001.4.17={death=yes}
+}
+
+##  41000		29021
+
+##  41200		29010
+4000000={
+	name="Hermineite"
+	female=yes
+	dynasty=29010
+	dna="aiabejapgng"
+	culture=nortagnese
+	religion=grail
+	martial=4
+	diplomacy=1
+	stewardship=4
+	intrigue=0
+	learning=4
+	add_trait="creature_human"
+	add_trait="thrifty_clerk"
+	add_trait="kind"
+	add_trait="arbitrary"
+	add_trait="gregarious"
+	add_trait="patient"
+	1968.9.13={birth=yes}
+	2002.9.13={death=yes}
+}
+##  41200		29010
+
+##  41400		29012
+4000007={
+	name="Bertha"
+	female=yes
+	dynasty=29012
+	dna="ehnngnhepln"
+	culture=nortagnese
+	religion=grail
+	martial=1
+	diplomacy=4
+	stewardship=2
+	intrigue=6
+	learning=4
+	add_trait="creature_human"
+	add_trait="fortune_builder"
+	add_trait="cynical"
+	add_trait="temperate"
+	1961.8.26={birth=yes}
+	2001.8.26={death=yes}
+}
+##  41400		29012
+
+##  41600		29073
+4000009={
+	name="Aubrey"
+	female=yes
+	dynasty=29073
+	dna="ehdngnhihia"
+	culture=nortagnese
+	religion=grail
+	martial=7
+	diplomacy=5
+	stewardship=5
+	intrigue=1
+	learning=5
+	add_trait="creature_human"
+	add_trait="thrifty_clerk"
+	add_trait="humble"
+	add_trait="wroth"
+	add_trait="gluttonous"
+	1973.6.14={birth=yes}
+	2047.2.11={death=yes}
+}
+##  41600		29073
+
+##  40800		29014		c_ganet
+40800={
+	name = Jop
+	dynasty = 29014
+	dna = "bkbolgckgbi"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 7 stewardship = 8 intrigue = 7 learning = 7
+	add_trait = flamboyant_schemer add_trait = temperate add_trait = proud add_trait = deceitful add_trait = gregarious add_trait = brave 
+	1850.3.24={ birth=yes }
+	1901.12.4={ death=yes }
+}
+40801={
+	name = Raimond
+	dynasty = 29014
+	dna = "bekpagekebd"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 8 stewardship = 7 intrigue = 4 learning = 4
+	add_trait = grey_eminence add_trait = hunter add_trait = gregarious add_trait = paranoid add_trait = patient add_trait = possessed add_trait = skilled_warrior 
+	father = 40800	#Jop
+	1876.2.12={ birth=yes }
+	1932.10.11={ death=yes }
+}
+40802={
+	name = Mainfroi
+	dynasty = 29014
+	dna = "bkbcjpcigci"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 4 intrigue = 4 learning = 7
+	add_trait = detached_priest add_trait = brave add_trait = honest add_trait = cruel add_trait = poor_warrior 
+	father = 40800	#Jop
+	1878.4.2={ birth=yes }
+	1940.4.22={ death=yes }
+}
+40803={
+	name = Ricard
+	dynasty = 29014
+	dna = "bekbplekebd"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 6 stewardship = 5 intrigue = 8 learning = 7
+	add_trait = midas_touched add_trait = gluttonous add_trait = ambitious add_trait = charitable add_trait = honest add_trait = harelip add_trait = trained_warrior 
+	father = 40801	#Raimond
+	1899.9.8={ birth=yes }
+	1956.7.14={ death=yes }
+}
+40804={
+	name = Hugubert
+	dynasty = 29014
+	dna = "opfedgeiebd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 4 stewardship = 6 intrigue = 5 learning = 8
+	add_trait = charismatic_negotiator add_trait = scholar add_trait = just add_trait = wroth add_trait = brave add_trait = charitable add_trait = temperate add_trait = skilled_warrior 
+	father = 40801	#Raimond
+	1904.6.17={ birth=yes }
+	1969.6.28={ death=yes }
+}
+40805={
+	name = Busilla
+	female = yes
+	dynasty = 29014
+	dna = "ijkfflekabd"
+	culture = nortagnese religion = grail
+	father = 40803	#Ricard
+	1921.8.23={ birth=yes }
+	1989.4.29={ death=yes }
+}
+40806={
+	name = Hanry
+	dynasty = 29014
+	dna = "obkbfkpckbd"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 5 stewardship = 6 intrigue = 8 learning = 7
+	add_trait = thrifty_clerk add_trait = kind add_trait = content add_trait = chaste add_trait = trained_warrior 
+	father = 40803	#Ricard
+	1925.8.6={ birth=yes }
+	1980.11.17={ death=yes }
+}
+40807={
+	name = Sewell
+	dynasty = 29014
+	dna = "bengalhkebi"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 5 stewardship = 7 intrigue = 6 learning = 4
+	add_trait = mastermind_theologian add_trait = kind add_trait = deceitful 
+	father = 40803	#Ricard
+	1929.4.25={ birth=yes }
+	1982.2.22={ death=yes }
+}
+40808={
+	name = Thierry
+	dynasty = 29014
+	dna = "jehlplekjbd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 6 stewardship = 7 intrigue = 8 learning = 6
+	add_trait = flamboyant_schemer add_trait = poet add_trait = temperate add_trait = paranoid add_trait = cynical add_trait = shy add_trait = chaste add_trait = poor_warrior 
+	father = 40803	#Ricard
+	1930.11.15={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	1982.3.12={ death=yes }
+}
+40809={
+	name = Jean
+	dynasty = 29014
+	dna = "jgihfkpokbd"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 5 stewardship = 4 intrigue = 5 learning = 6
+	add_trait = intricate_webweaver add_trait = diligent add_trait = lustful add_trait = trusting add_trait = zealous add_trait = just add_trait = skilled_warrior 
+	father = 40806	#Hanry
+	1948.7.15={ birth=yes }
+	2010.9.14={ death=yes }
+}
+40810={
+	name = Nigel
+	dynasty = 29014
+	dna = "obgneklckbd"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 6 stewardship = 4 intrigue = 8 learning = 4
+	add_trait = flamboyant_schemer add_trait = paranoid add_trait = ambitious add_trait = envious add_trait = gregarious add_trait = poor_warrior 
+	father = 40806	#Hanry
+	1950.9.21={ birth=yes }
+	2011.12.19={ death=yes }
+}
+40811={
+	name = Alyna
+	female = yes
+	dynasty = 29014
+	dna = "onaoflpcicd"
+	culture = nortagnese religion = grail
+	father = 40806	#Hanry
+	1954.5.16={ birth=yes }
+	2013.7.25={ death=yes }
+}
+40812={
+	name = Adaleide
+	female = yes
+	dynasty = 29014
+	dna = "opgkfjccebj"
+	culture = nortagnese religion = grail
+	father = 40806	#Hanry
+	1956.8.8={ birth=yes }
+	2037.7.18={ death=yes }
+}
+40813={
+	name = Berengière
+	female = yes
+	dynasty = 29014
+	dna = "joihfkpocbm"
+	culture = nortagnese religion = grail
+	father = 40809	#Jean
+	1971.2.10={ birth=yes }
+	2023.5.21={ death=yes }
+}
+40814={
+	name = Adaleide
+	female = yes
+	dynasty = 29014
+	dna = "jgikhneokbp"
+	culture = nortagnese religion = grail
+	father = 40809	#Jean
+	1973.10.12={ birth=yes }
+	2041.3.8={ death=yes }
+}
+40815={
+	name = Helewyse
+	female = yes
+	dynasty = 29014
+	dna = "jnimfkcojpd"
+	culture = nortagnese religion = grail
+	father = 40809	#Jean
+	1975.7.3={ birth=yes }
+	2023.11.21={ death=yes }
+}
+40816={
+	name = Busilla
+	female = yes
+	dynasty = 29014
+	dna = "jdacfigikbd"
+	culture = nortagnese religion = grail
+	father = 40809	#Jean
+	1978.7.7={ birth=yes }
+	2021.5.22={ death=yes }
+}
+40817={
+	name = Myles
+	dynasty = 29014
+	dna = "jgikbkkjbbd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 4 stewardship = 8 intrigue = 7 learning = 5
+	add_trait = misguided_warrior add_trait = duelist add_trait = cruel add_trait = honest add_trait = gregarious add_trait = just 
+	father = 40809	#Jean
+	1981.10.14={ birth=yes }
+	2030.8.24={ death=yes }
+}
+40818={
+	name = Osbern
+	dynasty = 29014
+	dna = "mgikbkkhbbd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 5 stewardship = 5 intrigue = 5 learning = 4
+	add_trait = indulgent_wastrel add_trait = craven add_trait = ambitious add_trait = charitable add_trait = arbitrary add_trait = trained_warrior 
+	father = 40817	#Myles
+	2005.7.24={ birth=yes }
+	2051.8.25={ death=yes }
+}
+40819={
+	name = Matheode
+	female = yes
+	dynasty = 29014
+	dna = "jglpbkeajld"
+	culture = nortagnese religion = grail
+	father = 40817	#Myles
+	2008.8.14={ birth=yes }
+	2066.12.16={ death=yes }
+}
+40820={
+	name = Serrell
+	dynasty = 29014
+	dna = "jhijbgkjbji"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 5 stewardship = 4 intrigue = 6 learning = 4
+	add_trait = elusive_shadow add_trait = ambitious add_trait = envious add_trait = arbitrary add_trait = trained_warrior 
+	father = 40817	#Myles
+	2011.6.12={ birth=yes }
+	2062.2.4={ death=yes }
+}
+40821={
+	name = Houdoin
+	dynasty = 29014
+	dna = "jneeokjhebd"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 4 stewardship = 8 intrigue = 4 learning = 4
+	add_trait = martial_cleric add_trait = scholar add_trait = arbitrary add_trait = patient add_trait = ambitious add_trait = poor_warrior 
+	father = 40817	#Myles
+	2014.5.4={ birth=yes }
+	2075.11.3={ death=yes }
+}
+40822={
+	name = Wymond
+	dynasty = 29014
+	dna = "jgdpokmjabd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 6 stewardship = 6 intrigue = 7 learning = 4
+	add_trait = charismatic_negotiator add_trait = wroth add_trait = envious add_trait = lustful add_trait = gluttonous add_trait = brave add_trait = proud add_trait = depressed add_trait = skilled_warrior 
+	father = 40817	#Myles
+	2017.2.20={ birth=yes }
+	2085.4.10={ death=yes }
+}
+40823={
+	name = Elysant
+	female = yes
+	dynasty = 29014
+	dna = "jgakakgjbke"
+	culture = nortagnese religion = grail
+	father = 40817	#Myles
+	2019.2.25={ birth=yes }
+	2070.7.19={ death=yes }
+}
+40824={
+	name = Flandina
+	female = yes
+	dynasty = 29014
+	dna = "jgicbkgnbcf"
+	culture = nortagnese religion = grail
+	father = 40817	#Myles
+	2022.3.4={ birth=yes }
+	2057.2.12={ death=yes }
+}
+##  40800		29014		c_ganet
+
+##  40600		29016		c_mirke
+40600={
+	name = Ilbert
+	dynasty = 29016
+	dna = "oohfpjcdlnh"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 5 stewardship = 6 intrigue = 6 learning = 6
+	add_trait = intricate_webweaver add_trait = charitable add_trait = deceitful add_trait = proud add_trait = craven add_trait = paranoid add_trait = master_warrior 
+	1850.3.25={ birth=yes }
+	1896.1.25={ death=yes }
+}
+40601={
+	name = Philip
+	dynasty = 29016
+	dna = "fohfljcdmnh"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 6 intrigue = 4 learning = 4
+	add_trait = scholarly_theologian add_trait = patient add_trait = slothful add_trait = cynical add_trait = gluttonous add_trait = poor_warrior 
+	father = 40600	#Ilbert
+	1875.3.20={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	1926.1.9={ death=yes }
+}
+40602={
+	name = Holger
+	dynasty = 29016
+	dna = "oojopjcdlne"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 5 stewardship = 8 intrigue = 5 learning = 7
+	add_trait = intricate_webweaver add_trait = just add_trait = chaste add_trait = brave add_trait = zealous add_trait = trained_warrior 
+	father = 40600	#Ilbert
+	1877.10.22={ birth=yes }
+	1923.7.19={ death=yes }
+}
+40603={
+	name = Bertran
+	dynasty = 29016
+	dna = "nomppigflnh"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 6 stewardship = 6 intrigue = 6 learning = 6
+	add_trait = misguided_warrior add_trait = scholar add_trait = lustful add_trait = diligent add_trait = arbitrary add_trait = trained_warrior 
+	father = 40600	#Ilbert
+	1880.12.11={ birth=yes }
+	1929.10.25={ death=yes }
+}
+40604={
+	name = Rollo
+	dynasty = 29016
+	dna = "olhfpjjdaih"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 4 stewardship = 8 intrigue = 7 learning = 4
+	add_trait = elusive_shadow add_trait = impaler add_trait = arbitrary add_trait = envious add_trait = lustful add_trait = poor_warrior 
+	father = 40600	#Ilbert
+	1882.9.14={ birth=yes }
+	1940.2.9={ death=yes }
+}
+40605={
+	name = Flandina
+	female = yes
+	dynasty = 29016
+	dna = "fjmmljcdbbh"
+	culture = nortagnese religion = grail
+	father = 40601	#Philip
+	1897.9.10={ birth=yes }
+	1951.11.23={ death=yes }
+}
+40606={
+	name = Amburga
+	female = yes
+	dynasty = 29016
+	dna = "pohkljcdmnh"
+	culture = nortagnese religion = grail
+	father = 40601	#Philip
+	1901.8.15={ birth=yes }
+	1954.10.2={ death=yes }
+}
+40607={
+	name = Husewyf
+	female = yes
+	dynasty = 29016
+	dna = "fikblmcdgnh"
+	culture = nortagnese religion = grail
+	father = 40601	#Philip
+	1903.5.26={ birth=yes }
+	1966.11.14={ death=yes }
+}
+40608={
+	name = Abelard
+	dynasty = 29016
+	dna = "fjcfjjhpenp"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 7 stewardship = 6 intrigue = 5 learning = 6
+	add_trait = martial_cleric add_trait = deceitful add_trait = brave add_trait = humble add_trait = possessed 
+	father = 40601	#Philip
+	1905.10.10={ birth=yes }
+	1956.8.28={ death=yes }
+}
+40609={
+	name = Adam
+	dynasty = 29016
+	dna = "edafclipjbp"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 5 stewardship = 8 intrigue = 6 learning = 4
+	add_trait = martial_cleric add_trait = zealous add_trait = lustful add_trait = shy add_trait = trained_warrior 
+	father = 40608	#Abelard
+	1930.5.5={ birth=yes }
+	1983.9.3={ death=yes }
+}
+40610={
+	name = Sibyl
+	female = yes
+	dynasty = 29016
+	dna = "fdcffjhpelp"
+	culture = nortagnese religion = grail
+	father = 40608	#Abelard
+	1933.10.24={ birth=yes }
+	1974.11.20={ death=yes }
+}
+40611={
+	name = Sewell
+	dynasty = 29016
+	dna = "locfijhdjop"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 7 stewardship = 5 intrigue = 7 learning = 7
+	add_trait = scholarly_theologian add_trait = honest add_trait = shy add_trait = cynical add_trait = slothful add_trait = trained_warrior 
+	father = 40608	#Abelard
+	1935.1.9={ birth=yes }
+	1992.5.13={ death=yes }
+}
+40612={
+	name = Farrimond
+	dynasty = 29016
+	dna = "kjlijjhlenp"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 5 stewardship = 5 intrigue = 8 learning = 5
+	add_trait = detached_priest add_trait = charitable add_trait = paranoid add_trait = poor_warrior 
+	father = 40608	#Abelard
+	1939.6.21={ birth=yes }
+	1993.2.17={ death=yes }
+}
+40613={
+	name = Aubreda
+	female = yes
+	dynasty = 29016
+	dna = "jbffjfhpenp"
+	culture = nortagnese religion = grail
+	father = 40608	#Abelard
+	1942.12.18={ birth=yes }
+	1995.10.22={ death=yes }
+}
+40614={
+	name = Ricard
+	dynasty = 29016
+	dna = "ijcffjjkeff"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 4 stewardship = 5 intrigue = 5 learning = 7
+	add_trait = mastermind_theologian add_trait = duelist add_trait = honest add_trait = paranoid add_trait = temperate add_trait = cruel add_trait = proud add_trait = envious add_trait = wounded add_trait = skilled_warrior 
+	father = 40608	#Abelard
+	1944.11.12={ birth=yes }
+	1993.2.8={ death=yes }
+}
+40615={
+	name = Jourdain
+	dynasty = 29016
+	dna = "idakclapolp"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 7 stewardship = 7 intrigue = 5 learning = 8
+	add_trait = tough_soldier add_trait = charitable add_trait = gluttonous add_trait = kind add_trait = proud add_trait = honest add_trait = drunkard add_trait = poor_warrior 
+	father = 40609	#Adam
+	1952.11.27={ birth=yes }
+	2005.11.18={ death=yes }
+}
+40616={
+	name = Muriella
+	female = yes
+	dynasty = 29016
+	dna = "ehaailihmng"
+	culture = nortagnese religion = grail
+	father = 40609	#Adam
+	1956.2.15={ birth=yes }
+	2020.1.11={ death=yes }
+}
+40617={
+	name = Roussel
+	dynasty = 29016
+	dna = "edaikoofjbd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 5 stewardship = 8 intrigue = 6 learning = 8
+	add_trait = grey_eminence add_trait = brave add_trait = shy add_trait = cruel add_trait = envious add_trait = temperate add_trait = trained_warrior 
+	father = 40609	#Adam
+	1959.2.10={ birth=yes }
+	2025.5.23={ death=yes }
+}
+40618={
+	name = Jourdain
+	dynasty = 29016
+	dna = "ipaoccipdgp"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 8 stewardship = 5 intrigue = 6 learning = 7
+	add_trait = martial_cleric add_trait = zealous add_trait = patient add_trait = proud add_trait = envious add_trait = chaste add_trait = content add_trait = wounded add_trait = poor_warrior 
+	father = 40615	#Jourdain
+	1978.4.15={ birth=yes }
+	2040.3.18={ death=yes }
+}
+40619={
+	name = Auicia
+	female = yes
+	dynasty = 29016
+	dna = "lkaoclakohd"
+	culture = nortagnese religion = grail
+	father = 40615	#Jourdain
+	1983.8.2={ birth=yes }
+	2046.10.9={ death=yes }
+}
+40620={
+	name = Lesceline
+	female = yes
+	dynasty = 29016
+	dna = "fcadibapnob"
+	culture = nortagnese religion = grail
+	father = 40615	#Jourdain
+	1985.8.18={ birth=yes }
+	2037.11.24={ death=yes }
+}
+40621={
+	name = Auicia
+	female = yes
+	dynasty = 29016
+	dna = "igacacifdcf"
+	culture = nortagnese religion = grail
+	father = 40618	#Jourdain
+	2000.10.18={ birth=yes }
+	2055.1.20={ death=yes }
+}
+40622={
+	name = Eve
+	female = yes
+	dynasty = 29016
+	dna = "ikgfjcjpfgp"
+	culture = nortagnese religion = grail
+	father = 40618	#Jourdain
+	2004.10.8={ birth=yes }
+	2067.4.5={ death=yes }
+}
+40623={
+	name = Seloua
+	female = yes
+	dynasty = 29016
+	dna = "iogoeniphli"
+	culture = nortagnese religion = grail
+	father = 40618	#Jourdain
+	2006.5.11={ birth=yes }
+	2070.10.21={ death=yes }
+}
+40624={
+	name = Frery
+	dynasty = 29016
+	dna = "iilimccpcgp"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 6 stewardship = 8 intrigue = 7 learning = 8
+	add_trait = misguided_warrior add_trait = slothful add_trait = trusting add_trait = just add_trait = patient add_trait = drunkard add_trait = poor_warrior 
+	father = 40618	#Jourdain
+	2011.10.6={ birth=yes }
+	2071.4.5={ death=yes }
+}
+##  40600		29016		c_mirke
+
+##  40400		29013		c_sanz
+40400={
+	name = Thim
+	dynasty = 29013
+	dna = "hnjgfjbghnj"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 6 stewardship = 8 intrigue = 5 learning = 8
+	add_trait = martial_cleric add_trait = craven add_trait = humble 
+	1849.8.25={ birth=yes }
+	1911.11.25={ death=yes }
+}
+40401={
+	name = Elyenora
+	female = yes
+	dynasty = 29013
+	dna = "aljbfabgdej"
+	culture = nortagnese religion = grail
+	father = 40400	#Thim
+	1873.8.14={ birth=yes }
+	1941.10.27={ death=yes }
+}
+40402={
+	name = Hernays
+	dynasty = 29013
+	dna = "ebkgjeelhpf"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 4 stewardship = 8 intrigue = 7 learning = 6
+	add_trait = midas_touched add_trait = hunter add_trait = envious add_trait = charitable add_trait = paranoid add_trait = stressed 
+	father = 40400	#Thim
+	1876.11.24={ birth=yes }
+	1928.8.6={ death=yes }
+}
+40403={
+	name = Frumentin
+	dynasty = 29013
+	dna = "homidjlghnn"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 6 stewardship = 7 intrigue = 8 learning = 7
+	add_trait = charismatic_negotiator add_trait = hunter add_trait = chaste add_trait = trusting add_trait = temperate add_trait = greedy add_trait = diligent add_trait = honest add_trait = skilled_warrior 
+	father = 40400	#Thim
+	1878.1.3={ birth=yes }
+	1942.7.1={ death=yes }
+}
+40404={
+	name = Turquetil
+	dynasty = 29013
+	dna = "hejgfibjhjj"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 5 intrigue = 8 learning = 8
+	add_trait = flamboyant_schemer add_trait = arbitrary add_trait = honest add_trait = content add_trait = patient add_trait = possessed add_trait = poor_warrior 
+	father = 40400	#Thim
+	1881.8.24={ birth=yes }
+	1940.12.23={ death=yes }
+}
+40405={
+	name = Rolland
+	dynasty = 29013
+	dna = "ebkhjcpljef"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 7 intrigue = 8 learning = 8
+	add_trait = midas_touched add_trait = gardener add_trait = honest add_trait = gluttonous add_trait = humble add_trait = trained_warrior 
+	father = 40402	#Hernays
+	1900.4.24={ birth=yes }
+	1954.6.28={ death=yes }
+}
+40406={
+	name = Husewyf
+	female = yes
+	dynasty = 29013
+	dna = "egeeheelnpe"
+	culture = nortagnese religion = grail
+	father = 40402	#Hernays
+	1904.5.1={ birth=yes }
+	1984.11.28={ death=yes }
+}
+40407={
+	name = Alys
+	female = yes
+	dynasty = 29013
+	dna = "enkgilhfjpf"
+	culture = nortagnese religion = grail
+	father = 40402	#Hernays
+	1906.11.22={ birth=yes }
+	1971.4.1={ death=yes }
+}
+40408={
+	name = Hammond
+	dynasty = 29013
+	dna = "bnkagcpnkaf"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 6 intrigue = 4 learning = 4
+	add_trait = charismatic_negotiator add_trait = wroth add_trait = ambitious add_trait = arbitrary add_trait = cynical add_trait = trained_warrior 
+	father = 40405	#Rolland
+	1923.1.18={ birth=yes }
+	1966.3.1={ death=yes }
+}
+40409={
+	name = Reynfrey
+	dynasty = 29013
+	dna = "fgkjgcgljef"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 4 stewardship = 5 intrigue = 5 learning = 6
+	add_trait = midas_touched add_trait = cruel add_trait = cynical add_trait = deceitful add_trait = slow add_trait = skilled_warrior 
+	father = 40405	#Rolland
+	1926.1.17={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	1989.8.16={ death=yes }
+}
+40410={
+	name = Hermessent
+	female = yes
+	dynasty = 29013
+	dna = "nbkhimflbpn"
+	culture = nortagnese religion = grail
+	father = 40405	#Rolland
+	1930.9.20={ birth=yes }
+	2000.2.7={ death=yes }
+}
+40411={
+	name = Auicia
+	female = yes
+	dynasty = 29013
+	dna = "lbehfcpdjmf"
+	culture = nortagnese religion = grail
+	father = 40405	#Rolland
+	1933.8.23={ birth=yes }
+	1995.11.26={ death=yes }
+}
+40412={
+	name = Hamlyn
+	dynasty = 29013
+	dna = "ekbepcplfni"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 5 stewardship = 4 intrigue = 4 learning = 4
+	add_trait = naive_appeaser add_trait = just add_trait = proud add_trait = harelip add_trait = poor_warrior 
+	father = 40405	#Rolland
+	1934.9.5={ birth=yes }
+	1998.3.25={ death=yes }
+}
+40413={
+	name = Mylisant
+	female = yes
+	dynasty = 29013
+	dna = "pdkaploojah"
+	culture = nortagnese religion = grail
+	father = 40408	#Hammond
+	1947.2.9={ birth=yes }
+	1990.6.9={ death=yes }
+}
+40414={
+	name = Gisella
+	female = yes
+	dynasty = 29013
+	dna = "bndihcpnhaj"
+	culture = nortagnese religion = grail
+	father = 40408	#Hammond
+	1950.6.25={ birth=yes }
+	1996.12.29={ death=yes }
+}
+40415={
+	name = Asceline
+	female = yes
+	dynasty = 29013
+	dna = "gnkkokkamal"
+	culture = nortagnese religion = grail
+	father = 40408	#Hammond
+	1952.3.6={ birth=yes }
+	2030.6.13={ death=yes }
+}
+40416={
+	name = Ansell
+	dynasty = 29013
+	dna = "anibmhplkpa"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 8 intrigue = 4 learning = 7
+	add_trait = misguided_warrior add_trait = craven add_trait = gluttonous add_trait = diligent add_trait = master_warrior 
+	father = 40408	#Hammond
+	1954.9.13={ birth=yes }
+	2016.8.12={ death=yes }
+}
+40417={
+	name = Rykeld
+	female = yes
+	dynasty = 29013
+	dna = "nniiilalkpa"
+	culture = nortagnese religion = grail
+	father = 40416	#Ansell
+	1977.3.22={ birth=yes }
+	2042.3.11={ death=yes }
+}
+40418={
+	name = Richenda
+	female = yes
+	dynasty = 29013
+	dna = "ineimhglmpa"
+	culture = nortagnese religion = grail
+	father = 40416	#Ansell
+	1981.1.1={ birth=yes }
+	2033.1.7={ death=yes }
+}
+40419={
+	name = Tybaut
+	dynasty = 29013
+	dna = "apjpohmmopa"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 8 stewardship = 4 intrigue = 4 learning = 7
+	add_trait = skilled_tactician add_trait = just add_trait = slothful add_trait = ambitious add_trait = trained_warrior 
+	father = 40416	#Ansell
+	1984.2.24={ birth=yes }
+	2064.11.7={ death=yes }
+}
+40420={
+	name = Heudebrand
+	dynasty = 29013
+	dna = "nfjpobmaapa"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 4 stewardship = 6 intrigue = 6 learning = 4
+	add_trait = thrifty_clerk add_trait = gluttonous add_trait = diligent add_trait = gregarious add_trait = trained_warrior 
+	father = 40419	#Tybaut
+	2007.7.10={ birth=yes }
+	2049.9.15={ death=yes }
+}
+40421={
+	name = Euvrouin
+	dynasty = 29013
+	dna = "cpjaefmjope"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 7 stewardship = 7 intrigue = 8 learning = 8
+	add_trait = intricate_webweaver add_trait = poet add_trait = diligent add_trait = gluttonous add_trait = just add_trait = humble add_trait = honest 
+	father = 40419	#Tybaut
+	2008.10.7={ birth=yes }
+	2062.8.14={ death=yes }
+}
+40422={
+	name = Evrart
+	dynasty = 29013
+	dna = "ppjldlbbcpp"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 4 stewardship = 5 intrigue = 4 learning = 8
+	add_trait = flamboyant_schemer add_trait = patient add_trait = content add_trait = chaste add_trait = trained_warrior 
+	father = 40419	#Tybaut
+	2010.3.23={ birth=yes }
+	2063.12.5={ death=yes }
+}
+40423={
+	name = Thierry
+	dynasty = 29013
+	dna = "aojpnfmmopi"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 4 stewardship = 5 intrigue = 8 learning = 7
+	add_trait = intricate_webweaver add_trait = shy add_trait = just add_trait = paranoid add_trait = craven 
+	father = 40419	#Tybaut
+	2014.11.9={ birth=yes }
+	2075.6.20={ death=yes }
+}
+##  40400		29013		c_sanz
+
+##  40200		29020		d_quierzy
+40200={
+	name = Goscelin
+	dynasty = 29020
+	dna = "kajcmpaehed"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 8 stewardship = 5 intrigue = 7 learning = 7
+	add_trait = thrifty_clerk add_trait = patient add_trait = envious add_trait = paranoid add_trait = ambitious add_trait = skilled_warrior 
+	1850.4.13={ birth=yes }
+	1904.7.27={ death=yes }
+}
+40201={
+	name = Rocca
+	female = yes
+	dynasty = 29020
+	dna = "nmncmhleheb"
+	culture = nortagnese religion = grail
+	father = 40200	#Goscelin
+	1871.9.4={ birth=yes }
+	1937.2.2={ death=yes }
+}
+40202={
+	name = Wevia
+	female = yes
+	dynasty = 29020
+	dna = "dajjmpaehpg"
+	culture = nortagnese religion = grail
+	father = 40200	#Goscelin
+	1875.7.19={ birth=yes }
+	1944.3.16={ death=yes }
+}
+40203={
+	name = Lovell
+	dynasty = 29020
+	dna = "kafmcciehed"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 8 stewardship = 4 intrigue = 4 learning = 5
+	add_trait = martial_cleric add_trait = cruel add_trait = content add_trait = envious add_trait = poor_warrior 
+	father = 40200	#Goscelin
+	1879.4.18={ birth=yes }
+	1933.8.6={ death=yes }
+}
+40204={
+	name = Adaleide
+	female = yes
+	dynasty = 29020
+	dna = "jafmcniajhl"
+	culture = nortagnese religion = grail
+	father = 40203	#Lovell
+	1905.1.24={ birth=yes }
+	1967.7.1={ death=yes }
+}
+40205={
+	name = Turstin
+	dynasty = 29020
+	dna = "kbhgcchehld"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 7 stewardship = 5 intrigue = 5 learning = 6
+	add_trait = scholarly_theologian add_trait = humble add_trait = cynical add_trait = temperate add_trait = ambitious add_trait = trained_warrior 
+	father = 40203	#Lovell
+	1908.10.14={ birth=yes }
+	1965.1.20={ death=yes }
+}
+40206={
+	name = Herlwin
+	dynasty = 29020
+	dna = "mafmcchjpne"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 6 intrigue = 4 learning = 6
+	add_trait = charismatic_negotiator add_trait = brave add_trait = chaste add_trait = greedy add_trait = cruel add_trait = paranoid add_trait = zealous add_trait = skilled_warrior 
+	father = 40203	#Lovell
+	1910.11.11={ birth=yes }
+	1941.3.6={ death=yes }
+}
+40207={
+	name = Berengière
+	female = yes
+	dynasty = 29020
+	dna = "gbhjcchckll"
+	culture = nortagnese religion = grail
+	father = 40205	#Turstin
+	1932.4.5={ birth=yes }
+	1977.3.16={ death=yes }
+}
+40208={
+	name = Gundred
+	female = yes
+	dynasty = 29020
+	dna = "nnhcflhelld"
+	culture = nortagnese religion = grail
+	father = 40205	#Turstin
+	1934.8.12={ birth=yes }
+	1980.2.28={ death=yes }
+}
+40209={
+	name = Oswulf
+	dynasty = 29020
+	dna = "hbhjcohnahm"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 5 stewardship = 4 intrigue = 4 learning = 6
+	add_trait = detached_priest add_trait = cruel add_trait = paranoid add_trait = arbitrary add_trait = gregarious add_trait = kind add_trait = temperate 
+	father = 40205	#Turstin
+	1938.7.4={ birth=yes }
+	2005.3.31={ death=yes }
+}
+40210={
+	name = Robard
+	dynasty = 29020
+	dna = "jllgccnemld"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 7 stewardship = 8 intrigue = 4 learning = 5
+	add_trait = elusive_shadow add_trait = cruel add_trait = trusting add_trait = humble add_trait = ambitious add_trait = depressed add_trait = trained_warrior 
+	father = 40205	#Turstin
+	1943.3.7={ birth=yes }
+	1989.8.12={ death=yes }
+}
+40211={
+	name = Sylvester
+	dynasty = 29020
+	dna = "kbbgccdeiel"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 5 stewardship = 6 intrigue = 7 learning = 5
+	add_trait = misguided_warrior add_trait = proud add_trait = wroth add_trait = greedy add_trait = content add_trait = diligent add_trait = trained_warrior 
+	father = 40205	#Turstin
+	1945.6.15={ birth=yes }
+	1994.6.27={ death=yes }
+}
+40212={
+	name = Cecilia
+	female = yes
+	dynasty = 29020
+	dna = "kjhgkahebcb"
+	culture = nortagnese religion = grail
+	father = 40205	#Turstin
+	1949.8.19={ birth=yes }
+	2004.7.10={ death=yes }
+}
+40213={
+	name = Geua
+	female = yes
+	dynasty = 29020
+	dna = "oehdfchjkmd"
+	culture = nortagnese religion = grail
+	father = 40205	#Turstin
+	1951.12.11={ birth=yes }
+	2006.2.10={ death=yes }
+}
+40214={
+	name = Claremonde
+	female = yes
+	dynasty = 29020
+	dna = "feojmomjacm"
+	culture = nortagnese religion = grail
+	father = 40209	#Oswulf
+	1963.12.9={ birth=yes }
+	2008.9.5={ death=yes }
+}
+40215={
+	name = Alys
+	female = yes
+	dynasty = 29020
+	dna = "hmojhjenhhm"
+	culture = nortagnese religion = grail
+	father = 40209	#Oswulf
+	1966.10.7={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	2032.10.25={ death=yes }
+}
+40216={
+	name = Hamlyn
+	dynasty = 29020
+	dna = "hphecopdigm"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 8 stewardship = 6 intrigue = 7 learning = 5
+	add_trait = charismatic_negotiator add_trait = scholar add_trait = trusting add_trait = chaste add_trait = gregarious add_trait = cruel add_trait = drunkard 
+	father = 40209	#Oswulf
+	1968.4.12={ birth=yes }
+	2011.2.19={ death=yes }
+}
+40217={
+	name = Valdrade
+	female = yes
+	dynasty = 29020
+	dna = "hbhncohbahe"
+	culture = nortagnese religion = grail
+	father = 40209	#Oswulf
+	1971.1.22={ birth=yes }
+	2049.1.12={ death=yes }
+}
+40218={
+	name = Beatrice
+	female = yes
+	dynasty = 29020
+	dna = "aphebapfigf"
+	culture = nortagnese religion = grail
+	father = 40216	#Hamlyn
+	1989.7.4={ birth=yes }
+	2031.5.3={ death=yes }
+}
+40219={
+	name = Jean
+	dynasty = 29020
+	dna = "mphfgjidiec"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 8 stewardship = 8 intrigue = 7 learning = 8
+	add_trait = skilled_tactician add_trait = mystic add_trait = cynical add_trait = kind add_trait = honest add_trait = wroth add_trait = brave add_trait = humble add_trait = poor_warrior 
+	father = 40216	#Hamlyn
+	1991.1.3={ birth=yes }
+	2034.11.24={ death=yes }
+}
+40220={
+	name = Aubinia
+	female = yes
+	dynasty = 29020
+	dna = "hchpcomdigb"
+	culture = nortagnese religion = grail
+	father = 40216	#Hamlyn
+	1996.6.20={ birth=yes }
+	2043.10.9={ death=yes }
+}
+40221={
+	name = Adela
+	female = yes
+	dynasty = 29020
+	dna = "ekhagbpdiic"
+	culture = nortagnese religion = grail
+	father = 40219	#Jean
+	2012.11.20={ birth=yes }
+	2072.2.13={ death=yes }
+}
+40222={
+	name = Aristolf
+	dynasty = 29020
+	dna = "mpgfgjioikc"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 7 stewardship = 8 intrigue = 5 learning = 4
+	add_trait = midas_touched add_trait = zealous add_trait = gregarious add_trait = poor_warrior 
+	father = 40219	#Jean
+	2014.5.13={ birth=yes }
+	2074.6.17={ death=yes }
+}
+40223={
+	name = Geoffroi
+	dynasty = 29020
+	dna = "mppfgepcimc"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 5 stewardship = 6 intrigue = 7 learning = 8
+	add_trait = detached_priest add_trait = kind add_trait = diligent add_trait = stressed add_trait = master_warrior 
+	father = 40219	#Jean
+	2018.11.16={ birth=yes }
+	2086.12.6={ death=yes }
+}
+40224={
+	name = Heria
+	female = yes
+	dynasty = 29020
+	dna = "nnhigjfdaec"
+	culture = nortagnese religion = grail
+	father = 40219	#Jean
+	2021.2.2={ birth=yes }
+	2066.3.10={ death=yes }
+}
+##  40200		29020		d_quierzy
+
+##  40000		29011		d_normagne	
+40000={
+	name = Piers
+	dynasty = 29011
+	dna = "fpfnfambifj"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 4 stewardship = 6 intrigue = 8 learning = 8
+	add_trait = martial_cleric add_trait = cruel add_trait = paranoid add_trait = ugly 
+	1849.1.11={ birth=yes }
+	1899.10.4={ death=yes }
+}
+40001={
+	name = Giraud
+	dynasty = 29011
+	dna = "fpknfimbicn"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 6 stewardship = 5 intrigue = 8 learning = 7
+	add_trait = intricate_webweaver add_trait = greedy add_trait = paranoid add_trait = diligent add_trait = cruel add_trait = honest add_trait = proud 
+	father = 40000	#Piers
+	1874.11.17={ birth=yes }
+	1922.4.29={ death=yes }
+}
+40002={
+	name = Griseldis
+	female = yes
+	dynasty = 29011
+	dna = "fppnfmmbcfj"
+	culture = nortagnese religion = grail
+	father = 40000	#Piers
+	1876.8.24={ birth=yes }
+	1912.5.2={ death=yes }
+}
+40003={
+	name = Fraunk
+	dynasty = 29011
+	dna = "fpfnfncbfkj"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 8 stewardship = 7 intrigue = 6 learning = 8
+	add_trait = martial_cleric add_trait = charitable add_trait = zealous add_trait = trained_warrior 
+	father = 40000	#Piers
+	1880.3.18={ birth=yes }
+	1910.8.18={ death=yes }
+}
+40004={
+	name = Bertran
+	dynasty = 29011
+	dna = "fbgnaammadd"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 5 stewardship = 6 intrigue = 8 learning = 8
+	add_trait = misguided_warrior add_trait = cruel add_trait = brave add_trait = envious add_trait = diligent 
+	father = 40000	#Piers
+	1885.3.1={ birth=yes }
+	1941.10.13={ death=yes }
+}
+40005={
+	name = Eria
+	female = yes
+	dynasty = 29011
+	dna = "hncdfedkicn"
+	culture = nortagnese religion = grail
+	father = 40001	#Giraud
+	1897.6.2={ birth=yes }
+	1945.10.13={ death=yes }
+}
+40006={
+	name = Basuin
+	dynasty = 29011
+	dna = "fpkgmbanbce"
+	culture = nortagnese religion = grail
+	martial = 5 diplomacy = 4 stewardship = 7 intrigue = 6 learning = 8
+	add_trait = elusive_shadow add_trait = proud add_trait = craven add_trait = poor_warrior 
+	father = 40001	#Giraud
+	1902.3.3={ birth=yes }
+	1957.5.31={ death=yes }
+}
+40007={
+	name = Turstin
+	dynasty = 29011
+	dna = "jmekphmbigm"
+	culture = nortagnese religion = grail
+	martial = 7 diplomacy = 4 stewardship = 6 intrigue = 5 learning = 6
+	add_trait = grey_eminence add_trait = honest add_trait = humble add_trait = gluttonous add_trait = envious add_trait = cruel add_trait = cynical add_trait = clubfooted add_trait = poor_warrior 
+	father = 40001	#Giraud
+	1904.12.1={ birth=yes }
+	1963.11.17={ death=yes }
+}
+40008={
+	name = Alysone
+	female = yes
+	dynasty = 29011
+	dna = "fegambdjbdd"
+	culture = nortagnese religion = grail
+	father = 40006	#Basuin
+	1925.3.11={ birth=yes }
+	1983.9.18={ death=yes }
+}
+40009={
+	name = Ema
+	female = yes
+	dynasty = 29011
+	dna = "hgkbhbpabjh"
+	culture = nortagnese religion = grail
+	father = 40006	#Basuin
+	1926.9.12={ birth=yes }
+	1970.4.2={ death=yes }
+}
+40010={
+	name = Oriolda
+	female = yes
+	dynasty = 29011
+	dna = "fmbgjngcbee"
+	culture = nortagnese religion = grail
+	father = 40006	#Basuin
+	1930.3.1={ birth=yes }
+	2003.11.30={ death=yes }
+}
+40011={
+	name = Heymon
+	dynasty = 29011
+	dna = "fpkdpbanbcf"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 4 stewardship = 4 intrigue = 5 learning = 8
+	add_trait = charismatic_negotiator add_trait = honest add_trait = chaste add_trait = poor_warrior 
+	father = 40006	#Basuin
+	1933.1.19={ birth=yes }
+	1984.4.19={ death=yes }
+}
+40012={
+	name = Ida
+	female = yes
+	dynasty = 29011
+	dna = "fpodpbjehck"
+	culture = nortagnese religion = grail
+	father = 40011	#Heymon
+	1954.2.10={ birth=yes }
+	1998.12.24={ death=yes }
+}
+40013={
+	name = Gisella
+	female = yes
+	dynasty = 29011
+	dna = "fpkppnanenf"
+	culture = nortagnese religion = grail
+	father = 40011	#Heymon
+	1956.4.3={ birth=yes }
+	1989.10.25={ death=yes }
+}
+40014={
+	name = Mabel
+	female = yes
+	dynasty = 29011
+	dna = "fmkdegajkaf"
+	culture = nortagnese religion = grail
+	father = 40011	#Heymon
+	1958.12.24={ birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		 }
+	2020.12.19={ death=yes }
+}
+40015={
+	name = Edward
+	dynasty = 29011
+	dna = "flfdpagjbdd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 7 stewardship = 6 intrigue = 4 learning = 6
+	add_trait = charismatic_negotiator add_trait = slothful add_trait = content add_trait = lustful add_trait = cruel add_trait = trained_warrior 
+	father = 40011	#Heymon
+	1961.9.26={ birth=yes }
+	2026.2.12={ death=yes }
+}
+40016={
+	name = Metylda
+	female = yes
+	dynasty = 29011
+	dna = "icokeggekhd"
+	culture = nortagnese religion = grail
+	father = 40015	#Edward
+	1986.11.21={ birth=yes }
+	2040.12.14={ death=yes }
+}
+40017={
+	name = Egelina
+	female = yes
+	dynasty = 29011
+	dna = "fkfbpaghkdo"
+	culture = nortagnese religion = grail
+	father = 40015	#Edward
+	1988.10.1={ birth=yes }
+	2039.5.4={ death=yes }
+}
+40018={
+	name = Oggery
+	dynasty = 29011
+	dna = "aafmpkgbebd"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 5 intrigue = 5 learning = 8
+	add_trait = flamboyant_schemer add_trait = greedy add_trait = deceitful add_trait = content add_trait = diligent add_trait = kind add_trait = paranoid add_trait = skilled_warrior 
+	father = 40015	#Edward
+	1990.8.9={ birth=yes }
+	2041.11.10={ death=yes }
+}
+40019={
+	name = Nigel
+	dynasty = 29011
+	dna = "aafjphnbbbd"
+	culture = nortagnese religion = grail
+	martial = 8 diplomacy = 4 stewardship = 6 intrigue = 6 learning = 8
+	add_trait = naive_appeaser add_trait = humble add_trait = zealous add_trait = diligent add_trait = honest add_trait = temperate add_trait = paranoid 
+	father = 40018	#Oggery
+	2013.10.4={ birth=yes }
+	2072.2.6={ death=yes }
+}
+40020={
+	name = Percyvell
+	dynasty = 29011
+	dna = "jafmpkdbbba"
+	culture = nortagnese religion = grail
+	martial = 6 diplomacy = 6 stewardship = 5 intrigue = 5 learning = 5
+	add_trait = detached_priest add_trait = scholar add_trait = proud add_trait = wroth add_trait = paranoid add_trait = temperate add_trait = just add_trait = ambitious add_trait = depressed add_trait = trained_warrior 
+	father = 40018	#Oggery
+	2017.10.21={ birth=yes }
+	2069.5.18={ death=yes }
+}
+40021={
+	name = Lewis
+	dynasty = 29011
+	dna = "apfapanlebd"
+	culture = nortagnese religion = grail
+	martial = 4 diplomacy = 8 stewardship = 7 intrigue = 7 learning = 4
+	add_trait = martial_cleric add_trait = kind add_trait = wroth add_trait = slothful add_trait = cruel add_trait = greedy 
+	father = 40018	#Oggery
+	2019.1.24={ birth=yes }
+	2079.11.2={ death=yes }
+}
+##  40000		29011		d_normagne
+
+#############################################################################
+
+4000024={
+name="Mautild"
+female=yes
+dynasty=29059
+dna="eonnkphmhld"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=6
+stewardship=6
+intrigue=1
+learning=3
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+1983.1.18={birth=yes}
+2049.6.11={death=yes}
+}
+4000033={
+name="Gunnora"
+female=yes
+dynasty=29018
+dna="iocddcfkjcl"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=5
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="cynical"
+add_trait="cruel"
+add_trait="temperate"
+1942.10.25={birth=yes}
+2014.4.8={death=yes}
+}
+4000038={
+name="Egelina"
+female=yes
+dynasty=29019
+dna="ociajbedngp"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=0
+stewardship=4
+intrigue=3
+learning=5
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="charitable"
+1946.5.12={birth=yes}
+2011.5.12={death=yes}
+}
+4000049={
+name="Elia"
+dynasty=29022
+dna="odndfdhegad"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=4
+stewardship=2
+intrigue=8
+learning=1
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="hunter"
+add_trait="temperate"
+add_trait="slothful"
+father=4000118
+mother=4000119
+1965.10.22={birth=yes}
+1982.12.22={add_spouse=4000050}
+2020.10.22={death=yes}
+}
+4000050={
+name="Cundo"
+female=yes
+dynasty=29023
+dna="pjaloibfbki"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="celibate"
+add_trait="paranoid"
+father=4000110
+mother=4000111
+1961.10.20={birth=yes}
+1982.12.22={add_spouse=4000049}
+2013.2.19={death=yes}
+}
+4000051={
+name="Frery"
+dynasty=29022
+dna="pjnlodbfbai"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=0
+stewardship=1
+intrigue=4
+learning=1
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="ambitious"
+add_trait="cruel"
+add_trait="diligent"
+add_trait="depressed"
+father=4000049
+mother=4000050
+1989.6.17={birth=yes}
+2009.1.2={add_spouse=4000052}
+2057.8.10={death=yes}
+}
+4000052={
+name="Alienora"
+female=yes
+dynasty=29024
+dna="eeoigeldjmd"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=7
+stewardship=3
+intrigue=6
+learning=3
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="hunter"
+add_trait="just"
+1991.3.6={birth=yes}
+2009.1.2={add_spouse=4000051}
+2063.6.23={death=yes}
+}
+4000053={
+name="Hugolinae"
+female=yes
+dynasty=29022
+dna="eeniodbdbmd"
+culture=nortagnese
+religion=grail
+martial=8
+diplomacy=8
+stewardship=3
+intrigue=2
+learning=5
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="poet"
+add_trait="trusting"
+add_trait="craven"
+add_trait="kind"
+add_trait="greedy"
+father=4000051
+mother=4000052
+2013.8.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2072.2.24={death=yes}
+}
+4000054={
+name="Wilmot"
+female=yes
+dynasty=29022
+dna="eeolgeldbnd"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=1
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="celibate"
+add_trait="trusting"
+add_trait="envious"
+add_trait="honest"
+father=4000051
+mother=4000052
+2010.10.21={birth=yes}
+2072.9.1={death=yes}
+}
+4000055={
+name="Sagard"
+dynasty=29022
+dna="apojodldjai"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="ambitious"
+father=4000051
+mother=4000052
+2011.3.9={birth=yes}
+2080.7.10={death=yes}
+}
+4000056={
+name="Rolland"
+dynasty=29022
+dna="pjolgeafjmi"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=2
+stewardship=5
+intrigue=5
+learning=3
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="duelist"
+add_trait="just"
+add_trait="humble"
+father=4000051
+mother=4000052
+2009.10.11={birth=yes}
+2078.2.22={death=yes}
+}
+4000057={
+name="Galienne"
+female=yes
+dynasty=29022
+dna="penjgdldbad"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=4
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="arbitrary"
+add_trait="depressed"
+father=4000051
+mother=4000052
+2012.10.25={birth=yes}
+2062.7.30={death=yes}
+}
+4000058={
+name="Mautild"
+female=yes
+dynasty=29022
+dna="pjaldiheoki"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=3
+stewardship=4
+intrigue=7
+learning=1
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="chaste"
+add_trait="charitable"
+father=4000049
+mother=4000050
+1987.10.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2007.11.3={add_spouse=4000059}
+2062.10.12={death=yes}
+}
+4000059={
+name="Ermyntrude"
+dynasty=29025
+dna="hehcepmabcj"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=6
+stewardship=2
+intrigue=4
+learning=1
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="charitable"
+add_trait="stressed"
+1990.4.15={birth=yes}
+2007.11.3={add_spouse=4000058}
+2047.10.4={death=yes}
+}
+4000060={
+name="Umfreda"
+female=yes
+dynasty=29025
+dna="oeacephabki"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=7
+stewardship=6
+intrigue=2
+learning=4
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="cruel"
+add_trait="gregarious"
+add_trait="proud"
+father=4000059
+mother=4000058
+2009.2.17={birth=yes}
+2075.11.27={death=yes}
+}
+4000061={
+name="Matheode"
+female=yes
+dynasty=29025
+dna="hjhceiheokj"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=3
+stewardship=3
+intrigue=2
+learning=3
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="temperate"
+add_trait="slothful"
+add_trait="deceitful"
+father=4000059
+mother=4000058
+2010.3.4={birth=yes}
+2058.5.27={death=yes}
+}
+4000062={
+name="Honfroi"
+dynasty=29025
+dna="ejlcdpmobci"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=8
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="wroth"
+father=4000059
+mother=4000058
+2015.1.16={birth=yes}
+2067.3.16={death=yes}
+}
+4000063={
+name="Lithuaise"
+female=yes
+dynasty=29025
+dna="hehcepmebci"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=2
+stewardship=5
+intrigue=0
+learning=4
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="kind"
+father=4000059
+mother=4000058
+2013.4.12={birth=yes}
+2060.7.18={death=yes}
+}
+4000064={
+name="Jean"
+dynasty=29025
+dna="pjacekmeoko"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=5
+stewardship=4
+intrigue=1
+learning=5
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="greedy"
+add_trait="diligent"
+father=4000059
+mother=4000058
+2012.10.5={birth=yes}
+2071.6.21={death=yes}
+}
+4000065={
+name="Elysant"
+female=yes
+dynasty=29022
+dna="pdndfdhegkd"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=5
+stewardship=6
+intrigue=8
+learning=2
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="mystic"
+add_trait="cruel"
+add_trait="slothful"
+add_trait="honest"
+father=4000049
+mother=4000050
+1992.1.9={birth=yes}
+2056.9.5={death=yes}
+}
+4000066={
+name="Lovell"
+dynasty=29022
+dna="odnlodhfbad"
+culture=nortagnese
+religion=grail
+martial=0
+diplomacy=2
+stewardship=0
+intrigue=1
+learning=1
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="temperate"
+add_trait="zealous"
+add_trait="arbitrary"
+add_trait="humble"
+add_trait="stressed"
+father=4000049
+mother=4000050
+1995.8.1={birth=yes}
+2009.8.10={death=yes}
+}
+4000067={
+name="Gohilde"
+female=yes
+dynasty=29022
+dna="pjadoibfbkd"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=7
+stewardship=6
+intrigue=4
+learning=5
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="zealous"
+add_trait="slothful"
+add_trait="paranoid"
+father=4000049
+mother=4000050
+1987.4.13={birth=yes}
+2008.7.31={add_spouse=4000068}
+2058.6.26={death=yes}
+}
+4000068={
+name="Oswyn"
+dynasty=29026
+dna="kmahhkphhog"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=5
+stewardship=6
+intrigue=5
+learning=2
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="cruel"
+add_trait="humble"
+1991.8.4={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2008.7.31={add_spouse=4000067}
+2049.4.11={death=yes}
+}
+4000069={
+name="Sylvester"
+dynasty=29026
+dna="pmpdoipfhod"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=6
+stewardship=4
+intrigue=2
+learning=1
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="brave"
+add_trait="honest"
+add_trait="shy"
+add_trait="temperate"
+father=4000068
+mother=4000067
+2012.11.4={birth=yes}
+2079.1.16={death=yes}
+}
+4000070={
+name="Osmond"
+dynasty=29026
+dna="pjahoibhnog"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=1
+stewardship=3
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="celibate"
+add_trait="charitable"
+add_trait="gluttonous"
+father=4000068
+mother=4000067
+2012.9.22={birth=yes}
+2080.1.23={death=yes}
+}
+4000071={
+name="Flandina"
+female=yes
+dynasty=29026
+dna="kmahhibhhkd"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=2
+stewardship=2
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="greedy"
+add_trait="charitable"
+father=4000068
+mother=4000067
+2011.4.11={birth=yes}
+2087.2.4={death=yes}
+}
+4000072={
+name="Eria"
+female=yes
+dynasty=29026
+dna="kjahhkbhhkg"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=3
+stewardship=2
+intrigue=0
+learning=3
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="greedy"
+add_trait="deceitful"
+father=4000068
+mother=4000067
+2011.5.30={birth=yes}
+2053.1.14={death=yes}
+}
+4000073={
+name="Heymon"
+dynasty=29026
+dna="pmahoiphbkg"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=1
+add_trait="creature_human"
+add_trait="midas_touched"
+add_trait="patient"
+add_trait="humble"
+add_trait="craven"
+father=4000068
+mother=4000067
+2014.2.14={birth=yes}
+2056.12.29={death=yes}
+}
+4000074={
+name="Fressende"
+female=yes
+dynasty=29027
+dna="ekcfjaiboed"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=8
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="zealous"
+add_trait="craven"
+1976.9.2={birth=yes}
+1998.5.2={add_spouse=4000075}
+2031.9.2={death=yes}
+}
+4000075={
+name="Jonathan"
+dynasty=29028
+dna="bodhamhcona"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=5
+stewardship=6
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="impaler"
+add_trait="ambitious"
+add_trait="kind"
+add_trait="diligent"
+add_trait="humble"
+1979.1.9={birth=yes}
+1998.5.2={add_spouse=4000074}
+2027.5.25={death=yes}
+}
+4000076={
+name="Reyner"
+dynasty=29028
+dna="ekkfjahboea"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=4
+stewardship=6
+intrigue=3
+learning=1
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="brave"
+add_trait="ambitious"
+add_trait="paranoid"
+father=4000075
+mother=4000074
+2001.6.22={birth=yes}
+2051.1.4={death=yes}
+}
+4000077={
+name="Busilla"
+female=yes
+dynasty=29028
+dna="bochjmhcond"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=2
+stewardship=7
+intrigue=3
+learning=0
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="greedy"
+add_trait="arbitrary"
+father=4000075
+mother=4000074
+2000.12.21={birth=yes}
+2056.1.25={death=yes}
+}
+4000078={
+name="Auicia"
+female=yes
+dynasty=29028
+dna="ekdfjmhcoed"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=7
+stewardship=1
+intrigue=6
+learning=5
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="shy"
+father=4000075
+mother=4000074
+1999.2.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2069.6.19={death=yes}
+}
+4000079={
+name="Fredesende"
+female=yes
+dynasty=29029
+dna="imkfbopiifo"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=1
+stewardship=2
+intrigue=3
+learning=3
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+1926.12.23={birth=yes}
+1948.3.29={add_spouse=4000080}
+2004.12.23={death=yes}
+}
+4000080={
+name="Herment"
+dynasty=29030
+dna="ocllhjojbag"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=5
+stewardship=1
+intrigue=2
+learning=4
+add_trait="creature_human"
+add_trait="elusive_shadow"
+add_trait="proud"
+1931.2.5={birth=yes}
+1948.3.29={add_spouse=4000079}
+1978.11.25={death=yes}
+}
+4000081={
+name="Giraud"
+dynasty=29030
+dna="ocknhjojbag"
+culture=nortagnese
+religion=grail
+martial=0
+diplomacy=5
+stewardship=4
+intrigue=4
+learning=5
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="wroth"
+add_trait="just"
+add_trait="shy"
+father=4000080
+mother=4000079
+1948.4.8={birth=yes}
+1968.10.27={add_spouse=4000082}
+2007.8.18={death=yes}
+}
+4000082={
+name="Gimarca"
+female=yes
+dynasty=29031
+dna="ediiipkjlaf"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=6
+stewardship=5
+intrigue=6
+learning=2
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="charitable"
+add_trait="deceitful"
+1948.10.13={birth=yes}
+2014.12.12={death=yes}
+}
+4000083={
+name="Herbert"
+dynasty=29030
+dna="odkiijkjlag"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=7
+stewardship=3
+intrigue=2
+learning=7
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="gluttonous"
+father=4000081
+mother=4000082
+1966.12.29={birth=yes}
+1984.5.11={death=yes}
+}
+4000084={
+name="Karles"
+dynasty=29030
+dna="edkiipojlaf"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=1
+stewardship=3
+intrigue=5
+learning=4
+add_trait="creature_human"
+add_trait="skilled_tactician"
+father=4000081
+mother=4000082
+1968.10.24={birth=yes}
+2009.12.15={add_spouse=600098}
+2018.8.29={death=yes}
+}
+4000085={
+name="Engenolf"
+female=yes
+dynasty=29030
+dna="odkoipkjblf"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=0
+stewardship=3
+intrigue=7
+learning=3
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="brave"
+add_trait="kind"
+father=4000081
+mother=4000082
+1967.2.8={birth=yes}
+2030.7.19={death=yes}
+}
+4000086={
+name="Busilla"
+female=yes
+dynasty=29030
+dna="edkihjkjiaf"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=6
+stewardship=4
+intrigue=3
+learning=6
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="lustful"
+add_trait="impaler"
+add_trait="honest"
+father=4000081
+mother=4000082
+1973.12.14={birth=yes}
+1997.2.23={add_spouse=600011}
+2043.2.1={death=yes}
+}
+4000087={
+name="Galienne"
+female=yes
+dynasty=29030
+dna="edkpijkjbag"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=5
+stewardship=3
+intrigue=4
+learning=8
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="celibate"
+add_trait="charitable"
+add_trait="arbitrary"
+father=4000081
+mother=4000082
+1967.10.21={birth=yes}
+2043.4.1={death=yes}
+}
+4000088={
+name="Eudokia"
+female=yes
+dynasty=29030
+dna="imllbjpjbag"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=8
+stewardship=0
+intrigue=5
+learning=4
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="patient"
+add_trait="kind"
+add_trait="paranoid"
+father=4000080
+mother=4000079
+1949.3.23={birth=yes}
+1970.9.17={death=yes}
+}
+4000089={
+name="Thierry"
+dynasty=29030
+dna="ockfhepnbfj"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=5
+stewardship=5
+intrigue=5
+learning=5
+add_trait="creature_human"
+add_trait="naive_appeaser"
+add_trait="mystic"
+add_trait="shy"
+add_trait="kind"
+add_trait="wroth"
+father=4000080
+mother=4000079
+1949.6.22={birth=yes}
+2019.2.16={death=yes}
+}
+4000090={
+name="Guntard"
+dynasty=29030
+dna="icklhpoiifo"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=5
+add_trait="creature_human"
+add_trait="naive_appeaser"
+add_trait="charitable"
+add_trait="patient"
+add_trait="envious"
+add_trait="shy"
+father=4000080
+mother=4000079
+1950.7.27={birth=yes}
+1967.9.16={add_spouse=4000091}
+2015.7.13={death=yes}
+}
+4000091={
+name="Helyssent"
+female=yes
+dynasty=29032
+dna="lbcijjkfjij"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=5
+stewardship=8
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="paranoid"
+add_trait="zealous"
+1951.2.18={birth=yes}
+1967.9.16={add_spouse=4000090}
+2007.2.16={death=yes}
+}
+4000092={
+name="Griseldis"
+female=yes
+dynasty=29030
+dna="abkljpkfcii"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=8
+stewardship=5
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+add_trait="paranoid"
+add_trait="zealous"
+father=4000090
+mother=4000091
+1971.10.13={birth=yes}
+1987.9.27={death=yes}
+}
+4000093={
+name="Oriolda"
+female=yes
+dynasty=29030
+dna="hccijjkfiio"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=5
+stewardship=4
+intrigue=5
+learning=3
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="gardener"
+add_trait="envious"
+add_trait="chaste"
+add_trait="paranoid"
+father=4000090
+mother=4000091
+1972.3.10={birth=yes}
+2020.5.9={death=yes}
+}
+4000094={
+name="Seloua"
+female=yes
+dynasty=29030
+dna="lbkihpoiifo"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=0
+stewardship=5
+intrigue=4
+learning=7
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="cruel"
+father=4000090
+mother=4000091
+1970.8.10={birth=yes}
+2042.8.8={death=yes}
+}
+4000095={
+name="Serlo"
+dynasty=29030
+dna="iccijjofjfo"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=1
+stewardship=6
+intrigue=8
+learning=0
+add_trait="creature_human"
+add_trait="indulgent_wastrel"
+father=4000090
+mother=4000091
+1972.8.29={birth=yes}
+2030.10.24={death=yes}
+}
+4000096={
+name="Mylisant"
+female=yes
+dynasty=29030
+dna="lccihpkiiij"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=4
+learning=8
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="chaste"
+add_trait="trusting"
+father=4000090
+mother=4000091
+1972.2.21={birth=yes}
+2029.2.5={death=yes}
+}
+4000097={
+name="Roussel"
+dynasty=29030
+dna="imkihopjbff"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=4
+stewardship=0
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="midas_touched"
+add_trait="slothful"
+add_trait="diligent"
+add_trait="envious"
+father=4000080
+mother=4000079
+1953.2.5={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2005.2.20={death=yes}
+}
+4000098={
+name="Louis"
+dynasty=29033
+dna="focbanmdadc"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=4
+stewardship=5
+intrigue=3
+learning=4
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="zealous"
+add_trait="envious"
+1924.1.5={birth=yes}
+1963.10.17={give_nickname=nick_the_brave}
+1985.3.12={add_spouse=4000099}
+2007.10.5={death=yes}
+}
+4000099={
+name="Medania"
+female=yes
+dynasty=29034
+dna="hnhilmdmgnb"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=3
+stewardship=0
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="slothful"
+add_trait="cynical"
+1967.3.16={birth=yes}
+2025.2.17={death=yes}
+}
+4000100={
+name="Normand"
+dynasty=29033
+dna="fncbamddgdc"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=6
+stewardship=1
+intrigue=2
+learning=4
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="trusting"
+add_trait="honest"
+add_trait="diligent"
+add_trait="cruel"
+father=4000098
+mother=4000099
+1987.5.13={birth=yes}
+2001.7.23={death=yes}
+}
+4000101={
+name="Louis"
+dynasty=29033
+dna="hncblncmanc"
+culture=nortagnese
+religion=grail
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=6
+learning=6
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="envious"
+add_trait="chaste"
+add_trait="bretonnian_knight"
+father=4000098
+mother=4000099
+1993.4.13={birth=yes}
+2007.10.5={give_nickname=nick_the_young}
+2012.10.27={add_spouse=4000102}
+2077.12.5={death=yes}
+}
+
+4000133={
+name="Luc"
+dynasty=29033
+dna="hncblncmanc"
+culture=nortagnese
+religion=grail
+martial=9
+diplomacy=7
+stewardship=8
+intrigue=6
+learning=6
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="proud"
+add_trait="chaste"
+add_trait="bretonnian_knight"
+father=4000098
+mother=4000099
+1995.4.13={birth=yes}
+2077.12.5={death=yes}
+}
+4000102={
+name="Ema"
+female=yes
+dynasty=29035
+dna="akjmccogbna"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=1
+stewardship=3
+intrigue=3
+learning=1
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="greedy"
+1993.4.20={birth=yes}
+2012.10.27={add_spouse=4000101}
+2037.10.2={death=yes}
+}
+4000103={
+name="Marie"
+female=yes
+dynasty=29033
+dna="lkcmcnogana"
+culture=nortagnese
+religion=grail
+martial=7
+diplomacy=4
+stewardship=6
+intrigue=2
+learning=3
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="zealous"
+father=4000101
+mother=4000102
+2013.5.5={birth=yes}
+2074.11.5={death=yes}
+}
+4000104={
+name="Rocca"
+female=yes
+dynasty=29033
+dna="fncalicmana"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=3
+stewardship=8
+intrigue=3
+learning=6
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="honest"
+add_trait="zealous"
+add_trait="wroth"
+father=4000101
+mother=4000102
+2015.2.15={birth=yes}
+2072.4.6={death=yes}
+}
+4000106={
+name="Agata"
+female=yes
+dynasty=29022
+dna="lphigpmnolf"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=6
+stewardship=2
+intrigue=5
+learning=3
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="duelist"
+add_trait="patient"
+add_trait="shy"
+add_trait="just"
+add_trait="gregarious"
+add_trait="drunkard"
+father=4000118
+mother=4000119
+1958.10.14={birth=yes}
+2005.8.5={death=yes}
+}
+4000108={
+name="Osbern"
+dynasty=29023
+dna="icohdijkhcp"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="hunter"
+add_trait="humble"
+add_trait="chaste"
+father=4000110
+mother=4000111
+1979.9.11={birth=yes}
+1996.11.14={add_spouse=4000107}
+2033.11.11={death=yes}
+}
+4000109={
+name="Roussel"
+dynasty=29023
+dna="ppohdimkhcf"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=2
+stewardship=0
+intrigue=3
+learning=2
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="cruel"
+father=4000108
+mother=4000107
+1999.12.30={birth=yes}
+2052.5.1={death=yes}
+}
+4000110={
+name="Wy"
+dynasty=29023
+dna="hchgdijnhlf"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=8
+stewardship=5
+intrigue=3
+learning=6
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="greedy"
+1937.7.23={birth=yes}
+1960.5.3={add_spouse=4000111}
+2004.11.28={death=yes}
+}
+4000111={
+name="Sibyl"
+female=yes
+dynasty=29009
+dna="iphbpnjkolp"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=4
+intrigue=6
+learning=3
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="cruel"
+add_trait="ambitious"
+1941.10.26={birth=yes}
+2002.8.29={death=yes}
+}
+4000113={
+name="Aubrey"
+female=yes
+dynasty=29024
+dna="phcbkonbnfb"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=2
+stewardship=6
+intrigue=1
+learning=6
+add_trait="creature_human"
+add_trait="thrifty_clerk"
+add_trait="poet"
+add_trait="envious"
+add_trait="slothful"
+add_trait="just"
+1983.11.12={birth=yes}
+2001.2.5={add_spouse=4000112}
+2060.1.12={death=yes}
+}
+4000118={
+name="Rogier"
+dynasty=29022
+dna="ofbdhjfchij"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=7
+stewardship=6
+intrigue=4
+learning=2
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="scholar"
+add_trait="temperate"
+add_trait="chaste"
+add_trait="diligent"
+1933.5.26={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+1953.6.17={add_spouse=4000119}
+1981.5.26={death=yes}
+}
+4000119={
+name="Alysone"
+female=yes
+dynasty=29008
+dna="hgpkhenpmak"
+culture=nortagnese
+religion=grail
+martial=8
+diplomacy=1
+stewardship=4
+intrigue=3
+learning=3
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="celibate"
+add_trait="charitable"
+add_trait="gregarious"
+1934.1.31={birth=yes}
+1984.12.22={death=yes}
+}
+4000120={
+name="Louen" #King Louen Leoncoeur
+dynasty=29000
+dna="ionpoikhcpi"
+culture=nortagnese
+religion=grail
+martial=9
+diplomacy=8
+stewardship=4
+intrigue=5
+learning=4
+add_trait="creature_human"
+add_trait="brilliant_strategist"
+add_trait="temperate"
+add_trait="brave"
+add_trait="just"
+add_trait="strong"
+add_trait="zealous"
+2431.4.12={birth=yes}
+2533.3.2={death=yes}
+}
+4000121={
+name="Guillaume"
+dynasty=29134
+dna="ijhjglpfkji"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=5
+stewardship=4
+intrigue=3
+learning=0
+add_trait="creature_human"
+add_trait="detached_priest"
+add_trait="just"
+add_trait="stressed"
+add_trait="lunatic_2"
+1734.1.1={birth=yes}
+1861.8.19={death=yes}
+}
+4000122={
+name="Joscelyn"
+dynasty=29135
+dna="midanoodjfa"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=5
+learning=2
+add_trait="creature_human"
+father=4000124
+add_trait="thrifty_clerk"
+add_trait="envious"
+add_trait="arbitrary"
+2050.1.1={birth=yes}
+2158.2.20={death=yes}
+}
+4000123={
+name="Philip"
+dynasty=29136
+dna="enfclmhkema"
+culture=nortagnese
+religion=grail
+martial=2
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="misguided_warrior"
+add_trait="charitable"
+add_trait="paranoid"
+1784.1.1={birth=yes}
+1908.11.11={death=yes}
+}
+4000124={
+name="Geoffroy"
+dynasty=29135
+dna="kpjdhmobpja"
+culture=gisoren
+religion=grail
+martial=5
+diplomacy=1
+stewardship=0
+intrigue=3
+learning=7
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="duelist"
+2020.1.1={birth=yes}
+2125.2.12={death=yes}
+}
+4000125={
+name="Gautier"
+dynasty=29136
+dna="ggbpnailcam"
+culture=gisoren
+religion=grail
+martial=5
+diplomacy=1
+stewardship=8
+intrigue=3
+learning=1
+add_trait="creature_human"
+father=4000123
+add_trait="thrifty_clerk"
+add_trait="patient"
+add_trait="diligent"
+add_trait="envious"
+1849.1.1={birth=yes}
+1963.10.17={death=yes}
+}
+4000126={
+name="Euvrouin"
+dynasty=29071
+dna="kchngmgonba"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=5
+stewardship=3
+intrigue=5
+learning=4
+add_trait="creature_human"
+add_trait="charismatic_negotiator"
+add_trait="celibate"
+add_trait="charitable"
+1981.1.1={birth=yes}
+2043.3.6={death=yes}
+}
+4000127={
+name="Honfroi"
+dynasty=29065
+dna="iacncimkgjk"
+culture=nortagnese
+religion=grail
+martial=1
+diplomacy=3
+stewardship=5
+intrigue=2
+learning=3
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="lustful"
+add_trait="patient"
+1978.1.1={birth=yes}
+2075.6.5={death=yes}
+}
+4000128={
+name="Jourdain"
+dynasty=29055
+dna="fenpoefoael"
+culture=nortagnese
+religion=grail
+martial=5
+diplomacy=4
+stewardship=0
+intrigue=1
+learning=4
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="scholar"
+1985.1.1={birth=yes}
+2047.5.24={death=yes}
+}
+4000129={
+name="Reynaud"
+dynasty=29056
+dna="klcofkkpogp"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=2
+stewardship=3
+intrigue=6
+learning=4
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="mystic"
+add_trait="paranoid"
+1983.1.1={birth=yes}
+2090.5.2={death=yes}
+}
+4000130={
+name="Armand"
+dynasty=29070
+dna="lbhfmbjljgi"
+culture=nortagnese
+religion=grail
+martial=3
+diplomacy=2
+stewardship=6
+intrigue=5
+learning=5
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="slothful"
+add_trait="diligent"
+add_trait="wounded"
+1992.1.1={birth=yes}
+2051.2.2={death=yes}
+}
+4000131={
+name="Heymon"
+dynasty=29060
+dna="klbmngdloki"
+culture=nortagnese
+religion=grail
+martial=4
+diplomacy=2
+stewardship=6
+intrigue=3
+learning=5
+add_trait="creature_human"
+add_trait="midas_touched"
+1990.1.1={birth=yes}
+2044.11.4={death=yes}
+}
+4000132={
+name="Digory"
+dynasty=29067
+dna="cidmocchgnk"
+culture=nortagnese
+religion=grail
+martial=6
+diplomacy=2
+stewardship=4
+intrigue=4
+learning=3
+add_trait="creature_human"
+add_trait="underhanded_rogue"
+add_trait="brave"
+add_trait="humble"
+1996.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
+2088.1.24={death=yes}
+}
+##4000133 used above##
+
+4000134={
+name="Celestine"
+culture=nortagnese
+religion=shallyan
+female=yes
+martial=1
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=6
+add_trait="creature_human"
+add_trait="grey_eminence"
+add_trait="humble"
+add_trait="kind"
+add_trait="chaste"
+1969.1.1={birth=yes}
+2088.1.24={death=yes}
+}

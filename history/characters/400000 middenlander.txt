@@ -3,6 +3,8 @@ name="Mannfred" #Mannfred Todbringer
 dynasty=16000
 culture=middenlander
 religion=ulrican
+father=400051
+mother=400054
 martial=4
 diplomacy=7
 stewardship=2
@@ -14,7 +16,7 @@ add_trait="misguided_warrior"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="honest"
-
+add_trait="sword_1"
 1971.3.7={birth=yes}
 2028.12.15={death=yes}
 }
@@ -34,8 +36,6 @@ add_trait="hedonist"
 add_trait="brilliant_strategist"
 add_trait="greedy"
 add_trait="craven"
-
-
 1963.8.10={birth=yes}
 2017.6.29={death=yes}
 }
@@ -54,7 +54,6 @@ learning=9
 add_trait="creature_human"
 add_trait="impaler"
 add_trait="fortune_builder"
-
 1989.8.15={birth=yes}
 2042.5.1={death=yes}
 }
@@ -76,7 +75,6 @@ add_trait="tough_soldier"
 add_trait="cruel"
 add_trait="wroth"
 add_trait="tall"
-
 2005.12.16={birth=yes}
 2024.2.10={death=yes}
 }
@@ -97,7 +95,6 @@ add_trait="naive_appeaser"
 add_trait="weak"
 add_trait="temperate"
 add_trait="chaste"
-
 1961.5.26={birth=yes}
 2025.7.5={death=yes}
 }
@@ -138,8 +135,9 @@ add_trait="intricate_webweaver"
 add_trait="stressed"
 add_trait="humble"
 add_trait="depressed"
-
-1969.9.7={birth=yes}
+1969.9.7={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2023.9.24={death=yes}
 }
 
@@ -157,9 +155,7 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="thrifty_clerk"
 add_trait="drunkard"
-
 add_trait="lustful"
-
 1963.9.23={birth=yes}
 2032.12.22={death=yes}
 }
@@ -179,7 +175,6 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="grey_eminence"
 add_trait="homosexual"
-
 1988.4.21={birth=yes}
 2051.4.5={death=yes}
 }
@@ -199,7 +194,6 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="underhanded_rogue"
 add_trait="lisp"
-
 1993.1.28={birth=yes}
 2023.6.24={death=yes}
 }
@@ -275,7 +269,6 @@ add_trait="tough_soldier"
 add_trait="envious"
 add_trait="slothful"
 add_trait="diligent"
-
 1997.4.24={birth=yes}
 2033.12.26={death=yes}
 }
@@ -315,7 +308,6 @@ add_trait="elusive_shadow"
 add_trait="just"
 add_trait="patient"
 add_trait="cynical"
-
 1986.4.2={birth=yes}
 2046.8.23={death=yes}
 }
@@ -337,7 +329,6 @@ add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="paranoid"
-
 2007.11.29={birth=yes}
 2065.5.16={death=yes}
 }
@@ -361,7 +352,7 @@ add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="wroth"
 add_trait="paranoid"
-
+add_trait="sword_1"
 303.11.29={birth=yes}
 329.1.1={give_nickname=nick_the_furious}
 349.5.16={death=yes}
@@ -383,7 +374,7 @@ add_trait="elusive_shadow"
 add_trait="just"
 add_trait="patient"
 add_trait="cynical"
-
+add_trait="sword_1"
 549.4.2={birth=yes}
 600.8.23={death=yes}
 }
@@ -399,12 +390,11 @@ stewardship=7
 intrigue=6
 learning=9
 add_trait="creature_human"
-
 add_trait="skilled_tactician"
 add_trait="diligent"
 add_trait="just"
 add_trait="ambitious"
-
+add_trait="sword_1"
 1107.9.8={birth=yes}
 1135.1.1={give_nickname=nick_skavenslayer}
 1152.7.14={death=yes}
@@ -426,7 +416,7 @@ add_trait="tough_soldier"
 add_trait="envious"
 add_trait="slothful"
 add_trait="diligent"
-
+add_trait="sword_1"
 1441.4.24={birth=yes}
 1478.12.26={death=yes}
 }
@@ -447,7 +437,6 @@ add_trait="mastermind_theologian"
 add_trait="envious"
 add_trait="slothful"
 add_trait="diligent"
-
 1951.4.24={birth=yes}
 2038.12.26={death=yes}
 }
@@ -472,7 +461,7 @@ add_trait="brilliant_strategist"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="strong"
-
+add_trait="sword_1"
 2455.5.1={birth=yes}
 2474.3.6={add_spouse=400023}
 2502.9.22={add_spouse=650074}
@@ -495,7 +484,6 @@ add_trait="martial_cleric"
 add_trait="gregarious"
 add_trait="shy"
 add_trait="ill"
-
 2452.9.21={birth=yes}
 2474.3.6={add_spouse=400022}
 2475.6.10={death=yes}
@@ -517,7 +505,7 @@ mother=650076
 add_trait="brilliant_strategist"
 add_trait="gregarious"
 add_trait="kind"
-
+add_trait="sword_1"
 2423.4.15={birth=yes}
 2439.8.26={add_spouse=650075}
 2491.4.10={death=yes}
@@ -539,8 +527,10 @@ mother=650077
 add_trait="skilled_tactician"
 add_trait="gregarious"
 add_trait="kind"
-
-2404.11.12={birth=yes}
+add_trait="sword_1"
+2404.11.12={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2421.5.7={add_spouse=650076}
 2449.2.25={death=yes}
 }
@@ -559,7 +549,7 @@ add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="gregarious"
 add_trait="kind"
-
+add_trait="sword_1"
 2381.9.11={birth=yes}
 2400.12.21={add_spouse=650077}
 2420.10.23={death=yes}
@@ -582,7 +572,6 @@ add_trait="shy"
 add_trait="strong"
 add_trait="quick"
 add_trait="bastard"
-
 2475.4.4={birth=yes}
 2551.5.3={death=yes}
 }
@@ -604,7 +593,6 @@ add_trait="misguided_warrior"
 add_trait="shy"
 add_trait="imbecile"
 add_trait="infirm"
-
 2475.6.10={birth=yes}
 2518.11.25={death=yes}
 }
@@ -626,7 +614,6 @@ add_trait="thrifty_clerk"
 add_trait="brave"
 add_trait="fair"
 add_trait="bastard"
-
 2496.9.12={birth=yes}
 2547.2.25={death=yes}
 }
@@ -647,11 +634,10 @@ add_trait="creature_human"
 add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="kind"
-
+add_trait="sword_1"
 1533.9.27={birth=yes}
 1597.11.2={death=yes}
 }
-
 
 400031={
 name="Gerhardt" # Graf Gerhardt Meister of Middenland
@@ -667,7 +653,7 @@ add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="temperate"
 add_trait="proud"
-
+add_trait="sword_1"
 1670.5.22={birth=yes}
 1749.12.20={death=yes}
 }
@@ -688,7 +674,6 @@ add_trait="mastermind_theologian"
 add_trait="envious"
 add_trait="proud"
 add_trait="diligent"
-
 2468.2.24={birth=yes}
 2541.3.2={death=yes}
 }
@@ -707,7 +692,6 @@ add_trait="creature_human"
 add_trait="poet"
 add_trait="misguided_warrior"
 add_trait="ambitious"
-
 2458.12.5={birth=yes}
 2504.6.27={add_spouse=400034}
 2511.11.22={death=yes}
@@ -728,7 +712,6 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="martial_cleric"
 add_trait="diligent"
-
 2475.5.22={birth=yes}
 2504.6.27={add_spouse=400033}
 2521.1.15={death=yes}
@@ -751,7 +734,6 @@ add_trait="martial_cleric"
 add_trait="diligent"
 add_trait="gregarious"
 add_trait="humble"
-
 2506.12.25={birth=yes}
 2579.4.19={death=yes}
 }
@@ -854,7 +836,9 @@ learning=4
 add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="arbitrary"
-2476.7.1={birth=yes}
+2476.7.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2541.12.12={death=yes}
 }
 
@@ -878,7 +862,6 @@ add_trait="chaste"
 2501.5.1={birth=yes}
 2565.8.28={death=yes}
 }
-
 
 400042={
 name="Gabrielle"
@@ -1042,4 +1025,116 @@ add_trait="ill"
 2498.1.16={birth=yes}
 2517.5.2={add_spouse=500176}
 2528.12.10={death=yes}
+}
+
+##Knights of the White Wolf
+
+400050={
+name="Jerek"
+dynasty=10119
+culture=middenlander
+religion=ulrican
+martial=10
+diplomacy=6
+stewardship=6
+intrigue=4
+learning=6
+add_trait="creature_human"
+add_trait="brave"
+add_trait="skilled_tactician"
+add_trait="proud"
+add_trait="zealous"
+add_trait="strong"
+1968.3.25={birth=yes}
+2011.12.8={death={death_reason = death_murder}}
+}
+
+##Family for Mannfred
+
+400051={
+name="Folkhard" #His father
+dynasty=16000
+culture=middenlander
+religion=ulrican
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=6
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="proud"
+add_trait="ambitious"
+add_trait="patient"
+1953.3.20={birth=yes}
+1972.10.4={add_spouse=400054}
+2009.2.14={death=yes}
+}
+
+400054={
+name="Amanda" #His mother
+female=yes
+culture=middenlander
+religion=ulrican
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=4
+learning=6
+add_trait="creature_human"
+add_trait="hedonist"
+add_trait="naive_appeaser"
+add_trait="chaste"
+add_trait="kind"
+add_trait="shy"
+1956.3.7={birth=yes}
+1972.10.4={add_spouse=400051}
+2010.12.15={death=yes}
+}
+
+400052={
+name="Else" #Younger sister
+female=yes
+dynasty=16000
+culture=middenlander
+religion=ulrican
+father=400051
+mother=400054
+martial=4
+diplomacy=6
+stewardship=4
+intrigue=8
+learning=4
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="lustful"
+add_trait="gregarious"
+add_trait="deceitful"
+add_trait="proud"
+1976.3.7={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 }
+		}
+2036.12.15={death=yes}
+}
+
+400053={
+name="Kurt" #Younger brother
+dynasty=16000
+culture=middenlander
+religion=ulrican
+father=400051
+mother=400054
+martial=6
+diplomacy=4
+stewardship=6
+intrigue=4
+learning=4
+add_trait="creature_human"
+add_trait="tough_soldier"
+add_trait="kind"
+add_trait="humble"
+add_trait="diligent"
+add_trait="zealous"
+1979.3.7={birth=yes}
+2038.12.15={death=yes}
 }

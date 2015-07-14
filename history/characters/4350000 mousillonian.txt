@@ -1,3 +1,5 @@
+###ההה
+
 4350000={
 name="Maldred"
 dynasty=29500
@@ -33,7 +35,7 @@ add_trait="creature_human"
 add_trait="grey_eminence"
 add_trait="cynical"
 add_trait="wroth"
-add_trait="lunatic"
+add_trait="lunatic_2"
 add_trait="impaler"
 add_trait="cruel"
 1772.1.1={birth=yes}

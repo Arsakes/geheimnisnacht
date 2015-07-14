@@ -3,7 +3,7 @@ name="Omerjan"
 dynasty=69000
 dna="lnongeonhcl"
 culture=khazag
-religion=chaos
+religion=khorne
 martial=3
 diplomacy=5
 stewardship=6
@@ -16,7 +16,9 @@ add_trait="slothful"
 add_trait="brave"
 add_trait="temperate"
 add_trait="cruel"
-1969.1.1={birth=yes}
+1969.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2029.11.27={death=yes}
 }
 
@@ -25,7 +27,7 @@ name="Abdumannob"
 dynasty=69001
 dna="nfmbdbonhld"
 culture=khazag
-religion=chaos
+religion=khorne
 martial=4
 diplomacy=3
 stewardship=0
@@ -45,7 +47,7 @@ name="Yabgu"
 dynasty=69002
 dna="pcmeeiinoim"
 culture=khazag
-religion=chaos
+religion=slaanesh
 martial=5
 diplomacy=2
 stewardship=1
@@ -60,11 +62,10 @@ add_trait="honest"
 
 2700003={
 name="Tekçe"
-female=yes
 dynasty=69003
 dna="leifmgfnmfm"
 culture=khazag
-religion=chaos
+religion=slaanesh
 martial=4
 diplomacy=2
 stewardship=5
@@ -85,7 +86,7 @@ name="Okors"
 dynasty=69004
 dna="aokopjaohak"
 culture=khazag
-religion=chaos
+religion=tzeentch
 martial=3
 diplomacy=1
 stewardship=3
@@ -106,7 +107,7 @@ name="Irnek"
 dynasty=69005
 dna="hhnpgaobmla"
 culture=khazag
-religion=chaos
+religion=slaanesh
 martial=6
 diplomacy=2
 stewardship=2
@@ -215,7 +216,9 @@ add_trait="duelist"
 add_trait="deceitful"
 add_trait="trusting"
 add_trait="slothful"
-1984.1.1={birth=yes}
+1984.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2051.5.9={death=yes}
 }
 
@@ -371,7 +374,9 @@ learning=4
 add_trait="creature_human"
 add_trait="midas_touched"
 add_trait="envious"
-1971.1.1={birth=yes}
+1971.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2025.2.25={death=yes}
 }
 
@@ -393,3 +398,147 @@ add_trait="slothful"
 2049.6.14={death=yes}
 }
 
+#Sorcerers
+
+2700020={
+name="Qaplan"
+dynasty=69006 
+culture=khazag
+religion=tzeentch
+martial=8
+diplomacy=9
+stewardship=1
+intrigue=11
+learning=13
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="bright"
+add_trait="deceitful"
+add_trait="ambitious"
+add_trait="paranoid"
+add_trait="magic_potential_2"
+add_trait="lore_tzeentch"
+1986.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_2 duration = -1 } } }
+2049.6.14={death=yes}
+}
+
+2700021={
+name="Hawa-gül"
+dynasty=69003 
+culture=khazag
+religion=tzeentch
+martial=8
+diplomacy=9
+stewardship=1
+intrigue=11
+learning=12
+female=yes
+add_trait="creature_human"
+add_trait="flamboyant_schemer"
+add_trait="quick"
+add_trait="greedy"
+add_trait="ambitious"
+add_trait="proud"
+add_trait="magic_potential_1"
+add_trait="lore_tzeentch"
+1998.1.1={birth=yes
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2700022={
+name="Uturgur"
+dynasty=69004
+culture=khazag
+religion=nurgle
+martial=2
+diplomacy=6
+stewardship=9
+intrigue=4
+learning=11
+add_trait="creature_human"
+add_trait="fortune_builder"
+add_trait="dumb"
+add_trait="trusting"
+add_trait="content"
+add_trait="humble"
+add_trait="magic_potential_1"
+add_trait="lore_nurgle"
+1963.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2700023={
+name="Gulkhuron"
+dynasty=69001 
+culture=khazag
+religion=nurgle
+martial=2
+diplomacy=6
+stewardship=9
+intrigue=4
+learning=12
+female=yes
+add_trait="creature_human"
+add_trait="midas_touched"
+add_trait="brilliant"
+add_trait="kind"
+add_trait="charitable"
+add_trait="gluttonous"
+add_trait="magic_potential_1"
+add_trait="lore_nurgle"
+1948.1.1={birth=yes
+effect = {
+add_character_modifier = { name = magic_power_2 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2700024={
+name="Shukria"
+dynasty=68020 
+culture=khazag
+religion=slaanesh
+martial=8
+diplomacy=11
+stewardship=1
+intrigue=9
+learning=13
+female=yes
+add_trait="creature_human"
+add_trait="skilled_tactician"
+add_trait="pretty"
+add_trait="cruel"
+add_trait="ambitious"
+add_trait="envious"
+add_trait="magic_potential_1"
+add_trait="lore_slaanesh"
+1988.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_1 duration = -1 } } }
+2049.6.14={death=yes}
+}
+2700025={
+name="Shahrukh"
+dynasty=69019 
+culture=khazag
+religion=slaanesh
+martial=8
+diplomacy=11
+stewardship=1
+intrigue=9
+learning=14
+add_trait="creature_human"
+add_trait="intricate_webweaver"
+add_trait="stutter"
+add_trait="deceitful"
+add_trait="lustful"
+add_trait="drunkard"
+add_trait="magic_potential_2"
+add_trait="lore_slaanesh"
+1978.1.1={birth=yes 
+effect = {
+add_character_modifier = { name = magic_power_2 duration = -1 } } }
+2049.6.14={death=yes}
+}

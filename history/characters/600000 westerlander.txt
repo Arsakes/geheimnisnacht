@@ -1,5 +1,5 @@
 600000={
-name="Magritta" #Granddaughter of Matthias III (600027)
+name=Magritta #Granddaughter of Matthias III (600027)
 female=yes
 dynasty=13003 #van der Maacht
 culture=westerlander
@@ -11,20 +11,20 @@ intrigue=4
 learning=5
 father=600080
 mother=600081
-add_trait="creature_human"
-add_trait="naive_appeaser"
-add_trait="honest"
-add_trait="gregarious"
-add_trait="kind"
-add_trait="ambitious"
-
+add_trait=creature_human
+add_trait=naive_appeaser
+add_trait=honest
+add_trait=gregarious
+add_trait=kind
+add_trait=ambitious
+add_trait="sword_1"
 1976.3.10={birth=yes}
-1998.9.21={add_matrilineal_spouse=600038}
+1998.9.21={add_spouse=600038}
 2012.10.3={death=yes}
 }
 
 600001={
-name="Frederik"
+name=Frederik
 dynasty=13303
 culture=westerlander
 religion=sigmarite
@@ -33,17 +33,17 @@ diplomacy=8
 stewardship=2
 intrigue=8
 learning=4
-add_trait="creature_human"
-add_trait="poet"
-add_trait="tough_soldier"
-add_trait="craven"
-add_trait="greedy"
+add_trait=creature_human
+add_trait=poet
+add_trait=tough_soldier
+add_trait=craven
+add_trait=greedy
 1954.3.10={birth=yes}
 2012.8.4={death=yes}
 }
 
 600002={
-name="Waelram"
+name=Waelram
 dynasty=13231
 culture=westerlander
 religion=sigmarite
@@ -52,9 +52,9 @@ diplomacy=1
 stewardship=0
 intrigue=1
 learning=7
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="fortune_builder"
+add_trait=creature_human
+add_trait=hedonist
+add_trait=fortune_builder
 
 1963.8.28={birth=yes}
 1995.12.25={add_spouse=600044}
@@ -62,7 +62,7 @@ add_trait="fortune_builder"
 }
 
 600003={
-name="Barend"
+name=Barend
 dynasty=13391
 culture=westerlander
 religion=sigmarite
@@ -71,19 +71,19 @@ diplomacy=1
 stewardship=0
 intrigue=8
 learning=9
-add_trait="creature_human"
+add_trait=creature_human
 
-add_trait="underhanded_rogue"
-add_trait="tall"
-add_trait="weak"
-add_trait="wroth"
+add_trait=underhanded_rogue
+add_trait=tall
+add_trait=weak
+add_trait=wroth
 
 2002.3.15={birth=yes}
 2059.6.7={death=yes}
 }
 
 600004={
-name="Reginar"
+name=Reginar
 dynasty=13446
 culture=westerlander
 religion=sigmarite
@@ -94,19 +94,21 @@ intrigue=0
 learning=5
 father=600048
 mother=600049
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="mastermind_theologian"
-add_trait="chaste"
-add_trait="humble"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=hedonist
+add_trait=mastermind_theologian
+add_trait=chaste
+add_trait=humble
+add_trait=cruel
 
-1984.11.4={birth=yes}
+1984.11.4={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2016.12.17={death=yes}
 }
 
 600005={
-name="Gerda"
+name=Gerda
 female=yes
 dynasty=13094
 culture=westerlander
@@ -118,18 +120,18 @@ intrigue=2
 learning=9
 father=600054
 mother=600055
-add_trait="creature_human"
-add_trait="poet"
-add_trait="detached_priest"
-add_trait="temperate"
-add_trait="trusting"
-add_trait="ill"
+add_trait=creature_human
+add_trait=poet
+add_trait=detached_priest
+add_trait=temperate
+add_trait=trusting
+add_trait=ill
 1985.2.9={birth=yes}
 2021.7.17={death=yes}
 }
 
 600006={
-name="Guij"
+name=Guij
 dynasty=13402
 culture=westerlander
 religion=sigmarite
@@ -138,17 +140,17 @@ diplomacy=7
 stewardship=5
 intrigue=2
 learning=5
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="scholarly_theologian"
-add_trait="content"
+add_trait=creature_human
+add_trait=falconer
+add_trait=scholarly_theologian
+add_trait=content
 
 1978.5.21={birth=yes}
 2020.2.26={death=yes}
 }
 
 600007={
-name="Emmo"
+name=Emmo
 dynasty=13361
 culture=westerlander
 religion=sigmarite
@@ -159,12 +161,12 @@ intrigue=8
 learning=8
 father=600084
 mother=600085
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="charismatic_negotiator"
+add_trait=creature_human
+add_trait=falconer
+add_trait=charismatic_negotiator
 
-add_trait="drunkard"
-add_trait="lustful"
+add_trait=drunkard
+add_trait=lustful
 
 1972.9.14={birth=yes}
 2006.1.11={add_spouse=600058}
@@ -172,7 +174,7 @@ add_trait="lustful"
 }
 
 600008={
-name="Hubert"
+name=Hubert
 dynasty=13187
 culture=westerlander
 religion=sigmarite
@@ -181,19 +183,18 @@ diplomacy=0
 stewardship=1
 intrigue=6
 learning=2
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="mastermind_theologian"
-add_trait="legit_bastard"
-add_trait="homosexual"
-
+add_trait=creature_human
+add_trait=duelist
+add_trait=mastermind_theologian
+add_trait=legit_bastard
+add_trait=homosexual
 
 1974.8.22={birth=yes}
 2056.12.23={death=yes}
 }
 
 600009={
-name="Robert"
+name=Robert
 dynasty=13375
 culture=westerlander
 religion=sigmarite
@@ -204,16 +205,16 @@ intrigue=8
 learning=3
 father=600096
 mother=600097
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="indulgent_wastrel"
+add_trait=creature_human
+add_trait=falconer
+add_trait=indulgent_wastrel
 1963.9.16={birth=yes}
 2008.2.10={add_spouse=600067}
 2026.6.14={death=yes}
 }
 
 600010={
-name="Koenraad"
+name=Koenraad
 dynasty=13109
 culture=westerlander
 religion=sigmarite
@@ -222,16 +223,16 @@ diplomacy=10
 stewardship=10
 intrigue=2
 learning=1
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="intricate_webweaver"
+add_trait=creature_human
+add_trait=hunter
+add_trait=intricate_webweaver
 
 1979.10.10={birth=yes}
 2066.3.18={death=yes}
 }
 
 600011={
-name="Reinoud"
+name=Reinoud
 dynasty=13410
 culture=westerlander
 religion=sigmarite
@@ -240,11 +241,11 @@ diplomacy=1
 stewardship=3
 intrigue=11
 learning=5
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="grey_eminence"
-add_trait="lisp"
-add_trait="strong"
+add_trait=creature_human
+add_trait=mystic
+add_trait=grey_eminence
+add_trait=lisp
+add_trait=strong
 
 1950.2.20={birth=yes}
 1971.7.16={add_spouse=600059}
@@ -253,7 +254,7 @@ add_trait="strong"
 }
 
 600012={
-name="Lambert"
+name=Lambert
 dynasty=13451
 culture=westerlander
 religion=sigmarite
@@ -262,18 +263,18 @@ diplomacy=8
 stewardship=9
 intrigue=8
 learning=0
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="charismatic_negotiator"
-add_trait="fair"
-add_trait="diligent"
+add_trait=creature_human
+add_trait=hunter
+add_trait=charismatic_negotiator
+add_trait=fair
+add_trait=diligent
 1956.4.7={birth=yes}
 1986.9.7={add_spouse=600086}
 2035.9.2={death=yes}
 }
 
 600013={
-name="Clementia"
+name=Clementia
 female=yes
 dynasty=13254
 culture=westerlander
@@ -283,19 +284,19 @@ diplomacy=2
 stewardship=4
 intrigue=9
 learning=3
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="tough_soldier"
-add_trait="envious"
-add_trait="proud"
-add_trait="shy"
+add_trait=creature_human
+add_trait=impaler
+add_trait=tough_soldier
+add_trait=envious
+add_trait=proud
+add_trait=shy
 
 1968.12.23={birth=yes}
 2061.7.9={death=yes}
 }
 
 600014={
-name="Niclaes"
+name=Niclaes
 dynasty=13441
 culture=westerlander
 religion=sigmarite
@@ -304,19 +305,19 @@ diplomacy=9
 stewardship=11
 intrigue=7
 learning=9
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="intricate_webweaver"
-add_trait="patient"
-add_trait="slothful"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=duelist
+add_trait=intricate_webweaver
+add_trait=patient
+add_trait=slothful
+add_trait=ambitious
 
 1954.2.11={birth=yes}
 2040.1.6={death=yes}
 }
 
 600015={
-name="Jan"
+name=Jan
 dynasty=13558
 culture=westerlander
 religion=sigmarite
@@ -325,19 +326,19 @@ diplomacy=4
 stewardship=1
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="charismatic_negotiator"
-add_trait="arbitrary"
-add_trait="cynical"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=gardener
+add_trait=charismatic_negotiator
+add_trait=arbitrary
+add_trait=cynical
+add_trait=paranoid
 
 1966.2.14={birth=yes}
 2012.5.25={death=yes}
 }
 
 600016={
-name="Kristof"
+name=Kristof
 dynasty=13228
 culture=westerlander
 religion=sigmarite
@@ -346,19 +347,19 @@ diplomacy=6
 stewardship=8
 intrigue=8
 learning=9
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="amateurish_plotter"
-add_trait="just"
-add_trait="gregarious"
-add_trait="kind"
+add_trait=creature_human
+add_trait=mystic
+add_trait=amateurish_plotter
+add_trait=just
+add_trait=gregarious
+add_trait=kind
 
 2004.4.24={birth=yes}
 2059.1.30={death=yes}
 }
 
 600017={
-name="Antoon"
+name=Antoon
 dynasty=13067
 culture=westerlander
 religion=sigmarite
@@ -369,17 +370,17 @@ intrigue=8
 learning=1
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="midas_touched"
-add_trait="honest"
-add_trait="craven"
+add_trait=creature_human
+add_trait=hunter
+add_trait=midas_touched
+add_trait=honest
+add_trait=craven
 1973.8.24={birth=yes}
 2011.3.1={death=yes}
 }
 
 600018={
-name="Gerolt"
+name=Gerolt
 dynasty=13381
 culture=westerlander
 religion=sigmarite
@@ -388,10 +389,10 @@ diplomacy=2
 stewardship=4
 intrigue=6
 learning=7
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="zealous"
-add_trait="greedy"
+add_trait=creature_human
+add_trait=gardener
+add_trait=zealous
+add_trait=greedy
 
 1965.10.9={birth=yes}
 1985.3.22={add_spouse=600078}
@@ -399,7 +400,7 @@ add_trait="greedy"
 }
 
 600019={
-name="Gwidje"
+name=Gwidje
 dynasty=13084
 culture=westerlander
 religion=sigmarite
@@ -408,12 +409,11 @@ diplomacy=2
 stewardship=11
 intrigue=7
 learning=5
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="midas_touched"
+add_trait=creature_human
+add_trait=impaler
+add_trait=midas_touched
 
-
-add_trait="tall"
+add_trait=tall
 
 2006.4.4={birth=yes}
 2011.3.8={death=yes}
@@ -423,7 +423,7 @@ add_trait="tall"
 #########################
 
 600020={
-name="Tomas"
+name=Tomas
 dynasty=13005 
 culture=westerlander
 religion=sigmarite
@@ -432,19 +432,18 @@ diplomacy=8
 stewardship=9
 intrigue=8
 learning=0
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="charismatic_negotiator"
-add_trait="fair"
-add_trait="diligent"
-
+add_trait=creature_human
+add_trait=hunter
+add_trait=charismatic_negotiator
+add_trait=fair
+add_trait=diligent
 
 762.4.7={birth=yes}
 813.9.2={death=yes}
 }
 
 600021={
-name="Hanus" 
+name=Hanus 
 dynasty=13005 
 culture=westerlander
 religion=sigmarite
@@ -453,19 +452,19 @@ diplomacy=2
 stewardship=4
 intrigue=9
 learning=3
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="tough_soldier"
-add_trait="envious"
-add_trait="proud"
-add_trait="shy"
+add_trait=creature_human
+add_trait=impaler
+add_trait=tough_soldier
+add_trait=envious
+add_trait=proud
+add_trait=shy
 
 851.12.23={birth=yes}
 936.7.9={death=yes}
 }
 
 600022={
-name="Carolus"
+name=Carolus
 dynasty=13004 
 culture=westerlander
 religion=sigmarite
@@ -474,19 +473,21 @@ diplomacy=9
 stewardship=11
 intrigue=7
 learning=9
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="intricate_webweaver"
-add_trait="patient"
-add_trait="slothful"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=duelist
+add_trait=intricate_webweaver
+add_trait=patient
+add_trait=slothful
+add_trait=ambitious
 
-1312.2.11={birth=yes}
+1312.2.11={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1359.1.6={death=yes}
 }
 
 600023={
-name="Matthias"
+name=Matthias
 dynasty=13004 
 culture=westerlander
 religion=sigmarite
@@ -495,19 +496,19 @@ diplomacy=4
 stewardship=1
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="charismatic_negotiator"
-add_trait="arbitrary"
-add_trait="cynical"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=gardener
+add_trait=charismatic_negotiator
+add_trait=arbitrary
+add_trait=cynical
+add_trait=paranoid
 
 1596.2.14={birth=yes}
 1644.5.25={death=yes}
 }
 
 600024={
-name="Carolus"
+name=Carolus
 dynasty=13004 
 culture=westerlander
 religion=sigmarite
@@ -516,19 +517,19 @@ diplomacy=6
 stewardship=8
 intrigue=8
 learning=9
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="amateurish_plotter"
-add_trait="just"
-add_trait="gregarious"
-add_trait="kind"
+add_trait=creature_human
+add_trait=mystic
+add_trait=amateurish_plotter
+add_trait=just
+add_trait=gregarious
+add_trait=kind
 
 1617.4.24={birth=yes}
 1681.1.30={death=yes}
 }
 
 600025={
-name="Amalie"
+name=Amalie
 female=yes
 dynasty=13020 
 culture=westerlander
@@ -538,17 +539,17 @@ diplomacy=2
 stewardship=0
 intrigue=8
 learning=1
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="midas_touched"
-add_trait="honest"
-add_trait="craven"
+add_trait=creature_human
+add_trait=hunter
+add_trait=midas_touched
+add_trait=honest
+add_trait=craven
 1678.8.24={birth=yes}
 1767.3.1={death=yes}
 }
 
 600026={
-name="Carolus"
+name=Carolus
 dynasty=13000 #van Hoensbroech
 culture=westerlander
 religion=sigmarite
@@ -557,18 +558,18 @@ diplomacy=2
 stewardship=4
 intrigue=6
 learning=7
-add_trait="creature_human"
-add_trait="gardener"
+add_trait=creature_human
+add_trait=gardener
 
-add_trait="zealous"
-add_trait="greedy"
+add_trait=zealous
+add_trait=greedy
 
 1853.10.9={birth=yes}
 1907.6.13={death=yes}
 }
 
 600027={
-name="Matthias"
+name=Matthias
 dynasty=13000 #van Hoensbroech
 culture=westerlander
 religion=sigmarite
@@ -577,12 +578,11 @@ diplomacy=2
 stewardship=11
 intrigue=7
 learning=5
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="midas_touched"
+add_trait=creature_human
+add_trait=impaler
+add_trait=midas_touched
 
-
-add_trait="tall"
+add_trait=tall
 father=600026
 
 1886.4.4={birth=yes}
@@ -590,9 +590,8 @@ father=600026
 }
 ############################
 
-
 600028={
-name="Hugo"
+name=Hugo
 dynasty=13261
 culture=westerlander
 religion=sigmarite
@@ -601,19 +600,18 @@ diplomacy=7
 stewardship=1
 intrigue=3
 learning=1
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="mastermind_theologian"
+add_trait=creature_human
+add_trait=hedonist
+add_trait=mastermind_theologian
 
-add_trait="homosexual"
-
+add_trait=homosexual
 
 1954.12.17={birth=yes}
 2049.1.12={death=yes}
 }
 
 600029={
-name="Onno"
+name=Onno
 dynasty=13070
 culture=westerlander
 religion=sigmarite
@@ -622,19 +620,19 @@ diplomacy=4
 stewardship=8
 intrigue=6
 learning=2
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="fortune_builder"
+add_trait=creature_human
+add_trait=hunter
+add_trait=fortune_builder
 
-add_trait="legit_bastard"
-add_trait="lisp"
+add_trait=legit_bastard
+add_trait=lisp
 
 1971.4.18={birth=yes}
 2026.10.22={death=yes}
 }
 
 600030={
-name="Karel"
+name=Karel
 dynasty=13193
 culture=westerlander
 religion=sigmarite
@@ -643,15 +641,15 @@ diplomacy=7
 stewardship=11
 intrigue=6
 learning=7
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=gardener
+add_trait=skilled_tactician
 1988.2.23={birth=yes}
 2068.4.26={death=yes}
 }
 
 600031={
-name="Luthard"
+name=Luthard
 dynasty=13538
 culture=westerlander
 religion=sigmarite
@@ -660,18 +658,17 @@ diplomacy=10
 stewardship=1
 intrigue=7
 learning=2
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="underhanded_rogue"
-add_trait="fair"
+add_trait=creature_human
+add_trait=impaler
+add_trait=underhanded_rogue
+add_trait=fair
 
 1968.7.19={birth=yes}
 2041.1.27={death=yes}
 }
 
-
 600032={
-name="Olivier"
+name=Olivier
 dynasty=13261
 culture=westerlander
 religion=sigmarite
@@ -680,19 +677,18 @@ diplomacy=3
 stewardship=6
 intrigue=11
 learning=5
-add_trait="creature_human"
 father=600101
 mother=600102
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="fair"
-add_trait="strong"
+add_trait=creature_human
+add_trait=gardener
+add_trait=fair
+add_trait=strong
 1974.10.9={birth=yes}
 2055.2.18={death=yes}
 }
 
 600033={
-name="Douwe"
+name=Douwe
 dynasty=13562
 culture=westerlander
 religion=sigmarite
@@ -701,19 +697,18 @@ diplomacy=9
 stewardship=10
 intrigue=3
 learning=8
-add_trait="creature_human"
 father=600103
 mother=600104
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="envious"
+add_trait=creature_human
+add_trait=scholar
+add_trait=envious
 1982.7.6={birth=yes}
 1999.6.12={add_spouse=600120}
 2040.7.3={death=yes}
 }
 
 600034={
-name="Rodulf"
+name=Rodulf
 dynasty=13195
 culture=westerlander
 religion=sigmarite
@@ -722,15 +717,14 @@ diplomacy=2
 stewardship=9
 intrigue=1
 learning=2
-add_trait="creature_human"
 father=600105
 mother=600106
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="flamboyant_schemer"
-add_trait="diligent"
-add_trait="patient"
-add_trait="proud"
+add_trait=creature_human
+add_trait=scholar
+add_trait=flamboyant_schemer
+add_trait=diligent
+add_trait=patient
+add_trait=proud
 
 1963.7.3={birth=yes}
 1987.7.5={add_spouse=600116}
@@ -738,7 +732,7 @@ add_trait="proud"
 }
 
 600035={
-name="Waelram"
+name=Waelram
 dynasty=13531
 culture=westerlander
 religion=sigmarite
@@ -747,15 +741,14 @@ diplomacy=10
 stewardship=6
 intrigue=7
 learning=4
-add_trait="creature_human"
 father=600107
 mother=600108
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="intricate_webweaver"
-add_trait="shy"
-add_trait="ambitious"
-add_trait="just"
+add_trait=creature_human
+add_trait=falconer
+add_trait=intricate_webweaver
+add_trait=shy
+add_trait=ambitious
+add_trait=just
 
 1968.3.16={birth=yes}
 1997.2.25={add_spouse=600118}
@@ -763,9 +756,9 @@ add_trait="just"
 }
 
 600036={
-name="Erberhardt"
+name=Erberhardt
 dynasty=13375
-dna="nnjhflabgec"
+dna=nnjhflabgec
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -773,24 +766,23 @@ diplomacy=3
 stewardship=3
 intrigue=6
 learning=1
-add_trait="creature_human"
 father=600096
 mother=600097
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="proud"
-add_trait="craven"
-add_trait="humble"
-add_trait="trusting"
-add_trait="ill"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=proud
+add_trait=craven
+add_trait=humble
+add_trait=trusting
+add_trait=ill
 1968.5.11={birth=yes}
 2022.5.11={death=yes}
 }
 
 600037={
-name="Peter"
+name=Peter
 dynasty=13375
-dna="llknofkgfib"
+dna=llknofkgfib
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -798,22 +790,21 @@ diplomacy=3
 stewardship=5
 intrigue=4
 learning=4
-add_trait="creature_human"
 father=600096
 mother=600097
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="content"
-add_trait="deceitful"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=content
+add_trait=deceitful
+add_trait=stressed
 1976.10.10={birth=yes}
 2022.10.10={death=yes}
 }
 
 600038={
-name="Friard"
+name=Friard
 dynasty=13423
-dna="bfkhgebadjn"
+dna=bfkhgebadjn
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -821,19 +812,19 @@ diplomacy=7
 stewardship=1
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="content"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=content
 1962.3.6={birth=yes}
-1998.9.21={add_matrilineal_spouse=600000}
+1998.9.21={add_spouse=600000}
 2028.3.6={death=yes}
 }
 
 600039={
-name="Kim"
+name=Kim
 female=yes
 dynasty=13003
-dna="jjlepchnikb"
+dna=jjlepchnikb
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -843,19 +834,19 @@ intrigue=7
 learning=4
 father=600038
 mother=600000
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="arbitrary"
-add_trait="ill"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=arbitrary
+add_trait=ill
 2002.9.5={birth=yes}
 2020.6.29={add_spouse=600040}
 2043.9.5={death=yes}
 }
 
 600040={
-name="Harm"
+name=Harm
 dynasty=13453
-dna="knmilkhifcb"
+dna=knmilkhifcb
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -863,18 +854,18 @@ diplomacy=3
 stewardship=5
 intrigue=2
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="diligent"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=diligent
 1997.2.22={birth=yes}
 2020.6.29={add_spouse=600039}
 2079.2.22={death=yes}
 }
 
 600041={
-name="Clais"
+name=Clais
 dynasty=13003
-dna="bcpopknafpa"
+dna=bcpopknafpa
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -884,19 +875,19 @@ intrigue=2
 learning=5
 mother=600039
 father=600040
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="envious"
-add_trait="slothful"
-add_trait="cynical"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=envious
+add_trait=slothful
+add_trait=cynical
 2025.4.24={birth=yes}
 2079.4.24={death=yes}
 }
 
 600042={
-name="Clais"
+name=Clais
 dynasty=13003
-dna="dikeeoillog"
+dna=dikeeoillog
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -906,19 +897,19 @@ intrigue=5
 learning=7
 father=600038
 mother=600000
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="envious"
-add_trait="arbitrary"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=envious
+add_trait=arbitrary
 2007.1.1={birth=yes}
 2053.1.1={death=yes}
 }
 
 600043={
-name="Esmée"
+name=Esmée
 female=yes
 dynasty=13003
-dna="ihidobemdgg"
+dna=ihidobemdgg
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -928,20 +919,20 @@ intrigue=4
 learning=7
 father=600038
 mother=600000
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="charitable"
-add_trait="arbitrary"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=charitable
+add_trait=arbitrary
+add_trait=trusting
 2008.3.24={birth=yes}
 2021.3.24={death=yes}
 }
 
 600044={
-name="Blanceflore"
+name=Blanceflore
 female=yes
 dynasty=13242
-dna="ndagjodnpkl"
+dna=ndagjodnpkl
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -949,21 +940,21 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=6
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="greedy"
-add_trait="brave"
-add_trait="charitable"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=greedy
+add_trait=brave
+add_trait=charitable
+add_trait=stressed
 1969.5.23={birth=yes}
 1995.12.25={add_spouse=600002}
 2007.9.29={death=yes}
 }
 
 600045={
-name="Theodolf"
+name=Theodolf
 dynasty=13231
-dna="pjfbkkjilhc"
+dna=pjfbkkjilhc
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -973,18 +964,18 @@ intrigue=0
 learning=4
 father=600002
 mother=600044
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="gardener"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=gardener
+add_trait=ambitious
 2002.4.18={birth=yes}
 2056.4.18={death=yes}
 }
 
 600046={
-name="Lauwers"
+name=Lauwers
 dynasty=13231
-dna="hjhegdobojp"
+dna=hjhegdobojp
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -993,20 +984,20 @@ stewardship=1
 intrigue=7
 learning=1
 father=600002
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="bastard"
-add_trait="wroth"
-add_trait="greedy"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=bastard
+add_trait=wroth
+add_trait=greedy
 2006.11.9={birth=yes}
 2048.11.9={death=yes}
 }
 
 600047={
-name="Haduwijn"
+name=Haduwijn
 female=yes
 dynasty=13231
-dna="chfmalabenb"
+dna=chfmalabenb
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1016,18 +1007,18 @@ intrigue=6
 learning=4
 father=600002
 mother=600044
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="cynical"
-add_trait="zealous"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=cynical
+add_trait=zealous
 2007.9.29={birth=yes}
 2034.9.29={death=yes}
 }
 
 600048={
-name="Rodulf"
+name=Rodulf
 dynasty=13446
-dna="pjfmofoffdg"
+dna=pjfmofoffdg
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1037,21 +1028,21 @@ intrigue=5
 learning=1
 father=600082
 mother=600083
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="hedonist"
-add_trait="brave"
-add_trait="patient"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=hedonist
+add_trait=brave
+add_trait=patient
 1944.10.11={birth=yes}
 1976.11.4={add_spouse=600049}
 2005.10.11={death=yes}
 }
 
 600049={
-name="Frida"
+name=Frida
 female=yes
 dynasty=13247
-dna="noihcpbiadk"
+dna=noihcpbiadk
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1059,20 +1050,20 @@ diplomacy=4
 stewardship=3
 intrigue=7
 learning=3
-add_trait="creature_human"
-add_trait="detached_priest"
-add_trait="paranoid"
-add_trait="wroth"
+add_trait=creature_human
+add_trait=detached_priest
+add_trait=paranoid
+add_trait=wroth
 1955.9.28={birth=yes}
 1976.11.4={add_spouse=600048}
 2007.9.28={death=yes}
 }
 
 600050={
-name="Anouk"
+name=Anouk
 female=yes
 dynasty=13446
-dna="abbpnkibkah"
+dna=abbpnkibkah
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1082,20 +1073,20 @@ intrigue=1
 learning=7
 father=600082
 mother=600083
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="kind"
-add_trait="ambitious"
-add_trait="wroth"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=kind
+add_trait=ambitious
+add_trait=wroth
 1953.4.9={birth=yes}
 1972.4.7={add_spouse=600051}
 1994.4.9={death=yes}
 }
 
 600051={
-name="Sebastiaen"
+name=Sebastiaen
 dynasty=13249
-dna="epkgbpacchd"
+dna=epkgbpacchd
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -1103,21 +1094,21 @@ diplomacy=4
 stewardship=7
 intrigue=7
 learning=6
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="greedy"
-add_trait="content"
-add_trait="cruel"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=greedy
+add_trait=content
+add_trait=cruel
+add_trait=stressed
 1955.8.31={birth=yes}
 1972.4.7={add_spouse=600050}
 1997.8.31={death=yes}
 }
 
 600052={
-name="Marten"
+name=Marten
 dynasty=13249
-dna="glpinfgnopl"
+dna=glpinfgnopl
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1127,18 +1118,20 @@ intrigue=7
 learning=7
 father=600051
 mother=600050
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="arbitrary"
-add_trait="shy"
-1987.1.26={birth=yes}
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=arbitrary
+add_trait=shy
+1987.1.26={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2038.1.26={death=yes}
 }
 
 600053={
-name="Sieme"
+name=Sieme
 dynasty=13446
-dna="fdlhpahpdeo"
+dna=fdlhpahpdeo
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1148,20 +1141,20 @@ intrigue=1
 learning=4
 father=600048
 mother=600049
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="hunter"
-add_trait="patient"
-add_trait="arbitrary"
-add_trait="shy"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=hunter
+add_trait=patient
+add_trait=arbitrary
+add_trait=shy
 1991.10.1={birth=yes}
 2032.10.1={death=yes}
 }
 
 600054={
-name="Robrecht"
+name=Robrecht
 dynasty=13094
-dna="pjhkfjallgm"
+dna=pjhkfjallgm
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1169,21 +1162,21 @@ diplomacy=4
 stewardship=2
 intrigue=2
 learning=3
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="brave"
-add_trait="zealous"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=brave
+add_trait=zealous
+add_trait=stressed
 1960.2.24={birth=yes}
 1980.5.17={add_spouse=600055}
 1986.2.24={death=yes}
 }
 
 600055={
-name="Gheertrude"
+name=Gheertrude
 female=yes
 dynasty=13253
-dna="hoompfbccmc"
+dna=hoompfbccmc
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1191,21 +1184,21 @@ diplomacy=6
 stewardship=6
 intrigue=3
 learning=4
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="kind"
-add_trait="ambitious"
-add_trait="honest"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=kind
+add_trait=ambitious
+add_trait=honest
 1958.6.16={birth=yes}
 1980.5.17={add_spouse=600054}
 2002.6.16={death=yes}
 }
 
 600056={
-name="Denise"
+name=Denise
 female=yes
 dynasty=13361
-dna="lmppaakobie"
+dna=lmppaakobie
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -1215,20 +1208,20 @@ intrigue=3
 learning=4
 father=600084
 mother=600085
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="duelist"
-add_trait="arbitrary"
-add_trait="lustful"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=duelist
+add_trait=arbitrary
+add_trait=lustful
+add_trait=trusting
 1977.9.21={birth=yes}
 2000.9.21={death=yes}
 }
 
 600057={
-name="Michel"
+name=Michel
 dynasty=13361
-dna="oippbjfepoh"
+dna=oippbjfepoh
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -1238,17 +1231,17 @@ intrigue=8
 learning=5
 father=600084
 mother=600085
-add_trait="creature_human"
-add_trait="brilliant_strategist"
+add_trait=creature_human
+add_trait=brilliant_strategist
 1985.5.2={birth=yes}
 2031.5.2={death=yes}
 }
 
 600058={
-name="Becka"
+name=Becka
 female=yes
 dynasty=13256
-dna="lfoahblnaff"
+dna=lfoahblnaff
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1256,20 +1249,20 @@ diplomacy=5
 stewardship=3
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="cruel"
-add_trait="drunkard"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=cruel
+add_trait=drunkard
 1985.11.17={birth=yes}
 2006.1.11={add_spouse=600007}
 2015.11.17={death=yes}
 }
 
 600059={
-name="Ellijnore"
+name=Ellijnore
 female=yes
 dynasty=13257
-dna="oaohheaikfb"
+dna=oaohheaikfb
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1277,19 +1270,19 @@ diplomacy=2
 stewardship=2
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="slothful"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=slothful
+add_trait=stressed
 1942.1.7={birth=yes}
 1971.7.16={add_spouse=600011}
 1993.1.7={death=yes}
 }
 
 600060={
-name="Piet"
+name=Piet
 dynasty=13410
-dna="ckealkplpfn"
+dna=ckealkplpfn
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1299,23 +1292,23 @@ intrigue=1
 learning=4
 father=600011
 mother=600059
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="strong"
-add_trait="lisp"
-add_trait="patient"
-add_trait="just"
-add_trait="charitable"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=strong
+add_trait=lisp
+add_trait=patient
+add_trait=just
+add_trait=charitable
 1973.10.17={birth=yes}
 1992.2.10={add_spouse=600061}
 2028.10.17={death=yes}
 }
 
 600061={
-name="Corrie"
+name=Corrie
 female=yes
 dynasty=13259
-dna="mffjgegadep"
+dna=mffjgegadep
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -1323,19 +1316,19 @@ diplomacy=5
 stewardship=7
 intrigue=4
 learning=0
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="scholar"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=scholar
+add_trait=cruel
 1968.5.18={birth=yes}
 1992.2.10={add_spouse=600060}
 2024.5.18={death=yes}
 }
 
 600062={
-name="Lieven"
+name=Lieven
 dynasty=13410
-dna="ohmjnpijcpa"
+dna=ohmjnpijcpa
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -1345,21 +1338,21 @@ intrigue=4
 learning=6
 father=600060
 mother=600061
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="temperate"
-add_trait="strong"
-add_trait="deceitful"
-add_trait="lustful"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=temperate
+add_trait=strong
+add_trait=deceitful
+add_trait=lustful
 1996.10.17={birth=yes}
 2029.10.17={death=yes}
 }
 
 600063={
-name="Imagina"
+name=Imagina
 female=yes
 dynasty=13410
-dna="dkablljahbn"
+dna=dkablljahbn
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1369,20 +1362,20 @@ intrigue=1
 learning=7
 father=600060
 mother=600061
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="temperate"
-add_trait="strong"
-add_trait="deceitful"
-add_trait="slothful"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=temperate
+add_trait=strong
+add_trait=deceitful
+add_trait=slothful
 1999.8.18={birth=yes}
 2036.8.18={death=yes}
 }
 
 600064={
-name="Hansel"
+name=Hansel
 dynasty=13410
-dna="dlccbjnocoi"
+dna=dlccbjnocoi
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1392,21 +1385,21 @@ intrigue=2
 learning=0
 father=600060
 mother=600061
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="poet"
-add_trait="lisp"
-add_trait="diligent"
-add_trait="zealous"
-add_trait="drunkard"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=poet
+add_trait=lisp
+add_trait=diligent
+add_trait=zealous
+add_trait=drunkard
 2004.7.31={birth=yes}
 2054.7.31={death=yes}
 }
 
 600065={
-name="Remeeus"
+name=Remeeus
 dynasty=13410
-dna="dploelmgpnm"
+dna=dploelmgpnm
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -1416,22 +1409,22 @@ intrigue=3
 learning=2
 father=600060
 mother=600061
-add_trait="creature_human"
-add_trait="naive_appeaser"
-add_trait="lisp"
-add_trait="strong"
-add_trait="cruel"
-add_trait="cynical"
-add_trait="temperate"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=naive_appeaser
+add_trait=lisp
+add_trait=strong
+add_trait=cruel
+add_trait=cynical
+add_trait=temperate
+add_trait=gregarious
 2007.2.23={birth=yes}
 2011.2.24={death=yes}
 }
 
 600066={
-name="Sanne"
+name=Sanne
 dynasty=13451
-dna="bekmcmmbkgi"
+dna=bekmcmmbkgi
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -1441,19 +1434,19 @@ intrigue=1
 learning=4
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="naive_appeaser"
-add_trait="cynical"
-add_trait="charitable"
+add_trait=creature_human
+add_trait=naive_appeaser
+add_trait=cynical
+add_trait=charitable
 1988.9.11={birth=yes}
 2011.9.11={death=yes}
 }
 
 600067={
-name="Fenne"
+name=Fenne
 female=yes
 dynasty=13451
-dna="ekolnekckha"
+dna=ekolnekckha
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1463,21 +1456,21 @@ intrigue=5
 learning=3
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="scholar"
-add_trait="paranoid"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=scholar
+add_trait=paranoid
+add_trait=cruel
 1991.1.2={birth=yes}
 2008.2.10={add_spouse=600009}
 2025.1.2={death=yes}
 }
 
 600068={
-name="Machtelt"
+name=Machtelt
 female=yes
 dynasty=13451
-dna="manmlpdeedk"
+dna=manmlpdeedk
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -1487,19 +1480,19 @@ intrigue=3
 learning=6
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="cruel"
-add_trait="lustful"
-add_trait="deceitful"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=cruel
+add_trait=lustful
+add_trait=deceitful
 1995.9.8={birth=yes}
 2001.9.8={death=yes}
 }
 
 600069={
-name="Otwin"
+name=Otwin
 dynasty=13451
-dna="dhkgldoekle"
+dna=dhkgldoekle
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1509,19 +1502,19 @@ intrigue=2
 learning=2
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="gluttonous"
-add_trait="patient"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=gluttonous
+add_trait=patient
 1999.2.17={birth=yes}
 2021.2.17={death=yes}
 }
 
 600070={
-name="Ijsbrecht"
+name=Ijsbrecht
 dynasty=13451
-dna="ealfflclace"
+dna=ealfflclace
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -1531,19 +1524,19 @@ intrigue=7
 learning=6
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="brave"
-add_trait="proud"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=brave
+add_trait=proud
 2003.8.31={birth=yes}
 2034.8.31={death=yes}
 }
 
 600071={
-name="Yvonne"
+name=Yvonne
 female=yes
 dynasty=13451
-dna="loajbkiagam"
+dna=loajbkiagam
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1553,20 +1546,22 @@ intrigue=0
 learning=4
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="impaler"
-add_trait="temperate"
-add_trait="kind"
-add_trait="content"
-2005.3.20={birth=yes}
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=impaler
+add_trait=temperate
+add_trait=kind
+add_trait=content
+2005.3.20={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2059.3.20={death=yes}
 }
 
 600072={
-name="Koenraad"
+name=Koenraad
 dynasty=13451
-dna="ibjfofeijai"
+dna=ibjfofeijai
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1576,20 +1571,20 @@ intrigue=4
 learning=2
 father=600012
 mother=600086
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="gardener"
-add_trait="greedy"
-add_trait="just"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=gardener
+add_trait=greedy
+add_trait=just
+add_trait=ambitious
 2009.3.16={birth=yes}
 2037.3.16={death=yes}
 }
 
 600073={
-name="Hannekin"
+name=Hannekin
 dynasty=13067
-dna="ckfmcabalgi"
+dna=ckfmcabalgi
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -1599,17 +1594,17 @@ intrigue=1
 learning=3
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="detached_priest"
-add_trait="patient"
+add_trait=creature_human
+add_trait=detached_priest
+add_trait=patient
 1975.7.1={birth=yes}
 2037.7.1={death=yes}
 }
 
 600074={
-name="Olivier"
+name=Olivier
 dynasty=13067
-dna="homihjmkioe"
+dna=homihjmkioe
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1619,18 +1614,18 @@ intrigue=2
 learning=6
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="temperate"
-add_trait="greedy"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=temperate
+add_trait=greedy
 1978.3.3={birth=yes}
 2023.3.3={death=yes}
 }
 
 600075={
-name="Stefan"
+name=Stefan
 dynasty=13067
-dna="ngggdjmdbia"
+dna=ngggdjmdbia
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -1640,17 +1635,17 @@ intrigue=3
 learning=4
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="kind"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=kind
 1986.1.17={birth=yes}
 2042.1.17={death=yes}
 }
 
 600076={
-name="Steyn"
+name=Steyn
 dynasty=13067
-dna="lfhldobpiog"
+dna=lfhldobpiog
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1660,17 +1655,17 @@ intrigue=4
 learning=5
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="patient"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=patient
 1988.4.19={birth=yes}
 1996.4.19={death=yes}
 }
 
 600077={
-name="Stefan"
+name=Stefan
 dynasty=13067
-dna="ddddcbcbpfc"
+dna=ddddcbcbpfc
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1680,21 +1675,21 @@ intrigue=3
 learning=5
 father=600091
 mother=600092
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="scholar"
-add_trait="charitable"
-add_trait="kind"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=scholar
+add_trait=charitable
+add_trait=kind
+add_trait=cruel
 1990.7.24={birth=yes}
 2044.7.24={death=yes}
 }
 
 600078={
-name="Aliken"
+name=Aliken
 female=yes
 dynasty=13276
-dna="gkokncnekkh"
+dna=gkokncnekkh
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -1702,19 +1697,19 @@ diplomacy=6
 stewardship=6
 intrigue=5
 learning=3
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="proud"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=proud
+add_trait=paranoid
 1965.3.30={birth=yes}
 1985.3.22={add_spouse=600018}
 2018.3.30={death=yes}
 }
 
 600079={
-name="Frans"
+name=Frans
 dynasty=13381
-dna="jmnkcbkehcj"
+dna=jmnkcbkehcj
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -1724,17 +1719,17 @@ intrigue=1
 learning=7
 father=600018
 mother=600078
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="drunkard"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=drunkard
 1990.3.15={birth=yes}
 2079.3.15={death=yes}
 }
 
 600080={
-name="Clais"
+name=Clais
 dynasty=13003
-dna="khboncpikkd"
+dna=khboncpikkd
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -1743,20 +1738,20 @@ stewardship=8
 intrigue=7
 learning=5
 father=600027
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="just"
-add_trait="deceitful"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=just
+add_trait=deceitful
 1946.3.4={birth=yes}
 1971.3.22={add_spouse=600081}
 1978.8.13={death=yes}
 }
 
 600081={
-name="Anna"
+name=Anna
 female=yes
 dynasty=13209
-dna="cmhhgjdjnhl"
+dna=cmhhgjdjnhl
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -1764,21 +1759,21 @@ diplomacy=5
 stewardship=7
 intrigue=5
 learning=7
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="slothful"
-add_trait="greedy"
-add_trait="just"
-add_trait="brave"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=slothful
+add_trait=greedy
+add_trait=just
+add_trait=brave
 1950.10.14={birth=yes}
 1971.3.22={add_spouse=600080}
 2013.10.14={death=yes}
 }
 
 600082={
-name="Reynier"
+name=Reynier
 dynasty=13446
-dna="epkdamnhbpd"
+dna=epkdamnhbpd
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1786,21 +1781,21 @@ diplomacy=6
 stewardship=3
 intrigue=7
 learning=8
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="celibate"
-add_trait="cruel"
-add_trait="just"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=celibate
+add_trait=cruel
+add_trait=just
 1921.6.10={birth=yes}
 1939.7.25={add_spouse=600083}
 1958.6.10={death=yes}
 }
 
 600083={
-name="Joossine"
+name=Joossine
 female=yes
 dynasty=13281
-dna="bgpnhhmfedb"
+dna=bgpnhhmfedb
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -1808,20 +1803,20 @@ diplomacy=1
 stewardship=6
 intrigue=3
 learning=0
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="hunter"
-add_trait="kind"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=hunter
+add_trait=kind
+add_trait=paranoid
 1913.5.27={birth=yes}
 1939.7.25={add_spouse=600082}
 1974.5.27={death=yes}
 }
 
 600084={
-name="Peter"
+name=Peter
 dynasty=13282
-dna="japfadciigf"
+dna=japfadciigf
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -1829,20 +1824,20 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=6
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="celibate"
-add_trait="gluttonous"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=celibate
+add_trait=gluttonous
 1941.5.21={birth=yes}
 1969.3.12={add_spouse=600085}
 1991.5.21={death=yes}
 }
 
 600085={
-name="Aliken"
+name=Aliken
 female=yes
 dynasty=13361
-dna="dficbnpgbfi"
+dna=dficbnpgbfi
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1850,20 +1845,20 @@ diplomacy=3
 stewardship=4
 intrigue=5
 learning=1
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="envious"
-add_trait="zealous"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=envious
+add_trait=zealous
 1944.7.16={birth=yes}
 1969.3.12={add_spouse=600084}
 2000.7.16={death=yes}
 }
 
 600086={
-name="Olinde"
+name=Olinde
 female=yes
 dynasty=13284
-dna="pembfaogebl"
+dna=pembfaogebl
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1871,19 +1866,19 @@ diplomacy=2
 stewardship=4
 intrigue=5
 learning=7
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=paranoid
 1965.8.9={birth=yes}
 1986.9.7={add_spouse=600012}
 2021.8.9={death=yes}
 }
 
 600087={
-name="Badeloge"
+name=Badeloge
 female=yes
 dynasty=13410
-dna="agmnpchgahm"
+dna=agmnpchgahm
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -1893,20 +1888,20 @@ intrigue=7
 learning=4
 father=600011
 mother=4000086
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="cynical"
-add_trait="strong"
-add_trait="chaste"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=cynical
+add_trait=strong
+add_trait=chaste
 1999.5.13={birth=yes}
 2019.5.13={death=yes}
 }
 
 600088={
-name="Jasmijn"
+name=Jasmijn
 female=yes
 dynasty=13410
-dna="ldfbblhlinh"
+dna=ldfbblhlinh
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -1916,20 +1911,22 @@ intrigue=3
 learning=2
 father=600011
 mother=4000086
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="deceitful"
-add_trait="diligent"
-add_trait="arbitrary"
-2001.6.20={birth=yes}
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=deceitful
+add_trait=diligent
+add_trait=arbitrary
+2001.6.20={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2045.6.20={death=yes}
 }
 
 600089={
-name="Rie"
+name=Rie
 female=yes
 dynasty=13410
-dna="pnpfgjdjhef"
+dna=pnpfgjdjhef
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -1939,18 +1936,18 @@ intrigue=6
 learning=3
 father=600011
 mother=4000086
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="lisp"
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=lisp
 2006.6.30={birth=yes}
 2033.6.30={death=yes}
 }
 
 600090={
-name="Josien"
+name=Josien
 female=yes
 dynasty=13410
-dna="fgofpogagdk"
+dna=fgofpogagdk
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -1960,18 +1957,18 @@ intrigue=3
 learning=3
 father=600011
 mother=4000086
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="strong"
-add_trait="kind"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=strong
+add_trait=kind
 2008.8.29={birth=yes}
 2061.8.29={death=yes}
 }
 
 600091={
-name="Stefan"
+name=Stefan
 dynasty=13067
-dna="ojbpohneoem"
+dna=ojbpohneoem
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -1979,20 +1976,20 @@ diplomacy=5
 stewardship=4
 intrigue=5
 learning=1
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="ambitious"
-add_trait="arbitrary"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=ambitious
+add_trait=arbitrary
 1941.11.30={birth=yes}
 1970.2.1={add_spouse=600092}
 1992.11.30={death=yes}
 }
 
 600092={
-name="Ieneke"
+name=Ieneke
 female=yes
 dynasty=13290
-dna="empedmedddl"
+dna=empedmedddl
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -2000,21 +1997,21 @@ diplomacy=6
 stewardship=0
 intrigue=7
 learning=3
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="content"
-add_trait="deceitful"
-add_trait="envious"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=content
+add_trait=deceitful
+add_trait=envious
 1949.1.6={birth=yes}
 1970.2.1={add_spouse=600091}
 2015.1.6={death=yes}
 }
 
 600093={
-name="Zäzilia"
+name=Zäzilia
 female=yes
 dynasty=13375
-dna="nfemdoikkbj"
+dna=nfemdoikkbj
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2024,20 +2021,20 @@ intrigue=5
 learning=7
 father=600009
 mother=600067
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="lustful"
-add_trait="deceitful"
-add_trait="patient"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=lustful
+add_trait=deceitful
+add_trait=patient
 2010.2.14={birth=yes}
 2043.11.14={death=yes}
 }
 
 600094={
-name="Jaccobijn"
+name=Jaccobijn
 female=yes
 dynasty=13375
-dna="fcjfpiddfho"
+dna=fcjfpiddfho
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -2047,19 +2044,19 @@ intrigue=3
 learning=2
 father=600009
 mother=600067
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="poet"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=poet
+add_trait=cruel
 2014.11.17={birth=yes}
 2075.11.17={death=yes}
 }
 
 600095={
-name="Kathrijne"
+name=Kathrijne
 female=yes
 dynasty=13375
-dna="ioammhchppj"
+dna=ioammhchppj
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -2069,19 +2066,19 @@ intrigue=7
 learning=0
 father=600009
 mother=600067
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="arbitrary"
-add_trait="lustful"
-add_trait="gluttonous"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=arbitrary
+add_trait=lustful
+add_trait=gluttonous
 2019.6.27={birth=yes}
 2058.6.27={death=yes}
 }
 
 600096={
-name="Pauwel"
+name=Pauwel
 dynasty=13375
-dna="mekgnmgifgg"
+dna=mekgnmgifgg
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2089,21 +2086,21 @@ diplomacy=2
 stewardship=1
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="just"
-add_trait="diligent"
-add_trait="deceitful"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=just
+add_trait=diligent
+add_trait=deceitful
 1941.10.28={birth=yes}
 1960.2.21={add_spouse=600097}
 2000.10.28={death=yes}
 }
 
 600097={
-name="Jannetje"
+name=Jannetje
 female=yes
 dynasty=13376
-dna="nmbdfifgpdo"
+dna=nmbdfifgpdo
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2111,20 +2108,20 @@ diplomacy=6
 stewardship=3
 intrigue=6
 learning=1
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="gardener"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=gardener
+add_trait=trusting
 1935.11.20={birth=yes}
 1960.2.21={add_spouse=600096}
 2002.11.20={death=yes}
 }
 
 600098={
-name="Cille"
+name=Cille
 female=yes
 dynasty=13377
-dna="goajjgmnmjn"
+dna=goajjgmnmjn
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -2132,21 +2129,21 @@ diplomacy=4
 stewardship=6
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="wroth"
-add_trait="lustful"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=wroth
+add_trait=lustful
+add_trait=stressed
 1992.7.26={birth=yes}
 2009.12.15={add_spouse=4000084}
 2049.7.26={death=yes}
 }
 
 600099={
-name="Trijntje"
+name=Trijntje
 female=yes
 dynasty=13378
-dna="ojiicpegklb"
+dna=ojiicpegklb
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2154,21 +2151,21 @@ diplomacy=5
 stewardship=0
 intrigue=2
 learning=4
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="zealous"
-add_trait="cruel"
-add_trait="proud"
-add_trait="honest"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=zealous
+add_trait=cruel
+add_trait=proud
+add_trait=honest
 1984.6.19={birth=yes}
 2035.6.19={death=yes}
 }
 
 600100={
-name="Alida"
+name=Alida
 female=yes
 dynasty=13378
-dna="lemkaomiplp"
+dna=lemkaomiplp
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -2176,19 +2173,18 @@ diplomacy=2
 stewardship=1
 intrigue=5
 learning=2
-add_trait="creature_human"
 mother=600099
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="temperate"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=temperate
 2005.3.23={birth=yes}
 2032.3.23={death=yes}
 }
 
 600101={
-name="Tijn"
+name=Tijn
 dynasty=13261
-dna="mhcejepaipg"
+dna=mhcejepaipg
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2196,21 +2192,21 @@ diplomacy=0
 stewardship=1
 intrigue=3
 learning=5
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="gardener"
-add_trait="just"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=gardener
+add_trait=just
+add_trait=stressed
 1931.6.28={birth=yes}
 1957.11.9={add_spouse=600102}
 2001.6.28={death=yes}
 }
 
 600102={
-name="Odelt"
+name=Odelt
 female=yes
 dynasty=13232
-dna="ejmjfnoilld"
+dna=ejmjfnoilld
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -2218,21 +2214,23 @@ diplomacy=0
 stewardship=3
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="trusting"
-add_trait="just"
-add_trait="greedy"
-add_trait="kind"
-1938.5.21={birth=yes}
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=trusting
+add_trait=just
+add_trait=greedy
+add_trait=kind
+1938.5.21={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1957.11.9={add_spouse=600101}
 2003.1.16={death=yes}
 }
 
 600103={
-name="Olivier"
+name=Olivier
 dynasty=13562
-dna="edamkdbkdgb"
+dna=edamkdbkdgb
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -2240,20 +2238,20 @@ diplomacy=7
 stewardship=4
 intrigue=4
 learning=1
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="cruel"
-add_trait="proud"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=cruel
+add_trait=proud
 1960.10.28={birth=yes}
 1981.6.4={add_spouse=600104}
 2004.10.28={death=yes}
 }
 
 600104={
-name="Lotte"
+name=Lotte
 female=yes
 dynasty=13097
-dna="mglikkhblac"
+dna=mglikkhblac
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2261,21 +2259,21 @@ diplomacy=5
 stewardship=4
 intrigue=5
 learning=8
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="duelist"
-add_trait="ambitious"
-add_trait="diligent"
-add_trait="patient"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=duelist
+add_trait=ambitious
+add_trait=diligent
+add_trait=patient
 1956.6.24={birth=yes}
 1981.6.4={add_spouse=600103}
 2031.6.3={death=yes}
 }
 
 600105={
-name="Bartolomeus"
+name=Bartolomeus
 dynasty=13195
-dna="lakpgpcajel"
+dna=lakpgpcajel
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -2283,20 +2281,20 @@ diplomacy=3
 stewardship=4
 intrigue=7
 learning=2
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="cruel"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=cruel
+add_trait=gregarious
 1932.6.27={birth=yes}
 1953.5.6={add_spouse=600106}
 1991.6.27={death=yes}
 }
 
 600106={
-name="Aagtje"
+name=Aagtje
 female=yes
 dynasty=13235
-dna="pkodkambick"
+dna=pkodkambick
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -2304,17 +2302,17 @@ diplomacy=4
 stewardship=7
 intrigue=8
 learning=2
-add_trait="creature_human"
-add_trait="underhanded_rogue"
+add_trait=creature_human
+add_trait=underhanded_rogue
 1933.1.19={birth=yes}
 1953.5.6={add_spouse=600105}
 1998.4.4={death=yes}
 }
 
 600107={
-name="Marquart"
+name=Marquart
 dynasty=13531
-dna="cjcbckgekbd"
+dna=cjcbckgekbd
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2322,21 +2320,21 @@ diplomacy=8
 stewardship=6
 intrigue=2
 learning=3
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="hunter"
-add_trait="deceitful"
-add_trait="stressed"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=hunter
+add_trait=deceitful
+add_trait=stressed
 1930.11.21={birth=yes}
 1953.11.14={add_spouse=600108}
 1996.11.21={death=yes}
 }
 
 600108={
-name="Joke"
+name=Joke
 female=yes
 dynasty=13239
-dna="blbcjophekb"
+dna=blbcjophekb
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -2344,19 +2342,19 @@ diplomacy=8
 stewardship=4
 intrigue=2
 learning=2
-add_trait="creature_human"
-add_trait="detached_priest"
-add_trait="brave"
-add_trait="chaste"
+add_trait=creature_human
+add_trait=detached_priest
+add_trait=brave
+add_trait=chaste
 1935.1.22={birth=yes}
 1953.11.14={add_spouse=600107}
 2014.10.24={death=yes}
 }
 
 600109={
-name="Claeuwaert"
+name=Claeuwaert
 dynasty=13261
-dna="ncnopegnige"
+dna=ncnopegnige
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -2366,19 +2364,19 @@ intrigue=2
 learning=4
 father=600101
 mother=600102
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="impaler"
-add_trait="brave"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=impaler
+add_trait=brave
 1974.11.30={birth=yes}
 2038.11.30={death=yes}
 }
 
 600110={
-name="Margareta"
+name=Margareta
 female=yes
 dynasty=13261
-dna="elllpofadeh"
+dna=elllpofadeh
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -2388,19 +2386,19 @@ intrigue=1
 learning=3
 father=600101
 mother=600102
-add_trait="creature_human"
-add_trait="elusive_shadow"
-add_trait="zealous"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=elusive_shadow
+add_trait=zealous
+add_trait=trusting
 1981.7.11={birth=yes}
 2013.7.11={death=yes}
 }
 
 600111={
-name="Ofrah"
+name=Ofrah
 female=yes
 dynasty=13562
-dna="nakpdhhjcoa"
+dna=nakpdhhjcoa
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -2410,18 +2408,18 @@ intrigue=0
 learning=4
 father=600103
 mother=600104
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=gregarious
 1984.3.22={birth=yes}
 2053.3.22={death=yes}
 }
 
 600112={
-name="Gerda"
+name=Gerda
 female=yes
 dynasty=13195
-dna="effdojclkan"
+dna=effdojclkan
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -2431,20 +2429,20 @@ intrigue=2
 learning=4
 father=600105
 mother=600106
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="hedonist"
-add_trait="wroth"
-add_trait="arbitrary"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=hedonist
+add_trait=wroth
+add_trait=arbitrary
 1966.8.14={birth=yes}
 2016.8.14={death=yes}
 }
 
 600113={
-name="Jasminne"
+name=Jasminne
 female=yes
 dynasty=13195
-dna="plikhekhghi"
+dna=plikhekhghi
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -2454,19 +2452,19 @@ intrigue=4
 learning=6
 father=600105
 mother=600106
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="kind"
-add_trait="paranoid"
-add_trait="wroth"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=kind
+add_trait=paranoid
+add_trait=wroth
 1981.2.9={birth=yes}
 2054.2.9={death=yes}
 }
 
 600114={
-name="Kristof"
+name=Kristof
 dynasty=13195
-dna="ggmdmmhlfmi"
+dna=ggmdmmhlfmi
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -2476,18 +2474,18 @@ intrigue=5
 learning=5
 father=600105
 mother=600106
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="greedy"
-add_trait="gluttonous"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=greedy
+add_trait=gluttonous
 1988.4.8={birth=yes}
 2001.4.8={death=yes}
 }
 
 600115={
-name="Ollie"
+name=Ollie
 dynasty=13531
-dna="bihapgoljli"
+dna=bihapgoljli
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -2497,19 +2495,19 @@ intrigue=5
 learning=5
 father=600107
 mother=600108
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="ambitious"
-add_trait="humble"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=ambitious
+add_trait=humble
 1965.10.28={birth=yes}
 2014.10.28={death=yes}
 }
 
 600116={
-name="Helena"
+name=Helena
 female=yes
 dynasty=13351
-dna="feoehkjkjec"
+dna=feoehkjkjec
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2517,18 +2515,18 @@ diplomacy=1
 stewardship=7
 intrigue=3
 learning=2
-add_trait="creature_human"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=skilled_tactician
 1965.8.20={birth=yes}
 1987.7.5={add_spouse=600034}
 2005.8.20={death=yes}
 }
 
 600117={
-name="Irene"
+name=Irene
 female=yes
 dynasty=13195
-dna="fhjfokkhnnn"
+dna=fhjfokkhnnn
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -2538,18 +2536,18 @@ intrigue=2
 learning=4
 father=600034
 mother=600116
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="brave"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=brave
 1993.9.15={birth=yes}
 2016.9.15={death=yes}
 }
 
 600118={
-name="Isold"
+name=Isold
 female=yes
 dynasty=13390
-dna="ghcpdepmimh"
+dna=ghcpdepmimh
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2557,20 +2555,22 @@ diplomacy=4
 stewardship=1
 intrigue=7
 learning=4
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="brave"
-add_trait="charitable"
-1977.5.18={birth=yes}
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=brave
+add_trait=charitable
+1977.5.18={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1997.2.25={add_spouse=600035}
 2002.5.18={death=yes}
 }
 
 600119={
-name="Isold"
+name=Isold
 female=yes
 dynasty=13531
-dna="kleooanlbao"
+dna=kleooanlbao
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -2580,21 +2580,21 @@ intrigue=3
 learning=1
 father=600035
 mother=600118
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="scholar"
-add_trait="zealous"
-add_trait="greedy"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=scholar
+add_trait=zealous
+add_trait=greedy
+add_trait=gregarious
 2000.12.17={birth=yes}
 2084.12.17={death=yes}
 }
 
 600120={
-name="Nel"
+name=Nel
 female=yes
 dynasty=13342
-dna="ndkbijajcgi"
+dna=ndkbijajcgi
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2602,19 +2602,19 @@ diplomacy=6
 stewardship=4
 intrigue=0
 learning=5
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="brave"
-add_trait="temperate"
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=brave
+add_trait=temperate
 1969.9.26={birth=yes}
 1999.6.12={add_spouse=600033}
 2019.9.26={death=yes}
 }
 
 600121={
-name="Sicco"
+name=Sicco
 dynasty=13562
-dna="dkcmpakpfoh"
+dna=dkcmpakpfoh
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -2624,16 +2624,16 @@ intrigue=7
 learning=1
 father=600033
 mother=600120
-add_trait="creature_human"
-add_trait="underhanded_rogue"
+add_trait=creature_human
+add_trait=underhanded_rogue
 2001.3.21={birth=yes}
 2037.3.21={death=yes}
 }
 
 600122={
-name="Willem"
+name=Willem
 dynasty=13072
-dna="ndkbijapfoh"
+dna=ndkbijapfoh
 culture=westerlander
 religion=myrmidian
 martial=2
@@ -2641,18 +2641,18 @@ diplomacy=3
 stewardship=4
 intrigue=7
 learning=5
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="honest"
-add_trait="charitable"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=honest
+add_trait=charitable
+add_trait=cynical
+add_trait=gregarious
 1982.5.11={birth=yes}
 2057.3.15={death=yes}
 }
 
 600123={
-name="Roderick" # Roderick Vijfswinkel First ruler of free Marienburg
+name=Roderick # Roderick Vijfswinkel First ruler of free Marienburg
 dynasty=13246
 culture=westerlander
 religion=sigmarite
@@ -2661,19 +2661,18 @@ diplomacy=6
 stewardship=4
 intrigue=3
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2392.9.21={birth=yes}
 2457.4.5={death=yes}
 }
 
-
 600124={
-name="Thijs" # Thijs van Onderzoeker First ruler of mercantile Marienburg
+name=Thijs # Thijs van Onderzoeker First ruler of mercantile Marienburg
 dynasty=13009
 culture=westerlander
 religion=sigmarite
@@ -2682,18 +2681,18 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2271.6.26={birth=yes}
 2331.2.25={death=yes}
 }
 
 600125={
-name="Jan" #  Jan Koopmans Starting patriarch of mercantile Marienburg
+name=Jan #  Jan Koopmans Starting patriarch of mercantile Marienburg
 dynasty=13579
 culture=westerlander
 religion=sigmarite
@@ -2702,18 +2701,18 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2262.6.26={birth=yes}
 2318.2.25={death=yes}
 }
 
 600126={
-name="Pieter" # Pieter Winkler Starting patriarch of mercantile Marienburg
+name=Pieter # Pieter Winkler Starting patriarch of mercantile Marienburg
 dynasty=13578
 culture=westerlander
 religion=sigmarite
@@ -2722,18 +2721,18 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2267.6.26={birth=yes}
 2341.2.25={death=yes}
 }
 
 600127={
-name="Guillaume" # Guillaume Vijfswinkel Starting patriarch of mercantile Marienburg
+name=Guillaume # Guillaume Vijfswinkel Starting patriarch of mercantile Marienburg
 dynasty=13246
 culture=westerlander
 religion=sigmarite
@@ -2742,18 +2741,18 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2267.6.26={birth=yes}
 2341.2.25={death=yes}
 }
 
 600128={
-name="Remeeus" # Remeeus Smeele Starting patriarch of mercantile Marienburg
+name=Remeeus # Remeeus Smeele Starting patriarch of mercantile Marienburg
 dynasty=13033
 culture=westerlander
 religion=sigmarite
@@ -2762,18 +2761,18 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="greedy"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=greedy
+add_trait=cynical
+add_trait=gregarious
 2267.6.26={birth=yes}
 2341.2.25={death=yes}
 }
 
 600129={
-name="Wikus" # van de Kuypers Starting patriarch of mercantile Marienburg
+name=Wikus # van de Kuypers Starting patriarch of mercantile Marienburg
 dynasty=13008
 culture=westerlander
 religion=sigmarite
@@ -2782,20 +2781,20 @@ diplomacy=9
 stewardship=7
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="deceitful"
-add_trait="proud"
-add_trait="cynical"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=deceitful
+add_trait=proud
+add_trait=cynical
+add_trait=gregarious
 2262.2.21={birth=yes}
 2325.3.22={death=yes}
 }
 
 600130={
-name="Thijs" #van Onderzoeker Patrician of 2512
+name=Thijs #van Onderzoeker Patrician of 2512
 dynasty=13009
-dna="pkmpcpmincj"
+dna=pkmpcpmincj
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -2803,18 +2802,18 @@ diplomacy=4
 stewardship=4
 intrigue=5
 learning=5
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="charitable"
-add_trait="honest"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=charitable
+add_trait=honest
 2485.11.1={birth=yes}
 2549.3.17={death=yes}
 }
 
 600131={
-name="Jaan" #van de Kuypers Patrician of 2512
+name=Jaan #van de Kuypers Patrician of 2512
 dynasty=13008
-dna="heipgcjpoob"
+dna=heipgcjpoob
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -2824,21 +2823,21 @@ intrigue=4
 learning=6
 father=600151
 mother=600152
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="content"
-add_trait="trusting"
-add_trait="arbitrary"
-add_trait="craven"
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=content
+add_trait=trusting
+add_trait=arbitrary
+add_trait=craven
 2455.1.1={birth=yes}
 2533.6.21={death=yes}
 }
 
 600132={
-name="Clotilde" #de Roelef matriarch of 2512
+name=Clotilde #de Roelef matriarch of 2512
 female=yes
 dynasty=13010
-dna="cfhdhcgkhad"
+dna=cfhdhcgkhad
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2847,21 +2846,21 @@ stewardship=4
 intrigue=3
 learning=2
 father=600136
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="mystic"
-add_trait="wroth"
-add_trait="brave"
-add_trait="lustful"
-add_trait="just"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=mystic
+add_trait=wroth
+add_trait=brave
+add_trait=lustful
+add_trait=just
 2465.3.1={birth=yes}
 2519.8.19={death=yes}
 }
 
 600133={
-name="Leo" # van Haagen patrician of 2512
+name=Leo # van Haagen patrician of 2512
 dynasty=13011
-dna="ohlgacadond"
+dna=ohlgacadond
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -2869,18 +2868,18 @@ diplomacy=4
 stewardship=3
 intrigue=3
 learning=4
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="brave"
-add_trait="content"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=brave
+add_trait=content
 2445.7.1={birth=yes}
 2519.8.19={death=yes}
 }
 
 600134={
-name="Wessel" #van Scheldt patrician of 2512
+name=Wessel #van Scheldt patrician of 2512
 dynasty=13012
-dna="bfidchakcgo"
+dna=bfidchakcgo
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -2888,19 +2887,19 @@ diplomacy=7
 stewardship=1
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="proud"
-add_trait="paranoid"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=proud
+add_trait=paranoid
+add_trait=ambitious
 2432.3.1={birth=yes}
 2517.11.28={death=yes}
 }
 
 600135={
-name="Luitpold" #van Raemerswijk patrician of 2512
+name=Luitpold #van Raemerswijk patrician of 2512
 dynasty=13013
-dna="hheejmeeief"
+dna=hheejmeeief
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -2908,20 +2907,20 @@ diplomacy=3
 stewardship=2
 intrigue=3
 learning=5
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="ambitious"
-add_trait="brave"
-add_trait="content"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=ambitious
+add_trait=brave
+add_trait=content
 
 2450.5.1={birth=yes}
 2521.5.6={death=yes}
 }
 
 600136={
-name="Oldrik" #Clotilde's father
+name=Oldrik #Clotilde's father
 dynasty=13010
-dna="fbedhbpmipm"
+dna=fbedhbpmipm
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -2929,20 +2928,20 @@ diplomacy=5
 stewardship=5
 intrigue=1
 learning=6
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="cruel"
-add_trait="proud"
-add_trait="craven"
-add_trait="diligent"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=cruel
+add_trait=proud
+add_trait=craven
+add_trait=diligent
 2432.5.2={birth=yes}
 2486.10.10={death=yes}
 }
 
 600137={
-name="Sasha" #van den Nijmenk Marienburg patrician of 2512
+name=Sasha #van den Nijmenk Marienburg patrician of 2512
 dynasty=13015
-dna="mmjepfbbanh"
+dna=mmjepfbbanh
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -2950,19 +2949,19 @@ diplomacy=2
 stewardship=3
 intrigue=5
 learning=5
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="hedonist"
-add_trait="diligent"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=hedonist
+add_trait=diligent
+add_trait=gregarious
 2469.1.1={birth=yes}
 2530.10.22={death=yes}
 }
 
 600138={
-name="Karl" #den Euwe Marienburg patriarch of 2512
+name=Karl #den Euwe Marienburg patriarch of 2512
 dynasty=13016
-dna="hlfgljiccmb"
+dna=hlfgljiccmb
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -2970,19 +2969,21 @@ diplomacy=4
 stewardship=3
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="hedonist"
-add_trait="gregarious"
-2453.11.1={birth=yes}
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=hedonist
+add_trait=gregarious
+2453.11.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2492.1.21={add_spouse=200002}
 2532.5.21={death=yes}
 }
 
 600139={
-name="Maximilian" #Rothemuur Marienburg patriarch of 2512
+name=Maximilian #Rothemuur Marienburg patriarch of 2512
 dynasty=13017
-dna="cefajemnboo"
+dna=cefajemnboo
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -2990,20 +2991,20 @@ diplomacy=7
 stewardship=1
 intrigue=4
 learning=1
-add_trait="creature_human"
-add_trait="fortune_builder"
-add_trait="honest"
-add_trait="chaste"
-add_trait="paranoid"
-add_trait="patient"
+add_trait=creature_human
+add_trait=fortune_builder
+add_trait=honest
+add_trait=chaste
+add_trait=paranoid
+add_trait=patient
 2446.1.1={birth=yes}
 2529.3.12={death=yes}
 }
 
 600140={
-name="Pieter" #van Onderzoeker heir of 2512
+name=Pieter #van Onderzoeker heir of 2512
 dynasty=13009
-dna="hcjmeijfkhg"
+dna=hcjmeijfkhg
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -3012,19 +3013,19 @@ stewardship=1
 intrigue=6
 learning=0
 father=600130
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="gardener"
-add_trait="craven"
-add_trait="cynical"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=gardener
+add_trait=craven
+add_trait=cynical
 2508.7.1={birth=yes}
 2561.5.26={death=yes}
 }
 
 600141={
-name="Koenraad" #van de Kuypers heir of 2512
+name=Koenraad #van de Kuypers heir of 2512
 dynasty=13008
-dna="kgnmfbcggoc"
+dna=kgnmfbcggoc
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -3033,20 +3034,20 @@ stewardship=5
 intrigue=6
 learning=8
 father=600131
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="trusting"
-add_trait="charitable"
-add_trait="arbitrary"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=trusting
+add_trait=charitable
+add_trait=arbitrary
 2482.1.1={birth=yes}
 2550.10.17={death=yes}
 }
 
 600142={
-name="Clara" #de Roelef NIECE heir of 2512
+name=Clara #de Roelef NIECE heir of 2512
 female=yes
 dynasty=13010
-dna="lobhmmiaglb"
+dna=lobhmmiaglb
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -3055,19 +3056,19 @@ stewardship=3
 intrigue=2
 learning=4
 father=600146
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="poet"
-add_trait="diligent"
-add_trait="cynical"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=poet
+add_trait=diligent
+add_trait=cynical
 2497.1.1={birth=yes}
 2547.10.9={death=yes}
 }
 
 600143={
-name="Crispijn" # van Haagen heir of 2512
+name=Crispijn # van Haagen heir of 2512
 dynasty=13011
-dna="efplobpleon"
+dna=efplobpleon
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -3076,17 +3077,17 @@ stewardship=7
 intrigue=2
 learning=6
 father=600133
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="drunkard"
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=drunkard
 2477.1.1={birth=yes}
 2558.9.12={death=yes}
 }
 
 600144={
-name="Rudolph" #van Scheldt ADOPTED heir of 2512
+name=Rudolph #van Scheldt ADOPTED heir of 2512
 dynasty=13012
-dna="mlpcmnfkafm"
+dna=mlpcmnfkafm
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -3095,17 +3096,17 @@ stewardship=5
 intrigue=0
 learning=4
 father=600134
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="ill"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=ill
 2484.1.1={birth=yes}
 2541.6.10={death=yes}
 }
 
 600145={
-name="Anton" #van Raemerswijk heir of 2512
+name=Anton #van Raemerswijk heir of 2512
 dynasty=13013
-dna="agcdaljdhbb"
+dna=agcdaljdhbb
 culture=westerlander
 religion=sigmarite
 martial=8
@@ -3114,19 +3115,19 @@ stewardship=2
 intrigue=4
 learning=4
 father=600135
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="charitable"
-add_trait="shy"
-add_trait="patient"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=charitable
+add_trait=shy
+add_trait=patient
 2489.1.1={birth=yes}
 2534.11.6={death=yes}
 }
 
 600146={
-name="Bram"
+name=Bram
 dynasty=13010
-dna="kbildnbifek"
+dna=kbildnbifek
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -3135,18 +3136,18 @@ stewardship=4
 intrigue=4
 learning=6
 father=600136
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="just"
-add_trait="cynical"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=just
+add_trait=cynical
 2476.1.1={birth=yes}
 2503.1.13={death=yes}
 }
 
 600147={
-name="Gillis" #van den Nijmenk Marienburg heir of 2512
+name=Gillis #van den Nijmenk Marienburg heir of 2512
 dynasty=13015
-dna="ebmgcijpljf"
+dna=ebmgcijpljf
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -3155,20 +3156,20 @@ stewardship=5
 intrigue=5
 learning=6
 father=600137
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="proud"
-add_trait="trusting"
-add_trait="arbitrary"
-add_trait="greedy"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=proud
+add_trait=trusting
+add_trait=arbitrary
+add_trait=greedy
 2496.7.1={birth=yes}
 2548.7.26={death=yes}
 }
 
 600148={
-name="Egmond" #den Euwe Marienburg heir of 2512
+name=Egmond #den Euwe Marienburg heir of 2512
 dynasty=13016
-dna="fghakinnlpj"
+dna=fghakinnlpj
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -3178,19 +3179,19 @@ intrigue=4
 learning=2
 father=600138
 mother=200002
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="content"
-add_trait="cruel"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=content
+add_trait=cruel
+add_trait=trusting
 2494.5.2={birth=yes}
 2554.5.22={death=yes}
 }
 
 600149={
-name="Maximilian" #Rothemuur Marienburg heir of 2512
+name=Maximilian #Rothemuur Marienburg heir of 2512
 dynasty=13017
-dna="igkohahifbc"
+dna=igkohahifbc
 culture=westerlander
 religion=sigmarite
 martial=5
@@ -3199,21 +3200,20 @@ stewardship=3
 intrigue=0
 learning=2
 father=600139
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="humble"
-add_trait="chaste"
-add_trait="diligent"
-add_trait="patient"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=humble
+add_trait=chaste
+add_trait=diligent
+add_trait=patient
 2495.5.1={birth=yes}
 2551.1.25={death=yes}
 }
 
-
 600150={
-name="Maarten"
+name=Maarten
 dynasty=13008
-dna="fbbbeldmikg"
+dna=fbbbeldmikg
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -3221,20 +3221,20 @@ diplomacy=5
 stewardship=5
 intrigue=3
 learning=5
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="wroth"
-add_trait="slothful"
-add_trait="honest"
-add_trait="content"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=wroth
+add_trait=slothful
+add_trait=honest
+add_trait=content
 2401.7.1={birth=yes}
 2469.9.30={death=yes}
 }
 
 600151={
-name="Jacco"
+name=Jacco
 dynasty=13008
-dna="oogamalmmob"
+dna=oogamalmmob
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -3243,20 +3243,20 @@ stewardship=3
 intrigue=0
 learning=5
 father=600150
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="temperate"
-add_trait="lustful"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=temperate
+add_trait=lustful
 2424.5.1={birth=yes}
 2441.5.11={add_spouse=600152}
 2485.7.14={death=yes}
 }
 
 600152={
-name="Annagret"
+name=Annagret
 female=yes
 dynasty=13304
-dna="hbangficeme"
+dna=hbangficeme
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -3264,19 +3264,19 @@ diplomacy=3
 stewardship=4
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="misguided_warrior"
-add_trait="greedy"
-add_trait="cynical"
+add_trait=creature_human
+add_trait=misguided_warrior
+add_trait=greedy
+add_trait=cynical
 2421.9.1={birth=yes}
 2441.5.11={add_spouse=600151}
 2485.7.14={death=yes}
 }
 
 600153={
-name="Lieven"
+name=Lieven
 dynasty=13008
-dna="ajabfgdpclm"
+dna=ajabfgdpclm
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -3286,20 +3286,20 @@ intrigue=4
 learning=3
 father=600151
 mother=600152
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="wroth"
-add_trait="lunatic"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=wroth
+add_trait=lunatic_2
+add_trait=paranoid
 2446.1.1={birth=yes}
 2485.7.14={death=yes}
 }
 
 600154={
-name="Godelieve"
+name=Godelieve
 female=yes
 dynasty=13008
-dna="jjccdndepja"
+dna=jjccdndepja
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -3309,19 +3309,19 @@ intrigue=4
 learning=5
 father=600151
 mother=600152
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="hunter"
-add_trait="cruel"
-add_trait="just"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=hunter
+add_trait=cruel
+add_trait=just
 2457.11.1={birth=yes}
 2485.7.14={death=yes}
 }
 
 600155={
-name="Roeland"
+name=Roeland
 dynasty=13007
-dna="dengepacnfn"
+dna=dengepacnfn
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -3329,17 +3329,17 @@ diplomacy=3
 stewardship=1
 intrigue=4
 learning=4
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="charitable"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=charitable
 2469.1.1={birth=yes}
 2533.10.16={death=yes}
 }
 
 600156={
-name="Norbert"
+name=Norbert
 dynasty=13002
-dna="pbggadjhkkl"
+dna=pbggadjhkkl
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -3347,18 +3347,18 @@ diplomacy=3
 stewardship=7
 intrigue=5
 learning=2
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="mystic"
-add_trait="just"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=mystic
+add_trait=just
 2483.1.1={birth=yes}
 2556.5.17={death=yes}
 }
 
 600157={
-name="Gustaaf"
+name=Gustaaf
 dynasty=13492
-dna="ehcglneeimi"
+dna=ehcglneeimi
 culture=westerlander
 religion=sigmarite
 martial=0
@@ -3366,19 +3366,19 @@ diplomacy=3
 stewardship=5
 intrigue=5
 learning=3
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="duelist"
-add_trait="proud"
-add_trait="kind"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=duelist
+add_trait=proud
+add_trait=kind
 2481.1.1={birth=yes}
 2542.11.20={death=yes}
 }
 
 600158={
-name="Gozewijn"
+name=Gozewijn
 dynasty=13340
-dna="fgpjbmecpai"
+dna=fgpjbmecpai
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -3386,19 +3386,21 @@ diplomacy=5
 stewardship=2
 intrigue=4
 learning=1
-add_trait="creature_human"
-add_trait="naive_appeaser"
-add_trait="duelist"
-add_trait="diligent"
-add_trait="wroth"
-2471.3.1={birth=yes}
+add_trait=creature_human
+add_trait=naive_appeaser
+add_trait=duelist
+add_trait=diligent
+add_trait=wroth
+2471.3.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2534.8.25={death=yes}
 }
 
 600159={
-name="Arthur"
+name=Arthur
 dynasty=13425
-dna="cncmnlmoepl"
+dna=cncmnlmoepl
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -3406,18 +3408,18 @@ diplomacy=4
 stewardship=1
 intrigue=0
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="patient"
-add_trait="paranoid"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=patient
+add_trait=paranoid
 2480.9.1={birth=yes}
 2549.4.7={death=yes}
 }
 
 600160={
-name="Gijsbert"
+name=Gijsbert
 dynasty=13384
-dna="hncghfbbnac"
+dna=hncghfbbnac
 culture=westerlander
 religion=sigmarite
 martial=1
@@ -3425,20 +3427,20 @@ diplomacy=6
 stewardship=2
 intrigue=3
 learning=2
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="proud"
-add_trait="temperate"
-add_trait="chaste"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=proud
+add_trait=temperate
+add_trait=chaste
 2442.11.1={birth=yes}
 2514.11.23={death=yes}
 }
 
 600161={
-name="Olda"
+name=Olda
 female=yes
 dynasty=13384
-dna="dffcpebpjoc"
+dna=dffcpebpjoc
 culture=westerlander
 religion=sigmarite
 martial=6
@@ -3447,21 +3449,21 @@ stewardship=6
 intrigue=3
 learning=1
 father=600160
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="chaste"
-add_trait="zealous"
-add_trait="greedy"
-add_trait="honest"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=chaste
+add_trait=zealous
+add_trait=greedy
+add_trait=honest
 2481.1.1={birth=yes}
 2545.9.20={death=yes}
 }
 
 600162={
-name="Joossine"
+name=Joossine
 female=yes
 dynasty=13384
-dna="beohdplkfli"
+dna=beohdplkfli
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -3470,17 +3472,17 @@ stewardship=4
 intrigue=2
 learning=4
 mother=600161
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="patient"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=patient
 2504.5.1={birth=yes}
 2544.4.20={death=yes}
 }
 
 600163={
-name="Tomas"
+name=Tomas
 dynasty=13384
-dna="fbjbmbfjlnj"
+dna=fbjbmbfjlnj
 culture=westerlander
 religion=sigmarite
 martial=7
@@ -3489,19 +3491,19 @@ stewardship=5
 intrigue=3
 learning=8
 mother=600161
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="trusting"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=trusting
+add_trait=ambitious
 2511.1.1={birth=yes}
 2577.9.2={death=yes}
 }
 
 600164={
-name="Helga"
+name=Helga
 female=yes
 dynasty=13384
-dna="edldjcgppmh"
+dna=edldjcgppmh
 culture=westerlander
 religion=sigmarite
 martial=2
@@ -3510,20 +3512,20 @@ stewardship=4
 intrigue=5
 learning=8
 father=600160
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="duelist"
-add_trait="wroth"
-add_trait="honest"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=duelist
+add_trait=wroth
+add_trait=honest
 2480.1.1={birth=yes}
 2538.3.5={death=yes}
 }
 
 600165={
-name="Loretta"
+name=Loretta
 female=yes
 dynasty=13384
-dna="jplhejcmjcj"
+dna=jplhejcmjcj
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -3532,21 +3534,21 @@ stewardship=8
 intrigue=5
 learning=5
 mother=600164
-add_trait="creature_human"
-add_trait="detached_priest"
-add_trait="scholar"
-add_trait="humble"
-add_trait="zealous"
-add_trait="craven"
-add_trait="lustful"
+add_trait=creature_human
+add_trait=detached_priest
+add_trait=scholar
+add_trait=humble
+add_trait=zealous
+add_trait=craven
+add_trait=lustful
 2510.1.1={birth=yes}
 2531.2.8={death=yes}
 }
 
 600166={
-name="Gozwin"
+name=Gozwin
 dynasty=13484
-dna="jdlhajccjcj"
+dna=jdlhajccjcj
 culture=westerlander
 religion=sigmarite
 martial=4
@@ -3555,17 +3557,17 @@ stewardship=8
 intrigue=5
 learning=5
 mother=600164
-add_trait="creature_human"
-add_trait="detached_priest"
-add_trait="scholar"
+add_trait=creature_human
+add_trait=detached_priest
+add_trait=scholar
 2500.10.5={birth=yes}
 2551.5.18={death=yes}
 }
 
 600167={
-name="Staas"
+name=Staas
 dynasty=13580
-dna="dficbnpgbfi"
+dna=dficbnpgbfi
 culture=westerlander
 religion=sigmarite
 martial=3
@@ -3573,17 +3575,17 @@ diplomacy=3
 stewardship=4
 intrigue=5
 learning=5
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="proud"
-add_trait="cynical"
-add_trait="vampire_lahmian_hidden"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=proud
+add_trait=cynical
+add_trait=vampire_lahmian_hidden
 2484.5.16={birth=yes}
 2525.7.16={death=yes}
 }
 
 600168={
-name="Nastassja"
+name=Nastassja
 female=yes
 dynasty=13581
 culture=westerlander
@@ -3593,13 +3595,15 @@ diplomacy=3
 stewardship=8
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="proud"
-add_trait="hedonist"
-add_trait="tall"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=proud
+add_trait=hedonist
+add_trait=tall
 
-2496.8.16={birth=yes}
+2496.8.16={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2515.6.10={add_spouse=500159}
 2538.5.11={death=yes}
 }

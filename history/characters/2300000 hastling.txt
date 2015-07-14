@@ -3,7 +3,7 @@ name="Sava"
 dynasty=66000
 dna="bcejdpejlde"
 culture=hastling
-religion=chaos
+religion=slaanesh
 martial=7
 diplomacy=1
 stewardship=5
@@ -14,17 +14,18 @@ add_trait="thrifty_clerk"
 add_trait="charitable"
 add_trait="humble"
 add_trait="gregarious"
-1961.1.1={birth=yes}
+1961.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2011.1.27={death=yes}
 }
 
 2300001={
 name="Emese"
-female=yes
 dynasty=66001
 dna="icolcjhkdgi"
 culture=hastling
-religion=chaos
+religion=slaanesh
 martial=5
 diplomacy=5
 stewardship=3
@@ -42,11 +43,10 @@ add_trait="trusting"
 
 2300002={
 name="Skolasztika"
-female=yes
 dynasty=66002
 dna="innlglkggkp"
 culture=hastling
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=5
 stewardship=7
@@ -84,7 +84,7 @@ name="Gábor"
 dynasty=66004
 dna="ipodebbodbg"
 culture=hastling
-religion=chaos
+religion=khorne
 martial=6
 diplomacy=5
 stewardship=3
@@ -103,7 +103,7 @@ name="Elemér"
 dynasty=66005
 dna="ihnjmfjgkdp"
 culture=hastling
-religion=chaos
+religion=nurgle
 martial=7
 diplomacy=3
 stewardship=7
@@ -123,7 +123,7 @@ name="Tamás"
 dynasty=66006
 dna="hnkhgfoccpf"
 culture=hastling
-religion=chaos
+religion=nurgle
 martial=5
 diplomacy=2
 stewardship=5
@@ -142,7 +142,7 @@ name="Sándor"
 dynasty=66007
 dna="fbeecocljke"
 culture=hastling
-religion=chaos
+religion=nurgle
 martial=2
 diplomacy=4
 stewardship=7
@@ -231,7 +231,9 @@ add_trait="creature_human"
 add_trait="misguided_warrior"
 add_trait="craven"
 add_trait="lustful"
-1976.1.1={birth=yes}
+1976.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2011.4.19={death=yes}
 }
 
@@ -383,7 +385,9 @@ learning=3
 add_trait="creature_human"
 add_trait="detached_priest"
 add_trait="ambitious"
-1971.1.1={birth=yes}
+1971.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2031.6.5={death=yes}
 }
 

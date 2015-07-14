@@ -1,3 +1,5 @@
+###ההה
+
 857500={
 name="Gotthold"
 dynasty=15500
@@ -95,6 +97,4 @@ add_trait="cruel"
 2494.1.1={birth=yes}
 2579.9.22={death=yes}
 }
-
-
 

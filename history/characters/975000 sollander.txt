@@ -1,3 +1,5 @@
+###ההה
+
 975000={
 name="Etti"
 female=yes
@@ -35,7 +37,6 @@ add_trait="creature_human"
 add_trait="hunter"
 add_trait="elusive_shadow"
 add_trait="greedy"
-
 father=975025
 mother=975024
 
@@ -83,10 +84,8 @@ add_trait="duelist"
 add_trait="misguided_warrior"
 add_trait="cruel"
 add_trait="wroth"
-
 father=975025
 mother=975024
-
 
 1993.10.13={birth=yes}
 2010.2.4={add_spouse=500018}
@@ -109,7 +108,6 @@ add_trait="brilliant_strategist"
 add_trait="weak"
 add_trait="chaste"
 add_trait="humble"
-
 father=975025
 mother=975024
 
@@ -134,7 +132,6 @@ add_trait="charismatic_negotiator"
 add_trait="content"
 add_trait="temperate"
 add_trait="trusting"
-
 1988.3.6={birth=yes}
 2045.8.26={death=yes}
 }
@@ -153,7 +150,6 @@ learning=4
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="mastermind_theologian"
-
 1990.10.14={birth=yes}
 2016.10.6={death=yes}
 }
@@ -172,8 +168,6 @@ learning=0
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="elusive_shadow"
-
-
 1989.7.17={birth=yes}
 2050.11.4={death=yes}
 }
@@ -192,7 +186,6 @@ add_trait="creature_human"
 add_trait="lustful"
 add_trait="hedonist"
 add_trait="intricate_webweaver"
-
 1982.6.9={birth=yes}
 2012.7.30={death=yes}
 }
@@ -210,7 +203,6 @@ learning=1
 add_trait="creature_human"
 add_trait="naive_appeaser"
 add_trait="lustful"
-
 1980.10.9={birth=yes}
 2000.10.10={add_spouse=975010}
 2065.6.5={death=yes}
@@ -230,9 +222,10 @@ learning=9
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="thrifty_clerk"
-
 1982.3.13={birth=yes}
-2000.10.10={add_spouse=975009}
+2000.10.10={add_spouse=975009
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2064.10.6={death=yes}
 }
 
@@ -249,9 +242,7 @@ learning=7
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="midas_touched"
-
 add_trait="strong"
-
 father=975009
 mother=975010
 
@@ -273,7 +264,6 @@ add_trait="creature_human"
 add_trait="legit_bastard"
 add_trait="grey_eminence"
 add_trait="proud"
-
 father=975008
 
 2001.6.10={birth=yes}
@@ -296,7 +286,6 @@ add_trait="mastermind_theologian"
 add_trait="envious"
 add_trait="patient"
 add_trait="legit_bastard"
-
 father=975008
 
 2007.11.30={birth=yes}
@@ -319,7 +308,6 @@ add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="shy"
 add_trait="bastard"
-
 father=975008
 
 2008.11.9={birth=yes}
@@ -343,7 +331,6 @@ add_trait="thrifty_clerk"
 add_trait="cynical"
 add_trait="just"
 add_trait="bastard"
-
 father=975008
 
 2008.7.14={birth=yes}
@@ -366,7 +353,6 @@ add_trait="mastermind_theologian"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="gregarious"
-
 father=975019
 
 1980.11.10={birth=yes}
@@ -388,7 +374,6 @@ add_trait="creature_human"
 add_trait="impaler"
 add_trait="amateurish_plotter"
 add_trait="honest"
-
 father=975019
 
 1982.9.12={birth=yes}
@@ -410,7 +395,6 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="midas_touched"
 add_trait="craven"
-
 father=975019
 
 1994.6.18={birth=yes}
@@ -430,7 +414,6 @@ learning=3
 add_trait="creature_human"
 add_trait="gardener"
 add_trait="tough_soldier"
-
 1960.1.26={birth=yes}
 2003.10.13={death=yes}
 }
@@ -454,7 +437,7 @@ add_trait="mastermind_theologian"
 add_trait="paranoid"
 add_trait="kind"
 add_trait="gregarious"
-
+add_trait="sword_1"
 88.11.10={birth=yes}
 157.12.17={death=yes}
 }
@@ -475,7 +458,7 @@ add_trait="amateurish_plotter"
 add_trait="honest"
 add_trait="ambitious"
 add_trait="greedy"
-
+add_trait="sword_1"
 651.9.12={birth=yes}
 732.8.30={death=yes}
 }
@@ -494,7 +477,7 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="midas_touched"
 add_trait="craven"
-
+add_trait="sword_1"
 1107.6.18={birth=yes}
 1179.6.22={death=yes}
 }
@@ -514,8 +497,10 @@ add_trait="gardener"
 add_trait="tough_soldier"
 add_trait="ugly"
 add_trait="cruel"
-
-1611.1.26={birth=yes}
+add_trait="sword_1"
+1611.1.26={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1685.10.13={death=yes}
 }
 
@@ -526,7 +511,6 @@ dynasty=22008
 culture=sollander
 religion=sigmarite
 add_trait="creature_human"
-
 1965.1.26={birth=yes}
 1985.1.15={add_spouse=975025}
 2029.10.13={death=yes}
@@ -538,7 +522,6 @@ dynasty=22009
 culture=sollander
 religion=sigmarite
 add_trait="creature_human"
-
 1960.1.26={birth=yes}
 1985.1.15={add_spouse=975024}
 2007.10.13={death=yes}
@@ -729,7 +712,6 @@ add_trait="arbitrary"
 2502.7.1={birth=yes}
 2567.11.26={death=yes}
 }
-
 
 975035={
 name="Cora"

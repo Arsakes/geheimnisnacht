@@ -1,0 +1,519 @@
+###ההה
+
+7000000={
+name="Mik-Mak"
+dynasty=1300
+culture=lizardman_lost
+religion=old_ones
+add_trait="creature_skink"
+
+1990.4.30={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000001={
+name="Skinkida"
+dynasty=1301
+culture=lizardman_lost
+religion=old_ones
+add_trait="creature_skink"
+
+1991.4.30={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000002={
+name="Isopach"
+dynasty=1302
+culture=lizardman_lost
+religion=old_ones
+add_trait="creature_skink"
+
+1992.4.30={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000003={
+	name="Mazdamundi"
+	dynasty = 1049
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+
+7000004={
+	name="Adohi-Tehga"
+	dynasty = 1074
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+
+7000005={ #Itza
+	name="Xltep"
+	dynasty = 1141
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+
+# Tepec-Intzi: Itza
+7000006={ #Itza (d_cocoquin)
+	name="Tepec-Intzi"
+	dynasty = 1142
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+# Huinitenuchli: Xlanhuapec
+7000007={ #Xlanhuapec
+	name="Huinitenuchli"
+	dynasty = 1143
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+# Tenuchli: Pahuax
+7000008={
+	name="Tenuchli"
+	dynasty = 1144
+	culture=lizardman
+	religion=old_ones
+	add_trait = "creature_slann"
+	add_trait="lore_high_magic" #Slann magic
+	add_trait = "lizardman_sleepingslann"
+	
+	1.1.1={birth=yes}
+	3000.1.1={death=yes}
+}
+# Arexibo
+
+# Chiccotta
+
+# Chuqa-Xi
+
+# Huinitenuchli
+
+# Itz-Tepec
+
+# Itz-Zloc
+
+# Nanahua
+
+#
+7000009={
+name="Cuxaan"
+dynasty=1114
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.10.4={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000010={
+name="Tlaco"
+dynasty=1152
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1992.4.30={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000011={
+name="Tloctsa"
+dynasty=1150
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.6.20={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000012={
+name="Yaotl"
+dynasty=1133
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.6.20={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000013={
+name="Ixtli"
+dynasty=1129
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1985.5.2={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000014={
+name="Tupac"
+dynasty=1128
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1989.1.26={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000015={
+name="Zuma"
+dynasty=1090
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.1.1={birth=yes}
+2021.12.2={death=yes}
+}
+
+7000016={
+name="Tehe"
+dynasty=1091
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.2.20={birth=yes}
+2026.12.2={death=yes}
+}
+
+7000017={
+name="Moktsa"
+dynasty=1100
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.2.20={birth=yes}
+2024.2.6={death=yes}
+}
+
+7000018={
+name="Puuc"
+dynasty=1104
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.1.15={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000019={
+name="Qlazh"
+dynasty=1092
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.1.2={birth=yes}
+2030.2.20={death=yes}
+}
+
+7000020={
+name="Pochex"
+dynasty=1093
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1984.2.12={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000021={
+name="Cuaq"
+dynasty=1094
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1989.3.12={birth=yes}
+2026.2.20={death=yes}
+}
+
+7000022={
+name="Pocssa"
+dynasty=1095
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1987.7.10={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000023={
+name="Boqkuit"
+dynasty=1096
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.10.14={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000024={
+name="Quetzalxochitl"
+dynasty=1097
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.11.28={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000025={
+name="Gorxl"
+dynasty=1098
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1983.4.2={birth=yes}
+2022.1.16={death=yes}
+}
+
+7000026={
+name="Tezcacoatl"
+dynasty=1099
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.1.15={birth=yes}
+2032.8.24={death=yes}
+}
+
+7000027={
+name="Uldayolt"
+dynasty=1040
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.1.15={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000028={
+name="Tyratec"
+dynasty=1041
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1991.2.14={birth=yes}
+2024.2.20={death=yes}
+}
+
+
+7000029={
+name="Eedz"
+dynasty=1108
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.1.23={birth=yes}
+2024.2.20={death=yes}
+}
+
+
+7000030={
+name="Kronh"
+dynasty=1109
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.4.10={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000031={
+name="Tenenhauin"
+dynasty=1110
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1987.1.5={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000032={
+name="Xtux"
+dynasty=1111
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.8.12={birth=yes}
+2030.8.4={death=yes}
+}
+
+7000033={
+name="Xholtenqhex"
+dynasty=1112
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1989.3.12={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000034={
+name="Carnooqs"
+dynasty=1113
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.11.23={birth=yes}
+2024.2.20={death=yes}
+}
+
+7000035={
+name="Nopaltzin"
+dynasty=1114
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.10.2={birth=yes}
+2034.2.20={death=yes}
+}
+
+7000036={
+name="Mazdasor"
+dynasty=1115
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1984.7.23={birth=yes}
+2024.10.4={death=yes}
+}
+
+7000037={
+name="Mictlantecuhtli"
+dynasty=1116
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1987.5.20={birth=yes}
+2024.12.2={death=yes}
+}
+
+7000038={
+name="Tualtsoatz"
+dynasty=1117
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.12.16={birth=yes}
+2026.1.22={death=yes}
+}
+
+
+7000039={
+name="Ichtaca"
+dynasty=1118
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.2.14={birth=yes}
+2026.1.22={death=yes}
+}
+
+
+7000040={
+name="Ihuicatl"
+dynasty=1119
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1990.10.2={birth=yes}
+2026.1.22={death=yes}
+}
+
+
+7000041={
+name="Toqmithza"
+dynasty=1120
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1988.12.16={birth=yes}
+2026.1.22={death=yes}
+}
+
+
+7000042={
+name="Poctlaztlan"
+dynasty=1121
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1987.11.2={birth=yes}
+2026.1.22={death=yes}
+}
+
+
+7000043={
+name="Huanodon"
+dynasty=1122
+culture=lizardman
+religion=old_ones
+add_trait="creature_skink"
+
+1986.8.10={birth=yes}
+2026.1.22={death=yes}
+}

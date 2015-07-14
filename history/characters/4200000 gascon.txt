@@ -16,7 +16,9 @@ add_trait="gregarious"
 add_trait="kind"
 father=4200024
 mother=4200025
-1992.4.30={birth=yes}
+2001.4.30={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2041.12.2={death="2041.12.2"}
 }
 
@@ -33,10 +35,7 @@ learning=1
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="misguided_warrior"
-
 add_trait="craven"
-
-
 1971.11.12={birth=yes}
 2060.8.10={death=yes}
 }
@@ -52,11 +51,8 @@ stewardship=0
 intrigue=11
 learning=6
 add_trait="creature_human"
-father=4200103
-mother=4200104
 add_trait="intricate_webweaver"
 add_trait="greedy"
-
 add_trait="tall"
 1989.9.29={birth=yes}
 2050.3.25={death=yes}
@@ -73,13 +69,10 @@ stewardship=11
 intrigue=1
 learning=4
 add_trait="creature_human"
-
 add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
-father=4200124
-mother=4200125
 1993.5.22={birth=yes}
 2042.8.28={death=yes}
 }
@@ -102,7 +95,7 @@ add_trait="temperate"
 add_trait="humble"
 father=4200081
 mother=4200080
-1955.5.4={birth="1959.5.4"}
+1955.5.4={birth="1955.5.4"}
 2062.2.1={death=yes}
 }
 
@@ -120,13 +113,9 @@ add_trait="creature_human"
 add_trait="hedonist"
 add_trait="indulgent_wastrel"
 add_trait="ill"
-
-father=4200131
-mother=4200132
 1991.7.22={birth="1991.7.22"}
 2033.11.3={death=yes}
 }
-
 
 4200006={
 name="Guillem"
@@ -139,12 +128,8 @@ stewardship=7
 intrigue=11
 learning=1
 add_trait="creature_human"
-
 add_trait="misguided_warrior"
 add_trait="content"
-
-father=4200239
-
 1985.4.20={birth=yes}
 2045.7.2={death=yes}}
 
@@ -161,10 +146,8 @@ learning=2
 add_trait="creature_human"
 add_trait="poet"
 add_trait="fortune_builder"
-
 add_trait="trusting"
 add_trait="lustful"
-father=4200240
 1993.8.3={birth=yes}
 2025.4.10={death=yes}
 }
@@ -203,10 +186,8 @@ learning=5
 add_trait="creature_human"
 add_trait="duelist"
 add_trait="grey_eminence"
-
 add_trait="homosexual"
 add_trait="lisp"
-
 1959.9.12={birth=yes}
 2030.2.19={death=yes}
 }
@@ -225,7 +206,6 @@ add_trait="creature_human"
 add_trait="hedonist"
 add_trait="underhanded_rogue"
 add_trait="quick"
-
 1952.9.26={birth="1952.9.26"}
 2017.12.25={death=yes}
 }
@@ -244,16 +224,14 @@ learning=4
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="scholarly_theologian"
-
 add_trait="genius"
 add_trait="fair"
-
 1983.2.8={birth="1983.2.8"}
 2067.4.28={death=yes}
 }
 
 4200012={
-name="Vaelram"
+name="Alvernon"
 dynasty=28056
 culture=gascon
 religion=grail
@@ -267,8 +245,6 @@ add_trait="scholar"
 add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
-father=4200242
-
 1978.10.9={birth=yes}
 2023.7.30={death=yes}
 }
@@ -289,7 +265,6 @@ add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
-
 1972.4.18={birth="1972.4.18"}
 2040.1.8={death=yes}
 }
@@ -310,7 +285,6 @@ add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
-
 1980.11.22={birth=yes}
 2063.6.4={death=yes}
 }
@@ -331,8 +305,9 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
-father=4200243
-1989.12.2={birth=yes}
+1989.12.2={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2027.1.13={death=yes}
 }
 
@@ -352,8 +327,6 @@ add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
-father=4200103
-mother=4200104
 1984.9.30={birth=yes}
 2019.11.14={death=yes}
 }
@@ -376,7 +349,7 @@ add_trait="craven"
 add_trait="greedy"
 father=4200056
 
-1977.3.17={birth=yes}
+1987.3.17={birth=yes}
 2041.9.14={death=yes}
 }
 
@@ -391,9 +364,7 @@ stewardship=1
 intrigue=5
 learning=5
 add_trait="creature_human"
-
 add_trait="midas_touched"
-
 add_trait="kind"
 mother=4200069
 
@@ -417,8 +388,6 @@ add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="fair"
-father=4200135
-
 1991.1.10={birth=yes}
 2045.10.28={death=yes}
 }
@@ -439,8 +408,6 @@ add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
-father=4200137
-mother=4200138
 1992.4.18={birth=yes}
 2040.1.8={death=yes}
 }
@@ -461,8 +428,6 @@ add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
-father=4200244
-
 1980.11.22={birth=yes}
 2063.6.4={death=yes}
 }
@@ -508,7 +473,6 @@ add_trait="honest"
 2049.11.14={death=yes}
 }
 
-
 ############New characters added by DrSunshine##############
 4200024={
 name="Aimeric"
@@ -527,7 +491,7 @@ add_trait="patient"
 add_trait="shy"
 add_trait="gluttonous"
 1970.3.30={birth=yes}
-1990.10.6={add_spouse=4200025}
+2000.10.6={add_spouse=4200025}
 2027.3.30={death=yes}
 }
 
@@ -549,7 +513,6 @@ add_trait="brave"
 add_trait="arbitrary"
 add_trait="syphilitic"
 1981.7.9={birth=yes}
-1990.10.6={add_spouse=4200024}
 2041.12.2={death=yes}
 }
 
@@ -749,7 +712,9 @@ add_trait="envious"
 add_trait="syphilitic"
 father=4200032
 mother=4200033
-2011.5.26={birth=yes}
+2011.5.26={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2088.3.7={death=yes}
 }
 
@@ -1081,7 +1046,9 @@ add_trait="cruel"
 add_trait="ambitious"
 father=4200045
 mother=4200046
-2025.7.9={birth=yes}
+2025.7.9={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2092.6.7={death=yes}
 }
 
@@ -1374,7 +1341,9 @@ add_trait="envious"
 add_trait="ambitious"
 add_trait="honest"
 father=4200014
-2003.3.9={birth=yes}
+2003.3.9={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2023.6.1={add_spouse=4200061}
 2075.6.15={death=yes}
 }
@@ -1618,7 +1587,9 @@ add_trait="greedy"
 add_trait="ill"
 father=4200070
 mother=4200069
-1992.12.15={birth=yes}
+1992.12.15={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2043.7.21={death=yes}
 }
 
@@ -1824,7 +1795,9 @@ add_trait="diligent"
 add_trait="temperate"
 father=4200081
 mother=4200080
-1956.1.1={birth=yes}
+1956.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1964.9.2={death=yes}
 }
 
@@ -1910,8 +1883,9 @@ add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="cruel"
 add_trait="paranoid"
-father=4200243
-1991.8.21={birth=yes}
+1991.8.21={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2010.2.11={add_spouse=4200085}
 2057.10.20={death=yes}
 }
@@ -2044,7 +2018,6 @@ add_trait="fortune_builder"
 add_trait="arbitrary"
 add_trait="craven"
 add_trait="cruel"
-father=4200240
 1982.5.1={birth=yes}
 2004.3.6={add_spouse=4200093}
 2035.5.1={death=yes}
@@ -2067,7 +2040,9 @@ add_trait="honest"
 add_trait="shy"
 add_trait="envious"
 add_trait="brave"
-1986.2.11={birth=yes}
+1986.2.11={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2004.3.6={add_spouse=4200092}
 2055.7.28={death=yes}
 }
@@ -2108,7 +2083,6 @@ add_trait="creature_human"
 add_trait="detached_priest"
 add_trait="greedy"
 add_trait="cynical"
-father=4200239
 1990.11.4={birth=yes}
 2008.5.1={add_spouse=4200094}
 2041.1.7={death=yes}
@@ -2217,11 +2191,12 @@ add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="honest"
 add_trait="lustful"
-1211.1.1={birth=yes}
+1211.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1283.1.26={give_nickname=nick_the_proud}
 1299.10.13={death=yes}
 }
-
 
 4200101={
 name="Eduard"

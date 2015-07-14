@@ -1,0 +1,128 @@
+#Queen of the Amazons
+55000={
+	name = Lyssa
+	dynasty = 500
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = charismatic_negotiator
+	add_trait = beautiful 
+	add_trait = proud 
+	add_trait = strong 
+	add_trait = impaler
+	1980.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+55001={
+	name = Maya
+	dynasty = 500
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	mother = 55000
+	2000.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+55002={
+	name = Inanna
+	dynasty = 500
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	mother = 55000
+	2002.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+55003={
+	name = Phaedra
+	dynasty = 500
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	mother = 55000
+	2006.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+##Ruler of the Western counties##
+55004={
+	name = Belyse
+	dynasty = 501
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	add_trait = proud 
+	add_trait = strong 
+	1990.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+##Ruler of the eastern counties##
+55005={
+	name = Concordia
+	dynasty = 502
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	add_trait = proud 
+	add_trait = strong 
+	1985.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}
+
+##Ruler of the northern isles##
+55006={
+	name = Calypso
+	dynasty = 503
+	culture = amazon_main 
+	religion = amazon
+	female=yes
+	martial = 5
+	diplomacy = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	add_trait = beautiful 
+	add_trait = proud 
+	add_trait = strong 
+	1985.5.27={ birth=yes }
+	2060.4.21={ death=yes }
+}

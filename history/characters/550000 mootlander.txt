@@ -1,3 +1,5 @@
+###ההה
+
 550000={
 name="Isengrim"
 dynasty=79009
@@ -8,14 +10,12 @@ diplomacy=8
 stewardship=11
 intrigue=0
 learning=4
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="indulgent_wastrel"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="craven"
-
 1976.11.14={birth=yes}
 1998.11.10={add_spouse=550004}
 2052.11.22={death=yes}
@@ -32,13 +32,11 @@ diplomacy=9
 stewardship=4
 intrigue=0
 learning=1
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="falconer"
 add_trait="misguided_warrior"
 add_trait="greedy"
-
-1961.8.9={birth=yes}
+1960.8.9={birth=yes}
 1978.5.3={add_spouse=550011}
 2000.1.9={add_spouse=550016}
 2020.4.23={death=yes}
@@ -54,12 +52,10 @@ diplomacy=8
 stewardship=7
 intrigue=11
 learning=0
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="tall"
-
 father=550023
 mother=550024
 
@@ -78,12 +74,10 @@ diplomacy=8
 stewardship=4
 intrigue=1
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="duelist"
 add_trait="charismatic_negotiator"
 add_trait="legit_bastard"
-
 father=550025
 mother=550024
 
@@ -102,14 +96,12 @@ diplomacy=2
 stewardship=10
 intrigue=11
 learning=1
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="intricate_webweaver"
 add_trait="wroth"
 add_trait="chaste"
 add_trait="humble"
-
 father=550023
 mother=550024
 
@@ -128,14 +120,12 @@ diplomacy=6
 stewardship=0
 intrigue=3
 learning=2
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="poet"
 add_trait="intricate_webweaver"
 add_trait="trusting"
 add_trait="temperate"
 add_trait="legit_bastard"
-
 father=550025
 mother=550024
 
@@ -154,13 +144,11 @@ diplomacy=7
 stewardship=8
 intrigue=5
 learning=5
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="mystic"
 add_trait="flamboyant_schemer"
 add_trait="ill"
 add_trait="content"
-
 father=550000
 mother=550004
 
@@ -179,12 +167,10 @@ diplomacy=7
 stewardship=11
 intrigue=9
 learning=7
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="duelist"
 add_trait="misguided_warrior"
 add_trait="drunkard"
-
 father=550000
 mother=550004
 
@@ -202,11 +188,9 @@ diplomacy=7
 stewardship=1
 intrigue=3
 learning=1
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="mastermind_theologian"
-
 father=550000
 mother=550004
 
@@ -225,13 +209,10 @@ diplomacy=4
 stewardship=8
 intrigue=6
 learning=2
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hunter"
 add_trait="fortune_builder"
-
 add_trait="twin"
-
 father=550000
 mother=550004
 
@@ -249,13 +230,10 @@ diplomacy=7
 stewardship=11
 intrigue=6
 learning=7
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="gardener"
 add_trait="skilled_tactician"
-
 add_trait="twin"
-
 father=550000
 mother=550004
 
@@ -273,13 +251,10 @@ diplomacy=10
 stewardship=1
 intrigue=7
 learning=2
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="impaler"
 add_trait="underhanded_rogue"
-
 add_trait="fair"
-
 1958.7.19={birth=yes}
 1978.5.3={add_spouse=550001}
 1996.1.27={death=yes}
@@ -295,13 +270,11 @@ diplomacy=8
 stewardship=4
 intrigue=3
 learning=3
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="diligent"
 add_trait="strong"
-
 father=550011
 mother=550001
 
@@ -319,14 +292,12 @@ diplomacy=0
 stewardship=1
 intrigue=5
 learning=1
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="scholar"
 add_trait="fortune_builder"
 add_trait="envious"
 add_trait="patient"
 add_trait="proud"
-
 father=550011
 mother=550001
 
@@ -345,14 +316,12 @@ diplomacy=8
 stewardship=9
 intrigue=0
 learning=6
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="duelist"
 add_trait="martial_cleric"
 add_trait="shy"
 add_trait="arbitrary"
 add_trait="ambitious"
-
 father=550011
 mother=550001
 
@@ -371,14 +340,12 @@ diplomacy=1
 stewardship=4
 intrigue=6
 learning=7
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="duelist"
 add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="cynical"
 add_trait="paranoid"
-
 father=550016
 mother=550001
 
@@ -396,15 +363,13 @@ diplomacy=7
 stewardship=4
 intrigue=8
 learning=2
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="gardener"
 add_trait="flamboyant_schemer"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="zealous"
-
-1984.11.14={birth=yes}
+1983.11.14={birth=yes}
 2000.1.9={add_spouse=550001}
 2009.6.17={death=yes}
 }
@@ -419,14 +384,12 @@ diplomacy=8
 stewardship=3
 intrigue=8
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="detached_priest"
 add_trait="just"
 add_trait="craven"
 add_trait="honest"
-
 father=550016
 mother=550001
 
@@ -445,12 +408,10 @@ diplomacy=4
 stewardship=10
 intrigue=11
 learning=8
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="misguided_warrior"
 add_trait="greedy"
-
 father=550002
 mother=550020
 
@@ -469,13 +430,11 @@ diplomacy=4
 stewardship=6
 intrigue=6
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="impaler"
 add_trait="underhanded_rogue"
 add_trait="tall"
 add_trait="weak"
-
 father=550002
 mother=550020
 
@@ -494,14 +453,12 @@ diplomacy=7
 stewardship=1
 intrigue=4
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hunter"
 add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="temperate"
 add_trait="cruel"
-
 father=550023
 mother=550024
 
@@ -521,14 +478,11 @@ diplomacy=7
 stewardship=1
 intrigue=2
 learning=7
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hedonist"
 add_trait="mastermind_theologian"
-
 add_trait="content"
 add_trait="humble"
-
 father=550023
 mother=550024
 
@@ -547,14 +501,12 @@ diplomacy=7
 stewardship=7
 intrigue=6
 learning=0
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hunter"
 add_trait="elusive_shadow"
 add_trait="chaste"
 add_trait="trusting"
 add_trait="ill"
-
 father=550023
 mother=550024
 
@@ -572,12 +524,9 @@ diplomacy=7
 stewardship=4
 intrigue=4
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="poet"
 add_trait="intricate_webweaver"
-
-
 1935.9.23={birth=yes}
 1968.2.23={add_spouse=550024}
 1994.4.8={death=yes}
@@ -594,13 +543,10 @@ diplomacy=7
 stewardship=5
 intrigue=5
 learning=9
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="hunter"
 add_trait="indulgent_wastrel"
 add_trait="lustful"
-
-
 1950.2.14={birth=yes}
 1968.2.23={add_spouse=550023}
 2006.11.5={death=yes}
@@ -616,16 +562,13 @@ diplomacy=8
 stewardship=10
 intrigue=6
 learning=2
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="gardener"
 add_trait="tough_soldier"
 add_trait="drunkard"
-
 1940.3.24={birth=yes}
 1999.9.17={death=yes}
 }
-
 
 550026={
 name="Hisme" #Elector Hisme Stoutheart
@@ -638,13 +581,11 @@ diplomacy=9
 stewardship=8
 intrigue=5
 learning=3
-add_trait="creature_human"
 add_trait="creature_halfling"
 add_trait="charismatic_negotiator"
 add_trait="kind"
 add_trait="gluttonous"
 add_trait="gregarious"
-
 2457.11.28={birth=yes}
 2550.2.15={death=yes}
 }

@@ -1,0 +1,778 @@
+##Orion and Ariel##
+
+60000={
+name="Orion" #Placeholder until proper mechanics are in place
+dynasty="94521"
+culture= loren
+religion= asrai_cadai
+martial=16
+diplomacy=10
+stewardship=10
+intrigue=4
+learning=8
+dna = dqa0dmsvici
+properties = ai0bea0000a
+add_trait="creature_elf"
+add_trait="zealous"
+add_trait="wroth"
+add_trait="brave"
+add_trait="strong"
+add_trait="proud"
+add_trait="chaste"
+add_trait="brilliant_strategist"
+add_trait="avatar_kurnous"
+add_trait="magic_potential_1"
+100.4.2={birth=yes}
+200.4.16={add_matrilineal_spouse=60001
+		effect = { set_character_flag = ai_flag_refuse_conversion }
+prestige = 400}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60001={
+name="Ariel" #Placeholder until proper mechanics are in place
+female= yes
+dynasty="94502"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=12
+stewardship=8
+intrigue=10
+learning=12
+dna = dhmhjuaeaco
+properties = ac00c000000
+add_trait="creature_elf"
+add_trait="proud"
+add_trait="patient"
+add_trait="diligent"
+add_trait="just"
+add_trait="fair"
+add_trait="chaste"
+add_trait="smart"
+add_trait="lore_dark_magic"
+add_trait="lore_high_magic"
+add_trait="asrai_spellsinger"
+add_trait="mastermind_theologian"
+add_trait="magic_potential_4"
+add_trait="avatar_isha"
+100.4.2={birth=yes}
+200.1.1= {
+effect = { add_character_modifier = { name = magic_power_4 duration = -1 } }
+}
+200.4.16={
+		add_spouse=60000
+		effect={ set_character_flag = ai_flag_refuse_conversion
+			set_character_flag = no_wedding_event
+			spouse={ 
+				set_character_flag=no_wedding_event
+				remove_spouse=spouse
+				add_spouse_matrilineal=ROOT
+				clr_character_flag=no_wedding_event
+			} 
+			clr_character_flag=no_wedding_event
+prestige = 400
+		} 
+}
+2600.9.20={death={death_reason = death_murder}}
+}
+##Arranoc##
+
+60002={
+name="Amadri" #Ironbark
+dna="ccametbcaam"
+properties="ac00c000000"
+dynasty="94500"
+culture= loren
+religion= asrai_cadai
+martial=12
+diplomacy=14
+stewardship=12
+intrigue=6
+learning=10
+add_trait="kind"
+add_trait="gregarious"
+add_trait="charitable"
+add_trait="brave"
+add_trait="zealous"
+add_trait="charismatic_negotiator"
+1400.4.2={birth=yes}
+1600.10.29={ give_nickname = nick_ironbark
+add_trait="creature_treekin"
+effect = { set_graphical_culture = forest_main } }
+2600.9.20={death={death_reason = death_murder } }
+}
+
+60022={
+name="Galed" 
+dynasty="94500"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=6
+stewardship=10
+intrigue=6
+learning=6
+add_trait="creature_elf" 
+add_trait="diligent"
+add_trait="wroth"
+add_trait="proud"
+add_trait="fortune_builder"
+add_trait="magic_potential_1"
+1726.12.6={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Argwylon##
+
+60003={
+name="Thalandor" #Doomstar
+dynasty="94513"
+culture= loren
+religion= asrai_cadai
+martial=12
+diplomacy=8
+stewardship=8
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="temperate"
+add_trait="quick"
+add_trait="proud"
+add_trait="scholarly_theologian"
+add_trait="lore_dark_magic"
+add_trait="asrai_spellsinger"
+add_trait="magic_potential_3"
+1566.4.2={birth=yes}
+1600.10.29={give_nickname=nick_doomstar
+effect = { add_character_modifier = { name = magic_power_4 duration = -1 } } }
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60023={
+name="Ithel"
+dynasty="94513"
+culture= loren
+religion= asrai_cadai
+martial=12
+diplomacy=6
+stewardship=4
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="temperate"
+add_trait="zealous"
+add_trait="brave"
+add_trait="cruel"
+add_trait="tough_soldier"
+add_trait="magic_potential_1"
+1726.4.2={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Modryn##
+
+60004={
+name="Morlanna"
+female = yes
+dynasty="94506"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=10
+stewardship=6
+intrigue=12
+learning=8
+add_trait="creature_elf"
+add_trait="cynical"
+add_trait="arbitrary"
+add_trait="proud"
+add_trait="brave"
+add_trait="smart"
+add_trait="intricate_webweaver"
+add_trait="asrai_spellsinger"
+add_trait="lore_dark_magic"
+add_trait="magic_potential_2"
+1458.8.1={birth=yes}
+1500.1.1= {
+effect = { add_character_modifier = { name = magic_power_3 duration = -1 } }
+}
+1500.4.17={
+		add_spouse=60005
+		effect={ 
+			set_character_flag=no_wedding_event
+			spouse={ 
+				set_character_flag=no_wedding_event
+				remove_spouse=spouse
+				add_spouse_matrilineal=ROOT
+				clr_character_flag=no_wedding_event
+			} 
+			clr_character_flag=no_wedding_event
+prestige = 400
+		} 
+}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60005={
+name="Arlas"
+dynasty="94523"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=10
+stewardship=8
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="proud"
+add_trait="content"
+add_trait="cynical"
+add_trait="paranoid"
+add_trait="smart"
+add_trait="skilled_tactician"
+add_trait="asrai_spellsinger"
+add_trait="lore_dark_magic"
+1462.4.2={birth=yes}
+add_trait="magic_potential_2"
+1500.1.1= {
+effect = { add_character_modifier = { name = magic_power_3 duration = -1 } }
+}
+1518.4.16={add_matrilineal_spouse=60004}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60021={
+name="Orianna"
+female= yes
+dynasty="94506"
+culture= loren
+religion= asrai_cadai
+father=60005
+mother=60004
+martial=6
+diplomacy= 8
+stewardship=6
+intrigue=6
+learning=6
+add_trait="creature_elf"
+add_trait="proud"
+add_trait="gregarious"
+add_trait="fair"
+add_trait="chaste"
+add_trait="underhanded_rogue"
+1902.10.10={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Talsyn##
+
+60006={
+name="Araloth" #The Bold
+dynasty="94516"
+culture= loren
+religion= asrai_cadai
+martial=14
+diplomacy=8
+stewardship=6
+intrigue=4
+learning=8
+add_trait="creature_elf"
+add_trait="diligent"
+add_trait="brave"
+add_trait="just"
+add_trait="gregarious"
+add_trait="brilliant_strategist"
+1724.7.17={birth=yes}
+2000.10.29={give_nickname=nick_the_bold}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Cavaroc##
+
+60007={
+name="Edrael" 
+dynasty="94507"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=10
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="wroth"
+add_trait="brave"
+add_trait="aggressive_leader"
+add_trait="cavalry_leader"
+add_trait="skilled_tactician"
+1802.7.17={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60024={
+name="Karloc" 
+dynasty="94507"
+culture= loren
+religion= asrai_cadai
+father= 60007
+martial=10
+diplomacy=6
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="temperate"
+add_trait="brave"
+add_trait="cynical"
+add_trait="cavalry_leader"
+add_trait="tough_soldier"
+1942.1.24={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Atylwyth##
+
+60008={
+name="Sceolan" #The Hooked Blade
+dynasty="94501"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=8
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="smart"
+add_trait="proud"
+add_trait="brave"
+add_trait="skilled_tactician"
+add_trait="magic_potential_1"
+1754.7.17={birth=yes}
+1800.10.29={give_nickname=nick_the_hooked_blade}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60028={
+name="Felfin" 
+dynasty="94501"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=6
+add_trait="creature_elf"
+add_trait="cynical"
+add_trait="proud"
+add_trait="chaste"
+add_trait="brave"
+add_trait="misguided_warrior"
+1948.4.20={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Cythral##
+
+60009={
+name="Draya" #The Nighthawk
+female = yes
+dynasty="94517"
+culture= loren
+religion= asrai_cadai
+martial=12
+diplomacy=6
+stewardship=6
+intrigue=10
+learning=8
+add_trait="creature_elf"
+add_trait="tall"
+add_trait="cynical"
+add_trait="brave"
+add_trait="skilled_tactician"
+add_trait="magic_potential_1"
+1600.2.20={birth=yes}
+1800.10.29={give_nickname=nick_the_nighthawk}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60029={
+name="Alissa" 
+female = yes
+dynasty="94517"
+culture= loren
+religion= asrai_cadai
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="patient"
+add_trait="gregarious"
+add_trait="honest"
+add_trait="naive_appeaser"
+1792.4.28={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Tirsyth##
+
+60010={
+name="Arda" #The Parted Veil
+female = yes
+dynasty="94518"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=8
+stewardship=8
+intrigue=6
+learning=10
+add_trait="creature_elf"
+add_trait="humble"
+add_trait="zealous"
+add_trait="content"
+add_trait="scholarly_theologian"
+add_trait="magic_potential_1"
+1628.6.28={birth=yes}
+1630.6.28={give_nickname=nick_the_parted_veil}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60030={
+name="Darana" 
+dynasty="94518"
+culture= loren
+religion= asrai_cadai
+martial=6
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=6
+add_trait="creature_elf"
+add_trait="arbitrary"
+add_trait="patient"
+add_trait="humble"
+add_trait="charismatic_negotiator"
+1682.2.12={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+
+##Wydrioth##
+
+60011={
+name="Findol" 
+dynasty="94509"
+culture= loren
+religion= asrai_cadai
+martial=14
+diplomacy=8
+stewardship=8
+intrigue=8
+learning=6
+add_trait="creature_elf"
+add_trait="brave"
+add_trait="wroth"
+add_trait="strong"
+add_trait="arbitrary"
+add_trait="skilled_tactician"
+add_trait="magic_potential_1"
+1704.2.14={birth=yes}
+1900.4.16={add_spouse=60012}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60012={
+name="Evelyne" 
+female = yes
+dynasty="94517"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=10
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="brave"
+add_trait="zealous"
+add_trait="proud"
+add_trait="tough_soldier"
+1842.2.22={birth=yes}
+1900.4.16={add_spouse=60011}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60026={
+name="Lain" 
+dynasty="94509"
+culture= loren
+religion= asrai_cadai
+father=60011
+mother=60012
+martial=6
+diplomacy=6
+stewardship=8
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="content"
+add_trait="twin"
+add_trait="smart"
+add_trait="zealous"
+add_trait="proud"
+add_trait="scholarly_theologian"
+add_trait="magic_potential_2"
+1942.2.22={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60027={
+name="Aithe" 
+female = yes
+dynasty="94509"
+culture= loren
+religion= asrai_cadai
+father=60011
+mother=60012
+martial=10
+diplomacy=10
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="brave"
+add_trait="twin"
+add_trait="patient"
+add_trait="proud"
+add_trait="skilled_tactician"
+add_trait="magic_potential_2"
+1942.2.22={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+#Sisters of Twilight
+
+60019={
+name="Naestra" 
+female = yes
+dynasty="94502"
+culture= loren
+religion= asrai_cadai
+mother= 60001
+martial=10
+diplomacy=10
+stewardship=8
+intrigue=8
+learning=8
+add_trait="creature_elf"
+add_trait="brave"
+add_trait="temperate"
+add_trait="kind"
+add_trait="twin"
+add_trait="hardy"
+add_trait="smart"
+add_trait="green_dragon_mount"
+add_trait="tough_soldier"
+add_trait="asrai_spellsinger"
+add_trait="lore_high_magic"
+add_trait="magic_potential_3"
+1604.4.12={birth=yes}
+1700.1.1= {
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60018={
+name="Arahan" 
+female = yes
+dynasty="94502"
+culture= loren
+religion= asrai_cadai
+mother= 60001
+martial=12
+diplomacy=6
+stewardship=8
+intrigue=10
+learning=8
+add_trait="creature_elf"
+add_trait="brave"
+add_trait="arbitrary"
+add_trait="proud"
+add_trait="wroth"
+add_trait="smart"
+add_trait="twin"
+add_trait="hardy"
+add_trait="green_dragon_mount"
+add_trait="tough_soldier"
+add_trait="asrai_spellsinger"
+add_trait="lore_dark_magic"
+add_trait="magic_potential_3"
+1604.4.12={birth=yes}
+1700.1.1= {
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+#60020={
+#name="Naestrahan" #In a weird way she is kind of their mother (not if Ariel is set to be it)
+#female = yes
+#mother = 60001
+#dynasty="94502"
+#culture= loren
+#religion= asrai_cadai
+#martial=6
+#diplomacy=6
+#stewardship=6
+#intrigue=6
+#learning=8
+#add_trait="creature_elf"
+#add_trait="proud"
+#add_trait="fair"
+#add_trait="kind"
+#add_trait="tough_soldier"
+#1514.1.12={birth=yes}
+#1604.9.21={death={death_reason = death_murder}}
+#}
+
+##Fyr Darric##
+
+60013={
+name="Heggria" #The Masque
+female = yes
+dynasty="94505"
+culture= loren
+religion= asrai_cadai
+martial=10
+diplomacy=6
+stewardship=8
+intrigue=10
+learning=8
+add_trait="creature_elf"
+add_trait="cruel"
+add_trait="duelist"
+add_trait="deceitful"
+add_trait="elusive_shadow"
+add_trait="magic_potential_1"
+1680.8.12={birth=yes}
+1800.6.28={give_nickname=nick_the_masque}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60025={
+name="Sasa" 
+female = yes
+dynasty="94505"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=6
+stewardship=6
+intrigue=6
+learning=6
+add_trait="creature_elf"
+add_trait="zealous"
+add_trait="duelist"
+add_trait="cynical"
+add_trait="deceitful"
+add_trait="flamboyant_schemer"
+add_trait="magic_potential_1"
+1821.9.10={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Torgovann##
+
+60014={
+name="Daith" 
+dynasty="94508"
+culture= loren
+religion= asrai_cadai
+martial=8
+diplomacy=10
+stewardship=16
+intrigue=6
+learning=12
+add_trait="creature_elf"
+add_trait="diligent"
+add_trait="gregarious"
+add_trait="blinded"
+add_trait="genius"
+add_trait="midas_touched"
+add_trait="asrai_spellsinger"
+add_trait="lore_high_magic"
+add_trait="immortal_trait"
+add_trait="magic_potential_4"
+80.10.20={birth=yes}
+1600.10.20={
+effect = { add_character_modifier = { name = magic_power_4 duration = -1 } } }
+2600.9.20={death={death_reason = death_murder}}
+}
+
+##Anmyr##
+
+60015={
+name="Tevail" 
+female = yes
+dynasty="94522"
+culture= loren
+religion= asrai_cadai
+father= 60017
+martial=8
+diplomacy=8
+stewardship=8
+intrigue=6
+learning=8
+add_trait="creature_elf"
+add_trait="diligent"
+add_trait="brave"
+add_trait="tough_soldier"
+add_trait="magic_potential_2"
+1800.10.20={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60016={
+name="Delynna" 
+female = yes
+dynasty="94522"
+culture= loren
+religion= asrai_cadai
+father= 60017
+martial=10
+diplomacy=6
+stewardship=6
+intrigue=10
+learning=6
+add_trait="creature_elf"
+add_trait="patient"
+add_trait="brave"
+add_trait="wroth"
+add_trait="skilled_tactician"
+add_trait="magic_potential_1"
+1800.10.20={birth=yes}
+2600.9.20={death={death_reason = death_murder}}
+}
+
+60017={
+name="Morain" #Adding this character to enable them as sisters
+dynasty="94522"
+culture= loren
+religion= asrai_cadai
+martial=5
+diplomacy=5
+stewardship=5
+intrigue=5
+learning=5
+add_trait="creature_elf"
+add_trait="just"
+add_trait="tough_soldier"
+1600.10.20={birth=yes}
+2000.9.20={death={death_reason = death_murder}}
+}

@@ -3,7 +3,7 @@ name="Magotin"
 dynasty=63000
 dna="hpckokjbnmh"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=2
 stewardship=3
@@ -12,17 +12,18 @@ learning=4
 add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="craven"
-1967.1.1={birth=yes}
+1967.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2024.7.30={death=yes}
 }
 
 2100001={
 name="Samur"
-female=yes
 dynasty=63001
 dna="pdmkeioafam"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=4
 stewardship=5
@@ -42,7 +43,7 @@ name="Furkat"
 dynasty=63002
 dna="oglbajdmkcf"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=2
 diplomacy=3
 stewardship=5
@@ -64,7 +65,7 @@ name="Yusup"
 dynasty=63003
 dna="hopmakjieen"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=0
 diplomacy=5
 stewardship=2
@@ -80,11 +81,10 @@ add_trait="brave"
 
 2100004={
 name="Mutlu"
-female=yes
 dynasty=63004
 dna="kpljpbhcpch"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=4
 diplomacy=5
 stewardship=3
@@ -105,7 +105,7 @@ name="Yunus"
 dynasty=63005
 dna="ioepefkikeg"
 culture=tahmak
-religion=chaos
+religion=khorne
 martial=4
 diplomacy=1
 stewardship=2
@@ -230,7 +230,9 @@ learning=8
 add_trait="creature_human"
 add_trait="naive_appeaser"
 add_trait="mystic"
-1952.1.1={birth=yes}
+1952.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2018.10.10={death=yes}
 }
 
@@ -386,7 +388,9 @@ add_trait="skilled_tactician"
 add_trait="cruel"
 add_trait="craven"
 add_trait="envious"
-1971.1.1={birth=yes}
+1971.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2032.8.8={death=yes}
 }
 

@@ -1,6 +1,9 @@
+###ההה
+
 4750000={
 name="Tito"
 dynasty=41009
+father=200060
 culture=tobaran
 religion=myrmidian
 martial=6
@@ -14,8 +17,7 @@ add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
-
-1992.4.30={birth=yes}
+1962.4.30={birth=yes}
 2021.12.2={death=yes}
 }
 
@@ -32,10 +34,7 @@ learning=1
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="misguided_warrior"
-
 add_trait="craven"
-
-
 1971.11.12={birth=yes}
 2060.8.10={death=yes}
 }
@@ -51,12 +50,9 @@ stewardship=0
 intrigue=11
 learning=6
 add_trait="creature_human"
-
 add_trait="intricate_webweaver"
 add_trait="greedy"
-
 add_trait="tall"
-
 1989.9.29={birth=yes}
 2050.3.25={death=yes}
 }
@@ -72,12 +68,10 @@ stewardship=11
 intrigue=1
 learning=4
 add_trait="creature_human"
-
 add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
-
 1993.5.22={birth=yes}
 2042.8.28={death=yes}
 }
@@ -98,7 +92,6 @@ add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
-
 1968.5.4={birth=yes}
 2021.2.1={death=yes}
 }
@@ -116,10 +109,7 @@ learning=0
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="indulgent_wastrel"
-
 add_trait="ill"
-
-
 1989.7.22={birth=yes}
 2033.11.3={death=yes}
 }
@@ -135,12 +125,8 @@ stewardship=7
 intrigue=11
 learning=9
 add_trait="creature_human"
-
 add_trait="misguided_warrior"
 add_trait="content"
-
-
-
 1985.4.20={birth=yes}
 2045.7.2={death=yes}}
 
@@ -157,11 +143,11 @@ learning=2
 add_trait="creature_human"
 add_trait="poet"
 add_trait="fortune_builder"
-
 add_trait="trusting"
 add_trait="lustful"
-
-1993.8.3={birth=yes}
+1993.8.3={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2025.4.10={death=yes}
 }
 
@@ -178,10 +164,8 @@ learning=9
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="brilliant_strategist"
-
 add_trait="legit_bastard"
 add_trait="drunkard"
-
 1986.5.30={birth=yes}
 2030.5.13={death=yes}
 }
@@ -200,7 +184,6 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="grey_eminence"
 add_trait="lisp"
-
 1959.9.12={birth=yes}
 2030.2.19={death=yes}
 }
@@ -219,10 +202,6 @@ learning=3
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="underhanded_rogue"
-
-
-
-
 1992.9.26={birth=yes}
 2017.12.25={death=yes}
 }
@@ -241,10 +220,7 @@ learning=4
 add_trait="creature_human"
 add_trait="scholar"
 add_trait="scholarly_theologian"
-
-
 add_trait="fair"
-
 1993.2.8={birth=yes}
 2067.4.28={death=yes}
 }
@@ -265,8 +241,6 @@ add_trait="scholar"
 add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
-
-
 1978.10.9={birth=yes}
 2023.7.30={death=yes}
 }
@@ -288,7 +262,6 @@ add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
-
 1992.4.18={birth=yes}
 2040.1.8={death=yes}
 }
@@ -309,7 +282,6 @@ add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
-
 1980.11.22={birth=yes}
 2063.6.4={death=yes}
 }
@@ -330,7 +302,6 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
-
 1989.12.2={birth=yes}
 2027.1.13={death=yes}
 }
@@ -351,7 +322,6 @@ add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
-
 1984.9.30={birth=yes}
 2019.11.14={death=yes}
 }
@@ -372,8 +342,9 @@ add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="craven"
 add_trait="greedy"
-
-1977.3.17={birth=yes}
+1977.3.17={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2041.9.14={death=yes}
 }
 
@@ -388,12 +359,8 @@ stewardship=1
 intrigue=5
 learning=5
 add_trait="creature_human"
-
 add_trait="midas_touched"
-
 add_trait="kind"
-
-
 1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
@@ -411,10 +378,8 @@ learning=9
 add_trait="creature_human"
 add_trait="mystic"
 add_trait="scholarly_theologian"
-
 add_trait="tall"
 add_trait="weak"
-
 1991.1.10={birth=yes}
 2045.10.28={death=yes}
 }

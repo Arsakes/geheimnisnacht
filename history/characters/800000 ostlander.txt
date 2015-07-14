@@ -1,5 +1,7 @@
+###ההה
+
 800000={
-name="Timotheus"
+name=Timotheus
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -8,13 +10,13 @@ diplomacy=8
 stewardship=0
 intrigue=8
 learning=9
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="martial_cleric"
-add_trait= "kind"
-add_trait= "gregarious"
-add_trait= "craven"
-
+add_trait=creature_human
+add_trait=falconer
+add_trait=martial_cleric
+add_trait=kind
+add_trait=gregarious
+add_trait=craven
+add_trait=sword_1
 father=800010
 mother=800027
 
@@ -24,7 +26,7 @@ mother=800027
 }
 
 800001={
-name="Stefan"
+name=Stefan
 dynasty=18055
 culture=ostlander
 religion=ulrican
@@ -33,17 +35,17 @@ diplomacy=8
 stewardship=1
 intrigue=5
 learning=9
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="tough_soldier"
-add_trait= "greedy"
+add_trait=creature_human
+add_trait=gardener
+add_trait=tough_soldier
+add_trait=greedy
 
 1989.8.17={birth=yes}
 2055.8.12={death=yes}
 }
 
 800002={
-name="Theodorich"
+name=Theodorich
 dynasty=18043
 culture=ostlander
 religion=ulrican
@@ -52,19 +54,18 @@ diplomacy=5
 stewardship=0
 intrigue=3
 learning=9
-add_trait="creature_human"
 father=800043
 mother=800042
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait= "honest"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=honest
 
 1985.10.23={birth=yes}
 2018.9.25={death=yes}
 }
 
 800003={
-name="Gotthard"
+name=Gotthard
 dynasty=18032
 culture=ostlander
 religion=ulrican
@@ -73,11 +74,11 @@ diplomacy=4
 stewardship=9
 intrigue=1
 learning=8
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="elusive_shadow"
-add_trait= "tall"
-add_trait= "wroth"
+add_trait=creature_human
+add_trait=duelist
+add_trait=elusive_shadow
+add_trait=tall
+add_trait=wroth
 
 1971.7.15={birth=yes}
 2005.1.21={add_spouse=800051}
@@ -85,7 +86,7 @@ add_trait= "wroth"
 }
 
 800004={
-name="Ruprecht"
+name=Ruprecht
 dynasty=18022
 culture=ostlander
 religion=ulrican
@@ -94,19 +95,19 @@ diplomacy=7
 stewardship=4
 intrigue=8
 learning=9
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="brilliant_strategist"
-add_trait= "cruel"
-add_trait= "humble"
-add_trait= "content"
+add_trait=creature_human
+add_trait=duelist
+add_trait=brilliant_strategist
+add_trait=cruel
+add_trait=humble
+add_trait=content
 
 1986.1.3={birth=yes}
 2018.9.1={death=yes}
 }
 
 800005={
-name="Hartwig"
+name=Hartwig
 dynasty=18024
 culture=ostlander
 religion=ulrican
@@ -115,19 +116,19 @@ diplomacy=6
 stewardship=2
 intrigue=2
 learning=5
-add_trait="creature_human"
-add_trait="poet"
-add_trait="mastermind_theologian"
-add_trait= "trusting"
-add_trait= "chaste"
-add_trait= "ill"
+add_trait=creature_human
+add_trait=poet
+add_trait=mastermind_theologian
+add_trait=trusting
+add_trait=chaste
+add_trait=ill
 
 1987.12.2={birth=yes}
 2019.8.23={death=yes}
 }
 
 800006={
-name="Laura"
+name=Laura
 female=yes
 dynasty=18061
 culture=ostlander
@@ -137,19 +138,18 @@ diplomacy=8
 stewardship=3
 intrigue=3
 learning=7
-add_trait="creature_human"
 father=800058
 mother=800059
-add_trait="creature_human"
-add_trait="poet"
-add_trait="misguided_warrior"
-add_trait= "stressed"
+add_trait=creature_human
+add_trait=poet
+add_trait=misguided_warrior
+add_trait=stressed
 1980.1.23={birth=yes}
 2044.8.8={death=yes}
 }
 
 800007={
-name="Penka"
+name=Penka
 female=yes
 dynasty=18060
 culture=ostlander
@@ -159,17 +159,17 @@ diplomacy=5
 stewardship=4
 intrigue=3
 learning=4
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="detached_priest"
-add_trait= "temperate"
-add_trait= "lustful"
+add_trait=creature_human
+add_trait=falconer
+add_trait=detached_priest
+add_trait=temperate
+add_trait=lustful
 1979.2.7={birth=yes}
 2059.10.18={death=yes}
 }
 
 800008={
-name="Gottschalk"
+name=Gottschalk
 dynasty=18054
 culture=ostlander
 religion=ulrican
@@ -178,10 +178,9 @@ diplomacy=3
 stewardship=0
 intrigue=6
 learning=0
-add_trait="creature_human"
-add_trait="poet"
-add_trait="detached_priest"
-
+add_trait=creature_human
+add_trait=poet
+add_trait=detached_priest
 
 father=800054
 mother=800055
@@ -191,7 +190,7 @@ mother=800055
 }
 
 800009={
-name="Kuno"
+name=Kuno
 dynasty=18058
 culture=ostlander
 religion=ulrican
@@ -200,9 +199,9 @@ diplomacy=7
 stewardship=7
 intrigue=4
 learning=4
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="brilliant_strategist"
+add_trait=creature_human
+add_trait=scholar
+add_trait=brilliant_strategist
 
 1960.6.23={birth=yes}
 2009.6.23={add_spouse=800044}
@@ -210,7 +209,7 @@ add_trait="brilliant_strategist"
 }
 
 800010={
-name="Timotheus"
+name=Timotheus
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -219,20 +218,22 @@ diplomacy=8
 stewardship=10
 intrigue=9
 learning=1
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="underhanded_rogue"
-
+add_trait=creature_human
+add_trait=gardener
+add_trait=underhanded_rogue
+add_trait=sword_1
 father=800029
 mother=800030
 
-1952.6.10={birth=yes}
+1952.6.10={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1970.4.27={add_spouse=800027}
 2005.8.6={death=yes}
 }
 
 800011={
-name="Leopold"
+name=Leopold
 dynasty=18033
 culture=ostlander
 religion=ulrican
@@ -241,9 +242,9 @@ diplomacy=8
 stewardship=1
 intrigue=8
 learning=0
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="mastermind_theologian"
+add_trait=creature_human
+add_trait=scholar
+add_trait=mastermind_theologian
 
 father=800047
 mother=700019
@@ -253,7 +254,7 @@ mother=700019
 }
 
 800012={
-name="Vilfred"
+name=Vilfred
 dynasty=18033
 culture=ostlander
 religion=ulrican
@@ -262,12 +263,12 @@ diplomacy=10
 stewardship=6
 intrigue=6
 learning=9
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="misguided_warrior"
+add_trait=creature_human
+add_trait=mystic
+add_trait=misguided_warrior
 
-add_trait= "diligent"
-add_trait= "envious"
+add_trait=diligent
+add_trait=envious
 
 father=800047
 mother=700019
@@ -277,7 +278,7 @@ mother=700019
 }
 
 800013={
-name="Manfred"
+name=Manfred
 dynasty=18038
 culture=ostlander
 religion=ulrican
@@ -286,19 +287,19 @@ diplomacy=6
 stewardship=7
 intrigue=11
 learning=5
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="underhanded_rogue"
-add_trait= "proud"
-add_trait= "patient"
-add_trait= "shy"
+add_trait=creature_human
+add_trait=mystic
+add_trait=underhanded_rogue
+add_trait=proud
+add_trait=patient
+add_trait=shy
 
 1973.9.24={birth=yes}
 2057.7.18={death=yes}
 }
 
 800014={
-name="Gerd"
+name=Gerd
 dynasty=18007
 culture=ostlander
 religion=ulrican
@@ -307,19 +308,19 @@ diplomacy=1
 stewardship=2
 intrigue=0
 learning=1
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="flamboyant_schemer"
-add_trait= "fair"
-add_trait= "ambitious"
-add_trait= "arbitrary"
+add_trait=creature_human
+add_trait=mystic
+add_trait=flamboyant_schemer
+add_trait=fair
+add_trait=ambitious
+add_trait=arbitrary
 
 1960.1.24={birth=yes}
 2013.7.3={death=yes}
 }
 
 800015={
-name="Walther"
+name=Walther
 dynasty=18006
 culture=ostlander
 religion=ulrican
@@ -328,19 +329,19 @@ diplomacy=9
 stewardship=2
 intrigue=7
 learning=0
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="thrifty_clerk"
-add_trait= "slothful"
-add_trait= "zealous"
-add_trait= "cynical"
+add_trait=creature_human
+add_trait=impaler
+add_trait=thrifty_clerk
+add_trait=slothful
+add_trait=zealous
+add_trait=cynical
 
 2004.3.11={birth=yes}
 2034.2.1={death=yes}
 }
 
 800016={
-name="Wolfgang"
+name=Wolfgang
 dynasty=18017
 culture=ostlander
 religion=ulrican
@@ -349,19 +350,19 @@ diplomacy=8
 stewardship=10
 intrigue=8
 learning=0
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="mastermind_theologian"
-add_trait= "just"
-add_trait= "kind"
-add_trait= "honest"
+add_trait=creature_human
+add_trait=hedonist
+add_trait=mastermind_theologian
+add_trait=just
+add_trait=kind
+add_trait=honest
 
 2003.10.10={birth=yes}
 2041.1.17={death=yes}
 }
 
 800017={
-name="Emelrich"
+name=Emelrich
 dynasty=18019
 culture=ostlander
 religion=ulrican
@@ -370,19 +371,19 @@ diplomacy=6
 stewardship=10
 intrigue=7
 learning=8
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="intricate_webweaver"
-add_trait= "paranoid"
+add_trait=creature_human
+add_trait=duelist
+add_trait=intricate_webweaver
+add_trait=paranoid
 
-add_trait= "greedy"
+add_trait=greedy
 
 1963.9.15={birth=yes}
 2033.3.29={death=yes}
 }
 
 800018={
-name="Ernst"
+name=Ernst
 dynasty=18021
 culture=ostlander
 religion=ulrican
@@ -391,19 +392,18 @@ diplomacy=5
 stewardship=11
 intrigue=4
 learning=1
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="intricate_webweaver"
-add_trait= "craven"
-add_trait= "gregarious"
-
+add_trait=creature_human
+add_trait=hedonist
+add_trait=intricate_webweaver
+add_trait=craven
+add_trait=gregarious
 
 1987.7.27={birth=yes}
 2031.9.14={death=yes}
 }
 
 800019={
-name="Mannricht"
+name=Mannricht
 dynasty=18029
 culture=ostlander
 religion=ulrican
@@ -412,9 +412,9 @@ diplomacy=1
 stewardship=7
 intrigue=8
 learning=4
-add_trait="creature_human"
-add_trait="poet"
-add_trait="grey_eminence"
+add_trait=creature_human
+add_trait=poet
+add_trait=grey_eminence
 mother=800033
 1984.1.26={birth=yes}
 2035.4.2={death=yes}
@@ -424,7 +424,7 @@ mother=800033
 ######################
 
 800020={
-name="Otto"
+name=Otto
 dynasty=18012 
 culture=ostlander
 religion=ulrican
@@ -433,19 +433,19 @@ diplomacy=1
 stewardship=2
 intrigue=0
 learning=1
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="flamboyant_schemer"
-add_trait= "fair"
-add_trait= "ambitious"
-add_trait= "arbitrary"
-
+add_trait=creature_human
+add_trait=mystic
+add_trait=flamboyant_schemer
+add_trait=fair
+add_trait=ambitious
+add_trait=arbitrary
+add_trait=sword_1
 613.1.24={birth=yes}
 666.7.3={death=yes}
 }
 
 800021={
-name="Otto"
+name=Otto
 dynasty=18012 
 culture=ostlander
 religion=ulrican
@@ -454,19 +454,19 @@ diplomacy=9
 stewardship=2
 intrigue=7
 learning=0
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="thrifty_clerk"
-add_trait= "slothful"
-add_trait= "zealous"
-add_trait= "cynical"
-
+add_trait=creature_human
+add_trait=impaler
+add_trait=thrifty_clerk
+add_trait=slothful
+add_trait=zealous
+add_trait=cynical
+add_trait=sword_1
 697.3.11={birth=yes}
 738.2.1={death=yes}
 }
 
 800022={
-name="Grigore"
+name=Grigore
 dynasty=18013 
 culture=ostlander
 religion=ulrican
@@ -475,19 +475,19 @@ diplomacy=8
 stewardship=10
 intrigue=8
 learning=0
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="mastermind_theologian"
-add_trait= "just"
-add_trait= "kind"
-add_trait= "honest"
-
+add_trait=creature_human
+add_trait=hedonist
+add_trait=mastermind_theologian
+add_trait=just
+add_trait=kind
+add_trait=honest
+add_trait=sword_1
 791.10.10={birth=yes}
 868.1.17={death=yes}
 }
 
 800023={
-name="Sigismund"
+name=Sigismund
 dynasty=18014 
 culture=ostlander
 religion=ulrican
@@ -496,19 +496,18 @@ diplomacy=6
 stewardship=10
 intrigue=7
 learning=8
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="intricate_webweaver"
-add_trait= "paranoid"
-
-add_trait= "greedy"
-
+add_trait=creature_human
+add_trait=duelist
+add_trait=intricate_webweaver
+add_trait=paranoid
+add_trait=greedy
+add_trait=sword_1
 1282.9.15={birth=yes}
 1317.3.29={death=yes}
 }
 
 800024={
-name="Sigismund"
+name=Sigismund
 dynasty=18015 
 culture=ostlander
 religion=ulrican
@@ -517,19 +516,19 @@ diplomacy=5
 stewardship=11
 intrigue=4
 learning=1
-add_trait="creature_human"
-add_trait="hedonist"
-add_trait="intricate_webweaver"
-add_trait= "craven"
-add_trait= "gregarious"
-
-
-1510.7.27={birth=yes}
+add_trait=creature_human
+add_trait=hedonist
+add_trait=intricate_webweaver
+add_trait=craven
+add_trait=gregarious
+1510.7.27={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1576.9.14={death=yes}
 }
 
 800025={
-name="Sigismund"
+name=Sigismund
 dynasty=18016 
 culture=ostlander
 religion=ulrican
@@ -538,19 +537,15 @@ diplomacy=1
 stewardship=7
 intrigue=8
 learning=4
-add_trait="creature_human"
-add_trait="poet"
-add_trait="grey_eminence"
-
-
+add_trait=creature_human
+add_trait=poet
+add_trait=grey_eminence
 1663.1.26={birth=yes}
 1712.4.2={death=yes}
 }
 
-
-
 800026={
-name="Moritz"
+name=Moritz
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -559,12 +554,12 @@ diplomacy=10
 stewardship=1
 intrigue=8
 learning=4
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="flamboyant_schemer"
-add_trait= "kind"
-add_trait= "honest"
-add_trait= "gregarious"
+add_trait=creature_human
+add_trait=mystic
+add_trait=flamboyant_schemer
+add_trait=kind
+add_trait=honest
+add_trait=gregarious
 
 father=800010
 mother=800027
@@ -574,7 +569,7 @@ mother=800027
 }
 
 800027={
-name="Jarla"
+name=Jarla
 female=yes
 dynasty=18020
 culture=ostlander
@@ -584,18 +579,18 @@ diplomacy=1
 stewardship=10
 intrigue=4
 learning=8
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="intricate_webweaver"
-add_trait= "craven"
-add_trait= "greedy"
+add_trait=creature_human
+add_trait=duelist
+add_trait=intricate_webweaver
+add_trait=craven
+add_trait=greedy
 1950.8.30={birth=yes}
 1970.4.27={add_spouse=800010}
 2015.12.18={death=yes}
 }
 
 800028={
-name="Magrit"
+name=Magrit
 female=yes
 dynasty=18000
 culture=ostlander
@@ -605,12 +600,11 @@ diplomacy=10
 stewardship=6
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="tough_soldier"
+add_trait=creature_human
+add_trait=tough_soldier
 
 father=800010
 mother=800027
-
 
 1978.6.26={birth=yes}
 2002.8.16={add_spouse=900004}
@@ -618,7 +612,7 @@ mother=800027
 }
 
 800029={
-name="Wulf"
+name=Wulf
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -627,12 +621,12 @@ diplomacy=9
 stewardship=10
 intrigue=3
 learning=0
-add_trait="creature_human"
-add_trait="impaler"
-add_trait="underhanded_rogue"
-
-add_trait= "tall"
-add_trait= "wroth"
+add_trait=creature_human
+add_trait=impaler
+add_trait=underhanded_rogue
+add_trait=sword_1
+add_trait=tall
+add_trait=wroth
 
 1928.2.23={birth=yes}
 1950.10.22={add_spouse=800030}
@@ -641,7 +635,7 @@ add_trait= "wroth"
 }
 
 800030={
-name="Lore"
+name=Lore
 female=yes
 dynasty=18025
 culture=ostlander
@@ -651,12 +645,12 @@ diplomacy=1
 stewardship=7
 intrigue=6
 learning=0
-add_trait="creature_human"
-add_trait="poet"
-add_trait="skilled_tactician"
-add_trait= "cruel"
-add_trait= "temperate"
-add_trait= "humble"
+add_trait=creature_human
+add_trait=poet
+add_trait=skilled_tactician
+add_trait=cruel
+add_trait=temperate
+add_trait=humble
 
 1932.5.25={birth=yes}
 1950.10.22={add_spouse=800029}
@@ -664,7 +658,7 @@ add_trait= "humble"
 }
 
 800031={
-name="Wolf"
+name=Wolf
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -673,10 +667,10 @@ diplomacy=8
 stewardship=1
 intrigue=1
 learning=4
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="flamboyant_schemer"
-add_trait= "trusting"
+add_trait=creature_human
+add_trait=scholar
+add_trait=flamboyant_schemer
+add_trait=trusting
 
 father=800029
 mother=800030
@@ -687,7 +681,7 @@ mother=800030
 }
 
 800032={
-name="Wolf"
+name=Wolf
 dynasty=18029
 culture=ostlander
 religion=ulrican
@@ -696,22 +690,23 @@ diplomacy=5
 stewardship=6
 intrigue=11
 learning=3
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="scholarly_theologian"
-add_trait= "stressed"
-add_trait= "legit_bastard"
+add_trait=creature_human
+add_trait=gardener
+add_trait=scholarly_theologian
+add_trait=stressed
+add_trait=legit_bastard
 
 father=800029
 mother=800033
 
-
-1983.7.22={birth=yes}
+1983.7.22={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2022.5.25={death=yes}
 }
 
 800033={
-name="Gabrielle"
+name=Gabrielle
 female=yes
 dynasty=18029
 culture=ostlander
@@ -721,11 +716,10 @@ diplomacy=4
 stewardship=0
 intrigue=2
 learning=3
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="misguided_warrior"
-add_trait= "lustful"
-
+add_trait=creature_human
+add_trait=gardener
+add_trait=misguided_warrior
+add_trait=lustful
 
 1967.1.25={birth=yes}
 1985.1.27={add_spouse=800029}
@@ -733,7 +727,7 @@ add_trait= "lustful"
 }
 
 800034={
-name="Sieghard"
+name=Sieghard
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -742,11 +736,11 @@ diplomacy=1
 stewardship=0
 intrigue=0
 learning=9
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="grey_eminence"
-add_trait= "content"
-add_trait= "bastard"
+add_trait=creature_human
+add_trait=scholar
+add_trait=grey_eminence
+add_trait=content
+add_trait=bastard
 father=800010
 mother=800033
 1992.12.13={birth=yes}
@@ -754,7 +748,7 @@ mother=800033
 }
 
 800035={
-name="Isolde"
+name=Isolde
 female=yes
 dynasty=18000
 culture=ostlander
@@ -764,8 +758,8 @@ diplomacy=0
 stewardship=0
 intrigue=8
 learning=2
-add_trait="creature_human"
-add_trait="misguided_warrior"
+add_trait=creature_human
+add_trait=misguided_warrior
 father=800010
 mother=800027
 
@@ -775,7 +769,7 @@ mother=800027
 }
 
 800036={
-name="Yohann"
+name=Yohann
 dynasty=18009
 culture=ostlander
 religion=ulrican
@@ -784,15 +778,15 @@ diplomacy=1
 stewardship=6
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=skilled_tactician
 1959.2.24={birth=yes}
 1992.5.4={add_spouse=800035}
 2013.3.21={death=yes}
 }
 
 800037={
-name="Gaby"
+name=Gaby
 female=yes
 dynasty=18009
 culture=ostlander
@@ -802,11 +796,11 @@ diplomacy=3
 stewardship=6
 intrigue=11
 learning=5
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="martial_cleric"
-add_trait= "fair"
-add_trait= "strong"
+add_trait=creature_human
+add_trait=gardener
+add_trait=martial_cleric
+add_trait=fair
+add_trait=strong
 father=800036
 mother=800035
 1999.10.9={birth=yes}
@@ -814,7 +808,7 @@ mother=800035
 }
 
 800038={
-name="Felicitas"
+name=Felicitas
 female=yes
 dynasty=18009
 culture=ostlander
@@ -824,10 +818,10 @@ diplomacy=9
 stewardship=10
 intrigue=3
 learning=8
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="martial_cleric"
-add_trait= "envious"
+add_trait=creature_human
+add_trait=scholar
+add_trait=martial_cleric
+add_trait=envious
 father=800036
 mother=800035
 
@@ -836,7 +830,7 @@ mother=800035
 }
 
 800039={
-name="Aranka"
+name=Aranka
 female=yes
 dynasty=18037
 culture=ostlander
@@ -846,12 +840,12 @@ diplomacy=2
 stewardship=9
 intrigue=1
 learning=2
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="flamboyant_schemer"
-add_trait= "diligent"
-add_trait= "patient"
-add_trait= "proud"
+add_trait=creature_human
+add_trait=scholar
+add_trait=flamboyant_schemer
+add_trait=diligent
+add_trait=patient
+add_trait=proud
 
 1963.7.3={birth=yes}
 1998.3.24={add_spouse=800031}
@@ -859,7 +853,7 @@ add_trait= "proud"
 }
 
 800040={
-name="Oswald"
+name=Oswald
 dynasty=18000
 culture=ostlander
 religion=ulrican
@@ -868,12 +862,12 @@ diplomacy=10
 stewardship=6
 intrigue=7
 learning=4
-add_trait="creature_human"
-add_trait="falconer"
-add_trait="intricate_webweaver"
-add_trait= "shy"
-add_trait= "ambitious"
-add_trait= "just"
+add_trait=creature_human
+add_trait=falconer
+add_trait=intricate_webweaver
+add_trait=shy
+add_trait=ambitious
+add_trait=just
 
 father=800031
 mother=800039
@@ -883,7 +877,7 @@ mother=800039
 }
 
 800041={
-name="Adela"
+name=Adela
 female=yes
 dynasty=18000
 culture=ostlander
@@ -893,22 +887,24 @@ diplomacy=5
 stewardship=5
 intrigue=0
 learning=9
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="indulgent_wastrel"
-add_trait= "cynical"
-add_trait= "arbitrary"
-add_trait= "zealous"
+add_trait=creature_human
+add_trait=scholar
+add_trait=indulgent_wastrel
+add_trait=cynical
+add_trait=arbitrary
+add_trait=zealous
 
 father=800010
 mother=800027
 
-1975.6.28={birth=yes}
+1975.6.28={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1988.4.24={death=yes}
 }
 
 800042={
-name="Brunhilde"
+name=Brunhilde
 female=yes
 dynasty=18042
 culture=ostlander
@@ -918,12 +914,12 @@ diplomacy=9
 stewardship=6
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="fortune_builder"
-add_trait= "paranoid"
-add_trait= "gregarious"
-add_trait= "kind"
+add_trait=creature_human
+add_trait=scholar
+add_trait=fortune_builder
+add_trait=paranoid
+add_trait=gregarious
+add_trait=kind
 
 1958.9.2={birth=yes}
 1979.2.14={add_spouse=800043}
@@ -931,7 +927,7 @@ add_trait= "kind"
 }
 
 800043={
-name="Theodor"
+name=Theodor
 dynasty=18043
 culture=ostlander
 religion=ulrican
@@ -940,11 +936,10 @@ diplomacy=7
 stewardship=1
 intrigue=9
 learning=5
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait= "craven"
-add_trait= "honest"
-
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=craven
+add_trait=honest
 
 1957.12.13={birth=yes}
 1979.2.14={add_spouse=800042}
@@ -952,7 +947,7 @@ add_trait= "honest"
 }
 
 800044={
-name="Franza"
+name=Franza
 female=yes
 dynasty=18043
 culture=ostlander
@@ -962,7 +957,7 @@ diplomacy=10
 stewardship=7
 intrigue=4
 learning=1
-add_trait="creature_human"
+add_trait=creature_human
 
 father=800043
 mother=800042
@@ -973,7 +968,7 @@ mother=800042
 }
 
 800045={
-name="Hannath"
+name=Hannath
 female=yes
 dynasty=18054
 culture=ostlander
@@ -983,11 +978,11 @@ diplomacy=3
 stewardship=2
 intrigue=6
 learning=9
-add_trait="creature_human"
-add_trait="mystic"
-add_trait="flamboyant_schemer"
-add_trait= "tall"
-add_trait= "bastard"
+add_trait=creature_human
+add_trait=mystic
+add_trait=flamboyant_schemer
+add_trait=tall
+add_trait=bastard
 father=800010
 mother=800046
 
@@ -996,7 +991,7 @@ mother=800046
 }
 
 800046={
-name="Engeltraud"
+name=Engeltraud
 female=yes
 dynasty=18054
 culture=ostlander
@@ -1006,18 +1001,17 @@ diplomacy=7
 stewardship=5
 intrigue=11
 learning=9
-add_trait="creature_human"
 father=800054
 mother=800055
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="midas_touched"
+add_trait=creature_human
+add_trait=scholar
+add_trait=midas_touched
 1975.4.18={birth=yes}
 2057.7.27={death=yes}
 }
 
 800047={
-name="Thietmar"
+name=Thietmar
 dynasty=18033
 culture=ostlander
 religion=ulrican
@@ -1026,21 +1020,20 @@ diplomacy=9
 stewardship=11
 intrigue=0
 learning=0
-add_trait="creature_human"
 father=800049
 mother=800048
-add_trait="creature_human"
-add_trait="hunter"
-add_trait="charismatic_negotiator"
-add_trait= "humble"
-add_trait= "wroth"
+add_trait=creature_human
+add_trait=hunter
+add_trait=charismatic_negotiator
+add_trait=humble
+add_trait=wroth
 1959.1.13={birth=yes}
 1977.3.23={add_spouse=700019}
 1989.3.15={death=yes}
 }
 
 800048={
-name="Ester"
+name=Ester
 female=yes
 dynasty=18017
 culture=ostlander
@@ -1050,16 +1043,16 @@ diplomacy=3
 stewardship=10
 intrigue=8
 learning=7
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="tough_soldier"
+add_trait=creature_human
+add_trait=gardener
+add_trait=tough_soldier
 1940.12.28={birth=yes}
 1957.6.3={add_spouse=800049}
 1989.11.27={death=yes}
 }
 
 800049={
-name="Titus"
+name=Titus
 dynasty=18033
 culture=ostlander
 religion=ulrican
@@ -1068,19 +1061,19 @@ diplomacy=9
 stewardship=6
 intrigue=8
 learning=1
-add_trait="creature_human"
-add_trait="gardener"
-add_trait="scholarly_theologian"
-add_trait= "ill"
+add_trait=creature_human
+add_trait=gardener
+add_trait=scholarly_theologian
+add_trait=ill
 1920.5.28={birth=yes}
 1957.6.3={add_spouse=800048}
 1969.11.4={death=yes}
 }
 
 800050={
-name="Mathieu"
+name=Mathieu
 dynasty=18043
-dna="iafojcbdjad"
+dna=iafojcbdjad
 culture=ostlander
 religion=ulrican
 martial=8
@@ -1088,24 +1081,22 @@ diplomacy=2
 stewardship=10
 intrigue=8
 learning=9
-add_trait="creature_human"
 father=800043
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="underhanded_rogue"
-add_trait= "lustful"
-add_trait= "drunkard"
-add_trait= "legit_bastard"
+add_trait=creature_human
+add_trait=scholar
+add_trait=underhanded_rogue
+add_trait=lustful
+add_trait=drunkard
+add_trait=legit_bastard
 1992.6.21={birth=yes}
 2011.8.7={death=yes}
 }
 
-
 800051={
-name="Signe"
+name=Signe
 female=yes
 dynasty=18061
-dna="efbkaedjobg"
+dna=efbkaedjobg
 culture=ostlander
 religion=ulrican
 martial=2
@@ -1113,24 +1104,23 @@ diplomacy=9
 stewardship=10
 intrigue=3
 learning=0
-add_trait="creature_human"
 father=800058
 mother=800059
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait= "poet"
-add_trait= "kind"
-add_trait= "proud"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=poet
+add_trait=kind
+add_trait=proud
 1983.2.23={birth=yes}
 2005.1.21={add_spouse=800003}
 2048.2.2={death=yes}
 }
 
 800052={
-name="Edith"
+name=Edith
 female=yes
 dynasty=18032
-dna="cblpflkdkpb"
+dna=cblpflkdkpb
 culture=ostlander
 religion=ulrican
 martial=4
@@ -1138,20 +1128,19 @@ diplomacy=1
 stewardship=7
 intrigue=6
 learning=0
-add_trait="creature_human"
 father=800003
 mother=800051
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
+add_trait=creature_human
+add_trait=flamboyant_schemer
 2007.5.25={birth=yes}
 2032.4.19={death=yes}
 }
 
 800053={
-name="Helma"
+name=Helma
 female=yes
 dynasty=18060
-dna="olodbgcmpja"
+dna=olodbgcmpja
 culture=ostlander
 religion=ulrican
 martial=0
@@ -1159,18 +1148,18 @@ diplomacy=8
 stewardship=1
 intrigue=1
 learning=4
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="flamboyant_schemer"
+add_trait=creature_human
+add_trait=scholar
+add_trait=flamboyant_schemer
 mother=800007
 1998.1.21={birth=yes}
 2056.4.22={death=yes}
 }
 
 800054={
-name="Maximillian"
+name=Maximillian
 dynasty=18054
-dna="ahghpjdknbb"
+dna=ahghpjdknbb
 culture=ostlander
 religion=ulrican
 martial=6
@@ -1178,18 +1167,20 @@ diplomacy=4
 stewardship=6
 intrigue=7
 learning=4
-add_trait="creature_human"
+add_trait=creature_human
 
-1951.5.6={birth=yes}
+1951.5.6={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 1972.4.28={add_spouse=800055}
 1999.4.19={death=yes}
 }
 
 800055={
-name="Gerd"
+name=Gerd
 female=yes
 dynasty=18033
-dna="nfignbpgnil"
+dna=nfignbpgnil
 culture=ostlander
 religion=ulrican
 martial=0
@@ -1197,15 +1188,15 @@ diplomacy=5
 stewardship=5
 intrigue=0
 learning=3
-add_trait="creature_human"
+add_trait=creature_human
 1949.9.19={birth=yes}
 1972.4.28={add_spouse=800054}
 2001.1.2={death=yes}
 }
 800056={
-name="Moritz"
+name=Moritz
 dynasty=18022
-dna="hofeenkhlah"
+dna=hofeenkhlah
 culture=ostlander
 religion=ulrican
 martial=5
@@ -1213,20 +1204,20 @@ diplomacy=3
 stewardship=5
 intrigue=7
 learning=0
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="cruel"
-add_trait="wroth"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=cruel
+add_trait=wroth
 1925.1.17={birth=yes}
 1975.4.2={add_spouse=800057}
 1995.1.17={death=yes}
 }
 
 800057={
-name="Becka"
+name=Becka
 female=yes
 dynasty=18034
-dna="gaicllacbnb"
+dna=gaicllacbnb
 culture=ostlander
 religion=ulrican
 martial=5
@@ -1234,19 +1225,19 @@ diplomacy=7
 stewardship=5
 intrigue=3
 learning=1
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="kind"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=kind
+add_trait=cruel
 1956.8.22={birth=yes}
 1975.4.2={add_spouse=800056}
 2009.4.6={death=yes}
 }
 
 800058={
-name="Harold"
+name=Harold
 dynasty=18061
-dna="iolhpjcmann"
+dna=iolhpjcmann
 culture=ostlander
 religion=ulrican
 martial=0
@@ -1254,20 +1245,20 @@ diplomacy=5
 stewardship=4
 intrigue=2
 learning=7
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="charitable"
-add_trait="zealous"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=charitable
+add_trait=zealous
 1939.4.28={birth=yes}
 1972.1.15={add_spouse=800059}
 2002.4.28={death=yes}
 }
 
 800059={
-name="Noemi"
+name=Noemi
 female=yes
 dynasty=18059
-dna="fhpmjiilpbc"
+dna=fhpmjiilpbc
 culture=ostlander
 religion=ulrican
 martial=6
@@ -1275,21 +1266,21 @@ diplomacy=3
 stewardship=4
 intrigue=3
 learning=5
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="cruel"
-add_trait="proud"
-add_trait="trusting"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=cruel
+add_trait=proud
+add_trait=trusting
 1953.8.4={birth=yes}
 1972.1.15={add_spouse=800058}
 2038.5.2={death=yes}
 }
 
 800060={
-name="Celeste"
+name=Celeste
 female=yes
 dynasty=18061
-dna="aicinbchlec"
+dna=aicinbchlec
 culture=ostlander
 religion=ulrican
 martial=5
@@ -1297,21 +1288,20 @@ diplomacy=2
 stewardship=2
 intrigue=4
 learning=6
-add_trait="creature_human"
 mother=800006
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="brave"
-add_trait="humble"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=brave
+add_trait=humble
 1997.7.11={birth=yes}
 2066.7.11={death=yes}
 }
 
 800061={
-name="Luna"
+name=Luna
 female=yes
 dynasty=18061
-dna="bkogccejong"
+dna=bkogccejong
 culture=ostlander
 religion=ulrican
 martial=6
@@ -1319,21 +1309,19 @@ diplomacy=8
 stewardship=4
 intrigue=4
 learning=5
-add_trait="creature_human"
 mother=800006
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="shy"
-add_trait="cynical"
-add_trait="diligent"
-add_trait="ambitious"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=shy
+add_trait=cynical
+add_trait=diligent
+add_trait=ambitious
 2002.3.13={birth=yes}
 2074.3.4={death=yes}
 }
 
-
 800062={
-name="Valmir" #Graf Valmir von Raukov of Ostland
+name=Valmir #Graf Valmir von Raukov of Ostland
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1342,22 +1330,22 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="brilliant_strategist"
-add_trait="wroth"
-add_trait="honest"
-add_trait="gregarious"
-add_trait="lustful"
-add_trait="zealous"
-
+add_trait=creature_human
+add_trait=duelist
+add_trait=brilliant_strategist
+add_trait=wroth
+add_trait=honest
+add_trait=gregarious
+add_trait=lustful
+add_trait=zealous
+add_trait=sword_1
 2480.2.21={birth=yes}
-2498.6.19={add_spouse=1650020}
+#2498.6.19={add_spouse=1650020}
 2558.3.22={death=yes}
 }
 
 800063={
-name="Ulli" #Graf Valmir von Raukov's child
+name=Ulli #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1366,22 +1354,21 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="brilliant_strategist"
-add_trait="wroth"
-add_trait="honest"
-add_trait="gregarious"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=duelist
+add_trait=brilliant_strategist
+add_trait=wroth
+add_trait=honest
+add_trait=gregarious
+add_trait=bastard
 
 2499.1.25={birth=yes}
 2551.8.3={death=yes}
 }
 
 800064={
-name="Hadwig" #Graf Valmir von Raukov's child
+name=Hadwig #Graf Valmir von Raukov's child
 female=yes
 dynasty=18101
 culture=ostlander
@@ -1391,22 +1378,21 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="brilliant_strategist"
-add_trait="wroth"
-add_trait="honest"
-add_trait="gregarious"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=duelist
+add_trait=brilliant_strategist
+add_trait=wroth
+add_trait=honest
+add_trait=gregarious
+add_trait=bastard
 
 2499.6.14={birth=yes}
 2534.9.4={death=yes}
 }
 
 800065={
-name="Vassily" #Graf Valmir von Raukov's child
+name=Vassily #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1415,22 +1401,21 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-mother=1650020
-add_trait="creature_human"
-add_trait="scholar"
-add_trait="charismatic_negotiator"
-add_trait="honest"
-add_trait="gregarious"
-add_trait="kind"
+#mother=1650020
+add_trait=creature_human
+add_trait=scholar
+add_trait=charismatic_negotiator
+add_trait=honest
+add_trait=gregarious
+add_trait=kind
 
 2499.11.26={birth=yes}
 2567.4.2={death=yes}
 }
 
 800066={
-name="Anastasia" #Graf Valmir von Raukov's child
+name=Anastasia #Graf Valmir von Raukov's child
 female=yes
 dynasty=18101
 culture=ostlander
@@ -1440,19 +1425,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="kind"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=kind
+add_trait=bastard
 
 2500.2.1={birth=yes}
 2530.11.2={death=yes}
 }
 
 800067={
-name="Oleg" #Graf Valmir von Raukov's child
+name=Oleg #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1461,21 +1445,20 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-mother=1650020
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="tough_soldier"
-add_trait="wroth"
-add_trait="zealous"
+#mother=1650020
+add_trait=creature_human
+add_trait=duelist
+add_trait=tough_soldier
+add_trait=wroth
+add_trait=zealous
 
 2501.2.21={birth=yes}
 2520.2.20={death=yes}
 }
 
 800068={
-name="Stanislaus" #Graf Valmir von Raukov's child
+name=Stanislaus #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1484,21 +1467,20 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="tough_soldier"
-add_trait="charitable"
-add_trait="deceitful"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=duelist
+add_trait=tough_soldier
+add_trait=charitable
+add_trait=deceitful
+add_trait=bastard
 
 2501.6.18={birth=yes}
 2528.1.13={death=yes}
 }
 
 800069={
-name="Mikhail" #Graf Valmir von Raukov's child
+name=Mikhail #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1507,21 +1489,20 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="duelist"
-add_trait="indulgent_wastrel"
-add_trait="proud"
-add_trait="temperate"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=duelist
+add_trait=indulgent_wastrel
+add_trait=proud
+add_trait=temperate
+add_trait=bastard
 
 2502.12.29={birth=yes}
 2539.8.8={death=yes}
 }
 
 800070={
-name="Viktoria" #Graf Valmir von Raukov's child
+name=Viktoria #Graf Valmir von Raukov's child
 female=yes
 dynasty=18101
 culture=ostlander
@@ -1531,19 +1512,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="proud"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=proud
+add_trait=bastard
 
 2503.7.11={birth=yes}
 2579.9.12={death=yes}
 }
 
 800071={
-name="Sigslieb" #Graf Valmir von Raukov's child
+name=Sigslieb #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1552,19 +1532,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="arbitrary"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=arbitrary
+add_trait=bastard
 
 2503.12.10={birth=yes}
 2512.6.25={death=yes}
 }
 
 800072={
-name="Ivo" #Graf Valmir von Raukov's child
+name=Ivo #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1573,19 +1552,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="indulgent_wastrel"
-add_trait="just"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=indulgent_wastrel
+add_trait=just
+add_trait=bastard
 
 2504.3.22={birth=yes}
 2541.5.27={death=yes}
 }
 
 800073={
-name="Boris" #Graf Valmir von Raukov's child
+name=Boris #Graf Valmir von Raukov's child
 dynasty=18101
 culture=ostlander
 religion=sigmarite
@@ -1594,19 +1572,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="brilliant_strategist"
-add_trait="strong"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=brilliant_strategist
+add_trait=strong
+add_trait=bastard
 
 2504.4.23={birth=yes}
 2531.1.6={death=yes}
 }
 
 800074={
-name="Lili" #Graf Valmir von Raukov's child
+name=Lili #Graf Valmir von Raukov's child
 female=yes
 dynasty=18101
 culture=ostlander
@@ -1616,21 +1593,20 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="wroth"
-add_trait="fair"
-add_trait="gregarious"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=wroth
+add_trait=fair
+add_trait=gregarious
+add_trait=bastard
 
 2509.1.15={birth=yes}
 2513.6.29={death=yes}
 }
 
 800075={
-name="Wulfhilde" #Graf Valmir von Raukov's child
+name=Wulfhilde #Graf Valmir von Raukov's child
 female=yes
 dynasty=18101
 culture=ostlander
@@ -1640,19 +1616,18 @@ diplomacy=4
 stewardship=3
 intrigue=4
 learning=2
-add_trait="creature_human"
 father=800062
-add_trait="creature_human"
-add_trait="thrifty_clerk"
-add_trait="kind"
-add_trait="bastard"
+add_trait=creature_human
+add_trait=thrifty_clerk
+add_trait=kind
+add_trait=bastard
 
 2515.6.25={birth=yes}
 2562.5.22={death=yes}
 }
 
 800076={
-name="Boris"
+name=Boris
 dynasty=18103
 culture=ostlander
 religion=sigmarite
@@ -1661,23 +1636,22 @@ diplomacy=5
 stewardship=4
 intrigue=2
 learning=2
-add_trait="creature_human"
 mother=800078
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="kind"
-add_trait="just"
-add_trait="slow"
-add_trait="gluttonous"
-add_trait="strong"
-add_trait="tall"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=kind
+add_trait=just
+add_trait=slow
+add_trait=gluttonous
+add_trait=strong
+add_trait=tall
 
 2495.6.25={birth=yes}
 2562.5.22={death=yes}
 }
 
 800077={
-name="Moritz"
+name=Moritz
 dynasty=18103
 culture=ostlander
 religion=sigmarite
@@ -1686,23 +1660,22 @@ diplomacy=2
 stewardship=5
 intrigue=0
 learning=0
-add_trait="creature_human"
 mother=800078
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="kind"
-add_trait="just"
-add_trait="slow"
-add_trait="gluttonous"
-add_trait="strong"
-add_trait="tall"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=kind
+add_trait=just
+add_trait=slow
+add_trait=gluttonous
+add_trait=strong
+add_trait=tall
 
 2495.6.25={birth=yes}
 2562.5.22={death=yes}
 }
 
 800078={
-name="Doris"
+name=Doris
 female=yes
 dynasty=18103
 culture=ostlander
@@ -1712,18 +1685,17 @@ diplomacy=4
 stewardship=2
 intrigue=2
 learning=4
-add_trait="creature_human"
 father=800085
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="kind"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=kind
 
 2455.3.5={birth=yes}
 2495.6.25={death=yes}
 }
 
 800079={
-name="Luzi"
+name=Luzi
 female=yes
 dynasty=18104
 culture=ostlander
@@ -1733,20 +1705,19 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=4
-add_trait="creature_human"
 father=800081
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="kind"
-add_trait="fair"
-add_trait="shy"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=kind
+add_trait=fair
+add_trait=shy
 
 2504.6.25={birth=yes}
 2551.5.22={death=yes}
 }
 
 800080={
-name="Lauretta"
+name=Lauretta
 female=yes
 dynasty=18104
 culture=ostlander
@@ -1756,20 +1727,19 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=4
-add_trait="creature_human"
 father=800081
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="kind"
-add_trait="fair"
-add_trait="shy"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=kind
+add_trait=fair
+add_trait=shy
 
 2504.6.25={birth=yes}
 2551.5.22={death=yes}
 }
 
 800081={
-name="Otto"
+name=Otto
 dynasty=18104
 culture=ostlander
 religion=sigmarite
@@ -1778,18 +1748,18 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="kind"
-add_trait="fair"
-add_trait="shy"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=kind
+add_trait=fair
+add_trait=shy
 
 2461.2.12={birth=yes}
 2531.11.19={death=yes}
 }
 
 800082={
-name="Melitta"
+name=Melitta
 female=yes
 dynasty=18105
 culture=ostlander
@@ -1799,19 +1769,18 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="grey_eminence"
-add_trait="kind"
-add_trait="fair"
-add_trait="cruel"
+add_trait=creature_human
+add_trait=grey_eminence
+add_trait=kind
+add_trait=fair
+add_trait=cruel
 
 2496.5.22={birth=yes}
 2550.7.21={death=yes}
 }
 
-
 800083={
-name="Albrecht" #Slaaneshi cultist
+name=Albrecht #Slaaneshi cultist
 dynasty=18106
 culture=ostlander
 religion=sigmarite
@@ -1820,18 +1789,18 @@ diplomacy=5
 stewardship=3
 intrigue=3
 learning=6
-add_trait="creature_human"
-add_trait="underhanded_rogue"
-add_trait="kind"
-add_trait="lustful"
-add_trait="gregarious"
+add_trait=creature_human
+add_trait=underhanded_rogue
+add_trait=kind
+add_trait=lustful
+add_trait=gregarious
 
 2481.5.24={birth=yes}
 2523.10.29={death=yes}
 }
 
 800084={
-name="Jared"
+name=Jared
 dynasty=18107
 culture=ostlander
 religion=sigmarite
@@ -1840,17 +1809,17 @@ diplomacy=4
 stewardship=3
 intrigue=5
 learning=4
-add_trait="creature_human"
-add_trait="tough_soldier"
-add_trait="brave"
-add_trait="diligent"
+add_trait=creature_human
+add_trait=tough_soldier
+add_trait=brave
+add_trait=diligent
 
 2473.6.25={birth=yes}
 2530.4.25={death=yes}
 }
 
 800085={
-name="Horaz"
+name=Horaz
 dynasty=18103
 culture=ostlander
 religion=sigmarite
@@ -1859,18 +1828,18 @@ diplomacy=3
 stewardship=5
 intrigue=2
 learning=1
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="brave"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=brave
 
 2401.12.2={birth=yes}
 2461.2.9={death=yes}
 }
 
 800086={
-name="Boemus" #Neues Merchant
+name=Boemus #Neues Merchant
 dynasty=18108
-dna="idieleajoon"
+dna=idieleajoon
 culture=ostlander
 religion=sigmarite
 martial=5
@@ -1878,18 +1847,18 @@ diplomacy=1
 stewardship=5
 intrigue=5
 learning=5
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="gluttonous"
-add_trait="brave"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=gluttonous
+add_trait=brave
 2439.9.1={birth=yes}
 2493.7.5={death=yes}
 }
 
 800087={
-name="Jens-Peter" #Neues Merchant founder
+name=Jens-Peter #Neues Merchant founder
 dynasty=18109
-dna="nmdiniaimhe"
+dna=nmdiniaimhe
 culture=ostlander
 religion=sigmarite
 martial=6
@@ -1897,19 +1866,19 @@ diplomacy=4
 stewardship=5
 intrigue=6
 learning=4
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="chaste"
-add_trait="ambitious"
-add_trait="diligent"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=chaste
+add_trait=ambitious
+add_trait=diligent
 2436.5.1={birth=yes}
 2487.1.3={death=yes}
 }
 
 800088={
-name="Piotr"
+name=Piotr
 dynasty=18110
-dna="kmlgkomekbg"
+dna=kmlgkomekbg
 culture=ostlander
 religion=ulrican
 martial=2
@@ -1917,20 +1886,20 @@ diplomacy=3
 stewardship=4
 intrigue=4
 learning=3
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="hunter"
-add_trait="gregarious"
-add_trait="quick"
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=hunter
+add_trait=gregarious
+add_trait=quick
 2495.11.19={birth=yes}
 2518.1.21={add_spouse=200001}
 2562.2.5={death=yes}
 }
 
 800089={
-name="Mikhail"
+name=Mikhail
 dynasty=18022
-dna="peblnlcplik"
+dna=peblnlcplik
 culture=ostlander
 religion=ulrican
 martial=3
@@ -1938,10 +1907,10 @@ diplomacy=2
 stewardship=3
 intrigue=7
 learning=4
-add_trait="creature_human"
-add_trait="midas_touched"
-add_trait="cynical"
-add_trait="brave"
+add_trait=creature_human
+add_trait=midas_touched
+add_trait=cynical
+add_trait=brave
 father=800056
 mother=800057
 1988.5.28={birth=yes}
@@ -1949,10 +1918,10 @@ mother=800057
 }
 
 800090={
-name="Klara"
+name=Klara
 female=yes
 dynasty=18022
-dna="ldllajfopon"
+dna=ldllajfopon
 culture=ostlander
 religion=ulrican
 martial=3
@@ -1960,21 +1929,22 @@ diplomacy=3
 stewardship=3
 intrigue=5
 learning=3
-add_trait="creature_human"
 father=800056
 mother=800057
-add_trait="creature_human"
-add_trait="intricate_webweaver"
-add_trait="poet"
-add_trait="gluttonous"
-1992.2.13={birth=yes}
+add_trait=creature_human
+add_trait=intricate_webweaver
+add_trait=poet
+add_trait=gluttonous
+1992.2.13={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2052.2.13={death=yes}
 }
 
 800091={
-name="Martin"
+name=Martin
 dynasty=18111
-dna="nmdiniaimhe"
+dna=nmdiniaimhe
 culture=ostlander
 religion=ulrican
 martial=5
@@ -1982,18 +1952,17 @@ diplomacy=1
 stewardship=6
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=skilled_tactician
 2489.12.21={birth=yes}
 2542.5.23={death=yes}
 }
 
-
 800092={
-name="Anna"
+name=Anna
 female=yes
 dynasty=18112
-dna="cblpfbkdkpb"
+dna=cblpfbkdkpb
 culture=ostlander
 religion=ulrican
 martial=2
@@ -2001,16 +1970,16 @@ diplomacy=3
 stewardship=2
 intrigue=6
 learning=3
-add_trait="creature_human"
-add_trait="flamboyant_schemer"
-add_trait="shy"
+add_trait=creature_human
+add_trait=flamboyant_schemer
+add_trait=shy
 2461.7.21={birth=yes}
 2479.11.1={add_spouse=500143}
 2497.5.14={death=yes}
 }
 
 800093={
-name="Maximillian"
+name=Maximillian
 dynasty=18113
 culture=ostlander
 religion=ulrican
@@ -2019,17 +1988,18 @@ diplomacy=3
 stewardship=6
 intrigue=4
 learning=2
-add_trait="creature_human"
-add_trait="skilled_tactician"
-add_trait="infirm"
-add_trait="duelist"
-add_trait="incapable"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=infirm
+add_trait=duelist
+add_trait=incapable
+add_trait=sword_1
 2438.7.9={birth=yes}
 2505.4.11={death=yes}
 }
 
 800094={
-name="Oswald"
+name=Oswald
 dynasty=18113
 culture=ostlander
 religion=ulrican
@@ -2038,22 +2008,22 @@ diplomacy=5
 stewardship=6
 intrigue=7
 learning=3
-add_trait="creature_human"
 father=800093
-add_trait="creature_human"
-add_trait="charismatic_negotiator"
-add_trait="proud"
-add_trait="temperate"
-add_trait="ambitious"
-add_trait="patient"
+add_trait=creature_human
+add_trait=charismatic_negotiator
+add_trait=proud
+add_trait=temperate
+add_trait=ambitious
+add_trait=patient
+add_trait=sword_1
 2458.1.24={birth=yes}
 2505.4.25={death=yes}
 }
 
 800095={
-name="Hals"
+name=Hals
 dynasty=18102
-dna="nmdiniaimhe"
+dna=nmdiniaimhe
 culture=ostlander
 religion=ulrican
 martial=5
@@ -2061,16 +2031,17 @@ diplomacy=2
 stewardship=6
 intrigue=5
 learning=0
-add_trait="creature_human"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=skilled_tactician
+add_trait=sword_1
 2450.6.15={birth=yes}
 2514.1.20={death=yes}
 }
 
 800096={
-name="Hergard"
+name=Hergard
 dynasty=18102
-dna="nmdiniaimhe"
+dna=nmdiniaimhe
 culture=ostlander
 religion=ulrican
 martial=3
@@ -2078,8 +2049,8 @@ diplomacy=1
 stewardship=2
 intrigue=2
 learning=1
-add_trait="creature_human"
-add_trait="skilled_tactician"
+add_trait=creature_human
+add_trait=skilled_tactician
 2489.12.11={birth=yes}
 2512.11.26={death=yes}
 }

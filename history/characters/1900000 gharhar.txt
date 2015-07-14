@@ -3,7 +3,7 @@ name="Jurchedei"
 dynasty=68000
 dna="fjeeobofnak"
 culture=gharhar
-religion=chaos
+religion=nurgle
 martial=5
 diplomacy=4
 stewardship=4
@@ -14,7 +14,9 @@ add_trait="skilled_tactician"
 add_trait="paranoid"
 add_trait="patient"
 add_trait="chaste"
-1956.1.1={birth=yes}
+1956.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2016.2.15={death=yes}
 }
 
@@ -42,7 +44,7 @@ name="Mardan"
 dynasty=68002
 dna="pmbmhjmphep"
 culture=gharhar
-religion=chaos
+religion=tzeentch
 martial=8
 diplomacy=2
 stewardship=5
@@ -81,7 +83,7 @@ name="Taliqu"
 dynasty=68004
 dna="neimaedjhbd"
 culture=gharhar
-religion=chaos
+religion=slaanesh
 martial=4
 diplomacy=1
 stewardship=6
@@ -99,7 +101,7 @@ name="Bagaridai"
 dynasty=68005
 dna="mmhlnpdnica"
 culture=gharhar
-religion=chaos
+religion=slaanesh
 martial=1
 diplomacy=2
 stewardship=8
@@ -118,11 +120,10 @@ add_trait="slothful"
 
 1900006={
 name="Jachi"
-female=yes
 dynasty=68006
 dna="ahikboodejo"
 culture=gharhar
-religion=chaos
+religion=slaanesh
 martial=3
 diplomacy=1
 stewardship=7
@@ -157,11 +158,10 @@ add_trait="zealous"
 
 1900008={
 name="Äliä"
-female=yes
 dynasty=68008
 dna="encljhdkilj"
 culture=gharhar
-religion=chaos
+religion=slaanesh
 martial=1
 diplomacy=5
 stewardship=6
@@ -246,7 +246,9 @@ intrigue=3
 learning=5
 add_trait="creature_human"
 add_trait="flamboyant_schemer"
-1960.1.1={birth=yes}
+1960.1.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2015.11.12={death=yes}
 }
 
