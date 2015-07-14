@@ -16,9 +16,7 @@ add_trait="slothful"
 add_trait="brave"
 add_trait="temperate"
 add_trait="cruel"
-1969.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1969.1.1={birth=yes}
 2029.11.27={death=yes}
 }
 
@@ -216,9 +214,7 @@ add_trait="duelist"
 add_trait="deceitful"
 add_trait="trusting"
 add_trait="slothful"
-1984.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1984.1.1={birth=yes}
 2051.5.9={death=yes}
 }
 

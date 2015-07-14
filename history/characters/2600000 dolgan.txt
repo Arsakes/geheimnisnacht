@@ -76,9 +76,7 @@ add_trait="elusive_shadow"
 add_trait="hedonist"
 add_trait="envious"
 add_trait="honest"
-1972.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1972.1.1={birth=yes}
 2028.10.19={death=yes}
 }
 
@@ -257,9 +255,7 @@ learning=4
 add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="cruel"
-1990.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1990.1.1={birth=yes}
 2041.2.3={death=yes}
 }
 
@@ -398,9 +394,7 @@ add_trait="thrifty_clerk"
 add_trait="proud"
 add_trait="craven"
 add_trait="just"
-1976.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1976.1.1={birth=yes}
 2011.4.16={death=yes}
 }
 

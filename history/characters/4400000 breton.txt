@@ -13,9 +13,7 @@ add_trait="impaler"
 add_trait="naive_appeaser"
 add_trait="gregarious"
 add_trait="kind"
-1981.11.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1981.11.3={birth=yes}
 2063.1.17={death=yes}
 }
 
@@ -217,9 +215,7 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="fair"
-1999.11.18={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.11.18={birth=yes}
 2033.9.27={death=yes}
 }
 
@@ -450,9 +446,7 @@ add_trait="falconer"
 add_trait="brilliant_strategist"
 add_trait="trusting"
 add_trait="drunkard"
-1998.8.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1998.8.1={birth=yes}
 2021.7.23={death="2021.7.23"}
 }
 
@@ -725,9 +719,7 @@ add_trait="thrifty_clerk"
 add_trait="shy"
 add_trait="trusting"
 add_trait="cynical"
-1079.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1079.1.1={birth=yes}
 1108.8.3={give_nickname=nick_the_black}
 1146.3.9={death=yes}
 }
@@ -1060,9 +1052,7 @@ add_trait="midas_touched"
 add_trait="duelist"
 add_trait="brave"
 add_trait="deceitful"
-1974.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1974.1.1={birth=yes}
 2034.9.29={death=yes}
 }
 

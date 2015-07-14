@@ -128,9 +128,7 @@ add_trait="impaler"
 add_trait="grey_eminence"
 add_trait="chaste"
 add_trait="ill"
-2001.5.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2001.5.10={birth=yes}
 2048.8.7={death=yes}
 }
 
@@ -300,9 +298,7 @@ add_trait="indulgent_wastrel"
 add_trait="shy"
 add_trait="zealous"
 add_trait="diligent"
-1980.12.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1980.12.3={birth=yes}
 2027.3.10={death=yes}
 }
 

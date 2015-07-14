@@ -35,9 +35,7 @@ add_trait="craven"
 father=5000022
 mother=5000021
 
-1971.11.12={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1971.11.12={birth=yes}
 2060.8.10={death=yes}
 }
 
@@ -319,9 +317,7 @@ add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
-1984.9.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1984.9.30={birth=yes}
 2019.11.14={death=yes}
 }
 
@@ -564,8 +560,6 @@ add_trait="weak"
 father=5000023
 #mother=5150020
 
-2010.6.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2010.6.30={birth=yes}
 2040.5.2={death=yes}
 }

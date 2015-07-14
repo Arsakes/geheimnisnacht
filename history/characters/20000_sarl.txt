@@ -169,9 +169,7 @@ add_trait="mystic"
 add_trait="flamboyant_schemer"
 add_trait="legit_bastard"
 add_trait="lustful"
-1974.5.8={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1974.5.8={birth=yes}
 2033.4.8={death=yes}
 }
 

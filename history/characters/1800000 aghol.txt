@@ -13,9 +13,7 @@ add_trait="creature_human"
 add_trait="misguided_warrior"
 add_trait="envious"
 add_trait="honest"
-1986.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1986.1.1={birth=yes}
 2039.8.4={death=yes}
 }
 
@@ -234,9 +232,7 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="honest"
-1979.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1979.1.1={birth=yes}
 2011.11.19={death=yes}
 }
 
@@ -389,9 +385,7 @@ learning=6
 add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="celibate"
-1974.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1974.1.1={birth=yes}
 2031.7.12={death=yes}
 }
 

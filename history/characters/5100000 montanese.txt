@@ -14,9 +14,7 @@ add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
-1992.4.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1992.4.30={birth=yes}
 2021.12.2={death=yes}
 }
 
@@ -243,9 +241,7 @@ add_trait="legit_bastard"
 father=5100020
 mother=5100022
 
-1989.10.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1989.10.9={birth=yes}
 2023.7.30={death=yes}
 }
 
@@ -461,9 +457,7 @@ add_trait="creature_human"
 add_trait="fair"
 add_trait="honest"
 add_trait="humble"
-1970.9.11={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1970.9.11={birth=yes}
 2022.7.17={death=yes}
 }
 

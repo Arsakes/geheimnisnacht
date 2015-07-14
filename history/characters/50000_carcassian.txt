@@ -178,9 +178,7 @@
 	dna = "hodehgkjgee"
 	culture = carcassian religion = grail
 	father = 51012	#Donoal
-	1930.12.6={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1930.12.6={ birth=yes}
 	1992.10.3={ death=yes }
 }
 51016={
@@ -467,9 +465,7 @@
 	dna = "ljmapcmnneb"
 	culture = carcassian religion = grail
 	father = 50806	#Iocilin
-	1920.1.19={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1920.1.19={ birth=yes}
 	1987.1.30={ death=yes }
 }
 50814={
@@ -844,9 +840,7 @@
 	martial = 6 diplomacy = 6 stewardship = 5 intrigue = 6 learning = 4
 	add_trait = flamboyant_schemer add_trait = slothful add_trait = honest add_trait = paranoid add_trait = temperate add_trait = poor_warrior 
 	father = 50616	#Gwilherm
-	1982.11.12={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1982.11.12={ birth=yes}
 	2048.5.17={ death=yes }
 }
 50623={
@@ -1165,9 +1159,7 @@
 	dna = "eeeebbcnhmk"
 	culture = carcassian religion = grail
 	father = 50222	#Gralon
-	1978.12.7={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1978.12.7={ birth=yes}
 	2022.3.31={ death=yes }
 }
 50226={
@@ -1520,9 +1512,7 @@
 	martial = 7 diplomacy = 6 stewardship = 4 intrigue = 5 learning = 4
 	add_trait = flamboyant_schemer add_trait = cruel add_trait = diligent add_trait = envious add_trait = brave add_trait = lustful add_trait = fair 
 	father = 50417	#Riok
-	1984.9.24={ birth=yes 
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+	1984.9.24={ birth=yes }
 	2032.6.8={ death=yes }
 }
 50424={
@@ -1930,9 +1920,7 @@ add_trait="poet"
 add_trait="fortune_builder"
 add_trait="trusting"
 add_trait="lustful"
-1993.8.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1993.8.3={birth=yes}
 2025.4.10={death=yes}
 }
 4300008={
@@ -2129,9 +2117,7 @@ add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="weak"
-1987.1.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1987.1.10={birth=yes}
 2045.10.28={death=yes}
 }
 4300020={

@@ -13,9 +13,7 @@ add_trait="impaler"
 add_trait="naive_appeaser"
 add_trait="gregarious"
 add_trait="kind"
-1981.11.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1981.11.3={birth=yes}
 2063.1.17={death=yes}
 }
 
@@ -260,9 +258,7 @@ add_trait="indulgent_wastrel"
 add_trait="slothful"
 add_trait="patient"
 add_trait="diligent"
-2007.7.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2007.7.9={birth=yes}
 2056.2.26={death="2056.2.26"}
 }
 
@@ -475,9 +471,7 @@ add_trait="mystic"
 add_trait="misguided_warrior"
 add_trait="lustful"
 add_trait="ill"
-1973.8.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1973.8.5={birth=yes}
 2061.1.13={death="2061.1.13"}
 }
 
@@ -728,9 +722,7 @@ add_trait="thrifty_clerk"
 add_trait="kind"
 add_trait="charitable"
 add_trait="depressed"
-1967.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.1.1={birth=yes}
 2031.3.4={death=yes}
 }
 

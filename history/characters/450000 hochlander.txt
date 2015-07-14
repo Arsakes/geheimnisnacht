@@ -227,9 +227,7 @@ add_trait="hunter"
 add_trait="intricate_webweaver"
 add_trait="fair"
 add_trait="strong"
-1999.12.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.12.9={birth=yes}
 2049.3.4={death=yes}
 }
 
@@ -573,9 +571,7 @@ add_trait="deceitful"
 add_trait="honest"
 add_trait="cruel"
 add_trait="paranoid"
-2435.9.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2435.9.1={birth=yes}
 2495.3.8={death=yes}
 }
 
@@ -892,8 +888,6 @@ add_trait="tough_soldier"
 add_trait="diligent"
 add_trait="honest"
 add_trait="trusting"
-1988.4.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1988.4.26={birth=yes}
 2045.6.11={death=yes}
 }

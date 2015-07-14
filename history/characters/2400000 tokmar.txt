@@ -14,9 +14,7 @@ add_trait="fortune_builder"
 add_trait="brave"
 add_trait="shy"
 add_trait="just"
-1974.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1974.1.1={birth=yes}
 2026.2.11={death=yes}
 }
 
@@ -203,9 +201,7 @@ learning=4
 add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="cynical"
-1964.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1964.1.1={birth=yes}
 2029.2.15={death=yes}
 }
 

@@ -14,9 +14,7 @@ add_trait="brilliant_strategist"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
-1992.4.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1992.4.30={birth=yes}
 2021.12.2={death=yes}
 }
 
@@ -353,9 +351,7 @@ learning=5
 add_trait="creature_human"
 add_trait="midas_touched"
 add_trait="kind"
-1999.11.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 

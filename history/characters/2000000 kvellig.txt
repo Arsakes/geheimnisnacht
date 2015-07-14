@@ -172,9 +172,7 @@ add_trait="fortune_builder"
 add_trait="diligent"
 add_trait="humble"
 add_trait="ambitious"
-1971.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1971.1.1={birth=yes}
 2014.1.1={death=yes}
 }
 
@@ -389,9 +387,6 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="diligent"
 add_trait="greedy"
-1967.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.1.1={birth=yes}
 2020.7.3={death=yes}
 }
-

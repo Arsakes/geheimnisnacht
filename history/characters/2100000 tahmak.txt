@@ -12,9 +12,7 @@ learning=4
 add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="craven"
-1967.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.1.1={birth=yes}
 2024.7.30={death=yes}
 }
 
@@ -230,9 +228,7 @@ learning=8
 add_trait="creature_human"
 add_trait="naive_appeaser"
 add_trait="mystic"
-1952.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1952.1.1={birth=yes}
 2018.10.10={death=yes}
 }
 
@@ -388,9 +384,7 @@ add_trait="skilled_tactician"
 add_trait="cruel"
 add_trait="craven"
 add_trait="envious"
-1971.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1971.1.1={birth=yes}
 2032.8.8={death=yes}
 }
 

@@ -173,9 +173,7 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="cruel"
 add_trait="gluttonous"
-1977.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1977.1.1={birth=yes}
 2035.8.20={death=yes}
 }
 
@@ -329,9 +327,7 @@ learning=2
 add_trait="creature_human"
 add_trait="fortune_builder"
 add_trait="diligent"
-1979.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1979.1.1={birth=yes}
 2029.11.15={death=yes}
 }
 
@@ -392,9 +388,6 @@ add_trait="skilled_tactician"
 add_trait="cruel"
 add_trait="craven"
 add_trait="envious"
-1971.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1971.1.1={birth=yes}
 2032.8.8={death=yes}
 }
-

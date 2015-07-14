@@ -51,9 +51,7 @@ learning=4
 add_trait="creature_human"
 add_trait="tough_soldier"
 add_trait="strong"
-1973.6.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1973.6.26={birth=yes}
 2028.3.3={death=yes}
 }
 
@@ -240,9 +238,7 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="martial_cleric"
 add_trait="envious"
-1965.7.6={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1965.7.6={birth=yes}
 2040.7.3={death=yes}
 }
 
@@ -419,9 +415,7 @@ add_trait="hunter"
 add_trait="charismatic_negotiator"
 add_trait="humble"
 add_trait="wroth"
-1962.8.13={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1962.8.13={birth=yes}
 2039.3.15={death=yes}
 }
 
@@ -584,9 +578,7 @@ add_trait="intricate_webweaver"
 add_trait="shy"
 add_trait="ambitious"
 add_trait="just"
-1985.3.16={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1985.3.16={birth=yes}
 2001.9.11={add_spouse=1300032}
 2037.11.13={death=yes}
 }
@@ -734,9 +726,7 @@ mother=1300031
 add_trait="flamboyant_schemer"
 add_trait="twin"
 add_trait="patient"
-1994.1.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1994.1.5={birth=yes}
 2071.6.18={death=yes}
 }
 

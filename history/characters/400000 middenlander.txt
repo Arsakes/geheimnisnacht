@@ -135,9 +135,7 @@ add_trait="intricate_webweaver"
 add_trait="stressed"
 add_trait="humble"
 add_trait="depressed"
-1969.9.7={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1969.9.7={birth=yes}
 2023.9.24={death=yes}
 }
 
@@ -528,9 +526,7 @@ add_trait="skilled_tactician"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="sword_1"
-2404.11.12={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2404.11.12={birth=yes}
 2421.5.7={add_spouse=650076}
 2449.2.25={death=yes}
 }
@@ -836,9 +832,7 @@ learning=4
 add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="arbitrary"
-2476.7.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2476.7.1={birth=yes}
 2541.12.12={death=yes}
 }
 
@@ -1111,9 +1105,7 @@ add_trait="lustful"
 add_trait="gregarious"
 add_trait="deceitful"
 add_trait="proud"
-1976.3.7={birth=yes
-		effect = { set_character_flag = magic_potential_flag_2 }
-		}
+1976.3.7={birth=yes}
 2036.12.15={death=yes}
 }
 

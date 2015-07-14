@@ -267,9 +267,7 @@ add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
-1980.11.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1980.11.22={birth=yes}
 2063.6.4={death=yes}
 }
 4700015={
@@ -472,9 +470,7 @@ add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="kind"
 add_trait="paranoid"
-1972.4.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1972.4.1={birth=yes}
 2010.1.1={employer=950000} #Wissenland
 2025.7.25={death=yes}
 }

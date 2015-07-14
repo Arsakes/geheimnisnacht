@@ -14,9 +14,7 @@ add_trait="skilled_tactician"
 add_trait="paranoid"
 add_trait="patient"
 add_trait="chaste"
-1956.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1956.1.1={birth=yes}
 2016.2.15={death=yes}
 }
 
@@ -246,9 +244,7 @@ intrigue=3
 learning=5
 add_trait="creature_human"
 add_trait="flamboyant_schemer"
-1960.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1960.1.1={birth=yes}
 2015.11.12={death=yes}
 }
 

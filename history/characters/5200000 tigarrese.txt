@@ -71,9 +71,7 @@ add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
-1993.5.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1993.5.22={birth=yes}
 2042.8.28={death=yes}
 }
 
@@ -202,9 +200,7 @@ learning=3
 add_trait="creature_human"
 add_trait="hedonist"
 add_trait="underhanded_rogue"
-1990.9.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1990.9.26={birth=yes}
 2017.12.25={death=yes}
 }
 
@@ -377,9 +373,7 @@ add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="weak"
-1984.1.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1984.1.10={birth=yes}
 2045.10.28={death=yes}
 }
 

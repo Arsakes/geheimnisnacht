@@ -185,9 +185,7 @@
 	dna=nonejecgack
 	culture=armoric religion=grail
 	father=45209	#Vinsant
-	1929.7.23={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+	1929.7.23={birth=yes}
 	1984.4.13={death=yes}
 }
 
@@ -428,9 +426,7 @@
 	dna=nnbaldkobfn
 	culture=armoric religion=grail
 	father=45000	#Nikolaz
-	1855.4.2={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+	1855.4.2={birth=yes}
 	1920.6.6={death=yes}
 }
 45004={
@@ -716,9 +712,7 @@
 	dna=jkhpiggakhj
 	culture=armoric religion=grail
 	father=45022	#Edern
-	2022.3.7={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+	2022.3.7={birth=yes}
 	2087.6.14={death=yes}
 }
 45031={
@@ -1013,9 +1007,7 @@ add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="weak"
-1991.1.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.1.10={birth=yes}
 2045.10.28={death=yes}
 }
 4100020={
@@ -1093,8 +1085,6 @@ add_trait="grey_eminence"
 add_trait="celibate"
 add_trait="kind"
 add_trait="zealous"
-1415.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1415.1.1={birth=yes}
 1539.12.4={death=yes}
 }

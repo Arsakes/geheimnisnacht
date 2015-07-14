@@ -127,9 +127,7 @@ add_trait="cruel"
 father=1175004
 mother=1175007
 
-1988.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1988.5.1={birth=yes}
 2039.8.1={death=yes}
 }
 
@@ -304,9 +302,7 @@ add_trait="humble"
 father=1175010
 mother=1175011
 
-2003.7.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2003.7.1={birth=yes}
 2051.4.13={death=yes}
 }
 
@@ -450,9 +446,7 @@ add_trait="proud"
 add_trait="humble"
 father=1175018
 
-2006.11.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2006.11.1={birth=yes}
 2060.10.9={death=yes}
 }
 
@@ -563,9 +557,7 @@ add_trait="zealous"
 father=1175017
 mother=1175028
 
-2009.3.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2009.3.1={birth=yes}
 2062.1.4={death=yes}
 }
 
@@ -678,9 +670,7 @@ add_trait="bastard"
 father=1175017
 mother=1175015
 
-2008.9.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2008.9.1={birth=yes}
 2073.12.27={death=yes}
 }
 

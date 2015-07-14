@@ -16,9 +16,7 @@ add_trait="gregarious"
 add_trait="kind"
 father=4200024
 mother=4200025
-2001.4.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2001.4.30={birth=yes}
 2041.12.2={death="2041.12.2"}
 }
 
@@ -305,9 +303,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
-1989.12.2={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1989.12.2={birth=yes}
 2027.1.13={death=yes}
 }
 
@@ -712,9 +708,7 @@ add_trait="envious"
 add_trait="syphilitic"
 father=4200032
 mother=4200033
-2011.5.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2011.5.26={birth=yes}
 2088.3.7={death=yes}
 }
 
@@ -1046,9 +1040,7 @@ add_trait="cruel"
 add_trait="ambitious"
 father=4200045
 mother=4200046
-2025.7.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2025.7.9={birth=yes}
 2092.6.7={death=yes}
 }
 
@@ -1341,9 +1333,7 @@ add_trait="envious"
 add_trait="ambitious"
 add_trait="honest"
 father=4200014
-2003.3.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2003.3.9={birth=yes}
 2023.6.1={add_spouse=4200061}
 2075.6.15={death=yes}
 }
@@ -1587,9 +1577,7 @@ add_trait="greedy"
 add_trait="ill"
 father=4200070
 mother=4200069
-1992.12.15={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1992.12.15={birth=yes}
 2043.7.21={death=yes}
 }
 
@@ -1795,9 +1783,7 @@ add_trait="diligent"
 add_trait="temperate"
 father=4200081
 mother=4200080
-1956.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1956.1.1={birth=yes}
 1964.9.2={death=yes}
 }
 
@@ -1883,9 +1869,7 @@ add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="cruel"
 add_trait="paranoid"
-1991.8.21={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.8.21={birth=yes}
 2010.2.11={add_spouse=4200085}
 2057.10.20={death=yes}
 }
@@ -2040,9 +2024,7 @@ add_trait="honest"
 add_trait="shy"
 add_trait="envious"
 add_trait="brave"
-1986.2.11={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1986.2.11={birth=yes}
 2004.3.6={add_spouse=4200092}
 2055.7.28={death=yes}
 }
@@ -2191,9 +2173,7 @@ add_trait="flamboyant_schemer"
 add_trait="zealous"
 add_trait="honest"
 add_trait="lustful"
-1211.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1211.1.1={birth=yes}
 1283.1.26={give_nickname=nick_the_proud}
 1299.10.13={death=yes}
 }

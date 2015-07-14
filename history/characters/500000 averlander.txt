@@ -265,9 +265,7 @@ add_trait="fortune_builder"
 add_trait="slothful"
 add_trait="patient"
 add_trait="envious"
-1993.6.7={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1993.6.7={birth=yes}
 2066.11.1={death=yes}
 }
 
@@ -890,9 +888,7 @@ father=500024
 
 add_trait="creature_human"
 add_trait="sword_1"
-1374.7.12={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1374.7.12={birth=yes}
 1447.5.13={death=yes}
 }
 
@@ -1180,9 +1176,7 @@ add_trait="creature_human"
 add_trait="sword_1"
 mother=500074
 
-2262.12.14={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2262.12.14={birth=yes}
 2313.8.2={death=yes}
 }
 
@@ -2047,9 +2041,7 @@ add_trait="creature_human"
 mother=500120
 add_trait="detached_priest"
 add_trait="patient"
-2481.11.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2481.11.1={birth=yes}
 2536.9.15={death=yes}
 }
 
@@ -3012,9 +3004,7 @@ mother=500163
 add_trait="elusive_shadow"
 add_trait="shy"
 add_trait="trusting"
-2491.8.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2491.8.22={birth=yes}
 2520.6.27={add_claim=k_averland}
 2544.4.25={death=yes}
 }
@@ -3447,9 +3437,7 @@ add_trait="legit_bastard"
 add_trait="indulgent_wastrel"
 add_trait="craven"
 add_trait="shy"
-2444.7.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_2 }
-		}
+2444.7.1={birth=yes}
 2504.2.25={death=yes}
 }
 
@@ -3704,9 +3692,7 @@ mother=950099
 add_trait="skilled_tactician"
 add_trait="craven"
 add_trait="charitable"
-2497.7.24={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2497.7.24={birth=yes}
 2531.8.21={death=yes}
 }
 

@@ -71,9 +71,7 @@ add_trait="midas_touched"
 add_trait="cruel"
 add_trait="weak"
 add_trait="wroth"
-1993.5.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1993.5.22={birth=yes}
 2042.8.28={death=yes}
 }
 
@@ -262,9 +260,7 @@ add_trait="amateurish_plotter"
 add_trait="slothful"
 add_trait="patient"
 add_trait="shy"
-1992.4.18={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1992.4.18={birth=yes}
 2040.1.8={death=yes}
 }
 
@@ -475,9 +471,7 @@ add_trait="hunter"
 add_trait="fair"
 add_trait="diligent"
 add_trait="cruel"
-2477.9.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2477.9.1={birth=yes}
 #2499.5.10={add_spouse=4700020}
 2542.9.15={death=yes}
 }
@@ -677,9 +671,7 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="gluttonous"
 add_trait="chaste"
-2481.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2481.1.1={birth=yes}
 2553.8.23={death=yes}
 }
 

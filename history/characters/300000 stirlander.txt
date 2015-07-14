@@ -227,9 +227,7 @@ add_trait="impaler"
 add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 add_trait="lustful"
-1968.9.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1968.9.5={birth=yes}
 2027.12.9={death=yes}
 }
 
@@ -482,9 +480,7 @@ add_trait="creature_human"
 add_trait="poet"
 add_trait="intricate_webweaver"
 add_trait="sword_1"
-552.5.27={birth="552.5.27"
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+552.5.27={birth="552.5.27"}
 581.9.25={death="581.9.25"}
 }
 
@@ -821,9 +817,7 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="gluttonous"
 add_trait="deceitful"
-2471.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2471.1.1={birth=yes}
 2526.11.13={death=yes}
 }
 
@@ -1266,9 +1260,7 @@ add_trait="tough_soldier"
 add_trait="craven"
 add_trait="paranoid"
 add_trait="shy"
-2506.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2506.1.1={birth=yes}
 2576.4.14={death=yes}
 }
 
@@ -1556,9 +1548,7 @@ add_trait="content"
 add_trait="craven"
 add_trait="trusting"
 add_trait="gregarious"
-2496.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2496.5.1={birth=yes}
 2553.4.2={death=yes}
 }
 

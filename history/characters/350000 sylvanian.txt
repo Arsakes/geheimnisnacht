@@ -26,13 +26,12 @@ add_trait="vampire_carstein_visible"
 1797.5.10={add_spouse=350026}
 1797.5.11={effect ={ add_lover = 350026 }}
 2010.7.1={
-effect = { 
-set_graphical_culture = generic_vampire
-add_character_modifier = { name = magic_power_4 duration = -1 }
-set_character_flag = vlad_von_carstein
-character_event = { id = carstein.0 }
- }
- }
+	effect = { 
+		set_graphical_culture = generic_vampire
+		set_character_flag = vlad_von_carstein
+		character_event = { id = carstein.0 }
+	 }
+}
 2051.3.22={death=yes}
 }
 
@@ -230,11 +229,6 @@ effect = { set_graphical_culture = generic_vampire }
 }
 
 2010.7.1={
-effect = { 
-add_character_modifier = { name = magic_power_2 duration = -1 }
- }
-}
-
 2047.9.28={death=yes}
 }
 

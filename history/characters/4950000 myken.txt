@@ -17,9 +17,7 @@ add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="tall"
-1967.4.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.4.30={birth=yes}
 1986.9.26={add_spouse=4950022}
 2021.12.2={death=yes}
 }
@@ -290,9 +288,7 @@ add_trait="underhanded_rogue"
 add_trait="ambitious"
 add_trait="proud"
 add_trait="strong"
-1980.11.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1980.11.22={birth=yes}
 2063.6.4={death=yes}
 }
 
@@ -498,9 +494,7 @@ add_trait="envious"
 add_trait="zealous"
 add_trait="wroth"
 add_trait="stressed"
-2482.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2482.1.1={birth=yes}
 2541.1.21={death=yes}
 }
 

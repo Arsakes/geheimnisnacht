@@ -105,9 +105,7 @@
 	dna = "nhbpdfgjbjp"
 	culture = nortagnese religion = grail
 	father = 42001	#Gerbaud
-	1895.12.13={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1895.12.13={ birth=yes}
 	1937.9.17={ death=yes }
 }
 42009={
@@ -339,9 +337,7 @@
 	dna = "alfjgdhlnjh"
 	culture = nortagnese religion = grail
 	father = 42019	#Aristolf
-	2008.9.22={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	2008.9.22={ birth=yes}
 	2072.4.22={ death=yes }
 }
 ##  42000		29017
@@ -582,9 +578,7 @@ add_trait="duelist"
 add_trait="trusting"
 add_trait="gluttonous"
 add_trait="deceitful"
-1957.6.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1957.6.5={birth=yes}
 1976.6.21={add_spouse=4000106}
 2008.6.5={death=yes}
 }
@@ -878,9 +872,7 @@ mother=4000106
 	martial = 4 diplomacy = 6 stewardship = 7 intrigue = 8 learning = 6
 	add_trait = flamboyant_schemer add_trait = poet add_trait = temperate add_trait = paranoid add_trait = cynical add_trait = shy add_trait = chaste add_trait = poor_warrior 
 	father = 40803	#Ricard
-	1930.11.15={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1930.11.15={ birth=yes}
 	1982.3.12={ death=yes }
 }
 40809={
@@ -1071,9 +1063,7 @@ mother=4000106
 	martial = 7 diplomacy = 7 stewardship = 6 intrigue = 4 learning = 4
 	add_trait = scholarly_theologian add_trait = patient add_trait = slothful add_trait = cynical add_trait = gluttonous add_trait = poor_warrior 
 	father = 40600	#Ilbert
-	1875.3.20={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1875.3.20={ birth=yes}
 	1926.1.9={ death=yes }
 }
 40602={
@@ -1424,9 +1414,7 @@ mother=4000106
 	martial = 7 diplomacy = 4 stewardship = 5 intrigue = 5 learning = 6
 	add_trait = midas_touched add_trait = cruel add_trait = cynical add_trait = deceitful add_trait = slow add_trait = skilled_warrior 
 	father = 40405	#Rolland
-	1926.1.17={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1926.1.17={ birth=yes}
 	1989.8.16={ death=yes }
 }
 40410={
@@ -1742,9 +1730,7 @@ mother=4000106
 	dna = "hmojhjenhhm"
 	culture = nortagnese religion = grail
 	father = 40209	#Oswulf
-	1966.10.7={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1966.10.7={ birth=yes}
 	2032.10.25={ death=yes }
 }
 40216={
@@ -1997,9 +1983,7 @@ mother=4000106
 	dna = "fmkdegajkaf"
 	culture = nortagnese religion = grail
 	father = 40011	#Heymon
-	1958.12.24={ birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		 }
+	1958.12.24={ birth=yes}
 	2020.12.19={ death=yes }
 }
 40015={
@@ -2244,9 +2228,7 @@ add_trait="kind"
 add_trait="greedy"
 father=4000051
 mother=4000052
-2013.8.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2013.8.22={birth=yes}
 2072.2.24={death=yes}
 }
 4000054={
@@ -2351,9 +2333,7 @@ add_trait="chaste"
 add_trait="charitable"
 father=4000049
 mother=4000050
-1987.10.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1987.10.22={birth=yes}
 2007.11.3={add_spouse=4000059}
 2062.10.12={death=yes}
 }
@@ -2563,9 +2543,7 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="cruel"
 add_trait="humble"
-1991.8.4={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.8.4={birth=yes}
 2008.7.31={add_spouse=4000067}
 2049.4.11={death=yes}
 }
@@ -2776,9 +2754,7 @@ add_trait="skilled_tactician"
 add_trait="shy"
 father=4000075
 mother=4000074
-1999.2.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.2.22={birth=yes}
 2069.6.19={death=yes}
 }
 4000079={
@@ -3170,9 +3146,7 @@ add_trait="diligent"
 add_trait="envious"
 father=4000080
 mother=4000079
-1953.2.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1953.2.5={birth=yes}
 2005.2.20={death=yes}
 }
 4000098={
@@ -3484,9 +3458,7 @@ add_trait="scholar"
 add_trait="temperate"
 add_trait="chaste"
 add_trait="diligent"
-1933.5.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1933.5.26={birth=yes}
 1953.6.17={add_spouse=4000119}
 1981.5.26={death=yes}
 }
@@ -3745,9 +3717,7 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="brave"
 add_trait="humble"
-1996.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1996.1.1={birth=yes}
 2088.1.24={death=yes}
 }
 ##4000133 used above##

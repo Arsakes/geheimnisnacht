@@ -129,10 +129,9 @@ learning=9
 add_trait="creature_human"
 add_trait="misguided_warrior"
 add_trait="content"
-1985.4.20={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
-2045.7.2={death=yes}}
+1985.4.20={birth=yes}
+2045.7.2={death=yes}
+}
 
 5300007={
 name="Lisuarte"
@@ -319,9 +318,7 @@ add_trait="mastermind_theologian"
 add_trait="gregarious"
 add_trait="paranoid"
 add_trait="honest"
-1984.9.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1984.9.30={birth=yes}
 2019.11.14={death=yes}
 }
 
@@ -484,9 +481,7 @@ add_trait="twin"
 mother=5300022
 father=5300021
 
-1999.11.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.11.1={birth=yes}
 2042.6.25={death=yes}
 }
 

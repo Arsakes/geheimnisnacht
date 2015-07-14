@@ -13,9 +13,7 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="lustful"
 add_trait="cruel"
-1955.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1955.1.1={birth=yes}
 2018.9.12={death=yes}
 }
 
@@ -195,9 +193,7 @@ add_trait="humble"
 add_trait="slothful"
 add_trait="trusting"
 add_trait="brave"
-1967.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.1.1={birth=yes}
 2014.1.21={death=yes}
 }
 
@@ -393,9 +389,7 @@ add_trait="fortune_builder"
 add_trait="craven"
 add_trait="just"
 add_trait="cruel"
-1959.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1959.1.1={birth=yes}
 2011.12.25={death=yes}
 }
 
@@ -414,11 +408,7 @@ learning=11
 female=yes
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-add_trait="magic_potential_1"
-add_trait="lore_tzeentch"
-1998.1.1={birth=yes 
-effect = {
-add_character_modifier = { name = magic_power_1 duration = -1 } } }
+1998.1.1={birth=yes }
 2049.6.14={death=yes}
 }
 
@@ -434,13 +424,10 @@ intrigue=9
 learning=14
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-add_trait="magic_potential_1"
-add_trait="lore_tzeentch"
-1968.1.1={birth=yes 
-effect = {
-add_character_modifier = { name = magic_power_1 duration = -1 } } }
+1968.1.1={birth=yes}
 2049.6.14={death=yes}
 }
+
 2200022={
 name="Piroska"
 dynasty=67022
@@ -454,13 +441,10 @@ learning=13
 female=yes
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-add_trait="magic_potential_1"
-add_trait="lore_slaanesh"
-1981.1.1={birth=yes 
-effect = {
-add_character_modifier = { name = magic_power_3 duration = -1 } } }
+1981.1.1={birth=yes }
 2049.6.14={death=yes}
 }
+
 2200023={
 name="Yaakov"
 dynasty=67023
@@ -473,13 +457,10 @@ intrigue=9
 learning=11
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-add_trait="magic_potential_1"
-add_trait="lore_tzeentch"
-1964.1.1={birth=yes 
-effect = {
-add_character_modifier = { name = magic_power_1 duration = -1 } } }
+1964.1.1={birth=yes}
 2049.6.14={death=yes}
 }
+
 2200024={
 name="Tacsony"
 dynasty=67024
@@ -492,10 +473,6 @@ intrigue=9
 learning=3
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-add_trait="magic_potential_1"
-add_trait="lore_slaanesh"
-1979.1.1={birth=yes 
-effect = {
-add_character_modifier = { name = magic_power_1 duration = -1 } } }
+1979.1.1={birth=yes}
 2049.6.14={death=yes}
 }

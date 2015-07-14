@@ -92,9 +92,7 @@ add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
-1959.5.4={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1959.5.4={birth=yes}
 2062.2.1={death=yes}
 }
 
@@ -242,9 +240,7 @@ add_trait="scholar"
 add_trait="scholarly_theologian"
 add_trait="diligent"
 add_trait="envious"
-2478.10.9={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2478.10.9={birth=yes}
 2543.7.30={death=yes}
 }
 
@@ -381,9 +377,7 @@ add_trait="mystic"
 add_trait="scholarly_theologian"
 add_trait="tall"
 add_trait="weak"
-1991.1.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.1.10={birth=yes}
 2045.10.28={death=yes}
 }
 

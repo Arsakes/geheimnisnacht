@@ -55,9 +55,7 @@ add_trait="duelist"
 add_trait="elusive_shadow"
 add_trait="kind"
 add_trait="weak"
-1967.10.18={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1967.10.18={birth=yes}
 2067.10.5={death=yes}
 }
 
@@ -114,9 +112,7 @@ add_trait="detached_priest"
 add_trait="trusting"
 add_trait="content"
 add_trait="wroth"
-1973.2.11={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1973.2.11={birth=yes}
 2055.10.20={death=yes}
 }
 
@@ -190,9 +186,7 @@ add_trait="creature_human"
 add_trait="gardener"
 add_trait="underhanded_rogue"
 add_trait="lisp"
-1990.12.16={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1990.12.16={birth=yes}
 2021.9.18={death=yes}
 }
 
@@ -305,9 +299,7 @@ add_trait="underhanded_rogue"
 add_trait="just"
 add_trait="ambitious"
 add_trait="zealous"
-1991.10.5={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.10.5={birth=yes}
 2035.9.29={death=yes}
 }
 
@@ -425,9 +417,7 @@ learning=1
 add_trait="creature_human"
 add_trait="intricate_webweaver"
 add_trait="envious"
-2424.9.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2424.9.1={birth=yes}
 2481.11.3={death=yes}
 }
 
@@ -533,9 +523,7 @@ add_trait="patient"
 add_trait="lustful"
 add_trait="diligent"
 add_trait="proud"
-2513.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2513.5.1={birth=yes}
 2577.6.10={death=yes}
 }
 
@@ -719,11 +707,7 @@ add_trait="ugly"
 add_trait="deceitful"
 add_trait="shy"
 add_trait="wroth"
-add_trait="lore_shadows"
-add_trait="magic_potential_1"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
 
@@ -744,11 +728,7 @@ add_trait="lisp"
 add_trait="honest"
 add_trait="gregarious"
 add_trait="kind"
-add_trait="lore_light"
-add_trait="magic_potential_1"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
 
@@ -768,11 +748,7 @@ add_trait="fair"
 add_trait="greedy"
 add_trait="drunkard"
 add_trait="paranoid"
-add_trait="lore_fire"
-add_trait="magic_potential_2"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
 1700038={
@@ -791,12 +767,7 @@ add_trait="quick"
 add_trait="lustful"
 add_trait="patient"
 add_trait="diligent"
-add_trait="lore_beasts"
-add_trait="magic_potential_1"
-add_trait="hedge_wizard"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
 1700039={
@@ -816,11 +787,7 @@ add_trait="brilliant"
 add_trait="cruel"
 add_trait="slothful"
 add_trait="envious"
-add_trait="lore_death"
-add_trait="magic_potential_1"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
 1700040={
@@ -840,13 +807,10 @@ add_trait="dim"
 add_trait="trusting"
 add_trait="gregarious"
 add_trait="proud"
-add_trait="lore_metal"
-add_trait="magic_potential_1"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
+
 1700041={
 name="Ragnar"
 dynasty=58110 
@@ -863,13 +827,10 @@ add_trait="unsightly"
 add_trait="paranoid"
 add_trait="shy"
 add_trait="patient"
-add_trait="lore_heavens"
-add_trait="magic_potential_1"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
+
 1700042={
 name="Ragnvald"
 dynasty=58111 
@@ -886,11 +847,6 @@ add_trait="tough"
 add_trait="honest"
 add_trait="gluttonous"
 add_trait="kind"
-add_trait="lore_life"
-add_trait="magic_potential_2"
-add_trait="hedge_wizard"
-1980.11.1={birth=yes
-effect = { add_character_modifier = { name = magic_power_3 duration = -1 } }
-}
+1980.11.1={birth=yes}
 2090.3.26={death=yes}
 }
