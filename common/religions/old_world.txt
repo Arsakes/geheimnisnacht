@@ -20,10 +20,14 @@ old_world_group = {
 		graphical_culture = westerngfx
 
 		icon = 5
+		heresy_icon = 38
 		color = { 0.8 0.3 0.1 }
+		
+		high_god_name = GOD_SIGMAR
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_DEEDS_OF_SIGMAR
+		priest_title = ABBOT
 		god_names = {
 			GOD_SIGMAR GOD_LORD_SIGMAR
 		}
@@ -49,13 +53,17 @@ old_world_group = {
 		graphical_culture = westerngfx
 
 		icon = 6
+		heresy_icon = 6
 		color = { 0.9 0.7 0.0 }
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_BELLONA_MYRMIDIA
+		priest_title = PRIEST
+		
+		high_god_name = GOD_MYRMIDIA
 		
 		god_names = {
-			GOD_GODS GOD_MYRMIDIA GOD_VERENA
+			GOD_MYRMIDIA GOD_VERENA
 		}
 
 		evil_god_names = {
@@ -79,13 +87,49 @@ old_world_group = {
 		graphical_culture = westerngfx
 
 		icon = 10
+		heresy_icon = 34
+		
 		color = { 0.2 0.7 0.9 }
 		
-		crusade_name = "CRUSADE"
+		high_god_name = GOD_LADY
+		
+		crusade_name = CRUSADE
 		scripture_name = THE_CHANSONS
+		priest_title = GRAIL_DAMSEL
 		
 		god_names = {
-			GOD_LADY 
+			GOD_LADY THE_GRAIL
+		}
+
+		evil_god_names = {
+			GOD_THE_DARK_GODS THE_FALSE_GRAIL
+		}
+		
+		#priests_can_marry = yes
+		allow_rivermovement = no
+		female_temple_holders = yes
+		can_hold_temples = yes
+		can_call_crusade = yes
+		intermarry = shallyan		
+	}
+	
+	false_grail = {
+		graphical_culture = westerngfx
+
+		icon = 10
+		heresy_icon = 34
+		
+		color = { 0.2 0.7 0.9 }
+		parent = grail
+		
+		high_god_name = GOD_LADY
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_CHANSONS
+		priest_title = GRAIL_DAMSEL
+		
+		god_names = {
+			GOD_LADY THE_GRAIL
 		}
 
 		evil_god_names = {
@@ -96,22 +140,25 @@ old_world_group = {
 		allow_rivermovement = no
 		female_temple_holders = yes
 		can_hold_temples = yes
-
-
+		can_call_crusade = yes
 		intermarry = shallyan		
-	}	
+	}
 	
 	ulrican = {
 		graphical_culture = westerngfx
 
 		icon = 7
+		heresy_icon = 39
 		color = { 0.1 0.1 0.6 }
+		
+		high_god_name = GOD_ULRIC
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_LIBER_LUPUS
+		priest_title = WOLF_PRIEST
 		
 		god_names = {
-			GOD_GODS GOD_ULRIC
+			GOD_ULRIC
 		}
 
 		evil_god_names = {
@@ -134,14 +181,18 @@ old_world_group = {
 	taalite = {
 		graphical_culture = westerngfx
 
-		icon = 7
+		icon = 28
+		heresy_icon = 40
 		color = { 0.3 0.7 0.3 }
 		
 		crusade_name = "CRUSADE"
-		scripture_name = THE_LIBER_LUPUS
+		scripture_name = THE_BOOK_OF_GREEN
+		priest_title = PRIEST
+		
+		high_god_name = GOD_TAAL
 		
 		god_names = {
-			GOD_GODS GOD_TAAL
+			GOD_TAAL GOD_RHYA
 		}
 
 		evil_god_names = {
@@ -165,13 +216,16 @@ old_world_group = {
 		graphical_culture = westerngfx
 
 		icon = 8
-		color = { 0.7 0.8 0.8 }
+		color = { 0.7 0.8 0.9 }
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_GREAT_BOOK
+		priest_title = PRIEST
+		
+		high_god_name = GOD_URSUN
 		
 		god_names = {
-			GOD_GODS GOD_FIREBRINGER GOD_TOR GOD_DAZH GOD_URSUN GOD_BEARLORD GOD_THUNDERER 
+			GOD_FIREBRINGER GOD_TOR GOD_DAZH GOD_URSUN GOD_BEARLORD GOD_THUNDERER 
 		}
 		
 		evil_god_names = {
@@ -194,16 +248,19 @@ old_world_group = {
 	shallyan = {
 		graphical_culture = westerngfx
 
-		icon = 6
+		icon = 30
 		color = { 0.9 0.9 0.9 }
 		
 		pacifist = yes
 		
 		crusade_name = "CRUSADE"
-		scripture_name = THE_BELLONA_MYRMIDIA
+		scripture_name = THE_BOOK_OF_SUFFERINGS
+		priest_title = HEART_SISTER
+		
+		high_god_name = GOD_SHALLYA
 		
 		god_names = {
-			GOD_GODS GOD_SHALLYA
+			GOD_SHALLYA
 		}
 
 		evil_god_names = {
@@ -239,6 +296,9 @@ old_world_group = {
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_ELDERS
+		priest_title = DRUID
+		
+		high_god_name = GOD_MOTHER
 		
 		god_names = {
 			GOD_MOTHER GOD_SPIRITS
@@ -264,11 +324,14 @@ old_world_group = {
 	manannite = {
 		graphical_culture = westerngfx
 
-		icon = 9
+		icon = 32
 		color = { 0.3 0.5 0.7 }
 		
 		crusade_name = "CRUSADE"
-		scripture_name = THE_STORMS
+		scripture_name = LIBER_MANANN
+		priest_title = PRIEST
+		
+		high_god_name = GOD_MANANN
 		
 		god_names = {
 			GOD_MANANN

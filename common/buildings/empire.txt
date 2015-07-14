@@ -201,13 +201,14 @@ castle = {
 				NOT = {	has_landed_title = e_the_empire }
                                 has_character_modifier = state_troops_given
 			}
-			FROMFROM = { empire = e_the_empire }
+			FROMFROM = { has_landed_title = e_the_empire }
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 0
 		build_time = 0
 		retinuesize_perc = -0.5
 		ai_creation_factor = 200
+
 		extra_tech_building_start = 0.0		
 	}
 	# Emperor Level state troops headquaters
@@ -223,7 +224,7 @@ castle = {
 				}
                                 NOT = { has_character_modifier = state_troops_given }
 			}
-			FROMFROM = { empire = e_the_empire }
+			FROMFROM = { has_landed_title = e_the_empire }
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		#prerequisites = { ca_imperial_barracks_1 }	
@@ -336,6 +337,9 @@ castle = {
 	ca_imperial_stable_1 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			culture_group = imperial_group
+		}
 		replaces = ca_stable_1
 		gold_cost = 100
 		build_time = 365
@@ -347,6 +351,9 @@ castle = {
 	ca_imperial_stable_2 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			culture_group = imperial_group
+		}
 		prerequisites = { ca_wall_1 }
 		upgrades_from = ca_imperial_stable_1
 		replaces = ca_stable_2
@@ -360,6 +367,9 @@ castle = {
 	ca_imperial_stable_3 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		potential = {
+			culture_group = imperial_group
+		}
 		prerequisites = { ca_wall_2 }
 		upgrades_from = ca_imperial_stable_2
 		replaces = ca_stable_3
@@ -373,6 +383,9 @@ castle = {
 	ca_imperial_stable_4 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		potential = {
+			culture_group = imperial_group
+		}
 		upgrades_from = ca_imperial_stable_3
 		replaces = ca_stable_4
 		gold_cost = 300
@@ -386,6 +399,9 @@ castle = {
 	ca_imperial_stable_5 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		potential = {
+			culture_group = imperial_group
+		}
 		upgrades_from = ca_imperial_stable_4
 		replaces = ca_stable_5
 		gold_cost = 400
@@ -399,6 +415,9 @@ castle = {
 	ca_imperial_stable_6 = {
 		desc = ca_imperial_stable_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		potential = {
+			culture_group = imperial_group
+		}
 		upgrades_from = ca_imperial_stable_5
 		replaces = ca_stable_6
 		gold_cost = 500

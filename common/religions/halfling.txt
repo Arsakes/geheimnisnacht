@@ -8,8 +8,11 @@ halfling_gods_group = {
 
 		icon = 16
 		color = { 0.3 0.6 0.3 }
+		
+		high_god_name = GOD_ESMERELDA
+		
 		god_names = {
-			GOD_THE_GODS GOD_ESMERELDA
+			GOD_ESMERELDA GOD_GANGEE GOD_FIDOL GOD_LANDRANI GOD_PRASEEDA GOD_SAMORTHA
 		}
 		
 		evil_god_names = {
@@ -18,6 +21,7 @@ halfling_gods_group = {
 		
 		crusade_name = "HOLY_WAR"
 		scripture_name = THE_POT
+		priest_title = HEARTH_BROTHER
 		
 		priests_can_marry = yes
 		allow_rivermovement = no

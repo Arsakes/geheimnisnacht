@@ -1,7 +1,7 @@
 bookmark =
 {
 	name = "BM_FATE_OF_ENGLAND"
-	desc = "BM_GEHEIMNISNACHT_DESC"
+	desc = "BM_VAMPIRE_DESC"
 	date = 2010.7.1
 	
 	character = 350000 #Graf Vlad von Carstein
@@ -9,6 +9,15 @@ bookmark =
 	character = 700000 #Empress Ottilia Untermensch
 	character = 900000 #Emperor Siegfried Holzkrug
 	character = 400000 #Emperor Mannfred Todbringer
+}
+
+bookmark =
+{
+	name = "BM_RISE_OF_THE_HANSA"
+	desc = "BM_CHAOS_DESC"
+	date = 2010.7.1
+	
+	character = 1550000 #Tzarina Tetyana Gospodar
 }
 
 #bookmark =
@@ -21,7 +30,7 @@ bookmark =
 #bookmark =
 #{
 #	name = "BM_GREAT_WAR_AGAINST_CHAOS"
-#	desc = "BM_GREAT_WAR_AGAINST_CHAOS"
+#	desc = "BM_GREAT_WAR_AGAINST_CHAOS_DESC"
 #	date = 2301.9.15
 #}
 #

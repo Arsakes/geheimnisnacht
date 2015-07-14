@@ -1,6 +1,6 @@
-start_date = 2010.7.1
-last_start_date = 2610.7.1
-end_date = 3000.1.1
+start_date = 1066.7.1
+last_start_date = 2521.7.1
+end_date = 9999.1.1
 
 character = {
 }
