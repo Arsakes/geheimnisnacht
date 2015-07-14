@@ -1,3 +1,5 @@
+###ההה
+
 1100000={
 name="Vorlak"
 dynasty=78000
@@ -202,22 +204,23 @@ add_trait="gregarious"
 }
 
 1100010={
-name="Urttai"
-dynasty=78010
+name="Astragoth"
+dynasty=78100
 dna="cnfcegmnick"
 culture=dwarf_chaos
 religion=hashut
-martial=1
-diplomacy=4
+martial=6
+diplomacy=2
 stewardship=4
 intrigue=7
-learning=0
+learning=10
 add_trait="creature_chaos_dwarf"
-add_trait="flamboyant_schemer"
+add_trait="mastermind_theologian"
 add_trait="zealous"
-add_trait="lustful"
-add_trait="shy"
-1966.1.1={birth=yes}
+add_trait="wroth"
+add_trait="ambitious"
+add_trait="lunatic_2"
+1720.1.1={birth=yes}
 2017.8.22={death=yes}
 }
 
@@ -1386,3 +1389,32 @@ add_trait="proud"
 2011.4.4={death=yes}
 }
 
+1100070={ #Dragon Isles Chaos Dwarf slaver colony
+name="Rastur"
+dynasty=78090
+culture=dwarf_chaos
+religion=hashut
+martial=5
+diplomacy=4
+stewardship=1
+intrigue=6
+learning=8
+add_trait="creature_chaos_dwarf"
+1973.1.1={birth=yes}
+2020.4.4={death=yes}
+}
+
+1100071={ 
+name="Rhun"
+culture=dwarf_chaos
+religion=hashut
+martial=3
+diplomacy=1
+stewardship=9
+intrigue=3
+learning=5
+add_trait="creature_chaos_dwarf"
+add_trait="greedy"
+1975.1.1={birth=yes}
+2020.4.4={death=yes}
+}

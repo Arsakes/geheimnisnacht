@@ -31,7 +31,6 @@ add_trait="creature_dwarf"
 add_trait="scholar"
 add_trait="flamboyant_schemer"
 add_trait="greedy"
-
 1956.5.19={birth=yes}
 2064.7.12={death=yes}
 }
@@ -50,10 +49,8 @@ learning=6
 add_trait="creature_dwarf"
 add_trait="falconer"
 add_trait="amateurish_plotter"
-
 add_trait="kind"
 add_trait="tall"
-
 1984.3.28={birth=yes}
 2048.3.14={death=yes}
 }
@@ -71,10 +68,8 @@ learning=1
 add_trait="creature_dwarf"
 add_trait="hunter"
 add_trait="detached_priest"
-
 add_trait="weak"
 add_trait="cruel"
-
 2000.12.18={birth=yes}
 2061.2.21={death=yes}
 }
@@ -95,7 +90,6 @@ add_trait="detached_priest"
 add_trait="temperate"
 add_trait="wroth"
 add_trait="content"
-
 1995.9.18={birth=yes}
 2068.4.30={death=yes}
 }
@@ -116,7 +110,6 @@ add_trait="scholarly_theologian"
 add_trait="humble"
 add_trait="chaste"
 add_trait="ill"
-
 1989.7.28={birth=yes}
 2036.9.5={death=yes}
 }
@@ -135,9 +128,6 @@ add_trait="creature_dwarf"
 add_trait="poet"
 add_trait="naive_appeaser"
 add_trait="trusting"
-
-
-
 1969.4.15={birth=yes}
 2042.7.2={death=yes}
 }
@@ -156,9 +146,7 @@ add_trait="creature_dwarf"
 add_trait="poet"
 add_trait="fortune_builder"
 add_trait="drunkard"
-
 add_trait="lustful"
-
 1958.1.2={birth=yes}
 2014.6.30={death=yes}
 }
@@ -176,10 +164,7 @@ learning=1
 add_trait="creature_dwarf"
 add_trait="hedonist"
 add_trait="mastermind_theologian"
-
 add_trait="homosexual"
-
-
 1954.12.17={birth=yes}
 2049.1.12={death=yes}
 }
@@ -198,10 +183,8 @@ learning=2
 add_trait="creature_dwarf"
 add_trait="hunter"
 add_trait="fortune_builder"
-
 add_trait="legit_bastard"
 add_trait="lisp"
-
 1971.4.18={birth=yes}
 2026.10.22={death=yes}
 }
@@ -219,7 +202,6 @@ learning=7
 add_trait="creature_dwarf"
 add_trait="gardener"
 add_trait="skilled_tactician"
-
 1988.2.23={birth=yes}
 2068.4.26={death=yes}
 }
@@ -237,10 +219,7 @@ learning=2
 add_trait="creature_dwarf"
 add_trait="impaler"
 add_trait="underhanded_rogue"
-
-
 add_trait="fair"
-
 1968.7.19={birth=yes}
 2041.1.27={death=yes}
 }
@@ -260,8 +239,6 @@ add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="diligent"
 add_trait="strong"
-
-
 1979.2.24={birth=yes}
 2061.10.11={death=yes}
 }
@@ -282,7 +259,6 @@ add_trait="fortune_builder"
 add_trait="envious"
 add_trait="patient"
 add_trait="proud"
-
 1987.9.29={birth=yes}
 2045.9.5={death=yes}
 }
@@ -303,7 +279,6 @@ add_trait="martial_cleric"
 add_trait="shy"
 add_trait="arbitrary"
 add_trait="ambitious"
-
 1973.8.12={birth=yes}
 2026.6.5={death=yes}
 }
@@ -324,7 +299,6 @@ add_trait="charismatic_negotiator"
 add_trait="slothful"
 add_trait="cynical"
 add_trait="paranoid"
-
 2003.8.21={birth=yes}
 2026.10.21={death=yes}
 }
@@ -345,7 +319,6 @@ add_trait="flamboyant_schemer"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="zealous"
-
 1984.11.14={birth=yes}
 2066.6.17={death=yes}
 }
@@ -366,7 +339,6 @@ add_trait="detached_priest"
 add_trait="just"
 add_trait="craven"
 add_trait="honest"
-
 1991.11.10={birth=yes}
 2052.9.23={death=yes}
 }
@@ -384,10 +356,7 @@ learning=8
 add_trait="creature_dwarf"
 add_trait="hedonist"
 add_trait="misguided_warrior"
-
 add_trait="greedy"
-
-
 1994.3.17={birth=yes}
 2049.4.5={death=yes}
 }
@@ -405,10 +374,8 @@ learning=9
 add_trait="creature_dwarf"
 add_trait="impaler"
 add_trait="underhanded_rogue"
-
 add_trait="tall"
 add_trait="weak"
-
 1952.10.24={birth=yes}
 2024.5.15={death=yes}
 }
@@ -429,7 +396,6 @@ add_trait="misguided_warrior"
 add_trait="wroth"
 add_trait="temperate"
 add_trait="cruel"
-
 1954.11.1={birth=yes}
 2066.5.16={death=yes}
 }
@@ -448,10 +414,8 @@ learning=7
 add_trait="creature_dwarf"
 add_trait="hedonist"
 add_trait="mastermind_theologian"
-
 add_trait="content"
 add_trait="humble"
-
 1960.5.21={birth=yes}
 2069.8.4={death=yes}
 }
@@ -473,7 +437,6 @@ add_trait="elusive_shadow"
 add_trait="chaste"
 add_trait="trusting"
 add_trait="ill"
-
 1994.6.1={birth=yes}
 2060.8.21={death=yes}
 }
@@ -491,7 +454,6 @@ learning=9
 add_trait="creature_dwarf"
 add_trait="poet"
 add_trait="intricate_webweaver"
-
 1959.9.23={birth=yes}
 2060.4.8={death=yes}
 }
@@ -529,8 +491,6 @@ add_trait="impaler"
 add_trait="tough_soldier"
 add_trait="drunkard"
 add_trait="legit_bastard"
-
-
 1980.3.24={birth=yes}
 2069.9.17={death=yes}
 }

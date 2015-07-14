@@ -13,9 +13,8 @@ add_trait="poet"
 add_trait="tough_soldier"
 add_trait="gregarious"
 add_trait="kind"
-
-
-1974.11.13={birth=yes}
+1974.11.13={birth=yes
+		effect = { set_character_flag = magic_potential_flag_3 } }
 2053.5.22={death=yes}
 }
 
@@ -73,8 +72,8 @@ add_trait="tough_soldier"
 add_trait="craven"
 add_trait="wroth"
 add_trait="cruel"
-
-1975.10.18={birth=yes}
+1975.10.18={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 } }
 2049.10.13={death=yes}
 }
 
@@ -95,7 +94,6 @@ add_trait="amateurish_plotter"
 add_trait="temperate"
 add_trait="tall"
 add_trait="chaste"
-
 1972.11.10={birth=yes}
 2038.12.25={death=yes}
 }
@@ -116,7 +114,6 @@ add_trait="thrifty_clerk"
 add_trait="trusting"
 add_trait="content"
 add_trait="humble"
-
 1965.2.22={birth=yes}
 2010.12.16={death=yes}
 }
@@ -135,8 +132,6 @@ learning=9
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="tough_soldier"
-
-
 1968.11.18={birth=yes}
 2060.8.2={death=yes}
 }
@@ -156,8 +151,8 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="drunkard"
 add_trait="lustful"
-
-1991.9.17={birth=yes}
+1991.9.17={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 } }
 2036.6.15={death=yes}
 }
 
@@ -175,9 +170,6 @@ add_trait="creature_human"
 add_trait="hedonist"
 add_trait="grey_eminence"
 add_trait="legit_bastard"
-
-
-
 1974.6.24={birth=yes}
 2014.12.17={death=yes}
 }
@@ -251,7 +243,6 @@ add_trait="indulgent_wastrel"
 add_trait="diligent"
 add_trait="fair"
 add_trait="envious"
-
 1982.6.16={birth=yes}
 2041.3.1={death=yes}
 }
@@ -273,7 +264,6 @@ add_trait="martial_cleric"
 add_trait="proud"
 add_trait="slothful"
 add_trait="shy"
-
 1981.3.5={birth=yes}
 2057.12.25={death=yes}
 }
@@ -295,7 +285,6 @@ add_trait="brilliant_strategist"
 add_trait="ambitious"
 add_trait="patient"
 add_trait="just"
-
 1984.6.10={birth=yes}
 2016.10.25={death=yes}
 }
@@ -317,7 +306,6 @@ add_trait="tough_soldier"
 add_trait="cynical"
 add_trait="arbitrary"
 add_trait="zealous"
-
 1968.10.3={birth=yes}
 2019.12.15={death=yes}
 }
@@ -339,7 +327,6 @@ add_trait="brilliant_strategist"
 add_trait="paranoid"
 add_trait="gregarious"
 add_trait="strong"
-
 1988.12.22={birth=yes}
 2041.5.11={death=yes}
 }
@@ -359,8 +346,6 @@ add_trait="mystic"
 add_trait="midas_touched"
 add_trait="kind"
 add_trait="honest"
-
-
 1975.4.29={birth=yes}
 2046.8.25={death=yes}
 }
@@ -378,11 +363,9 @@ learning=2
 add_trait="creature_human"
 add_trait="hunter"
 add_trait="brilliant_strategist"
-
 add_trait="craven"
-
-
-1991.2.20={birth=yes}
+1991.2.20={birth=yes
+		effect = { set_character_flag = magic_potential_flag_2 } }
 2045.6.2={death=yes}
 }
 
@@ -402,7 +385,6 @@ add_trait="scholarly_theologian"
 add_trait="greedy"
 add_trait="weak"
 add_trait="cruel"
-
 1971.10.25={birth=yes}
 2051.8.25={death=yes}
 }
@@ -491,7 +473,6 @@ add_trait="strong"
 2532.7.5={death=yes}
 }
 
-
 1450024={
 name="Rikissa"
 female=yes
@@ -573,3 +554,213 @@ add_trait="patient"
 2545.7.8={death=yes}
 }
 
+#Shamans
+
+1450028={
+name="Torfinn"
+dynasty=55095
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=14
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+1979.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450029={
+name="Brigida"
+dynasty=55096
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=13
+female=yes
+add_trait="creature_human"
+add_trait="scholarly_theologian"
+add_trait="lore_light"
+add_trait="magic_potential_1"
+1975.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450030={
+name="Øystein"
+dynasty=55097
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=12
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_beasts"
+add_trait="magic_potential_1"
+1977.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450031={
+name="Ragnhild"
+dynasty=55098
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=11
+female=yes
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_heavens"
+add_trait="magic_potential_1"
+1971.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450032={
+name="Ragnvald"
+dynasty=55099
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=12
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_death"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1960.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+
+1450033={
+name="Eldrid"
+dynasty=55100
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=13
+female=yes
+add_trait="creature_human"
+add_trait="scholarly_theologian"
+add_trait="lore_life"
+add_trait="magic_potential_1"
+1958.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450034={
+name="Gudrød"
+dynasty=55101
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=14
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_metal"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1996.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450035={
+name="Kristina"
+dynasty=55102
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=15
+female=yes
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+1985.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_2 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450036={
+name="Halkjell"
+dynasty=55103
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=15
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_beasts"
+add_trait="magic_potential_1"
+1954.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_3 duration = -1 } }
+}
+2060.3.26={death=yes}
+}
+
+1450037={
+name="Cecilia"
+dynasty=55104
+culture=baersonling
+religion=norscan_gods
+martial=4
+diplomacy=3
+stewardship=3
+intrigue=4
+learning=15
+female=yes
+add_trait="creature_human"
+add_trait="martial_cleric"
+add_trait="lore_shadows"
+add_trait="magic_potential_1"
+add_trait="hedge_wizard"
+1960.7.5={birth=yes
+effect = { add_character_modifier = { name = magic_power_1 duration = -1 } }
+}
+2060.3.26={death=yes}
+}

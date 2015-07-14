@@ -53,7 +53,6 @@ learning=5
 add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="content"
-
 father=1175000
 mother=1175001
 
@@ -100,7 +99,6 @@ add_trait="brilliant_strategist"
 add_trait="hedonist"
 add_trait="brave"
 add_trait="envious"
-
 father=1175002
 mother=1175003
 
@@ -126,11 +124,12 @@ add_trait="gardener"
 add_trait="trusting"
 add_trait="humble"
 add_trait="cruel"
-
 father=1175004
 mother=1175007
 
-1988.5.1={birth=yes}
+1988.5.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2039.8.1={death=yes}
 }
 
@@ -150,7 +149,6 @@ add_trait="creature_human"
 add_trait="flamboyant_schemer"
 add_trait="greedy"
 add_trait="chaste"
-
 father=1175004
 mother=1175007
 
@@ -192,7 +190,6 @@ add_trait="creature_human"
 add_trait="thrifty_clerk"
 add_trait="slothful"
 add_trait="diligent"
-
 father=1175004
 mother=1175007
 
@@ -215,7 +212,6 @@ learning=2
 add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="craven"
-
 father=1175004
 mother=1175007
 
@@ -239,7 +235,6 @@ add_trait="grey_eminence"
 add_trait="proud"
 add_trait="ambitious"
 add_trait="zealous"
-
 father=1175002
 mother=1175003
 
@@ -283,7 +278,6 @@ add_trait="flamboyant_schemer"
 add_trait="gluttonous"
 add_trait="cruel"
 add_trait="just"
-
 father=1175010
 mother=1175011
 
@@ -307,11 +301,12 @@ add_trait="fortune_builder"
 add_trait="just"
 add_trait="gluttonous"
 add_trait="humble"
-
 father=1175010
 mother=1175011
 
-2003.7.1={birth=yes}
+2003.7.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2051.4.13={death=yes}
 }
 
@@ -333,7 +328,6 @@ add_trait="trusting"
 add_trait="ambitious"
 add_trait="brave"
 add_trait="depressed"
-
 father=1175010
 mother=1175011
 
@@ -357,7 +351,6 @@ add_trait="creature_human"
 add_trait="fortune_builder"
 add_trait="zealous"
 add_trait="content"
-
 father=1175002
 mother=1175025
 
@@ -383,7 +376,6 @@ add_trait="underhanded_rogue"
 add_trait="arbitrary"
 add_trait="greedy"
 add_trait="gregarious"
-
 father=1175002
 mother=1175025
 
@@ -408,7 +400,6 @@ add_trait="cruel"
 add_trait="charitable"
 add_trait="lustful"
 add_trait="hedonist"
-
 father=1175002
 mother=1175003
 
@@ -434,7 +425,6 @@ add_trait="cruel"
 add_trait="charitable"
 add_trait="arbitrary"
 add_trait="kind"
-
 father=1175004
 mother=1175007
 
@@ -458,10 +448,11 @@ add_trait="thrifty_clerk"
 add_trait="patient"
 add_trait="proud"
 add_trait="humble"
-
 father=1175018
 
-2006.11.1={birth=yes}
+2006.11.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2060.10.9={death=yes}
 }
 
@@ -482,7 +473,6 @@ add_trait="fortune_builder"
 add_trait="kind"
 add_trait="patient"
 add_trait="humble"
-
 father=1175018
 
 2009.9.1={birth=yes}
@@ -505,9 +495,8 @@ add_trait="elusive_shadow"
 add_trait="gregarious"
 add_trait="kind"
 add_trait="diligent"
-
 father=1175002
-mother=1175003}
+mother=1175003
 
 1961.1.1={birth=yes}
 2029.1.29={death=yes}
@@ -526,7 +515,6 @@ intrigue=3
 learning=4
 add_trait="creature_human"
 add_trait="intricate_webweaver"
-
 father=1175021
 
 1993.1.1={birth=yes}
@@ -549,7 +537,6 @@ add_trait="flamboyant_schemer"
 add_trait="envious"
 add_trait="gluttonous"
 add_trait="bastard"
-
 father=1175017
 
 2004.11.1={birth=yes}
@@ -573,11 +560,12 @@ add_trait="patient"
 add_trait="just"
 add_trait="cynical"
 add_trait="zealous"
-
 father=1175017
 mother=1175028
 
-2009.3.1={birth=yes}
+2009.3.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2062.1.4={death=yes}
 }
 
@@ -620,7 +608,6 @@ add_trait="creature_human"
 add_trait="skilled_tactician"
 add_trait="zealous"
 add_trait="paranoid"
-
 father=1175000
 
 1950.3.1={birth=yes}
@@ -688,11 +675,12 @@ add_trait="creature_human"
 add_trait="underhanded_rogue"
 add_trait="deceitful"
 add_trait="bastard"
-
 father=1175017
 mother=1175015
 
-2008.9.1={birth=yes}
+2008.9.1={birth=yes
+		effect = { set_character_flag = magic_potential_flag_1 }
+		}
 2073.12.27={death=yes}
 }
 
@@ -713,7 +701,6 @@ add_trait="temperate"
 add_trait="deceitful"
 add_trait="kind"
 add_trait="bastard"
-
 father=1175017
 
 1999.1.1={birth=yes}
