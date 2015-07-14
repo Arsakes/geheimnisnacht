@@ -13,7 +13,7 @@ NDiplomacy = {
 	TRIBAL_VASSAL_CALL_DECLINE_COST_FACTOR = 3.0, -- Prestige cost multiplier for tribal vassals
 	PAPAL_INVEST_PIETY_COST_MULT = 0.5, 		-- The effect of Papal investiture on the piety cost of the special Papal actions
 	SHORT_REIGN_YEARS_END = 9,
-	LONG_REIGN_YEARS_START = 10,
+	LONG_REIGN_YEARS_START = 9999,
 	SHORT_REIGN_OPINION_MULT = 2,				-- Opinion penalty multiplier to short reign years
 	DOW_ON_ALLY_PRESTIGE_COST = 50,
 	MINIMUM_SEND_GIFT_COST = 20,
@@ -41,8 +41,8 @@ NDiplomacy = {
 	VASSAL_LIMIT_EMPEROR_MULT = 30.0, 			-- Extra Vassal Limit from the ruler's rank
 	VASSAL_LIMIT_GREAT_DUKE_BONUS = 5.0, 		-- Extra Vassal Limit for Dukes with more than one Duchy
 	VASSAL_LIMIT_DIPLOMACY_MULT = 0.3,			-- Extra Vasal Limit from ruler and spouse diplomacy
- 	VASSAL_LIMIT_DECADENCE_MULTIPLIER = 0.25,	-- Negative modifier, multiplied with the current decadence.
 	VASSAL_LIMIT_TRIBAL_BONUS = -10,			-- All rulers with tribal holdings as their capital have smaller demesnes
+	VASSAL_LIMIT_DECADENCE_MULTIPLIER = 0.25,	-- Negative modifier, multiplied with the current decadence.
 	VASSAL_LIMIT_LEVY_MULTIPLIER = 1,			-- Used for levy penalty calculation for being over vassal limit.
 	VASSAL_LIMIT_LEVY_BASE = 4,					-- Used for levy penalty calculation for being over vassal limit.
 	VASSAL_LIMIT_TAX_MULTIPLIER = 1,			-- Used for tax penalty calculation for being over vassal limit.
@@ -70,13 +70,13 @@ NDiplomacy = {
 	PIETY_OPINION_DIV = 25,						-- Divider for piety to church opinion
 	PIETY_OPINION_MAX = 20,						-- Max opinion impact of piety (positive OR negative)	
 	MIN_PREP_INV_TARGET_HOLDINGS = 9,			-- The target must control at least this many holdings within the target kingdom to be a valid prepared invasion target
-	MAX_PREP_INV_TARGET_HOLDINGS = 40,			-- The target must control at the most this many holdings within the target kingdom to be a valid prepared invasion target
-	MAX_PREP_INV_ATTACKER_HOLDINGS = 40,		-- The attacker must have fewer Holdings than this in the realm (disallow Prepared Invasions for rulers who are already very powerful)
+	MAX_PREP_INV_TARGET_HOLDINGS = 100,			-- The target must control at the most this many holdings within the target kingdom to be a valid prepared invasion target
+	MAX_PREP_INV_ATTACKER_HOLDINGS = 100,		-- The attacker must have fewer Holdings than this in the realm (disallow Prepared Invasions for rulers who are already very powerful)
 	PREP_INV_REQ_PRESTIGE = 1000,				-- Need to have this much Prestige to prepare an invasion
 	BASE_REVOLT_CHANCE_MOD = 500,				-- Pre Old Gods rebel spawn chance modifier (fires on_rebel_revolt) : lower means fewer revolts. MUST NOT BE ZERO.
 	TOG_REVOLT_CHANCE_MOD = 200,				-- Old Gods rebel spawn chance modifier (fires on_rebel_revolt) : lower means fewer revolts. MUST NOT BE ZERO. 
 	JAIN_LIEGE_OPINION_BONUS = 30,				-- Jain Lieges Get Vassal Opinion Bonus
-	MAX_DIPLO_DISTANCE = 700,					-- Most diplomacy is disallowed if two rulers are too distant
+	MAX_DIPLO_DISTANCE = 1000,					-- Most diplomacy is disallowed if two rulers are too distant
 	MAX_DIPLO_DISTANCE_SAME_RELIGION = 100,		-- Bonus to max diplo distance for being of the same religion
 	MAX_DIPLO_DISTANCE_SAME_RELIGION_GROUP = 0, -- Bonus to max diplo distance for being of the same religion group
 	MAX_DIPLO_DISTANCE_SAME_CULTURE = 100, 		-- Bonus to max diplo distance for being of the same culture
@@ -104,7 +104,7 @@ NDiplomacy = {
 	EXECUTE_IMPRISONED_INTERACTION_THRESHOLD_FOR_NO = 0,
 	EXECUTE_IMPRISONED_INTERACTION_THRESHOLD_FOR_YES = 0,
 	EXECUTE_IMPRISONED_INTERACTION_MUST_HAVE_COST = 0,				-- Is having prestige/piety >= cost required for this action?
-	EXECUTE_IMPRISONED_INTERACTION_ENABLED = 1,						-- Should this action be used at all?
+	EXECUTE_IMPRISONED_INTERACTION_ENABLED = 0,						-- Should this action be used at all?
 	
 	EXILE_IMPRISONED_INTERACTION_MONEY = 0,
 	EXILE_IMPRISONED_INTERACTION_PIETY = 10,
@@ -128,7 +128,7 @@ NDiplomacy = {
 	DEMAND_RELIGIOUS_CONVERSION_INTERACTION_THRESHOLD_FOR_NO = 0,
 	DEMAND_RELIGIOUS_CONVERSION_INTERACTION_THRESHOLD_FOR_YES = 0,
 	DEMAND_RELIGIOUS_CONVERSION_INTERACTION_MUST_HAVE_COST = 1,				-- Is having prestige/piety >= cost required for this action?
-	DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ENABLED = 1,						-- Should this action be used at all?
+	DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ENABLED = 0,						-- Should this action be used at all?
 	
 	INVITE_TO_COURT_INTERACTION_MONEY = 0,
 	INVITE_TO_COURT_INTERACTION_PIETY = 0,
@@ -416,7 +416,7 @@ NDiplomacy = {
 	PREPARE_INVASION_INTERACTION_THRESHOLD_FOR_NO = 0,
 	PREPARE_INVASION_INTERACTION_THRESHOLD_FOR_YES = 0,
 	PREPARE_INVASION_INTERACTION_MUST_HAVE_COST = 1,				-- Is having prestige/piety >= cost required for this action?
-	PREPARE_INVASION_INTERACTION_ENABLED = 1,						-- Should this action be used at all?		
+	PREPARE_INVASION_INTERACTION_ENABLED = 0,						-- Should this action be used at all?		
 	
 	MAKE_CONSORT_INTERACTION_MONEY = 0,
 	MAKE_CONSORT_INTERACTION_PIETY = 0,
@@ -432,7 +432,7 @@ NDiplomacy = {
 	DISMISS_CONSORT_INTERACTION_THRESHOLD_FOR_NO = 0,
 	DISMISS_CONSORT_INTERACTION_THRESHOLD_FOR_YES = 0,
 	DISMISS_CONSORT_INTERACTION_MUST_HAVE_COST = 1,				-- Is having prestige/piety >= cost required for this action?
-	DISMISS_CONSORT_INTERACTION_ENABLED = 1,						-- Should this action be used at all?		
+	DISMISS_CONSORT_INTERACTION_ENABLED = 0,						-- Should this action be used at all?		
 	
 	RETRACT_VASSAL_INTERACTION_MONEY = 0,
 	RETRACT_VASSAL_INTERACTION_PIETY = 0,
@@ -502,8 +502,8 @@ NCharacter = {
 	TRIBAL_WRONG_CULTURE_MOD = -0.15,
 	TRIBAL_WRONG_CULTURE_GROUP_MOD = -0.25,
 	CHANGE_SUCC_LAW_YEARS = 10,						-- Rulers must have reigned this long before they can change succession laws
-	CHANGE_AMBITION_YEARS = 3,						-- Delay between being able to pick a new ambition of plot after cancelling
- 	CHANGE_FOCUS_YEARS = 5,							-- Delay between being able to change focus
+	CHANGE_AMBITION_YEARS = 3,						-- Delay between being able to pick a new ambition
+	CHANGE_FOCUS_YEARS = 5,							-- Delay between being able to change focus
 	PRESTIGE_FROM_DYNASTY_ON_BIRTH_DIV = 5, 		-- Newly born characters get the dynasty prestige of their mother and father divided by this as their starting prestige
 	PRESTIGE_FROM_DYNASTY_ON_MARRIAGE_DIV = 10, 	-- Characters get the dynasty prestige of the spouse divided by this on marriage
 	NEED_GUARDIAN_AT_AGE = 6, 						-- The age at which children should be appointed a mentor/guardian
@@ -532,7 +532,7 @@ NCharacter = {
 	AGE_ADULT = 30,									-- Non-child characters below this age have the 'young' static modifier applied
 	AGE_OLD = 50,									-- Non-child characters below this age have the 'adult' static modifier applied
 	AGE_VERY_OLD = 70,								-- Non-child characters below this age have the 'old' static modifier applied
-	MAX_CHILD_BIRTH_AGE = 45,						-- Female menopause age.
+	MAX_CHILD_BIRTH_AGE = 3000,						-- Female menopause age.
 	CHILD_BIRTH_TO_PREGNANCY_WAIT = 3,
 	BASE_NR_OF_CHILDREN_PER_COUPLE = 2,
 	EXTRA_NR_OF_CHILDREN_FOR_PLAYERS = 2,
@@ -562,8 +562,8 @@ NCharacter = {
 	TRIBAL_EMPTY_HOLDING_LEVY_MULTIPLIER = 0.5,
 	TRIBAL_EMPTY_HOLDING_GARRISON_MULTIPLIER = 0.5,
 	TRIBAL_EMPTY_HOLDING_TAX_MULTIPLIER = 0.5,
- 	MALE_ATTRACTION_CUTOFF = 65,					-- After this age, the sex appeal of traits no longer have any effect
- 	FEMALE_ATTRACTION_CUTOFF = 45					-- After this age, the sex appeal of traits no longer have any effect
+	MALE_ATTRACTION_CUTOFF = 9000,					-- After this age, the sex appeal of traits no longer have any effect
+	FEMALE_ATTRACTION_CUTOFF = 9000					-- After this age, the sex appeal of traits no longer have any effect
 },
 
 NTitle = {
@@ -643,14 +643,14 @@ NTitle = {
 	DUKE_GRANT_DECADENCE_RED = 0.04,
 	KING_GRANT_DECADENCE_RED = 0.1,
 	EMPEROR_GRANT_DECADENCE_RED = 0.2,
- 	MAX_CROWN_LAW_CHANGES = 1,
 	
 	CLAIM_VASSAL_TITLE_COST_MOD = 0.75,
 	CLAIM_DE_JURE_TITLE_COST_MOD = 0.5,
 	NORMAL_LAW_CHANGE_MONTHS = 60,
+	MAX_CROWN_LAW_CHANGES = 1,
 	TITLE_USURP_COOLDOWN_MONTHS = 60,
-	DE_JURE_ASSIMILATION_YEARS = 100,			-- Duchies a under the de facto control of another kingdom will change de jure liege after this many years
-	EMPIRE_DE_JURE_ASSIMILATION_YEARS = 100,	-- Kingdoms under the de facto control of another empire will change de jure liege after this many years
+	DE_JURE_ASSIMILATION_YEARS = 1000,			-- Duchies a under the de facto control of another kingdom will change de jure liege after this many years
+	EMPIRE_DE_JURE_ASSIMILATION_YEARS = 1000,	-- Kingdoms under the de facto control of another empire will change de jure liege after this many years
 	ALLOW_DE_JURE_ASSIMILATION_ANYWHERE = 1,	-- If set to 0, will only assimilate duchy titles which contain the assimilating Kingdom's capital or border existing de jure land of that title
 	REQ_DUCHIES_FOR_KINGDOM_CREATION = 2, 		-- Number of held duchies required to create a kingdom (for rulers who are not already kings or emperors)
 	REQ_KINGDOMS_FOR_EMPIRE_CREATION = 2, 		-- Number of held kingdoms required to create an Empire (for rulers who are not already emperors)
@@ -757,12 +757,12 @@ NEconomy = {
 },
 
 NDecadence = {
- 	BASE_EMPEROR_GAIN = 0.45,
- 	BASE_KING_GAIN = 0.36,
- 	BASE_DUKE_GAIN = 0.24,
- 	BASE_COUNT_GAIN = 0.18,
- 	BASE_BARON_GAIN = 0.09,
- 	BASE_UNLANDED_GAIN = 0.045,
+	BASE_EMPEROR_GAIN = 0.45,
+	BASE_KING_GAIN = 0.36,
+	BASE_DUKE_GAIN = 0.24,
+	BASE_COUNT_GAIN = 0.18,
+	BASE_BARON_GAIN = 0.09,
+	BASE_UNLANDED_GAIN = 0.045,
 	REALM_SIZE_MULTIPLIER = 0.005,
 	DEMESNE_FRACTION_MULT_POS = 0.5,
 	DEMESNE_FRACTION_MULT_NEG = -0.8,
@@ -778,7 +778,7 @@ NMilitary = {
 	NUMBER_OF_TROOPS_PER_GALLEY = 100,				-- Number of men each galley can hold
 	FRIENDLY_TERRITORY_LEVY_RETURN_PERCENT = 1.0,	-- Percent of subunit that returns to levy when unit is disbanded in friendly territory
 	OTHER_TERRITORY_LEVY_RETURN_PERCENT = 0.5,		-- Percent of subunit that returns to levy when unit is disbanded in non-friendly territory
-	LEVY_MAINTENANCE_FACTOR = 1.5,					-- General maintenance factor for levy troops
+	LEVY_MAINTENANCE_FACTOR = 0.5,					-- General maintenance factor for levy troops
 	HOLDING_LEVY_SIZE_OWNER_MARTIAL_BASE = 0.50,	
 	HOLDING_LEVY_SIZE_OWNER_MARTIAL_MULT = 0.05,	-- Levy size modifier: Each point of the holding owner's Martial skill is multiplied with this and added to HOLDING_LEVY_SIZE_OWNER_MARTIAL_BASE
 	MERCENARY_MAINTENANCE_FACTOR = 3.0,				-- Maintenance factor for NORMAL mercenary units
@@ -835,9 +835,9 @@ NMilitary = {
 	HOSTILE_RELIGION_SUPPLY_MOD = -0.25,			-- Supply modifier from a hostile religion
 	NEARBY_SETTLEMENT_SINGLE_SUPPLY_BONUS = 0.75,	-- Bonus for nearby settlement, if not controlling one yourself
 	MAX_ATTRITION_LEADER_REDUCTION = -0.1,			-- Center leader reduces max attrition(reduction in actual percent)
-	ATTRITION_LEVEL_FACTOR = 0.5,					-- A general "attrition per month" multiplier
-	ATTRITION_LEVEL_FACTOR_50_OVER = 1.0,			-- A general "attrition per month" multiplier when 50% over the supply limit
-	ATTRITION_LEVEL_FACTOR_100_OVER = 2.0,			-- A general "attrition per month" multiplier when 100% over the supply limit
+	ATTRITION_LEVEL_FACTOR = 0.25,					-- A general "attrition per month" multiplier
+	ATTRITION_LEVEL_FACTOR_50_OVER = 0.5,			-- A general "attrition per month" multiplier when 50% over the supply limit
+	ATTRITION_LEVEL_FACTOR_100_OVER = 1.0,			-- A general "attrition per month" multiplier when 100% over the supply limit
 	COASTAL_SUPPLY_BONUS = 0.5,						-- Supply bonus in coastal provinces
 	PAGAN_HOME_SUPPLY_MOD = 0.12,					-- Non Pagans suffer extreme attrition in some Pagan homelands (based on province religion)
 	NAVAL_ATTRITION = 0.0,							-- Attrition taken monthly by units loaded on ships
@@ -877,11 +877,11 @@ NMilitary = {
 	
 	RETINUE_FROM_REALMSIZE = 2.0,
 	RETINUE_TITLE_MODIFIER = 0.5,
-	RETINUE_INCREASE_PER_TECH = 0.5,
-	RETINUE_HIRE_COST_MULTIPLIER = 0.14,			-- Retinues are free to hire atm, but they cost alot to reinforce
-	RETINUE_REINFORCE_RATE = 0.025,
-	RETINUE_REINFORCE_COST = 3.0,					-- Retinues cost while reinforcing.
-	RETINUE_CONSTANT_COST = 0.25, 					-- Retinues cost at all times.
+	RETINUE_INCREASE_PER_TECH = 1.5,
+	RETINUE_HIRE_COST_MULTIPLIER = 0.25,			-- Retinues are free to hire atm, but they cost alot to reinforce
+	RETINUE_REINFORCE_RATE = 0.050,
+	RETINUE_REINFORCE_COST = 1.95,					-- Retinues cost while reinforcing.
+	RETINUE_CONSTANT_COST = 0.3, 					-- Retinues cost at all times.
 	MIN_RETINUE = 0,								-- Minimum retinue ( Disabled for now, can be enabled by mods )
 	
 	TERRAIN_SPEC_BONUS = 0.2,						-- Bonus to fighting in this terrain if you have that terrain as your
@@ -995,11 +995,11 @@ NMilitary = {
 	CAPITAL_DUCHY_LEVY_MULT = 1.25,
 	CAPITAL_DUCHY_LIEGE_LEVY_MULT = 0.75,
 	CAPITAL_KINGDOM_LEVY_MULT = 1,
-	CAPITAL_KINGDOM_LIEGE_LEVY_MULT = 0.5,
+	CAPITAL_KINGDOM_LIEGE_LEVY_MULT = 1.0,
 	CAPITAL_EMPIRE_LEVY_MULT = 1,
-	CAPITAL_EMPIRE_LIEGE_LEVY_MULT = 0.35,
+	CAPITAL_EMPIRE_LIEGE_LEVY_MULT = 1.00,
 	OUTSIDE_LEVY_MULT = 1,						-- Multiplier to direct levies outside all capital regions
-	OUTSIDE_LIEGE_LEVY_MULT = 0.25,				-- Multiplier to liege levies outside all capital regions
+	OUTSIDE_LIEGE_LEVY_MULT = 0.8,				-- Multiplier to liege levies outside all capital regions
 	
 	SUPPLY_CAPACITY = 31,						-- Amount of days of worth supply that a unit can hold.
 	OUT_OF_SUPPLY_ATTRITION_BASE = 0.001,		-- The attrition a unit that is out of supply takes.
@@ -1012,7 +1012,7 @@ NMilitary = {
 },
 
 NTechnology = {
-	DONT_EXECUTE_TECH_BEFORE = 769,				-- Set this to your earliest starting year
+	DONT_EXECUTE_TECH_BEFORE = 2000,				-- Set this to your earliest starting year
 	POINTS_PER_ATTRIBUTE = 0.04,
 
 	BASE_NEIGHBOUR_SPREAD_BONUS = 0.03, 		-- bonus for each neighbour with the tech
@@ -1028,7 +1028,7 @@ NTechnology = {
 	IDEAL_YEAR_AHEAD_PENALTY = -0.2,			-- UNUSED
 	IDEAL_YEAR_AHEAD_PENALTY_INVEST = 0.6,		-- Percent increase in cost pre level ahead of ideal date
 	
-	PAGAN_HOME_ATTRITION_REMOVAL_LEVEL = 4.0,
+	PAGAN_HOME_ATTRITION_REMOVAL_LEVEL = 8.0,
 },  
 
 NDisease = {
@@ -1072,17 +1072,17 @@ NAI =
 	REVOLT_DISTANCE_FACTOR = 1.0,							-- Multiplier for how much distance from capital affects independence minded revolters
 	REVOLT_OTHER_INDEP_RISK = 10,							-- Each ongoing other independence revolt increases revolt risk by this amount for all independence-minded revolters
 	REVOLT_OTHER_INDEP_RISK_CAP = 50,						-- Cap to the total risk from the above
-	MARRIAGE_AI_PRESTIGE_VALUE = 0.33,						-- Multiplier for how highly AI values prestige when arranging marriages and evaluating marriage offers
+	MARRIAGE_AI_PRESTIGE_VALUE = 0.45,						-- Multiplier for how highly AI values prestige when arranging marriages and evaluating marriage offers
 	MAX_KING_TITLES_TO_CREATE = 0,							-- AI will not seek to create/usurp more King-level titles than this (0 for unlimited)
 	MAX_EMPIRE_TITLES_TO_CREATE = 0,						-- AI will not seek to create/usurp more Empire-level titles than this (0 for unlimited)
-	AI_EMPEROR_CREATES_KINGDOMS = 0,						-- If set to 1, AI Emperors will create King-level titles
+	AI_EMPEROR_CREATES_KINGDOMS = 1,						-- If set to 1, AI Emperors will create King-level titles
 	AI_EMPEROR_CREATES_VICE_ROYALTY_KINGDOMS = 1,			-- If set to 1, AI Emperors with the kingdom viceroyalty law will create King-level titles regardless of the setting above
 	AI_ALWAYS_CREATES_DUCHIES = 0,							-- If set to 1, AI will always create Duchy titles even if it has Gavelkind etc
 	AI_ASSAULT_RATIO = 10,									-- AI will launch assaults at this ratio of attackers to defenders
 	HARD_DIFF_AI_ATTRITION = 0.5,							-- AI attrition multiplier at Hard difficulty
 	V_HARD_DIFF_AI_ATTRITION = 0.25,						-- AI attrition multiplier at Very Hard difficulty
 	MINIMUM_IMPRISONED_YEARS = 2,							-- AI will keep a newly imprisoned character locked up at least this long before releasing them (reduced for important characters)
-	BASE_AI_ARMY_SIZE = 10000,								-- Base size that AI will use when forming armies (multiplied by supply tech)
+	BASE_AI_ARMY_SIZE = 30000,								-- Base size that AI will use when forming armies (multiplied by supply tech)
 	DESIRED_CONSORTS = 0,									-- AI will always want at least this many concubines, if they lack sons
 	RAID_MAX_REALM_SIZE = 24,								-- Realms with more holdings than this will never go on Raids
 	RAID_AGGRESSION = 18,									-- General frequency of raids. A LOWER number means more often!
@@ -1103,16 +1103,16 @@ NAI =
 
 NFrontend = 
 {
-	CAMERA_LOOKAT_X = 790.0, 			-- Rotation point in main menu
+	CAMERA_LOOKAT_X = 2200.0, 			-- Rotation point in main menu
 	CAMERA_LOOKAT_Y = 0.0,
 	CAMERA_LOOKAT_Z = 1000.0,
 	CAMERA_LOOKAT_SETTINGS_X = 1400.0,  -- Rotation point in settings
 	CAMERA_LOOKAT_SETTINGS_Y = 0.0,		-- Y is height
 	CAMERA_LOOKAT_SETTINGS_Z = 648.0,
-	CAMERA_START_X = 790.0,				-- Initial position in main menu
+	CAMERA_START_X = 2200.0,				-- Initial position in main menu
 	CAMERA_START_Y = 150.0,				-- Y is height
 	CAMERA_START_Z = 500.0,
-	CAMERA_END_X = 790.0,				-- Move to position in main menu
+	CAMERA_END_X = 2200.0,				-- Move to position in main menu
 	CAMERA_END_Y = 500.0,
 	CAMERA_END_Z = 600.0,
 	CAMERA_MIN_DIST_FOR_ROTATE = 800.0, -- Controlls when rotation starts. When camera is close enought it starts
@@ -1128,28 +1128,28 @@ NFrontend =
 	
 	CAMERA_SPEED_IN_MENUS = 0.1,
 	
-	FRONTEND_POS_X = 790.0,
-	FRONTEND_POS_Y = 500.0,
-	FRONTEND_POS_Z = 600.0,
-	FRONTEND_LOOK_X = 790.0,
+	FRONTEND_POS_X = 2200.0,
+	FRONTEND_POS_Y = 1000.0,
+	FRONTEND_POS_Z = 200.0,
+	FRONTEND_LOOK_X = 2200.0,
 	FRONTEND_LOOK_Y = 0.0,
 	FRONTEND_LOOK_Z = 1000.0,
 	
-	SETTINGS_POS_X = 790.0,
+	SETTINGS_POS_X = 2200.0,
 	SETTINGS_POS_Y = 500.0,
 	SETTINGS_POS_Z = 400.0,
 	SETTINGS_LOOK_X = 1400.0,
 	SETTINGS_LOOK_Y = 0.0,		
 	SETTINGS_LOOK_Z = 648.0,
 	
-	MP_OPTIONS_POS_X = 360.0,
+	MP_OPTIONS_POS_X = 1360.0,
 	MP_OPTIONS_POS_Y = 200.0,
 	MP_OPTIONS_POS_Z = 848.0,
-	MP_OPTIONS_LOOK_X = 490.0,
+	MP_OPTIONS_LOOK_X = 1490.0,
 	MP_OPTIONS_LOOK_Y = 0.0,	
 	MP_OPTIONS_LOOK_Z = 1200.0,
 	
-	TUTORIAL_POS_X = 600.0,
+	TUTORIAL_POS_X = 1600.0,
 	TUTORIAL_POS_Y = 150.0,
 	TUTORIAL_POS_Z = 1248.0,
 	TUTORIAL_LOOK_X = 450.0,
