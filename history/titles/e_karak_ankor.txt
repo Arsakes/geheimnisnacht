@@ -1,5 +1,12 @@
-# e_karak_ankor
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.4.15 = {
+	law = succ_primogeniture
+	law = cognatic_succession
 }
+
+
+
+
+
+
+
+

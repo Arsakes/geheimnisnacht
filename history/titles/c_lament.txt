@@ -1,8 +1,3 @@
-# k_paraskiros
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
-}
-800.1.1={
-	liege=d_drakon_coast
+2003.5.2 = {
+	holder = 1175017
 }

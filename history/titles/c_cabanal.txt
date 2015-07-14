@@ -1,8 +1,6 @@
-# k_paraskiros
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1992.5.20 = {
+	holder = 1175010
 }
-800.1.1={
-	liege=d_khypria
+2500.1.1 = {
+	holder = 4550005
 }

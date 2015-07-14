@@ -1,3 +1,8 @@
-800.1.1={
-	liege=d_altaya
+2010.1.1=
+{
+liege="d_drago"
+}
+
+2010.1.1 = {
+	holder = 2200002
 }

@@ -1,0 +1,17 @@
+
+1359.6.23 = {
+	liege = "e_talabecland"
+}
+
+2000.1.1 = {
+	holder = 700086
+}
+
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2490.1.1 = {
+	holder = 700087
+}

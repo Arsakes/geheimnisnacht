@@ -1,8 +1,7 @@
-# k_stygia
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1 = {
+	holder = 5150011
 }
-800.1.1={
-	liege=d_the_galat
+
+2510.1.1 = {
+	holder = 4550004
 }

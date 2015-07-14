@@ -1,8 +1,11 @@
-# k_stygian_wood
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1 = {
+	holder = 900014
 }
-800.1.1={
-	liege=d_schwarzwald
+
+2510.1.1 = {
+	liege="k_northern_border_confederacy"
+}
+
+2510.1.1 = {
+	holder = 4550014
 }

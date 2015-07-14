@@ -1,8 +1,12 @@
-# e_bretonnia
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1800.1.1=
+{
+liege="d_normagne"
 }
-800.1.1={
-	liege=d_normagne
-}
+
+1874.1.1={holder=42000} #Ardolf[29017]
+1906.03.16={holder=42001} #Gerbaud[29017]
+1928.07.19={holder=42009} #Thomas[29017]
+1955.08.30={holder=42012} #Thierry[29017]
+1980.06.30={holder=42016} #Wauter[29017]
+1995.02.15={holder=42019} #Aristolf[29017]
+2020.04.12={holder=42027} #Arnulf[29017]

@@ -1,3 +1,8 @@
-800.1.1={
-	liege=d_ophira
+2010.1.1=
+{
+liege="k_iron_rock"
+}
+
+2010.1.1 = {
+	holder = 6000027
 }

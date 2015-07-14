@@ -1,8 +1,84 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1950.1.1 = {
+	holder = 500067
 }
-800.1.1={
-	liege=d_pferdmark
+
+1950.1.1= {
+	liege="k_averland"
+}
+
+2007.12.9 = {
+	holder = 500000
+}
+
+2015.3.7= {
+	liege="k_averland"
+}
+
+2051.5.11 = {
+	holder = 500147
+}
+
+2083.4.10 = {
+	holder = 500148
+}
+
+2119.8.26 = {
+	holder = 500151
+}
+
+2153.7.15 = {
+	holder = 500150
+}
+
+2164.5.21 = {
+	holder = 500152
+}
+
+2239.3.21 = {
+	holder = 500155
+}
+
+
+2277.11.13 = {
+	holder = 500157
+}
+
+2298.3.17 = {
+	holder = 500126
+}
+
+2331.4.6 = {
+	holder = 500127
+}
+
+2347.11.27 = {
+	holder = 500128
+}
+
+2371.2.24 = {
+	holder = 500141
+}
+
+2396.10.11 = {
+	holder = 500140
+}
+
+2417.1.8 = {
+	holder = 500139
+}
+
+2464.4.27 = {
+	holder = 500136
+}
+
+2502.9.3={
+	holder = 500143
+}
+
+2520.6.27= {
+	liege="k_averland"
+}
+
+2520.6.27={
+	holder = 500129 #Kastor Leitdorf
 }

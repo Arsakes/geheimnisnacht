@@ -1,0 +1,9 @@
+2000.1.1=
+{
+liege="e_naggaroth"
+}
+2000.1.1 = {
+	holder = 90300
+	law = enatic_succession
+	law = succ_turkish_succession
+}

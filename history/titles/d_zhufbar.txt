@@ -1,8 +1,31 @@
-# e_karak_ankor
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+746.2.11 = {
+	holder = 1050237
 }
-800.1.1={
-	liege=k_zhufbarak
+
+892.9.16 = {
+    holder = 1050236
+}
+
+1074.12.9 = {
+	holder = 1050235
+}
+
+1306.10.7 = {
+	holder = 1050234
+}
+
+1413.11.13 = {
+	holder = 1050233
+}
+
+1603.7.21 = {
+	holder = 1050232
+}
+
+1748.2.19 = {
+	holder = 1050230
+}
+
+1902.12.17 = {
+	holder = 1050008
 }

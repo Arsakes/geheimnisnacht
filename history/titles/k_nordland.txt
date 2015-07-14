@@ -1,8 +1,44 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1051.6.12 = {
+	holder = 1350020 #Bjorn
 }
-800.1.1={
-	liege=e_the_empire
+
+1092.9.21= {
+	holder = 1350022 #Kolskeggr
+}
+
+1111.9.29= {
+	holder = 650085 #Friðgerðr
+}
+
+
+1872.1.23 = {
+	holder = 650079 #Bjorn
+}
+
+1911.11.17 = {
+	holder = 650058 #Karl I
+}
+
+1947.2.21 = {
+	holder = 650023 #Konrad
+}
+
+1979.5.16 = {
+	holder = 650024 #Hewald
+}
+
+1989.10.5 = {
+	holder = 650000 #Karl II
+}
+
+2000.10.5 = {
+	holder = 600000
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2498.5.3 = {
+	holder = 650073
 }

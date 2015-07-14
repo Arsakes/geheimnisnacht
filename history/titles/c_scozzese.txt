@@ -1,8 +1,10 @@
-# e_tilea
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1 = {
+	holder = 4800000
 }
-800.1.1={
-	liege=d_pavona
+2410.1.1 = {
+	liege="k_pavona"
+}
+
+2500.1.1 = {
+	holder = 4800032
 }

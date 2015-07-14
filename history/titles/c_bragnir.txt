@@ -1,3 +1,15 @@
-800.1.1={
-	liege=d_iisgalt
+1.1.1 = {
+	law = agnatic_succession
+}
+
+2010.1.1 = {
+	holder = 1350000
+}
+
+2480.1.1 = {
+	holder = 1350025
+}
+
+2531.10.4 = {
+	holder = 1350027
 }

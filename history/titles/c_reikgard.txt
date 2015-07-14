@@ -1,8 +1,35 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1939.4.1 = {
+	holder = 900038
 }
-800.1.1={
-	liege=d_reikdahl
+
+1975.8.23 = {
+	holder = 900047
+}
+
+2004.5.17 = {
+	holder = 900000
+}
+
+2279.8.25 = {
+	holder = 900069
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2429.7.16={  
+	holder = 900039 #Wilhelm III The Wise Holswig-Schleistein of Reikland 
+}
+
+2448.10.11={
+	holder = 900041 #Mattheus II Holswig-Schleistein of Reikland 
+}
+
+2475.3.14={  
+	holder = 900061 #Viktoria Holswig-Schleistein
+}
+
+2508.1.11={  
+	holder = 900060 # Falken Reiklander, Karl-Franz cousin
 }

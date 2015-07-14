@@ -1,8 +1,64 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1.1.1 = {
+	law = succ_feudal_elective
+	law = cognatic_succession
 }
-800.1.1={
-	liege=e_the_empire
+
+1359.6.23 = {
+	liege="e_talabecland"
+}
+
+1897.5.10 = {
+	holder = 750025
+}
+
+1905.4.25 = {
+	liege=0
+}
+
+1922.7.26 = {
+	holder = 750026
+}
+
+1939.9.1 = {
+	holder = 750027
+}
+
+1942.1.13 = {
+	holder = 750028
+}
+
+1947.5.17 = {
+	holder = 750029
+}
+
+1952.5.22 = {
+	holder = 750030
+}
+
+1968.9.8 = {
+	holder = 750031
+}
+
+1982.4.3 = {
+	holder = 750032
+}
+
+1997.5.10 = {
+	holder = 750000
+}
+
+2000.1.1 = {
+	liege="e_talabecland"
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2488.7.4 = {
+	holder = 750024 #Maximillian Dachs
+}
+
+2514.4.7 = {
+	holder = 750023 #Wolfram Hertwig
 }

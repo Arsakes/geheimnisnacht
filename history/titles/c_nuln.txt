@@ -1,8 +1,20 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="e_reikland"
 }
-800.1.1={
-	liege=d_nuln
+
+2010.1.1 = {
+	holder = 950000
+}
+
+2301.4.9={  
+	holder = 950027 #Magnus I The Pious von Bildhofen of Nuln 
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2505.5.8 = {
+	holder = 950077
 }

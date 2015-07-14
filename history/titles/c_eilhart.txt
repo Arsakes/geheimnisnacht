@@ -4,5 +4,17 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=d_vorbergland
+	liege=d_uhland
+}
+
+2010.1.1 = {
+	holder = 900001
+}
+
+2470.1.1 = {
+	holder = 900113
+}
+
+2543.10.2 = {
+	holder = 900115
 }

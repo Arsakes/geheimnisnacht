@@ -1,0 +1,8 @@
+2000.1.1=
+{
+liege="d_lothern"
+}
+2000.1.1 = {
+holding_dynasty = 97021
+holder = 0
+}

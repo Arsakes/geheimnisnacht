@@ -1,0 +1,8 @@
+1.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+	liege=d_thanon
+}
+1400.1.2={
+	holder = 95001
+	}

@@ -1,8 +1,8 @@
-# e_estalia
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="k_astarios"
 }
-800.1.1={
-	liege=d_garnata
+
+2010.1.1 = {
+	holder = 5000002
 }

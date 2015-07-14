@@ -1,8 +1,20 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="d_griffonwald"
 }
-800.1.1={
-	liege=d_griffonwald
+
+2010.1.1 = {
+	holder = 700006
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2488.7.4 = {
+	holder = 750024 #Maximillian Dachs
+}
+
+2514.4.7 = {
+	holder = 750023 #Wolfram Hertwig
 }

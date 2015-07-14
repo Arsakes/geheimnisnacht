@@ -1,8 +1,8 @@
-# k_magnata
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="k_myrmidens"
 }
-800.1.1={
-	liege=k_magnata
+
+2010.1.1 = {
+	holder = 4950016
 }

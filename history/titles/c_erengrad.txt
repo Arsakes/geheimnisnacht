@@ -1,7 +1,11 @@
-# e_kislev
-500.1.1={
-	law = agnatic_succession
+2010.1.1 = {
+	holder = 1550020
 }
-800.1.1={
-	liege=d_erengrad
+
+2059.3.20 = {
+	liege="e_kislev"
+}
+
+2291.1.1 = {
+	holder = 1650004
 }

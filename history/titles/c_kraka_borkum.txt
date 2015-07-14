@@ -1,8 +1,7 @@
-# e_drak_ankor
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="d_dharkwyr"
 }
-800.1.1={
-	liege=d_dharkwyr
+2010.1.1 = {
+	holder = 1100003
 }

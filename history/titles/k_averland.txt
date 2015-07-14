@@ -1,8 +1,239 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1.1.1={
+holder = 500025 #"Siggurd"  Siggurdsunu
 }
-800.1.1={
-	liege=e_the_empire
+
+63.3.4={
+holder = 500026 #"Siegrich"  Siggurdsunu
+}
+
+97.6.20={
+holder = 500027 #"Herman"  Siggurdsunu
+}
+
+143.9.7={
+holder = 500028 #"Lutburt"  Siggurdsunu
+}
+
+182.7.11={
+holder = 500020 #"Agold"  Siggurdsunu
+}
+
+238.1.26={
+holder = 500021 #"Hilder"  Siggurdsunu
+}
+
+245.1.28={
+holder = 500029 #"Siegrich"  Siggurdsunu
+}
+
+291.5.13={
+holder = 500030 #Agold  Siggurdsunu
+}
+
+316.12.7={
+holder = 500031 #Siggurd  Siggurdsunu
+}
+
+348.1.8={
+holder = 500032 #Radulf  Siggurdsunu
+}
+
+399.8.18={
+holder = 500033 #Odovacar  Siggurdsunu
+}
+
+454.5.17={
+holder = 500034 #Siggurd  Siggurdsunu
+}
+
+571.7.19={
+holder = 500036 #Marius  Siggurdsunu
+}
+
+632.1.17={
+holder = 500037 #Herleva  Siggurdsunu
+}
+
+637.6.23={
+holder = 500022 #Lutbert   Reiter
+}
+
+677.4.28={
+holder = 500038 #Anders  Reiter
+}
+
+709.5.21={
+holder = 500039 #Matthias  Reiter
+}
+
+734.6.23={
+holder = 500040 #Ludmilla  Reiter
+}
+
+787.4.10={
+holder = 500041 #Alberich  Reiter
+}
+
+821.10.19={
+holder = 500042 #Boris  Reiter
+}
+
+875.8.13={
+holder = 500043 #Sigmund  Reiter
+}
+
+908.3.13={
+holder = 500044 #Ralf  Reiter
+}
+
+967.12.22={
+holder = 500045 #Carmilla  Reiter
+}
+
+1002.7.15={
+holder = 500046 #Ulli  Blutig-Reichte
+}
+
+1060.1.26={
+holder = 500047 #Mannslieb  Blutig-Reichte
+}
+
+1114.3.24={
+holder = 500048 #Selena  Blutig-Reichte
+}
+
+1153.9.18={
+holder = 500049 #Sigismund  Blutig-Reichte
+}
+
+1172.9.2={
+holder = 500050 #Wertha  Blutig-Reichte
+}
+
+1218.12.1={
+holder = 500051 #Seiger  Blutig-Reichte
+}
+
+
+1352.7.8={
+holder = 500054 #Rudiger  von Flusstor
+}
+
+
+1401.10.11={
+holder = 500055 #Ralf  von Flusstor
+}
+
+1447.5.13={
+holder = 500056 #Klaus  von Flusstor
+}
+
+1475.11.22={
+holder = 500057 #Kurt  von Flusstor
+}
+
+1510.9.15={
+holder = 500058 #Selena  von Flusstor
+}
+
+1573.12.9={
+holder = 500059 #Gustav  Leitdorf
+}
+
+1622.8.4={
+holder = 500060 #Marius  Leitdorf
+}
+
+1676.8.20={
+holder = 500061 #Brutus  Leitdorf
+}
+
+1729.8.14={
+holder = 500062 #Otto  Leitdorf
+}
+
+1793.6.12={
+holder = 500063 #Felix  Leitdorf
+}
+
+1814.1.20={
+holder = 500064 #Siegfried  Leitdorf
+}
+
+1881.9.16={
+holder = 500065 #Waldemar  Leitdorf
+}
+
+1926.8.10={
+holder = 500066 #Talima  Leitdorf
+}
+
+1978.8.18={
+holder = 500067 #Albrecht  Leitdorf
+}
+
+
+2007.12.9={
+holder = 500068 #Seiger  Leitdorf
+}
+
+
+2051.5.11={
+holder = 500069 #Andreas  Leitdorf
+}
+
+2088.1.11={
+holder = 500070 #Talima  Leitdorf
+}
+
+2141.6.12={
+holder = 500071 #Mannslieb  von Alptraum
+}
+
+2163.8.3={
+holder = 500072 #Heinz  von Alptraum
+}
+
+2197.4.13={
+holder = 500073 #Kurt  von Alptraum
+}
+
+2238.3.18={
+holder = 500074 #Mathilde  von Alptraum
+}
+
+2271.3.27={
+holder = 500075 #Sigismund  von Alptraum
+}
+
+2302.8.2={
+holder = 500076 #Leopold  von Alptraum
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2329.10.20={
+holder = 500077 #Pieter  von Alptraum
+}
+
+2364.3.15={
+holder = 500078 #Magnus  von Alptraum
+}
+
+2400.4.28={
+holder = 500079 #Elise  von Alptraum
+}
+
+2428.5.27={
+holder = 500080 #Gunnwald  von Alptraum
+}
+
+2511.10.23={
+holder = 500082 #Marius the mad Leitdorf
+}
+
+2520.6.27={
+holder = 200004 #Seneschal, contested claim for Averland
 }

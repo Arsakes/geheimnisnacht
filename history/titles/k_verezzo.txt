@@ -1,7 +1,7 @@
-# e_tilea
-500.1.1={
-	law = agnatic_succession
+2000.1.1 = {
+	holder = 4800017
 }
-800.1.1={
-	liege=e_tilea
+
+2510.1.1 = {
+	holder = 4800009
 }

@@ -1,8 +1,8 @@
-# k_stygian_wood
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="d_wilderwald"
 }
-800.1.1={
-	liege=d_wilderwald
+
+2010.1.1 = {
+	holder = 900016
 }

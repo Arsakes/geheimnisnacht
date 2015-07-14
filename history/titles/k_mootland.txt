@@ -1,8 +1,16 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="e_reikland"
 }
-800.1.1={
-	liege=e_the_empire
+
+2010.1.1 = {
+	holder = 550000
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2492.5.1 = {
+	holder = 550026
 }

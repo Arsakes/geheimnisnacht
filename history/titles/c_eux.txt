@@ -1,8 +1,12 @@
-# e_bretonnia
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+
+2010.1.1 = {
+	holder = 1350003
 }
-800.1.1={
-	liege=d_quierzy
+
+2013.5.5 = {
+	liege="k_couronne"
+}
+
+2013.5.5 = {
+	holder = 4000129
 }

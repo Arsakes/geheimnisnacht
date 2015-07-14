@@ -1,5 +1,71 @@
-# e_kislev
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1524.8.21 = {
+	holder = 1550024 #Shoika
+	law = succ_primogeniture
+	law = true_cognatic_succession
+	law = centralization_2
+}
+
+
+
+1936.1.23 = {
+	holder = 1550035 #Temnir Bokha
+}
+
+1966.1.23 = {
+	holder = 1550036 #Ulyana Bokha
+}
+
+1975.10.29 = {
+	holder = 1550037 #Küchükhan Bokha
+}
+
+1996.3.25 = {
+	holder = 1550000 #Tetyana Bokha
+}
+
+2045.11.14 = {
+	holder = 1550025 #Kazhaila Pavlovna
+}
+
+2072.5.27 = {
+	holder = 1550026 #Taira Pavlovna
+}
+
+2095.7.2 = {
+	holder = 1550027 #Igor the Terrible Pavlovna
+}
+
+2143.10.20 = {
+	holder = 1550028 #Ivan the Lunatic Pavlovna
+}
+
+2143.11.1 = {
+	holder = 1550029 #Alexandr the Great Njevski
+}
+
+
+
+
+2291.5.2 = {
+	holder = 1650013 #Alexis Romanoff
+}
+
+2315.3.10 = {
+	holder = 1650012 #Kattarin Bokha
+}
+
+2471.7.30 = {
+	holder = 1650003 #Pavel Bokha
+}
+
+2484.8.17 = {
+	holder = 1650002 #Vladimir Bokha
+}
+
+2492.2.10 = {
+	holder = 1650001 #Boris Bokha
+}
+
+2517.2.19 = {
+	holder = 1650000 #Katarin Bokha
 }

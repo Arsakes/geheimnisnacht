@@ -4,5 +4,37 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=d_reikwald
+	liege=k_reikland
+}
+
+2010.1.1 = {
+	holder = 900004
+}
+
+2279.8.25 = {
+	holder = 900069
+}
+
+2302.7.23={  
+	holder = 950027 #Magnus I The Pious von Bildhofen of Nuln, gifted Reikland from the Grand Theogonist for his services
+}
+
+2304.12.5 = {
+	liege="e_the_empire"
+}
+
+2429.7.16={  
+	holder = 900039 #Wilhelm III The Wise Holswig-Schleistein of Reikland 
+}
+
+2448.10.11={
+	holder = 900041 #Mattheus II Holswig-Schleistein of Reikland 
+}
+
+2475.3.14={  
+	holder = 900042 #Luitpold I Holswig-Schleistein of Reikland 
+}
+
+2502.3.26={  
+	holder = 900043 #Karl-Franz I Holswig-Schleistein of Reikland 
 }

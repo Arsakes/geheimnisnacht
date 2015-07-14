@@ -1,4 +1,10 @@
-# e_the_empire
-800.1.1={
-	liege=d_heideland
+2010.1.1 = {
+	liege="k_westerland"
+}
+2010.1.1 = {
+	holder = 600012
+}
+
+2490.1.1 = {
+	holder = 600159
 }

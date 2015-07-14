@@ -4,5 +4,17 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=d_kovasnia
+	liege=k_sylvania
+}
+
+2010.1.1 = {
+	holder = 350010
+}
+
+2500.1.1 = {
+	liege="d_drakenhoehenzug"
+}
+
+2512.5.2 = {
+	holder = 300035
 }

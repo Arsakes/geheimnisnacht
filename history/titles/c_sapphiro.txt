@@ -1,8 +1,7 @@
-# k_aegos
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+1989.4.25 = {
+	holder = 4950020
 }
-800.1.1={
-	liege=d_ionica
+
+2003.5.9 = {
+	holder = 4950001
 }

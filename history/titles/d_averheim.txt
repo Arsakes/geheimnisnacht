@@ -1,8 +1,8 @@
-# e_the_empire
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+
+2007.12.9={
+holder = 500068 #Seiger  Leitdorf
 }
-800.1.1={
-	liege=k_averland
+
+2304.12.5 = {
+	liege="e_the_empire"
 }

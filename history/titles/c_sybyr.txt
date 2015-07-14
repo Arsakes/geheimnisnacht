@@ -1,3 +1,8 @@
-800.1.1={
-	liege=d_dzhagna
+2010.1.1=
+{
+liege="d_zays"
+}
+
+2010.1.1 = {
+	holder = 2500005
 }

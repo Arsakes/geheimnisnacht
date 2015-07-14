@@ -1,3 +1,11 @@
-800.1.1={
-	liege=d_sorg
+1.1.1 = {
+	law = agnatic_succession
+}
+
+2010.1.1=
+{
+liege="d_sorg"
+}
+2010.1.1 = {
+	holder = 1300022
 }

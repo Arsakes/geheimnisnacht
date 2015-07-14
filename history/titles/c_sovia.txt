@@ -1,8 +1,8 @@
-# k_vorag
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+2010.1.1=
+{
+liege="d_nagash"
 }
-800.1.1={
-	liege=d_blackwater
+
+2010.1.1 = {
+	holder = 6800007
 }

@@ -1,3 +1,8 @@
-800.1.1={
-	liege=d_dokuvalk
+2010.1.1=
+{
+liege="d_red_eye_mountain"
+}
+
+2010.1.1 = {
+	holder = 6100002
 }

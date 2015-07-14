@@ -1,3 +1,11 @@
-800.1.1={
-	liege=d_iavaskh
+1.1.1 = {
+	law = agnatic_succession
+}
+
+1970.1.1 = {
+	holder = 1300025
+}
+
+2019.3.25 = {
+	holder = 1300027
 }

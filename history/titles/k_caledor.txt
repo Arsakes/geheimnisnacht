@@ -1,0 +1,13 @@
+1.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+1.1.1={
+holder = 95047
+}
+800.1.1={
+	liege=e_ulthuan
+}
+1800.1.1={
+holder=95045
+}

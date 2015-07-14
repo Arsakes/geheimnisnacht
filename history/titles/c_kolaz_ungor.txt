@@ -1,7 +1,6 @@
-# e_karak_ankor
-500.1.1={
-	law = agnatic_succession
+2010.1.1= {
+liege="d_zhufbar_barak"
 }
-800.1.1={
-	liege=d_zhufbar_barak
+2010.1.1 = {
+	holder = 1050062
 }

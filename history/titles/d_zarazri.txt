@@ -1,8 +1,7 @@
-# e_karak_ankor
 500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
+	law = true_cognatic_succession
+	law = succ_turkish_succession
 }
-800.1.1={
-	liege=k_dagorath
+2000.11.28={
+	holder = 100000
 }
