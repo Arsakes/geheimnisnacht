@@ -123,6 +123,34 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_detached_priest_indian_group"
+		texturefile = "gfx/traits/detached_priest_indian_group.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_pagan_group"
+		texturefile = "gfx/traits/detached_priest_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_zoroastrian_group"
+		texturefile = "gfx/traits/detached_priest_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_jewish_group"
+		texturefile = "gfx/traits/detached_priest_jewish_group.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_detached_priest_muslim"
 		texturefile = "gfx/traits/detached_priest_muslim.tga"
 		noOfFrames = 1
@@ -132,6 +160,34 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_martial_cleric"
 		texturefile = "gfx/traits/martial_cleric.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_indian_group"
+		texturefile = "gfx/traits/martial_cleric_indian_group.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_pagan_group"
+		texturefile = "gfx/traits/martial_cleric_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_zoroastrian_group"
+		texturefile = "gfx/traits/martial_cleric_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_jewish_group"
+		texturefile = "gfx/traits/martial_cleric_jewish_group.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -150,6 +206,34 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_indian_group"
+		texturefile = "gfx/traits/scholarly_theologian_indian_group.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_pagan_group"
+		texturefile = "gfx/traits/scholarly_theologian_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_zoroastrian_group"
+		texturefile = "gfx/traits/scholarly_theologian_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_jewish_group"
+		texturefile = "gfx/traits/scholarly_theologian_jewish_group.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
 	spriteType = {
 		name = "GFX_trait_scholarly_theologian_muslim"
 		texturefile = "gfx/traits/scholarly_theologian_muslim.tga"
@@ -341,6 +425,14 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_trait_has_aztec_disease"
+		texturefile = "gfx/traits/syphilitic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
 		name = "GFX_trait_clubfooted"
 		texturefile = "gfx/traits/clubfooted.tga"
 		noOfFrames = 1
@@ -377,7 +469,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_fair"
-		texturefile = "gfx/traits/fair.tga"
+		texturefile = "gfx/traits/fair_2.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -507,8 +599,7 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
+	}	spriteType = {
 		name = "GFX_trait_socialite"
 		texturefile = "gfx/traits/socialite.tga"
 		noOfFrames = 1
@@ -585,6 +676,13 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
+	spriteType = {
+		name = "GFX_trait_tall"
+		texturefile = "gfx/traits/tall.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 	spriteType = {
 		name = "GFX_trait_drunkard"
 		texturefile = "gfx/traits/drunkard.tga"
@@ -902,8 +1000,7 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-
-
+	
 	spriteType = {
 		name = "GFX_trait_flat_terrain_leader"
 		texturefile = "gfx/traits/flat_terrain_leader.tga"
@@ -951,24 +1048,7 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
-	spriteType = {
-		name = "GFX_trait_peasant_leader"
-		texturefile = "gfx/traits/peasant_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}	
 
-	spriteType = {
-		name = "GFX_trait_siege_leader"
-		texturefile = "gfx/traits/siege_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-
-	
 	#01_traits.txt
 	spriteType = {
 		name = "GFX_trait_mujahid"
@@ -1034,8 +1114,214 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_trait_tall"
-		texturefile = "gfx/traits/tall.tga"
+		name = "GFX_trait_eunuch"
+		texturefile = "gfx/traits/eunuch.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blinded"
+		texturefile = "gfx/traits/blinded.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_born_in_the_purple"
+		texturefile = "gfx/traits/born_in_the_purple.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_augustus"
+		texturefile = "gfx/traits/augustus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_child_of_consort"
+		texturefile = "gfx/traits/child_of_consort.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_peasant_leader"
+		texturefile = "gfx/traits/peasant_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_heresiarch"
+		texturefile = "gfx/traits/heresiarch.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_berserker"
+		texturefile = "gfx/traits/berserker.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_varangian"
+		texturefile = "gfx/traits/varangian.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saoshyant"
+		texturefile = "gfx/traits/saoshyant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saoshyant_descendant"
+		texturefile = "gfx/traits/saoshyant_descendant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_viking"
+		texturefile = "gfx/traits/viking.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_siege_leader"
+		texturefile = "gfx/traits/siege_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_monk"
+		texturefile = "gfx/traits/monk.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_nun"
+		texturefile = "gfx/traits/nun.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_on_pilgrimage"
+		texturefile = "gfx/traits/on_pilgrimage.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_sickly"
+		texturefile = "gfx/traits/sickly.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_mutazilite"
+		texturefile = "gfx/traits/mutazilite.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ashari"
+		texturefile = "gfx/traits/ashari.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_christendom"
+		texturefile = "gfx/traits/sympathy_christendom.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_islam"
+		texturefile = "gfx/traits/sympathy_islam.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_pagans"
+		texturefile = "gfx/traits/sympathy_pagans.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_zoroastrianism"
+		texturefile = "gfx/traits/sympathy_zoroastrianism.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_judaism"
+		texturefile = "gfx/traits/sympathy_judaism.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_christian"
+		texturefile = "gfx/traits/bad_priest_christian.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_muslim"
+		texturefile = "gfx/traits/bad_priest_muslim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_norse"
+		texturefile = "gfx/traits/bad_priest_norse.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_tengri"
+		texturefile = "gfx/traits/bad_priest_tengri.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_zoroastrian"
+		texturefile = "gfx/traits/bad_priest_zoroastrian.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_aztec"
+		texturefile = "gfx/traits/bad_priest_aztec.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1043,6 +1329,204 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_narrow_flank_leader"
 		texturefile = "gfx/traits/narrow_flank_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_brahmin"
+		texturefile = "gfx/traits/brahmin.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kshatriya"
+		texturefile = "gfx/traits/kshatriya.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vaishya"
+		texturefile = "gfx/traits/vaishya.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_indian"
+		texturefile = "gfx/traits/sympathy_indian.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_shaivist_hindu"
+		texturefile = "gfx/traits/shaivist_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vaishnavist_hindu"
+		texturefile = "gfx/traits/vaishnavist_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_shaktist_hindu"
+		texturefile = "gfx/traits/shaktist_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_smartist_hindu"
+		texturefile = "gfx/traits/smartist_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mahayana_buddhist"
+		texturefile = "gfx/traits/mahayana_buddhist.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vajrayana_buddhist"
+		texturefile = "gfx/traits/vajrayana_buddhist.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_theravada_buddhist"
+		texturefile = "gfx/traits/theravada_buddhist.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_digambara_jain"
+		texturefile = "gfx/traits/digambara_jain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_svetambara_jain"
+		texturefile = "gfx/traits/svetambara_jain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_decadent"
+		texturefile = "gfx/traits/decadent.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_reincarnation"
+		texturefile = "gfx/traits/reincarnation.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_jungle_terrain_leader"
+		texturefile = "gfx/traits/jungle_terrain_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_war_elephant_leader"
+		texturefile = "gfx/traits/war_elephant_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_in_hiding"
+		texturefile = "gfx/traits/in_hiding.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_winter_soldier"
+		texturefile = "gfx/traits/winter_soldier.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	# WoL: New Lifestyle traits. TODO: Icons
+	spriteType = {
+		name = "GFX_trait_seducer"
+		texturefile = "gfx/traits/seducer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_seductress"
+		texturefile = "gfx/traits/seductress.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_administrator"
+		texturefile = "gfx/traits/administrator.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_architect"
+		texturefile = "gfx/traits/architect.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_strategist"
+		texturefile = "gfx/traits/strategist.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_socializer"
+		texturefile = "gfx/traits/socializer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_gamer"
+		texturefile = "gfx/traits/game_master.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_schemer"
+		texturefile = "gfx/traits/schemer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_theologian"
+		texturefile = "gfx/traits/theologian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
