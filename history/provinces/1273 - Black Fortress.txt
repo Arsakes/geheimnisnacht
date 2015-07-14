@@ -1,0 +1,19 @@
+# c_black_fortress
+
+# County Title
+title = c_black_fortress
+
+# Settlements
+max_settlements = 5
+
+b_the_black_fortress = castle
+b_blackgate = city
+b_flayed_rock = temple
+b_undorim = temple
+#b_dwarrinfel = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

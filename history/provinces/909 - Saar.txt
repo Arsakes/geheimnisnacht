@@ -1,0 +1,17 @@
+# c_saar
+
+# County Title
+title = c_saar
+
+# Settlements
+max_settlements = 3
+
+b_saar = tribal
+#b_huuzel = city
+#b_sallizes = temple
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

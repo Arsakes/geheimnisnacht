@@ -1,0 +1,19 @@
+# c_turui
+
+# County Title
+title = c_turui
+
+# Settlements
+max_settlements = 5
+
+b_turui = tribal
+b_sergyls = temple
+#b_nygavik = temple
+#b_skartasund = castle
+#b_midalfjord = city
+
+# Misc
+culture = skaeling
+religion = norscan_gods
+
+#History

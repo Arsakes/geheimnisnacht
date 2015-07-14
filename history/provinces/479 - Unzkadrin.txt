@@ -1,0 +1,16 @@
+# c_unzkadrin
+
+# County Title
+title = c_unzkadrin
+
+# Settlements
+max_settlements = 2
+
+b_unzkul_mingol = castle
+b_barakazzar = castle
+
+# Misc
+culture = dolgan
+religion = chaos
+terrain = mountain_pass
+#History

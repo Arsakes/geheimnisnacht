@@ -1,0 +1,18 @@
+# c_seep_gore
+
+# County Title
+title = c_seep_gore
+
+# Settlements
+max_settlements = 4
+
+b_seep_gore = tribal
+#b_thindrongol_zor = city
+#b_azamar_dok = temple
+#b_kazad_akrak = castle
+
+# Misc
+culture = goblin_main
+religion = greenskin_gods
+
+#History

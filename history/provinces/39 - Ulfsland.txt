@@ -1,0 +1,20 @@
+# c_ulfsland
+
+# County Title
+title = c_ulfsland
+
+# Settlements
+max_settlements = 6
+
+b_ulfsland = tribal
+b_tulkirivik = temple
+#b_hardaborg = temple
+#b_laussland = castle
+#b_kedelvik = city
+#b_vardahus = temple
+
+# Misc
+culture = skaeling
+religion = norscan_gods
+
+#History

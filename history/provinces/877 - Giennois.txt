@@ -1,0 +1,18 @@
+# c_giennois
+
+# County Title
+title = c_giennois
+
+# Settlements
+max_settlements = 4
+
+b_gien = castle
+b_veneve = city
+#b_salone = temple
+#b_sallee = castle
+
+# Misc
+culture = breton
+religion = grail
+
+#History

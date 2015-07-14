@@ -1,0 +1,18 @@
+# c_karak_ekslagar
+
+# County Title
+title = c_karak_ekslagar
+
+# Settlements
+max_settlements = 4
+
+b_karak_ekslagar = castle
+b_karak_undril = city
+#b_kragamar = temple
+#b_anvar = castle
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

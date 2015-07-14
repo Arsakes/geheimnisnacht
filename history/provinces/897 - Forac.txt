@@ -1,0 +1,18 @@
+# c_forac
+
+# County Title
+title = c_forac
+
+# Settlements
+max_settlements = 4
+
+b_forac = castle
+b_herat = castle
+#b_marasque = temple
+#b_lillebourg = castle
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

@@ -1,0 +1,20 @@
+# c_norden
+
+# County Title
+title = c_norden
+
+# Settlements
+max_settlements = 6
+
+b_norden = castle
+b_ockholm = temple
+b_beelen = castle
+#b_salzmorast = castle
+#b_gelting = city
+#b_kriedeklippe = temple
+
+# Misc
+culture = nordlander
+religion = sigmarite
+
+#History

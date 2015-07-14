@@ -1,0 +1,19 @@
+# c_saimaakild
+
+# County Title
+title = c_saimaakild
+
+# Settlements
+max_settlements = 5
+
+b_heimseter = tribal
+#b_trollbo = city
+#b_lade = temple
+#b_saimaakild = castle
+#b_vobarg = city
+
+# Misc
+culture = bjornling
+religion = norscan_gods
+
+#History

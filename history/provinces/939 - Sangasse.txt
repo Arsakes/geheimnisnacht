@@ -1,0 +1,19 @@
+# c_sangasse
+
+# County Title
+title = c_sangasse
+
+# Settlements
+max_settlements = 5
+
+b_sangasse = castle
+b_sangasseville = city
+b_chateau_depre = castle
+b_parthillon = temple
+#b_epre = city
+
+# Misc
+culture = breton
+religion = grail
+
+#History

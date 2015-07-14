@@ -1,0 +1,18 @@
+# c_frossborg
+
+# County Title
+title = c_frossborg
+
+# Settlements
+max_settlements = 4
+
+b_frossborg = castle
+b_asdgard = castle
+#b_muniheim = temple
+#b_tolvik = castle
+
+# Misc
+culture = aesling
+religion = khorne
+
+#History

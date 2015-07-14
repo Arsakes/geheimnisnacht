@@ -1,0 +1,18 @@
+# c_zamalanca
+
+# County Title
+title = c_zamalanca
+
+# Settlements
+max_settlements = 4
+
+b_vadna = city
+b_fallagra = city
+b_bronica = city
+#b_olvado = castle
+
+# Misc
+culture = norteno
+religion = myrmidian
+
+#History

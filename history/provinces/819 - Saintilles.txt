@@ -1,0 +1,18 @@
+# c_saintilles
+
+# County Title
+title = c_saintilles
+
+# Settlements
+max_settlements = 4
+
+b_saintilles = castle
+b_siege_perilous = castle
+b_pompignan = temple
+#b_athos = castle
+
+# Misc
+culture = armoric
+religion = grail
+
+#History

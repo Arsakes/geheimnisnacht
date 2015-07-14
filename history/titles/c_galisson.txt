@@ -1,0 +1,4 @@
+# e_bretonnia
+800.1.1={
+	liege=d_montmagnac
+}

@@ -1,0 +1,19 @@
+# c_unzkulak
+
+# County Title
+title = c_unzkulak
+
+# Settlements
+max_settlements = 5
+
+b_unzkulak = castle
+b_karak_varrson = city
+b_barak_hrunzak = temple
+#b_tilid_ungor = castle
+#b_barak_mundak = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

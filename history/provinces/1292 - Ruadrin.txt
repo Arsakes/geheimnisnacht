@@ -1,0 +1,19 @@
+# c_ruadrin
+
+# County Title
+title = c_ruadrin
+
+# Settlements
+max_settlements = 5
+
+b_ruadrin = castle
+b_langrim = city
+b_zharr_grim = castle
+b_indri = temple
+#b_sephirat = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

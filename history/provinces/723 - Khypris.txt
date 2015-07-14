@@ -1,0 +1,20 @@
+# c_khypris
+
+# County Title
+title = c_khypris
+
+# Settlements
+max_settlements = 6
+
+b_khypris = tribal
+b_maltane = city
+b_valendra = temple
+b_philany = castle
+#b_keltut = city
+#b_strigoviste = temple
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+
+#History

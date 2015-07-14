@@ -1,0 +1,18 @@
+# c_pompadour
+
+# County Title
+title = c_pompadour
+
+# Settlements
+max_settlements = 4
+
+b_pompadour = tribal
+b_ventallac = temple
+#b_adrenade = temple
+#b_noiredou = castle
+
+# Misc
+culture = breton
+religion = grail
+
+#History

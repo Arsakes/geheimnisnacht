@@ -1,0 +1,18 @@
+# c_gransette
+
+# County Title
+title = c_gransette
+
+# Settlements
+max_settlements = 4
+
+b_brassens = city
+b_chateau_gransette = castle
+#b_castel_brel = temple
+#b_mitterrand = castle
+
+# Misc
+culture = gascon
+religion = grail
+
+#History

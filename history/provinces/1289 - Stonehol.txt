@@ -1,0 +1,18 @@
+# c_stonehol
+
+# County Title
+title = c_stonehol
+
+# Settlements
+max_settlements = 4
+
+b_stonehol = castle
+b_felskar = city
+b_grung_korbri = castle
+#b_grungut = castle
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

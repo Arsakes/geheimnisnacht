@@ -1,0 +1,21 @@
+# c_verezzo
+
+# County Title
+title = c_verezzo
+
+# Settlements
+max_settlements = 7
+
+b_verezzo = city
+b_terenne = city
+b_alitilea = temple
+b_monte_verde = castle
+b_gadiroldo = city
+#b_mercatto = temple
+#b_severnola = castle
+
+# Misc
+culture = umbrian
+religion = myrmidian
+terrain = farmlands
+#History

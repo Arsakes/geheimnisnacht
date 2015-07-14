@@ -1,0 +1,18 @@
+# c_reikgard
+
+# County Title
+title = c_reikgard
+
+# Settlements
+max_settlements = 4
+
+b_schloss_reikgard = castle
+b_langewiessen = city
+b_leun = temple
+#b_hofheim = castle
+
+# Misc
+culture = reiklander
+religion = sigmarite
+
+#History

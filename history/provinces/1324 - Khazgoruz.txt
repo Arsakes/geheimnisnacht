@@ -1,0 +1,18 @@
+# c_khazgoruz
+
+# County Title
+title = c_khazgoruz
+
+# Settlements
+max_settlements = 4
+
+b_khazgoruz = tribal
+#b_undi_khazarak = city
+#b_barakabor = temple
+#b_azri_grint = castle
+
+# Misc
+culture = goblin_main
+religion = greenskin_gods
+
+#History

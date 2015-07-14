@@ -1,0 +1,17 @@
+# c_turgran
+
+# County Title
+title = c_turgran
+
+# Settlements
+max_settlements = 3
+
+b_turgran = castle
+b_gargaran = city
+#b_blizzardpeak = temple
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+terrain = mountain_pass
+#History

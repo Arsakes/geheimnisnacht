@@ -1,0 +1,19 @@
+# c_krugenheim
+
+# County Title
+title = c_krugenheim
+
+# Settlements
+max_settlements = 5
+
+b_sabritz = castle
+b_krugenheim = city
+b_gersdorf = temple
+#b_natzevitz = castle
+#b_sulzdorf = city
+
+# Misc
+culture = talabeclander
+religion = taalite
+
+#History

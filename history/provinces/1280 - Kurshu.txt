@@ -1,0 +1,17 @@
+# c_kurshu
+
+# County Title
+title = c_kurshu
+
+# Settlements
+max_settlements = 3
+
+b_kurshu = tribal
+#b_skullport = city
+#b_rosszutvonal = temple
+
+# Misc
+culture = goblin_main
+religion = greenskin_gods
+
+#History

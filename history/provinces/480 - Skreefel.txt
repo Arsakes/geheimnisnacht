@@ -1,0 +1,17 @@
+# c_skreefel
+
+# County Title
+title = c_skreefel
+
+# Settlements
+max_settlements = 3
+
+b_skreefel = castle
+b_huwaz = city
+#b_black_fang = temple
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+terrain = mountain_pass
+#History

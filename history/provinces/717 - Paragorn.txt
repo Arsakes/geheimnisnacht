@@ -1,0 +1,16 @@
+# c_paragorn
+
+# County Title
+title = c_paragorn
+
+# Settlements
+max_settlements = 2
+
+b_paragorn = tribal
+#b_elea = city
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

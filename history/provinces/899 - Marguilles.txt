@@ -1,0 +1,18 @@
+# c_marguilles
+
+# County Title
+title = c_marguilles
+
+# Settlements
+max_settlements = 4
+
+b_marguilles = castle
+b_maisemane = city
+b_chausefort = castle
+#b_chermercy = castle
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

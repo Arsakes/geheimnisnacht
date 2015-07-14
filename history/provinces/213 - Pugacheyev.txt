@@ -1,0 +1,17 @@
+# c_pugacheyev
+
+# County Title
+title = c_pugacheyev
+
+# Settlements
+max_settlements = 3
+
+b_pugacheyev = castle
+b_sochi = city
+#b_troitsk = temple
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

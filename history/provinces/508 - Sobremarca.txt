@@ -1,0 +1,19 @@
+# c_sobremarca
+
+# County Title
+title = c_sobremarca
+
+# Settlements
+max_settlements = 5
+
+b_ciudadilla = castle
+b_papial = castle
+b_san_fernando = city
+b_rocamaura = temple
+#b_ibirana = city
+
+# Misc
+culture = norteno
+religion = myrmidian
+
+#History

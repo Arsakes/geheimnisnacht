@@ -1,0 +1,18 @@
+# c_chalons
+
+# County Title
+title = c_chalons
+
+# Settlements
+max_settlements = 4
+
+b_champebourg = tribal
+#b_maisonrie = city
+b_sainte_chapelle = temple
+#b_issoroux = castle
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

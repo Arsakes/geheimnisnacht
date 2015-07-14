@@ -1,0 +1,21 @@
+# c_magritta
+
+# County Title
+title = c_magritta
+
+# Settlements
+max_settlements = 7
+
+b_magritta = city
+b_castillo_de_magritta = castle
+b_inquisitoria_general = temple
+b_san_carlos = city
+b_san_sebastiano = castle
+#b_televaro = temple
+#b_morica = castle
+
+# Misc
+culture = astur
+religion = myrmidian
+terrain = farmlands
+#History

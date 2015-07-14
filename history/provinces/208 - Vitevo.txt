@@ -1,0 +1,18 @@
+# c_vitevo
+
+# County Title
+title = c_vitevo
+
+# Settlements
+max_settlements = 4
+
+b_vitevo = castle
+b_chulym = city
+#b_buy = temple
+#b_bilibino = castle
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

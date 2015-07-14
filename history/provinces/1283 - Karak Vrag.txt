@@ -1,0 +1,17 @@
+# c_karak_vrag
+
+# County Title
+title = c_karak_vrag
+
+# Settlements
+max_settlements = 3
+
+b_karak_vrag = castle
+b_grimsbak = city
+#b_gorger_rock = temple
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+terrain = mountain_pass
+#History

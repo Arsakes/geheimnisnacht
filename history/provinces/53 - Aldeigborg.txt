@@ -1,0 +1,18 @@
+# c_aldeigborg
+
+# County Title
+title = c_aldeigborg
+
+# Settlements
+max_settlements = 4
+
+b_aldeigborg = tribal
+#b_afenheim = city
+#b_afensvik = temple
+#b_oldeger = castle
+
+# Misc
+culture = varg
+religion = slaanesh
+
+#History

@@ -1,0 +1,19 @@
+# c_turov
+
+# County Title
+title = c_turov
+
+# Settlements
+max_settlements = 5
+
+b_ardhka = castle
+b_turov = city
+b_suzdal = temple
+#b_kem = castle
+#b_mehikoorma = city
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

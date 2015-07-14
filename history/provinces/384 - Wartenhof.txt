@@ -1,0 +1,18 @@
+# c_wartenhof
+
+# County Title
+title = c_wartenhof
+
+# Settlements
+max_settlements = 4
+
+b_schloss_wartenhof = castle
+b_wartenhof = city
+b_erkrath = temple
+#b_creusen = castle
+
+# Misc
+culture = sylvanian
+religion = vampiric
+
+#History

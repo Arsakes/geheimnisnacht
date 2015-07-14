@@ -1,0 +1,17 @@
+# c_baildughan
+
+# County Title
+title = c_baildughan
+
+# Settlements
+max_settlements = 3
+
+b_baika = tribal
+#b_qadan = city
+#b_ebujige = temple
+
+# Misc
+culture = hastling
+religion = tzeentch
+
+#History

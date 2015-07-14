@@ -1,0 +1,20 @@
+# c_waldenhof
+
+# County Title
+title = c_waldenhof
+
+# Settlements
+max_settlements = 6
+
+b_waldenhof = castle
+b_hundham = castle
+b_thyrnan = temple
+b_egling = city
+#b_seppel = city
+#b_lichtenwort = temple
+
+# Misc
+culture = ostermarker
+religion = vampiric
+
+#History

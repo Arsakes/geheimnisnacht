@@ -1,0 +1,17 @@
+# c_chinon
+
+# County Title
+title = c_chinon
+
+# Settlements
+max_settlements = 3
+
+b_chinon = tribal
+#b_lannay = city
+#b_brissonour = temple
+
+# Misc
+culture = breton
+religion = grail
+
+#History

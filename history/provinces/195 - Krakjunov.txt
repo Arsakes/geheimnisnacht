@@ -1,0 +1,18 @@
+# c_krakjunov
+
+# County Title
+title = c_krakjunov
+
+# Settlements
+max_settlements = 4
+
+b_krakjunov = castle
+b_schonsze = city
+#b_czorn = temple
+#b_nevel = castle
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

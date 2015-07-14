@@ -1,0 +1,15 @@
+# c_mount_barak
+
+# County Title
+title = c_mount_barak
+
+# Settlements
+max_settlements = 1
+
+b_mount_barak = castle
+
+# Misc
+culture = bjornling
+religion = chaos
+
+#History

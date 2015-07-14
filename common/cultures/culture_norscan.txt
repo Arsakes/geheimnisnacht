@@ -1,0 +1,389 @@
+norscan_group = {
+	graphical_culture = westerngfx
+
+	aesling = {
+		graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.25 0.5 0.75 }
+		
+		male_names = {
+			Albrikt_Albert Alf_Alf Algot Anders_Andrew Anund_Anund Arnbjörn Arne_Arne Arnfast Asbjörn_Asbjörn Astrad Azur Bagge Balder_Balder Bengt_Benedict Bertil Birger Björn_Beorn Bo Borkvard Botulf Brage_Brage Bror 
+			Brynjolf Dag Dan Dyre Egil_Egil Einar_Einar Emund Erik_Erik Eskild Faste Fredrik_Frederick Filip_Philip Folke_Folke Frej_Frej Georg_George Greger_Gregory Grim_Grim Gudröd_Gudröd Gunnar_Gunnar Gustav Halsten Hans_Hans Harald_Harold
+			Helgi_Helge Henrik_Henry Hjalmar_Hjalmar Holmger Håkan_Hakon Inge Ingemar Ingvar_Ingvar Jedvard_Edward Johan_John Karl_Charles Kettil Kettilmund Klas Knut_Knut Kol Kolbjörn Lars_Laurence Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Odd_Odd Olaf_Olaf Orvar_Orvar Peder_Peter Ragnar_Ragnar Rolf_Rolf Rörek_Rurik Ragnvald_Ragnvald Sämund_Sämund Sörkver Sigbjörn Sigtrygg Sigurd_Sigurd Starkad_Starkad Sten_Sten Styrbjörn Sune_Sune Sven_Sven
+			Sverker Sölvi_Sölve Thomas_Thomas Tjudmund_Tjudmund Toke_Toke Tolir Torbjörn_Torbjörn Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torkel_Torkel Torolf_Thorolf Torsten_Torsten Toste Totil Tyke Ulf_Ulf Valdemar_Vladimir Åke Östen_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhild Alfridh_Alfridh Anna_Anna Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Bothild_Bothild Cecilia_Cecilia Edla Elin Elisabet_Elisabeth Freja_Freja Gunhild_Gunhild Gyla Gurli Gytha_Gytha Hafrid 
+			Helena_Helen Holmfrid Iliana Inga_Inge Ingeborg_Ingeborg Ingegerd_Ingegerd Ingfrid Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kristina_Christina Linda Maer Malmfrid_Malmfrid
+			Margareta_Margaret Märta_Martha Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rikissa Saga Sara_Sarah Sigrid_Sigrid Sofia_Sophia Svanhild_Svanhild Thordis_Thordis Ulvhilde Ylva Åsa_Åsa
+		}
+		
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	baersonling = {
+		graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.2 0.45 0.65 }
+		
+		male_names = {
+			Anund_Anund Alv_Alf Arne_Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder_Balder Bård Bjørn_Beorn Eigil_Egil Eilif Einar_Einar Eirik_Erik Erlend Erling Eystein_Eysteinn Finn Frej_Frej
+			Grim_Grim Gudbrand Gudleik Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Guttorm_Gorm Haldor Halfdan Halkjell Harald_Harold Helge_Helge Håkon_Hakon Håvard Inge Ivar_Ivar Jon_John Kåre Kolbein Lodin
+			Magnus_Magnus Odd_Odd Ogmund Olav_Olaf Orm_Orm Ossor Ottar_Ottar Pål_Paul Ragnar_Ragnar Ragnvald_Ragnvald Rolf_Rolf Sigurd_Sigurd Skjalg Skofte Skule_Skule Svein_Sven Sverre Sämund_Sämund Torbjørn_Torbjörn Tord_Tord Tore 
+			Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel
+			Tormod Torolf_Thorolf Torstein_Torsten Trond Tryggve Ulv_Ulf Vigleik Åle Åmund Ølver Øystein_Eysteinn 
+		}
+		female_names = {
+			Anna_Anna Astrid_Astrid Brigida_Brigid Cecilia_Cecilia Eldrid Freja_Freja Gjertrud_Gertrude Gudrid Gudrun_Gudrun Gunnhild_Gunhild Gyda_Gytha Gyrid Haldora Homlaug Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid Jorunn
+			Karin_Catherine Kristina_Christina Margrete_Margaret Maria_Maria Martha_Martha Ragna Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rannveig Sigrid_Sigrid Snøfrid Sunniva Svanhild_Svanhild Thora_Thora Thorborg Thordis_Thordis Åse_Åsa Åshild Åsta_Asta
+		}
+		
+				
+		from_dynasty_prefix = "av "
+		
+		male_patronym = "sson"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+
+	bjornling = {
+		graphical_culture = northmangfx
+		second_graphical_culture = saxongfx
+		graphical_unit_culture = norse
+		
+		color = { 0.8 0.3 0.2 }
+		
+		male_names = {
+			Abbi Adils Aevar Afvaldr Aggi Agi Agmundr Agni Aki Albrikt Aldi Alfarinn Alfarr Alfgautr Alfgeirr Alfgrímr Alfketill Alflakr Alfvaldr Alfvin Algautr Ali Alibrandr Almgautr Almárr Almóðr Alrik Alvér Amundi Anakol
+			Andríðr Andvéttr Ansurr Ansvarr Anund Anundi Anundr Anvindr Ari Arinbiörn Arinbjorn Arinbjörn Armod Arnaldr Arnbjörn Arnbrandr Arnfinnr Arngeirr Arngrim Arngrímr Arnhaldr Arnhvatr Arnketill Arnlaugr Arnljótr Arnmundr Arnmóðr
+			Arnthor Arnvid Arnviðr Arnþjófr Arnþórr Aron Arta Asbjorn Asbrand Asfridr Asfrith Asgrim Asketill Aslak Assar Asulf Asvald Asvard Atsurr Atti Aubi Audgisli Audolf Auki Aumundr Aun Austbjörn Austmathr Authgrim Authketill Auti
+			Auðfinnr Auðin Auðketill Auðmundr Auðr Auðríkr Auðunn Auðvaldr Auðvatr Auðvindr Auðviðr Auðólfr Aðalbert Aðalbrandr Aðalbrikt Aðalríkr Aðalsteinn Balki Balkr Balli Ballsi Ballungr Balsi Banki Barði Baugr Bausi Beggi Beigan
+			Beinir Beinviðr Bekan Belgr Bengeirr Beni Benteinn Bergsveinn Bergulfr Bergviðr Bernharðr Bersi Bessi Billi Birning Birningr Bjalfi Bjalla Bjarki Bjarngeir Bjarnharðr Bjarnhöfði Bjarni Bjarnlaugr Bjartmárr Bjorgulf Bjorn
+			Bjólan Bjórr Björgólfr Björn Björnkarl Blann Blasíus Bleiki Bleikr Blesa Bláfótr Blákári Blár Blási Blæingr Blígr Boddi Bodvar Bogi Boli Bolverk Borgar Borgfastr Botulf Boði Bramr Brand Brattr Brjánn Broddi Brodir Brondulf Brosa
+			Bruni Brunkell Brunketill Brunnólfr Brynjólfr Brynki Bryti Brísi Bríán Bróðir Bröndólfr Brúni Brúnketill Brúnmann Brúnmaðr Brúsi Brýningr Buldi Burr Buski Buskr Butraldi Bálki Bárðr Báulfr Bæglir Bóandi Bóla Bóli Bótbjörn Bótfúss
+			Bótgeir Bótræifr Bótulfr Bótviðr Bóvi Bölverkr Börkr Böðvarr Böðólfr Bøsi Bøsir Búi Búrir Bútr Býúlfr Cranebeinn Dag Dagfinnr Dalli Danr Davíð Diarfr Diúrgeirr Diúrvér Djúrgeirr Domnall Drafli Dragmáll Drengi Drengr Drjúgr Druian
+			Drómundr Dufan Dufgall Dufnall Dufniall Dungall Dungaðr Dyggvi Dávíð Dáði Dólgfinnr Dómari Dómi Dómárr Dúði Dýrbjörn Eid Eindriði Eirik Eiríkr Ekkill Eldjárn Elfráðr Emundi Erlendr Erpr Eskil Evangr Eyarr Eybjörn Eyfrøðr Eygeirr
+			Eyjarr Eyjólfr Eykell Eyleifr Eymundr Eystein Eyvi Eyvind Falgeirr Faraldr Fari Farmann Farulfr Farþegn Fastaðr Fasti Fastulf Fastulfr Fastþegn Faðir Feggi Feigr Feitr Finngeirr Finnvarðr Fjölmóðr Fleinn Flosi Flæmingr Flík
+			Folkmárr Forkundr Forkunnr Forkuðr Forni Forséall Fox Freistingr Freyviðr Freðulfr Friðgeirr Friðgestr Friði Friðleifr Frosti Frostulf Fríir Frírekr Fróði Fugl Fugli Fuldarr Fullugi Fyl Fálki Fæitr Félagi Félagr Fótr Föstólfr Fúll
+			Gaetir Gagarr Galmr Galti Gamal Gamalbarn Gamall Gandálfr Gangulfr Gansi Gapi Gapr Gardi Garðarr Garðulfr Gauk Gaut Gauti Gautr Gautulfr Gautviðr Gefialdr Geflaugr Gefulfr Gegnir Geilir Geiralfr Geirfastr Geirfinnr Geirhjálmr Geirhvatr
+			Geirleif Geirleifr Geirmund Geirmundi Geirmóðr Geirniútr Geirr Geirrekr Geirstein Geirthjof Geirvarr Geirúlfr Geitingr Geitirgest Gestr Ginnfastr Gisli Gjalfvér Gjallandi Gjöfull Glum Gluniarain Glámr Glóa Glóði Glúmr Glœðir Gnúpa
+			Gnýpli Godsveinn Goldsteinn Gorm Gormr Goti Goðgestr Goðormr Goðrekr Goðwini Goðólfr Grani Greifi Grentir Grettir Grim Grimvarðr Grimwald Grind Gris Grjotgard Grái Gríma Grímbjörn Grímkell Grímketill Grímmundr Grímólfr
+			Grípi Grípr Gríss Grómr Grúmr Gubbi Gudbrand Gudlaug Gudrod Gufi Gufubeinn Gulli Gunnar Gunnarr Gunnbjorn Gunnbjörn Gunnfarðr Gunnfriðr Gunnfrøðr Gunnfúss Gunnhautr Gunnhvati Gunnhvatr Gunnkell Gunnketill Gunnleif Gunnleifr Gunnmarr
+			Gunnræifr Gunnrøðr Gunnstein Gunnsteinn Gunnvarðr Gusi Guthorm Guthrum Gutir Gutti Guðbrandr Guðdiarfr Guðfastr Guðfinnr Guðini Guðir Guðlaugr Guðleifr Guðleikr Guðmárr Guðmóðr Guðniútr Guðormr Guðríkr Guðrøðr Guðvarðr Guðvér Guðþormr
+			Gvendr Gvöndr Gylfi Gylli Gyllir Gyrðr Gyðingr Gási Gæslingr Gípr Gísi Gísl Gøðingr Gýi Habi Hadd Haddi Hafgrim Hafljótr Hafr Hafrsteinn Hafþórr Hagni Hagnviðr Hagsteinn Haki Hakon Hallaðr Hallfred Hallgils Hallmund Hallmundr
+			Hallþórr Halti Hamund Handi Hanef Hani Harri Hattr Haukr Haurr Haursi Havard Hedin Hegbjörn Heggr Hegvaldr Hególfr Heilfúss Heinrekr Helgi Heming Hemmingr Herfinnr Herfiðr Herfriðr Hergeirr Hergils Herlaug Herleifr Hermund
+			Hermundr Hermóðr Herstein Hervarðr Hervi Heðingeirr Heðinn Hildibjörn Hildiger Hildiglum Hildiglúmr Hildigrímr Hildingr Hildir Hildólfr Hjalkar Hjallkárr Hjalti Hjarni Hjor Hjort Hjálmfastr Hjálmgunnarr Hjálmtýr Hjærne Hjörleifr
+			Hjörr Hjörtr Hlenni Hlöðver Hlöðvir Hnaki Hnefi Holfi Holmgeir Holti Hornboði Hoskuld Hosvir Hraerek Hrafn Hrafni Hrafnkell Hrafnketill Hragnelf Hranfast Hrani Hrapp Hraði Hreidar Hreitharr Hreppir Hrifli Hringr Hrodgeir
+			Hrolf Hromund Hrossbjorn Hrossbjörn Hrosskell Hrut Hríðir Hróaldi Hróaldr Hróarr Hrólfr Hrónarr Hróðbjörn Hróðfúss Hróðgísl Hróði Hróðmundr Hróðvaldr Hröngviðr Hrøðingr Hrœrekr Hugbjörn Hultríkr Hulviðr Hundigeirr Hundingr
+			Hunni Hvatgeirr Hvatr Hvíthöfði Hvítr Hwalp Hákr Hálfdan Hálfgeirr Hálfr Háls Hámundi Hámundr Hánefr Hæggi Hægwin Hængr Hólmdórr Hólmfastr Hólmi Hólmsteinn Höggvandill Höggvari Hörgi Höskuldr Húnbogi Húni Húnrøðr Húnulfr Húnviðr
+			Húnþjófr Húsbjörn Húskarl Hýsingr Hœkill Illfúss Illugi Ingemar Ingibjörn Ingimundr Ingjald Ioketill Iorthr Iri Isi Isleif Iuli Ivar Jafri Jakob Jarlabanki Jarmárr Jarpi Jarpr Jarpulfr Jon Jorund Járngrímr Járnskeggi Játgeirr
+			Játráðr Játvarðr Játvígr Jóarr Jófreiðr Jógeirr Jóhann Jóhannes Jólgeirr Jón Jóngeirr Jórkell Jósep Jöfurbjörn Jöfurr Jökull Jörundi Jörundr Kafli Kagr Kalf Kali Kalman Kambi Kampi Kani Kari Karl Karsi Kassi Kaun Kaupi Kaðall
+			Keli Ketilbjorn Ketilhöfði Ketilhöss Ketill Ketillaugr Ketilmundr Kilfir Kimbi Kjallakr Kjaran Klakki Klaufi Klemens Klement Klemetr Kleppjárn Klyppr Knaggr Knæikir Knörr Knútr Kobbi Kofri Koigrim Kol Kolbakr Kolbjörn Kolbrandr Kolfinnr
+			Kolfiðr Konráðr Konáll Kori Kormak Kormákr Kotkel Koðrán Kristrøðr Krusa Krúsa Kvikr KylfingR Kákr Káll Kár-Tóki Kári Kárungr Káti Kórekr Kúgaldi Kúsi Lambi Lambkárr Lefsi Leif Leifi Leifr Leikfrøðr Leiknarr Leikr Leiðólfr Lini Litli
+			Liðsvaldr Ljótólfr Ljúfr Lodin Lopt Loptr Loðhöttr Loðmundr Lundvarr Láki Líkbjörn Líkmundr Líknbjörn Líknmundr Líknreifr Líkreifr Líkviðr Lófi Lýtingr Maddaðr Magni Magnús Mak Manni Matheus Melbrigða Meldún Melmari Mikjáll Modolf Mord
+			Mundi Munán Máni Mögr Mýrkjartan Naddoddr Naddr Naerfi Nafni Nannr Narfi Nasi Nef-Björn Nefgeirr Nefi Nefr Nefsteinn Nereiðr Neriðr Nesbjörn Neskonungr Nikolás Niúsi Nokki Nollarr Norðmaðr Nænnir Nærfir Nökkvi Oddkell Oddleifr Oddmárr
+			Ofláti Ofæti Olaf Oleif Olvir Ondott Ongul Onund or Orgumleidi Orlyg Ormarr Ormi Ormika Ormulfr Ornólfr Orri Orrin Orrusti Ospak Otkel Otkell Ottó Ozur Petrus Rafn Rafnketill Ragnarr Ragnbjörn Ragnviðr Rampn Randr Randviðr Randvér
+			Rangi Rangr Raskulfr Raskviðr Rauðkárr Rauðr Rauðúlfr Refli Refr Reifr Reinn Reistr Reiðarr Rekkr Reyrketill Rinkr Rossketill Rugga Rysia Ryðingr Ráðbarðr Ráðormr Ráðvaldr Ráðúlfr Ríkarðr Ríkharðr Ríkhvatr Ríkviðr Róaldr Róki Rókr
+			Róðgeirr Róðmundr Róðulfr Rögnvaldr Rönguðr Rúni Rúnviðr Rœþrekr Saethorr Sandarr Santiri Sassurr Saxólfr Sebbi Sefi Selkollr Serk Serkr Siafi Sibba Sibbi Sigdan Sigegar Sigehere Sigelac Sigemaer Sigenoth Sigeraed Sigeric
+			Sigeweard Sigewine Sigewulf Sigfast Sigfastr Sigfrøðr Sigfus Sighjálmr Sigketill Sigmund Signiúti Signiútr Sigtrygg Sigtryggr Sigurd Sigvarðr Sigvatr Sigviðr Sigþorn Sigþorðr Sigþórr Simbi Simón Sinarr Siólfr Skakki Skakli Skalli
+			Skammháls Skapti Skarf Skarpheðinn Skefill Skegg Skeggi Skidi Skjaldbjörn Skjold Skjálf Skjálgr Skjöldr Skjöldólfr Skjöldúlfr Skopti Skorageirr Skorri Skotr Skrauti Skurfa Skálpr Skári Skáungr Skælingr Skæringr Skúli Skúmr Skúti
+			Skútr Slyðra Slóra Slúta Snae-Ulf Snari Snerrir Snorrir Snæbjörn Snækólfr Snærir Snæúlfr Snörtr Solmund Spaki Spakr Spjall Spjallboði Spjut Spraki Stafngrímr Starkad Starki Stefnir Steinarr Steinbitr Steinfiðr Steingísl Steinkell
+			Steinki Steinmóðr Steinrøðr Steinthor Steinólfr Steinþórir Storolf Sturla Stynbjörn Styr Styrbjörn Styrfastr Styrkar Styrlaugr Styrmir Styðingr Stáli Stílingr Stóði Stúrla Stýrimaðr Suit Sumarlidi Sumarliði Sunnhvatr Sunnviðr Svalfi
+			Svan Svart Svartabrandr Svartbrand Svartgeirr Svarti Svartlingr Svartungr Svein Sveina Sveinaldi Sveingeirr Sveinn Sveinungr Svellr Sverting Svertingr Svinulf Svipdagr Svávarr Syvurr Sæbjörn Sæfari Sægeirr Sægrímr Sæmlingr
+			Sæmundr Særæifr Særða Sævini Símon Símún Sínkr Sólvarr Sóni Sótr Sökkólfr Sölmundr Sörli Söxólfr Søgsi Sørkvir Søybjörn Søygeirr Taf Tassi Tati Teit Tofi Toki Tolkr Torfi Trandil Trani Trausti Trjónn Tryggr Tryggulfr Tryggvi Tubbi
+			Tumi Tveggi Tyrfingr Tyrkir Tár Tóki Tólir Túki Týki Ubbein Uggr Uglubathr Ulf Ulfied Ulfljot Uni Unnarr Unni Unnulf Uxi Uðr Vagn Vakr Valbjörn Valbrand Valdi Valgard Vali Valþjófr Vandill Vani Var Varr Vathlauss Vebrand Vermund
+			Vermundr Vestar Vestarr Vestgeir Vestgeirr 	Vestliði Vestmaðr Vestmundr Vetrliði Vidkunn Vifil Vigbjord Vigot Vikar Vili Viðbjörn Viðfastr Viði Vragi Vreiðr Vrái Váli Vámóðr Véfinnr Véfrøðr Véfúss Végarðr Végestr Végisl Véhjalmr Vékell
+			Véseti Véulfr Véurðr Véðrormr Vífi Vígbjörn Vígdiarfr Vígfastr Víglundr Vígmárr Vígniútr Vígr Vígsterkr Vígúlfr Vígþorn Víkarr Víli Vísburr Víðbjóðr Víðhugsi Víðkunnr Wealglist Wengo Yngvar Yngvarr Ysoppa Ábiörn Ádiarfr Áfastr
+			Áki Álfgeirr Álfrimr Álæifr Án Áni Ánn Ásbjörn Ásbrandr Ásfastr Ásgautr Ásgeirr Áskell Ásl Ásleifr Ásleikr Ásli Áslákr Ásmundr Ásmóðr Ásniútr Ásráðr Ásríðr Ásrøðr Ástráðr Ásvaldi Ásvarðr Ásúlfr Ávaldi Ávaldr Ávarr Áviðr Ígulfastr
+			Ígull Óflár Ófriðr Óleifr Óli Óláfr Ónarr Órœkia Ósníkinn Óspaki Ótamr Ótryggr Ótta Óttarr Óðalfríðr Óðinkárr Óþyrmir Ögmundr Ögvaldr Ölfun Ölmóðr Ölvaldr Ölvir Önduðr Öndóttr Önundr Örn Örnulfr Örnólfr Ösl Özurr Ørlygr Øylakr Úlfgeirr 
+			Úlfheðinn Úlfkell Úlfvarinn Þangbrandr Þialfarr Þiálfi Þiðrandi Þjodofl Þjóstarr Þjóstólfr Þjóðgeirr Þjóðmarr Þjóðrekr Þjóðólfr Þokodolf Þoraldr Þorarin Þorberg Þorbrand Þord Þorgaut Þorgest Þorhall Þorir Þorlak Þorleif Þorleik Þormod 
+			Þorodd Þorvald Þorvard Þorvid Þrand Þrottólfr Þröstr Þéttmárr Þóraldr Þórarinn Þórarr Þórbeinn Þórbergr Þórbjörn Þórfastr Þórfinnr Þórfiðr Þórfreðr Þórgautr Þórgnýr Þórgrímr Þórhaldr Þórhallr Þórhrólfr Þórir Þórkell Þórleikr Þórljótr 
+			Þórlákr Þórormr Þórvaldr Þórviðr Þórálfr Þórðr Þórólfr
+		}
+		female_names = {
+			Abi Aesa Agata Agnes Aldríf Alfdis Alfdís Alfrún Alhildr Alvé Alví Alvör Amma Arndís Arneiðr Arnfasta Arnkatla Arnlaug Arnora Arnþóra Asa Asgard Aslaug Asny Astrid
+			Aud Audhild Auðguðr Auðælfr Aþmiul Baugeið Bergdís Berghildr Bergljot Bergþóra Berkhildr Birla Birna Bjargey Bjollok
+			Gunnfríðr Björg Borga Borghildr Bothild Bryngerðr Bótheiðr Bóthæiðr Bótví Böðný Dagmær Dagný Dagrún Dalla Droplaug Drífa Dísa Dóra Dóta Dýrhildr Eirný Embla Emla Emma Ermingard Erna Estrid Eybjörg Eydís
+			Ástríðr Eyfríðr Eyfura Eyildr Eyja Eðla Eðný Fasta Fastgerðr Fastheiðr Fastríðr Faství Fiölmóð Fjölmóð Fjörleif Folkvé Freygerðr Friðgerðr Fríða Frøydís Geirhildr Geirunnr Gillaug Gjaflaug Gjaflöð Greilöð Groa 
+			Grélöð Gudda Gudfinna Gudfrid Gudrid Gudrun
+			Guðvé Gufa Gufi Gunna Gunngifu Gunnheiðr Gunnhild Gunnhildr Gunnhæiðr Gunnlaug Gunnlöð Gunnuðr Gunnvör Gunnælfr Guðfinna Guðfríðr Guðný Guðví Guðvör Gynna Gyðlaug Gyðríðr GæiRa Gísla Hafþóra Halla Hallbjörg Halldis 
+			Halldís Halldóra Hallfrid Hallgerðr Hallgrim Hallgríma Hallkatla Hallvör Hallþóra Hedinfrid Heimlaug Hekja Herborg Hergerðr Hergunnr Herríðr Hervor Herþrúðr Heðinfast Heðingunnr Hialmlaug Hilda Hildigunn Hildr Hjálmgerðr 
+			Hjálp Hjördís Hlaðgunnr Hlín Holma Holmdís Hrefna Hrímhildr Hróða Hróðgerða Hróðný Hróðvé Hulda Hæilví Hæimlaug Hælga Hólmgerðr Hólmlaug Húnhildr Ingeberg Ingibjörg Ingigerd Ingilaug Ingilborg Ingirid Ingirún Ingiveldr 
+			Ingriðr Ingríðr Ingveldr Ingvildr Úlfheiðr Ingvöldr Geirríðr Isgerd Isibel Jaddvor Jarðrúðr Jodis Jofrid
+			Engilborg Jorunn Jódís Jófast Jófríðr Jóhanna Jóka Jólinn Jórunnr Kata Kaðlín Ketiley Ketiloy Kitta Kjalvör Kolfinna Kolgríma Kolla Kolþerna Kormlöð Krafla Kristrún Langlíf Kristín Káta
+			Edda Leikný Ljot Ljufa Lofnheiðr Luta Lækný Líf Línhildr Mallymkun Malmury Mardöll Margrét Marþöll Matthildr Melkorka Moeid Mundgerðr Mungærðr Myrgjol Myrgjöl Máfa Máild Málfríðr Mæva Móeiðr Móða Mýrún
+			Iðunn Nereiðr Oddbjörg Oddlaug Oddleif Oddny Oddný Odindis Rafnhildr Ragnalfr Ragnheiðr Rakel Randalín Ranka Ríkvé Rúnfríðr
+			Nauma Salgerðr Sandey Sefa Sigga Signy Signý Sigrlaug Sigrún Sigrúðr Sigveig Sigvor Sissa Skjaldfríðr Snotra Solveig Solvor Stafnhildr Steinbjörg Steinfríðr Steinhildr Steinlaug Steinor Steinríðr Steinuðr Svala Svana Svanhildr 
+			Sveinheiðr Sásgerðr Sæunn Sæuðr Sævör Síða Sólveig Sölva Sölveig Tobba Tofa Tonna Totra Uðr Tíðfríðr Tófa Tóka Tóla Ulfheid Undrlaug Unna Valborg Valdís Valgerd Vefríðr Vilborg Vilgerðr Vætildr Véalfr Védís Végunnr Véný
+			Hallabera Véreiðr Vígdís Ynghildr Yngvildr Yngvöldr Ádís Ádísa Álfeiðr Álfhildr Álmveig Álöf Ása Ásbjörg Ásboð? Ásbóð? Ásbörg Ásgerða Ásgerðr Ásgunnr Ásheiðr Áslaug Ásný Ásta Ásvé Ásví Ásvör Ægileif Ærinndís Ærngærðr Ísgerðr 
+			Ísönd Ólaug Úlfeiðr Úlfhildr Úlfrún Úrsúla Ýri Ýrr Þjóðbjörg Þjóðgerðr Þjóðheiðr Þjóðvé Þora Þorbjorg Þordis Þorfrid Þorfrithr Þorgunna Þorlaug Þorunn Þorve Þorvor Þraslaug Þrúða Þrúðr Þura Þyrna Þórbjörg Þórdís Þórfinna 
+			Þórfríða Þórfríðr Þórgerðr Þórgríma Þórhalla Þórheiðr Þórhilda Þórhildr Þórlaug Þórleif Þórljót Þórlöf Þórodda Þórunn Þórveig Þórvia Þórvör Þúríðr
+		}
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "ssoan"
+		female_patronym = "sdoter"
+		prefix = no
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}    
+
+	graeling = {
+		graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.3 0.55 0.8 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Abbe Abel Abjörn Adúlfr Afi Agmundr Agnarr Agviðr Ailmær Albóðr Aldviðr Aldúlfr Aleifr Alf Alfgautr Alfkæll Alfr Alfríkr Alfvarðr Alfvin Algautr Algísl Alli Almgeirr Alrekr Alríkr Alvini Alvér Ambi An Andreas
+			Andsvarr Anki Anlaf Ansurr Ansvarr Anundi Anvindr Api Ari Arinbiörn Arn Arnbiörn Arnbjorn Arnbjörn Arndórr Arnfastr Arnfinn Arnfiðr Arngeir Arnhallr Arnkel Arnkell Arnketilbarn Arnketill Arnlaug Arnljot
+			Arnniútr Arnoddr Arnor Arnríðr Arnrøðr Arnsteinn Arnulfr Arnórr Asgaut Asgeir Askel Askr Asmund Assurr Atfari Atli Atsurr Audbjorn Audun Augnarr Auni Aunn Auríkr Austmaðr Authulf Auti Autir Auðbjörn Auðgeirr
+			Auðgrímr Auðgísl Auðhvatr Auði Auðmann Auðmaðr Auðsteinn Auðun Auðvini Auðúlfr Azurr Aðakán Aðalmækir Aðalmærki Aðalráðr Aðalvaldr Aðgils Aðísl Baggi Bak Baldi Balki Balli Bard Barki Barkr Barkviðr Barn Barni Basing Bassi Baug Beda
+			Bekki Beli Belli Beltr Benedikt Bensi Berg Bergfinn Bergfinnr Bergr Bergþórr Bersi Billingr Birgir Bisi Bjarnheðinn Bjarnvarðr Bjartmar Bjartr Bjaðachr Bjornulf Bjálfi Bjólfr Bjórstein Björnketill Björnulfr Björnólfr Björnúlfr
+			Björsi Blakki Blakkr Blanda Blesi Bleyði Blæingr Bodalf Boldi Bolli Boltr Borggeir Borggæirr Borgulfr Borgúlfr Bork Borstig Botni Bragi Brandr Brandulfr Breiði Breiðr Bresi Bretakollr Broddr Brotulfr Bruddr Brusi
+			Brynjulfr Bróklauss Bröndulfr Brúnkarl Brúnn Brúðr Buggi Bukki Bukkr Bursti Butni Buði Bárekr Bæilir Bíldr Bófi Bói Bólnautr Bóndi Bósi Bótfreðr Bótgæirr Bóthvatr Bóti Bótmundr Bótólfr Böggvir Börkr Böðmóðr Býrir Býúlfr Dagfinn Dagr
+			Dagstyrr Dagviðr Danpr Darri Djúri Djúrvér Dofnakr Dolgfinnr Drósbói Dufgúss Dufþakr Dugfúss Dunfjall Dunkr Dyri Dálkr Dómaldi Dóti Dörruðr Dúfa Dúsi Dýri Dýrvér Edmundr Efi Egil Egill Eileifr Eilif Eiláfr Eilífr Einar Einarr Eindridi
+			Eindriðr Eitri Eiðr Eldgrim Eldgrímr Elliðagrímr Emundr Endriði Eringísl Erlend Erli Erling Erlingr Ernmund Eydis Eygautr Eyguti Eyjolf Eykr Eylakr Eylaugr Eyniútr Eyríkr Eysteinn Eyvald Eyvendill Eyvindr Eyþjófr Eðvarðr Faddi Faksi
+			Farbjörn Fargrim Fargrímr Farmann Farthegn Fastarr Fastbjörn Fastgeir Fastmundr Fati Faði Feiti Fiak Filippus Finn Finnbjörn Finnbogi Finni Finnleik Finnr Finnviðr Finnólfr Firir Firthgest Fiðr Fjallgeirr Fjölvarr Flikkr Flóki Foli
+			Folkaðr Folkbjörn Folkgeir Folksteinn Folkviðr Forni Frakki Freybjörn Freygeirr Freyríkr Freysteinn Fridgeir Fridmund Friðbjörn Friðmundr Friðrekr Friðulfr Friðþjófr Frodi Frostulfr Fráni Frøkn Fullhugi Fullr Fundinn Fux Fóli Fólki
+			Fóthraðr Fúlnir Fúsi Gaddi Gagi Gagr Galinn Galli Galmann Galmi Galti Gamalkarl Gamalkarli Gamli Gardar Garðr Gaukr Gauss Gautarr Gautdiarfr Gauti Gautrekr Gautráðr Gavtvid Gedda Geir Geirbjörn Geirdiarfr Geirfinn Geiri Geirleikr
+			Geirmundr Geirmárr Geirni Geirolf Geirraðr Geirrøðr Geirsteinn Geirvarðr Geirviðr Geirólfr Geirþjófr Geitir Gellir Gerðarr Gialli Gibbon Gildi Gilli Gillingr Gils Gilsbrikt Gimp Gippi Giskingr Gizur Gizurr Giúlákr Gjaflaugr
+			Gjafvaldr Gjarðarr Glam Glippir Glæggi Glöggr Gnauðimaðr Gneisti Gnupi Gnæggir Gnúpr Goðin Granmárr Grannkall Grein Greipr Greiði Grenjaðr Grimar Grimkel Grimolf Grith Grjótgarðr Grubbi Grummi Grytingr Gráni Grásteinn
+			Grégóríús Grímarr Grími Grímr Grímsi Grúmi Gudleif Gudmund Gudrik Gulli Gullæifr Gummi Gunndiarfr Gunni Gunnlaug Gunnlaugr Gunnmundr Gunnulf Gunnvaldr Gunnvarr Gunnviðr Gunnólfr Gussi Guthhere Guthroth Guti Guttormr Guðbjörn
+			Guðfriðr Guðfrøðr Guði Guðini Guðki Guðmundr Guðriðr Guðrøðr Guðsteinn Guðvarr Guðúlfr Guðþorn Gylfir Gyrgir Gálmr Gælfr Gígr Gísli Gísmundr Gísstæinn Gýlaugr Habbi Haddr Haeng Haf Hafgrímr Haflidi Hafliði Hafþórir Hagbarðr Hagi
+			Hakikarl Haklangr Halfburinn Halfdan Hall Hallad Hallbjorn Hallbjörn Halldor Halldórr Hallfreðr Hallfrøðr Hallgeirr Hallgrim Hallgrímr Halli Hallkel Hallkell Hallormr Hallr Hallstein Hallsteinn Hallvard Hallvarðr Halmi Hamall
+			Hamarr Hamr Hand Harald Haraldr Hardbein Harek Harmsorgi Harvaldr Harðaknútr Harðbeinn Harðgeirr Harðgrípr Harði Harðnefr Harðr Harðsteinn Harðænni Hauk Haukreiði Hefnir Hegg Heggi Hegsteinn Hegviðr Heilgeirr Heimkell Heiðrekr Hekkr
+			Helf Helgulfr Hella Helmingr Hemingr Herbjörn Herburt Hergrímr Heriólfr Herjarr Herjolf Herjólfr Herkingr Herlaugr Herrøðr Hersir Hersteinn Heðinbjörn Heðinfastr Hildibrandr Hildir Hildulfr Hildungr Hildvígr Hjalli Hjalti
+			Hjarrandi Hjorleif Hjálmarr Hjálmgeirr Hjálmgrímr Hjálmr Hjálmviðr Hjálmólfr Hjörvarðr Hjörólfr Hlodvir Hlífsteinn Hlífundr Hneitr Hogni Holmgavt Holmstein Hord Hornbori Horni Horsefni Hrafn Hrafningr Hrafnkel Hrafnvartr Hrafsi Hrappr
+			Hrein Hreinn Hreiðarr Hreiðir Hreiðmárr Hreiðúlfr Hrifla Hriflingr Hringulfr Hroald Hroar Hrollaug Hrollaugr Hrolleifr Hrosskel Hróbjartr Hrói Hrókr Hrómundr Hróðaldr Hróðarr Hróðgautr Hróðgeirr Hróðhvatr Hróðlaugr
+			Hróðmárr Hróðsteinn Hróðulfr Hróðvísl Hróðísl Hróðólfr Hrømingr Hrútr Hugaldr Hugi Humli Hunbogi Hundi Hundifotr Hundigrímr Hundolfr Hundr Hundulfr Hundólfr Hvalr Hvati Hvelpr Hvíti Hvítkárr Hwal Hyrningr Hábeinn Hákon Háleygr Hálfr
+			Hár Hárekr Hári Hárukr Hásteinn Háulfr Hávarr Hávarðr Háðski Hæra Hæringr Hættingr Hólmbjörn Hólmdiarfr Hólmgautr Hólmgeirr Hólmkell Hólmketill Hólmlaugr Hólmr Hólmviðr Hónefr Höggvandi Högni Hörðr Hösvi Húnketill Húnn
+			Ingi Ingifast Ingifastr Ingigeirr Ingikárr Ingileifr Ingimann Ingimund Ingimárr Ingivaldr Ingjaldr Ingolf Ingólfr Iric Isgaut Isulf Ión Jargeirr Jarl Jarli Jobjorn Jokul Jomar Járni Játmundr Jóbjörn Jófreyr Jókell Jóni Jónsi Jór
+			Jórulfr Jósteinn Jöfursteinn Jösurr Jöðurr Júti Kabbi Kadal Kanpr Kappi Karli Kasi Kaupmann Ketil Ketilbjörn Ketilfastr Kiúli Kiúlákr Kjarfalr Kjartan Kjarvalr Kjotvi Kjötvi Klakkr Klefi Kleppir Kleppr Klintr Klippir
+			Klœngr Knakkr Knjúkr Knut Knöttr Kodran Kolbein Kolbeinn Kolgrímr Kolli Kollr Kolr Kolskegg Kolskeggr Kolsveinn Konal Korpr Korpúlfr Kotkell Kristófórus Krumr Krákr Krínán Krókr Kuggi Kváran Kvígbjörn Kvígr Kvígulfr Kylfa Kálfr Kárni
+			Kárr Kóri Körlungr Køgir Kúss Lafsi Lambi Laugi Lefwine Leggr Leidolf Leiknir Leó Libbi Lifolf Lingormr Liðr Liðsmaðr Ljot Ljufvini Ljótr Lodmund Lofríkr Lokki Lokkr Loðinn Lyting Láfi Létta Lífsteinn Líknhvatr Líknviðr Lýðbjörn Makan
+			Mallymkun Malmury Mangi Mar Margaðr Markús Marteinn Meginbjörn Meinolf Melbrigði Melkólfr Melkólmr Melpatrikr Melsnati Mikael Miki Mistivir Moldi Morði Mundgeirr Munólfr Myndill Myskia Mákr Már Móðólfr Mörðr Múli Mýr Nagli Nefbjörn
+			Nefjólfr Nefstein Nikulás Njal Njáll Nukki Nykr Náttfari Næmr Næstr Obbi Odd Oddbjörn Oddgeirr Oddi Oddleif Oddr Oddulfr Oddvarr Odinkar Ofeig Ofráðr Ogmund or Orest Orm Ormgeirr Ormr Orn Ornulf Osvif Oswald Otr Otrygg Ottar Oxi Patrekr
+			Philippus Páll Pétr Rafnketill Rafnsvartr Raggi Ragi Ragnfastr Ragnfrøðr Ragni Ragnvaldr Rambi Randi Rannvér Raumr Rauðbjörn Rauði Raði Refkell Reginmundr Reinaldr Reinn Reistr Reiðarr Reiðr Reiðubúinn Ringulfr Rossketill
+			Roðbert Roðbjartr Roðrekr Ráðþialfr Ríki Ríkr Ríkólfr Róarr Róbert Róghvatr Róki Rókr Róðmarr Róðmundr Rúnfastr Rúnki Rúnólfr Rœkia Saemund Salgarðr Salómon Sauðkólfr Saxi Sialfi Sigarr Sigbjorn Sigbjörn Sigbrand
+			Sigdiarfr Sigebeorht Sigeferth Sigeheah Sigehelm Sigemund Sigestael Sigfasti Sigfúss Siggeirr Siggi Sigguatr Sighadd Sighvat Sighvatr Sigmarr Sigmundr Sigrhaddr Sigræifr Sigríkr Sigrøðr Sigsteinn Sigurðr Sigvaldi Sigverkr
+			Sigólfr Silvester Sindri Singasven Sinir Sjólfr Skagi Skamkel Skamkell Skapti Skarfr Skarði Skati Sker Skofti Skopti Skorri Skuf Skuli Skuti Skygni Skáldi Skærðir Skíði Skógi Skógr Skólmr Skúfr Slagvi
+			Slagvér Slothi Slóði Smiðkell Smiðr Snaebjorn Snaekol Snjolfr Snorri Snækollr Snær Snór Sod Sokki Solvi Sorli Sparr Sperla Spjalli Spjót Spjóti Spörr Staki Stakkr Stari Starkaðr Starr Starri Stefán Stein Steinar Steinbjorn
+			Steinbjörn Steindórr Steinfastr Steinfinnr Steingrim Steingrímr Steini Steinkel Steinkell Steinketill Steinmod Steinn Steinolf Steinþórr Stigr Stillingr Stybbir Styfialdr Styggr Styrbjörn Styrkollr Styrkárr Styrlakr Styrmir
+			Styrr Stígandi Stóri Stórólfr Stóðbjörn Stóðkell Störkaðr Støðingr Stúfr Sunnólfr Surtr Svafar Svanr Svaraldr Svarthöfði Svartkollr Svartr Svarðkell Sveinaldr Sveinbjorn Sveinbjörn Sveinki Sverri Sverrir Sviðbalki Sváfa Svæinir Swein
+			Sylfa Syrkell Sámr Sædiarfr Sæfúss Sæleifr Sæulfr Sævarr Sólmundr Sóti Sölgi Sölsi Sölvi Söndúlfr Sössurr Sørkell Súlki Sútari Tafæistr Tanni Tannr Tarr Tasaldi Tatti Taðkr Teitr Tindr Tjorvi Tjörvi Torrad Torráðr Tortryggr Totti Trygg 
+			Tulkr Tumi Tunni Tyrfing Tyrvi Tárr Tíðkumi Tófi Tóli
+			Tómas Tósti Tóti Túni Ubbi Uffi Ufi Uggi Ulfbjorn Ulfgrim Ulfketil Unir Unnketill Unnvaldr Unnúlfr Unr Vafri Vakri Valbrandr Valdimárr Valdríkr Valgarðr Valgautr Valr Valthjof Vandil Vandraðr Varghöss Varinn Vaði Vebjorn Vegeir Veglágr
+			Veleif Vertlithi Vestein Vestmárr Vetr Veturlidi Veðr Veðraldi Vilhjálmr Vilmundr Vinaman Vrangi Vrangr Vreistr Váli Várfeitr Væni Væringr Vé-Finnr Vébjörn Vébrandr Védiarfr Véfastr Végautr Végeirr Végrímr Véketill Véleifr Vémundr
+			Véniútr Vésteinn Véörn Véþormr Véþorn Vífill Vígbjóðr Vígfúss Víghjalmr Víghvatr Vígi Vígleikr Vígmaðr Vígmundr Víkingr Víðarr Víðfari Vörfeitr Vöttr Ádám Ágautr Ágeirr Águti Ákimann Álarr Áleifr Álfljótr Álfr Álfráðr Álfvarinn Áli
+			Álmgeirr Ámundi Ámundr Ármóðr Árni Ásdiarfr Ásfarð Ásfrøðr Ásgrímr Ásgísl Ási Ásketill Ásmarr Ásti Ástráðr Ásvaldr Ásviðr Ásólfr Ávangr Ævarr Éldi Ígulbjörn Ísólfr Ívarr Óblauðr Ófeigr Óláfr Ómundi Ómunr Óneisi Ónn Ónæmr Órœkja
+			Óspakr Óstarki Ósvaldr Ósvífr Ósyrgr Ótryggi Óðalfreðr Óþveginn Ögmundr Ögurr Ölfun Ölvir Ölvér Öndurr Öngli Öngull Önn Önundr Össurr Özurr Øn Øringr Øylæifr Øyniútr Øyríkr Úbeinn Úlfarr Úlfhvatr
+			Úlfketill Úlfljótr Úlfnaðr Úlfr Úlfrekr Úlfvaldr Úlfviðr Útlagi Útryggr 
+			Þengill Þidrandi Þidrik Þiðrekr Þjostolf Þjóðarr Þollákr Þometill Þorbjorn Þorfast Þorfinn Þorfrethr Þorgeir Þorgils Þorgrim Þorkel Þorketil Þormothr Þorolf Þororm Þorred Þorstein Þosteinn Þrain Þrassi Þrost Þráinn Þrándr Þróndr 
+			Þóraldi Þórbeinir Þórbrandr Þórgeirr Þórgestr Þórgils Þórgísl Þórhaddr Þórhalli Þóriroddr Þórketill Þórlaugr Þórleifr Þórmundr Þórmóðr Þórniútr Þóroddr Þórrøðr Þórsteinn Þórvarðr Œpir
+		}
+		female_names = {
+			Aldis Aldís Alfeid Alfífa Alof Alþrúðr Arinngærðr Arnbjorg Arnbjörg Arnfríðr Arngerðr Arngunn Arngunnr Arngærðr Arnleif Arnvé Arnóra Arnþrúðr Asdis Asfrid Asleif Asta Asvor Audbjorg Auga
+			Auða Auðbjörg Auðfríðr Auðgerðr Auðhelga Auðhildr Auðr Aðísla Baugeiðr Begga Bera Bergljót Bergthora Bjartney Bjorg Bolla Borgunna Brynhildr Brígiða Busla Bót Bótfríðr Bóthilda Bóthildr Bótvé Böðvildr Dotta Drótt Dís Dísælfr Dómhildr Dótta Dóttir Dýrfinna Eilíf Eilína Ellisif Elína Esja Evja Eylaug Eyvör Eyþóra Eðna Faleerðr Fastný Fastvé Finna Fjötra Folka Folkví Frakokk Freydis Freydís Freygerd Freygunnr Freylaug Frida Frideburg Fridgerd Friðælfr Frosthildr
+			Gauthildr Geira Geirdís Geirlaug Geirlöð Geirný Geirvé Gerd Gerðr Gilla Ginna Ginnlaug Gorm Grelod Snjólaug Grima Grimhild Grélaða Sigþrúðr Gríma Grímhildr
+			Kadlin Gróa Gudbjorg Gulla Gullaug Gulley Gunnríðr Gunnvor Gunnþrúðr Guðbjörg Guðlaug Guðleif Guðmóð Guðríðr Guðrún Guðælfr Gyda Gylla Gyra Gyrd Gyrid Gyríðr Gyða Gíslaug Hallbera Hallberta Halldora Hallerna Hallfríðr Hallgerd Hallveig Hallótta Haurlaug Heilvé Heiðr Helga Helgunnr Herbjorg Herdis Herdís Herfríðr Herleif Hervör Heðindís Heðinvé Hild Hildegærdh Hildibjörg Hildigard Hildigerðr Hildigunnr Hildirid Hildiríðr Hiðindís Hjalmdís Hjalmlaug Hjölp Hjötra Hleið Hlif Hlíf Hlífey Hlífhildr Holmfrid Holmvé Hrafnhild Hrafnhildr Hrodny Hróðgærða Hróðlaug Hróðþjóð Huld Hungerd Hálma Hólmfríðr Húngerðr Inga Ingeborg Ingibjorg Ingifríðr Ingigerðr Ingigunnr Ingileif Ingimóð Ingiriðr Ingirun Ingiøy Ingiþóra Ingunn Inguðr Iöfurfríðr Jarþrúðr Joreid Jutta Járngerðr Jóra Jóreiðr Jórhildr Jöfurfast Jöfurfríðr Jöfurföst Katla Katrín Ketilalfr Ketilgerðr Ketillaug Ketilríðr Ketilvé Kolbrún Kolfrosta Kára Kætilælfr Lauga Lekný Ljót Ljótunn Ljúfa Ljúfvina Lofthæna Lopthæna Líknvé Lína Lúta Magnhildr Manga Marína Mattildr Mjaðveig Mjöll Molda Mundgerða Mundgærðr Mábil Málmfríðr
+			Nidbjorg Már Máría Mær Móbil Niðbjörg Oddfríðr Oddgerðr Oddkatla Olof Ormhild Ormhildr Osk Otkatla Ottkatla Oddbjorg Rafarta Raförta Ragna Ragnbjörg Ragneid Ragneiðr Ragnfríðr Ragnhild Ragnhilda Ragnhildr
+			Yngvild Ragnvé Ragnvör Ragnþrúðr Randvé Rannveig Reginleif Rjúpa Æringunnr Ráðhildr Ríkuláta Róta Rögnveig Rúna Saeunn Yrsa Salbjorg Salbjörg Saldís Salvör
+			Þjodhild Sesilída Sibba Sigbjörg Siggunnr Siglaug Sigrid Sigríðr Sigunnr Sigvör Bótey Skjaldvör Skálphæna Skírlaug Sniólaug Snælaug Spana Stafnhilda Steina Steinnvör
+			Geirbjörg Steinunn Steinvor Steinvör Stynfríðr Stæina Sunnifa Svanlaug Sveina Svínhildr Sylgja Systa Sæhildr Sólvör Sóma Sölvör Tola Torfa Tóra Una Unn Unnr Valgerðr Valka Vandrad Vethildr Vigdis Vébjörg Végerðr Vélaug Vérún Yri Áfríðr Ágerðr Ágærðr Álfdís Álfífa Álof Ámóða Ásdís Ásfríðr Ásgauta Áshildr Áskatla Ásleif Ásmoð Ásmóð Ásælfr Ærinngærðr Ærndís Æsa Æshæiðr Æsileif Ætta Ígulfríðr Óleif Ólæif Ólöf Ósk Ótama Óðin-Dísa Ölhildr Ölrún Öndótt Þjóðhildr Þorballa Þorelf Þorfinna Þorgerd Þorhild Þorkatla Þorljot Þrúðrún Þurid
+			Dageiðr Þuríðr Þyra Þyrnni Þóra Þórarna Þórelfr Þórey Þórgunnr Þórkatla Þórný Þórvé Þórví Þóríðr Þýri Þýrví
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+	skaeling = {
+		graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.15 0.4 0.55 }
+		
+		male_names = {
+			Abel Anders_Andrew Anund_Anund Asger Balder_Balder Benedikt_Benedict Bjørn_Beorn Bo Christian_Christian Christoffer_Christopher Edvard_Edward Einar_Einar Erik_Erik Ernst_Ernest Esben Fredrik_Frederick Frej_Frej Frode_Frode Glum Gnupa_Gnupa Gorm_Gorm Gotfred_Godfrey Gregers_Gregory Grim_Grim Gunnar_Gunnar
+			Hårik Halfdan Halvor Hans_Hans Harald_Harold Helge_Helge Hemming Henrik_Henry Hjalmar Holger Inge Ingolf Jørgen Jørn Jakob_Jacob Jens Joakim Johann_John Karl_Charles Knud_Knut
+			Kristian_Christian Leif Lennart Ludvig_Louis Malthe Mads_Matthew Mikkel_Michael Mogens Niels_Nicholas Odd_Odd Olav_Olaf Oluf_Olaf Peder_Peter Poul Pridbjørn Ragnar_Ragnar Ragnvald_Ragnvald Rolf_Rolf Rune Rørik_Rurik Severin Sigfred Sigtryg Sigurd_Sigurd 
+			Sivard Steen Svend_Sven Sämund_Sämund Thorolf_Thorolf Thorvald Torben Torbjørn_Torbjörn Tord_Tord Torfinn_Torfinn Torgils_Torkel Ture Ubbe Uffe Ulf_Ulf Valdemar_Vladimir Valentin_Valentin Vilfred Yngvar_Ingvar
+		}
+		female_names = {
+			Agnethe Anna_Anna Asta_Asta Benedikte_Benedicta Birgitta_Brigid Bodil Cecilie_Cecilia Christina_Christina Dagmar Dorothea_Dorothy Elisabeth_Elisabeth Ellinor_Eleanor Emilie_Emily Erika Ester Estrid_Astrid Frederikke_Frederique Freja_Freja
+			Grethe Gudrun_Gudrun Gunhild_Gunhild Gyda_Gytha Helena_Helen Ida_Ida Ingeborg_Ingeborg Ingegerd_Ingegerd Ingrid_Ingrid Johanne Jutta Karin_Catherine Karoline Katarina_Catherine Katrine_Catherine Kirsten Klara Lise_Elisabeth Luitgard Lykke
+			Magdalene_Magdalena Maren Margrethe_Margaret Maria_Maria Martha_Martha Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rikissa Runa Sanna Signe Sigrid_Sigrid Silje Sofie_Sophia Svanhild_Svanhild Thyra_Thyra Tora_Thora Thordis_Thordis Åse_Åsa
+		}		
+		
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sen"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+	}
+
+	sarl = {
+		 graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.25 0.4 0.55 }
+		male_names = {
+			Anund_Anund Alv_Alf Arne_Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder_Balder Bård Bjørn_Beorn Eigil_Egil Eilif Einar_Einar Eirik_Erik Erlend Erling Eystein_Eysteinn Finn Frej_Frej
+			Grim_Grim Gudbrand Gudleik Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Guttorm_Gorm Haldor Halfdan Halkjell Harald_Harold Helge_Helge Håkon_Hakon Håvard Inge Ivar_Ivar Jon_John Kåre Kolbein Lodin
+			Magnus_Magnus Odd_Odd Ogmund Olav_Olaf Orm_Orm Ossor Ottar_Ottar Pål_Paul Ragnar_Ragnar Ragnvald_Ragnvald Rolf_Rolf Sigurd_Sigurd Skjalg Skofte Skule_Skule Svein_Sven Sverre Sämund_Sämund Torbjørn_Torbjörn Tord_Tord Tore 
+			Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel
+			Tormod Torolf_Thorolf Torstein_Torsten Trond Tryggve Ulv_Ulf Vigleik Åle Åmund Ølver Øystein_Eysteinn 
+		}
+		female_names = {
+			Anna_Anna Astrid_Astrid Brigida_Brigid Cecilia_Cecilia Eldrid Freja_Freja Gjertrud_Gertrude Gudrid Gudrun_Gudrun Gunnhild_Gunhild Gyda_Gytha Gyrid Haldora Homlaug Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid Jorunn
+			Karin_Catherine Kristina_Christina Margrete_Margaret Maria_Maria Martha_Martha Ragna Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rannveig Sigrid_Sigrid Snøfrid Sunniva Svanhild_Svanhild Thora_Thora Thorborg Thordis_Thordis Åse_Åsa Åshild Åsta_Asta
+		}
+		
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "av "
+		
+		male_patronym = "sson"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+
+	varg = {
+		graphical_culture = norsegfx
+		second_graphical_culture = northmangfx
+		
+		color = { 0.15 0.45 0.25 }
+		male_names = {
+			Albrikt_Albert Alf_Alf Algot Anders_Andrew Anund_Anund Arnbjörn Arne_Arne Arnfast Asbjörn_Asbjörn Astrad Azur Bagge Balder_Balder Bengt_Benedict Bertil Birger Björn_Beorn Bo Borkvard Botulf Brage_Brage Bror 
+			Brynjolf Dag Dan Dyre Egil_Egil Einar_Einar Emund Erik_Erik Eskild Faste Fredrik_Frederick Filip_Philip Folke_Folke Frej_Frej Georg_George Greger_Gregory Grim_Grim Gudröd_Gudröd Gunnar_Gunnar Gustav Halsten Hans_Hans Harald_Harold
+			Helgi_Helge Henrik_Henry Hjalmar_Hjalmar Holmger Håkan_Hakon Inge Ingemar Ingvar_Ingvar Jedvard_Edward Johan_John Karl_Charles Kettil Kettilmund Klas Knut_Knut Kol Kolbjörn Lars_Laurence Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Odd_Odd Olaf_Olaf Orvar_Orvar Peder_Peter Ragnar_Ragnar Rolf_Rolf Rörek_Rurik Ragnvald_Ragnvald Sämund_Sämund Sörkver Sigbjörn Sigtrygg Sigurd_Sigurd Starkad_Starkad Sten_Sten Styrbjörn Sune_Sune Sven_Sven
+			Sverker Sölvi_Sölve Thomas_Thomas Tjudmund_Tjudmund Toke_Toke Tolir Torbjörn_Torbjörn Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torkel_Torkel Torolf_Thorolf Torsten_Torsten Toste Totil Tyke Ulf_Ulf Valdemar_Vladimir Åke Östen_Eysteinn
+		}
+		female_names = {
+			Aleta Alfhild Alfridh_Alfridh Anna_Anna Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Bothild_Bothild Cecilia_Cecilia Edla Elin Elisabet_Elisabeth Freja_Freja Gunhild_Gunhild Gyla Gurli Gytha_Gytha Hafrid 
+			Helena_Helen Holmfrid Iliana Inga_Inge Ingeborg_Ingeborg Ingegerd_Ingegerd Ingfrid Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kristina_Christina Linda Maer Malmfrid_Malmfrid
+			Margareta_Margaret Märta_Martha Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rikissa Saga Sara_Sarah Sigrid_Sigrid Sofia_Sophia Svanhild_Svanhild Thordis_Thordis Ulvhilde Ylva Åsa_Åsa
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+
+		
+	fjarmann = {
+		graphical_culture = northmangfx
+		second_graphical_culture = saxongfx
+		graphical_unit_culture = norse
+		
+		color = { 0.8 0.3 0.2 }
+		
+		male_names = {
+			Avin Bavo Bernhard Blekulf Blithulf Boio Eðelbern Eðelulf Egildag Eilbern Eilherd Elhard Engilbald Folkbern Frethirik_Frederick Frethold Geldulf Gerbald Gerbrand Helibad Hobern Hoitet Hroðward
+			Lubbiko Meginbraht Meginhard Menbold Menhard Menold Miginward Raeddeg Reinbern Reginhard Renward Salaco Sibraht Osnoð Thancward Thiadbold Thiaderd Thiedold Wening Wibad Wibraht Wigbald
+		}
+		female_names = {
+			Aafke Athgardis Ælidis Brundonis Gertruid Godeweris Hadewidis Hildeburgis Liudburgis Meynseth Siwa Suaneka Wendelmodis
+		}
+		from_dynasty_prefix = "fan "
+		
+		male_patronym = "ssoan"
+		female_patronym = "sdochter"
+		prefix = no
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}    
+}
+

@@ -1,0 +1,21 @@
+# c_couronne
+
+# County Title
+title = c_couronne
+
+# Settlements
+max_settlements = 7
+
+b_hauteville = castle
+b_couronne = city
+b_verena_capitularium = temple
+b_grand_chapel = temple
+b_castel_le_vicomte = castle
+#b_corlun = temple
+#b_pontmagnac = castle
+
+# Misc
+culture = nortagnese
+religion = grail
+terrain = farmlands
+#History

@@ -1,0 +1,18 @@
+# c_harenskarpel
+
+# County Title
+title = c_harenskarpel
+
+# Settlements
+max_settlements = 4
+
+b_fort_solace = castle
+b_harenskarpel = city
+b_kriel = castle
+#b_muiden = castle
+
+# Misc
+culture = westerlander
+religion = manannite
+
+#History

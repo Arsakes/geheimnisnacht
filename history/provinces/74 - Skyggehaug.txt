@@ -1,0 +1,18 @@
+# c_skyggehaug
+
+# County Title
+title = c_skyggehaug
+
+# Settlements
+max_settlements = 4
+
+b_skyggehaug = tribal
+#b_katimavik = city
+#b_varnus_triumph = temple
+#b_cunilivik = castle
+
+# Misc
+culture = sarl
+religion = tzeentch
+
+#History

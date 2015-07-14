@@ -1,0 +1,19 @@
+# c_pigbarter
+
+# County Title
+title = c_pigbarter
+
+# Settlements
+max_settlements = 5
+
+b_pigbarter = tribal
+#b_runtspike = city
+#b_ogrik = temple
+#b_harad = castle
+#b_eksfoldom = city
+
+# Misc
+culture = goblin_main
+religion = greenskin_gods
+
+#History

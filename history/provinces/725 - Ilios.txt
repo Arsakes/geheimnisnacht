@@ -1,0 +1,18 @@
+# c_ilios
+
+# County Title
+title = c_ilios
+
+# Settlements
+max_settlements = 4
+
+b_ilios = castle
+b_adamas = city
+b_trapeza = temple
+#b_elleipsis = castle
+
+# Misc
+culture = myken
+religion = myrmidian
+
+#History

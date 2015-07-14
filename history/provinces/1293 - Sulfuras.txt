@@ -1,0 +1,19 @@
+# c_sulfuras
+
+# County Title
+title = c_sulfuras
+
+# Settlements
+max_settlements = 5
+
+b_sulfuras_keep = castle
+b_ragnaron = city
+b_moltron = castle
+b_golmagg = temple
+#b_sharraz = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

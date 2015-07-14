@@ -1,0 +1,18 @@
+# c_koniecpole
+
+# County Title
+title = c_koniecpole
+
+# Settlements
+max_settlements = 4
+
+b_koniecpole = castle
+b_ostrody = temple
+#b_gorovny = temple
+#b_tezew = castle
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

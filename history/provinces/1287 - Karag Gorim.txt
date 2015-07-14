@@ -1,0 +1,17 @@
+# c_karag_gorim
+
+# County Title
+title = c_karag_gorim
+
+# Settlements
+max_settlements = 3
+
+b_karag_gorim = castle
+#b_khazid_gorim = city
+#b_ungrim_gor = temple
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

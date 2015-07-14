@@ -1,0 +1,47 @@
+#CHAOS WASTES
+technology = {
+	titles = {
+		d_zanbaijin
+		d_potchesh
+		d_altaya
+		d_kurlun
+		d_svarg
+		d_bulak
+		d_arali
+		d_mador
+		d_sayon
+		d_srubnya
+		d_tamt_bulak
+		d_zays
+		d_dzhagna
+		d_tungask
+		d_hahk
+		d_issik
+		d_maykar
+		d_sakatchi_alay
+		d_zaural
+		d_qagran
+		d_gaoche
+		d_uruma
+		d_xanbi
+		d_shaar
+		d_urian
+		d_yukagh
+		d_chakmyr
+		d_djeiten
+		d_ganibek
+		d_udomn
+		d_zavkhan
+		d_harzud
+	}
+	2000 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

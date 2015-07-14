@@ -1,0 +1,20 @@
+# c_gisoreux
+
+# County Title
+title = c_gisoreux
+
+# Settlements
+max_settlements = 6
+
+b_gisoreux = castle
+b_galencay = temple
+b_vaucou_les_chevaliers = castle
+b_ceurs = city
+b_melonge = temple
+#b_forquelone = temple
+
+# Misc
+culture = gisoren
+religion = grail
+
+#History

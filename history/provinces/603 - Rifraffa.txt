@@ -1,0 +1,18 @@
+# c_rifraffa
+
+# County Title
+title = c_rifraffa
+
+# Settlements
+max_settlements = 4
+
+b_rifraffa = castle
+b_copoa = city
+b_benedetto = temple
+#b_avidio = castle
+
+# Misc
+culture = reman
+religion = myrmidian
+
+#History

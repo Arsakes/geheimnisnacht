@@ -1,0 +1,20 @@
+# c_mordheim
+
+# County Title
+title = c_mordheim
+
+# Settlements
+max_settlements = 6
+
+b_sigmarsstein = castle
+b_odstir = temple
+b_totstir = castle
+#b_barrichmere = castle
+#b_golsen = city
+#b_tauer = temple
+
+# Misc
+culture = ostermarker
+religion = vampiric
+
+#History

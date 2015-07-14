@@ -1,0 +1,17 @@
+# c_steinvik
+
+# County Title
+title = c_steinvik
+
+# Settlements
+max_settlements = 3
+
+b_steinvik = tribal
+#b_hrakorn = city
+#b_ioravik = temple
+
+# Misc
+culture = graeling
+religion = norscan_gods
+
+#History

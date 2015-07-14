@@ -1,0 +1,18 @@
+# c_everkjole
+
+# County Title
+title = c_everkjole
+
+# Settlements
+max_settlements = 4
+
+b_kjolvevik = tribal
+#b_ulyl_pyjorovik = city
+#b_kaldrkastali = temple
+#b_vintrholm = castle
+
+# Misc
+culture = varg
+religion = norscan_gods
+
+#History

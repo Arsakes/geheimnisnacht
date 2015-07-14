@@ -1,0 +1,19 @@
+# c_mortensholm
+
+# County Title
+title = c_mortensholm
+
+# Settlements
+max_settlements = 5
+
+b_mortensholm = castle
+b_syldavia = city
+b_borduritsa = temple
+b_dacs = castle
+#b_gram = city
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+
+#History

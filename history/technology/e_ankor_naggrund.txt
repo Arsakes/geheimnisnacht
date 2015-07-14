@@ -1,0 +1,32 @@
+#ANKOR-NAGGRUND
+technology = {
+	titles = {
+		d_zharr_naggrund
+		d_drazhdrin
+		d_gazan_haraz
+		d_gazan_zharr
+		d_grimaz_orrud
+		d_azgorh
+		d_nagrazzor
+		d_chargrim
+		d_dawizag
+		d_howl
+		d_ruinmarch
+		d_karag_dum
+		d_cathay_kadrin
+		d_karag_zorn
+		d_unzkulak
+		d_ossia
+		d_zorn_uzkul
+	}
+	2000 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

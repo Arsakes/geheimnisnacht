@@ -1,0 +1,17 @@
+# c_halkild
+
+# County Title
+title = c_halkild
+
+# Settlements
+max_settlements = 3
+
+b_halkildfjord = tribal
+#b_thjazivik = city
+#b_ymirald = temple
+
+# Misc
+culture = skaeling
+religion = norscan_gods
+
+#History

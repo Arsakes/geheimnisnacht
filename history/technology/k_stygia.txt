@@ -1,0 +1,21 @@
+#STYGIA
+technology = {
+	titles = {
+		d_starnek
+		d_fatandira
+		d_hvagir
+		d_masse
+		d_sarngul
+		d_the_galat
+	}
+	2000 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

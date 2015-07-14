@@ -1,0 +1,19 @@
+# c_salkalten
+
+# County Title
+title = c_salkalten
+
+# Settlements
+max_settlements = 5
+
+b_verborgenbucht = castle
+b_salkalten = city
+b_doemitz = temple
+b_peine = castle
+#b_quickborn = city
+
+# Misc
+culture = ostlander
+religion = ulrican
+
+#History

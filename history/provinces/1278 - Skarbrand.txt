@@ -1,0 +1,16 @@
+# c_skarbrand
+
+# County Title
+title = c_skarbrand
+
+# Settlements
+max_settlements = 2
+
+b_skarbrand = castle
+b_skarwatch = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

@@ -1,0 +1,18 @@
+# c_jarluns
+
+# County Title
+title = c_jarluns
+
+# Settlements
+max_settlements = 4
+
+b_jarlunsvik = tribal
+#b_arlingheim = city
+#b_jorlsborg = temple
+#b_jarluns = castle
+
+# Misc
+culture = varg
+religion = norscan_gods
+
+#History

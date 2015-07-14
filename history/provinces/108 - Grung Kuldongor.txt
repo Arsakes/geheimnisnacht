@@ -1,0 +1,17 @@
+# c_grung_kuldongor
+
+# County Title
+title = c_grung_kuldongor
+
+# Settlements
+max_settlements = 3
+
+b_grung_kuldongor = castle
+b_khazid_jorzulum = city
+#b_kraka_arezid = temple
+
+# Misc
+culture = dwarf_norse
+religion = norse_ancestor_gods
+
+#History

@@ -1,0 +1,18 @@
+# c_uvetsyn
+
+# County Title
+title = c_uvetsyn
+
+# Settlements
+max_settlements = 4
+
+b_uvetsyn = castle
+b_rossosh = city
+#b_onega = temple
+#b_norilsk = castle
+
+# Misc
+culture = gospodar
+religion = ursun
+
+#History

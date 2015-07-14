@@ -1,0 +1,19 @@
+# c_karaz_hashuti
+
+# County Title
+title = c_karaz_hashuti
+
+# Settlements
+max_settlements = 5
+
+b_karaz_hashuti = castle
+b_kurgaz_hashuti = temple
+b_grodum = temple
+b_undgrim_dhark = city
+#b_khazid_brakk = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

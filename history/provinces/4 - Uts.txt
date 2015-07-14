@@ -1,0 +1,17 @@
+# c_uts
+
+# County Title
+title = c_uts
+
+# Settlements
+max_settlements = 3
+
+b_uts = tribal
+#b_itik = city
+#b_uyljik = temple
+
+# Misc
+culture = graeling
+religion = norscan_gods
+
+#History

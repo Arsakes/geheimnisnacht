@@ -1,0 +1,21 @@
+# c_bilbali
+
+# County Title
+title = c_bilbali
+
+# Settlements
+max_settlements = 7
+
+b_san_juan = city
+b_bilbali = castle
+b_sahagun = castle
+b_santiago = temple
+b_carodi = city
+b_morro = castle
+#b_mirazza = castle
+
+# Misc
+culture = tigarrese
+religion = myrmidian
+terrain = farmlands
+#History

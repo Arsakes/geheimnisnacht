@@ -1,0 +1,19 @@
+# c_gaz_orrud
+
+# County Title
+title = c_gaz_orrud
+
+# Settlements
+max_settlements = 5
+
+b_gaz_orrud_kazgrim = castle
+b_gaz_orrud_bar = city
+b_valdrin_ona = castle
+b_thragik = castle
+#b_izor_brakk = city
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

@@ -1,0 +1,17 @@
+# c_karak_zharr
+
+# County Title
+title = c_karak_zharr
+
+# Settlements
+max_settlements = 3
+
+b_karak_zharr = castle
+b_kazad_zharr = city
+#b_gouranth = temple
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

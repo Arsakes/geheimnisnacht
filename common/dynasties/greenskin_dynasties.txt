@@ -1,0 +1,1247 @@
+###ÄNSI
+
+
+
+90000 = { name = "Black Stripe" culture = orc_main }
+90001 = { name = "Basha" culture = orc_main }
+90002 = { name = "Black Shield" culture = orc_main }
+90003 = { name = "Homewrecka" culture = orc_main }
+90004 = { name = "Badeater" culture = orc_main }
+90005 = { name = "Git" culture = orc_main }
+90006 = { name = "Grimtooth" culture = orc_main }
+90007 = { name = "Deff Dredd" culture = orc_main }
+90008 = { name = "Rotfang" culture = orc_main }
+90009 = { name = "Bloody Hands" culture = orc_main }
+90010 = { name = "Rotbone" culture = orc_main }
+90011 = { name = "Grimshank" culture = orc_main }
+90012 = { name = "Bloody Git" culture = orc_main }
+90013 = { name = "Magik Luk" culture = orc_main }
+90014 = { name = "White 'n Black" culture = orc_main }
+90015 = { name = "Gitbasha" culture = orc_main }
+90016 = { name = "Ravager" culture = orc_main }
+90017 = { name = "Toof Boy" culture = orc_main }
+90018 = { name = "Def Bones" culture = orc_main }
+90019 = { name = "Steam Boy" culture = orc_main }
+90020 = { name = "Magik Boy" culture = orc_main }
+90021 = { name = "Sky Breaka" culture = orc_main }
+90022 = { name = "Bad Boy" culture = orc_main }
+90023 = { name = "Burnin' Bit" culture = orc_main }
+90024 = { name = "Ironskull" culture = orc_main }
+90025 = { name = "Bad Banga" culture = orc_main }
+90026 = { name = "Greenboy" culture = orc_main }
+90027 = { name = "Squiggoth" culture = orc_main }
+90028 = { name = "Brown Git" culture = orc_main }
+90029 = { name = "Racker" culture = orc_main }
+90030 = { name = "Freeboota" culture = orc_main }
+90031 = { name = "Squigeater" culture = orc_main }
+90032 = { name = "Bloodchop" culture = orc_main }
+90033 = { name = "Skulleata" culture = orc_main }
+90034 = { name = "Ironjaw" culture = orc_main }
+90035 = { name = "Deady" culture = orc_main }
+90036 = { name = "Green Shield" culture = orc_main }
+90037 = { name = "Rockeye" culture = orc_main }
+90038 = { name = "Thunder Axe" culture = orc_main }
+90039 = { name = "Purple 'n Blue" culture = orc_main }
+90040 = { name = "Squigbeard" culture = orc_main }
+90041 = { name = "Zog 'ead" culture = orc_main }
+90042 = { name = "Axegit" culture = orc_main }
+90043 = { name = "Flashy Boy" culture = orc_main }
+90044 = { name = "War Boy" culture = orc_main }
+90045 = { name = "Axe Choppa" culture = orc_main }
+90046 = { name = "Green Git" culture = orc_main }
+90047 = { name = "Bloodblitz" culture = orc_main }
+90048 = { name = "Silver Top" culture = orc_main }
+90049 = { name = "Black Band" culture = orc_main }
+90050 = { name = "Deadgut" culture = orc_main }
+90051 = { name = "Pillage 'n Burn" culture = orc_main }
+90052 = { name = "Arrer Throwa" culture = orc_main }
+90053 = { name = "Loota Git" culture = orc_main }
+90054 = { name = "Zapper" culture = orc_main }
+90055 = { name = "Shouta Boy" culture = orc_main }
+90056 = { name = "Patches" culture = orc_main }
+90057 = { name = "Zapped 'eads" culture = orc_main }
+90058 = { name = "Tuff Gutz" culture = orc_main }
+90059 = { name = "Ironaxe" culture = orc_main }
+90060 = { name = "Spinechewer" culture = orc_main }
+90061 = { name = "Zappa" culture = orc_main }
+90062 = { name = "Black 'n Green" culture = orc_main }
+90063 = { name = "Right Tuff" culture = orc_main }
+90064 = { name = "Green Band" culture = orc_main }
+90065 = { name = "Tuff Bone" culture = orc_main }
+90066 = { name = "Iron Krumper" culture = orc_main }
+90067 = { name = "Boneface" culture = orc_main }
+90068 = { name = "Spinebite" culture = orc_main }
+90069 = { name = "Yellow Teef" culture = orc_main }
+90070 = { name = "Boneboy" culture = orc_main }
+90071 = { name = "Ogremouth" culture = orc_main }
+90072 = { name = "Stumpa" culture = orc_main }
+90073 = { name = "Bitz 'n Git" culture = orc_main }
+90074 = { name = "Deadboy" culture = orc_main }
+90075 = { name = "Grotspit" culture = orc_main }
+90076 = { name = "Ogre Puncha" culture = orc_main }
+90077 = { name = "Grotspike" culture = orc_main }
+90078 = { name = "Bone Noses" culture = orc_main }
+90079 = { name = "Strongback" culture = orc_main }
+90080 = { name = "Crusher" culture = orc_main }
+90081 = { name = "Grotsmasha" culture = orc_main }
+90082 = { name = "Shortaxe" culture = orc_main }
+90083 = { name = "Spark Git" culture = orc_main }
+90084 = { name = "Big Nob" culture = orc_main }
+90085 = { name = "Krumper Boy" culture = orc_main }
+90086 = { name = "Strong Skull" culture = orc_main }
+90087 = { name = "Red Shield" culture = orc_main }
+90088 = { name = "Big Gutz" culture = orc_main }
+90089 = { name = "Gorkbite" culture = orc_main }
+90090 = { name = "Right Krumper" culture = orc_main }
+90091 = { name = "Gork Boy" culture = orc_main }
+90092 = { name = "Blackrok" culture = orc_main }
+90093 = { name = "Right Kanny" culture = orc_main }
+90094 = { name = "Open Maw" culture = orc_main }
+90095 = { name = "Big Boss" culture = orc_main }
+90096 = { name = "Boar Snappa" culture = orc_main }
+90097 = { name = "Right Choppas" culture = orc_main }
+90098 = { name = "Boar Grabba" culture = orc_main }
+90099 = { name = "Blackgrin" culture = orc_main }
+90100 = { name = "Hungry 'eads" culture = orc_main }
+90101 = { name = "Right Big" culture = orc_main }
+90102 = { name = "Fansy Axe" culture = orc_main }
+90103 = { name = "Morkfist" culture = orc_main }
+90104 = { name = "Scrap Bangas" culture = orc_main }
+90105 = { name = "Top Knot" culture = orc_main }
+90106 = { name = "Grog Snatcha" culture = orc_main }
+90107 = { name = "Morkbite" culture = orc_main }
+90108 = { name = "Ironskin" culture = orc_main }
+90109 = { name = "Angry 'n Mad" culture = orc_main }
+90110 = { name = "Grog Git" culture = orc_main }
+90111 = { name = "Top Cat" culture = orc_main }
+90112 = { name = "Ironhide" culture = orc_main }
+90113 = { name = "Beast Boy" culture = orc_main }
+90114 = { name = "Mooneater" culture = orc_main }
+90115 = { name = "Killa Boy" culture = orc_main }
+90116 = { name = "Angerbite" culture = orc_main }
+90117 = { name = "Beast Bagger" culture = orc_main }
+90118 = { name = "Corsair" culture = orc_main }
+90119 = { name = "Killa" culture = orc_main }
+90120 = { name = "Git 'n Stuff" culture = orc_main }
+90121 = { name = "Kil" culture = orc_main }
+90122 = { name = "White Fang" culture = orc_main }
+90123 = { name = "Rusty Daggaz" culture = orc_main }
+90124 = { name = "Git 'n Gutz" culture = orc_main }
+90125 = { name = "White Boy" culture = orc_main }
+90126 = { name = "Red Fang" culture = orc_main }
+90127 = { name = "Deffly Arrers" culture = orc_main }
+90128 = { name = "Slugga Boy" culture = orc_main }
+90129 = { name = "Huge Axe" culture = orc_main }
+90130 = { name = "Slugga 'ooligans" culture = orc_main }
+90131 = { name = "Hooligans" culture = orc_main }
+90132 = { name = "Red Bitz" culture = orc_main }
+90133 = { name = "White Banna" culture = orc_main }
+90134 = { name = "Slug 'n Chop" culture = orc_main }
+90135 = { name = "White Axe" culture = orc_main }
+90136 = { name = "White 'n Red" culture = orc_main }
+90137 = { name = "Toof Loot" culture = orc_main }
+90138 = { name = "Beard Biter" culture = orc_main }
+90139 = { name = "Bag Snatcha" culture = orc_main }
+90140 = { name = "Git 'n Boy" culture = orc_main }
+90141 = { name = "Gristlebite" culture = orc_main }
+90142 = { name = "Deff Git" culture = orc_main }
+90143 = { name = "Magpiez" culture = orc_main }
+90144 = { name = "Burnin' Stuff" culture = orc_main }
+90145 = { name = "Gitstompa" culture = orc_main }
+90146 = { name = "Red 'n Green" culture = orc_main }
+90147 = { name = "Gitgit" culture = orc_main }
+90148 = { name = "Red 'n Black" culture = orc_main }
+90149 = { name = "Bad Moon" culture = orc_main }
+90150 = { name = "Black Hill" culture = orc_main }
+90151 = { name = "Jam Toe" culture = orc_main }
+90152 = { name = "Deff Boy" culture = orc_main }
+90153 = { name = "Bloody" culture = orc_main }
+90154 = { name = "Deff 'eads" culture = orc_main }
+90155 = { name = "Magik Git" culture = orc_main }
+90156 = { name = "Black Goffs" culture = orc_main }
+90157 = { name = "Jam 'ead" culture = orc_main }
+90158 = { name = "Bloody Sun" culture = orc_main }
+90159 = { name = "Bloodsmash" culture = orc_main }
+90160 = { name = "Head Smacker" culture = orc_main }
+90161 = { name = "Bloody Hand" culture = orc_main }
+90162 = { name = "Skulltaka" culture = orc_main }
+90163 = { name = "Bloodjaw" culture = orc_main }
+90164 = { name = "Raida" culture = orc_main }
+90165 = { name = "Gak Boy" culture = orc_main }
+90166 = { name = "Black Crag" culture = orc_main }
+90167 = { name = "Dedd Arrers" culture = orc_main }
+90168 = { name = "Magik 'ands" culture = orc_main }
+90169 = { name = "Beard Burner" culture = orc_main }
+90170 = { name = "Bad 'eads" culture = orc_main }
+90171 = { name = "Head Mangler" culture = orc_main }
+90172 = { name = "Warfiters" culture = orc_main }
+90173 = { name = "Brown Bagger" culture = orc_main }
+90174 = { name = "Mad 'n Angry" culture = orc_main }
+90175 = { name = "Squigboy" culture = orc_main }
+90176 = { name = "Green Mound" culture = orc_main }
+90177 = { name = "Bloodbowl" culture = orc_main }
+90178 = { name = "Skull Stompa" culture = orc_main }
+90179 = { name = "Irongob" culture = orc_main }
+90180 = { name = "Black Bitz" culture = orc_main }
+90181 = { name = "Deadjaw" culture = orc_main }
+90182 = { name = "Rock Skull" culture = orc_main }
+90183 = { name = "Flashy" culture = orc_main }
+90184 = { name = "Ironeye" culture = orc_main }
+90185 = { name = "Rock Lobba" culture = orc_main }
+90186 = { name = "Tusker" culture = orc_main }
+90187 = { name = "Brite 'n Loominus" culture = orc_main }
+90188 = { name = "Lootas" culture = orc_main }
+90189 = { name = "Thievin' Git" culture = orc_main }
+90190 = { name = "Blood Smacker" culture = orc_main }
+90191 = { name = "Flash Git" culture = orc_main }
+90192 = { name = "Rock Axes" culture = orc_main }
+90193 = { name = "Arrer Shoota" culture = orc_main }
+90194 = { name = "Fitemaster" culture = orc_main }
+90195 = { name = "Black 'n Red" culture = orc_main }
+90196 = { name = "Loota 'ooligans" culture = orc_main }
+90197 = { name = "Boom Boy" culture = orc_main }
+90198 = { name = "Green Banna" culture = orc_main }
+90199 = { name = "Shortie Smacka" culture = orc_main }
+90200 = { name = "Boneskull" culture = orc_main }
+90201 = { name = "Painted Face" culture = orc_main }
+90202 = { name = "Teef Snacha" culture = orc_main }
+90203 = { name = "White Skull" culture = orc_main }
+90204 = { name = "Blood Banna" culture = orc_main }
+90205 = { name = "Hammer Basher" culture = orc_main }
+90206 = { name = "Shortgut" culture = orc_main }
+90207 = { name = "Firegit" culture = orc_main }
+90208 = { name = "Arrer Catcha" culture = orc_main }
+90209 = { name = "Loominus Boy" culture = orc_main }
+90210 = { name = "Yellow Stripe" culture = orc_main }
+90211 = { name = "Arrer Boy" culture = orc_main }
+90212 = { name = "Green 'n Blue" culture = orc_main }
+90213 = { name = "Long Teef" culture = orc_main }
+90214 = { name = "Troll Toof" culture = orc_main }
+90215 = { name = "Aristorcle" culture = orc_main }
+90216 = { name = "Green 'n Black" culture = orc_main }
+90217 = { name = "Yellow n' Black" culture = orc_main }
+90218 = { name = "Bitz 'n Bitz" culture = orc_main }
+90219 = { name = "Gorkfist" culture = orc_main }
+90220 = { name = "Troll Mangla" culture = orc_main }
+90221 = { name = "Right Lootas" culture = orc_main }
+90222 = { name = "Crusha" culture = orc_main }
+90223 = { name = "Angry Teef" culture = orc_main }
+90224 = { name = "Iron 'ead" culture = orc_main }
+90225 = { name = "Boiler" culture = orc_main }
+90226 = { name = "Feral Git" culture = orc_main }
+90227 = { name = "Strong Axe" culture = orc_main }
+90228 = { name = "Oddboy" culture = orc_main }
+90229 = { name = "Feral Boy" culture = orc_main }
+90230 = { name = "Mukkin' Git" culture = orc_main }
+90231 = { name = "Sneak Boy" culture = orc_main }
+90232 = { name = "Witty Git" culture = orc_main }
+90233 = { name = "Stripey Flag" culture = orc_main }
+90234 = { name = "Nosebreaker" culture = orc_main }
+90235 = { name = "Mukka" culture = orc_main }
+90236 = { name = "Grom" culture = orc_main }
+90237 = { name = "Necksnapper" culture = orc_main }
+90238 = { name = "Mukk Boy" culture = orc_main }
+90239 = { name = "Smashy" culture = orc_main }
+90240 = { name = "Blackfire" culture = orc_main }
+90241 = { name = "Krakka" culture = orc_main }
+90242 = { name = "Crazy Boy" culture = orc_main }
+90243 = { name = "Gobspit" culture = orc_main }
+90244 = { name = "Blackeye" culture = orc_main }
+90245 = { name = "Beastbite" culture = orc_main }
+90246 = { name = "Savage Git" culture = orc_main }
+90247 = { name = "Gobbo Gobbler" culture = orc_main }
+90248 = { name = "Blackboy" culture = orc_main }
+90249 = { name = "Red Shield" culture = orc_main }
+90250 = { name = "Stonetoof" culture = orc_main }
+90251 = { name = "Gob Stoppa" culture = orc_main }
+90252 = { name = "Savage Bite" culture = orc_main }
+90253 = { name = "Top 'atz" culture = orc_main }
+90254 = { name = "Red Mound" culture = orc_main }
+90255 = { name = "Blue Sky" culture = orc_main }
+90256 = { name = "Gob Smasha" culture = orc_main }
+90257 = { name = "Toofy" culture = orc_main }
+90258 = { name = "Anger Tooth" culture = orc_main }
+90259 = { name = "Evil Sun" culture = orc_main }
+90260 = { name = "Beard Eater" culture = orc_main }
+90261 = { name = "Evil Moon" culture = orc_main }
+90262 = { name = "Huge Boss" culture = orc_main }
+90263 = { name = "Megaboss" culture = orc_main }
+90264 = { name = "Toofkicka" culture = orc_main }
+90265 = { name = "Choppa 'ooligans" culture = orc_main }
+90266 = { name = "Runtsmasha" culture = orc_main }
+90267 = { name = "Gristlemouth" culture = orc_main }
+90268 = { name = "Runteata" culture = orc_main }
+90269 = { name = "Facebeater" culture = orc_main }
+90270 = { name = "Mashbrain" culture = orc_main }
+90271 = { name = "Toofcrack" culture = orc_main }
+90272 = { name = "Rotjaw" culture = orc_main }
+90273 = { name = "Toof Mountain" culture = orc_main }
+90274 = { name = "Stompskull" culture = orc_main }
+90275 = { name = "Blue Face" culture = orc_main }
+90276 = { name = "Choppa" culture = orc_main }
+90277 = { name = "Deff Mob" culture = orc_main }
+90278 = { name = "Blue Band" culture = orc_main }
+90279 = { name = "Git 'n Bitz" culture = orc_main }
+90280 = { name = "Chewa" culture = orc_main }
+90281 = { name = "Kanny Boy" culture = orc_main }
+90282 = { name = "Blue 'n Black" culture = orc_main }
+90283 = { name = "Magik Smacka" culture = orc_main }
+90284 = { name = "Black Hill" culture = orc_main }
+90285 = { name = "Stompfoot" culture = orc_main }
+90286 = { name = "Magik Puncha" culture = orc_main }
+90287 = { name = "Headbite" culture = orc_main }
+90288 = { name = "Sky Smasha" culture = orc_main }
+90289 = { name = "Toof Git" culture = orc_main }
+90290 = { name = "Bad Grog" culture = orc_main }
+90291 = { name = "Jam Brain" culture = orc_main }
+90292 = { name = "Stomp 'n Krump" culture = orc_main }
+90293 = { name = "Bloody Tusk" culture = orc_main }
+90294 = { name = "Bad Bringer" culture = orc_main }
+90295 = { name = "Head Zogger" culture = orc_main }
+90296 = { name = "Wave Rider" culture = orc_main }
+90297 = { name = "Grim Gob" culture = orc_main }
+90298 = { name = "Wave Reava" culture = orc_main }
+90299 = { name = "Rokka Boy" culture = orc_main }
+90300 = { name = "Thunder" culture = orc_main }
+90301 = { name = "Dedd Spike" culture = orc_main }
+90302 = { name = "Magik 'ead" culture = orc_main }
+90303 = { name = "Skullsmashed" culture = orc_main }
+90304 = { name = "Skullsmash" culture = orc_main }
+90305 = { name = "Warluva" culture = orc_main }
+90306 = { name = "Ironmouth" culture = orc_main }
+90307 = { name = "Deathbite" culture = orc_main }
+90308 = { name = "Green Sky" culture = orc_main }
+90309 = { name = "Rockfoot" culture = orc_main }
+90310 = { name = "Thunder Git" culture = orc_main }
+90311 = { name = "Black Burner" culture = orc_main }
+90312 = { name = "Purple 'n Green" culture = orc_main }
+90313 = { name = "Zogger" culture = orc_main }
+90314 = { name = "Backboota" culture = orc_main }
+90315 = { name = "Flashy Squig" culture = orc_main }
+90316 = { name = "War Git" culture = orc_main }
+90317 = { name = "Head Krakka" culture = orc_main }
+90318 = { name = "Brown 'n Black" culture = orc_main }
+90319 = { name = "Ironfoot" culture = orc_main }
+90320 = { name = "Thunder 'eads" culture = orc_main }
+90321 = { name = "Black Banna" culture = orc_main }
+90322 = { name = "Deadhard" culture = orc_main }
+90323 = { name = "Pointy Smacka" culture = orc_main }
+90324 = { name = "Axe Banger" culture = orc_main }
+90325 = { name = "Head Cleaver" culture = orc_main }
+90326 = { name = "Zed 'eads" culture = orc_main }
+90327 = { name = "Shouta Git" culture = orc_main }
+90328 = { name = "Ironclaw" culture = orc_main }
+90329 = { name = "Head Choppas" culture = orc_main }
+90330 = { name = "Tuff Sluggas" culture = orc_main }
+90331 = { name = "Ironboot" culture = orc_main }
+90332 = { name = "Deadfist" culture = orc_main }
+90333 = { name = "Thievin' Bloody Git" culture = orc_main }
+90334 = { name = "Spitspike" culture = orc_main }
+90335 = { name = "Blood Fang" culture = orc_main }
+90336 = { name = "Fitebringer" culture = orc_main }
+90337 = { name = "Ripper" culture = orc_main }
+90338 = { name = "Arrer Git" culture = orc_main }
+90339 = { name = "Blood Boy" culture = orc_main }
+90340 = { name = "Fite Boy" culture = orc_main }
+90341 = { name = "Loot 'n Slug" culture = orc_main }
+90342 = { name = "Black 'n Blue" culture = orc_main }
+90343 = { name = "Green Axe" culture = orc_main }
+90344 = { name = "Right Sluggas" culture = orc_main }
+90345 = { name = "Blood 'n Stuff" culture = orc_main }
+90346 = { name = "Iron Killa" culture = orc_main }
+90347 = { name = "Green 'n Red" culture = orc_main }
+90348 = { name = "Spine Eater" culture = orc_main }
+90349 = { name = "Bonebite" culture = orc_main }
+90350 = { name = "Sparky Boy" culture = orc_main }
+90351 = { name = "Snake Blood" culture = orc_main }
+90352 = { name = "Blood" culture = orc_main }
+90353 = { name = "Ogre Gutz" culture = orc_main }
+90354 = { name = "Sparkies" culture = orc_main }
+90355 = { name = "Fire 'n Stuff" culture = orc_main }
+90356 = { name = "Angry Yellow" culture = orc_main }
+90357 = { name = "Bone Eater" culture = orc_main }
+90358 = { name = "Ogre Eater" culture = orc_main }
+90359 = { name = "Fire 'n Git" culture = orc_main }
+90360 = { name = "Grotpuncha" culture = orc_main }
+90361 = { name = "Shoota" culture = orc_main }
+90362 = { name = "Yellow Banna" culture = orc_main }
+90363 = { name = "Crosstooth" culture = orc_main }
+90364 = { name = "Angry Red" culture = orc_main }
+90365 = { name = "Krump Boy" culture = orc_main }
+90366 = { name = "Wrecka" culture = orc_main }
+90367 = { name = "Big Choppa" culture = orc_main }
+90368 = { name = "Krump 'n Zog" culture = orc_main }
+90369 = { name = "Troll Basha" culture = orc_main }
+90370 = { name = "Angry Git" culture = orc_main }
+90371 = { name = "Gore" culture = orc_main }
+90372 = { name = "Krump" culture = orc_main }
+90373 = { name = "Witty Boy" culture = orc_main }
+90374 = { name = "Big Bog" culture = orc_main }
+90375 = { name = "Goldfang" culture = orc_main }
+90376 = { name = "Krakka Boy" culture = orc_main }
+90377 = { name = "White Wave" culture = orc_main }
+90378 = { name = "Boar Eata" culture = orc_main }
+90379 = { name = "Humie Smacka" culture = orc_main }
+90380 = { name = "Stripey Bitz" culture = orc_main }
+90381 = { name = "Fang Boy" culture = orc_main }
+90382 = { name = "Red Sky" culture = orc_main }
+90383 = { name = "Stripey Banna" culture = orc_main }
+90384 = { name = "White Stuff" culture = orc_main }
+90385 = { name = "Facesmash" culture = orc_main }
+90386 = { name = "Mork Boy" culture = orc_main }
+90387 = { name = "Smasha" culture = orc_main }
+90388 = { name = "Facekiller" culture = orc_main }
+90389 = { name = "Huge Nob" culture = orc_main }
+90390 = { name = "Stoner" culture = orc_main }
+90391 = { name = "Ironclaw" culture = orc_main }
+90392 = { name = "Face Smasher" culture = orc_main }
+90393 = { name = "Huge Choppa" culture = orc_main }
+90394 = { name = "Stonefoot" culture = orc_main }
+90395 = { name = "Headsplitter" culture = orc_main }
+90396 = { name = "Cloud Killa" culture = orc_main }
+90397 = { name = "Toofsmacka" culture = orc_main }
+90398 = { name = "Red Hill" culture = orc_main }
+90399 = { name = "Choppas" culture = orc_main }
+90400 = { name = "Keng" culture = orc_main }
+90401 = { name = "Stone Ganz" culture = orc_main }
+90402 = { name = "White Bone" culture = orc_main }
+90403 = { name = "Red Face" culture = orc_main }
+90404 = { name = "Foespike" culture = orc_main }
+90405 = { name = "Git 'n Git" culture = orc_main }
+90406 = { name = "Red Boy" culture = orc_main }
+90407 = { name = "White Bitz" culture = orc_main }
+90408 = { name = "Kanny Brain" culture = orc_main }
+90409 = { name = "Stone Axes" culture = orc_main }
+90410 = { name = "Red Band" culture = orc_main }
+90411 = { name = "Slasha" culture = orc_main }
+90412 = { name = "Stompin'" culture = orc_main }
+90413 = { name = "White 'n Blue" culture = orc_main }
+90414 = { name = "Blue Bitz" culture = orc_main }
+90415 = { name = "Chop 'n Slug" culture = orc_main }
+90416 = { name = "Black n' Yellow" culture = orc_main }
+90417 = { name = "Deff Killa" culture = orc_main }
+90418 = { name = "Blue 'n Green" culture = orc_main }
+90419 = { name = "Headsplitter" culture = orc_main }
+90420 = { name = "Black Moon" culture = orc_main }
+90421 = { name = "Gubbin Boy" culture = orc_main }
+90422 = { name = "Bad Newz" culture = orc_main }
+90423 = { name = "Jumpa" culture = orc_main }
+90424 = { name = "Deff Bringa" culture = orc_main }
+90425 = { name = "Rotblood" culture = orc_main }
+90426 = { name = "Burnin' Skull" culture = orc_main }
+90427 = { name = "Grimgut" culture = orc_main }
+90428 = { name = "Black Gutz" culture = orc_main }
+90429 = { name = "Headbash" culture = orc_main }
+90430 = { name = "Sky Killa" culture = orc_main }
+90431 = { name = "Weird Boy" culture = orc_main }
+90432 = { name = "Burnin' Boy" culture = orc_main }
+90433 = { name = "Grimfang" culture = orc_main }
+90434 = { name = "Rokka Git" culture = orc_main }
+90435 = { name = "Git Krumper" culture = orc_main }
+90436 = { name = "Black Git" culture = orc_main }
+90437 = { name = "Rakk" culture = orc_main }
+90438 = { name = "Black Fang" culture = orc_main }
+90439 = { name = "Burn 'n Pillage" culture = orc_main }
+90440 = { name = "Warzog" culture = orc_main }
+90441 = { name = "Ironskin" culture = orc_main }
+90442 = { name = "Bad Axes" culture = orc_main }
+90443 = { name = "Head Pile" culture = orc_main }
+90444 = { name = "Thunder Gut" culture = orc_main }
+90445 = { name = "Brown Boy" culture = orc_main }
+90446 = { name = "Purple Boy" culture = orc_main }
+90447 = { name = "Free Axe" culture = orc_main }
+90448 = { name = "Squigbrain" culture = orc_main }
+90449 = { name = "Bloodbrain" culture = orc_main }
+90450 = { name = "Skullboy" culture = orc_main }
+90451 = { name = "Ironhide" culture = orc_main }
+90452 = { name = "Black Blade" culture = orc_main }
+90453 = { name = "Deadskull" culture = orc_main }
+90454 = { name = "Rockbiter" culture = orc_main }
+90455 = { name = "Head Killa" culture = orc_main }
+90456 = { name = "Purple 'n Black" culture = orc_main }
+90457 = { name = "Squig Gut" culture = orc_main }
+90458 = { name = "Zog" culture = orc_main }
+90459 = { name = "Broken Tooth" culture = orc_main }
+90460 = { name = "Lost Boy" culture = orc_main }
+90461 = { name = "Thievin' Magpie" culture = orc_main }
+90462 = { name = "Green Boy" culture = orc_main }
+90463 = { name = "Bloodaxe" culture = orc_main }
+90464 = { name = "Rock Brain" culture = orc_main }
+90465 = { name = "Squig" culture = orc_main }
+90466 = { name = "Black 'n White" culture = orc_main }
+90467 = { name = "Deadgit" culture = orc_main }
+90468 = { name = "Pillaga" culture = orc_main }
+90469 = { name = "Brewer Boy" culture = orc_main }
+90470 = { name = "Hardboy" culture = orc_main }
+90471 = { name = "Shouta" culture = orc_main }
+90472 = { name = "Hammer Smasher" culture = orc_main }
+90473 = { name = "Terminata" culture = orc_main }
+90474 = { name = "Patch Boy" culture = orc_main }
+90475 = { name = "Tuff Boy" culture = orc_main }
+90476 = { name = "Iron Toe" culture = orc_main }
+90477 = { name = "Spinebreaker" culture = orc_main }
+90478 = { name = "Zap 'eads" culture = orc_main }
+90479 = { name = "Fishnag" culture = orc_main }
+90480 = { name = "Deaderz" culture = orc_main }
+90481 = { name = "Orcspit" culture = orc_main }
+90482 = { name = "Stunty Smacka" culture = orc_main }
+90483 = { name = "Deadbrain" culture = orc_main }
+90484 = { name = "Hammer 'eads" culture = orc_main }
+90485 = { name = "Shorteater" culture = orc_main }
+90486 = { name = "Tuff 'ead" culture = orc_main }
+90487 = { name = "Fireboy" culture = orc_main }
+90488 = { name = "Shortear" culture = orc_main }
+90489 = { name = "Strongbone" culture = orc_main }
+90490 = { name = "Deadaxe" culture = orc_main }
+90491 = { name = "Lightnin' 'n Thunder" culture = orc_main }
+90492 = { name = "Shortbite" culture = orc_main }
+90493 = { name = "Troll Skull" culture = orc_main }
+90494 = { name = "Krumper" culture = orc_main }
+90495 = { name = "Strongarm" culture = orc_main }
+90496 = { name = "Rotgut Shouta" culture = orc_main }
+90497 = { name = "Bone 'eads" culture = orc_main }
+90498 = { name = "Gorkchop" culture = orc_main }
+90499 = { name = "Blitz" culture = orc_main }
+90500 = { name = "Right Kwik Boy" culture = orc_main }
+90501 = { name = "Blackstone" culture = orc_main }
+90502 = { name = "Hungry Orc" culture = orc_main }
+90503 = { name = "Red Fang" culture = orc_main }
+90504 = { name = "Sneakgit" culture = orc_main }
+90505 = { name = "Body Bitz" culture = orc_main }
+90506 = { name = "Sea Dog" culture = orc_main }
+90507 = { name = "Hungry Fer Blood" culture = orc_main }
+90508 = { name = "Blackhead" culture = orc_main }
+90509 = { name = "Fansy Git" culture = orc_main }
+90510 = { name = "Hungry Boy" culture = orc_main }
+90511 = { name = "Smokey" culture = orc_main }
+90512 = { name = "Fansy Boy" culture = orc_main }
+90513 = { name = "Scrap Stealer" culture = orc_main }
+90514 = { name = "Tragik Boy" culture = orc_main }
+90515 = { name = "Angry Blue" culture = orc_main }
+90516 = { name = "Big 'ead" culture = orc_main }
+90517 = { name = "Grog Steala" culture = orc_main }
+90518 = { name = "Ironskull" culture = orc_main }
+90519 = { name = "Angry Black" culture = orc_main }
+90520 = { name = "Cragjaw" culture = orc_main }
+90521 = { name = "Killa Kan" culture = orc_main }
+90522 = { name = "Top Nob" culture = orc_main }
+90523 = { name = "Beast Eater" culture = orc_main }
+90524 = { name = "Cragbite" culture = orc_main }
+90525 = { name = "Killa Git" culture = orc_main }
+90526 = { name = "Angry 'ead" culture = orc_main }
+90527 = { name = "Blackboot" culture = orc_main }
+90528 = { name = "Red Mountain" culture = orc_main }
+90529 = { name = "Crag Toof" culture = orc_main }
+90530 = { name = "Black Water" culture = orc_main }
+90531 = { name = "Moonbite" culture = orc_main }
+90532 = { name = "Smart Boy" culture = orc_main }
+90533 = { name = "Huge Boy" culture = orc_main }
+90534 = { name = "Grodush" culture = orc_main }
+90535 = { name = "Blue Face" culture = orc_main }
+90536 = { name = "Stonebiter" culture = orc_main }
+90537 = { name = "Grobspit" culture = orc_main }
+90538 = { name = "Blue Boy" culture = orc_main }
+90539 = { name = "Slugga Git" culture = orc_main }
+90540 = { name = "Gristletooth" culture = orc_main }
+90541 = { name = "Mashjaw" culture = orc_main }
+90542 = { name = "Toofgrin" culture = orc_main }
+90543 = { name = "Mashfist" culture = orc_main }
+90544 = { name = "Toofgrabba" culture = orc_main }
+90545 = { name = "Hooligan Boy" culture = orc_main }
+90546 = { name = "Slug 'n Loot" culture = orc_main }
+90547 = { name = "Mangler" culture = orc_main }
+90548 = { name = "Toof Pile" culture = orc_main }
+90549 = { name = "Rotgut" culture = orc_main }
+90550 = { name = "Bone Nose" culture = orc_main }
+90551 = { name = "Black Sky" culture = orc_main }
+90552 = { name = "Blue Banna" culture = orc_main }
+90553 = { name = "Badruk" culture = orc_main }
+90554 = { name = "Chop 'n Loot" culture = orc_main }
+90555 = { name = "Gristle" culture = orc_main }
+90556 = { name = "Black Mound" culture = orc_main }
+90557 = { name = "Badbag" culture = orc_main }
+90558 = { name = "Headkicker" culture = orc_main }
+90559 = { name = "Burnin' Sky" culture = orc_main }
+90560 = { name = "Headboom" culture = orc_main }
+90561 = { name = "Skyfall" culture = orc_main }
+90562 = { name = "Gitboy" culture = orc_main }
+90563 = { name = "Reaver" culture = orc_main }
+90564 = { name = "Stompa" culture = orc_main }
+90565 = { name = "Burnin' Fire" culture = orc_main }
+90566 = { name = "Grimgor" culture = orc_main }
+90567 = { name = "Rot Toof" culture = orc_main }
+90568 = { name = "Bloodtooth" culture = orc_main }
+90569 = { name = "Git Runna" culture = orc_main }
+90570 = { name = "Rakka" culture = orc_main }
+90571 = { name = "Tinka" culture = orc_main }
+90572 = { name = "Def 'eads" culture = orc_main }
+90573 = { name = "Squighorn" culture = orc_main }
+90574 = { name = "Magik Axe" culture = orc_main }
+90575 = { name = "Head Pile" culture = orc_main }
+90576 = { name = "Rokka" culture = orc_main }
+90577 = { name = "Thunder Mountain" culture = orc_main }
+90578 = { name = "Blacknose" culture = orc_main }
+90579 = { name = "Bloodhorn" culture = orc_main }
+90580 = { name = "Green Stripe" culture = orc_main }
+90581 = { name = "Rocktooth" culture = orc_main }
+90582 = { name = "Black Coat" culture = orc_main }
+90583 = { name = "Mad Git" culture = orc_main }
+90584 = { name = "Ard'ed" culture = orc_main }
+90585 = { name = "Backbreaker" culture = orc_main }
+90586 = { name = "Head Krumper" culture = orc_main }
+90587 = { name = "Footsmash" culture = orc_main }
+90588 = { name = "Warbringa" culture = orc_main }
+90589 = { name = "Brown 'n Green" culture = orc_main }
+90590 = { name = "Mad 'eads" culture = orc_main }
+90591 = { name = "Thunder 'n Lightnin'" culture = orc_main }
+90592 = { name = "Green Hill" culture = orc_main }
+90593 = { name = "Bloodboot" culture = orc_main }
+90594 = { name = "Lucky Boy" culture = orc_main }
+90595 = { name = "Skreezulz" culture = orc_main }
+90596 = { name = "Head Cutter" culture = orc_main }
+90597 = { name = "Squig 'ead" culture = orc_main }
+90598 = { name = "Zedax" culture = orc_main }
+90599 = { name = "Flash Mob" culture = orc_main }
+90600 = { name = "Ironear" culture = orc_main }
+90601 = { name = "Tusked Sun" culture = orc_main }
+90602 = { name = "Brewer" culture = orc_main }
+90603 = { name = "Green Bitz" culture = orc_main }
+90604 = { name = "Thievin' Boy" culture = orc_main }
+90605 = { name = "Spoila" culture = orc_main }
+90606 = { name = "Green Basher" culture = orc_main }
+90607 = { name = "Blood Hand" culture = orc_main }
+90608 = { name = "Rock 'ead" culture = orc_main }
+90609 = { name = "Arrer Lobba" culture = orc_main }
+90610 = { name = "Black 'n Purple" culture = orc_main }
+90611 = { name = "Deadfang" culture = orc_main }
+90612 = { name = "Loot Bitz" culture = orc_main }
+90613 = { name = "Deadeye" culture = orc_main }
+90614 = { name = "Hammer Boy" culture = orc_main }
+90615 = { name = "Shorthead" culture = orc_main }
+90616 = { name = "Arrer Dedder" culture = orc_main }
+90617 = { name = "Loot 'n Chop" culture = orc_main }
+90618 = { name = "Tuff Axe" culture = orc_main }
+90619 = { name = "Zahubu" culture = orc_main }
+90620 = { name = "Bitz 'n Stuff" culture = orc_main }
+90621 = { name = "Right Savage" culture = orc_main }
+90622 = { name = "Splintered Bone" culture = orc_main }
+90623 = { name = "Blood 'n Gutz" culture = orc_main }
+90624 = { name = "Yellow n' Red" culture = orc_main }
+90625 = { name = "Iron Ear" culture = orc_main }
+90626 = { name = "Right Orc" culture = orc_main }
+90627 = { name = "Bitz 'n Boy" culture = orc_main }
+90628 = { name = "Iron Choppa" culture = orc_main }
+90629 = { name = "Right Mangler" culture = orc_main }
+90630 = { name = "Skullcrack" culture = orc_main }
+90631 = { name = "Blitzer" culture = orc_main }
+90632 = { name = "Iron 'elm" culture = orc_main }
+90633 = { name = "Yellow Fang" culture = orc_main }
+90634 = { name = "Ogre Beata" culture = orc_main }
+90635 = { name = "Fire 'n Boy" culture = orc_main }
+90636 = { name = "Troll Gut" culture = orc_main }
+90637 = { name = "Sneaky Boy" culture = orc_main }
+90638 = { name = "Grotpike" culture = orc_main }
+90639 = { name = "Shipwrecka" culture = orc_main }
+90640 = { name = "Troll Eata" culture = orc_main }
+90641 = { name = "Crossbrain" culture = orc_main }
+90642 = { name = "Angry Purple" culture = orc_main }
+90643 = { name = "Groteata" culture = orc_main }
+90644 = { name = "Stripey Git" culture = orc_main }
+90645 = { name = "Crooked Fang" culture = orc_main }
+90646 = { name = "Scrappa" culture = orc_main }
+90647 = { name = "Grotbasha" culture = orc_main }
+90648 = { name = "Tragik Git" culture = orc_main }
+90649 = { name = "Angry Boy" culture = orc_main }
+90650 = { name = "Crooked Eye" culture = orc_main }
+90651 = { name = "Stripey Boy" culture = orc_main }
+90652 = { name = "Goffs" culture = orc_main }
+90653 = { name = "Red Stripe" culture = orc_main }
+90654 = { name = "Smashfist" culture = orc_main }
+90655 = { name = "White Teef" culture = orc_main }
+90656 = { name = "Boar Bagga" culture = orc_main }
+90657 = { name = "Humie Eata" culture = orc_main }
+90658 = { name = "Smasher" culture = orc_main }
+90659 = { name = "Blue Water Raida" culture = orc_main }
+90660 = { name = "Hugruck" culture = orc_main }
+90661 = { name = "White Skull" culture = orc_main }
+90662 = { name = "Savage Boy" culture = orc_main }
+90663 = { name = "Blue Stripe" culture = orc_main }
+90664 = { name = "Grog Boy" culture = orc_main }
+90665 = { name = "Smart Git" culture = orc_main }
+90666 = { name = "White Mountain" culture = orc_main }
+90667 = { name = "Grog Banga" culture = orc_main }
+90668 = { name = "White Git" culture = orc_main }
+90669 = { name = "Savage 'uns" culture = orc_main }
+90670 = { name = "Black Tooth" culture = orc_main }
+90671 = { name = "Meganob" culture = orc_main }
+90672 = { name = "Sluggas" culture = orc_main }
+90673 = { name = "Grimfang" culture = orc_main }
+90674 = { name = "Black Toof" culture = orc_main }
+90675 = { name = "Rust" culture = orc_main }
+90676 = { name = "Great Slaughter" culture = orc_main }
+90677 = { name = "Git 'n Gob" culture = orc_main }
+90678 = { name = "Kanny Wit" culture = orc_main }
+90679 = { name = "Stone Eye" culture = orc_main }
+90680 = { name = "Kanny Smart" culture = orc_main }
+90681 = { name = "Stone Brain" culture = orc_main }
+90682 = { name = "Runt Smacka" culture = orc_main }
+90683 = { name = "'Eadsplitta" culture = orc_main }
+90684 = { name = "Stone 'ead" culture = orc_main }
+90685 = { name = "Crazy-Bear" culture = orc_main }
+90686 = { name = "Broken Tooth" culture = orc_main }
+90687 = { name = "White 'n Green" culture = orc_main }
+90688 = { name = "Deffsong" culture = orc_main }
+90689 = { name = "Coldsquig" culture = orc_main }
+90690 = { name = "Oddmoon" culture = orc_main }
+90691 = { name = "Burnin' Choppa" culture = orc_main }
+90692 = {  name = "Squig Fang"  culture = orc_main }
+90693 = {  name = "Smash Hand"  culture = orc_main }
+
+91000 = {  name = "Neck Snappa"  culture = goblin_main }
+91001 = {  name = "Quickrun"  culture = goblin_main }
+91002 = {  name = "Segotok"  culture = goblin_main }
+91003 = {  name = "Sludgeblade"  culture = goblin_main }
+91004 = {  name = "Festerhole"  culture = goblin_main }
+91005 = {  name = "Gloom Mountain"  culture = goblin_main }
+91006 = {  name = "Aggry"  culture = goblin_main }
+91007 = {  name = "Runt"  culture = goblin_main }
+91008 = {  name = "Dragclub"  culture = goblin_main }
+91009 = {  name = "Squigtooth"  culture = goblin_main }
+91010 = {  name = "Grey Shadows"  culture = goblin_main }
+91011 = {  name = "Green Face"  culture = goblin_main }
+91012 = {  name = "Slimeclub"  culture = goblin_main }
+91013 = {  name = "Face Cut"  culture = goblin_main }
+91014 = {  name = "Gold Snatcher"  culture = goblin_main }
+91015 = {  name = "Thunder Gobs"  culture = goblin_main }
+91016 = {  name = "Dinky"  culture = goblin_main }
+91017 = {  name = "Zurn"  culture = goblin_main }
+91018 = {  name = "Grin Fang"  culture = goblin_main }
+91019 = {  name = "Sickslime"  culture = goblin_main }
+91020 = {  name = "Copper Grin"  culture = goblin_main }
+91021 = {  name = "Gold Grabba"  culture = goblin_main }
+91022 = {  name = "Anx"  culture = goblin_main }
+91023 = {  name = "Rotten 'ead"  culture = goblin_main }
+91024 = {  name = "Deep Water"  culture = goblin_main }
+91025 = {  name = "Zotenax"  culture = goblin_main }
+91026 = {  name = "Wag"  culture = goblin_main }
+91027 = {  name = "Yellowstreak"  culture = goblin_main }
+91028 = {  name = "Runtkicker"  culture = goblin_main }
+91029 = {  name = "Gianthunter"  culture = goblin_main }
+91030 = {  name = "Burning Face"  culture = goblin_main }
+91031 = {  name = "Green Gob"  culture = goblin_main }
+91032 = {  name = "Sharpmouth"  culture = goblin_main }
+91033 = {  name = "Rootgrubba "  culture = goblin_main }
+91034 = {  name = "Flim"  culture = goblin_main }
+91035 = {  name = "Kezit"  culture = goblin_main }
+91036 = {  name = "Pimple"  culture = goblin_main }
+91037 = {  name = "Thunder Squig"  culture = goblin_main }
+91038 = {  name = "Goldfang"  culture = goblin_main }
+91039 = {  name = "Gashead"  culture = goblin_main }
+91040 = {  name = "Stitched Limb"  culture = goblin_main }
+91041 = {  name = "Head Spike"  culture = goblin_main }
+91042 = {  name = "Gnarb"  culture = goblin_main }
+91043 = {  name = "Greeny"  culture = goblin_main }
+91044 = {  name = "Woog"  culture = goblin_main }
+91045 = {  name = "Bugger"  culture = goblin_main }
+91046 = {  name = "Slimetooth"  culture = goblin_main }
+91047 = {  name = "Night Grabba"  culture = goblin_main }
+91048 = {  name = "Sneakclaw"  culture = goblin_main }
+91049 = {  name = "Slime Mouth"  culture = goblin_main }
+91050 = {  name = "Aggro"  culture = goblin_main }
+91051 = {  name = "Brainstench"  culture = goblin_main }
+91052 = {  name = "Stonecurse"  culture = goblin_main }
+91053 = {  name = "Horse Eater"  culture = goblin_main }
+91054 = {  name = "Tombclaw"  culture = goblin_main }
+91055 = {  name = "Bigsnapper"  culture = goblin_main }
+91056 = {  name = "Rotten Meat"  culture = goblin_main }
+91057 = {  name = "Darkmad"  culture = goblin_main }
+91058 = {  name = "Dreadslime"  culture = goblin_main }
+91059 = {  name = "Nem"  culture = goblin_main }
+91060 = {  name = "Snark"  culture = goblin_main }
+91061 = {  name = "Knubs"  culture = goblin_main }
+91062 = {  name = "Muckthroat"  culture = goblin_main }
+91063 = {  name = "Gasgut"  culture = goblin_main }
+91064 = {  name = "Stitched Skull"  culture = goblin_main }
+91065 = {  name = "Romuzab"  culture = goblin_main }
+91066 = {  name = "Squigbrain"  culture = goblin_main }
+91067 = {  name = "Black"  culture = goblin_main }
+91068 = {  name = "Badclaw"  culture = goblin_main }
+91069 = {  name = "Rasug"  culture = goblin_main }
+91070 = {  name = "Bans"  culture = goblin_main }
+91071 = {  name = "Slime Snicker"  culture = goblin_main }
+91072 = {  name = "Dread"  culture = goblin_main }
+91073 = {  name = "Scabby Face"  culture = goblin_main }
+91074 = {  name = "Deadly Grin"  culture = goblin_main }
+91075 = {  name = "Wiggle"  culture = goblin_main }
+91076 = {  name = "Mogant"  culture = goblin_main }
+91077 = {  name = "Murderkiller"  culture = goblin_main }
+91078 = {  name = "Sodding"  culture = goblin_main }
+91079 = {  name = "Orcbig"  culture = goblin_main }
+91080 = {  name = "Pointy Stick"  culture = goblin_main }
+91081 = {  name = "Gobbo Grin"  culture = goblin_main }
+91082 = {  name = "Tombraider"  culture = goblin_main }
+91083 = {  name = "Grave"  culture = goblin_main }
+91084 = {  name = "Shadow"  culture = goblin_main }
+91085 = {  name = "Krab"  culture = goblin_main }
+91086 = {  name = "Goldtooth"  culture = goblin_main }
+91087 = {  name = "Wotsdis"  culture = goblin_main }
+91088 = {  name = "Zigzag"  culture = goblin_main }
+91089 = {  name = "Serpentblade"  culture = goblin_main }
+91090 = {  name = "Night Hunter"  culture = goblin_main }
+91091 = {  name = "Slime Boy"  culture = goblin_main }
+91092 = {  name = "Nexukg"  culture = goblin_main }
+91093 = {  name = "Moon Howler"  culture = goblin_main }
+91094 = {  name = "Snitcher Git"  culture = goblin_main }
+91095 = {  name = "Gesurz"  culture = goblin_main }
+91096 = {  name = "Squiggro"  culture = goblin_main }
+91097 = {  name = "Graverobber"  culture = goblin_main }
+91098 = {  name = "Gobgit"  culture = goblin_main }
+91099 = {  name = "Gloom Biter"  culture = goblin_main }
+91100 = {  name = "Burning Sky"  culture = goblin_main }
+91101 = {  name = "Cutcurse"  culture = goblin_main }
+91102 = {  name = "Stunties"  culture = goblin_main }
+91103 = {  name = "Krog"  culture = goblin_main }
+91104 = {  name = "Stink Tomb"  culture = goblin_main }
+91105 = {  name = "Rexik"  culture = goblin_main }
+91106 = {  name = "Grave"  culture = goblin_main }
+91107 = {  name = "Darkmaw"  culture = goblin_main }
+91108 = {  name = "Grey Ghosts"  culture = goblin_main }
+91109 = {  name = "Scratchy"  culture = goblin_main }
+91110 = {  name = "Deadly Shadow"  culture = goblin_main }
+91111 = {  name = "Snack"  culture = goblin_main }
+91112 = {  name = "Gloomfang "  culture = goblin_main }
+91113 = {  name = "Sharptooth"  culture = goblin_main }
+91114 = {  name = "Festerspike"  culture = goblin_main }
+91115 = {  name = "Night Snappa"  culture = goblin_main }
+91116 = {  name = "Skull Crag"  culture = goblin_main }
+91117 = {  name = "Snick"  culture = goblin_main }
+91118 = {  name = "Metalfang"  culture = goblin_main }
+91119 = {  name = "Orceater"  culture = goblin_main }
+91120 = {  name = "Stunty Stabba"  culture = goblin_main }
+91121 = {  name = "Quickshiv"  culture = goblin_main }
+91122 = {  name = "Blue Face"  culture = goblin_main }
+91123 = {  name = "Grey Faces"  culture = goblin_main }
+91124 = {  name = "Git"  culture = goblin_main }
+91125 = {  name = "Witch Boy"  culture = goblin_main }
+91126 = {  name = "Gloomer"  culture = goblin_main }
+91127 = {  name = "Stunty"  culture = goblin_main }
+91128 = {  name = "Darkthief"  culture = goblin_main }
+91129 = {  name = "Slit"  culture = goblin_main }
+91130 = {  name = "Tombstealer"  culture = goblin_main }
+91131 = {  name = "Gribbles"  culture = goblin_main }
+91132 = {  name = "Misty Git"  culture = goblin_main }
+91133 = {  name = "Daggerhand"  culture = goblin_main }
+91134 = {  name = "Fat Boy"  culture = goblin_main }
+91135 = {  name = "Nik"  culture = goblin_main }
+91136 = {  name = "Jog"  culture = goblin_main }
+91137 = {  name = "Sneaky"  culture = goblin_main }
+91138 = {  name = "Spine Snappa"  culture = goblin_main }
+91139 = {  name = "Driznik"  culture = goblin_main }
+91140 = {  name = "Yellow Teef"  culture = goblin_main }
+91141 = {  name = "Sodit"  culture = goblin_main }
+91142 = {  name = "Poxxy"  culture = goblin_main }
+91143 = {  name = "Back Stabba"  culture = goblin_main }
+91144 = {  name = "Bogger"  culture = goblin_main }
+91145 = {  name = "Bloody Grin"  culture = goblin_main }
+91146 = {  name = "Gravestench"  culture = goblin_main }
+91147 = {  name = "Gloomfang"  culture = goblin_main }
+91148 = {  name = "Tombdigger"  culture = goblin_main }
+91149 = {  name = "Wiggo"  culture = goblin_main }
+91150 = {  name = "Black Spider"  culture = goblin_main }
+91151 = {  name = "Darkrunner"  culture = goblin_main }
+91152 = {  name = "Grey Hags"  culture = goblin_main }
+91153 = {  name = "Butom"  culture = goblin_main }
+91154 = {  name = "Wide Grin"  culture = goblin_main }
+91155 = {  name = "Iron Screama"  culture = goblin_main }
+91156 = {  name = "Gribbly"  culture = goblin_main }
+91157 = {  name = "Zod"  culture = goblin_main }
+91158 = {  name = "Duster"  culture = goblin_main }
+91159 = {  name = "Spanna"  culture = goblin_main }
+91160 = {  name = "Skull Snatcha"  culture = goblin_main }
+91161 = {  name = "Snort"  culture = goblin_main }
+91162 = {  name = "Bloody Spear"  culture = goblin_main }
+91163 = {  name = "Dotux"  culture = goblin_main }
+91164 = {  name = "Snappa"  culture = goblin_main }
+91165 = {  name = "Squigbait"  culture = goblin_main }
+91166 = {  name = "Squighead"  culture = goblin_main }
+91167 = {  name = "Rag"  culture = goblin_main }
+91168 = {  name = "Srubeg"  culture = goblin_main }
+91169 = {  name = "Gobbo"  culture = goblin_main }
+91170 = {  name = "Gold Grin"  culture = goblin_main }
+91171 = {  name = "Packgit"  culture = goblin_main }
+91172 = {  name = "Taffy"  culture = goblin_main }
+91173 = {  name = "Skullhand"  culture = goblin_main }
+91174 = {  name = "Stonerender"  culture = goblin_main }
+91175 = {  name = "Creeper"  culture = goblin_main }
+91176 = {  name = "Howler"  culture = goblin_main }
+91177 = {  name = "Muckcraze"  culture = goblin_main }
+91178 = {  name = "Bronze Fang"  culture = goblin_main }
+91179 = {  name = "Zosad"  culture = goblin_main }
+91180 = {  name = "Fire Catcha"  culture = goblin_main }
+91181 = {  name = "Tox"  culture = goblin_main }
+91182 = {  name = "Darryl"  culture = goblin_main }
+91183 = {  name = "Dogomex"  culture = goblin_main }
+91184 = {  name = "Moonjaw"  culture = goblin_main }
+91185 = {  name = "Witch Eater"  culture = goblin_main }
+91186 = {  name = "Dnoraz"  culture = goblin_main }
+91187 = {  name = "Nose Cutter"  culture = goblin_main }
+91188 = {  name = "Sludge Snacker"  culture = goblin_main }
+91189 = {  name = "Nat"  culture = goblin_main }
+91190 = {  name = "Stink Cave"  culture = goblin_main }
+91191 = {  name = "Geds"  culture = goblin_main }
+91192 = {  name = "Squigsquig"  culture = goblin_main }
+91193 = {  name = "Rateater"  culture = goblin_main }
+91194 = {  name = "Greatcut"  culture = goblin_main }
+91195 = {  name = "Green Runt"  culture = goblin_main }
+91196 = {  name = "Glowy Git"  culture = goblin_main }
+91197 = {  name = "Bonekill"  culture = goblin_main }
+91198 = {  name = "Sissy"  culture = goblin_main }
+91199 = {  name = "Bloody Spear"  culture = goblin_main }
+91200 = {  name = "Sbart"  culture = goblin_main }
+91201 = {  name = "Daemonhead"  culture = goblin_main }
+91202 = {  name = "Zak"  culture = goblin_main }
+91203 = {  name = "Zod"  culture = goblin_main }
+91204 = {  name = "Rot Head"  culture = goblin_main }
+91205 = {  name = "Sickbrain"  culture = goblin_main }
+91206 = {  name = "Cateater"  culture = goblin_main }
+91207 = {  name = "Red Eye"  culture = goblin_main }
+91208 = {  name = "Headrender"  culture = goblin_main }
+91209 = {  name = "Yip"  culture = goblin_main }
+91210 = {  name = "Slimegut"  culture = goblin_main }
+91211 = {  name = "Zub"  culture = goblin_main }
+91212 = {  name = "Squigeater"  culture = goblin_main }
+91213 = {  name = "Big"  culture = goblin_main }
+91214 = {  name = "Stinkhead"  culture = goblin_main }
+91215 = {  name = "Burning 'ead"  culture = goblin_main }
+91216 = {  name = "Gold Stealer"  culture = goblin_main }
+91217 = {  name = "Tgoxb"  culture = goblin_main }
+91218 = {  name = "Pimpy"  culture = goblin_main }
+91219 = {  name = "Stabba"  culture = goblin_main }
+91220 = {  name = "Rusty Spear"  culture = goblin_main }
+91221 = {  name = "Sdok"  culture = goblin_main }
+91222 = {  name = "Dar"  culture = goblin_main }
+91223 = {  name = "Yup"  culture = goblin_main }
+91224 = {  name = "Stitched Bit"  culture = goblin_main }
+91225 = {  name = "Gravesteal"  culture = goblin_main }
+91226 = {  name = "Creeping Death"  culture = goblin_main }
+91227 = {  name = "Scab"  culture = goblin_main }
+91228 = {  name = "One Eye"  culture = goblin_main }
+91229 = {  name = "Knifeslit"  culture = goblin_main }
+91230 = {  name = "Buxum"  culture = goblin_main }
+91231 = {  name = "Sneako"  culture = goblin_main }
+91232 = {  name = "Slimeblade"  culture = goblin_main }
+91233 = {  name = "Murn"  culture = goblin_main }
+91234 = {  name = "Spitepak"  culture = goblin_main }
+91235 = {  name = "Broken Axe"  culture = goblin_main }
+91236 = {  name = "Darkshadow"  culture = goblin_main }
+91237 = {  name = "Zsad"  culture = goblin_main }
+91238 = {  name = "Leer"  culture = goblin_main }
+91239 = {  name = "Scabby Eye"  culture = goblin_main }
+91240 = {  name = "Bagger"  culture = goblin_main }
+91241 = {  name = "Bait"  culture = goblin_main }
+91242 = {  name = "Rotter Git"  culture = goblin_main }
+91243 = {  name = "Qip"  culture = goblin_main }
+91244 = {  name = "Stitcher"  culture = goblin_main }
+91245 = {  name = "Boneswiller"  culture = goblin_main }
+91246 = {  name = "Daggerjaw"  culture = goblin_main }
+91247 = {  name = "Boff"  culture = goblin_main }
+91248 = {  name = "Tradus"  culture = goblin_main }
+91249 = {  name = "Broken Nose"  culture = goblin_main }
+91250 = {  name = "Duraks"  culture = goblin_main }
+91251 = {  name = "Kanets"  culture = goblin_main }
+91252 = {  name = "Weird Git"  culture = goblin_main }
+91253 = {  name = "Deepgrin"  culture = goblin_main }
+91254 = {  name = "Norgin"  culture = goblin_main }
+91255 = {  name = "Sneaky Runt"  culture = goblin_main }
+91256 = {  name = "Darkdreader"  culture = goblin_main }
+91257 = {  name = "Sit"  culture = goblin_main }
+91258 = {  name = "Krum"  culture = goblin_main }
+91259 = {  name = "Zut"  culture = goblin_main }
+91260 = {  name = "Foecleaver"  culture = goblin_main }
+91261 = {  name = "Squabble"  culture = goblin_main }
+91262 = {  name = "Red Face"  culture = goblin_main }
+91263 = {  name = "Night Killer"  culture = goblin_main }
+91264 = {  name = "Giantdeath"  culture = goblin_main }
+91265 = {  name = "Bog"  culture = goblin_main }
+91266 = {  name = "Green Spider"  culture = goblin_main }
+91267 = {  name = "Grey Knives"  culture = goblin_main }
+91268 = {  name = "Red Face"  culture = goblin_main }
+91269 = {  name = "Stink Face"  culture = goblin_main }
+91270 = {  name = "Gore Face"  culture = goblin_main }
+91271 = {  name = "Cog"  culture = goblin_main }
+91272 = {  name = "Itchy"  culture = goblin_main }
+91273 = {  name = "Wambo"  culture = goblin_main }
+91274 = {  name = "Greatpuke"  culture = goblin_main }
+91275 = {  name = "Yellow Fellow"  culture = goblin_main }
+91276 = {  name = "Wiggy"  culture = goblin_main }
+91277 = {  name = "Zik"  culture = goblin_main }
+91278 = {  name = "Sickeye"  culture = goblin_main }
+91279 = {  name = "Grot"  culture = goblin_main }
+91280 = {  name = "Flam"  culture = goblin_main }
+91281 = {  name = "Misty Mountain"  culture = goblin_main }
+91282 = {  name = "Sod"  culture = goblin_main }
+91283 = {  name = "Face Cutter"  culture = goblin_main }
+91284 = {  name = "Zogga"  culture = goblin_main }
+91285 = {  name = "Flunka"  culture = goblin_main }
+91286 = {  name = "Black Blade"  culture = goblin_main }
+91287 = {  name = "Tooth Snap"  culture = goblin_main }
+91288 = {  name = "White Stripe"  culture = goblin_main }
+91289 = {  name = "Stitched Eye"  culture = goblin_main }
+91290 = {  name = "Richy"  culture = goblin_main }
+91291 = {  name = "Runtbite"  culture = goblin_main }
+91292 = {  name = "Rzedak"  culture = goblin_main }
+91293 = {  name = "Shim"  culture = goblin_main }
+91294 = {  name = "Squiggo"  culture = goblin_main }
+91295 = {  name = "Throat Slit"  culture = goblin_main }
+91296 = {  name = "Wumbo"  culture = goblin_main }
+91297 = {  name = "Grot Pack"  culture = goblin_main }
+91298 = {  name = "Tobok"  culture = goblin_main }
+91299 = {  name = "Shiv"  culture = goblin_main }
+91300 = {  name = "Rattans"  culture = goblin_main }
+91301 = {  name = "Slime"  culture = goblin_main }
+91302 = {  name = "Mixen"  culture = goblin_main }
+91303 = {  name = "Fire Sticka"  culture = goblin_main }
+91304 = {  name = "Grott"  culture = goblin_main }
+91305 = {  name = "Evilgut"  culture = goblin_main }
+91306 = {  name = "Zippa"  culture = goblin_main }
+91307 = {  name = "Duraks"  culture = goblin_main }
+91308 = {  name = "Reava"  culture = goblin_main }
+91309 = {  name = "Nixeb"  culture = goblin_main }
+91310 = {  name = "Gasbrain"  culture = goblin_main }
+91311 = {  name = "Orcbrain"  culture = goblin_main }
+91312 = {  name = "Runty"  culture = goblin_main }
+91313 = {  name = "Booger"  culture = goblin_main }
+91314 = {  name = "Rotter"  culture = goblin_main }
+91315 = {  name = "Squiggy"  culture = goblin_main }
+91316 = {  name = "Wide Ear"  culture = goblin_main }
+91317 = {  name = "Blackvenom"  culture = goblin_main }
+91318 = {  name = "Bonelurker"  culture = goblin_main }
+91319 = {  name = "Daggermouth"  culture = goblin_main }
+91320 = {  name = "Slime Eater"  culture = goblin_main }
+91321 = {  name = "Skoxuz"  culture = goblin_main }
+91322 = {  name = "Slimehead"  culture = goblin_main }
+91323 = {  name = "Sneer"  culture = goblin_main }
+91324 = {  name = "Greedy"  culture = goblin_main }
+91325 = {  name = "Green Stink"  culture = goblin_main }
+91326 = {  name = "Zuds"  culture = goblin_main }
+91327 = {  name = "Spinegouge"  culture = goblin_main }
+91328 = {  name = "Scabby Bitz"  culture = goblin_main }
+91329 = {  name = "Shadowchain"  culture = goblin_main }
+91330 = {  name = "Zergo"  culture = goblin_main }
+91331 = {  name = "Dreadscream"  culture = goblin_main }
+91332 = {  name = "Jeer"  culture = goblin_main }
+91333 = {  name = "Legbiter "  culture = goblin_main }
+91334 = {  name = "Fester"  culture = goblin_main }
+91335 = {  name = "Nexez"  culture = goblin_main }
+91336 = {  name = "Deebs"  culture = goblin_main }
+91337 = {  name = "Amble"  culture = goblin_main }
+91338 = {  name = "Gloom Eye"  culture = goblin_main }
+91339 = {  name = "Bladetwister"  culture = goblin_main }
+91340 = {  name = "Stink Hole"  culture = goblin_main }
+91341 = {  name = "Roneg"  culture = goblin_main }
+91342 = {  name = "Coppertoof"  culture = goblin_main }
+91343 = {  name = "Wide Gut"  culture = goblin_main }
+91344 = {  name = "Deadly Stick"  culture = goblin_main }
+91345 = {  name = "Quicksnack"  culture = goblin_main }
+91346 = {  name = "Goldbrand"  culture = goblin_main }
+91347 = {  name = "Throatcutter"  culture = goblin_main }
+91348 = {  name = "Mean"  culture = goblin_main }
+91349 = {  name = "Green Runt"  culture = goblin_main }
+91350 = {  name = "Dagg"  culture = goblin_main }
+91351 = {  name = "Krez"  culture = goblin_main }
+91352 = {  name = "Skull Crag"  culture = goblin_main }
+91353 = {  name = "Iron Cave"  culture = goblin_main }
+91354 = {  name = "Dork"  culture = goblin_main }
+91355 = {  name = "Crooked Moon"  culture = goblin_main }
+91356 = {  name = "Snicker"  culture = goblin_main }
+91357 = {  name = "Spite Grin"  culture = goblin_main }
+91358 = {  name = "Nkabg"  culture = goblin_main }
+91359 = {  name = "Sneaktongue"  culture = goblin_main }
+91360 = {  name = "Meezeb"  culture = goblin_main }
+91361 = {  name = "Fireburn"  culture = goblin_main }
+91362 = {  name = "Gobbo Boy"  culture = goblin_main }
+91363 = {  name = "Gitfinder"  culture = goblin_main }
+91364 = {  name = "Rneg"  culture = goblin_main }
+91365 = {  name = "Tiny Git"  culture = goblin_main }
+91366 = {  name = "Big Stick"  culture = goblin_main }
+91367 = {  name = "Gravedigger"  culture = goblin_main }
+91368 = {  name = "Tuked"  culture = goblin_main }
+91369 = {  name = "Creeping Death"  culture = goblin_main }
+91370 = {  name = "Iron Mine"  culture = goblin_main }
+91371 = {  name = "Gold Grinna"  culture = goblin_main }
+91372 = {  name = "Brain Spikez"  culture = goblin_main }
+91373 = {  name = "Tig"  culture = goblin_main }
+91374 = {  name = "Grindle"  culture = goblin_main }
+91375 = {  name = "Grey Feet"  culture = goblin_main }
+91376 = {  name = "Dnos"  culture = goblin_main }
+91377 = {  name = "Evilmaw"  culture = goblin_main }
+91378 = {  name = "Yellow Banna"  culture = goblin_main }
+91379 = {  name = "Evilstealer"  culture = goblin_main }
+91380 = {  name = "Flameburn"  culture = goblin_main }
+91381 = {  name = "Fire Spewa"  culture = goblin_main }
+91382 = {  name = "Night Stalker"  culture = goblin_main }
+91383 = {  name = "Numodeb"  culture = goblin_main }
+91384 = {  name = "Bigtooth"  culture = goblin_main }
+91385 = {  name = "Gold Mine"  culture = goblin_main }
+91386 = {  name = "Ronemug"  culture = goblin_main }
+91387 = {  name = "Copper Grabba"  culture = goblin_main }
+91388 = {  name = "Scabby Eye"  culture = goblin_main }
+91389 = {  name = "Prolly"  culture = goblin_main }
+91390 = {  name = "Gobin"  culture = goblin_main }
+91391 = {  name = "Renoz"  culture = goblin_main }
+91392 = {  name = "Bronze Steala"  culture = goblin_main }
+91393 = {  name = "Shadegouge"  culture = goblin_main }
+91394 = {  name = "Tombgut"  culture = goblin_main }
+91395 = {  name = "Zad"  culture = goblin_main }
+91396 = {  name = "Dwarfbait"  culture = goblin_main }
+91397 = {  name = "Round Boy"  culture = goblin_main }
+91398 = {  name = "Snicker Maw"  culture = goblin_main }
+91399 = {  name = "Wot"  culture = goblin_main }
+91400 = {  name = "Knocker"  culture = goblin_main }
+91401 = {  name = "Marrow"  culture = goblin_main }
+91402 = {  name = "Daggy"  culture = goblin_main }
+91403 = {  name = "Zuggr"  culture = goblin_main }
+91404 = {  name = "Festerbrain"  culture = goblin_main }
+91405 = {  name = "Firestarter"  culture = goblin_main }
+91406 = {  name = "Fog"  culture = goblin_main }
+91407 = {  name = "Squibble"  culture = goblin_main }
+91408 = {  name = "Block"  culture = goblin_main }
+91409 = {  name = "Stunt"  culture = goblin_main }
+91410 = {  name = "Qeeble"  culture = goblin_main }
+91411 = {  name = "Runtboss"  culture = goblin_main }
+91412 = {  name = "Quicksteal"  culture = goblin_main }
+91413 = {  name = "Stuntbite"  culture = goblin_main }
+91414 = {  name = "Rot Toof"  culture = goblin_main }
+91415 = {  name = "Knotty"  culture = goblin_main }
+91416 = {  name = "Rummy"  culture = goblin_main }
+91417 = {  name = "Burnin' Face"  culture = goblin_main }
+91418 = {  name = "Woggle"  culture = goblin_main }
+91419 = {  name = "Wide Nose"  culture = goblin_main }
+91420 = {  name = "Yellow Eye"  culture = goblin_main }
+91421 = {  name = "Meantooth"  culture = goblin_main }
+91422 = {  name = "Foulbeast"  culture = goblin_main }
+91423 = {  name = "Yellow Eye"  culture = goblin_main }
+91424 = {  name = "Megatooth"  culture = goblin_main }
+91425 = {  name = "Squig Rider"  culture = goblin_main }
+91426 = {  name = "Flakaz"  culture = goblin_main }
+91427 = {  name = "Foe Eater"  culture = goblin_main }
+91428 = {  name = "Stinkstealer"  culture = goblin_main }
+91429 = {  name = "Pox"  culture = goblin_main }
+91430 = {  name = "Bloody Spike"  culture = goblin_main }
+91431 = {  name = "Grin Face"  culture = goblin_main }
+91432 = {  name = "Red Spider"  culture = goblin_main }
+91433 = {  name = "Jeerhand"  culture = goblin_main }
+91434 = {  name = "Krusty"  culture = goblin_main }
+91435 = {  name = "Hex"  culture = goblin_main }
+91436 = {  name = "Curse"  culture = goblin_main }
+91437 = {  name = "Tip"  culture = goblin_main }
+91438 = {  name = "Mibog"  culture = goblin_main }
+91439 = {  name = "Zutux"  culture = goblin_main }
+91440 = {  name = "Top"  culture = goblin_main }
+91441 = {  name = "Ninzi"  culture = goblin_main }
+91442 = {  name = "Mexun"  culture = goblin_main }
+91443 = {  name = "Spittle Pack"  culture = goblin_main }
+91444 = {  name = "Night Runner"  culture = goblin_main }
+91445 = {  name = "Oompa"  culture = goblin_main }
+91446 = {  name = "Qog"  culture = goblin_main }
+91447 = {  name = "Giantdrool"  culture = goblin_main }
+91448 = {  name = "Bug"  culture = goblin_main }
+91449 = {  name = "Copper Mine"  culture = goblin_main }
+91450 = {  name = "Reava"  culture = goblin_main }
+91451 = {  name = "Woggo"  culture = goblin_main }
+91452 = {  name = "Cow Catcher"  culture = goblin_main }
+91453 = {  name = "Dos"  culture = goblin_main }
+91454 = {  name = "Bugaxe"  culture = goblin_main }
+91455 = {  name = "Leery"  culture = goblin_main }
+91456 = {  name = "Meguz"  culture = goblin_main }
+91457 = {  name = "Nak"  culture = goblin_main }
+91458 = {  name = "Devilgloom"  culture = goblin_main }
+91459 = {  name = "Spider Eater"  culture = goblin_main }
+91460 = {  name = "Spite Hill"  culture = goblin_main }
+91461 = {  name = "Rem"  culture = goblin_main }
+91462 = {  name = "Rotblade"  culture = goblin_main }
+91463 = {  name = "Stinky"  culture = goblin_main }
+91464 = {  name = "Grinner"  culture = goblin_main }
+91465 = {  name = "Rotten Fang"  culture = goblin_main }
+91466 = {  name = "Tog"  culture = goblin_main }
+91467 = {  name = "Copper Steala"  culture = goblin_main }
+91468 = {  name = "Lag"  culture = goblin_main }
+91469 = {  name = "Yellow Git"  culture = goblin_main }
+91470 = {  name = "Zork"  culture = goblin_main }
+91471 = {  name = "Neck Cutter"  culture = goblin_main }
+91472 = {  name = "Zerub"  culture = goblin_main }
+91473 = {  name = "Sneery"  culture = goblin_main }
+91474 = {  name = "Flat"  culture = goblin_main }
+91475 = {  name = "Squeeble"  culture = goblin_main }
+91476 = {  name = "Stitched Git"  culture = goblin_main }
+91477 = {  name = "Stunty Git"  culture = goblin_main }
+91478 = {  name = "Bits"  culture = goblin_main }
+91479 = {  name = "Webber"  culture = goblin_main }
+91480 = {  name = "Bugcatcher"  culture = goblin_main }
+91481 = {  name = "Runty Git"  culture = goblin_main }
+91482 = {  name = "Sham"  culture = goblin_main }
+91483 = {  name = "Limb Choppa"  culture = goblin_main }
+91484 = {  name = "Muckhunter"  culture = goblin_main }
+91485 = {  name = "Dagger"  culture = goblin_main }
+91486 = {  name = "Datam"  culture = goblin_main }
+91487 = {  name = "Nak"  culture = goblin_main }
+91488 = {  name = "Squig"  culture = goblin_main }
+91489 = {  name = "Dimple"  culture = goblin_main }
+91490 = {  name = "Red Cloud"  culture = goblin_main }
+91491 = {  name = "Dog Boy"  culture = goblin_main }
+91492 = {  name = "Spider Git"  culture = goblin_main }
+91493 = {  name = "Copperfang"  culture = goblin_main }
+91494 = {  name = "Gravesteel"  culture = goblin_main }
+91495 = {  name = "Wotsdat"  culture = goblin_main }
+91496 = {  name = "Zerx"  culture = goblin_main }
+91497 = {  name = "Face Stabba"  culture = goblin_main }
+91498 = {  name = "Yellow Spider"  culture = goblin_main }
+91499 = {  name = "Wide Fang"  culture = goblin_main }
+91500 = {  name = "Sneak"  culture = goblin_main }
+91501 = {  name = "Dwarfeater"  culture = goblin_main }
+91502 = {  name = "Frot"  culture = goblin_main }
+91503 = {  name = "Squig Stitcher"  culture = goblin_main }
+91504 = {  name = "Retans"  culture = goblin_main }
+91505 = {  name = "Runt"  culture = goblin_main }
+91506 = {  name = "Niknak"  culture = goblin_main }
+91507 = {  name = "Tomb Duster"  culture = goblin_main }
+91508 = {  name = "Darkhead"  culture = goblin_main }
+91509 = {  name = "Dungstrangler "  culture = goblin_main }
+91510 = {  name = "Crag"  culture = goblin_main }
+91511 = {  name = "Sludge Stabber"  culture = goblin_main }
+91512 = {  name = "Backstab "  culture = goblin_main }
+91513 = {  name = "Spineshade"  culture = goblin_main }
+91514 = {  name = "Zux"  culture = goblin_main }
+91515 = {  name = "Nogz"  culture = goblin_main }
+91516 = {  name = "Boneshredder"  culture = goblin_main }
+91517 = {  name = "Bugeater"  culture = goblin_main }
+91518 = {  name = "Witch Head"  culture = goblin_main }
+91519 = {  name = "Sickgut"  culture = goblin_main }
+91520 = {  name = "Loopaz"  culture = goblin_main }
+91521 = {  name = "Sad Brain"  culture = goblin_main }
+91522 = {  name = "Spite Stabba"  culture = goblin_main }
+91523 = {  name = "Deep Mine"  culture = goblin_main }
+91524 = {  name = "Gasbasher"  culture = goblin_main }
+91525 = {  name = "Evilbone"  culture = goblin_main }
+91526 = {  name = "Rotten Git"  culture = goblin_main }
+91527 = {  name = "Grox"  culture = goblin_main }
+91528 = {  name = "Black Face"  culture = goblin_main }
+91529 = {  name = "Slimeclaw"  culture = goblin_main }
+91530 = {  name = "Zazam"  culture = goblin_main }
+91531 = {  name = "Sokax"  culture = goblin_main }
+91532 = {  name = "Frut"  culture = goblin_main }
+91533 = {  name = "Quicklaugh"  culture = goblin_main }
+91534 = {  name = "Greengit"  culture = goblin_main }
+91535 = {  name = "Red Skab"  culture = goblin_main }
+91536 = {  name = "Slime Git"  culture = goblin_main }
+91537 = {  name = "Foulfinder"  culture = goblin_main }
+91538 = {  name = "Grabby"  culture = goblin_main }
+91539 = {  name = "Burning Blade"  culture = goblin_main }
+91540 = {  name = "Gaxas"  culture = goblin_main }
+91541 = {  name = "Sox"  culture = goblin_main }
+91542 = {  name = "Spox"  culture = goblin_main }
+91543 = {  name = "Sodall"  culture = goblin_main }
+91544 = {  name = "Kedurs"  culture = goblin_main }
+91545 = {  name = "Fangbane"  culture = goblin_main }
+
+

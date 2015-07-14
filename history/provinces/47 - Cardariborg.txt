@@ -1,0 +1,18 @@
+# c_cardariborg
+
+# County Title
+title = c_cardariborg
+
+# Settlements
+max_settlements = 4
+
+b_cardariborg = tribal
+#b_irtyshkvik = city
+#b_iivashkvik = temple
+#b_kunbyrul = castle
+
+# Misc
+culture = graeling
+religion = norscan_gods
+
+#History

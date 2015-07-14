@@ -1,0 +1,58 @@
+#KARAK ANKOR
+technology = {
+	titles = {
+		d_everpeak
+		d_barodrin
+		d_dwardin
+		d_karag_azril
+		d_vala_azril_ungol
+		d_death_pass
+		d_grungozar
+		d_karak_azgalzul
+		d_mad_dog_pass
+		d_grombar
+		d_gromzikar
+		d_barak_varr
+		d_kogan
+		d_hirn
+		d_gantuk
+		d_haz_drazh
+		d_vlagaar
+		d_eragol
+		d_karak_opulim
+		d_karaz_garaz_a_bryn
+		d_zarazri
+		d_ekrund
+		d_komar
+		d_zifilibar
+		d_azgarazar
+		d_karak_norn
+		d_karak_kadrin
+		d_krombar
+		d_peak_pass
+		d_zarkadrin
+		d_karak_dum
+		d_karag_shathur
+		d_langkt_orrud
+		d_izor
+		d_ekzfilazanar
+		d_kadridaw
+		d_kaferkammaz
+		d_karak_ungor
+		d_dokuvalk
+		d_kol
+		d_zhufbar
+		d_varnan
+		d_zhufbar_barak
+	}
+	2000 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

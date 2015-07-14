@@ -1,0 +1,18 @@
+# c_fena
+
+# County Title
+title = c_fena
+
+# Settlements
+max_settlements = 4
+
+b_fenavyl = tribal
+#b_fuunivyls_grasp = city
+#b_lytervik = temple
+#b_lysial = castle
+
+# Misc
+culture = skaeling
+religion = norscan_gods
+
+#History

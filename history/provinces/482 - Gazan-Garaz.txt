@@ -1,0 +1,18 @@
+# c_gazan_garaz
+
+# County Title
+title = c_gazan_garaz
+
+# Settlements
+max_settlements = 4
+
+b_argelmarch = castle
+b_krak_magaz = city
+b_ironcore = temple
+#b_bad_ghull = castle
+
+# Misc
+culture = dwarf_chaos
+religion = hashut
+
+#History

@@ -1,0 +1,18 @@
+# c_brabillon
+
+# County Title
+title = c_brabillon
+
+# Settlements
+max_settlements = 4
+
+b_brondes = tribal
+b_brigendie = temple
+#b_flabant = temple
+#b_abrige = castle
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+
+#History

@@ -1,0 +1,18 @@
+# c_koenigstein
+
+# County Title
+title = c_koenigstein
+
+# Settlements
+max_settlements = 4
+
+b_koenigstein = castle
+b_unterwold = city
+b_swartzhafen = temple
+#b_vierstein = castle
+
+# Misc
+culture = sylvanian
+religion = vampiric
+
+#History

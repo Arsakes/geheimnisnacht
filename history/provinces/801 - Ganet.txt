@@ -1,0 +1,18 @@
+# c_ganet
+
+# County Title
+title = c_ganet
+
+# Settlements
+max_settlements = 4
+
+b_ganet = temple
+b_caradue = castle
+b_lesaffre = castle
+#b_audony = castle
+
+# Misc
+culture = nortagnese
+religion = grail
+
+#History

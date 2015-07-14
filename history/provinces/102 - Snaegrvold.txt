@@ -1,0 +1,17 @@
+# c_snaegrvold
+
+# County Title
+title = c_snaegrvold
+
+# Settlements
+max_settlements = 3
+
+b_snaegrvold = castle
+#b_defindud = city
+#b_weserengard = temple
+
+# Misc
+culture = aesling
+religion = khorne
+
+#History

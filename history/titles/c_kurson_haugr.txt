@@ -1,0 +1,4 @@
+# e_norsca
+800.1.1={
+	liege=d_hulebjorn
+}

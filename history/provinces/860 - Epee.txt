@@ -1,0 +1,19 @@
+# c_epee
+
+# County Title
+title = c_epee
+
+# Settlements
+max_settlements = 5
+
+b_epee = castle
+b_giscard = city
+b_bordet = castle
+#b_cherbourg = castle
+#b_drengaut = city
+
+# Misc
+culture = gascon
+religion = grail
+
+#History

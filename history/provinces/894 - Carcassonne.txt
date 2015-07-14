@@ -1,0 +1,20 @@
+# c_carcassonne
+
+# County Title
+title = c_carcassonne
+
+# Settlements
+max_settlements = 6
+
+b_carcassonne = castle
+b_castres = city
+b_albi = castle
+b_lavaur_du_graal = temple
+#b_narsonne = city
+#b_mayogne = temple
+
+# Misc
+culture = carcassian
+religion = grail
+
+#History

@@ -1,0 +1,1533 @@
+PROV1;Endring;Endring;Endring;;;;;;;;;x
+PROV2;Baelkyr;Baelkyr;Baelkyr;;;;;;;;;x
+PROV3;Nilfheim;Nilfheim;Nilfheim;;;;;;;;;x
+PROV4;Uts;Uts;Uts;;;;;;;;;x
+PROV5;Fjisgard;Fjisgard;Fjisgard;;;;;;;;;x
+PROV6;Bfavark;Bfavark;Bfavark;;;;;;;;;x
+PROV7;Mount Hellspire;Mount Hellspire;Mount Hellspire;;;;;;;;;x
+PROV8;Finnsvik;Finnsvik;Finnsvik;;;;;;;;;x
+PROV9;Kaamoas;Kaamoas;Kaamoas;;;;;;;;;x
+PROV10;Steinvik;Steinvik;Steinvik;;;;;;;;;x
+PROV11;Njyl;Njyl;Njyl;;;;;;;;;x
+PROV12;Voltag;Voltag;Voltag;;;;;;;;;x
+PROV13;Frost;Frost;Frost;;;;;;;;;x
+PROV14;Vanaheim;Vanaheim;Vanaheim;;;;;;;;;x
+PROV15;Raeryl;Raeryl;Raeryl;;;;;;;;;x
+PROV16;Tyronim;Tyronim;Tyronim;;;;;;;;;x
+PROV17;Ksidioc;Ksidioc;Ksidioc;;;;;;;;;x
+PROV18;Saimaakild;Saimaakild;Saimaakild;;;;;;;;;x
+PROV19;Iskvard;Iskvard;Iskvard;;;;;;;;;x
+PROV20;Stavgard;Stavgard;Stavgard;;;;;;;;;x
+PROV21;Iisgalt;Iisgalt;Iisgalt;;;;;;;;;x
+PROV22;Tanngniost;Tanngniost;Tanngniost;;;;;;;;;x
+PROV23;Trassel;Trassel;Trassel;;;;;;;;;x
+PROV24;Turui;Turui;Turui;;;;;;;;;x
+PROV25;Kraka Borkum;Kraka Borkum;Kraka Borkum;;;;;;;;;x
+PROV26;Kraka Ungrim;Kraka Ungrim;Kraka Ungrim;;;;;;;;;x
+PROV27;Kraka Uilorag;Kraka Uilorag;Kraka Uilorag;;;;;;;;;x
+PROV28;Fyodravik;Fyodravik;Fyodravik;;;;;;;;;x
+PROV29;Mount Barak;Mount Barak;Mount Barak;;;;;;;;;x
+PROV30;Karag Fyrik;Karag Fyrik;Karag Fyrik;;;;;;;;;x
+PROV31;Yelstir Hills;Yelstir Hills;Yelstir Hills;;;;;;;;;x
+PROV32;Cungal Hills;Cungal Hills;Cungal Hills;;;;;;;;;x
+PROV33;Hragyl;Hragyl;Hragyl;;;;;;;;;x
+PROV34;Eyrir;Eyrir;Eyrir;;;;;;;;;x
+PROV35;Fena;Fena;Fena;;;;;;;;;x
+PROV36;Aarvik;Aarvik;Aarvik;;;;;;;;;x
+PROV37;Mount Vanir;Mount Vanir;Mount Vanir;;;;;;;;;x
+PROV38;Hjemsokt Skog;Hjemsokt Skog;Hjemsokt Skog;;;;;;;;;x
+PROV39;Ulfsland;Ulfsland;Ulfsland;;;;;;;;;x
+PROV40;Birka;Birka;Birka;;;;;;;;;x
+PROV41;Thimbulvintr;Thimbulvintr;Thimbulvintr;;;;;;;;;x
+PROV42;Tolum;Tolum;Tolum;;;;;;;;;x
+PROV43;Ryval Passage;Ryval Passage;Ryval Passage;;;;;;;;;x
+PROV44;Fyruval's Passage;Fyruval's Passage;Fyruval's Passage;;;;;;;;;x
+PROV45;Ikrumal Ravine;Ikrumal Ravine;Ikrumal Ravine;;;;;;;;;x
+PROV46;Jaol's Apex;Jaol's Apex;Jaol's Apex;;;;;;;;;x
+PROV47;Cardariborg;Cardariborg;Cardariborg;;;;;;;;;x
+PROV48;Narvaash;Narvaash;Narvaash;;;;;;;;;x
+PROV49;Teeth of the Kraken;Teeth of the Kraken;Teeth of the Kraken;;;;;;;;;x
+PROV50;Novgoborg;Novgoborg;Novgoborg;;;;;;;;;x
+PROV51;Serulborg;Serulborg;Serulborg;;;;;;;;;x
+PROV52;Norscveg;Norscveg;Norscveg;;;;;;;;;x
+PROV53;Aldeigborg;Aldeigborg;Aldeigborg;;;;;;;;;x
+PROV54;Sorg;Sorg;Sorg;;;;;;;;;x
+PROV55;Hills of Grofnir;Hills of Grofnir;Hills of Grofnir;;;;;;;;;x
+PROV56;Lars' Peninsula;Lars' Peninsula;Lars' Peninsula;;;;;;;;;x
+PROV57;Isle of Gaman;Isle of Gaman;Isle of Gaman;;;;;;;;;x
+PROV58;Kraka Hakut;Kraka Hakut;Kraka Hakut;;;;;;;;;x
+PROV59;Kraka Untylum;Kraka Untylum;Kraka Untylum;;;;;;;;;x
+PROV60;Khazid Untulum;Khazid Untulum;Khazid Untulum;;;;;;;;;x
+PROV61;Drageberg;Drageberg;Drageberg;;;;;;;;;x
+PROV62;Kraka Hyfol;Kraka Hyfol;Kraka Hyfol;;;;;;;;;x
+PROV63;Morghaar;Morghaar;Morghaar;;;;;;;;;x
+PROV64;Syrul's Pinnacle;Syrul's Pinnacle;Syrul's Pinnacle;;;;;;;;;x
+PROV65;Durfang;Durfang;Durfang;;;;;;;;;x
+PROV66;Jotunir;Jotunir;Jotunir;;;;;;;;;x
+PROV67;Everthunder;Everthunder;Everthunder;;;;;;;;;x
+PROV68;Askreved;Askreved;Askreved;;;;;;;;;x
+PROV69;Staardholm;Staardholm;Staardholm;;;;;;;;;x
+PROV70;Olricstaad;Olricstaad;Olricstaad;;;;;;;;;x
+PROV71;Feigr;Feigr;Feigr;;;;;;;;;x
+PROV72;Suderholm;Suderholm;Suderholm;;;;;;;;;x
+PROV73;Stromstaad;Stromstaad;Stromstaad;;;;;;;;;x
+PROV74;Skyggehaug;Skyggehaug;Skyggehaug;;;;;;;;;x
+PROV75;Trollheim;Trollheim;Trollheim;;;;;;;;;x
+PROV76;Everkjole;Everkjole;Everkjole;;;;;;;;;x
+PROV77;Forbannet Skog;Forbannet Skog;Forbannet Skog;;;;;;;;;x
+PROV78;Jarluns;Jarluns;Jarluns;;;;;;;;;x
+PROV79;Kaldr;Kaldr;Kaldr;;;;;;;;;x
+PROV80;Passere Brann;Passere Brann;Passere Brann;;;;;;;;;x
+PROV81;Fimbulvintr Wood;Fimbulvintr Wood;Fimbulvintr Wood;;;;;;;;;x
+PROV82;Fúinn;Fúinn;Fúinn;;;;;;;;;x
+PROV83;Raseri Oks;Raseri Oks;Raseri Oks;;;;;;;;;x
+PROV84;Erkum;Erkum;Erkum;;;;;;;;;x
+PROV85;Kazad Grontunt;Kazad Grontunt;Kazad Grontunt;;;;;;;;;x
+PROV86;Khazid Skovekarag;Khazid Skovekarag;Khazid Skovekarag;;;;;;;;;x
+PROV87;Kraka Ornsmotek;Kraka Ornsmotek;Kraka Ornsmotek;;;;;;;;;x
+PROV88;Kraka Dunkor;Kraka Dunkor;Kraka Dunkor;;;;;;;;;x
+PROV89;Kazad Fundervol;Kazad Fundervol;Kazad Fundervol;;;;;;;;;x
+PROV90;Fell Grjót;Fell Grjót;Fell Grjót;;;;;;;;;x
+PROV91;Braka Vollr;Braka Vollr;Braka Vollr;;;;;;;;;x
+PROV92;Snara Forest;Snara Forest;Snara Forest;;;;;;;;;x
+PROV93;Ergren's Peninsula;Ergren's Peninsula;Ergren's Peninsula;;;;;;;;;x
+PROV94;Drergen Mort;Drergen Mort;Drergen Mort;;;;;;;;;x
+PROV95;Forest of Frykt;Forest of Frykt;Forest of Frykt;;;;;;;;;x
+PROV96;Kazad Dumond;Kazad Dumond;Kazad Dumond;;;;;;;;;x
+PROV97;Blóð Háls;Blóð Háls;Blóð Háls;;;;;;;;;x
+PROV98;Rugard;Rugard;Rugard;;;;;;;;;x
+PROV99;Svartblodgard;Svartblodgard;Svartblodgard;;;;;;;;;x
+PROV100;Vollrvorðr;Vollrvorðr;Vollrvorðr;;;;;;;;;x
+PROV101;Frossborg;Frossborg;Frossborg;;;;;;;;;x
+PROV102;Snaegrvold;Snaegrvold;Snaegrvold;;;;;;;;;x
+PROV103;Blindr Valley;Blindr Valley;Blindr Valley;;;;;;;;;x
+PROV104;Blakkr Kadrin;Blakkr Kadrin;Blakkr Kadrin;;;;;;;;;x
+PROV105;Grung Dobekzhuf;Grung Dobekzhuf;Grung Dobekzhuf;;;;;;;;;x
+PROV106;Khazid Fneldurk;Khazid Fneldurk;Khazid Fneldurk;;;;;;;;;x
+PROV107;Kadrin Svell;Kadrin Svell;Kadrin Svell;;;;;;;;;x
+PROV108;Grung Kuldongor;Grung Kuldongor;Grung Kuldongor;;;;;;;;;x
+PROV109;Kazad Duradel;Kazad Duradel;Kazad Duradel;;;;;;;;;x
+PROV110;Barak Vordhr;Barak Vordhr;Barak Vordhr;;;;;;;;;x
+PROV111;Kraka Unduzul;Kraka Unduzul;Kraka Unduzul;;;;;;;;;x
+PROV112;Grung Trakekarag;Grung Trakekarag;Grung Trakekarag;;;;;;;;;x
+PROV113;Kraka Drang;Kraka Drang;Kraka Drang;;;;;;;;;x
+PROV114;Kylklava Valley;Kylklava Valley;Kylklava Valley;;;;;;;;;x
+PROV115;Korv Ozero;Korv Ozero;Korv Ozero;;;;;;;;;x
+PROV116;Khazid Ravik;Khazid Ravik;Khazid Ravik;;;;;;;;;x
+PROV117;Kraka Drak;Kraka Drak;Kraka Drak;;;;;;;;;x
+PROV118;Taldursfjord;Taldursfjord;Taldursfjord;;;;;;;;;x
+PROV119;Grontfell;Grontfell;Grontfell;;;;;;;;;x
+PROV120;Frjósafit;Frjósafit;Frjósafit;;;;;;;;;x
+PROV121;Gala Forest;Gala Forest;Gala Forest;;;;;;;;;x
+PROV122;Svíða Point;Svíða Point;Svíða Point;;;;;;;;;x
+PROV123;Terkum;Terkum;Terkum;;;;;;;;;x
+PROV124;Svartrblóðr;Svartrblóðr;Svartrblóðr;;;;;;;;;x
+PROV125;Blóðfell;Blóðfell;Blóðfell;;;;;;;;;x
+PROV126;Draksfjord;Draksfjord;Draksfjord;;;;;;;;;x
+PROV127;Vinteerholm;Vinteerholm;Vinteerholm;;;;;;;;;x
+PROV128;Sídhastr Ván;Sídhastr Ván;Sídhastr Ván;;;;;;;;;x
+PROV129;Icewind Pass;Icewind Pass;Icewind Pass;;;;;;;;;x
+PROV130;Urslo;Urslo;Urslo;;;;;;;;;x
+PROV131;Ey Kragmor;Ey Kragmor;Ey Kragmor;;;;;;;;;x
+PROV132;Nazcalla;Nazcalla;Nazcalla;;;;;;;;;x
+PROV133;Eyland Feiknstafir;Eyland Feiknstafir;Eyland Feiknstafir;;;;;;;;;x
+PROV134;Vollr-Azkhaguul;Vollr-Azkhaguul;Vollr-Azkhaguul;;;;;;;;;x
+PROV135;Shadowmoor Pass;Shadowmoor Pass;Shadowmoor Pass;;;;;;;;;x
+PROV136;Tívar Peak;Tívar Peak;Tívar Peak;;;;;;;;;x
+PROV137;Fjall-Azkhaguul;Fjall-Azkhaguul;Fjall-Azkhaguul;;;;;;;;;x
+PROV138;The Czegniks;The Czegniks;The Czegniks;;;;;;;;;x
+PROV139;Artuulian Range;Artuulian Range;Artuulian Range;;;;;;;;;x
+PROV140;Haussbraut;Haussbraut;Haussbraut;;;;;;;;;x
+PROV141;Wulfsiege;Wulfsiege;Wulfsiege;;;;;;;;;x
+PROV142;Graennae;Graennae;Graennae;;;;;;;;;x
+PROV143;Aponnia;Aponnia;Aponnia;;;;;;;;;x
+PROV144;Gotland;Gotland;Gotland;;;;;;;;;x
+PROV145;Thorshafn;Thorshafn;Thorshafn;;;;;;;;;x
+PROV146;Skraevold;Skraevold;Skraevold;;;;;;;;;x
+PROV147;Sturen Ridge;Sturen Ridge;Sturen Ridge;;;;;;;;;x
+PROV148;Galafell;Galafell;Galafell;;;;;;;;;x
+PROV149;Zamak Spanyenya;Zamak Spanyenya;Zamak Spanyenya;;;;;;;;;x
+PROV150;Bolensk;Bolensk;Bolensk;;;;;;;;;x
+PROV151;Styr's Ridge;Styr's Ridge;Styr's Ridge;;;;;;;;;x
+PROV152;Dhazyn;Dhazyn;Dhazyn;;;;;;;;;x
+PROV153;Kurson Haugr;Kurson Haugr;Kurson Haugr;;;;;;;;;x
+PROV154;Kaminski;Kaminski;Kaminski;;;;;;;;;x
+PROV155;Zoishenk;Zoishenk;Zoishenk;;;;;;;;;x
+PROV156;Dzzijk;Dzzijk;Dzzijk;;;;;;;;;x
+PROV157;Hurajik;Hurajik;Hurajik;;;;;;;;;x
+PROV158;Dzyatlava;Dzyatlava;Dzyatlava;;;;;;;;;x
+PROV159;Ostrosk;Ostrosk;Ostrosk;;;;;;;;;x
+PROV160;Zenilev;Zenilev;Zenilev;;;;;;;;;x
+PROV161;Tobol;Tobol;Tobol;;;;;;;;;x
+PROV162;Tolsol;Tolsol;Tolsol;;;;;;;;;x
+PROV163;Goranitch;Goranitch;Goranitch;;;;;;;;;x
+PROV164;Turaw;Turaw;Turaw;;;;;;;;;x
+PROV165;Petrikov;Petrikov;Petrikov;;;;;;;;;x
+PROV166;Maja Uvemny;Maja Uvemny;Maja Uvemny;;;;;;;;;x
+PROV167;Crags of Shargun;Crags of Shargun;Crags of Shargun;;;;;;;;;x
+PROV168;Oduin Wood;Oduin Wood;Oduin Wood;;;;;;;;;x
+PROV169;Zhedevka;Zhedevka;Zhedevka;;;;;;;;;x
+PROV170;The Golinyi;The Golinyi;The Golinyi;;;;;;;;;x
+PROV171;Kacirk;Kacirk;Kacirk;;;;;;;;;x
+PROV172;Fanipalo;Fanipalo;Fanipalo;;;;;;;;;x
+PROV173;Stolbstyvoisk;Stolbstyvoisk;Stolbstyvoisk;;;;;;;;;x
+PROV174;Forest of Borisov;Forest of Borisov;Forest of Borisov;;;;;;;;;x
+PROV175;Erengrad;Erengrad;Erengrad;;;;;;;;;x
+PROV176;Grovod Forest;Grovod Forest;Grovod Forest;;;;;;;;;x
+PROV177;Vitzy;Vitzy;Vitzy;;;;;;;;;x
+PROV178;Megion;Megion;Megion;;;;;;;;;x
+PROV179;Zeya;Zeya;Zeya;;;;;;;;;x
+PROV180;Bolgasgrad;Bolgasgrad;Bolgasgrad;;;;;;;;;x
+PROV181;Salair;Salair;Salair;;;;;;;;;x
+PROV182;Praag;Praag;Praag;;;;;;;;;x
+PROV183;Volksgrad;Volksgrad;Volksgrad;;;;;;;;;x
+PROV184;Dukhyls Forest;Dukhyls Forest;Dukhyls Forest;;;;;;;;;x
+PROV185;Novehozy;Novehozy;Novehozy;;;;;;;;;x
+PROV186;Arzamas;Arzamas;Arzamas;;;;;;;;;x
+PROV187;Izobilny;Izobilny;Izobilny;;;;;;;;;x
+PROV188;Tesov;Tesov;Tesov;;;;;;;;;x
+PROV189;Ob;Ob;Ob;;;;;;;;;x
+PROV190;Staslav;Staslav;Staslav;;;;;;;;;x
+PROV191;Taldom;Taldom;Taldom;;;;;;;;;x
+PROV192;Vdovya;Vdovya;Vdovya;;;;;;;;;x
+PROV193;Uvetsyn;Uvetsyn;Uvetsyn;;;;;;;;;x
+PROV194;Dukhyls Spirits;Dukhyls Spirits;Dukhyls Spirits;;;;;;;;;x
+PROV195;Krakjunov;Krakjunov;Krakjunov;;;;;;;;;x
+PROV196;Koniecpole;Koniecpole;Koniecpole;;;;;;;;;x
+PROV197;Plowce;Plowce;Plowce;;;;;;;;;x
+PROV198;Jydske;Jydske;Jydske;;;;;;;;;x
+PROV199;Wizna;Wizna;Wizna;;;;;;;;;x
+PROV200;Blotno;Blotno;Blotno;;;;;;;;;x
+PROV201;Zabow;Zabow;Zabow;;;;;;;;;x
+PROV202;Kislev;Kislev;Kislev;;;;;;;;;x
+PROV203;Shirokij Forest;Shirokij Forest;Shirokij Forest;;;;;;;;;x
+PROV204;Ptorsk;Ptorsk;Ptorsk;;;;;;;;;x
+PROV205;Resvynhaf;Resvynhaf;Resvynhaf;;;;;;;;;x
+PROV206;Rakhov;Rakhov;Rakhov;;;;;;;;;x
+PROV207;Kyrnoka;Kyrnoka;Kyrnoka;;;;;;;;;x
+PROV208;Vitevo;Vitevo;Vitevo;;;;;;;;;x
+PROV209;Boguchar;Boguchar;Boguchar;;;;;;;;;x
+PROV210;Belev;Belev;Belev;;;;;;;;;x
+PROV211;Chernigov;Chernigov;Chernigov;;;;;;;;;x
+PROV212;Polotsk;Polotsk;Polotsk;;;;;;;;;x
+PROV213;Pugacheyev;Pugacheyev;Pugacheyev;;;;;;;;;x
+PROV214;Kalinora;Kalinora;Kalinora;;;;;;;;;x
+PROV215;Vetluga;Vetluga;Vetluga;;;;;;;;;x
+PROV216;Flainaut;Flainaut;Flainaut;;;;;;;;;x
+PROV217;Brabois;Brabois;Brabois;;;;;;;;;x
+PROV218;Almshoven;Almshoven;Almshoven;;;;;;;;;x
+PROV219;Landrel Barrow;Landrel Barrow;Landrel Barrow;;;;;;;;;x
+PROV220;Markenbinnen;Markenbinnen;Markenbinnen;;;;;;;;;x
+PROV221;Noordbeemster;Noordbeemster;Noordbeemster;;;;;;;;;x
+PROV222;Marienburg;Marienburg;Marienburg;;;;;;;;;x
+PROV223;Klessen;Klessen;Klessen;;;;;;;;;x
+PROV224;Fauligmere;Fauligmere;Fauligmere;;;;;;;;;x
+PROV225;Manaanspoort;Manaanspoort;Manaanspoort;;;;;;;;;x
+PROV226;Velsen;Velsen;Velsen;;;;;;;;;x
+PROV227;Ankeeven;Ankeeven;Ankeeven;;;;;;;;;x
+PROV228;Harenskarpel;Harenskarpel;Harenskarpel;;;;;;;;;x
+PROV229;Buuren;Buuren;Buuren;;;;;;;;;x
+PROV230;Harskamp;Harskamp;Harskamp;;;;;;;;;x
+PROV231;Aarnau;Aarnau;Aarnau;;;;;;;;;x
+PROV232;Schadelbruck;Schadelbruck;Schadelbruck;;;;;;;;;x
+PROV233;Schaukel;Schaukel;Schaukel;;;;;;;;;x
+PROV234;Hargendorf;Hargendorf;Hargendorf;;;;;;;;;x
+PROV235;Gelnhausen;Gelnhausen;Gelnhausen;;;;;;;;;x
+PROV236;Manaansufer;Manaansufer;Manaansufer;;;;;;;;;x
+PROV237;Luftberg;Luftberg;Luftberg;;;;;;;;;x
+PROV238;Kurtwallen;Kurtwallen;Kurtwallen;;;;;;;;;x
+PROV239;Salzenmund;Salzenmund;Salzenmund;;;;;;;;;x
+PROV240;Norden;Norden;Norden;;;;;;;;;x
+PROV241;Limshof;Limshof;Limshof;;;;;;;;;x
+PROV242;Dorfmark;Dorfmark;Dorfmark;;;;;;;;;x
+PROV243;Salkalten;Salkalten;Salkalten;;;;;;;;;x
+PROV244;Huven;Huven;Huven;;;;;;;;;x
+PROV245;Friedmark;Friedmark;Friedmark;;;;;;;;;x
+PROV246;Rossin;Rossin;Rossin;;;;;;;;;x
+PROV247;Ferlangen;Ferlangen;Ferlangen;;;;;;;;;x
+PROV248;Roezfels;Roezfels;Roezfels;;;;;;;;;x
+PROV249;Gauschdorf;Gauschdorf;Gauschdorf;;;;;;;;;x
+PROV250;Bohsenfels;Bohsenfels;Bohsenfels;;;;;;;;;x
+PROV251;Dassel;Dassel;Dassel;;;;;;;;;x
+PROV252;Vandengart;Vandengart;Vandengart;;;;;;;;;x
+PROV253;Ristedt;Ristedt;Ristedt;;;;;;;;;x
+PROV254;Wolfenburg;Wolfenburg;Wolfenburg;;;;;;;;;x
+PROV255;Brizban;Brizban;Brizban;;;;;;;;;x
+PROV256;Nettburg;Nettburg;Nettburg;;;;;;;;;x
+PROV257;Wurzen;Wurzen;Wurzen;;;;;;;;;x
+PROV258;Selonian Hills;Selonian Hills;Selonian Hills;;;;;;;;;x
+PROV259;Roterwald;Roterwald;Roterwald;;;;;;;;;x
+PROV260;Spuktichtung;Spuktichtung;Spuktichtung;;;;;;;;;x
+PROV261;Finsternchen;Finsternchen;Finsternchen;;;;;;;;;x
+PROV262;Entsetzlichigelhügel;Entsetzlichigelhügel;Entsetzlichigelhügel;;;;;;;;;x
+PROV263;Wouduin;Wouduin;Wouduin;;;;;;;;;x
+PROV264;Pinnesberg;Pinnesberg;Pinnesberg;;;;;;;;;x
+PROV265;Winsen;Winsen;Winsen;;;;;;;;;x
+PROV266;Isenbuttel;Isenbuttel;Isenbuttel;;;;;;;;;x
+PROV267;Seidewald;Seidewald;Seidewald;;;;;;;;;x
+PROV268;Scheinfeld;Scheinfeld;Scheinfeld;;;;;;;;;x
+PROV269;Mittelwig;Mittelwig;Mittelwig;;;;;;;;;x
+PROV270;Carroburg;Carroburg;Carroburg;;;;;;;;;x
+PROV271;Nordlichturm;Nordlichturm;Nordlichturm;;;;;;;;;x
+PROV272;Suderende;Suderende;Suderende;;;;;;;;;x
+PROV273;Kammendun;Kammendun;Kammendun;;;;;;;;;x
+PROV274;Middenheim;Middenheim;Middenheim;;;;;;;;;x
+PROV275;Malstedt;Malstedt;Malstedt;;;;;;;;;x
+PROV276;Middenstag;Middenstag;Middenstag;;;;;;;;;x
+PROV277;Grimminhagen;Grimminhagen;Grimminhagen;;;;;;;;;x
+PROV278;Bad Hohne;Bad Hohne;Bad Hohne;;;;;;;;;x
+PROV279;Holtdorf;Holtdorf;Holtdorf;;;;;;;;;x
+PROV280;Coburg;Coburg;Coburg;;;;;;;;;x
+PROV281;Kutenholz;Kutenholz;Kutenholz;;;;;;;;;x
+PROV282;Krudenwald;Krudenwald;Krudenwald;;;;;;;;;x
+PROV283;Bergendorf;Bergendorf;Bergendorf;;;;;;;;;x
+PROV284;Heedenhof;Heedenhof;Heedenhof;;;;;;;;;x
+PROV285;Kiefer;Kiefer;Kiefer;;;;;;;;;x
+PROV286;Eiskalt;Eiskalt;Eiskalt;;;;;;;;;x
+PROV287;Ahlenhof;Ahlenhof;Ahlenhof;;;;;;;;;x
+PROV288;Igelhügel;Igelhügel;Igelhügel;;;;;;;;;x
+PROV289;Ketzin;Ketzin;Ketzin;;;;;;;;;x
+PROV290;Vodf;Vodf;Vodf;;;;;;;;;x
+PROV291;Markdorf;Markdorf;Markdorf;;;;;;;;;x
+PROV292;Hergig;Hergig;Hergig;;;;;;;;;x
+PROV293;Merxheim;Merxheim;Merxheim;;;;;;;;;x
+PROV294;Schilderheim;Schilderheim;Schilderheim;;;;;;;;;x
+PROV295;Holthusen;Holthusen;Holthusen;;;;;;;;;x
+PROV296;Bögenhafen;Bögenhafen;Bögenhafen;;;;;;;;;x
+PROV297;Osburg;Osburg;Osburg;;;;;;;;;x
+PROV298;Furdienst;Furdienst;Furdienst;;;;;;;;;x
+PROV299;Altdorf;Altdorf;Altdorf;;;;;;;;;x
+PROV300;Hagercrybs;Hagercrybs;Hagercrybs;;;;;;;;;x
+PROV301;Mörlenfurt;Mörlenfurt;Mörlenfurt;;;;;;;;;x
+PROV302;Reikgard;Reikgard;Reikgard;;;;;;;;;x
+PROV303;Auerswald;Auerswald;Auerswald;;;;;;;;;x
+PROV304;Übersreik;Übersreik;Übersreik;;;;;;;;;x
+PROV305;Grunburg;Grunburg;Grunburg;;;;;;;;;x
+PROV306;Dunkelburg;Dunkelburg;Dunkelburg;;;;;;;;;x
+PROV307;Wittgendorf;Wittgendorf;Wittgendorf;;;;;;;;;x
+PROV308;Grissenwald;Grissenwald;Grissenwald;;;;;;;;;x
+PROV309;Nuln;Nuln;Nuln;;;;;;;;;x
+PROV310;Wissenburg;Wissenburg;Wissenburg;;;;;;;;;x
+PROV311;Durbheim;Durbheim;Durbheim;;;;;;;;;x
+PROV312;Wurmgrube;Wurmgrube;Wurmgrube;;;;;;;;;x
+PROV313;Kelgard;Kelgard;Kelgard;;;;;;;;;x
+PROV314;Wusterberg;Wusterberg;Wusterberg;;;;;;;;;x
+PROV315;Sonnefurt;Sonnefurt;Sonnefurt;;;;;;;;;x
+PROV316;Pfeildorf;Pfeildorf;Pfeildorf;;;;;;;;;x
+PROV317;Sexau;Sexau;Sexau;;;;;;;;;x
+PROV318;Staig;Staig;Staig;;;;;;;;;x
+PROV319;Pforzen;Pforzen;Pforzen;;;;;;;;;x
+PROV320;Wittenhausen;Wittenhausen;Wittenhausen;;;;;;;;;x
+PROV321;Aulen;Aulen;Aulen;;;;;;;;;x
+PROV322;Kroppenleben;Kroppenleben;Kroppenleben;;;;;;;;;x
+PROV323;Steingart;Steingart;Steingart;;;;;;;;;x
+PROV324;Talabheim;Talabheim;Talabheim;;;;;;;;;x
+PROV325;Talagaad;Talagaad;Talagaad;;;;;;;;;x
+PROV326;Volgen;Volgen;Volgen;;;;;;;;;x
+PROV327;Farlichberge;Farlichberge;Farlichberge;;;;;;;;;x
+PROV328;Kemperbad;Kemperbad;Kemperbad;;;;;;;;;x
+PROV329;Unterbaum;Unterbaum;Unterbaum;;;;;;;;;x
+PROV330;Törpin;Törpin;Törpin;;;;;;;;;x
+PROV331;Kargberge;Kargberge;Kargberge;;;;;;;;;x
+PROV332;Gostahof;Gostahof;Gostahof;;;;;;;;;x
+PROV333;Krugenheim;Krugenheim;Krugenheim;;;;;;;;;x
+PROV334;Ossino;Ossino;Ossino;;;;;;;;;x
+PROV335;Küsel;Küsel;Küsel;;;;;;;;;x
+PROV336;Ostlichrand;Ostlichrand;Ostlichrand;;;;;;;;;x
+PROV337;Bek;Bek;Bek;;;;;;;;;x
+PROV338;Borkrum;Borkrum;Borkrum;;;;;;;;;x
+PROV339;Menshenfresserhoffen;Menshenfresserhoffen;Menshenfresserhoffen;;;;;;;;;x
+PROV340;Rugenbuttle;Rugenbuttle;Rugenbuttle;;;;;;;;;x
+PROV341;Nattern;Nattern;Nattern;;;;;;;;;x
+PROV342;Teichel;Teichel;Teichel;;;;;;;;;x
+PROV343;Wurtbad;Wurtbad;Wurtbad;;;;;;;;;x
+PROV344;Oehling;Oehling;Oehling;;;;;;;;;x
+PROV345;Ramsau;Ramsau;Ramsau;;;;;;;;;x
+PROV346;Zaya;Zaya;Zaya;;;;;;;;;x
+PROV347;Stirhügel;Stirhügel;Stirhügel;;;;;;;;;x
+PROV348;Wördern;Wördern;Wördern;;;;;;;;;x
+PROV349;Leithagberge;Leithagberge;Leithagberge;;;;;;;;;x
+PROV350;Eicheschatten;Eicheschatten;Eicheschatten;;;;;;;;;x
+PROV351;Greenleafs;Greenleafs;Greenleafs;;;;;;;;;x
+PROV352;Leedleton;Leedleton;Leedleton;;;;;;;;;x
+PROV353;Lengenfeld;Lengenfeld;Lengenfeld;;;;;;;;;x
+PROV354;Colmfähre;Colmfähre;Colmfähre;;;;;;;;;x
+PROV355;Streissen;Streissen;Streissen;;;;;;;;;x
+PROV356;Wuppertal;Wuppertal;Wuppertal;;;;;;;;;x
+PROV357;Averheim;Averheim;Averheim;;;;;;;;;x
+PROV358;Longingbruck;Longingbruck;Longingbruck;;;;;;;;;x
+PROV359;Sauerapfel;Sauerapfel;Sauerapfel;;;;;;;;;x
+PROV360;Hocheleben;Hocheleben;Hocheleben;;;;;;;;;x
+PROV361;Aver March;Aver March;Aver March;;;;;;;;;x
+PROV362;Grenzstadt;Grenzstadt;Grenzstadt;;;;;;;;;x
+PROV363;Pfungzig;Pfungzig;Pfungzig;;;;;;;;;x
+PROV364;Niebelwald;Niebelwald;Niebelwald;;;;;;;;;x
+PROV365;Bernloch;Bernloch;Bernloch;;;;;;;;;x
+PROV366;Bechafen;Bechafen;Bechafen;;;;;;;;;x
+PROV367;Fortenhaf;Fortenhaf;Fortenhaf;;;;;;;;;x
+PROV368;The Veldt;The Veldt;The Veldt;;;;;;;;;x
+PROV369;Rundespitze;Rundespitze;Rundespitze;;;;;;;;;x
+PROV370;Mordheim;Mordheim;Mordheim;;;;;;;;;x
+PROV371;Carlsbruck;Carlsbruck;Carlsbruck;;;;;;;;;x
+PROV372;Kolhov;Kolhov;Kolhov;;;;;;;;;x
+PROV373;Regak;Regak;Regak;;;;;;;;;x
+PROV374;Nagenhof;Nagenhof;Nagenhof;;;;;;;;;x
+PROV375;Siegfriedhof;Siegfriedhof;Siegfriedhof;;;;;;;;;x
+PROV376;Königstein;Königstein;Königstein;;;;;;;;;x
+PROV377;Brachland;Brachland;Brachland;;;;;;;;;x
+PROV378;Sternieste;Sternieste;Sternieste;;;;;;;;;x
+PROV379;Vanhaldenhof;Vanhaldenhof;Vanhaldenhof;;;;;;;;;x
+PROV380;Tempelhof;Tempelhof;Tempelhof;;;;;;;;;x
+PROV381;Mikaldorf;Mikaldorf;Mikaldorf;;;;;;;;;x
+PROV382;Waldenhof;Waldenhof;Waldenhof;;;;;;;;;x
+PROV383;Sumpfdorf;Sumpfdorf;Sumpfdorf;;;;;;;;;x
+PROV384;Wartenhof;Wartenhof;Wartenhof;;;;;;;;;x
+PROV385;Nachthafen;Nachthafen;Nachthafen;;;;;;;;;x
+PROV386;Drakenhof;Drakenhof;Drakenhof;;;;;;;;;x
+PROV387;Fennonhügel;Fennonhügel;Fennonhügel;;;;;;;;;x
+PROV388;Schramleben;Schramleben;Schramleben;;;;;;;;;x
+PROV389;Sigmaringen;Sigmaringen;Sigmaringen;;;;;;;;;x
+PROV390;Aydemir;Aydemir;Aydemir;;;;;;;;;x
+PROV391;Sopot;Sopot;Sopot;;;;;;;;;x
+PROV392;Ribaritsa;Ribaritsa;Ribaritsa;;;;;;;;;x
+PROV393;Blatnista;Blatnista;Blatnista;;;;;;;;;x
+PROV394;Katunets;Katunets;Katunets;;;;;;;;;x
+PROV395;Kathuul;Kathuul;Kathuul;;;;;;;;;x
+PROV396;Poibrene;Poibrene;Poibrene;;;;;;;;;x
+PROV397;Lesichovo;Lesichovo;Lesichovo;;;;;;;;;x
+PROV398;Jakki;Jakki;Jakki;;;;;;;;;x
+PROV399;Nyarammog;Nyarammog;Nyarammog;;;;;;;;;x
+PROV400;Panitsovo;Panitsovo;Panitsovo;;;;;;;;;x
+PROV401;Mokrishte;Mokrishte;Mokrishte;;;;;;;;;x
+PROV402;Dragotintsi;Dragotintsi;Dragotintsi;;;;;;;;;x
+PROV403;Chavdar;Chavdar;Chavdar;;;;;;;;;x
+PROV404;Sarog;Sarog;Sarog;;;;;;;;;x
+PROV405;Zanbaijin;Zanbaijin;Zanbaijin;;;;;;;;;x
+PROV406;Izvor;Izvor;Izvor;;;;;;;;;x
+PROV407;Delyan;Delyan;Delyan;;;;;;;;;x
+PROV408;Skutare;Skutare;Skutare;;;;;;;;;x
+PROV409;Dragoynovo;Dragoynovo;Dragoynovo;;;;;;;;;x
+PROV410;Graf;Graf;Graf;;;;;;;;;x
+PROV411;Arda;Arda;Arda;;;;;;;;;x
+PROV412;Overjul;Overjul;Overjul;;;;;;;;;x
+PROV413;Qernildom;Qernildom;Qernildom;;;;;;;;;x
+PROV414;Hjornsum;Hjornsum;Hjornsum;;;;;;;;;x
+PROV415;Karak Jarghal;Karak Jarghal;Karak Jarghal;;;;;;;;;x
+PROV416;Unzkulak;Unzkulak;Unzkulak;;;;;;;;;x
+PROV417;Karak Farjul;Karak Farjul;Karak Farjul;;;;;;;;;x
+PROV418;Karak Vlag;Karak Vlag;Karak Vlag;;;;;;;;;x
+PROV419;Belyavorota Pass;Belyavorota Pass;Belyavorota Pass;;;;;;;;;x
+PROV420;Kazad Opulim;Kazad Opulim;Kazad Opulim;;;;;;;;;x
+PROV421;Karak Brianal;Karak Brianal;Karak Brianal;;;;;;;;;x
+PROV422;Karak Unlivak;Karak Unlivak;Karak Unlivak;;;;;;;;;x
+PROV423;Karak Eragol;Karak Eragol;Karak Eragol;;;;;;;;;x
+PROV424;Silver Pinnacle;Silver Pinnacle;Silver Pinnacle;;;;;;;;;x
+PROV425;Karak Gorzul;Karak Gorzul;Karak Gorzul;;;;;;;;;x
+PROV426;Plains of Kirulg;Plains of Kirulg;Plains of Kirulg;;;;;;;;;x
+PROV427;Karak Zan;Karak Zan;Karak Zan;;;;;;;;;x
+PROV428;Luvuag;Luvuag;Luvuag;;;;;;;;;x
+PROV429;Plains of the Divuildud;Plains of the Divuildud;Plains of the Divuildud;;;;;;;;;x
+PROV430;West Rock Mountain;West Rock Mountain;West Rock Mountain;;;;;;;;;x
+PROV431;Seep-Gore;Seep-Gore;Seep-Gore;;;;;;;;;x
+PROV432;Ironhide;Ironhide;Ironhide;;;;;;;;;x
+PROV433;Red Eye Mountain;Red Eye Mountain;Red Eye Mountain;;;;;;;;;x
+PROV434;Mount Karlnir;Mount Karlnir;Mount Karlnir;;;;;;;;;x
+PROV435;Kazad Hurlidan;Kazad Hurlidan;Kazad Hurlidan;;;;;;;;;x
+PROV436;Slayer Keep;Slayer Keep;Slayer Keep;;;;;;;;;x
+PROV437;Khazid Erakkial;Khazid Erakkial;Khazid Erakkial;;;;;;;;;x
+PROV438;Karak Angazhar;Karak Angazhar;Karak Angazhar;;;;;;;;;x
+PROV439;Booming Peak;Booming Peak;Booming Peak;;;;;;;;;x
+PROV440;Black Fire Pass;Black Fire Pass;Black Fire Pass;;;;;;;;;x
+PROV441;Cragmere;Cragmere;Cragmere;;;;;;;;;x
+PROV442;Zhufbar;Zhufbar;Zhufbar;;;;;;;;;x
+PROV443;Grung Gundrikson;Grung Gundrikson;Grung Gundrikson;;;;;;;;;x
+PROV444;Kadrin Gorm;Kadrin Gorm;Kadrin Gorm;;;;;;;;;x
+PROV445;Karak Raziak;Karak Raziak;Karak Raziak;;;;;;;;;x
+PROV446;Khazid Irkulaz;Khazid Irkulaz;Khazid Irkulaz;;;;;;;;;x
+PROV447;Drakenmoor;Drakenmoor;Drakenmoor;;;;;;;;;x
+PROV448;Iron Hills;Iron Hills;Iron Hills;;;;;;;;;x
+PROV449;Grom Peak;Grom Peak;Grom Peak;;;;;;;;;x
+PROV450;Mount Gunbad;Mount Gunbad;Mount Gunbad;;;;;;;;;x
+PROV451;Everpeak;Everpeak;Everpeak;;;;;;;;;x
+PROV452;Kazad Urkbavak;Kazad Urkbavak;Kazad Urkbavak;;;;;;;;;x
+PROV453;Silver Pass;Silver Pass;Silver Pass;;;;;;;;;x
+PROV454;Dead Rock Gap;Dead Rock Gap;Dead Rock Gap;;;;;;;;;x
+PROV455;Mount Silverspear;Mount Silverspear;Mount Silverspear;;;;;;;;;x
+PROV456;Haraz;Haraz;Haraz;;;;;;;;;x
+PROV457;Konar;Konar;Konar;;;;;;;;;x
+PROV458;Lantai;Lantai;Lantai;;;;;;;;;x
+PROV459;Dagrolad;Dagrolad;Dagrolad;;;;;;;;;x
+PROV460;Sovia;Sovia;Sovia;;;;;;;;;x
+PROV461;Varag Kadrin;Varag Kadrin;Varag Kadrin;;;;;;;;;x
+PROV462;Thunder Mountain;Thunder Mountain;Thunder Mountain;;;;;;;;;x
+PROV463;Karag Grimstok;Karag Grimstok;Karag Grimstok;;;;;;;;;x
+PROV464;Mount Squighorn;Mount Squighorn;Mount Squighorn;;;;;;;;;x
+PROV465;Black Crag;Black Crag;Black Crag;;;;;;;;;x
+PROV466;Azgul Kadrin;Azgul Kadrin;Azgul Kadrin;;;;;;;;;x
+PROV467;Azril-Ungol;Azril-Ungol;Azril-Ungol;;;;;;;;;x
+PROV468;Karak Azgal;Karak Azgal;Karak Azgal;;;;;;;;;x
+PROV469;Kazad Migdal;Kazad Migdal;Kazad Migdal;;;;;;;;;x
+PROV470;Karak Azul;Karak Azul;Karak Azul;;;;;;;;;x
+PROV471;Cripple Peak;Cripple Peak;Cripple Peak;;;;;;;;;x
+PROV472;Nagash;Nagash;Nagash;;;;;;;;;x
+PROV473;Fire Mountain;Fire Mountain;Fire Mountain;;;;;;;;;x
+PROV474;Adad-Nirari;Adad-Nirari;Adad-Nirari;;;;;;;;;x
+PROV475;Abraq;Abraq;Abraq;;;;;;;;;x
+PROV476;Zanen Ruvalk;Zanen Ruvalk;Zanen Ruvalk;;;;;;;;;x
+PROV477;Baartak;Baartak;Baartak;;;;;;;;;x
+PROV478;Zharr-Naggrund;Zharr-Naggrund;Zharr-Naggrund;;;;;;;;;x
+PROV479;Unzkadrin;Unzkadrin;Unzkadrin;;;;;;;;;x
+PROV480;Skreefel;Skreefel;Skreefel;;;;;;;;;x
+PROV481;Gash Kadrak;Gash Kadrak;Gash Kadrak;;;;;;;;;x
+PROV482;Gazan-Garaz;Gazan-Garaz;Gazan-Garaz;;;;;;;;;x
+PROV483;Ghal;Ghal;Ghal;;;;;;;;;x
+PROV484;Gorlgal;Gorlgal;Gorlgal;;;;;;;;;x
+PROV485;Azgram;Azgram;Azgram;;;;;;;;;x
+PROV486;Mizpazan;Mizpazan;Mizpazan;;;;;;;;;x
+PROV487;Ossarl;Ossarl;Ossarl;;;;;;;;;x
+PROV488;Sklepgor;Sklepgor;Sklepgor;;;;;;;;;x
+PROV489;Olnzar;Olnzar;Olnzar;;;;;;;;;x
+PROV490;Igragor;Igragor;Igragor;;;;;;;;;x
+PROV491;Zagros;Zagros;Zagros;;;;;;;;;x
+PROV492;Behiston Wastes;Behiston Wastes;Behiston Wastes;;;;;;;;;x
+PROV493;Barak Zharr;Barak Zharr;Barak Zharr;;;;;;;;;x
+PROV494;The Sentinels;The Sentinels;The Sentinels;;;;;;;;;x
+PROV495;Crookback Mountain;Crookback Mountain;Crookback Mountain;;;;;;;;;x
+PROV496;Morzarn;Morzarn;Morzarn;;;;;;;;;x
+PROV497;Mount Grey Hag;Mount Grey Hag;Mount Grey Hag;;;;;;;;;x
+PROV498;Pazuzu;Pazuzu;Pazuzu;;;;;;;;;x
+PROV499;Morogoth;Morogoth;Morogoth;;;;;;;;;x
+PROV500;Sabarta;Sabarta;Sabarta;;;;;;;;;x
+PROV501;Tanahk;Tanahk;Tanahk;;;;;;;;;x
+PROV502;Tharumagi;Tharumagi;Tharumagi;;;;;;;;;x
+PROV503;Eana;Eana;Eana;;;;;;;;;x
+PROV504;Vorag;Vorag;Vorag;;;;;;;;;x
+PROV505;Teresca;Teresca;Teresca;;;;;;;;;x
+PROV506;Sotomarca;Sotomarca;Sotomarca;;;;;;;;;x
+PROV507;Cabrera;Cabrera;Cabrera;;;;;;;;;x
+PROV508;Sobremarca;Sobremarca;Sobremarca;;;;;;;;;x
+PROV509;Mendoza;Mendoza;Mendoza;;;;;;;;;x
+PROV510;Alabreda;Alabreda;Alabreda;;;;;;;;;x
+PROV511;Castillar;Castillar;Castillar;;;;;;;;;x
+PROV512;Murilla;Murilla;Murilla;;;;;;;;;x
+PROV513;Cadenas;Cadenas;Cadenas;;;;;;;;;x
+PROV514;Barataria;Barataria;Barataria;;;;;;;;;x
+PROV515;Barboza;Barboza;Barboza;;;;;;;;;x
+PROV516;Calís;Calís;Calís;;;;;;;;;x
+PROV517;Alquézaro;Alquézaro;Alquézaro;;;;;;;;;x
+PROV518;Bajamar;Bajamar;Bajamar;;;;;;;;;x
+PROV519;Cantabro;Cantabro;Cantabro;;;;;;;;;x
+PROV520;Bilbali;Bilbali;Bilbali;;;;;;;;;x
+PROV521;Varda;Varda;Varda;;;;;;;;;x
+PROV522;Viacruz;Viacruz;Viacruz;;;;;;;;;x
+PROV523;Sodana;Sodana;Sodana;;;;;;;;;x
+PROV524;Nunia;Nunia;Nunia;;;;;;;;;x
+PROV525;Baraiz;Baraiz;Baraiz;;;;;;;;;x
+PROV526;Zamalanca;Zamalanca;Zamalanca;;;;;;;;;x
+PROV527;Azuara;Azuara;Azuara;;;;;;;;;x
+PROV528;San Luis;San Luis;San Luis;;;;;;;;;x
+PROV529;Trastámara;Trastámara;Trastámara;;;;;;;;;x
+PROV530;Edeta;Edeta;Edeta;;;;;;;;;x
+PROV531;Arroca;Arroca;Arroca;;;;;;;;;x
+PROV532;Céfira;Céfira;Céfira;;;;;;;;;x
+PROV533;Diamenterra;Diamenterra;Diamenterra;;;;;;;;;x
+PROV534;Aguilar;Aguilar;Aguilar;;;;;;;;;x
+PROV535;Olissipo;Olissipo;Olissipo;;;;;;;;;x
+PROV536;Verín;Verín;Verín;;;;;;;;;x
+PROV537;Portague;Portague;Portague;;;;;;;;;x
+PROV538;Jaraiz;Jaraiz;Jaraiz;;;;;;;;;x
+PROV539;Valdaña;Valdaña;Valdaña;;;;;;;;;x
+PROV540;Sandoval;Sandoval;Sandoval;;;;;;;;;x
+PROV541;Miramar;Miramar;Miramar;;;;;;;;;x
+PROV542;Finterra;Finterra;Finterra;;;;;;;;;x
+PROV543;San Pedro;San Pedro;San Pedro;;;;;;;;;x
+PROV544;Belmoz;Belmoz;Belmoz;;;;;;;;;x
+PROV545;Alborán;Alborán;Alborán;;;;;;;;;x
+PROV546;Toletti;Toletti;Toletti;;;;;;;;;x
+PROV547;Ubrique;Ubrique;Ubrique;;;;;;;;;x
+PROV548;Urdango;Urdango;Urdango;;;;;;;;;x
+PROV549;Torrosa;Torrosa;Torrosa;;;;;;;;;x
+PROV550;Tobiedo;Tobiedo;Tobiedo;;;;;;;;;x
+PROV551;Malmería;Malmería;Malmería;;;;;;;;;x
+PROV552;Molina;Molina;Molina;;;;;;;;;x
+PROV553;Magritta;Magritta;Magritta;;;;;;;;;x
+PROV554;Garnata;Garnata;Garnata;;;;;;;;;x
+PROV555;Jávea;Jávea;Jávea;;;;;;;;;x
+PROV556;Villana;Villana;Villana;;;;;;;;;x
+PROV557;Almagora;Almagora;Almagora;;;;;;;;;x
+PROV558;Cordobra;Cordobra;Cordobra;;;;;;;;;x
+PROV559;Fierra;Fierra;Fierra;;;;;;;;;x
+PROV560;Osborna;Osborna;Osborna;;;;;;;;;x
+PROV561;Montacute;Montacute;Montacute;;;;;;;;;x
+PROV562;Solsona;Solsona;Solsona;;;;;;;;;x
+PROV563;Ebria;Ebria;Ebria;;;;;;;;;x
+PROV564;Siernas;Siernas;Siernas;;;;;;;;;x
+PROV565;Reas;Reas;Reas;;;;;;;;;x
+PROV566;Los Merinos;Los Merinos;Los Merinos;;;;;;;;;x
+PROV567;Monteñas;Monteñas;Monteñas;;;;;;;;;x
+PROV568;Pajena;Pajena;Pajena;;;;;;;;;x
+PROV569;Las Navas;Las Navas;Las Navas;;;;;;;;;x
+PROV570;Cervantes;Cervantes;Cervantes;;;;;;;;;x
+PROV571;Durango;Durango;Durango;;;;;;;;;x
+PROV572;Zaraguz;Zaraguz;Zaraguz;;;;;;;;;x
+PROV573;Gualcázar;Gualcázar;Gualcázar;;;;;;;;;x
+PROV574;Tobaro;Tobaro;Tobaro;;;;;;;;;x
+PROV575;Liburni;Liburni;Liburni;;;;;;;;;x
+PROV576;Illiria;Illiria;Illiria;;;;;;;;;x
+PROV577;Delamata;Delamata;Delamata;;;;;;;;;x
+PROV578;Aquilas;Aquilas;Aquilas;;;;;;;;;x
+PROV579;Isole Sirene;Isole Sirene;Isole Sirene;;;;;;;;;x
+PROV580;Scordisci;Scordisci;Scordisci;;;;;;;;;x
+PROV581;Autaria;Autaria;Autaria;;;;;;;;;x
+PROV582;Udolpho;Udolpho;Udolpho;;;;;;;;;x
+PROV583;Ravola;Ravola;Ravola;;;;;;;;;x
+PROV584;Miragliano;Miragliano;Miragliano;;;;;;;;;x
+PROV585;Ebino;Ebino;Ebino;;;;;;;;;x
+PROV586;Toscania;Toscania;Toscania;;;;;;;;;x
+PROV587;Lambruso;Lambruso;Lambruso;;;;;;;;;x
+PROV588;Campogrotta;Campogrotta;Campogrotta;;;;;;;;;x
+PROV589;Vladeza;Vladeza;Vladeza;;;;;;;;;x
+PROV590;Andone;Andone;Andone;;;;;;;;;x
+PROV591;Trantio;Trantio;Trantio;;;;;;;;;x
+PROV592;Urbimo;Urbimo;Urbimo;;;;;;;;;x
+PROV593;Cenona;Cenona;Cenona;;;;;;;;;x
+PROV594;Sadrono;Sadrono;Sadrono;;;;;;;;;x
+PROV595;Trantine Hills;Trantine Hills;Trantine Hills;;;;;;;;;x
+PROV596;Catrazza;Catrazza;Catrazza;;;;;;;;;x
+PROV597;Varieno;Varieno;Varieno;;;;;;;;;x
+PROV598;Malavigna;Malavigna;Malavigna;;;;;;;;;x
+PROV599;Pavona;Pavona;Pavona;;;;;;;;;x
+PROV600;Remas;Remas;Remas;;;;;;;;;x
+PROV601;Stiani;Stiani;Stiani;;;;;;;;;x
+PROV602;Astiano;Astiano;Astiano;;;;;;;;;x
+PROV603;Rifraffa;Rifraffa;Rifraffa;;;;;;;;;x
+PROV604;Olesi;Olesi;Olesi;;;;;;;;;x
+PROV605;Spaarta;Spaarta;Spaarta;;;;;;;;;x
+PROV606;Spomanti;Spomanti;Spomanti;;;;;;;;;x
+PROV607;Scozzese;Scozzese;Scozzese;;;;;;;;;x
+PROV608;Lorenzo;Lorenzo;Lorenzo;;;;;;;;;x
+PROV609;Verezzo;Verezzo;Verezzo;;;;;;;;;x
+PROV610;Portomaggiore;Portomaggiore;Portomaggiore;;;;;;;;;x
+PROV611;Raverno;Raverno;Raverno;;;;;;;;;x
+PROV612;Volanda;Volanda;Volanda;;;;;;;;;x
+PROV613;Cittafinistre;Cittafinistre;Cittafinistre;;;;;;;;;x
+PROV614;Luccini;Luccini;Luccini;;;;;;;;;x
+PROV615;Pelua;Pelua;Pelua;;;;;;;;;x
+PROV616;Spurio;Spurio;Spurio;;;;;;;;;x
+PROV617;Organza;Organza;Organza;;;;;;;;;x
+PROV618;Mintopua;Mintopua;Mintopua;;;;;;;;;x
+PROV619;Aldente;Aldente;Aldente;;;;;;;;;x
+PROV620;Capelli;Capelli;Capelli;;;;;;;;;x
+PROV621;Sussurrio Wood;Sussurrio Wood;Sussurrio Wood;;;;;;;;;x
+PROV622;Laserno;Laserno;Laserno;;;;;;;;;x
+PROV623;Pavezzano;Pavezzano;Pavezzano;;;;;;;;;x
+PROV624;Tepanlo;Tepanlo;Tepanlo;;;;;;;;;x
+PROV625;Luparno;Luparno;Luparno;;;;;;;;;x
+PROV626;Sartosa;Sartosa;Sartosa;;;;;;;;;x
+PROV627;Pelremo;Pelremo;Pelremo;;;;;;;;;x
+PROV628;Caprio;Caprio;Caprio;;;;;;;;;x
+PROV629;Vercuso;Vercuso;Vercuso;;;;;;;;;x
+PROV630;Kazad Frukund;Kazad Frukund;Kazad Frukund;;;;;;;;;x
+PROV631;Grung Mizpel;Grung Mizpel;Grung Mizpel;;;;;;;;;x
+PROV632;Karak Kaferkammaz;Karak Kaferkammaz;Karak Kaferkammaz;;;;;;;;;x
+PROV633;Karak Ekzfilaz;Karak Ekzfilaz;Karak Ekzfilaz;;;;;;;;;x
+PROV634;Grung Ikree;Grung Ikree;Grung Ikree;;;;;;;;;x
+PROV635;Karak Grom;Karak Grom;Karak Grom;;;;;;;;;x
+PROV636;Karak Sedazund;Karak Sedazund;Karak Sedazund;;;;;;;;;x
+PROV637;Khazid Wyrwarn;Khazid Wyrwarn;Khazid Wyrwarn;;;;;;;;;x
+PROV638;Domatburg;Domatburg;Domatburg;;;;;;;;;x
+PROV639;Zvorak;Zvorak;Zvorak;;;;;;;;;x
+PROV640;Khadiz Urbaz;Khadiz Urbaz;Khadiz Urbaz;;;;;;;;;x
+PROV641;Skiros;Skiros;Skiros;;;;;;;;;x
+PROV642;Platae;Platae;Platae;;;;;;;;;x
+PROV643;Pugno;Pugno;Pugno;;;;;;;;;x
+PROV644;Khazid Algskarag;Khazid Algskarag;Khazid Algskarag;;;;;;;;;x
+PROV645;Copper Mountain;Copper Mountain;Copper Mountain;;;;;;;;;x
+PROV646;Kazad Elgazund;Kazad Elgazund;Kazad Elgazund;;;;;;;;;x
+PROV647;Grung Agrilebaz;Grung Agrilebaz;Grung Agrilebaz;;;;;;;;;x
+PROV648;Grung Ardzufak;Grung Ardzufak;Grung Ardzufak;;;;;;;;;x
+PROV649;Khazid Grimaz;Khazid Grimaz;Khazid Grimaz;;;;;;;;;x
+PROV650;Karak Norn;Karak Norn;Karak Norn;;;;;;;;;x
+PROV651;Karak Ziflin;Karak Ziflin;Karak Ziflin;;;;;;;;;x
+PROV652;Karak Grentaz;Karak Grentaz;Karak Grentaz;;;;;;;;;x
+PROV653;Horn Hold;Horn Hold;Horn Hold;;;;;;;;;x
+PROV654;Karak Gantuk;Karak Gantuk;Karak Gantuk;;;;;;;;;x
+PROV655;Monte Castello;Monte Castello;Monte Castello;;;;;;;;;x
+PROV656;Argalis;Argalis;Argalis;;;;;;;;;x
+PROV657;Myrmidens;Myrmidens;Myrmidens;;;;;;;;;x
+PROV658;Pilos;Pilos;Pilos;;;;;;;;;x
+PROV659;Vardanos;Vardanos;Vardanos;;;;;;;;;x
+PROV660;Atreus;Atreus;Atreus;;;;;;;;;x
+PROV661;Kasos;Kasos;Kasos;;;;;;;;;x
+PROV662;Pelpeonna;Pelpeonna;Pelpeonna;;;;;;;;;x
+PROV663;Thessos;Thessos;Thessos;;;;;;;;;x
+PROV664;Achaes;Achaes;Achaes;;;;;;;;;x
+PROV665;Arnalos;Arnalos;Arnalos;;;;;;;;;x
+PROV666;Alynd;Alynd;Alynd;;;;;;;;;x
+PROV667;Heldegrad;Heldegrad;Heldegrad;;;;;;;;;x
+PROV668;Mortensholm;Mortensholm;Mortensholm;;;;;;;;;x
+PROV669;Cabanal;Cabanal;Cabanal;;;;;;;;;x
+PROV670;Mognia;Mognia;Mognia;;;;;;;;;x
+PROV671;Hinrikness;Hinrikness;Hinrikness;;;;;;;;;x
+PROV672;Vinsbrugge;Vinsbrugge;Vinsbrugge;;;;;;;;;x
+PROV673;Inkodevna;Inkodevna;Inkodevna;;;;;;;;;x
+PROV674;Albusdorf;Albusdorf;Albusdorf;;;;;;;;;x
+PROV675;Vidovdan;Vidovdan;Vidovdan;;;;;;;;;x
+PROV676;Brasov;Brasov;Brasov;;;;;;;;;x
+PROV677;Quaterain;Quaterain;Quaterain;;;;;;;;;x
+PROV678;Matorca;Matorca;Matorca;;;;;;;;;x
+PROV679;Spinda;Spinda;Spinda;;;;;;;;;x
+PROV680;Moslac;Moslac;Moslac;;;;;;;;;x
+PROV681;Somjek;Somjek;Somjek;;;;;;;;;x
+PROV682;Mornell;Mornell;Mornell;;;;;;;;;x
+PROV683;Galiti;Galiti;Galiti;;;;;;;;;x
+PROV684;Dhouda;Dhouda;Dhouda;;;;;;;;;x
+PROV685;Masserschloss;Masserschloss;Masserschloss;;;;;;;;;x
+PROV686;Barak Varr;Barak Varr;Barak Varr;;;;;;;;;x
+PROV687;Styratia;Styratia;Styratia;;;;;;;;;x
+PROV688;Munzig;Munzig;Munzig;;;;;;;;;x
+PROV689;Sturgun;Sturgun;Sturgun;;;;;;;;;x
+PROV690;Akendorf;Akendorf;Akendorf;;;;;;;;;x
+PROV691;Kalk;Kalk;Kalk;;;;;;;;;x
+PROV692;Deiter;Deiter;Deiter;;;;;;;;;x
+PROV693;Mirke;Mirke;Mirke;;;;;;;;;x
+PROV694;Malko;Malko;Malko;;;;;;;;;x
+PROV695;Geistenmund;Geistenmund;Geistenmund;;;;;;;;;x
+PROV696;Bythan;Bythan;Bythan;;;;;;;;;x
+PROV697;Tanais;Tanais;Tanais;;;;;;;;;x
+PROV698;Zenres;Zenres;Zenres;;;;;;;;;x
+PROV699;Fatandira;Fatandira;Fatandira;;;;;;;;;x
+PROV700;Aldium;Aldium;Aldium;;;;;;;;;x
+PROV701;Lament;Lament;Lament;;;;;;;;;x
+PROV702;Brovska;Brovska;Brovska;;;;;;;;;x
+PROV703;Levrellian;Levrellian;Levrellian;;;;;;;;;x
+PROV704;Varenka;Varenka;Varenka;;;;;;;;;x
+PROV705;Turov;Turov;Turov;;;;;;;;;x
+PROV706;Gulthac;Gulthac;Gulthac;;;;;;;;;x
+PROV707;Haflok;Haflok;Haflok;;;;;;;;;x
+PROV708;Clazo;Clazo;Clazo;;;;;;;;;x
+PROV709;Knidus;Knidus;Knidus;;;;;;;;;x
+PROV710;Blutgar;Blutgar;Blutgar;;;;;;;;;x
+PROV711;Karsack;Karsack;Karsack;;;;;;;;;x
+PROV712;Iron Rock;Iron Rock;Iron Rock;;;;;;;;;x
+PROV713;Matul Remrit;Matul Remrit;Matul Remrit;;;;;;;;;x
+PROV714;Cimmeria;Cimmeria;Cimmeria;;;;;;;;;x
+PROV715;Sakaryia;Sakaryia;Sakaryia;;;;;;;;;x
+PROV716;Mushki;Mushki;Mushki;;;;;;;;;x
+PROV717;Paragorn;Paragorn;Paragorn;;;;;;;;;x
+PROV718;Odris;Odris;Odris;;;;;;;;;x
+PROV719;Crios;Crios;Crios;;;;;;;;;x
+PROV720;Nonucci Island;Nonucci Island;Nonucci Island;;;;;;;;;x
+PROV721;Raven Barrow;Raven Barrow;Raven Barrow;;;;;;;;;x
+PROV722;Mentreda;Mentreda;Mentreda;;;;;;;;;x
+PROV723;Khypris;Khypris;Khypris;;;;;;;;;x
+PROV724;Sapphiro;Sapphiro;Sapphiro;;;;;;;;;x
+PROV725;Ilios;Ilios;Ilios;;;;;;;;;x
+PROV726;Langkt-Girt;Langkt-Girt;Langkt-Girt;;;;;;;;;x
+PROV727;Langkhaz;Langkhaz;Langkhaz;;;;;;;;;x
+PROV728;Karak Nazril;Karak Nazril;Karak Nazril;;;;;;;;;x
+PROV729;Karak Yarazril;Karak Yarazril;Karak Yarazril;;;;;;;;;x
+PROV730;Varaz Barak;Varaz Barak;Varaz Barak;;;;;;;;;x
+PROV731;Zank Barak;Zank Barak;Zank Barak;;;;;;;;;x
+PROV732;Gelt;Gelt;Gelt;;;;;;;;;x
+PROV733;Khazid Ruvalkbar;Khazid Ruvalkbar;Khazid Ruvalkbar;;;;;;;;;x
+PROV734;Kazad Dron;Kazad Dron;Kazad Dron;;;;;;;;;x
+PROV735;Luwaia;Luwaia;Luwaia;;;;;;;;;x
+PROV736;Adryn;Adryn;Adryn;;;;;;;;;x
+PROV737;Delium;Delium;Delium;;;;;;;;;x
+PROV738;Anaxia;Anaxia;Anaxia;;;;;;;;;x
+PROV739;Afayan;Afayan;Afayan;;;;;;;;;x
+PROV740;Koganusan;Koganusan;Koganusan;;;;;;;;;x
+PROV741;Kreutzhofen;Kreutzhofen;Kreutzhofen;;;;;;;;;x
+PROV742;Kybel;Kybel;Kybel;;;;;;;;;x
+PROV743;Karamandere;Karamandere;Karamandere;;;;;;;;;x
+PROV744;Panion;Panion;Panion;;;;;;;;;x
+PROV745;Ahhiya;Ahhiya;Ahhiya;;;;;;;;;x
+PROV746;Bayat;Bayat;Bayat;;;;;;;;;x
+PROV747;Porsuk;Porsuk;Porsuk;;;;;;;;;x
+PROV748;Serkeskal;Serkeskal;Serkeskal;;;;;;;;;x
+PROV749;Kaskia;Kaskia;Kaskia;;;;;;;;;x
+PROV750;Arz;Arz;Arz;;;;;;;;;x
+PROV751;Udibgovos;Udibgovos;Udibgovos;;;;;;;;;x
+PROV752;Eubus;Eubus;Eubus;;;;;;;;;x
+PROV753;Zuwadison;Zuwadison;Zuwadison;;;;;;;;;x
+PROV754;Mykal;Mykal;Mykal;;;;;;;;;x
+PROV755;Komar;Komar;Komar;;;;;;;;;x
+PROV756;Boetus;Boetus;Boetus;;;;;;;;;x
+PROV757;Nezull;Nezull;Nezull;;;;;;;;;x
+PROV758;Burushur;Burushur;Burushur;;;;;;;;;x
+PROV759;Zitharis;Zitharis;Zitharis;;;;;;;;;x
+PROV760;Rhothira;Rhothira;Rhothira;;;;;;;;;x
+PROV761;Ekrund;Ekrund;Ekrund;;;;;;;;;x
+PROV762;Mount Bloodhorn;Mount Bloodhorn;Mount Bloodhorn;;;;;;;;;x
+PROV763;Hettasha;Hettasha;Hettasha;;;;;;;;;x
+PROV764;Karzis;Karzis;Karzis;;;;;;;;;x
+PROV765;Nerik;Nerik;Nerik;;;;;;;;;x
+PROV766;Palak;Palak;Palak;;;;;;;;;x
+PROV767;Kadesh;Kadesh;Kadesh;;;;;;;;;x
+PROV768;Adygea;Adygea;Adygea;;;;;;;;;x
+PROV769;Hattria;Hattria;Hattria;;;;;;;;;x
+PROV770;Mourkain;Mourkain;Mourkain;;;;;;;;;x
+PROV771;Gediz;Gediz;Gediz;;;;;;;;;x
+PROV772;Akur;Akur;Akur;;;;;;;;;x
+PROV773;Klatch;Klatch;Klatch;;;;;;;;;x
+PROV774;Kiziril;Kiziril;Kiziril;;;;;;;;;x
+PROV775;Irmak;Irmak;Irmak;;;;;;;;;x
+PROV776;Gernach;Gernach;Gernach;;;;;;;;;x
+PROV777;Khernum;Khernum;Khernum;;;;;;;;;x
+PROV778;Indirum;Indirum;Indirum;;;;;;;;;x
+PROV779;Blakmar;Blakmar;Blakmar;;;;;;;;;x
+PROV780;Libis;Libis;Libis;;;;;;;;;x
+PROV781;Misty Mountain;Misty Mountain;Misty Mountain;;;;;;;;;x
+PROV782;Charan;Charan;Charan;;;;;;;;;x
+PROV783;Qarum;Qarum;Qarum;;;;;;;;;x
+PROV784;Sedg;Sedg;Sedg;;;;;;;;;x
+PROV785;Orgar;Orgar;Orgar;;;;;;;;;x
+PROV786;Seltar;Seltar;Seltar;;;;;;;;;x
+PROV787;Arzawe;Arzawe;Arzawe;;;;;;;;;x
+PROV789;Ys;Ys;Ys;;;;;;;;;x
+PROV790;Erguian;Erguian;Erguian;;;;;;;;;x
+PROV791;Chagrin;Chagrin;Chagrin;;;;;;;;;x
+PROV792;Rocheil;Rocheil;Rocheil;;;;;;;;;x
+PROV793;Moulinsard;Moulinsard;Moulinsard;;;;;;;;;x
+PROV794;Lyonesse;Lyonesse;Lyonesse;;;;;;;;;x
+PROV795;Caon;Caon;Caon;;;;;;;;;x
+PROV796;Chastillon;Chastillon;Chastillon;;;;;;;;;x
+PROV797;Martonnais;Martonnais;Martonnais;;;;;;;;;x
+PROV798;Senlou;Senlou;Senlou;;;;;;;;;x
+PROV799;L'Anguille;L'Anguille;L'Anguille;;;;;;;;;x
+PROV800;Frégunerre;Frégunerre;Frégunerre;;;;;;;;;x
+PROV801;Gânet;Gânet;Gânet;;;;;;;;;x
+PROV802;Sanz;Sanz;Sanz;;;;;;;;;x
+PROV803;Havresse;Havresse;Havresse;;;;;;;;;x
+PROV804;Rennais;Rennais;Rennais;;;;;;;;;x
+PROV805;Rouard;Rouard;Rouard;;;;;;;;;x
+PROV806;Eux;Eux;Eux;;;;;;;;;x
+PROV807;Dun;Dun;Dun;;;;;;;;;x
+PROV808;Normagne;Normagne;Normagne;;;;;;;;;x
+PROV809;Chantillon;Chantillon;Chantillon;;;;;;;;;x
+PROV810;Couronne;Couronne;Couronne;;;;;;;;;x
+PROV811;Tintannil;Tintannil;Tintannil;;;;;;;;;x
+PROV812;Thorn;Thorn;Thorn;;;;;;;;;x
+PROV813;Nesleaux;Nesleaux;Nesleaux;;;;;;;;;x
+PROV814;Langreuil;Langreuil;Langreuil;;;;;;;;;x
+PROV815;Artois;Artois;Artois;;;;;;;;;x
+PROV816;Larret;Larret;Larret;;;;;;;;;x
+PROV817;Uexin;Uexin;Uexin;;;;;;;;;x
+PROV818;Arden;Arden;Arden;;;;;;;;;x
+PROV819;Saintilles;Saintilles;Saintilles;;;;;;;;;x
+PROV820;Carmandois;Carmandois;Carmandois;;;;;;;;;x
+PROV821;Chautoise;Chautoise;Chautoise;;;;;;;;;x
+PROV822;Mortagne;Mortagne;Mortagne;;;;;;;;;x
+PROV823;Dras;Dras;Dras;;;;;;;;;x
+PROV824;Rachard;Rachard;Rachard;;;;;;;;;x
+PROV825;Elne;Elne;Elne;;;;;;;;;x
+PROV826;Mousillon;Mousillon;Mousillon;;;;;;;;;x
+PROV827;Frondée;Frondée;Frondée;;;;;;;;;x
+PROV828;Yremois;Yremois;Yremois;;;;;;;;;x
+PROV829;Guerac;Guerac;Guerac;;;;;;;;;x
+PROV830;Beaussons;Beaussons;Beaussons;;;;;;;;;x
+PROV831;Triers;Triers;Triers;;;;;;;;;x
+PROV832;Graçay;Graçay;Graçay;;;;;;;;;x
+PROV833;Gisoreux;Gisoreux;Gisoreux;;;;;;;;;x
+PROV834;Tremonge;Tremonge;Tremonge;;;;;;;;;x
+PROV835;Rèves;Rèves;Rèves;;;;;;;;;x
+PROV836;Feuilly;Feuilly;Feuilly;;;;;;;;;x
+PROV837;Bordeleaux;Bordeleaux;Bordeleaux;;;;;;;;;x
+PROV838;Cabernet;Cabernet;Cabernet;;;;;;;;;x
+PROV839;Laors;Laors;Laors;;;;;;;;;x
+PROV840;Yquem;Yquem;Yquem;;;;;;;;;x
+PROV841;Soudarre;Soudarre;Soudarre;;;;;;;;;x
+PROV842;Beaujolais;Beaujolais;Beaujolais;;;;;;;;;x
+PROV843;Toussaint;Toussaint;Toussaint;;;;;;;;;x
+PROV844;Bastonne;Bastonne;Bastonne;;;;;;;;;x
+PROV845;Foucault;Foucault;Foucault;;;;;;;;;x
+PROV846;Gastix;Gastix;Gastix;;;;;;;;;x
+PROV847;Châlons;Châlons;Châlons;;;;;;;;;x
+PROV848;Gamay;Gamay;Gamay;;;;;;;;;x
+PROV849;Galisson;Galisson;Galisson;;;;;;;;;x
+PROV850;Lorsace;Lorsace;Lorsace;;;;;;;;;x
+PROV851;Tura;Tura;Tura;;;;;;;;;x
+PROV852;Beaix;Beaix;Beaix;;;;;;;;;x
+PROV853;Roderre;Roderre;Roderre;;;;;;;;;x
+PROV854;Drachenberg;Drachenberg;Drachenberg;;;;;;;;;x
+PROV855;Montfort;Montfort;Montfort;;;;;;;;;x
+PROV856;Vignoble;Vignoble;Vignoble;;;;;;;;;x
+PROV857;Elbiq;Elbiq;Elbiq;;;;;;;;;x
+PROV858;Anjarlac;Anjarlac;Anjarlac;;;;;;;;;x
+PROV859;Rennaille;Rennaille;Rennaille;;;;;;;;;x
+PROV860;Epee;Epee;Epee;;;;;;;;;x
+PROV861;Aquitaine;Aquitaine;Aquitaine;;;;;;;;;x
+PROV862;Angour;Angour;Angour;;;;;;;;;x
+PROV863;Lusidreux;Lusidreux;Lusidreux;;;;;;;;;x
+PROV864;Quérigord;Quérigord;Quérigord;;;;;;;;;x
+PROV865;Brionne;Brionne;Brionne;;;;;;;;;x
+PROV866;Gransette;Gransette;Gransette;;;;;;;;;x
+PROV867;Muret;Muret;Muret;;;;;;;;;x
+PROV868;Enjolras;Enjolras;Enjolras;;;;;;;;;x
+PROV869;Gironde;Gironde;Gironde;;;;;;;;;x
+PROV870;Armanie;Armanie;Armanie;;;;;;;;;x
+PROV871;Cuileux;Cuileux;Cuileux;;;;;;;;;x
+PROV872;Pompadour;Pompadour;Pompadour;;;;;;;;;x
+PROV873;Chinon;Chinon;Chinon;;;;;;;;;x
+PROV874;Treims;Treims;Treims;;;;;;;;;x
+PROV875;Blarry;Blarry;Blarry;;;;;;;;;x
+PROV876;Bourgou;Bourgou;Bourgou;;;;;;;;;x
+PROV877;Giennois;Giennois;Giennois;;;;;;;;;x
+PROV878;La Mançon;La Mançon;La Mançon;;;;;;;;;x
+PROV879;Orlerre;Orlerre;Orlerre;;;;;;;;;x
+PROV880;Meaux;Meaux;Meaux;;;;;;;;;x
+PROV881;Roucerre;Roucerre;Roucerre;;;;;;;;;x
+PROV882;Langry;Langry;Langry;;;;;;;;;x
+PROV883;Perrache;Perrache;Perrache;;;;;;;;;x
+PROV884;Quenelles;Quenelles;Quenelles;;;;;;;;;x
+PROV885;Helmgart;Helmgart;Helmgart;;;;;;;;;x
+PROV886;Parravon;Parravon;Parravon;;;;;;;;;x
+PROV887;Beaumont;Beaumont;Beaumont;;;;;;;;;x
+PROV888;Fumé;Fumé;Fumé;;;;;;;;;x
+PROV889;Grey Lady Pass;Grey Lady Pass;Grey Lady Pass;;;;;;;;;x
+PROV890;Karak Azgaraz;Karak Azgaraz;Karak Azgaraz;;;;;;;;;x
+PROV891;Brabillon;Brabillon;Brabillon;;;;;;;;;x
+PROV892;Servillon;Servillon;Servillon;;;;;;;;;x
+PROV893;Aix;Aix;Aix;;;;;;;;;x
+PROV894;Carcassonne;Carcassonne;Carcassonne;;;;;;;;;x
+PROV895;Brussergue;Brussergue;Brussergue;;;;;;;;;x
+PROV896;Embrun;Embrun;Embrun;;;;;;;;;x
+PROV897;Forac;Forac;Forac;;;;;;;;;x
+PROV898;Sammergall;Sammergall;Sammergall;;;;;;;;;x
+PROV899;Marguilles;Marguilles;Marguilles;;;;;;;;;x
+PROV900;Charboneau;Charboneau;Charboneau;;;;;;;;;x
+PROV901;Naverre;Naverre;Naverre;;;;;;;;;x
+PROV902;Foivaux;Foivaux;Foivaux;;;;;;;;;x
+PROV903;Morency;Morency;Morency;;;;;;;;;x
+PROV904;Tasselonne;Tasselonne;Tasselonne;;;;;;;;;x
+PROV905;Paillole;Paillole;Paillole;;;;;;;;;x
+PROV906;Blood Keep;Blood Keep;Blood Keep;;;;;;;;;x
+PROV907;Upper Vale of Florida;Upper Vale of Florida;Upper Vale of Florida;;;;;;;;;x
+PROV908;Lower Vale of Florida;Lower Vale of Florida;Lower Vale of Florida;;;;;;;;;x
+PROV909;Saar;Saar;Saar;;;;;;;;;x
+PROV910;Gruyon;Gruyon;Gruyon;;;;;;;;;x
+PROV911;Dornhan;Dornhan;Dornhan;;;;;;;;;x
+PROV912;Valoigne;Valoigne;Valoigne;;;;;;;;;x
+PROV913;Gap of Bergbres;Gap of Bergbres;Gap of Bergbres;;;;;;;;;x
+PROV914;Gisoreux Gap;Gisoreux Gap;Gisoreux Gap;;;;;;;;;x
+PROV915;Loren Pass;Loren Pass;Loren Pass;;;;;;;;;x
+PROV916;Califerne;Califerne;Califerne;;;;;;;;;x
+PROV917;L'île Tranquille;L'île Tranquille;L'île Tranquille;;;;;;;;;x
+PROV918;Caprezi;Caprezi;Caprezi;;;;;;;;;x
+PROV919;Santa Clair;Santa Clair;Santa Clair;;;;;;;;;x
+PROV920;Isla Vega;Isla Vega;Isla Vega;;;;;;;;;x
+PROV921;Montañoza;Montañoza;Montañoza;;;;;;;;;x
+PROV922;Isla Colina;Isla Colina;Isla Colina;;;;;;;;;x
+PROV923;Isla Corazón;Isla Corazón;Isla Corazón;;;;;;;;;x
+PROV924;Isla d'Azure;Isla d'Azure;Isla d'Azure;;;;;;;;;x
+PROV925;Fays;Fays;Fays;;;;;;;;;x
+PROV926;Umbresco;Umbresco;Umbresco;;;;;;;;;x
+PROV927;Nucca;Nucca;Nucca;;;;;;;;;x
+PROV928;Helgala;Helgala;Helgala;;;;;;;;;x
+PROV929;Hundsheimerwald;Hundsheimerwald;Hundsheimerwald;;;;;;;;;x
+PROV930;Zherden;Zherden;Zherden;;;;;;;;;x
+PROV931;Stimmigen;Stimmigen;Stimmigen;;;;;;;;;x
+PROV932;Kappelburg;Kappelburg;Kappelburg;;;;;;;;;x
+PROV933;Auld Ryding;Auld Ryding;Auld Ryding;;;;;;;;;x
+PROV934;Heideck;Heideck;Heideck;;;;;;;;;x
+PROV935;Eilhart;Eilhart;Eilhart;;;;;;;;;x
+PROV936;Vlakland;Vlakland;Vlakland;;;;;;;;;x
+PROV937;Noordmuur;Noordmuur;Noordmuur;;;;;;;;;x
+PROV938;Garamont;Garamont;Garamont;;;;;;;;;x
+PROV939;Sangasse;Sangasse;Sangasse;;;;;;;;;x
+PROV940;Outremer;Outremer;Outremer;;;;;;;;;x
+PROV941;Voronino;Voronino;Voronino;;;;;;;;;x
+PROV942;Zvyagino;Zvyagino;Zvyagino;;;;;;;;;x
+PROV943;Yarak;Yarak;Yarak;;;;;;;;;x
+PROV944;Dzugd;Dzugd;Dzugd;;;;;;;;;x
+PROV945;Sakhur;Sakhur;Sakhur;;;;;;;;;x
+PROV946;Alashah;Alashah;Alashah;;;;;;;;;x
+PROV947;Arguun;Arguun;Arguun;;;;;;;;;x
+PROV948;Zavkhan;Zavkhan;Zavkhan;;;;;;;;;x
+PROV949;Malchin;Malchin;Malchin;;;;;;;;;x
+PROV950;Mokhsogollokh;Mokhsogollokh;Mokhsogollokh;;;;;;;;;x
+PROV951;Turukhan;Turukhan;Turukhan;;;;;;;;;x
+PROV952;Jomal;Jomal;Jomal;;;;;;;;;x
+PROV953;Dvinar;Dvinar;Dvinar;;;;;;;;;x
+PROV955;Pontecorvo;Pontecorvo;Pontecorvo;;;;;;;;;x
+PROV956;Baildughan;Baildughan;Baildughan;;;;;;;;;x
+PROV957;Jaegerwald;Jaegerwald;Jaegerwald;;;;;;;;;x
+PROV958;Ertburg;Ertburg;Ertburg;;;;;;;;;x
+PROV959;Grünwald;Grünwald;Grünwald;;;;;;;;;x
+PROV993;Tripolana;Tripolana;Tripolana;;;;;;;;;x
+PROV1021;Fyrus;Fyrus;Fyrus;;;;;;;;;x
+PROV1042;Tirzor;Tirzor;Tirzor;;;;;;;;;x
+PROV1043;Chayük;Chayük;Chayük;;;;;;;;;x
+PROV1076;Eragol Bardum;Eragol Bardum;Eragol Bardum;;;;;;;;;x
+PROV1077;Chade;Chade;Chade;;;;;;;;;x
+PROV1078;Soddus;Soddus;Soddus;;;;;;;;;x
+PROV1079;Karak-a-Dumril;Karak-a-Dumril;Karak-a-Dumril;;;;;;;;;x
+PROV1080;Uzzintir;Uzzintir;Uzzintir;;;;;;;;;x
+PROV1081;Ungor-Bar-Indur;Ungor-Bar-Indur;Ungor-Bar-Indur;;;;;;;;;x
+PROV1082;Undrivar-Bar;Undrivar-Bar;Undrivar-Bar;;;;;;;;;x
+PROV1083;Khazalid Dorn;Khazalid Dorn;Khazalid Dorn;;;;;;;;;x
+PROV1084;Landrin-a-Klan;Landrin-a-Klan;Landrin-a-Klan;;;;;;;;;x
+PROV1085;Karak Razala;Karak Razala;Karak Razala;;;;;;;;;x
+PROV1086;Korgrim;Korgrim;Korgrim;;;;;;;;;x
+PROV1087;Kladdin;Kladdin;Kladdin;;;;;;;;;x
+PROV1088;Mindas Ungor;Mindas Ungor;Mindas Ungor;;;;;;;;;x
+PROV1089;Zhufstrom;Zhufstrom;Zhufstrom;;;;;;;;;x
+PROV1090;Ingikvar;Ingikvar;Ingikvar;;;;;;;;;x
+PROV1091;Jorzium;Jorzium;Jorzium;;;;;;;;;x
+PROV1092;Karak Kadal;Karak Kadal;Karak Kadal;;;;;;;;;x
+PROV1093;Kadar Khazalid;Kadar Khazalid;Kadar Khazalid;;;;;;;;;x
+PROV1094;Karag Krom;Karag Krom;Karag Krom;;;;;;;;;x
+PROV1095;Ungik;Ungik;Ungik;;;;;;;;;x
+PROV1096;Balog Ungor;Balog Ungor;Balog Ungor;;;;;;;;;x
+PROV1097;Barogrik;Barogrik;Barogrik;;;;;;;;;x
+PROV1098;Karag Homrar;Karag Homrar;Karag Homrar;;;;;;;;;x
+PROV1099;Brondik;Brondik;Brondik;;;;;;;;;x
+PROV1100;Kurgaz Grungon;Kurgaz Grungon;Kurgaz Grungon;;;;;;;;;x
+PROV1101;Khadiz Dorn;Khadiz Dorn;Khadiz Dorn;;;;;;;;;x
+PROV1102;Kazad Belegar;Kazad Belegar;Kazad Belegar;;;;;;;;;x
+PROV1103;Grung Dwor;Grung Dwor;Grung Dwor;;;;;;;;;x
+PROV1104;Grongol Norn;Grongol Norn;Grongol Norn;;;;;;;;;x
+PROV1105;Karak Dum;Karak Dum;Karak Dum;;;;;;;;;x
+PROV1106;Skraklaz Ungor;Skraklaz Ungor;Skraklaz Ungor;;;;;;;;;x
+PROV1107;Kolaz Ungor;Kolaz Ungor;Kolaz Ungor;;;;;;;;;x
+PROV1108;Karag Dar;Karag Dar;Karag Dar;;;;;;;;;x
+PROV1109;Khazid Nekewukaz;Khazid Nekewukaz;Khazid Nekewukaz;;;;;;;;;x
+PROV1110;Stromez Zorn;Stromez Zorn;Stromez Zorn;;;;;;;;;x
+PROV1111;Karag Grim;Karag Grim;Karag Grim;;;;;;;;;x
+PROV1112;Urdivan;Urdivan;Urdivan;;;;;;;;;x
+PROV1167;Viksjoergsberg;Viksjoergsberg;Viksjoergsberg;;;;;;;;;x
+PROV1168;Bjarkavig;Bjarkavig;Bjarkavig;;;;;;;;;x
+PROV1169;Bragnir;Bragnir;Bragnir;;;;;;;;;x
+PROV1170;Varaland;Varaland;Varaland;;;;;;;;;x
+PROV1171;Zandt;Zandt;Zandt;;;;;;;;;x
+PROV1172;Hyttafjord;Hyttafjord;Hyttafjord;;;;;;;;;x
+PROV1173;Skorlm;Skorlm;Skorlm;;;;;;;;;x
+PROV1174;Krakav;Krakav;Krakav;;;;;;;;;x
+PROV1175;Halkild;Halkild;Halkild;;;;;;;;;x
+PROV1176;Dira;Dira;Dira;;;;;;;;;x
+PROV1177;Askola;Askola;Askola;;;;;;;;;x
+PROV1178;Suyab;Suyab;Suyab;;;;;;;;;x
+PROV1179;Balasaqun;Balasaqun;Balasaqun;;;;;;;;;x
+PROV1180;Kharakit;Kharakit;Kharakit;;;;;;;;;x
+PROV1181;Pishpek;Pishpek;Pishpek;;;;;;;;;x
+PROV1182;Frunz;Frunz;Frunz;;;;;;;;;x
+PROV1183;Oluod;Oluod;Oluod;;;;;;;;;x
+PROV1184;Norisk;Norisk;Norisk;;;;;;;;;x
+PROV1185;Khakatass;Khakatass;Khakatass;;;;;;;;;x
+PROV1186;Yarsk;Yarsk;Yarsk;;;;;;;;;x
+PROV1187;Angara;Angara;Angara;;;;;;;;;x
+PROV1188;Nuur;Nuur;Nuur;;;;;;;;;x
+PROV1189;Tuva;Tuva;Tuva;;;;;;;;;x
+PROV1190;Abak;Abak;Abak;;;;;;;;;x
+PROV1191;Suleng;Suleng;Suleng;;;;;;;;;x
+PROV1192;Tatarum;Tatarum;Tatarum;;;;;;;;;x
+PROV1193;Barabas;Barabas;Barabas;;;;;;;;;x
+PROV1194;Sybyr;Sybyr;Sybyr;;;;;;;;;x
+PROV1195;Saget;Saget;Saget;;;;;;;;;x
+PROV1196;Carsuri;Carsuri;Carsuri;;;;;;;;;x
+PROV1197;Miluks;Miluks;Miluks;;;;;;;;;x
+PROV1198;Komri;Komri;Komri;;;;;;;;;x
+PROV1200;Kuldevind Islands;Kuldevind Islands;Kuldevind Islands;;;;;;;;;x
+PROV1201;Uvs;Uvs;Uvs;;;;;;;;;x
+PROV1202;Tarim;Tarim;Tarim;;;;;;;;;x
+PROV1203;Khovd;Khovd;Khovd;;;;;;;;;x
+PROV1204;Baatar;Baatar;Baatar;;;;;;;;;x
+PROV1205;Yucho;Yucho;Yucho;;;;;;;;;x
+PROV1206;Uromqi;Uromqi;Uromqi;;;;;;;;;x
+PROV1207;Khotaan;Khotaan;Khotaan;;;;;;;;;x
+PROV1208;Ket;Ket;Ket;;;;;;;;;x
+PROV1209;Bagstay;Bagstay;Bagstay;;;;;;;;;x
+PROV1210;Nivk;Nivk;Nivk;;;;;;;;;x
+PROV1211;Tiel;Tiel;Tiel;;;;;;;;;x
+PROV1212;Nerchin;Nerchin;Nerchin;;;;;;;;;x
+PROV1213;Bortaala;Bortaala;Bortaala;;;;;;;;;x
+PROV1214;Aral;Aral;Aral;;;;;;;;;x
+PROV1215;Yupyk;Yupyk;Yupyk;;;;;;;;;x
+PROV1216;Torpan;Torpan;Torpan;;;;;;;;;x
+PROV1217;Zanur;Zanur;Zanur;;;;;;;;;x
+PROV1218;Karmay;Karmay;Karmay;;;;;;;;;x
+PROV1219;Miryr;Miryr;Miryr;;;;;;;;;x
+PROV1220;Sakar;Sakar;Sakar;;;;;;;;;x
+PROV1221;Khamchata;Khamchata;Khamchata;;;;;;;;;x
+PROV1222;Chamsyts;Chamsyts;Chamsyts;;;;;;;;;x
+PROV1223;Mesch;Mesch;Mesch;;;;;;;;;x
+PROV1224;Mador;Mador;Mador;;;;;;;;;x
+PROV1225;Votioi;Votioi;Votioi;;;;;;;;;x
+PROV1226;Anaol;Anaol;Anaol;;;;;;;;;x
+PROV1227;Ninyt;Ninyt;Ninyt;;;;;;;;;x
+PROV1228;Eiigin;Eiigin;Eiigin;;;;;;;;;x
+PROV1229;Magad;Magad;Magad;;;;;;;;;x
+PROV1230;Kamas;Kamas;Kamas;;;;;;;;;x
+PROV1231;Kolim;Kolim;Kolim;;;;;;;;;x
+PROV1232;Issikul;Issikul;Issikul;;;;;;;;;x
+PROV1233;Krygz;Krygz;Krygz;;;;;;;;;x
+PROV1234;Yurgh;Yurgh;Yurgh;;;;;;;;;x
+PROV1235;Ents;Ents;Ents;;;;;;;;;x
+PROV1236;Olkoron;Olkoron;Olkoron;;;;;;;;;x
+PROV1237;Yakhdoi;Yakhdoi;Yakhdoi;;;;;;;;;x
+PROV1238;Bakal;Bakal;Bakal;;;;;;;;;x
+PROV1239;Kurshun;Kurshun;Kurshun;;;;;;;;;x
+PROV1240;Ganibek;Ganibek;Ganibek;;;;;;;;;x
+PROV1241;Ailish;Ailish;Ailish;;;;;;;;;x
+PROV1242;Zetisu;Zetisu;Zetisu;;;;;;;;;x
+PROV1243;Rataumyr;Rataumyr;Rataumyr;;;;;;;;;x
+PROV1244;Azkaroth;Azkaroth;Azkaroth;;;;;;;;;x
+PROV1245;Tohkar;Tohkar;Tohkar;;;;;;;;;x
+PROV1246;Krasnodar;Krasnodar;Krasnodar;;;;;;;;;x
+PROV1247;Kropot;Kropot;Kropot;;;;;;;;;x
+PROV1248;Zapad;Zapad;Zapad;;;;;;;;;x
+PROV1249;Ugar;Ugar;Ugar;;;;;;;;;x
+PROV1250;Hattran;Hattran;Hattran;;;;;;;;;x
+PROV1251;Baalbek;Baalbek;Baalbek;;;;;;;;;x
+PROV1252;Targhizizi;Targhizizi;Targhizizi;;;;;;;;;x
+PROV1253;Gorgoth;Gorgoth;Gorgoth;;;;;;;;;x
+PROV1254;Kur;Kur;Kur;;;;;;;;;x
+PROV1255;Murlech;Murlech;Murlech;;;;;;;;;x
+PROV1256;Anat;Anat;Anat;;;;;;;;;x
+PROV1257;Larza;Larza;Larza;;;;;;;;;x
+PROV1258;Chalde;Chalde;Chalde;;;;;;;;;x
+PROV1259;Carchemish;Carchemish;Carchemish;;;;;;;;;x
+PROV1260;Tibiria;Tibiria;Tibiria;;;;;;;;;x
+PROV1261;Anu;Anu;Anu;;;;;;;;;x
+PROV1262;Inanna;Inanna;Inanna;;;;;;;;;x
+PROV1263;Isin;Isin;Isin;;;;;;;;;x
+PROV1264;Urmia;Urmia;Urmia;;;;;;;;;x
+PROV1265;Daro;Daro;Daro;;;;;;;;;x
+PROV1266;Helgrind;Helgrind;Helgrind;;;;;;;;;x
+PROV1267;Tamarkrupa;Tamarkrupa;Tamarkrupa;;;;;;;;;x
+PROV1268;Vortrium;Vortrium;Vortrium;;;;;;;;;x
+PROV1269;Eidelwiss;Eidelwiss;Eidelwiss;;;;;;;;;x
+PROV1270;Grötchen;Grötchen;Grötchen;;;;;;;;;x
+PROV1271;Hinterland;Hinterland;Hinterland;;;;;;;;;x
+PROV1272;Daemon's Stump;Daemon's Stump;Daemon's Stump;;;;;;;;;x
+PROV1273;Black Fortress;Black Fortress;Black Fortress;;;;;;;;;x
+PROV1274;Pigbarter;Pigbarter;Pigbarter;;;;;;;;;x
+PROV1275;Char;Char;Char;;;;;;;;;x
+PROV1276;Desolace;Desolace;Desolace;;;;;;;;;x
+PROV1277;Grey Waste;Grey Waste;Grey Waste;;;;;;;;;x
+PROV1278;Skarbrand;Skarbrand;Skarbrand;;;;;;;;;x
+PROV1279;Inred;Inred;Inred;;;;;;;;;x
+PROV1280;Kurshu;Kurshu;Kurshu;;;;;;;;;x
+PROV1281;Ember;Ember;Ember;;;;;;;;;x
+PROV1282;Ashenmount;Ashenmount;Ashenmount;;;;;;;;;x
+PROV1283;Karak Vrag;Karak Vrag;Karak Vrag;;;;;;;;;x
+PROV1284;Turgran;Turgran;Turgran;;;;;;;;;x
+PROV1285;Ashrift;Ashrift;Ashrift;;;;;;;;;x
+PROV1286;Karak Ekslagar;Karak Ekslagar;Karak Ekslagar;;;;;;;;;x
+PROV1287;Karag Gorim;Karag Gorim;Karag Gorim;;;;;;;;;x
+PROV1288;Karaz Hashuti;Karaz Hashuti;Karaz Hashuti;;;;;;;;;x
+PROV1289;Stonehol;Stonehol;Stonehol;;;;;;;;;x
+PROV1290;Azgrimar;Azgrimar;Azgrimar;;;;;;;;;x
+PROV1291;Karak Zharr;Karak Zharr;Karak Zharr;;;;;;;;;x
+PROV1292;Ruadrin;Ruadrin;Ruadrin;;;;;;;;;x
+PROV1293;Sulfuras;Sulfuras;Sulfuras;;;;;;;;;x
+PROV1294;Orgris;Orgris;Orgris;;;;;;;;;x
+PROV1295;Perik;Perik;Perik;;;;;;;;;x
+PROV1296;Ombra;Ombra;Ombra;;;;;;;;;x
+PROV1297;Ankarath;Ankarath;Ankarath;;;;;;;;;x
+PROV1298;Ghulakth;Ghulakth;Ghulakth;;;;;;;;;x
+PROV1299;Darkhold;Darkhold;Darkhold;;;;;;;;;x
+PROV1300;Thaurizon;Thaurizon;Thaurizon;;;;;;;;;x
+PROV1301;Mizpal Ungor;Mizpal Ungor;Mizpal Ungor;;;;;;;;;x
+PROV1302;Gorlabar;Gorlabar;Gorlabar;;;;;;;;;x
+PROV1303;Nath Agra;Nath Agra;Nath Agra;;;;;;;;;x
+PROV1304;Gaz Orrud;Gaz Orrud;Gaz Orrud;;;;;;;;;x
+PROV1305;Cabal;Cabal;Cabal;;;;;;;;;x
+PROV1306;Saspire;Saspire;Saspire;;;;;;;;;x
+PROV1307;Gherra;Gherra;Gherra;;;;;;;;;x
+PROV1308;Chandak;Chandak;Chandak;;;;;;;;;x
+PROV1309;Nakta;Nakta;Nakta;;;;;;;;;x
+PROV1310;Rhazgala;Rhazgala;Rhazgala;;;;;;;;;x
+PROV1311;Zinir;Zinir;Zinir;;;;;;;;;x
+PROV1312;Ilkatuktak;Ilkatuktak;Ilkatuktak;;;;;;;;;x
+PROV1313;Arum;Arum;Arum;;;;;;;;;x
+PROV1314;Jong-On;Jong-On;Jong-On;;;;;;;;;x
+PROV1315;Rodmarin;Rodmarin;Rodmarin;;;;;;;;;x
+PROV1317;Geringwald;Geringwald;Geringwald;;;;;;;;;x
+PROV1318;Aussenstadt;Aussenstadt;Aussenstadt;;;;;;;;;x
+PROV1319;Gringril;Gringril;Gringril;;;;;;;;;x
+PROV1320;Karag Ril;Karag Ril;Karag Ril;;;;;;;;;x
+PROV1321;Tromriki;Tromriki;Tromriki;;;;;;;;;x
+PROV1322;Ikizir;Ikizir;Ikizir;;;;;;;;;x
+PROV1323;Karak Palik;Karak Palik;Karak Palik;;;;;;;;;x
+PROV1324;Khazgoruz;Khazgoruz;Khazgoruz;;;;;;;;;x
+PROV1325;Grimaz Batol;Grimaz Batol;Grimaz Batol;;;;;;;;;x
+PROV1326;Karaz-Lumbar;Karaz-Lumbar;Karaz-Lumbar;;;;;;;;;x
+PROV1327;Kazad Kol;Kazad Kol;Kazad Kol;;;;;;;;;x
+PROV1328;Kazad Ghulg;Kazad Ghulg;Kazad Ghulg;;;;;;;;;x
+PROV1329;Kazad Klad;Kazad Klad;Kazad Klad;;;;;;;;;x
+PROV1330;Karak Grong;Karak Grong;Karak Grong;;;;;;;;;x
+PROV1331;Karag Garaz;Karag Garaz;Karag Garaz;;;;;;;;;x
+PROV1332;Khaz Bryn;Khaz Bryn;Khaz Bryn;;;;;;;;;x
+PROV1333;Lichtungsmarkt;Lichtungsmarkt;Lichtungsmarkt;;;;;;;;;x
+PROV1489;Karak Hafak;Karak Hafak;Karak Hafak;;;;;;;;;x
+PROV1490;Khazid Svarkungor;Khazid Svarkungor;Khazid Svarkungor;;;;;;;;;x
+PROV1491;Khazid Aldum;Khazid Aldum;Khazid Aldum;;;;;;;;;x
+PROV1820;Cold Mire;Cold Mire;Cold Mire;;;;;;;;;x
+PROV1821;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1826;Coast of Tilea;Coast of Tilea;Coast of Tilea;;;;;;;;;x
+PROV1827;River Sannez;River Sannez;River Sannez;;;;;;;;;x
+PROV1831;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV1832;River Rugavalk;River Rugavalk;River Rugavalk;;;;;;;;;x
+PROV1834;River Starnek;River Starnek;River Starnek;;;;;;;;;x
+PROV1835;Drakfljot;Drakfljot;Drakfljot;;;;;;;;;x
+PROV1836;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV1837;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV1838;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV1839;River Sannez;River Sannez;River Sannez;;;;;;;;;x
+PROV1840;River Lynsk;River Lynsk;River Lynsk;;;;;;;;;x
+PROV1841;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1842;River Bogen;River Bogen;River Bogen;;;;;;;;;x
+PROV1843;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV1844;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV1845;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1846;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1847;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1848;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV1849;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1850;River Aver;River Aver;River Aver;;;;;;;;;x
+PROV1851;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1852;River Aver;River Aver;River Aver;;;;;;;;;x
+PROV1853;Marshes of Madness;Marshes of Madness;Marshes of Madness;;;;;;;;;x
+PROV1854;Rime;Rime;Rime;;;;;;;;;x
+PROV1855;Frozen Maw;Frozen Maw;Frozen Maw;;;;;;;;;x
+PROV1856;Angara;Angara;Angara;;;;;;;;;x
+PROV1857;The Thawed Bay;The Thawed Bay;The Thawed Bay;;;;;;;;;x
+PROV1858;The Thawed Bay;The Thawed Bay;The Thawed Bay;;;;;;;;;x
+PROV1859;Fjelljerford;Fjelljerford;Fjelljerford;;;;;;;;;x
+PROV1860;Draksfjord;Draksfjord;Draksfjord;;;;;;;;;x
+PROV1861;The White Sea;The White Sea;The White Sea;;;;;;;;;x
+PROV1862;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1863;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1864;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1865;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1866;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1867;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1869;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1870;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1871;Kuldevind Sea;Kuldevind Sea;Kuldevind Sea;;;;;;;;;x
+PROV1872;The White Sea;The White Sea;The White Sea;;;;;;;;;x
+PROV1873;The White Sea;The White Sea;The White Sea;;;;;;;;;x
+PROV1874;Kraken Sea;Kraken Sea;Kraken Sea;;;;;;;;;x
+PROV1875;Kraken Sea;Kraken Sea;Kraken Sea;;;;;;;;;x
+PROV1876;Kraken Sea;Kraken Sea;Kraken Sea;;;;;;;;;x
+PROV1878;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV1879;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV1882;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV1885;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV1886;River Starnek;River Starnek;River Starnek;;;;;;;;;x
+PROV1887;River Morceaux;River Morceaux;River Morceaux;;;;;;;;;x
+PROV1888;River Zapadryeka;River Zapadryeka;River Zapadryeka;;;;;;;;;x
+PROV1889;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1890;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1891;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1892;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1893;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1894;Taldursfjord;Taldursfjord;Taldursfjord;;;;;;;;;x
+PROV1895;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1896;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1897;Nordlig;Nordlig;Nordlig;;;;;;;;;x
+PROV1898;Nordlig;Nordlig;Nordlig;;;;;;;;;x
+PROV1899;Teeth of the Kraken;Teeth of the Kraken;Teeth of the Kraken;;;;;;;;;x
+PROV1900;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1901;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1902;Vestligkyst;Vestligkyst;Vestligkyst;;;;;;;;;x
+PROV1904;Vestligkyst;Vestligkyst;Vestligkyst;;;;;;;;;x
+PROV1905;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1907;Taaketskog;Taaketskog;Taaketskog;;;;;;;;;x
+PROV1908;Coast of Norsca;Coast of Norsca;Coast of Norsca;;;;;;;;;x
+PROV1909;Bay of Fins;Bay of Fins;Bay of Fins;;;;;;;;;x
+PROV1910;Soerligslette;Soerligslette;Soerligslette;;;;;;;;;x
+PROV1911;Gulf of the Maelstrom;Gulf of the Maelstrom;Gulf of the Maelstrom;;;;;;;;;x
+PROV1912;Taaketskog;Taaketskog;Taaketskog;;;;;;;;;x
+PROV1913;Sea of Claws;Sea of Claws;Sea of Claws;;;;;;;;;x
+PROV1915;Starivoda Bay;Starivoda Bay;Starivoda Bay;;;;;;;;;x
+PROV1916;Drosselspule Bay;Drosselspule Bay;Drosselspule Bay;;;;;;;;;x
+PROV1918;Mannan's Teeth;Mannan's Teeth;Mannan's Teeth;;;;;;;;;x
+PROV1919;Sea of Claws;Sea of Claws;Sea of Claws;;;;;;;;;x
+PROV1920;Wrecker's Point;Wrecker's Point;Wrecker's Point;;;;;;;;;x
+PROV1921;Manaanspoort Sea;Manaanspoort Sea;Manaanspoort Sea;;;;;;;;;x
+PROV1922;Reaver's Point;Reaver's Point;Reaver's Point;;;;;;;;;x
+PROV1923;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1924;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1925;The Dragon's Maw;The Dragon's Maw;The Dragon's Maw;;;;;;;;;x
+PROV1926;Middle Sea;Middle Sea;Middle Sea;;;;;;;;;x
+PROV1927;Middle Sea;Middle Sea;Middle Sea;;;;;;;;;x
+PROV1928;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1929;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1930;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1931;Coast of Bretonnia;Coast of Bretonnia;Coast of Bretonnia;;;;;;;;;x
+PROV1932;Golfe du Bidouze;Golfe du Bidouze;Golfe du Bidouze;;;;;;;;;x
+PROV1933;River Niveau;River Niveau;River Niveau;;;;;;;;;x
+PROV1934;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV1936;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV1937;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1938;Finterra;Finterra;Finterra;;;;;;;;;x
+PROV1939;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1940;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1941;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1942;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1943;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV1944;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1945;Finterra;Finterra;Finterra;;;;;;;;;x
+PROV1946;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV1947;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV1948;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV1949;Bay of Quietude;Bay of Quietude;Bay of Quietude;;;;;;;;;x
+PROV1951;Fool's Point;Fool's Point;Fool's Point;;;;;;;;;x
+PROV1953;Siren Sea;Siren Sea;Siren Sea;;;;;;;;;x
+PROV1954;Gulf of Fodore;Gulf of Fodore;Gulf of Fodore;;;;;;;;;x
+PROV1955;Gulf of Miragliono;Gulf of Miragliono;Gulf of Miragliono;;;;;;;;;x
+PROV1956;Litoral Sur;Litoral Sur;Litoral Sur;;;;;;;;;x
+PROV1957;Coast of Tilea;Coast of Tilea;Coast of Tilea;;;;;;;;;x
+PROV1958;Coast of Tilea;Coast of Tilea;Coast of Tilea;;;;;;;;;x
+PROV1959;Tilean Sea;Tilean Sea;Tilean Sea;;;;;;;;;x
+PROV1960;Coast of Tilea;Coast of Tilea;Coast of Tilea;;;;;;;;;x
+PROV1961;Pirate's Current;Pirate's Current;Pirate's Current;;;;;;;;;x
+PROV1962;Tilean Sea;Tilean Sea;Tilean Sea;;;;;;;;;x
+PROV1963;Coast of Sartosa;Coast of Sartosa;Coast of Sartosa;;;;;;;;;x
+PROV1965;Coast of Sartosa;Coast of Sartosa;Coast of Sartosa;;;;;;;;;x
+PROV1966;Coast of Sartosa;Coast of Sartosa;Coast of Sartosa;;;;;;;;;x
+PROV1967;Capo Cino;Capo Cino;Capo Cino;;;;;;;;;x
+PROV1968;Pirate's Current;Pirate's Current;Pirate's Current;;;;;;;;;x
+PROV1969;Bay of Wrecks;Bay of Wrecks;Bay of Wrecks;;;;;;;;;x
+PROV1970;Lagoon of Tears;Lagoon of Tears;Lagoon of Tears;;;;;;;;;x
+PROV1974;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV1975;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV1976;The Frozen Shore;The Frozen Shore;The Frozen Shore;;;;;;;;;x
+PROV1977;Drakfljot;Drakfljot;Drakfljot;;;;;;;;;x
+PROV1978;River Talebec;River Talebec;River Talebec;;;;;;;;;x
+PROV1983;Black Water;Black Water;Black Water;;;;;;;;;x
+PROV1984;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV1985;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1986;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1987;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV1988;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV1989;Lagoon of Tears;Lagoon of Tears;Lagoon of Tears;;;;;;;;;x
+PROV1990;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1991;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1992;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1993;Tona Dante;Tona Dante;Tona Dante;;;;;;;;;x
+PROV1994;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1995;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1996;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1997;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1998;The Black Gulf;The Black Gulf;The Black Gulf;;;;;;;;;x
+PROV1999;Litoral Sur;Litoral Sur;Litoral Sur;;;;;;;;;x
+PROV2001;Siren Sea;Siren Sea;Siren Sea;;;;;;;;;x
+PROV2003;Siren Sea;Siren Sea;Siren Sea;;;;;;;;;x
+PROV2005;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2010;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV2014;Sea of Claws;Sea of Claws;Sea of Claws;;;;;;;;;x
+PROV2020;Siren Sea;Siren Sea;Siren Sea;;;;;;;;;x
+PROV2033;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2034;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2035;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2036;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2037;Blood River;Blood River;Blood River;;;;;;;;;x
+PROV2039;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2040;Coast of Estalia;Coast of Estalia;Coast of Estalia;;;;;;;;;x
+PROV2041;Southern Sea;Southern Sea;Southern Sea;;;;;;;;;x
+PROV2042;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV2043;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV2044;Middle Sea;Middle Sea;Middle Sea;;;;;;;;;x
+PROV2045;Litoral Sur;Litoral Sur;Litoral Sur;;;;;;;;;x
+PROV2046;River Lynsk;River Lynsk;River Lynsk;;;;;;;;;x
+PROV2047;Great Ocean;Great Ocean;Great Ocean;;;;;;;;;x
+PROV2048;River Talebec;River Talebec;River Talebec;;;;;;;;;x
+PROV2049;River Rugavalk;River Rugavalk;River Rugavalk;;;;;;;;;x
+PROV2050;River Rugavalk;River Rugavalk;River Rugavalk;;;;;;;;;x
+PROV2051;Iisgalt;Iisgalt;Iisgalt;;;;;;;;;x
+PROV2052;Halkild;Halkild;Halkild;;;;;;;;;x
+PROV2053;Lake Ladogash;Lake Ladogash;Lake Ladogash;;;;;;;;;x
+PROV2054;Zorn Uzkul;Zorn Uzkul;Zorn Uzkul;;;;;;;;;x
+PROV2055;Zorn Uzkul;Zorn Uzkul;Zorn Uzkul;;;;;;;;;x
+PROV2056;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV2057;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV2058;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV2059;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV2060;River Sannez;River Sannez;River Sannez;;;;;;;;;x
+PROV2061;River Lynsk;River Lynsk;River Lynsk;;;;;;;;;x
+PROV2062;River Lynsk;River Lynsk;River Lynsk;;;;;;;;;x
+PROV2063;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2064;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2065;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2066;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2067;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2068;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2069;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2070;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2071;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2072;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2073;Sour Sea;Sour Sea;Sour Sea;;;;;;;;;x
+PROV2074;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2075;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2076;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2077;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2096;South Lynsk;South Lynsk;South Lynsk;;;;;;;;;x
+PROV2099;Sea of Chaos;Sea of Chaos;Sea of Chaos;;;;;;;;;x
+PROV2103;River Riati;River Riati;River Riati;;;;;;;;;x
+PROV2104;River Riati;River Riati;River Riati;;;;;;;;;x
+PROV2105;River Riati;River Riati;River Riati;;;;;;;;;x
+PROV2122;Sea of Storms;Sea of Storms;Sea of Storms;;;;;;;;;x
+PROV2123;Sea of Storms;Sea of Storms;Sea of Storms;;;;;;;;;x
+PROV2124;Sea of Storms;Sea of Storms;Sea of Storms;;;;;;;;;x
+PROV2125;Sea of Storms;Sea of Storms;Sea of Storms;;;;;;;;;x
+PROV2131;Scalding Delta;Scalding Delta;Scalding Delta;;;;;;;;;x
+PROV2132;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2138;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2139;River Ruin;River Ruin;River Ruin;;;;;;;;;x
+PROV2148;Lizard Sea;Lizard Sea;Lizard Sea;;;;;;;;;x
+PROV2149;Lizard Sea;Lizard Sea;Lizard Sea;;;;;;;;;x
+PROV2150;Sea of Storms;Sea of Storms;Sea of Storms;;;;;;;;;x
+PROV2151;Lizard Sea;Lizard Sea;Lizard Sea;;;;;;;;;x
+PROV2152;Lizard Sea;Lizard Sea;Lizard Sea;;;;;;;;;x
+PROV2157;River Zapadryeka;River Zapadryeka;River Zapadryeka;;;;;;;;;x
+PROV2164;Corsair Strand;Corsair Strand;Corsair Strand;;;;;;;;;x
+PROV2169;Corsair Strand;Corsair Strand;Corsair Strand;;;;;;;;;x
+PROV2244;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV2245;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV2246;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV2247;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV2248;River Aver;River Aver;River Aver;;;;;;;;;x
+PROV2249;River Aver;River Aver;River Aver;;;;;;;;;x
+PROV2250;River Soll;River Soll;River Soll;;;;;;;;;x
+PROV2251;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV2252;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV2253;River Reik;River Reik;River Reik;;;;;;;;;x
+PROV2254;River Urskoy;River Urskoy;River Urskoy;;;;;;;;;x
+PROV2255;River Urskoy;River Urskoy;River Urskoy;;;;;;;;;x
+PROV2256;River Urskoy;River Urskoy;River Urskoy;;;;;;;;;x
+PROV2257;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV2258;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV2259;River Tobol;River Tobol;River Tobol;;;;;;;;;x
+PROV2260;River Tobol;River Tobol;River Tobol;;;;;;;;;x
+PROV2261;River Tobol;River Tobol;River Tobol;;;;;;;;;x
+PROV2262;River Tobol;River Tobol;River Tobol;;;;;;;;;x
+PROV2263;River Tolsol;River Tolsol;River Tolsol;;;;;;;;;x
+PROV2264;River Dypvann;River Dypvann;River Dypvann;;;;;;;;;x
+PROV2265;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV2266;River Tarmos;River Tarmos;River Tarmos;;;;;;;;;x
+PROV2267;River Guadariz;River Guadariz;River Guadariz;;;;;;;;;x
+PROV2268;River Starnek;River Starnek;River Starnek;;;;;;;;;x
+PROV2269;River Starnek;River Starnek;River Starnek;;;;;;;;;x
+PROV2270;River Starnek;River Starnek;River Starnek;;;;;;;;;x
+PROV2271;River Stir;River Stir;River Stir;;;;;;;;;x
+PROV2272;Halkild;Halkild;Halkild;;;;;;;;;x
+PROV2273;Iisgalt;Iisgalt;Iisgalt;;;;;;;;;x
+PROV2274;Ursfjord;Ursfjord;Ursfjord;;;;;;;;;x
+PROV2275;River Talabec;River Talabec;River Talabec;;;;;;;;;x
+PROV2276;River Grismerie;River Grismerie;River Grismerie;;;;;;;;;x
+PROV2277;River Sannez;River Sannez;River Sannez;;;;;;;;;x
+PROV2278;River Sannez;River Sannez;River Sannez;;;;;;;;;x
+PROV2279;River Morceaux;River Morceaux;River Morceaux;;;;;;;;;x
+PROV2280;River Brienne;River Brienne;River Brienne;;;;;;;;;x
+PROV2281;River Lynsk;River Lynsk;River Lynsk;;;;;;;;;x
+PROV2282;Azurem;Azurem;Azurem;;;;;;;;;x
+PROV2299;Mountains of Madness;Mountains of Madness;Mountains of Madness;;;;;;;;;x
+PROV2300;Massif Oreal;Massif Oreal;Massif Oreal;;;;;;;;;x
+PROV2301;Pale Sisters;Pale Sisters;Pale Sisters;;;;;;;;;x
+PROV2302;Middle Mountains;Middle Mountains;Middle Mountains;;;;;;;;;x
+PROV2303;Goromadny Mountains;Goromadny Mountains;Goromadny Mountains;;;;;;;;;x
+PROV2304;Apucinni Mountains;Apucinni Mountains;Apucinni Mountains;;;;;;;;;x
+PROV2306;Vanaheim Mountains;Vanaheim Mountains;Vanaheim Mountains;;;;;;;;;x
+PROV2307;Helspire Mountains;Helspire Mountains;Helspire Mountains;;;;;;;;;x
+PROV2308;Frostheim Mountains;Frostheim Mountains;Frostheim Mountains;;;;;;;;;x
+PROV2309;Mountains of Thjazi;Mountains of Thjazi;Mountains of Thjazi;;;;;;;;;x
+PROV2310;Khuuitan Shelf;Khuuitan Shelf;Khuuitan Shelf;;;;;;;;;x
+PROV2311;Ice Tooth Mountains;Ice Tooth Mountains;Ice Tooth Mountains;;;;;;;;;x
+PROV2312;Mountains of Naglfari;Mountains of Naglfari;Mountains of Naglfari;;;;;;;;;x
+PROV2313;Athel Loren;Athel Loren;Athel Loren;;;;;;;;;x
+PROV2314;Ulfwerenar Mountains;Ulfwerenar Mountains;Ulfwerenar Mountains;;;;;;;;;x
+PROV2315;Trollheim Mountains;Trollheim Mountains;Trollheim Mountains;;;;;;;;;x
+PROV2316;Skadi Mountains;Skadi Mountains;Skadi Mountains;;;;;;;;;x
+PROV2317;Mountains of Hel;Mountains of Hel;Mountains of Hel;;;;;;;;;x
+PROV2318;Gianthome Mountains;Gianthome Mountains;Gianthome Mountains;;;;;;;;;x
+PROV2319;Grey Mountains;Grey Mountains;Grey Mountains;;;;;;;;;x
+PROV2320;Abasko Mountains;Abasko Mountains;Abasko Mountains;;;;;;;;;x
+PROV2321;The Vaults;The Vaults;The Vaults;;;;;;;;;x
+PROV2322;Black Mountains;Black Mountains;Black Mountains;;;;;;;;;x
+PROV2324;Crater of Zharr;Crater of Zharr;Crater of Zharr;;;;;;;;;x
+PROV2325;Icewind Mountains;Icewind Mountains;Icewind Mountains;;;;;;;;;x
+PROV2326;Azgorh;Azgorh;Azgorh;;;;;;;;;x
+PROV2327;Beast Peaks;Beast Peaks;Beast Peaks;;;;;;;;;x
+PROV2328;Stormrim;Stormrim;Stormrim;;;;;;;;;x
+PROV2329;Chaos Wastes;Chaos Wastes;Chaos Wastes;;;;;;;;;x
+PROV2330;Bylorhof Marsh;Bylorhof Marsh;Bylorhof Marsh;;;;;;;;;x
+PROV2331;Blighted Marshes;Blighted Marshes;Blighted Marshes;;;;;;;;;x
+PROV2332;World's Edge Mountains;World's Edge Mountains;World's Edge Mountains;;;;;;;;;x
+PROV2333;Irrana Mountains;Irrana Mountains;Irrana Mountains;;;;;;;;;x
+PROV2335;Cold Mire;Cold Mire;Cold Mire;;;;;;;;;x
+PROV2336;The Frostbites;The Frostbites;The Frostbites;;;;;;;;;x
+PROV2337;Mountains of Mourn;Mountains of Mourn;Mountains of Mourn;;;;;;;;;x
+PROV2338;Plateau of K'Datha;Plateau of K'Datha;Plateau of K'Datha;;;;;;;;;x
+PROV2339;Pillars of the Gods;Pillars of the Gods;Pillars of the Gods;;;;;;;;;x
+PROV2340;Plateau of Zorn Uzkul;Plateau of Zorn Uzkul;Plateau of Zorn Uzkul;;;;;;;;;x
+PROV2341;Jagged Spine;Jagged Spine;Jagged Spine;;;;;;;;;x
+PROV2342;Gnoblar Country;Gnoblar Country;Gnoblar Country;;;;;;;;;x
+PROV2343;Crevice of Doom;Crevice of Doom;Crevice of Doom;;;;;;;;;x
+PROV2344;Scalding Delta;Scalding Delta;Scalding Delta;;;;;;;;;x
+PROV2347;World's Edge Mountains;World's Edge Mountains;World's Edge Mountains;;;;;;;;;x
+PROV2353;Tal Driacha;Tal Driacha;Tal Driacha;;;;;;;;;x
+PROV2354;Delliandra;Delliandra;Delliandra;;;;;;;;;x
+PROV2355;Tirsyth;Tirsyth;Tirsyth;;;;;;;;;x
+PROV2356;Tal Silvoch;Tal Silvoch;Tal Silvoch;;;;;;;;;x
+PROV2357;Alarin;Alarin;Alarin;;;;;;;;;x
+PROV2358;Beithir Seun;Beithir Seun;Beithir Seun;;;;;;;;;x
+PROV2359;Ystin Lileath;Ystin Lileath;Ystin Lileath;;;;;;;;;x
+PROV2360;Tal Esth;Tal Esth;Tal Esth;;;;;;;;;x
+PROV2361;Sumnos;Sumnos;Sumnos;;;;;;;;;x
+PROV2362;Naiados;Naiados;Naiados;;;;;;;;;x
+PROV2363;Locrimere;Locrimere;Locrimere;;;;;;;;;x
+PROV2364;Tal Fyr Eternos;Tal Fyr Eternos;Tal Fyr Eternos;;;;;;;;;x
+PROV2365;Tal Enda Varian;Tal Enda Varian;Tal Enda Varian;;;;;;;;;x
+PROV2366;Tal Varigan;Tal Varigan;Tal Varigan;;;;;;;;;x
+PROV2367;Cader Donam;Cader Donam;Cader Donam;;;;;;;;;x
+PROV2368;Eomain Tarn;Eomain Tarn;Eomain Tarn;;;;;;;;;x
+PROV2369;Tal Jul-finel;Tal Jul-finel;Tal Jul-finel;;;;;;;;;x
+PROV2370;Findol;Findol;Findol;;;;;;;;;x
+PROV2371;Sceolath-mar;Sceolath-mar;Sceolath-mar;;;;;;;;;x
+PROV2372;Sylamel;Sylamel;Sylamel;;;;;;;;;x
+PROV2373;Cullodinen;Cullodinen;Cullodinen;;;;;;;;;x
+PROV2374;Tyr Vanna;Tyr Vanna;Tyr Vanna;;;;;;;;;x
+PROV2375;Tyr Edrell;Tyr Edrell;Tyr Edrell;;;;;;;;;x
+PROV2376;Druthandor;Druthandor;Druthandor;;;;;;;;;x
+PROV2377;Tal Cullon;Tal Cullon;Tal Cullon;;;;;;;;;x
+PROV2378;Yn Edryl Koiran;Yn Edryl Koiran;Yn Edryl Koiran;;;;;;;;;x
+PROV2379;Drûne Fell;Drûne Fell;Drûne Fell;;;;;;;;;x
+PROV2380;Tal Eth Ayr;Tal Eth Ayr;Tal Eth Ayr;;;;;;;;;x
+PROV2381;Cerura Carn;Cerura Carn;Cerura Carn;;;;;;;;;x
+PROV2382;Yn Edri Eternos;Yn Edri Eternos;Yn Edri Eternos;;;;;;;;;x
+PROV2383;Tal Merion;Tal Merion;Tal Merion;;;;;;;;;x
+PROV2384;Tal Govorn;Tal Govorn;Tal Govorn;;;;;;;;;x
+PROV2385;Tal Drost;Tal Drost;Tal Drost;;;;;;;;;x
+PROV2386;Tal Amere;Tal Amere;Tal Amere;;;;;;;;;x
+PROV2387;Coeth-mara;Coeth-mara;Coeth-mara;;;;;;;;;x
+PROV2388;Tal Mora;Tal Mora;Tal Mora;;;;;;;;;x
+PROV2389;Inverin;Inverin;Inverin;;;;;;;;;x
+PROV2390;Tal Amara;Tal Amara;Tal Amara;;;;;;;;;x
+PROV2391;Equos;Equos;Equos;;;;;;;;;x
+PROV2392;Yn Cavaroc;Yn Cavaroc;Yn Cavaroc;;;;;;;;;x
+PROV2393;Cromarc;Cromarc;Cromarc;;;;;;;;;x
+PROV2394;Tal Stornos;Tal Stornos;Tal Stornos;;;;;;;;;x
+PROV2395;Talrennic;Talrennic;Talrennic;;;;;;;;;x
+PROV2396;Ystin Drakira;Ystin Drakira;Ystin Drakira;;;;;;;;;x
+PROV2397;Edryl Modr;Edryl Modr;Edryl Modr;;;;;;;;;x
+PROV2398;Threllock;Threllock;Threllock;;;;;;;;;x
+PROV2399;Ystin Eldrazor;Ystin Eldrazor;Ystin Eldrazor;;;;;;;;;x
+PROV2400;Festalym;Festalym;Festalym;;;;;;;;;x
+PROV2401;Tal Rond;Tal Rond;Tal Rond;;;;;;;;;x
+PROV2402;Addaivoch;Addaivoch;Addaivoch;;;;;;;;;x
+PROV2403;Tal Valerin;Tal Valerin;Tal Valerin;;;;;;;;;x
+PROV2404;Tal Hakan;Tal Hakan;Tal Hakan;;;;;;;;;x
+PROV2405;Anaereth;Anaereth;Anaereth;;;;;;;;;x
+PROV2406;Tal Brianda;Tal Brianda;Tal Brianda;;;;;;;;;x
+PROV2407;Ystin Morai-Heg;Ystin Morai-Heg;Ystin Morai-Heg;;;;;;;;;x
+PROV2408;Ithorien;Ithorien;Ithorien;;;;;;;;;x
+PROV2409;Cromlech Cadai;Cromlech Cadai;Cromlech Cadai;;;;;;;;;x
+PROV2410;Myrga;Myrga;Myrga;;;;;;;;;x
+PROV2411;Tal Dovar;Tal Dovar;Tal Dovar;;;;;;;;;x
+PROV2412;Ystin Vaul;Ystin Vaul;Ystin Vaul;;;;;;;;;x
+PROV2413;Callach-mor;Callach-mor;Callach-mor;;;;;;;;;x
+PROV2414;Durthu;Durthu;Durthu;;;;;;;;;x

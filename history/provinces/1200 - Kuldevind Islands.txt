@@ -1,0 +1,19 @@
+# c_kuldevind_islands
+
+# County Title
+title = c_kuldevind_islands
+
+# Settlements
+max_settlements = 5
+
+b_funninguur = city
+b_gnaefur = castle
+b_kaupmadhrmen = temple
+b_kjopmanndokk = city
+#b_slagetspir = city
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+
+#History
