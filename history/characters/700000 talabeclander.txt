@@ -640,9 +640,7 @@
 	add_trait="skilled_tactician"
 	add_trait="temperate"
 	add_trait="envious"
-	1989.4.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+	1989.4.26={birth=yes}
 	2040.4.26={death=yes}
 }
 700307={
@@ -870,9 +868,7 @@ add_trait="flamboyant_schemer"
 add_trait="tall"
 add_trait="temperate"
 add_trait="chaste"
-1998.12.18={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1998.12.18={birth=yes}
 2049.12.24={death=yes}
 }
 700005={
@@ -1018,9 +1014,7 @@ add_trait="intricate_webweaver"
 add_trait="celibate"
 add_trait="envious"
 add_trait="shy"
-2005.1.13={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2005.1.13={birth=yes}
 2041.1.13={death=yes}
 }
 700013={
@@ -1350,9 +1344,7 @@ add_trait="charismatic_negotiator"
 add_trait="ambitious"
 add_trait="patient"
 add_trait="arbitrary"
-1953.2.23={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1953.2.23={birth=yes}
 1972.3.26={add_spouse=700028}
 2001.10.28={death=yes}
 }
@@ -1470,9 +1462,7 @@ add_trait="trusting"
 add_trait="charitable"
 add_trait="envious"
 add_trait="wroth"
-1954.5.7={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1954.5.7={birth=yes}
 1977.10.20={add_spouse=700035}
 1991.5.7={death=yes}
 }
@@ -1654,9 +1644,7 @@ add_trait="brave"
 add_trait="temperate"
 add_trait="charitable"
 add_trait="sword_1"
-1999.7.2={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1999.7.2={birth=yes}
 2066.7.2={death=yes}
 }
 700069={

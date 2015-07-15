@@ -127,9 +127,7 @@ add_trait="humble"
 father=950016
 mother=950018
 
-1990.12.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1990.12.22={birth=yes}
 2050.8.29={death=yes}
 }
 
@@ -439,9 +437,7 @@ add_trait="patient"
 add_trait="arbitrary"
 add_trait="ambitious"
 add_trait="sword_1"
-19.4.15={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+19.4.15={birth=yes}
 69.4.8={death=yes}
 }
 
@@ -743,9 +739,7 @@ add_trait="creature_human"
 father=950000
 mother=950032
 
-1991.4.21={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1991.4.21={birth=yes}
 2007.4.25={death=yes}
 }
 
@@ -1124,9 +1118,7 @@ dynasty=23020
 culture=wissenlander
 religion=sigmarite
 add_trait="creature_human"
-1920.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1920.1.1={birth=yes}
 1940.1.1={add_spouse=950067}
 1975.1.1={death=yes}
 }
@@ -1792,8 +1784,6 @@ learning=8
 add_trait="creature_human"
 #father=950085 #BR Note this father is -500 years old...
 add_trait="scholarly_theologian"
-1965.3.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1965.3.3={birth=yes}
 2020.6.19={death=yes}
 }

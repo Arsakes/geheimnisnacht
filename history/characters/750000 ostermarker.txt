@@ -16,9 +16,7 @@ add_trait="intricate_webweaver"
 add_trait="kind"
 add_trait="craven"
 add_trait="sword_1"
-1962.7.30={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1962.7.30={birth=yes}
 2022.12.25={death=yes}
 }
 
@@ -303,9 +301,7 @@ add_trait="thrifty_clerk"
 add_trait="legit_bastard"
 add_trait="drunkard"
 add_trait="homosexual"
-1988.11.3={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1988.11.3={birth=yes}
 2025.11.8={death=yes}
 }
 
@@ -534,9 +530,7 @@ add_trait="flamboyant_schemer"
 add_trait="honest"
 add_trait="craven"
 add_trait="sword_1"
-136.11.13={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+136.11.13={birth=yes}
 190.8.8={death=yes}
 }
 

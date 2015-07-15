@@ -92,9 +92,7 @@ add_trait="brilliant_strategist"
 add_trait="chaste"
 add_trait="temperate"
 add_trait="humble"
-1959.5.4={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1959.5.4={birth=yes}
 2062.2.1={death=yes}
 }
 
@@ -302,9 +300,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="arbitrary"
 add_trait="cynical"
-1989.12.2={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1989.12.2={birth=yes}
 2027.1.13={death=yes}
 }
 

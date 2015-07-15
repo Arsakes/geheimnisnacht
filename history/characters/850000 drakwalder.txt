@@ -15,9 +15,7 @@ add_trait="misguided_warrior"
 add_trait="kind"
 add_trait="craven"
 add_trait="gregarious"
-1975.7.14={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1975.7.14={birth=yes}
 2044.2.14={death=yes}
 }
 
@@ -222,9 +220,7 @@ add_trait="creature_human"
 add_trait="duelist"
 add_trait="naive_appeaser"
 add_trait="lisp"
-2007.5.17={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2007.5.17={birth=yes}
 2031.4.16={death=yes}
 }
 
@@ -380,9 +376,7 @@ add_trait="gardener"
 add_trait="misguided_warrior"
 add_trait="greedy"
 add_trait="cruel"
-1957.5.13={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1957.5.13={birth=yes}
 2023.12.13={death=yes}
 }
 
@@ -448,9 +442,7 @@ add_trait="gregarious"
 add_trait="sword_1"
 father=850021
 
-999.12.4={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+999.12.4={birth=yes}
 1025.8.3={give_nickname=nick_the_fat}
 1053.11.10={death=yes}
 }
@@ -598,9 +590,7 @@ add_trait="grey_eminence"
 add_trait="just"
 add_trait="honest"
 add_trait="craven"
-2386.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2386.1.1={birth=yes}
 2439.6.1={death=yes}
 }
 
@@ -864,9 +854,7 @@ learning=3
 add_trait="creature_human"
 father=850043
 add_trait="intricate_webweaver"
-2041.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2041.1.1={birth=yes}
 2098.7.27={death=yes}
 }
 

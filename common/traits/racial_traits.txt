@@ -27,37 +27,6 @@ creature_human = {
  	customizer = no
 }
 
-creature_elf = {
-	
-	potential = {
-		OR = {
-			culture_group = asur_group
-			culture_group = asrai_group
-			culture_group = druchi_group
-		}
-	}
-	inherit_chance = 100
-	# elves are more powerful than other beings
-	immortal = yes
-	learning = 2
-	diplomacy = 2
-	martial = 2
-	intrigue = 1
-	stewardship = 1
-	
-	# dwarfs don't like them very much
-	opposites = {
-		creature_dwarf
-		creature_orc
-	}
-	fertility = -15.0
-
-        # racism mechanics
-	same_opinion = 15
-	opposite_opinion = -20
-	general_opinion = -15
-}
-
 creature_dwarf = {
 	
 	potential = {
@@ -225,78 +194,9 @@ creature_snotling = {
 	cannot_inherit = yes
 }
 
-creature_nehekharan = {
-	potential = {
-		culture_group = nehekharan_group
-	}
-	
-	inherit_chance = 100
-	immortal = yes
-
-	# racism	
-	same_opinion = 20
-	general_opinion = -20
-
-	fertility = -10.0
-}
-
-creature_skink = {
-	
-	potential = {
-		culture_group = lizardman_group
-	}
-	inherit_chance = 100
-	fertility = -10.0
-	
-	# racism	
-	same_opinion = 20
-	general_opinion = -20
-
-	cannot_marry = yes
-}
-
-creature_skaven = {
-	potential = {
-		culture_group = skaven_group
-	}
-	
-	inherit_chance = 100
-	fertility = -10.0
-
-	# racism	
-	same_opinion = 40
-	general_opinion = -50
-
-	# raats!
-	ai_honor = -20
-
-	cannot_marry = yes
-	vassal_opinion = -30
-}
-
-creature_ogre = {
-	inherit_chance = 100
-	potential = {
-		culture_group = ogre_group
-	}
-	
-	#
-	diplomacy = -2
-	learning = -2
-	intrigue = -2
-	stewardship = -2
-	health = 1
-	
-	# racism	
-	same_opinion = 20
-	general_opinion = -30
-
-	fertility = -0.15
-}
-
 #Greenskins
 
-orc_small = {
+greenskin_small = {
 	leader = no
 
 	intrigue = 2
@@ -310,7 +210,7 @@ orc_small = {
 	ai_zeal = -30
 }
 
-orc_average = {
+greenskin_average = {
 	leader = no
 
 	liege_opinion = 10
@@ -319,7 +219,7 @@ orc_average = {
 	ai_zeal = -10
 }
 
-orc_large = {
+greenskin_large = {
 	leader = no
 
 	diplomacy = 1
@@ -331,7 +231,7 @@ orc_large = {
 	ai_zeal = 20
 }
 
-orc_huge = {
+greenskin_huge = {
 	leader = no
 
 	intrigue = -2
@@ -341,47 +241,6 @@ orc_huge = {
 	liege_opinion = -50
 	
 	
-	ai_ambition = 50
-	ai_zeal = 50
-}
-
-goblin_small = {
-	leader = no
-
-	intrigue = 2
-	martial = -1 
-	diplomacy = -1 
-
-	liege_opinion = 20
-	ai_ambition = -40
-	ai_zeal = -30
-}
-
-goblin_average = {
-	leader = no
-	
-	liege_opinion = 10
-	ai_ambition = -20
-	ai_zeal = -10
-}
-
-goblin_large = {
-	leader = no
-	diplomacy = 1
-	martial = 1
-	intrigue = -1
-	liege_opinion = -20
-	ai_ambition = 20
-	ai_zeal = 20
-}
-
-goblin_huge = {
-	leader = no
-	intrigue = -2
-	diplomacy = 3
-	martial = 2
-	
-	liege_opinion = -50
 	ai_ambition = 50
 	ai_zeal = 50
 }
@@ -499,108 +358,4 @@ vampire_mahtmasi_visible = {
 	ai_honor = -30
 	ai_ambition = 30
 	ai_rationality = -100 
-}
-
-# Special chars (i don't know why bother with that kind of traits)
-# is there not enough regular traits to presonalize person?
-
-special_char_nefereta = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_vashanesh = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_abhorash = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_ushoran = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_wsoran = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_harakhate = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_maatmases = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 100 
-}
-
-special_char_red_duke = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	cannot_marry = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = -50 
-}
-
-special_char_nagash = {
-
-	monthly_character_piety = 5
-	fertility = -10.0
-	immortal = yes
-	cannot_marry = yes
-	ai_zeal = 30
-	ai_honor = -50
-	ai_ambition = 30
-	ai_rationality = 50 
 }

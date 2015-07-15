@@ -56,8 +56,8 @@ spriteTypes = {
 		name = "GFX_decision_lore_necromancy2"
 		texturefile = "gfx\\interface\\decision_icon_lore_necromancy.tga"
 	}
-
-
+         
+        # TRAITS
 	# traits from duel mod
 	spriteType = {
 		name = "GFX_trait_master_warrior"
@@ -417,6 +417,39 @@ spriteTypes = {
         spriteType = {
 		name = "GFX_trait_mutation_minor"
 		texturefile = "gfx/traits/mutation_minor.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+        ##########################################################################
+        # 
+        # Orc traits
+        # 
+        ##########################################################################
+        spriteType = {
+		name = "GFX_trait_greenskin_small"
+		texturefile = "gfx/traits/greenskin_small.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+        spriteType = {
+		name = "GFX_trait_greenskin_average"
+		texturefile = "gfx/traits/greenskin_average.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+        spriteType = {
+		name = "GFX_trait_greenskin_large"
+		texturefile = "gfx/traits/greenskin_large.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+        spriteType = {
+		name = "GFX_trait_greenskin_huge"
+		texturefile = "gfx/traits/greenskin_huge.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

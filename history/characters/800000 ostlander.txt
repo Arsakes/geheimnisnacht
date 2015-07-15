@@ -225,9 +225,7 @@ add_trait=sword_1
 father=800029
 mother=800030
 
-1952.6.10={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1952.6.10={birth=yes}
 1970.4.27={add_spouse=800027}
 2005.8.6={death=yes}
 }
@@ -521,9 +519,7 @@ add_trait=hedonist
 add_trait=intricate_webweaver
 add_trait=craven
 add_trait=gregarious
-1510.7.27={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1510.7.27={birth=yes}
 1576.9.14={death=yes}
 }
 
@@ -699,9 +695,7 @@ add_trait=legit_bastard
 father=800029
 mother=800033
 
-1983.7.22={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1983.7.22={birth=yes}
 2022.5.25={death=yes}
 }
 
@@ -897,9 +891,7 @@ add_trait=zealous
 father=800010
 mother=800027
 
-1975.6.28={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1975.6.28={birth=yes}
 1988.4.24={death=yes}
 }
 
@@ -1169,9 +1161,7 @@ intrigue=7
 learning=4
 add_trait=creature_human
 
-1951.5.6={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1951.5.6={birth=yes}
 1972.4.28={add_spouse=800055}
 1999.4.19={death=yes}
 }
@@ -1935,9 +1925,7 @@ add_trait=creature_human
 add_trait=intricate_webweaver
 add_trait=poet
 add_trait=gluttonous
-1992.2.13={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1992.2.13={birth=yes}
 2052.2.13={death=yes}
 }
 

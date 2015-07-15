@@ -90,10 +90,10 @@ decisions = {
                 trait = magic_power_archmaster
             }
         }
-        allow = { NOT = { has_character_flag = strategic_spell_used } }
+        allow = { NOT = { has_character_flag = major_spell_used } }
         effect = { 
-            set_character_flag = strategic_spell_used
-            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 }}
+            set_character_flag = major_spell_used
+            hidden_tooltip = { set_variable = { which = "spell_lvl" value = 3 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.1 } }
             clr_character_flag = last_spell_success
@@ -116,13 +116,13 @@ decisions = {
         allow = { 
             custom_tooltip = { text = "TOOLTIP_DEC_ICE_2" }
             hidden_tooltip = {
-                NOT = { has_character_flag = strategic_spell_used } 
+                NOT = { has_character_flag = major_spell_used } 
                 NOT = { location = { has_province_flag = ice_walls }} 
             }
         }
         effect = { 
-            set_character_flag = strategic_spell_used
-            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 }}
+            set_character_flag = major_spell_used
+            hidden_tooltip = { set_variable = { which = "spell_lvl" value = 2 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
             clr_character_flag = last_spell_success
@@ -161,12 +161,12 @@ decisions = {
             }
         }
         allow = { 
-            NOT = { has_character_flag = strategic_spell_used } 
+            NOT = { has_character_flag = major_spell_used } 
             in_siege = yes           
         }
         effect = { 
-            set_character_flag = strategic_spell_used
-            hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
+            set_character_flag = major_spell_used
+            hidden_tooltip = { set_variable = { which = "spell_lvl" value = 2 }}
             character_event = { id = magicengine.1 }
             if = { 
                 limit = { 
@@ -215,7 +215,7 @@ decisions = {
             }
         }
         allow = {
-            NOT = { has_character_flag = strategic_spell_used }
+            NOT = { has_character_flag = major_spell_used }
             location = {
                 any_province_character = {
                     OR = {
@@ -234,7 +234,7 @@ decisions = {
             }
         }
         effect = { 
-            set_character_flag = strategic_spell_used
+            set_character_flag = major_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 3 } }
             location = {
                 random_province_character = {
@@ -299,13 +299,13 @@ decisions = {
         }
         allow = { 
             hidden_tooltip = {
-                NOT = { has_character_flag = strategic_spell_used } 
+                NOT = { has_character_flag = major_spell_used } 
                 location = { any_province_character = { trait = possessed } }
             }
             custom_tooltip = { text = "TOOLTIP_DEC_HYSH_2" }
         }
         effect = { 
-            set_character_flag = strategic_spell_used
+            set_character_flag = major_spell_used
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 4 } }
             character_event = { id = magicengine.1 }
             
@@ -370,7 +370,7 @@ decisions = {
             }
         }
         allow = { 
-            NOT = { has_character_flag = strategic_spell_used } 
+            NOT = { has_character_flag = major_spell_used } 
             #hidden_tooltip = { 
                 NOT = { location = { has_province_modifier = dead_raised }}
                 location = { controlled_by = ROOT }
@@ -378,7 +378,7 @@ decisions = {
             #custom_tooltip = { text = "TOOLTIP_DEC_NECROMANCY_1" }
         }
         effect = { 
-            set_character_flag = strategic_spell_used
+            set_character_flag = major_spell_used
             hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
 
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 } }
@@ -410,7 +410,7 @@ decisions = {
             }
         }
         allow = { 
-            NOT = { has_character_flag = strategic_spell_used } 
+            NOT = { has_character_flag = major_spell_used } 
             #hidden_tooltip = { 
                 NOT = { location = { has_province_modifier = depopulated }}
                 location = { controlled_by = ROOT }
@@ -418,7 +418,7 @@ decisions = {
             #custom_tooltip = { text = "TOOLTIP_DEC_NECROMANCY_2" }
         }
         effect = { 
-            set_character_flag = strategic_spell_used
+            set_character_flag = major_spell_used
             hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
 
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 7 } }

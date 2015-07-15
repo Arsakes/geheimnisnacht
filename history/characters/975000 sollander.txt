@@ -223,9 +223,7 @@ add_trait="creature_human"
 add_trait="scholar"
 add_trait="thrifty_clerk"
 1982.3.13={birth=yes}
-2000.10.10={add_spouse=975009
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2000.10.10={add_spouse=975009}
 2064.10.6={death=yes}
 }
 
@@ -498,9 +496,7 @@ add_trait="tough_soldier"
 add_trait="ugly"
 add_trait="cruel"
 add_trait="sword_1"
-1611.1.26={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1611.1.26={birth=yes}
 1685.10.13={death=yes}
 }
 

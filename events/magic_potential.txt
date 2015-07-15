@@ -1,0 +1,205 @@
+##########################################################
+#
+# By Pietrko (Arsakes)
+#
+# Magic inheritance events + events concerning magic potential
+# during childhood
+# 1-4 On birth events and gaining magic potential
+# 
+#
+#
+#########################################################
+#
+# Eeach character magic potenttial is described by two
+# signs from the set { 0, A, B } 
+# Let name those XY = { 00, 0A, A0, BA, AB, AA, BB, B0, 0B }
+#
+# Genetic code is writen in value of variable "magic_potential" 
+# genetic code: variable value
+#
+# Two genetic markers
+# x_magic_gene = { 0,1,2 } - mother 'magic gene'
+# y_magic_gene = { 0,1,2 } - father 'magic gene'
+#
+# This is main on_birth event
+#
+# ROOT = child 
+character_event = {
+    id = magicpotential.1
+    is_triggered_only = yes
+    hide_windw = yes  
+    
+    immediate = {
+        # fire fixing events for ppl without genetic markers
+        father = { character_event = { id = magicpotential.2 }}
+        mother = { character_event = { id = magicpotential.2 }}
+
+        # send event that make parents to pass their genes
+        father = { character_event = { id = magicpotential.3 }}
+        mother = { character_event = { id = magicpotential.3 }}
+
+        # send event that inform parents about magic power of child
+        if = { 
+            limit = { 
+               check_variable = { which = "x_magic_gene" value = 1 }
+               check_variable = { which = "y_magic_gene" value = 1 }
+            }
+            father = { character_event = { id = magicpotential.4 days = 2 }}
+        }
+        # send event that inform parents about magic power of child
+        if = { 
+            limit = { 
+               check_variable = { which = "x_magic_gene" value = 1 }
+               check_variable = { which = "y_magic_gene" value = 1 }
+            }
+            mother = { character_event = { id = magicpotential.2 days = 2 }}
+        }
+    }
+}
+# Set the gene marker for wizards that have traits but doesn't have magic genes
+# THIS IS COMPLETELY RANDOM
+character_event = {
+    id = magicpotential.2
+    is_triggered_only = yes
+    hide_windw = yes  
+    
+    immediate = {
+        if = {
+            limit = { 
+                OR = {
+                   trait = magic_power_adept
+                   trait = magic_power_magister
+                   trait = magic_power_lord
+                   trait = magic_power_archmaster
+                }
+                is_variable_equal = { which = "x_magic_gene" value = 0 }
+                is_variable_equal = { which = "y_magic_gene" value = 0 }
+            }
+            random_list = {
+                50 = { set_variable = { which = "x_magic_gene" value = 1 }}
+                50 = { set_variable = { which = "x_magic_gene" value = 2 }}
+            }
+            random_list = {
+                50 = { set_variable = { which = "y_magic_gene" value = 1 }}
+                50 = { set_variable = { which = "y_magic_gene" value = 2 }}
+            }
+            # logging
+            log = "Random magic genes given Y: [Root.y_magic_gene.GetValue] and X: [Root.x_magic_gene.GetValue]"
+        }
+    }
+}
+# passing genes
+character_event = {
+    id = magicpotential.3
+    is_triggered_only = yes
+    hide_windw = yes 
+
+    # x_magic_gene - female
+    # y_magic_gene - male
+    immediate = {
+       # PASS GENE FOR FEMALES (SAVES GENE TO x_magic_gene OF CHILD)
+       if = {
+           limit = { is_female = yes } 
+           # chose one of two version of gene and save it as  X to child
+           random_list = {
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 2 }}
+                   }
+               }
+               # save as y
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "x_magic_gene" value = 2 }}
+                   }
+               }
+           }
+           # Mutation
+           random_list = {
+               97 = {}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 0 }}}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 1 }}}
+               1 = { FROM = { set_variable = { which = "x_magic_gene" value = 2 }}}
+           }
+           log = "[From.GetTitledName]: X magic gene passed: [From.x_magic_gene.GetValue]"
+       }
+       # PASS GENE FOR MALES (SAVES GENE TO y_magic_gene OF CHILD)
+       if = {
+           limit = { is_female = no } 
+           # chose one of two version of gene and save it as  Y to child
+           random_list = {
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "x_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 2 }}
+                   }
+               }
+               # save as y
+               50 = {
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 0 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 0 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 1 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 1 }}
+                   }
+                   if = {  
+                       limit = { is_variable_equal = { which = "y_magic_gene" value = 2 }}
+                       FROM = { set_variable = { which = "y_magic_gene" value = 2 }}
+                   }
+               }
+           }
+           # Mutation
+           random_list = {
+               97 = {}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 0 }}}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 1 }}}
+               1 = { FROM = { set_variable = { which = "y_magic_gene" value = 2 }}}
+           }
+           log = "[From.GetTitledName]: Y magic gene passed: [From.y_magic_gene.GetValue]"
+       }
+       # Enough of this
+       # now we have both x_magic_gene, y_magic_gene for FROM (child)
+       # Randomisation
+    }
+}
+
+# Children shows magic potential (Inform parents)
+character_event = {
+    id = magicpotential.4
+    is_triggered_only = yes # triggered from magicpotential.1
+    desc = "EVTDESC_MAGICPOTENTIAL_4"
+  
+    option = {
+        name = "EVTOPT_MAGICPOTENTIAL_4B"
+    }
+}
+
+# TODO add localisation

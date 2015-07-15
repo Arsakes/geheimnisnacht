@@ -341,22 +341,14 @@ worshipper_of_self_desc;This character is devoted to nothing but themselves, reg
 worshipper_of_sigmars_saints;Worshipper of Sigmar's Saints;;;;;;;;;;;;;x
 worshipper_of_sigmars_saints_desc;This character is devoted to one or more of the saints of Sigmar, the champions and legends of ages past.;;;;;;;;;;;;;x
 # GREENSKIN TRAITS
-orc_small;Small Orc;;;;;;;;;;;;;x
-orc_small_desc;This orc is downright titchy and should only think about bossing even smaller things, like squigs and snotlings.;;;;;;;;;;;;;x
-orc_average;Average Orc;;;;;;;;;;;;;x
-orc_average_desc;This orc is about the size of an orc, and should follow their boss.;;;;;;;;;;;;;x
-orc_large;Large Orc;;;;;;;;;;;;;x
-orc_large_desc;This orc is large, making them suitable for bossing most orcs around.;;;;;;;;;;;;;x
-orc_huge;Huge Orc;;;;;;;;;;;;;x
-orc_huge_desc;This orc is huge, making them the rightful boss of every sensible orc.;;;;;;;;;;;;;x
-goblin_small;Small Goblin;;;;;;;;;;;;;x
-goblin_small_desc;This goblin is downright titchy and should only think about bossing even smaller things, like squigs and snotlings.;;;;;;;;;;;;;x
-goblin_average;Average Goblin;;;;;;;;;;;;;x
-goblin_average_desc;This goblin is about the size of an goblin, and should follow their boss.;;;;;;;;;;;;;x
-goblin_large;Large Goblin;;;;;;;;;;;;;x
-goblin_large_desc;This goblin is large, making them suitable for bossing most goblins around.;;;;;;;;;;;;;x
-goblin_huge;Huge Goblin;;;;;;;;;;;;;x
-goblin_huge_desc;This goblin is huge, making them the rightful boss of every sensible goblin.;;;;;;;;;;;;;x
+greenskin_small;Small but Kunnin!;;;;;;;;;;;;;x
+greenskin_small_desc;This greenskin creature is downright titchy and should only think about bossing even smaller things, like squigs and snotlings.;;;;;;;;;;;;;x
+greenskin_average;Average Size;;;;;;;;;;;;;x
+greenskin_average_desc;This greenskin has average size, and should follow their boss.;;;;;;;;;;;;;x
+greenskin_large;Big!;;;;;;;;;;;;;x
+greenskin_large_desc;This greenskin is large, making them suitable for bossing most other greenskins around.;;;;;;;;;;;;;x
+greenskin_huge;Da Biggest!;;;;;;;;;;;;;x
+greenskin_huge_desc;This greenskin is huge, making him the rightful boss!;;;;;;;;;;;;;x
 # BRETONNIAN TRAITS
 virtue_of_chivalry;Virtue of Chivalry;;;;;;;;;;;;;x
 virtue_of_chivalry_desc;This Knight pursues the Virtue of Chivalry. Every knight must follow a wide-reaching code of conduct.;;;;;;;;;;;;;x

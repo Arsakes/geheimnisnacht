@@ -17,9 +17,7 @@ add_trait="content"
 add_trait="sword_1"
 father=900047
 
-1981.8.21={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1981.8.21={birth=yes}
 2051.7.28={death=yes}
 }
 
@@ -98,9 +96,7 @@ add_trait="brilliant_strategist"
 add_trait="cruel"
 add_trait="humble"
 add_trait="temperate"
-1962.8.11={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1962.8.11={birth=yes}
 2002.8.16={add_spouse=800028}
 2025.9.5={death=yes}
 }
@@ -891,9 +887,7 @@ add_trait="fair"
 add_trait="gregarious"
 add_trait="diligent"
 add_trait="sword_1"
-2477.1.27={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2477.1.27={birth=yes}
 2557.10.24={death=yes}
 }
 
@@ -1151,9 +1145,7 @@ add_trait="mastermind_theologian"
 add_trait="honest"
 add_trait="humble"
 add_trait="tall"
-2502.9.12={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2502.9.12={birth=yes}
 2578.2.4={death=yes}
 }
 
@@ -1578,9 +1570,7 @@ add_trait="creature_human"
 father=900073
 add_trait="thrifty_clerk"
 add_trait="honest"
-2068.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2068.5.1={birth=yes}
 2113.6.10={death=yes}
 }
 
@@ -1905,9 +1895,7 @@ father=900083
 add_trait="tough_soldier"
 add_trait="shy"
 add_trait="drunkard"
-2493.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2493.1.1={birth=yes}
 2546.1.1={death=yes}
 }
 
@@ -2196,9 +2184,7 @@ add_trait="skilled_tactician"
 add_trait="diligent"
 add_trait="cruel"
 add_trait="arbitrary"
-2505.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2505.1.1={birth=yes}
 2558.11.3={death=yes}
 }
 
@@ -2610,9 +2596,7 @@ add_trait="impaler"
 add_trait="zealous"
 add_trait="lustful"
 add_trait="arbitrary"
-1653.1.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1653.1.1={birth=yes}
 1699.11.14={death=yes}
 }
 
@@ -3145,9 +3129,7 @@ add_trait="brave"
 add_trait="cruel"
 add_trait="ambitious"
 add_trait="paranoid"
-2487.3.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2487.3.1={birth=yes}
 2505.1.1={give_nickname=nick_the_black}
 2532.11.2={death=yes}
 }
@@ -3480,9 +3462,7 @@ add_trait="fortune_builder"
 add_trait="lustful"
 add_trait="proud"
 add_trait="stressed"
-2514.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2514.5.1={birth=yes}
 2591.8.10={death=yes}
 }
 
@@ -3883,9 +3863,7 @@ learning=0
 add_trait="creature_human"
 mother=900188
 add_trait="flamboyant_schemer"
-2065.9.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2065.9.1={birth=yes}
 2120.3.15={death=yes}
 }
 
@@ -4213,9 +4191,7 @@ add_trait="fortune_builder"
 add_trait="mystic"
 add_trait="wroth"
 add_trait="content"
-2295.5.1={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+2295.5.1={birth=yes}
 2330.10.26={death=yes}
 }
 
@@ -4545,8 +4521,6 @@ add_trait="creature_human"
 add_trait="scholarly_theologian"
 add_trait="content"
 add_trait="kind"
-1995.7.18={birth=yes
-		effect = { set_character_flag = magic_potential_flag_1 }
-		}
+1995.7.18={birth=yes}
 2050.2.1={death=yes}
 }
