@@ -617,14 +617,14 @@ on_yearly_childhood_pulse = {
 #on combat pulse
 on_combat_pulse = {
 	events = {
-		magicengien.12 # Basic generic magic effects
+		magicengiene.12 # Basic generic magic effects
 	}
 	random_events = {
 		2750 = 0
 		10 = 242 # Killed
 		20 = 243 # Wounded
 		10 = 244 # Maimed
-                100 = duelengine.0 # Duelengine start battle
+                2750 = duelengine.0 # Duelengine start battle
 		100 = magicengien.13 # Random magical spells
 		5 = 245 # Serious head injury
 		50 = 246 # Improves martial education

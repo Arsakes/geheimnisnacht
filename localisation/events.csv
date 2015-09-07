@@ -81,11 +81,6 @@ EVTOPT_DOOMENGINE_23B;Their time will come... Try to pass unnoticed.;;;;;;;;;;;;
 EVTDESC_DOOMENGINE_24; Armies of Chaos are marching. The host of [From.GetTitledFirstName] is ravagaing yor lands. What will you do?;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24A;!;;;;;;;;;;;;;x
 EVTOPT_DOOMENGINE_24B;Let them pass.;;;;;;;;;;;;;x
-# namespace = magicengine
-EVTDESC_MAGICENGINE_2;You failed to cast the spell, however thanks to your mastery over winds you are unharmed.;;;;;;;;;;;;;x
-EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of magic left you burn and scarred.;;;;;;;;;;;;;x
-EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
-TOOLTIP_MAGICENGINE_MUTATION;Character gains a mutation.;;;;;;;;;;;;;x
 # special character §§§
 #
 #
@@ -209,54 +204,6 @@ EVTDESCHCLT.27;You are a secret Mahtmasi vampire!;;;;;;;;;;;;;x
 hide_my_cultist;Hide My Cultist;;;;;;;;;;;;;x
 #
 #
-# MAGIC LORE EVENTS
-#
-# namespace = hysh
-EVTDESC_HYSH_1;The white wind of magic Hysh can cure both mental and physical injures. White Magese are both healers and relentless demon hunteres. What kind of injuries you would like to heal?;;;;;;;;;;;;;x
-EVTOPT_HYSH_1A;Cure injuries;;;;;;;;;;;;;x
-EVTOPT_HYSH_1B;Cure illness;;;;;;;;;;;;;x
-EVTOPT_HYSH_1C;Apply hysh blessing;;;;;;;;;;;;;x
-EVTDESC_HYSH_2;You start the exorcism, the streaks of Hysh entangle the daemon and the mental struggle begins... Let the light guide you!;;;;;;;;;;;;;x
-EVTOPT_HYSH_2A;Begone Demon!;;;;;;;;;;;;;x
-# Hysh battle spells
-EVTDESC_HYSH_5;You fight side by side with your troops, banshing daemons, burning your foes with streaks of Hysh and healing your soldiers. Wherever you show up a new hope arises.;;;;;;;;;;;;;x
-EVTDESC_HYSH_6;Your enemy is has aid of White of magic on his side, wherever the Hierophants show up enemy troops are healed and your forces burn in blinding light.;;;;;;;;;;;;;x
-EVTOPT_HYSH_6A;Die unholy creatures!;;;;;;;;;;;;;x
-# hysh duel spells
-EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
-EVTDESC_HYSH_11;You have successfully cast the spell Body of Light. Your body shines with an intensely bright light, making you difficult to look upon. Your enemy will have difficulty attacking you.;;;;;;;;;;;;;x
-EVTDESC_HYSH_12;You have successfully cast the spell Healing Energy. Light fills your wounds, healing them and bringing you back into the fight;;;;;;;;;;;;;x
-EVTDESC_HYSH_13;You have successfully cast the spell Radiant Weapon. You infuse your weapon with the radiant energy of Hysh. It now glows with a pure white light, allowing you attack more effectively and doing additional damage against deamons.;;;;;;;;;;;;;x
-#
-# nmespace = ice
-EVTDESC_ICE_0;Ica mages get their power from the Icy land of Kislev they can unleash blizzards and frozing winds to their enemies, turn people into frozen statue or freeze the land. Which spell from the Lore of Ice you would like to cast?;;;;;;;;;;;;;x
-EVTOPT_ICE_0A;Summon blizzard to surrounding lands;;;;;;;;;;;;;x
-EVTOPT_ICE_0B;Raise ice walls for defence;;;;;;;;;;;;;x
-EVTOPT_ICE_0C;Send icestrom to besiegers;;;;;;;;;;;;;x
-EVTOPT_ICE_0D;Send icestrom to defenders;;;;;;;;;;;;;x
-EVTDESC_ICE_1;You summon the power of ice and unleash the mighty blizzard upon your enemies. The blizzard will last for many days slowing the enemy march and weakening its forces. Where you want to direct the blizzard?;;;;;;;;;;;;;x
-EVTOPT_ICE_1A;Send blizzard to neighbor lands...;;;;;;;;;;;;;x
-EVTOPT_ICE_1B;Let the icestorm stay here;;;;;;;;;;;;;x
-EVTDESC_ICE_2;The walls of solid ice grow out of the ground, providing additional defence in strategical locations in the settlement.;;;;;;;;;;;;;x
-EVTDESC_ICE_3;You send hail and biting winds to enemy's army. Soldiers die from cold and harsh conditions are affecting the their morale.;;;;;;;;;;;;;x
-EVTDESC_ICE_4;You send hail and biting winds to defending enemy. Soldiers shatter from terible cold. Enemy army is losing their spirit.;;;;;;;;;;;;;x
-EVTDESC_ICE_5;A hail and biting wind come out of the sky and struck your army. Soldiers shatter from terible cold and are losing heart.;;;;;;;;;;;;;x
-EVTOPT_ICE_5A;Nooo!;;;;;;;;;;;;;x
-#
-TOOLTIP_ICE_1;Blizzard is sent to [This.GetName].;;;;;;;;;;;;;x
-TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two months.;;;;;;;;;;;;;x
-#
-# namespace = necromancy
-EVTDESC_NECROMANCY_1;As you intone the dread syllables handed down from Nagash himself, you feel the winds of magic surge around you. This arcane enegery breathes unlife into the dead creatures that lie before you. Long dead cadavers claw themselves from the ground while recently dead bodies prop themselves up on rotting limbs. These undead creatures now await your command.;;;;;;;;;;;;;x
-EVTDESC_NECROMANCY_3;Using the power of Dhar you summon a wind of deadly dark magic, that kills anyone that it encounters. The victims experience extreme agony as the spell rips their very soul form their body, leacing them a lifeless husk.;;;;;;;;;;;;;x
-EVTDESC_NECROMANCY_4;Using the dark powers you raise soldiers that have fallen in battle from the dead. Now they have honour to serve you again in undeath.;;;;;;;;;;;;;x
-EVTDESC_NECROMANCY_4A;Rise and serve me forever!;;;;;;;;;;;;;x
-#
-#
-# SPECIAL MAGIC LOCALISATION
-#
-EVTOPT_CAST_SPELL;Cast Spell;;;;;;;;;;;;;x
-EVTOPT_STOP_CASTING;Stop Casting;;;;;;;;;;;;;x
 #
 #
 # SYLVANIA EVENTS I DONT KNOW IF THOSE ARE CORRECT 

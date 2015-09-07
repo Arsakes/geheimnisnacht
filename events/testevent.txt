@@ -1,0 +1,13 @@
+namespace = testtest
+character_event = {
+    id = testtest.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+            limit = { is_variable_equal = { which = "chuj" value = 0 }}
+            log = "DASDASDSDADADSDSADASDSADDDALOG"
+        }
+    }
+}

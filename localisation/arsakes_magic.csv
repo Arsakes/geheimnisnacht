@@ -5,6 +5,11 @@ EVTDESC_MAGICENGINE_3;You were unable to control magic winds, chaotic streams of
 EVTDESC_MAGICENGINE_4;Terrible mistake during spellcasting exposed you to the power of Ruinous Powers, you scream from pain when raw magical energies twist and damage your body.;;;;;;;;;;;;;x
 TOOLTIP_MAGICENGINE_MUTATION;Character gains a mutation.;;;;;;;;;;;;;x
 #
+# Magic potential
+EVTDESC_MAGICPOTENTIAL_4;Strange, some say even magical, signs were seen during birth of your child, there is something different about it.;;;;;;;;;;;;;x
+EVTOPT_MAGICPOTENTIAL_4A;Its not my child! Get rid of this abomination.;;;;;;;;;;;;;x
+EVTOPT_MAGICPOTENTIAL_4B;Accept the child.;;;;;;;;;;;;;x
+#
 # MAGIC LORE EVENTS
 #
 # namespace = hysh
