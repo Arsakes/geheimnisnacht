@@ -19,6 +19,7 @@ namespace = magicengine
 ###########################################################################################
 #
 # General spell casting check 
+# Triggered by event and during battles
 #
 ##########################################################################################
 character_event = {
@@ -62,12 +63,23 @@ character_event = {
                 modifier = { factor = 1.5 check_variable = { which = "spell_lvl" value = 3 } }
                 modifier = { factor = 1.5 check_variable = { which = "spell_lvl" value = 4 } }
 
+                # Weakness from main spells
+                modifier = { factor = 5 has_character_flag = major_spell_used }
+           
                 set_variable = { which = "spell_lvl" value = 0 }
                 random_list = {
-                    11 = { character_event = { id = magicengine.4 }} # bad mistcast
-                    24 = { character_event = { id = magicengine.3 }} # minor mistcast
-                    66 = { character_event = { id = magicengine.2 }} # failure
+                    10 = { character_event = { id = magicengine.4 }} # bad mistcast
+                    40 = { character_event = { id = magicengine.3 }} # minor mistcast
+                    50 = { character_event = { id = magicengine.2 }} # failure
                 }
+           }
+           # fatal failure
+           1 = {
+                # Weakness from main spells
+                modifier = { factor = 100 has_character_flag = major_spell_used }
+
+                set_variable = { which = "spell_lvl" value = 0 }
+                character_event = { id = magicengine.4 } # bad mistcast
            }
         }
     }
@@ -139,64 +151,9 @@ character_event = {
     }
 }
 
-# Duel action: Channeling
-character_event = {
-    id = magicengine.5
-    hide_window  = yes
-    is_triggered_only = yes
-    
-    immediate  = {
-        # regenerate magic points to the level of SW 
-        # check SW
-        character_event = { id = "dicethrow.0" } 
-        if = {
-            limit = { 
-                NOT = { check_variable = { which = "magic_points" which = "SW" }}
-                OR = { 
-                    trait = magic_power_adept
-                    trait = magic_power_magister
-                    trait = magic_power_lord
-                    trait = magic_power_archmaster
-                }
-            }
-            change_variable = { which = "magic_points" value = 1 }
-        }
-        # clean
-        set_variable = { which = "SW" value = 0 }
-    }
-}
-
-#########################################################
-#
-# DUEL SPELL DISPATCHERS
-#
-# Those events are used to cast correct spell
-# via generic <cast typ X spell> moves in duel
-#
-# There is some trickery in it:
-# dispachting events are send to ENEMY for proper definiton of
-# FORM, ROOT
-#
-# so:
-# 
-# FROM = FROMFROM = FROMFROMFROM =  caster of spell
-# ROOT = target of spell
-#
-##########################################################a
-
-
-# Battle spell cancel on_action triggering (after battle)
-character_event = {
-    id = magicengine.10
-    hide_window = yes
-    is_triggered_only = yes
-
-    immediate = { disband_event_forces = magical_spells }
-}
-
 # Spell cooldown event
 character_event = {
-    id = magicengine.11
+    id = magicengine.10
     is_triggered_only = yes
     hide_window = yes
 
@@ -204,15 +161,30 @@ character_event = {
         clr_character_flag = major_spell_used
     }
 }
+
+
 ################################################################
 #
 # BATTLE SPELL ENGINE
 #
+# Events: 11-14
+#
 # event that spawn troops representing direct damage spell effect
 # in regular battles
 #
-# triggered in each battle on_combat_pulse
+# Triggered in each battle on_combat_pulse: 12,14
 #
+################################################################
+
+# Battle spell cancel on_action triggering (after battle)
+character_event = {
+    id = magicengine.11
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { disband_event_forces = magical_spells }
+}
+
 character_event = {
     id = magicengine.12
     hide_window = yes
@@ -564,3 +536,42 @@ character_event = {
         }
     }
 }
+
+
+# General risk event for combat casting
+character_event = {
+    id = magicengine.14
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        random_list = {
+            30 = {
+                # learning
+                modifier = { factor = 1.2 learning = 4 }
+                modifier = { factor = 1.2 learning = 7 }
+                modifier = { factor = 1.2 learning = 10 }
+                modifier = { factor = 1.2 learning = 13 }
+                modifier = { factor = 1.2 learning = 16 }
+                modifier = { factor = 1.2 learning = 19 }
+                modifier = { factor = 1.2 learning = 22 }
+                modifier = { factor = 1.2 learning = 25 }
+                modifier = { factor = 1.2 learning = 28 }
+            }
+            # failure
+            10 = {
+                modifier = { factor = 1.5 check_variable = { which = "spell_lvl" value = 2 } }
+                modifier = { factor = 1.5 check_variable = { which = "spell_lvl" value = 3 } }
+                modifier = { factor = 1.5 check_variable = { which = "spell_lvl" value = 4 } }
+
+                set_variable = { which = "spell_lvl" value = 0 }
+                random_list = {
+                    11 = { character_event = { id = magicengine.4 }} # bad mistcast
+                    24 = { character_event = { id = magicengine.3 }} # minor mistcast
+                    66 = { character_event = { id = magicengine.2 }} # failure
+                }
+           }
+        }
+    }
+}
+

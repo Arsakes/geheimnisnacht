@@ -98,7 +98,7 @@ decisions = {
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.1 } }
             clr_character_flag = last_spell_success
             # marks character that uses powerfull strategic spells
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
         }
     }
     # Ice walls
@@ -126,7 +126,7 @@ decisions = {
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
             clr_character_flag = last_spell_success
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
         }
         ai_will_do = {
             factor = 1
@@ -183,7 +183,7 @@ decisions = {
                 character_event = { id = ice.3 }
             }
             clr_character_flag = last_spell_success
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
         }
         ai_will_do = {
             factor = 1
@@ -263,7 +263,7 @@ decisions = {
                 location = { any_province_character = { clr_character_flag = hysh_heal_target } }
             } 
             clr_character_flag = last_spell_success
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 5 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 5 }}
         }
         ai_will_do = {
             factor = 1
@@ -312,7 +312,7 @@ decisions = {
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = hysh.2 } }
             clr_character_flag = last_spell_success
 
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 7 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 7 }}
         }
         ai_will_do = {
             factor = 1
@@ -379,7 +379,7 @@ decisions = {
         }
         effect = { 
             set_character_flag = major_spell_used
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 60 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 60 }}
 
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 5 } }
             character_event = { id = magicengine.1 }
@@ -419,7 +419,7 @@ decisions = {
         }
         effect = { 
             set_character_flag = major_spell_used
-            hidden_tooltip = { character_event = { id = magicengine.11 days = 30 }}
+            hidden_tooltip = { character_event = { id = magicengine.10 days = 30 }}
 
             hidden_tooltip = { set_variable = { which = "magic_spell_cost" value = 7 } }
             character_event = { id = magicengine.1 }

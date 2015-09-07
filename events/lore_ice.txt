@@ -25,7 +25,7 @@ character_event = {
                 custom_tooltip = { text = "TOOLTIP_ICE_1" }
             } 
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+        hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
     }
     option = {
         name = "EVTOPT_ICE_1A"
@@ -38,7 +38,7 @@ character_event = {
                 custom_tooltip = { text = "TOOLTIP_ICE_1" }
             } 
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+        hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
     }
     option = {
         name = "EVTOPT_ICE_1A"
@@ -51,7 +51,7 @@ character_event = {
                 custom_tooltip = { text = "TOOLTIP_ICE_1" }
             } 
         }
-        hidden_tooltip = { character_event = { id = magicengine.11 days = 15 }}
+        hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
     }
     # Blizzard stays
     option = {

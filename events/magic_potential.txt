@@ -84,7 +84,7 @@ character_event = {
                 50 = { set_variable = { which = "y_magic_gene" value = 2 }}
             }
             # logging
-            log = "Random magic genes given Y: [Root.y_magic_gene.GetValue] and X: [Root.x_magic_gene.GetValue]"
+            log = "[Root.GetTitledName] : random magic genes given Y: [Root.y_magic_gene.GetValue] and X: [Root.x_magic_gene.GetValue]"
         }
     }
 }
