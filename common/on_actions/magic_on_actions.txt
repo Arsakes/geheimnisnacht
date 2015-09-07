@@ -1,0 +1,35 @@
+#on combat pulse
+on_combat_pulse = {
+	events = {
+		magicengine.12 # Summon base army
+	}
+	random_events = {
+		10 = magicengine.13 # Battle mistcast
+	}
+}
+
+#character
+on_battle_won = {
+	events = { 
+		magicengine.11 #Despawn spell-based-army
+		necromancy.4 #Raise dead troops
+	}
+	random_events = {
+	}
+}
+
+#character
+on_battle_lost = {
+	events = { 
+		magicengine.11 #Despawn spell-based-army
+	}
+}
+
+# character
+on_birth = {
+	events = {
+		magicpotential.1 # magic potential
+	}
+	random_events = {
+	}
+}

@@ -7,6 +7,8 @@ namespace = ice
 #
 # STRATEGIC SPELLS
 #
+##################################################
+#
 # Blizzard (strategic spell)
 character_event = {
     id = ice.1
@@ -171,7 +173,7 @@ character_event = {
 
 ###################################################
 #
-#              BATTLE SPELLS EFFECTS
+#              UNIQUE BATTLE EFFECTS
 #
 ###################################################
 

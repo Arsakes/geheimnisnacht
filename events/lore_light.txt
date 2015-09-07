@@ -183,4 +183,3 @@ character_event = {
 # Defensive: Body of Light
 # Buff: Heal
 # Speical : Radiant Weapon
-#

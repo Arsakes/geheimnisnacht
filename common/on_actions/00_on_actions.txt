@@ -617,7 +617,6 @@ on_yearly_childhood_pulse = {
 #on combat pulse
 on_combat_pulse = {
 	events = {
-		magicengiene.12 # Basic generic magic effects
 	}
 	random_events = {
 		2750 = 0
@@ -625,7 +624,6 @@ on_combat_pulse = {
 		20 = 243 # Wounded
 		10 = 244 # Maimed
                 2750 = duelengine.0 # Duelengine start battle
-		100 = magicengien.13 # Random magical spells
 		5 = 245 # Serious head injury
 		50 = 246 # Improves martial education
 		20 = 247 # Flat improvement to martial skill
@@ -679,8 +677,6 @@ on_siege_pulse = {
 #character
 on_battle_won = {
 	events = { 
-		magicengine.10 #Clear spell effects
-		necromancy.4 #Raise dead troops
 	}
 	random_events = {
 		800 = 0
@@ -700,8 +696,6 @@ on_major_battle_won = {
 # Winning army leader is ROOT - opponent army leader is FROM
 on_battle_won_leader = {
 	events = { 
-		necromancy.4 #Raise dead troops
-		magicengine.10 #Clear spell effects
 	}
 }
 
@@ -715,7 +709,6 @@ on_major_battle_won_leader = {
 #character
 on_battle_lost = {
 	events = { 
-		magicengine.10 #Clear spell effects
 	}
 
 	random_events = {
@@ -727,7 +720,6 @@ on_battle_lost = {
 
 on_battle_lost_leader = {
 	events = { 
-		magicengine.10 #Clear spell effects
 	}
 }
 # Losing army leader ROOT - opponent army leader is FROM
@@ -824,7 +816,6 @@ on_birth = {
 	events = {
 		300 # A Bastard is born
 		312 # The child of a consort is born		
-		magicengine.20 # magic potential
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
 		TOG.3206 # Child Perceived to be Demon Born
 		706 # Full House achievement
