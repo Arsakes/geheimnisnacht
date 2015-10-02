@@ -1,10 +1,15 @@
+# Set of on_action triggers for magic submod
+
 #on combat pulse
 on_combat_pulse = {
 	events = {
 		magicengine.12 # Summon base army
 	}
 	random_events = {
-		10 = magicengine.13 # Battle mistcast
+		5 = magicengine.13 # Battle mistcast
+
+                # Unique lore battle spells
+		20 = ice.6 # Lore ice
 	}
 }
 
@@ -17,6 +22,11 @@ on_battle_won = {
 	random_events = {
 	}
 }
+on_battle_won_leader = {
+	events = { 
+		magicengine.11 #Despawn spell-based-army
+	}
+}
 
 #character
 on_battle_lost = {
@@ -24,6 +34,14 @@ on_battle_lost = {
 		magicengine.11 #Despawn spell-based-army
 	}
 }
+
+# Winning army leader is ROOT - opponent army leader is FROM
+on_battle_lost_leader = {
+	events = { 
+		magicengine.11 #Despawn spell-based-army
+	}
+}
+
 
 # character
 on_birth = {

@@ -121,11 +121,11 @@ decisions = {
             }
         }
         effect = { 
-            set_character_flag = major_spell_used
             hidden_tooltip = { set_variable = { which = "spell_lvl" value = 2 }}
             character_event = { id = magicengine.1 }
             if = { limit = { has_character_flag = last_spell_success } character_event = { id = ice.2 } }
             clr_character_flag = last_spell_success
+            set_character_flag = major_spell_used
             hidden_tooltip = { character_event = { id = magicengine.10 days = 15 }}
         }
         ai_will_do = {

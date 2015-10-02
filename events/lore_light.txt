@@ -107,7 +107,7 @@ character_event = {
         }
     }
 }
-# Demon Banishing (presonal)
+# Demon Banishing (personal)
 #
 # main effect
 character_event = {
@@ -137,25 +137,189 @@ character_event = {
 # Special on_combat_pulse event effect
 #
 ##############################################################
-# For character
+#
+# Checks if the daemons are in battle
+#
 character_event = {
     id = hysh.5
     picture = "GFX_evt_spell_hysh2"
     border = GFX_event_normal_frame_war
     desc = "EVTDESC_HYSH_5"
-    
     is_triggered_only = yes
+   
+    capable_only = yes
+    min_age = 16
+
+    trigger = {
+        is_alive = yes
+        trait = lore_light
+        OR = {
+            # large scale spells: not available to adepts
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+        OR = { 
+            # Enemy has deamons and there is no flag set
+            AND = {
+                NOT = { has_character_flag = tactics_banish_daemons }
+                FROM = {} #FIXME check if opposes daemonic legions
+            }
+            # Enemy has deamons and there is flag set
+            AND = {
+                has_character_flag = tactics_banish_daemons 
+            }
+        }
+    }
+
+    weight_multiplier = {
+        days = 1
+        modifier = {
+            factor = 1.5
+            trait = brave
+        }
+        modifier = {
+            factor = 0.5
+            trait = craven
+        }
+        modifier = {
+            trait = genius
+            factor = 1.2
+        }
+        modifier = {
+            trait = quick
+            factor = 1.1
+        }    
+        modifier = {
+            trait = slow
+            factor = 0.9
+        }
+        
+        modifier = {
+            trait = imbecile
+            factor = 0.2
+        }
+        modifier = {
+            trait = inbred
+            factor = 0.2
+        }
+        modifier = {
+            trait = strong
+            factor = 1.5
+        }
+        modifier = {
+            trait = weak
+            factor = 0.8
+        }    
+        modifier = {
+            factor = 0.8
+            trait = stressed
+        }
+        modifier = {
+            factor = 0.8
+            trait = depressed
+        }
+        modifier = {
+            factor = 0.75
+            trait = lunatic
+        }
+        modifier = {
+            factor = 0.75
+            trait = possessed
+        }
+        modifier = {
+            factor = 0.9
+            trait = ill
+        }
+        modifier = {
+            factor = 0.8
+            trait = pneumonic
+        }
+        modifier = {
+            factor = 0.8
+            trait = syphilitic
+        }
+        modifier = {
+            factor = 0.5
+            trait = leper
+        }
+        modifier = {
+            factor = 0.9
+            trait = wounded
+        }
+        modifier = {
+            factor = 0.8
+            trait = maimed
+        }
+        modifier = {
+            factor = 0.5
+            trait = infirm
+        }
+        modifier = {
+            factor = 0.4
+            trait = incapable
+        }
+        modifier = {
+            factor = 0.5
+            trait = drunkard
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_rattlelung
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_bone_auge
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_nurgles_rot
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_creeping_buboes
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_green_pox
+        }        
+        modifier = {
+            factor = 0.5
+            trait = has_red_pox
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_tomb_rot
+        }
+        modifier = {
+            factor = 2
+            trait = magic_power_lord
+        }
+        modifier = {
+            factor = 3
+            trait = magic_power_archmaster
+        }
+        #FIXME DEBUG
+        #modifier = {
+        #    factor = 30
+        #}
+    }
     
+    immediate = {
+        # this flag is used to mark that character is opposign daemson in battle
+        set_character_flag = tactics_banish_daemons
+    }
+
     option = {
         name = OK
-        troops = 0.03
-        morale = 0.05
     }
+
 }
+
 # For Enemy 
 character_event = {
     id = hysh.6
-    picture = "GFX_evt_spell_hysh"
+    picture = "GFX_evt_spell_hysh2"
     border = GFX_event_normal_frame_war
     desc = "EVTDESC_HYSH_5"
     

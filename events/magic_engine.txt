@@ -28,6 +28,7 @@ character_event = {
     hide_window = yes
 
     immediate = {
+        log = "magicengine.1 triggered: magic casting event for [Root.GetFullName]"
         random_list = {
             20 = {
                 modifier = {
@@ -56,6 +57,8 @@ character_event = {
                 # effect 
                 set_character_flag = last_spell_success
                 set_variable = { which = "spell_lvl" value = 0 }
+               
+                
             }
             # failure
             10 = {
@@ -139,7 +142,8 @@ character_event = {
                 custom_tooltip = { 
                     text = "TOOLTIP_MAGICENGINE_MUTATION"
                 }
-                hidden_tooltip = { character_event = { id = mutation.1 }}
+                # TODO uncomment after mutations are added
+                #hidden_tooltip = { character_event = { id = mutation.1 }} 
             }
             25 = {
                 add_trait = maimed
@@ -191,7 +195,20 @@ character_event = {
     hide_window = yes
     is_triggered_only = yes
 
-    immediate = { disband_event_forces = magical_spells }
+    trigger = {
+        OR = {
+            trait = magic_power_adept
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+            has_earmarked_regiments = magical_spells 
+        }
+    }
+
+    immediate = { 
+      log = "magicengine.11 triggered: magic troops disband by [Root.GetFullName]"
+      disband_event_forces = magical_spells 
+    }
 }
 
 # Battle spell triggering event
@@ -205,7 +222,7 @@ character_event = {
         NOT = { has_earmarked_regiments = magical_spells }
         is_alive = yes
         OR = {
-            # large scale spells: not available to adepts
+            trait = magic_power_adept
             trait = magic_power_magister
             trait = magic_power_lord
             trait = magic_power_archmaster
@@ -219,6 +236,8 @@ character_event = {
         }
     }
     immediate = {
+
+        log = "magicengine.12 triggered: magic troops summoned by[Root.GetFullName]"
         if = { 
             limit = { trait = magic_power_adept }
             location = {
@@ -259,7 +278,7 @@ character_event = {
                     home = PREV
                     earmark = magical_spells
                     attrition = 1.0
-                    troops = { magical_spells = { 30 30 } }
+                    troops = { magical_spells = { 35 35 } }
                 }
             }
             }
@@ -274,7 +293,7 @@ character_event = {
                     home = PREV
                     earmark = magical_spells
                     attrition = 1.0
-                    troops = { magical_spells = { 40 40 } }
+                    troops = { magical_spells = { 50 50 } }
                 }
             }
             }
@@ -410,9 +429,10 @@ character_event = {
     }
 
     immediate = {
+        log = "magicengine.13 triggered: mistcast event for [Root.GetFullName]"
         random_list = {
-            34 = { character_event = { id = magicengine.4 }} # bad mistcast
             66 = { character_event = { id = magicengine.3 }} # minor mistcast
+            34 = { character_event = { id = magicengine.4 }} # bad mistcast
         }
     }
 }

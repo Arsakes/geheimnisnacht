@@ -121,7 +121,8 @@ province_event = {
         clr_province_flag = ice_walls
     }
 }
-#
+
+# Hailstorm: triggered by decision
 character_event = {
     id = ice.3
     #desc = "Send hail to the enemy"
@@ -160,7 +161,7 @@ character_event = {
         }
     }
 }
-# Hail/Biting wind informer (enemy siege leader - both defender and attacker)
+# Hailstorm report (enemy siege leader - both defender and attacker)
 character_event = {
     id = ice.5
     desc = "EVTDESC_ICE_5"
@@ -177,31 +178,216 @@ character_event = {
 #
 ###################################################
 
-# For us
+# Cast Bitting Wind 
+#
+# in-battle spell triggering appropriate tactics
 character_event = {
     id = ice.6
-    #desc = "Send hail to the enemy"
-    desc = "EVTDESC_ICE_3"
+    desc = "EVTDESC_ICE_6"
     picture = "GFX_evt_spell_ice"
     is_triggered_only = yes
    
-    option = {
-        name = OK
+    capable_only = yes
+    min_age = 16
+
+    trigger = {
+        is_alive = yes
+        trait = lore_ice
+        OR = {
+            # large scale spells: not available to adepts
+            trait = magic_power_magister
+            trait = magic_power_lord
+            trait = magic_power_archmaster
+        }
+        NOT = { has_character_flag = tactics_bitting_wind }
     }
-}
-character_event = {
-    id = ice.7
-    #desc = "Send hail to the enemy"
-    desc = "EVTDESC_ICE_5"
-    picture = "GFX_evt_spell_ice"
-    is_triggered_only = yes
-   
+
+    weight_multiplier = {
+        days = 1
+        modifier = {
+            factor = 1.5
+            trait = brave
+        }
+        modifier = {
+            factor = 0.5
+            trait = craven
+        }
+        modifier = {
+            trait = genius
+            factor = 1.2
+        }
+        modifier = {
+            trait = quick
+            factor = 1.1
+        }    
+        modifier = {
+            trait = slow
+            factor = 0.9
+        }
+        
+        modifier = {
+            trait = imbecile
+            factor = 0.2
+        }
+        modifier = {
+            trait = inbred
+            factor = 0.2
+        }
+        modifier = {
+            trait = strong
+            factor = 1.5
+        }
+        modifier = {
+            trait = weak
+            factor = 0.8
+        }    
+        modifier = {
+            factor = 0.8
+            trait = stressed
+        }
+        modifier = {
+            factor = 0.8
+            trait = depressed
+        }
+        modifier = {
+            factor = 0.75
+            trait = lunatic
+        }
+        modifier = {
+            factor = 0.75
+            trait = possessed
+        }
+        modifier = {
+            factor = 0.9
+            trait = ill
+        }
+        modifier = {
+            factor = 0.8
+            trait = pneumonic
+        }
+        modifier = {
+            factor = 0.8
+            trait = syphilitic
+        }
+        modifier = {
+            factor = 0.5
+            trait = leper
+        }
+        modifier = {
+            factor = 0.9
+            trait = wounded
+        }
+        modifier = {
+            factor = 0.8
+            trait = maimed
+        }
+        modifier = {
+            factor = 0.5
+            trait = infirm
+        }
+        modifier = {
+            factor = 0.4
+            trait = incapable
+        }
+        modifier = {
+            factor = 0.5
+            trait = drunkard
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_rattlelung
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_bone_auge
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_nurgles_rot
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_creeping_buboes
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_green_pox
+        }        
+        modifier = {
+            factor = 0.5
+            trait = has_red_pox
+        }
+        modifier = {
+            factor = 0.5
+            trait = has_tomb_rot
+        }
+        modifier = {
+            factor = 2
+            trait = magic_power_lord
+        }
+        modifier = {
+            factor = 3
+            trait = magic_power_archmaster
+        }
+        #FIXME DEBUG
+        #modifier = {
+        #    factor = 30
+        #}
+    }
+    
+    immediate = {
+        log = "ice.6 triggered: unique ice lore battle spell casted by [Root.GetFullName]"
+        # this flag is used to mark that character casted bitting wind in battle
+        set_character_flag = tactics_bitting_wind
+        character_event = { id = ice.8 days = 7 }
+
+        # inform opponents
+        FROMFROM = { 
+           if = {
+               limit = { NOT = { character = ROOT }}
+               set_character_flag = temp_ice_7
+               character_event = { id = ice.7 }
+           }
+        }
+        FROM = { 
+           if = {
+               limit = {  
+                   NOT = { has_character_flag = temp_ice_7 }
+                   NOT = { character = ROOT }
+               }
+               character_event = { id = ice.7 }
+           }
+        }
+        FROMFROM = { 
+           clr_character_flag = temp_ice_7
+        }
+
+    }
     option = {
-        name = "EVTOPT_ICE_5A"
-        troops = -0.02
+        name = "EVTOPT_ICE_6A"
     }
 }
 
+# Bitting wind report
+character_event = {
+    id = ice.7
+    desc = "EVTDESC_ICE_7"
+    picture = "GFX_evt_spell_ice"
+    is_triggered_only = yes
+   
+    option = {
+        name = "EVTOPT_ICE_7A"
+    }
+}
+character_event = {
+    id = ice.8
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        clr_character_flag = tactics_bitting_wind
+    }
+}
 
 ###################################################
 #

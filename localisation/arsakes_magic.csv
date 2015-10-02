@@ -21,7 +21,7 @@ EVTDESC_HYSH_2;You start the exorcism, the streaks of Hysh entangle the daemon a
 EVTOPT_HYSH_2A;Begone Demon!;;;;;;;;;;;;;x
 # Hysh battle spells
 EVTDESC_HYSH_5;You fight side by side with your troops, banshing daemons, burning your foes with streaks of Hysh and healing your soldiers. Wherever you show up a new hope arises.;;;;;;;;;;;;;x
-EVTDESC_HYSH_6;Your enemy is has aid of White of magic on his side, wherever the Hierophants show up enemy troops are healed and your forces burn in blinding light.;;;;;;;;;;;;;x
+EVTDESC_HYSH_6;Your enemy has aid of White of magic on his side, wherever the Hierophants show up enemy troops are healed and your forces burn in blinding light.;;;;;;;;;;;;;x
 EVTOPT_HYSH_6A;Die unholy creatures!;;;;;;;;;;;;;x
 # hysh duel spells
 EVTDESC_HYSH_10;You have successfully cast the spell Burning Gaze. Your gaze focuses radiant power on the enemy, wounding and perhaps dazing them as well.;;;;;;;;;;;;;x
@@ -39,13 +39,24 @@ EVTDESC_ICE_1;You summon the power of ice and unleash the mighty blizzard upon y
 EVTOPT_ICE_1A;Send blizzard to neighbor lands...;;;;;;;;;;;;;x
 EVTOPT_ICE_1B;Let the icestorm stay here;;;;;;;;;;;;;x
 EVTDESC_ICE_2;The walls of solid ice grow out of the ground, providing additional defence in strategical locations in the settlement.;;;;;;;;;;;;;x
-EVTDESC_ICE_3;You send hail and biting winds to enemy's army. Soldiers die from cold and harsh conditions are affecting the their morale.;;;;;;;;;;;;;x
-EVTDESC_ICE_4;You send hail and biting winds to defending enemy. Soldiers shatter from terible cold. Enemy army is losing their spirit.;;;;;;;;;;;;;x
-EVTDESC_ICE_5;A hail and biting wind come out of the sky and struck your army. Soldiers shatter from terible cold and are losing heart.;;;;;;;;;;;;;x
-EVTOPT_ICE_5A;Nooo!;;;;;;;;;;;;;x
+EVTDESC_ICE_3;You send hail to enemy's army. You hold enemy soldiers in cold grip of winter. Will your enemy endure a storm of deadly icy shards or abadon the siege?.;;;;;;;;;;;;;x
+EVTDESC_ICE_4;You send hail to defending enemy. Soldiers shatter from terible cold. Enemy army is losing their spirit.;;;;;;;;;;;;;x
+EVTDESC_ICE_5;A hail come out of the sky and struck your army. Your soldiers seek for cover and siege is on hold. Some of your encampments are destroyed.;;;;;;;;;;;;;x
+EVTOPT_ICE_5A;Damn you ice wiches!;;;;;;;;;;;;;x
+EVTDESC_ICE_6;You send bitting winds of the north on to the enemy troops forcing them to stop advance. You created an opportunity for your troops to reengage!;;;;;;;;;;;;;x
+EVTOPT_ICE_6A;Regroup and charge! ;;;;;;;;;;;;;x
+EVTDESC_ICE_7;An enemy mage summoned a deadly cold wind that strucked your troops forcing them to fall back...;;;;;;;;;;;;;x
+EVTOPT_ICE_7A;Arragh! ;;;;;;;;;;;;;x
 #
 TOOLTIP_ICE_1;Blizzard is sent to [This.GetName].;;;;;;;;;;;;;x
 TOOLTIP_ICE_2;Ice walls are will be build in the holding, spell lasts up to two months.;;;;;;;;;;;;;x
+#
+#namespace = fire
+#
+EVTDESC_FIRE_3;In the heat of battle you unleashed a powerful firestorm upon enemy ranks. Some of the enemy enemy commanders were caught witihn the fire reach!;;;;;;;;;;;;;x
+EVTOPT_FIRE_3A;Burn!!!;;;;;;;;;;;;;x
+EVTDESC_FIRE_4;The enemy mage [From.GetTitledName] set whole battlefield ablaze, the spell reached you. You feel as you lungs burn with hot air...;;;;;;;;;;;;;x
+EVTOPT_FIRE_4A;Try to escape!;;;;;;;;;;;;;x
 #
 # namespace = necromancy
 EVTDESC_NECROMANCY_1;As you intone the dread syllables handed down from Nagash himself, you feel the winds of magic surge around you. This arcane enegery breathes unlife into the dead creatures that lie before you. Long dead cadavers claw themselves from the ground while recently dead bodies prop themselves up on rotting limbs. These undead creatures now await your command.;;;;;;;;;;;;;x

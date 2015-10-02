@@ -1,0 +1,60 @@
+### This is a temporary file with magic tactics
+###
+### At the moment we have a pretty basic icon system for combat tactics showing
+### the uniticon which has the biggest bonus value in the tactic.
+### This is the sprite number for each unit:
+### 1=LI 2=HI 3=PIKE 4=LC 5=KNIGHTS 6=ARCHERS 7=HORSE ARCH.
+
+bitting_wind_tactic = {
+
+	days = 2 # tactic lasts one day
+	sprite = 1 # index of icon
+	group = defensive
+
+	trigger = {
+		leader = { 
+			trait = lore_ice 
+                	has_character_flag = tactics_bitting_wind
+		}
+		flank_has_leader = yes 
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				trait = arcane_power_lord
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			leader = {
+				trait = arcane_power_master
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			leader = {
+				martial = 12
+			}
+		}
+	}
+
+        change_phase_to = skirmish
+
+	light_infantry_defensive = 0.5
+	heavy_infantry_defensive = 0.5
+	pikemen_defensive = 0.5
+	archers_defensive = 0.5
+	light_cavalry_defensive = 0.5
+	knights_defensive = 0.5
+	horse_archers_defensive = 0.5
+
+        magical_spells_offensive = 2.0
+}
+
